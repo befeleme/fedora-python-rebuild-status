@@ -1,0 +1,37 @@
+name: CI
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+  
+jobs:
+  test:
+    name: fedora
+    runs-on: ubuntu-latest
+    container:
+      image: fedora:latest
+
+    steps:
+      - name: Install dependencies
+        run: |
+          dnf -y install koji copr-cli dnf-utils fedora-packager git
+      - name: Get source
+        uses: actions/checkout@v4
+      - name: Set up Copr repo
+        run: |
+          cp ./config/copr.repo /etc/yum.repos.d/copr.repo
+          cp ./config/koji.repo /etc/yum.repos.d/koji.repo
+      - name: Run repoquery
+        run: |
+          chmod +x ./action/run.sh
+          ./action/run.sh
+      - name: Commit and push
+        run: |-
+          git config --global --add safe.directory /__w/silver-guacamole/silver-guacamole
+          git config user.name "Beep boop"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A
+          timestamp=$(date -u)
+          git commit -m "Latest data: ${timestamp}" || exit 0
+          git push

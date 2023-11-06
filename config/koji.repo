@@ -1,0 +1,13 @@
+[koji]
+name=Koji $basearch
+baseurl=https://kojipkgs.fedoraproject.org/repos/rawhide/latest/$basearch/
+enabled=0
+#metadata_expire=60m
+gpgcheck=0
+
+[koji-source]
+name=Koji src
+baseurl=https://kojipkgs.fedoraproject.org/repos/rawhide/latest/src/
+enabled=0
+#metadata_expire=60m
+gpgcheck=0
