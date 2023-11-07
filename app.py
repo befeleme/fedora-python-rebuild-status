@@ -12,39 +12,50 @@ def load_data(filename):
         return {row.strip() for row in f.readlines()}
 
 
-ALL_PKGS = load_data("data/python312.pkgs")
+ALL_PKGS = sorted(load_data("data/python312.pkgs"))
 SUCCESSFUL = load_data("data/python313.pkgs")
 TODO = load_data("data/todo.pkgs")
 WAITING = load_data("data/waiting.pkgs")
 FAILED = TODO - WAITING
 
-all_pkgs_list = sorted(ALL_PKGS)
-build_status = {}
-for pkg in all_pkgs_list:
-    if pkg not in (SUCCESSFUL | TODO) and pkg != "python3.12":
-        print(f"{pkg} doesn't belong in either cathegory", file=sys.stderr)
-        continue
-    # it's been rebuilt but it doesn't require 'python(abi) = 3.13'
-    if pkg in SUCCESSFUL or pkg == "python3.12":
-        status = "🟢"
-    elif pkg in FAILED:
-        status = "🔴"
-    elif pkg in WAITING:
-        status = "⚪"
-    build_status[pkg] = status
 
-# bits borrowed from: https://pagure.io/fedora-misc-package-utilities/blob/master/f/find-package-maintainers
-maintainers = requests.get('https://src.fedoraproject.org/extras/pagure_owner_alias.json').json()
-by_package = {pkg: maintainers["rpms"][pkg] for pkg in ALL_PKGS }
+def assign_build_status():
+    build_status = {}
+    for pkg in ALL_PKGS:
+        if pkg not in (SUCCESSFUL | TODO) and pkg != "python3.12":
+            print(f"{pkg} doesn't belong in either cathegory", file=sys.stderr)
+            continue
+        # it's been rebuilt but it doesn't require 'python(abi) = 3.13'
+        if pkg in SUCCESSFUL or pkg == "python3.12":
+            status = "🟢"
+        elif pkg in FAILED:
+            status = "🔴"
+        elif pkg in WAITING:
+            status = "⚪"
+        build_status[pkg] = status
+    return build_status
 
-# get package, its build status and list of maintainers
-status_by_packages = [(pkg, build_status[pkg], by_package[pkg]) for pkg in all_pkgs_list]
 
-# get maintainer, their pkgs and build statuses
-status_by_maintainers = {}
-for pkg, maints in sorted(by_package.items()):
-    for maint in maints:
-        status_by_maintainers.setdefault(maint, []).append(f"{pkg} {build_status[pkg]}")
+def find_maintainers():
+    # bits borrowed from: https://pagure.io/fedora-misc-package-utilities/blob/master/f/find-package-maintainers
+    maintainers = requests.get('https://src.fedoraproject.org/extras/pagure_owner_alias.json').json()
+    return {pkg: maintainers["rpms"][pkg] for pkg in ALL_PKGS }
+
+
+def sort_by_maintainers(packages_with_maintainers, build_status):
+    # get maintainer, their pkgs and build statuses
+    by_maintainers = {}
+    for pkg, maints in packages_with_maintainers.items():
+        for maint in maints:
+            by_maintainers.setdefault(maint, []).append(f"{pkg} {build_status[pkg]}")
+    return sorted(by_maintainers.items())
+
+
+build_status = assign_build_status()
+packages_with_maintainers = find_maintainers()
+status_by_packages = [(pkg, build_status[pkg], packages_with_maintainers[pkg]) for pkg in ALL_PKGS]
+status_by_maintainers = sort_by_maintainers(packages_with_maintainers, build_status)
+
 
 @app.route('/')
 def index():
