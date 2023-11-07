@@ -69,3 +69,10 @@ def maintainers():
         'maintainers.html',
         status_by_maintainers=status_by_maintainers,
     )
+
+@app.route('/failures')
+def failures():
+        return render_template(
+        'failures.html',
+        status_failed=sorted(FAILED),
+    )
