@@ -9,28 +9,49 @@
         <u>Current build environment</u><br>
         Fedora 40 (Target: Fedora 41)<br>
         Python 3.13~alpha1 (Target: Python 3.13.0)</p>
+
+        <p><u>Statistics</u></p>
         <ul>
             <li>Packages to rebuild (based on Python 3.12): <b>{{ number_pkgs_to_rebuild }}</b> (100%)</li>
             <li>Packages built successfully with Python 3.13: <b>{{ number_pkgs_success }}</b> ({{ "{:.2f}%".format(number_pkgs_success*100/number_pkgs_to_rebuild) }})</li>
             <li>Packages that failed to build with Python 3.13: <b>{{ number_pkgs_failed }}</b> ({{ "{:.2f}%".format(number_pkgs_failed*100/number_pkgs_to_rebuild) }})</li>
             <li>Packages not yet attempted to build (blocked on missing dependencies): <b>{{ number_pkgs_waiting }}</b> ({{ "{:.2f}%".format(number_pkgs_waiting*100/number_pkgs_to_rebuild) }})</li>
         </ul>
-        <p>Legend:<br>
+        <p><u>Legend</u><br>
             🟢 = successful build<br>
             🔴 = failed build<br>
             ⚪ = waiting to be rebuilt<br>
         </p>
+
+        <h2>Sorted by package name</h2>
         <table>
             <tr>
-            <th>Package</th>
-            <th>Status</th>
+                <th>Package</th>
+                <th>Status</th>
+                <th>Maintainer</th>
             </tr>
-            {% for package_name, status in status_dict.items() %}
+            {% for package_name, status, maintainers in status_by_packages %}
             <tr>
                 <td>{{ package_name }}</td>
                 <td>{{ status }}</td>
+                <td>{{ ", ".join(maintainers) }}</td>
             </tr>
             {% endfor %}
         </table>
+
+        <h2>Sorted by package maintainer</h2>
+        <table>
+            <tr>
+                <th>Maintainer</th>
+                <th>Packages</th>
+            </tr>
+            {% for maintainer, package_names_and_statuses in status_by_maintainers.items() %}
+            <tr>
+                <td>{{ maintainer }}</td>
+                <td>{{ ", ".join(package_names_and_statuses) }}</td>
+            </tr>
+            {% endfor %}
+        </table>
+
     </body>
 </html>
