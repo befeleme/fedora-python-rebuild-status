@@ -29,7 +29,7 @@ jobs:
           ./scripts/run.sh
       - name: Commit and push
         run: |-
-          git config --global --add safe.directory /__w/silver-guacamole/silver-guacamole
+          git config --global --add safe.directory /__w/fedora-python-rebuild-status/fedora-python-rebuild-status
           git config user.name "Beep boop"
           git config user.email "actions@users.noreply.github.com"
           git add -A
