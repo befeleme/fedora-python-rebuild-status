@@ -3,11 +3,12 @@ on:
   push:
     branches:
       - main
-  pull_request:
-  
+  schedule:
+    - cron:  '0 3 * * *'
+
 jobs:
-  test:
-    name: fedora
+  fetch:
+    name: Fetch package data
     runs-on: ubuntu-latest
     container:
       image: fedora:latest
@@ -18,14 +19,14 @@ jobs:
           dnf -y install koji copr-cli dnf-utils fedora-packager git
       - name: Get source
         uses: actions/checkout@v4
-      - name: Set up Copr repo
+      - name: Set up Copr & Koji repo
         run: |
           cp ./config/copr.repo /etc/yum.repos.d/copr.repo
           cp ./config/koji.repo /etc/yum.repos.d/koji.repo
       - name: Run repoquery
         run: |
-          chmod +x ./action/run.sh
-          ./action/run.sh
+          chmod +x ./scripts/run.sh
+          ./scripts/run.sh
       - name: Commit and push
         run: |-
           git config --global --add safe.directory /__w/silver-guacamole/silver-guacamole
@@ -35,3 +36,20 @@ jobs:
           timestamp=$(date -u)
           git commit -m "Latest data: ${timestamp}" || exit 0
           git push
+  publish:
+    name: Populate gh-pages
+    needs: fetch
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v4
+      - name: Install dependencies
+        run: |
+          python -m pip install -r requirements.txt
+      - name: Freeze site
+        run: python -m freezeyt app _build
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_build
