@@ -54,6 +54,18 @@ def index():
         number_pkgs_success=len(SUCCESSFUL),
         number_pkgs_failed=len(FAILED),
         number_pkgs_waiting=len(WAITING),
+    )
+
+@app.route('/packages')
+def packages():
+    return render_template(
+        'packages.html',
         status_by_packages=status_by_packages,
+    )
+
+@app.route('/maintainers')
+def maintainers():
+    return render_template(
+        'maintainers.html',
         status_by_maintainers=status_by_maintainers,
     )
