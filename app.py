@@ -11,11 +11,17 @@ def load_data(filename):
         return {row.strip() for row in f.readlines()}
 
 
+def load_json(filename):
+    with open(filename, "r", encoding="utf=8") as f:
+        return json.load(f)
+
+
 ALL_PKGS = sorted(load_data("data/python312.pkgs"))
 SUCCESSFUL = load_data("data/python313.pkgs")
 TODO = load_data("data/todo.pkgs")
 WAITING = load_data("data/waiting.pkgs")
 FAILED = TODO - WAITING
+BUGZILLAS = load_json("data/bzurls.json")
 
 
 def assign_build_status():
@@ -85,5 +91,5 @@ def maintainers():
 def failures():
         return render_template(
         'failures.html',
-        status_failed=sorted(FAILED),
+        status_failed=BUGZILLAS,
     )

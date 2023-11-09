@@ -16,7 +16,7 @@ jobs:
     steps:
       - name: Install dependencies
         run: |
-          dnf -y install koji copr-cli dnf-utils fedora-packager git
+          dnf -y install koji copr-cli dnf-utils fedora-packager git python3-bugzilla
       - name: Get source
         uses: actions/checkout@v4
       - name: Set up Copr & Koji repo

@@ -9,12 +9,15 @@
             <tr>
                 <th>Package name</th>
                 <th>Build attempts in Copr</th>
+                <th>Bugzilla ticket</th>
             </tr>
-            {% for package_name in status_failed %}
+            {% for package_name, bz_url in status_failed.items() %}
             <tr>
                 <td>{{ package_name }}</td>
-                <td><a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.13/package/{{ package_name }}/">{{package_name}}</a></td>
-
+                <td><a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.13/package/{{ package_name }}/">Copr - {{package_name}}</a></td>
+                {% if bz_url %}
+                <td><a href={{ bz_url }}>Bugzilla - {{package_name}}</a></td>
+                {% endif %}
             </tr>
             {% endfor %}
         </table>
