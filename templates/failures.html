@@ -8,10 +8,13 @@
         <table>
             <tr>
                 <th>Package name</th>
+                <th>Build attempts in Copr</th>
             </tr>
             {% for package_name in status_failed %}
             <tr>
                 <td>{{ package_name }}</td>
+                <td><a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.13/package/{{ package_name }}/">{{package_name}}</a></td>
+
             </tr>
             {% endfor %}
         </table>
