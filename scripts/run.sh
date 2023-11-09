@@ -13,3 +13,6 @@ env LANG=en_US.utf-8 comm -23 data/python312.pkgs data/python313.pkgs | grep -E 
 # get eveything present in copr
 copr monitor @python/python3.13 --output-format text-row --fields name | env LANG=en_US.utf-8 sort > data/copr.pkgs
 env LANG=en_US.utf-8 comm -23 data/todo.pkgs data/copr.pkgs > data/waiting.pkgs
+
+# get packages and their respective maintainers
+curl https://src.fedoraproject.org/extras/pagure_owner_alias.json -o data/pagure_owner_alias.json

@@ -1,6 +1,5 @@
+import json
 import sys
-
-import requests
 
 from flask import Flask, render_template
 
@@ -38,7 +37,8 @@ def assign_build_status():
 
 def find_maintainers():
     # bits borrowed from: https://pagure.io/fedora-misc-package-utilities/blob/master/f/find-package-maintainers
-    maintainers = requests.get('https://src.fedoraproject.org/extras/pagure_owner_alias.json').json()
+    with open('data/pagure_owner_alias.json', 'r') as f:
+        maintainers = json.load(f)
     return {pkg: maintainers["rpms"][pkg] for pkg in ALL_PKGS }
 
 
