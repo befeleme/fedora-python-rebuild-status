@@ -43,8 +43,7 @@ def assign_build_status():
 
 def find_maintainers():
     # bits borrowed from: https://pagure.io/fedora-misc-package-utilities/blob/master/f/find-package-maintainers
-    with open('data/pagure_owner_alias.json', 'r') as f:
-        maintainers = json.load(f)
+    maintainers = load_json('data/pagure_owner_alias.json')
     return {pkg: maintainers["rpms"][pkg] for pkg in ALL_PKGS }
 
 
