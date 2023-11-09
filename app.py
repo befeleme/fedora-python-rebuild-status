@@ -72,21 +72,21 @@ def index():
         number_pkgs_waiting=len(WAITING),
     )
 
-@app.route('/packages.html')
+@app.route('/packages/')
 def packages():
     return render_template(
         'packages.html',
         status_by_packages=status_by_packages,
     )
 
-@app.route('/maintainers.html')
+@app.route('/maintainers/')
 def maintainers():
     return render_template(
         'maintainers.html',
         status_by_maintainers=status_by_maintainers,
     )
 
-@app.route('/failures.html')
+@app.route('/failures/')
 def failures():
         return render_template(
         'failures.html',
