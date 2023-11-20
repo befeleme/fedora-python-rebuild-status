@@ -49,4 +49,4 @@ def map_pkgs_and_bzurls(bugzillas):
 if __name__ == "__main__":
     pkg_url_mapping = map_pkgs_and_bzurls(bugzillas())
     with open('data/bzurls.json', 'w') as open_file:
-        json.dump(pkg_url_mapping, open_file)
+        json.dump(pkg_url_mapping, open_file, indent=2)
