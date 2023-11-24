@@ -13,9 +13,7 @@ def load_data(filename):
         return {row.strip() for row in f.readlines()}
 
 
-TODO = load_data("data/todo.pkgs")
-WAITING = load_data("data/waiting.pkgs")
-FAILED = TODO - WAITING
+FAILED = load_data("data/failed.pkgs")
 
 
 def bugzillas():
