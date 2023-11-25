@@ -379,7 +379,7 @@ libuser	failed
 libvirt-python	succeeded
 libvirt-test-API	succeeded
 libvoikko	succeeded
-libxc	running
+libxc	succeeded
 libxml2	succeeded
 libxslt	succeeded
 libyui	succeeded
@@ -425,7 +425,7 @@ miniupnpc	succeeded
 mirage	succeeded
 mkosi	succeeded
 mkosi14	failed
-mlir	running
+mlir	failed
 mock	succeeded
 mod_wsgi	failed
 module-build	succeeded
@@ -462,10 +462,10 @@ notcurses	succeeded
 nototools	succeeded
 nova-agent	succeeded
 ntpsec	succeeded
-numpy	failed
+numpy	succeeded
 nut	failed
 nvmetcli	succeeded
-nwchem	running
+nwchem	succeeded
 nwg-panel	succeeded
 nwg-wrapper	succeeded
 nyx	succeeded
@@ -597,7 +597,7 @@ pystatgrab	succeeded
 pysubnettree	succeeded
 pysvn	succeeded
 pysysbot	succeeded
-pytest	failed
+pytest	succeeded
 pythia8	succeeded
 python-APScheduler	succeeded
 python-AWSIoTPythonSDK	succeeded
@@ -1090,7 +1090,7 @@ python-django-timezone-field	succeeded
 python-djvulibre	failed
 python-dkimpy	succeeded
 python-dmidecode	succeeded
-python-dns	failed
+python-dns	succeeded
 python-dnslib	succeeded
 python-docker	succeeded
 python-docker-pycreds	succeeded
@@ -1105,7 +1105,7 @@ python-docutils	succeeded
 python-docx	succeeded
 python-dogpile-cache	succeeded
 python-doit	succeeded
-python-domdf-python-tools	failed
+python-domdf-python-tools	succeeded
 python-dotenv	succeeded
 python-dotmap	succeeded
 python-doubleratchet	succeeded
@@ -1388,7 +1388,7 @@ python-husl	succeeded
 python-hvac	succeeded
 python-hyperframe	succeeded
 python-hyperlink	succeeded
-python-hypothesis	failed
+python-hypothesis	succeeded
 python-hypothesis-fspaths	succeeded
 python-i3ipc	succeeded
 python-ibm-cloud-sdk-core	failed
@@ -1492,7 +1492,7 @@ python-jsons	succeeded
 python-jsonschema	succeeded
 python-jsonschema-path	succeeded
 python-jsonschema-spec	succeeded
-python-jsonschema-specifications	failed
+python-jsonschema-specifications	succeeded
 python-jsonstreams	succeeded
 python-junit_xml	succeeded
 python-junitxml	succeeded
@@ -1746,7 +1746,7 @@ python-openshift	succeeded
 python-openslide	succeeded
 python-openstackdocstheme	succeeded
 python-opentype-sanitizer	succeeded
-python-opytimark	failed
+python-opytimark	succeeded
 python-oracledb	succeeded
 python-ordered-set	succeeded
 python-orderedset	failed
@@ -1824,9 +1824,9 @@ python-pidfile	succeeded
 python-piexif	failed
 python-pifpaf	succeeded
 python-pigpio	succeeded
-python-pikepdf	failed
+python-pikepdf	succeeded
 python-pillow	succeeded
-python-pip	failed
+python-pip	succeeded
 python-pip-requirements-parser	succeeded
 python-pipdeptree	succeeded
 python-pivy	failed
@@ -1850,7 +1850,7 @@ python-pmw	succeeded
 python-podcastparser	succeeded
 python-podman	succeeded
 python-poetry-core	succeeded
-python-poetry-plugin-export	failed
+python-poetry-plugin-export	succeeded
 python-polib	succeeded
 python-policyuniverse	succeeded
 python-pooch	succeeded
@@ -2043,7 +2043,7 @@ python-pyte	succeeded
 python-pytest-arraydiff	succeeded
 python-pytest-astropy	succeeded
 python-pytest-astropy-header	succeeded
-python-pytest-asyncio	failed
+python-pytest-asyncio	succeeded
 python-pytest-bdd	succeeded
 python-pytest-bdd5	failed
 python-pytest-benchmark	succeeded
@@ -2106,6 +2106,7 @@ python-pyvit	succeeded
 python-pyvlx	succeeded
 python-pywayland	succeeded
 python-pywizlight	succeeded
+python-pywlroots	succeeded
 python-pyxdameraulevenshtein	succeeded
 python-pyxdf	succeeded
 python-pyxid	succeeded
@@ -2161,7 +2162,7 @@ python-reportlab	succeeded
 python-repoze-lru	succeeded
 python-repoze-sphinx-autointerface	succeeded
 python-repoze-tm2	succeeded
-python-requests	failed
+python-requests	succeeded
 python-requests-cache	succeeded
 python-requests-download	succeeded
 python-requests-exoscale-auth	succeeded
@@ -2263,7 +2264,7 @@ python-setuptools-gettext	succeeded
 python-setuptools-git-versioning	succeeded
 python-setuptools-rust	succeeded
 python-setuptools_git	succeeded
-python-setuptools_scm	failed
+python-setuptools_scm	succeeded
 python-setuptools_scm_git_archive	failed
 python-sgmllib3k	succeeded
 python-sgp4	succeeded
@@ -2310,7 +2311,7 @@ python-snuggs	succeeded
 python-socks5line	succeeded
 python-socksio	succeeded
 python-sortedcollections	succeeded
-python-sortedcontainers	failed
+python-sortedcontainers	succeeded
 python-soupsieve	succeeded
 python-speaklater	succeeded
 python-spec	succeeded
@@ -2320,7 +2321,7 @@ python-sphinx	failed
 python-sphinx-argparse	succeeded
 python-sphinx-argparse-cli	succeeded
 python-sphinx-autodoc-typehints	succeeded
-python-sphinx-basic-ng	failed
+python-sphinx-basic-ng	succeeded
 python-sphinx-bootstrap-theme	succeeded
 python-sphinx-click	succeeded
 python-sphinx-copybutton	succeeded
@@ -2369,7 +2370,7 @@ python-sphinxcontrib-serializinghtml	succeeded
 python-sphinxcontrib-spelling	succeeded
 python-sphinxcontrib-svg2pdfconverter	succeeded
 python-sphinxcontrib-trio	succeeded
-python-sphinxcontrib-websupport	failed
+python-sphinxcontrib-websupport	succeeded
 python-sphinxcontrib-zopeext	succeeded
 python-sphinxemoji	succeeded
 python-sphinxext-rediraffe	succeeded
@@ -2408,7 +2409,7 @@ python-string_utils	succeeded
 python-stripe	succeeded
 python-stuf	succeeded
 python-subarulink	succeeded
-python-subprocess-tee	failed
+python-subprocess-tee	succeeded
 python-subvertpy	failed
 python-suds	succeeded
 python-supersmoother	succeeded
@@ -2543,7 +2544,7 @@ python-uritools	failed
 python-url-normalize	succeeded
 python-urlgrabber	succeeded
 python-urllib-gssapi	succeeded
-python-urllib3	failed
+python-urllib3	succeeded
 python-urlpy	succeeded
 python-urwid	succeeded
 python-urwid-readline	succeeded
@@ -2611,6 +2612,7 @@ python-whoosh	succeeded
 python-widgetsnbextension	succeeded
 python-wiffi	succeeded
 python-wikipedia	succeeded
+python-wikitcms	succeeded
 python-winacl	succeeded
 python-winsspi	succeeded
 python-wloc	succeeded
