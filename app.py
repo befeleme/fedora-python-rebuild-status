@@ -6,6 +6,14 @@ from flask import Flask, render_template
 app = Flask("python_rebuild_status")
 
 
+REPORT_STATES = {
+    "success": "🟢",
+    "once_succeeded_last_failed": "🟠",
+    "waiting": "⚪",
+    "failed": "🔴",
+}
+
+
 def load_data(filename):
     with open(filename, "r", encoding="utf=8") as f:
         return {row.strip() for row in f.readlines()}
@@ -42,22 +50,22 @@ def assign_build_status():
     for pkg in ALL_TO_BUILD:
         # python3.12 has been rebuilt but it doesn't require 'python(abi) = 3.13'
         if pkg == "python3.12":
-            status = "🟢"
+            status = REPORT_STATES["success"]
         # pkg can build once and never again, so let's look at the last
         # build to determine if we need to take a look at it anyways
         elif pkg in HISTORICALLY_SUCCESSFUL:
             last_build_state = ALL_IN_COPR[pkg]
             if last_build_state == "failed":
-                status = "🟠"
+                status = REPORT_STATES["once_succeeded_last_failed"]
             elif last_build_state == "succeeded":
-                status = "🟢"
+                status = REPORT_STATES["success"]
             else:
                 # package is waiting in build queue, we don't know its status yet
-                status = "⚪"
+                status = REPORT_STATES["waiting"]
         elif pkg in FAILED:
-            status = "🔴"
+            status = REPORT_STATES["failed"]
         elif pkg in WAITING:
-            status = "⚪"
+            status = REPORT_STATES["waiting"]
         build_status[pkg] = status
     return build_status
 
@@ -88,8 +96,8 @@ def index():
     return render_template(
         'index.html',
         number_pkgs_to_rebuild=len(ALL_TO_BUILD),
-        number_pkgs_success=count_pkgs_with_state(build_status, "🟢"),
-        number_pkgs_flaky=count_pkgs_with_state(build_status, "🟠"),
+        number_pkgs_success=count_pkgs_with_state(build_status, REPORT_STATES["success"]),
+        number_pkgs_flaky=count_pkgs_with_state(build_status, REPORT_STATES["once_succeeded_last_failed"]),
         number_pkgs_failed=len(FAILED),
         number_pkgs_waiting=len(WAITING),
     )
