@@ -1,19 +1,21 @@
 import json
 import bugzilla
 
+from loaders import load_data, load_monitor_report
+
 
 BUGZILLA = 'bugzilla.redhat.com'
 BZ_PAGE_SIZE = 20
 TRACKER = 2244836  # PYTHON3.13
 BZAPI = bugzilla.Bugzilla(BUGZILLA)
 
-
-def load_data(filename):
-    with open(filename, "r", encoding="utf=8") as f:
-        return {row.strip() for row in f.readlines()}
-
-
 FAILED = load_data("data/failed.pkgs")
+HISTORICALLY_SUCCESSFUL = load_data("data/python313.pkgs")
+ALL_IN_COPR = load_monitor_report("data/copr.pkgs")
+
+# Attempt to find bugzillas for packages that
+# started to fail to build just recently
+FAILED.update(pkg for pkg in HISTORICALLY_SUCCESSFUL if ALL_IN_COPR.get(pkg) == "failed")
 
 
 def bugzillas():

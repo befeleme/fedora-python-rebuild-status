@@ -1,7 +1,8 @@
-import json
 import sys
 
 from flask import Flask, render_template
+
+from scripts.loaders import load_data, load_json, load_monitor_report
 
 app = Flask("python_rebuild_status")
 
@@ -12,25 +13,6 @@ REPORT_STATES = {
     "waiting": "⚪",
     "failed": "🔴",
 }
-
-
-def load_data(filename):
-    with open(filename, "r", encoding="utf=8") as f:
-        return {row.strip() for row in f.readlines()}
-
-
-def load_json(filename):
-    with open(filename, "r", encoding="utf=8") as f:
-        return json.load(f)
-
-
-def load_monitor_report(filename):
-    monitor = {}
-    with open(filename, "r", encoding="utf=8") as f:
-        for line in f:
-            pkgname, state = line.strip().split("\t")
-            monitor[pkgname] = state
-    return monitor
 
 
 ALL_TO_BUILD = sorted(load_data("data/python312.pkgs"))
@@ -85,6 +67,14 @@ def sort_by_maintainers(packages_with_maintainers, build_status):
     return sorted(by_maintainers.items())
 
 
+def create_failed_report(build_status):
+    failure_report = {}
+    for pkg, bzurl in BUGZILLAS.items():
+        if (state := build_status.get(pkg)) is not None:
+            failure_report[pkg] = {"bzurl": bzurl, "state": state}
+    return failure_report
+
+
 build_status = assign_build_status()
 packages_with_maintainers = find_maintainers()
 status_by_packages = [(pkg, build_status[pkg], packages_with_maintainers[pkg]) for pkg in ALL_TO_BUILD]
@@ -120,5 +110,5 @@ def maintainers():
 def failures():
         return render_template(
         'failures.html',
-        status_failed=BUGZILLAS,
+        status_failed=create_failed_report(build_status),
     )

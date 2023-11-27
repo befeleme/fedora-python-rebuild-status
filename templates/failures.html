@@ -3,20 +3,22 @@
         <title>Fedora - Python 3.13 failed to build breakdown</title>
     </head>
     <body>
-        <h2>Packages that fail to build 🔴</h2>
+        <h2>Packages that fail to build (🔴 + 🟠)</h2>
 
         <table>
             <tr>
                 <th>Package name</th>
+                <th>Build status</th>
                 <th>Build attempts in Copr</th>
                 <th>Bugzilla ticket</th>
             </tr>
-            {% for package_name, bz_url in status_failed.items() %}
+            {% for package_name, detail in status_failed.items() %}
             <tr>
                 <td>{{ package_name }}</td>
+                <td>{{ detail["state"] }}</td>
                 <td><a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.13/package/{{ package_name }}/">Copr - {{package_name}}</a></td>
-                {% if bz_url %}
-                <td><a href={{ bz_url }}>Bugzilla - {{package_name}}</a></td>
+                {% if detail["bzurl"] %}
+                <td><a href={{ detail["bzurl"] }}>Bugzilla - {{package_name}}</a></td>
                 {% endif %}
             </tr>
             {% endfor %}
