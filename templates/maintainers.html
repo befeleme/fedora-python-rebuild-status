@@ -19,7 +19,7 @@
             </tr>
             {% for maintainer, package_names_and_statuses in status_by_maintainers %}
             <tr>
-                <td>{{ maintainer }}</td>
+                <td valign="top">{{ maintainer }}</td>
                 <td>{{ ", ".join(package_names_and_statuses) }}</td>
             </tr>
             {% endfor %}
