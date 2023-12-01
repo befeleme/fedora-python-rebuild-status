@@ -37,13 +37,14 @@ jobs:
           timestamp=$(date -u)
           git commit -m "Latest data: ${timestamp}" || exit 0
           git push
-          sleep 10
   publish:
     name: Populate gh-pages
     needs: fetch
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - run: |
+          git pull
       - uses: actions/setup-python@v4
       - name: Install dependencies
         run: |
