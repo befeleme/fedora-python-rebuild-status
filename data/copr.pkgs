@@ -6,6 +6,7 @@ GeographicLib	succeeded
 GitPython	succeeded
 HepMC3	succeeded
 Io-language	failed
+MUSIC	succeeded
 NFStest	succeeded
 NLopt	failed
 OpenIPMI	failed
@@ -204,7 +205,7 @@ gdcm	failed
 gedit	succeeded
 gensio	succeeded
 gerrymander	succeeded
-gfal2-python	succeeded
+gfal2-python	failed
 gi-docgen	succeeded
 git-archive-all	succeeded
 git-fame	succeeded
@@ -431,7 +432,7 @@ mirage	succeeded
 mkosi	succeeded
 mkosi14	failed
 mlir	failed
-mock	succeeded
+mock	failed
 mod_wsgi	failed
 module-build	succeeded
 modulemd-tools	succeeded
@@ -450,6 +451,7 @@ nagios-plugins-systemd	succeeded
 nautilus-python	failed
 needrestart	succeeded
 nemo-extensions	failed
+nest	failed
 net-snmp	succeeded
 netcdf4-python	failed
 neuron	failed
@@ -859,6 +861,7 @@ python-cached_property	succeeded
 python-cachelib	failed
 python-cachetools	succeeded
 python-cachy	succeeded
+python-cairocffi	failed
 python-caja	succeeded
 python-calcephpy	succeeded
 python-can	succeeded
@@ -983,7 +986,7 @@ python-constantly	succeeded
 python-construct	succeeded
 python-construct-classes	succeeded
 python-container-inspector	succeeded
-python-contourpy	failed
+python-contourpy	succeeded
 python-convertdate	succeeded
 python-cooldict	succeeded
 python-copr	succeeded
@@ -1289,6 +1292,7 @@ python-git-url-parse	succeeded
 python-gitapi	succeeded
 python-gitdb	succeeded
 python-github3py	succeeded
+python-gitlab	succeeded
 python-glad	succeeded
 python-glad2	succeeded
 python-glances-api	succeeded
@@ -1308,12 +1312,12 @@ python-google-cloud-apigee-connect	succeeded
 python-google-cloud-appengine-admin	succeeded
 python-google-cloud-asset	succeeded
 python-google-cloud-bigquery-connection	succeeded
-python-google-cloud-bigquery-datatransfer	succeeded
-python-google-cloud-bigquery-reservation	succeeded
+python-google-cloud-bigquery-datatransfer	failed
+python-google-cloud-bigquery-reservation	failed
 python-google-cloud-bigtable	succeeded
-python-google-cloud-billing	succeeded
+python-google-cloud-billing	failed
 python-google-cloud-billing-budgets	succeeded
-python-google-cloud-build	succeeded
+python-google-cloud-build	failed
 python-google-cloud-common	succeeded
 python-google-cloud-container	succeeded
 python-google-cloud-containeranalysis	succeeded
@@ -1329,10 +1333,10 @@ python-google-cloud-dms	succeeded
 python-google-cloud-dns	succeeded
 python-google-cloud-domains	succeeded
 python-google-cloud-filestore	succeeded
-python-google-cloud-firestore	succeeded
+python-google-cloud-firestore	failed
 python-google-cloud-functions	succeeded
 python-google-cloud-iam	succeeded
-python-google-cloud-org-policy	succeeded
+python-google-cloud-org-policy	failed
 python-google-cloud-os-config	succeeded
 python-google-cloud-private-ca	succeeded
 python-google-cloud-pubsub	succeeded
@@ -1368,7 +1372,7 @@ python-hamcrest	succeeded
 python-hatasmota	succeeded
 python-hatch-fancy-pypi-readme	succeeded
 python-hatch-jupyter-builder	succeeded
-python-hatch-requirements-txt	failed
+python-hatch-requirements-txt	succeeded
 python-hatch-vcs	succeeded
 python-hatchling	succeeded
 python-hdate	succeeded
@@ -1592,6 +1596,7 @@ python-logutils	failed
 python-logzero	succeeded
 python-looseversion	succeeded
 python-lqrt	succeeded
+python-lsp-jsonrpc	succeeded
 python-lupa	succeeded
 python-lxml	succeeded
 python-ly	succeeded
@@ -1635,6 +1640,7 @@ python-mdx_gh_links	succeeded
 python-mediafile	succeeded
 python-meh	succeeded
 python-memcached	succeeded
+python-menuinst	succeeded
 python-merge3	succeeded
 python-mergedeep	succeeded
 python-meson-python	succeeded
@@ -1956,6 +1962,9 @@ python-pycryptodomex	succeeded
 python-pyct	succeeded
 python-pycxx	succeeded
 python-pydantic	failed
+python-pydantic-core	succeeded
+python-pydantic-extra-types	failed
+python-pydantic-settings	failed
 python-pydbus	succeeded
 python-pydicom	succeeded
 python-pydiffx	succeeded
@@ -2210,6 +2219,7 @@ python-requests-pkcs12	succeeded
 python-requests-toolbelt	succeeded
 python-requests-unixsocket	succeeded
 python-requestsexceptions	succeeded
+python-requirements-parser	succeeded
 python-requre	succeeded
 python-reretry	succeeded
 python-resolvelib	succeeded
@@ -2488,7 +2498,7 @@ python-testpath	succeeded
 python-testrepository	succeeded
 python-testresources	succeeded
 python-testscenarios	succeeded
-python-testtools	succeeded
+python-testtools	failed
 python-text-unidecode	succeeded
 python-textfsm	succeeded
 python-textile	succeeded
@@ -2943,7 +2953,7 @@ xapps	succeeded
 xcat	succeeded
 xcb-proto	succeeded
 xcfun	failed
-xen	failed
+xen	succeeded
 xmms2	succeeded
 xortool	succeeded
 xwayland-run	succeeded
