@@ -152,6 +152,7 @@ dogtail
 dot2tex
 dput-ng
 dtc
+duplicity
 dynaconf
 elements
 elements-alexandria
@@ -207,6 +208,7 @@ gns3-gui
 gns3-net-converter
 gns3-server
 gnucash
+go2rpm
 gobject-introspection
 gofer
 gom
@@ -413,6 +415,7 @@ needrestart
 net-snmp
 netstat-monitor
 newt
+nextpnr
 nfoview
 nftables
 nicotine+
@@ -485,9 +488,11 @@ playitagainsam
 pmbootstrap
 pocketsphinx
 podman-compose
+poezio
 poezio-omemo
 policycoreutils
 portmidi
+postfix-mta-sts-resolver
 postgresql15
 postgresql16
 powerline
@@ -622,6 +627,7 @@ python-abimap
 python-absl-py
 python-accept-types
 python-accessible-pygments
+python-accuweather
 python-acoustid
 python-adafruit-board-toolkit
 python-adafruit-platformdetect
@@ -642,8 +648,13 @@ python-aiodns
 python-aioesphomeapi
 python-aiofiles
 python-aioftp
+python-aiogqlc
 python-aiohomekit
+python-aiohttp
+python-aiohttp-cors
 python-aiohttp-negotiate
+python-aiohttp-retry
+python-aiohttp-sse-client
 python-aiohue
 python-aioiotprov
 python-aioitertools
@@ -654,6 +665,8 @@ python-aiomultiprocess
 python-aiomysql
 python-aioodbc
 python-aiopg
+python-aioquic
+python-aioresponses
 python-aiorestapi
 python-aiorpcx
 python-aiosecretsdump
@@ -661,6 +674,7 @@ python-aiosignal
 python-aiosmb
 python-aiosnmp
 python-aiosqlite
+python-aiounifi
 python-aiounittest
 python-aiowinreg
 python-airspeed
@@ -688,6 +702,7 @@ python-apt
 python-apypie
 python-archinfo
 python-archspec
+python-aresponses
 python-argcomplete
 python-argon2-cffi
 python-argon2-cffi-bindings
@@ -709,6 +724,7 @@ python-astroscrappy
 python-astunparse
 python-async-lru
 python-async-timeout
+python-async-upnp-client
 python-asyncmy
 python-asyncssh
 python-asysocks
@@ -730,10 +746,13 @@ python-axolotl
 python-axolotl-curve25519
 python-azure-core
 python-azure-cosmos
+python-azure-data-tables
 python-azure-datalake-store
 python-azure-identity
 python-azure-mgmt-core
 python-azure-sdk-tools
+python-azure-servicebus
+python-azure-storage-blob
 python-b2sdk
 python-b4
 python-babelfish
@@ -822,6 +841,7 @@ python-chardet
 python-charset-normalizer
 python-check-manifest
 python-cheetah
+python-cheroot
 python-cherrypy
 python-chirpstack-api
 python-chm
@@ -943,6 +963,7 @@ python-crcmod
 python-crossword
 python-crypto
 python-cryptography
+python-cs
 python-cson
 python-cssmin
 python-cssselect
@@ -957,6 +978,7 @@ python-cycler
 python-d2to1
 python-daemon
 python-daemonize
+python-daikin
 python-daiquiri
 python-damo
 python-danfossair
@@ -978,6 +1000,7 @@ python-debian
 python-debian-inspector
 python-debrepo
 python-debtcollector
+python-deconz
 python-decorator
 python-defcon
 python-defusedxml
@@ -1080,6 +1103,7 @@ python-editables
 python-editdistance
 python-editor
 python-editorconfig
+python-elastic-transport
 python-elementpath
 python-email-validator
 python-emoji
@@ -1088,9 +1112,11 @@ python-enchant
 python-enlighten
 python-enthought-sphinx-theme
 python-entrypoints
+python-enturclient
 python-enzyme
 python-ephem
 python-epi
+python-epson-projector
 python-epub
 python-esphomeflasher
 python-et_xmlfile
@@ -1102,6 +1128,8 @@ python-exabgp
 python-execnet
 python-executing
 python-exif
+python-exoscale
+python-expandvars
 python-extension-helpers
 python-extractcode
 python-extractcode-7z
@@ -1201,13 +1229,16 @@ python-gemfileparser2
 python-genshi
 python-gensim
 python-genty
+python-geoip2
 python-geojson
+python-geopy
 python-gertty
 python-getmac
 python-gettext
 python-ghp-import
 python-giacpy
 python-gilt
+python-gios
 python-git-changelog
 python-git-revise
 python-git-url-parse
@@ -1264,9 +1295,11 @@ python-google-cloud-redis
 python-google-cloud-shell
 python-google-cloud-source-context
 python-google-cloud-spanner
+python-google-cloud-storage
 python-google-cloud-testutils
 python-google-crc32c
 python-google-i18n-address
+python-google-resumable-media
 python-googleapis-common-protos
 python-gpiozero
 python-gpxpy
@@ -1282,6 +1315,7 @@ python-grpcio-gcp
 python-gsd
 python-gssapi
 python-gstreamer1
+python-gunicorn
 python-h11
 python-h2
 python-habitipy
@@ -1292,6 +1326,7 @@ python-hatch-jupyter-builder
 python-hatch-requirements-txt
 python-hatch-vcs
 python-hatchling
+python-haversion
 python-hdate
 python-heapdict
 python-helpdev
@@ -1554,6 +1589,7 @@ python-metno
 python-micawber
 python-microfs
 python-mido
+python-migen
 python-minidb
 python-minidump
 python-minikerberos
@@ -1587,6 +1623,8 @@ python-msal
 python-msal-extensions
 python-msgpack
 python-msldap
+python-msrest
+python-msrestazure
 python-mujson
 python-mulpyplexer
 python-multi_key_dict
@@ -1848,6 +1886,7 @@ python-pycxx
 python-pydantic
 python-pydantic-core
 python-pydbus
+python-pydepsdev
 python-pydicom
 python-pydiffx
 python-pydispatcher
@@ -1876,6 +1915,7 @@ python-pygments-git
 python-pygments-markdown-lexer
 python-pygments-pytest
 python-pygments-style-solarized
+python-pygmtools
 python-pygrocy
 python-pyhcl
 python-pyhomematic
@@ -1952,6 +1992,7 @@ python-pysodium
 python-pysol-cards
 python-pyspf
 python-pyspiflash
+python-pysqueezebox
 python-pysrt
 python-pystemd
 python-pystray
@@ -1960,6 +2001,7 @@ python-pysword
 python-pytaglib
 python-pytapo
 python-pyte
+python-pytest-aiohttp
 python-pytest-arraydiff
 python-pytest-astropy
 python-pytest-astropy-header
@@ -2177,6 +2219,7 @@ python-sentinels
 python-sep
 python-serpent
 python-serpy
+python-service-identity
 python-setproctitle
 python-setupmeta
 python-setuptools
@@ -2360,6 +2403,7 @@ python-term-background
 python-termcolor
 python-terminado
 python-terminaltables
+python-teslajsonpy
 python-testing.common.database
 python-testpath
 python-testrepository
@@ -2376,6 +2420,7 @@ python-tftpy
 python-tgscheduler
 python-threadpoolctl
 python-three_merge
+python-throttler
 python-tidy
 python-tifffile
 python-tiktoken
@@ -2412,6 +2457,7 @@ python-trml2pdf
 python-trollius
 python-trololio
 python-trove-classifiers
+python-trustme
 python-tvb-data
 python-tvb-gdist
 python-twiggy
@@ -2493,6 +2539,7 @@ python-volatile
 python-volkszaehler
 python-voluptuous
 python-voluptuous-serialize
+python-vsts
 python-vsts-cd-manager
 python-vsure
 python-w3lib
@@ -2524,6 +2571,7 @@ python-wikipedia
 python-wikitcms
 python-winacl
 python-winsspi
+python-wled
 python-wloc
 python-wrapt
 python-wsaccel
@@ -2605,6 +2653,7 @@ python3-mallard-ducktype
 python3-mypy
 python3-postgresql
 python3-py3dns
+python3-saml
 python3-simpletal
 python3.13
 pytz
