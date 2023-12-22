@@ -866,8 +866,8 @@ python-boltons	succeeded
 python-boolean.py	succeeded
 python-booleanoperations	succeeded
 python-boto	succeeded
-python-boto3	succeeded
-python-botocore	succeeded
+python-boto3	failed
+python-botocore	failed
 python-bottle	failed
 python-bottle-sqlite	succeeded
 python-bowler	succeeded
@@ -886,7 +886,8 @@ python-cached_property	succeeded
 python-cachelib	failed
 python-cachetools	succeeded
 python-cachy	succeeded
-python-cairocffi	failed
+python-cairocffi	succeeded
+python-cairosvg	succeeded
 python-caja	succeeded
 python-calcephpy	succeeded
 python-can	failed
@@ -1490,7 +1491,7 @@ python-iniconfig	succeeded
 python-iniparse	failed
 python-inject	succeeded
 python-injector	succeeded
-python-inkex	failed
+python-inkex	succeeded
 python-inotify	succeeded
 python-inotify_simple	succeeded
 python-installer	failed
@@ -1674,6 +1675,7 @@ python-marshmallow-enum	succeeded
 python-masscan	succeeded
 python-mathics-pygments	succeeded
 python-mathics-scanner	succeeded
+python-matplotlib	failed
 python-matplotlib-inline	succeeded
 python-maxminddb	succeeded
 python-mbstrdecoder	succeeded
