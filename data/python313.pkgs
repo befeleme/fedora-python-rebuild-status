@@ -146,6 +146,7 @@ dnf-plugin-perfmetrics
 dnf-plugins-core
 dnf-plugins-extras
 dnfdaemon
+dnfdragora
 dnsgen
 doge
 dogtail
@@ -169,6 +170,7 @@ fedora-third-party
 file
 firewalld
 firmitas
+flann
 flatbuffers
 flent
 fmf
@@ -215,6 +217,7 @@ gom
 goobook
 google-api-python-client
 google-auth-httplib2
+gpaw
 gpgme
 gphotoframe
 gplugin
@@ -271,6 +274,7 @@ khal
 khard
 kig
 kismon
+kitty
 kiwi
 kiwi-boxed-plugin
 koan
@@ -411,6 +415,7 @@ mrack
 mrchem
 msoffcrypto-tool
 muse
+mygnuhealth
 mysql-connector-python
 nagios-plugins-systemd
 needrestart
@@ -419,6 +424,7 @@ netstat-monitor
 newt
 nextpnr
 nfoview
+nfsometer
 nftables
 nicotine+
 nik4
@@ -463,6 +469,7 @@ osc
 otf2
 oval-graph
 oz
+pacemaker
 pagure
 pagure-dist-git
 pagure-exporter
@@ -569,6 +576,7 @@ python-APScheduler
 python-AWSIoTPythonSDK
 python-Automat
 python-BTrees
+python-Bottleneck
 python-CommonMark
 python-GeoIP
 python-GridDataFormats
@@ -637,6 +645,7 @@ python-adafruit-pureio
 python-adal
 python-adb
 python-adb-shell
+python-adjustText
 python-admesh
 python-advisory-parser
 python-aenum
@@ -721,7 +730,9 @@ python-aspy.yaml
 python-asteval
 python-astor
 python-astral
+python-astroplan
 python-astropy
+python-astropy-healpix
 python-astropy-helpers
 python-astroscrappy
 python-astunparse
@@ -921,6 +932,7 @@ python-colcon-zsh
 python-collada
 python-collectd_puppet
 python-colorama
+python-colorcet
 python-colorclass
 python-colored
 python-colored-traceback
@@ -980,6 +992,7 @@ python-cwcwidth
 python-cx-oracle
 python-cxxfilt
 python-cycler
+python-cyipopt
 python-d2to1
 python-daemon
 python-daemonize
@@ -1001,6 +1014,7 @@ python-dbus-signature-pyparsing
 python-dbusmock
 python-dbutils
 python-ddt
+python-deap
 python-debian
 python-debian-inspector
 python-debrepo
@@ -1187,6 +1201,7 @@ python-flask-multistatic
 python-flask-paranoid
 python-flask-principal
 python-flask-restx
+python-flask-session
 python-flask-talisman
 python-flask-wtf
 python-flask-wtf-decorators
@@ -1212,6 +1227,7 @@ python-friendlyloris
 python-frozendict
 python-frozenlist
 python-fs
+python-fsleyes-widgets
 python-fspath
 python-fuckit
 python-funcparserlib
@@ -1333,6 +1349,7 @@ python-hatch-vcs
 python-hatchling
 python-haversion
 python-hdate
+python-healpy
 python-heapdict
 python-helpdev
 python-hexdump
@@ -1576,16 +1593,21 @@ python-marshmallow-enum
 python-masscan
 python-mathics-pygments
 python-mathics-scanner
+python-matplotlib
 python-matplotlib-inline
+python-matplotlib-scalebar
+python-matplotlib-venn
 python-maxminddb
 python-mbstrdecoder
 python-mdit-py-plugins
 python-mdurl
 python-mdx_gh_links
+python-meautility
 python-mediafile
 python-meh
 python-memcached
 python-menuinst
+python-mercantile
 python-merge3
 python-mergedeep
 python-meson-python
@@ -1669,6 +1691,7 @@ python-netdata
 python-netdisco
 python-netifaces
 python-networkx
+python-neurodsp
 python-nh3
 python-nihtest
 python-nine
@@ -1694,6 +1717,8 @@ python-ntlm-auth
 python-ntplib
 python-nudatus
 python-num2words
+python-numcodecs
+python-numpydoc
 python-oauth
 python-oauth2
 python-oauth2client
@@ -1719,6 +1744,7 @@ python-openslide
 python-openstackdocstheme
 python-opentype-sanitizer
 python-opytimark
+python-opytimizer
 python-oracledb
 python-ordered-set
 python-os-service-types
@@ -1858,6 +1884,7 @@ python-py-algorand-sdk
 python-py27hash
 python-py2pack
 python-py3nvml
+python-pyABF
 python-pyModbusTCP
 python-pyactivetwo
 python-pyaes
@@ -1900,6 +1927,8 @@ python-pydocstyle
 python-pydotplus
 python-pydyf
 python-pyeclib
+python-pyedflib
+python-pyelectro
 python-pyembroidery
 python-pyemby
 python-pyemd
@@ -1908,6 +1937,7 @@ python-pyev
 python-pyfakefs
 python-pyfim
 python-pyftdi
+python-pygal
 python-pygatt
 python-pygeoip
 python-pyghmi
@@ -1922,6 +1952,7 @@ python-pygments-markdown-lexer
 python-pygments-pytest
 python-pygments-style-solarized
 python-pygmtools
+python-pygraphviz
 python-pygrocy
 python-pyhcl
 python-pyhomematic
@@ -1932,6 +1963,7 @@ python-pykdtree
 python-pykeepass
 python-pykmip
 python-pykwalify
+python-pylatex
 python-pylero
 python-pylev
 python-pyliblzfse
@@ -1947,6 +1979,7 @@ python-pymaven-patch
 python-pymediainfo
 python-pymediawiki
 python-pymeeus
+python-pymoc
 python-pymongo
 python-pynacl
 python-pynamodb
@@ -2037,6 +2070,7 @@ python-pytest-isort
 python-pytest-lazy-fixture
 python-pytest-localserver
 python-pytest-mock
+python-pytest-mpl
 python-pytest-multihost
 python-pytest-openfiles
 python-pytest-ordering
@@ -2073,9 +2107,11 @@ python-pyvhacd
 python-pyvirtualdisplay
 python-pyvit
 python-pyvlx
+python-pyvo
 python-pywayland
 python-pywizlight
 python-pywlroots
+python-pywt
 python-pyxdameraulevenshtein
 python-pyxdf
 python-pyxid
@@ -2293,6 +2329,7 @@ python-sphinx-copybutton
 python-sphinx-design
 python-sphinx-documatt-theme
 python-sphinx-epytext
+python-sphinx-gallery
 python-sphinx-hoverxref
 python-sphinx-inline-tabs
 python-sphinx-intl
@@ -2319,6 +2356,7 @@ python-sphinxcontrib-apidoc
 python-sphinxcontrib-applehelp
 python-sphinxcontrib-asyncio
 python-sphinxcontrib-autoprogram
+python-sphinxcontrib-bibtex
 python-sphinxcontrib-blockdiag
 python-sphinxcontrib-devhelp
 python-sphinxcontrib-github-alt
@@ -2340,7 +2378,9 @@ python-sphinxcontrib-trio
 python-sphinxcontrib-websupport
 python-sphinxcontrib-zopeext
 python-sphinxemoji
+python-sphinxext-opengraph
 python-sphinxext-rediraffe
+python-sphinxtesters
 python-sphinxygen
 python-sphobjinv
 python-spotipy
@@ -2382,6 +2422,7 @@ python-sure
 python-surt
 python-svg
 python-svg-path
+python-svg2tikz
 python-svgwrite
 python-swagger-spec-validator
 python-syrupy
@@ -2435,6 +2476,7 @@ python-timeout-decorator
 python-timeunit
 python-tinycss2
 python-tinydb
+python-tinygrad
 python-tkrzw
 python-tld
 python-tldextract
@@ -2579,6 +2621,7 @@ python-winacl
 python-winsspi
 python-wled
 python-wloc
+python-wordcloud
 python-wrapt
 python-wsaccel
 python-wsgi_intercept
@@ -2586,6 +2629,7 @@ python-wsproto
 python-wtforms
 python-wurlitzer
 python-www-authenticate
+python-wxnatpy
 python-wxpython4
 python-xattr
 python-xboxapi
@@ -2609,6 +2653,7 @@ python-xpath-expressions
 python-xunitparser
 python-xvfbwrapper
 python-xxhash
+python-xyzservices
 python-y-py
 python-yaml2ical
 python-yamlloader

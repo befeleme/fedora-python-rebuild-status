@@ -160,6 +160,7 @@ dnf-plugin-perfmetrics	succeeded
 dnf-plugins-core	succeeded
 dnf-plugins-extras	succeeded
 dnfdaemon	succeeded
+dnfdragora	succeeded
 dnsgen	succeeded
 docker-compose	failed
 doge	succeeded
@@ -184,6 +185,7 @@ fedora-third-party	succeeded
 file	succeeded
 firewalld	succeeded
 firmitas	succeeded
+flann	succeeded
 flatbuffers	succeeded
 flatpak-module-tools	failed
 flent	succeeded
@@ -238,6 +240,7 @@ gom	succeeded
 goobook	succeeded
 google-api-python-client	succeeded
 google-auth-httplib2	succeeded
+gpaw	succeeded
 gpgme	succeeded
 gphotoframe	succeeded
 gplugin	succeeded
@@ -298,6 +301,7 @@ khal	succeeded
 khard	succeeded
 kig	succeeded
 kismon	succeeded
+kitty	succeeded
 kiwi	succeeded
 kiwi-boxed-plugin	succeeded
 koan	succeeded
@@ -451,6 +455,7 @@ mrack	succeeded
 mrchem	succeeded
 msoffcrypto-tool	succeeded
 muse	succeeded
+mygnuhealth	succeeded
 mysql-connector-python	succeeded
 nagios-plugins-systemd	succeeded
 nautilus-python	failed
@@ -464,6 +469,7 @@ neuron	failed
 newt	succeeded
 nextpnr	succeeded
 nfoview	succeeded
+nfsometer	succeeded
 nftables	succeeded
 nicotine+	succeeded
 nik4	succeeded
@@ -510,6 +516,7 @@ osc	succeeded
 otf2	succeeded
 oval-graph	succeeded
 oz	succeeded
+pacemaker	succeeded
 pagure	succeeded
 pagure-dist-git	succeeded
 pagure-exporter	succeeded
@@ -623,6 +630,7 @@ python-APScheduler	succeeded
 python-AWSIoTPythonSDK	succeeded
 python-Automat	succeeded
 python-BTrees	succeeded
+python-Bottleneck	succeeded
 python-CacheControl	failed
 python-CommonMark	succeeded
 python-GeoIP	succeeded
@@ -693,6 +701,7 @@ python-adafruit-pureio	succeeded
 python-adal	succeeded
 python-adb	succeeded
 python-adb-shell	succeeded
+python-adjustText	succeeded
 python-admesh	succeeded
 python-advisory-parser	succeeded
 python-aenum	succeeded
@@ -779,8 +788,11 @@ python-aspy.yaml	succeeded
 python-asteval	succeeded
 python-astor	succeeded
 python-astral	succeeded
+python-astroML	failed
 python-astroid	failed
+python-astroplan	succeeded
 python-astropy	succeeded
+python-astropy-healpix	succeeded
 python-astropy-helpers	failed
 python-astroscrappy	succeeded
 python-astunparse	succeeded
@@ -866,8 +878,8 @@ python-boltons	succeeded
 python-boolean.py	succeeded
 python-booleanoperations	succeeded
 python-boto	succeeded
-python-boto3	failed
-python-botocore	failed
+python-boto3	succeeded
+python-botocore	succeeded
 python-bottle	failed
 python-bottle-sqlite	succeeded
 python-bowler	succeeded
@@ -989,6 +1001,7 @@ python-colcon-zsh	succeeded
 python-collada	succeeded
 python-collectd_puppet	succeeded
 python-colorama	succeeded
+python-colorcet	succeeded
 python-colorclass	succeeded
 python-colored	succeeded
 python-colored-traceback	succeeded
@@ -1054,6 +1067,7 @@ python-cwcwidth	succeeded
 python-cx-oracle	succeeded
 python-cxxfilt	succeeded
 python-cycler	succeeded
+python-cyipopt	succeeded
 python-cysignals	failed
 python-cython0.29	failed
 python-d2to1	succeeded
@@ -1077,6 +1091,7 @@ python-dbus-signature-pyparsing	succeeded
 python-dbusmock	succeeded
 python-dbutils	succeeded
 python-ddt	succeeded
+python-deap	succeeded
 python-debian	succeeded
 python-debian-inspector	succeeded
 python-debrepo	succeeded
@@ -1269,6 +1284,7 @@ python-flask-multistatic	succeeded
 python-flask-paranoid	succeeded
 python-flask-principal	succeeded
 python-flask-restx	succeeded
+python-flask-session	succeeded
 python-flask-talisman	succeeded
 python-flask-wtf	succeeded
 python-flask-wtf-decorators	succeeded
@@ -1294,6 +1310,7 @@ python-friendlyloris	succeeded
 python-frozendict	succeeded
 python-frozenlist	failed
 python-fs	succeeded
+python-fsleyes-widgets	succeeded
 python-fspath	succeeded
 python-fuckit	succeeded
 python-funcparserlib	succeeded
@@ -1396,6 +1413,7 @@ python-gpxpy	succeeded
 python-grabbit	failed
 python-grabserial	succeeded
 python-grafeas	succeeded
+python-graph-tool	failed
 python-graphene	succeeded
 python-graphql-core	succeeded
 python-graphql-relay	succeeded
@@ -1420,6 +1438,7 @@ python-hatch-vcs	succeeded
 python-hatchling	succeeded
 python-haversion	succeeded
 python-hdate	succeeded
+python-healpy	succeeded
 python-heapdict	failed
 python-helpdev	succeeded
 python-hexdump	succeeded
@@ -1474,6 +1493,7 @@ python-ifcfg	succeeded
 python-igraph	succeeded
 python-ijson	succeeded
 python-imagecodecs	failed
+python-imagehash	failed
 python-imageio	succeeded
 python-imagesize	succeeded
 python-imapclient	succeeded
@@ -1494,6 +1514,7 @@ python-injector	succeeded
 python-inkex	succeeded
 python-inotify	succeeded
 python-inotify_simple	succeeded
+python-inspyred	failed
 python-installer	failed
 python-instant	succeeded
 python-intbitset	failed
@@ -1641,6 +1662,7 @@ python-logzero	succeeded
 python-looseversion	succeeded
 python-lqrt	succeeded
 python-lsp-jsonrpc	succeeded
+python-lunr	failed
 python-lupa	succeeded
 python-lxml	succeeded
 python-ly	succeeded
@@ -1675,17 +1697,21 @@ python-marshmallow-enum	succeeded
 python-masscan	succeeded
 python-mathics-pygments	succeeded
 python-mathics-scanner	succeeded
-python-matplotlib	failed
+python-matplotlib	succeeded
 python-matplotlib-inline	succeeded
+python-matplotlib-scalebar	succeeded
+python-matplotlib-venn	succeeded
 python-maxminddb	succeeded
 python-mbstrdecoder	succeeded
 python-mdit-py-plugins	succeeded
 python-mdurl	succeeded
 python-mdx_gh_links	succeeded
+python-meautility	succeeded
 python-mediafile	succeeded
 python-meh	succeeded
 python-memcached	succeeded
 python-menuinst	succeeded
+python-mercantile	succeeded
 python-merge3	succeeded
 python-mergedeep	succeeded
 python-meson-python	succeeded
@@ -1727,6 +1753,8 @@ python-moreorless	succeeded
 python-moss	succeeded
 python-mozilla-django-oidc	succeeded
 python-mpd	succeeded
+python-mplcairo	failed
+python-mpmath	failed
 python-mrcfile	succeeded
 python-mrcrowbar	succeeded
 python-msal	succeeded
@@ -1774,6 +1802,7 @@ python-netdata	succeeded
 python-netdisco	succeeded
 python-netifaces	succeeded
 python-networkx	failed
+python-neurodsp	succeeded
 python-nh3	succeeded
 python-nihtest	succeeded
 python-nine	succeeded
@@ -1800,7 +1829,9 @@ python-ntplib	succeeded
 python-nudatus	succeeded
 python-nuheat	failed
 python-num2words	succeeded
+python-numcodecs	succeeded
 python-numexpr	failed
+python-numpydoc	succeeded
 python-oauth	succeeded
 python-oauth2	succeeded
 python-oauth2client	succeeded
@@ -1829,6 +1860,7 @@ python-openslide	succeeded
 python-openstackdocstheme	succeeded
 python-opentype-sanitizer	succeeded
 python-opytimark	succeeded
+python-opytimizer	succeeded
 python-oracledb	succeeded
 python-ordered-set	succeeded
 python-orderedset	failed
@@ -1910,6 +1942,7 @@ python-pifpaf	succeeded
 python-pigpio	succeeded
 python-pikepdf	succeeded
 python-pillow	succeeded
+python-pint	failed
 python-pip	succeeded
 python-pip-requirements-parser	succeeded
 python-pipdeptree	succeeded
@@ -1978,6 +2011,7 @@ python-py-gql	failed
 python-py27hash	succeeded
 python-py2pack	succeeded
 python-py3nvml	succeeded
+python-pyABF	succeeded
 python-pyModbusTCP	succeeded
 python-pyactivetwo	succeeded
 python-pyaes	succeeded
@@ -2022,6 +2056,8 @@ python-pydocstyle	succeeded
 python-pydotplus	succeeded
 python-pydyf	succeeded
 python-pyeclib	succeeded
+python-pyedflib	succeeded
+python-pyelectro	succeeded
 python-pyembroidery	succeeded
 python-pyemby	succeeded
 python-pyemd	succeeded
@@ -2031,6 +2067,7 @@ python-pyfakefs	succeeded
 python-pyfastnoisesimd	failed
 python-pyfim	succeeded
 python-pyftdi	succeeded
+python-pygal	succeeded
 python-pygatt	succeeded
 python-pygeoip	succeeded
 python-pyghmi	succeeded
@@ -2045,6 +2082,7 @@ python-pygments-markdown-lexer	succeeded
 python-pygments-pytest	succeeded
 python-pygments-style-solarized	succeeded
 python-pygmtools	succeeded
+python-pygraphviz	succeeded
 python-pygrocy	succeeded
 python-pyhcl	succeeded
 python-pyhomematic	succeeded
@@ -2055,6 +2093,7 @@ python-pykdtree	succeeded
 python-pykeepass	succeeded
 python-pykmip	succeeded
 python-pykwalify	succeeded
+python-pylatex	succeeded
 python-pylero	succeeded
 python-pylev	succeeded
 python-pyliblzfse	succeeded
@@ -2071,6 +2110,7 @@ python-pymediainfo	succeeded
 python-pymediawiki	succeeded
 python-pymeeus	succeeded
 python-pymemcache	failed
+python-pymoc	succeeded
 python-pymongo	succeeded
 python-pynacl	succeeded
 python-pynamodb	failed
@@ -2163,6 +2203,7 @@ python-pytest-isort	succeeded
 python-pytest-lazy-fixture	succeeded
 python-pytest-localserver	succeeded
 python-pytest-mock	failed
+python-pytest-mpl	succeeded
 python-pytest-multihost	succeeded
 python-pytest-openfiles	succeeded
 python-pytest-ordering	succeeded
@@ -2200,9 +2241,11 @@ python-pyvhacd	failed
 python-pyvirtualdisplay	succeeded
 python-pyvit	succeeded
 python-pyvlx	succeeded
+python-pyvo	succeeded
 python-pywayland	succeeded
 python-pywizlight	succeeded
 python-pywlroots	succeeded
+python-pywt	succeeded
 python-pyxdameraulevenshtein	succeeded
 python-pyxdf	succeeded
 python-pyxid	succeeded
@@ -2428,6 +2471,7 @@ python-sphinx-copybutton	succeeded
 python-sphinx-design	succeeded
 python-sphinx-documatt-theme	succeeded
 python-sphinx-epytext	succeeded
+python-sphinx-gallery	succeeded
 python-sphinx-hoverxref	failed
 python-sphinx-inline-tabs	succeeded
 python-sphinx-intl	succeeded
@@ -2454,6 +2498,7 @@ python-sphinxcontrib-apidoc	succeeded
 python-sphinxcontrib-applehelp	succeeded
 python-sphinxcontrib-asyncio	succeeded
 python-sphinxcontrib-autoprogram	succeeded
+python-sphinxcontrib-bibtex	succeeded
 python-sphinxcontrib-blockdiag	succeeded
 python-sphinxcontrib-devhelp	succeeded
 python-sphinxcontrib-github-alt	succeeded
@@ -2475,7 +2520,9 @@ python-sphinxcontrib-trio	succeeded
 python-sphinxcontrib-websupport	succeeded
 python-sphinxcontrib-zopeext	succeeded
 python-sphinxemoji	succeeded
+python-sphinxext-opengraph	succeeded
 python-sphinxext-rediraffe	succeeded
+python-sphinxtesters	succeeded
 python-sphinxygen	succeeded
 python-sphobjinv	succeeded
 python-spnego	failed
@@ -2520,6 +2567,7 @@ python-sure	succeeded
 python-surt	succeeded
 python-svg	succeeded
 python-svg-path	succeeded
+python-svg2tikz	succeeded
 python-svgwrite	succeeded
 python-swagger-spec-validator	succeeded
 python-syrupy	succeeded
@@ -2573,7 +2621,7 @@ python-timeout-decorator	succeeded
 python-timeunit	succeeded
 python-tinycss2	succeeded
 python-tinydb	succeeded
-python-tinygrad	failed
+python-tinygrad	succeeded
 python-tkrzw	succeeded
 python-tld	succeeded
 python-tldextract	succeeded
@@ -2728,6 +2776,7 @@ python-winacl	succeeded
 python-winsspi	succeeded
 python-wled	succeeded
 python-wloc	succeeded
+python-wordcloud	succeeded
 python-wrapt	succeeded
 python-wsaccel	succeeded
 python-wsgi_intercept	succeeded
@@ -2735,6 +2784,7 @@ python-wsproto	succeeded
 python-wtforms	succeeded
 python-wurlitzer	succeeded
 python-www-authenticate	succeeded
+python-wxnatpy	succeeded
 python-wxpython4	succeeded
 python-xattr	succeeded
 python-xboxapi	succeeded
@@ -2758,6 +2808,7 @@ python-xpath-expressions	succeeded
 python-xunitparser	succeeded
 python-xvfbwrapper	succeeded
 python-xxhash	succeeded
+python-xyzservices	succeeded
 python-y-py	succeeded
 python-yaml2ical	succeeded
 python-yamlloader	succeeded
@@ -2900,6 +2951,7 @@ skf	succeeded
 slingshot	succeeded
 slowloris	succeeded
 smbcmp	succeeded
+smoldyn	failed
 snallygaster	failed
 snowball	succeeded
 socialscan	succeeded
