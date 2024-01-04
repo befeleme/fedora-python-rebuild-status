@@ -374,6 +374,9 @@
         "audacity": [
             "kalev"
         ],
+        "audex": [
+            "yselkowitz"
+        ],
         "audiotube": [
             "yselkowitz"
         ],
@@ -658,6 +661,9 @@
             "kalev"
         ],
         "ghostwriter": [
+            "yselkowitz"
+        ],
+        "gimagereader": [
             "yselkowitz"
         ],
         "gimp": [
@@ -2064,7 +2070,6 @@
         "python2": [
             "cstratak",
             "phracek",
-            "pviktori",
             "torsava"
         ],
         "python2-bootstrap": [
@@ -2073,12 +2078,10 @@
         "python2-ecosystem": [
             "orphan",
             "mhlavink",
-            "pviktori",
             "torsava"
         ],
         "python3": [
             "torsava",
-            "pviktori",
             "ttomecek"
         ],
         "python3-bootstrap": [
@@ -2087,7 +2090,6 @@
         "python3-ecosystem": [
             "orphan",
             "mhlavink",
-            "pviktori",
             "asamalik",
             "torsava"
         ],
@@ -11980,9 +11982,9 @@
             "orphan"
         ],
         "containernetworking-plugins": [
+            "haircommander",
             "mheon",
             "lsm5",
-            "haircommander",
             "jasonbrooks"
         ],
         "containers": [
@@ -42486,6 +42488,7 @@
         ],
         "keepass": [
             "belegdol",
+            "bubeck",
             "tpokorra"
         ],
         "keepassx": [
@@ -47573,7 +47576,8 @@
             "zfridric"
         ],
         "liblouis": [
-            "mgieseki"
+            "mgieseki",
+            "jjames"
         ],
         "liblouisutdml": [
             "mgieseki"
@@ -86480,7 +86484,6 @@
         ],
         "py3c": [
             "churchyard",
-            "pviktori",
             "encukou"
         ],
         "py3status": [
@@ -86894,8 +86897,7 @@
             "jdekloe"
         ],
         "pyproject-rpm-macros": [
-            "churchyard",
-            "pviktori"
+            "churchyard"
         ],
         "pypy": [
             "churchyard",
@@ -91271,8 +91273,7 @@
         ],
         "python-flask-admin": [
             "pingou",
-            "encukou",
-            "pviktori"
+            "encukou"
         ],
         "python-flask-assets": [
             "orphan",
@@ -93680,7 +93681,6 @@
         ],
         "python-lmdb": [
             "pspacek",
-            "pviktori",
             "jruzicka"
         ],
         "python-lmiwbem": [
@@ -95495,7 +95495,6 @@
         ],
         "python-pep517": [
             "churchyard",
-            "pviktori",
             "encukou"
         ],
         "python-pep562": [
@@ -95869,15 +95868,13 @@
         ],
         "python-progressbar": [
             "orphan",
-            "cdamian",
-            "pviktori"
+            "cdamian"
         ],
         "python-progressbar2": [
             "ankursinha",
             "totol",
             "ngompa",
-            "encukou",
-            "pviktori"
+            "encukou"
         ],
         "python-proliantutils": [
             "orphan"
@@ -96298,8 +96295,7 @@
         ],
         "python-pyglet": [
             "encukou",
-            "orion",
-            "pviktori"
+            "orion"
         ],
         "python-pygls": [
             "topazus"
@@ -97017,7 +97013,6 @@
             "qulogic"
         ],
         "python-pytest-multihost": [
-            "pviktori",
             "encukou",
             "abiagion"
         ],
@@ -97075,7 +97070,6 @@
             "dcavalca"
         ],
         "python-pytest-sourceorder": [
-            "pviktori",
             "encukou",
             "abiagion"
         ],
@@ -97851,8 +97845,7 @@
             "torsava",
             "churchyard",
             "cstratak",
-            "lbalhar",
-            "pviktori"
+            "lbalhar"
         ],
         "python-rpm-head-signing": [
             "orphan",
@@ -98342,8 +98335,7 @@
             "churchyard",
             "mrunge",
             "encukou",
-            "apevec",
-            "pviktori"
+            "apevec"
         ],
         "python-sklearn-genetic": [
             "iztokf"
@@ -99482,7 +99474,6 @@
         ],
         "python-tomli": [
             "churchyard",
-            "pviktori",
             "encukou"
         ],
         "python-tomli-w": [
@@ -99544,7 +99535,6 @@
         ],
         "python-tox-current-env": [
             "churchyard",
-            "pviktori",
             "encukou"
         ],
         "python-tpg": [
@@ -101311,7 +101301,6 @@
         ],
         "python3-docs": [
             "cstratak",
-            "pviktori",
             "ksurma",
             "torsava",
             "churchyard",
@@ -101506,7 +101495,6 @@
         ],
         "python3-pytest": [
             "orion",
-            "pviktori",
             "thm",
             "ttorling"
         ],
@@ -101727,7 +101715,6 @@
         ],
         "python34": [
             "churchyard",
-            "pviktori",
             "carlwgeorge",
             "cstratak",
             "torsava",
@@ -102513,7 +102500,7 @@
             "lucilanga"
         ],
         "qstardict": [
-            "orphan"
+            "vtrefny"
         ],
         "qstars": [
             "mtasaka"
@@ -108146,6 +108133,9 @@
         ],
         "rust-async-channel": [
             "dcavalca"
+        ],
+        "rust-async-channel1": [
+            "decathorpe"
         ],
         "rust-async-compression": [
             "decathorpe"
@@ -115142,6 +115132,9 @@
         "rust-sctk-adwaita": [
             "alebastr"
         ],
+        "rust-scx_utils": [
+            "jordalgo"
+        ],
         "rust-sd": [
             "decathorpe"
         ],
@@ -120982,6 +120975,7 @@
             "apevec"
         ],
         "subversion": [
+            "tkorbar",
             "jorton",
             "rlescak"
         ],
@@ -123417,7 +123411,7 @@
             "tartare"
         ],
         "tofrodos": [
-            "orphan",
+            "sergiomb",
             "tdawson",
             "cicku"
         ],
@@ -125222,7 +125216,8 @@
             "orion"
         ],
         "utf8proc": [
-            "nalimilan"
+            "nalimilan",
+            "tkorbar"
         ],
         "utf8proc-epel": [
             "orphan"
@@ -125974,7 +125969,7 @@
             "gmaglione"
         ],
         "virtme": [
-            "prgutier"
+            "orphan"
         ],
         "virtualbox-guest-additions": [
             "jwrdegoede",
@@ -130952,7 +130947,6 @@
             "psss",
             "churchyard",
             "cstratak",
-            "pviktori",
             "torsava",
             "lbalhar"
         ],
