@@ -31,7 +31,6 @@ adapt	succeeded
 adb-enhanced	succeeded
 afflib	succeeded
 aggregate6	succeeded
-aiodnsbrute	failed
 airnef	succeeded
 alacarte	succeeded
 alot	succeeded
@@ -264,7 +263,6 @@ gyp	succeeded
 hamlib	succeeded
 hashid	succeeded
 hddfancontrol	succeeded
-heat-cfntools	failed
 hexchat	succeeded
 hivex	succeeded
 hokuyoaist	succeeded
@@ -296,7 +294,7 @@ kea	succeeded
 kerberoast	succeeded
 kernel-tools	failed
 keycloak-httpd-client-install	succeeded
-kf5-kapidox	failed
+kf6-kapidox	succeeded
 khal	succeeded
 khard	succeeded
 kig	succeeded
@@ -343,7 +341,7 @@ libftdi	succeeded
 libgexiv2	succeeded
 libgit2-glib	succeeded
 libgpiod	succeeded
-libguestfs	succeeded
+libguestfs	failed
 libiio	failed
 libiptcdata	succeeded
 libixion	succeeded
@@ -441,7 +439,7 @@ mirage	succeeded
 mkosi	succeeded
 mkosi14	failed
 mlir	succeeded
-mock	failed
+mock	succeeded
 mod_wsgi	failed
 module-build	succeeded
 modulemd-tools	succeeded
@@ -497,7 +495,6 @@ offlineimap	succeeded
 ogr2osm	succeeded
 omniORB	succeeded
 omniORBpy	succeeded
-onboard	failed
 onionshare	succeeded
 onnx	succeeded
 onnxruntime	succeeded
@@ -550,7 +547,6 @@ poezio-omemo	succeeded
 policycoreutils	failed
 portmidi	succeeded
 postfix-mta-sts-resolver	succeeded
-postgresql	failed
 postgresql15	succeeded
 postgresql16	succeeded
 powerline	succeeded
@@ -789,12 +785,11 @@ python-aspy.yaml	succeeded
 python-asteval	succeeded
 python-astor	succeeded
 python-astral	succeeded
-python-astroML	failed
+python-astroML	succeeded
 python-astroid	failed
 python-astroplan	succeeded
 python-astropy	succeeded
 python-astropy-healpix	succeeded
-python-astropy-helpers	failed
 python-astroscrappy	succeeded
 python-astunparse	succeeded
 python-async-lru	succeeded
@@ -879,7 +874,7 @@ python-boltons	succeeded
 python-boolean.py	succeeded
 python-booleanoperations	succeeded
 python-boto	succeeded
-python-boto3	failed
+python-boto3	succeeded
 python-botocore	succeeded
 python-bottle	failed
 python-bottle-sqlite	succeeded
@@ -1248,7 +1243,6 @@ python-fastprogress	succeeded
 python-fastpurge	succeeded
 python-fauxquests	succeeded
 python-fb-re2	succeeded
-python-fdb	failed
 python-fedora-sig-onboard	succeeded
 python-feedgen	succeeded
 python-feedgenerator	succeeded
@@ -1721,7 +1715,6 @@ python-merge3	succeeded
 python-mergedeep	succeeded
 python-meson-python	succeeded
 python-messaging	succeeded
-python-metaextract	failed
 python-metar	succeeded
 python-metno	succeeded
 python-mglob	failed
@@ -1785,7 +1778,6 @@ python-mwclient	succeeded
 python-myhdl	succeeded
 python-mypy_extensions	succeeded
 python-myrepos-utils	succeeded
-python-mysql	failed
 python-mysqlclient	succeeded
 python-myst-parser	succeeded
 python-mystrom	succeeded
@@ -1855,7 +1847,6 @@ python-opencensus-proto	succeeded
 python-opendata-transport	succeeded
 python-openidc-client	succeeded
 python-openoffice	failed
-python-openopt	failed
 python-openpaperwork-core	failed
 python-openpyxl	succeeded
 python-openqa_client	succeeded
@@ -1874,7 +1865,6 @@ python-os-testr	succeeded
 python-osa	succeeded
 python-oscrypto	succeeded
 python-oslo-i18n	failed
-python-oslo-sphinx	failed
 python-osrf-pycommon	succeeded
 python-outcome	succeeded
 python-outdated	succeeded
@@ -1927,7 +1917,6 @@ python-pecan	succeeded
 python-pefile	succeeded
 python-pelican	succeeded
 python-pep440	succeeded
-python-pep517	failed
 python-periodictable	succeeded
 python-perky	succeeded
 python-persist-queue	succeeded
@@ -2016,7 +2005,7 @@ python-py-gql	failed
 python-py27hash	succeeded
 python-py2pack	succeeded
 python-py3nvml	succeeded
-python-pyABF	succeeded
+python-pyABF	failed
 python-pyModbusTCP	succeeded
 python-pyactivetwo	succeeded
 python-pyaes	succeeded
@@ -2186,7 +2175,6 @@ python-pytest-astropy	succeeded
 python-pytest-astropy-header	succeeded
 python-pytest-asyncio	succeeded
 python-pytest-bdd	succeeded
-python-pytest-bdd5	failed
 python-pytest-benchmark	succeeded
 python-pytest-cache	succeeded
 python-pytest-click	succeeded
@@ -2244,7 +2232,6 @@ python-pytz-deprecation-shim	succeeded
 python-pyudev	succeeded
 python-pyupgrade	succeeded
 python-pyvat	succeeded
-python-pyvhacd	failed
 python-pyvirtualdisplay	succeeded
 python-pyvit	succeeded
 python-pyvlx	succeeded
@@ -2457,7 +2444,6 @@ python-snakemake-interface-common	succeeded
 python-snappy	succeeded
 python-snaptime	succeeded
 python-sniffio	succeeded
-python-snipeit	failed
 python-snuggs	succeeded
 python-socks5line	succeeded
 python-socksio	succeeded
@@ -2503,7 +2489,6 @@ python-sphinx_lv2_theme	succeeded
 python-sphinx_rtd_theme	succeeded
 python-sphinx_selective_exclude	succeeded
 python-sphinxcontrib-apidoc	succeeded
-python-sphinxcontrib-applehelp	failed
 python-sphinxcontrib-asyncio	succeeded
 python-sphinxcontrib-autoprogram	succeeded
 python-sphinxcontrib-bibtex	succeeded
@@ -2513,7 +2498,6 @@ python-sphinxcontrib-github-alt	succeeded
 python-sphinxcontrib-htmlhelp	succeeded
 python-sphinxcontrib-httpdomain	succeeded
 python-sphinxcontrib-jquery	succeeded
-python-sphinxcontrib-jsmath	failed
 python-sphinxcontrib-log-cabinet	succeeded
 python-sphinxcontrib-openapi	succeeded
 python-sphinxcontrib-pecanwsme	succeeded
@@ -2627,7 +2611,6 @@ python-tifffile	succeeded
 python-tiktoken	succeeded
 python-time-machine	succeeded
 python-timeout-decorator	succeeded
-python-timeunit	failed
 python-tinycss2	succeeded
 python-tinydb	succeeded
 python-tinygrad	succeeded
@@ -2722,7 +2705,6 @@ python-uswid	succeeded
 python-utils	succeeded
 python-utmp	succeeded
 python-uvloop	failed
-python-vagrantpy	failed
 python-validators	succeeded
 python-varlink	succeeded
 python-vatnumber	succeeded
@@ -2876,7 +2858,6 @@ python3-postgresql	succeeded
 python3-py3dns	succeeded
 python3-saml	succeeded
 python3-simpletal	succeeded
-python3-typed_ast	failed
 python3-zope-fixers	failed
 python3.12	succeeded
 python3.13	succeeded
@@ -2905,7 +2886,6 @@ recoll	failed
 rednotebook	succeeded
 redshift	succeeded
 relval	succeeded
-remctl	failed
 remmina	failed
 reprotest	succeeded
 resalloc-ibm-cloud	succeeded
@@ -3076,7 +3056,7 @@ wordxtr	succeeded
 wxGlade	succeeded
 x-tile	succeeded
 xapian-bindings	succeeded
-xapps	succeeded
+xapps	failed
 xcat	succeeded
 xcb-proto	succeeded
 xcfun	succeeded
