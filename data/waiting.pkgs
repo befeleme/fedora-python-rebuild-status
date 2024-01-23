@@ -55,7 +55,6 @@ diffoscope
 distro-info
 dnf5
 dnsviz
-dogtag-pki
 dolfin
 dxf2gcode
 electron-cash
@@ -73,7 +72,6 @@ fedpkg
 fedrq
 fedscm-admin
 freecell-solver
-freeipa-desktop-profile
 gajim
 gdal
 gdl
@@ -86,6 +84,7 @@ glances
 gmsh
 gnome-tweaks
 gnuradio
+gpodder
 gr-air-modes
 gr-funcube
 gr-hpsdr
@@ -110,17 +109,21 @@ ipython
 jrnl
 jupyterlab
 kicad
+kiwi-boxed-plugin
 krita
+kvirc
 lector
 libffado
 libfreenect
 libopenshot
 libpeas1
 libpoly
+libreoffice
 libsonata
 limnoria
 litecli
 lollypop
+lutris
 mailman3
 matrix-synapse
 micropipenv
@@ -183,6 +186,7 @@ pyplane
 pyproj
 pyqtwebengine
 python-AppTools
+python-Bottleneck
 python-EvoPreprocess
 python-Levenshtein
 python-Mastodon
@@ -218,7 +222,10 @@ python-aodhclient
 python-arrow
 python-arviz
 python-ast-monitor
+python-astroplan
+python-astropy-healpix
 python-astroquery
+python-astroscrappy
 python-asttokens
 python-asyncpg
 python-atlassian-python-api
@@ -226,6 +233,7 @@ python-atpublic
 python-authlib
 python-autobahn
 python-autograd
+python-automaton
 python-aws-xray-sdk
 python-azure-appconfiguration
 python-azure-devtools
@@ -249,7 +257,6 @@ python-bashate
 python-beaker
 python-bibtexparser
 python-bioframe
-python-biopython
 python-bioread
 python-black
 python-bluepyopt
@@ -301,6 +308,7 @@ python-devicely
 python-devtools
 python-digitalocean
 python-dipy
+python-dirty-equals
 python-diskcache
 python-django
 python-django-allauth
@@ -411,6 +419,7 @@ python-hgapi
 python-hglib
 python-httpbin
 python-httpcore
+python-httptools
 python-httpx
 python-httpx-socks
 python-hwdata
@@ -425,6 +434,7 @@ python-ipmi
 python-ipykernel
 python-ipyparallel
 python-ipywidgets
+python-ironicclient
 python-isoduration
 python-itemloaders
 python-jedi
@@ -449,6 +459,7 @@ python-jupyter-server
 python-jupyter-server-fileid
 python-jupyter-sphinx
 python-jupyterlab-server
+python-jupyterlab_pygments
 python-keyring
 python-keyrings-alt
 python-keystoneauth1
@@ -474,12 +485,14 @@ python-lsprotocol
 python-magnumclient
 python-manilaclient
 python-mapclassify
+python-mapnik
 python-matrix-common
 python-matrix-nio
 python-matrix-synapse-ldap3
 python-maya
 python-mechanicalsoup
 python-mechanize
+python-mercantile
 python-metakernel
 python-migrate
 python-mimerender
@@ -560,6 +573,7 @@ python-oslo-concurrency
 python-oslo-config
 python-oslo-context
 python-oslo-db
+python-oslo-i18n
 python-oslo-log
 python-oslo-metrics
 python-oslo-middleware
@@ -575,6 +589,7 @@ python-pandas-datareader
 python-pandas-flavor
 python-papermill
 python-paperwork-backend
+python-param
 python-pari-jupyter
 python-parsel
 python-parsley
@@ -609,6 +624,8 @@ python-pybids
 python-pybv
 python-pyclipper
 python-pycurl
+python-pydantic-extra-types
+python-pydantic-settings
 python-pydata-sphinx-theme
 python-pyface
 python-pygls
@@ -616,6 +633,7 @@ python-pyjwkest
 python-pylint-venv
 python-pymapvbvd
 python-pymatreader
+python-pymemcache
 python-pymochad
 python-pymod2pkg
 python-pymssql
@@ -634,6 +652,7 @@ python-pyqt6-charts
 python-pyqt6-webengine
 python-pyqtchart
 python-pyqtgraph
+python-pyquery
 python-pyramid
 python-pyramid-fas-openid
 python-pyramid-mako
@@ -668,6 +687,8 @@ python-pytzdata
 python-pyunicorn
 python-pyvirtualize
 python-pyvmomi
+python-pyvo
+python-pywt
 python-qcustomplot-pyqt
 python-qdarkstyle
 python-qemu-qmp
@@ -692,8 +713,10 @@ python-robosignatory
 python-rope
 python-routes
 python-rows
+python-rq
 python-rsd-lib
 python-rsdclient
+python-rstcheck-core
 python-rust-update-set
 python-saharaclient
 python-sarif-om
@@ -727,9 +750,11 @@ python-socks
 python-spdx-tools
 python-specfile
 python-sphinx-autobuild
+python-sphinx-hoverxref
 python-sphinx-jsonschema
 python-sphinx-theme-builder
 python-sphinxcontrib-bibtex
+python-sphinxtesters
 python-sport-activities-features
 python-spyder-kernels
 python-spyking-circus
@@ -739,6 +764,7 @@ python-sqlalchemy-utils
 python-sqlalchemy_schemadisplay
 python-stack-data
 python-starlette
+python-statsmodels
 python-steam
 python-stestr
 python-stochastic
@@ -749,7 +775,6 @@ python-succulent
 python-sushy
 python-swiftclient
 python-sybil
-python-sysrsync
 python-tables
 python-tabulate
 python-tackerclient
@@ -785,7 +810,6 @@ python-txws
 python-txzmq
 python-ufo2ft
 python-ufoLib2
-python-untangle
 python-uranium
 python-uvicorn
 python-vconnector
@@ -816,6 +840,7 @@ python-xrst
 python-xword-dl
 python-yfinance
 python-ypy-websocket
+python-zaqarclient
 python-zarr
 python-zeep
 python-zmq
@@ -824,6 +849,7 @@ python-zope-configuration
 python-zope-schema
 python3-openid
 python3-poppler-qt5
+python3-saml
 pythran
 qgis
 qhexedit2
@@ -852,6 +878,7 @@ shybrid
 snakemake
 spec2scl
 spectrographic
+spglib
 spyder
 stats-collect
 stomppy

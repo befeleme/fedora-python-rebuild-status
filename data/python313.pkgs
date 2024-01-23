@@ -43,6 +43,7 @@ asahi-installer
 asciidoc
 asciinema
 assimp
+astrometry
 atomic-reactor
 aubio
 audiotube
@@ -92,7 +93,6 @@ capstone
 cargo2rpm
 caribou
 catfish
-ccnet
 ccsm
 cdist
 cekit
@@ -157,6 +157,7 @@ dnfdaemon
 dnfdragora
 dnsgen
 doge
+dogtag-pki
 dogtail
 dot2tex
 dput-ng
@@ -188,6 +189,7 @@ fonts-tweak-tool
 fonttools
 fprettify
 freeipa
+freeipa-desktop-profile
 freeipa-fas
 freeipa-healthcheck
 frescobaldi
@@ -234,7 +236,6 @@ gpaw
 gpgme
 gphotoframe
 gplugin
-gpodder
 gpsd
 gramps
 graphviz
@@ -289,7 +290,6 @@ kig
 kismon
 kitty
 kiwi
-kiwi-boxed-plugin
 koan
 kobo
 koji
@@ -391,7 +391,6 @@ lorax
 lrcalc
 lttng-tools
 lttng-ust
-lutris
 lvm2
 mailman3-fedmsg-plugin
 mailnag
@@ -479,6 +478,7 @@ openscap
 openscap-report
 openssh-ldap-authkeys
 opentrep
+openwsman
 orca
 orocos-kdl
 osbs-client
@@ -594,7 +594,6 @@ python-APScheduler
 python-AWSIoTPythonSDK
 python-Automat
 python-BTrees
-python-Bottleneck
 python-CommonMark
 python-GeoIP
 python-GridDataFormats
@@ -751,10 +750,7 @@ python-asteval
 python-astor
 python-astral
 python-astroML
-python-astroplan
 python-astropy
-python-astropy-healpix
-python-astroscrappy
 python-astunparse
 python-async-lru
 python-async-timeout
@@ -769,7 +765,6 @@ python-auth-credential
 python-authheaders
 python-authres
 python-autocommand
-python-automaton
 python-autopage
 python-autoprop
 python-awesomeversion
@@ -1144,7 +1139,6 @@ python-dill
 python-dingz
 python-dirhash
 python-dirq
-python-dirty-equals
 python-distlib
 python-distro
 python-distroinfo
@@ -1386,6 +1380,7 @@ python-glad2
 python-glances-api
 python-glob2
 python-glyphsLib
+python-gmpy2
 python-gmqtt
 python-gnupg
 python-google-api-core
@@ -1490,7 +1485,6 @@ python-httpagentparser
 python-httplib2
 python-httpretty
 python-httpsig-cffi
-python-httptools
 python-hudman
 python-humanfriendly
 python-humanize
@@ -1547,7 +1541,6 @@ python-iptools
 python-ipuz
 python-ipython_genutils
 python-irc
-python-ironicclient
 python-iso-639
 python-iso3166
 python-iso639
@@ -1608,7 +1601,6 @@ python-jupyter-core
 python-jupyter-packaging
 python-jupyter-server-terminals
 python-jupyter-ydoc
-python-jupyterlab_pygments
 python-justbases
 python-justbytes
 python-jwcrypto
@@ -1696,7 +1688,6 @@ python-managesieve
 python-manatools
 python-manuel
 python-mapbox-earcut
-python-mapnik
 python-maps
 python-marathon
 python-markdown
@@ -1727,7 +1718,6 @@ python-mediafile
 python-meh
 python-memcached
 python-menuinst
-python-mercantile
 python-merge3
 python-mergedeep
 python-meson-python
@@ -1870,7 +1860,6 @@ python-os-service-types
 python-os-testr
 python-osa
 python-oscrypto
-python-oslo-i18n
 python-osrf-pycommon
 python-outcome
 python-outdated
@@ -1885,7 +1874,6 @@ python-palettable
 python-pam
 python-pamela
 python-pandocfilters
-python-param
 python-parameter-expansion-patched
 python-parameterized
 python-paramiko
@@ -2098,7 +2086,6 @@ python-pyls-spyder
 python-pylsqpack
 python-pymacaroons-pynacl
 python-pymata-express
-python-pymaven-patch
 python-pymediainfo
 python-pymediawiki
 python-pymeeus
@@ -2129,7 +2116,6 @@ python-pyproject-metadata
 python-pypubsub
 python-pyqt5-sip
 python-pyqt6-sip
-python-pyquery
 python-pyrad
 python-pyrate-limiter
 python-pyrfc3339
@@ -2229,11 +2215,9 @@ python-pyvat
 python-pyvirtualdisplay
 python-pyvit
 python-pyvlx
-python-pyvo
 python-pywayland
 python-pywizlight
 python-pywlroots
-python-pywt
 python-pyxdameraulevenshtein
 python-pyxdf
 python-pyxid
@@ -2343,11 +2327,9 @@ python-rpmautospec-core
 python-rpmautospec-koji
 python-rpmfluff
 python-rpyc
-python-rq
 python-rsa
 python-rst-linker
 python-rstcheck
-python-rstcheck-core
 python-rstr
 python-rtslib
 python-ruamel-yaml
@@ -2456,7 +2438,6 @@ python-sphinx-design
 python-sphinx-documatt-theme
 python-sphinx-epytext
 python-sphinx-gallery
-python-sphinx-hoverxref
 python-sphinx-inline-tabs
 python-sphinx-intl
 python-sphinx-issues
@@ -2503,7 +2484,6 @@ python-sphinxcontrib-zopeext
 python-sphinxemoji
 python-sphinxext-opengraph
 python-sphinxext-rediraffe
-python-sphinxtesters
 python-sphinxygen
 python-sphobjinv
 python-spotipy
@@ -2523,7 +2503,6 @@ python-sshpubkeys
 python-sshtunnel
 python-stackprinter
 python-statsd
-python-statsmodels
 python-stdiomask
 python-stdlib-list
 python-stdnum
@@ -2551,6 +2530,7 @@ python-svgwrite
 python-swagger-spec-validator
 python-syrupy
 python-syslog-rfc5424-formatter
+python-sysrsync
 python-system-calls
 python-systemd
 python-sysv_ipc
@@ -2672,6 +2652,7 @@ python-unidecode
 python-unidiff
 python-unipath
 python-unpaddedbase64
+python-untangle
 python-upnpy
 python-uptime
 python-uri-template
@@ -2798,7 +2779,6 @@ python-ytmusicapi
 python-yubico
 python-zake
 python-zanata2fedmsg
-python-zaqarclient
 python-zbase32
 python-zc-customdoctests
 python-zc-lockfile
@@ -2833,7 +2813,6 @@ python3-mallard-ducktype
 python3-mypy
 python3-postgresql
 python3-py3dns
-python3-saml
 python3-simpletal
 python3.13
 pytz
