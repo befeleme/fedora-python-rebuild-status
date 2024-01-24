@@ -108,7 +108,7 @@ cepces	succeeded
 ceph	failed
 cffconvert	succeeded
 cjdns	succeeded
-clang	running
+clang	succeeded
 classification-banner	succeeded
 claws-mail	succeeded
 clingo	succeeded
@@ -302,6 +302,7 @@ javapackages-tools	succeeded
 jc	failed
 jello	succeeded
 jsonnet	failed
+jupyterlab	succeeded
 kea	succeeded
 kerberoast	succeeded
 kernel-tools	failed
@@ -510,7 +511,7 @@ ogr2osm	succeeded
 omniORB	succeeded
 omniORBpy	succeeded
 onionshare	succeeded
-onnx	succeeded
+onnx	failed
 onnxruntime	failed
 opae	succeeded
 openbabel	succeeded
@@ -1019,7 +1020,7 @@ python-circuitbreaker	succeeded
 python-ciso8601	succeeded
 python-citeproc-py	succeeded
 python-claripy	succeeded
-python-cleo	succeeded
+python-cleo	failed
 python-click	succeeded
 python-click-completion	succeeded
 python-click-default-group	succeeded
@@ -1209,6 +1210,7 @@ python-dill	succeeded
 python-dingz	succeeded
 python-dirhash	succeeded
 python-dirq	succeeded
+python-dirty-equals	failed
 python-distlib	failed
 python-distro	succeeded
 python-distroinfo	succeeded
@@ -1513,7 +1515,7 @@ python-gpxpy	succeeded
 python-grabbit	failed
 python-grabserial	succeeded
 python-grafeas	succeeded
-python-graph-tool	failed
+python-graph-tool	succeeded
 python-graphene	succeeded
 python-graphql-core	succeeded
 python-graphql-relay	succeeded
@@ -1611,7 +1613,7 @@ python-iniconfig	succeeded
 python-iniparse	failed
 python-inject	succeeded
 python-injector	succeeded
-python-inkex	succeeded
+python-inkex	failed
 python-inotify	succeeded
 python-inotify_simple	succeeded
 python-inquirer	succeeded
@@ -1659,7 +1661,7 @@ python-jdcal	succeeded
 python-jellyfish	succeeded
 python-jenkins	succeeded
 python-jenkins-job-builder	failed
-python-jinja2	failed
+python-jinja2	succeeded
 python-jinja2-cli	succeeded
 python-jinja2_pluralize	succeeded
 python-jmespath	succeeded
@@ -1864,7 +1866,7 @@ python-msrestazure	succeeded
 python-mujson	succeeded
 python-mulpyplexer	succeeded
 python-multi_key_dict	succeeded
-python-multidict	failed
+python-multidict	succeeded
 python-multilib	succeeded
 python-multipart	succeeded
 python-multiprocess	failed
@@ -2071,6 +2073,7 @@ python-posix-ipc	succeeded
 python-pox	succeeded
 python-poyo	succeeded
 python-ppft	succeeded
+python-pplpy	succeeded
 python-precis_i18n	failed
 python-prefixed	succeeded
 python-pretend	succeeded
@@ -2232,6 +2235,7 @@ python-pypubsub	succeeded
 python-pyqt5-sip	failed
 python-pyqt6	failed
 python-pyqt6-sip	succeeded
+python-pyquery	failed
 python-pyrad	succeeded
 python-pyrate-limiter	succeeded
 python-pyrfc3339	succeeded
@@ -2447,9 +2451,11 @@ python-rpmautospec-core	succeeded
 python-rpmautospec-koji	succeeded
 python-rpmfluff	succeeded
 python-rpyc	succeeded
+python-rq	failed
 python-rsa	succeeded
 python-rst-linker	succeeded
 python-rstcheck	succeeded
+python-rstcheck-core	failed
 python-rstr	succeeded
 python-rtmidi	failed
 python-rtslib	succeeded
@@ -2925,7 +2931,7 @@ python-zeroconf	succeeded
 python-zict	succeeded
 python-zipp	succeeded
 python-zipstream	succeeded
-python-zlib-ng	failed
+python-zlib-ng	succeeded
 python-zm	succeeded
 python-zodbpickle	failed
 python-zombie-imp	succeeded
@@ -2955,6 +2961,7 @@ python3-mallard-ducktype	succeeded
 python3-mypy	succeeded
 python3-postgresql	succeeded
 python3-py3dns	succeeded
+python3-saml	succeeded
 python3-simpletal	succeeded
 python3-zope-fixers	failed
 python3.12	succeeded
@@ -3073,10 +3080,10 @@ swift-lang	failed
 sword	succeeded
 syslog-ng	succeeded
 sysmontask	succeeded
-system-config-printer	failed
+system-config-printer	succeeded
 system-storage-manager	succeeded
 systemd-coredump-python	succeeded
-systemtap	failed
+systemtap	succeeded
 targetcli	succeeded
 targetd	succeeded
 tbb	succeeded
