@@ -207,6 +207,7 @@ python-aioeafm
 python-aioflo
 python-aiohttp-socks
 python-aionotion
+python-aioruckus
 python-aiosmtpd
 python-alembic
 python-animatplot
@@ -734,10 +735,16 @@ python-slackclient
 python-slixmpp-omemo
 python-smbprotocol
 python-snakemake-executor-plugin-cluster-generic
+python-snakemake-executor-plugin-cluster-sync
+python-snakemake-executor-plugin-slurm-jobstep
+python-snakemake-executor-plugin-tes
 python-snakemake-interface-executor-plugins
 python-snakemake-interface-storage-plugins
+python-snakemake-storage-plugin-azure
+python-snakemake-storage-plugin-gcs
 python-snakemake-storage-plugin-http
 python-snakemake-storage-plugin-s3
+python-snakemake-storage-plugin-zenodo
 python-social-auth-core
 python-socketio
 python-socks
@@ -861,6 +868,7 @@ rpmdeplint
 rpmspectool
 rpy
 rtlsdr-scanner
+ruff-lsp
 salt
 samba
 scidavis

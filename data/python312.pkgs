@@ -958,6 +958,7 @@ python-aioquic
 python-aioresponses
 python-aiorestapi
 python-aiorpcx
+python-aioruckus
 python-aiosecretsdump
 python-aiosignal
 python-aiosmb
@@ -3275,11 +3276,17 @@ python-smbprotocol
 python-smi
 python-smmap
 python-snakemake-executor-plugin-cluster-generic
+python-snakemake-executor-plugin-cluster-sync
+python-snakemake-executor-plugin-slurm-jobstep
+python-snakemake-executor-plugin-tes
 python-snakemake-interface-common
 python-snakemake-interface-executor-plugins
 python-snakemake-interface-storage-plugins
+python-snakemake-storage-plugin-azure
+python-snakemake-storage-plugin-gcs
 python-snakemake-storage-plugin-http
 python-snakemake-storage-plugin-s3
+python-snakemake-storage-plugin-zenodo
 python-snappy
 python-snaptime
 python-sniffio
@@ -3875,6 +3882,7 @@ rteval
 rtlsdr-scanner
 rubber
 ruff
+ruff-lsp
 rust2rpm
 s-tui
 s3cmd
