@@ -25,9 +25,10 @@ ServiceReport	succeeded
 SoapySDR	succeeded
 WALinuxAgent	failed
 Zim	succeeded
-abiword	failed
+abiword	succeeded
 abrt	succeeded
 abrt-server-info-page	succeeded
+academic-admin	succeeded
 accerciser	succeeded
 adapt	succeeded
 adb-enhanced	succeeded
@@ -133,7 +134,7 @@ cranc	succeeded
 createrepo_c	succeeded
 criu	succeeded
 cryptlib	succeeded
-cryptominisat	succeeded
+cryptominisat	failed
 csdiff	succeeded
 csmock	succeeded
 csound	succeeded
@@ -305,7 +306,6 @@ javapackages-tools	succeeded
 jc	failed
 jello	succeeded
 jsonnet	failed
-jupyterlab	succeeded
 kea	succeeded
 kerberoast	succeeded
 kernel-tools	failed
@@ -386,7 +386,7 @@ libpreludedb	failed
 libpst	succeeded
 libpwquality	succeeded
 librealsense	succeeded
-libreoffice	failed
+libreoffice	succeeded
 librepo	succeeded
 libreport	succeeded
 libsavitar	succeeded
@@ -580,6 +580,7 @@ prewikka	succeeded
 prewikka-updatedb	succeeded
 printrun	succeeded
 profanity	failed
+proselint	succeeded
 protobuf	succeeded
 protontricks	succeeded
 protonvpn-cli	succeeded
@@ -942,6 +943,7 @@ python-berkeleydb	succeeded
 python-betamax	succeeded
 python-betamax-matchers	succeeded
 python-betamax-serializers	succeeded
+python-bibtexparser	succeeded
 python-bidict	succeeded
 python-bids-validator	succeeded
 python-billiard	succeeded
@@ -1129,6 +1131,7 @@ python-cooldict	succeeded
 python-copr	succeeded
 python-copr-common	succeeded
 python-coronavirus	succeeded
+python-cotyledon	succeeded
 python-cov-core	succeeded
 python-coverage	succeeded
 python-coverage_pth	succeeded
@@ -1216,7 +1219,7 @@ python-dill	succeeded
 python-dingz	succeeded
 python-dirhash	succeeded
 python-dirq	succeeded
-python-dirty-equals	failed
+python-dirty-equals	succeeded
 python-distlib	failed
 python-distro	succeeded
 python-distroinfo	succeeded
@@ -1418,6 +1421,7 @@ python-frozenlist	succeeded
 python-fs	succeeded
 python-fsleyes-widgets	succeeded
 python-fspath	succeeded
+python-ftputil	succeeded
 python-fuckit	succeeded
 python-funcparserlib	succeeded
 python-funcsigs	succeeded
@@ -1660,6 +1664,7 @@ python-jupyter-core	succeeded
 python-jupyter-packaging	succeeded
 python-jupyter-server-terminals	succeeded
 python-jupyter-ydoc	succeeded
+python-jupyterlab_pygments	succeeded
 python-justbases	succeeded
 python-justbytes	succeeded
 python-jwcrypto	succeeded
@@ -1934,6 +1939,8 @@ python-os-service-types	succeeded
 python-os-testr	succeeded
 python-osa	succeeded
 python-oscrypto	succeeded
+python-oslo-config	succeeded
+python-oslo-i18n	succeeded
 python-osrf-pycommon	succeeded
 python-outcome	succeeded
 python-outdated	succeeded
@@ -2110,6 +2117,7 @@ python-pyct	succeeded
 python-pycxx	succeeded
 python-pydantic	failed
 python-pydantic-core	failed
+python-pydantic-extra-types	failed
 python-pydbus	succeeded
 python-pydepsdev	succeeded
 python-pydicom	succeeded
@@ -2485,6 +2493,7 @@ python-should_dsl	succeeded
 python-show-in-file-manager	succeeded
 python-shtab	succeeded
 python-sieve	succeeded
+python-sievelib	succeeded
 python-signature-dispatch	succeeded
 python-signedjson	succeeded
 python-simple-rlp	succeeded
@@ -2511,6 +2520,8 @@ python-smbpasswd	succeeded
 python-smi	succeeded
 python-smmap	succeeded
 python-snakemake-interface-common	succeeded
+python-snakemake-interface-executor-plugins	succeeded
+python-snakemake-interface-storage-plugins	failed
 python-snappy	succeeded
 python-snaptime	succeeded
 python-sniffio	succeeded
@@ -2858,6 +2869,7 @@ python-xdot	succeeded
 python-xeddsa	succeeded
 python-xiaomi-gateway	succeeded
 python-xkbcommon	succeeded
+python-xkbregistry	succeeded
 python-xlib	succeeded
 python-xlrd	succeeded
 python-xlsxwriter	succeeded
@@ -3031,7 +3043,7 @@ speedtest-cli	succeeded
 sphinxbase	succeeded
 ssh-audit	succeeded
 sshuttle	succeeded
-sssd	succeeded
+sssd	failed
 stp	succeeded
 stratis-cli	succeeded
 strongswan	succeeded
@@ -3116,7 +3128,7 @@ virtme-ng	succeeded
 visidata	succeeded
 vit	succeeded
 volk	succeeded
-volume_key	failed
+volume_key	succeeded
 vrpn	failed
 wad	succeeded
 waf	succeeded
