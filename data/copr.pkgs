@@ -6,7 +6,7 @@ Cython	succeeded
 GeographicLib	succeeded
 GitPython	succeeded
 HepMC3	succeeded
-Io-language	failed
+Io-language	succeeded
 MUSIC	succeeded
 NFStest	succeeded
 NLopt	failed
@@ -26,7 +26,7 @@ SoapySDR	succeeded
 WALinuxAgent	failed
 Zim	succeeded
 abiword	succeeded
-abrt	failed
+abrt	succeeded
 abrt-server-info-page	succeeded
 academic-admin	succeeded
 accerciser	succeeded
@@ -67,7 +67,7 @@ babeltrace2	succeeded
 bandit	succeeded
 barman	succeeded
 battray	succeeded
-bcc	succeeded
+bcc	failed
 beaker	succeeded
 beets	succeeded
 binwalk	succeeded
@@ -93,6 +93,7 @@ btrfs-progs	failed
 btrfs-sxbackup	succeeded
 bubblemail	succeeded
 buildstream	failed
+bumpversion	succeeded
 buttermanager	succeeded
 cairo-dock-plug-ins	succeeded
 calamares	succeeded
@@ -244,6 +245,7 @@ gnome-builder	succeeded
 gnome-doc-utils	succeeded
 gnome-feeds	succeeded
 gnome-music	succeeded
+gnome-ponytail-daemon	succeeded
 gns3-gui	succeeded
 gns3-net-converter	succeeded
 gns3-server	succeeded
@@ -315,7 +317,7 @@ kf6-kapidox	succeeded
 khal	succeeded
 khard	succeeded
 kig	succeeded
-kismon	succeeded
+kismon	failed
 kitty	succeeded
 kiwi	succeeded
 koan	succeeded
@@ -562,6 +564,7 @@ piccata	succeeded
 piper	succeeded
 pipx	succeeded
 pitivi	succeeded
+pl	succeeded
 playitagainsam	succeeded
 pmbootstrap	succeeded
 pocketsphinx	succeeded
@@ -571,7 +574,7 @@ poezio-omemo	succeeded
 policycoreutils	succeeded
 portmidi	succeeded
 postfix-mta-sts-resolver	succeeded
-postgresql15	failed
+postgresql15	succeeded
 postgresql16	succeeded
 powerline	succeeded
 pre-commit	succeeded
@@ -741,6 +744,7 @@ python-aiohomekit	succeeded
 python-aiohttp	succeeded
 python-aiohttp-cors	succeeded
 python-aiohttp-negotiate	succeeded
+python-aiohttp-oauthlib	succeeded
 python-aiohttp-retry	succeeded
 python-aiohttp-sse-client	succeeded
 python-aiohue	succeeded
@@ -1519,6 +1523,7 @@ python-hgdistver	succeeded
 python-hid-parser	succeeded
 python-hidapi	succeeded
 python-hikvision	succeeded
+python-hiredis	succeeded
 python-hl7	failed
 python-hole	succeeded
 python-homeconnect	succeeded
@@ -2049,6 +2054,8 @@ python-pox	succeeded
 python-poyo	succeeded
 python-ppft	succeeded
 python-pplpy	succeeded
+python-praw	succeeded
+python-prawcore	succeeded
 python-precis_i18n	failed
 python-prefixed	succeeded
 python-pretend	succeeded
@@ -2341,6 +2348,7 @@ python-rangeparser	succeeded
 python-rarfile	succeeded
 python-ratelimiter	succeeded
 python-ratelimitingfilter	succeeded
+python-ratinabox	failed
 python-raven	succeeded
 python-rawkit	succeeded
 python-rcssmin	succeeded
@@ -2462,7 +2470,7 @@ python-scrypt	succeeded
 python-scss	failed
 python-sdnotify	succeeded
 python-secure_cookie	succeeded
-python-selenium	succeeded
+python-selenium	failed
 python-semantic_version	succeeded
 python-semver	succeeded
 python-send2trash	succeeded
@@ -2600,8 +2608,10 @@ python-spotipy	succeeded
 python-spur	succeeded
 python-sql	succeeded
 python-sqlacodegen	succeeded
+python-sqlalchemy	failed
 python-sqlalchemy-filters	succeeded
 python-sqlalchemy1.3	succeeded
+python-sqlalchemy1.4	failed
 python-sqlglot	succeeded
 python-sqlparse	succeeded
 python-ssdeep	succeeded
@@ -2639,6 +2649,7 @@ python-svg-path	succeeded
 python-svg2tikz	succeeded
 python-svgwrite	succeeded
 python-swagger-spec-validator	succeeded
+python-sybil	failed
 python-syrupy	succeeded
 python-syslog-rfc5424-formatter	succeeded
 python-sysrsync	succeeded
@@ -2667,6 +2678,7 @@ python-termcolor	succeeded
 python-terminado	succeeded
 python-terminaltables	succeeded
 python-teslajsonpy	succeeded
+python-testfixtures	succeeded
 python-testing.common.database	succeeded
 python-testpath	succeeded
 python-testrepository	succeeded
