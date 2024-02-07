@@ -69,9 +69,9 @@ def sort_by_maintainers(packages_with_maintainers, build_status):
 
 def create_failed_report(build_status):
     failure_report = {}
-    for pkg, bzurl in BUGZILLAS.items():
+    for pkg, bzurls in BUGZILLAS.items():
         if (state := build_status.get(pkg)) is not None:
-            failure_report[pkg] = {"bzurl": bzurl, "state": state}
+            failure_report[pkg] = {"bzurls": bzurls, "state": state}
     return failure_report
 
 
