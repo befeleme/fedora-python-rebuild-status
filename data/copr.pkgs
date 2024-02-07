@@ -234,6 +234,7 @@ git-filter-repo	failed
 git-pull-request	succeeded
 git-review	succeeded
 git-up	succeeded
+gitlint	succeeded
 gjots2	succeeded
 glade	failed
 globus-net-manager	succeeded
@@ -278,6 +279,7 @@ gumbo-parser	succeeded
 gwe	succeeded
 gwebsockets	succeeded
 gyp	succeeded
+h5py	failed
 hamlib	succeeded
 hashid	succeeded
 hddfancontrol	succeeded
@@ -480,7 +482,7 @@ nautilus-python	failed
 nbdkit	succeeded
 needrestart	succeeded
 nemo-extensions	failed
-nest	failed
+nest	succeeded
 net-snmp	succeeded
 netcdf4-python	failed
 netstat-monitor	succeeded
@@ -765,6 +767,7 @@ python-aioruckus	succeeded
 python-aiosecretsdump	succeeded
 python-aiosignal	succeeded
 python-aiosmb	succeeded
+python-aiosmtpd	failed
 python-aiosnmp	succeeded
 python-aiosqlite	succeeded
 python-aiounifi	succeeded
@@ -806,6 +809,7 @@ python-argopt	succeeded
 python-argparse-dataclass	succeeded
 python-arpeggio	succeeded
 python-arpy	succeeded
+python-arrow	succeeded
 python-asciitree	succeeded
 python-ase	succeeded
 python-asgiref	succeeded
@@ -826,6 +830,7 @@ python-asyncmy	succeeded
 python-asyncssh	failed
 python-asysocks	succeeded
 python-atomicwrites	succeeded
+python-atpublic	succeeded
 python-attrs	failed
 python-audioread	failed
 python-augeas	succeeded
@@ -1131,6 +1136,7 @@ python-construct-classes	succeeded
 python-container-inspector	succeeded
 python-contourpy	succeeded
 python-convertdate	succeeded
+python-cookiecutter	succeeded
 python-cooldict	succeeded
 python-copr	succeeded
 python-copr-common	succeeded
@@ -1182,6 +1188,7 @@ python-daiquiri	succeeded
 python-damo	succeeded
 python-danfossair	succeeded
 python-dasbus	succeeded
+python-dateparser	succeeded
 python-datetimerange	succeeded
 python-dateutil	succeeded
 python-dateutils	succeeded
@@ -1407,6 +1414,9 @@ python-flit	succeeded
 python-flit-core	succeeded
 python-flit-scm	succeeded
 python-flock	succeeded
+python-flufl-bounce	succeeded
+python-flufl-i18n	succeeded
+python-flufl-lock	succeeded
 python-flufl-testing	succeeded
 python-fluidity-sm	succeeded
 python-fontMath	succeeded
@@ -1612,9 +1622,11 @@ python-iso3166	succeeded
 python-iso639	succeeded
 python-iso8601	succeeded
 python-isodate	succeeded
+python-isoduration	succeeded
 python-isort	succeeded
 python-itanium_demangler	succeeded
 python-itemadapter	succeeded
+python-itemloaders	succeeded
 python-itsdangerous	succeeded
 python-j1m.sphinxautozconfig	succeeded
 python-jack-client	succeeded
@@ -1639,6 +1651,7 @@ python-jenkins	succeeded
 python-jenkins-job-builder	failed
 python-jinja2	failed
 python-jinja2-cli	succeeded
+python-jinja2-time	succeeded
 python-jinja2_pluralize	succeeded
 python-jmespath	succeeded
 python-joblib	succeeded
@@ -1940,6 +1953,7 @@ python-opytimizer	succeeded
 python-oracledb	succeeded
 python-ordered-set	succeeded
 python-orderedset	failed
+python-orjson	failed
 python-os-service-types	succeeded
 python-os-testr	succeeded
 python-osa	succeeded
@@ -1966,6 +1980,7 @@ python-paramiko	succeeded
 python-parse	succeeded
 python-parse_type	succeeded
 python-parsedatetime	succeeded
+python-parsel	succeeded
 python-parsimonious	succeeded
 python-parso	failed
 python-parver	succeeded
@@ -2003,7 +2018,7 @@ python-perky	succeeded
 python-persist-queue	succeeded
 python-persistent	succeeded
 python-pexpect	succeeded
-python-pg8000	succeeded
+python-pg8000	failed
 python-phonenumbers	succeeded
 python-photutils	succeeded
 python-phply	succeeded
@@ -2117,7 +2132,7 @@ python-pycomm3	succeeded
 python-pycomposefile	succeeded
 python-pycosat	succeeded
 python-pycotap	succeeded
-python-pycountry	failed
+python-pycountry	succeeded
 python-pycparser	succeeded
 python-pycryptodomex	succeeded
 python-pyct	succeeded
@@ -2282,6 +2297,7 @@ python-pytest-isort	succeeded
 python-pytest-lazy-fixture	succeeded
 python-pytest-localserver	succeeded
 python-pytest-mock	succeeded
+python-pytest-mpi	succeeded
 python-pytest-mpl	succeeded
 python-pytest-multihost	succeeded
 python-pytest-openfiles	succeeded
@@ -2309,6 +2325,7 @@ python-pytest-watch	succeeded
 python-pytest-xdist	succeeded
 python-pytest-xprocess	succeeded
 python-pytest-xvfb	succeeded
+python-python-ulid	succeeded
 python-pytimeparse	succeeded
 python-pytn3270	failed
 python-pytools	succeeded
@@ -2463,7 +2480,7 @@ python-scikit-misc	failed
 python-scitokens	succeeded
 python-scour	succeeded
 python-scp	succeeded
-python-scramp	succeeded
+python-scramp	failed
 python-scripttest	succeeded
 python-scripttester	succeeded
 python-scrypt	succeeded
@@ -2649,7 +2666,7 @@ python-svg-path	succeeded
 python-svg2tikz	succeeded
 python-svgwrite	succeeded
 python-swagger-spec-validator	succeeded
-python-sybil	failed
+python-sybil	succeeded
 python-syrupy	succeeded
 python-syslog-rfc5424-formatter	succeeded
 python-sysrsync	succeeded
@@ -2877,6 +2894,7 @@ python-wxpython4	succeeded
 python-xattr	succeeded
 python-xboxapi	succeeded
 python-xcffib	succeeded
+python-xdfile	succeeded
 python-xdot	succeeded
 python-xeddsa	succeeded
 python-xiaomi-gateway	succeeded
@@ -2896,6 +2914,7 @@ python-xnat	succeeded
 python-xpath-expressions	succeeded
 python-xunitparser	succeeded
 python-xvfbwrapper	succeeded
+python-xword-dl	succeeded
 python-xxhash	succeeded
 python-xyzservices	succeeded
 python-y-py	succeeded
@@ -3127,7 +3146,7 @@ usbrelay	succeeded
 ustreamer	succeeded
 util-linux	succeeded
 vapoursynth	succeeded
-vdirsyncer	failed
+vdirsyncer	succeeded
 vdr-epg-daemon	succeeded
 vdr-epg2vdr	succeeded
 vex	succeeded

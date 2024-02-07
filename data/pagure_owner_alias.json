@@ -19459,6 +19459,7 @@
         ],
         "fftw2": [
             "jamatos",
+            "terjeros",
             "lkundrak"
         ],
         "ffuf": [
@@ -29662,7 +29663,7 @@
             "jchaloup"
         ],
         "golang-github-googlecloudplatform-guest-logging": [
-            "mhayden",
+            "orphan",
             "ngompa"
         ],
         "golang-github-googlecloudplatform-k8s-cloud-provider": [
@@ -35086,7 +35087,7 @@
             "pnemade"
         ],
         "google-compute-engine-guest-configs": [
-            "mhayden",
+            "orphan",
             "ngompa"
         ],
         "google-compute-engine-oslogin": [
@@ -35112,7 +35113,7 @@
             "orphan"
         ],
         "google-disk-expand": [
-            "mhayden"
+            "orphan"
         ],
         "google-droid-fonts": [
             "aekoroglu",
@@ -35128,7 +35129,7 @@
             "sergiomb"
         ],
         "google-guest-agent": [
-            "mhayden",
+            "orphan",
             "ngompa"
         ],
         "google-guice": [
@@ -35172,7 +35173,7 @@
             "orphan"
         ],
         "google-osconfig-agent": [
-            "mhayden"
+            "orphan"
         ],
         "google-perftools": [
             "orphan"
@@ -49926,6 +49927,9 @@
         "libvpx7": [
             "pwalter"
         ],
+        "libvpx8": [
+            "pwalter"
+        ],
         "libvte-java": [
             "orphan"
         ],
@@ -50612,7 +50616,8 @@
             "tuliom"
         ],
         "lld16": [
-            "tuliom"
+            "tuliom",
+            "tstellar"
         ],
         "lld17": [
             "tstellar"
@@ -75391,6 +75396,9 @@
         "perl-Net-Appliance-Session": [
             "slaanesh"
         ],
+        "perl-Net-Async-SOCKS": [
+            "cmadams"
+        ],
         "perl-Net-BGP": [
             "robert"
         ],
@@ -75857,6 +75865,9 @@
         ],
         "perl-Object-ID": [
             "pghmcfc"
+        ],
+        "perl-Object-Import": [
+            "cmadams"
         ],
         "perl-Object-InsideOut": [
             "pghmcfc",
@@ -78290,6 +78301,9 @@
         "perl-Test-Future-IO-Impl": [
             "eseyman"
         ],
+        "perl-Test-HTTP-LocalServer": [
+            "cmadams"
+        ],
         "perl-Test-HTTP-Server-Simple": [
             "corsepiu"
         ],
@@ -80457,6 +80471,9 @@
         ],
         "perl-mecab": [
             "mtasaka"
+        ],
+        "perl-meta": [
+            "ppisar"
         ],
         "perl-mime-construct": [
             "eseyman",
@@ -88751,6 +88768,9 @@
         "python-azure-mgmt-web": [
             "mhayden"
         ],
+        "python-azure-monitor-query": [
+            "mhayden"
+        ],
         "python-azure-multiapi-storage": [
             "mhayden"
         ],
@@ -95400,7 +95420,8 @@
             "vtrefny"
         ],
         "python-orjson": [
-            "gotmax23"
+            "gotmax23",
+            "music"
         ],
         "python-os-brick": [
             "jpena",
@@ -108146,10 +108167,10 @@
             "limb"
         ],
         "runc": [
-            "lsm5",
+            "kir",
             "jchaloup",
             "davanum",
-            "kir",
+            "lsm5",
             "haircommander",
             "baude",
             "dwalsh",
@@ -112538,7 +112559,8 @@
             "orphan"
         ],
         "rust-jiter": [
-            "gotmax23"
+            "gotmax23",
+            "music"
         ],
         "rust-jobserver": [
             "decathorpe"
@@ -115373,6 +115395,9 @@
         "rust-retry": [
             "decathorpe"
         ],
+        "rust-retry1": [
+            "decathorpe"
+        ],
         "rust-rfc2047-decoder": [
             "decathorpe"
         ],
@@ -117172,7 +117197,7 @@
             "albertlarsan68"
         ],
         "rust-totp-lite": [
-            "orphan"
+            "salimma"
         ],
         "rust-tower": [
             "decathorpe"
@@ -127685,6 +127710,9 @@
         ],
         "whipper-plugin-eaclogger": [
             "orphan"
+        ],
+        "whisper-cpp": [
+            "releng-bot"
         ],
         "whohas": [
             "fab"
