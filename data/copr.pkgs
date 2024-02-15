@@ -168,6 +168,7 @@ dnf-plugin-ovl	succeeded
 dnf-plugin-perfmetrics	succeeded
 dnf-plugins-core	succeeded
 dnf-plugins-extras	succeeded
+dnf5	succeeded
 dnfdaemon	succeeded
 dnfdragora	succeeded
 dnsconfd	succeeded
@@ -222,6 +223,7 @@ future	failed
 gammastep	succeeded
 gaupol	succeeded
 gcovr	succeeded
+gdal	failed
 gdb	succeeded
 gdcm	failed
 gedit	succeeded
@@ -289,12 +291,14 @@ hexchat	succeeded
 hivex	succeeded
 hokuyoaist	succeeded
 hstsparser	succeeded
+hugin	succeeded
 hydrapaper	succeeded
 i2c-tools	succeeded
 ibus	succeeded
 ibus-cangjie	succeeded
 imagefactory	succeeded
 imagefactory-plugins	succeeded
+imath	succeeded
 impressive	succeeded
 ini2toml	succeeded
 inn	succeeded
@@ -535,6 +539,7 @@ openscap	failed
 openscap-report	succeeded
 openssh-ldap-authkeys	succeeded
 opentrep	succeeded
+openvdb	running
 openvswitch	failed
 openwsman	succeeded
 orca	succeeded
@@ -600,6 +605,7 @@ pss	succeeded
 pssh	succeeded
 puddletag	succeeded
 pulsecaster	succeeded
+pungi	failed
 pwncat	succeeded
 py-radix	failed
 py-spidev	succeeded
@@ -676,6 +682,7 @@ python-Pallets-Sphinx-Themes	succeeded
 python-PyGithub	succeeded
 python-PyLEMS	succeeded
 python-PyLink	succeeded
+python-PyMuPDF	succeeded
 python-PyMunin3	succeeded
 python-PyMySQL	succeeded
 python-PyPDF2	succeeded
@@ -741,6 +748,9 @@ python-aenum	succeeded
 python-aexpect	succeeded
 python-affine	succeeded
 python-afsapi	succeeded
+python-agate	succeeded
+python-agate-dbf	succeeded
+python-agate-excel	succeeded
 python-ailment	succeeded
 python-aioasuswrt	succeeded
 python-aiocmd	succeeded
@@ -997,6 +1007,7 @@ python-bowler	succeeded
 python-box	succeeded
 python-boxsdk	succeeded
 python-bracex	succeeded
+python-breathe	succeeded
 python-brukerapi	succeeded
 python-bsddb3	succeeded
 python-bsmschema	succeeded
@@ -1302,6 +1313,7 @@ python-dotmap	succeeded
 python-doubleratchet	succeeded
 python-doxypypy	succeeded
 python-doxyqml	succeeded
+python-dparse2	succeeded
 python-dpath	succeeded
 python-dpkt	succeeded
 python-drgn	failed
@@ -1401,6 +1413,7 @@ python-flake8-quotes	succeeded
 python-flaky	succeeded
 python-flask	succeeded
 python-flask-admin	succeeded
+python-flask-babel	succeeded
 python-flask-basicauth	failed
 python-flask-caching	succeeded
 python-flask-compress	succeeded
@@ -1453,6 +1466,7 @@ python-fuckit	succeeded
 python-funcparserlib	succeeded
 python-funcsigs	succeeded
 python-funcy	succeeded
+python-furo	succeeded
 python-fuse	succeeded
 python-futurist	succeeded
 python-fuzzyfinder	succeeded
@@ -1865,6 +1879,7 @@ python-moss	succeeded
 python-mozilla-django-oidc	succeeded
 python-mpd	succeeded
 python-mplcairo	succeeded
+python-mplcursors	succeeded
 python-mpmath	succeeded
 python-mrcfile	succeeded
 python-mrcrowbar	succeeded
@@ -1994,6 +2009,7 @@ python-ovirt-engine-sdk4	succeeded
 python-owl_rl	succeeded
 python-packageurl-python	succeeded
 python-packaging	succeeded
+python-packvers	succeeded
 python-paho-mqtt	succeeded
 python-palettable	succeeded
 python-pam	succeeded
@@ -2166,6 +2182,7 @@ python-pyct	succeeded
 python-pycxx	succeeded
 python-pydantic	failed
 python-pydantic-core	succeeded
+python-pydata-sphinx-theme	succeeded
 python-pydbus	succeeded
 python-pydepsdev	succeeded
 python-pydicom	succeeded
@@ -2616,6 +2633,7 @@ python-sphinx-reredirects	succeeded
 python-sphinx-sitemap	succeeded
 python-sphinx-tabs	succeeded
 python-sphinx-theme-alabaster	succeeded
+python-sphinx-theme-builder	succeeded
 python-sphinx-theme-py3doc-enhanced	succeeded
 python-sphinx-typlog-theme	succeeded
 python-sphinx_lv2_theme	succeeded
@@ -2945,6 +2963,7 @@ python-xmltramp	succeeded
 python-xmp-toolkit	succeeded
 python-xnat	succeeded
 python-xpath-expressions	succeeded
+python-xrst	succeeded
 python-xunitparser	succeeded
 python-xvfbwrapper	succeeded
 python-xword-dl	succeeded
@@ -3068,7 +3087,7 @@ rust2rpm	succeeded
 s-tui	succeeded
 s3cmd	succeeded
 salt-lint	succeeded
-sanlock	failed
+sanlock	succeeded
 sasutils	succeeded
 satyr	succeeded
 scanless	succeeded
@@ -3189,6 +3208,7 @@ vdirsyncer	succeeded
 vdr-epg-daemon	succeeded
 vdr-epg2vdr	succeeded
 vex	succeeded
+vigra	succeeded
 vim-jedi	succeeded
 vimiv	succeeded
 virt-lightning	succeeded
