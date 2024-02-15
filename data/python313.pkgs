@@ -39,6 +39,7 @@ apbs
 appliance-tools
 apx
 arandr
+arbor
 argparse-manpage
 artifacts
 asahi-installer
@@ -395,6 +396,7 @@ linode-cli
 linux-thermaltake-rgb
 liquidctl
 lirc
+litecli
 livecd-tools
 lldb
 loook
@@ -427,6 +429,7 @@ miniupnpc
 mirage
 mkosi
 mlir
+mlpack
 mock
 module-build
 modulemd-tools
@@ -608,10 +611,12 @@ python-APScheduler
 python-AWSIoTPythonSDK
 python-Automat
 python-BTrees
+python-Bottleneck
 python-CommonMark
 python-GeoIP
 python-GridDataFormats
 python-IPy
+python-Levenshtein
 python-ModulemdTranslationHelpers
 python-MultipartPostHandler2
 python-Naked
@@ -902,6 +907,7 @@ python-billiard
 python-binary-memcached
 python-binaryornot
 python-binstruct
+python-bioframe
 python-biscuits
 python-bitarray
 python-bitcoinlib
@@ -977,6 +983,8 @@ python-circuitbreaker
 python-ciso8601
 python-citeproc-py
 python-claripy
+python-cleo
+python-cli-helpers
 python-click
 python-click-completion
 python-click-default-group
@@ -1072,6 +1080,7 @@ python-constantly
 python-construct
 python-construct-classes
 python-container-inspector
+python-contextualbandits
 python-contourpy
 python-convertdate
 python-cookiecutter
@@ -1519,9 +1528,11 @@ python-inkex
 python-inotify
 python-inotify_simple
 python-inquirer
+python-inspyred
 python-installer
 python-instant
 python-intern
+python-interrogate
 python-intervaltree
 python-into-dbus-python
 python-invoke
@@ -1616,6 +1627,7 @@ python-kismet-rest
 python-kitchen
 python-kiwisolver
 python-kmod
+python-knack
 python-korean-lunar-calendar
 python-krb5
 python-kubernetes
@@ -1714,6 +1726,7 @@ python-mediafile
 python-meh
 python-memcached
 python-menuinst
+python-mercantile
 python-merge3
 python-mergedeep
 python-meson-python
@@ -1729,9 +1742,11 @@ python-minidump
 python-minikerberos
 python-mirakuru
 python-mirrors-countme
+python-missingno
 python-mistune
 python-mistune08
 python-mitogen
+python-mizani
 python-mmtf
 python-mnemonic
 python-mock
@@ -1801,6 +1816,9 @@ python-netifaces
 python-networkx
 python-neurodsp
 python-nh3
+python-niaaml
+python-niaarm
+python-niapy
 python-nihtest
 python-nine
 python-nitrate
@@ -1826,6 +1844,7 @@ python-ntplib
 python-nudatus
 python-num2words
 python-numcodecs
+python-numpydoc
 python-oauth
 python-oauth2
 python-oauth2client
@@ -1850,6 +1869,7 @@ python-openshift
 python-openslide
 python-openstackdocstheme
 python-opentype-sanitizer
+python-opfunu
 python-opytimark
 python-opytimizer
 python-oracledb
@@ -1874,6 +1894,8 @@ python-paho-mqtt
 python-palettable
 python-pam
 python-pamela
+python-pandas
+python-pandas-datareader
 python-pandocfilters
 python-parameter-expansion-patched
 python-parameterized
@@ -2101,6 +2123,7 @@ python-pynsgr
 python-pynuvo
 python-pyobd
 python-pyocr
+python-pyongc
 python-pyopencl
 python-pyotgw
 python-pyotp
@@ -2121,6 +2144,7 @@ python-pyqt6-sip
 python-pyrad
 python-pyrate-limiter
 python-pyrfc3339
+python-pyriemann
 python-pyro
 python-pyroaring
 python-pyroute2
@@ -2222,6 +2246,7 @@ python-pyvlx
 python-pywayland
 python-pywizlight
 python-pywlroots
+python-pywt
 python-pyxdameraulevenshtein
 python-pyxdf
 python-pyxid
@@ -2244,6 +2269,7 @@ python-rak811
 python-random2
 python-rangehttpserver
 python-rangeparser
+python-rapidfuzz
 python-rarfile
 python-ratelimiter
 python-ratelimitingfilter
@@ -2354,6 +2380,7 @@ python-schema
 python-scikit-build
 python-scikit-learn
 python-scikit-misc
+python-scikit-uplift
 python-scitokens
 python-scour
 python-scp
@@ -2361,6 +2388,7 @@ python-scripttest
 python-scripttester
 python-scrypt
 python-sdnotify
+python-seaborn
 python-secure_cookie
 python-semantic_version
 python-semver
@@ -2443,6 +2471,7 @@ python-sphinx-design
 python-sphinx-documatt-theme
 python-sphinx-epytext
 python-sphinx-gallery
+python-sphinx-hoverxref
 python-sphinx-inline-tabs
 python-sphinx-intl
 python-sphinx-issues
@@ -2467,6 +2496,7 @@ python-sphinx_selective_exclude
 python-sphinxcontrib-apidoc
 python-sphinxcontrib-asyncio
 python-sphinxcontrib-autoprogram
+python-sphinxcontrib-bibtex
 python-sphinxcontrib-blockdiag
 python-sphinxcontrib-devhelp
 python-sphinxcontrib-github-alt
@@ -2489,6 +2519,7 @@ python-sphinxcontrib-zopeext
 python-sphinxemoji
 python-sphinxext-opengraph
 python-sphinxext-rediraffe
+python-sphinxtesters
 python-sphinxygen
 python-sphobjinv
 python-spotipy
@@ -2524,6 +2555,7 @@ python-stripe
 python-stuf
 python-subarulink
 python-subprocess-tee
+python-succulent
 python-suds
 python-supersmoother
 python-sure
@@ -2541,6 +2573,7 @@ python-system-calls
 python-systemd
 python-sysv_ipc
 python-tablib
+python-tabulate
 python-tasklib
 python-tasmotadevicecontroller
 python-tbtrim
@@ -2570,6 +2603,7 @@ python-testresources
 python-testscenarios
 python-testtools
 python-text-unidecode
+python-textdistance
 python-textfsm
 python-textile
 python-textparser
@@ -2862,6 +2896,7 @@ rig
 rmlint
 rmol
 rofimoji
+root
 rpl
 rpm
 rpm-head-signing
@@ -2979,6 +3014,7 @@ udiskie
 uflash
 ufw
 uhd
+ulauncher
 unbound
 unicorn
 urjtag
