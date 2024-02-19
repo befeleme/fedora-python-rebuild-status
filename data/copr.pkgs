@@ -307,7 +307,6 @@ input-remapper	succeeded
 insight	succeeded
 intelhex	succeeded
 ioc-writer	succeeded
-iotop	failed
 irclog2html	succeeded
 is-it-in-rhel	succeeded
 iscsi-initiator-utils	succeeded
@@ -320,14 +319,12 @@ jsonnet	failed
 kea	succeeded
 kerberoast	succeeded
 kernel	running
-kernel-tools	failed
 keycloak-httpd-client-install	succeeded
 keylime	succeeded
 kf6-kapidox	succeeded
 khal	succeeded
 khard	succeeded
 kig	succeeded
-kismon	failed
 kitty	failed
 kiwi	succeeded
 kiwi-boxed-plugin	succeeded
@@ -472,7 +469,7 @@ mirage	succeeded
 mkosi	succeeded
 mkosi14	failed
 mlir	succeeded
-mlpack	failed
+mlpack	succeeded
 mock	succeeded
 mod_wsgi	failed
 module-build	succeeded
@@ -521,7 +518,7 @@ ntpsec	succeeded
 numpy	failed
 nut	failed
 nvmetcli	succeeded
-nwchem	running
+nwchem	succeeded
 nwg-panel	succeeded
 nwg-wrapper	succeeded
 nyx	succeeded
@@ -539,7 +536,7 @@ opae	succeeded
 openbabel	succeeded
 openmeeg	succeeded
 openmpi	succeeded
-openscap	running
+openscap	failed
 openscap-report	succeeded
 openssh-ldap-authkeys	succeeded
 opentrep	succeeded
@@ -1148,7 +1145,6 @@ python-commandparse	succeeded
 python-commoncode	succeeded
 python-compal	succeeded
 python-compreffor	succeeded
-python-compressed-rtf	failed
 python-conda-inject	succeeded
 python-conda-libmamba-solver	succeeded
 python-configargparse	failed
@@ -1540,7 +1536,7 @@ python-gpiozero	succeeded
 python-gpxpy	succeeded
 python-grabbit	failed
 python-grabserial	succeeded
-python-graph-tool	running
+python-graph-tool	failed
 python-graphene	succeeded
 python-graphql-core	succeeded
 python-graphql-relay	succeeded
@@ -1588,7 +1584,6 @@ python-hstspreload	succeeded
 python-html2text	succeeded
 python-html5-parser	failed
 python-html5lib	succeeded
-python-htmlmin	failed
 python-httmock	succeeded
 python-http-client	succeeded
 python-http-ece	succeeded
@@ -1694,7 +1689,7 @@ python-jdcal	succeeded
 python-jellyfish	succeeded
 python-jenkins	succeeded
 python-jenkins-job-builder	failed
-python-jinja2	failed
+python-jinja2	succeeded
 python-jinja2-cli	succeeded
 python-jinja2-time	succeeded
 python-jinja2_pluralize	succeeded
@@ -1717,7 +1712,6 @@ python-jsonrpclib	succeeded
 python-jsons	succeeded
 python-jsonschema	succeeded
 python-jsonschema-path	succeeded
-python-jsonschema-spec	failed
 python-jsonschema-specifications	succeeded
 python-jsonstreams	succeeded
 python-junit_xml	succeeded
@@ -1908,7 +1902,7 @@ python-msrestazure	succeeded
 python-mujson	succeeded
 python-mulpyplexer	succeeded
 python-multi_key_dict	succeeded
-python-multidict	failed
+python-multidict	succeeded
 python-multilib	succeeded
 python-multipart	succeeded
 python-multiprocess	failed
@@ -2201,7 +2195,7 @@ python-pycryptodomex	succeeded
 python-pyct	succeeded
 python-pycxx	succeeded
 python-pydantic	failed
-python-pydantic-core	failed
+python-pydantic-core	succeeded
 python-pydata-sphinx-theme	succeeded
 python-pydbus	succeeded
 python-pydepsdev	succeeded
@@ -2446,8 +2440,7 @@ python-readchar	succeeded
 python-readlike	succeeded
 python-readme-renderer	succeeded
 python-recommonmark	succeeded
-python-recordclass	waiting
-python-red-black-tree-mod	failed
+python-recordclass	failed
 python-redis	succeeded
 python-reedsolo	succeeded
 python-referencing	succeeded
@@ -2744,7 +2737,7 @@ python-svg-path	succeeded
 python-svg2tikz	succeeded
 python-svgwrite	succeeded
 python-swagger-spec-validator	succeeded
-python-sybil	failed
+python-sybil	succeeded
 python-syrupy	succeeded
 python-syslog-rfc5424-formatter	succeeded
 python-sysrsync	succeeded
@@ -2971,7 +2964,7 @@ python-wtforms	succeeded
 python-wurlitzer	succeeded
 python-www-authenticate	succeeded
 python-wxnatpy	succeeded
-python-wxpython4	running
+python-wxpython4	succeeded
 python-xattr	succeeded
 python-xboxapi	succeeded
 python-xcffib	succeeded
@@ -3070,7 +3063,7 @@ qpid-proton	succeeded
 qr-code-generator	succeeded
 qtile	succeeded
 quearcode	succeeded
-quisk	failed
+quisk	succeeded
 quodlibet	failed
 qutebrowser	succeeded
 rabbitvcs	succeeded
@@ -3122,7 +3115,7 @@ sasutils	succeeded
 satyr	succeeded
 scanless	succeeded
 scapy	succeeded
-scipy	failed
+scipy	succeeded
 scons	succeeded
 screenkey	succeeded
 seadrive-daemon	succeeded
@@ -3243,7 +3236,6 @@ vim-jedi	succeeded
 vimiv	succeeded
 virt-lightning	succeeded
 virt-who	succeeded
-virtme	failed
 virtme-ng	succeeded
 visidata	succeeded
 vit	succeeded
