@@ -7,7 +7,7 @@ from loaders import load_data, load_monitor_report
 BUGZILLA = 'bugzilla.redhat.com'
 BZ_PAGE_SIZE = 20
 TRACKER = 2244836  # PYTHON3.13
-RAWHIDE = 2231791  # F40FTBFS
+RAWHIDE = 2260875  # F41FTBFS
 BZAPI = bugzilla.Bugzilla(BUGZILLA)
 
 FAILED = load_data("data/failed.pkgs")
