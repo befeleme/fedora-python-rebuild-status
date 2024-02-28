@@ -51,7 +51,7 @@ asahi-installer	succeeded
 asciidoc	succeeded
 asciinema	succeeded
 assimp	succeeded
-astrometry	failed
+astrometry	running
 atomic-reactor	succeeded
 aubio	failed
 audiotube	succeeded
@@ -113,7 +113,7 @@ cepces	succeeded
 ceph	failed
 cffconvert	succeeded
 cjdns	succeeded
-clang	succeeded
+clang	failed
 classification-banner	succeeded
 claws-mail	succeeded
 clingo	succeeded
@@ -321,7 +321,7 @@ jello	succeeded
 jsonnet	failed
 kea	succeeded
 kerberoast	succeeded
-kernel	running
+kernel	failed
 keycloak-httpd-client-install	succeeded
 keylime	succeeded
 kf6-kapidox	succeeded
@@ -554,7 +554,6 @@ osbuild	succeeded
 osc	succeeded
 otf2	succeeded
 oval-graph	succeeded
-oz	failed
 pacemaker	succeeded
 pagure	succeeded
 pagure-dist-git	succeeded
@@ -842,7 +841,7 @@ python-aspy.yaml	succeeded
 python-asteval	succeeded
 python-astor	succeeded
 python-astral	succeeded
-python-astroML	failed
+python-astroML	succeeded
 python-astroid	failed
 python-astropy	succeeded
 python-astunparse	succeeded
@@ -867,7 +866,6 @@ python-autopep8	failed
 python-autoprop	succeeded
 python-avocado	failed
 python-awesomeversion	succeeded
-python-aws-sam-translator	failed
 python-awscrt	succeeded
 python-awsiotsdk	succeeded
 python-axolotl	succeeded
@@ -1135,7 +1133,6 @@ python-collada	succeeded
 python-collectd_puppet	succeeded
 python-collectd_systemd	succeeded
 python-colorama	succeeded
-python-colorcet	failed
 python-colorclass	succeeded
 python-colored	succeeded
 python-colored-traceback	succeeded
@@ -1485,7 +1482,7 @@ python-fvs	succeeded
 python-fypp	succeeded
 python-gammu	succeeded
 python-gast	succeeded
-python-gatspy	failed
+python-gatspy	succeeded
 python-gattlib	succeeded
 python-gbinder	succeeded
 python-gbulb	succeeded
@@ -1539,7 +1536,7 @@ python-gpiozero	succeeded
 python-gpxpy	succeeded
 python-grabbit	failed
 python-grabserial	succeeded
-python-graph-tool	running
+python-graph-tool	failed
 python-graphene	succeeded
 python-graphql-core	succeeded
 python-graphql-relay	succeeded
@@ -1974,7 +1971,7 @@ python-nudatus	succeeded
 python-nuheat	failed
 python-num2words	succeeded
 python-numcodecs	succeeded
-python-numexpr	failed
+python-numexpr	succeeded
 python-numpydoc	succeeded
 python-oauth	succeeded
 python-oauth2	succeeded
@@ -2014,7 +2011,6 @@ python-os-service-types	succeeded
 python-os-testr	succeeded
 python-osa	succeeded
 python-oscrypto	succeeded
-python-oslo-config	failed
 python-oslo-i18n	succeeded
 python-osrf-pycommon	succeeded
 python-outcome	succeeded
@@ -2616,8 +2612,6 @@ python-smi	succeeded
 python-smmap	succeeded
 python-snakemake-interface-common	succeeded
 python-snakemake-interface-executor-plugins	succeeded
-python-snakemake-interface-report-plugins	failed
-python-snakemake-interface-storage-plugins	failed
 python-snappy	succeeded
 python-snaptime	succeeded
 python-sniffio	succeeded
@@ -2701,10 +2695,8 @@ python-spotipy	succeeded
 python-spur	succeeded
 python-sql	succeeded
 python-sqlacodegen	succeeded
-python-sqlalchemy	failed
 python-sqlalchemy-filters	succeeded
 python-sqlalchemy1.3	succeeded
-python-sqlalchemy1.4	failed
 python-sqlglot	succeeded
 python-sqlparse	succeeded
 python-ssdeep	succeeded
@@ -2750,6 +2742,7 @@ python-sysrsync	succeeded
 python-system-calls	succeeded
 python-systemd	succeeded
 python-sysv_ipc	succeeded
+python-tables	failed
 python-tablib	succeeded
 python-tabulate	succeeded
 python-tasklib	succeeded
