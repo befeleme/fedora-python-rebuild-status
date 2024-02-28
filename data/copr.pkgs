@@ -39,6 +39,7 @@ alacarte	succeeded
 alot	succeeded
 ampy	succeeded
 ansible-bender	succeeded
+ansible-core	failed
 apbs	succeeded
 appliance-tools	succeeded
 apx	succeeded
@@ -96,7 +97,7 @@ bubblemail	succeeded
 buildstream	failed
 bumpversion	succeeded
 buttermanager	succeeded
-cairo-dock-plug-ins	failed
+cairo-dock-plug-ins	succeeded
 calamares	succeeded
 cantera	succeeded
 cantoolz	succeeded
@@ -320,7 +321,7 @@ jello	succeeded
 jsonnet	failed
 kea	succeeded
 kerberoast	succeeded
-kernel	failed
+kernel	running
 keycloak-httpd-client-install	succeeded
 keylime	succeeded
 kf6-kapidox	succeeded
@@ -398,7 +399,7 @@ libpreludedb	failed
 libpst	succeeded
 libpwquality	succeeded
 librealsense	succeeded
-libreoffice	failed
+libreoffice	running
 librepo	succeeded
 libreport	succeeded
 libsavitar	succeeded
@@ -676,7 +677,6 @@ python-Bottleneck	succeeded
 python-CacheControl	succeeded
 python-CommonMark	succeeded
 python-GeoIP	succeeded
-python-GridDataFormats	failed
 python-IPy	succeeded
 python-Levenshtein	succeeded
 python-ModulemdTranslationHelpers	succeeded
@@ -687,7 +687,7 @@ python-Pallets-Sphinx-Themes	succeeded
 python-PyGithub	succeeded
 python-PyLEMS	succeeded
 python-PyLink	succeeded
-python-PyMuPDF	failed
+python-PyMuPDF	succeeded
 python-PyMunin3	succeeded
 python-PyMySQL	succeeded
 python-PyPDF2	succeeded
@@ -967,7 +967,7 @@ python-baluhn	succeeded
 python-banal	succeeded
 python-batalgorithm	succeeded
 python-batinfo	succeeded
-python-bcrypt	failed
+python-bcrypt	succeeded
 python-beanbag	succeeded
 python-beartype	failed
 python-beautifulsoup4	succeeded
@@ -1008,7 +1008,7 @@ python-boltons	failed
 python-boolean.py	succeeded
 python-booleanoperations	succeeded
 python-boto	succeeded
-python-boto3	failed
+python-boto3	succeeded
 python-botocore	succeeded
 python-bottle	failed
 python-bottle-sqlite	succeeded
@@ -1210,7 +1210,6 @@ python-cxxfilt	succeeded
 python-cycler	succeeded
 python-cyipopt	succeeded
 python-cysignals	succeeded
-python-cython0.29	failed
 python-d2to1	succeeded
 python-daemon	succeeded
 python-daemonize	succeeded
@@ -1540,7 +1539,7 @@ python-gpiozero	succeeded
 python-gpxpy	succeeded
 python-grabbit	failed
 python-grabserial	succeeded
-python-graph-tool	failed
+python-graph-tool	running
 python-graphene	succeeded
 python-graphql-core	succeeded
 python-graphql-relay	succeeded
@@ -1596,6 +1595,7 @@ python-httpagentparser	succeeded
 python-httplib2	succeeded
 python-httpretty	succeeded
 python-httpsig-cffi	succeeded
+python-httptools	succeeded
 python-hudman	succeeded
 python-humanfriendly	succeeded
 python-humanize	succeeded
@@ -1698,6 +1698,7 @@ python-jinja2-cli	succeeded
 python-jinja2-time	succeeded
 python-jinja2_pluralize	succeeded
 python-jmespath	succeeded
+python-jnius	succeeded
 python-joblib	succeeded
 python-jose	succeeded
 python-josepy	succeeded
@@ -1724,7 +1725,6 @@ python-jupymake	succeeded
 python-jupyter-core	succeeded
 python-jupyter-packaging	succeeded
 python-jupyter-server-terminals	succeeded
-python-jupyter-ydoc	failed
 python-jupyterlab_pygments	succeeded
 python-justbases	succeeded
 python-justbytes	succeeded
@@ -1733,7 +1733,6 @@ python-jwt	succeeded
 python-k5test	succeeded
 python-kadmin	succeeded
 python-kafka	succeeded
-python-kaitaistruct	failed
 python-kajiki	succeeded
 python-kanboard	succeeded
 python-kaptan	succeeded
@@ -2005,7 +2004,7 @@ python-openslide	succeeded
 python-openstackdocstheme	succeeded
 python-opentype-sanitizer	succeeded
 python-opfunu	succeeded
-python-opytimark	failed
+python-opytimark	succeeded
 python-opytimizer	succeeded
 python-oracledb	succeeded
 python-ordered-set	succeeded
@@ -2310,6 +2309,7 @@ python-pysam	succeeded
 python-pysaml2	succeeded
 python-pyscaffold	failed
 python-pyscf	succeeded
+python-pyside6	failed
 python-pysignals	succeeded
 python-pysimplesoap	succeeded
 python-pysingular	succeeded
@@ -2323,6 +2323,7 @@ python-pysol-cards	succeeded
 python-pyspellchecker	succeeded
 python-pyspf	succeeded
 python-pyspiflash	succeeded
+python-pyspike	succeeded
 python-pysqueezebox	succeeded
 python-pysrt	succeeded
 python-pystemd	succeeded
@@ -2998,7 +2999,6 @@ python-xvfbwrapper	succeeded
 python-xword-dl	succeeded
 python-xxhash	succeeded
 python-xyzservices	succeeded
-python-y-py	failed
 python-yaml2ical	succeeded
 python-yamlloader	succeeded
 python-yapf	succeeded
@@ -3027,12 +3027,14 @@ python-zm	succeeded
 python-zodbpickle	succeeded
 python-zombie-imp	succeeded
 python-zope-component	succeeded
+python-zope-configuration	succeeded
 python-zope-deprecation	succeeded
 python-zope-event	succeeded
 python-zope-exceptions	succeeded
 python-zope-hookable	succeeded
 python-zope-i18nmessageid	succeeded
 python-zope-interface	succeeded
+python-zope-schema	succeeded
 python-zope-sqlalchemy	succeeded
 python-zope-testing	succeeded
 python-zope-testrunner	failed
@@ -3073,6 +3075,7 @@ quisk	succeeded
 quodlibet	failed
 qutebrowser	succeeded
 rabbitvcs	succeeded
+radicale	succeeded
 ranger	succeeded
 rapid-photo-downloader	succeeded
 rapidyaml	succeeded
@@ -3240,6 +3243,7 @@ vex	succeeded
 vigra	succeeded
 vim-jedi	succeeded
 vimiv	succeeded
+virt-bootstrap	succeeded
 virt-lightning	succeeded
 virt-who	succeeded
 virtme-ng	succeeded
