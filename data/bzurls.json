@@ -30,10 +30,8 @@
     "https://bugzilla.redhat.com/show_bug.cgi?id=2245249"
   ],
   "bandit": [],
-  "beaker": [],
   "blueman": [],
   "boost": [],
-  "borgbackup": [],
   "btrfs-progs": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2245650"
   ],
@@ -43,7 +41,6 @@
   "cantera": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2264231"
   ],
-  "cepces": [],
   "ceph": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2259639"
   ],
@@ -54,8 +51,6 @@
   "collectd": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2247197"
   ],
-  "compose-utils": [],
-  "copr-cli": [],
   "csound": [],
   "dionaea": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2247008"
@@ -76,7 +71,6 @@
   "fontforge": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2245798"
   ],
-  "freeipa-healthcheck": [],
   "freeradius": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2245785"
   ],
@@ -93,6 +87,7 @@
   ],
   "gnome-abrt": [],
   "gnome-builder": [],
+  "gnome-music": [],
   "gnucash": [],
   "gnumeric": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2247261"
@@ -105,7 +100,6 @@
     "https://bugzilla.redhat.com/show_bug.cgi?id=2246380"
   ],
   "h5py": [],
-  "ibus-cangjie": [],
   "imath": [],
   "insight": [],
   "jc": [
@@ -167,7 +161,6 @@
   "libxml2": [],
   "libxslt": [],
   "lirc": [],
-  "lldb": [],
   "lttng-tools": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2246352"
   ],
@@ -191,7 +184,6 @@
   "mod_wsgi": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2245872"
   ],
-  "modulemd-tools": [],
   "morphio": [],
   "mupdf": [],
   "muse": [],
@@ -227,7 +219,6 @@
   "openvswitch": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2250661"
   ],
-  "pdc-client": [],
   "petsc": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2250673"
   ],
@@ -277,7 +268,6 @@
     "https://bugzilla.redhat.com/show_bug.cgi?id=2245859"
   ],
   "python-Bottleneck": [],
-  "python-CacheControl": [],
   "python-Levenshtein": [],
   "python-PyMuPDF": [],
   "python-Rtree": [],
@@ -289,10 +279,6 @@
   ],
   "python-adjustText": [],
   "python-agate": [],
-  "python-aiohttp-retry": [],
-  "python-aiokafka": [],
-  "python-aioresponses": [],
-  "python-aiosignal": [],
   "python-aiosmtpd": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2263017"
   ],
@@ -302,7 +288,6 @@
   "python-apsw": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2263165"
   ],
-  "python-aresponses": [],
   "python-argcomplete": [],
   "python-ase": [],
   "python-astroML": [],
@@ -341,8 +326,6 @@
   "python-bottle": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2245642"
   ],
-  "python-box": [],
-  "python-bravado-core": [],
   "python-brian2": [],
   "python-brukerapi": [],
   "python-cachelib": [
@@ -353,7 +336,6 @@
   "python-catkin_lint": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2259550"
   ],
-  "python-cffsubr": [],
   "python-cftime": [],
   "python-chalice": [],
   "python-chaospy": [],
@@ -367,7 +349,6 @@
   "python-cmake-build-extension": [],
   "python-colcon-core": [],
   "python-collada": [],
-  "python-compreffor": [],
   "python-configargparse": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2265132"
   ],
@@ -376,7 +357,6 @@
   ],
   "python-contextualbandits": [],
   "python-contourpy": [],
-  "python-copr": [],
   "python-cradox": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2247009"
   ],
@@ -395,7 +375,6 @@
   ],
   "python-cyipopt": [],
   "python-deap": [],
-  "python-defcon": [],
   "python-demjson": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2244828"
   ],
@@ -412,7 +391,6 @@
   ],
   "python-ducc0": [],
   "python-eccodes": [],
-  "python-elastic-transport": [],
   "python-emcee": [],
   "python-etcd": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2246060"
@@ -439,15 +417,10 @@
   "python-gensim": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2261825"
   ],
-  "python-geopy": [],
   "python-glue": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2221960"
   ],
-  "python-google-api-core": [],
-  "python-google-cloud-core": [],
-  "python-google-cloud-dns": [],
   "python-google-cloud-monitoring": [],
-  "python-google-cloud-storage": [],
   "python-gphoto2": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2245790"
   ],
@@ -463,7 +436,6 @@
     "https://bugzilla.redhat.com/show_bug.cgi?id=2264873"
   ],
   "python-hamcrest": [],
-  "python-haversion": [],
   "python-hdf5storage": [],
   "python-hdfs": [],
   "python-heapdict": [
@@ -558,7 +530,6 @@
   "python-multiprocess": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2246347"
   ],
-  "python-mutatormath": [],
   "python-ndindex": [],
   "python-neurodsp": [],
   "python-niaaml": [],
@@ -608,7 +579,6 @@
     "https://bugzilla.redhat.com/show_bug.cgi?id=2259547"
   ],
   "python-periodictable": [],
-  "python-persist-queue": [],
   "python-pint": [],
   "python-pivy": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2245811"
@@ -629,7 +599,6 @@
   "python-pydantic-core": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2259626"
   ],
-  "python-pydepsdev": [],
   "python-pydicom": [],
   "python-pyedflib": [],
   "python-pyelectro": [],
@@ -659,10 +628,7 @@
     "https://bugzilla.redhat.com/show_bug.cgi?id=2266591"
   ],
   "python-pyspike": [],
-  "python-pytest-aiohttp": [],
   "python-pytest-doctestplus": [],
-  "python-pytest-grpc": [],
-  "python-pytest-mpi": [],
   "python-pytest-mpl": [],
   "python-pytest-randomly": [],
   "python-pytn3270": [
@@ -677,11 +643,8 @@
   "python-recordclass": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2265475"
   ],
-  "python-requests-gssapi": [],
-  "python-requests-kerberos": [],
   "python-rich": [],
   "python-robotframework": [],
-  "python-rpmautospec-koji": [],
   "python-rq": [],
   "python-rtmidi": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2226321"
@@ -770,7 +733,6 @@
   "python-uritools": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2245671"
   ],
-  "python-urllib-gssapi": [],
   "python-usort": [],
   "python-utmp": [],
   "python-uvloop": [
@@ -793,7 +755,6 @@
   "python-webscrapbook": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2252057"
   ],
-  "python-wled": [],
   "python-wordcloud": [],
   "python-wrapt": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2256756"
@@ -872,7 +833,6 @@
   "uhd": [],
   "ulauncher": [],
   "urh": [],
-  "ursa-major": [],
   "util-linux": [],
   "veusz": [],
   "volume_key": [
@@ -882,7 +842,6 @@
     "https://bugzilla.redhat.com/show_bug.cgi?id=2247291"
   ],
   "vtk": [],
-  "weasyprint": [],
   "xcfun": [],
   "zbar": [],
   "zxing-cpp": []
