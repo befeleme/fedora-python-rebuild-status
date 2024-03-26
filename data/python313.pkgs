@@ -35,6 +35,7 @@ alacarte
 alot
 ampy
 ansible-bender
+ansible-builder
 apbs
 appliance-tools
 apx
@@ -67,6 +68,7 @@ battray
 bcc
 beaker
 beets
+bindep
 binwalk
 blivet-gui
 bluechi
@@ -127,6 +129,7 @@ congruity
 conu
 copr-cli
 copr-keygen
+copr-rpmbuild
 cranc
 createrepo_c
 criu
@@ -440,6 +443,7 @@ menulibre
 meson
 metrics2mqtt
 mgarepo
+micropipenv
 minigalaxy
 mininet
 miniupnpc
@@ -617,6 +621,7 @@ pymodbus
 pyodbc
 pyosmium
 pyowm
+pyp2rpm
 pyp2spec
 pyparsing
 pyparted
@@ -990,6 +995,7 @@ python-caja
 python-calcephpy
 python-can
 python-canonicaljson
+python-carbon
 python-case
 python-casttube
 python-catkin-sphinx
@@ -1141,6 +1147,7 @@ python-crashtest
 python-crayons
 python-crcelk
 python-crcmod
+python-crochet
 python-croniter
 python-crossword
 python-crypto
@@ -1248,6 +1255,7 @@ python-django-pdb
 python-django-pglocks
 python-django-picklefield
 python-django-pipeline
+python-django-prometheus
 python-django-pytest
 python-django-q
 python-django-redis
@@ -1413,6 +1421,7 @@ python-flask-wtf
 python-flask-wtf-decorators
 python-flask-xml-rpc
 python-flexcache
+python-flexmock
 python-flexparser
 python-flit
 python-flit-core
@@ -1705,6 +1714,7 @@ python-kgb
 python-kismet-rest
 python-kitchen
 python-kiwisolver
+python-klein
 python-klusta
 python-kmod
 python-knack
@@ -1797,6 +1807,8 @@ python-matplotlib
 python-matplotlib-inline
 python-matplotlib-scalebar
 python-matplotlib-venn
+python-matrix-common
+python-matrix-synapse-ldap3
 python-maxminddb
 python-mbstrdecoder
 python-mccabe
@@ -1804,6 +1816,7 @@ python-mdit-py-plugins
 python-mdurl
 python-mdx_gh_links
 python-meautility
+python-mechanize
 python-mediafile
 python-meh
 python-memcached
@@ -1837,6 +1850,7 @@ python-mockito
 python-modernize
 python-modestmaps
 python-moksha-common
+python-moksha-hub
 python-molmass
 python-mongoengine
 python-mongomock
@@ -1848,6 +1862,7 @@ python-moreorless
 python-moss
 python-mozilla-django-oidc
 python-mpd
+python-mpd2
 python-mplcairo
 python-mplcursors
 python-mpmath
@@ -1994,6 +2009,7 @@ python-parse_type
 python-parsedatetime
 python-parsel
 python-parsimonious
+python-parsley
 python-parso
 python-parver
 python-passlib
@@ -2022,6 +2038,7 @@ python-pebble
 python-pecan
 python-pefile
 python-pelican
+python-pem
 python-pendulum
 python-pep440
 python-pep8-naming
@@ -2041,6 +2058,7 @@ python-pidfile
 python-piexif
 python-pifpaf
 python-pigpio
+python-pika
 python-pikepdf
 python-pillow
 python-pint
@@ -2091,6 +2109,7 @@ python-process-tests
 python-productmd
 python-progress
 python-progressbar2
+python-prometheus_client
 python-promise
 python-prompt-toolkit
 python-protego
@@ -2343,6 +2362,7 @@ python-python-ulid
 python-pytimeparse
 python-pytools
 python-pytz-deprecation-shim
+python-pyuca
 python-pyudev
 python-pyupgrade
 python-pyvat
@@ -2497,6 +2517,7 @@ python-scikit-uplift
 python-scitokens
 python-scour
 python-scp
+python-scrapy
 python-scripttest
 python-scripttester
 python-scrypt
@@ -2576,6 +2597,7 @@ python-sortedcontainers
 python-soupsieve
 python-speaklater
 python-spec
+python-specfile
 python-speedtest-cli
 python-speg
 python-sphinx
@@ -2670,6 +2692,7 @@ python-stem
 python-steps
 python-stevedore
 python-stomper
+python-stompest
 python-stone
 python-stopit
 python-strict-rfc3339
@@ -2763,6 +2786,7 @@ python-tomli-w
 python-tomlkit
 python-toposort
 python-tornado
+python-towncrier
 python-tox
 python-tox-current-env
 python-tpm2-pytss
@@ -2780,12 +2804,16 @@ python-trollius
 python-trololio
 python-trove-classifiers
 python-trustme
+python-tubes
 python-tvb-data
 python-tvb-gdist
 python-twiggy
 python-twilio
+python-twisted
 python-txaio
 python-txredisapi
+python-txws
+python-txzmq
 python-typecode
 python-typecode-libmagic
 python-typedecorator
@@ -3065,6 +3093,7 @@ screenkey
 seadrive-daemon
 seafile
 secrets
+sen
 sentencepiece
 sepolicy_analysis
 setconf
@@ -3090,6 +3119,7 @@ solaar
 solarwolf
 sos
 soundconverter
+spec2scl
 speech-dispatcher
 speedtest-cli
 ssh-audit

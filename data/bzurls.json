@@ -16,7 +16,9 @@
   "ansible-core": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2266592"
   ],
-  "awscli2": [],
+  "awscli2": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2271404"
+  ],
   "b43-tools": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2245249"
   ],
@@ -37,7 +39,12 @@
   "collectd": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2247197"
   ],
-  "csound": [],
+  "container-workflow-tool": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2271386"
+  ],
+  "csound": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2271396"
+  ],
   "dionaea": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2247008"
   ],
@@ -48,6 +55,7 @@
     "https://bugzilla.redhat.com/show_bug.cgi?id=2244834"
   ],
   "fawltydeps": [],
+  "fedora-messaging": [],
   "flatpak-module-tools": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2252072"
   ],
@@ -67,17 +75,14 @@
     "https://bugzilla.redhat.com/show_bug.cgi?id=2247225"
   ],
   "gnome-builder": [],
-  "gnome-tweaks": [],
   "gnucash": [],
   "gnumeric": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2247261"
   ],
   "gnuradio": [],
-  "gobject-introspection": [],
   "gtts": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2246380"
   ],
-  "ibus": [],
   "insight": [],
   "jc": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2247039"
@@ -100,7 +105,6 @@
   "libarrow": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2250849"
   ],
-  "libguestfs": [],
   "libprelude": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2247193"
   ],
@@ -143,7 +147,9 @@
     "https://bugzilla.redhat.com/show_bug.cgi?id=2245872"
   ],
   "muse": [],
-  "mycli": [],
+  "mycli": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2271390"
+  ],
   "nautilus-python": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2247260"
   ],
@@ -213,13 +219,16 @@
   "python-ZODB": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2264872"
   ],
-  "python-agate": [],
+  "python-agate": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2271392"
+  ],
   "python-aiosmtpd": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2263017"
   ],
   "python-amico": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2244829"
   ],
+  "python-anymarkup-core": [],
   "python-apsw": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2263165"
   ],
@@ -234,6 +243,9 @@
   ],
   "python-audioread": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2248130"
+  ],
+  "python-autobahn": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2271388"
   ],
   "python-autopep8": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2246135"
@@ -484,7 +496,9 @@
   "python-recordclass": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2265475"
   ],
-  "python-rich": [],
+  "python-rich": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2271397"
+  ],
   "python-robotframework": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2270949"
   ],
@@ -495,7 +509,6 @@
   "python-ruffus": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2259546"
   ],
-  "python-scikit-misc": [],
   "python-scss": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2245678"
   ],
@@ -508,7 +521,9 @@
   "python-smartcols": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2226335"
   ],
-  "python-sphinx": [],
+  "python-sphinx": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2271405"
+  ],
   "python-sphinx-notfound-page": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2261607"
   ],
@@ -520,6 +535,9 @@
   "python-tables": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2266586"
   ],
+  "python-tblib": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2271387"
+  ],
   "python-tomlkit": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2264860"
   ],
@@ -530,9 +548,6 @@
     "https://bugzilla.redhat.com/show_bug.cgi?id=2246354"
   ],
   "python-trustme": [],
-  "python-twisted": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2255342"
-  ],
   "python-typecode": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2261610"
   ],
@@ -605,7 +620,6 @@
     "https://bugzilla.redhat.com/show_bug.cgi?id=2264230"
   ],
   "rmlint": [],
-  "root": [],
   "rss2email": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2245637"
   ],
@@ -613,6 +627,7 @@
   "sourcextractor++": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2250856"
   ],
+  "sphinxbase": [],
   "sssd": [],
   "sudo": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2245820"
