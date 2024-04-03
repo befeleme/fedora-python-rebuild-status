@@ -69,7 +69,7 @@ azote	succeeded
 b43-tools	failed
 babel	succeeded
 babeltrace	succeeded
-babeltrace2	succeeded
+babeltrace2	failed
 bandit	failed
 barman	succeeded
 battray	succeeded
@@ -274,6 +274,7 @@ gns3-server	succeeded
 gnucash	succeeded
 gnumeric	failed
 gnuradio	failed
+go-vendor-tools	succeeded
 go2rpm	failed
 gobject-introspection	succeeded
 gofer	succeeded
@@ -312,7 +313,7 @@ hstsparser	succeeded
 hugin	succeeded
 hydrapaper	succeeded
 i2c-tools	succeeded
-ibus	succeeded
+ibus	failed
 ibus-cangjie	succeeded
 imagefactory	succeeded
 imagefactory-plugins	succeeded
@@ -324,6 +325,7 @@ input-remapper	succeeded
 insight	failed
 intelhex	succeeded
 ioc-writer	succeeded
+ipa-hcc	succeeded
 irclog2html	succeeded
 is-it-in-rhel	succeeded
 iscsi-initiator-utils	succeeded
@@ -395,6 +397,7 @@ libkdtree++	succeeded
 libkdumpfile	succeeded
 libkml	succeeded
 libkolabxml	succeeded
+liblc3	succeeded
 libldb	succeeded
 liblinear	succeeded
 libloc	succeeded
@@ -705,6 +708,7 @@ python-BTrees	succeeded
 python-Bottleneck	succeeded
 python-CacheControl	succeeded
 python-CommonMark	succeeded
+python-EvoPreprocess	succeeded
 python-GeoIP	succeeded
 python-IPy	succeeded
 python-Levenshtein	succeeded
@@ -1093,7 +1097,7 @@ python-chardet	succeeded
 python-charset-normalizer	succeeded
 python-check-manifest	succeeded
 python-cheetah	succeeded
-python-cheroot	failed
+python-cheroot	succeeded
 python-cherrypy	failed
 python-chirpstack-api	succeeded
 python-chm	succeeded
@@ -1439,6 +1443,7 @@ python-executing	succeeded
 python-exif	succeeded
 python-exoscale	succeeded
 python-expandvars	succeeded
+python-expecttest	succeeded
 python-extension-helpers	succeeded
 python-extractcode	succeeded
 python-extractcode-7z	succeeded
@@ -1603,6 +1608,7 @@ python-gpiozero	succeeded
 python-gpxpy	succeeded
 python-grabbit	failed
 python-grabserial	succeeded
+python-gradunwarp	succeeded
 python-graph-tool	failed
 python-graphene	succeeded
 python-graphql-core	succeeded
@@ -1698,6 +1704,7 @@ python-immutables	failed
 python-impacket	succeeded
 python-importlib-metadata	succeeded
 python-incremental	succeeded
+python-indexed_gzip	succeeded
 python-inflect	succeeded
 python-inflection	succeeded
 python-influxdb	succeeded
@@ -1874,6 +1881,7 @@ python-lsp-jsonrpc	succeeded
 python-lunr	succeeded
 python-lupa	succeeded
 python-lxml	succeeded
+python-lxml-html-clean	succeeded
 python-ly	succeeded
 python-lz4	succeeded
 python-m2r	succeeded
@@ -2026,9 +2034,11 @@ python-nh3	succeeded
 python-niaaml	succeeded
 python-niaarm	succeeded
 python-niapy	succeeded
-python-nibabel	failed
+python-nibabel	succeeded
 python-nihtest	succeeded
 python-nine	succeeded
+python-nipy	failed
+python-nitime	succeeded
 python-nitrate	succeeded
 python-nixio	succeeded
 python-nltk	succeeded
