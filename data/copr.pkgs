@@ -17,12 +17,14 @@ OpenLP	succeeded
 PackageKit	failed
 PyDrive2	succeeded
 PyGreSQL	succeeded
+PyMca	succeeded
 PyQt-builder	succeeded
 PyQt4	failed
 PySolFC	succeeded
 PyX	succeeded
 PyYAML	succeeded
 R2spec	succeeded
+RBTools	succeeded
 ServiceReport	succeeded
 SoapySDR	succeeded
 WALinuxAgent	failed
@@ -55,6 +57,7 @@ asciidoc	succeeded
 asciinema	succeeded
 assimp	succeeded
 astrometry	succeeded
+asv	succeeded
 atomic-reactor	succeeded
 aubio	succeeded
 audiotube	succeeded
@@ -83,6 +86,7 @@ bluefish	succeeded
 blueman	succeeded
 blueprint-compiler	succeeded
 bmap-tools	succeeded
+bodhi-messages	succeeded
 boom-boot	succeeded
 boost	succeeded
 borgbackup	succeeded
@@ -142,6 +146,7 @@ container-workflow-tool	failed
 conu	succeeded
 copr-cli	succeeded
 copr-keygen	succeeded
+copr-messaging	succeeded
 copr-rpmbuild	succeeded
 cranc	succeeded
 createrepo_c	succeeded
@@ -207,11 +212,10 @@ etckeeper	succeeded
 evemu	succeeded
 fail2ban	failed
 fapolicy-analyzer	succeeded
-fawltydeps	failed
 fedfind	succeeded
 fedora-business-cards	succeeded
 fedora-distro-aliases	succeeded
-fedora-messaging	failed
+fedora-messaging	succeeded
 fedora-third-party	succeeded
 file	succeeded
 firewalld	succeeded
@@ -306,6 +310,8 @@ hamlib	succeeded
 hashid	succeeded
 hddfancontrol	succeeded
 hexchat	succeeded
+hgsvn	succeeded
+hgview	succeeded
 hivex	succeeded
 hokuyoaist	succeeded
 hstsparser	succeeded
@@ -314,6 +320,7 @@ hydrapaper	succeeded
 i2c-tools	succeeded
 ibus	succeeded
 ibus-cangjie	succeeded
+ikiwiki	succeeded
 imagefactory	succeeded
 imagefactory-plugins	succeeded
 imath	succeeded
@@ -480,7 +487,7 @@ mcomix3	succeeded
 med	succeeded
 meld	succeeded
 menulibre	succeeded
-mercurial	failed
+mercurial	succeeded
 meson	succeeded
 metrics2mqtt	succeeded
 mgarepo	succeeded
@@ -536,6 +543,7 @@ ninja-build	succeeded
 nispor	succeeded
 nml	succeeded
 nmstate	succeeded
+noggin	succeeded
 nordugrid-arc-nagios-plugins	succeeded
 notcurses	succeeded
 notmuch	succeeded
@@ -1054,7 +1062,6 @@ python-breathe	succeeded
 python-brian2	succeeded
 python-brukerapi	succeeded
 python-bsddb3	succeeded
-python-bsmschema	failed
 python-btchip	succeeded
 python-btrfs	succeeded
 python-bucky	succeeded
@@ -1395,6 +1402,7 @@ python-ducc0	succeeded
 python-duecredit	succeeded
 python-dukpy	succeeded
 python-dulwich	succeeded
+python-dunamai	failed
 python-easyargs	succeeded
 python-easyco	succeeded
 python-easydict	succeeded
@@ -1639,7 +1647,9 @@ python-healpy	succeeded
 python-heapdict	failed
 python-helpdev	succeeded
 python-hexdump	succeeded
+python-hgapi	succeeded
 python-hgdistver	succeeded
+python-hglib	succeeded
 python-hid-parser	succeeded
 python-hidapi	succeeded
 python-hikvision	succeeded
@@ -1753,6 +1763,7 @@ python-jaraco-logging	succeeded
 python-jaraco-packaging	succeeded
 python-jaraco-path	succeeded
 python-jaraco-stream	succeeded
+python-jaraco-test	succeeded
 python-jaraco-text	succeeded
 python-javalang	succeeded
 python-javaobj	succeeded
@@ -2044,6 +2055,7 @@ python-nmap	succeeded
 python-nmrglue	succeeded
 python-node-semver	succeeded
 python-nodeenv	succeeded
+python-noggin-messages	succeeded
 python-noiseprotocol	succeeded
 python-normality	succeeded
 python-nose	succeeded
@@ -2115,11 +2127,12 @@ python-owl_rl	succeeded
 python-packageurl-python	succeeded
 python-packaging	succeeded
 python-packvers	succeeded
+python-pagure-messages	succeeded
 python-paho-mqtt	succeeded
 python-palettable	succeeded
 python-pam	succeeded
 python-pamela	succeeded
-python-pandas	succeeded
+python-pandas	running
 python-pandas-datareader	succeeded
 python-pandocfilters	succeeded
 python-parameter-expansion-patched	succeeded
@@ -2490,7 +2503,6 @@ python-pytest-watch	succeeded
 python-pytest-xdist	succeeded
 python-pytest-xprocess	succeeded
 python-pytest-xvfb	succeeded
-python-python-ulid	failed
 python-pytimeparse	succeeded
 python-pytn3270	failed
 python-pytools	succeeded
@@ -2606,6 +2618,7 @@ python-ring-doorbell	succeeded
 python-rjsmin	succeeded
 python-rmtest	succeeded
 python-rnc2rng	succeeded
+python-robosignatory	succeeded
 python-robot-detection	succeeded
 python-robotframework	failed
 python-roman	succeeded
@@ -3205,6 +3218,7 @@ rapid-photo-downloader	succeeded
 rapidyaml	succeeded
 rb_libtorrent	failed
 rdiff-backup	succeeded
+rdma-core	succeeded
 realtime-tests	succeeded
 receptor	succeeded
 recoll	succeeded
@@ -3219,6 +3233,7 @@ resalloc-openstack	succeeded
 restview	succeeded
 resultsdb_conventions	succeeded
 retrace-server	succeeded
+reuse	succeeded
 revelation	succeeded
 rhythmbox-ampache	succeeded
 rig	succeeded
@@ -3251,7 +3266,7 @@ satyr	succeeded
 scanless	succeeded
 scapy	succeeded
 scidavis	succeeded
-scipy	succeeded
+scipy	running
 scons	succeeded
 screenkey	succeeded
 scribus	failed
@@ -3266,6 +3281,7 @@ setools	succeeded
 setroubleshoot	succeeded
 sgtk-menu	succeeded
 shyaml	succeeded
+shybrid	succeeded
 sigil	succeeded
 signon-glib	succeeded
 simple-ccsm	succeeded
@@ -3359,7 +3375,7 @@ uhd	succeeded
 ulauncher	succeeded
 unbound	succeeded
 unicorn	succeeded
-urh	failed
+urh	succeeded
 urjtag	succeeded
 urlbuster	succeeded
 urlscan	succeeded
