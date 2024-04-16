@@ -57,7 +57,6 @@
   "fail2ban": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2244834"
   ],
-  "fedfind": [],
   "flatpak-module-tools": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2252072"
   ],
@@ -81,7 +80,6 @@
     "https://bugzilla.redhat.com/show_bug.cgi?id=2247261"
   ],
   "go-vendor-tools": [],
-  "gtimelog": [],
   "gtts": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2246380"
   ],
@@ -123,8 +121,12 @@
   "libsolv": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2245803"
   ],
-  "libtalloc": [],
-  "libtdb": [],
+  "libtalloc": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2275044"
+  ],
+  "libtdb": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2275045"
+  ],
   "libtevent": [],
   "libuser": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2247195"
@@ -208,7 +210,9 @@
   "pyserial": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2245859"
   ],
-  "pytest": [],
+  "pytest": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2275051"
+  ],
   "python-BTrees": [],
   "python-Traits": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2250844"
@@ -220,6 +224,7 @@
   "python-agate": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2271392"
   ],
+  "python-aiomqtt": [],
   "python-aiosmtpd": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2263017"
   ],
@@ -248,6 +253,7 @@
   "python-autopep8": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2246135"
   ],
+  "python-autoprop": [],
   "python-avocado": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2250847"
   ],
@@ -257,7 +263,9 @@
   "python-beartype": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2265487"
   ],
-  "python-beautifulsoup4": [],
+  "python-beautifulsoup4": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2275072"
+  ],
   "python-biopython": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2259625"
   ],
@@ -276,7 +284,9 @@
   "python-catkin_lint": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2259550"
   ],
-  "python-cffi": [],
+  "python-cffi": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2275053"
+  ],
   "python-cherrypy": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2256924"
   ],
@@ -337,7 +347,9 @@
   "python-extras": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2259522"
   ],
-  "python-flask": [],
+  "python-flask": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2275074"
+  ],
   "python-flask-basicauth": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2261560"
   ],
@@ -346,7 +358,9 @@
   ],
   "python-flexmock": [],
   "python-flufl-bounce": [],
-  "python-frozenlist": [],
+  "python-frozenlist": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2275060"
+  ],
   "python-gbulb": [],
   "python-gensim": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2261825"
@@ -395,8 +409,9 @@
   "python-jnius": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2272966"
   ],
-  "python-jose": [],
-  "python-json5": [],
+  "python-jose": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2275073"
+  ],
   "python-jsonformatter": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2271060"
   ],
@@ -426,11 +441,15 @@
   "python-minimock": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2244826"
   ],
-  "python-mirakuru": [],
+  "python-mirakuru": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2275066"
+  ],
   "python-multiprocess": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2246347"
   ],
-  "python-munch": [],
+  "python-munch": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2275057"
+  ],
   "python-nipy": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2261585"
   ],
@@ -452,13 +471,18 @@
   "python-orderedset": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2226269"
   ],
+  "python-orjson": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2263013"
+  ],
   "python-paste": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2246056"
   ],
   "python-pathvalidate": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2259547"
   ],
-  "python-pdir2": [],
+  "python-pdir2": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2275052"
+  ],
   "python-pendulum": [],
   "python-persistent": [],
   "python-pivy": [
@@ -473,6 +497,7 @@
   "python-py-gql": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2246126"
   ],
+  "python-pyct": [],
   "python-pydantic": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2256753"
   ],
@@ -502,7 +527,9 @@
   "python-recordclass": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2265475"
   ],
-  "python-reportlab": [],
+  "python-reportlab": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2275076"
+  ],
   "python-repoze-sphinx-autointerface": [],
   "python-rich": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2271397"
@@ -525,6 +552,7 @@
   "python-setuptools_scm_git_archive": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2240107"
   ],
+  "python-signature-dispatch": [],
   "python-simpleaudio": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2245794"
   ],
@@ -548,7 +576,9 @@
     "https://bugzilla.redhat.com/show_bug.cgi?id=2271387"
   ],
   "python-textual": [],
-  "python-time-machine": [],
+  "python-time-machine": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2275063"
+  ],
   "python-tomlkit": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2264860"
   ],
@@ -571,7 +601,9 @@
   "python-typecode": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2261610"
   ],
-  "python-typeguard": [],
+  "python-typeguard": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2275067"
+  ],
   "python-typing-extensions": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2259519"
   ],
@@ -584,7 +616,10 @@
   "python-uvloop": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2256747"
   ],
-  "python-virtualenv": [],
+  "python-vecrec": [],
+  "python-virtualenv": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2275071"
+  ],
   "python-wadllib": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2245644"
   ],
@@ -622,7 +657,6 @@
   "python-zope-event": [],
   "python-zope-exceptions": [],
   "python-zope-i18nmessageid": [],
-  "python-zope-interface": [],
   "python-zope-schema": [],
   "python-zope-testrunner": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2254185",
@@ -673,10 +707,14 @@
   "transtats-cli": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2264228"
   ],
-  "ubertooth": [],
+  "ubertooth": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2259655"
+  ],
   "vrpn": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2247291"
   ],
-  "waf": [],
+  "waf": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2275048"
+  ],
   "xmms2": []
 }
