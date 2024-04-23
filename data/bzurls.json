@@ -51,7 +51,6 @@
   "docker-compose": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2247015"
   ],
-  "eric": [],
   "fail2ban": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2244834"
   ],
@@ -70,7 +69,6 @@
   "gdcm": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2245816"
   ],
-  "getdp": [],
   "gnumeric": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2247261"
   ],
@@ -115,7 +113,6 @@
   "libuser": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2247195"
   ],
-  "link-grammar": [],
   "lldb": [],
   "m2crypto": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2245806"
@@ -130,7 +127,6 @@
   "mod_wsgi": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2245872"
   ],
-  "mpich": [],
   "muse": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2272918"
   ],
@@ -236,7 +232,9 @@
   "python-catkin_lint": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2259550"
   ],
-  "python-cclib": [],
+  "python-cclib": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2276581"
+  ],
   "python-cliff": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2261552"
   ],
@@ -277,7 +275,6 @@
   "python-frozenlist": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2275060"
   ],
-  "python-gbulb": [],
   "python-gensim": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2261825"
   ],
@@ -385,7 +382,6 @@
   "python-pdir2": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2275052"
   ],
-  "python-pendulum": [],
   "python-pivy": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2245811"
   ],
@@ -412,18 +408,21 @@
     "https://bugzilla.redhat.com/show_bug.cgi?id=2259637"
   ],
   "python-pyngus": [],
-  "python-pytest-qt": [],
+  "python-pytest-qt": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2276586"
+  ],
   "python-pytn3270": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2246275"
   ],
-  "python-pyzstd": [],
+  "python-pyzstd": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2276579"
+  ],
   "python-qcustomplot-pyqt": [],
   "python-qrcode": [],
   "python-readability-lxml": [],
   "python-recordclass": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2265475"
   ],
-  "python-responses": [],
   "python-rich": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2271397"
   ],
@@ -465,7 +464,6 @@
   "python-tblib": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2271387"
   ],
-  "python-textual": [],
   "python-tomlkit": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2264860"
   ],
@@ -547,11 +545,9 @@
   "rmlint": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2272923"
   ],
-  "root": [],
   "rss2email": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2245637"
   ],
-  "scipy": [],
   "sudo": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2245820"
   ],
@@ -569,6 +565,5 @@
   ],
   "vrpn": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2247291"
-  ],
-  "xpra": []
+  ]
 }
