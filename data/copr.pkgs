@@ -44,7 +44,7 @@ airnef	succeeded
 alacarte	succeeded
 alot	succeeded
 ampy	succeeded
-anaconda	failed
+anaconda	succeeded
 ansible-bender	succeeded
 ansible-builder	succeeded
 ansible-core	failed
@@ -90,6 +90,7 @@ bluefish	succeeded
 blueman	succeeded
 blueprint-compiler	succeeded
 bmap-tools	succeeded
+bodhi-client	succeeded
 bodhi-messages	succeeded
 boom-boot	succeeded
 boost	succeeded
@@ -174,6 +175,7 @@ deluge	succeeded
 devscripts	succeeded
 dib-utils	succeeded
 diceware	succeeded
+did	succeeded
 dionaea	failed
 diskimage-builder	succeeded
 distcc	succeeded
@@ -361,7 +363,7 @@ keylime	succeeded
 kf6-kapidox	succeeded
 khal	succeeded
 khard	succeeded
-kicad	failed
+kicad	succeeded
 kig	succeeded
 kitty	failed
 kiwi	succeeded
@@ -521,7 +523,7 @@ mlir	failed
 mlpack	succeeded
 mlt	succeeded
 mock	succeeded
-mod_wsgi	failed
+mod_wsgi	succeeded
 module-build	succeeded
 modulemd-tools	succeeded
 mom	succeeded
@@ -925,6 +927,7 @@ python-audioread	failed
 python-augeas	succeeded
 python-auth-credential	succeeded
 python-authheaders	succeeded
+python-authlib	succeeded
 python-authres	succeeded
 python-autobahn	succeeded
 python-autocommand	succeeded
@@ -1342,6 +1345,7 @@ python-distroinfo	succeeded
 python-distutils-extra	succeeded
 python-django	succeeded
 python-django-ajax-selects	succeeded
+python-django-allauth	succeeded
 python-django-angular	succeeded
 python-django-annoying	succeeded
 python-django-appconf	succeeded
@@ -1496,6 +1500,7 @@ python-fastprogress	succeeded
 python-fastpurge	succeeded
 python-fauxquests	succeeded
 python-fb-re2	succeeded
+python-fedora	succeeded
 python-fedora-sig-onboard	succeeded
 python-feedgen	succeeded
 python-feedgenerator	succeeded
@@ -1538,6 +1543,8 @@ python-flask-mail	succeeded
 python-flask-mako	succeeded
 python-flask-mongoengine	succeeded
 python-flask-multistatic	succeeded
+python-flask-oidc	succeeded
+python-flask-openid	succeeded
 python-flask-paranoid	succeeded
 python-flask-principal	succeeded
 python-flask-restx	succeeded
@@ -2128,6 +2135,8 @@ python-openapi-schema-validator	succeeded
 python-openapi-spec-validator	succeeded
 python-opencensus-proto	succeeded
 python-opendata-transport	succeeded
+python-openid-cla	succeeded
+python-openid-teams	succeeded
 python-openidc-client	succeeded
 python-openoffice	failed
 python-openpaperwork-core	failed
@@ -2289,7 +2298,7 @@ python-proto-plus	succeeded
 python-prov	succeeded
 python-psutil	succeeded
 python-psycogreen	succeeded
-python-psycopg2	failed
+python-psycopg2	succeeded
 python-ptrace	succeeded
 python-ptyprocess	succeeded
 python-publicsuffix2	succeeded
@@ -2341,7 +2350,7 @@ python-pycryptodomex	succeeded
 python-pyct	failed
 python-pycxx	succeeded
 python-pydantic	failed
-python-pydantic-core	failed
+python-pydantic-core	succeeded
 python-pydata-sphinx-theme	succeeded
 python-pydbus	succeeded
 python-pydepsdev	succeeded
@@ -2520,7 +2529,7 @@ python-pytest-multihost	succeeded
 python-pytest-openfiles	succeeded
 python-pytest-ordering	succeeded
 python-pytest-param-files	succeeded
-python-pytest-qt	failed
+python-pytest-qt	succeeded
 python-pytest-randomly	succeeded
 python-pytest-regressions	succeeded
 python-pytest-relaxed	succeeded
@@ -2670,6 +2679,7 @@ python-rosdistro	succeeded
 python-rosinstall_generator	succeeded
 python-rospkg	succeeded
 python-roundrobin	succeeded
+python-rows	succeeded
 python-rpdb	succeeded
 python-rpds-py	succeeded
 python-rpi-gpio2	succeeded
@@ -2689,6 +2699,7 @@ python-rtslib	succeeded
 python-ruamel-yaml	succeeded
 python-ruamel-yaml-clib	succeeded
 python-ruffus	failed
+python-rust-update-set	succeeded
 python-rustcfg	succeeded
 python-rx	succeeded
 python-rxjson	succeeded
@@ -2784,6 +2795,7 @@ python-snappy	succeeded
 python-snaptime	succeeded
 python-sniffio	succeeded
 python-snuggs	succeeded
+python-social-auth-core	succeeded
 python-socks5line	succeeded
 python-socksio	succeeded
 python-sortedcollections	succeeded
@@ -2900,6 +2912,7 @@ python-subarulink	succeeded
 python-subprocess-tee	succeeded
 python-succulent	succeeded
 python-suds	succeeded
+python-superqt	succeeded
 python-supersmoother	succeeded
 python-sure	succeeded
 python-surt	succeeded
@@ -3230,6 +3243,7 @@ python3-iep	succeeded
 python3-lxc	succeeded
 python3-mallard-ducktype	succeeded
 python3-mypy	succeeded
+python3-openid	succeeded
 python3-poppler-qt5	succeeded
 python3-postgresql	succeeded
 python3-py3dns	succeeded
@@ -3286,7 +3300,7 @@ rig	succeeded
 rmlint	failed
 rmol	succeeded
 rofimoji	succeeded
-root	running
+root	failed
 rpl	succeeded
 rpm	succeeded
 rpm-head-signing	succeeded
@@ -3396,6 +3410,7 @@ tlsh	succeeded
 tmt	succeeded
 todocli	succeeded
 tomcli	succeeded
+toot	failed
 torbrowser-launcher	succeeded
 tortoisehg	succeeded
 totpcgi	succeeded
