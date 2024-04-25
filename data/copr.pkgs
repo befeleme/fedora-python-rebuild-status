@@ -122,6 +122,7 @@ catfish	succeeded
 ccsm	succeeded
 cdist	succeeded
 cekit	succeeded
+centpkg	succeeded
 cepces	succeeded
 ceph	failed
 cffconvert	succeeded
@@ -226,6 +227,7 @@ fedora-business-cards	succeeded
 fedora-distro-aliases	succeeded
 fedora-messaging	succeeded
 fedora-third-party	succeeded
+fedpkg	succeeded
 file	succeeded
 firewalld	succeeded
 firmitas	succeeded
@@ -500,7 +502,7 @@ manafirewall	succeeded
 mapserver	succeeded
 marisa	succeeded
 marshalparser	succeeded
-mat2	failed
+mat2	succeeded
 mate-menu	succeeded
 mathgl	succeeded
 maturin	succeeded
@@ -583,6 +585,7 @@ nwg-panel	succeeded
 nwg-wrapper	succeeded
 nyx	succeeded
 obs-studio	succeeded
+obsctl	succeeded
 obserware	succeeded
 ocrmypdf	succeeded
 oct2spec	succeeded
@@ -616,6 +619,7 @@ osc	succeeded
 otf2	succeeded
 oval-graph	succeeded
 pacemaker	succeeded
+pag	succeeded
 pagure	succeeded
 pagure-dist-git	succeeded
 pagure-exporter	succeeded
@@ -626,6 +630,7 @@ past-time	succeeded
 patool	succeeded
 pcapy	succeeded
 pcp2pdf	succeeded
+pcs	succeeded
 pdc-client	succeeded
 pdf-stapler	succeeded
 pdfarranger	succeeded
@@ -879,6 +884,7 @@ python-ansicolor	succeeded
 python-ansicolors	succeeded
 python-ansiwrap	succeeded
 python-anyconfig	succeeded
+python-anyio	failed
 python-anyjson	succeeded
 python-anymarkup-core	failed
 python-anytree	succeeded
@@ -1077,7 +1083,7 @@ python-boolean.py	succeeded
 python-booleanoperations	succeeded
 python-boto	succeeded
 python-boto3	failed
-python-botocore	succeeded
+python-botocore	failed
 python-bottle	failed
 python-bottle-sqlite	succeeded
 python-bowler	succeeded
@@ -1372,6 +1378,7 @@ python-django-health-check	succeeded
 python-django-ipware	succeeded
 python-django-js-asset	succeeded
 python-django-macros	succeeded
+python-django-mailman3	succeeded
 python-django-markdownx	succeeded
 python-django-mptt	succeeded
 python-django-pdb	succeeded
@@ -1422,6 +1429,7 @@ python-dotmap	succeeded
 python-doubleratchet	succeeded
 python-doxypypy	succeeded
 python-doxyqml	succeeded
+python-doxytag2zealdb	succeeded
 python-dparse2	succeeded
 python-dpath	succeeded
 python-dpkt	succeeded
@@ -1468,7 +1476,7 @@ python-epi	succeeded
 python-epson-projector	succeeded
 python-epub	succeeded
 python-et_xmlfile	succeeded
-python-etcd	failed
+python-etcd	succeeded
 python-etcd3	succeeded
 python-ethtool	succeeded
 python-evdev	succeeded
@@ -1717,6 +1725,7 @@ python-hupper	succeeded
 python-husl	succeeded
 python-hvac	succeeded
 python-hyperframe	succeeded
+python-hyperkitty	succeeded
 python-hyperlink	succeeded
 python-hypothesis	succeeded
 python-hypothesis-fspaths	succeeded
@@ -1935,6 +1944,7 @@ python-m3u8	succeeded
 python-mackup	succeeded
 python-magic	succeeded
 python-mailer	succeeded
+python-mailman-web	succeeded
 python-mailmanclient	succeeded
 python-mailmerge	succeeded
 python-makeelf	succeeded
@@ -2273,6 +2283,7 @@ python-port-for	succeeded
 python-portalocker	succeeded
 python-portend	succeeded
 python-posix-ipc	succeeded
+python-postorius	succeeded
 python-pox	succeeded
 python-poyo	succeeded
 python-ppft	succeeded
@@ -2312,6 +2323,7 @@ python-pwntools	succeeded
 python-py	succeeded
 python-py-algorand-sdk	succeeded
 python-py-gql	failed
+python-py-tes	succeeded
 python-py27hash	succeeded
 python-py2pack	succeeded
 python-py3nvml	succeeded
@@ -2348,6 +2360,7 @@ python-pycountry	succeeded
 python-pycparser	succeeded
 python-pycryptodomex	succeeded
 python-pyct	failed
+python-pycurl	succeeded
 python-pycxx	succeeded
 python-pydantic	failed
 python-pydantic-core	succeeded
@@ -2546,6 +2559,7 @@ python-pytest-testmon	succeeded
 python-pytest-timeout	succeeded
 python-pytest-tldr	succeeded
 python-pytest-tornado	succeeded
+python-pytest-trio	failed
 python-pytest-vcr	succeeded
 python-pytest-venv	succeeded
 python-pytest-watch	succeeded
@@ -3011,7 +3025,7 @@ python-translationstring	succeeded
 python-translitcodec	succeeded
 python-tree-format	succeeded
 python-trezor	succeeded
-python-trio	failed
+python-trio	succeeded
 python-trml2pdf	succeeded
 python-trollius	succeeded
 python-trololio	succeeded
@@ -3301,11 +3315,14 @@ rmlint	failed
 rmol	succeeded
 rofimoji	succeeded
 root	failed
+rpkg	succeeded
+rpkg-util	failed
 rpl	succeeded
 rpm	succeeded
 rpm-head-signing	succeeded
 rpmconf	succeeded
 rpmlint	succeeded
+rpmspectool	succeeded
 rpy	succeeded
 rrdtool	succeeded
 rss2email	failed
@@ -3320,6 +3337,7 @@ s-tui	succeeded
 s3cmd	succeeded
 salt	succeeded
 salt-lint	succeeded
+samba	succeeded
 sanlock	succeeded
 sasutils	succeeded
 satyr	succeeded
@@ -3448,6 +3466,7 @@ usbrelay	succeeded
 ustreamer	succeeded
 util-linux	succeeded
 vapoursynth	succeeded
+variety	succeeded
 vdirsyncer	succeeded
 vdr-epg-daemon	succeeded
 vdr-epg2vdr	succeeded
