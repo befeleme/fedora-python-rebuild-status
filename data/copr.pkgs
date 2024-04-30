@@ -11,8 +11,10 @@ Io-language	succeeded
 MUSIC	succeeded
 NFStest	succeeded
 NLopt	failed
-NiaAML-GUI	failed
+NiaAML-GUI	succeeded
+OpenColorIO	succeeded
 OpenIPMI	succeeded
+OpenImageIO	succeeded
 OpenLP	succeeded
 PackageKit	failed
 ProDy	succeeded
@@ -127,7 +129,7 @@ cepces	succeeded
 ceph	failed
 cffconvert	succeeded
 cjdns	succeeded
-clang	failed
+clang	succeeded
 classification-banner	succeeded
 claws-mail	succeeded
 clingo	succeeded
@@ -305,7 +307,7 @@ gphotoframe	succeeded
 gplugin	succeeded
 gpsd	succeeded
 gramps	succeeded
-graphviz	succeeded
+graphviz	failed
 grin	succeeded
 grpc	succeeded
 gst	succeeded
@@ -328,7 +330,7 @@ hgsvn	succeeded
 hgview	failed
 hivex	succeeded
 hokuyoaist	succeeded
-hplip	failed
+hplip	succeeded
 hstsparser	succeeded
 hugin	succeeded
 hydrapaper	succeeded
@@ -359,7 +361,7 @@ jello	succeeded
 jsonnet	failed
 kea	succeeded
 kerberoast	succeeded
-kernel	succeeded
+kernel	failed
 keycloak-httpd-client-install	succeeded
 keylime	succeeded
 kf6-kapidox	succeeded
@@ -378,6 +380,7 @@ koji-flatpak	succeeded
 koji-osbuild	succeeded
 komikku	failed
 kopeninghours	succeeded
+krita	failed
 krop	succeeded
 kvirc	succeeded
 lammps	succeeded
@@ -445,7 +448,7 @@ libpreludedb	failed
 libpst	succeeded
 libpwquality	succeeded
 librealsense	succeeded
-libreoffice	succeeded
+libreoffice	failed
 librepo	succeeded
 libreport	succeeded
 libsavitar	succeeded
@@ -521,7 +524,7 @@ miniupnpc	succeeded
 mirage	succeeded
 mkosi	succeeded
 mkosi14	failed
-mlir	failed
+mlir	succeeded
 mlpack	succeeded
 mlt	succeeded
 mock	succeeded
@@ -600,11 +603,12 @@ onnxruntime	succeeded
 opae	succeeded
 openbabel	succeeded
 opencv	succeeded
-openmeeg	failed
+openmeeg	succeeded
 openmpi	succeeded
 openms	succeeded
 openscap	failed
 openscap-report	succeeded
+openshadinglanguage	succeeded
 openshot	succeeded
 openssh-ldap-authkeys	succeeded
 opentrep	succeeded
@@ -1024,7 +1028,7 @@ python-azure-monitor-query	succeeded
 python-azure-multiapi-storage	succeeded
 python-azure-sdk-tools	succeeded
 python-azure-servicebus	succeeded
-python-azure-storage-blob	failed
+python-azure-storage-blob	succeeded
 python-azure-storage-common	succeeded
 python-azure-synapse-accesscontrol	succeeded
 python-azure-synapse-artifacts	succeeded
@@ -2164,7 +2168,7 @@ python-opytimizer	succeeded
 python-oracledb	succeeded
 python-ordered-set	succeeded
 python-orderedset	failed
-python-orjson	failed
+python-orjson	succeeded
 python-os-service-types	succeeded
 python-os-testr	succeeded
 python-osa	succeeded
@@ -2200,8 +2204,9 @@ python-parsley	succeeded
 python-parso	succeeded
 python-parver	succeeded
 python-passlib	succeeded
-python-paste	failed
+python-paste	succeeded
 python-paste-deploy	succeeded
+python-paste-script	succeeded
 python-pastel	succeeded
 python-patatt	succeeded
 python-patch-ng	succeeded
@@ -2438,6 +2443,7 @@ python-pynamodb	succeeded
 python-pynest2d	succeeded
 python-pynetbox	succeeded
 python-pyngus	failed
+python-pynose	succeeded
 python-pynsgr	succeeded
 python-pynuvo	succeeded
 python-pyobd	succeeded
@@ -3323,7 +3329,7 @@ rpm-head-signing	succeeded
 rpmconf	succeeded
 rpmlint	succeeded
 rpmspectool	succeeded
-rpy	failed
+rpy	succeeded
 rrdtool	succeeded
 rss2email	failed
 rst2pdf	succeeded
@@ -3387,6 +3393,7 @@ speedtest-cli	succeeded
 ssh-audit	succeeded
 sshuttle	succeeded
 sssd	succeeded
+stomppy	succeeded
 stp	succeeded
 stratis-cli	succeeded
 strongswan	succeeded
@@ -3428,7 +3435,7 @@ tlsh	succeeded
 tmt	succeeded
 todocli	succeeded
 tomcli	succeeded
-toot	failed
+toot	succeeded
 torbrowser-launcher	succeeded
 tortoisehg	succeeded
 totpcgi	succeeded
