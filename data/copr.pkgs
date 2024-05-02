@@ -16,7 +16,7 @@ OpenColorIO	succeeded
 OpenIPMI	succeeded
 OpenImageIO	succeeded
 OpenLP	succeeded
-PackageKit	failed
+PackageKit	succeeded
 ProDy	succeeded
 PyDrive2	succeeded
 PyGreSQL	succeeded
@@ -291,9 +291,8 @@ gns3-gui	succeeded
 gns3-net-converter	succeeded
 gns3-server	succeeded
 gnucash	succeeded
-gnumeric	failed
+gnumeric	succeeded
 gnuradio	succeeded
-go-vendor-tools	failed
 go2rpm	succeeded
 gobject-introspection	succeeded
 gofer	succeeded
@@ -307,7 +306,7 @@ gphotoframe	succeeded
 gplugin	succeeded
 gpsd	succeeded
 gramps	succeeded
-graphviz	failed
+graphviz	succeeded
 grin	succeeded
 grpc	succeeded
 gst	succeeded
@@ -327,7 +326,6 @@ hashid	succeeded
 hddfancontrol	succeeded
 hexchat	succeeded
 hgsvn	succeeded
-hgview	failed
 hivex	succeeded
 hokuyoaist	succeeded
 hplip	succeeded
@@ -358,11 +356,11 @@ jack-mixer	succeeded
 javapackages-tools	succeeded
 jc	failed
 jello	succeeded
-jrnl	failed
+jrnl	succeeded
 jsonnet	failed
 kea	succeeded
 kerberoast	succeeded
-kernel	failed
+kernel	running
 keycloak-httpd-client-install	succeeded
 keylime	succeeded
 kf6-kapidox	succeeded
@@ -379,7 +377,6 @@ koji	succeeded
 koji-containerbuild	succeeded
 koji-flatpak	succeeded
 koji-osbuild	succeeded
-komikku	failed
 kopeninghours	succeeded
 krita	failed
 krop	succeeded
@@ -498,7 +495,6 @@ lutris	succeeded
 lv2	succeeded
 lvm2	succeeded
 m2crypto	failed
-mailman3-fedmsg-plugin	failed
 mailman3-fedmsg-plugin-schemas	succeeded
 mailnag	succeeded
 mailprocessing	succeeded
@@ -524,7 +520,6 @@ mininet	succeeded
 miniupnpc	succeeded
 mirage	succeeded
 mkosi	succeeded
-mkosi14	failed
 mlir	succeeded
 mlpack	succeeded
 mlt	succeeded
@@ -933,7 +928,10 @@ python-astor	succeeded
 python-astral	succeeded
 python-astroML	succeeded
 python-astroid	failed
+python-astroplan	succeeded
 python-astropy	succeeded
+python-astropy-healpix	succeeded
+python-astroquery	succeeded
 python-astunparse	succeeded
 python-async-lru	succeeded
 python-async-timeout	succeeded
@@ -956,7 +954,6 @@ python-autobahn	succeeded
 python-autocommand	succeeded
 python-autopage	succeeded
 python-autopep8	failed
-python-autoprop	failed
 python-avocado	failed
 python-awesomeversion	succeeded
 python-awscrt	succeeded
@@ -1099,7 +1096,7 @@ python-boltons	failed
 python-boolean.py	succeeded
 python-booleanoperations	succeeded
 python-boto	succeeded
-python-boto3	failed
+python-boto3	succeeded
 python-botocore	succeeded
 python-bottle	failed
 python-bottle-sqlite	succeeded
@@ -1446,7 +1443,6 @@ python-doit	succeeded
 python-domdf-python-tools	failed
 python-dotenv	succeeded
 python-dotmap	succeeded
-python-doubleratchet	failed
 python-doxypypy	succeeded
 python-doxyqml	succeeded
 python-doxytag2zealdb	succeeded
@@ -1716,6 +1712,7 @@ python-hexdump	succeeded
 python-hgapi	succeeded
 python-hgdistver	succeeded
 python-hglib	succeeded
+python-hid	succeeded
 python-hid-parser	succeeded
 python-hidapi	succeeded
 python-hikvision	succeeded
@@ -1842,9 +1839,8 @@ python-jdcal	succeeded
 python-jedi	succeeded
 python-jeepney	succeeded
 python-jellyfish	succeeded
-python-jenkins	failed
 python-jenkins-job-builder	failed
-python-jinja2	succeeded
+python-jinja2	failed
 python-jinja2-cli	succeeded
 python-jinja2-time	succeeded
 python-jinja2_pluralize	succeeded
@@ -2392,7 +2388,6 @@ python-pycotap	succeeded
 python-pycountry	succeeded
 python-pycparser	succeeded
 python-pycryptodomex	succeeded
-python-pyct	failed
 python-pycurl	succeeded
 python-pycxx	succeeded
 python-pydantic	failed
@@ -2470,7 +2465,6 @@ python-pynacl	succeeded
 python-pynamodb	succeeded
 python-pynest2d	succeeded
 python-pynetbox	succeeded
-python-pyngus	failed
 python-pynose	succeeded
 python-pynsgr	succeeded
 python-pynuvo	succeeded
@@ -2485,6 +2479,7 @@ python-pypandoc	succeeded
 python-pypcapkit	succeeded
 python-pypck	succeeded
 python-pyperclip	succeeded
+python-pypet	failed
 python-pyphen	succeeded
 python-pypillowfight	succeeded
 python-pypng	succeeded
@@ -2541,6 +2536,7 @@ python-pytaglib	succeeded
 python-pytapo	succeeded
 python-pyte	succeeded
 python-pytest-aiohttp	succeeded
+python-pytest-arraydiff	succeeded
 python-pytest-astropy	succeeded
 python-pytest-astropy-header	succeeded
 python-pytest-asyncio	succeeded
@@ -2599,7 +2595,7 @@ python-pytest-trio	succeeded
 python-pytest-vcr	succeeded
 python-pytest-venv	succeeded
 python-pytest-watch	succeeded
-python-pytest-xdist	failed
+python-pytest-xdist	succeeded
 python-pytest-xprocess	succeeded
 python-pytest-xvfb	succeeded
 python-pytile	succeeded
@@ -2615,6 +2611,7 @@ python-pyvat	succeeded
 python-pyvirtualdisplay	succeeded
 python-pyvit	succeeded
 python-pyvlx	succeeded
+python-pyvo	succeeded
 python-pywayland	succeeded
 python-pywizlight	succeeded
 python-pywlroots	succeeded
@@ -2862,7 +2859,6 @@ python-speg	succeeded
 python-sphinx	failed
 python-sphinx-argparse	succeeded
 python-sphinx-argparse-cli	succeeded
-python-sphinx-autobuild	failed
 python-sphinx-autodoc-typehints	succeeded
 python-sphinx-basic-ng	succeeded
 python-sphinx-bootstrap-theme	succeeded
@@ -2933,7 +2929,6 @@ python-sql	succeeded
 python-sqlacodegen	succeeded
 python-sqlalchemy-filters	succeeded
 python-sqlalchemy1.3	succeeded
-python-sqlalchemy1.4	failed
 python-sqlglot	succeeded
 python-sqlparse	succeeded
 python-ssdeep	succeeded
@@ -2982,7 +2977,7 @@ python-sysrsync	succeeded
 python-system-calls	succeeded
 python-systemd	succeeded
 python-sysv_ipc	succeeded
-python-tables	failed
+python-tables	succeeded
 python-tablib	succeeded
 python-tabulate	succeeded
 python-tasklib	succeeded

@@ -40,6 +40,7 @@ gajim
 gdl
 ginga
 glances
+go-vendor-tools
 gpodder
 gr-air-modes
 gr-funcube
@@ -57,6 +58,7 @@ ipython
 jupyterlab
 limnoria
 mailman3
+mailman3-fedmsg-plugin
 matrix-synapse
 mirrormanager2
 module-build-service
@@ -104,9 +106,6 @@ python-aodhclient
 python-arm-preprocessing
 python-arviz
 python-ast-monitor
-python-astroplan
-python-astropy-healpix
-python-astroquery
 python-astroscrappy
 python-asttokens
 python-autograd
@@ -170,6 +169,7 @@ python-digitalocean
 python-django-pyscss
 python-django4.2
 python-dns-lexicon
+python-doubleratchet
 python-earthpy
 python-elephant
 python-engineio
@@ -218,7 +218,6 @@ python-hacking
 python-hass-data-detective
 python-hdmf
 python-heatclient
-python-hid
 python-httpbin
 python-httpcore
 python-httpx
@@ -231,6 +230,7 @@ python-ipykernel
 python-ipyparallel
 python-ipywidgets
 python-ironicclient
+python-jenkins
 python-jschema-to-python
 python-jsonpath-ng
 python-jsonpickle
@@ -359,11 +359,11 @@ python-pymemcache
 python-pymochad
 python-pymod2pkg
 python-pynetdicom
+python-pyngus
 python-pynn
 python-pynwb
 python-pyone
 python-pyopengl
-python-pypet
 python-pyphi
 python-pyqtgraph
 python-pyquery
@@ -376,7 +376,6 @@ python-pysb
 python-pyshark
 python-pyshtools
 python-pyswarms
-python-pytest-arraydiff
 python-pytest-cases
 python-pytest-harvest
 python-pytest-httpbin
@@ -393,7 +392,6 @@ python-pytoolconfig
 python-pyunicorn
 python-pyvirtualize
 python-pyvmomi
-python-pyvo
 python-qemu-qmp
 python-qtconsole
 python-rasterio
@@ -440,12 +438,14 @@ python-snakemake-storage-plugin-zenodo
 python-socketio
 python-socks
 python-spdx-tools
+python-sphinx-autobuild
 python-sport-activities-features
 python-spyder-kernels
 python-spyking-circus
 python-sqlalchemy
 python-sqlalchemy-collectd
 python-sqlalchemy-utils
+python-sqlalchemy1.4
 python-sqlalchemy_schemadisplay
 python-stack-data
 python-starlette

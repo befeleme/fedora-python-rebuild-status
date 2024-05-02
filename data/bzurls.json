@@ -2,9 +2,6 @@
   "NLopt": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2254979"
   ],
-  "PackageKit": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2272920"
-  ],
   "PyQt4": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2248128"
   ],
@@ -63,31 +60,22 @@
   "future": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2250662"
   ],
-  "gnumeric": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2247261"
-  ],
-  "go-vendor-tools": [],
-  "graphviz": [],
   "gtts": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2246380"
   ],
-  "hgview": [],
   "jc": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2247039"
   ],
-  "jrnl": [],
   "jsonnet": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2245815"
-  ],
-  "kernel": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2264420"
   ],
   "kicad": [],
   "kitty": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2265524"
   ],
-  "komikku": [],
-  "krita": [],
+  "krita": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2278646"
+  ],
   "lasso": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2256949"
   ],
@@ -116,7 +104,6 @@
   "m2crypto": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2245806"
   ],
-  "mailman3-fedmsg-plugin": [],
   "muse": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2272918"
   ],
@@ -185,7 +172,9 @@
   "python-astroid": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2254528"
   ],
-  "python-asyncpg": [],
+  "python-asyncpg": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2278638"
+  ],
   "python-asyncssh": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2251916"
   ],
@@ -195,7 +184,6 @@
   "python-autopep8": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2246135"
   ],
-  "python-autoprop": [],
   "python-avocado": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2250847"
   ],
@@ -208,7 +196,6 @@
   "python-boltons": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2259631"
   ],
-  "python-boto3": [],
   "python-bottle": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2245642"
   ],
@@ -240,14 +227,15 @@
   "python-devicely": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2277745"
   ],
-  "python-dipy": [],
+  "python-dipy": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2278637"
+  ],
   "python-djvulibre": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2226179"
   ],
   "python-domdf-python-tools": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2259552"
   ],
-  "python-doubleratchet": [],
   "python-exdir": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2266601"
   ],
@@ -263,7 +251,9 @@
   "python-frozenlist": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2275060"
   ],
-  "python-ftfy": [],
+  "python-ftfy": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2278647"
+  ],
   "python-gbulb": [],
   "python-gensim": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2261825"
@@ -300,9 +290,11 @@
   "python-intbitset": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2247036"
   ],
-  "python-jenkins": [],
   "python-jenkins-job-builder": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2247035"
+  ],
+  "python-jinja2": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2245265"
   ],
   "python-jnius": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2272966"
@@ -376,7 +368,6 @@
   "python-py-gql": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2246126"
   ],
-  "python-pyct": [],
   "python-pydantic": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2256753"
   ],
@@ -389,8 +380,9 @@
   "python-pymilter": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2259637"
   ],
-  "python-pyngus": [],
-  "python-pytest-xdist": [],
+  "python-pypet": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2277855"
+  ],
   "python-pytn3270": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2246275"
   ],
@@ -430,16 +422,11 @@
   "python-sphinx": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2271405"
   ],
-  "python-sphinx-autobuild": [],
   "python-sphinx-notfound-page": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2261607"
   ],
-  "python-sqlalchemy1.4": [],
   "python-straight-plugin": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2244822"
-  ],
-  "python-tables": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2266586"
   ],
   "python-tblib": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2271387"
@@ -520,7 +507,9 @@
   "rmlint": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2272923"
   ],
-  "root": [],
+  "root": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2278644"
+  ],
   "rpkg-util": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2276893"
   ],
