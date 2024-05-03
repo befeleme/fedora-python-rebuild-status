@@ -47,9 +47,11 @@ alacarte	succeeded
 alot	succeeded
 ampy	succeeded
 anaconda	succeeded
+ansible	succeeded
 ansible-bender	succeeded
 ansible-builder	succeeded
-ansible-core	failed
+ansible-core	succeeded
+ansible-inventory-grapher	succeeded
 apbs	succeeded
 apostrophe	succeeded
 appliance-tools	succeeded
@@ -129,7 +131,7 @@ cepces	succeeded
 ceph	failed
 cffconvert	succeeded
 cjdns	succeeded
-clang	succeeded
+clang	failed
 classification-banner	succeeded
 claws-mail	succeeded
 clingo	succeeded
@@ -264,6 +266,7 @@ gerrymander	succeeded
 getdp	succeeded
 gfal2-python	succeeded
 gi-docgen	succeeded
+ginga	succeeded
 git-archive-all	succeeded
 git-cola	succeeded
 git-fame	succeeded
@@ -360,13 +363,13 @@ jrnl	succeeded
 jsonnet	failed
 kea	succeeded
 kerberoast	succeeded
-kernel	running
+kernel	failed
 keycloak-httpd-client-install	succeeded
 keylime	succeeded
 kf6-kapidox	succeeded
 khal	succeeded
 khard	succeeded
-kicad	failed
+kicad	succeeded
 kig	succeeded
 kitty	failed
 kiwi	succeeded
@@ -891,6 +894,8 @@ python-ana	succeeded
 python-aniso8601	succeeded
 python-annexremote	succeeded
 python-annotated-types	succeeded
+python-ansible-compat	succeeded
+python-ansible-runner	succeeded
 python-ansicolor	succeeded
 python-ansicolors	succeeded
 python-ansiwrap	succeeded
@@ -937,7 +942,7 @@ python-async-lru	succeeded
 python-async-timeout	succeeded
 python-async-upnp-client	succeeded
 python-asyncmy	succeeded
-python-asyncpg	failed
+python-asyncpg	succeeded
 python-asyncssh	failed
 python-asysocks	succeeded
 python-atlassian-python-api	succeeded
@@ -1096,7 +1101,7 @@ python-boltons	failed
 python-boolean.py	succeeded
 python-booleanoperations	succeeded
 python-boto	succeeded
-python-boto3	succeeded
+python-boto3	failed
 python-botocore	succeeded
 python-bottle	failed
 python-bottle-sqlite	succeeded
@@ -1625,7 +1630,7 @@ python-gast	succeeded
 python-gatspy	succeeded
 python-gattlib	succeeded
 python-gbinder	succeeded
-python-gbulb	failed
+python-gbulb	running
 python-gear	succeeded
 python-gearbox	succeeded
 python-gekitchen	succeeded
@@ -3003,6 +3008,7 @@ python-terminado	succeeded
 python-terminaltables	succeeded
 python-teslajsonpy	succeeded
 python-testfixtures	succeeded
+python-testinfra	failed
 python-testing.common.database	succeeded
 python-testpath	succeeded
 python-testrepository	succeeded
