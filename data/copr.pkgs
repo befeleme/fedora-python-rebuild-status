@@ -130,6 +130,8 @@ centpkg	succeeded
 cepces	succeeded
 ceph	failed
 cffconvert	succeeded
+chirp	succeeded
+cinch	succeeded
 cjdns	succeeded
 clang	failed
 classification-banner	succeeded
@@ -209,7 +211,7 @@ dput-ng	succeeded
 dtc	succeeded
 duplicity	succeeded
 dynaconf	succeeded
-ec2-hibinit-agent	failed
+ec2-hibinit-agent	succeeded
 electron-cash	succeeded
 elements	succeeded
 elements-alexandria	succeeded
@@ -363,7 +365,7 @@ jrnl	succeeded
 jsonnet	failed
 kea	succeeded
 kerberoast	succeeded
-kernel	failed
+kernel	succeeded
 keycloak-httpd-client-install	succeeded
 keylime	succeeded
 kf6-kapidox	succeeded
@@ -460,7 +462,7 @@ libselinux	succeeded
 libsemanage	succeeded
 libsigrokdecode	succeeded
 libsmbios	succeeded
-libsolv	failed
+libsolv	succeeded
 libsonata	succeeded
 libstoragemgmt	succeeded
 libsvm	succeeded
@@ -1113,7 +1115,7 @@ python-bravado-core	succeeded
 python-breathe	succeeded
 python-brian2	succeeded
 python-brukerapi	succeeded
-python-bsddb3	succeeded
+python-bsddb3	failed
 python-btchip	succeeded
 python-btrfs	succeeded
 python-bucky	succeeded
@@ -1177,7 +1179,7 @@ python-click-plugins	succeeded
 python-click-repl	succeeded
 python-click-spinner	succeeded
 python-click-threading	succeeded
-python-cliff	failed
+python-cliff	succeeded
 python-cliff-tablib	succeeded
 python-cligj	succeeded
 python-cloud-sptheme	succeeded
@@ -1290,6 +1292,7 @@ python-crcmod	succeeded
 python-crochet	succeeded
 python-croniter	succeeded
 python-crossword	succeeded
+python-crypt-r	succeeded
 python-crypto	succeeded
 python-cryptography	succeeded
 python-cs	succeeded
@@ -1339,7 +1342,7 @@ python-debian	succeeded
 python-debian-inspector	succeeded
 python-debianbts	succeeded
 python-debrepo	succeeded
-python-debtcollector	succeeded
+python-debtcollector	failed
 python-deconz	succeeded
 python-decorator	succeeded
 python-deepdiff	succeeded
@@ -1620,7 +1623,7 @@ python-funcsigs	succeeded
 python-funcy	succeeded
 python-furo	succeeded
 python-fuse	succeeded
-python-futurist	succeeded
+python-futurist	failed
 python-fuzzyfinder	succeeded
 python-fuzzywuzzy	succeeded
 python-fvs	succeeded
@@ -2116,6 +2119,7 @@ python-netapp-lib	succeeded
 python-netdata	succeeded
 python-netdisco	succeeded
 python-netifaces	succeeded
+python-network-runner	succeeded
 python-networkx	succeeded
 python-neurodsp	succeeded
 python-neurosynth	succeeded
@@ -2592,6 +2596,7 @@ python-pytest-sourceorder	succeeded
 python-pytest-spec	succeeded
 python-pytest-subtests	succeeded
 python-pytest-sugar	succeeded
+python-pytest-testinfra	failed
 python-pytest-testmon	succeeded
 python-pytest-timeout	succeeded
 python-pytest-tldr	succeeded
@@ -2678,7 +2683,7 @@ python-registry	succeeded
 python-relatorio	succeeded
 python-remoto	succeeded
 python-rencode	succeeded
-python-reno	succeeded
+python-reno	failed
 python-reparser	succeeded
 python-repomd	succeeded
 python-reportlab	succeeded
@@ -2765,7 +2770,7 @@ python-saneyaml	succeeded
 python-scales	succeeded
 python-scantree	succeeded
 python-schedutils	succeeded
-python-schema	failed
+python-schema	succeeded
 python-scikit-build	succeeded
 python-scikit-learn	succeeded
 python-scikit-misc	succeeded
@@ -3057,7 +3062,7 @@ python-towncrier	succeeded
 python-tox	succeeded
 python-tox-current-env	succeeded
 python-tpm2-pytss	failed
-python-tqdm	succeeded
+python-tqdm	failed
 python-trailrunner	succeeded
 python-traitlets	succeeded
 python-transaction	succeeded
@@ -3192,7 +3197,7 @@ python-websockets	succeeded
 python-websockify	succeeded
 python-webthing	succeeded
 python-webthing-ws	succeeded
-python-werkzeug	succeeded
+python-werkzeug	failed
 python-whatthepatch	succeeded
 python-wheel	succeeded
 python-whichcraft	succeeded
@@ -3332,7 +3337,7 @@ rabbitvcs	succeeded
 radicale	succeeded
 ranger	succeeded
 rapid-photo-downloader	succeeded
-rapidyaml	succeeded
+rapidyaml	failed
 rb_libtorrent	succeeded
 rdiff-backup	succeeded
 rdma-core	succeeded
@@ -3376,6 +3381,8 @@ rteval	succeeded
 rubber	succeeded
 ruff	succeeded
 rust-add-determinism	succeeded
+rust-pyo3-ffi	succeeded
+rust-pyo3-ffi0.20	succeeded
 rust2rpm	succeeded
 s-tui	succeeded
 s3cmd	succeeded
