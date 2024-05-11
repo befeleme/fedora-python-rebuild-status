@@ -13,13 +13,16 @@
   "WALinuxAgent": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2246085"
   ],
+  "Zim": [],
   "afflib": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2260973"
   ],
   "ara": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2279553"
   ],
-  "argparse-manpage": [],
+  "argparse-manpage": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2279987"
+  ],
   "awscli2": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2271404"
   ],
@@ -53,7 +56,10 @@
     "https://bugzilla.redhat.com/show_bug.cgi?id=2247015"
   ],
   "eralchemy": [],
-  "eric": [],
+  "eric": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2279980"
+  ],
+  "espresso": [],
   "fail2ban": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2244834"
   ],
@@ -61,7 +67,9 @@
   "flatpak-module-tools": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2252072"
   ],
-  "fmf": [],
+  "fmf": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2279994"
+  ],
   "fontforge": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2245798"
   ],
@@ -80,6 +88,9 @@
   "jrnl": [],
   "jsonnet": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2245815"
+  ],
+  "kernel": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2264420"
   ],
   "kitty": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2265524"
@@ -104,10 +115,15 @@
   "libpreludedb": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2261338"
   ],
+  "libsbml": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2262374"
+  ],
   "libuser": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2247195"
   ],
-  "linkchecker": [],
+  "linkchecker": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2279995"
+  ],
   "lldb": [],
   "m2crypto": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2245806"
@@ -122,9 +138,13 @@
   "muse": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2272918"
   ],
+  "numpy": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2280004"
+  ],
   "nut": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2248125"
   ],
+  "nwchem": [],
   "openscap": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2260316"
   ],
@@ -150,7 +170,9 @@
   "pychromecast": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2272929"
   ],
-  "pyflakes": [],
+  "pyflakes": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2279989"
+  ],
   "pygame": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2250670"
   ],
@@ -198,7 +220,9 @@
   "python-astroid": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2254528"
   ],
-  "python-astunparse": [],
+  "python-astunparse": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2279984"
+  ],
   "python-asyncssh": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2251916"
   ],
@@ -281,7 +305,9 @@
   "python-beartype": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2265487"
   ],
-  "python-bioframe": [],
+  "python-bioframe": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2279982"
+  ],
   "python-boltons": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2259631"
   ],
@@ -301,7 +327,9 @@
   "python-cclib": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2276581"
   ],
-  "python-cloudpickle": [],
+  "python-cloudpickle": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2279991"
+  ],
   "python-configargparse": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2265132"
   ],
@@ -357,7 +385,10 @@
     "https://bugzilla.redhat.com/show_bug.cgi?id=2278647"
   ],
   "python-futurist": [],
-  "python-gast": [],
+  "python-gast": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2279988"
+  ],
+  "python-gbulb": [],
   "python-gensim": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2261825"
   ],
@@ -365,6 +396,7 @@
     "https://bugzilla.redhat.com/show_bug.cgi?id=2221960"
   ],
   "python-google-cloud-monitoring": [],
+  "python-graph-tool": [],
   "python-greenlet": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2245874"
   ],
@@ -403,7 +435,9 @@
   "python-jose": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2275073"
   ],
-  "python-json-logger": [],
+  "python-json-logger": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2279986"
+  ],
   "python-jsonformatter": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2271060"
   ],
@@ -446,7 +480,9 @@
   "python-munch": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2275057"
   ],
-  "python-murano-pkg-check": [],
+  "python-murano-pkg-check": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2279983"
+  ],
   "python-numexpr": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2250671"
   ],
@@ -471,12 +507,16 @@
   ],
   "python-pem": [],
   "python-persistent": [],
+  "python-pexpect": [],
   "python-pika": [],
   "python-pillow": [],
-  "python-pip": [],
+  "python-pip": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2279985"
+  ],
   "python-pivy": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2245811"
   ],
+  "python-ppft": [],
   "python-precis_i18n": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2246305"
   ],
@@ -484,7 +524,9 @@
   "python-psycopg2": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2245673"
   ],
-  "python-pure-eval": [],
+  "python-pure-eval": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2279990"
+  ],
   "python-py-gql": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2246126"
   ],
@@ -502,6 +544,9 @@
   ],
   "python-pypet": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2277855"
+  ],
+  "python-pyside6": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2266591"
   ],
   "python-pytest-bdd": [],
   "python-pytest-qt": [],
@@ -540,7 +585,9 @@
   "python-setuptools": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2259516"
   ],
-  "python-setuptools-rust": [],
+  "python-setuptools-rust": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2279993"
+  ],
   "python-setuptools_scm_git_archive": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2240107"
   ],
@@ -553,7 +600,9 @@
   "python-sphinx-notfound-page": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2261607"
   ],
-  "python-sphinxcontrib-openapi": [],
+  "python-sphinxcontrib-openapi": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2279996"
+  ],
   "python-stompest": [],
   "python-straight-plugin": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2244822"
@@ -639,7 +688,9 @@
   "python-zope-event": [],
   "python-zope-exceptions": [],
   "python-zope-i18nmessageid": [],
-  "python-zope-interface": [],
+  "python-zope-interface": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2279981"
+  ],
   "python-zope-schema": [],
   "python-zope-testrunner": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2254185",
@@ -649,6 +700,7 @@
   "python3-zope-fixers": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2246285"
   ],
+  "python3.13": [],
   "pyzor": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2245827"
   ],
@@ -664,6 +716,9 @@
   ],
   "rmlint": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2272923"
+  ],
+  "root": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2278644"
   ],
   "rpkg": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2276896"
