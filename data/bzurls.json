@@ -38,7 +38,6 @@
   "ceph": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2259639"
   ],
-  "clang": [],
   "collectd": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2247197"
   ],
@@ -59,7 +58,6 @@
   "eric": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2279980"
   ],
-  "espresso": [],
   "fail2ban": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2244834"
   ],
@@ -128,9 +126,6 @@
   "m2crypto": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2245806"
   ],
-  "mlir": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2250682"
-  ],
   "mod_wsgi": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2245872"
   ],
@@ -142,6 +137,7 @@
     "https://bugzilla.redhat.com/show_bug.cgi?id=2248125"
   ],
   "nwchem": [],
+  "opencv": [],
   "openscap": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2260316"
   ],
@@ -188,20 +184,15 @@
   "pytest": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2275051"
   ],
-  "python-BTrees": [],
   "python-Traits": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2250844"
   ],
-  "python-ZConfig": [],
-  "python-ZEO": [],
-  "python-ZODB": [],
   "python-agate": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2271392"
   ],
   "python-aiosmtpd": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2263017"
   ],
-  "python-aiostream": [],
   "python-amico": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2244829"
   ],
@@ -221,87 +212,19 @@
   "python-asyncssh": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2251916"
   ],
-  "python-attrs": [],
   "python-audioread": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2248130"
-  ],
-  "python-autobahn": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2271388"
   ],
   "python-avocado": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2250847"
   ],
-  "python-azure-ai-formrecognizer": [],
-  "python-azure-ai-textanalytics": [],
   "python-azure-core": [],
-  "python-azure-data-tables": [],
-  "python-azure-keyvault-administration": [],
-  "python-azure-keyvault-keys": [],
-  "python-azure-mgmt-apimanagement": [],
-  "python-azure-mgmt-appconfiguration": [],
-  "python-azure-mgmt-appcontainers": [],
-  "python-azure-mgmt-authorization": [],
-  "python-azure-mgmt-batch": [],
-  "python-azure-mgmt-batchai": [],
-  "python-azure-mgmt-cdn": [],
-  "python-azure-mgmt-cognitiveservices": [],
-  "python-azure-mgmt-compute": [],
-  "python-azure-mgmt-containerinstance": [],
-  "python-azure-mgmt-containerregistry": [],
-  "python-azure-mgmt-containerservice": [],
   "python-azure-mgmt-core": [],
-  "python-azure-mgmt-cosmosdb": [],
-  "python-azure-mgmt-eventgrid": [],
-  "python-azure-mgmt-eventhub": [],
-  "python-azure-mgmt-extendedlocation": [],
-  "python-azure-mgmt-hdinsight": [],
-  "python-azure-mgmt-imagebuilder": [],
-  "python-azure-mgmt-iotcentral": [],
-  "python-azure-mgmt-iothub": [],
-  "python-azure-mgmt-iothubprovisioningservices": [],
-  "python-azure-mgmt-keyvault": [],
-  "python-azure-mgmt-loganalytics": [],
-  "python-azure-mgmt-managementgroups": [],
-  "python-azure-mgmt-media": [],
-  "python-azure-mgmt-monitor": [],
-  "python-azure-mgmt-msi": [],
-  "python-azure-mgmt-netapp": [],
-  "python-azure-mgmt-network": [],
-  "python-azure-mgmt-policyinsights": [],
-  "python-azure-mgmt-privatedns": [],
-  "python-azure-mgmt-quota": [],
-  "python-azure-mgmt-rdbms": [],
-  "python-azure-mgmt-recoveryservices": [],
-  "python-azure-mgmt-recoveryservicesbackup": [],
-  "python-azure-mgmt-redhatopenshift": [],
-  "python-azure-mgmt-redis": [],
-  "python-azure-mgmt-resource": [],
-  "python-azure-mgmt-search": [],
-  "python-azure-mgmt-security": [],
-  "python-azure-mgmt-servicebus": [],
-  "python-azure-mgmt-servicefabricmanagedclusters": [],
-  "python-azure-mgmt-servicelinker": [],
-  "python-azure-mgmt-signalr": [],
-  "python-azure-mgmt-sql": [],
-  "python-azure-mgmt-sqlvirtualmachine": [],
-  "python-azure-mgmt-storage": [],
-  "python-azure-mgmt-subscription": [],
-  "python-azure-mgmt-support": [],
-  "python-azure-mgmt-synapse": [],
-  "python-azure-mgmt-trafficmanager": [],
-  "python-azure-monitor-query": [],
-  "python-azure-multiapi-storage": [],
-  "python-azure-servicebus": [],
-  "python-azure-storage-blob": [],
-  "python-azure-synapse-artifacts": [],
   "python-backrefs": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2246376"
   ],
   "python-beartype": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2265487"
-  ],
-  "python-bioframe": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2279982"
   ],
   "python-boltons": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2259631"
@@ -309,13 +232,11 @@
   "python-bottle": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2245642"
   ],
-  "python-bravado-core": [],
   "python-bsddb3": [],
   "python-cachelib": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2251780"
   ],
   "python-capturer": [],
-  "python-carbon": [],
   "python-catkin_lint": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2259550"
   ],
@@ -328,8 +249,6 @@
   "python-configargparse": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2265132"
   ],
-  "python-constantly": [],
-  "python-crochet": [],
   "python-css-parser": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2245651"
   ],
@@ -339,7 +258,6 @@
   "python-curio": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2246053"
   ],
-  "python-daphne": [],
   "python-devicely": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2277745"
   ],
@@ -369,8 +287,6 @@
   "python-flask-httpauth": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2221959"
   ],
-  "python-flexmock": [],
-  "python-flufl-bounce": [],
   "python-frozenlist": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2275060"
   ],
@@ -434,9 +350,6 @@
   "python-jsonformatter": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2271060"
   ],
-  "python-jsonschema": [],
-  "python-lazr-config": [],
-  "python-lazr-delegates": [],
   "python-libcst": [],
   "python-libusb1": [],
   "python-lmdb": [
@@ -449,7 +362,6 @@
     "https://bugzilla.redhat.com/show_bug.cgi?id=2245884"
   ],
   "python-matplotlib-venn": [],
-  "python-matrix-common": [],
   "python-mechanize": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2279550"
   ],
@@ -465,16 +377,11 @@
   "python-mirakuru": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2275066"
   ],
-  "python-moksha-hub": [],
-  "python-mpd2": [],
   "python-multiprocess": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2246347"
   ],
   "python-munch": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2275057"
-  ],
-  "python-murano-pkg-check": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2279983"
   ],
   "python-numexpr": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2250671"
@@ -491,17 +398,13 @@
   "python-orderedset": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2226269"
   ],
-  "python-parsley": [],
   "python-pathvalidate": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2259547"
   ],
   "python-pdir2": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2275052"
   ],
-  "python-pem": [],
-  "python-persistent": [],
   "python-pexpect": [],
-  "python-pika": [],
   "python-pillow": [],
   "python-pip": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2279985"
@@ -513,7 +416,6 @@
   "python-precis_i18n": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2246305"
   ],
-  "python-prometheus_client": [],
   "python-psycopg2": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2245673"
   ],
@@ -541,7 +443,6 @@
   "python-pyside6": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2266591"
   ],
-  "python-pytest-bdd": [],
   "python-pytest-qt": [],
   "python-pytest-testinfra": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2279552"
@@ -554,18 +455,14 @@
     "https://bugzilla.redhat.com/show_bug.cgi?id=2276579"
   ],
   "python-qcustomplot-pyqt": [],
-  "python-reactivex": [],
   "python-readability-lxml": [],
   "python-recordclass": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2265475"
   ],
-  "python-reportlab": [],
-  "python-repoze-sphinx-autointerface": [],
   "python-requests-cache": [],
   "python-rich": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2271397"
   ],
-  "python-robosignatory": [],
   "python-rtmidi": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2226321"
   ],
@@ -575,9 +472,7 @@
   "python-scss": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2245678"
   ],
-  "python-setuptools": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2259516"
-  ],
+  "python-setuptools": [],
   "python-setuptools-rust": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2279993"
   ],
@@ -600,25 +495,19 @@
   "python-straight-plugin": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2244822"
   ],
-  "python-superqt": [],
-  "python-swagger-spec-validator": [],
   "python-tblib": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2271387"
   ],
   "python-testinfra": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2279554"
   ],
-  "python-testtools": [],
-  "python-textual": [],
   "python-tomlkit": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2264860"
   ],
   "python-toolz": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2245886"
   ],
-  "python-towncrier": [],
   "python-tpm2-pytss": [],
-  "python-transaction": [],
   "python-trio": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2246354"
   ],
@@ -629,16 +518,11 @@
   "python-twisted": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2255342"
   ],
-  "python-txws": [],
-  "python-txzmq": [],
   "python-typecode": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2261610"
   ],
   "python-typeguard": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2275067"
-  ],
-  "python-typing-extensions": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2259519"
   ],
   "python-uritools": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2245671"
@@ -677,20 +561,11 @@
     "https://bugzilla.redhat.com/show_bug.cgi?id=2261619"
   ],
   "python-zlib-ng": [],
-  "python-zodbpickle": [],
-  "python-zope-configuration": [],
-  "python-zope-event": [],
   "python-zope-exceptions": [],
-  "python-zope-i18nmessageid": [],
-  "python-zope-interface": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2279981"
-  ],
-  "python-zope-schema": [],
   "python-zope-testrunner": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2254185",
     "https://bugzilla.redhat.com/show_bug.cgi?id=2251779"
   ],
-  "python-zopeundo": [],
   "python3-zope-fixers": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2246285"
   ],
