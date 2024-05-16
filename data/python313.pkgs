@@ -174,9 +174,11 @@ devscripts
 dib-utils
 diceware
 did
+diffoscope
 diskimage-builder
 distcc
 distgen
+distro-info
 dlib
 dmlite
 dnf
@@ -327,6 +329,7 @@ i2c-tools
 ibus
 ibus-cangjie
 ikiwiki
+ilua
 imagefactory
 imagefactory-plugins
 imath
@@ -339,6 +342,7 @@ insight
 intelhex
 ioc-writer
 ipa-hcc
+ipython
 irclog2html
 is-it-in-rhel
 iscsi-initiator-utils
@@ -552,6 +556,7 @@ nispor
 nml
 nmstate
 noggin
+nordugrid-arc
 nordugrid-arc-nagios-plugins
 notcurses
 notmuch
@@ -561,6 +566,7 @@ nox
 ntpsec
 numpy
 nut
+nvme-stas
 nvmetcli
 nwchem
 nwg-panel
@@ -657,6 +663,7 @@ proxmark3
 prunerepo
 pss
 pssh
+ptpython
 puddletag
 pulsecaster
 pungi
@@ -693,6 +700,7 @@ pykickstart
 pylast
 pylibacl
 pylibgamerzilla
+pylint
 pymilia
 pymodbus
 pymol
@@ -735,6 +743,7 @@ python-ModulemdTranslationHelpers
 python-MultipartPostHandler2
 python-Naked
 python-OBD
+python-OWSLib
 python-Pallets-Sphinx-Themes
 python-PyGithub
 python-PyLEMS
@@ -749,6 +758,7 @@ python-QtPy
 python-ROPGadget
 python-Rtree
 python-SecretStorage
+python-TestSlide
 python-WSGIProxy2
 python-XStatic
 python-XStatic-Angular
@@ -861,6 +871,7 @@ python-alsaaudio
 python-amply
 python-amqp
 python-ana
+python-animatplot
 python-aniso8601
 python-annexremote
 python-annotated-types
@@ -900,10 +911,12 @@ python-asteval
 python-astor
 python-astral
 python-astroML
+python-astroid
 python-astroplan
 python-astropy
 python-astropy-healpix
 python-astroquery
+python-asttokens
 python-astunparse
 python-async-lru
 python-async-timeout
@@ -1053,6 +1066,7 @@ python-bitcoinlib
 python-bitmath
 python-bitstring
 python-bitstruct
+python-black
 python-bleach
 python-blessed
 python-blessings
@@ -1076,6 +1090,7 @@ python-bowler
 python-box
 python-boxsdk
 python-bracex
+python-branca
 python-bravado-core
 python-breathe
 python-brian2
@@ -1204,6 +1219,7 @@ python-colored
 python-colored-traceback
 python-colorful
 python-colorlog
+python-colorspacious
 python-colorthief
 python-colorzero
 python-colour
@@ -1296,6 +1312,7 @@ python-dbus-python-client-gen
 python-dbus-signature-pyparsing
 python-dbusmock
 python-dbutils
+python-dcrpm
 python-ddt
 python-deap
 python-debian
@@ -1517,6 +1534,7 @@ python-flake8
 python-flake8-builtins
 python-flake8-comprehensions
 python-flake8-docstrings
+python-flake8-import-order
 python-flake8-polyfill
 python-flake8-quotes
 python-flaky
@@ -1556,6 +1574,7 @@ python-flufl-i18n
 python-flufl-lock
 python-flufl-testing
 python-fluidity-sm
+python-folium
 python-fontMath
 python-fontconfig
 python-fontname
@@ -1654,6 +1673,7 @@ python-grpcio-gcp
 python-gsd
 python-gssapi
 python-gstreamer1
+python-guessit
 python-gunicorn
 python-h11
 python-h2
@@ -1708,6 +1728,7 @@ python-humblewx
 python-hupper
 python-husl
 python-hvac
+python-hwdata
 python-hyperframe
 python-hyperkitty
 python-hyperlink
@@ -1762,6 +1783,7 @@ python-iowait
 python-ipgetter2
 python-iptools
 python-ipuz
+python-ipykernel
 python-ipython_genutils
 python-irc
 python-iso-639
@@ -1831,9 +1853,11 @@ python-junitxml
 python-jupymake
 python-jupyter-c-kernel
 python-jupyter-client
+python-jupyter-console
 python-jupyter-core
 python-jupyter-events
 python-jupyter-packaging
+python-jupyter-polymake
 python-jupyter-server-terminals
 python-jupyterlab_pygments
 python-justbases
@@ -1882,6 +1906,7 @@ python-lesscpy
 python-lexicon
 python-lfpy
 python-lfpykit
+python-libNeuroML
 python-libarchive-c
 python-libcloud
 python-libcst
@@ -2047,11 +2072,13 @@ python-mystrom
 python-nagiosplugin
 python-name-that-hash
 python-nanoid
+python-nashpy
 python-natlas-libnmap
 python-natsort
 python-nbclient
 python-nbconvert
 python-nbformat
+python-nbsphinx
 python-ncclient
 python-ndg_httpsclient
 python-ndindex
@@ -2252,6 +2279,7 @@ python-plugnplay
 python-plumbum
 python-ply
 python-pmw
+python-pocketlint
 python-podcastparser
 python-podman
 python-poetry-core
@@ -2342,7 +2370,6 @@ python-pycparser
 python-pycryptodomex
 python-pycurl
 python-pycxx
-python-pydantic-core
 python-pydata-sphinx-theme
 python-pydbus
 python-pydepsdev
@@ -2396,6 +2423,7 @@ python-pylev
 python-pyliblzfse
 python-pylibmc
 python-pylibravatar
+python-pylint-venv
 python-pylons-sphinx-themes
 python-pylotoncycle
 python-pyls-spyder
@@ -2415,6 +2443,7 @@ python-pynacl
 python-pynamodb
 python-pynest2d
 python-pynetbox
+python-pynn
 python-pynose
 python-pynsgr
 python-pynuvo
@@ -2458,6 +2487,7 @@ python-pyrsistent
 python-pyrtlsdr
 python-pysam
 python-pysaml2
+python-pysb
 python-pyscaffold
 python-pyscf
 python-pyside6
@@ -2514,6 +2544,7 @@ python-pytest-grpc
 python-pytest-home
 python-pytest-httpserver
 python-pytest-isort
+python-pytest-jupyter
 python-pytest-lazy-fixture
 python-pytest-lazy-fixtures
 python-pytest-localserver
@@ -2532,6 +2563,7 @@ python-pytest-remotedata
 python-pytest-repeat
 python-pytest-rerunfailures
 python-pytest-runner
+python-pytest-services
 python-pytest-shutil
 python-pytest-smartcov
 python-pytest-sourceorder
@@ -2581,6 +2613,7 @@ python-qpageview
 python-qrcode
 python-qstylizer
 python-qt5
+python-qtconsole
 python-qtsass
 python-quantities
 python-qudida
@@ -2610,6 +2643,7 @@ python-readability-lxml
 python-readchar
 python-readlike
 python-readme-renderer
+python-rebulk
 python-recommonmark
 python-recordclass
 python-redis
@@ -2629,6 +2663,7 @@ python-reportlab
 python-repoze-lru
 python-repoze-sphinx-autointerface
 python-repoze-tm2
+python-represent
 python-requests
 python-requests-cache
 python-requests-credssp
@@ -2771,6 +2806,7 @@ python-simplevisor
 python-singledispatch
 python-siphash
 python-six
+python-sklearn-genetic-opt
 python-sklearn-nature-inspired-algorithms
 python-slacker
 python-slixmpp
@@ -2871,6 +2907,7 @@ python-sphobjinv
 python-spnego
 python-spotipy
 python-spur
+python-spyder-kernels
 python-sql
 python-sqlacodegen
 python-sqlalchemy-filters
@@ -2884,6 +2921,7 @@ python-sseclient-py
 python-ssh-python
 python-sshpubkeys
 python-sshtunnel
+python-stack-data
 python-stackprinter
 python-statsd
 python-stdiomask
@@ -2904,6 +2942,7 @@ python-string_utils
 python-stripe
 python-stuf
 python-subarulink
+python-subliminal
 python-subprocess-tee
 python-succulent
 python-suds
@@ -3390,6 +3429,7 @@ terminator
 testcloud
 thefuck
 theme-switcher
+thonny
 thrift
 tiled
 timeline
