@@ -16,7 +16,7 @@ OpenColorIO	succeeded
 OpenIPMI	succeeded
 OpenImageIO	succeeded
 OpenLP	succeeded
-PackageKit	failed
+PackageKit	succeeded
 ProDy	succeeded
 PyDrive2	succeeded
 PyGreSQL	succeeded
@@ -135,7 +135,7 @@ cffconvert	succeeded
 chirp	succeeded
 cinch	succeeded
 cjdns	succeeded
-clang	succeeded
+clang	running
 classification-banner	succeeded
 claws-mail	succeeded
 clingo	succeeded
@@ -162,6 +162,7 @@ copr-cli	succeeded
 copr-keygen	succeeded
 copr-messaging	succeeded
 copr-rpmbuild	succeeded
+cozy	succeeded
 cranc	succeeded
 createrepo_c	succeeded
 criu	succeeded
@@ -370,7 +371,7 @@ jrnl	failed
 jsonnet	failed
 kea	succeeded
 kerberoast	succeeded
-kernel	failed
+kernel	succeeded
 keycloak-httpd-client-install	succeeded
 keylime	succeeded
 kf6-kapidox	succeeded
@@ -438,7 +439,7 @@ liblinear	succeeded
 libloc	succeeded
 liblouis	succeeded
 libmamba	succeeded
-libmodulemd	failed
+libmodulemd	succeeded
 libnbd	succeeded
 libnl3	succeeded
 libnuml	succeeded
@@ -916,7 +917,7 @@ python-apipkg	succeeded
 python-appdirs	succeeded
 python-applicationinsights	succeeded
 python-apprise	succeeded
-python-apsw	failed
+python-apsw	succeeded
 python-apt	succeeded
 python-apypie	succeeded
 python-archinfo	succeeded
@@ -965,6 +966,7 @@ python-authlib	succeeded
 python-authres	succeeded
 python-autobahn	succeeded
 python-autocommand	succeeded
+python-autograd	succeeded
 python-automaton	succeeded
 python-autopage	succeeded
 python-autopep8	succeeded
@@ -978,7 +980,7 @@ python-azure-ai-formrecognizer	succeeded
 python-azure-ai-textanalytics	succeeded
 python-azure-batch	succeeded
 python-azure-common	succeeded
-python-azure-core	failed
+python-azure-core	succeeded
 python-azure-cosmos	succeeded
 python-azure-data-tables	succeeded
 python-azure-datalake-store	succeeded
@@ -1003,7 +1005,7 @@ python-azure-mgmt-compute	succeeded
 python-azure-mgmt-containerinstance	succeeded
 python-azure-mgmt-containerregistry	succeeded
 python-azure-mgmt-containerservice	succeeded
-python-azure-mgmt-core	failed
+python-azure-mgmt-core	succeeded
 python-azure-mgmt-cosmosdb	succeeded
 python-azure-mgmt-datalake-analytics	succeeded
 python-azure-mgmt-datalake-store	succeeded
@@ -1195,7 +1197,7 @@ python-cligj	succeeded
 python-cloud-sptheme	succeeded
 python-cloudant	succeeded
 python-cloudflare	succeeded
-python-cloudpickle	failed
+python-cloudpickle	succeeded
 python-cloudscraper	succeeded
 python-cma	succeeded
 python-cmake-build-extension	succeeded
@@ -1616,6 +1618,7 @@ python-fontname	succeeded
 python-fontquery	succeeded
 python-fontrpmspec	succeeded
 python-formencode	succeeded
+python-fortranformat	succeeded
 python-fqdn	succeeded
 python-freecell_solver	succeeded
 python-freeipa	succeeded
@@ -1862,7 +1865,7 @@ python-jedi	failed
 python-jeepney	succeeded
 python-jellyfish	succeeded
 python-jenkins-job-builder	failed
-python-jinja2	succeeded
+python-jinja2	failed
 python-jinja2-cli	succeeded
 python-jinja2-time	succeeded
 python-jinja2_pluralize	succeeded
@@ -2280,6 +2283,7 @@ python-pdm-backend	succeeded
 python-pdm-pep517	succeeded
 python-pebble	succeeded
 python-pecan	succeeded
+python-peewee	succeeded
 python-pefile	succeeded
 python-pelican	succeeded
 python-pem	succeeded
@@ -2372,7 +2376,7 @@ python-publicsuffix2	succeeded
 python-pudb	succeeded
 python-pulp	succeeded
 python-pulsectl	succeeded
-python-pure-eval	failed
+python-pure-eval	succeeded
 python-pure-protobuf	succeeded
 python-puzpy	succeeded
 python-pwntools	succeeded
@@ -2822,7 +2826,7 @@ python-serpy	succeeded
 python-service-identity	succeeded
 python-setproctitle	succeeded
 python-setupmeta	succeeded
-python-setuptools	failed
+python-setuptools	succeeded
 python-setuptools-gettext	succeeded
 python-setuptools-git-versioning	succeeded
 python-setuptools-rust	failed
@@ -3182,7 +3186,7 @@ python-vcstool	succeeded
 python-vdf	succeeded
 python-vedo	failed
 python-velbus	succeeded
-python-venusian	failed
+python-venusian	succeeded
 python-verboselogs	succeeded
 python-versioneer	succeeded
 python-vhacdx	succeeded
@@ -3250,6 +3254,7 @@ python-wrapt	succeeded
 python-wsaccel	failed
 python-wsgi_intercept	succeeded
 python-wsproto	succeeded
+python-wtf-peewee	succeeded
 python-wtforms	succeeded
 python-wurlitzer	succeeded
 python-www-authenticate	succeeded
@@ -3293,6 +3298,7 @@ python-yara	succeeded
 python-yarl	succeeded
 python-yaswfp	succeeded
 python-yattag	succeeded
+python-yfinance	succeeded
 python-yte	succeeded
 python-ytmusicapi	succeeded
 python-yubico	succeeded
@@ -3306,7 +3312,7 @@ python-zeroconf	succeeded
 python-zict	succeeded
 python-zipp	succeeded
 python-zipstream	succeeded
-python-zlib-ng	failed
+python-zlib-ng	succeeded
 python-zm	succeeded
 python-zmq	succeeded
 python-zodbpickle	succeeded
@@ -3570,8 +3576,9 @@ visidata	succeeded
 vit	succeeded
 volk	succeeded
 volume_key	succeeded
+vorta	succeeded
 vrpn	failed
-vtk	failed
+vtk	succeeded
 wad	succeeded
 waf	succeeded
 wafw00f	succeeded

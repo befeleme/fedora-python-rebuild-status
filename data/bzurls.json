@@ -3,9 +3,6 @@
   "NLopt": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2254979"
   ],
-  "PackageKit": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2272920"
-  ],
   "PyQt4": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2248128"
   ],
@@ -54,7 +51,9 @@
   "docker-compose": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2247015"
   ],
-  "eralchemy": [],
+  "eralchemy": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2280551"
+  ],
   "eric": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2279980"
   ],
@@ -83,17 +82,18 @@
   "jc": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2247039"
   ],
-  "jrnl": [],
+  "jrnl": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2280580"
+  ],
   "jsonnet": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2245815"
-  ],
-  "kernel": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2264420"
   ],
   "kitty": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2265524"
   ],
-  "koji": [],
+  "koji": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2280552"
+  ],
   "krita": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2278646"
   ],
@@ -106,7 +106,6 @@
   "libarrow": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2250849"
   ],
-  "libmodulemd": [],
   "libprelude": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2247193"
   ],
@@ -200,9 +199,6 @@
   "python-anymarkup-core": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2261545"
   ],
-  "python-apsw": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2263165"
-  ],
   "python-astroid": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2254528"
   ],
@@ -218,8 +214,6 @@
   "python-avocado": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2250847"
   ],
-  "python-azure-core": [],
-  "python-azure-mgmt-core": [],
   "python-backrefs": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2246376"
   ],
@@ -243,9 +237,6 @@
   "python-cclib": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2276581"
   ],
-  "python-cloudpickle": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2279991"
-  ],
   "python-configargparse": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2265132"
   ],
@@ -264,7 +255,9 @@
   "python-dill": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2264225"
   ],
-  "python-dipy": [],
+  "python-dipy": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2280596"
+  ],
   "python-djvulibre": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2226179"
   ],
@@ -304,7 +297,9 @@
   "python-glue": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2221960"
   ],
-  "python-google-cloud-monitoring": [],
+  "python-google-cloud-monitoring": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2280563"
+  ],
   "python-graph-tool": [],
   "python-greenlet": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2245874"
@@ -334,9 +329,14 @@
   "python-intbitset": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2247036"
   ],
-  "python-jedi": [],
+  "python-jedi": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2280581"
+  ],
   "python-jenkins-job-builder": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2247035"
+  ],
+  "python-jinja2": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2245265"
   ],
   "python-jnius": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2272966"
@@ -350,8 +350,12 @@
   "python-jsonformatter": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2271060"
   ],
-  "python-libcst": [],
-  "python-libusb1": [],
+  "python-libcst": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2280604"
+  ],
+  "python-libusb1": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2280555"
+  ],
   "python-lmdb": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2259530"
   ],
@@ -361,7 +365,9 @@
   "python-makefun": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2245884"
   ],
-  "python-matplotlib-venn": [],
+  "python-matplotlib-venn": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2280562"
+  ],
   "python-mechanize": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2279550"
   ],
@@ -405,7 +411,9 @@
     "https://bugzilla.redhat.com/show_bug.cgi?id=2275052"
   ],
   "python-pexpect": [],
-  "python-pillow": [],
+  "python-pillow": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2280556"
+  ],
   "python-pip": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2279985"
   ],
@@ -418,9 +426,6 @@
   ],
   "python-psycopg2": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2245673"
-  ],
-  "python-pure-eval": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2279990"
   ],
   "python-py-gql": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2246126"
@@ -472,7 +477,6 @@
   "python-scss": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2245678"
   ],
-  "python-setuptools": [],
   "python-setuptools-rust": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2279993"
   ],
@@ -491,7 +495,9 @@
   "python-sphinxcontrib-openapi": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2279996"
   ],
-  "python-stompest": [],
+  "python-stompest": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2280565"
+  ],
   "python-straight-plugin": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2244822"
   ],
@@ -531,7 +537,6 @@
     "https://bugzilla.redhat.com/show_bug.cgi?id=2271063"
   ],
   "python-vedo": [],
-  "python-venusian": [],
   "python-wadllib": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2245644"
   ],
@@ -550,7 +555,9 @@
   "python-wsaccel": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2265482"
   ],
-  "python-x3dh": [],
+  "python-x3dh": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2261614"
+  ],
   "python-xmlsec": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2261617"
   ],
@@ -560,8 +567,9 @@
   "python-zbase32": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2261619"
   ],
-  "python-zlib-ng": [],
-  "python-zope-exceptions": [],
+  "python-zope-exceptions": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2280553"
+  ],
   "python-zope-testrunner": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2254185",
     "https://bugzilla.redhat.com/show_bug.cgi?id=2251779"
@@ -612,6 +620,7 @@
   "vrpn": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2247291"
   ],
-  "vtk": [],
-  "wesnoth": []
+  "wesnoth": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2280558"
+  ]
 }
