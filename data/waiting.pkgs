@@ -11,6 +11,7 @@ buildbot
 calibre
 certbot
 cfn-lint
+cmake
 conda-build
 copr-backend
 copr-dist-git
@@ -51,7 +52,6 @@ mopidy-mpd
 mu
 oci-cli
 odcs
-oraculum
 oz
 paperwork
 paraview
@@ -61,7 +61,6 @@ preprocess
 psi4
 pychess
 pygrib
-pyinstrument
 pykka
 pyproj
 python-AppTools
@@ -137,7 +136,6 @@ python-engineio
 python-envisage
 python-ephyviewer
 python-esbonio
-python-eventlet
 python-f5-sdk
 python-falcon
 python-fasjson-client
@@ -164,7 +162,6 @@ python-geopandas
 python-geoplot
 python-geotiler
 python-gerritlib
-python-gevent
 python-gevent-eventemitter
 python-glanceclient
 python-glymur
@@ -173,7 +170,6 @@ python-hacking
 python-hass-data-detective
 python-hdmf
 python-heatclient
-python-httpbin
 python-httpcore
 python-httpx
 python-httpx-socks
@@ -216,7 +212,6 @@ python-music21
 python-mygpoclient
 python-nb2plots
 python-nbxmpp
-python-neovim
 python-netmiko
 python-neurom
 python-neutronclient
@@ -286,7 +281,6 @@ python-pyngus
 python-pynwb
 python-pyone
 python-pyopengl
-python-pypdf
 python-pyphi
 python-pyqtgraph
 python-pyramid
@@ -309,7 +303,7 @@ python-pyunicorn
 python-pyvirtualize
 python-pyvmomi
 python-qemu-qmp
-python-quart
+python-quart-trio
 python-repoze-who
 python-repoze-who-plugins-sa
 python-reproject
@@ -407,6 +401,5 @@ spglib
 spyder
 stats-collect
 usd
-uwsgi
 wult
 yubikey-manager
