@@ -75,6 +75,7 @@ azote
 babel
 babeltrace
 babeltrace2
+bandit
 barman
 battray
 bcc
@@ -133,6 +134,7 @@ clingo
 cloud-init
 clustershell
 cm_rgb
+cmake
 cobbler
 coccinelle
 cockpit
@@ -317,6 +319,7 @@ gyp
 h5py
 hamlib
 hashid
+hatch
 hddfancontrol
 hexchat
 hgsvn
@@ -325,6 +328,7 @@ hokuyoaist
 home-assistant-cli
 hplip
 hstsparser
+httpie
 hugin
 hydrapaper
 hyfetch
@@ -581,6 +585,7 @@ nyx
 obs-studio
 obsctl
 obserware
+oci-cli
 ocrmypdf
 oct2spec
 odfpy
@@ -747,6 +752,7 @@ python-EvoPreprocess
 python-GeoIP
 python-IPy
 python-Levenshtein
+python-Mastodon
 python-ModulemdTranslationHelpers
 python-MultipartPostHandler2
 python-Naked
@@ -806,6 +812,7 @@ python-ZConfig
 python-ZEO
 python-ZODB
 python-ZODB3
+python-a2wsgi
 python-aaargh
 python-abimap
 python-absl-py
@@ -959,12 +966,14 @@ python-axolotl
 python-axolotl-curve25519
 python-azure-ai-formrecognizer
 python-azure-ai-textanalytics
+python-azure-appconfiguration
 python-azure-batch
 python-azure-common
 python-azure-core
 python-azure-cosmos
 python-azure-data-tables
 python-azure-datalake-store
+python-azure-devtools
 python-azure-functions-devops-build
 python-azure-graphrbac
 python-azure-identity
@@ -973,6 +982,8 @@ python-azure-keyvault-administration
 python-azure-keyvault-certificates
 python-azure-keyvault-keys
 python-azure-keyvault-secrets
+python-azure-loganalytics
+python-azure-mgmt-advisor
 python-azure-mgmt-apimanagement
 python-azure-mgmt-appconfiguration
 python-azure-mgmt-appcontainers
@@ -980,16 +991,23 @@ python-azure-mgmt-applicationinsights
 python-azure-mgmt-authorization
 python-azure-mgmt-batch
 python-azure-mgmt-batchai
+python-azure-mgmt-billing
+python-azure-mgmt-botservice
 python-azure-mgmt-cdn
 python-azure-mgmt-cognitiveservices
 python-azure-mgmt-compute
+python-azure-mgmt-consumption
 python-azure-mgmt-containerinstance
 python-azure-mgmt-containerregistry
 python-azure-mgmt-containerservice
 python-azure-mgmt-core
 python-azure-mgmt-cosmosdb
+python-azure-mgmt-databoxedge
 python-azure-mgmt-datalake-analytics
 python-azure-mgmt-datalake-store
+python-azure-mgmt-datamigration
+python-azure-mgmt-devtestlabs
+python-azure-mgmt-dns
 python-azure-mgmt-eventgrid
 python-azure-mgmt-eventhub
 python-azure-mgmt-extendedlocation
@@ -1001,7 +1019,10 @@ python-azure-mgmt-iothubprovisioningservices
 python-azure-mgmt-keyvault
 python-azure-mgmt-kusto
 python-azure-mgmt-loganalytics
+python-azure-mgmt-managedservices
 python-azure-mgmt-managementgroups
+python-azure-mgmt-maps
+python-azure-mgmt-marketplaceordering
 python-azure-mgmt-media
 python-azure-mgmt-monitor
 python-azure-mgmt-msi
@@ -1352,6 +1373,7 @@ python-dicttoxml
 python-didl-lite
 python-diff-cover
 python-diff-match-patch
+python-digitalocean
 python-dijitso
 python-dill
 python-dingz
@@ -1446,6 +1468,7 @@ python-doxytag2zealdb
 python-dparse2
 python-dpath
 python-dpkt
+python-drain3
 python-drgn
 python-dropbox
 python-dtfabric
@@ -1641,6 +1664,7 @@ python-gertty
 python-getmac
 python-gettext
 python-gevent
+python-gevent-eventemitter
 python-ghp-import
 python-giacpy
 python-gilt
@@ -1734,10 +1758,12 @@ python-http-ece
 python-http-server-mock
 python-httpagentparser
 python-httpbin
+python-httpcore
 python-httplib2
 python-httpretty
 python-httpsig-cffi
 python-httptools
+python-httpx
 python-hudman
 python-humanfriendly
 python-humanize
@@ -1848,6 +1874,7 @@ python-jnius
 python-joblib
 python-josepy
 python-journal-brief
+python-jschema-to-python
 python-jsmin
 python-json-logger
 python-json-minify
@@ -1858,6 +1885,7 @@ python-jsonpatch
 python-jsonpath-ng
 python-jsonpath-rw
 python-jsonpath-rw-ext
+python-jsonpickle
 python-jsonpointer
 python-jsonref
 python-jsonrpclib
@@ -1874,6 +1902,7 @@ python-jupyter-client
 python-jupyter-console
 python-jupyter-core
 python-jupyter-events
+python-jupyter-kernel-test
 python-jupyter-lsp
 python-jupyter-packaging
 python-jupyter-polymake
@@ -2010,6 +2039,7 @@ python-mdit-py-plugins
 python-mdurl
 python-mdx_gh_links
 python-meautility
+python-mechanicalsoup
 python-mechanize
 python-mediafile
 python-meh
@@ -2027,6 +2057,7 @@ python-microfs
 python-mido
 python-migen
 python-mimeparse
+python-mimerender
 python-minidb
 python-minidump
 python-minikerberos
@@ -2166,6 +2197,7 @@ python-oauth
 python-oauth2
 python-oauth2client
 python-oauthlib
+python-oci
 python-odml
 python-ofxparse
 python-ogr
@@ -2182,6 +2214,7 @@ python-opendata-transport
 python-openid-cla
 python-openid-teams
 python-openidc-client
+python-openneuro
 python-openpyxl
 python-openqa_client
 python-opensearch-py
@@ -2189,6 +2222,11 @@ python-opensensemap-api
 python-openshift
 python-openslide
 python-openstackdocstheme
+python-opentelemetry
+python-opentelemetry-propagator-aws-xray
+python-opentelemetry-resource-detector-azure
+python-opentelemetry-sdk-extension-aws
+python-opentracing
 python-opentype-sanitizer
 python-opfunu
 python-opnsense
@@ -2204,6 +2242,7 @@ python-oscrypto
 python-oslo-i18n
 python-oslotest
 python-osrf-pycommon
+python-ouimeaux
 python-outcome
 python-outdated
 python-overpy
@@ -2224,6 +2263,7 @@ python-pandocfilters
 python-parameter-expansion-patched
 python-parameterized
 python-paramiko
+python-pari-jupyter
 python-parse
 python-parse_type
 python-parsedatetime
@@ -2355,6 +2395,7 @@ python-pulsectl
 python-pure-eval
 python-pure-protobuf
 python-puzpy
+python-pvc
 python-pwntools
 python-py
 python-py-algorand-sdk
@@ -2468,6 +2509,7 @@ python-pymaven-patch
 python-pymediainfo
 python-pymediawiki
 python-pymeeus
+python-pymemcache
 python-pymod2pkg
 python-pymongo
 python-pymssql
@@ -2578,6 +2620,7 @@ python-pytest-forked
 python-pytest-freezegun
 python-pytest-grpc
 python-pytest-home
+python-pytest-httpbin
 python-pytest-httpserver
 python-pytest-isort
 python-pytest-jupyter
@@ -2630,8 +2673,10 @@ python-pyudev
 python-pyupgrade
 python-pyvat
 python-pyvirtualdisplay
+python-pyvirtualize
 python-pyvit
 python-pyvlx
+python-pyvmomi
 python-pyvo
 python-pywayland
 python-pywizlight
@@ -2656,6 +2701,7 @@ python-qtconsole
 python-qtsass
 python-quantities
 python-quart
+python-quart-trio
 python-qudida
 python-queuelib
 python-qutepart
@@ -2780,6 +2826,7 @@ python-samloader
 python-sanction
 python-sane
 python-saneyaml
+python-sarif-om
 python-scales
 python-scantree
 python-schedutils
@@ -2789,6 +2836,7 @@ python-scikit-learn
 python-scikit-misc
 python-scikit-uplift
 python-scitokens
+python-sciunit
 python-scour
 python-scp
 python-scrapy
@@ -2968,6 +3016,7 @@ python-statsd
 python-stdiomask
 python-stdlib-list
 python-stdnum
+python-steam
 python-stem
 python-steps
 python-stestr
@@ -3061,6 +3110,7 @@ python-tiny-proxy
 python-tinycss2
 python-tinydb
 python-tinygrad
+python-tinyrpc
 python-tkrzw
 python-tld
 python-tldextract
@@ -3165,6 +3215,8 @@ python-uvloop
 python-validators
 python-varlink
 python-vatnumber
+python-vconnector
+python-vcrpy
 python-vcstool
 python-vdf
 python-vedo
@@ -3172,6 +3224,7 @@ python-velbus
 python-venusian
 python-verboselogs
 python-versioneer
+python-vevents
 python-vhacdx
 python-vine
 python-virt-firmware
@@ -3188,6 +3241,7 @@ python-volatile
 python-volkszaehler
 python-voluptuous
 python-voluptuous-serialize
+python-vpoller
 python-vsts
 python-vsts-cd-manager
 python-vsure
@@ -3230,6 +3284,7 @@ python-wled
 python-wloc
 python-wordcloud
 python-wrapt
+python-ws4py
 python-wsaccel
 python-wsgi_intercept
 python-wsproto
