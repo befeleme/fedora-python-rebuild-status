@@ -330,9 +330,9 @@ gtimelog	succeeded
 gtts	failed
 gtts-token	succeeded
 guake	succeeded
-gumbo-parser	succeeded
+gumbo-parser	failed
 gwe	succeeded
-gwebsockets	succeeded
+gwebsockets	failed
 gyp	succeeded
 h5py	succeeded
 hamlib	succeeded
@@ -341,7 +341,7 @@ hatch	succeeded
 hddfancontrol	succeeded
 hexchat	succeeded
 hgsvn	succeeded
-hivex	succeeded
+hivex	failed
 hokuyoaist	succeeded
 home-assistant-cli	succeeded
 hplip	succeeded
@@ -351,7 +351,7 @@ hugin	succeeded
 hydrapaper	succeeded
 hyfetch	succeeded
 i2c-tools	succeeded
-ibus	succeeded
+ibus	running
 ibus-cangjie	succeeded
 ikiwiki	failed
 ilua	succeeded
@@ -639,7 +639,7 @@ opentrep	succeeded
 openvdb	succeeded
 openvswitch	failed
 openwsman	failed
-orca	succeeded
+orca	failed
 orocos-kdl	succeeded
 osbs-client	succeeded
 osbuild	succeeded
@@ -694,7 +694,7 @@ portmidi	succeeded
 postfix-mta-sts-resolver	succeeded
 postgresql15	succeeded
 postgresql16	succeeded
-powerline	succeeded
+powerline	failed
 pre-commit	succeeded
 prelude-correlator	succeeded
 prewikka	succeeded
@@ -720,7 +720,7 @@ py3status	succeeded
 pyOpenSSL	succeeded
 pyatspi	succeeded
 pyaudio	succeeded
-pybind11	failed
+pybind11	succeeded
 pybluez	succeeded
 pybox2d	succeeded
 pybugz	succeeded
@@ -755,7 +755,7 @@ pymodbus	succeeded
 pymol	succeeded
 pyodbc	failed
 pyosmium	succeeded
-pyotherside	succeeded
+pyotherside	failed
 pyowm	succeeded
 pyp2rpm	succeeded
 pyp2spec	succeeded
@@ -775,7 +775,7 @@ pystatgrab	succeeded
 pysubnettree	succeeded
 pysvn	succeeded
 pysysbot	succeeded
-pytest	failed
+pytest	succeeded
 pythia8	succeeded
 python-APScheduler	succeeded
 python-AWSIoTPythonSDK	succeeded
@@ -851,7 +851,7 @@ python-ZODB	succeeded
 python-ZODB3	succeeded
 python-a2wsgi	succeeded
 python-aaargh	succeeded
-python-abimap	succeeded
+python-abimap	failed
 python-absl-py	succeeded
 python-accept-types	succeeded
 python-accessible-pygments	succeeded
@@ -859,7 +859,7 @@ python-accuweather	succeeded
 python-acoustid	succeeded
 python-adafruit-board-toolkit	succeeded
 python-adafruit-platformdetect	succeeded
-python-adafruit-pureio	succeeded
+python-adafruit-pureio	failed
 python-adal	succeeded
 python-adb	succeeded
 python-adb-shell	succeeded
@@ -932,7 +932,7 @@ python-annexremote	succeeded
 python-annotated-types	succeeded
 python-ansible-compat	succeeded
 python-ansible-runner	failed
-python-ansicolor	succeeded
+python-ansicolor	failed
 python-ansicolors	succeeded
 python-ansiwrap	succeeded
 python-anyconfig	succeeded
@@ -964,7 +964,7 @@ python-asgiref	succeeded
 python-asn1	succeeded
 python-asn1crypto	succeeded
 python-aspy.yaml	succeeded
-python-asteval	succeeded
+python-asteval	failed
 python-astor	succeeded
 python-astral	succeeded
 python-astroML	succeeded
@@ -1513,7 +1513,7 @@ python-docutils	succeeded
 python-docx	succeeded
 python-dogpile-cache	succeeded
 python-doit	succeeded
-python-domdf-python-tools	failed
+python-domdf-python-tools	succeeded
 python-dotenv	succeeded
 python-dotmap	succeeded
 python-doxypypy	succeeded
@@ -1712,7 +1712,7 @@ python-gearbox	succeeded
 python-gekitchen	succeeded
 python-gelidum	succeeded
 python-gemfileparser2	succeeded
-python-genshi	succeeded
+python-genshi	failed
 python-gensim	failed
 python-genty	succeeded
 python-geoip2	succeeded
@@ -1795,17 +1795,17 @@ python-heapdict	succeeded
 python-helpdev	succeeded
 python-hexdump	succeeded
 python-hgapi	succeeded
-python-hgdistver	succeeded
+python-hgdistver	failed
 python-hglib	succeeded
 python-hid	succeeded
 python-hid-parser	succeeded
 python-hidapi	succeeded
-python-hikvision	succeeded
+python-hikvision	failed
 python-hiredis	succeeded
 python-hl7	failed
-python-hole	succeeded
+python-hole	failed
 python-homeconnect	succeeded
-python-homeworks	succeeded
+python-homeworks	failed
 python-howdoi	succeeded
 python-hpack	succeeded
 python-hpilo	succeeded
@@ -1837,7 +1837,7 @@ python-hypercorn	failed
 python-hyperframe	succeeded
 python-hyperkitty	succeeded
 python-hyperlink	succeeded
-python-hypothesis	failed
+python-hypothesis	succeeded
 python-hypothesis-fspaths	succeeded
 python-hypothesmith	succeeded
 python-i3ipc	succeeded
@@ -1928,7 +1928,7 @@ python-javaobj	succeeded
 python-javaproperties	succeeded
 python-jcconv	succeeded
 python-jdcal	succeeded
-python-jedi	failed
+python-jedi	succeeded
 python-jeepney	succeeded
 python-jellyfish	succeeded
 python-jenkins-job-builder	failed
@@ -2016,7 +2016,7 @@ python-lazr-config	succeeded
 python-lazr-delegates	succeeded
 python-lazr-uri	succeeded
 python-lazy-loader	succeeded
-python-lazy-object-proxy	succeeded
+python-lazy-object-proxy	failed
 python-lazyarray	succeeded
 python-ldap	succeeded
 python-ldap3	succeeded
@@ -2029,7 +2029,7 @@ python-lfpykit	succeeded
 python-libNeuroML	succeeded
 python-libarchive-c	succeeded
 python-libcloud	succeeded
-python-libcst	failed
+python-libcst	succeeded
 python-libdiscid	succeeded
 python-libevdev	succeeded
 python-libgravatar	succeeded
@@ -2392,7 +2392,7 @@ python-periodictable	succeeded
 python-perky	succeeded
 python-persist-queue	succeeded
 python-persistent	succeeded
-python-pexpect	running
+python-pexpect	succeeded
 python-pgspecial	succeeded
 python-phonenumbers	succeeded
 python-photutils	succeeded
@@ -2467,7 +2467,7 @@ python-prompt-toolkit	succeeded
 python-protego	succeeded
 python-proto-plus	succeeded
 python-prov	succeeded
-python-psutil	succeeded
+python-psutil	failed
 python-psycogreen	succeeded
 python-psycopg2	succeeded
 python-psycopg3	succeeded
@@ -3027,7 +3027,7 @@ python-spec	succeeded
 python-specfile	failed
 python-speedtest-cli	succeeded
 python-speg	succeeded
-python-sphinx	failed
+python-sphinx	succeeded
 python-sphinx-argparse	succeeded
 python-sphinx-argparse-cli	succeeded
 python-sphinx-autodoc-typehints	succeeded
@@ -3361,7 +3361,7 @@ python-walkdir	succeeded
 python-waqiasync	succeeded
 python-warlock	succeeded
 python-watchdog	succeeded
-python-watchfiles	running
+python-watchfiles	failed
 python-watchgod	failed
 python-waterfurnace	succeeded
 python-wavio	succeeded
@@ -3471,7 +3471,7 @@ python-zope-component	succeeded
 python-zope-configuration	succeeded
 python-zope-deprecation	succeeded
 python-zope-event	succeeded
-python-zope-exceptions	failed
+python-zope-exceptions	succeeded
 python-zope-hookable	succeeded
 python-zope-i18nmessageid	succeeded
 python-zope-interface	succeeded
@@ -3731,7 +3731,7 @@ volk	succeeded
 volume_key	succeeded
 vorta	succeeded
 vrpn	failed
-vtk	running
+vtk	succeeded
 wad	succeeded
 waf	succeeded
 wafw00f	succeeded
@@ -3758,7 +3758,7 @@ xmms2	succeeded
 xonsh	failed
 xortool	succeeded
 xpra	succeeded
-xrootd	succeeded
+xrootd	failed
 xwayland-run	succeeded
 yamllint	succeeded
 yawn	succeeded

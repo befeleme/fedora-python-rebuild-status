@@ -28,9 +28,7 @@
   "buildstream": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2252071"
   ],
-  "ceph": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2259639"
-  ],
+  "ceph": [],
   "collectd": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2247197"
   ],
@@ -68,6 +66,9 @@
   "gtts": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2246380"
   ],
+  "gumbo-parser": [],
+  "gwebsockets": [],
+  "hivex": [],
   "ikiwiki": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2290514"
   ],
@@ -118,6 +119,7 @@
   "openwsman": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2290726"
   ],
+  "orca": [],
   "petsc": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2250673"
   ],
@@ -127,11 +129,9 @@
   "plplot": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2272975"
   ],
+  "powerline": [],
   "py-radix": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2259528"
-  ],
-  "pybind11": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2252083"
   ],
   "pychromecast": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2272929"
@@ -148,12 +148,14 @@
   "pyodbc": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2246290"
   ],
-  "pytest": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2275051"
+  "pyotherside": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2245796"
   ],
   "python-Traits": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2250844"
   ],
+  "python-abimap": [],
+  "python-adafruit-pureio": [],
   "python-agate": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2271392"
   ],
@@ -166,12 +168,14 @@
   ],
   "python-animatplot": [],
   "python-ansible-runner": [],
+  "python-ansicolor": [],
   "python-anymarkup-core": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2261545"
   ],
   "python-apsw": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2263165"
   ],
+  "python-asteval": [],
   "python-astroquery": [],
   "python-astunparse": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2279984"
@@ -240,9 +244,6 @@
   "python-djvulibre": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2226179"
   ],
-  "python-domdf-python-tools": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2259552"
-  ],
   "python-duecredit": [],
   "python-etcd": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2246060"
@@ -267,6 +268,7 @@
     "https://bugzilla.redhat.com/show_bug.cgi?id=2279988"
   ],
   "python-gbulb": [],
+  "python-genshi": [],
   "python-gensim": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2261825"
   ],
@@ -280,11 +282,14 @@
     "https://bugzilla.redhat.com/show_bug.cgi?id=2264873"
   ],
   "python-healpy": [],
+  "python-hgdistver": [],
+  "python-hikvision": [],
   "python-hl7": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2247023"
   ],
+  "python-hole": [],
+  "python-homeworks": [],
   "python-hypercorn": [],
-  "python-hypothesis": [],
   "python-ibm-vpc": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2261572"
   ],
@@ -303,9 +308,6 @@
   ],
   "python-ipyparallel": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2280811"
-  ],
-  "python-jedi": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2280581"
   ],
   "python-jenkins-job-builder": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2247035"
@@ -326,8 +328,8 @@
   "python-kafka": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2290344"
   ],
-  "python-libcst": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2280604"
+  "python-lazy-object-proxy": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2259524"
   ],
   "python-libusb1": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2280555"
@@ -395,6 +397,7 @@
   "python-precis_i18n": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2246305"
   ],
+  "python-psutil": [],
   "python-pure-eval": [],
   "python-py-gql": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2246126"
@@ -451,9 +454,6 @@
   "python-social-auth-core": [],
   "python-specfile": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2290349"
-  ],
-  "python-sphinx": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2271405"
   ],
   "python-sphinxcontrib-openapi": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2279996"
@@ -518,9 +518,6 @@
   "python-zbase32": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2261619"
   ],
-  "python-zope-exceptions": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2280553"
-  ],
   "python3-zope-fixers": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2246285"
   ],
@@ -578,5 +575,6 @@
   "xonsh": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2283616"
   ],
+  "xrootd": [],
   "znc": []
 }
