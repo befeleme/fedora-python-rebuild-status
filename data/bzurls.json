@@ -5,9 +5,8 @@
   "PyQt4": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2248128"
   ],
-  "RBTools": [],
-  "WALinuxAgent": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2246085"
+  "RBTools": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2291480"
   ],
   "afflib": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2260973"
@@ -19,16 +18,12 @@
   "awscli2": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2271404"
   ],
-  "b43-tools": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2245249"
-  ],
   "btrfs-progs": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2245650"
   ],
   "buildstream": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2252071"
   ],
-  "ceph": [],
   "collectd": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2247197"
   ],
@@ -60,23 +55,24 @@
     "https://bugzilla.redhat.com/show_bug.cgi?id=2250662"
   ],
   "gplugin": [],
-  "gtts": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2246380"
-  ],
   "gumbo-parser": [],
   "gwebsockets": [],
-  "hivex": [],
   "ikiwiki": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2291542",
     "https://bugzilla.redhat.com/show_bug.cgi?id=2290514"
   ],
-  "input-remapper": [],
+  "input-remapper": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2291543"
+  ],
   "jc": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2247039"
   ],
   "jsonnet": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2245815"
   ],
-  "jupyterlab": [],
+  "jupyterlab": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2291548"
+  ],
   "kitty": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2265524"
   ],
@@ -110,6 +106,7 @@
     "https://bugzilla.redhat.com/show_bug.cgi?id=2250661"
   ],
   "openwsman": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2291571",
     "https://bugzilla.redhat.com/show_bug.cgi?id=2290726"
   ],
   "orca": [],
@@ -138,9 +135,6 @@
   "pyliblo": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2248131"
   ],
-  "pyodbc": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2246290"
-  ],
   "pyotherside": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2245796"
   ],
@@ -158,12 +152,16 @@
   "python-aiosmtpd": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2263017"
   ],
-  "python-aiostream": [],
+  "python-aiostream": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2291611"
+  ],
   "python-amico": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2244829"
   ],
   "python-animatplot": [],
-  "python-ansible-runner": [],
+  "python-ansible-runner": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2291613"
+  ],
   "python-ansicolor": [],
   "python-anymarkup-core": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2261545"
@@ -172,7 +170,9 @@
     "https://bugzilla.redhat.com/show_bug.cgi?id=2263165"
   ],
   "python-asteval": [],
-  "python-astroquery": [],
+  "python-astroquery": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2291622"
+  ],
   "python-astunparse": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2279984"
   ],
@@ -194,13 +194,13 @@
   "python-boltons": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2259631"
   ],
+  "python-boto3": [],
   "python-bottle": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2245642"
   ],
   "python-cachelib": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2251780"
   ],
-  "python-capturer": [],
   "python-catkin_lint": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2259550"
   ],
@@ -237,7 +237,9 @@
   "python-domdf-python-tools": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2259552"
   ],
-  "python-duecredit": [],
+  "python-duecredit": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2291683"
+  ],
   "python-dukpy": [],
   "python-eventlet": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2290561"
@@ -248,7 +250,9 @@
   "python-extras": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2259522"
   ],
-  "python-falcon": [],
+  "python-falcon": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2291695"
+  ],
   "python-flask-basicauth": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2261560"
   ],
@@ -258,7 +262,9 @@
   "python-gast": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2279988"
   ],
-  "python-gbulb": [],
+  "python-gbulb": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2291712"
+  ],
   "python-genshi": [],
   "python-gensim": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2261825"
@@ -272,7 +278,9 @@
   "python-h5io": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2264873"
   ],
-  "python-healpy": [],
+  "python-healpy": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2291730"
+  ],
   "python-hgdistver": [],
   "python-hikvision": [],
   "python-hl7": [
@@ -280,6 +288,7 @@
   ],
   "python-hole": [],
   "python-homeworks": [],
+  "python-humanfriendly": [],
   "python-hypercorn": [],
   "python-hypothesis": [],
   "python-ibm-vpc": [
@@ -291,7 +300,6 @@
   "python-imagehash": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2226213"
   ],
-  "python-immutables": [],
   "python-intbitset": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2247036"
   ],
@@ -306,9 +314,6 @@
   ],
   "python-jnius": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2272966"
-  ],
-  "python-jupyter-kernel-singular": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2280961"
   ],
   "python-jupyter-server": [],
   "python-kafka": [
@@ -341,16 +346,12 @@
   "python-mglob": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2244827"
   ],
-  "python-minimock": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2244826"
-  ],
   "python-mirakuru": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2275066"
   ],
   "python-multiprocess": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2246347"
   ],
-  "python-music21": [],
   "python-neovim": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2290555"
   ],
@@ -395,7 +396,9 @@
   "python-pyside6": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2266591"
   ],
-  "python-pytest-qt": [],
+  "python-pytest-qt": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2291883"
+  ],
   "python-pytest-testinfra": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2279552"
   ],
@@ -405,7 +408,9 @@
   "python-pyzstd": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2276579"
   ],
-  "python-qcustomplot-pyqt": [],
+  "python-qcustomplot-pyqt": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2291892"
+  ],
   "python-rasterio": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2283521"
   ],
@@ -455,7 +460,9 @@
   "python-testinfra": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2279554"
   ],
-  "python-tkrzw": [],
+  "python-tkrzw": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2291947"
+  ],
   "python-toolz": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2245886"
   ],
@@ -471,12 +478,12 @@
   "python-usort": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2271063"
   ],
-  "python-vedo": [],
+  "python-vedo": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2291965"
+  ],
   "python-wadllib": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2245644"
   ],
-  "python-watchfiles": [],
-  "python-watchgod": [],
   "python-wcmatch": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2246283"
   ],
@@ -486,11 +493,15 @@
   "python-webpy": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2256932"
   ],
-  "python-wordcloud": [],
+  "python-wordcloud": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2291974"
+  ],
   "python-wsaccel": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2265482"
   ],
-  "python-x2go": [],
+  "python-x2go": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2291976"
+  ],
   "python-xmlsec": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2261617"
   ],
@@ -509,23 +520,23 @@
   "pythran": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2280964"
   ],
-  "pyzor": [],
   "qpid-dispatch": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2245601"
   ],
-  "qtile": [],
+  "qtile": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2291994"
+  ],
   "quodlibet": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2259638"
   ],
-  "rebase-helper": [],
+  "rebase-helper": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2291996"
+  ],
   "rmlint": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2272923"
   ],
   "rpkg-util": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2276893"
-  ],
-  "rss2email": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2245637"
   ],
   "scipy": [],
   "sssd": [
