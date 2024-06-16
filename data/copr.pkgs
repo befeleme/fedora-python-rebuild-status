@@ -581,7 +581,7 @@ nemo-extensions	succeeded
 nest	succeeded
 net-snmp	succeeded
 netcdf4-python	succeeded
-netgen-mesher	succeeded
+netgen-mesher	failed
 netstat-monitor	succeeded
 neuron	succeeded
 newt	succeeded
@@ -876,9 +876,10 @@ python-aenum	succeeded
 python-aexpect	succeeded
 python-affine	succeeded
 python-afsapi	succeeded
-python-agate	failed
+python-agate	succeeded
 python-agate-dbf	succeeded
 python-agate-excel	succeeded
+python-agate-sql	succeeded
 python-ailment	succeeded
 python-aioasuswrt	succeeded
 python-aiocmd	succeeded
@@ -1125,6 +1126,7 @@ python-bashate	succeeded
 python-batalgorithm	succeeded
 python-batinfo	succeeded
 python-bcrypt	succeeded
+python-beaker	failed
 python-beanbag	succeeded
 python-beartype	failed
 python-beautifulsoup4	succeeded
@@ -1162,13 +1164,13 @@ python-blosc2	succeeded
 python-blowfish	succeeded
 python-blurb	succeeded
 python-bokeh	succeeded
-python-boltons	failed
+python-boltons	succeeded
 python-boolean.py	succeeded
 python-booleanoperations	succeeded
 python-boto	succeeded
 python-boto3	failed
 python-botocore	succeeded
-python-bottle	failed
+python-bottle	succeeded
 python-bottle-sqlite	succeeded
 python-boutdata	succeeded
 python-boututils	succeeded
@@ -1370,6 +1372,7 @@ python-cssmin	succeeded
 python-cssselect	succeeded
 python-cssselect2	succeeded
 python-cssutils	failed
+python-csvkit	failed
 python-cups	succeeded
 python-curio	succeeded
 python-curtsies	succeeded
@@ -1381,6 +1384,7 @@ python-cxxfilt	succeeded
 python-cycler	succeeded
 python-cyipopt	succeeded
 python-cysignals	succeeded
+python-cytoolz	failed
 python-d2to1	succeeded
 python-daemon	succeeded
 python-daemonize	succeeded
@@ -1584,7 +1588,7 @@ python-evdev	succeeded
 python-eventlet	failed
 python-events	succeeded
 python-exabgp	succeeded
-python-exdir	failed
+python-exdir	succeeded
 python-execnet	succeeded
 python-executing	succeeded
 python-exif	succeeded
@@ -1711,7 +1715,7 @@ python-fvs	succeeded
 python-fypp	succeeded
 python-gabbi	succeeded
 python-gammu	succeeded
-python-gast	failed
+python-gast	succeeded
 python-gatspy	succeeded
 python-gattlib	succeeded
 python-gbinder	succeeded
@@ -1727,6 +1731,7 @@ python-gensim	failed
 python-genty	succeeded
 python-geoip2	succeeded
 python-geojson	succeeded
+python-geomdl	succeeded
 python-geopy	succeeded
 python-gertty	succeeded
 python-getmac	succeeded
@@ -2134,6 +2139,7 @@ python-merge3	succeeded
 python-mergedeep	succeeded
 python-meson-python	succeeded
 python-messaging	succeeded
+python-metakernel	succeeded
 python-metar	succeeded
 python-metno	succeeded
 python-mglob	failed
@@ -2315,6 +2321,7 @@ python-openshift	succeeded
 python-openslide	succeeded
 python-openstackdocstheme	succeeded
 python-opentelemetry	succeeded
+python-opentelemetry-contrib	succeeded
 python-opentelemetry-propagator-aws-xray	succeeded
 python-opentelemetry-resource-detector-azure	succeeded
 python-opentelemetry-sdk-extension-aws	succeeded
@@ -2540,6 +2547,7 @@ python-pycxx	succeeded
 python-pydantic	failed
 python-pydantic-core	succeeded
 python-pydantic-extra-types	failed
+python-pydantic-settings	failed
 python-pydapsys	succeeded
 python-pydata-sphinx-theme	succeeded
 python-pydbus	succeeded
@@ -2654,6 +2662,7 @@ python-pyqt6-webengine	succeeded
 python-pyqtchart	succeeded
 python-pyquery	failed
 python-pyrad	succeeded
+python-pyramid	failed
 python-pyrate-limiter	succeeded
 python-pyrfc3339	succeeded
 python-pyriemann	succeeded
@@ -2828,7 +2837,7 @@ python-ratinabox	succeeded
 python-raven	succeeded
 python-rawkit	succeeded
 python-rcssmin	succeeded
-python-rdflib	failed
+python-rdflib	succeeded
 python-re-assert	succeeded
 python-reactivex	succeeded
 python-read-roi	succeeded
@@ -2906,6 +2915,7 @@ python-rosdistro	succeeded
 python-rosinstall_generator	succeeded
 python-rospkg	succeeded
 python-roundrobin	succeeded
+python-routes	succeeded
 python-rows	succeeded
 python-rpdb	succeeded
 python-rpds-py	succeeded
@@ -3127,8 +3137,9 @@ python-sshpubkeys	succeeded
 python-sshtunnel	succeeded
 python-stack-data	succeeded
 python-stackprinter	succeeded
-python-starlette	failed
+python-starlette	succeeded
 python-statsd	succeeded
+python-statsmodels	succeeded
 python-stdiomask	succeeded
 python-stdlib-list	succeeded
 python-stdnum	succeeded
@@ -3271,6 +3282,8 @@ python-trx-python	succeeded
 python-tubes	succeeded
 python-tvb-data	succeeded
 python-tvb-gdist	succeeded
+python-tw2-core	succeeded
+python-tw2-forms	succeeded
 python-tweepy	failed
 python-twiggy	succeeded
 python-twilio	succeeded
@@ -3393,7 +3406,7 @@ python-webscrapbook	succeeded
 python-websocket-client	succeeded
 python-websockets	succeeded
 python-websockify	succeeded
-python-webtest	failed
+python-webtest	succeeded
 python-webthing	succeeded
 python-webthing-ws	succeeded
 python-werkzeug	succeeded
@@ -3521,7 +3534,7 @@ python3-simpletal	succeeded
 python3-zope-fixers	failed
 python3.12	succeeded
 python3.13	succeeded
-pythran	failed
+pythran	succeeded
 pytz	succeeded
 pyusb	succeeded
 pywbem	succeeded
@@ -3632,6 +3645,7 @@ slingshot	succeeded
 slowloris	succeeded
 smbcmp	succeeded
 smoldyn	succeeded
+snakemake	succeeded
 snallygaster	succeeded
 snowball	succeeded
 socialscan	succeeded
