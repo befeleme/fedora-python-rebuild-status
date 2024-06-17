@@ -1,235 +1,271 @@
-APLpy
-ansible-lint
-azure-cli
-blender
-bodhi-server
-buildbot
-certbot
-cfn-lint
-conda-build
-copr-dist-git
-dnsviz
-duplicity
-dxf2gcode
-fawltydeps
-fedmsg
-fedora-review
-fedrq
-gajim
-glances
-gr-air-modes
-gr-funcube
-gr-hpsdr
-gr-iqbal
-gr-osmosdr
-gr-rds
-ipsilon
-mailman3
-mailman3-fedmsg-plugin
-matrix-synapse
-module-build-service
-mopidy
-mopidy-mpd
-mu
-oz
-paperwork
-paraview
-pgzero
-preprocess
-psi4
-pychess
-pygrib
-pykka
-python-SALib
-python-ansi2html
-python-anymarkup
-python-aodhclient
-python-arm-preprocessing
-python-arviz
-python-ast-monitor
-python-aws-sam-translator
-python-aws-xray-sdk
-python-barbicanclient
-python-basemap
-python-bsmschema
-python-cartopy
-python-cattrs
-python-ccdproc
-python-certbot-dns-luadns
-python-certbot-dns-plesk
-python-cinderclient
-python-conda-index
-python-contextily
-python-cornice
-python-cro
-python-dask
-python-dask-expr
-python-designateclient
-python-django-pyscss
-python-django4.2
-python-dns-lexicon
-python-doubleratchet
-python-earthpy
-python-elephant
-python-engineio
-python-ephyviewer
-python-esbonio
-python-f5-sdk
-python-fastapi
-python-fedmsg-meta-fedora-infrastructure
-python-flask-mailman
-python-flask-security-too
-python-flask-socketio
-python-fsleyes
-python-fsleyes-props
-python-fslpy
-python-futurist
-python-geodatasets
-python-geopandas
-python-geoplot
-python-geotiler
-python-gerritlib
-python-glymur
-python-gnocchiclient
-python-hacking
-python-hdmf
-python-heatclient
-python-inema
-python-ipmi
-python-ipywidgets
-python-ironicclient
-python-jenkins
-python-jupyter-sphinx
-python-jupytext
-python-k2hr3-osnl
-python-keystoneauth1
-python-keystoneclient
-python-launchpadlib
-python-lazr-restfulclient
-python-lazy-ops
-python-libpysal
-python-llama-cpp-python
-python-logdetective
-python-lsp-black
-python-lsp-server
-python-lsprotocol
-python-magnumclient
-python-mailman-hyperkitty
-python-manilaclient
-python-mapclassify
-python-migrate
-python-mistralclient
-python-mne
-python-mne-bids
-python-nb2plots
-python-nbxmpp
-python-netmiko
-python-neurom
-python-neutronclient
-python-nifti-mrs
-python-nikola
-python-nilearn
-python-notebook
-python-novaclient
-python-novaclient-os-networks
-python-novaclient-os-virtual-interfaces
-python-octaviaclient
-python-odata-query
-python-oletools
-python-omemo
-python-omemo-backend-signal
-python-openapi-core
-python-openpaperwork-gtk
-python-openstackclient
-python-openstacksdk
-python-os-client-config
-python-osc-lib
-python-oslo-concurrency
-python-oslo-context
-python-oslo-db
-python-oslo-log
-python-oslo-messaging
-python-oslo-metrics
-python-oslo-middleware
-python-oslo-serialization
-python-oslo-service
-python-oslo-utils
-python-pandas-flavor
-python-paperwork-backend
-python-pathos
-python-pg8000
-python-pingouin
-python-plotly
-python-plotnine
-python-probeinterface
-python-pybids
-python-pybv
-python-pygls
-python-pyjwkest
-python-pymochad
-python-pyngus
-python-pynwb
-python-pyone
-python-pyopengl
-python-pyphi
-python-pyqtgraph
-python-pyramid-fas-openid
-python-pyramid-mako
-python-pyramid-tm
-python-pyramid_sawing
-python-pyshtools
-python-pyswarms
-python-pytest-lsp
-python-python-ulid
-python-pytoolconfig
-python-pyunicorn
-python-qemu-qmp
-python-reproject
-python-requests-cache
-python-rope
-python-rq
-python-rstcheck-core
-python-saharaclient
-python-scikit-build-core
-python-scramp
-python-shade
-python-simple-salesforce
-python-sklearn-genetic
-python-slixmpp-omemo
-python-socketio
-python-spdx-tools
-python-sport-activities-features
-python-sqlalchemy-collectd
-python-sqlalchemy-utils
-python-sqlalchemy1.4
-python-streamlink
-python-swiftclient
-python-tackerclient
-python-taskflow
-python-tensordict
-python-testing.postgresql
-python-torchaudio
-python-torchdata
-python-torchtext
-python-torchvision
-python-trimesh
-python-troveclient
-python-ufo2ft
-python-ufoLib2
-python-versioningit
-python-vitrageclient
-python-xarray
-python-xarray-einstats
-python-xbout
-python-zaqarclient
-python-zarr
-python-zeep
-roca-detect
-rpm-spec-language-server
-rtlsdr-scanner
-ruff-lsp
-spglib
-spyder
-stats-collect
-usd
-wult
+	APLpy
+	COPASI
+	aggregate6
+	ansible-lint
+	azure-cli
+	blender
+	bodhi-server
+	buildbot
+	certbot
+	cfn-lint
+	collectd
+	conda-build
+	copr-dist-git
+	copr-rpmbuild
+	dnsviz
+	duplicity
+	dxf2gcode
+	fapolicy-analyzer
+	fawltydeps
+	fedora-review
+	fedrq
+	gajim
+	gdl
+	ginga
+	glances
+	gr-air-modes
+	gr-funcube
+	gr-hpsdr
+	gr-iqbal
+	gr-osmosdr
+	gr-rds
+	input-remapper
+	ipsilon
+	jupyterlab
+	khal
+	kiwi-boxed-plugin
+	mailman3
+	mailman3-fedmsg-plugin
+	matrix-synapse
+	module-build-service
+	mopidy
+	mopidy-mpd
+	mu
+	nagios-plugins-systemd
+	oz
+	packit
+	paperwork
+	pgzero
+	preprocess
+	psi4
+	pychess
+	pygrib
+	pykka
+	pyproj
+	python-SALib
+	python-adb
+	python-ansi2html
+	python-anymarkup
+	python-aodhclient
+	python-arm-preprocessing
+	python-arviz
+	python-ast-monitor
+	python-astor
+	python-aws-sam-translator
+	python-aws-xray-sdk
+	python-barbicanclient
+	python-basemap
+	python-bsmschema
+	python-cartopy
+	python-ccdproc
+	python-certbot-dns-luadns
+	python-certbot-dns-plesk
+	python-cinderclient
+	python-conda-index
+	python-contextily
+	python-cornice
+	python-cro
+	python-dask
+	python-dask-expr
+	python-designateclient
+	python-django-allauth
+	python-django-mailman3
+	python-django-pyscss
+	python-django4.2
+	python-dns-lexicon
+	python-doubleratchet
+	python-drain3
+python-dukpy
+	python-earthpy
+	python-engineio
+	python-ephyviewer
+	python-esbonio
+	python-etcd3gw
+	python-f5-sdk
+	python-fastapi
+	python-fedmsg-meta-fedora-infrastructure
+	python-flask-caching
+	python-flask-security-too
+	python-flask-session
+	python-flask-socketio
+	python-fsleyes
+	python-fsleyes-props
+	python-fslpy
+	python-futurist
+	python-geodatasets
+	python-geopandas
+	python-geoplot
+	python-geotiler
+	python-gerritlib
+	python-glanceclient
+	python-glymur
+	python-gnocchiclient
+	python-hacking
+	python-hdmf
+	python-heatclient
+	python-howdoi
+	python-hyperkitty
+	python-imagecodecs
+	python-inema
+	python-ipmi
+	python-ipywidgets
+	python-ironicclient
+	python-jenkins
+	python-jenkins-job-builder
+	python-jupyter-sphinx
+	python-jupytext
+	python-k2hr3-osnl
+	python-keystoneauth1
+	python-keystoneclient
+	python-launchpadlib
+	python-lazr-restfulclient
+	python-lazy-ops
+	python-libpysal
+	python-llama-cpp-python
+	python-logdetective
+	python-lsp-black
+	python-lsp-server
+	python-lsprotocol
+	python-magnumclient
+	python-mailman-hyperkitty
+	python-mailman-web
+	python-manilaclient
+	python-mapclassify
+	python-menuinst
+	python-migrate
+	python-mistralclient
+	python-mne
+	python-mne-bids
+	python-nb2plots
+	python-nbxmpp
+	python-netmiko
+	python-network-runner
+	python-neurom
+	python-neutronclient
+	python-nifti-mrs
+	python-nikola
+	python-nilearn
+	python-notebook
+	python-novaclient
+	python-novaclient-os-networks
+	python-novaclient-os-virtual-interfaces
+	python-octaviaclient
+	python-odata-query
+	python-oletools
+	python-omemo
+	python-omemo-backend-signal
+	python-openapi-core
+	python-openpaperwork-gtk
+	python-openstackclient
+	python-openstacksdk
+	python-os-client-config
+	python-osc-lib
+	python-oslo-concurrency
+	python-oslo-context
+	python-oslo-db
+	python-oslo-log
+	python-oslo-messaging
+	python-oslo-metrics
+	python-oslo-middleware
+	python-oslo-serialization
+	python-oslo-service
+	python-oslo-utils
+	python-pandas-flavor
+	python-paperwork-backend
+	python-pathos
+	python-pg8000
+	python-pingouin
+	python-plotly
+	python-plotnine
+	python-postorius
+	python-probeinterface
+	python-pybids
+	python-pybv
+	python-pydantic-extra-types
+	python-pydantic-settings
+	python-pygls
+	python-pyjwkest
+	python-pymochad
+	python-pynwb
+	python-pyone
+	python-pyopengl
+	python-pyphi
+	python-pyqtgraph
+	python-pyramid-fas-openid
+	python-pyramid-mako
+	python-pyramid-tm
+	python-pyramid_sawing
+	python-pyshtools
+	python-pyswarms
+	python-pytest-lsp
+	python-pytest-qt
+	python-python-ulid
+	python-pytoolconfig
+	python-pyunicorn
+	python-qcelemental
+	python-qcengine
+	python-qemu-qmp
+	python-reproject
+	python-requests-cache
+	python-rope
+	python-rstcheck-core
+	python-saharaclient
+	python-scikit-build-core
+	python-scramp
+	python-shade
+	python-simple-salesforce
+	python-sklearn-genetic
+	python-slixmpp-omemo
+	python-social-auth-core
+	python-socketio
+	python-spdx-tools
+	python-sport-activities-features
+	python-sqlalchemy-utils
+	python-streamlink
+	python-superqt
+	python-swiftclient
+	python-tackerclient
+	python-taskflow
+	python-tensordict
+	python-testing.postgresql
+	python-tmuxp
+	python-torchaudio
+	python-torchdata
+	python-torchtext
+	python-torchvision
+	python-trimesh
+	python-troveclient
+	python-ufo2ft
+	python-ufoLib2
+	python-versioningit
+	python-vitrageclient
+	python-xarray
+	python-xarray-einstats
+	python-xbout
+	python-zaqarclient
+	python-zarr
+	python-zeep
+	python-zict
+	python3-saml
+	rebase-helper
+	resalloc-ibm-cloud
+	roca-detect
+	rpm-spec-language-server
+	rtlsdr-scanner
+	ruff-lsp
+	spglib
+	spyder
+	stats-collect
+	tmt
+	usd
+	wult
