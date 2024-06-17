@@ -15,9 +15,12 @@
         <ul>
             <li>🌏 All packages: <b>{{ number_pkgs_to_rebuild + number_pkgs_success}}</b> (100%)</li>
             <li>🟢 Packages built successfully with Python 3.13: <b>{{ number_pkgs_success }}</b> ({{ "{:.2f}%".format(number_pkgs_success*100/(number_pkgs_to_rebuild+number_pkgs_success)) }})</li>
-            <li>🟠 Packages waiting to be rebuilt: <b>{{ number_pkgs_to_rebuild }}</b>  ({{ "{:.2f}%".format(number_pkgs_to_rebuild*100/(number_pkgs_to_rebuild+number_pkgs_success)) }})</li>
-            <li>🔴 Packages that failed to build with Python 3.13: <b>{{ number_pkgs_failed }}</b> ({{ "{:.2f}%".format(number_pkgs_failed*100/(number_pkgs_to_rebuild+number_pkgs_success)) }})</li>
-            <li>⚪ Packages not yet attempted to build (blocked on missing dependencies): <b>{{ number_pkgs_waiting }}</b> ({{ "{:.2f}%".format(number_pkgs_waiting*100/(number_pkgs_to_rebuild+number_pkgs_success)) }})</li>
+            <li>Packages waiting to be rebuilt: <b>{{ number_pkgs_to_rebuild }}</b>  ({{ "{:.2f}%".format(number_pkgs_to_rebuild*100/(number_pkgs_to_rebuild+number_pkgs_success)) }})
+                <ul>
+                    <li>🔴 Packages that failed to build with Python 3.13: <b>{{ number_pkgs_failed }}</b> ({{ "{:.2f}%".format(number_pkgs_failed*100/(number_pkgs_to_rebuild+number_pkgs_success)) }})</li>
+                    <li>⚪ Packages not yet attempted to build (blocked on missing dependencies): <b>{{ number_pkgs_waiting }}</b> ({{ "{:.2f}%".format(number_pkgs_waiting*100/(number_pkgs_to_rebuild+number_pkgs_success)) }})</li>
+                </ul>
+            </li>
         </ul>
 
         <h2>Status breakdown</h2>
