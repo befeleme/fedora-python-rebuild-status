@@ -2,7 +2,7 @@ import sys
 
 from flask import Flask, render_template
 
-from scripts.loaders import load_data, load_json, load_monitor_report
+from scripts.loaders import load_data, load_json, load_monitor_report, KOJI
 
 app = Flask("python_rebuild_status")
 
@@ -16,11 +16,14 @@ REPORT_STATES = {
 
 
 ALL_TO_BUILD = sorted(load_data("data/python312.pkgs"))
-HISTORICALLY_SUCCESSFUL = load_data("data/python313.pkgs")
+# python3.12 won't ever require 'python(abi) = 3.13'
+ALL_TO_BUILD.remove("python3.12")
+SUCCESSFULLY_REBUILT = load_data("data/python313.pkgs")
 FAILED = load_data("data/failed.pkgs")
 WAITING = load_data("data/waiting.pkgs")
-ALL_IN_COPR = load_monitor_report("data/copr.pkgs")
 BUGZILLAS = load_json("data/bzurls.json")
+if not KOJI:
+    ALL_IN_COPR = load_monitor_report("data/copr.pkgs")
 
 
 def count_pkgs_with_state(build_status, looked_for):
@@ -28,14 +31,28 @@ def count_pkgs_with_state(build_status, looked_for):
 
 
 def assign_build_status():
+    if KOJI:
+        return _assign_koji_build_status()
+    return _assign_copr_build_status()
+
+
+def _assign_koji_build_status():
+    build_status = {}
+    for pkg in FAILED:
+        build_status[pkg] = REPORT_STATES["failed"]
+    for pkg in WAITING:
+        build_status[pkg] = REPORT_STATES["waiting"]
+    for pkg in SUCCESSFULLY_REBUILT:
+        build_status[pkg] = REPORT_STATES["success"]
+    return build_status
+
+
+def _assign_copr_build_status():
     build_status = {}
     for pkg in ALL_TO_BUILD:
-        # python3.12 has been rebuilt but it doesn't require 'python(abi) = 3.13'
-        if pkg == "python3.12":
-            status = REPORT_STATES["success"]
         # pkg can build once and never again, so let's look at the last
         # build to determine if we need to take a look at it anyways
-        elif pkg in HISTORICALLY_SUCCESSFUL:
+        if pkg in SUCCESSFULLY_REBUILT:
             last_build_state = ALL_IN_COPR[pkg]
             if last_build_state == "failed":
                 status = REPORT_STATES["once_succeeded_last_failed"]
@@ -86,8 +103,7 @@ def index():
     return render_template(
         'index.html',
         number_pkgs_to_rebuild=len(ALL_TO_BUILD),
-        number_pkgs_success=count_pkgs_with_state(build_status, REPORT_STATES["success"]),
-        number_pkgs_flaky=count_pkgs_with_state(build_status, REPORT_STATES["once_succeeded_last_failed"]),
+        number_pkgs_success=len(SUCCESSFULLY_REBUILT),
         number_pkgs_failed=len(FAILED),
         number_pkgs_waiting=len(WAITING),
     )

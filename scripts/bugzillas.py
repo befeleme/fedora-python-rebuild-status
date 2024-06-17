@@ -1,7 +1,7 @@
 import json
 import bugzilla
 
-from loaders import load_data, load_monitor_report
+from loaders import load_data, load_monitor_report, KOJI
 
 
 BUGZILLA = 'bugzilla.redhat.com'
@@ -11,12 +11,15 @@ RAWHIDE = 2260875  # F41FTBFS
 BZAPI = bugzilla.Bugzilla(BUGZILLA)
 
 FAILED = load_data("data/failed.pkgs")
-HISTORICALLY_SUCCESSFUL = load_data("data/python313.pkgs")
-ALL_IN_COPR = load_monitor_report("data/copr.pkgs")
+# we only want to do Copr magic before the mass rebuild
+if not KOJI:
+    HISTORICALLY_SUCCESSFUL = load_data("data/python313.pkgs")
+    ALL_IN_COPR = load_monitor_report("data/copr.pkgs")
 
-# Attempt to find bugzillas for packages that
-# started to fail to build just recently
-FAILED.update(pkg for pkg in HISTORICALLY_SUCCESSFUL if ALL_IN_COPR.get(pkg) == "failed")
+    # Attempt to find bugzillas for packages that
+    # started to fail to build just recently
+    FAILED.update(pkg for pkg in HISTORICALLY_SUCCESSFUL if ALL_IN_COPR.get(pkg) == "failed")
+
 SORTED_FAILS = sorted(FAILED)
 
 

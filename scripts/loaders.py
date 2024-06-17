@@ -1,5 +1,9 @@
 import json
 
+# set to True after the mass-rebuild to use Koji as the source for data
+# otherwise Copr will be used (90% of the time)
+KOJI = True
+
 
 def load_data(filename):
     with open(filename, "r", encoding="utf=8") as f:
