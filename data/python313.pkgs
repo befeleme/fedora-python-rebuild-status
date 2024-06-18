@@ -36,6 +36,7 @@ accerciser
 adapt
 adb-enhanced
 afflib
+aggregate6
 airnef
 alacarte
 alot
@@ -155,6 +156,7 @@ copr-backend
 copr-cli
 copr-keygen
 copr-messaging
+copr-rpmbuild
 cozy
 cranc
 createrepo_c
@@ -238,6 +240,8 @@ firmitas
 flann
 flatbuffers
 flent
+flowblade
+fmf
 fontforge
 fonts-tweak-tool
 fonttools
@@ -361,6 +365,7 @@ jack-mixer
 javapackages-tools
 jello
 jrnl
+jupyterlab
 kea
 kerberoast
 kernel
@@ -619,6 +624,7 @@ osh
 otf2
 oval-graph
 pacemaker
+packit
 pag
 pagure
 pagure-dist-git
@@ -680,6 +686,7 @@ puddletag
 pulsecaster
 pungi
 pwncat
+py-radix
 py-spidev
 py3status
 pyOpenSSL
@@ -926,6 +933,7 @@ python-asn1
 python-asn1crypto
 python-aspy.yaml
 python-asteval
+python-astor
 python-astral
 python-astroML
 python-astroid
@@ -1154,6 +1162,7 @@ python-catkin-sphinx
 python-catkin_lint
 python-catkin_pkg
 python-catkin_tools
+python-cattrs
 python-cbor2
 python-cccolutils
 python-celery
@@ -1342,6 +1351,8 @@ python-damo
 python-danfossair
 python-daphne
 python-dasbus
+python-dask
+python-dask-expr
 python-databases
 python-datalad
 python-dateparser
@@ -1519,6 +1530,7 @@ python-ephem
 python-epi
 python-epson-projector
 python-epub
+python-esbonio
 python-et_xmlfile
 python-etcd
 python-etcd3
@@ -1577,8 +1589,11 @@ python-fitsio
 python-fixit
 python-fixtures
 python-flake8
+python-flake8-blind-except
 python-flake8-builtins
+python-flake8-class-newline
 python-flake8-comprehensions
+python-flake8-deprecated
 python-flake8-docstrings
 python-flake8-import-order
 python-flake8-polyfill
@@ -1742,6 +1757,7 @@ python-haversion
 python-hdate
 python-hdf5storage
 python-hdfs
+python-hdmf
 python-healpy
 python-heapdict
 python-helpdev
@@ -1803,6 +1819,7 @@ python-ifaddr
 python-ifcfg
 python-igraph
 python-ijson
+python-imagecodecs
 python-imageio
 python-imagesize
 python-imapclient
@@ -1955,11 +1972,14 @@ python-landslide
 python-langdetect
 python-lark
 python-latexcodec
+python-launchpadlib
 python-lazr-config
 python-lazr-delegates
+python-lazr-restfulclient
 python-lazr-uri
 python-lazy-loader
 python-lazy-object-proxy
+python-lazy-ops
 python-lazyarray
 python-ldap
 python-ldap3
@@ -2003,6 +2023,7 @@ python-logzero
 python-looseversion
 python-lqrt
 python-lsp-jsonrpc
+python-lsprotocol
 python-lunr
 python-lupa
 python-lxml
@@ -2177,6 +2198,7 @@ python-niaclass
 python-niapy
 python-nibabel
 python-nihtest
+python-nikola
 python-nine
 python-nipy
 python-nitime
@@ -2194,6 +2216,7 @@ python-nose
 python-nose-testconfig
 python-nose-timer
 python-nose2
+python-notebook
 python-notebook-shim
 python-notify2
 python-nptyping
@@ -2396,6 +2419,7 @@ python-prettyprinter
 python-prettytable
 python-primecountpy
 python-priority
+python-probeinterface
 python-process-tests
 python-productmd
 python-progress
@@ -2495,6 +2519,7 @@ python-pyghmi
 python-pygiftiio
 python-pygit2
 python-pyglet
+python-pygls
 python-pygmars
 python-pygments
 python-pygments-better-html
@@ -2546,6 +2571,7 @@ python-pynn
 python-pynose
 python-pynsgr
 python-pynuvo
+python-pynwb
 python-pyobd
 python-pyocr
 python-pyongc
@@ -2655,6 +2681,7 @@ python-pytest-jupyter
 python-pytest-lazy-fixture
 python-pytest-lazy-fixtures
 python-pytest-localserver
+python-pytest-lsp
 python-pytest-mock
 python-pytest-mpi
 python-pytest-mpl
@@ -2779,6 +2806,7 @@ python-repoze-who
 python-repoze-who-plugins-sa
 python-represent
 python-requests
+python-requests-cache
 python-requests-credssp
 python-requests-download
 python-requests-exoscale-auth
@@ -2967,6 +2995,7 @@ python-sortedcontainers
 python-soupsieve
 python-speaklater
 python-spec
+python-specfile
 python-speedtest-cli
 python-speg
 python-sphinx
@@ -3228,6 +3257,7 @@ python-u-msgpack-python
 python-ua-parser
 python-uc-micro-py
 python-ufl
+python-ufoLib2
 python-uhashring
 python-uinput
 python-ujson
@@ -3292,6 +3322,7 @@ python-vsts-cd-manager
 python-vsure
 python-vulture
 python-w3lib
+python-wadllib
 python-waitress
 python-walkdir
 python-waqiasync
@@ -3384,6 +3415,7 @@ python-ytmusicapi
 python-yubico
 python-zake
 python-zanata2fedmsg
+python-zarr
 python-zc-customdoctests
 python-zc-lockfile
 python-zdaemon
@@ -3479,6 +3511,7 @@ rpkg
 rpl
 rpm
 rpm-head-signing
+rpm-spec-language-server
 rpmconf
 rpmdeplint
 rpmlint
@@ -3491,6 +3524,7 @@ rst2txt
 rteval
 rubber
 ruff
+ruff-lsp
 rust2rpm
 s-tui
 s3cmd
@@ -3585,6 +3619,7 @@ timeline
 tito
 tldr
 tlsh
+tmt
 todocli
 tomcli
 toot
