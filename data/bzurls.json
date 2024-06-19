@@ -1,4 +1,7 @@
 {
+  "APLpy": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2291476"
+  ],
   "Mayavi": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2291477"
   ],
@@ -13,6 +16,9 @@
   ],
   "ara": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2279553"
+  ],
+  "bodhi-server": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2291493"
   ],
   "btrfs-progs": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2245650"
@@ -41,8 +47,6 @@
   "future": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2250662"
   ],
-  "getdp": [],
-  "gplugin": [],
   "ikiwiki": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2291542",
     "https://bugzilla.redhat.com/show_bug.cgi?id=2290514"
@@ -84,7 +88,9 @@
     "https://bugzilla.redhat.com/show_bug.cgi?id=2291571",
     "https://bugzilla.redhat.com/show_bug.cgi?id=2290726"
   ],
-  "paraview": [],
+  "paraview": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2292889"
+  ],
   "petsc": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2250673"
   ],
@@ -97,14 +103,14 @@
   "proxmark3": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2245823"
   ],
-  "pygame": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2250670"
-  ],
   "pygsl": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2250675"
   ],
   "pyliblo": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2248131"
+  ],
+  "pyproj": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2291596"
   ],
   "python-Pympler": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2291598"
@@ -187,7 +193,9 @@
   "python-eventlet": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2290561"
   ],
-  "python-fiona": [],
+  "python-fiona": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2280822"
+  ],
   "python-flask-basicauth": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2261560"
   ],
@@ -224,17 +232,8 @@
   "python-ipdb": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2280968"
   ],
-  "python-ipywidgets": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2291744"
-  ],
   "python-jnius": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2272966"
-  ],
-  "python-jupytext": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2291751"
-  ],
-  "python-kafka": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2290344"
   ],
   "python-libusb1": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2280555"
@@ -290,8 +289,8 @@
   "python-pyngus": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2291865"
   ],
-  "python-pyramid": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2291872"
+  "python-pyopengl": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2291868"
   ],
   "python-pyside6": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2266591"
@@ -311,17 +310,11 @@
   "python-rq": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2291904"
   ],
-  "python-rtmidi": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2226321"
-  ],
   "python-ruffus": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2259546"
   ],
   "python-scikit-build-core": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2291910"
-  ],
-  "python-scikit-image": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2291911"
   ],
   "python-scss": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2245678"
@@ -347,9 +340,6 @@
   "python-straight-plugin": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2244822"
   ],
-  "python-tblib": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2271387"
-  ],
   "python-tcx2gpx": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2291942"
   ],
@@ -361,9 +351,6 @@
   ],
   "python-torch": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2291949"
-  ],
-  "python-treq": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2290560"
   ],
   "python-tweepy": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2290566"
@@ -395,6 +382,9 @@
   "python-x2go": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2291976"
   ],
+  "python-xbout": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2291980"
+  ],
   "python-xmlsec": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2261617"
   ],
@@ -415,9 +405,6 @@
   ],
   "quodlibet": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2259638"
-  ],
-  "rebase-helper": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2291996"
   ],
   "rmlint": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2272923"
@@ -449,7 +436,9 @@
   "xonsh": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2283616"
   ],
-  "znc": [],
+  "znc": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2292226"
+  ],
   "zxing-cpp": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2292025"
   ]
