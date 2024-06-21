@@ -663,7 +663,7 @@
             "yselkowitz"
         ],
         "freerouting": [
-            "releng-bot"
+            "yselkowitz"
         ],
         "frogr": [
             "yselkowitz"
@@ -32359,6 +32359,7 @@
             "alexsaezm"
         ],
         "golang-github-opencontainers-runtime-spec": [
+            "rishi",
             "sergiomb"
         ],
         "golang-github-opencontainers-runtime-tools": [
@@ -43840,6 +43841,9 @@
         ],
         "kf6-bluez-qt": [
             "farchord"
+        ],
+        "kf6-breeze-icons": [
+            "yselkowitz"
         ],
         "kf6-frameworkintegration": [
             "farchord"
@@ -64562,7 +64566,7 @@
             "mlombard"
         ],
         "nvml": [
-            "orphan"
+            "prgutier"
         ],
         "nvtop": [
             "salimma"
@@ -94358,6 +94362,9 @@
         "python-jupyter-c-kernel": [
             "qulogic"
         ],
+        "python-jupyter-cache": [
+            "jjames"
+        ],
         "python-jupyter-client": [
             "churchyard",
             "tomspur"
@@ -95683,6 +95690,9 @@
             "lbalhar",
             "jonathanspw",
             "churchyard"
+        ],
+        "python-nbdime": [
+            "jjames"
         ],
         "python-nbformat": [
             "orion",
@@ -98362,6 +98372,9 @@
         ],
         "python-pytest-spec": [
             "fab"
+        ],
+        "python-pytest-split": [
+            "dogukancagatay"
         ],
         "python-pytest-steps": [
             "zbyszek"
@@ -120918,6 +120931,9 @@
         "scanbuttond": [
             "orphan"
         ],
+        "scancode-toolkit": [
+            "eclipseo"
+        ],
         "scanless": [
             "fab"
         ],
@@ -127292,7 +127308,7 @@
         ],
         "tuned": [
             "jskarvad",
-            "jzerdik"
+            "pzacik"
         ],
         "tuned-profiles-nfv-host-bin": [
             "jskarvad"
@@ -133554,6 +133570,20 @@
         ]
     },
     "tests": {
+        "acpid": [
+            "omejzlik",
+            "pdancak",
+            "psklenar"
+        ],
+        "adobe-mappings-cmap": [
+            "yselkowitz",
+            "psklenar"
+        ],
+        "adobe-mappings-pdf": [
+            "omejzlik",
+            "pdancak",
+            "psklenar"
+        ],
         "annobin": [
             "vkadlcik",
             "mcermak",
@@ -133573,7 +133603,8 @@
         ],
         "bind": [
             "pemensik",
-            "psklenar"
+            "psklenar",
+            "omejzlik"
         ],
         "binutils": [
             "mprchlik"
@@ -133581,9 +133612,19 @@
         "braille-printer-app": [
             "pdancak"
         ],
+        "brltty": [
+            "omejzlik",
+            "pdancak",
+            "psklenar"
+        ],
         "bzip2": [
             "jamartis",
             "rskvaril"
+        ],
+        "c2esp": [
+            "omejzlik",
+            "pdancak",
+            "psklenar"
         ],
         "chan": [
             "jkurik"
@@ -133625,6 +133666,7 @@
             "zdohnal",
             "rlescak",
             "psklenar",
+            "omejzlik",
             "pdancak"
         ],
         "cups-browsed": [
@@ -133701,7 +133743,8 @@
         ],
         "foomatic": [
             "psklenar",
-            "zdohnal"
+            "zdohnal",
+            "omejzlik"
         ],
         "foomatic-db": [
             "zdohnal",
@@ -133715,6 +133758,7 @@
         ],
         "fstrm": [
             "pemensik",
+            "omejzlik",
             "psklenar",
             "pdancak"
         ],
@@ -133744,6 +133788,7 @@
         "ghostscript": [
             "bnater",
             "psklenar",
+            "omejzlik",
             "rlescak",
             "zdohnal"
         ],
@@ -133766,6 +133811,11 @@
         ],
         "grub2": [
             "mduda"
+        ],
+        "gsm": [
+            "omejzlik",
+            "pdancak",
+            "psklenar"
         ],
         "guile": [
             "omejzlik"
@@ -133804,6 +133854,11 @@
             "mosvald",
             "bnater"
         ],
+        "ipcalc": [
+            "omejzlik",
+            "pdancak",
+            "psklenar"
+        ],
         "iperf3": [
             "fhrdina",
             "mruprich",
@@ -133828,6 +133883,11 @@
         "kea": [
             "psklenar",
             "mosvald"
+        ],
+        "ldns": [
+            "omejzlik",
+            "pdancak",
+            "psklenar"
         ],
         "lftp": [
             "mruprich",
@@ -133861,6 +133921,11 @@
         "libmaxminddb": [
             "mruprich",
             "omejzlik"
+        ],
+        "libogg": [
+            "omejzlik",
+            "pdancak",
+            "psklenar"
         ],
         "libomp": [
             "jcheca",
@@ -133912,11 +133977,21 @@
             "tstellar",
             "sergesanspaille"
         ],
+        "lm_sensors": [
+            "omejzlik",
+            "pdancak",
+            "psklenar"
+        ],
         "lprint": [
             "zdohnal",
             "psklenar",
             "pdancak",
             "omejzlik"
+        ],
+        "lrzsz": [
+            "omejzlik",
+            "pdancak",
+            "psklenar"
         ],
         "lzo": [
             "omejzlik"
@@ -133938,6 +134013,12 @@
         ],
         "memcached": [
             "tkorbar",
+            "psklenar",
+            "omejzlik"
+        ],
+        "memtest86plus": [
+            "omejzlik",
+            "pdancak",
             "psklenar"
         ],
         "minicom": [
@@ -134063,11 +134144,21 @@
             "pkubat",
             "vdanek"
         ],
+        "powertop": [
+            "omejzlik",
+            "pdancak",
+            "psklenar"
+        ],
         "ppp": [
             "omejzlik"
         ],
         "pps-tools": [
             "omejzlik"
+        ],
+        "pptp": [
+            "omejzlik",
+            "pdancak",
+            "psklenar"
         ],
         "procmail": [
             "fhrdina",
@@ -134099,7 +134190,8 @@
         ],
         "qpdf": [
             "psklenar",
-            "zdohnal"
+            "zdohnal",
+            "omejzlik"
         ],
         "radvd": [
             "omejzlik"
@@ -134176,6 +134268,11 @@
         "sendmail": [
             "fhrdina"
         ],
+        "setup": [
+            "omejzlik",
+            "psklenar",
+            "pdancak"
+        ],
         "shell": [
             "psss",
             "svashisht",
@@ -134194,9 +134291,15 @@
             "bnater",
             "mosvald"
         ],
+        "speex": [
+            "omejzlik",
+            "pdancak",
+            "psklenar"
+        ],
         "splix": [
             "psklenar",
-            "zdohnal"
+            "zdohnal",
+            "omejzlik"
         ],
         "sqlite": [
             "fjanus",
@@ -134217,7 +134320,8 @@
         ],
         "system-config-printer": [
             "zdohnal",
-            "pdancak"
+            "pdancak",
+            "omejzlik"
         ],
         "systemd": [
             "mrc0mmand"
@@ -134247,6 +134351,11 @@
             "mruprich",
             "bnater"
         ],
+        "tinycdb": [
+            "omejzlik",
+            "pdancak",
+            "psklenar"
+        ],
         "tk": [
             "omejzlik"
         ],
@@ -134266,6 +134375,11 @@
         ],
         "urlview": [
             "omejzlik"
+        ],
+        "urw-base35-fonts": [
+            "omejzlik",
+            "pdancak",
+            "psklenar"
         ],
         "util-linux": [
             "rskvaril"
@@ -134302,9 +134416,19 @@
         "wget2": [
             "omejzlik"
         ],
+        "whois": [
+            "omejzlik",
+            "pdancak",
+            "psklenar"
+        ],
         "wireshark": [
             "mruprich",
             "fhrdina"
+        ],
+        "xterm": [
+            "omejzlik",
+            "pdancak",
+            "psklenar"
         ],
         "zip": [
             "jamartis",
