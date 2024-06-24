@@ -14,8 +14,7 @@ env LANG=en_US.utf-8 comm -23 data/python312.pkgs data/python313.pkgs | grep -E 
 curl https://raw.githubusercontent.com/hroncok/whatdoibuild/python3.13/progress.pkgs |env LANG=en_US.utf-8 sort > data/progress.pkgs
 
 env LANG=en_US.utf-8 comm -12 data/progress.pkgs data/todo.pkgs > data/failed.pkgs
-env LANG=en_US.utf-8 comm -23 data/progress.pkgs data/todo.pkgs > data/waiting.pkgs
-rm data/todo.pkgs
+env LANG=en_US.utf-8 comm -13 data/progress.pkgs data/todo.pkgs > data/waiting.pkgs
 
 # get packages and their respective maintainers
 curl https://src.fedoraproject.org/extras/pagure_owner_alias.json -o data/pagure_owner_alias.json
