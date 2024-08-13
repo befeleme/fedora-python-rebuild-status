@@ -775,6 +775,7 @@ pyflakes
 pygame
 pygobject3
 pygrib
+pygsl
 pyhoca-cli
 pyhoca-gui
 pyhunspell
@@ -820,7 +821,6 @@ python-APScheduler
 python-AWSIoTPythonSDK
 python-AppTools
 python-Automat
-python-BTrees
 python-Bottleneck
 python-CacheControl
 python-CommonMark
@@ -886,10 +886,6 @@ python-XStatic-mdi
 python-XStatic-roboto-fontface
 python-XStatic-smart-table
 python-XStatic-termjs
-python-ZConfig
-python-ZEO
-python-ZODB
-python-ZODB3
 python-a2wsgi
 python-aaargh
 python-abimap
@@ -1676,7 +1672,6 @@ python-extractcode-libarchive
 python-extras
 python-eyed3
 python-ezdxf
-python-f5-icontrol-rest
 python-fabric
 python-factory-boy
 python-faker
@@ -1894,6 +1889,7 @@ python-hass-data-detective
 python-hatasmota
 python-hatch-fancy-pypi-readme
 python-hatch-jupyter-builder
+python-hatch-nodejs-version
 python-hatch-requirements-txt
 python-hatch-vcs
 python-hatchling
@@ -2028,7 +2024,6 @@ python-itanium_demangler
 python-itemadapter
 python-itemloaders
 python-itsdangerous
-python-j1m.sphinxautozconfig
 python-jack-client
 python-janus
 python-jaraco-classes
@@ -2253,6 +2248,7 @@ python-mechanize
 python-mediafile
 python-meh
 python-memcached
+python-memray
 python-menuinst
 python-mercantile
 python-merge3
@@ -2282,6 +2278,7 @@ python-mistune08
 python-mitogen
 python-mizani
 python-mkdocs-get-deps
+python-mkdocs-monorepo-plugin
 python-mmtf
 python-mnemonic
 python-mock
@@ -2319,6 +2316,7 @@ python-msrestazure
 python-mujson
 python-mulpyplexer
 python-multi_key_dict
+python-multibase
 python-multicodec
 python-multidict
 python-multiecho
@@ -2568,7 +2566,6 @@ python-pep8-naming
 python-periodictable
 python-perky
 python-persist-queue
-python-persistent
 python-pexpect
 python-pg8000
 python-pgspecial
@@ -2630,14 +2627,12 @@ python-posix-ipc
 python-postorius
 python-pox
 python-poyo
-python-pplpy
 python-praw
 python-prawcore
 python-prefixed
 python-pretend
 python-prettyprinter
 python-prettytable
-python-primecountpy
 python-priority
 python-probeinterface
 python-process-tests
@@ -2900,7 +2895,6 @@ python-pytest-check
 python-pytest-click
 python-pytest-console-scripts
 python-pytest-cov
-python-pytest-cython
 python-pytest-datadir
 python-pytest-datafiles
 python-pytest-django
@@ -3327,10 +3321,8 @@ python-sphinxcontrib-spelling
 python-sphinxcontrib-svg2pdfconverter
 python-sphinxcontrib-trio
 python-sphinxcontrib-websupport
-python-sphinxcontrib-zopeext
 python-sphinxemoji
 python-sphinxext-opengraph
-python-sphinxext-rediraffe
 python-sphinxtesters
 python-sphinxygen
 python-sphobjinv
@@ -3417,7 +3409,6 @@ python-tcolorpy
 python-tcx2gpx
 python-tcxparser
 python-tcxreader
-python-tdlib
 python-teamcity-messages
 python-teletype
 python-tempdir
@@ -3607,7 +3598,6 @@ python-virtualenv-clone
 python-virtualenvwrapper
 python-visitor
 python-visvis
-python-vitrageclient
 python-vkbasalt-cli
 python-vobject
 python-volatile
@@ -3689,6 +3679,7 @@ python-xkbcommon
 python-xkbregistry
 python-xlib
 python-xlrd
+python-xlrd2
 python-xlsxwriter
 python-xlwt
 python-xml2rfc
@@ -3720,7 +3711,6 @@ python-yte
 python-ytmusicapi
 python-yubico
 python-zake
-python-zanata2fedmsg
 python-zaqarclient
 python-zarr
 python-zc-customdoctests
@@ -3734,7 +3724,6 @@ python-zipstream
 python-zlib-ng
 python-zm
 python-zmq
-python-zodbpickle
 python-zoidberg
 python-zombie-imp
 python-zope-component
@@ -3749,7 +3738,6 @@ python-zope-schema
 python-zope-sqlalchemy
 python-zope-testing
 python-zope-testrunner
-python-zopeundo
 python-zopfli
 python-zstandard
 python-zstarfile
@@ -3891,6 +3879,7 @@ solarwolf
 sos
 soundconverter
 sourcextractor++
+spec2nii
 spec2scl
 spectrographic
 speech-dispatcher
