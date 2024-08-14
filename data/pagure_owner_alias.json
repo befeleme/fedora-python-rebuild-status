@@ -5472,6 +5472,9 @@
         "activemq-protobuf": [
             "orphan"
         ],
+        "actor-framework": [
+            "topazus"
+        ],
         "adanaxisgpl": [
             "jwrdegoede"
         ],
@@ -9700,6 +9703,9 @@
             "jjardon",
             "atim",
             "catanzaro"
+        ],
+        "buildstream-plugins": [
+            "jjardon"
         ],
         "buku": [
             "eclipseo"
@@ -14980,6 +14986,7 @@
         "dnfdragora": [
             "ngompa",
             "jonathanspw",
+            "farchord",
             "besser82",
             "thunderbirdtr"
         ],
@@ -18871,6 +18878,9 @@
         "f40-backgrounds": [
             "luya"
         ],
+        "f41-backgrounds": [
+            "luya"
+        ],
         "fRaBs": [
             "orphan"
         ],
@@ -21257,7 +21267,6 @@
             "orphan"
         ],
         "gajim": [
-            "orphan",
             "suraia"
         ],
         "gala": [
@@ -21545,6 +21554,9 @@
             "jjames"
         ],
         "gap-pkg-liering": [
+            "jjames"
+        ],
+        "gap-pkg-lins": [
             "jjames"
         ],
         "gap-pkg-loops": [
@@ -55989,6 +56001,9 @@
         "miracle-wm": [
             "mattkae"
         ],
+        "miracle-wm-config": [
+            "ngompa"
+        ],
         "mirage": [
             "mtasaka"
         ],
@@ -57382,7 +57397,7 @@
             "orphan"
         ],
         "muon": [
-            "orphan"
+            "linkdupont"
         ],
         "mup": [
             "gbailey"
@@ -64778,6 +64793,9 @@
             "rjones"
         ],
         "ocaml-opam-0install": [
+            "jjames"
+        ],
+        "ocaml-opam-0install-cudf": [
             "jjames"
         ],
         "ocaml-opam-file-format": [
@@ -89577,7 +89595,8 @@
             "topazus"
         ],
         "python-cachetools": [
-            "jeckersb"
+            "jeckersb",
+            "churchyard"
         ],
         "python-cachez": [
             "orphan"
@@ -95316,7 +95335,6 @@
             "ksurma"
         ],
         "python-nbxmpp": [
-            "orphan",
             "suraia"
         ],
         "python-ncclient": [
@@ -96258,7 +96276,7 @@
             "scoady"
         ],
         "python-pathvalidate": [
-            "orphan"
+            "gui1ty"
         ],
         "python-patiencediff": [
             "opohorel"
@@ -96687,7 +96705,6 @@
             "fab"
         ],
         "python-precis_i18n": [
-            "orphan",
             "suraia"
         ],
         "python-prefixed": [
@@ -97363,7 +97380,7 @@
             "apevec"
         ],
         "python-pymilter": [
-            "orphan",
+            "gui1ty",
             "sdgathman"
         ],
         "python-pymoc": [
@@ -101102,7 +101119,8 @@
             "lbalhar"
         ],
         "python-usort": [
-            "dcavalca"
+            "dcavalca",
+            "salimma"
         ],
         "python-uswid": [
             "rhughes"
@@ -101875,6 +101893,9 @@
         ],
         "python-zarr": [
             "qulogic"
+        ],
+        "python-zarr-checksum": [
+            "mithunveluri"
         ],
         "python-zbase32": [
             "orphan"
@@ -109975,6 +109996,9 @@
         "rust-cairo-rs0.18": [
             "decathorpe"
         ],
+        "rust-cairo-rs0.19": [
+            "decathorpe"
+        ],
         "rust-cairo-sys-rs": [
             "decathorpe"
         ],
@@ -109988,6 +110012,9 @@
             "kalev"
         ],
         "rust-cairo-sys-rs0.18": [
+            "decathorpe"
+        ],
+        "rust-cairo-sys-rs0.19": [
             "decathorpe"
         ],
         "rust-calamine": [
@@ -112056,6 +112083,9 @@
         "rust-freetype-rs0.32": [
             "decathorpe"
         ],
+        "rust-freetype-rs0.35": [
+            "decathorpe"
+        ],
         "rust-freetype-sys": [
             "returntrip"
         ],
@@ -112066,6 +112096,9 @@
             "orphan"
         ],
         "rust-freetype-sys0.17": [
+            "decathorpe"
+        ],
+        "rust-freetype-sys0.20": [
             "decathorpe"
         ],
         "rust-fs-err": [
@@ -112242,6 +112275,9 @@
         "rust-gdk-pixbuf-sys0.18": [
             "decathorpe"
         ],
+        "rust-gdk-pixbuf-sys0.19": [
+            "decathorpe"
+        ],
         "rust-gdk-pixbuf0.15": [
             "decathorpe"
         ],
@@ -112252,6 +112288,9 @@
             "kalev"
         ],
         "rust-gdk-pixbuf0.18": [
+            "decathorpe"
+        ],
+        "rust-gdk-pixbuf0.19": [
             "decathorpe"
         ],
         "rust-gdk-sys": [
@@ -112293,6 +112332,9 @@
         "rust-gdk4-sys0.7": [
             "decathorpe"
         ],
+        "rust-gdk4-sys0.8": [
+            "decathorpe"
+        ],
         "rust-gdk4-wayland": [
             "kalev"
         ],
@@ -112305,10 +112347,16 @@
         "rust-gdk4-wayland-sys0.7": [
             "decathorpe"
         ],
+        "rust-gdk4-wayland-sys0.8": [
+            "decathorpe"
+        ],
         "rust-gdk4-wayland0.6": [
             "kalev"
         ],
         "rust-gdk4-wayland0.7": [
+            "decathorpe"
+        ],
+        "rust-gdk4-wayland0.8": [
             "decathorpe"
         ],
         "rust-gdk4-x11": [
@@ -112323,10 +112371,16 @@
         "rust-gdk4-x11-sys0.7": [
             "decathorpe"
         ],
+        "rust-gdk4-x11-sys0.8": [
+            "decathorpe"
+        ],
         "rust-gdk4-x11_0.6": [
             "kalev"
         ],
         "rust-gdk4-x11_0.7": [
+            "decathorpe"
+        ],
+        "rust-gdk4-x11_0.8": [
             "decathorpe"
         ],
         "rust-gdk4_0.4": [
@@ -112339,6 +112393,9 @@
             "kalev"
         ],
         "rust-gdk4_0.7": [
+            "decathorpe"
+        ],
+        "rust-gdk4_0.8": [
             "decathorpe"
         ],
         "rust-generic-array": [
@@ -112433,6 +112490,9 @@
         "rust-gio-sys0.18": [
             "decathorpe"
         ],
+        "rust-gio-sys0.19": [
+            "decathorpe"
+        ],
         "rust-gio0.15": [
             "decathorpe"
         ],
@@ -112443,6 +112503,9 @@
             "kalev"
         ],
         "rust-gio0.18": [
+            "decathorpe"
+        ],
+        "rust-gio0.19": [
             "decathorpe"
         ],
         "rust-gir-format-check": [
@@ -112677,6 +112740,9 @@
         "rust-glib-macros0.18": [
             "decathorpe"
         ],
+        "rust-glib-macros0.19": [
+            "decathorpe"
+        ],
         "rust-glib-sys": [
             "decathorpe"
         ],
@@ -112692,6 +112758,9 @@
         "rust-glib-sys0.18": [
             "decathorpe"
         ],
+        "rust-glib-sys0.19": [
+            "decathorpe"
+        ],
         "rust-glib0.15": [
             "decathorpe"
         ],
@@ -112702,6 +112771,9 @@
             "kalev"
         ],
         "rust-glib0.18": [
+            "decathorpe"
+        ],
+        "rust-glib0.19": [
             "decathorpe"
         ],
         "rust-glob": [
@@ -112752,6 +112824,9 @@
         "rust-gobject-sys0.18": [
             "decathorpe"
         ],
+        "rust-gobject-sys0.19": [
+            "decathorpe"
+        ],
         "rust-goblin": [
             "decathorpe"
         ],
@@ -112795,6 +112870,9 @@
         "rust-graphene-rs0.18": [
             "decathorpe"
         ],
+        "rust-graphene-rs0.19": [
+            "decathorpe"
+        ],
         "rust-graphene-sys": [
             "decathorpe"
         ],
@@ -112808,6 +112886,9 @@
             "kalev"
         ],
         "rust-graphene-sys0.18": [
+            "decathorpe"
+        ],
+        "rust-graphene-sys0.19": [
             "decathorpe"
         ],
         "rust-greetd_ipc": [
@@ -112858,6 +112939,9 @@
         "rust-gsk4-sys0.7": [
             "decathorpe"
         ],
+        "rust-gsk4-sys0.8": [
+            "decathorpe"
+        ],
         "rust-gsk4_0.4": [
             "orphan"
         ],
@@ -112868,6 +112952,9 @@
             "kalev"
         ],
         "rust-gsk4_0.7": [
+            "decathorpe"
+        ],
+        "rust-gsk4_0.8": [
             "decathorpe"
         ],
         "rust-gspell": [
@@ -112897,6 +112984,12 @@
         "rust-gstreamer-allocators-sys": [
             "decathorpe"
         ],
+        "rust-gstreamer-allocators-sys0.22": [
+            "decathorpe"
+        ],
+        "rust-gstreamer-allocators0.22": [
+            "decathorpe"
+        ],
         "rust-gstreamer-audio": [
             "atim"
         ],
@@ -112906,7 +112999,13 @@
         "rust-gstreamer-audio-sys0.21": [
             "decathorpe"
         ],
+        "rust-gstreamer-audio-sys0.22": [
+            "decathorpe"
+        ],
         "rust-gstreamer-audio0.21": [
+            "decathorpe"
+        ],
+        "rust-gstreamer-audio0.22": [
             "decathorpe"
         ],
         "rust-gstreamer-base": [
@@ -112918,7 +113017,13 @@
         "rust-gstreamer-base-sys0.21": [
             "decathorpe"
         ],
+        "rust-gstreamer-base-sys0.22": [
+            "decathorpe"
+        ],
         "rust-gstreamer-base0.21": [
+            "decathorpe"
+        ],
+        "rust-gstreamer-base0.22": [
             "decathorpe"
         ],
         "rust-gstreamer-editing-services": [
@@ -112930,7 +113035,13 @@
         "rust-gstreamer-editing-services-sys0.21": [
             "decathorpe"
         ],
+        "rust-gstreamer-editing-services-sys0.22": [
+            "decathorpe"
+        ],
         "rust-gstreamer-editing-services0.21": [
+            "decathorpe"
+        ],
+        "rust-gstreamer-editing-services0.22": [
             "decathorpe"
         ],
         "rust-gstreamer-gl": [
@@ -112945,13 +113056,22 @@
         "rust-gstreamer-gl-egl-sys0.21": [
             "decathorpe"
         ],
+        "rust-gstreamer-gl-egl-sys0.22": [
+            "decathorpe"
+        ],
         "rust-gstreamer-gl-egl0.21": [
+            "decathorpe"
+        ],
+        "rust-gstreamer-gl-egl0.22": [
             "decathorpe"
         ],
         "rust-gstreamer-gl-sys": [
             "kalev"
         ],
         "rust-gstreamer-gl-sys0.21": [
+            "decathorpe"
+        ],
+        "rust-gstreamer-gl-sys0.22": [
             "decathorpe"
         ],
         "rust-gstreamer-gl-wayland": [
@@ -112963,7 +113083,13 @@
         "rust-gstreamer-gl-wayland-sys0.21": [
             "decathorpe"
         ],
+        "rust-gstreamer-gl-wayland-sys0.22": [
+            "decathorpe"
+        ],
         "rust-gstreamer-gl-wayland0.21": [
+            "decathorpe"
+        ],
+        "rust-gstreamer-gl-wayland0.22": [
             "decathorpe"
         ],
         "rust-gstreamer-gl-x11": [
@@ -112975,10 +113101,19 @@
         "rust-gstreamer-gl-x11-sys0.21": [
             "decathorpe"
         ],
+        "rust-gstreamer-gl-x11-sys0.22": [
+            "decathorpe"
+        ],
         "rust-gstreamer-gl-x11_0.21": [
             "decathorpe"
         ],
+        "rust-gstreamer-gl-x11_0.22": [
+            "decathorpe"
+        ],
         "rust-gstreamer-gl0.21": [
+            "decathorpe"
+        ],
+        "rust-gstreamer-gl0.22": [
             "decathorpe"
         ],
         "rust-gstreamer-pbutils": [
@@ -112990,7 +113125,13 @@
         "rust-gstreamer-pbutils-sys0.21": [
             "decathorpe"
         ],
+        "rust-gstreamer-pbutils-sys0.22": [
+            "decathorpe"
+        ],
         "rust-gstreamer-pbutils0.21": [
+            "decathorpe"
+        ],
+        "rust-gstreamer-pbutils0.22": [
             "decathorpe"
         ],
         "rust-gstreamer-player": [
@@ -113002,13 +113143,22 @@
         "rust-gstreamer-player-sys0.21": [
             "decathorpe"
         ],
+        "rust-gstreamer-player-sys0.22": [
+            "decathorpe"
+        ],
         "rust-gstreamer-player0.21": [
+            "decathorpe"
+        ],
+        "rust-gstreamer-player0.22": [
             "decathorpe"
         ],
         "rust-gstreamer-sys": [
             "atim"
         ],
         "rust-gstreamer-sys0.21": [
+            "decathorpe"
+        ],
+        "rust-gstreamer-sys0.22": [
             "decathorpe"
         ],
         "rust-gstreamer-video": [
@@ -113020,10 +113170,19 @@
         "rust-gstreamer-video-sys0.21": [
             "decathorpe"
         ],
+        "rust-gstreamer-video-sys0.22": [
+            "decathorpe"
+        ],
         "rust-gstreamer-video0.21": [
             "decathorpe"
         ],
+        "rust-gstreamer-video0.22": [
+            "decathorpe"
+        ],
         "rust-gstreamer0.21": [
+            "decathorpe"
+        ],
+        "rust-gstreamer0.22": [
             "decathorpe"
         ],
         "rust-gtk": [
@@ -113089,6 +113248,9 @@
         "rust-gtk4-macros0.7": [
             "decathorpe"
         ],
+        "rust-gtk4-macros0.8": [
+            "decathorpe"
+        ],
         "rust-gtk4-sys": [
             "decathorpe"
         ],
@@ -113104,6 +113266,9 @@
         "rust-gtk4-sys0.7": [
             "decathorpe"
         ],
+        "rust-gtk4-sys0.8": [
+            "decathorpe"
+        ],
         "rust-gtk4_0.4": [
             "orphan"
         ],
@@ -113114,6 +113279,9 @@
             "kalev"
         ],
         "rust-gtk4_0.7": [
+            "decathorpe"
+        ],
+        "rust-gtk4_0.8": [
             "decathorpe"
         ],
         "rust-gvdb": [
@@ -114034,6 +114202,9 @@
         "rust-libadwaita-sys0.5": [
             "decathorpe"
         ],
+        "rust-libadwaita-sys0.6": [
+            "decathorpe"
+        ],
         "rust-libadwaita0.1": [
             "orphan"
         ],
@@ -114047,6 +114218,9 @@
             "orphan"
         ],
         "rust-libadwaita0.5": [
+            "decathorpe"
+        ],
+        "rust-libadwaita0.6": [
             "decathorpe"
         ],
         "rust-libblkid-rs": [
@@ -115546,6 +115720,9 @@
         "rust-pango-sys0.18": [
             "decathorpe"
         ],
+        "rust-pango-sys0.19": [
+            "decathorpe"
+        ],
         "rust-pango0.15": [
             "decathorpe"
         ],
@@ -115556,6 +115733,9 @@
             "kalev"
         ],
         "rust-pango0.18": [
+            "decathorpe"
+        ],
+        "rust-pango0.19": [
             "decathorpe"
         ],
         "rust-pangocairo": [
@@ -115576,6 +115756,9 @@
         "rust-pangocairo-sys0.18": [
             "decathorpe"
         ],
+        "rust-pangocairo-sys0.19": [
+            "decathorpe"
+        ],
         "rust-pangocairo0.15": [
             "orphan"
         ],
@@ -115586,6 +115769,9 @@
             "kalev"
         ],
         "rust-pangocairo0.18": [
+            "decathorpe"
+        ],
+        "rust-pangocairo0.19": [
             "decathorpe"
         ],
         "rust-papergrid": [
@@ -116611,6 +116797,9 @@
             "decathorpe"
         ],
         "rust-quick-xml0.31": [
+            "decathorpe"
+        ],
+        "rust-quick-xml0.34": [
             "decathorpe"
         ],
         "rust-quickcheck": [
@@ -118537,6 +118726,9 @@
         "rust-system-deps1": [
             "orphan"
         ],
+        "rust-system-deps6": [
+            "decathorpe"
+        ],
         "rust-system-interface": [
             "orphan"
         ],
@@ -119908,6 +120100,9 @@
             "pbrobinson"
         ],
         "rust-version-compare": [
+            "decathorpe"
+        ],
+        "rust-version-compare0.1": [
             "decathorpe"
         ],
         "rust-version-sync": [
@@ -128277,7 +128472,7 @@
             "remi"
         ],
         "uwsgi": [
-            "orphan"
+            "ertzing"
         ],
         "uxlaunch": [
             "orphan"
