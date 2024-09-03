@@ -9611,6 +9611,10 @@
         "btrfs-assistant": [
             "principis"
         ],
+        "btrfs-efi": [
+            "ngompa",
+            "dcavalca"
+        ],
         "btrfs-fuse": [
             "dcavalca",
             "salimma"
@@ -10869,6 +10873,9 @@
         ],
         "chromium-native_client": [
             "orphan"
+        ],
+        "chromiumos-platform": [
+            "dcavalca"
         ],
         "chronojump": [
             "orphan"
@@ -12980,6 +12987,9 @@
             "lsm5",
             "jnovy",
             "gscrivano"
+        ],
+        "crust-firmware": [
+            "pbrobinson"
         ],
         "cryfs": [
             "thunderbirdtr"
@@ -15138,26 +15148,32 @@
             "ovasik",
             "kdudka",
             "kasal",
-            "osloup"
+            "osloup",
+            "anezbeda"
         ],
         "docbook-simple": [
-            "ovasik"
+            "ovasik",
+            "anezbeda"
         ],
         "docbook-slides": [
-            "ovasik"
+            "ovasik",
+            "anezbeda"
         ],
         "docbook-style-dsssl": [
             "ovasik",
-            "osloup"
+            "osloup",
+            "anezbeda"
         ],
         "docbook-style-xsl": [
             "ovasik",
             "kdudka",
-            "osloup"
+            "osloup",
+            "anezbeda"
         ],
         "docbook-utils": [
             "ovasik",
-            "osloup"
+            "osloup",
+            "anezbeda"
         ],
         "docbook2X": [
             "slankes"
@@ -15169,7 +15185,8 @@
         ],
         "docbook5-style-xsl": [
             "ovasik",
-            "osloup"
+            "osloup",
+            "anezbeda"
         ],
         "docco": [
             "orphan"
@@ -23146,7 +23163,19 @@
         "ghc-cookie": [
             "petersen"
         ],
+        "ghc-copilot-c99": [
+            "fdedden"
+        ],
         "ghc-copilot-core": [
+            "fdedden"
+        ],
+        "ghc-copilot-interpreter": [
+            "fdedden"
+        ],
+        "ghc-copilot-prettyprinter": [
+            "fdedden"
+        ],
+        "ghc-copilot-theorem": [
             "fdedden"
         ],
         "ghc-cpio-conduit": [
@@ -51166,7 +51195,7 @@
         ],
         "linuxdoc-tools": [
             "jrische",
-            "osloup",
+            "anezbeda",
             "ovasik"
         ],
         "linuxptp": [
@@ -66192,7 +66221,8 @@
         ],
         "openjade": [
             "ovasik",
-            "osloup"
+            "osloup",
+            "anezbeda"
         ],
         "openjdk-asmtools": [
             "jhuttana",
@@ -66517,7 +66547,8 @@
         ],
         "opensp": [
             "ovasik",
-            "osloup"
+            "osloup",
+            "anezbeda"
         ],
         "openspecfun": [
             "nalimilan"
@@ -70350,7 +70381,8 @@
             "steve"
         ],
         "perl-Crypt-DH": [
-            "pghmcfc"
+            "pghmcfc",
+            "jplesnik"
         ],
         "perl-Crypt-DH-GMP": [
             "jplesnik",
@@ -72462,6 +72494,9 @@
         "perl-File-Which": [
             "spot"
         ],
+        "perl-File-XDG": [
+            "mavit"
+        ],
         "perl-File-Zglob": [
             "jplesnik",
             "ppisar"
@@ -73273,7 +73308,8 @@
         "perl-HTTP-Headers-Fast": [
             "ppisar",
             "jplesnik",
-            "orion"
+            "orion",
+            "xavierb"
         ],
         "perl-HTTP-Link-Parser": [
             "ppisar"
@@ -80420,7 +80456,8 @@
             "jplesnik"
         ],
         "perl-XML-DOM": [
-            "orion"
+            "orion",
+            "jplesnik"
         ],
         "perl-XML-DOM-XPath": [
             "jplesnik",
@@ -96201,6 +96238,9 @@
         "python-optcomplete": [
             "orphan"
         ],
+        "python-optking": [
+            "jussilehtola"
+        ],
         "python-optuna": [
             "limb"
         ],
@@ -97137,7 +97177,8 @@
             "raphgro"
         ],
         "python-pwntools": [
-            "ppfeister"
+            "ppfeister",
+            "mikep"
         ],
         "python-py": [
             "thm",
@@ -111537,6 +111578,9 @@
         "rust-derive_more": [
             "decathorpe"
         ],
+        "rust-derive_more0.99": [
+            "decathorpe"
+        ],
         "rust-des": [
             "decathorpe"
         ],
@@ -122229,7 +122273,8 @@
         ],
         "sgml-common": [
             "ovasik",
-            "osloup"
+            "osloup",
+            "anezbeda"
         ],
         "sgpio": [
             "limb"
@@ -132171,12 +132216,13 @@
         ],
         "xmlto": [
             "ovasik",
-            "osloup"
+            "osloup",
+            "anezbeda"
         ],
         "xmltoman": [
             "lkundrak",
-            "osloup",
-            "ovasik"
+            "ovasik",
+            "anezbeda"
         ],
         "xmltool": [
             "orphan"
