@@ -12690,7 +12690,7 @@
             "bradbell"
         ],
         "cppcheck": [
-            "jussilehtola",
+            "limb",
             "c72578",
             "sgrubb",
             "tdawson"
@@ -12924,7 +12924,8 @@
             "tmraz"
         ],
         "cros-guest-tools": [
-            "orphan"
+            "sergiomb",
+            "kwizart"
         ],
         "cross-binutils": [
             "dhowells",
@@ -39933,11 +39934,10 @@
             "slankes"
         ],
         "ipmctl": [
-            "spontsle",
             "aekoroglu"
         ],
         "ipmctl-compat-02.00.00.3885": [
-            "spontsle"
+            "aekoroglu"
         ],
         "ipmitool": [
             "kevin",
@@ -40866,7 +40866,6 @@
             "orphan"
         ],
         "java-diff-utils": [
-            "orphan",
             "jvanek"
         ],
         "java-dirq": [
@@ -56433,6 +56432,7 @@
         ],
         "mlir": [
             "sergesanspaille",
+            "tbaeder",
             "tuliom",
             "kkleine",
             "tstellar",
@@ -68042,7 +68042,7 @@
             "orphan"
         ],
         "pcc": [
-            "jussilehtola"
+            "orphan"
         ],
         "pcem": [
             "dcavalca"
@@ -97332,6 +97332,9 @@
         "python-pulp": [
             "major"
         ],
+        "python-pulp-glue": [
+            "x-9c4"
+        ],
         "python-pulsectl": [
             "pfrields"
         ],
@@ -111067,6 +111070,9 @@
         "rust-compiletest_rs": [
             "orphan"
         ],
+        "rust-compose_spec_macros": [
+            "decathorpe"
+        ],
         "rust-compress-tools": [
             "ueno"
         ],
@@ -113454,6 +113460,9 @@
         "rust-goblin0.7": [
             "decathorpe"
         ],
+        "rust-google-cloud-auth": [
+            "ankursinha"
+        ],
         "rust-google-cloud-metadata": [
             "ankursinha"
         ],
@@ -115039,6 +115048,12 @@
         "rust-librsvg": [
             "dcavalca",
             "kalev"
+        ],
+        "rust-librsvg-rebind": [
+            "decathorpe"
+        ],
+        "rust-librsvg-rebind-sys": [
+            "decathorpe"
         ],
         "rust-librsvg2.56": [
             "orphan"
@@ -117704,6 +117719,9 @@
         "rust-rc2": [
             "dcavalca"
         ],
+        "rust-rcgen": [
+            "decathorpe"
+        ],
         "rust-rctree": [
             "kalev"
         ],
@@ -117932,6 +117950,9 @@
         ],
         "rust-rmpv": [
             "decathorpe"
+        ],
+        "rust-rocket_codegen": [
+            "wojnilowicz"
         ],
         "rust-rocket_http": [
             "wojnilowicz"
@@ -133734,7 +133755,8 @@
             "mtasaka"
         ],
         "yasm": [
-            "rathann"
+            "rathann",
+            "xavierb"
         ],
         "yast2-devtools": [
             "besser82"
@@ -134873,7 +134895,8 @@
         ],
         "libcpuid": [
             "fhrdina",
-            "pzacik"
+            "pzacik",
+            "rhack"
         ],
         "libcupsfilters": [
             "pdancak",
