@@ -8228,6 +8228,10 @@
         "azure-nvme-utils": [
             "cjp256"
         ],
+        "azure-vm-utils": [
+            "cjp256",
+            "jcline"
+        ],
         "azureus": [
             "orphan"
         ],
@@ -15305,11 +15309,11 @@
             "churchyard"
         ],
         "dogtag-pki": [
-            "mharmsen",
+            "edewata",
             "abbra",
             "vakwetu",
-            "mfargett",
-            "edewata"
+            "mharmsen",
+            "mfargett"
         ],
         "dogtag-pki-ca-ui": [
             "orphan"
@@ -15427,6 +15431,9 @@
             "omajid"
         ],
         "dotnet8.0": [
+            "omajid"
+        ],
+        "dotnet9.0": [
             "omajid"
         ],
         "double-conversion": [
@@ -45848,9 +45855,9 @@
             "fab"
         ],
         "ldapjdk": [
+            "edewata",
             "mharmsen",
             "ckelley",
-            "edewata",
             "mfargett"
         ],
         "ldaptive": [
@@ -53439,6 +53446,12 @@
         "maui-mauikit": [
             "thunderbirdtr"
         ],
+        "maui-mauikit-accounts": [
+            "farchord"
+        ],
+        "maui-mauikit-terminal": [
+            "farchord"
+        ],
         "maui-mauiman": [
             "fed500"
         ],
@@ -56736,8 +56749,8 @@
             "tpokorra"
         ],
         "mod_nss": [
-            "mharmsen",
-            "rcritten"
+            "rcritten",
+            "mharmsen"
         ],
         "mod_perl": [
             "kni",
@@ -78077,8 +78090,7 @@
             "xavierb"
         ],
         "perl-Sort-Versions": [
-            "corsepiu",
-            "laxathom"
+            "corsepiu"
         ],
         "perl-Specio": [
             "pghmcfc",
@@ -85635,10 +85647,10 @@
             "orphan"
         ],
         "pki-core": [
+            "edewata",
             "mharmsen",
             "abbra",
-            "vakwetu",
-            "edewata"
+            "vakwetu"
         ],
         "pki-java-tools": [
             "orphan"
@@ -89645,6 +89657,9 @@
         "python-backports-ssl_match_hostname": [
             "orphan"
         ],
+        "python-backports-tarfile": [
+            "lecris"
+        ],
         "python-backports-unittest_mock": [
             "orphan"
         ],
@@ -91201,7 +91216,8 @@
             "ttomecek"
         ],
         "python-deprecation": [
-            "jpena"
+            "jpena",
+            "music"
         ],
         "python-descartes": [
             "orphan"
@@ -111022,10 +111038,16 @@
         "rust-color-backtrace": [
             "decathorpe"
         ],
+        "rust-color-eyre": [
+            "decathorpe"
+        ],
         "rust-color-print": [
             "decathorpe"
         ],
         "rust-color-print-proc-macro": [
+            "decathorpe"
+        ],
+        "rust-color-spantrace": [
             "decathorpe"
         ],
         "rust-color_quant": [
@@ -112805,6 +112827,9 @@
         ],
         "rust-futures-lite1": [
             "decathorpe"
+        ],
+        "rust-futures-locks": [
+            "minlei2"
         ],
         "rust-futures-macro": [
             "decathorpe"
@@ -133428,6 +133453,7 @@
         ],
         "xsd": [
             "sergiomb",
+            "tdawson",
             "sagitter"
         ],
         "xsecurelock": [
@@ -134669,6 +134695,9 @@
         ],
         "dosfstools": [
             "omejzlik"
+        ],
+        "dwz": [
+            "vkadlcik"
         ],
         "dyninst-gating": [
             "mcermak"
