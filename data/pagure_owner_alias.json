@@ -6383,6 +6383,9 @@
         "ansible-collection-community-kubernetes": [
             "gotmax23"
         ],
+        "ansible-collection-community-library_inventory_filtering_v1": [
+            "gotmax23"
+        ],
         "ansible-collection-community-libvirt": [
             "pghmcfc",
             "gotmax23"
@@ -8128,6 +8131,10 @@
             "reznik",
             "rombobeorn"
         ],
+        "aws-c-auth": [
+            "wombelix",
+            "davdunc"
+        ],
         "aws-c-cal": [
             "davdunc",
             "wombelix"
@@ -8149,6 +8156,10 @@
             "davdunc"
         ],
         "aws-c-io": [
+            "wombelix",
+            "davdunc"
+        ],
+        "aws-c-mqtt": [
             "wombelix",
             "davdunc"
         ],
@@ -15128,7 +15139,7 @@
             "thozza"
         ],
         "dnsprobe": [
-            "fab"
+            "orphan"
         ],
         "dnssec-check": [
             "orphan"
@@ -53456,6 +53467,9 @@
         ],
         "maturin": [
             "decathorpe"
+        ],
+        "maui-agenda": [
+            "farchord"
         ],
         "maui-mauikit": [
             "thunderbirdtr"
@@ -99190,7 +99204,8 @@
             "mfocko",
             "lachmanfrantisek",
             "ttomecek",
-            "lbarczio"
+            "lbarczio",
+            "mmassari"
         ],
         "python-reretry": [
             "music"
@@ -106265,7 +106280,7 @@
             "orphan"
         ],
         "rpi-imager": [
-            "keesdejong"
+            "orphan"
         ],
         "rpkg": [
             "onosek",
@@ -115806,6 +115821,9 @@
         ],
         "rust-multipart": [
             "orphan"
+        ],
+        "rust-munge_macro": [
+            "music"
         ],
         "rust-mustache": [
             "orphan"
@@ -129435,10 +129453,12 @@
         ],
         "vagrant": [
             "vondruch",
+            "jackorp",
             "humaton",
             "pvalena"
         ],
         "vagrant-adbinfo": [
+            "jackorp",
             "pvalena"
         ],
         "vagrant-atomic": [
@@ -129466,6 +129486,7 @@
             "greghellings"
         ],
         "vagrant-registration": [
+            "jackorp",
             "pvalena",
             "humaton"
         ],
