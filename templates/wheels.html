@@ -36,7 +36,7 @@
 {% endblock %}
 {% block title %}Python {{ major }} Wheels Readiness - Python {{ major }} support table for most popular Python packages{% endblock %}
 {% block content %}
-<a href="{{ url_for('index') }}">Take me home</a><br>
+<a href="{{ url_for('index') }}" class="btn btn-primary mb-3"> &lt&lt&lt Home</a>
 <div class="row">
   <div class="col-sm-12 col-md-12">
     <h1>Python {{ major }} Wheels Readiness</h1>
@@ -89,9 +89,9 @@
       <div class="panel-heading">
         <h3 class="panel-title text-center">
           {% if loop.first %}
-          <span class="glyphicon glyphicon-list"></span> Top {{ column|length }}
+          Top {{ column|length }}
           {% else %}
-          <span class="glyphicon glyphicon-list"></span> Top {{ column|length * (loop.index - 1) }} - {{ column|length * loop.index }}
+          Top {{ column|length * (loop.index - 1) }} - {{ column|length * loop.index }}
           {% endif %}
         </h3>
       </div>

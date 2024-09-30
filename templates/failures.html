@@ -1,30 +1,39 @@
 {% extends "base.html" %}
 {% block title %}Python 3.13 failed to build breakdown{% endblock %}
 {% block content %}
-<a href="{{ url_for('index') }}">Take me home</a><br>
-<h2>Packages that fail to build (🔴 + 🟠)</h2>
+<a href="{{ url_for('index') }}" class="btn btn-primary mb-3"> &lt&lt&lt Home</a>
+<h2 class="mb-3">Packages that fail to build (🔴 + 🟠)</h2>
 
-<table>
-    <tr>
-        <th>Package name</th>
-        <th>Build status</th>
-        <th>Build attempts in Copr</th>
-        <th>Bugzilla ticket (all open PYTHON3.13 and F41FTBFS)</th>
-    </tr>
-    {% for package_name, detail in status_failed.items() %}
-    <tr>
-        <td>{{ package_name }}</td>
-        <td>{{ detail["state"] }}</td>
-        <td><a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.13/package/{{ package_name }}/">Copr - {{package_name}}</a></td>
-        <td>
-        {% if detail["bzurls"] %}
-            {% for bzurl in detail["bzurls"] %}
-            <a href={{ bzurl }}>Bugzilla - {{package_name}}</a>
-            <br>
-            {% endfor %}
-        </td>
-        {% endif %}
-    </tr>
-    {% endfor %}
-</table>
+<div class="container mt-4">
+    <table class="table table-striped table-hover table-bordered">
+        <thead class="table-dark">
+            <tr>
+                <th scope="col">Package name</th>
+                <th scope="col">Build status</th>
+                <th scope="col">Build attempts in Copr</th>
+                <th scope="col">Bugzilla ticket (all open PYTHON3.13 and F41FTBFS)</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for package_name, detail in status_failed.items() %}
+            <tr>
+                <td>{{ package_name }}</td>
+                <td>{{ detail["state"] }}</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.13/package/{{ package_name }}/">
+                        Copr - {{ package_name }}
+                    </a>
+                </td>
+                <td>
+                {% if detail["bzurls"] %}
+                    {% for bzurl in detail["bzurls"] %}
+                    <a href="{{ bzurl }}">Bugzilla - {{ package_name }}</a><br>
+                    {% endfor %}
+                {% endif %}
+                </td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+</div>
 {% endblock %}

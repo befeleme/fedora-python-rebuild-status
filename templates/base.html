@@ -34,7 +34,6 @@
     footer{text-align: center;}
     .center-block {max-height: 450px}
     .hidden {display: none}
-    tr:hover {background-color: #daecec;}
     @media (prefers-color-scheme: dark) {
       body {
         color: #ccc;
@@ -69,7 +68,7 @@
   <title>{% block title %}{% endblock %}</title>
 </head>
 <body>
-  <div class="container">
+  <div class="container mt-4">
     {% block content %}{% endblock %}
     <h3 class="mb-3">Thanks</h3>
     <p>This is derivative work from <a href="https://pyreadiness.org">pyreadiness.org</a> and <a href="https://pythonwheels.com/">pythonwheels.com</a>, a site that tracks which Python distributions ship the wheel distribution.</p>
