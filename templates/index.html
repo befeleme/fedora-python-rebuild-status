@@ -1,33 +1,28 @@
-<html>
-    <head>
-        <title>Fedora: Python 3.13 rebuild status page</title>
-    </head>
-    <body>
-        <h1>Fedora: Python 3.13 rebuild status page</h1>
+{% extends "base.html" %}
+{% block title %}Python 3.13 rebuild status page in Fedora{% endblock %}
+{% block content %}
+<h1>Python 3.13 rebuild status page in Fedora</h1>
 
-        <p><i>(updated at 3 AM UTC)</i><br><br>
-        <u>Current build environment</u><br>
-        Fedora 41 (Target: Fedora 41)<br>
-        Python 3.13.0~rc2 (Target: Python 3.13.0)<br>
-        Data source: Koji</p>
+<h2>Current build environment</h2><br>
+Fedora 41 (Target: Fedora 41)<br>
+Python 3.13.0~rc2 (Target: Python 3.13.0)<br>
+Data source: Koji</p>
 
-        <p><u>Statistics</u></p>
+<h2>Statistics</h2>
+<ul>
+    <li>🌏 All packages: <b>{{ number_pkgs_to_rebuild + number_pkgs_success}}</b> (100%)</li>
+    <li>🟢 Packages built successfully with Python 3.13: <b>{{ number_pkgs_success }}</b> ({{ "{:.2f}%".format(number_pkgs_success*100/(number_pkgs_to_rebuild+number_pkgs_success)) }})</li>
+    <li>Packages waiting to be rebuilt: <b>{{ number_pkgs_to_rebuild }}</b>  ({{ "{:.2f}%".format(number_pkgs_to_rebuild*100/(number_pkgs_to_rebuild+number_pkgs_success)) }})
         <ul>
-            <li>🌏 All packages: <b>{{ number_pkgs_to_rebuild + number_pkgs_success}}</b> (100%)</li>
-            <li>🟢 Packages built successfully with Python 3.13: <b>{{ number_pkgs_success }}</b> ({{ "{:.2f}%".format(number_pkgs_success*100/(number_pkgs_to_rebuild+number_pkgs_success)) }})</li>
-            <li>Packages waiting to be rebuilt: <b>{{ number_pkgs_to_rebuild }}</b>  ({{ "{:.2f}%".format(number_pkgs_to_rebuild*100/(number_pkgs_to_rebuild+number_pkgs_success)) }})
-                <ul>
-                    <li>🔴 Packages that failed to build with Python 3.13: <b>{{ number_pkgs_failed }}</b> ({{ "{:.2f}%".format(number_pkgs_failed*100/(number_pkgs_to_rebuild+number_pkgs_success)) }})</li>
-                    <li>⚪ Packages not yet attempted to build (blocked on missing dependencies): <b>{{ number_pkgs_waiting }}</b> ({{ "{:.2f}%".format(number_pkgs_waiting*100/(number_pkgs_to_rebuild+number_pkgs_success)) }})</li>
-                </ul>
-            </li>
+            <li>🔴 Packages that failed to build with Python 3.13: <b>{{ number_pkgs_failed }}</b> ({{ "{:.2f}%".format(number_pkgs_failed*100/(number_pkgs_to_rebuild+number_pkgs_success)) }})</li>
+            <li>⚪ Packages not yet attempted to build (blocked on missing dependencies): <b>{{ number_pkgs_waiting }}</b> ({{ "{:.2f}%".format(number_pkgs_waiting*100/(number_pkgs_to_rebuild+number_pkgs_success)) }})</li>
         </ul>
+    </li>
+</ul>
 
-        <h2>Status breakdown</h2>
-        <a href="{{ url_for('packages') }}">Todo packages sorted by package names</a><br>
-        <a href="{{ url_for('maintainers') }}">Todo packages sorted by maintainers</a><br>
-        <a href="{{ url_for('failures') }}">Build failures</a><br>
+<h2>Status breakdown</h2>
+<a href="{{ url_for('packages') }}">TODO packages sorted by package names</a><br>
+<a href="{{ url_for('maintainers') }}">TODO packages sorted by maintainers</a><br>
+<a href="{{ url_for('failures') }}">Build failures</a><br>
 
-        <p><i><a href="https://github.com/befeleme/fedora-python-rebuild-status">Source code</a></i><br><br>
-    </body>
-</html>
+{% endblock %}

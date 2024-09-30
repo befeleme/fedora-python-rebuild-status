@@ -1,3 +1,4 @@
+import datetime
 import sys
 
 from flask import Flask, render_template
@@ -98,6 +99,9 @@ status_by_packages = [(pkg, build_status[pkg], packages_with_maintainers[pkg]) f
 status_by_maintainers = sort_by_maintainers(packages_with_maintainers, build_status)
 
 
+updated = datetime.datetime.now()
+
+
 @app.route('/')
 def index():
     return render_template(
@@ -106,6 +110,7 @@ def index():
         number_pkgs_success=len(SUCCESSFULLY_REBUILT),
         number_pkgs_failed=len(FAILED),
         number_pkgs_waiting=len(WAITING),
+        updated=updated,
     )
 
 @app.route('/packages/')
@@ -113,6 +118,7 @@ def packages():
     return render_template(
         'packages.html',
         status_by_packages=status_by_packages,
+        updated=updated,
     )
 
 @app.route('/maintainers/')
@@ -120,6 +126,7 @@ def maintainers():
     return render_template(
         'maintainers.html',
         status_by_maintainers=status_by_maintainers,
+        updated=updated,
     )
 
 @app.route('/failures/')
@@ -127,4 +134,5 @@ def failures():
         return render_template(
         'failures.html',
         status_failed=create_failed_report(build_status),
+        updated=updated,
     )

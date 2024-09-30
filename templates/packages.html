@@ -1,34 +1,29 @@
-<html>
-    <head>
-        <title>Fedora - Python 3.13 rebuild: sorted by package name</title>
-    </head>
-    <style>
-        tr:hover {background-color: #daecec;}
-    </style>
-    <body>
-        <a href="{{ url_for('index') }}">Take me home</a><br>
-        <h2>All packages sorted by package name</h2>
+{% extends "base.html" %}
+{% block title %}Fedora - Python 3.13 rebuild: sorted by package name{% endblock %}
+{% block content %}
 
-        <p><u>Legend</u><br>
-            🟢 = successful build<br>
-            🟠 = successfully built at least once, last build failed<br>
-            🔴 = failed build<br>
-            ⚪ = waiting to be rebuilt<br>
-        </p>
+<a href="{{ url_for('index') }}">Take me home</a><br>
+<h2>All packages sorted by package name</h2>
 
-        <table>
-            <tr>
-                <th>Package</th>
-                <th>Status</th>
-                <th>Maintainer</th>
-            </tr>
-            {% for package_name, status, maintainers in status_by_packages %}
-            <tr>
-                <td>{{ package_name }}</td>
-                <td>{{ status }}</td>
-                <td>{{ ", ".join(maintainers) }}</td>
-            </tr>
-            {% endfor %}
-        </table>
-</body>
-</html>
+<p><u>Legend</u><br>
+    🟢 = successful build<br>
+    🟠 = successfully built at least once, last build failed<br>
+    🔴 = failed build<br>
+    ⚪ = waiting to be rebuilt<br>
+</p>
+
+<table>
+    <tr>
+        <th>Package</th>
+        <th>Status</th>
+        <th>Maintainer</th>
+    </tr>
+    {% for package_name, status, maintainers in status_by_packages %}
+    <tr>
+        <td>{{ package_name }}</td>
+        <td>{{ status }}</td>
+        <td>{{ ", ".join(maintainers) }}</td>
+    </tr>
+    {% endfor %}
+</table>
+{% endblock %}

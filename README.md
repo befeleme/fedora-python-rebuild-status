@@ -11,4 +11,7 @@ The engine of the page is a nightly GitHub Action run on a Fedora container whic
 - creates static HTML pages with freezeyt ([.github/workflows/ci.yaml](.github/workflows/ci.yaml))
 
 The necessary packages are defined in `requirements.txt`.
-The license is [MIT](LICENSE).
+
+[License breakdown](LICENSES.txt):
+- This repo is licensed under MIT.
+- `templates/base.html` comes from [pyreadiness.org](https://github.com/di/pyreadiness/) and is licensed under Apache-2.0.
