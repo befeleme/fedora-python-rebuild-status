@@ -9,11 +9,11 @@
 
     if (button.dataset.state === "Show") {
       document.querySelectorAll(".btn-success").forEach((el) => {
-        el.classList.remove("hidden");
+        el.classList.remove("d-none");
       });
     } else {
       document.querySelectorAll(".btn-success").forEach((el) => {
-        el.classList.add("hidden");
+        el.classList.add("d-none");
       });
     }
 
@@ -21,7 +21,7 @@
     button.textContent = nextState + ' Python {{ major }} wheels ready ';
 
     document.querySelectorAll(".list").forEach((list) => {
-      let items = list.querySelectorAll(":not(.hidden)");
+      let items = list.querySelectorAll(":not(.d-none)");
 
       if (items.length) {
         items.forEach((el) => {
