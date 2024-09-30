@@ -4,6 +4,7 @@ import sys
 from flask import Flask, render_template
 
 from scripts.loaders import load_data, load_json, load_monitor_report, KOJI
+from wheels import generate_wheel_readiness_data
 
 app = Flask("python_rebuild_status")
 
@@ -15,7 +16,7 @@ REPORT_STATES = {
     "failed": "🔴",
 }
 
-
+MAJOR_VERSION = "3.13"
 ALL_TO_BUILD = sorted(load_data("data/python312.pkgs"))
 # python3.12 won't ever require 'python(abi) = 3.13'
 ALL_TO_BUILD.remove("python3.12")
@@ -97,7 +98,7 @@ build_status = assign_build_status()
 packages_with_maintainers = find_maintainers()
 status_by_packages = [(pkg, build_status[pkg], packages_with_maintainers[pkg]) for pkg in ALL_TO_BUILD]
 status_by_maintainers = sort_by_maintainers(packages_with_maintainers, build_status)
-
+wheel_readiness, wheels_count = generate_wheel_readiness_data()
 
 updated = datetime.datetime.now()
 
@@ -135,4 +136,14 @@ def failures():
         'failures.html',
         status_failed=create_failed_report(build_status),
         updated=updated,
+    )
+
+@app.route('/wheels/')
+def wheels():
+        return render_template(
+        'wheels.html',
+        results=wheel_readiness,
+        major=MAJOR_VERSION,
+        updated=updated,
+        do_support=wheels_count,
     )

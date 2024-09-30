@@ -1,0 +1,109 @@
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- Taken and heavily adjusted from https://github.com/di/pyreadiness/blob/bdc04c33479af8ff89821dd30b4f17aeead248e4/templates/major.html -->
+
+{% extends "base.html" %}
+{% block head %}
+<script type="text/javascript">
+  function toggle(button) {
+    let nextState = button.dataset.state === "Show" ? "Hide" : "Show";
+
+    if (button.dataset.state === "Show") {
+      document.querySelectorAll(".btn-success").forEach((el) => {
+        el.classList.remove("hidden");
+      });
+    } else {
+      document.querySelectorAll(".btn-success").forEach((el) => {
+        el.classList.add("hidden");
+      });
+    }
+
+    button.dataset.state = nextState;
+    button.textContent = nextState + ' Python {{ major }} wheels ready ';
+
+    document.querySelectorAll(".list").forEach((list) => {
+      let items = list.querySelectorAll(":not(.hidden)");
+
+      if (items.length) {
+        items.forEach((el) => {
+          el.classList.remove("btn-first-child", "btn-last-child");
+        });
+        items[0].classList.add("btn-first-child");
+        items[items.length-1].classList.add("btn-last-child");
+      }
+    });
+  }
+</script>
+{% endblock %}
+{% block title %}Python {{ major }} Wheels Readiness - Python {{ major }} support table for most popular Python packages{% endblock %}
+{% block content %}
+<a href="{{ url_for('index') }}">Take me home</a><br>
+<div class="row">
+  <div class="col-sm-12 col-md-12">
+    <h1>Python {{ major }} Wheels Readiness</h1>
+    <p class="text-center">Python {{ major }} support graph for the {{ results|length }} most popular Python packages!</p>
+    <h2>What is this about?</h2>
+    <p>
+    Python {{ major }} is <a href="https://devguide.python.org/devcycle/#end-of-life-branches">
+            a currently supported version of Python
+    </a>. This site shows Python {{ major }} wheels readiness for the {{ results|length }} most downloaded packages on <a href="https://pypi.org/">PyPI</a>:
+    </p>
+    <ol>
+      {%- set no_support = results|length - do_support -%}
+      {%- set do_support_percent = (do_support / results|length * 100)|round(1) -%}
+      {%- set no_support_percent = (no_support / results|length * 100)|round(1) -%}
+      <li>{{ do_support }} <span class="text-success">green</span> packages ({{ do_support_percent }}%) publish Python {{ major }} compatible wheels;</li>
+      <li>{{ no_support }} <span class="text-muted">white</span> packages ({{ no_support_percent }}%) don't publish Python {{ major }} compatible wheels.</li>
+    </ol>
+    <h2>Package 'x' is white. What can I do?</h2>
+      <p>There can be many reasons a package is not explicitly supporting Python {{ major }}:</p>
+      <ul>
+        <li>
+          <p>If you have a package that doesn't publish the wheels for the newest Python yet, consider releasing them on PyPI. This will make it possible for Python users to start developing with a new Python version from the day of its release.</p>
+        </li>
+        <li>
+          <p>Alternatively, you can consider porting your project to the <a href="https://docs.python.org/3/c-api/stable.html#stable-application-binary-interface">stable ABI</a>.</p>
+        </li>
+        <li>
+          <p>If you are user of the package, send a friendly note to the package maintainer. Or fork it, and send a pull request to help move the project towards Python {{ major }} support to ensure the wheels for the Python {{ major }} will be published soon.</p>
+        </li>
+      </ul>
+    <h2>How do you identify Python {{ major }} wheels presence?</h2>
+    <p>
+      We look at the published files on <a href="https://pypi.org/">PyPI</a>. If the latest release contains pure Python wheels e.g. <code>foo-1.0.0-py3-none-any.whl</code> or the Python {{ major }} wheels, e.g. <code>foo-1.0.0-cp313-cp313-....whl</code>, it will be green on our list.
+    </p>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-sm-4 col-md-4">
+    <a id="show-hide" data-state="Hide" class="btn btn-default btn-first-child btn-last-child" onclick="toggle(this)">
+      Hide Python {{ major }} wheels published
+    </a>
+  </div>
+</div>
+
+<div class="row">
+  {% for column in results|slice(3) %}
+  <div class="col-sm-4 col-md-4">
+    <div class="panel panel-info">
+      <div class="panel-heading">
+        <h3 class="panel-title text-center">
+          {% if loop.first %}
+          <span class="glyphicon glyphicon-list"></span> Top {{ column|length }}
+          {% else %}
+          <span class="glyphicon glyphicon-list"></span> Top {{ column|length * (loop.index - 1) }} - {{ column|length * loop.index }}
+          {% endif %}
+        </h3>
+      </div>
+    </div>
+    <div class="list">
+    {% for name, supports in column %}
+      <a class="btn btn-{{ "success" if supports else "default" }} {{ "btn-first-child" if loop.first }} {{ "btn-last-child" if loop.last}}" href="https://pypi.org/project/{{ name }}" style="display: inline-block;">
+        {{ name }} {{ "✓" if supports else "✗"}}
+      </a>
+    {% endfor %}
+    </div>
+  </div>
+  {% endfor %}
+</div>
+{% endblock %}

@@ -14,4 +14,5 @@ The necessary packages are defined in `requirements.txt`.
 
 [License breakdown](LICENSES.txt):
 - This repo is licensed under MIT.
-- `templates/base.html` comes from [pyreadiness.org](https://github.com/di/pyreadiness/) and is licensed under Apache-2.0.
+- `templates/base.html` and `templates/wheels.html` come from [pyreadiness.org](https://github.com/di/pyreadiness/) and are licensed under Apache-2.0.
+- `wheels.py` derives the data obtaining logic from [pythonwheels.com](https://pythonwheels.com/) and is licensed under BSD-2-Clause.
