@@ -7,6 +7,7 @@ See: [Fedora Python Rebuild Status](https://befeleme.github.io/fedora-python-reb
 The engine of the page is a nightly GitHub Action run on a Fedora container which:
 - pulls all the relevant data from Python rebuild Copr and Fedora Rawhide Koji repositories ([scripts/run.sh](scripts/run.sh), repo configs: [config/copr.repo](config/copr.repo), [config/koji.repo](config/koji.repo))
 - for packages that failed to build, looks for their open bugzilla ticket URLs ([scripts/bugzillas.py](scripts/bugzillas.py))
+- checks out the status of the published wheels for the top 360 packages from PyPI
 - fills in all the calculated bits into Jinja templates with Flask
 - creates static HTML pages with freezeyt ([.github/workflows/ci.yaml](.github/workflows/ci.yaml))
 
