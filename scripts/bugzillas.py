@@ -7,13 +7,13 @@ from loaders import load_data, load_monitor_report, KOJI
 BUGZILLA = 'bugzilla.redhat.com'
 BZ_PAGE_SIZE = 20
 TRACKER = 2244836  # PYTHON3.13
-RAWHIDE = 2260875  # F41FTBFS
+# RAWHIDE = 2260875  # F41FTBFS
 BZAPI = bugzilla.Bugzilla(BUGZILLA)
 
 FAILED = load_data("data/failed.pkgs")
 # we only want to do Copr magic before the mass rebuild
 if not KOJI:
-    HISTORICALLY_SUCCESSFUL = load_data("data/python313.pkgs")
+    HISTORICALLY_SUCCESSFUL = load_data("data/python314.pkgs")
     ALL_IN_COPR = load_monitor_report("data/copr.pkgs")
 
     # Attempt to find bugzillas for packages that
@@ -25,7 +25,7 @@ SORTED_FAILS = sorted(FAILED)
 
 def bugzillas():
     query = BZAPI.build_query(product='Fedora')
-    query['blocks'] = [TRACKER, RAWHIDE]
+    query['blocks'] = [TRACKER]  #, RAWHIDE]
     query['limit'] = BZ_PAGE_SIZE
     query['offset'] = 0
     results = []

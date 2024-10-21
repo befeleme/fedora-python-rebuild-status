@@ -16,11 +16,11 @@ REPORT_STATES = {
     "failed": "🔴",
 }
 
-MAJOR_VERSION = "3.13"
-ALL_TO_BUILD = sorted(load_data("data/python312.pkgs"))
-# python3.12 won't ever require 'python(abi) = 3.13'
-ALL_TO_BUILD.remove("python3.12")
-SUCCESSFULLY_REBUILT = load_data("data/python313.pkgs")
+MAJOR_VERSION = "3.14"
+WHEEL_MAJOR_VERSION = "3.13"
+ALL_TO_BUILD = sorted(load_data("data/python313.pkgs"))
+ALL_TO_BUILD.remove("python3.13")  # it won't ever require 'python(abi) = MAJOR_VERSION'
+SUCCESSFULLY_REBUILT = load_data("data/python314.pkgs")
 FAILED = load_data("data/failed.pkgs")
 WAITING = load_data("data/waiting.pkgs")
 BUGZILLAS = load_json("data/bzurls.json")
@@ -108,10 +108,12 @@ def index():
     return render_template(
         'index.html',
         number_pkgs_to_rebuild=len(ALL_TO_BUILD),
-        number_pkgs_success=len(SUCCESSFULLY_REBUILT),
+        number_pkgs_success=count_pkgs_with_state(build_status, REPORT_STATES["success"]),
+        number_pkgs_flaky=count_pkgs_with_state(build_status, REPORT_STATES["once_succeeded_last_failed"]),
         number_pkgs_failed=len(FAILED),
         number_pkgs_waiting=len(WAITING),
         updated=updated,
+        majorver=MAJOR_VERSION,
     )
 
 @app.route('/packages/')
@@ -120,6 +122,7 @@ def packages():
         'packages.html',
         status_by_packages=status_by_packages,
         updated=updated,
+        majorver=MAJOR_VERSION,
     )
 
 @app.route('/maintainers/')
@@ -128,6 +131,7 @@ def maintainers():
         'maintainers.html',
         status_by_maintainers=status_by_maintainers,
         updated=updated,
+        majorver=MAJOR_VERSION,
     )
 
 @app.route('/failures/')
@@ -136,6 +140,7 @@ def failures():
         'failures.html',
         status_failed=create_failed_report(build_status),
         updated=updated,
+        majorver=MAJOR_VERSION,
     )
 
 @app.route('/wheels/')
@@ -143,7 +148,7 @@ def wheels():
         return render_template(
         'wheels.html',
         results=wheel_readiness,
-        major=MAJOR_VERSION,
+        major=WHEEL_MAJOR_VERSION,
         updated=updated,
         do_support=wheels_count,
     )

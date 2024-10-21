@@ -1,63 +1,61 @@
 {% extends "base.html" %}
-{% block title %}Python 3.13 rebuild status page in Fedora{% endblock %}
+{% block title %}Python {{majorver}} rebuild status page in Fedora{% endblock %}
 {% block content %}
-<h1 class="mb-4">Python 3.13 Rebuild Status Page in Fedora</h1>
+<h1 class="mb-4">Python {{majorver}} Rebuild Status Page in Fedora</h1>
 
 <h2 class="mb-3">Current Build Environment</h2>
 <p>
-    Fedora 41<br>
-    Python 3.13.0 🎉<br>
-    Data source: Koji
+    Fedora 42 (Target: Fedora 43)<br>
+    Python 3.14.0~a1 (Target: Python {{majorver}}.0)<br>
+    Data source: <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/">Copr</a>
 </p>
 
 
 <h2 class="mb-3">Statistics</h2>
 <ul class="list-group mb-4">
     <li class="list-group-item">
-        🌏 All packages: <b>{{ number_pkgs_to_rebuild + number_pkgs_success }}</b> 
+        🌏 All packages: <b>{{ number_pkgs_to_rebuild }}</b>
         <span class="badge bg-primary">100%</span>
     </li>
     <li class="list-group-item">
-        🟢 Packages built successfully with Python 3.13: 
-        <b>{{ number_pkgs_success }}</b> 
+        🟢 Packages built successfully with Python {{majorver}}:
+        <b>{{ number_pkgs_success }}</b>
         <span class="badge bg-success">
-            {{ "{:.2f}%".format(number_pkgs_success * 100 / (number_pkgs_to_rebuild + number_pkgs_success)) }}
+            {{ "{:.2f}%".format(number_pkgs_success * 100 / (number_pkgs_to_rebuild)) }}
         </span>
     </li>
     <li class="list-group-item">
-        Packages waiting to be rebuilt: 
-        <b>{{ number_pkgs_to_rebuild }}</b> 
+        🟠 Packages built successfully with Python {{majorver}} (last build failed though):
+        <b>{{ number_pkgs_flaky }}</b>
         <span class="badge bg-warning">
-            {{ "{:.2f}%".format(number_pkgs_to_rebuild * 100 / (number_pkgs_to_rebuild + number_pkgs_success)) }}
+            {{ "{:.2f}%".format(number_pkgs_flaky * 100 / (number_pkgs_to_rebuild)) }}
         </span>
-        <ul class="list-group mt-2">
-            <li class="list-group-item">
-                🔴 Packages that failed to build with Python 3.13: 
-                <b>{{ number_pkgs_failed }}</b> 
-                <span class="badge bg-danger">
-                    {{ "{:.2f}%".format(number_pkgs_failed * 100 / (number_pkgs_to_rebuild + number_pkgs_success)) }}
-                </span>
-            </li>
-            <li class="list-group-item">
-                ⚪ Packages not yet attempted to build (blocked on missing dependencies): 
-                <b>{{ number_pkgs_waiting }}</b> 
-                <span class="badge bg-secondary">
-                    {{ "{:.2f}%".format(number_pkgs_waiting * 100 / (number_pkgs_to_rebuild + number_pkgs_success)) }}
-                </span>
-            </li>
-        </ul>
+    </li>
+    <li class="list-group-item">
+        🔴 Packages that failed to build with Python {{majorver}}:
+        <b>{{ number_pkgs_failed }}</b>
+        <span class="badge bg-danger">
+            {{ "{:.2f}%".format(number_pkgs_failed * 100 / (number_pkgs_to_rebuild)) }}
+        </span>
+    </li>
+    <li class="list-group-item">
+        ⚪ Packages not yet attempted to build (blocked on missing dependencies):
+        <b>{{ number_pkgs_waiting }}</b>
+        <span class="badge bg-secondary">
+            {{ "{:.2f}%".format(number_pkgs_waiting * 100 / (number_pkgs_to_rebuild)) }}
+        </span>
     </li>
 </ul>
 
 <h2 class="mb-3">Status breakdown</h2>
 <div class="list-group mb-4">
-<a href="{{ url_for('packages') }}" class="d-block mb-2">TODO packages sorted by package names</a>
-<a href="{{ url_for('maintainers') }}" class="d-block mb-2">TODO packages sorted by maintainers</a>
+<a href="{{ url_for('packages') }}" class="d-block mb-2">All packages sorted by package names</a>
+<a href="{{ url_for('maintainers') }}" class="d-block mb-2">All packages sorted by maintainers</a>
 <a href="{{ url_for('failures') }}" class="d-block mb-2">Build failures</a>
 </div>
 
-<h2 class="mb-3">Wheel readiness</h2>
+<h2 class="mb-3">Python 3.13 wheel readiness</h2>
 <div>
-<a href="{{ url_for('wheels')}}" class="d-block mb-2">Top PyPI packages and their wheel status</a>
+<a href="{{ url_for('wheels')}}" class="d-block mb-2">Top PyPI packages and their Python 3.13 wheel status</a>
 </div>
 {% endblock %}
