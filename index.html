@@ -68,69 +68,67 @@
     }
   </style>
   
-  <title>Python 3.13 rebuild status page in Fedora</title>
+  <title>Python 3.14 rebuild status page in Fedora</title>
 </head>
 <body>
   <div class="container mt-4">
     
-<h1 class="mb-4">Python 3.13 Rebuild Status Page in Fedora</h1>
+<h1 class="mb-4">Python 3.14 Rebuild Status Page in Fedora</h1>
 
 <h2 class="mb-3">Current Build Environment</h2>
 <p>
-    Fedora 41<br>
-    Python 3.13.0 🎉<br>
-    Data source: Koji
+    Fedora 42 (Target: Fedora 43)<br>
+    Python 3.14.0~a1 (Target: Python 3.14.0)<br>
+    Data source: <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/">Copr</a>
 </p>
 
 
 <h2 class="mb-3">Statistics</h2>
 <ul class="list-group mb-4">
     <li class="list-group-item">
-        🌏 All packages: <b>4148</b> 
+        🌏 All packages: <b>4144</b>
         <span class="badge bg-primary">100%</span>
     </li>
     <li class="list-group-item">
-        🟢 Packages built successfully with Python 3.13: 
-        <b>4146</b> 
+        🟢 Packages built successfully with Python 3.14:
+        <b>1584</b>
         <span class="badge bg-success">
-            99.95%
+            38.22%
         </span>
     </li>
     <li class="list-group-item">
-        Packages waiting to be rebuilt: 
-        <b>2</b> 
+        🟠 Packages built successfully with Python 3.14 (last build failed though):
+        <b>2</b>
         <span class="badge bg-warning">
             0.05%
         </span>
-        <ul class="list-group mt-2">
-            <li class="list-group-item">
-                🔴 Packages that failed to build with Python 3.13: 
-                <b>2</b> 
-                <span class="badge bg-danger">
-                    0.05%
-                </span>
-            </li>
-            <li class="list-group-item">
-                ⚪ Packages not yet attempted to build (blocked on missing dependencies): 
-                <b>0</b> 
-                <span class="badge bg-secondary">
-                    0.00%
-                </span>
-            </li>
-        </ul>
+    </li>
+    <li class="list-group-item">
+        🔴 Packages that failed to build with Python 3.14:
+        <b>54</b>
+        <span class="badge bg-danger">
+            1.30%
+        </span>
+    </li>
+    <li class="list-group-item">
+        ⚪ Packages not yet attempted to build (blocked on missing dependencies):
+        <b>2504</b>
+        <span class="badge bg-secondary">
+            60.42%
+        </span>
     </li>
 </ul>
 
 <h2 class="mb-3">Status breakdown</h2>
 <div class="list-group mb-4">
-<a href="/packages/" class="d-block mb-2">TODO packages sorted by package names</a>
-<a href="/maintainers/" class="d-block mb-2">TODO packages sorted by maintainers</a>
+<a href="/packages/" class="d-block mb-2">All packages sorted by package names</a>
+<a href="/maintainers/" class="d-block mb-2">All packages sorted by maintainers</a>
 <a href="/failures/" class="d-block mb-2">Build failures</a>
 </div>
 
-<h2 class="mb-3">Wheel readiness</h2>
+<h2 class="mb-3">Python 3.13 wheel readiness</h2>
 <div>
-<a href="/wheels/" class="d-block mb-2">Top PyPI packages and their wheel status</a>
+<a href="/wheels/" class="d-block mb-2">Top PyPI packages and their Python 3.13 wheel status</a>
 </div>
 
     <h3 class="mb-3">Thanks</h3>
@@ -140,7 +138,7 @@
     <hr>
     <footer>
       <p>Maintained by <a href="https://github.com/befeleme">@befeleme</a>, source on <a href="https://github.com/befeleme/fedora-python-rebuild-status">GitHub</a>.</p>
-      <p>Last updated on <span class="date">2024-10-21 03:37:16.163174</span> (updated daily)</p>
+      <p>Last updated on <span class="date">2024-10-21 16:33:42.401029</span> (updated daily)</p>
     </footer>
   </div>
 </body>
