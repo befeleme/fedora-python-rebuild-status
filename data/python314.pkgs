@@ -251,6 +251,7 @@ nordugrid-arc-nagios-plugins
 ntpsec
 nut
 nvmetcli
+nwchem
 nwg-panel
 nwg-wrapper
 oct2spec
@@ -259,6 +260,7 @@ ogr2osm
 omniORB
 omniORBpy
 onionshare
+openmpi
 openscap
 osbs-client
 otf2
@@ -341,6 +343,8 @@ pysysbot
 pytest
 pythia8
 python-AWSIoTPythonSDK
+python-Automat
+python-CommonMark
 python-GeoIP
 python-IPy
 python-ModulemdTranslationHelpers
@@ -393,6 +397,7 @@ python-XStatic-termjs
 python-aaargh
 python-absl-py
 python-accept-types
+python-accessible-pygments
 python-acoustid
 python-adafruit-board-toolkit
 python-adafruit-platformdetect
@@ -448,6 +453,7 @@ python-applicationinsights
 python-apt
 python-apypie
 python-archinfo
+python-argon2-cffi
 python-argon2-cffi-bindings
 python-argopt
 python-argparse-dataclass
@@ -460,6 +466,7 @@ python-asn1crypto
 python-asteval
 python-async-timeout
 python-atomicwrites
+python-attrs
 python-augeas
 python-auth-credential
 python-authres
@@ -484,6 +491,7 @@ python-berkeleydb
 python-betamax
 python-bibtexparser
 python-bids-validator
+python-binaryornot
 python-bitarray
 python-bitcoinlib
 python-bitmath
@@ -518,6 +526,7 @@ python-cfgv
 python-chai
 python-chardet
 python-charset-normalizer
+python-check-manifest
 python-cherrypy
 python-chirpstack-api
 python-chm
@@ -619,6 +628,7 @@ python-cssselect2
 python-cups
 python-curio
 python-cvss
+python-cvxopt
 python-cx-oracle
 python-cxxfilt
 python-cycler
@@ -652,6 +662,7 @@ python-dicttoxml
 python-didl-lite
 python-diff-match-patch
 python-dingz
+python-dirhash
 python-dirq
 python-dirty-equals
 python-distlib
@@ -724,6 +735,7 @@ python-easyco
 python-easydict
 python-easygui
 python-ebranch
+python-ecdsa
 python-edgegrid
 python-edimax
 python-editables
@@ -835,7 +847,9 @@ python-greenlet
 python-grokmirror
 python-grpcio-gcp
 python-h11
+python-h2
 python-hatasmota
+python-hatch-fancy-pypi-readme
 python-hatch-jupyter-builder
 python-hatch-nodejs-version
 python-hatch-vcs
@@ -848,11 +862,13 @@ python-hexdump
 python-hgapi
 python-hgdistver
 python-hid
+python-hid-parser
 python-hikvision
 python-hiredis
 python-hole
 python-homeconnect
 python-homeworks
+python-hpack
 python-hsluv
 python-hstspreload
 python-html2text
@@ -865,7 +881,9 @@ python-hupper
 python-husl
 python-hyperframe
 python-hyperlink
+python-hypothesis
 python-i3ipc
+python-icalendar
 python-icmplib
 python-icoextract
 python-identify
@@ -900,21 +918,26 @@ python-itemadapter
 python-itsdangerous
 python-jack-client
 python-jaraco-classes
+python-jaraco-context
 python-jaraco-envs
 python-jaraco-functools
+python-jaraco-logging
 python-jaraco-path
 python-jaraco-stream
 python-javalang
 python-javaproperties
 python-jcconv
 python-jdcal
+python-jeepney
 python-jellyfish
 python-jinja2
 python-jinja2-cli
+python-jmespath
 python-jsmin
 python-json-logger
 python-json-minify
 python-json2table
+python-json5
 python-jsonformatter
 python-jsonpatch
 python-jsonpath-rw
@@ -940,6 +963,7 @@ python-kismet-rest
 python-kitchen
 python-kiwisolver
 python-korean-lunar-calendar
+python-kubernetes
 python-langdetect
 python-latexcodec
 python-lazr-uri
@@ -987,6 +1011,7 @@ python-masscan
 python-matplotlib-inline
 python-maxminddb
 python-mbstrdecoder
+python-mediafile
 python-memcached
 python-merge3
 python-mergedeep
@@ -1029,6 +1054,7 @@ python-multilib
 python-multipart
 python-multitasking
 python-munkres
+python-mutagen
 python-mygpoclient
 python-myhdl
 python-mypy_extensions
@@ -1038,6 +1064,7 @@ python-mystrom
 python-nagiosplugin
 python-nanoid
 python-natlas-libnmap
+python-natsort
 python-ndeflib
 python-ndjson-testrunner
 python-nessus-file-reader
@@ -1082,6 +1109,7 @@ python-opensensemap-api
 python-osa
 python-oslo-i18n
 python-osrf-pycommon
+python-outcome
 python-outdated
 python-ovh
 python-ovirt-engine-sdk4
@@ -1099,6 +1127,7 @@ python-parse
 python-parse_type
 python-parsedatetime
 python-parsimonious
+python-parver
 python-paste-deploy
 python-pastel
 python-patch-ng
@@ -1154,6 +1183,7 @@ python-podman
 python-polib
 python-policyuniverse
 python-port-for
+python-portend
 python-posix-ipc
 python-pox
 python-poyo
@@ -1161,6 +1191,7 @@ python-ppft
 python-prefixed
 python-pretend
 python-prettyprinter
+python-priority
 python-process-tests
 python-productmd
 python-progress
@@ -1179,6 +1210,7 @@ python-pulsectl
 python-pure-eval
 python-puzpy
 python-py
+python-py-tes
 python-py27hash
 python-py3nvml
 python-pyModbusTCP
@@ -1234,6 +1266,7 @@ python-pyhomematic
 python-pyi2cflash
 python-pyinels
 python-pyjwkest
+python-pykcs11
 python-pykmip
 python-pylero
 python-pylev
@@ -1269,6 +1302,7 @@ python-pyro
 python-pyroute2
 python-pyrpm
 python-pyrpmmd
+python-pyrsistent
 python-pysdl2
 python-pysignals
 python-pysimplesoap
@@ -1323,14 +1357,17 @@ python-pytest-runner
 python-pytest-smartcov
 python-pytest-sourceorder
 python-pytest-spec
+python-pytest-subtests
 python-pytest-sugar
 python-pytest-testmon
 python-pytest-tldr
 python-pytest-tornado
+python-pytest-trio
 python-pytest-vcr
 python-pytest-venv
 python-pytest-watch
 python-pytest-xprocess
+python-pytest7
 python-pytn3270
 python-pyuca
 python-pyudev
@@ -1360,6 +1397,7 @@ python-re-assert
 python-readability
 python-readchar
 python-readlike
+python-recommonmark
 python-reflink
 python-regenmaschine
 python-regex
@@ -1382,7 +1420,9 @@ python-resultsdb_api
 python-resumable-urlretrieve
 python-retry
 python-retrying
+python-rfc3339-validator
 python-rfc3986
+python-rfc3986-validator
 python-rfc3987
 python-rjsmin
 python-rnc2rng
@@ -1401,6 +1441,7 @@ python-samloader
 python-sanction
 python-sane
 python-scales
+python-scantree
 python-schedutils
 python-schema
 python-scour
@@ -1413,6 +1454,7 @@ python-semantic_version
 python-semver
 python-send2trash
 python-sentinels
+python-serpent
 python-serpy
 python-setproctitle
 python-setupmeta
@@ -1545,6 +1587,7 @@ python-telnetlib3
 python-tempdir
 python-tempita
 python-templated-dictionary
+python-tempora
 python-tenacity
 python-term-background
 python-termcolor
@@ -1562,6 +1605,7 @@ python-textwrap3
 python-tftpy
 python-tgscheduler
 python-threadpoolctl
+python-three_merge
 python-tidy
 python-timeout-decorator
 python-tinycss2
@@ -1580,6 +1624,7 @@ python-traitlets
 python-translationstring
 python-translitcodec
 python-tree-format
+python-trio
 python-trololio
 python-trove-classifiers
 python-tvb-data
@@ -1653,6 +1698,7 @@ python-waitress
 python-walkdir
 python-waqiasync
 python-waterfurnace
+python-wcag-contrast-ratio
 python-wcmatch
 python-wcwidth
 python-webcolors
@@ -1744,6 +1790,7 @@ redshift
 renderdoc
 reprotest
 resalloc-openstack
+resultsdb_conventions
 rhythmbox-ampache
 rig
 rmlint
@@ -1822,6 +1869,7 @@ unbound
 unicorn
 urlbuster
 urlwatch
+ustreamer
 util-linux
 vdr-epg-daemon
 vdr-epg2vdr
