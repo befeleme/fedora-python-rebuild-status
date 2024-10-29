@@ -7,7 +7,7 @@ from loaders import load_data, load_monitor_report, KOJI
 BUGZILLA = 'bugzilla.redhat.com'
 BZ_PAGE_SIZE = 20
 TRACKER = 2322407  # PYTHON3.14
-# RAWHIDE = 2300528  # F42FTBFS
+RAWHIDE = 2300528  # F42FTBFS
 BZAPI = bugzilla.Bugzilla(BUGZILLA)
 
 FAILED = load_data("data/failed.pkgs")
@@ -25,7 +25,7 @@ SORTED_FAILS = sorted(FAILED)
 
 def bugzillas():
     query = BZAPI.build_query(product='Fedora')
-    query['blocks'] = [TRACKER]  #, RAWHIDE]
+    query['blocks'] = [TRACKER, RAWHIDE]
     query['limit'] = BZ_PAGE_SIZE
     query['offset'] = 0
     results = []
