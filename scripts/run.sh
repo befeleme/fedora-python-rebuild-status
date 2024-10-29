@@ -29,7 +29,6 @@ rm data/copr_names.pkgs
 # get packages and their respective maintainers
 curl https://src.fedoraproject.org/extras/pagure_owner_alias.json -o data/pagure_owner_alias.json
 
-# no tracker yet - skip
 # get bz urls for failed packages
 python3 scripts/bugzillas.py
 
