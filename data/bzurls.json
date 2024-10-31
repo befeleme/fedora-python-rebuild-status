@@ -9,50 +9,57 @@
   "gdb": [],
   "javapackages-tools": [],
   "libgpiod": [],
-  "libmamba": [],
   "libnvme": [],
   "link-grammar": [],
   "marshalparser": [],
   "mrchem": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2322457"
   ],
-  "nototools": [],
   "nwchem": [],
   "past-time": [],
   "protobuf": [],
-  "pycairo": [],
+  "pycairo": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2322709"
+  ],
   "python-APScheduler": [],
   "python-absl-py": [],
-  "python-aiosmtpd": [],
+  "python-aiosmtpd": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2322718"
+  ],
   "python-apsw": [],
-  "python-astor": [],
+  "python-astor": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2322712"
+  ],
   "python-astroid": [],
   "python-avocado": [],
-  "python-awscrt": [],
+  "python-awscrt": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2322714"
+  ],
   "python-backrefs": [],
-  "python-beartype": [],
+  "python-beartype": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2322721"
+  ],
   "python-bids-validator": [],
   "python-billiard": [],
   "python-blinker": [],
-  "python-boolean.py": [],
+  "python-boolean.py": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2322698"
+  ],
   "python-bottle": [],
-  "python-cffsubr": [],
-  "python-chameleon": [],
+  "python-chameleon": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2322715"
+  ],
   "python-cloudpickle": [],
   "python-colcon-parallel-executor": [],
   "python-colorful": [],
   "python-commoncode": [],
-  "python-compreffor": [],
   "python-cysignals": [],
   "python-dill": [],
-  "python-django-compressor": [],
+  "python-django-compressor": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2322719"
+  ],
   "python-drgn": [],
-  "python-fontMath": [],
-  "python-fontname": [],
-  "python-fontrpmspec": [],
-  "python-geojson": [],
   "python-giacpy": [],
-  "python-html5lib": [],
   "python-humanfriendly": [],
   "python-iniparse": [],
   "python-lark": [],
@@ -65,26 +72,33 @@
   "python-pluginlib": [],
   "python-precis_i18n": [],
   "python-pulp-glue": [],
-  "python-pure-protobuf": [],
+  "python-pure-protobuf": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2322710"
+  ],
   "python-pymdown-extensions": [],
   "python-pymeeus": [],
   "python-pymongo": [],
-  "python-pynacl": [],
+  "python-pynacl": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2322720"
+  ],
   "python-pysignals": [],
-  "python-pyupgrade": [],
+  "python-pyupgrade": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2322713"
+  ],
   "python-readability-lxml": [],
   "python-recordclass": [],
   "python-repoze-sphinx-autointerface": [],
   "python-rpmfluff": [],
-  "python-rstcheck": [],
+  "python-rstcheck": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2322705"
+  ],
   "python-ruamel-yaml": [],
-  "python-simpleeval": [],
-  "python-sphinxcontrib-trio": [],
+  "python-simpleeval": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2322707"
+  ],
   "python-ssh-python": [],
   "python-stdlibs": [],
   "python-sure": [],
-  "python-textparser": [],
-  "python-tinycss2": [],
   "python-toolz": [],
   "python-transaction": [],
   "python-typing-extensions": [],
@@ -96,6 +110,8 @@
   "realtime-tests": [],
   "syncplay": [],
   "thefuck": [],
-  "weechat": [],
+  "weechat": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2322708"
+  ],
   "xapian-bindings": []
 }
