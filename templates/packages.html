@@ -23,7 +23,13 @@
         <tbody>
             {% for package_name, status, maintainers in status_by_packages %}
             <tr>
-                <td>{{ package_name }}</td>
+                <td>
+                    {% if status in ["🟠", "🔴"] %}
+                        <a href="/failures#row-{{ package_name }}">{{ package_name }}</a>
+                    {% else %}
+                        {{ package_name }}
+                    {% endif %}
+                </td>
                 <td>{{ status }}</td>
                 <td>{{ ", ".join(maintainers) }}</td>
             </tr>

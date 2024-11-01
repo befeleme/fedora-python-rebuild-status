@@ -20,10 +20,20 @@
             </tr>
         </thead>
         <tbody>
-            {% for maintainer, package_names_and_statuses in status_by_maintainers %}
+            {% for maintainer, packages_and_statuses in status_by_maintainers %}
             <tr>
                 <td class="align-top">{{ maintainer }}</td>
-                <td>{{ ", ".join(package_names_and_statuses) }}</td>
+                <td>
+                    {% for package in packages_and_statuses %}
+                        {% set package_name = package.split(' ')[0] %}
+                        {% set status = package.split(' ')[1] %}
+                        {{ status }}
+                        {% if status in ["🟠", "🔴"] %}
+                            <a href="/failures#row-{{ package_name }}">{{ package_name }}</a>
+                        {% else %}{{ package_name }}{% endif %}
+                        {% if not loop.last %}, {% endif %}
+                    {% endfor %}
+                </td>
             </tr>
             {% endfor %}
         </tbody>

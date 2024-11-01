@@ -16,7 +16,7 @@
         </thead>
         <tbody>
         {% for package_name, detail in status_failed.items() %}
-            <tr>
+            <tr id="row-{{ package_name }}">
                 <td>{{ package_name }}</td>
                 <td>{{ detail["state"] }}</td>
                 <td>
