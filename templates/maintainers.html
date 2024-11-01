@@ -29,7 +29,7 @@
                         {% set status = package.split(' ')[1] %}
                         {{ status }}
                         {% if status in ["🟠", "🔴"] %}
-                            <a href="/failures#row-{{ package_name }}">{{ package_name }}</a>
+                            <a href="/failures/#row-{{ package_name }}">{{ package_name }}</a>
                         {% else %}{{ package_name }}{% endif %}
                         {% if not loop.last %}, {% endif %}
                     {% endfor %}

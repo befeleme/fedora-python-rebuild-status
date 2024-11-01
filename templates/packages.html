@@ -25,7 +25,7 @@
             <tr>
                 <td>
                     {% if status in ["🟠", "🔴"] %}
-                        <a href="/failures#row-{{ package_name }}">{{ package_name }}</a>
+                        <a href="/failures/#row-{{ package_name }}">{{ package_name }}</a>
                     {% else %}
                         {{ package_name }}
                     {% endif %}
