@@ -1352,6 +1352,9 @@
         "massif-visualizer": [
             "yselkowitz"
         ],
+        "maui-mauikit-index-fm": [
+            "yselkowitz"
+        ],
         "mediaconch": [
             "yselkowitz"
         ],
@@ -5359,6 +5362,7 @@
         ],
         "aardvark-dns": [
             "lsm5",
+            "nsella",
             "dwalsh",
             "baude",
             "tomsweeneyredhat",
@@ -6419,7 +6423,8 @@
             "gotmax23"
         ],
         "ansible-collection-community-crypto": [
-            "gotmax23"
+            "gotmax23",
+            "orion"
         ],
         "ansible-collection-community-docker": [
             "gotmax23"
@@ -7218,6 +7223,9 @@
         ],
         "arm-boot-config": [
             "orphan"
+        ],
+        "arm-compute-library": [
+            "aekoroglu"
         ],
         "arm-gp2x-linux-SDL": [
             "orphan"
@@ -9816,6 +9824,7 @@
         "buildah": [
             "lsm5",
             "dwalsh",
+            "nsella",
             "haircommander",
             "tomsweeneyredhat",
             "rishi",
@@ -12494,6 +12503,7 @@
         ],
         "containers-common": [
             "lsm5",
+            "nsella",
             "dwalsh",
             "jnovy",
             "baude"
@@ -13145,6 +13155,7 @@
         ],
         "crun": [
             "gscrivano",
+            "nsella",
             "haircommander",
             "lsm5"
         ],
@@ -18550,6 +18561,9 @@
             "jeckersb"
         ],
         "erlang-rebar3": [
+            "peter"
+        ],
+        "erlang-rebar3-gpb": [
             "peter"
         ],
         "erlang-rebar3-pc": [
@@ -46743,7 +46757,9 @@
         "libappindicator": [
             "echevemaster",
             "tpokorra",
-            "ngompa"
+            "dcavalca",
+            "ngompa",
+            "salimma"
         ],
         "libappindicator-sharp": [
             "tpopela"
@@ -47279,7 +47295,8 @@
         ],
         "libdbusmenu": [
             "ngompa",
-            "slaanesh"
+            "slaanesh",
+            "salimma"
         ],
         "libdbusmenu-lxqt": [
             "farchord"
@@ -48123,7 +48140,8 @@
             "orphan"
         ],
         "libgta": [
-            "jkucera"
+            "jkucera",
+            "tdawson"
         ],
         "libgtextutils": [
             "verdurin"
@@ -48382,6 +48400,7 @@
         "libindicator": [
             "mtasaka",
             "echevemaster",
+            "salimma",
             "ngompa"
         ],
         "libinfinity": [
@@ -58902,6 +58921,7 @@
         ],
         "netavark": [
             "lsm5",
+            "nsella",
             "jnovy",
             "dwalsh",
             "mheon",
@@ -86552,6 +86572,7 @@
         ],
         "podman": [
             "lsm5",
+            "nsella",
             "santiago",
             "haircommander",
             "mohanboddu",
@@ -90884,6 +90905,9 @@
         "python-colcon-library-path": [
             "cottsay"
         ],
+        "python-colcon-meson": [
+            "cottsay"
+        ],
         "python-colcon-metadata": [
             "cottsay"
         ],
@@ -92337,6 +92361,9 @@
         "python-dunamai": [
             "ankursinha"
         ],
+        "python-durationpy": [
+            "jmontleon"
+        ],
         "python-durus": [
             "orphan"
         ],
@@ -92357,6 +92384,9 @@
         ],
         "python-easyprocess": [
             "swt2c"
+        ],
+        "python-ebooklib": [
+            "fed500"
         ],
         "python-ebranch": [
             "salimma"
@@ -98183,6 +98213,9 @@
         "python-pygrocy": [
             "fab"
         ],
+        "python-pygtkspellcheck": [
+            "fed500"
+        ],
         "python-pyhcl": [
             "ngompa",
             "ignatenkobrain"
@@ -98550,6 +98583,9 @@
         ],
         "python-pyrax": [
             "orphan"
+        ],
+        "python-pyrdfa3": [
+            "fed500"
         ],
         "python-pyrfc3339": [
             "nb",
@@ -105092,6 +105128,9 @@
             "orphan"
         ],
         "qtile": [
+            "frostyx"
+        ],
+        "qtile-extras": [
             "frostyx"
         ],
         "qtilitools": [
@@ -115364,6 +115403,12 @@
         "rust-keyframe_derive": [
             "errornointernet"
         ],
+        "rust-keyvalues-parser": [
+            "jsteffan"
+        ],
+        "rust-keyvalues-serde": [
+            "jsteffan"
+        ],
         "rust-khronos_api": [
             "returntrip"
         ],
@@ -124049,6 +124094,7 @@
         ],
         "skopeo": [
             "lsm5",
+            "nsella",
             "haircommander",
             "baude",
             "santiago",
@@ -134996,9 +135042,8 @@
             "orphan"
         ],
         "zeromq": [
-            "tomspur",
-            "tdawson",
             "stevetraylen",
+            "tdawson",
             "denisarnaud"
         ],
         "zeromq-ada": [
