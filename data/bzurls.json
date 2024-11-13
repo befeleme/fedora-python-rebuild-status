@@ -46,7 +46,9 @@
   "python-astroid": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2323166"
   ],
-  "python-asyncssh": [],
+  "python-asyncssh": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2325445"
+  ],
   "python-authlib": [],
   "python-avocado": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2325218"
@@ -66,9 +68,6 @@
   ],
   "python-blinker": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2325193"
-  ],
-  "python-boolean.py": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2322698"
   ],
   "python-bottle": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2325166"
@@ -90,7 +89,9 @@
   "python-cssutils": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2325223"
   ],
-  "python-cysignals": [],
+  "python-cysignals": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2325457"
+  ],
   "python-dataclassy": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2325200"
   ],
@@ -100,8 +101,12 @@
   "python-django-compressor": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2322719"
   ],
-  "python-django-extensions": [],
-  "python-docstring-parser": [],
+  "python-django-extensions": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2325451"
+  ],
+  "python-docstring-parser": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2325441"
+  ],
   "python-drgn": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2325185"
   ],
@@ -127,7 +132,9 @@
   ],
   "python-libarchive-c": [],
   "python-lz4": [],
-  "python-m3u8": [],
+  "python-m3u8": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2325427"
+  ],
   "python-mccabe": [],
   "python-msal": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2323170"
@@ -155,8 +162,12 @@
   "python-pure-protobuf": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2322710"
   ],
-  "python-pydantic-core": [],
-  "python-pydicom": [],
+  "python-pydantic-core": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2325425"
+  ],
+  "python-pydicom": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2325443"
+  ],
   "python-pymdown-extensions": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2325198"
   ],
@@ -170,8 +181,13 @@
     "https://bugzilla.redhat.com/show_bug.cgi?id=2325203"
   ],
   "python-pyramid": [],
-  "python-pyside6": [],
-  "python-pytest-split": [],
+  "python-pyside6": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2325444"
+  ],
+  "python-pysignals": [],
+  "python-pytest-split": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2325447"
+  ],
   "python-pyupgrade": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2322713"
   ],
@@ -189,6 +205,7 @@
   "python-ruamel-yaml": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2323169"
   ],
+  "python-setuptools": [],
   "python-ssh-python": [],
   "python-stdlibs": [],
   "python-toolz": [
@@ -196,7 +213,9 @@
   ],
   "python-transaction": [],
   "python-typeguard": [],
-  "python-typing-inspect": [],
+  "python-typing-inspect": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2325455"
+  ],
   "python-whitenoise": [],
   "python-whoosh": [],
   "python-yappi": [
@@ -212,15 +231,21 @@
   "realtime-tests": [],
   "rmol": [],
   "salt": [],
-  "satyr": [],
+  "satyr": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2325452"
+  ],
   "syncplay": [],
   "trademgen": [],
   "uv": [],
-  "visidata": [],
+  "visidata": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2325446"
+  ],
   "watchman": [],
   "weechat": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2322708"
   ],
   "xapian-bindings": [],
-  "yt-dlp": []
+  "yt-dlp": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2325426"
+  ]
 }
