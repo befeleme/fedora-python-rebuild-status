@@ -1,4 +1,5 @@
 {
+  "borgbackup": [],
   "brltty": [],
   "buttermanager": [],
   "cmake": [],
@@ -22,6 +23,7 @@
   "nwchem": [],
   "osc": [],
   "past-time": [],
+  "pcs": [],
   "petsc": [],
   "picard": [],
   "protobuf": [],
@@ -35,6 +37,7 @@
     "https://bugzilla.redhat.com/show_bug.cgi?id=2325181"
   ],
   "python-absl-py": [],
+  "python-aiokafka": [],
   "python-aiosmtpd": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2322718"
   ],
@@ -45,6 +48,7 @@
   "python-astroid": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2323166"
   ],
+  "python-async-lru": [],
   "python-asyncssh": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2325445"
   ],
@@ -106,10 +110,15 @@
   "python-drgn": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2325185"
   ],
+  "python-easyprocess": [],
   "python-etcd": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2323184"
   ],
+  "python-flit": [],
   "python-flufl-bounce": [],
+  "python-freeipa": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2319660"
+  ],
   "python-gevent": [],
   "python-giacpy": [],
   "python-gunicorn": [],
@@ -138,9 +147,11 @@
   "python-msgspec": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2325169"
   ],
+  "python-neovim": [],
   "python-nose": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2323163"
   ],
+  "python-oscrypto": [],
   "python-paramiko": [],
   "python-parso": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2325187"
@@ -165,6 +176,7 @@
   "python-pydicom": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2325443"
   ],
+  "python-pyftpdlib": [],
   "python-pymdown-extensions": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2325198"
   ],
@@ -176,6 +188,7 @@
     "https://bugzilla.redhat.com/show_bug.cgi?id=2325444"
   ],
   "python-pysignals": [],
+  "python-pytest-aiohttp": [],
   "python-pytest-split": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2325447"
   ],
@@ -186,6 +199,8 @@
     "https://bugzilla.redhat.com/show_bug.cgi?id=2323185"
   ],
   "python-recordclass": [],
+  "python-redis": [],
+  "python-remoto": [],
   "python-repoze-sphinx-autointerface": [],
   "python-repoze-who": [],
   "python-requests-toolbelt": [],
@@ -196,8 +211,12 @@
   "python-ruamel-yaml": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2323169"
   ],
+  "python-s3transfer": [],
+  "python-social-auth-core": [],
   "python-ssh-python": [],
   "python-stdlibs": [],
+  "python-surt": [],
+  "python-terminado": [],
   "python-toolz": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2323168"
   ],
@@ -206,6 +225,9 @@
   "python-typing-inspect": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2325455"
   ],
+  "python-uvloop": [],
+  "python-valkey": [],
+  "python-webscrapbook": [],
   "python-whitenoise": [],
   "python-whoosh": [],
   "python-yappi": [
@@ -213,11 +235,13 @@
   ],
   "python-yaql": [],
   "python-zc-lockfile": [],
+  "python-zict": [],
   "python-zope-exceptions": [],
   "python-zope-interface": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2325170"
   ],
   "python-zope-testing": [],
+  "python-zstandard": [],
   "realtime-tests": [],
   "rmol": [],
   "salt": [],
