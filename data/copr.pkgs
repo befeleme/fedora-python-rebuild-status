@@ -338,7 +338,6 @@ mailnag	succeeded
 mailprocessing	succeeded
 mapserver	succeeded
 marisa	succeeded
-marshalparser	failed
 mat2	succeeded
 mate-menu	succeeded
 mathgl	succeeded
@@ -438,6 +437,7 @@ pgzero	succeeded
 photocollage	succeeded
 picard	failed
 piccata	succeeded
+pitivi	succeeded
 pl	succeeded
 playitagainsam	succeeded
 pocketsphinx	succeeded
@@ -473,7 +473,7 @@ pybind11	succeeded
 pybluez	succeeded
 pybox2d	succeeded
 pybugz	succeeded
-pycairo	failed
+pycairo	succeeded
 pycanberra	succeeded
 pycmd	succeeded
 pycolumnize	succeeded
@@ -481,6 +481,7 @@ pydeps	succeeded
 pyelftools	succeeded
 pyflakes	succeeded
 pygame	succeeded
+pygobject3	failed
 pygsl	failed
 pyhoca-cli	succeeded
 pyhoca-gui	succeeded
@@ -527,9 +528,11 @@ python-MultipartPostHandler2	succeeded
 python-Naked	succeeded
 python-Pallets-Sphinx-Themes	succeeded
 python-PyAVM	succeeded
+python-PyGithub	succeeded
 python-PyLEMS	succeeded
 python-PyLink	succeeded
 python-PyMunin3	succeeded
+python-PyMySQL	succeeded
 python-PyPDF2	succeeded
 python-PyRSS2Gen	succeeded
 python-QtAwesome	succeeded
@@ -603,6 +606,7 @@ python-aioiotprov	succeeded
 python-aioitertools	succeeded
 python-aiolifx	succeeded
 python-aiomultiprocess	succeeded
+python-aiomysql	succeeded
 python-aioodbc	succeeded
 python-aiopg	succeeded
 python-aiorestapi	succeeded
@@ -670,6 +674,7 @@ python-atpublic	succeeded
 python-attrs	succeeded
 python-augeas	succeeded
 python-auth-credential	succeeded
+python-authheaders	succeeded
 python-authlib	failed
 python-authres	succeeded
 python-autocommand	succeeded
@@ -685,6 +690,7 @@ python-azure-mgmt-core	succeeded
 python-azure-monitor-query	succeeded
 python-azure-sdk-tools	succeeded
 python-b2sdk	succeeded
+python-b4	succeeded
 python-babelfish	succeeded
 python-backcall	succeeded
 python-backlash	succeeded
@@ -716,7 +722,7 @@ python-bitstring	succeeded
 python-bitstruct	succeeded
 python-bleach	succeeded
 python-blessed	succeeded
-python-blinker	failed
+python-blinker	succeeded
 python-blivet	succeeded
 python-blosc	succeeded
 python-blosc2	succeeded
@@ -997,6 +1003,7 @@ python-django-threadedcomments	succeeded
 python-django-timezone-field	succeeded
 python-django-uuslug	succeeded
 python-djangoql	succeeded
+python-dkimpy	succeeded
 python-dmidecode	succeeded
 python-dns	succeeded
 python-dnslib	succeeded
@@ -1347,6 +1354,7 @@ python-kanboard	succeeded
 python-kaptan	succeeded
 python-kazoo	succeeded
 python-kdcproxy	succeeded
+python-keep	succeeded
 python-keepassxc-browser	succeeded
 python-kerberos	succeeded
 python-kgb	succeeded
@@ -1531,6 +1539,7 @@ python-noiseprotocol	succeeded
 python-normality	succeeded
 python-nose	failed
 python-nose-testconfig	succeeded
+python-nose-timer	failed
 python-nose2	succeeded
 python-notify2	succeeded
 python-npyscreen	succeeded
@@ -1544,8 +1553,10 @@ python-numexpr	succeeded
 python-oauth	succeeded
 python-oauth2	succeeded
 python-oauth2client	succeeded
+python-oauthlib	succeeded
 python-odata-query	succeeded
 python-olefile	succeeded
+python-omlmd	succeeded
 python-onigurumacffi	succeeded
 python-onionbalance	succeeded
 python-op1repacker	succeeded
@@ -1592,6 +1603,7 @@ python-pandas	succeeded
 python-pandocfilters	succeeded
 python-parameter-expansion-patched	succeeded
 python-parameterized	succeeded
+python-paramiko	failed
 python-parse	succeeded
 python-parse_type	succeeded
 python-parsedatetime	succeeded
@@ -1604,6 +1616,7 @@ python-paste	succeeded
 python-paste-deploy	succeeded
 python-paste-script	succeeded
 python-pastel	succeeded
+python-patatt	succeeded
 python-patch-ng	succeeded
 python-path	succeeded
 python-path-and-address	succeeded
@@ -1704,6 +1717,7 @@ python-pure-eval	succeeded
 python-pure-protobuf	failed
 python-puzpy	succeeded
 python-py	succeeded
+python-py-algorand-sdk	succeeded
 python-py-tes	succeeded
 python-py27hash	succeeded
 python-py2pack	succeeded
@@ -1799,7 +1813,7 @@ python-pymediawiki	succeeded
 python-pymeeus	failed
 python-pymongo	failed
 python-pymssql	succeeded
-python-pynacl	failed
+python-pynacl	succeeded
 python-pynest2d	succeeded
 python-pynetbox	succeeded
 python-pyngus	succeeded
@@ -1819,7 +1833,7 @@ python-pyphen	succeeded
 python-pypng	succeeded
 python-pypresence	succeeded
 python-pyprocdev	succeeded
-python-pyproject-api	failed
+python-pyproject-api	succeeded
 python-pyproject-hooks	succeeded
 python-pyproject-metadata	succeeded
 python-pypubsub	succeeded
@@ -1880,6 +1894,7 @@ python-pytest-fixture-config	succeeded
 python-pytest-flakes	succeeded
 python-pytest-forked	succeeded
 python-pytest-freezegun	succeeded
+python-pytest-freezer	succeeded
 python-pytest-github-actions-annotate-failures	succeeded
 python-pytest-home	succeeded
 python-pytest-httpserver	succeeded
@@ -2056,7 +2071,7 @@ python-serpent	succeeded
 python-serpy	succeeded
 python-setproctitle	succeeded
 python-setupmeta	succeeded
-python-setuptools	failed
+python-setuptools	succeeded
 python-setuptools-gettext	succeeded
 python-setuptools-git-versioning	succeeded
 python-setuptools-rust	succeeded
@@ -2076,6 +2091,7 @@ python-should_dsl	succeeded
 python-show-in-file-manager	succeeded
 python-shtab	succeeded
 python-sieve	succeeded
+python-signedjson	succeeded
 python-simple-pid	succeeded
 python-simple-rlp	succeeded
 python-simple-websocket	succeeded
@@ -2407,6 +2423,7 @@ python-wsproto	succeeded
 python-wtforms	succeeded
 python-wurlitzer	succeeded
 python-www-authenticate	succeeded
+python-x3dh	succeeded
 python-xapian-haystack	succeeded
 python-xattr	succeeded
 python-xboxapi	succeeded
