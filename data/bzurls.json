@@ -7,8 +7,12 @@
   "collectd": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2317175"
   ],
-  "did": [],
-  "dlib": [],
+  "did": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2328006"
+  ],
+  "dlib": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2328014"
+  ],
   "dnf": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2323186"
   ],
@@ -26,7 +30,9 @@
   "ntpsec": [],
   "obs-studio": [],
   "openmeeg": [],
-  "openvswitch": [],
+  "openvswitch": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2328018"
+  ],
   "pcs": [],
   "petsc": [],
   "postgresql17": [
@@ -74,8 +80,12 @@
   "python-binaryornot": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2319640"
   ],
-  "python-bowler": [],
-  "python-capturer": [],
+  "python-bowler": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2328013"
+  ],
+  "python-capturer": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2328004"
+  ],
   "python-cccolutils": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2319642"
   ],
@@ -111,7 +121,9 @@
     "https://bugzilla.redhat.com/show_bug.cgi?id=2322719"
   ],
   "python-django-contrib-comments": [],
-  "python-django-debreach": [],
+  "python-django-debreach": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2328003"
+  ],
   "python-django-filter": [],
   "python-django-mailman3": [],
   "python-djangoql": [],
@@ -121,7 +133,9 @@
   "python-drgn": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2325185"
   ],
-  "python-dunamai": [],
+  "python-dunamai": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2328011"
+  ],
   "python-engineio": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2327989"
   ],
@@ -134,14 +148,15 @@
   "python-events": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2319655"
   ],
-  "python-falcon": [],
+  "python-falcon": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2328020"
+  ],
   "python-flask": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2327965"
   ],
   "python-flit": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2326226"
   ],
-  "python-flufl-bounce": [],
   "python-flufl-i18n": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2319659"
   ],
@@ -149,9 +164,10 @@
   "python-genty": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2319661"
   ],
-  "python-gevent": [],
   "python-giacpy": [],
-  "python-grip": [],
+  "python-grip": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2328009"
+  ],
   "python-h2": [],
   "python-h5netcdf": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2325222"
@@ -181,8 +197,12 @@
     "https://bugzilla.redhat.com/show_bug.cgi?id=2319676"
   ],
   "python-libarchive-c": [],
-  "python-libcst": [],
-  "python-mccabe": [],
+  "python-libcst": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2328019"
+  ],
+  "python-mccabe": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2328016"
+  ],
   "python-msal": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2323170"
   ],
@@ -198,7 +218,9 @@
   "python-openidc-client": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2319685"
   ],
-  "python-opytimark": [],
+  "python-opytimark": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2328017"
+  ],
   "python-oscrypto": [],
   "python-parsel": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2319689"
@@ -209,7 +231,9 @@
   "python-pdfkit": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2319690"
   ],
-  "python-pdm-backend": [],
+  "python-pdm-backend": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2327997"
+  ],
   "python-pexpect": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2325182"
   ],
@@ -238,8 +262,12 @@
   "python-pyemd": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2319698"
   ],
-  "python-pyftpdlib": [],
-  "python-pygit2": [],
+  "python-pyftpdlib": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2328005"
+  ],
+  "python-pygit2": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2328023"
+  ],
   "python-pymdown-extensions": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2325198"
   ],
@@ -248,7 +276,6 @@
   ],
   "python-pymeeus": [],
   "python-pypandoc": [],
-  "python-pyramid": [],
   "python-pyside6": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2325444"
   ],
@@ -260,7 +287,9 @@
   "python-pytest-flakes": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2319708"
   ],
-  "python-pytest-rerunfailures": [],
+  "python-pytest-rerunfailures": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2327998"
+  ],
   "python-pytest-runner": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2319709"
   ],
@@ -289,7 +318,6 @@
   "python-repoze-lru": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2319711"
   ],
-  "python-repoze-who": [],
   "python-requests-toolbelt": [],
   "python-resumable-urlretrieve": [],
   "python-rpmfluff": [],
@@ -305,7 +333,9 @@
   "python-s3transfer": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2326933"
   ],
-  "python-scantree": [],
+  "python-scantree": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2328021"
+  ],
   "python-scp": [],
   "python-serpy": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2319716"
@@ -322,7 +352,9 @@
   "python-six": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2327971"
   ],
-  "python-social-auth-core": [],
+  "python-social-auth-core": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2328010"
+  ],
   "python-sphinxcontrib-autoprogram": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2319720"
   ],
@@ -353,7 +385,6 @@
     "https://bugzilla.redhat.com/show_bug.cgi?id=2327969"
   ],
   "python-tpm2-pytss": [],
-  "python-transaction": [],
   "python-translationstring": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2319730"
   ],
@@ -363,7 +394,9 @@
   "python-txaio": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2327981"
   ],
-  "python-typeguard": [],
+  "python-typeguard": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2328015"
+  ],
   "python-typing-inspect": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2325455"
   ],
@@ -386,7 +419,9 @@
     "https://bugzilla.redhat.com/show_bug.cgi?id=2323160"
   ],
   "python-zc-lockfile": [],
-  "python-zict": [],
+  "python-zict": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2328012"
+  ],
   "python-zope-deprecation": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2319742"
   ],
@@ -400,7 +435,9 @@
   "python3-mallard-ducktype": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2319747"
   ],
-  "qpid-proton": [],
+  "qpid-proton": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2327999"
+  ],
   "realtime-tests": [],
   "rmol": [],
   "rrdtool": [],
