@@ -5,44 +5,49 @@
   ],
   "brltty": [],
   "buttermanager": [],
-  "cairo-dock-plug-ins": [],
-  "cmake": [],
   "collectd": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2317175"
   ],
+  "did": [],
+  "dlib": [],
   "dnf": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2323186"
   ],
-  "gi-docgen": [],
-  "javapackages-tools": [],
-  "jello": [],
+  "grammalecte": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2319629"
+  ],
+  "hivex": [],
   "lammps": [],
+  "lasso": [],
   "libgpiod": [],
   "libnvme": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2325194"
   ],
   "link-grammar": [],
   "linode-cli": [],
-  "maturin": [],
+  "ntpsec": [],
   "nwchem": [],
+  "obs-studio": [],
+  "openmeeg": [],
+  "openvswitch": [],
   "osc": [],
-  "past-time": [],
   "pcs": [],
   "petsc": [],
   "picard": [],
+  "postgresql17": [],
   "protobuf": [],
+  "pycairo": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2322709"
+  ],
   "pygobject3": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2325886"
   ],
   "pygsl": [],
   "pyproj": [],
-  "pyshp": [],
-  "python-absl-py": [],
+  "pyserial-asyncio": [],
   "python-aiosmtpd": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2322718"
   ],
-  "python-apsw": [],
-  "python-argparse-dataclass": [],
   "python-astor": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2322712"
   ],
@@ -53,6 +58,7 @@
   "python-asyncssh": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2325445"
   ],
+  "python-autocommand": [],
   "python-avocado": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2325218"
   ],
@@ -69,8 +75,13 @@
   "python-billiard": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2323167"
   ],
-  "python-bottle": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2325166"
+  "python-binaryornot": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2319640"
+  ],
+  "python-bowler": [],
+  "python-capturer": [],
+  "python-cccolutils": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2319642"
   ],
   "python-chameleon": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2322715"
@@ -86,9 +97,8 @@
   "python-commoncode": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2325197"
   ],
-  "python-cssutils": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2325223"
-  ],
+  "python-confuse": [],
+  "python-cramjam": [],
   "python-cysignals": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2325457"
   ],
@@ -98,48 +108,77 @@
   "python-dill": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2323157"
   ],
+  "python-django-allauth": [],
   "python-django-compressor": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2322719"
   ],
-  "python-django-extensions": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2325451"
-  ],
+  "python-django-contrib-comments": [],
+  "python-django-debreach": [],
+  "python-django-filter": [],
+  "python-django-mailman3": [],
+  "python-djangoql": [],
   "python-docstring-parser": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2325441"
   ],
   "python-drgn": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2325185"
   ],
+  "python-dunamai": [],
+  "python-engineio": [],
+  "python-epub": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2319654"
+  ],
   "python-etcd": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2323184"
   ],
+  "python-events": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2319655"
+  ],
+  "python-falcon": [],
   "python-flit": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2326226"
   ],
   "python-flufl-bounce": [],
-  "python-frozenlist": [],
+  "python-flufl-i18n": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2319659"
+  ],
+  "python-freecell_solver": [],
+  "python-genty": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2319661"
+  ],
   "python-gevent": [],
   "python-giacpy": [],
+  "python-grip": [],
   "python-gunicorn": [],
+  "python-h2": [],
   "python-h5netcdf": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2325222"
   ],
-  "python-hl7": [],
-  "python-humanfriendly": [],
+  "python-httpretty": [],
   "python-iniparse": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2323164"
   ],
-  "python-jaraco-functools": [],
-  "python-jaraco-packaging": [],
+  "python-inject": [],
+  "python-irc": [],
+  "python-jack-client": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2319666"
+  ],
+  "python-jcconv": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2319667"
+  ],
+  "python-jeepney": [],
   "python-josepy": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2323171"
   ],
-  "python-libarchive-c": [],
-  "python-lz4": [],
-  "python-m3u8": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2325427"
+  "python-lazr-uri": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2319676"
   ],
+  "python-libarchive-c": [],
+  "python-libcst": [],
+  "python-lxml": [],
+  "python-lz4": [],
   "python-mccabe": [],
+  "python-meson-python": [],
   "python-msal": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2323170"
   ],
@@ -152,11 +191,21 @@
   "python-nose": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2323163"
   ],
+  "python-openidc-client": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2319685"
+  ],
+  "python-opytimark": [],
   "python-oscrypto": [],
-  "python-paramiko": [],
+  "python-parsel": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2319689"
+  ],
   "python-parso": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2325187"
   ],
+  "python-pdfkit": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2319690"
+  ],
+  "python-pdm-backend": [],
   "python-pexpect": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2325182"
   ],
@@ -171,12 +220,26 @@
   "python-pure-protobuf": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2322710"
   ],
+  "python-pycec": [],
+  "python-pyclipper": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2319696"
+  ],
   "python-pydantic-core": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2325425"
   ],
+  "python-pydispatcher": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2319697"
+  ],
+  "python-pyemd": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2319698"
+  ],
   "python-pyftpdlib": [],
+  "python-pygit2": [],
   "python-pymdown-extensions": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2325198"
+  ],
+  "python-pymediainfo": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2319700"
   ],
   "python-pymeeus": [],
   "python-pymongo": [],
@@ -185,13 +248,27 @@
   "python-pyside6": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2325444"
   ],
-  "python-pytest-bdd": [],
+  "python-pytaglib": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2319705"
+  ],
+  "python-pytesseract": [],
+  "python-pytest-asyncio": [],
+  "python-pytest-django": [],
+  "python-pytest-flakes": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2319708"
+  ],
+  "python-pytest-rerunfailures": [],
+  "python-pytest-runner": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2319709"
+  ],
   "python-pytest-split": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2325447"
   ],
   "python-pyupgrade": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2322713"
   ],
+  "python-pyvlx": [],
+  "python-reactivex": [],
   "python-readability-lxml": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2323185"
   ],
@@ -200,9 +277,13 @@
     "https://bugzilla.redhat.com/show_bug.cgi?id=2326927"
   ],
   "python-remoto": [],
+  "python-repoze-lru": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2319711"
+  ],
   "python-repoze-sphinx-autointerface": [],
   "python-repoze-who": [],
   "python-requests-toolbelt": [],
+  "python-resumable-urlretrieve": [],
   "python-rpmfluff": [],
   "python-rstcheck": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2322705"
@@ -210,24 +291,60 @@
   "python-ruamel-yaml": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2323169"
   ],
+  "python-rx": [],
   "python-s3transfer": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2326933"
   ],
+  "python-scantree": [],
+  "python-scp": [],
+  "python-serpy": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2319716"
+  ],
+  "python-sh": [],
+  "python-simplegeneric": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2319717"
+  ],
+  "python-singledispatch": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2319718"
+  ],
+  "python-six": [],
   "python-social-auth-core": [],
+  "python-sphinxcontrib-autoprogram": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2319720"
+  ],
   "python-sphinxcontrib-blockdiag": [],
   "python-sphinxcontrib-seqdiag": [],
+  "python-sqlalchemy1.4": [],
   "python-ssh-python": [],
-  "python-stdlibs": [],
   "python-surt": [],
+  "python-svg-path": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2319725"
+  ],
+  "python-tenacity": [],
   "python-terminado": [],
+  "python-tgscheduler": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2319728"
+  ],
+  "python-throttler": [],
   "python-toolz": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2323168"
   ],
+  "python-tornado": [],
+  "python-tpm2-pytss": [],
   "python-transaction": [],
+  "python-translationstring": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2319730"
+  ],
+  "python-tree-format": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2319731"
+  ],
+  "python-txaio": [],
   "python-typeguard": [],
+  "python-typing-extensions": [],
   "python-typing-inspect": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2325455"
   ],
+  "python-urwid": [],
   "python-uvloop": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2326210"
   ],
@@ -237,14 +354,18 @@
   "python-webscrapbook": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2326915"
   ],
-  "python-whitenoise": [],
-  "python-whoosh": [],
+  "python-xunitparser": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2319738"
+  ],
   "python-yappi": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2323160"
   ],
   "python-yaql": [],
   "python-zc-lockfile": [],
   "python-zict": [],
+  "python-zope-deprecation": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2319742"
+  ],
   "python-zope-exceptions": [],
   "python-zope-interface": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2325170"
@@ -253,11 +374,20 @@
   "python-zstandard": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2326925"
   ],
+  "python3-mallard-ducktype": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2319747"
+  ],
+  "qpid-proton": [],
   "realtime-tests": [],
   "rmol": [],
+  "rrdtool": [],
+  "ruff": [],
   "salt": [],
   "satyr": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2325452"
+  ],
+  "sentencepiece": [
+    "https://bugzilla.redhat.com/show_bug.cgi?id=2319749"
   ],
   "syncplay": [],
   "trademgen": [],
@@ -267,9 +397,5 @@
   "watchman": [],
   "weechat": [
     "https://bugzilla.redhat.com/show_bug.cgi?id=2322708"
-  ],
-  "xapian-bindings": [],
-  "yt-dlp": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2325426"
   ]
 }
