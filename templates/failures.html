@@ -4,6 +4,12 @@
 <a href="{{ url_for('index') }}" class="btn btn-primary mb-3"> &lt&lt&lt Home</a>
 <h2 class="mb-3">Packages that fail to build (🔴 + 🟠)</h2>
 
+<style>
+    .max-width-column {
+        max-width: 600px;
+    }
+</style>
+
 <div class="container mt-4">
     <table class="table table-striped table-hover table-bordered">
         <thead class="table-dark">
@@ -11,7 +17,7 @@
                 <th scope="col">Package name</th>
                 <th scope="col">Build status</th>
                 <th scope="col">Build attempts in Copr</th>
-                <th scope="col">Bugzilla ticket (all open PYTHON{{majorver}})</th>
+                <th scope="col" class="max-width-column">Bugzilla ticket (all open PYTHON{{majorver}})</th>
             </tr>
         </thead>
         <tbody>
@@ -24,12 +30,10 @@
                         Copr - {{ package_name }}
                     </a>
                 </td>
-                <td>
-                {% if detail["bzurls"] %}
-                    {% for bzurl in detail["bzurls"] %}
-                    <a href="{{ bzurl }}">Bugzilla - {{ package_name }}</a><br>
+                <td class="max-width-column">
+                    {% for url, summary in zip(detail["urls"], detail["summaries"]) %}
+                    <a href="{{ url }}">{{ summary }}</a><br>
                     {% endfor %}
-                {% endif %}
                 </td>
             </tr>
         {% endfor %}

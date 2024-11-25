@@ -94,9 +94,9 @@ def sort_by_maintainers(packages_with_maintainers, build_status):
 
 def create_failed_report(build_status):
     failure_report = {}
-    for pkg, bzurls in BUGZILLAS.items():
+    for pkg, bugs_data in BUGZILLAS.items():
         if (state := build_status.get(pkg)) is not None:
-            failure_report[pkg] = {"bzurls": bzurls, "state": state}
+            failure_report[pkg] = dict({"state": state}, **bugs_data)
     return failure_report
 
 
@@ -148,6 +148,7 @@ def failures():
         status_failed=create_failed_report(build_status),
         updated=updated,
         majorver=MAJOR_VERSION,
+        zip=zip,
     )
 
 @app.route('/wheels/')

@@ -38,9 +38,10 @@ def bugzillas():
 
 
 def map_pkgs_and_bzurls(bugzillas):
-    pkgs_urls = {pkg: [] for pkg in SORTED_FAILS}
+    pkgs_urls = {pkg: {"urls": [], "summaries": []} for pkg in SORTED_FAILS}
     for bug in bugzillas:
-        pkgs_urls[bug.component].append(bug.weburl)
+        pkgs_urls[bug.component]["urls"].append(bug.weburl)
+        pkgs_urls[bug.component]["summaries"].append(bug.summary)
     return pkgs_urls
 
 
