@@ -28,6 +28,12 @@ if not KOJI:
     ALL_IN_COPR = load_monitor_report("data/copr.pkgs")
 
 
+def load_current_python_version():
+    "Return just the version string from the whole src name"
+    full_pkgname = load_data("data/pyver").pop()
+    return full_pkgname.split(":")[-1].split("-")[0]
+
+
 def count_pkgs_with_state(build_status, looked_for):
     return sum(1 for state in build_status.values() if state == looked_for)
 
@@ -114,6 +120,7 @@ def index():
         number_pkgs_waiting=len(WAITING),
         updated=updated,
         majorver=MAJOR_VERSION,
+        currver=load_current_python_version(),
     )
 
 @app.route('/packages/')
