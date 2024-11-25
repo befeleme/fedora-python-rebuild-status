@@ -76,6 +76,12 @@
 <a href="/" class="btn btn-primary mb-3"> &lt&lt&lt Home</a>
 <h2 class="mb-3">Packages that fail to build (🔴 + 🟠)</h2>
 
+<style>
+    .max-width-column {
+        max-width: 600px;
+    }
+</style>
+
 <div class="container mt-4">
     <table class="table table-striped table-hover table-bordered">
         <thead class="table-dark">
@@ -83,7 +89,7 @@
                 <th scope="col">Package name</th>
                 <th scope="col">Build status</th>
                 <th scope="col">Build attempts in Copr</th>
-                <th scope="col">Bugzilla ticket (all open PYTHON3.14)</th>
+                <th scope="col" class="max-width-column">Bugzilla ticket (all open PYTHON3.14)</th>
             </tr>
         </thead>
         <tbody>
@@ -96,8 +102,8 @@
                         Copr - alot
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
+                    
                 </td>
             </tr>
         
@@ -109,12 +115,10 @@
                         Copr - borgbackup
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2326916">Bugzilla - borgbackup</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2326916">borgbackup fails to build with Python 3.14: OSError: AF_UNIX path too long when compiling</a><br>
                     
-                
                 </td>
             </tr>
         
@@ -126,8 +130,8 @@
                         Copr - brltty
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
+                    
                 </td>
             </tr>
         
@@ -139,12 +143,10 @@
                         Copr - collectd
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2317175">Bugzilla - collectd</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2317175">collectd-5.12.0-44.fc42 FTBFS: configure: error: Some plugins are missing dependencies</a><br>
                     
-                
                 </td>
             </tr>
         
@@ -156,12 +158,10 @@
                         Copr - did
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2328006">Bugzilla - did</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2328006">did fails to build with Python 3.14: AttributeError: module &#39;urllib.request&#39; has no attribute &#39;FancyURLopener&#39;</a><br>
                     
-                
                 </td>
             </tr>
         
@@ -173,12 +173,10 @@
                         Copr - dlib
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2328014">Bugzilla - dlib</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2328014">dlib fails to build with Python 3.14: AttributeError: module &#39;pkgutil&#39; has no attribute &#39;find_loader&#39;</a><br>
                     
-                
                 </td>
             </tr>
         
@@ -190,12 +188,23 @@
                         Copr - dnf
                     </a>
                 </td>
+                <td class="max-width-column">
+                    
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2323186">dnf fails to build with Python 3.14: TypeError: cannot pickle &#39;_thread.RLock&#39; object</a><br>
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-espresso">
+                <td>espresso</td>
+                <td>🔴</td>
                 <td>
-                
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/espresso/">
+                        Copr - espresso
+                    </a>
+                </td>
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2323186">Bugzilla - dnf</a><br>
-                    
-                
                 </td>
             </tr>
         
@@ -207,12 +216,10 @@
                         Copr - grammalecte
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2319629">Bugzilla - grammalecte</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2319629">grammalecte fails to build with setuptools 74+</a><br>
                     
-                
                 </td>
             </tr>
         
@@ -224,8 +231,8 @@
                         Copr - hivex
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
+                    
                 </td>
             </tr>
         
@@ -237,8 +244,8 @@
                         Copr - lammps
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
+                    
                 </td>
             </tr>
         
@@ -250,8 +257,8 @@
                         Copr - lasso
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
+                    
                 </td>
             </tr>
         
@@ -263,8 +270,8 @@
                         Copr - libgpiod
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
+                    
                 </td>
             </tr>
         
@@ -276,12 +283,10 @@
                         Copr - libnvme
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2325194">Bugzilla - libnvme</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2325194">libnvme fails to build with Python 3.14: /usr/include/python3.14/pyport.h:629:35: error: missing &#39;)&#39; after &#34;__has_attribute&#34;</a><br>
                     
-                
                 </td>
             </tr>
         
@@ -293,8 +298,8 @@
                         Copr - link-grammar
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
+                    
                 </td>
             </tr>
         
@@ -306,8 +311,8 @@
                         Copr - mopidy
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
+                    
                 </td>
             </tr>
         
@@ -319,8 +324,8 @@
                         Copr - ntpsec
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
+                    
                 </td>
             </tr>
         
@@ -332,8 +337,8 @@
                         Copr - openmeeg
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
+                    
                 </td>
             </tr>
         
@@ -345,12 +350,10 @@
                         Copr - openvswitch
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2328018">Bugzilla - openvswitch</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2328018">openvswitch fails to build with Python 3.14: 3 tests failure</a><br>
                     
-                
                 </td>
             </tr>
         
@@ -362,8 +365,8 @@
                         Copr - pcs
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
+                    
                 </td>
             </tr>
         
@@ -375,12 +378,10 @@
                         Copr - postgresql17
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2327967">Bugzilla - postgresql17</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2327967">postgresql17 fails to build with Python 3.14: jsonb_jsonpath fails: - &#34;12:34:56-07:00&#34; != + &#34;12:34:56-08:00&#34;</a><br>
                     
-                
                 </td>
             </tr>
         
@@ -392,8 +393,8 @@
                         Copr - protobuf
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
+                    
                 </td>
             </tr>
         
@@ -405,8 +406,8 @@
                         Copr - pychess
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
+                    
                 </td>
             </tr>
         
@@ -418,8 +419,8 @@
                         Copr - pygsl
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
+                    
                 </td>
             </tr>
         
@@ -431,12 +432,10 @@
                         Copr - pyserial-asyncio
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2327980">Bugzilla - pyserial-asyncio</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2327980">pyserial-asyncio fails to build with Python 3.14: RuntimeError: There is no current event loop in thread &#39;MainThread&#39;.</a><br>
                     
-                
                 </td>
             </tr>
         
@@ -448,12 +447,23 @@
                         Copr - python-aiosmtpd
                     </a>
                 </td>
+                <td class="max-width-column">
+                    
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2322718">python-aiosmtpd fails to build with Python 3.14: ImportError: cannot import name &#39;ByteString&#39; from &#39;typing&#39;</a><br>
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-python-anyio">
+                <td>python-anyio</td>
+                <td>🔴</td>
                 <td>
-                
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/python-anyio/">
+                        Copr - python-anyio
+                    </a>
+                </td>
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2322718">Bugzilla - python-aiosmtpd</a><br>
-                    
-                
                 </td>
             </tr>
         
@@ -465,8 +475,8 @@
                         Copr - python-argcomplete
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
+                    
                 </td>
             </tr>
         
@@ -478,12 +488,10 @@
                         Copr - python-astor
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2322712">Bugzilla - python-astor</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2322712">python-astor fails to build with Python 3.14: AttributeError: module &#39;ast&#39; has no attribute &#39;Num&#39; / &#39;Str&#39;</a><br>
                     
-                
                 </td>
             </tr>
         
@@ -495,12 +503,10 @@
                         Copr - python-astroid
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2323166">Bugzilla - python-astroid</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2323166">python-astroid fails to build with Python 3.14: astroid.exceptions.InferenceError: StopIteration raised without any error information.</a><br>
                     
-                
                 </td>
             </tr>
         
@@ -512,8 +518,8 @@
                         Copr - python-async-lru
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
+                    
                 </td>
             </tr>
         
@@ -525,12 +531,10 @@
                         Copr - python-asyncssh
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2325445">Bugzilla - python-asyncssh</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2325445">python-asyncssh fails to build with Python 3.14: multiple test failures (failures=25, errors=697)</a><br>
                     
-                
                 </td>
             </tr>
         
@@ -542,12 +546,10 @@
                         Copr - python-autocommand
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2327972">Bugzilla - python-autocommand</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2327972">python-autocommand fails to build with Python 3.14: RuntimeError: There is no current event loop in thread &#39;MainThread&#39;.</a><br>
                     
-                
                 </td>
             </tr>
         
@@ -559,12 +561,10 @@
                         Copr - python-avocado
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2325218">Bugzilla - python-avocado</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2325218">python-avocado fails to build with Python 3.14: Error running method &#34;pre_tests&#34; of plugin &#34;fetchasset&#34;: module &#39;ast&#39; has no attribute &#39;Str&#39; + Avocado crashed: TypeError: cannot pickle &#39;_thread.RLock&#39; object</a><br>
                     
-                
                 </td>
             </tr>
         
@@ -576,12 +576,10 @@
                         Copr - python-awscrt
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2322714">Bugzilla - python-awscrt</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2322714">python-awscrt fails to build with Python 3.14: ImportError: cannot import name &#39;ByteString&#39; from &#39;collections.abc&#39;</a><br>
                     
-                
                 </td>
             </tr>
         
@@ -593,12 +591,10 @@
                         Copr - python-backrefs
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2325184">Bugzilla - python-backrefs</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2325184">python-backrefs fails to build with Python 3.14: Failed to acquire all needed Unicode files!</a><br>
                     
-                
                 </td>
             </tr>
         
@@ -610,12 +606,10 @@
                         Copr - python-beartype
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2322721">Bugzilla - python-beartype</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2322721">python-beartype fails to build with Python 3.14: ImportError: cannot import name &#39;ByteString&#39; from &#39;typing&#39;</a><br>
                     
-                
                 </td>
             </tr>
         
@@ -627,12 +621,10 @@
                         Copr - python-billiard
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2323167">Bugzilla - python-billiard</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2323167">python-billiard fails to build with Python 3.14: AttributeError: module &#39;subprocess&#39; has no attribute &#39;_USE_VFORK&#39;</a><br>
                     
-                
                 </td>
             </tr>
         
@@ -644,12 +636,10 @@
                         Copr - python-binaryornot
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2319640">Bugzilla - python-binaryornot</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2319640">python-binaryornot fails to build with setuptools 74+</a><br>
                     
-                
                 </td>
             </tr>
         
@@ -661,12 +651,10 @@
                         Copr - python-bowler
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2328013">Bugzilla - python-bowler</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2328013">python-bowler fails to build with Python 3.14: test_run_bowler_modifier_ferries_exception: AssertionError: AssertionError not raised by &lt;lambda&gt;</a><br>
                     
-                
                 </td>
             </tr>
         
@@ -678,12 +666,10 @@
                         Copr - python-capturer
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2328004">Bugzilla - python-capturer</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2328004">python-capturer fails to build with Python 3.14: OSError: [Errno 29] Illegal seek</a><br>
                     
-                
                 </td>
             </tr>
         
@@ -695,12 +681,10 @@
                         Copr - python-cccolutils
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2319642">Bugzilla - python-cccolutils</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2319642">python-cccolutils fails to build with setuptools 74+</a><br>
                     
-                
                 </td>
             </tr>
         
@@ -712,12 +696,10 @@
                         Copr - python-chameleon
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2322715">Bugzilla - python-chameleon</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2322715">python-chameleon fails to build with Python 3.14: AttributeError: module &#39;ast&#39; has no attribute &#39;Str&#39;</a><br>
                     
-                
                 </td>
             </tr>
         
@@ -729,12 +711,10 @@
                         Copr - python-cloudpickle
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2328024">Bugzilla - python-cloudpickle</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2328024">python-cloudpickle fails to build with Python 3.14: CloudPickleFileTests.test_empty_file: RecursionError: maximum recursion depth exceeded in comparison</a><br>
                     
-                
                 </td>
             </tr>
         
@@ -746,8 +726,8 @@
                         Copr - python-cmd2
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
+                    
                 </td>
             </tr>
         
@@ -759,12 +739,10 @@
                         Copr - python-colcon-parallel-executor
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2325186">Bugzilla - python-colcon-parallel-executor</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2325186">python-colcon-parallel-executor fails to build with Python 3.14: test_parallel: AssertionError: DeprecationWarning: &#39;asyncio.iscoroutinefunction&#39; is deprecated and slated for removal in Python 3.16; use inspect.iscoroutinefunction() instead</a><br>
                     
-                
                 </td>
             </tr>
         
@@ -776,12 +754,10 @@
                         Copr - python-colorful
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2325168">Bugzilla - python-colorful</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2325168">python-colorful fails to build with Python 3.14: ast.Constant.s has been removed from Python 3.14</a><br>
                     
-                
                 </td>
             </tr>
         
@@ -793,12 +769,10 @@
                         Copr - python-commoncode
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2325197">Bugzilla - python-commoncode</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2325197">python-commoncode fails to build with Python 3.14: tarfile.SpecialFileError: &#39;6-FIFOTYPE&#39; is a special file</a><br>
                     
-                
                 </td>
             </tr>
         
@@ -810,12 +784,10 @@
                         Copr - python-confuse
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2327966">Bugzilla - python-confuse</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2327966">python-confuse fails to build with Python 3.14: AttributeError: module &#39;pkgutil&#39; has no attribute &#39;get_loader&#39;</a><br>
                     
-                
                 </td>
             </tr>
         
@@ -827,8 +799,21 @@
                         Copr - python-cramjam
                     </a>
                 </td>
+                <td class="max-width-column">
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-python-crick">
+                <td>python-crick</td>
+                <td>🔴</td>
                 <td>
-                
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/python-crick/">
+                        Copr - python-crick
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
                 </td>
             </tr>
         
@@ -840,12 +825,10 @@
                         Copr - python-cysignals
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2325457">Bugzilla - python-cysignals</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2325457">python-cysignals fails to build with Python 3.14: Doctest src/cysignals/pselect.pyx terminated. Timeout limit exceeded (&gt;2400s)</a><br>
                     
-                
                 </td>
             </tr>
         
@@ -857,12 +840,10 @@
                         Copr - python-dataclassy
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2325200">Bugzilla - python-dataclassy</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2325200">python-dataclassy fails to build with Python 3.14: TypeError: Beta() takes no arguments</a><br>
                     
-                
                 </td>
             </tr>
         
@@ -874,12 +855,10 @@
                         Copr - python-dill
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2323157">Bugzilla - python-dill</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2323157">python-dill fails to build with Python 3.14: TypeError: _Pickler._batch_setitems() missing 1 required positional argument: &#39;obj&#39;</a><br>
                     
-                
                 </td>
             </tr>
         
@@ -891,8 +870,8 @@
                         Copr - python-django-allauth
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
+                    
                 </td>
             </tr>
         
@@ -904,12 +883,10 @@
                         Copr - python-django-compressor
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2322719">Bugzilla - python-django-compressor</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2322719">python-django-compressor fails to build with Python 3.14: &#39;Constant&#39; object has no attribute &#39;s&#39;</a><br>
                     
-                
                 </td>
             </tr>
         
@@ -921,8 +898,8 @@
                         Copr - python-django-contrib-comments
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
+                    
                 </td>
             </tr>
         
@@ -934,12 +911,10 @@
                         Copr - python-django-debreach
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2328003">Bugzilla - python-django-debreach</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2328003">python-django-debreach fails to build with Python 3.14: AttributeError: &#39;super&#39; object has no attribute &#39;dicts&#39; and no __dict__ for setting new attributes</a><br>
                     
-                
                 </td>
             </tr>
         
@@ -951,8 +926,8 @@
                         Copr - python-django-filter
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
+                    
                 </td>
             </tr>
         
@@ -964,8 +939,8 @@
                         Copr - python-django-mailman3
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
+                    
                 </td>
             </tr>
         
@@ -977,8 +952,8 @@
                         Copr - python-djangoql
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
+                    
                 </td>
             </tr>
         
@@ -990,12 +965,10 @@
                         Copr - python-docstring-parser
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2325441">Bugzilla - python-docstring-parser</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2325441">python-docstring-parser fails to build with Python 3.14: AttributeError: module &#39;ast&#39; has no attribute &#39;NameConstant&#39;</a><br>
                     
-                
                 </td>
             </tr>
         
@@ -1007,29 +980,10 @@
                         Copr - python-drgn
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2325185">Bugzilla - python-drgn</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2325185">python-drgn fails to build with Python 3.14: module &#39;ast&#39; has no attribute &#39;Str&#39;</a><br>
                     
-                
-                </td>
-            </tr>
-        
-            <tr id="row-python-dunamai">
-                <td>python-dunamai</td>
-                <td>🟠</td>
-                <td>
-                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/python-dunamai/">
-                        Copr - python-dunamai
-                    </a>
-                </td>
-                <td>
-                
-                    
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2328011">Bugzilla - python-dunamai</a><br>
-                    
-                
                 </td>
             </tr>
         
@@ -1041,12 +995,10 @@
                         Copr - python-engineio
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2327989">Bugzilla - python-engineio</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2327989">python-engineio fails to build with Python 3.14: RuntimeError: There is no current event loop in thread &#39;MainThread&#39;.</a><br>
                     
-                
                 </td>
             </tr>
         
@@ -1058,12 +1010,10 @@
                         Copr - python-epub
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2319654">Bugzilla - python-epub</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2319654">python-epub fails to build with setuptools 74+</a><br>
                     
-                
                 </td>
             </tr>
         
@@ -1075,12 +1025,10 @@
                         Copr - python-etcd
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2323184">Bugzilla - python-etcd</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2323184">python-etcd fails to build with Python 3.14: _pickle.PicklingError: Can&#39;t pickle local object &lt;function TestWatch.test_watch_indexed_generator.&lt;locals&gt;.watch_value at 0x7f0d39f71dd0&gt;</a><br>
                     
-                
                 </td>
             </tr>
         
@@ -1092,12 +1040,10 @@
                         Copr - python-events
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2319655">Bugzilla - python-events</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2319655">python-events fails to build with setuptools 74+</a><br>
                     
-                
                 </td>
             </tr>
         
@@ -1109,12 +1055,10 @@
                         Copr - python-falcon
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2328020">Bugzilla - python-falcon</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2328020">python-falcon fails to build with Python 3.14: KeyError: &#39;partitioned&#39;</a><br>
                     
-                
                 </td>
             </tr>
         
@@ -1126,12 +1070,10 @@
                         Copr - python-flask
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2327965">Bugzilla - python-flask</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2327965">python-flask fails to build with Python 3.14: AttributeError: module &#39;pkgutil&#39; has no attribute &#39;get_loader&#39;</a><br>
                     
-                
                 </td>
             </tr>
         
@@ -1143,12 +1085,10 @@
                         Copr - python-flit
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2326226">Bugzilla - python-flit</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2326226">python-flit fails to build with Python 3.14: AttributeError: module &#39;ast&#39; has no attribute &#39;Str&#39;</a><br>
                     
-                
                 </td>
             </tr>
         
@@ -1160,12 +1100,10 @@
                         Copr - python-flufl-i18n
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2319659">Bugzilla - python-flufl-i18n</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2319659">python-flufl-i18n fails to build with setuptools 74+</a><br>
                     
-                
                 </td>
             </tr>
         
@@ -1177,8 +1115,8 @@
                         Copr - python-freecell_solver
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
+                    
                 </td>
             </tr>
         
@@ -1190,12 +1128,10 @@
                         Copr - python-genty
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2319661">Bugzilla - python-genty</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2319661">python-genty fails to build with setuptools 74+: uses removed setup.py test</a><br>
                     
-                
                 </td>
             </tr>
         
@@ -1207,8 +1143,8 @@
                         Copr - python-giacpy
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
+                    
                 </td>
             </tr>
         
@@ -1220,12 +1156,10 @@
                         Copr - python-grip
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2328009">Bugzilla - python-grip</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2328009">python-grip fails to build with Python 3.14:  AssertionError: assert &#39;/usr/lib/pyt...e terminal.\n&#39; == &#39;Usage:\n  gr...e terminal.\n&#39;</a><br>
                     
-                
                 </td>
             </tr>
         
@@ -1237,8 +1171,8 @@
                         Copr - python-h2
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
+                    
                 </td>
             </tr>
         
@@ -1250,12 +1184,23 @@
                         Copr - python-h5netcdf
                     </a>
                 </td>
+                <td class="max-width-column">
+                    
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2325222">python-h5netcdf fails to build with Python 3.14: test_no_circular_references: AssertionError</a><br>
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-python-img2pdf">
+                <td>python-img2pdf</td>
+                <td>🔴</td>
                 <td>
-                
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/python-img2pdf/">
+                        Copr - python-img2pdf
+                    </a>
+                </td>
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2325222">Bugzilla - python-h5netcdf</a><br>
-                    
-                
                 </td>
             </tr>
         
@@ -1267,12 +1212,10 @@
                         Copr - python-iniparse
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2323164">Bugzilla - python-iniparse</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2323164">python-iniparse fails to build with Python 3.14: _pickle.PicklingError: Can&#39;t pickle local object &lt;function TestIni.test_queue.&lt;locals&gt;.getxy at 0x7f86659a7740&gt;</a><br>
                     
-                
                 </td>
             </tr>
         
@@ -1284,12 +1227,10 @@
                         Copr - python-inject
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2327978">Bugzilla - python-inject</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2327978">python-inject fails to build with Python 3.14: RuntimeError: There is no current event loop in thread &#39;MainThread&#39;.</a><br>
                     
-                
                 </td>
             </tr>
         
@@ -1301,12 +1242,10 @@
                         Copr - python-irc
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2327991">Bugzilla - python-irc</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2327991">python-irc fails to build with Python 3.14: RuntimeError: There is no current event loop in thread &#39;MainThread&#39;.</a><br>
                     
-                
                 </td>
             </tr>
         
@@ -1318,12 +1257,10 @@
                         Copr - python-jack-client
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2319666">Bugzilla - python-jack-client</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2319666">python-jack-client fails to build with setuptools 74+</a><br>
                     
-                
                 </td>
             </tr>
         
@@ -1335,12 +1272,10 @@
                         Copr - python-jcconv
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2319667">Bugzilla - python-jcconv</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2319667">python-jcconv fails to build with setuptools 74+</a><br>
                     
-                
                 </td>
             </tr>
         
@@ -1352,12 +1287,10 @@
                         Copr - python-jeepney
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2327982">Bugzilla - python-jeepney</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2327982">python-jeepney fails to build with Python 3.14: RuntimeError: There is no current event loop in thread &#39;MainThread&#39;.</a><br>
                     
-                
                 </td>
             </tr>
         
@@ -1369,8 +1302,8 @@
                         Copr - python-jiter
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
+                    
                 </td>
             </tr>
         
@@ -1382,12 +1315,25 @@
                         Copr - python-josepy
                     </a>
                 </td>
+                <td class="max-width-column">
+                    
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2323171">python-josepy fails to build with Python 3.14: 6x ValueError: Field `alg` in JSONObject `Header` has no type annotation.</a><br>
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-python-klusta">
+                <td>python-klusta</td>
+                <td>🔴</td>
                 <td>
-                
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/python-klusta/">
+                        Copr - python-klusta
+                    </a>
+                </td>
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2323171">Bugzilla - python-josepy</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2319674">python-klusta fails to build with setuptools 74+</a><br>
                     
-                
                 </td>
             </tr>
         
@@ -1399,8 +1345,8 @@
                         Copr - python-libarchive-c
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
+                    
                 </td>
             </tr>
         
@@ -1412,12 +1358,10 @@
                         Copr - python-libcst
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2328019">Bugzilla - python-libcst</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2328019">python-libcst fails to build with Python 3.14: AttributeError: module &#39;typing&#39; has no attribute &#39;ByteString&#39;</a><br>
                     
-                
                 </td>
             </tr>
         
@@ -1429,8 +1373,8 @@
                         Copr - python-makefun
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
+                    
                 </td>
             </tr>
         
@@ -1442,8 +1386,8 @@
                         Copr - python-matplotlib
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
+                    
                 </td>
             </tr>
         
@@ -1455,12 +1399,10 @@
                         Copr - python-mccabe
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2328016">Bugzilla - python-mccabe</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2328016">python-mccabe fails to build with Python 3.14: AttributeError: module &#39;typing&#39; has no attribute &#39;ByteString&#39;</a><br>
                     
-                
                 </td>
             </tr>
         
@@ -1472,12 +1414,10 @@
                         Copr - python-msal
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2323170">Bugzilla - python-msal</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2323170">python-msal fails to build with Python 3.14: test_no_two_concurrent_receivers_can_listen_on_same_port: AssertionError: OSError not raised</a><br>
                     
-                
                 </td>
             </tr>
         
@@ -1489,12 +1429,10 @@
                         Copr - python-msgspec
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2325169">Bugzilla - python-msgspec</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2325169">python-msgspec fails to build with Python 3.14: error: ‘_Py_IMMORTAL_REFCNT’ undeclared here</a><br>
                     
-                
                 </td>
             </tr>
         
@@ -1506,12 +1444,23 @@
                         Copr - python-neovim
                     </a>
                 </td>
+                <td class="max-width-column">
+                    
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2326224">python-neovim fails to build with Python 3.14: AttributeError: module &#39;asyncio&#39; has no attribute &#39;get_child_watcher&#39;</a><br>
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-python-nibabel">
+                <td>python-nibabel</td>
+                <td>🔴</td>
                 <td>
-                
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/python-nibabel/">
+                        Copr - python-nibabel
+                    </a>
+                </td>
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2326224">Bugzilla - python-neovim</a><br>
-                    
-                
                 </td>
             </tr>
         
@@ -1523,12 +1472,10 @@
                         Copr - python-nose
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2323163">Bugzilla - python-nose</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2323163">python-nose fails to build with Python 3.14: multiple AssertionErrors related to timeouts in test outputs</a><br>
                     
-                
                 </td>
             </tr>
         
@@ -1540,12 +1487,10 @@
                         Copr - python-openidc-client
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2319685">Bugzilla - python-openidc-client</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2319685">python-openidc-client fails to build with setuptools 74+</a><br>
                     
-                
                 </td>
             </tr>
         
@@ -1557,8 +1502,8 @@
                         Copr - python-oscrypto
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
+                    
                 </td>
             </tr>
         
@@ -1570,12 +1515,10 @@
                         Copr - python-parsel
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2319689">Bugzilla - python-parsel</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2319689">python-parsel fails to build with setuptools 74+</a><br>
                     
-                
                 </td>
             </tr>
         
@@ -1587,12 +1530,10 @@
                         Copr - python-parso
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2325187">Bugzilla - python-parso</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2325187">python-parso fails to build with Python 3.14: NotImplementedError: Python version 3.14 is currently not supported.</a><br>
                     
-                
                 </td>
             </tr>
         
@@ -1604,29 +1545,10 @@
                         Copr - python-pdfkit
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2319690">Bugzilla - python-pdfkit</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2319690">python-pdfkit fails to build with setuptools 74+</a><br>
                     
-                
-                </td>
-            </tr>
-        
-            <tr id="row-python-pdm-backend">
-                <td>python-pdm-backend</td>
-                <td>🟠</td>
-                <td>
-                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/python-pdm-backend/">
-                        Copr - python-pdm-backend
-                    </a>
-                </td>
-                <td>
-                
-                    
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2327997">Bugzilla - python-pdm-backend</a><br>
-                    
-                
                 </td>
             </tr>
         
@@ -1638,21 +1560,8 @@
                         Copr - python-pexpect
                     </a>
                 </td>
-                <td>
-                
-                </td>
-            </tr>
-        
-            <tr id="row-python-pooch">
-                <td>python-pooch</td>
-                <td>🔴</td>
-                <td>
-                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/python-pooch/">
-                        Copr - python-pooch
-                    </a>
-                </td>
-                <td>
-                
+                <td class="max-width-column">
+                    
                 </td>
             </tr>
         
@@ -1664,12 +1573,10 @@
                         Copr - python-precis_i18n
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2325183">Bugzilla - python-precis_i18n</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2325183">python-precis_i18n fails to build with Python 3.14: FileNotFoundError: [Errno 2] No such file or directory: &#39;/builddir/build/BUILD/python-precis_i18n-1.1.0-build/precis_i18n-1.1.0/test/derived-props-16.0.txt&#39;</a><br>
                     
-                
                 </td>
             </tr>
         
@@ -1681,8 +1588,8 @@
                         Copr - python-pulp-glue
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
+                    
                 </td>
             </tr>
         
@@ -1694,12 +1601,10 @@
                         Copr - python-pure-protobuf
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2322710">Bugzilla - python-pure-protobuf</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2322710">python-pure-protobuf fails to build with Python 3.14: ImportError: cannot import name &#39;ByteString&#39; from &#39;typing&#39;</a><br>
                     
-                
                 </td>
             </tr>
         
@@ -1711,12 +1616,10 @@
                         Copr - python-pycec
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2327973">Bugzilla - python-pycec</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2327973">python-pycec fails to build with Python 3.14: RuntimeError: There is no current event loop in thread &#39;MainThread&#39;.</a><br>
                     
-                
                 </td>
             </tr>
         
@@ -1728,12 +1631,10 @@
                         Copr - python-pyclipper
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2319696">Bugzilla - python-pyclipper</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2319696">python-pyclipper fails to build with setuptools 74+</a><br>
                     
-                
                 </td>
             </tr>
         
@@ -1745,12 +1646,10 @@
                         Copr - python-pydantic-core
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2325425">Bugzilla - python-pydantic-core</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2325425">python-pydantic-core fails to build with Python 3.14: AssertionError: Regex pattern did not match. + AttributeError: module &#39;typing&#39; has no attribute &#39;ByteString&#39;</a><br>
                     
-                
                 </td>
             </tr>
         
@@ -1762,12 +1661,10 @@
                         Copr - python-pydispatcher
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2319697">Bugzilla - python-pydispatcher</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2319697">python-pydispatcher fails to build with setuptools 74+</a><br>
                     
-                
                 </td>
             </tr>
         
@@ -1779,12 +1676,10 @@
                         Copr - python-pyemd
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2319698">Bugzilla - python-pyemd</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2319698">python-pyemd fails to build with setuptools 74+</a><br>
                     
-                
                 </td>
             </tr>
         
@@ -1796,12 +1691,10 @@
                         Copr - python-pygit2
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2328023">Bugzilla - python-pygit2</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2328023">python-pygit2 fails to build with Python 3.14: TypeError: &#39;GenericIterator&#39; object is not iterable</a><br>
                     
-                
                 </td>
             </tr>
         
@@ -1813,12 +1706,10 @@
                         Copr - python-pymdown-extensions
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2325198">Bugzilla - python-pymdown-extensions</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2325198">python-pymdown-extensions fails to build with Python 3.14: TestWindowsAbsFileScheme.test_windows_root_conversion: AssertionError</a><br>
                     
-                
                 </td>
             </tr>
         
@@ -1830,12 +1721,10 @@
                         Copr - python-pymediainfo
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2319700">Bugzilla - python-pymediainfo</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2319700">python-pymediainfo fails to build with setuptools 74+</a><br>
                     
-                
                 </td>
             </tr>
         
@@ -1847,8 +1736,8 @@
                         Copr - python-pymeeus
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
+                    
                 </td>
             </tr>
         
@@ -1860,12 +1749,10 @@
                         Copr - python-pyside6
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2325444">Bugzilla - python-pyside6</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2325444">python-pyside6 fails to build with Python 3.14: TypeError: Formatter.formatannotation() got an unexpected keyword argument &#39;quote_annotation_strings&#39;</a><br>
                     
-                
                 </td>
             </tr>
         
@@ -1877,12 +1764,10 @@
                         Copr - python-pytaglib
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2319705">Bugzilla - python-pytaglib</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2319705">python-pytaglib fails to build with setuptools 74+</a><br>
                     
-                
                 </td>
             </tr>
         
@@ -1894,8 +1779,8 @@
                         Copr - python-pytesseract
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
+                    
                 </td>
             </tr>
         
@@ -1907,8 +1792,8 @@
                         Copr - python-pytest-django
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
+                    
                 </td>
             </tr>
         
@@ -1920,25 +1805,23 @@
                         Copr - python-pytest-flakes
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2319708">Bugzilla - python-pytest-flakes</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2319708">python-pytest-flakes fails to build with setuptools 74+</a><br>
                     
-                
                 </td>
             </tr>
         
             <tr id="row-python-pytest-localftpserver">
                 <td>python-pytest-localftpserver</td>
-                <td>🔴</td>
+                <td>🟠</td>
                 <td>
                     <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/python-pytest-localftpserver/">
                         Copr - python-pytest-localftpserver
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
+                    
                 </td>
             </tr>
         
@@ -1950,12 +1833,10 @@
                         Copr - python-pytest-rerunfailures
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2327998">Bugzilla - python-pytest-rerunfailures</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2327998">python-pytest-rerunfailures fails to build with Python 3.14: remains unmatched: &#39;session teardown&#39;</a><br>
                     
-                
                 </td>
             </tr>
         
@@ -1967,12 +1848,10 @@
                         Copr - python-pytest-runner
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2319709">Bugzilla - python-pytest-runner</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2319709">python-pytest-runner fails to build with setuptools 74+</a><br>
                     
-                
                 </td>
             </tr>
         
@@ -1984,12 +1863,10 @@
                         Copr - python-pytest-split
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2325447">Bugzilla - python-pytest-split</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2325447">python-pytest-split fails to build with Python 3.14: TestRaisesUsageErrors.test_returns_nonzero_when_invalid_algorithm_name:  AssertionError</a><br>
                     
-                
                 </td>
             </tr>
         
@@ -2001,12 +1878,10 @@
                         Copr - python-pyupgrade
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2322713">Bugzilla - python-pyupgrade</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2322713">python-pyupgrade fails to build with Python 3.14: AttributeError: module &#39;ast&#39; has no attribute &#39;Str&#39;</a><br>
                     
-                
                 </td>
             </tr>
         
@@ -2018,12 +1893,10 @@
                         Copr - python-pyvlx
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2327983">Bugzilla - python-pyvlx</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2327983">python-pyvlx fails to build with Python 3.14: RuntimeError: There is no current event loop in thread &#39;MainThread&#39;.</a><br>
                     
-                
                 </td>
             </tr>
         
@@ -2035,12 +1908,10 @@
                         Copr - python-reactivex
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2327987">Bugzilla - python-reactivex</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2327987">python-reactivex fails to build with Python 3.14: RuntimeError: There is no current event loop in thread &#39;MainThread&#39;.</a><br>
                     
-                
                 </td>
             </tr>
         
@@ -2052,12 +1923,10 @@
                         Copr - python-readability-lxml
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2323185">Bugzilla - python-readability-lxml</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2323185">python-readability-lxml fails to build with Python 3.14: _pickle.PicklingError: Can&#39;t pickle &lt;function TestArticleOnly.test_many_repeated_spaces at 0x7ff0ea064460&gt;: it&#39;s not the same object as tests.test_article_only.TestArticleOnly.test_many_repeated_spa</a><br>
                     
-                
                 </td>
             </tr>
         
@@ -2069,12 +1938,10 @@
                         Copr - python-recordclass
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2327968">Bugzilla - python-recordclass</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2327968">python-recordclass fails to build with Python 3.14: 25 failures, 65 errors in the test suite</a><br>
                     
-                
                 </td>
             </tr>
         
@@ -2086,12 +1953,10 @@
                         Copr - python-redis
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2326927">Bugzilla - python-redis</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2326927">python-redis fails to build with Python 3.14: _pickle.PicklingError: Can&#39;t pickle local object &lt;function TestMultiprocessing.test_redis_client.&lt;locals&gt;.target at 0x7fd5f829efb0&gt;</a><br>
                     
-                
                 </td>
             </tr>
         
@@ -2103,8 +1968,8 @@
                         Copr - python-remoto
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
+                    
                 </td>
             </tr>
         
@@ -2116,12 +1981,10 @@
                         Copr - python-repoze-lru
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2319711">Bugzilla - python-repoze-lru</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2319711">python-repoze-lru fails to build with setuptools 74+</a><br>
                     
-                
                 </td>
             </tr>
         
@@ -2133,8 +1996,8 @@
                         Copr - python-requests-toolbelt
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
+                    
                 </td>
             </tr>
         
@@ -2146,8 +2009,8 @@
                         Copr - python-resumable-urlretrieve
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
+                    
                 </td>
             </tr>
         
@@ -2159,8 +2022,8 @@
                         Copr - python-rpmfluff
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
+                    
                 </td>
             </tr>
         
@@ -2172,12 +2035,10 @@
                         Copr - python-rstcheck
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2322705">Bugzilla - python-rstcheck</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2322705">python-rstcheck fails to build with Python 3.14: AttributeError: &#39;Constant&#39; object has no attribute &#39;s&#39;</a><br>
                     
-                
                 </td>
             </tr>
         
@@ -2189,12 +2050,10 @@
                         Copr - python-ruamel-yaml
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2323169">Bugzilla - python-ruamel-yaml</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2323169">python-ruamel-yaml fails to build with Python 3.14: ImportError: cannot import name &#39;Str&#39; from &#39;ast&#39;</a><br>
                     
-                
                 </td>
             </tr>
         
@@ -2206,12 +2065,10 @@
                         Copr - python-rx
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2327979">Bugzilla - python-rx</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2327979">python-rx fails to build with Python 3.14: RuntimeError: There is no current event loop in thread &#39;MainThread&#39;.</a><br>
                     
-                
                 </td>
             </tr>
         
@@ -2223,12 +2080,10 @@
                         Copr - python-s3transfer
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2326933">Bugzilla - python-s3transfer</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2326933">python-s3transfer fails to build with Python 3.14: _pickle.PicklingError: Can&#39;t pickle local object &lt;class &#39;tests.unit.test_compat.TestBaseManager.create_pid_manager.&lt;locals&gt;.PIDManager&#39;&gt;</a><br>
                     
-                
                 </td>
             </tr>
         
@@ -2240,12 +2095,10 @@
                         Copr - python-scantree
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2328021">Bugzilla - python-scantree</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2328021">python-scantree fails to build with Python 3.14: AssertionError: assert 1.2218716144561768 &lt; (2.0 / 2)</a><br>
                     
-                
                 </td>
             </tr>
         
@@ -2257,8 +2110,8 @@
                         Copr - python-scp
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
+                    
                 </td>
             </tr>
         
@@ -2270,12 +2123,10 @@
                         Copr - python-serpy
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2319716">Bugzilla - python-serpy</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2319716">python-serpy fails to build with setuptools 74+</a><br>
                     
-                
                 </td>
             </tr>
         
@@ -2287,12 +2138,10 @@
                         Copr - python-sh
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2327986">Bugzilla - python-sh</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2327986">python-sh fails to build with Python 3.14: RuntimeError: There is no current event loop in thread &#39;MainThread&#39;.</a><br>
                     
-                
                 </td>
             </tr>
         
@@ -2304,12 +2153,10 @@
                         Copr - python-simplegeneric
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2319717">Bugzilla - python-simplegeneric</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2319717">python-simplegeneric fails to build with setuptools 74+: uses removed setup.py test</a><br>
                     
-                
                 </td>
             </tr>
         
@@ -2321,12 +2168,10 @@
                         Copr - python-singledispatch
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2319718">Bugzilla - python-singledispatch</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2319718">python-singledispatch fails to build with setuptools 74+</a><br>
                     
-                
                 </td>
             </tr>
         
@@ -2338,12 +2183,10 @@
                         Copr - python-six
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2327971">Bugzilla - python-six</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2327971">python-six fails to build with Python 3.14: test_move_items_urllib_request: AttributeError: module &#39;six.moves.urllib.request&#39; has no attribute &#39;URLopener&#39; / &#39;FancyURLopener&#39;</a><br>
                     
-                
                 </td>
             </tr>
         
@@ -2355,12 +2198,10 @@
                         Copr - python-social-auth-core
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2328010">Bugzilla - python-social-auth-core</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2328010">python-social-auth-core fails to build with Python 3.14: &#39;SSLContext&#39; object has no attribute &#39;close&#39;</a><br>
                     
-                
                 </td>
             </tr>
         
@@ -2372,12 +2213,10 @@
                         Copr - python-sphinxcontrib-autoprogram
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2319720">Bugzilla - python-sphinxcontrib-autoprogram</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2319720">python-sphinxcontrib-autoprogram fails to build with setuptools 74+</a><br>
                     
-                
                 </td>
             </tr>
         
@@ -2389,12 +2228,10 @@
                         Copr - python-sqlalchemy1.4
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2327976">Bugzilla - python-sqlalchemy1.4</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2327976">python-sqlalchemy1.4 fails to build with Python 3.14: RuntimeError: There is no current event loop in thread &#39;MainThread&#39;.</a><br>
                     
-                
                 </td>
             </tr>
         
@@ -2406,8 +2243,8 @@
                         Copr - python-ssh-python
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
+                    
                 </td>
             </tr>
         
@@ -2419,8 +2256,8 @@
                         Copr - python-surt
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
+                    
                 </td>
             </tr>
         
@@ -2432,12 +2269,10 @@
                         Copr - python-tenacity
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2327977">Bugzilla - python-tenacity</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2327977">python-tenacity fails to build with Python 3.14: RuntimeError: There is no current event loop in thread &#39;MainThread&#39;.</a><br>
                     
-                
                 </td>
             </tr>
         
@@ -2449,8 +2284,8 @@
                         Copr - python-terminado
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
+                    
                 </td>
             </tr>
         
@@ -2462,12 +2297,10 @@
                         Copr - python-tgscheduler
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2319728">Bugzilla - python-tgscheduler</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2319728">python-tgscheduler fails to build with setuptools 74+</a><br>
                     
-                
                 </td>
             </tr>
         
@@ -2479,12 +2312,10 @@
                         Copr - python-toolz
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2323168">Bugzilla - python-toolz</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2323168">python-toolz fails to build with Python 3.14: AssertionError: is_none: assert should_curry(getattr(operator, k)) == isinstance(v, toolz.curry), k</a><br>
                     
-                
                 </td>
             </tr>
         
@@ -2496,12 +2327,10 @@
                         Copr - python-tornado
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2327969">Bugzilla - python-tornado</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2327969">python-tornado fails to build with Python 3.14: RuntimeError: There is no current event loop in thread &#39;MainThread&#39;.</a><br>
                     
-                
                 </td>
             </tr>
         
@@ -2513,8 +2342,8 @@
                         Copr - python-tpm2-pytss
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
+                    
                 </td>
             </tr>
         
@@ -2526,12 +2355,23 @@
                         Copr - python-tree-format
                     </a>
                 </td>
+                <td class="max-width-column">
+                    
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2319731">python-tree-format fails to build with setuptools 74+</a><br>
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-python-twisted">
+                <td>python-twisted</td>
+                <td>🔴</td>
                 <td>
-                
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/python-twisted/">
+                        Copr - python-twisted
+                    </a>
+                </td>
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2319731">Bugzilla - python-tree-format</a><br>
-                    
-                
                 </td>
             </tr>
         
@@ -2543,12 +2383,10 @@
                         Copr - python-txaio
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2327981">Bugzilla - python-txaio</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2327981">python-txaio fails to build with Python 3.14: RuntimeError: There is no current event loop in thread &#39;MainThread&#39;.</a><br>
                     
-                
                 </td>
             </tr>
         
@@ -2560,12 +2398,10 @@
                         Copr - python-typeguard
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2328015">Bugzilla - python-typeguard</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2328015">python-typeguard fails to build with Python 3.14: typeguard.TypeCheckError: argument &#34;x&#34; (class dummymodule.DummyClass) is not a subclass of dummymodule.DummyClass &amp;&amp; AssertionError: Regex pattern did not match.</a><br>
                     
-                
                 </td>
             </tr>
         
@@ -2577,12 +2413,10 @@
                         Copr - python-typing-inspect
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2325455">Bugzilla - python-typing-inspect</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2325455">python-typing-inspect fails to build with Python 3.14: AssertionError: {} != {&#39;x&#39;: &lt;class &#39;int&#39;&gt;, &#39;y&#39;: &lt;class &#39;int&#39;&gt;}</a><br>
                     
-                
                 </td>
             </tr>
         
@@ -2594,12 +2428,10 @@
                         Copr - python-urwid
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2327984">Bugzilla - python-urwid</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2327984">python-urwid fails to build with Python 3.14: RuntimeError: There is no current event loop in thread &#39;MainThread&#39;.</a><br>
                     
-                
                 </td>
             </tr>
         
@@ -2611,12 +2443,10 @@
                         Copr - python-uvloop
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2326210">Bugzilla - python-uvloop</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2326210">python-uvloop fails to build with Python 3.14: AttributeError: module &#39;asyncio&#39; has no attribute &#39;AbstractChildWatcher&#39;</a><br>
                     
-                
                 </td>
             </tr>
         
@@ -2628,12 +2458,10 @@
                         Copr - python-valkey
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2326934">Bugzilla - python-valkey</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2326934">python-valkey fails to build with Python 3.14: _pickle.PicklingError: Can&#39;t pickle local object &lt;function TestMultiprocessing.test_close_connection_in_child.&lt;locals&gt;.target at 0x7f7d711b5dd0&gt;</a><br>
                     
-                
                 </td>
             </tr>
         
@@ -2645,12 +2473,10 @@
                         Copr - python-webscrapbook
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2326915">Bugzilla - python-webscrapbook</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2326915">python-webscrapbook fails to build with Python 3.14: 60x AssertionError in the test suite</a><br>
                     
-                
                 </td>
             </tr>
         
@@ -2662,12 +2488,10 @@
                         Copr - python-xunitparser
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2319738">Bugzilla - python-xunitparser</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2319738">python-xunitparser fails to build with setuptools 74+</a><br>
                     
-                
                 </td>
             </tr>
         
@@ -2679,12 +2503,10 @@
                         Copr - python-yappi
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2323160">Bugzilla - python-yappi</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2323160">python-yappi fails to build with Python 3.14: error: invalid use of incomplete typedef ‘PyGenObject’ {aka ‘struct _PyGenObject’}</a><br>
                     
-                
                 </td>
             </tr>
         
@@ -2696,8 +2518,8 @@
                         Copr - python-zc-lockfile
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
+                    
                 </td>
             </tr>
         
@@ -2709,12 +2531,10 @@
                         Copr - python-zict
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2328012">Bugzilla - python-zict</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2328012">python-zict fails to build with Python 3.14: test_stress_different_keys_threadsafe Timeout</a><br>
                     
-                
                 </td>
             </tr>
         
@@ -2726,12 +2546,10 @@
                         Copr - python-zope-deprecation
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2319742">Bugzilla - python-zope-deprecation</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2319742">python-zope-deprecation fails to build with setuptools 74+</a><br>
                     
-                
                 </td>
             </tr>
         
@@ -2743,12 +2561,10 @@
                         Copr - python-zope-interface
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2325170">Bugzilla - python-zope-interface</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2325170">python-zope-interface fails to build with Python 3.14: zope.interface.exceptions.InvalidInterface: Concrete attribute, __classdictcell__</a><br>
                     
-                
                 </td>
             </tr>
         
@@ -2760,8 +2576,8 @@
                         Copr - python-zope-testing
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
+                    
                 </td>
             </tr>
         
@@ -2773,12 +2589,10 @@
                         Copr - python-zstandard
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2326925">Bugzilla - python-zstandard</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2326925">python-zstandard fails to build with Python 3.14: ImportError: cannot import name &#39;ByteString&#39; from &#39;typing&#39;</a><br>
                     
-                
                 </td>
             </tr>
         
@@ -2790,12 +2604,10 @@
                         Copr - python3-mallard-ducktype
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2319747">Bugzilla - python3-mallard-ducktype</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2319747">python3-mallard-ducktype fails to build with setuptools 74+</a><br>
                     
-                
                 </td>
             </tr>
         
@@ -2807,8 +2619,8 @@
                         Copr - qgis
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
+                    
                 </td>
             </tr>
         
@@ -2820,12 +2632,10 @@
                         Copr - qpid-proton
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2327999">Bugzilla - qpid-proton</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2327999">qpid-proton fails to build with Python 3.14: error: File not found: /builddir/build/BUILD/qpid-proton-0.38.0-build/BUILDROOT/usr/share/proton/docs/api-py</a><br>
                     
-                
                 </td>
             </tr>
         
@@ -2837,8 +2647,8 @@
                         Copr - qtile
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
+                    
                 </td>
             </tr>
         
@@ -2850,8 +2660,8 @@
                         Copr - realtime-tests
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
+                    
                 </td>
             </tr>
         
@@ -2863,8 +2673,8 @@
                         Copr - rmol
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
+                    
                 </td>
             </tr>
         
@@ -2876,8 +2686,8 @@
                         Copr - rrdtool
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
+                    
                 </td>
             </tr>
         
@@ -2889,8 +2699,8 @@
                         Copr - ruff
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
+                    
                 </td>
             </tr>
         
@@ -2902,12 +2712,10 @@
                         Copr - satyr
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2325452">Bugzilla - satyr</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2325452">satyr fails to build with Python 3.14: _pickle.PicklingError: Can&#39;t pickle local object &lt;function TestDistances.test_distances_part_parallel.&lt;locals&gt;.do_test.&lt;locals&gt;.compute_part at 0x7f7f845f2560&gt;</a><br>
                     
-                
                 </td>
             </tr>
         
@@ -2919,12 +2727,10 @@
                         Copr - sentencepiece
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2319749">Bugzilla - sentencepiece</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2319749">sentencepiece fails to build with setuptools 74+</a><br>
                     
-                
                 </td>
             </tr>
         
@@ -2936,8 +2742,8 @@
                         Copr - trademgen
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
+                    
                 </td>
             </tr>
         
@@ -2949,12 +2755,10 @@
                         Copr - visidata
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2325446">Bugzilla - visidata</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2325446">visidata fails to build with Python 3.14: TestVisidataPath.test_withName: AssertionError: assert &#39;foo&#39; == &#39;foo.&#39;</a><br>
                     
-                
                 </td>
             </tr>
         
@@ -2966,8 +2770,8 @@
                         Copr - vtk
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
+                    
                 </td>
             </tr>
         
@@ -2979,8 +2783,8 @@
                         Copr - watchman
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
+                    
                 </td>
             </tr>
         
@@ -2992,12 +2796,10 @@
                         Copr - weechat
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2322708">Bugzilla - weechat</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2322708">weechat fails to build with Python 3.14: AttributeError: &#39;Constant&#39; object has no attribute &#39;s&#39;</a><br>
                     
-                
                 </td>
             </tr>
         
@@ -3009,8 +2811,8 @@
                         Copr - xpra
                     </a>
                 </td>
-                <td>
-                
+                <td class="max-width-column">
+                    
                 </td>
             </tr>
         
@@ -3025,7 +2827,7 @@
     <hr>
     <footer>
       <p>Maintained by <a href="https://github.com/befeleme">@befeleme</a>, source on <a href="https://github.com/befeleme/fedora-python-rebuild-status">GitHub</a>.</p>
-      <p>Last updated on <span class="date">2024-11-25 08:43:37.138890</span> (updated daily)</p>
+      <p>Last updated on <span class="date">2024-11-25 14:54:20.520924</span> (updated daily)</p>
     </footer>
   </div>
 </body>
