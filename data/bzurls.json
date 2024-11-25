@@ -1,444 +1,1274 @@
 {
-  "alot": [],
-  "borgbackup": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2326916"
-  ],
-  "brltty": [],
-  "collectd": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2317175"
-  ],
-  "did": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2328006"
-  ],
-  "dlib": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2328014"
-  ],
-  "dnf": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2323186"
-  ],
-  "grammalecte": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2319629"
-  ],
-  "hivex": [],
-  "lammps": [],
-  "lasso": [],
-  "libgpiod": [],
-  "libnvme": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2325194"
-  ],
-  "link-grammar": [],
-  "mopidy": [],
-  "ntpsec": [],
-  "openmeeg": [],
-  "openvswitch": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2328018"
-  ],
-  "pcs": [],
-  "postgresql17": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2327967"
-  ],
-  "protobuf": [],
-  "pychess": [],
-  "pygsl": [],
-  "pyserial-asyncio": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2327980"
-  ],
-  "python-aiosmtpd": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2322718"
-  ],
-  "python-argcomplete": [],
-  "python-astor": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2322712"
-  ],
-  "python-astroid": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2323166"
-  ],
-  "python-async-lru": [],
-  "python-asyncssh": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2325445"
-  ],
-  "python-autocommand": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2327972"
-  ],
-  "python-avocado": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2325218"
-  ],
-  "python-awscrt": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2322714"
-  ],
-  "python-backrefs": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2325184"
-  ],
-  "python-beartype": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2322721"
-  ],
-  "python-billiard": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2323167"
-  ],
-  "python-binaryornot": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2319640"
-  ],
-  "python-bowler": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2328013"
-  ],
-  "python-capturer": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2328004"
-  ],
-  "python-cccolutils": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2319642"
-  ],
-  "python-chameleon": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2322715"
-  ],
-  "python-cloudpickle": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2328024"
-  ],
-  "python-cmd2": [],
-  "python-colcon-parallel-executor": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2325186"
-  ],
-  "python-colorful": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2325168"
-  ],
-  "python-commoncode": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2325197"
-  ],
-  "python-confuse": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2327966"
-  ],
-  "python-cramjam": [],
-  "python-cysignals": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2325457"
-  ],
-  "python-dataclassy": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2325200"
-  ],
-  "python-dill": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2323157"
-  ],
-  "python-django-allauth": [],
-  "python-django-compressor": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2322719"
-  ],
-  "python-django-contrib-comments": [],
-  "python-django-debreach": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2328003"
-  ],
-  "python-django-filter": [],
-  "python-django-mailman3": [],
-  "python-djangoql": [],
-  "python-docstring-parser": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2325441"
-  ],
-  "python-drgn": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2325185"
-  ],
-  "python-dunamai": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2328011"
-  ],
-  "python-engineio": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2327989"
-  ],
-  "python-epub": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2319654"
-  ],
-  "python-etcd": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2323184"
-  ],
-  "python-events": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2319655"
-  ],
-  "python-falcon": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2328020"
-  ],
-  "python-flask": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2327965"
-  ],
-  "python-flit": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2326226"
-  ],
-  "python-flufl-i18n": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2319659"
-  ],
-  "python-freecell_solver": [],
-  "python-genty": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2319661"
-  ],
-  "python-giacpy": [],
-  "python-grip": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2328009"
-  ],
-  "python-h2": [],
-  "python-h5netcdf": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2325222"
-  ],
-  "python-iniparse": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2323164"
-  ],
-  "python-inject": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2327978"
-  ],
-  "python-irc": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2327991"
-  ],
-  "python-jack-client": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2319666"
-  ],
-  "python-jcconv": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2319667"
-  ],
-  "python-jeepney": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2327982"
-  ],
-  "python-jiter": [],
-  "python-josepy": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2323171"
-  ],
-  "python-libarchive-c": [],
-  "python-libcst": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2328019"
-  ],
-  "python-makefun": [],
-  "python-matplotlib": [],
-  "python-mccabe": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2328016"
-  ],
-  "python-msal": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2323170"
-  ],
-  "python-msgspec": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2325169"
-  ],
-  "python-neovim": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2326224"
-  ],
-  "python-nose": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2323163"
-  ],
-  "python-openidc-client": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2319685"
-  ],
-  "python-oscrypto": [],
-  "python-parsel": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2319689"
-  ],
-  "python-parso": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2325187"
-  ],
-  "python-pdfkit": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2319690"
-  ],
-  "python-pdm-backend": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2327997"
-  ],
-  "python-pexpect": [],
-  "python-pooch": [],
-  "python-precis_i18n": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2325183"
-  ],
-  "python-pulp-glue": [],
-  "python-pure-protobuf": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2322710"
-  ],
-  "python-pycec": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2327973"
-  ],
-  "python-pyclipper": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2319696"
-  ],
-  "python-pydantic-core": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2325425"
-  ],
-  "python-pydispatcher": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2319697"
-  ],
-  "python-pyemd": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2319698"
-  ],
-  "python-pygit2": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2328023"
-  ],
-  "python-pymdown-extensions": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2325198"
-  ],
-  "python-pymediainfo": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2319700"
-  ],
-  "python-pymeeus": [],
-  "python-pyside6": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2325444"
-  ],
-  "python-pytaglib": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2319705"
-  ],
-  "python-pytesseract": [],
-  "python-pytest-django": [],
-  "python-pytest-flakes": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2319708"
-  ],
-  "python-pytest-localftpserver": [],
-  "python-pytest-rerunfailures": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2327998"
-  ],
-  "python-pytest-runner": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2319709"
-  ],
-  "python-pytest-split": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2325447"
-  ],
-  "python-pyupgrade": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2322713"
-  ],
-  "python-pyvlx": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2327983"
-  ],
-  "python-reactivex": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2327987"
-  ],
-  "python-readability-lxml": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2323185"
-  ],
-  "python-recordclass": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2327968"
-  ],
-  "python-redis": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2326927"
-  ],
-  "python-remoto": [],
-  "python-repoze-lru": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2319711"
-  ],
-  "python-requests-toolbelt": [],
-  "python-resumable-urlretrieve": [],
-  "python-rpmfluff": [],
-  "python-rstcheck": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2322705"
-  ],
-  "python-ruamel-yaml": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2323169"
-  ],
-  "python-rx": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2327979"
-  ],
-  "python-s3transfer": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2326933"
-  ],
-  "python-scantree": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2328021"
-  ],
-  "python-scp": [],
-  "python-serpy": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2319716"
-  ],
-  "python-sh": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2327986"
-  ],
-  "python-simplegeneric": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2319717"
-  ],
-  "python-singledispatch": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2319718"
-  ],
-  "python-six": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2327971"
-  ],
-  "python-social-auth-core": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2328010"
-  ],
-  "python-sphinxcontrib-autoprogram": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2319720"
-  ],
-  "python-sphinxcontrib-blockdiag": [],
-  "python-sphinxcontrib-seqdiag": [],
-  "python-sqlalchemy1.4": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2327976"
-  ],
-  "python-ssh-python": [],
-  "python-surt": [],
-  "python-tenacity": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2327977"
-  ],
-  "python-terminado": [],
-  "python-tgscheduler": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2319728"
-  ],
-  "python-toolz": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2323168"
-  ],
-  "python-tornado": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2327969"
-  ],
-  "python-tpm2-pytss": [],
-  "python-tree-format": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2319731"
-  ],
-  "python-txaio": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2327981"
-  ],
-  "python-typeguard": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2328015"
-  ],
-  "python-typing-inspect": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2325455"
-  ],
-  "python-urwid": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2327984"
-  ],
-  "python-uvloop": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2326210"
-  ],
-  "python-valkey": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2326934"
-  ],
-  "python-webscrapbook": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2326915"
-  ],
-  "python-xunitparser": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2319738"
-  ],
-  "python-yappi": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2323160"
-  ],
-  "python-zc-lockfile": [],
-  "python-zict": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2328012"
-  ],
-  "python-zope-deprecation": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2319742"
-  ],
-  "python-zope-interface": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2325170"
-  ],
-  "python-zope-testing": [],
-  "python-zstandard": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2326925"
-  ],
-  "python3-mallard-ducktype": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2319747"
-  ],
-  "qgis": [],
-  "qpid-proton": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2327999"
-  ],
-  "qtile": [],
-  "realtime-tests": [],
-  "rmol": [],
-  "rrdtool": [],
-  "ruff": [],
-  "satyr": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2325452"
-  ],
-  "sentencepiece": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2319749"
-  ],
-  "trademgen": [],
-  "visidata": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2325446"
-  ],
-  "vtk": [],
-  "watchman": [],
-  "weechat": [
-    "https://bugzilla.redhat.com/show_bug.cgi?id=2322708"
-  ],
-  "xpra": []
+  "alot": {
+    "urls": [],
+    "summaries": []
+  },
+  "borgbackup": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2326916"
+    ],
+    "summaries": [
+      "borgbackup fails to build with Python 3.14: OSError: AF_UNIX path too long when compiling"
+    ]
+  },
+  "brltty": {
+    "urls": [],
+    "summaries": []
+  },
+  "collectd": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2317175"
+    ],
+    "summaries": [
+      "collectd-5.12.0-44.fc42 FTBFS: configure: error: Some plugins are missing dependencies"
+    ]
+  },
+  "did": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2328006"
+    ],
+    "summaries": [
+      "did fails to build with Python 3.14: AttributeError: module 'urllib.request' has no attribute 'FancyURLopener'"
+    ]
+  },
+  "dlib": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2328014"
+    ],
+    "summaries": [
+      "dlib fails to build with Python 3.14: AttributeError: module 'pkgutil' has no attribute 'find_loader'"
+    ]
+  },
+  "dnf": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2323186"
+    ],
+    "summaries": [
+      "dnf fails to build with Python 3.14: TypeError: cannot pickle '_thread.RLock' object"
+    ]
+  },
+  "espresso": {
+    "urls": [],
+    "summaries": []
+  },
+  "grammalecte": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2319629"
+    ],
+    "summaries": [
+      "grammalecte fails to build with setuptools 74+"
+    ]
+  },
+  "hivex": {
+    "urls": [],
+    "summaries": []
+  },
+  "lammps": {
+    "urls": [],
+    "summaries": []
+  },
+  "lasso": {
+    "urls": [],
+    "summaries": []
+  },
+  "libgpiod": {
+    "urls": [],
+    "summaries": []
+  },
+  "libnvme": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2325194"
+    ],
+    "summaries": [
+      "libnvme fails to build with Python 3.14: /usr/include/python3.14/pyport.h:629:35: error: missing ')' after \"__has_attribute\""
+    ]
+  },
+  "link-grammar": {
+    "urls": [],
+    "summaries": []
+  },
+  "mopidy": {
+    "urls": [],
+    "summaries": []
+  },
+  "ntpsec": {
+    "urls": [],
+    "summaries": []
+  },
+  "openmeeg": {
+    "urls": [],
+    "summaries": []
+  },
+  "openvswitch": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2328018"
+    ],
+    "summaries": [
+      "openvswitch fails to build with Python 3.14: 3 tests failure"
+    ]
+  },
+  "pcs": {
+    "urls": [],
+    "summaries": []
+  },
+  "postgresql17": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2327967"
+    ],
+    "summaries": [
+      "postgresql17 fails to build with Python 3.14: jsonb_jsonpath fails: - \"12:34:56-07:00\" != + \"12:34:56-08:00\""
+    ]
+  },
+  "protobuf": {
+    "urls": [],
+    "summaries": []
+  },
+  "pychess": {
+    "urls": [],
+    "summaries": []
+  },
+  "pygsl": {
+    "urls": [],
+    "summaries": []
+  },
+  "pyserial-asyncio": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2327980"
+    ],
+    "summaries": [
+      "pyserial-asyncio fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
+    ]
+  },
+  "python-aiosmtpd": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2322718"
+    ],
+    "summaries": [
+      "python-aiosmtpd fails to build with Python 3.14: ImportError: cannot import name 'ByteString' from 'typing'"
+    ]
+  },
+  "python-anyio": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-argcomplete": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-astor": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2322712"
+    ],
+    "summaries": [
+      "python-astor fails to build with Python 3.14: AttributeError: module 'ast' has no attribute 'Num' / 'Str'"
+    ]
+  },
+  "python-astroid": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2323166"
+    ],
+    "summaries": [
+      "python-astroid fails to build with Python 3.14: astroid.exceptions.InferenceError: StopIteration raised without any error information."
+    ]
+  },
+  "python-async-lru": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-asyncssh": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2325445"
+    ],
+    "summaries": [
+      "python-asyncssh fails to build with Python 3.14: multiple test failures (failures=25, errors=697)"
+    ]
+  },
+  "python-autocommand": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2327972"
+    ],
+    "summaries": [
+      "python-autocommand fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
+    ]
+  },
+  "python-avocado": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2325218"
+    ],
+    "summaries": [
+      "python-avocado fails to build with Python 3.14: Error running method \"pre_tests\" of plugin \"fetchasset\": module 'ast' has no attribute 'Str' + Avocado crashed: TypeError: cannot pickle '_thread.RLock' object"
+    ]
+  },
+  "python-awscrt": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2322714"
+    ],
+    "summaries": [
+      "python-awscrt fails to build with Python 3.14: ImportError: cannot import name 'ByteString' from 'collections.abc'"
+    ]
+  },
+  "python-backrefs": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2325184"
+    ],
+    "summaries": [
+      "python-backrefs fails to build with Python 3.14: Failed to acquire all needed Unicode files!"
+    ]
+  },
+  "python-beartype": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2322721"
+    ],
+    "summaries": [
+      "python-beartype fails to build with Python 3.14: ImportError: cannot import name 'ByteString' from 'typing'"
+    ]
+  },
+  "python-billiard": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2323167"
+    ],
+    "summaries": [
+      "python-billiard fails to build with Python 3.14: AttributeError: module 'subprocess' has no attribute '_USE_VFORK'"
+    ]
+  },
+  "python-binaryornot": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2319640"
+    ],
+    "summaries": [
+      "python-binaryornot fails to build with setuptools 74+"
+    ]
+  },
+  "python-bowler": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2328013"
+    ],
+    "summaries": [
+      "python-bowler fails to build with Python 3.14: test_run_bowler_modifier_ferries_exception: AssertionError: AssertionError not raised by <lambda>"
+    ]
+  },
+  "python-capturer": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2328004"
+    ],
+    "summaries": [
+      "python-capturer fails to build with Python 3.14: OSError: [Errno 29] Illegal seek"
+    ]
+  },
+  "python-cccolutils": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2319642"
+    ],
+    "summaries": [
+      "python-cccolutils fails to build with setuptools 74+"
+    ]
+  },
+  "python-chameleon": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2322715"
+    ],
+    "summaries": [
+      "python-chameleon fails to build with Python 3.14: AttributeError: module 'ast' has no attribute 'Str'"
+    ]
+  },
+  "python-cloudpickle": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2328024"
+    ],
+    "summaries": [
+      "python-cloudpickle fails to build with Python 3.14: CloudPickleFileTests.test_empty_file: RecursionError: maximum recursion depth exceeded in comparison"
+    ]
+  },
+  "python-cmd2": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-colcon-parallel-executor": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2325186"
+    ],
+    "summaries": [
+      "python-colcon-parallel-executor fails to build with Python 3.14: test_parallel: AssertionError: DeprecationWarning: 'asyncio.iscoroutinefunction' is deprecated and slated for removal in Python 3.16; use inspect.iscoroutinefunction() instead"
+    ]
+  },
+  "python-colorful": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2325168"
+    ],
+    "summaries": [
+      "python-colorful fails to build with Python 3.14: ast.Constant.s has been removed from Python 3.14"
+    ]
+  },
+  "python-commoncode": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2325197"
+    ],
+    "summaries": [
+      "python-commoncode fails to build with Python 3.14: tarfile.SpecialFileError: '6-FIFOTYPE' is a special file"
+    ]
+  },
+  "python-confuse": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2327966"
+    ],
+    "summaries": [
+      "python-confuse fails to build with Python 3.14: AttributeError: module 'pkgutil' has no attribute 'get_loader'"
+    ]
+  },
+  "python-cramjam": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-crick": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-cysignals": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2325457"
+    ],
+    "summaries": [
+      "python-cysignals fails to build with Python 3.14: Doctest src/cysignals/pselect.pyx terminated. Timeout limit exceeded (>2400s)"
+    ]
+  },
+  "python-dataclassy": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2325200"
+    ],
+    "summaries": [
+      "python-dataclassy fails to build with Python 3.14: TypeError: Beta() takes no arguments"
+    ]
+  },
+  "python-dill": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2323157"
+    ],
+    "summaries": [
+      "python-dill fails to build with Python 3.14: TypeError: _Pickler._batch_setitems() missing 1 required positional argument: 'obj'"
+    ]
+  },
+  "python-django-allauth": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-django-compressor": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2322719"
+    ],
+    "summaries": [
+      "python-django-compressor fails to build with Python 3.14: 'Constant' object has no attribute 's'"
+    ]
+  },
+  "python-django-contrib-comments": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-django-debreach": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2328003"
+    ],
+    "summaries": [
+      "python-django-debreach fails to build with Python 3.14: AttributeError: 'super' object has no attribute 'dicts' and no __dict__ for setting new attributes"
+    ]
+  },
+  "python-django-filter": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-django-mailman3": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-djangoql": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-docstring-parser": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2325441"
+    ],
+    "summaries": [
+      "python-docstring-parser fails to build with Python 3.14: AttributeError: module 'ast' has no attribute 'NameConstant'"
+    ]
+  },
+  "python-drgn": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2325185"
+    ],
+    "summaries": [
+      "python-drgn fails to build with Python 3.14: module 'ast' has no attribute 'Str'"
+    ]
+  },
+  "python-engineio": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2327989"
+    ],
+    "summaries": [
+      "python-engineio fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
+    ]
+  },
+  "python-epub": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2319654"
+    ],
+    "summaries": [
+      "python-epub fails to build with setuptools 74+"
+    ]
+  },
+  "python-etcd": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2323184"
+    ],
+    "summaries": [
+      "python-etcd fails to build with Python 3.14: _pickle.PicklingError: Can't pickle local object <function TestWatch.test_watch_indexed_generator.<locals>.watch_value at 0x7f0d39f71dd0>"
+    ]
+  },
+  "python-events": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2319655"
+    ],
+    "summaries": [
+      "python-events fails to build with setuptools 74+"
+    ]
+  },
+  "python-falcon": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2328020"
+    ],
+    "summaries": [
+      "python-falcon fails to build with Python 3.14: KeyError: 'partitioned'"
+    ]
+  },
+  "python-flask": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2327965"
+    ],
+    "summaries": [
+      "python-flask fails to build with Python 3.14: AttributeError: module 'pkgutil' has no attribute 'get_loader'"
+    ]
+  },
+  "python-flit": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2326226"
+    ],
+    "summaries": [
+      "python-flit fails to build with Python 3.14: AttributeError: module 'ast' has no attribute 'Str'"
+    ]
+  },
+  "python-flufl-i18n": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2319659"
+    ],
+    "summaries": [
+      "python-flufl-i18n fails to build with setuptools 74+"
+    ]
+  },
+  "python-freecell_solver": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-genty": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2319661"
+    ],
+    "summaries": [
+      "python-genty fails to build with setuptools 74+: uses removed setup.py test"
+    ]
+  },
+  "python-giacpy": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-grip": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2328009"
+    ],
+    "summaries": [
+      "python-grip fails to build with Python 3.14:  AssertionError: assert '/usr/lib/pyt...e terminal.\\n' == 'Usage:\\n  gr...e terminal.\\n'"
+    ]
+  },
+  "python-h2": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-h5netcdf": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2325222"
+    ],
+    "summaries": [
+      "python-h5netcdf fails to build with Python 3.14: test_no_circular_references: AssertionError"
+    ]
+  },
+  "python-img2pdf": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-iniparse": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2323164"
+    ],
+    "summaries": [
+      "python-iniparse fails to build with Python 3.14: _pickle.PicklingError: Can't pickle local object <function TestIni.test_queue.<locals>.getxy at 0x7f86659a7740>"
+    ]
+  },
+  "python-inject": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2327978"
+    ],
+    "summaries": [
+      "python-inject fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
+    ]
+  },
+  "python-irc": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2327991"
+    ],
+    "summaries": [
+      "python-irc fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
+    ]
+  },
+  "python-jack-client": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2319666"
+    ],
+    "summaries": [
+      "python-jack-client fails to build with setuptools 74+"
+    ]
+  },
+  "python-jcconv": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2319667"
+    ],
+    "summaries": [
+      "python-jcconv fails to build with setuptools 74+"
+    ]
+  },
+  "python-jeepney": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2327982"
+    ],
+    "summaries": [
+      "python-jeepney fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
+    ]
+  },
+  "python-jiter": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-josepy": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2323171"
+    ],
+    "summaries": [
+      "python-josepy fails to build with Python 3.14: 6x ValueError: Field `alg` in JSONObject `Header` has no type annotation."
+    ]
+  },
+  "python-klusta": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2319674"
+    ],
+    "summaries": [
+      "python-klusta fails to build with setuptools 74+"
+    ]
+  },
+  "python-libarchive-c": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-libcst": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2328019"
+    ],
+    "summaries": [
+      "python-libcst fails to build with Python 3.14: AttributeError: module 'typing' has no attribute 'ByteString'"
+    ]
+  },
+  "python-makefun": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-matplotlib": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-mccabe": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2328016"
+    ],
+    "summaries": [
+      "python-mccabe fails to build with Python 3.14: AttributeError: module 'typing' has no attribute 'ByteString'"
+    ]
+  },
+  "python-msal": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2323170"
+    ],
+    "summaries": [
+      "python-msal fails to build with Python 3.14: test_no_two_concurrent_receivers_can_listen_on_same_port: AssertionError: OSError not raised"
+    ]
+  },
+  "python-msgspec": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2325169"
+    ],
+    "summaries": [
+      "python-msgspec fails to build with Python 3.14: error: \u2018_Py_IMMORTAL_REFCNT\u2019 undeclared here"
+    ]
+  },
+  "python-neovim": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2326224"
+    ],
+    "summaries": [
+      "python-neovim fails to build with Python 3.14: AttributeError: module 'asyncio' has no attribute 'get_child_watcher'"
+    ]
+  },
+  "python-nibabel": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-nose": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2323163"
+    ],
+    "summaries": [
+      "python-nose fails to build with Python 3.14: multiple AssertionErrors related to timeouts in test outputs"
+    ]
+  },
+  "python-openidc-client": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2319685"
+    ],
+    "summaries": [
+      "python-openidc-client fails to build with setuptools 74+"
+    ]
+  },
+  "python-oscrypto": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-parsel": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2319689"
+    ],
+    "summaries": [
+      "python-parsel fails to build with setuptools 74+"
+    ]
+  },
+  "python-parso": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2325187"
+    ],
+    "summaries": [
+      "python-parso fails to build with Python 3.14: NotImplementedError: Python version 3.14 is currently not supported."
+    ]
+  },
+  "python-pdfkit": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2319690"
+    ],
+    "summaries": [
+      "python-pdfkit fails to build with setuptools 74+"
+    ]
+  },
+  "python-pexpect": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-precis_i18n": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2325183"
+    ],
+    "summaries": [
+      "python-precis_i18n fails to build with Python 3.14: FileNotFoundError: [Errno 2] No such file or directory: '/builddir/build/BUILD/python-precis_i18n-1.1.0-build/precis_i18n-1.1.0/test/derived-props-16.0.txt'"
+    ]
+  },
+  "python-pulp-glue": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pure-protobuf": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2322710"
+    ],
+    "summaries": [
+      "python-pure-protobuf fails to build with Python 3.14: ImportError: cannot import name 'ByteString' from 'typing'"
+    ]
+  },
+  "python-pycec": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2327973"
+    ],
+    "summaries": [
+      "python-pycec fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
+    ]
+  },
+  "python-pyclipper": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2319696"
+    ],
+    "summaries": [
+      "python-pyclipper fails to build with setuptools 74+"
+    ]
+  },
+  "python-pydantic-core": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2325425"
+    ],
+    "summaries": [
+      "python-pydantic-core fails to build with Python 3.14: AssertionError: Regex pattern did not match. + AttributeError: module 'typing' has no attribute 'ByteString'"
+    ]
+  },
+  "python-pydispatcher": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2319697"
+    ],
+    "summaries": [
+      "python-pydispatcher fails to build with setuptools 74+"
+    ]
+  },
+  "python-pyemd": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2319698"
+    ],
+    "summaries": [
+      "python-pyemd fails to build with setuptools 74+"
+    ]
+  },
+  "python-pygit2": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2328023"
+    ],
+    "summaries": [
+      "python-pygit2 fails to build with Python 3.14: TypeError: 'GenericIterator' object is not iterable"
+    ]
+  },
+  "python-pymdown-extensions": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2325198"
+    ],
+    "summaries": [
+      "python-pymdown-extensions fails to build with Python 3.14: TestWindowsAbsFileScheme.test_windows_root_conversion: AssertionError"
+    ]
+  },
+  "python-pymediainfo": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2319700"
+    ],
+    "summaries": [
+      "python-pymediainfo fails to build with setuptools 74+"
+    ]
+  },
+  "python-pymeeus": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pyside6": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2325444"
+    ],
+    "summaries": [
+      "python-pyside6 fails to build with Python 3.14: TypeError: Formatter.formatannotation() got an unexpected keyword argument 'quote_annotation_strings'"
+    ]
+  },
+  "python-pytaglib": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2319705"
+    ],
+    "summaries": [
+      "python-pytaglib fails to build with setuptools 74+"
+    ]
+  },
+  "python-pytesseract": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pytest-django": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pytest-flakes": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2319708"
+    ],
+    "summaries": [
+      "python-pytest-flakes fails to build with setuptools 74+"
+    ]
+  },
+  "python-pytest-localftpserver": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pytest-rerunfailures": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2327998"
+    ],
+    "summaries": [
+      "python-pytest-rerunfailures fails to build with Python 3.14: remains unmatched: 'session teardown'"
+    ]
+  },
+  "python-pytest-runner": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2319709"
+    ],
+    "summaries": [
+      "python-pytest-runner fails to build with setuptools 74+"
+    ]
+  },
+  "python-pytest-split": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2325447"
+    ],
+    "summaries": [
+      "python-pytest-split fails to build with Python 3.14: TestRaisesUsageErrors.test_returns_nonzero_when_invalid_algorithm_name:  AssertionError"
+    ]
+  },
+  "python-pyupgrade": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2322713"
+    ],
+    "summaries": [
+      "python-pyupgrade fails to build with Python 3.14: AttributeError: module 'ast' has no attribute 'Str'"
+    ]
+  },
+  "python-pyvlx": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2327983"
+    ],
+    "summaries": [
+      "python-pyvlx fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
+    ]
+  },
+  "python-reactivex": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2327987"
+    ],
+    "summaries": [
+      "python-reactivex fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
+    ]
+  },
+  "python-readability-lxml": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2323185"
+    ],
+    "summaries": [
+      "python-readability-lxml fails to build with Python 3.14: _pickle.PicklingError: Can't pickle <function TestArticleOnly.test_many_repeated_spaces at 0x7ff0ea064460>: it's not the same object as tests.test_article_only.TestArticleOnly.test_many_repeated_spa"
+    ]
+  },
+  "python-recordclass": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2327968"
+    ],
+    "summaries": [
+      "python-recordclass fails to build with Python 3.14: 25 failures, 65 errors in the test suite"
+    ]
+  },
+  "python-redis": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2326927"
+    ],
+    "summaries": [
+      "python-redis fails to build with Python 3.14: _pickle.PicklingError: Can't pickle local object <function TestMultiprocessing.test_redis_client.<locals>.target at 0x7fd5f829efb0>"
+    ]
+  },
+  "python-remoto": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-repoze-lru": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2319711"
+    ],
+    "summaries": [
+      "python-repoze-lru fails to build with setuptools 74+"
+    ]
+  },
+  "python-requests-toolbelt": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-resumable-urlretrieve": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-rpmfluff": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-rstcheck": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2322705"
+    ],
+    "summaries": [
+      "python-rstcheck fails to build with Python 3.14: AttributeError: 'Constant' object has no attribute 's'"
+    ]
+  },
+  "python-ruamel-yaml": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2323169"
+    ],
+    "summaries": [
+      "python-ruamel-yaml fails to build with Python 3.14: ImportError: cannot import name 'Str' from 'ast'"
+    ]
+  },
+  "python-rx": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2327979"
+    ],
+    "summaries": [
+      "python-rx fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
+    ]
+  },
+  "python-s3transfer": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2326933"
+    ],
+    "summaries": [
+      "python-s3transfer fails to build with Python 3.14: _pickle.PicklingError: Can't pickle local object <class 'tests.unit.test_compat.TestBaseManager.create_pid_manager.<locals>.PIDManager'>"
+    ]
+  },
+  "python-scantree": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2328021"
+    ],
+    "summaries": [
+      "python-scantree fails to build with Python 3.14: AssertionError: assert 1.2218716144561768 < (2.0 / 2)"
+    ]
+  },
+  "python-scp": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-serpy": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2319716"
+    ],
+    "summaries": [
+      "python-serpy fails to build with setuptools 74+"
+    ]
+  },
+  "python-sh": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2327986"
+    ],
+    "summaries": [
+      "python-sh fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
+    ]
+  },
+  "python-simplegeneric": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2319717"
+    ],
+    "summaries": [
+      "python-simplegeneric fails to build with setuptools 74+: uses removed setup.py test"
+    ]
+  },
+  "python-singledispatch": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2319718"
+    ],
+    "summaries": [
+      "python-singledispatch fails to build with setuptools 74+"
+    ]
+  },
+  "python-six": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2327971"
+    ],
+    "summaries": [
+      "python-six fails to build with Python 3.14: test_move_items_urllib_request: AttributeError: module 'six.moves.urllib.request' has no attribute 'URLopener' / 'FancyURLopener'"
+    ]
+  },
+  "python-social-auth-core": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2328010"
+    ],
+    "summaries": [
+      "python-social-auth-core fails to build with Python 3.14: 'SSLContext' object has no attribute 'close'"
+    ]
+  },
+  "python-sphinxcontrib-autoprogram": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2319720"
+    ],
+    "summaries": [
+      "python-sphinxcontrib-autoprogram fails to build with setuptools 74+"
+    ]
+  },
+  "python-sphinxcontrib-blockdiag": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-sphinxcontrib-seqdiag": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-sqlalchemy1.4": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2327976"
+    ],
+    "summaries": [
+      "python-sqlalchemy1.4 fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
+    ]
+  },
+  "python-ssh-python": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-surt": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-tenacity": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2327977"
+    ],
+    "summaries": [
+      "python-tenacity fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
+    ]
+  },
+  "python-terminado": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-tgscheduler": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2319728"
+    ],
+    "summaries": [
+      "python-tgscheduler fails to build with setuptools 74+"
+    ]
+  },
+  "python-toolz": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2323168"
+    ],
+    "summaries": [
+      "python-toolz fails to build with Python 3.14: AssertionError: is_none: assert should_curry(getattr(operator, k)) == isinstance(v, toolz.curry), k"
+    ]
+  },
+  "python-tornado": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2327969"
+    ],
+    "summaries": [
+      "python-tornado fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
+    ]
+  },
+  "python-tpm2-pytss": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-tree-format": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2319731"
+    ],
+    "summaries": [
+      "python-tree-format fails to build with setuptools 74+"
+    ]
+  },
+  "python-twisted": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-txaio": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2327981"
+    ],
+    "summaries": [
+      "python-txaio fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
+    ]
+  },
+  "python-typeguard": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2328015"
+    ],
+    "summaries": [
+      "python-typeguard fails to build with Python 3.14: typeguard.TypeCheckError: argument \"x\" (class dummymodule.DummyClass) is not a subclass of dummymodule.DummyClass && AssertionError: Regex pattern did not match."
+    ]
+  },
+  "python-typing-inspect": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2325455"
+    ],
+    "summaries": [
+      "python-typing-inspect fails to build with Python 3.14: AssertionError: {} != {'x': <class 'int'>, 'y': <class 'int'>}"
+    ]
+  },
+  "python-urwid": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2327984"
+    ],
+    "summaries": [
+      "python-urwid fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
+    ]
+  },
+  "python-uvloop": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2326210"
+    ],
+    "summaries": [
+      "python-uvloop fails to build with Python 3.14: AttributeError: module 'asyncio' has no attribute 'AbstractChildWatcher'"
+    ]
+  },
+  "python-valkey": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2326934"
+    ],
+    "summaries": [
+      "python-valkey fails to build with Python 3.14: _pickle.PicklingError: Can't pickle local object <function TestMultiprocessing.test_close_connection_in_child.<locals>.target at 0x7f7d711b5dd0>"
+    ]
+  },
+  "python-webscrapbook": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2326915"
+    ],
+    "summaries": [
+      "python-webscrapbook fails to build with Python 3.14: 60x AssertionError in the test suite"
+    ]
+  },
+  "python-xunitparser": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2319738"
+    ],
+    "summaries": [
+      "python-xunitparser fails to build with setuptools 74+"
+    ]
+  },
+  "python-yappi": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2323160"
+    ],
+    "summaries": [
+      "python-yappi fails to build with Python 3.14: error: invalid use of incomplete typedef \u2018PyGenObject\u2019 {aka \u2018struct _PyGenObject\u2019}"
+    ]
+  },
+  "python-zc-lockfile": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-zict": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2328012"
+    ],
+    "summaries": [
+      "python-zict fails to build with Python 3.14: test_stress_different_keys_threadsafe Timeout"
+    ]
+  },
+  "python-zope-deprecation": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2319742"
+    ],
+    "summaries": [
+      "python-zope-deprecation fails to build with setuptools 74+"
+    ]
+  },
+  "python-zope-interface": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2325170"
+    ],
+    "summaries": [
+      "python-zope-interface fails to build with Python 3.14: zope.interface.exceptions.InvalidInterface: Concrete attribute, __classdictcell__"
+    ]
+  },
+  "python-zope-testing": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-zstandard": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2326925"
+    ],
+    "summaries": [
+      "python-zstandard fails to build with Python 3.14: ImportError: cannot import name 'ByteString' from 'typing'"
+    ]
+  },
+  "python3-mallard-ducktype": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2319747"
+    ],
+    "summaries": [
+      "python3-mallard-ducktype fails to build with setuptools 74+"
+    ]
+  },
+  "qgis": {
+    "urls": [],
+    "summaries": []
+  },
+  "qpid-proton": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2327999"
+    ],
+    "summaries": [
+      "qpid-proton fails to build with Python 3.14: error: File not found: /builddir/build/BUILD/qpid-proton-0.38.0-build/BUILDROOT/usr/share/proton/docs/api-py"
+    ]
+  },
+  "qtile": {
+    "urls": [],
+    "summaries": []
+  },
+  "realtime-tests": {
+    "urls": [],
+    "summaries": []
+  },
+  "rmol": {
+    "urls": [],
+    "summaries": []
+  },
+  "rrdtool": {
+    "urls": [],
+    "summaries": []
+  },
+  "ruff": {
+    "urls": [],
+    "summaries": []
+  },
+  "satyr": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2325452"
+    ],
+    "summaries": [
+      "satyr fails to build with Python 3.14: _pickle.PicklingError: Can't pickle local object <function TestDistances.test_distances_part_parallel.<locals>.do_test.<locals>.compute_part at 0x7f7f845f2560>"
+    ]
+  },
+  "sentencepiece": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2319749"
+    ],
+    "summaries": [
+      "sentencepiece fails to build with setuptools 74+"
+    ]
+  },
+  "trademgen": {
+    "urls": [],
+    "summaries": []
+  },
+  "visidata": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2325446"
+    ],
+    "summaries": [
+      "visidata fails to build with Python 3.14: TestVisidataPath.test_withName: AssertionError: assert 'foo' == 'foo.'"
+    ]
+  },
+  "vtk": {
+    "urls": [],
+    "summaries": []
+  },
+  "watchman": {
+    "urls": [],
+    "summaries": []
+  },
+  "weechat": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2322708"
+    ],
+    "summaries": [
+      "weechat fails to build with Python 3.14: AttributeError: 'Constant' object has no attribute 's'"
+    ]
+  },
+  "xpra": {
+    "urls": [],
+    "summaries": []
+  }
 }
