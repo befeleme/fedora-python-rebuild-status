@@ -12,8 +12,12 @@
     ]
   },
   "brltty": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2328699"
+    ],
+    "summaries": [
+      "brltty: FTBFS in Fedora Rawhide: error: File not found: /builddir/build/BUILD/brltty-6.7-build/BUILDROOT/usr/lib64/tcl8.6/brlapi-0.8.6"
+    ]
   },
   "collectd": {
     "urls": [
@@ -47,10 +51,6 @@
       "dnf fails to build with Python 3.14: TypeError: cannot pickle '_thread.RLock' object"
     ]
   },
-  "espresso": {
-    "urls": [],
-    "summaries": []
-  },
   "grammalecte": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2319629"
@@ -60,10 +60,6 @@
     ]
   },
   "hivex": {
-    "urls": [],
-    "summaries": []
-  },
-  "lammps": {
     "urls": [],
     "summaries": []
   },
@@ -88,8 +84,12 @@
     "summaries": []
   },
   "mopidy": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2328700"
+    ],
+    "summaries": [
+      "mopidy fails to build with Python 3.14: AssertionError: expected call not found"
+    ]
   },
   "ntpsec": {
     "urls": [],
@@ -124,8 +124,12 @@
     "summaries": []
   },
   "pychess": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2328708"
+    ],
+    "summaries": [
+      "pychess fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
+    ]
   },
   "pygsl": {
     "urls": [],
@@ -148,12 +152,20 @@
     ]
   },
   "python-anyio": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2328710"
+    ],
+    "summaries": [
+      "python-anyio fails to build with Python 3.14: AttributeError: '_UnixDefaultEventLoopPolicy' object has no attribute 'get_child_watcher' && TypeError: PurePath.relative_to() takes 2 positional arguments but 3 were given"
+    ]
   },
   "python-argcomplete": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2328704"
+    ],
+    "summaries": [
+      "python-argcomplete fails to build with Python 3.14: Many test failures"
+    ]
   },
   "python-astor": {
     "urls": [
@@ -500,8 +512,12 @@
     ]
   },
   "python-img2pdf": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2328707"
+    ],
+    "summaries": [
+      "python-img2pdf fails to build in rawhide: 48 AssertionErrors"
+    ]
   },
   "python-iniparse": {
     "urls": [
@@ -584,12 +600,20 @@
     ]
   },
   "python-makefun": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2328706"
+    ],
+    "summaries": [
+      "python-makefun fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
+    ]
   },
   "python-matplotlib": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2328713"
+    ],
+    "summaries": [
+      "python-matplotlib fails to build with Python 3.14: RecursionError: maximum recursion depth exceeded"
+    ]
   },
   "python-mccabe": {
     "urls": [
@@ -624,8 +648,12 @@
     ]
   },
   "python-nibabel": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2328709"
+    ],
+    "summaries": [
+      "python-nibabel fails to build with Python 3.14: TestDeprecatorMaker.test_deprecator_maker: TypeError: Deprecator.__init__() got multiple values for argument 'warn_class'"
+    ]
   },
   "python-nose": {
     "urls": [
@@ -653,14 +681,6 @@
     ],
     "summaries": [
       "python-parsel fails to build with setuptools 74+"
-    ]
-  },
-  "python-parso": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2325187"
-    ],
-    "summaries": [
-      "python-parso fails to build with Python 3.14: NotImplementedError: Python version 3.14 is currently not supported."
     ]
   },
   "python-pdfkit": {
@@ -796,8 +816,12 @@
     ]
   },
   "python-pytest-localftpserver": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2328701"
+    ],
+    "summaries": [
+      "python-pytest-localftpserver fails to build with Python 3.14: multiprocessing has changed the start method to 'forkserver'"
+    ]
   },
   "python-pytest-rerunfailures": {
     "urls": [
@@ -863,14 +887,6 @@
       "python-recordclass fails to build with Python 3.14: 25 failures, 65 errors in the test suite"
     ]
   },
-  "python-redis": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2326927"
-    ],
-    "summaries": [
-      "python-redis fails to build with Python 3.14: _pickle.PicklingError: Can't pickle local object <function TestMultiprocessing.test_redis_client.<locals>.target at 0x7fd5f829efb0>"
-    ]
-  },
   "python-remoto": {
     "urls": [],
     "summaries": []
@@ -891,7 +907,19 @@
     "urls": [],
     "summaries": []
   },
+  "python-rmtest": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2319712"
+    ],
+    "summaries": [
+      "python-rmtest fails to build with setuptools 74+"
+    ]
+  },
   "python-rpmfluff": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-rq": {
     "urls": [],
     "summaries": []
   },
@@ -1183,18 +1211,6 @@
       "python-zstandard fails to build with Python 3.14: ImportError: cannot import name 'ByteString' from 'typing'"
     ]
   },
-  "python3-mallard-ducktype": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2319747"
-    ],
-    "summaries": [
-      "python3-mallard-ducktype fails to build with setuptools 74+"
-    ]
-  },
-  "qgis": {
-    "urls": [],
-    "summaries": []
-  },
   "qpid-proton": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2327999"
@@ -1204,8 +1220,12 @@
     ]
   },
   "qtile": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2328711"
+    ],
+    "summaries": [
+      "qtile fails to build with Python 3.14: _pickle.PicklingError: Can't pickle local object <function TestManager.start.<locals>.run_qtile at 0x7f9c5918fed0>"
+    ]
   },
   "realtime-tests": {
     "urls": [],
@@ -1250,10 +1270,6 @@
     "summaries": [
       "visidata fails to build with Python 3.14: TestVisidataPath.test_withName: AssertionError: assert 'foo' == 'foo.'"
     ]
-  },
-  "vtk": {
-    "urls": [],
-    "summaries": []
   },
   "watchman": {
     "urls": [],
