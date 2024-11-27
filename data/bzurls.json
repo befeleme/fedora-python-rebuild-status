@@ -63,6 +63,10 @@
     "urls": [],
     "summaries": []
   },
+  "kicad": {
+    "urls": [],
+    "summaries": []
+  },
   "lasso": {
     "urls": [],
     "summaries": []
@@ -459,14 +463,6 @@
       "python-flask fails to build with Python 3.14: AttributeError: module 'pkgutil' has no attribute 'get_loader'"
     ]
   },
-  "python-flit": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2326226"
-    ],
-    "summaries": [
-      "python-flit fails to build with Python 3.14: AttributeError: module 'ast' has no attribute 'Str'"
-    ]
-  },
   "python-flufl-i18n": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2319659"
@@ -647,14 +643,6 @@
       "python-neovim fails to build with Python 3.14: AttributeError: module 'asyncio' has no attribute 'get_child_watcher'"
     ]
   },
-  "python-nibabel": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2328709"
-    ],
-    "summaries": [
-      "python-nibabel fails to build with Python 3.14: TestDeprecatorMaker.test_deprecator_maker: TypeError: Deprecator.__init__() got multiple values for argument 'warn_class'"
-    ]
-  },
   "python-nose": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2323163"
@@ -813,14 +801,6 @@
     ],
     "summaries": [
       "python-pytest-flakes fails to build with setuptools 74+"
-    ]
-  },
-  "python-pytest-localftpserver": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2328701"
-    ],
-    "summaries": [
-      "python-pytest-localftpserver fails to build with Python 3.14: multiprocessing has changed the start method to 'forkserver'"
     ]
   },
   "python-pytest-rerunfailures": {
