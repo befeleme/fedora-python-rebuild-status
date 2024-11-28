@@ -63,6 +63,10 @@
     "urls": [],
     "summaries": []
   },
+  "kernel": {
+    "urls": [],
+    "summaries": []
+  },
   "kicad": {
     "urls": [],
     "summaries": []
@@ -94,6 +98,10 @@
     "summaries": [
       "mopidy fails to build with Python 3.14: AssertionError: expected call not found"
     ]
+  },
+  "nemo-extensions": {
+    "urls": [],
+    "summaries": []
   },
   "ntpsec": {
     "urls": [],
@@ -445,14 +453,6 @@
     ],
     "summaries": [
       "python-events fails to build with setuptools 74+"
-    ]
-  },
-  "python-falcon": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2328020"
-    ],
-    "summaries": [
-      "python-falcon fails to build with Python 3.14: KeyError: 'partitioned'"
     ]
   },
   "python-flask": {
