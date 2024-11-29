@@ -19,22 +19,6 @@
       "brltty: FTBFS in Fedora Rawhide: error: File not found: /builddir/build/BUILD/brltty-6.7-build/BUILDROOT/usr/lib64/tcl8.6/brlapi-0.8.6"
     ]
   },
-  "collectd": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2317175"
-    ],
-    "summaries": [
-      "collectd-5.12.0-44.fc42 FTBFS: configure: error: Some plugins are missing dependencies"
-    ]
-  },
-  "did": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2328006"
-    ],
-    "summaries": [
-      "did fails to build with Python 3.14: AttributeError: module 'urllib.request' has no attribute 'FancyURLopener'"
-    ]
-  },
   "dlib": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2328014"
@@ -87,7 +71,19 @@
       "libnvme fails to build with Python 3.14: /usr/include/python3.14/pyport.h:629:35: error: missing ')' after \"__has_attribute\""
     ]
   },
+  "libselinux": {
+    "urls": [],
+    "summaries": []
+  },
+  "libsemanage": {
+    "urls": [],
+    "summaries": []
+  },
   "link-grammar": {
+    "urls": [],
+    "summaries": []
+  },
+  "linode-cli": {
     "urls": [],
     "summaries": []
   },
@@ -103,33 +99,17 @@
     "urls": [],
     "summaries": []
   },
-  "ntpsec": {
-    "urls": [],
-    "summaries": []
-  },
   "openmeeg": {
     "urls": [],
     "summaries": []
-  },
-  "openvswitch": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2328018"
-    ],
-    "summaries": [
-      "openvswitch fails to build with Python 3.14: 3 tests failure"
-    ]
   },
   "pcs": {
     "urls": [],
     "summaries": []
   },
-  "postgresql17": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2327967"
-    ],
-    "summaries": [
-      "postgresql17 fails to build with Python 3.14: jsonb_jsonpath fails: - \"12:34:56-07:00\" != + \"12:34:56-08:00\""
-    ]
+  "policycoreutils": {
+    "urls": [],
+    "summaries": []
   },
   "protobuf": {
     "urls": [],
@@ -147,6 +127,10 @@
     "urls": [],
     "summaries": []
   },
+  "pyproj": {
+    "urls": [],
+    "summaries": []
+  },
   "pyserial-asyncio": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2327980"
@@ -154,6 +138,10 @@
     "summaries": [
       "pyserial-asyncio fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
     ]
+  },
+  "python-APScheduler": {
+    "urls": [],
+    "summaries": []
   },
   "python-aiosmtpd": {
     "urls": [
@@ -207,14 +195,6 @@
       "python-asyncssh fails to build with Python 3.14: multiple test failures (failures=25, errors=697)"
     ]
   },
-  "python-autocommand": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2327972"
-    ],
-    "summaries": [
-      "python-autocommand fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
-    ]
-  },
   "python-avocado": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2325218"
@@ -255,36 +235,12 @@
       "python-billiard fails to build with Python 3.14: AttributeError: module 'subprocess' has no attribute '_USE_VFORK'"
     ]
   },
-  "python-binaryornot": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2319640"
-    ],
-    "summaries": [
-      "python-binaryornot fails to build with setuptools 74+"
-    ]
-  },
-  "python-bowler": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2328013"
-    ],
-    "summaries": [
-      "python-bowler fails to build with Python 3.14: test_run_bowler_modifier_ferries_exception: AssertionError: AssertionError not raised by <lambda>"
-    ]
-  },
   "python-capturer": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2328004"
     ],
     "summaries": [
       "python-capturer fails to build with Python 3.14: OSError: [Errno 29] Illegal seek"
-    ]
-  },
-  "python-cccolutils": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2319642"
-    ],
-    "summaries": [
-      "python-cccolutils fails to build with setuptools 74+"
     ]
   },
   "python-chameleon": {
@@ -331,18 +287,6 @@
       "python-commoncode fails to build with Python 3.14: tarfile.SpecialFileError: '6-FIFOTYPE' is a special file"
     ]
   },
-  "python-confuse": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2327966"
-    ],
-    "summaries": [
-      "python-confuse fails to build with Python 3.14: AttributeError: module 'pkgutil' has no attribute 'get_loader'"
-    ]
-  },
-  "python-cramjam": {
-    "urls": [],
-    "summaries": []
-  },
   "python-crick": {
     "urls": [],
     "summaries": []
@@ -371,10 +315,6 @@
       "python-dill fails to build with Python 3.14: TypeError: _Pickler._batch_setitems() missing 1 required positional argument: 'obj'"
     ]
   },
-  "python-django-allauth": {
-    "urls": [],
-    "summaries": []
-  },
   "python-django-compressor": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2322719"
@@ -382,10 +322,6 @@
     "summaries": [
       "python-django-compressor fails to build with Python 3.14: 'Constant' object has no attribute 's'"
     ]
-  },
-  "python-django-contrib-comments": {
-    "urls": [],
-    "summaries": []
   },
   "python-django-debreach": {
     "urls": [
@@ -495,6 +431,10 @@
       "python-grip fails to build with Python 3.14:  AssertionError: assert '/usr/lib/pyt...e terminal.\\n' == 'Usage:\\n  gr...e terminal.\\n'"
     ]
   },
+  "python-gunicorn": {
+    "urls": [],
+    "summaries": []
+  },
   "python-h2": {
     "urls": [],
     "summaries": []
@@ -537,14 +477,6 @@
     ],
     "summaries": [
       "python-irc fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
-    ]
-  },
-  "python-jack-client": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2319666"
-    ],
-    "summaries": [
-      "python-jack-client fails to build with setuptools 74+"
     ]
   },
   "python-jcconv": {
@@ -770,6 +702,18 @@
   "python-pymeeus": {
     "urls": [],
     "summaries": []
+  },
+  "python-pymongo": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pyramid_sawing": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2319702"
+    ],
+    "summaries": [
+      "python-pyramid_sawing fails to build with setuptools 74+"
+    ]
   },
   "python-pyside6": {
     "urls": [
@@ -1039,14 +983,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-tgscheduler": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2319728"
-    ],
-    "summaries": [
-      "python-tgscheduler fails to build with setuptools 74+"
-    ]
-  },
   "python-toolz": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2323168"
@@ -1171,14 +1107,6 @@
       "python-zope-deprecation fails to build with setuptools 74+"
     ]
   },
-  "python-zope-interface": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2325170"
-    ],
-    "summaries": [
-      "python-zope-interface fails to build with Python 3.14: zope.interface.exceptions.InvalidInterface: Concrete attribute, __classdictcell__"
-    ]
-  },
   "python-zope-testing": {
     "urls": [],
     "summaries": []
@@ -1238,6 +1166,10 @@
     "summaries": [
       "sentencepiece fails to build with setuptools 74+"
     ]
+  },
+  "syncplay": {
+    "urls": [],
+    "summaries": []
   },
   "trademgen": {
     "urls": [],
