@@ -551,6 +551,10 @@
       "python-inject fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
     ]
   },
+  "python-inkex": {
+    "urls": [],
+    "summaries": []
+  },
   "python-irc": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2327991"
@@ -1282,14 +1286,6 @@
   "watchman": {
     "urls": [],
     "summaries": []
-  },
-  "weechat": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2322708"
-    ],
-    "summaries": [
-      "weechat fails to build with Python 3.14: AttributeError: 'Constant' object has no attribute 's'"
-    ]
   },
   "xpra": {
     "urls": [],
