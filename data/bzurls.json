@@ -63,6 +63,10 @@
     "urls": [],
     "summaries": []
   },
+  "lammps": {
+    "urls": [],
+    "summaries": []
+  },
   "lasso": {
     "urls": [],
     "summaries": []
@@ -287,6 +291,10 @@
       "python-bowler fails to build with Python 3.14: test_run_bowler_modifier_ferries_exception: AssertionError: AssertionError not raised by <lambda>"
     ]
   },
+  "python-cairocffi": {
+    "urls": [],
+    "summaries": []
+  },
   "python-capturer": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2328004"
@@ -502,14 +510,6 @@
   "python-giacpy": {
     "urls": [],
     "summaries": []
-  },
-  "python-grip": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2328009"
-    ],
-    "summaries": [
-      "python-grip fails to build with Python 3.14:  AssertionError: assert '/usr/lib/pyt...e terminal.\\n' == 'Usage:\\n  gr...e terminal.\\n'"
-    ]
   },
   "python-gunicorn": {
     "urls": [],
