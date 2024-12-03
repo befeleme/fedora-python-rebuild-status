@@ -3,6 +3,10 @@
     "urls": [],
     "summaries": []
   },
+  "ara": {
+    "urls": [],
+    "summaries": []
+  },
   "borgbackup": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2326916"
@@ -55,7 +59,7 @@
     "urls": [],
     "summaries": []
   },
-  "kernel": {
+  "jc": {
     "urls": [],
     "summaries": []
   },
@@ -92,8 +96,12 @@
     "summaries": []
   },
   "link-grammar": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2329827"
+    ],
+    "summaries": [
+      "link-grammar-5.12.3-10.fc42 FTBFS:File not found: /builddir/build/BUILD/link-grammar-5.12.3-build/BUILDROOT/usr/lib64/liblink-grammar-java.so.5*"
+    ]
   },
   "linode-cli": {
     "urls": [],
@@ -112,8 +120,12 @@
     "summaries": []
   },
   "ntpsec": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2329938"
+    ],
+    "summaries": [
+      "ntpsec FTBFS on F42 possibly due to waf upgrade to 2.1.2"
+    ]
   },
   "openmeeg": {
     "urls": [],
@@ -290,10 +302,6 @@
     "summaries": [
       "python-bowler fails to build with Python 3.14: test_run_bowler_modifier_ferries_exception: AssertionError: AssertionError not raised by <lambda>"
     ]
-  },
-  "python-cairocffi": {
-    "urls": [],
-    "summaries": []
   },
   "python-capturer": {
     "urls": [
@@ -683,6 +691,10 @@
       "python-openidc-client fails to build with setuptools 74+"
     ]
   },
+  "python-orjson": {
+    "urls": [],
+    "summaries": []
+  },
   "python-oscrypto": {
     "urls": [],
     "summaries": []
@@ -907,6 +919,10 @@
     "urls": [],
     "summaries": []
   },
+  "python-reportlab": {
+    "urls": [],
+    "summaries": []
+  },
   "python-repoze-lru": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2319711"
@@ -945,14 +961,6 @@
     ],
     "summaries": [
       "python-rstcheck fails to build with Python 3.14: AttributeError: 'Constant' object has no attribute 's'"
-    ]
-  },
-  "python-ruamel-yaml": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2323169"
-    ],
-    "summaries": [
-      "python-ruamel-yaml fails to build with Python 3.14: ImportError: cannot import name 'Str' from 'ast'"
     ]
   },
   "python-rx": {
@@ -1013,14 +1021,6 @@
     ],
     "summaries": [
       "python-singledispatch fails to build with setuptools 74+"
-    ]
-  },
-  "python-six": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2327971"
-    ],
-    "summaries": [
-      "python-six fails to build with Python 3.14: test_move_items_urllib_request: AttributeError: module 'six.moves.urllib.request' has no attribute 'URLopener' / 'FancyURLopener'"
     ]
   },
   "python-social-auth-core": {

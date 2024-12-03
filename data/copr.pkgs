@@ -43,6 +43,8 @@ ansible-bender	succeeded
 ansible-collections-openstack	succeeded
 apbs	succeeded
 appliance-tools	succeeded
+apx	succeeded
+ara	failed
 arandr	succeeded
 argparse-manpage	succeeded
 artifacts	succeeded
@@ -77,6 +79,7 @@ bodhi-client	succeeded
 boom-boot	succeeded
 boost	succeeded
 borgbackup	failed
+borgmatic	succeeded
 botan	succeeded
 botan2	succeeded
 bpython	succeeded
@@ -102,6 +105,8 @@ caribou	succeeded
 catfish	succeeded
 ccsm	succeeded
 cdist	succeeded
+cekit	succeeded
+cffconvert	succeeded
 chirp	succeeded
 classification-banner	succeeded
 claws-mail	succeeded
@@ -159,6 +164,7 @@ doge	succeeded
 dogtail	succeeded
 dot2tex	succeeded
 dput-ng	succeeded
+dt-schema	succeeded
 dtc	succeeded
 dxf2gcode	succeeded
 dynaconf	succeeded
@@ -183,6 +189,7 @@ flann	succeeded
 flatbuffers	succeeded
 flent	succeeded
 flowblade	succeeded
+fmf	succeeded
 fontforge	succeeded
 fonts-tweak-tool	succeeded
 fonttools	succeeded
@@ -214,6 +221,7 @@ git-pull-request	succeeded
 git-review	succeeded
 git-up	succeeded
 gitg	succeeded
+gitlint	succeeded
 gjots2	succeeded
 glade	succeeded
 globus-net-manager	succeeded
@@ -261,6 +269,7 @@ hddfancontrol	succeeded
 hexchat	succeeded
 hivex	failed
 hokuyoaist	succeeded
+home-assistant-cli	succeeded
 hplip	succeeded
 hstsparser	succeeded
 hydrapaper	succeeded
@@ -284,11 +293,12 @@ iscsi-initiator-utils	succeeded
 isomd5sum	succeeded
 jack-mixer	succeeded
 javapackages-tools	succeeded
+jc	failed
 jello	succeeded
 jsonnet	succeeded
 kea	succeeded
 kerberoast	succeeded
-kernel	failed
+kernel	running
 keycloak-httpd-client-install	succeeded
 kf6-kapidox	succeeded
 khard	succeeded
@@ -369,6 +379,7 @@ libplist	succeeded
 libpst	succeeded
 libpwquality	succeeded
 librealsense	succeeded
+libreoffice	succeeded
 librepo	succeeded
 libreport	succeeded
 libsavitar	succeeded
@@ -486,6 +497,7 @@ nwg-panel	succeeded
 nwg-wrapper	succeeded
 nyx	succeeded
 obs-studio	succeeded
+obsctl	succeeded
 obserware	succeeded
 oct2spec	succeeded
 odfpy	succeeded
@@ -507,6 +519,7 @@ opentrep	succeeded
 openvino	succeeded
 openvswitch	failed
 osbs-client	succeeded
+osc	succeeded
 osh	succeeded
 otf2	succeeded
 oz	succeeded
@@ -688,6 +701,7 @@ python-accept-types	succeeded
 python-accessible-pygments	succeeded
 python-accuweather	succeeded
 python-acoustid	succeeded
+python-acres	succeeded
 python-adafruit-board-toolkit	succeeded
 python-adafruit-platformdetect	succeeded
 python-adafruit-pureio	succeeded
@@ -777,6 +791,7 @@ python-argparse-dataclass	succeeded
 python-arpeggio	succeeded
 python-arpy	succeeded
 python-array-api-strict	succeeded
+python-arrow	succeeded
 python-asciitree	succeeded
 python-asgiref	succeeded
 python-asn1	succeeded
@@ -948,7 +963,10 @@ python-botocore	succeeded
 python-bottle	succeeded
 python-bottle-sqlite	succeeded
 python-bowler	failed
+python-box	succeeded
 python-bracex	succeeded
+python-bravado	succeeded
+python-bravado-core	succeeded
 python-brukerapi	succeeded
 python-bsddb3	succeeded
 python-btchip	succeeded
@@ -960,7 +978,7 @@ python-cached_property	succeeded
 python-cachelib	succeeded
 python-cachetools	succeeded
 python-cachy	succeeded
-python-cairocffi	failed
+python-cairocffi	succeeded
 python-cairosvg	succeeded
 python-caja	succeeded
 python-calcephpy	succeeded
@@ -1148,6 +1166,7 @@ python-damo	succeeded
 python-danfossair	succeeded
 python-dasbus	succeeded
 python-dataclassy	failed
+python-dateparser	succeeded
 python-datetimerange	succeeded
 python-dateutil	succeeded
 python-dateutils	succeeded
@@ -1227,6 +1246,7 @@ python-django-pglocks	succeeded
 python-django-picklefield	succeeded
 python-django-pipeline	succeeded
 python-django-pytest	succeeded
+python-django-q	succeeded
 python-django-q2	succeeded
 python-django-redis	succeeded
 python-django-rest-framework	succeeded
@@ -1317,6 +1337,7 @@ python-ethtool	succeeded
 python-evdev	succeeded
 python-events	failed
 python-exabgp	succeeded
+python-exdir	succeeded
 python-execnet	succeeded
 python-executing	succeeded
 python-exif	succeeded
@@ -1583,6 +1604,7 @@ python-iso3166	succeeded
 python-iso639	succeeded
 python-iso8601	succeeded
 python-isodate	succeeded
+python-isoduration	succeeded
 python-isort	succeeded
 python-itanium_demangler	succeeded
 python-itemadapter	succeeded
@@ -1611,6 +1633,7 @@ python-jeepney	failed
 python-jellyfish	succeeded
 python-jinja2	succeeded
 python-jinja2-cli	succeeded
+python-jinja2-time	succeeded
 python-jiter	failed
 python-jmespath	succeeded
 python-josepy	failed
@@ -1915,6 +1938,7 @@ python-opytimark	succeeded
 python-oracledb	succeeded
 python-oras	succeeded
 python-orderly-set	succeeded
+python-orjson	failed
 python-os-service-types	succeeded
 python-os-testr	succeeded
 python-osa	succeeded
@@ -2155,6 +2179,7 @@ python-pykcs11	succeeded
 python-pykdtree	succeeded
 python-pykeepass	succeeded
 python-pykmip	succeeded
+python-pykwalify	succeeded
 python-pylero	succeeded
 python-pylev	succeeded
 python-pyliblo3	succeeded
@@ -2293,6 +2318,7 @@ python-pytest-mpi	succeeded
 python-pytest-multihost	succeeded
 python-pytest-openfiles	succeeded
 python-pytest-ordering	succeeded
+python-pytest-param-files	succeeded
 python-pytest-randomly	succeeded
 python-pytest-relaxed	succeeded
 python-pytest-remotedata	succeeded
@@ -2385,6 +2411,7 @@ python-renderspec	succeeded
 python-reno	succeeded
 python-reparser	succeeded
 python-repomd	succeeded
+python-reportlab	failed
 python-repoze-lru	failed
 python-repoze-sphinx-autointerface	succeeded
 python-repoze-tm2	succeeded
@@ -2453,7 +2480,8 @@ python-rstcheck	failed
 python-rstr	succeeded
 python-rtmidi	succeeded
 python-rtslib	succeeded
-python-ruamel-yaml	failed
+python-ruamel-yaml	succeeded
+python-ruamel-yaml-clib	succeeded
 python-rust-update-set	succeeded
 python-rustcfg	succeeded
 python-rx	failed
@@ -2521,7 +2549,7 @@ python-simplevisor	succeeded
 python-single-version	succeeded
 python-singledispatch	failed
 python-siphash	succeeded
-python-six	failed
+python-six	succeeded
 python-slacker	succeeded
 python-slixmpp	succeeded
 python-slugify	succeeded
@@ -2903,6 +2931,7 @@ python-xmp-toolkit	succeeded
 python-xnat	succeeded
 python-xpath-expressions	succeeded
 python-xunitparser	failed
+python-xword-dl	succeeded
 python-xxhash	succeeded
 python-yaml2ical	succeeded
 python-yamlloader	succeeded
