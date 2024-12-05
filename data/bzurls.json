@@ -1055,10 +1055,6 @@
       "python-sqlalchemy1.4 fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
     ]
   },
-  "python-ssh-python": {
-    "urls": [],
-    "summaries": []
-  },
   "python-surt": {
     "urls": [],
     "summaries": []
@@ -1217,14 +1213,6 @@
     ],
     "summaries": [
       "python-zstandard fails to build with Python 3.14: ImportError: cannot import name 'ByteString' from 'typing'"
-    ]
-  },
-  "qpid-proton": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2327999"
-    ],
-    "summaries": [
-      "qpid-proton fails to build with Python 3.14: error: File not found: /builddir/build/BUILD/qpid-proton-0.38.0-build/BUILDROOT/usr/share/proton/docs/api-py"
     ]
   },
   "qtile": {
