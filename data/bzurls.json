@@ -167,6 +167,10 @@
     "urls": [],
     "summaries": []
   },
+  "pyicu": {
+    "urls": [],
+    "summaries": []
+  },
   "pyproj": {
     "urls": [],
     "summaries": []
@@ -573,14 +577,6 @@
     ],
     "summaries": [
       "python-jack-client fails to build with setuptools 74+"
-    ]
-  },
-  "python-jcconv": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2319667"
-    ],
-    "summaries": [
-      "python-jcconv fails to build with setuptools 74+"
     ]
   },
   "python-jeepney": {
@@ -1031,14 +1027,6 @@
       "python-social-auth-core fails to build with Python 3.14: 'SSLContext' object has no attribute 'close'"
     ]
   },
-  "python-sphinxcontrib-autoprogram": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2319720"
-    ],
-    "summaries": [
-      "python-sphinxcontrib-autoprogram fails to build with setuptools 74+"
-    ]
-  },
   "python-sphinxcontrib-blockdiag": {
     "urls": [],
     "summaries": []
@@ -1158,6 +1146,10 @@
     "summaries": [
       "python-valkey fails to build with Python 3.14: _pickle.PicklingError: Can't pickle local object <function TestMultiprocessing.test_close_connection_in_child.<locals>.target at 0x7f7d711b5dd0>"
     ]
+  },
+  "python-virtualenv": {
+    "urls": [],
+    "summaries": []
   },
   "python-webscrapbook": {
     "urls": [
