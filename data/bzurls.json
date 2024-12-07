@@ -51,6 +51,10 @@
       "dnf fails to build with Python 3.14: TypeError: cannot pickle '_thread.RLock' object"
     ]
   },
+  "esptool": {
+    "urls": [],
+    "summaries": []
+  },
   "grammalecte": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2319629"
@@ -68,14 +72,6 @@
     "summaries": []
   },
   "kicad": {
-    "urls": [],
-    "summaries": []
-  },
-  "lammps": {
-    "urls": [],
-    "summaries": []
-  },
-  "lasso": {
     "urls": [],
     "summaries": []
   },
@@ -111,13 +107,9 @@
     "urls": [],
     "summaries": []
   },
-  "mopidy": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2328700"
-    ],
-    "summaries": [
-      "mopidy fails to build with Python 3.14: AssertionError: expected call not found"
-    ]
+  "mopidy-mpd": {
+    "urls": [],
+    "summaries": []
   },
   "nemo-extensions": {
     "urls": [],
@@ -150,6 +142,10 @@
     "summaries": [
       "postgresql17 fails to build with Python 3.14: jsonb_jsonpath fails: - \"12:34:56-07:00\" != + \"12:34:56-08:00\""
     ]
+  },
+  "prewikka": {
+    "urls": [],
+    "summaries": []
   },
   "protobuf": {
     "urls": [],
@@ -201,14 +197,6 @@
     ],
     "summaries": [
       "python-anyio fails to build with Python 3.14: AttributeError: '_UnixDefaultEventLoopPolicy' object has no attribute 'get_child_watcher' && TypeError: PurePath.relative_to() takes 2 positional arguments but 3 were given"
-    ]
-  },
-  "python-argcomplete": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2328704"
-    ],
-    "summaries": [
-      "python-argcomplete fails to build with Python 3.14: Many test failures"
     ]
   },
   "python-astor": {
@@ -508,12 +496,8 @@
     "summaries": []
   },
   "python-genty": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2319661"
-    ],
-    "summaries": [
-      "python-genty fails to build with setuptools 74+: uses removed setup.py test"
-    ]
+    "urls": [],
+    "summaries": []
   },
   "python-giacpy": {
     "urls": [],
@@ -719,6 +703,10 @@
       "python-precis_i18n fails to build with Python 3.14: FileNotFoundError: [Errno 2] No such file or directory: '/builddir/build/BUILD/python-precis_i18n-1.1.0-build/precis_i18n-1.1.0/test/derived-props-16.0.txt'"
     ]
   },
+  "python-psycogreen": {
+    "urls": [],
+    "summaries": []
+  },
   "python-pulp-glue": {
     "urls": [],
     "summaries": []
@@ -871,6 +859,10 @@
       "python-pytest-split fails to build with Python 3.14: TestRaisesUsageErrors.test_returns_nonzero_when_invalid_algorithm_name:  AssertionError"
     ]
   },
+  "python-pytz-deprecation-shim": {
+    "urls": [],
+    "summaries": []
+  },
   "python-pyupgrade": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2322713"
@@ -1004,12 +996,8 @@
     ]
   },
   "python-simplegeneric": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2319717"
-    ],
-    "summaries": [
-      "python-simplegeneric fails to build with setuptools 74+: uses removed setup.py test"
-    ]
+    "urls": [],
+    "summaries": []
   },
   "python-singledispatch": {
     "urls": [
@@ -1042,6 +1030,10 @@
     "summaries": [
       "python-sqlalchemy1.4 fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
     ]
+  },
+  "python-sshpubkeys": {
+    "urls": [],
+    "summaries": []
   },
   "python-surt": {
     "urls": [],

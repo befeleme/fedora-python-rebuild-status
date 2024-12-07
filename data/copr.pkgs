@@ -1,4 +1,5 @@
 2ping	succeeded
+389-ds-base	succeeded
 ATpy	succeeded
 COPASI	succeeded
 Cython	succeeded
@@ -161,6 +162,7 @@ dnf-plugin-ovl	succeeded
 dnfdaemon	succeeded
 dnsgen	succeeded
 doge	succeeded
+dogtag-pki	succeeded
 dogtail	succeeded
 dot2tex	succeeded
 dput-ng	succeeded
@@ -176,6 +178,7 @@ enki	succeeded
 ephemeral-port-reserve	succeeded
 eralchemy	succeeded
 espresso	succeeded
+esptool	failed
 evemu	succeeded
 fapolicy-analyzer	succeeded
 fedfind	succeeded
@@ -197,6 +200,7 @@ fonttools	succeeded
 fprettify	succeeded
 freecell-solver	succeeded
 freeipa-fas	succeeded
+freeipa-healthcheck	succeeded
 freeradius	succeeded
 frescobaldi	succeeded
 fros	succeeded
@@ -318,9 +322,9 @@ koji-osbuild	succeeded
 kopeninghours	succeeded
 krop	succeeded
 kvirc	succeeded
-lammps	failed
+lammps	running
 langtable	succeeded
-lasso	failed
+lasso	succeeded
 lazygal	succeeded
 ldapdomaindump	succeeded
 ldeep	succeeded
@@ -455,7 +459,8 @@ mogui	succeeded
 mom	succeeded
 monkeytype	succeeded
 moose	succeeded
-mopidy	failed
+mopidy	succeeded
+mopidy-mpd	failed
 morphio	succeeded
 mozo	succeeded
 mpi4py	succeeded
@@ -542,6 +547,7 @@ pdc-client	succeeded
 pdf-stapler	succeeded
 pdfarranger	succeeded
 pdfposter	succeeded
+pepc	succeeded
 perl-Inline-Python	succeeded
 persepolis	succeeded
 petsc	succeeded
@@ -549,10 +555,12 @@ pew	succeeded
 pgzero	succeeded
 photocollage	succeeded
 piccata	succeeded
+pipx	succeeded
 pitivi	succeeded
 pl	succeeded
 playitagainsam	succeeded
 plplot	succeeded
+pmbootstrap	succeeded
 pocketsphinx	succeeded
 podman-compose	succeeded
 poetry	succeeded
@@ -567,7 +575,7 @@ postgresql16	succeeded
 postgresql17	failed
 powerline	succeeded
 pre-commit	succeeded
-prewikka	succeeded
+prewikka	failed
 prewikka-updatedb	succeeded
 printrun	succeeded
 profanity	succeeded
@@ -785,7 +793,7 @@ python-apypie	succeeded
 python-archinfo	succeeded
 python-archspec	succeeded
 python-aresponses	succeeded
-python-argcomplete	failed
+python-argcomplete	succeeded
 python-argon2-cffi	succeeded
 python-argon2-cffi-bindings	succeeded
 python-argopt	succeeded
@@ -1049,6 +1057,7 @@ python-colander	succeeded
 python-colcon-alias	succeeded
 python-colcon-argcomplete	succeeded
 python-colcon-bash	succeeded
+python-colcon-bazel	succeeded
 python-colcon-bundle	succeeded
 python-colcon-cd	succeeded
 python-colcon-cmake	succeeded
@@ -1691,6 +1700,7 @@ python-kitchen	succeeded
 python-kiwisolver	succeeded
 python-klusta	failed
 python-kmod	succeeded
+python-knack	succeeded
 python-korean-lunar-calendar	succeeded
 python-krb5	succeeded
 python-kubernetes	succeeded
@@ -2081,7 +2091,7 @@ python-prompt-toolkit	succeeded
 python-protego	succeeded
 python-prov	succeeded
 python-psutil	succeeded
-python-psycogreen	succeeded
+python-psycogreen	failed
 python-psycopg2	succeeded
 python-ptrace	succeeded
 python-ptyprocess	succeeded
@@ -2354,7 +2364,7 @@ python-python-fcl	succeeded
 python-python-multipart	succeeded
 python-pytn3270	succeeded
 python-pytools	succeeded
-python-pytz-deprecation-shim	succeeded
+python-pytz-deprecation-shim	failed
 python-pytzdata	succeeded
 python-pyuca	succeeded
 python-pyudev	succeeded
@@ -2386,6 +2396,7 @@ python-qutepart	succeeded
 python-radexreader	succeeded
 python-railroad-diagrams	succeeded
 python-rak811	succeeded
+python-ramalama	succeeded
 python-random2	succeeded
 python-rangehttpserver	succeeded
 python-rangeparser	succeeded
@@ -2509,6 +2520,7 @@ python-scour	succeeded
 python-scp	failed
 python-scripttest	succeeded
 python-scrypt	succeeded
+python-sdkmanager	succeeded
 python-sdnotify	succeeded
 python-secure_cookie	succeeded
 python-selenium	succeeded
@@ -2656,7 +2668,7 @@ python-ssdp	succeeded
 python-sseclient	succeeded
 python-sseclient-py	succeeded
 python-ssh-python	succeeded
-python-sshpubkeys	succeeded
+python-sshpubkeys	failed
 python-sshtunnel	succeeded
 python-stackprinter	succeeded
 python-stdiomask	succeeded
@@ -3042,6 +3054,7 @@ rpl	succeeded
 rpm	succeeded
 rpm-head-signing	succeeded
 rpmconf	succeeded
+rpmspectool	succeeded
 rpy	succeeded
 rrdtool	failed
 rss2email	succeeded
@@ -3130,6 +3143,7 @@ theme-switcher	succeeded
 thrift	succeeded
 tiled	succeeded
 timeline	succeeded
+tito	succeeded
 tldr	succeeded
 tlsh	succeeded
 todocli	succeeded
@@ -3181,6 +3195,7 @@ vimiv-qt	succeeded
 virt-bootstrap	succeeded
 virt-lightning	succeeded
 virt-who	succeeded
+virtme-ng	succeeded
 visidata	failed
 vit	succeeded
 volk	succeeded
