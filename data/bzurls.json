@@ -23,6 +23,10 @@
       "brltty: FTBFS in Fedora Rawhide: error: File not found: /builddir/build/BUILD/brltty-6.7-build/BUILDROOT/usr/lib64/tcl8.6/brlapi-0.8.6"
     ]
   },
+  "cairo-dock-plug-ins": {
+    "urls": [],
+    "summaries": []
+  },
   "chirp": {
     "urls": [],
     "summaries": []
@@ -985,14 +989,6 @@
     ],
     "summaries": [
       "python-serpy fails to build with setuptools 74+"
-    ]
-  },
-  "python-sh": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2327986"
-    ],
-    "summaries": [
-      "python-sh fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
     ]
   },
   "python-simplegeneric": {
