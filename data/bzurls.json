@@ -15,14 +15,6 @@
       "borgbackup fails to build with Python 3.14: OSError: AF_UNIX path too long when compiling"
     ]
   },
-  "brltty": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2328699"
-    ],
-    "summaries": [
-      "brltty: FTBFS in Fedora Rawhide: error: File not found: /builddir/build/BUILD/brltty-6.7-build/BUILDROOT/usr/lib64/tcl8.6/brlapi-0.8.6"
-    ]
-  },
   "cairo-dock-plug-ins": {
     "urls": [],
     "summaries": []
@@ -98,14 +90,6 @@
   "libsemanage": {
     "urls": [],
     "summaries": []
-  },
-  "link-grammar": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2329827"
-    ],
-    "summaries": [
-      "link-grammar-5.12.3-10.fc42 FTBFS:File not found: /builddir/build/BUILD/link-grammar-5.12.3-build/BUILDROOT/usr/lib64/liblink-grammar-java.so.5*"
-    ]
   },
   "linode-cli": {
     "urls": [],
@@ -507,6 +491,10 @@
     "urls": [],
     "summaries": []
   },
+  "python-glyphsLib": {
+    "urls": [],
+    "summaries": []
+  },
   "python-gunicorn": {
     "urls": [],
     "summaries": []
@@ -795,6 +783,14 @@
     "urls": [],
     "summaries": []
   },
+  "python-pyqt6-charts": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pyqt6-webengine": {
+    "urls": [],
+    "summaries": []
+  },
   "python-pyramid_sawing": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2319702"
@@ -930,14 +926,6 @@
   "python-resumable-urlretrieve": {
     "urls": [],
     "summaries": []
-  },
-  "python-rmtest": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2319712"
-    ],
-    "summaries": [
-      "python-rmtest fails to build with setuptools 74+"
-    ]
   },
   "python-rpmfluff": {
     "urls": [],
@@ -1254,10 +1242,6 @@
     "summaries": [
       "visidata fails to build with Python 3.14: TestVisidataPath.test_withName: AssertionError: assert 'foo' == 'foo.'"
     ]
-  },
-  "watchman": {
-    "urls": [],
-    "summaries": []
   },
   "xpra": {
     "urls": [],
