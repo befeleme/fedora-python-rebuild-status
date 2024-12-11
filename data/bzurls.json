@@ -4,8 +4,12 @@
     "summaries": []
   },
   "ara": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2331346"
+    ],
+    "summaries": [
+      "ara fails to build with Python 3.14: AttributeError: module 'pkgutil' has no attribute 'find_loader'"
+    ]
   },
   "borgbackup": {
     "urls": [
@@ -48,8 +52,12 @@
     ]
   },
   "esptool": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2331345"
+    ],
+    "summaries": [
+      "esptool fails to build with Python 3.14: AssertionError: assert 'usage: __main__.py [-h]' in 'espefuse.py v4.8.1\\nusage: python3 -m espefuse [-h]\\n                           [--chip {auto,esp32,esp32c2,esp32c3,e... --extend-efuse-table EXTEND_EFUSE_TABLE\\"
+    ]
   },
   "grammalecte": {
     "urls": [
@@ -64,8 +72,12 @@
     "summaries": []
   },
   "jc": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2331343"
+    ],
+    "summaries": [
+      "jc fails to build with Python 3.14: ImportError: cannot import name 'ByteString' from 'typing'"
+    ]
   },
   "kicad": {
     "urls": [],
@@ -83,15 +95,15 @@
       "libnvme fails to build with Python 3.14: /usr/include/python3.14/pyport.h:629:35: error: missing ')' after \"__has_attribute\""
     ]
   },
-  "libselinux": {
-    "urls": [],
-    "summaries": []
-  },
   "libsemanage": {
     "urls": [],
     "summaries": []
   },
   "linode-cli": {
+    "urls": [],
+    "summaries": []
+  },
+  "llvm": {
     "urls": [],
     "summaries": []
   },
@@ -195,14 +207,6 @@
       "python-astor fails to build with Python 3.14: AttributeError: module 'ast' has no attribute 'Num' / 'Str'"
     ]
   },
-  "python-astroid": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2323166"
-    ],
-    "summaries": [
-      "python-astroid fails to build with Python 3.14: astroid.exceptions.InferenceError: StopIteration raised without any error information."
-    ]
-  },
   "python-async-lru": {
     "urls": [],
     "summaries": []
@@ -301,14 +305,6 @@
     ],
     "summaries": [
       "python-chameleon fails to build with Python 3.14: AttributeError: module 'ast' has no attribute 'Str'"
-    ]
-  },
-  "python-cloudpickle": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2328024"
-    ],
-    "summaries": [
-      "python-cloudpickle fails to build with Python 3.14: CloudPickleFileTests.test_empty_file: RecursionError: maximum recursion depth exceeded in comparison"
     ]
   },
   "python-cmd2": {
@@ -536,8 +532,12 @@
     ]
   },
   "python-inkex": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2331350"
+    ],
+    "summaries": [
+      "python-inkex fails to build with Python 3.14: InxTestCase.test_inx_files: ValueError: badly formed help string"
+    ]
   },
   "python-irc": {
     "urls": [
@@ -564,6 +564,10 @@
     ]
   },
   "python-jiter": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-joblib": {
     "urls": [],
     "summaries": []
   },
@@ -791,6 +795,10 @@
     "urls": [],
     "summaries": []
   },
+  "python-pyqtgraph": {
+    "urls": [],
+    "summaries": []
+  },
   "python-pyramid_sawing": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2319702"
@@ -879,6 +887,10 @@
       "python-pyvlx fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
     ]
   },
+  "python-rdflib": {
+    "urls": [],
+    "summaries": []
+  },
   "python-reactivex": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2327987"
@@ -908,8 +920,12 @@
     "summaries": []
   },
   "python-reportlab": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2331341"
+    ],
+    "summaries": [
+      "python-reportlab fails to build with Python 3.14: AttributeError: module 'ast' has no attribute 'Str'"
+    ]
   },
   "python-repoze-lru": {
     "urls": [
@@ -924,6 +940,10 @@
     "summaries": []
   },
   "python-resumable-urlretrieve": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-rich": {
     "urls": [],
     "summaries": []
   },
@@ -1172,6 +1192,10 @@
     ]
   },
   "python-zope-testing": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-zope-testrunner": {
     "urls": [],
     "summaries": []
   },
