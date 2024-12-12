@@ -11,6 +11,10 @@
       "ara fails to build with Python 3.14: AttributeError: module 'pkgutil' has no attribute 'find_loader'"
     ]
   },
+  "bluechi": {
+    "urls": [],
+    "summaries": []
+  },
   "borgbackup": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2326916"
@@ -23,7 +27,23 @@
     "urls": [],
     "summaries": []
   },
+  "ceph": {
+    "urls": [],
+    "summaries": []
+  },
   "chirp": {
+    "urls": [],
+    "summaries": []
+  },
+  "cjdns": {
+    "urls": [],
+    "summaries": []
+  },
+  "cobbler": {
+    "urls": [],
+    "summaries": []
+  },
+  "cockpit": {
     "urls": [],
     "summaries": []
   },
@@ -43,13 +63,13 @@
       "dlib fails to build with Python 3.14: AttributeError: module 'pkgutil' has no attribute 'find_loader'"
     ]
   },
-  "dnf": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2323186"
-    ],
-    "summaries": [
-      "dnf fails to build with Python 3.14: TypeError: cannot pickle '_thread.RLock' object"
-    ]
+  "dnsconfd": {
+    "urls": [],
+    "summaries": []
+  },
+  "ec2-hibinit-agent": {
+    "urls": [],
+    "summaries": []
   },
   "esptool": {
     "urls": [
@@ -58,6 +78,14 @@
     "summaries": [
       "esptool fails to build with Python 3.14: AssertionError: assert 'usage: __main__.py [-h]' in 'espefuse.py v4.8.1\\nusage: python3 -m espefuse [-h]\\n                           [--chip {auto,esp32,esp32c2,esp32c3,e... --extend-efuse-table EXTEND_EFUSE_TABLE\\"
     ]
+  },
+  "fail2ban": {
+    "urls": [],
+    "summaries": []
+  },
+  "freeipa": {
+    "urls": [],
+    "summaries": []
   },
   "grammalecte": {
     "urls": [
@@ -71,6 +99,10 @@
     "urls": [],
     "summaries": []
   },
+  "ioc-writer": {
+    "urls": [],
+    "summaries": []
+  },
   "jc": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2331343"
@@ -78,6 +110,10 @@
     "summaries": [
       "jc fails to build with Python 3.14: ImportError: cannot import name 'ByteString' from 'typing'"
     ]
+  },
+  "keylime": {
+    "urls": [],
+    "summaries": []
   },
   "kicad": {
     "urls": [],
@@ -115,7 +151,15 @@
     "urls": [],
     "summaries": []
   },
+  "nfs-ganesha": {
+    "urls": [],
+    "summaries": []
+  },
   "openmeeg": {
+    "urls": [],
+    "summaries": []
+  },
+  "openssh-ldap-authkeys": {
     "urls": [],
     "summaries": []
   },
@@ -127,11 +171,23 @@
       "openvswitch fails to build with Python 3.14: 3 tests failure"
     ]
   },
+  "openwsman": {
+    "urls": [],
+    "summaries": []
+  },
+  "osbuild": {
+    "urls": [],
+    "summaries": []
+  },
   "pcs": {
     "urls": [],
     "summaries": []
   },
   "policycoreutils": {
+    "urls": [],
+    "summaries": []
+  },
+  "postgresql15": {
     "urls": [],
     "summaries": []
   },
@@ -218,6 +274,10 @@
     "summaries": [
       "python-asyncssh fails to build with Python 3.14: multiple test failures (failures=25, errors=697)"
     ]
+  },
+  "python-auth-credential": {
+    "urls": [],
+    "summaries": []
   },
   "python-autocommand": {
     "urls": [
@@ -319,6 +379,10 @@
       "python-colcon-parallel-executor fails to build with Python 3.14: test_parallel: AssertionError: DeprecationWarning: 'asyncio.iscoroutinefunction' is deprecated and slated for removal in Python 3.16; use inspect.iscoroutinefunction() instead"
     ]
   },
+  "python-collectd_systemd": {
+    "urls": [],
+    "summaries": []
+  },
   "python-colorful": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2325168"
@@ -366,6 +430,10 @@
     "summaries": [
       "python-dataclassy fails to build with Python 3.14: TypeError: Beta() takes no arguments"
     ]
+  },
+  "python-defcon": {
+    "urls": [],
+    "summaries": []
   },
   "python-dill": {
     "urls": [
@@ -623,6 +691,10 @@
       "python-mccabe fails to build with Python 3.14: AttributeError: module 'typing' has no attribute 'ByteString'"
     ]
   },
+  "python-messaging": {
+    "urls": [],
+    "summaries": []
+  },
   "python-msal": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2323170"
@@ -755,6 +827,10 @@
       "python-pyemd fails to build with setuptools 74+"
     ]
   },
+  "python-pyface": {
+    "urls": [],
+    "summaries": []
+  },
   "python-pygit2": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2328023"
@@ -772,14 +848,14 @@
     ]
   },
   "python-pymediainfo": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2319700"
-    ],
-    "summaries": [
-      "python-pymediainfo fails to build with setuptools 74+"
-    ]
+    "urls": [],
+    "summaries": []
   },
   "python-pymeeus": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pymilter": {
     "urls": [],
     "summaries": []
   },
@@ -1003,13 +1079,13 @@
     "urls": [],
     "summaries": []
   },
+  "python-simplevisor": {
+    "urls": [],
+    "summaries": []
+  },
   "python-singledispatch": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2319718"
-    ],
-    "summaries": [
-      "python-singledispatch fails to build with setuptools 74+"
-    ]
+    "urls": [],
+    "summaries": []
   },
   "python-social-auth-core": {
     "urls": [
@@ -1183,6 +1259,10 @@
       "python-zict fails to build with Python 3.14: test_stress_different_keys_threadsafe Timeout"
     ]
   },
+  "python-zmq": {
+    "urls": [],
+    "summaries": []
+  },
   "python-zope-deprecation": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2319742"
@@ -1214,6 +1294,10 @@
     "summaries": [
       "qtile fails to build with Python 3.14: _pickle.PicklingError: Can't pickle local object <function TestManager.start.<locals>.run_qtile at 0x7f9c5918fed0>"
     ]
+  },
+  "radicale": {
+    "urls": [],
+    "summaries": []
   },
   "realtime-tests": {
     "urls": [],
@@ -1255,6 +1339,10 @@
     "urls": [],
     "summaries": []
   },
+  "totpcgi": {
+    "urls": [],
+    "summaries": []
+  },
   "trademgen": {
     "urls": [],
     "summaries": []
@@ -1267,7 +1355,15 @@
       "visidata fails to build with Python 3.14: TestVisidataPath.test_withName: AssertionError: assert 'foo' == 'foo.'"
     ]
   },
+  "weasyprint": {
+    "urls": [],
+    "summaries": []
+  },
   "xpra": {
+    "urls": [],
+    "summaries": []
+  },
+  "xrootd": {
     "urls": [],
     "summaries": []
   }

@@ -27,6 +27,7 @@ WALinuxAgent
 Zim
 aactivator
 abiword
+abrt
 abrt-server-info-page
 academic-admin
 accerciser
@@ -104,6 +105,7 @@ catfish
 ccsm
 cdist
 cekit
+cepces
 cffconvert
 chirp
 classification-banner
@@ -153,9 +155,16 @@ dist-git-client
 distcc
 distgen
 dlib
+dnf
+dnf-plugin-cow
 dnf-plugin-diff
+dnf-plugin-flunk_dependent_remove
 dnf-plugin-ovl
+dnf-plugin-perfmetrics
+dnf-plugins-core
+dnf-plugins-extras
 dnfdaemon
+dnfdragora
 dnsgen
 doge
 dogtag-pki
@@ -174,11 +183,13 @@ enki
 ephemeral-port-reserve
 eralchemy
 espresso
+etckeeper
 evemu
 fapolicy-analyzer
 fedfind
 fedora-business-cards
 fedora-distro-aliases
+fedora-review
 fedora-third-party
 fedscm-admin
 file
@@ -227,6 +238,7 @@ glade
 globus-net-manager
 glusterfs
 gmsh
+gnome-abrt
 gnome-browser-connector
 gnome-doc-utils
 gnome-feeds
@@ -399,6 +411,7 @@ libucl
 libunity
 libuser
 libvirt-python
+libvirt-test-API
 libvoikko
 libxc
 libxml2
@@ -446,6 +459,8 @@ mkosi
 mlt
 mock
 mod_wsgi
+module-build
+modulemd-tools
 mogui
 mom
 monkeytype
@@ -574,6 +589,7 @@ proselint
 protontricks
 protonvpn-cli
 proxmark3
+prunerepo
 pss
 pssh
 ptpython
@@ -949,6 +965,7 @@ python-bokeh
 python-boltons
 python-boolean.py
 python-booleanoperations
+python-boto
 python-botocore
 python-bottle
 python-bottle-sqlite
@@ -1141,6 +1158,7 @@ python-cwcwidth
 python-cx-oracle
 python-cxxfilt
 python-cycler
+python-cymruwhois
 python-d2to1
 python-daemon
 python-daemonize
@@ -1326,6 +1344,7 @@ python-expecttest
 python-exrex
 python-extension-helpers
 python-extras
+python-fabric
 python-factory-boy
 python-faker
 python-falcon
@@ -1387,6 +1406,7 @@ python-flufl-bounce
 python-flufl-i18n
 python-flufl-lock
 python-flufl-testing
+python-fluidity-sm
 python-fontMath
 python-fontconfig
 python-fontname
@@ -1568,10 +1588,13 @@ python-interface-meta
 python-interrogate
 python-intervaltree
 python-into-dbus-python
+python-invoke
 python-iowait
 python-ipgetter2
 python-ipmi
 python-ipuz
+python-ipykernel
+python-ipyparallel
 python-ipython_genutils
 python-irc
 python-irodsclient
@@ -1636,9 +1659,14 @@ python-jstyleson
 python-junit_xml
 python-junitxml
 python-jupymake
+python-jupyter-c-kernel
 python-jupyter-client
+python-jupyter-console
 python-jupyter-core
+python-jupyter-kernel-singular
+python-jupyter-kernel-test
 python-jupyter-packaging
+python-jupyter-polymake
 python-jupyterlab_pygments
 python-justbases
 python-justbytes
@@ -1709,6 +1737,7 @@ python-llfuse
 python-llvmlite
 python-lmdb
 python-localzone
+python-locket
 python-lockfile
 python-logfury
 python-loguru
@@ -1756,6 +1785,7 @@ python-mdurl
 python-mdx_gh_links
 python-mechanicalsoup
 python-mediafile
+python-meh
 python-memcached
 python-merge3
 python-mergedeep
@@ -1836,6 +1866,7 @@ python-nagiosplugin
 python-nanoid
 python-natlas-libnmap
 python-natsort
+python-nbclient
 python-nbformat
 python-ncclient
 python-ndeflib
@@ -1907,6 +1938,7 @@ python-opensensemap-api
 python-openshift
 python-openslide
 python-openstackdocstheme
+python-openstep-plist
 python-opnsense
 python-opytimark
 python-oracledb
@@ -1940,6 +1972,7 @@ python-pandocfilters
 python-parameter-expansion-patched
 python-parameterized
 python-paramiko
+python-pari-jupyter
 python-parse
 python-parse_type
 python-parsedatetime
@@ -2274,6 +2307,7 @@ python-pytest-home
 python-pytest-httpbin
 python-pytest-httpserver
 python-pytest-isort
+python-pytest-jupyter
 python-pytest-lazy-fixture
 python-pytest-lazy-fixtures
 python-pytest-localftpserver
@@ -2594,6 +2628,8 @@ python-sphinxygen
 python-sphobjinv
 python-spnego
 python-spotipy
+python-spur
+python-spyder-kernels
 python-sql
 python-sqlacodegen
 python-sqlalchemy-filters
@@ -2660,6 +2696,7 @@ python-tempita
 python-templated-dictionary
 python-tempora
 python-tenacity
+python-tensile
 python-term-background
 python-termcolor
 python-terminaltables
@@ -2965,6 +3002,7 @@ resalloc-openstack
 restview
 resultsdb_conventions
 retext
+retrace-server
 revelation
 rhythmbox-ampache
 rig
