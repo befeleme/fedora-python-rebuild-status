@@ -263,6 +263,14 @@
       "python-astor fails to build with Python 3.14: AttributeError: module 'ast' has no attribute 'Num' / 'Str'"
     ]
   },
+  "python-astroid": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2323166"
+    ],
+    "summaries": [
+      "python-astroid fails to build with Python 3.14: astroid.exceptions.InferenceError: StopIteration raised without any error information."
+    ]
+  },
   "python-async-lru": {
     "urls": [],
     "summaries": []
@@ -318,6 +326,10 @@
     "summaries": [
       "python-beartype fails to build with Python 3.14: ImportError: cannot import name 'ByteString' from 'typing'"
     ]
+  },
+  "python-behave": {
+    "urls": [],
+    "summaries": []
   },
   "python-billiard": {
     "urls": [
@@ -837,14 +849,6 @@
     ],
     "summaries": [
       "python-pygit2 fails to build with Python 3.14: TypeError: 'GenericIterator' object is not iterable"
-    ]
-  },
-  "python-pymdown-extensions": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2325198"
-    ],
-    "summaries": [
-      "python-pymdown-extensions fails to build with Python 3.14: TestWindowsAbsFileScheme.test_windows_root_conversion: AssertionError"
     ]
   },
   "python-pymediainfo": {
