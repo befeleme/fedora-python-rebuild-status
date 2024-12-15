@@ -15,6 +15,10 @@
       "ara fails to build with Python 3.14: AttributeError: module 'pkgutil' has no attribute 'find_loader'"
     ]
   },
+  "astrometry": {
+    "urls": [],
+    "summaries": []
+  },
   "bluechi": {
     "urls": [],
     "summaries": []
@@ -945,14 +949,6 @@
     ],
     "summaries": [
       "python-pytest-runner fails to build with setuptools 74+"
-    ]
-  },
-  "python-pytest-split": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2325447"
-    ],
-    "summaries": [
-      "python-pytest-split fails to build with Python 3.14: TestRaisesUsageErrors.test_returns_nonzero_when_invalid_algorithm_name:  AssertionError"
     ]
   },
   "python-pytz-deprecation-shim": {
