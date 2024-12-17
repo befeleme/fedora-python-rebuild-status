@@ -73,6 +73,8 @@ barman	succeeded
 battray	succeeded
 bcc	succeeded
 beaker	succeeded
+bids-schema	failed
+binwalk	failed
 blivet-gui	succeeded
 bluechi	failed
 bluefish	succeeded
@@ -326,7 +328,7 @@ jello	succeeded
 jsonnet	succeeded
 kea	succeeded
 kerberoast	succeeded
-kernel	succeeded
+kernel	running
 keycloak-httpd-client-install	succeeded
 keylime	failed
 kf6-kapidox	succeeded
@@ -360,7 +362,7 @@ lensfun	succeeded
 lhapdf	succeeded
 libCombine	succeeded
 libaccounts-glib	succeeded
-libarrow	succeeded
+libarrow	failed
 libbatch	succeeded
 libblockdev	succeeded
 libbytesize	succeeded
@@ -445,7 +447,7 @@ liquidctl	succeeded
 lirc	succeeded
 litecli	succeeded
 livecd-tools	succeeded
-llvm	failed
+llvm	running
 lollypop	succeeded
 loook	succeeded
 lorax	succeeded
@@ -477,6 +479,7 @@ miniupnpc	succeeded
 mirage	succeeded
 mkdocs	succeeded
 mkosi	succeeded
+mlpack	failed
 mlt	succeeded
 mock	succeeded
 mod_wsgi	succeeded
@@ -1330,7 +1333,7 @@ python-dockerpty	succeeded
 python-docopt	succeeded
 python-docopt-ng	succeeded
 python-docs-theme	succeeded
-python-docstring-parser	failed
+python-docstring-parser	succeeded
 python-docstring-to-markdown	succeeded
 python-docutils	succeeded
 python-dogpile-cache	succeeded
@@ -2053,6 +2056,7 @@ python-pam	succeeded
 python-pamela	succeeded
 python-pamqp	succeeded
 python-pandas	succeeded
+python-pandas-datareader	failed
 python-pandocfilters	succeeded
 python-parameter-expansion-patched	succeeded
 python-parameterized	succeeded
@@ -2197,6 +2201,7 @@ python-pyasn1	succeeded
 python-pyasynchat	succeeded
 python-pyasyncore	succeeded
 python-pybalboa	succeeded
+python-pybbi	failed
 python-pybeam	succeeded
 python-pybtex	succeeded
 python-pybtex-docutils	succeeded
@@ -2305,6 +2310,7 @@ python-pynsgr	succeeded
 python-pynuvo	succeeded
 python-pyobd	succeeded
 python-pyocr	succeeded
+python-pyongc	failed
 python-pyopencl	succeeded
 python-pyopengl	succeeded
 python-pyopengltk	succeeded
@@ -2378,6 +2384,7 @@ python-pytapo	succeeded
 python-pyte	succeeded
 python-pytesseract	failed
 python-pytest-aiohttp	succeeded
+python-pytest-arraydiff	failed
 python-pytest-astropy-header	succeeded
 python-pytest-asyncio	failed
 python-pytest-bdd	succeeded
@@ -2761,6 +2768,7 @@ python-sshpubkeys	failed
 python-sshtunnel	succeeded
 python-stack-data	succeeded
 python-stackprinter	succeeded
+python-statsmodels	failed
 python-stdiomask	succeeded
 python-stdlib-list	succeeded
 python-stdlibs	succeeded
@@ -3181,6 +3189,7 @@ setconf	succeeded
 setools	succeeded
 setroubleshoot	succeeded
 sgtk-menu	succeeded
+sherlock-project	failed
 showtime	succeeded
 shyaml	succeeded
 sigil	succeeded

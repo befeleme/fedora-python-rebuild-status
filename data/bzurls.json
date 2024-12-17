@@ -19,6 +19,14 @@
     "urls": [],
     "summaries": []
   },
+  "bids-schema": {
+    "urls": [],
+    "summaries": []
+  },
+  "binwalk": {
+    "urls": [],
+    "summaries": []
+  },
   "bluechi": {
     "urls": [],
     "summaries": []
@@ -127,6 +135,10 @@
     "urls": [],
     "summaries": []
   },
+  "libarrow": {
+    "urls": [],
+    "summaries": []
+  },
   "libgpiod": {
     "urls": [],
     "summaries": []
@@ -148,6 +160,10 @@
     "summaries": []
   },
   "llvm": {
+    "urls": [],
+    "summaries": []
+  },
+  "mlpack": {
     "urls": [],
     "summaries": []
   },
@@ -270,14 +286,6 @@
   "python-apsw": {
     "urls": [],
     "summaries": []
-  },
-  "python-astor": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2322712"
-    ],
-    "summaries": [
-      "python-astor fails to build with Python 3.14: AttributeError: module 'ast' has no attribute 'Num' / 'Str'"
-    ]
   },
   "python-astroid": {
     "urls": [
@@ -502,14 +510,6 @@
   "python-djangoql": {
     "urls": [],
     "summaries": []
-  },
-  "python-docstring-parser": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2325441"
-    ],
-    "summaries": [
-      "python-docstring-parser fails to build with Python 3.14: AttributeError: module 'ast' has no attribute 'NameConstant'"
-    ]
   },
   "python-drgn": {
     "urls": [
@@ -767,6 +767,10 @@
     "urls": [],
     "summaries": []
   },
+  "python-pandas-datareader": {
+    "urls": [],
+    "summaries": []
+  },
   "python-parsel": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2319689"
@@ -806,6 +810,10 @@
     "summaries": [
       "python-pure-protobuf fails to build with Python 3.14: ImportError: cannot import name 'ByteString' from 'typing'"
     ]
+  },
+  "python-pybbi": {
+    "urls": [],
+    "summaries": []
   },
   "python-pycec": {
     "urls": [
@@ -875,6 +883,10 @@
     "urls": [],
     "summaries": []
   },
+  "python-pyongc": {
+    "urls": [],
+    "summaries": []
+  },
   "python-pyqt6-charts": {
     "urls": [],
     "summaries": []
@@ -912,6 +924,10 @@
     ]
   },
   "python-pytesseract": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pytest-arraydiff": {
     "urls": [],
     "summaries": []
   },
@@ -1116,6 +1132,10 @@
     ]
   },
   "python-sshpubkeys": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-statsmodels": {
     "urls": [],
     "summaries": []
   },
@@ -1338,6 +1358,10 @@
     "summaries": [
       "sentencepiece fails to build with setuptools 74+"
     ]
+  },
+  "sherlock-project": {
+    "urls": [],
+    "summaries": []
   },
   "syncplay": {
     "urls": [],
