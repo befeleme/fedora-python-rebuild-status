@@ -207,6 +207,10 @@
     "urls": [],
     "summaries": []
   },
+  "pacemaker": {
+    "urls": [],
+    "summaries": []
+  },
   "pcs": {
     "urls": [],
     "summaries": []
@@ -282,6 +286,10 @@
     "summaries": [
       "python-anyio fails to build with Python 3.14: AttributeError: '_UnixDefaultEventLoopPolicy' object has no attribute 'get_child_watcher' && TypeError: PurePath.relative_to() takes 2 positional arguments but 3 were given"
     ]
+  },
+  "python-apprise": {
+    "urls": [],
+    "summaries": []
   },
   "python-apsw": {
     "urls": [],
@@ -370,6 +378,10 @@
     "summaries": [
       "python-binaryornot fails to build with setuptools 74+"
     ]
+  },
+  "python-botocore": {
+    "urls": [],
+    "summaries": []
   },
   "python-bowler": {
     "urls": [
@@ -519,14 +531,6 @@
       "python-drgn fails to build with Python 3.14: module 'ast' has no attribute 'Str'"
     ]
   },
-  "python-engineio": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2327989"
-    ],
-    "summaries": [
-      "python-engineio fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
-    ]
-  },
   "python-epub": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2319654"
@@ -672,12 +676,8 @@
     ]
   },
   "python-klusta": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2319674"
-    ],
-    "summaries": [
-      "python-klusta fails to build with setuptools 74+"
-    ]
+    "urls": [],
+    "summaries": []
   },
   "python-libarchive-c": {
     "urls": [],
@@ -884,6 +884,10 @@
     "summaries": []
   },
   "python-pyongc": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pyqt-feedback-flow": {
     "urls": [],
     "summaries": []
   },
