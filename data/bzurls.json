@@ -1,17 +1,5 @@
 {
-  "NLopt": {
-    "urls": [],
-    "summaries": []
-  },
-  "PyGreSQL": {
-    "urls": [],
-    "summaries": []
-  },
   "RBTools": {
-    "urls": [],
-    "summaries": []
-  },
-  "WALinuxAgent": {
     "urls": [],
     "summaries": []
   },
@@ -31,31 +19,11 @@
       "ara fails to build with Python 3.14: AttributeError: module 'pkgutil' has no attribute 'find_loader'"
     ]
   },
-  "astrometry": {
-    "urls": [],
-    "summaries": []
-  },
-  "aubio": {
-    "urls": [],
-    "summaries": []
-  },
-  "beaker": {
-    "urls": [],
-    "summaries": []
-  },
   "bids-schema": {
     "urls": [],
     "summaries": []
   },
   "binwalk": {
-    "urls": [],
-    "summaries": []
-  },
-  "bluechi": {
-    "urls": [],
-    "summaries": []
-  },
-  "bodhi-client": {
     "urls": [],
     "summaries": []
   },
@@ -71,10 +39,6 @@
       "borgbackup fails to build with Python 3.14: OSError: AF_UNIX path too long when compiling"
     ]
   },
-  "cepces": {
-    "urls": [],
-    "summaries": []
-  },
   "ceph": {
     "urls": [],
     "summaries": []
@@ -83,23 +47,7 @@
     "urls": [],
     "summaries": []
   },
-  "cjdns": {
-    "urls": [],
-    "summaries": []
-  },
-  "cloud-init": {
-    "urls": [],
-    "summaries": []
-  },
-  "cobbler": {
-    "urls": [],
-    "summaries": []
-  },
   "cockpit": {
-    "urls": [],
-    "summaries": []
-  },
-  "codespell": {
     "urls": [],
     "summaries": []
   },
@@ -111,14 +59,6 @@
       "collectd-5.12.0-45.fc42 FTBFS: collectd-5.12.0/build-aux/missing: line 81: aclocal-1.16: command not found"
     ]
   },
-  "compose-utils": {
-    "urls": [],
-    "summaries": []
-  },
-  "csmock": {
-    "urls": [],
-    "summaries": []
-  },
   "did": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2328006"
@@ -126,14 +66,6 @@
     "summaries": [
       "did fails to build with Python 3.14: AttributeError: module 'urllib.request' has no attribute 'FancyURLopener'"
     ]
-  },
-  "dist-git-client": {
-    "urls": [],
-    "summaries": []
-  },
-  "distgen": {
-    "urls": [],
-    "summaries": []
   },
   "dlib": {
     "urls": [
@@ -151,18 +83,6 @@
       "dnf fails to build with Python 3.14: TypeError: cannot pickle '_thread.RLock' object"
     ]
   },
-  "dnsconfd": {
-    "urls": [],
-    "summaries": []
-  },
-  "dput-ng": {
-    "urls": [],
-    "summaries": []
-  },
-  "ec2-hibinit-agent": {
-    "urls": [],
-    "summaries": []
-  },
   "elements-alexandria": {
     "urls": [],
     "summaries": []
@@ -179,15 +99,7 @@
       "esptool fails to build with Python 3.14: AssertionError: assert 'usage: __main__.py [-h]' in 'espefuse.py v4.8.1\\nusage: python3 -m espefuse [-h]\\n                           [--chip {auto,esp32,esp32c2,esp32c3,e... --extend-efuse-table EXTEND_EFUSE_TABLE\\"
     ]
   },
-  "fail2ban": {
-    "urls": [],
-    "summaries": []
-  },
   "fedfind": {
-    "urls": [],
-    "summaries": []
-  },
-  "fedora-review": {
     "urls": [],
     "summaries": []
   },
@@ -199,26 +111,6 @@
     "urls": [],
     "summaries": []
   },
-  "flatbuffers": {
-    "urls": [],
-    "summaries": []
-  },
-  "freeipa": {
-    "urls": [],
-    "summaries": []
-  },
-  "git-up": {
-    "urls": [],
-    "summaries": []
-  },
-  "gitlint": {
-    "urls": [],
-    "summaries": []
-  },
-  "gnuradio": {
-    "urls": [],
-    "summaries": []
-  },
   "grammalecte": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2319629"
@@ -226,14 +118,6 @@
     "summaries": [
       "grammalecte fails to build with setuptools 74+"
     ]
-  },
-  "h5py": {
-    "urls": [],
-    "summaries": []
-  },
-  "hddfancontrol": {
-    "urls": [],
-    "summaries": []
   },
   "home-assistant-cli": {
     "urls": [],
@@ -251,10 +135,6 @@
       "jc fails to build with Python 3.14: ImportError: cannot import name 'ByteString' from 'typing'"
     ]
   },
-  "keylime": {
-    "urls": [],
-    "summaries": []
-  },
   "kicad": {
     "urls": [],
     "summaries": []
@@ -263,15 +143,7 @@
     "urls": [],
     "summaries": []
   },
-  "lazygal": {
-    "urls": [],
-    "summaries": []
-  },
   "libarrow": {
-    "urls": [],
-    "summaries": []
-  },
-  "libfreenect": {
     "urls": [],
     "summaries": []
   },
@@ -287,23 +159,7 @@
       "libnvme fails to build with Python 3.14: /usr/include/python3.14/pyport.h:629:35: error: missing ')' after \"__has_attribute\""
     ]
   },
-  "libselinux": {
-    "urls": [],
-    "summaries": []
-  },
-  "libsemanage": {
-    "urls": [],
-    "summaries": []
-  },
-  "libsonata": {
-    "urls": [],
-    "summaries": []
-  },
   "linode-cli": {
-    "urls": [],
-    "summaries": []
-  },
-  "liquidctl": {
     "urls": [],
     "summaries": []
   },
@@ -311,15 +167,7 @@
     "urls": [],
     "summaries": []
   },
-  "mat2": {
-    "urls": [],
-    "summaries": []
-  },
   "mathgl": {
-    "urls": [],
-    "summaries": []
-  },
-  "mkdocs": {
     "urls": [],
     "summaries": []
   },
@@ -327,47 +175,7 @@
     "urls": [],
     "summaries": []
   },
-  "mock": {
-    "urls": [],
-    "summaries": []
-  },
-  "module-build": {
-    "urls": [],
-    "summaries": []
-  },
-  "modulemd-tools": {
-    "urls": [],
-    "summaries": []
-  },
-  "mogui": {
-    "urls": [],
-    "summaries": []
-  },
-  "moose": {
-    "urls": [],
-    "summaries": []
-  },
-  "mopidy": {
-    "urls": [],
-    "summaries": []
-  },
   "mopidy-mpd": {
-    "urls": [],
-    "summaries": []
-  },
-  "morphio": {
-    "urls": [],
-    "summaries": []
-  },
-  "nagios-plugins-systemd": {
-    "urls": [],
-    "summaries": []
-  },
-  "netcdf4-python": {
-    "urls": [],
-    "summaries": []
-  },
-  "nfs-ganesha": {
     "urls": [],
     "summaries": []
   },
@@ -379,39 +187,7 @@
     "urls": [],
     "summaries": []
   },
-  "offlineimap": {
-    "urls": [],
-    "summaries": []
-  },
-  "onnxruntime": {
-    "urls": [],
-    "summaries": []
-  },
-  "openmeeg": {
-    "urls": [],
-    "summaries": []
-  },
-  "openssh-ldap-authkeys": {
-    "urls": [],
-    "summaries": []
-  },
   "opentrep": {
-    "urls": [],
-    "summaries": []
-  },
-  "openvino": {
-    "urls": [],
-    "summaries": []
-  },
-  "openwsman": {
-    "urls": [],
-    "summaries": []
-  },
-  "osbuild": {
-    "urls": [],
-    "summaries": []
-  },
-  "osc": {
     "urls": [],
     "summaries": []
   },
@@ -419,19 +195,7 @@
     "urls": [],
     "summaries": []
   },
-  "past-time": {
-    "urls": [],
-    "summaries": []
-  },
-  "patool": {
-    "urls": [],
-    "summaries": []
-  },
   "pcs": {
-    "urls": [],
-    "summaries": []
-  },
-  "pdc-client": {
     "urls": [],
     "summaries": []
   },
@@ -439,23 +203,7 @@
     "urls": [],
     "summaries": []
   },
-  "pgzero": {
-    "urls": [],
-    "summaries": []
-  },
   "plplot": {
-    "urls": [],
-    "summaries": []
-  },
-  "pmbootstrap": {
-    "urls": [],
-    "summaries": []
-  },
-  "poezio": {
-    "urls": [],
-    "summaries": []
-  },
-  "policycoreutils": {
     "urls": [],
     "summaries": []
   },
@@ -525,18 +273,6 @@
     "urls": [],
     "summaries": []
   },
-  "pyinstrument": {
-    "urls": [],
-    "summaries": []
-  },
-  "pykka": {
-    "urls": [],
-    "summaries": []
-  },
-  "pyosmium": {
-    "urls": [],
-    "summaries": []
-  },
   "pyproj": {
     "urls": [],
     "summaries": []
@@ -553,39 +289,11 @@
     "urls": [],
     "summaries": []
   },
-  "python-AppTools": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-Automat": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-PyAVM": {
-    "urls": [],
-    "summaries": []
-  },
   "python-PyGithub": {
     "urls": [],
     "summaries": []
   },
-  "python-accept-types": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-accessible-pygments": {
-    "urls": [],
-    "summaries": []
-  },
   "python-accuweather": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-ailment": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-aioftp": {
     "urls": [],
     "summaries": []
   },
@@ -609,14 +317,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-aiokafka": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-aiomultiprocess": {
-    "urls": [],
-    "summaries": []
-  },
   "python-aioresponses": {
     "urls": [],
     "summaries": []
@@ -633,14 +333,6 @@
       "python-aiosmtpd fails to build with Python 3.14: ImportError: cannot import name 'ByteString' from 'typing'"
     ]
   },
-  "python-ansi2html": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-ansible-pylibssh": {
-    "urls": [],
-    "summaries": []
-  },
   "python-anyio": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2328710"
@@ -649,39 +341,11 @@
       "python-anyio fails to build with Python 3.14: AttributeError: '_UnixDefaultEventLoopPolicy' object has no attribute 'get_child_watcher' && TypeError: PurePath.relative_to() takes 2 positional arguments but 3 were given"
     ]
   },
-  "python-apipkg": {
-    "urls": [],
-    "summaries": []
-  },
   "python-apsw": {
     "urls": [],
     "summaries": []
   },
-  "python-archinfo": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-archspec": {
-    "urls": [],
-    "summaries": []
-  },
   "python-aresponses": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-argon2-cffi": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-array-api-strict": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-asn1tools": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-astral": {
     "urls": [],
     "summaries": []
   },
@@ -692,10 +356,6 @@
     "summaries": [
       "python-astroid fails to build with Python 3.14: astroid.exceptions.InferenceError: StopIteration raised without any error information."
     ]
-  },
-  "python-astropy-iers-data": {
-    "urls": [],
-    "summaries": []
   },
   "python-asttokens": {
     "urls": [
@@ -717,19 +377,7 @@
       "python-asyncssh fails to build with Python 3.14: multiple test failures (failures=25, errors=697)"
     ]
   },
-  "python-asysocks": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-atlassian-python-api": {
-    "urls": [],
-    "summaries": []
-  },
   "python-attrs": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-audioread": {
     "urls": [],
     "summaries": []
   },
@@ -749,14 +397,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-automaton": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-autopage": {
-    "urls": [],
-    "summaries": []
-  },
   "python-avocado": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2325218"
@@ -765,275 +405,7 @@
       "python-avocado fails to build with Python 3.14: Error running method \"pre_tests\" of plugin \"fetchasset\": module 'ast' has no attribute 'Str' + Avocado crashed: TypeError: cannot pickle '_thread.RLock' object"
     ]
   },
-  "python-azure-ai-formrecognizer": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-azure-ai-textanalytics": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-azure-appconfiguration": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-azure-batch": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-azure-common": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-azure-data-tables": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-azure-graphrbac": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-azure-keyvault-administration": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-azure-keyvault-keys": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-azure-mgmt-apimanagement": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-azure-mgmt-appconfiguration": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-azure-mgmt-appcontainers": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-azure-mgmt-applicationinsights": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-azure-mgmt-authorization": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-azure-mgmt-batch": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-azure-mgmt-batchai": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-azure-mgmt-cdn": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-azure-mgmt-cognitiveservices": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-azure-mgmt-compute": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-azure-mgmt-containerinstance": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-azure-mgmt-containerregistry": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-azure-mgmt-containerservice": {
-    "urls": [],
-    "summaries": []
-  },
   "python-azure-mgmt-core": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-azure-mgmt-cosmosdb": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-azure-mgmt-datalake-analytics": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-azure-mgmt-datalake-store": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-azure-mgmt-eventgrid": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-azure-mgmt-eventhub": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-azure-mgmt-extendedlocation": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-azure-mgmt-hdinsight": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-azure-mgmt-imagebuilder": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-azure-mgmt-iotcentral": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-azure-mgmt-iothub": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-azure-mgmt-iothubprovisioningservices": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-azure-mgmt-keyvault": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-azure-mgmt-kusto": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-azure-mgmt-loganalytics": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-azure-mgmt-managementgroups": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-azure-mgmt-media": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-azure-mgmt-monitor": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-azure-mgmt-msi": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-azure-mgmt-netapp": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-azure-mgmt-network": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-azure-mgmt-policyinsights": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-azure-mgmt-privatedns": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-azure-mgmt-quota": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-azure-mgmt-rdbms": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-azure-mgmt-recoveryservices": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-azure-mgmt-recoveryservicesbackup": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-azure-mgmt-redhatopenshift": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-azure-mgmt-redis": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-azure-mgmt-relay": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-azure-mgmt-resource": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-azure-mgmt-search": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-azure-mgmt-security": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-azure-mgmt-servicebus": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-azure-mgmt-servicefabric": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-azure-mgmt-servicefabricmanagedclusters": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-azure-mgmt-servicelinker": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-azure-mgmt-signalr": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-azure-mgmt-sql": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-azure-mgmt-sqlvirtualmachine": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-azure-mgmt-storage": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-azure-mgmt-subscription": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-azure-mgmt-support": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-azure-mgmt-synapse": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-azure-mgmt-trafficmanager": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-azure-monitor-query": {
     "urls": [],
     "summaries": []
   },
@@ -1049,22 +421,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-azure-synapse-accesscontrol": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-azure-synapse-artifacts": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-azure-synapse-managedprivateendpoints": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-azure-synapse-spark": {
-    "urls": [],
-    "summaries": []
-  },
   "python-backrefs": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2325184"
@@ -1072,18 +428,6 @@
     "summaries": [
       "python-backrefs fails to build with Python 3.14: Failed to acquire all needed Unicode files!"
     ]
-  },
-  "python-base58": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-bashate": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-bcrypt": {
-    "urls": [],
-    "summaries": []
   },
   "python-beartype": {
     "urls": [
@@ -1093,15 +437,7 @@
       "python-beartype fails to build with Python 3.14: ImportError: cannot import name 'ByteString' from 'typing'"
     ]
   },
-  "python-beautifulsoup4": {
-    "urls": [],
-    "summaries": []
-  },
   "python-behave": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-bidict": {
     "urls": [],
     "summaries": []
   },
@@ -1125,55 +461,7 @@
     "urls": [],
     "summaries": []
   },
-  "python-blinker": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2325193"
-    ],
-    "summaries": [
-      "python-blinker fails to build with Python 3.14: pluggy.PluggyTeardownRaisedWarning: A plugin raised an exception during an old-style hookwrapper teardown."
-    ]
-  },
-  "python-blosc": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-blowfish": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-bravado": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-bravado-core": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-brukerapi": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-bugzilla": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-cached_property": {
-    "urls": [],
-    "summaries": []
-  },
   "python-cachelib": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-cairocffi": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-calcephpy": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-canonicaljson": {
     "urls": [],
     "summaries": []
   },
@@ -1184,10 +472,6 @@
     "summaries": [
       "python-capturer fails to build with Python 3.14: OSError: [Errno 29] Illegal seek"
     ]
-  },
-  "python-cbor2": {
-    "urls": [],
-    "summaries": []
   },
   "python-cccolutils": {
     "urls": [
@@ -1201,14 +485,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-cffsubr": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-cftime": {
-    "urls": [],
-    "summaries": []
-  },
   "python-chameleon": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2322715"
@@ -1216,50 +492,6 @@
     "summaries": [
       "python-chameleon fails to build with Python 3.14: AttributeError: module 'ast' has no attribute 'Str'"
     ]
-  },
-  "python-cheetah": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-cid": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-cinderclient": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-claripy": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-cliff": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-cloup": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-cma": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-cmake-build-extension": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-cmap": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-cmd2": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-cmdkit": {
-    "urls": [],
-    "summaries": []
   },
   "python-colcon-parallel-executor": {
     "urls": [
@@ -1269,19 +501,7 @@
       "python-colcon-parallel-executor fails to build with Python 3.14: test_parallel: AssertionError: DeprecationWarning: 'asyncio.iscoroutinefunction' is deprecated and slated for removal in Python 3.16; use inspect.iscoroutinefunction() instead"
     ]
   },
-  "python-colcon-ros-bundle": {
-    "urls": [],
-    "summaries": []
-  },
   "python-collada": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-collectd_cvmfs": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-collectd_systemd": {
     "urls": [],
     "summaries": []
   },
@@ -1293,10 +513,6 @@
       "python-colorful fails to build with Python 3.14: ast.Constant.s has been removed from Python 3.14"
     ]
   },
-  "python-colormath2": {
-    "urls": [],
-    "summaries": []
-  },
   "python-commoncode": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2325197"
@@ -1304,10 +520,6 @@
     "summaries": [
       "python-commoncode fails to build with Python 3.14: tarfile.SpecialFileError: '6-FIFOTYPE' is a special file"
     ]
-  },
-  "python-compreffor": {
-    "urls": [],
-    "summaries": []
   },
   "python-confuse": {
     "urls": [
@@ -1321,27 +533,11 @@
     "urls": [],
     "summaries": []
   },
-  "python-cramjam": {
-    "urls": [],
-    "summaries": []
-  },
   "python-crick": {
     "urls": [],
     "summaries": []
   },
-  "python-crossword": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-cryptography": {
-    "urls": [],
-    "summaries": []
-  },
   "python-cs": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-css-parser": {
     "urls": [],
     "summaries": []
   },
@@ -1369,43 +565,7 @@
     "urls": [],
     "summaries": []
   },
-  "python-dateutil": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-datrie": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-debian": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-debtcollector": {
-    "urls": [],
-    "summaries": []
-  },
   "python-defcon": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-detect-secrets": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-dictdiffer": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-diff-cover": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-diff-match-patch": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-dijitso": {
     "urls": [],
     "summaries": []
   },
@@ -1417,35 +577,11 @@
       "python-dill fails to build with Python 3.14: TypeError: _Pickler._batch_setitems() missing 1 required positional argument: 'obj'"
     ]
   },
-  "python-dirhash": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-diskcache": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-distroinfo": {
-    "urls": [],
-    "summaries": []
-  },
   "python-django-allauth": {
     "urls": [],
     "summaries": []
   },
   "python-django-cacheops": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-django-compressor": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2322719"
-    ],
-    "summaries": [
-      "python-django-compressor fails to build with Python 3.14: 'Constant' object has no attribute 's'"
-    ]
-  },
-  "python-django-configurations": {
     "urls": [],
     "summaries": []
   },
@@ -1461,10 +597,6 @@
       "python-django-debreach fails to build with Python 3.14: AttributeError: 'super' object has no attribute 'dicts' and no __dict__ for setting new attributes"
     ]
   },
-  "python-django-extensions": {
-    "urls": [],
-    "summaries": []
-  },
   "python-django-filter": {
     "urls": [],
     "summaries": []
@@ -1473,47 +605,11 @@
     "urls": [],
     "summaries": []
   },
-  "python-django-picklefield": {
-    "urls": [],
-    "summaries": []
-  },
   "python-djangoql": {
     "urls": [],
     "summaries": []
   },
-  "python-dogpile-cache": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-dotenv": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-dropbox": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-ducc0": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-dulwich": {
-    "urls": [],
-    "summaries": []
-  },
   "python-dunamai": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-eccodes": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-ecdsa": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-elementpath": {
     "urls": [],
     "summaries": []
   },
@@ -1533,10 +629,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-enzyme": {
-    "urls": [],
-    "summaries": []
-  },
   "python-epub": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2319654"
@@ -1553,14 +645,6 @@
       "python-etcd fails to build with Python 3.14: _pickle.PicklingError: Can't pickle local object <function TestWatch.test_watch_indexed_generator.<locals>.watch_value at 0x7f0d39f71dd0>"
     ]
   },
-  "python-eth-hash": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-eth-typing": {
-    "urls": [],
-    "summaries": []
-  },
   "python-events": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2319655"
@@ -1569,59 +653,7 @@
       "python-events fails to build with setuptools 74+"
     ]
   },
-  "python-exabgp": {
-    "urls": [],
-    "summaries": []
-  },
   "python-exdir": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-expecttest": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-exrex": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-extension-helpers": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-falcon": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-fasjson-client": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-fast-simplification": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-fedora": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-fingerprints": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-fireflyalgorithm": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-fisx": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-fitsio": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-fixtures": {
     "urls": [],
     "summaries": []
   },
@@ -1637,23 +669,7 @@
     "urls": [],
     "summaries": []
   },
-  "python-flask-httpauth": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-flask-oidc": {
-    "urls": [],
-    "summaries": []
-  },
   "python-flask-session": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-flit": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-flufl-bounce": {
     "urls": [],
     "summaries": []
   },
@@ -1665,43 +681,11 @@
       "python-flufl-i18n fails to build with setuptools 74+"
     ]
   },
-  "python-fontMath": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-fontname": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-freeipa": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-freetype": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-freezegun": {
-    "urls": [],
-    "summaries": []
-  },
   "python-fs": {
     "urls": [],
     "summaries": []
   },
-  "python-futurist": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-gbulb": {
-    "urls": [],
-    "summaries": []
-  },
   "python-genty": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-geojson": {
     "urls": [],
     "summaries": []
   },
@@ -1721,43 +705,11 @@
     "urls": [],
     "summaries": []
   },
-  "python-gmpy2": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-gnocchiclient": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-gnupg": {
-    "urls": [],
-    "summaries": []
-  },
   "python-gradunwarp": {
     "urls": [],
     "summaries": []
   },
-  "python-graphviz": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-grip": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-gsd": {
-    "urls": [],
-    "summaries": []
-  },
   "python-gunicorn": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-h2": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-h5io": {
     "urls": [],
     "summaries": []
   },
@@ -1769,10 +721,6 @@
       "python-h5netcdf fails to build with Python 3.14: test_no_circular_references: AssertionError"
     ]
   },
-  "python-habitipy": {
-    "urls": [],
-    "summaries": []
-  },
   "python-hamcrest": {
     "urls": [],
     "summaries": []
@@ -1781,51 +729,11 @@
     "urls": [],
     "summaries": []
   },
-  "python-hdf5storage": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-hexbytes": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-hid-parser": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-html5-parser": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-html5lib": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-httmock": {
-    "urls": [],
-    "summaries": []
-  },
   "python-httpretty": {
     "urls": [],
     "summaries": []
   },
-  "python-humanize": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-hvac": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-ibm-vpc": {
-    "urls": [],
-    "summaries": []
-  },
   "python-icalendar": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-imageio": {
     "urls": [],
     "summaries": []
   },
@@ -1836,14 +744,6 @@
     "summaries": [
       "python-img2pdf fails to build in rawhide: 48 AssertionErrors"
     ]
-  },
-  "python-indexed_gzip": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-influxdb-client": {
-    "urls": [],
-    "summaries": []
   },
   "python-iniparse": {
     "urls": [
@@ -1869,10 +769,6 @@
       "python-inkex fails to build with Python 3.14: InxTestCase.test_inx_files: ValueError: badly formed help string"
     ]
   },
-  "python-ipuz": {
-    "urls": [],
-    "summaries": []
-  },
   "python-ipykernel": {
     "urls": [],
     "summaries": []
@@ -1889,14 +785,6 @@
       "python-irc fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
     ]
   },
-  "python-iso3166": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-iso8601": {
-    "urls": [],
-    "summaries": []
-  },
   "python-jack-client": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2319666"
@@ -1904,18 +792,6 @@
     "summaries": [
       "python-jack-client fails to build with setuptools 74+"
     ]
-  },
-  "python-jaconv": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-jaraco-packaging": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-jaraco-stream": {
-    "urls": [],
-    "summaries": []
   },
   "python-jedi": {
     "urls": [],
@@ -1929,10 +805,6 @@
       "python-jeepney fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
     ]
   },
-  "python-jmespath": {
-    "urls": [],
-    "summaries": []
-  },
   "python-joblib": {
     "urls": [],
     "summaries": []
@@ -1944,30 +816,6 @@
     "summaries": [
       "python-josepy fails to build with Python 3.14: 6x ValueError: Field `alg` in JSONObject `Header` has no type annotation."
     ]
-  },
-  "python-json5": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-jsondiff": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-jsonpath-ng": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-jsonref": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-jsonschema-path": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-junit_xml": {
-    "urls": [],
-    "summaries": []
   },
   "python-jupyter-c-kernel": {
     "urls": [],
@@ -1993,39 +841,11 @@
     "urls": [],
     "summaries": []
   },
-  "python-keystoneauth1": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-kitchen": {
-    "urls": [],
-    "summaries": []
-  },
   "python-klusta": {
     "urls": [],
     "summaries": []
   },
-  "python-lazy-loader": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-lazy-object-proxy": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-lazy_load": {
-    "urls": [],
-    "summaries": []
-  },
   "python-lazyarray": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-ldap3": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-libNeuroML": {
     "urls": [],
     "summaries": []
   },
@@ -2041,35 +861,11 @@
       "python-libcst fails to build with Python 3.14: AttributeError: module 'typing' has no attribute 'ByteString'"
     ]
   },
-  "python-libusb1": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-logutils": {
-    "urls": [],
-    "summaries": []
-  },
   "python-lqrt": {
     "urls": [],
     "summaries": []
   },
-  "python-lru-dict": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-lupa": {
-    "urls": [],
-    "summaries": []
-  },
   "python-lxml": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-lxml-html-clean": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-lz4": {
     "urls": [],
     "summaries": []
   },
@@ -2081,14 +877,6 @@
       "python-makefun fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
     ]
   },
-  "python-manuel": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-mapbox-earcut": {
-    "urls": [],
-    "summaries": []
-  },
   "python-matplotlib": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2328713"
@@ -2096,10 +884,6 @@
     "summaries": [
       "python-matplotlib fails to build with Python 3.14: RecursionError: maximum recursion depth exceeded"
     ]
-  },
-  "python-mbstrdecoder": {
-    "urls": [],
-    "summaries": []
   },
   "python-mccabe": {
     "urls": [
@@ -2109,55 +893,11 @@
       "python-mccabe fails to build with Python 3.14: AttributeError: module 'typing' has no attribute 'ByteString'"
     ]
   },
-  "python-mediafile": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-merge3": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-mergedeep": {
-    "urls": [],
-    "summaries": []
-  },
   "python-meson-python": {
     "urls": [],
     "summaries": []
   },
   "python-messaging": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-migen": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-mirrors-countme": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-mmtf": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-mnemonic": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-mockito": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-more-itertools": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-morphys": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-mrcfile": {
     "urls": [],
     "summaries": []
   },
@@ -2181,42 +921,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-msrestazure": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-multiaddr": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-multibase": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-multicodec": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-multihash": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-mutagen": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-mwclient": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-natsort": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-ncclient": {
-    "urls": [],
-    "summaries": []
-  },
   "python-ndindex": {
     "urls": [],
     "summaries": []
@@ -2233,15 +937,7 @@
     "urls": [],
     "summaries": []
   },
-  "python-nine": {
-    "urls": [],
-    "summaries": []
-  },
   "python-nmrglue": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-normality": {
     "urls": [],
     "summaries": []
   },
@@ -2253,31 +949,7 @@
       "python-nose fails to build with Python 3.14: multiple AssertionErrors related to timeouts in test outputs"
     ]
   },
-  "python-nose2": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-nuheat": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-numexpr": {
-    "urls": [],
-    "summaries": []
-  },
   "python-numpy-stl": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-odata-query": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-omsdk": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-openctm": {
     "urls": [],
     "summaries": []
   },
@@ -2289,23 +961,7 @@
       "python-openidc-client fails to build with setuptools 74+"
     ]
   },
-  "python-openpaperwork-core": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-openqa_client": {
-    "urls": [],
-    "summaries": []
-  },
   "python-opensearch-py": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-openstep-plist": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-opytimark": {
     "urls": [],
     "summaries": []
   },
@@ -2314,34 +970,6 @@
     "summaries": []
   },
   "python-oscrypto": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-oslo-concurrency": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-oslo-i18n": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-oslo-serialization": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-oslo-utils": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-oslotest": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-overpy": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-paginate": {
     "urls": [],
     "summaries": []
   },
@@ -2357,10 +985,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-parse_type": {
-    "urls": [],
-    "summaries": []
-  },
   "python-parsel": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2319689"
@@ -2368,26 +992,6 @@
     "summaries": [
       "python-parsel fails to build with setuptools 74+"
     ]
-  },
-  "python-parsimonious": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-parso": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2325187"
-    ],
-    "summaries": [
-      "python-parso fails to build with Python 3.14: NotImplementedError: Python version 3.14 is currently not supported."
-    ]
-  },
-  "python-parver": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-paste-script": {
-    "urls": [],
-    "summaries": []
   },
   "python-patsy": {
     "urls": [],
@@ -2401,10 +1005,6 @@
       "python-pdfkit fails to build with setuptools 74+"
     ]
   },
-  "python-pdir2": {
-    "urls": [],
-    "summaries": []
-  },
   "python-pdm-backend": {
     "urls": [],
     "summaries": []
@@ -2417,10 +1017,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-pikepdf": {
-    "urls": [],
-    "summaries": []
-  },
   "python-pillow": {
     "urls": [],
     "summaries": []
@@ -2429,19 +1025,7 @@
     "urls": [],
     "summaries": []
   },
-  "python-pluggy1.3": {
-    "urls": [],
-    "summaries": []
-  },
   "python-portalocker": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-pox": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-priority": {
     "urls": [],
     "summaries": []
   },
@@ -2453,10 +1037,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-pure-eval": {
-    "urls": [],
-    "summaries": []
-  },
   "python-pure-protobuf": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2322710"
@@ -2465,27 +1045,7 @@
       "python-pure-protobuf fails to build with Python 3.14: ImportError: cannot import name 'ByteString' from 'typing'"
     ]
   },
-  "python-puzpy": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-pyaes": {
-    "urls": [],
-    "summaries": []
-  },
   "python-pybbi": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-pybeam": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-pybtex": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-pybtex-docutils": {
     "urls": [],
     "summaries": []
   },
@@ -2505,10 +1065,6 @@
       "python-pyclipper fails to build with setuptools 74+"
     ]
   },
-  "python-pycoingecko": {
-    "urls": [],
-    "summaries": []
-  },
   "python-pydantic-core": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2325425"
@@ -2521,14 +1077,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-pydispatcher": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2319697"
-    ],
-    "summaries": [
-      "python-pydispatcher fails to build with setuptools 74+"
-    ]
-  },
   "python-pyemd": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2319698"
@@ -2536,10 +1084,6 @@
     "summaries": [
       "python-pyemd fails to build with setuptools 74+"
     ]
-  },
-  "python-pyerfa": {
-    "urls": [],
-    "summaries": []
   },
   "python-pyface": {
     "urls": [],
@@ -2553,23 +1097,7 @@
       "python-pygit2 fails to build with Python 3.14: TypeError: 'GenericIterator' object is not iterable"
     ]
   },
-  "python-pygments-git": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-pygments-style-solarized": {
-    "urls": [],
-    "summaries": []
-  },
   "python-pygmtools": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-pyiqvia": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-pykcs11": {
     "urls": [],
     "summaries": []
   },
@@ -2585,15 +1113,7 @@
     "urls": [],
     "summaries": []
   },
-  "python-pymilter": {
-    "urls": [],
-    "summaries": []
-  },
   "python-pymongo": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-pynacl": {
     "urls": [],
     "summaries": []
   },
@@ -2609,19 +1129,11 @@
     "urls": [],
     "summaries": []
   },
-  "python-pypdf": {
-    "urls": [],
-    "summaries": []
-  },
   "python-pyqt-feedback-flow": {
     "urls": [],
     "summaries": []
   },
   "python-pyqtgraph": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-pyramid-tm": {
     "urls": [],
     "summaries": []
   },
@@ -2632,18 +1144,6 @@
     "summaries": [
       "python-pyramid_sawing fails to build with setuptools 74+"
     ]
-  },
-  "python-pyroaring": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-pyrsistent": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-pyscaffold": {
-    "urls": [],
-    "summaries": []
   },
   "python-pyside6": {
     "urls": [
@@ -2658,10 +1158,6 @@
     "summaries": []
   },
   "python-pysqueezebox": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-pysrt": {
     "urls": [],
     "summaries": []
   },
@@ -2689,31 +1185,7 @@
     "urls": [],
     "summaries": []
   },
-  "python-pytest-bdd": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-pytest-cid": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-pytest-console-scripts": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-pytest-datadir": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-pytest-dependency": {
-    "urls": [],
-    "summaries": []
-  },
   "python-pytest-django": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-pytest-fixture-config": {
     "urls": [],
     "summaries": []
   },
@@ -2726,14 +1198,6 @@
     ]
   },
   "python-pytest-jupyter": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-pytest-localserver": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-pytest-randomly": {
     "urls": [],
     "summaries": []
   },
@@ -2752,22 +1216,6 @@
     "summaries": [
       "python-pytest-runner fails to build with setuptools 74+"
     ]
-  },
-  "python-pytest-sourceorder": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-pytest-timeout": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-pytest-tldr": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-pytest-trio": {
-    "urls": [],
-    "summaries": []
   },
   "python-pytz-deprecation-shim": {
     "urls": [],
@@ -2849,31 +1297,7 @@
       "python-repoze-lru fails to build with setuptools 74+"
     ]
   },
-  "python-requests-credssp": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-requests-gssapi": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-requests-kerberos": {
-    "urls": [],
-    "summaries": []
-  },
   "python-requests-toolbelt": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-requests_ntlm": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-rfc3339-validator": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-rfc3986-validator": {
     "urls": [],
     "summaries": []
   },
@@ -2882,10 +1306,6 @@
     "summaries": []
   },
   "python-rmtest": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-rpmautospec-koji": {
     "urls": [],
     "summaries": []
   },
@@ -2905,10 +1325,6 @@
       "python-rstcheck fails to build with Python 3.14: AttributeError: 'Constant' object has no attribute 's'"
     ]
   },
-  "python-rust-update-set": {
-    "urls": [],
-    "summaries": []
-  },
   "python-rx": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2327979"
@@ -2924,10 +1340,6 @@
     "summaries": [
       "python-s3transfer fails to build with Python 3.14: _pickle.PicklingError: Can't pickle local object <class 'tests.unit.test_compat.TestBaseManager.create_pid_manager.<locals>.PIDManager'>"
     ]
-  },
-  "python-selenium": {
-    "urls": [],
-    "summaries": []
   },
   "python-sep": {
     "urls": [],
@@ -2945,14 +1357,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-sgqlc": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-simple-websocket": {
-    "urls": [],
-    "summaries": []
-  },
   "python-simplegeneric": {
     "urls": [],
     "summaries": []
@@ -2962,18 +1366,6 @@
     "summaries": []
   },
   "python-singledispatch": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-slacker": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-smbprotocol": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-snuggs": {
     "urls": [],
     "summaries": []
   },
@@ -3033,10 +1425,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-tables": {
-    "urls": [],
-    "summaries": []
-  },
   "python-tabulate": {
     "urls": [],
     "summaries": []
@@ -3065,10 +1453,6 @@
       "python-tgscheduler fails to build with setuptools 74+"
     ]
   },
-  "python-tinygrad": {
-    "urls": [],
-    "summaries": []
-  },
   "python-toolz": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2323168"
@@ -3096,10 +1480,6 @@
     "summaries": [
       "python-tree-format fails to build with setuptools 74+"
     ]
-  },
-  "python-trio-websocket": {
-    "urls": [],
-    "summaries": []
   },
   "python-tvb-gdist": {
     "urls": [],
@@ -3165,14 +1545,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-vsts": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-wcag-contrast-ratio": {
-    "urls": [],
-    "summaries": []
-  },
   "python-webscrapbook": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2326915"
@@ -3180,14 +1552,6 @@
     "summaries": [
       "python-webscrapbook fails to build with Python 3.14: 60x AssertionError in the test suite"
     ]
-  },
-  "python-whoosh": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-winrm": {
-    "urls": [],
-    "summaries": []
   },
   "python-wled": {
     "urls": [],
@@ -3200,10 +1564,6 @@
     "summaries": [
       "python-xunitparser fails to build with setuptools 74+"
     ]
-  },
-  "python-yamlloader": {
-    "urls": [],
-    "summaries": []
   },
   "python-yappi": {
     "urls": [
@@ -3253,15 +1613,7 @@
       "python-zstandard fails to build with Python 3.14: ImportError: cannot import name 'ByteString' from 'typing'"
     ]
   },
-  "python3-exiv2": {
-    "urls": [],
-    "summaries": []
-  },
   "pyzor": {
-    "urls": [],
-    "summaries": []
-  },
-  "qgis": {
     "urls": [],
     "summaries": []
   },
@@ -3273,15 +1625,7 @@
       "qtile fails to build with Python 3.14: _pickle.PicklingError: Can't pickle local object <function TestManager.start.<locals>.run_qtile at 0x7f9c5918fed0>"
     ]
   },
-  "radicale": {
-    "urls": [],
-    "summaries": []
-  },
   "rapidyaml": {
-    "urls": [],
-    "summaries": []
-  },
-  "re2": {
     "urls": [],
     "summaries": []
   },
@@ -3329,15 +1673,7 @@
       "strongswan-5.9.14-5.fc42 FTBFS: strongswan-5.9.14/missing: line 81: aclocal-1.16: command not found"
     ]
   },
-  "subunit": {
-    "urls": [],
-    "summaries": []
-  },
   "syncplay": {
-    "urls": [],
-    "summaries": []
-  },
-  "totpcgi": {
     "urls": [],
     "summaries": []
   },
@@ -3366,10 +1702,6 @@
     "summaries": []
   },
   "xpra": {
-    "urls": [],
-    "summaries": []
-  },
-  "xrootd": {
     "urls": [],
     "summaries": []
   },
