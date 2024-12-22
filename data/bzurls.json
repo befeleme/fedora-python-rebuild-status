@@ -119,10 +119,6 @@
       "grammalecte fails to build with setuptools 74+"
     ]
   },
-  "home-assistant-cli": {
-    "urls": [],
-    "summaries": []
-  },
   "ioc-writer": {
     "urls": [],
     "summaries": []
@@ -136,10 +132,6 @@
     ]
   },
   "kicad": {
-    "urls": [],
-    "summaries": []
-  },
-  "lammps": {
     "urls": [],
     "summaries": []
   },
@@ -207,10 +199,6 @@
     "urls": [],
     "summaries": []
   },
-  "postfix-mta-sts-resolver": {
-    "urls": [],
-    "summaries": []
-  },
   "postgresql15": {
     "urls": [],
     "summaries": []
@@ -242,10 +230,6 @@
     "summaries": []
   },
   "protobuf": {
-    "urls": [],
-    "summaries": []
-  },
-  "ptpython": {
     "urls": [],
     "summaries": []
   },
@@ -293,35 +277,7 @@
     "urls": [],
     "summaries": []
   },
-  "python-accuweather": {
-    "urls": [],
-    "summaries": []
-  },
   "python-aiohttp": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-aiohttp-cors": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-aiohttp-oauthlib": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-aiohttp-retry": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-aiohttp-sse-client": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-aioresponses": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-aioruckus": {
     "urls": [],
     "summaries": []
   },
@@ -342,10 +298,6 @@
     ]
   },
   "python-apsw": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-aresponses": {
     "urls": [],
     "summaries": []
   },
@@ -409,18 +361,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-azure-multiapi-storage": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-azure-servicebus": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-azure-storage-blob": {
-    "urls": [],
-    "summaries": []
-  },
   "python-backrefs": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2325184"
@@ -458,10 +398,6 @@
     ]
   },
   "python-bioread": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-cachelib": {
     "urls": [],
     "summaries": []
   },
@@ -537,10 +473,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-cs": {
-    "urls": [],
-    "summaries": []
-  },
   "python-cysignals": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2325457"
@@ -548,10 +480,6 @@
     "summaries": [
       "python-cysignals fails to build with Python 3.14: Doctest src/cysignals/pselect.pyx terminated. Timeout limit exceeded (>2400s)"
     ]
-  },
-  "python-daikin": {
-    "urls": [],
-    "summaries": []
   },
   "python-dataclassy": {
     "urls": [
@@ -578,10 +506,6 @@
     ]
   },
   "python-django-allauth": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-django-cacheops": {
     "urls": [],
     "summaries": []
   },
@@ -614,18 +538,6 @@
     "summaries": []
   },
   "python-emcee": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-engineio": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2327989"
-    ],
-    "summaries": [
-      "python-engineio fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
-    ]
-  },
-  "python-environs": {
     "urls": [],
     "summaries": []
   },
@@ -665,14 +577,6 @@
       "python-flask fails to build with Python 3.14: AttributeError: module 'pkgutil' has no attribute 'get_loader'"
     ]
   },
-  "python-flask-caching": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-flask-session": {
-    "urls": [],
-    "summaries": []
-  },
   "python-flufl-i18n": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2319659"
@@ -689,15 +593,7 @@
     "urls": [],
     "summaries": []
   },
-  "python-geopy": {
-    "urls": [],
-    "summaries": []
-  },
   "python-giacpy": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-gios": {
     "urls": [],
     "summaries": []
   },
@@ -722,10 +618,6 @@
     ]
   },
   "python-hamcrest": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-haversion": {
     "urls": [],
     "summaries": []
   },
@@ -769,14 +661,6 @@
       "python-inkex fails to build with Python 3.14: InxTestCase.test_inx_files: ValueError: badly formed help string"
     ]
   },
-  "python-ipykernel": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-ipyparallel": {
-    "urls": [],
-    "summaries": []
-  },
   "python-irc": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2327991"
@@ -792,10 +676,6 @@
     "summaries": [
       "python-jack-client fails to build with setuptools 74+"
     ]
-  },
-  "python-jedi": {
-    "urls": [],
-    "summaries": []
   },
   "python-jeepney": {
     "urls": [
@@ -817,27 +697,7 @@
       "python-josepy fails to build with Python 3.14: 6x ValueError: Field `alg` in JSONObject `Header` has no type annotation."
     ]
   },
-  "python-jupyter-c-kernel": {
-    "urls": [],
-    "summaries": []
-  },
   "python-jupyter-client": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-jupyter-console": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-jupyter-kernel-singular": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-jupyter-kernel-test": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-jupyter-polymake": {
     "urls": [],
     "summaries": []
   },
@@ -917,10 +777,6 @@
       "python-msgspec fails to build with Python 3.14: error: \u2018_Py_IMMORTAL_REFCNT\u2019 undeclared here"
     ]
   },
-  "python-msrest": {
-    "urls": [],
-    "summaries": []
-  },
   "python-ndindex": {
     "urls": [],
     "summaries": []
@@ -961,10 +817,6 @@
       "python-openidc-client fails to build with setuptools 74+"
     ]
   },
-  "python-opensearch-py": {
-    "urls": [],
-    "summaries": []
-  },
   "python-orjson": {
     "urls": [],
     "summaries": []
@@ -978,10 +830,6 @@
     "summaries": []
   },
   "python-pandas-datareader": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-pari-jupyter": {
     "urls": [],
     "summaries": []
   },
@@ -1022,10 +870,6 @@
     "summaries": []
   },
   "python-pip": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-portalocker": {
     "urls": [],
     "summaries": []
   },
@@ -1072,10 +916,6 @@
     "summaries": [
       "python-pydantic-core fails to build with Python 3.14: AssertionError: Regex pattern did not match. + AttributeError: module 'typing' has no attribute 'ByteString'"
     ]
-  },
-  "python-pydepsdev": {
-    "urls": [],
-    "summaries": []
   },
   "python-pyemd": {
     "urls": [
@@ -1157,10 +997,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-pysqueezebox": {
-    "urls": [],
-    "summaries": []
-  },
   "python-pytaglib": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2319705"
@@ -1170,10 +1006,6 @@
     ]
   },
   "python-pytesseract": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-pytest-aiohttp": {
     "urls": [],
     "summaries": []
   },
@@ -1196,10 +1028,6 @@
     "summaries": [
       "python-pytest-flakes fails to build with setuptools 74+"
     ]
-  },
-  "python-pytest-jupyter": {
-    "urls": [],
-    "summaries": []
   },
   "python-pytest-rerunfailures": {
     "urls": [
@@ -1236,10 +1064,6 @@
     "summaries": [
       "python-pyvlx fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
     ]
-  },
-  "python-qtconsole": {
-    "urls": [],
-    "summaries": []
   },
   "python-rdflib": {
     "urls": [],
@@ -1302,10 +1126,6 @@
     "summaries": []
   },
   "python-rich": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-rmtest": {
     "urls": [],
     "summaries": []
   },
@@ -1377,23 +1197,11 @@
       "python-social-auth-core fails to build with Python 3.14: 'SSLContext' object has no attribute 'close'"
     ]
   },
-  "python-sphinx-autoapi": {
-    "urls": [],
-    "summaries": []
-  },
   "python-sphinxcontrib-blockdiag": {
     "urls": [],
     "summaries": []
   },
   "python-sphinxcontrib-seqdiag": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-spotipy": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-spyder-kernels": {
     "urls": [],
     "summaries": []
   },
@@ -1438,10 +1246,6 @@
     ]
   },
   "python-terminado": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-teslajsonpy": {
     "urls": [],
     "summaries": []
   },
@@ -1553,10 +1357,6 @@
       "python-webscrapbook fails to build with Python 3.14: 60x AssertionError in the test suite"
     ]
   },
-  "python-wled": {
-    "urls": [],
-    "summaries": []
-  },
   "python-xunitparser": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2319738"
@@ -1613,10 +1413,6 @@
       "python-zstandard fails to build with Python 3.14: ImportError: cannot import name 'ByteString' from 'typing'"
     ]
   },
-  "pyzor": {
-    "urls": [],
-    "summaries": []
-  },
   "qtile": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2328711"
@@ -1624,10 +1420,6 @@
     "summaries": [
       "qtile fails to build with Python 3.14: _pickle.PicklingError: Can't pickle local object <function TestManager.start.<locals>.run_qtile at 0x7f9c5918fed0>"
     ]
-  },
-  "rapidyaml": {
-    "urls": [],
-    "summaries": []
   },
   "realtime-tests": {
     "urls": [],
@@ -1682,6 +1474,10 @@
     "summaries": []
   },
   "urh": {
+    "urls": [],
+    "summaries": []
+  },
+  "uv": {
     "urls": [],
     "summaries": []
   },
