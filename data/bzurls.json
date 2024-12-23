@@ -111,14 +111,6 @@
     "urls": [],
     "summaries": []
   },
-  "grammalecte": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2319629"
-    ],
-    "summaries": [
-      "grammalecte fails to build with setuptools 74+"
-    ]
-  },
   "ioc-writer": {
     "urls": [],
     "summaries": []
@@ -277,10 +269,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-aiohttp": {
-    "urls": [],
-    "summaries": []
-  },
   "python-aiosmtpd": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2322718"
@@ -356,10 +344,6 @@
     "summaries": [
       "python-avocado fails to build with Python 3.14: Error running method \"pre_tests\" of plugin \"fetchasset\": module 'ast' has no attribute 'Str' + Avocado crashed: TypeError: cannot pickle '_thread.RLock' object"
     ]
-  },
-  "python-azure-mgmt-core": {
-    "urls": [],
-    "summaries": []
   },
   "python-backrefs": {
     "urls": [
@@ -1029,14 +1013,6 @@
       "python-pytest-flakes fails to build with setuptools 74+"
     ]
   },
-  "python-pytest-rerunfailures": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2327998"
-    ],
-    "summaries": [
-      "python-pytest-rerunfailures fails to build with Python 3.14: remains unmatched: 'session teardown'"
-    ]
-  },
   "python-pytest-runner": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2319709"
@@ -1198,6 +1174,10 @@
     ]
   },
   "python-sphinxcontrib-blockdiag": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-sphinxcontrib-programoutput": {
     "urls": [],
     "summaries": []
   },
@@ -1440,10 +1420,6 @@
     "summaries": [
       "satyr fails to build with Python 3.14: _pickle.PicklingError: Can't pickle local object <function TestDistances.test_distances_part_parallel.<locals>.do_test.<locals>.compute_part at 0x7f7f845f2560>"
     ]
-  },
-  "scipy": {
-    "urls": [],
-    "summaries": []
   },
   "sentencepiece": {
     "urls": [
