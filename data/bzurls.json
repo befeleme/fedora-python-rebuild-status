@@ -357,6 +357,10 @@
       "python-backrefs fails to build with Python 3.14: Failed to acquire all needed Unicode files!"
     ]
   },
+  "python-bcrypt": {
+    "urls": [],
+    "summaries": []
+  },
   "python-beartype": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2322721"
@@ -408,14 +412,6 @@
   "python-cffi": {
     "urls": [],
     "summaries": []
-  },
-  "python-chameleon": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2322715"
-    ],
-    "summaries": [
-      "python-chameleon fails to build with Python 3.14: AttributeError: module 'ast' has no attribute 'Str'"
-    ]
   },
   "python-colcon-parallel-executor": {
     "urls": [
