@@ -19,6 +19,10 @@
       "ara fails to build with Python 3.14: AttributeError: module 'pkgutil' has no attribute 'find_loader'"
     ]
   },
+  "awscli2": {
+    "urls": [],
+    "summaries": []
+  },
   "bids-schema": {
     "urls": [],
     "summaries": []
@@ -172,6 +176,10 @@
     "summaries": []
   },
   "nwchem": {
+    "urls": [],
+    "summaries": []
+  },
+  "onnxruntime": {
     "urls": [],
     "summaries": []
   },
@@ -381,14 +389,6 @@
       "python-billiard fails to build with Python 3.14: AttributeError: module 'subprocess' has no attribute '_USE_VFORK'"
     ]
   },
-  "python-binaryornot": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2319640"
-    ],
-    "summaries": [
-      "python-binaryornot fails to build with setuptools 74+"
-    ]
-  },
   "python-bioread": {
     "urls": [],
     "summaries": []
@@ -399,14 +399,6 @@
     ],
     "summaries": [
       "python-capturer fails to build with Python 3.14: OSError: [Errno 29] Illegal seek"
-    ]
-  },
-  "python-cccolutils": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2319642"
-    ],
-    "summaries": [
-      "python-cccolutils fails to build with setuptools 74+"
     ]
   },
   "python-cffi": {
@@ -555,14 +547,6 @@
     ],
     "summaries": [
       "python-flask fails to build with Python 3.14: AttributeError: module 'pkgutil' has no attribute 'get_loader'"
-    ]
-  },
-  "python-flufl-i18n": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2319659"
-    ],
-    "summaries": [
-      "python-flufl-i18n fails to build with setuptools 74+"
     ]
   },
   "python-fs": {
@@ -789,18 +773,6 @@
       "python-nose fails to build with Python 3.14: multiple AssertionErrors related to timeouts in test outputs"
     ]
   },
-  "python-numpy-stl": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-openidc-client": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2319685"
-    ],
-    "summaries": [
-      "python-openidc-client fails to build with setuptools 74+"
-    ]
-  },
   "python-orjson": {
     "urls": [],
     "summaries": []
@@ -883,14 +855,6 @@
     ],
     "summaries": [
       "python-pycec fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
-    ]
-  },
-  "python-pyclipper": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2319696"
-    ],
-    "summaries": [
-      "python-pyclipper fails to build with setuptools 74+"
     ]
   },
   "python-pydantic-core": {
@@ -1000,14 +964,6 @@
   "python-pytest-django": {
     "urls": [],
     "summaries": []
-  },
-  "python-pytest-flakes": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2319708"
-    ],
-    "summaries": [
-      "python-pytest-flakes fails to build with setuptools 74+"
-    ]
   },
   "python-pytz-deprecation-shim": {
     "urls": [],
@@ -1407,14 +1363,6 @@
     ],
     "summaries": [
       "satyr fails to build with Python 3.14: _pickle.PicklingError: Can't pickle local object <function TestDistances.test_distances_part_parallel.<locals>.do_test.<locals>.compute_part at 0x7f7f845f2560>"
-    ]
-  },
-  "sentencepiece": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2319749"
-    ],
-    "summaries": [
-      "sentencepiece fails to build with setuptools 74+"
     ]
   },
   "sherlock-project": {
