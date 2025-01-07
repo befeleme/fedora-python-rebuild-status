@@ -71,14 +71,6 @@
       "dlib fails to build with Python 3.14: AttributeError: module 'pkgutil' has no attribute 'find_loader'"
     ]
   },
-  "dnf": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2323186"
-    ],
-    "summaries": [
-      "dnf fails to build with Python 3.14: TypeError: cannot pickle '_thread.RLock' object"
-    ]
-  },
   "dnfdragora": {
     "urls": [],
     "summaries": []
@@ -124,6 +116,10 @@
     ]
   },
   "kicad": {
+    "urls": [],
+    "summaries": []
+  },
+  "kitty": {
     "urls": [],
     "summaries": []
   },
@@ -187,10 +183,6 @@
     "urls": [],
     "summaries": []
   },
-  "petsc": {
-    "urls": [],
-    "summaries": []
-  },
   "plplot": {
     "urls": [],
     "summaries": []
@@ -233,14 +225,6 @@
     "urls": [],
     "summaries": []
   },
-  "pycairo": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2322709"
-    ],
-    "summaries": [
-      "pycairo fails to build with Python 3.14: ImportError: cannot import name 'ByteString' from 'typing'"
-    ]
-  },
   "pychess": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2328708"
@@ -281,15 +265,11 @@
       "python-aiosmtpd fails to build with Python 3.14: ImportError: cannot import name 'ByteString' from 'typing'"
     ]
   },
-  "python-anyio": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2328710"
-    ],
-    "summaries": [
-      "python-anyio fails to build with Python 3.14: AttributeError: '_UnixDefaultEventLoopPolicy' object has no attribute 'get_child_watcher' && TypeError: PurePath.relative_to() takes 2 positional arguments but 3 were given"
-    ]
-  },
   "python-apsw": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-ase": {
     "urls": [],
     "summaries": []
   },
@@ -337,10 +317,6 @@
       "python-autocommand fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
     ]
   },
-  "python-autograd": {
-    "urls": [],
-    "summaries": []
-  },
   "python-avocado": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2325218"
@@ -356,10 +332,6 @@
     "summaries": [
       "python-backrefs fails to build with Python 3.14: Failed to acquire all needed Unicode files!"
     ]
-  },
-  "python-bcrypt": {
-    "urls": [],
-    "summaries": []
   },
   "python-beartype": {
     "urls": [
@@ -381,10 +353,6 @@
       "python-billiard fails to build with Python 3.14: AttributeError: module 'subprocess' has no attribute '_USE_VFORK'"
     ]
   },
-  "python-bioread": {
-    "urls": [],
-    "summaries": []
-  },
   "python-capturer": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2328004"
@@ -393,7 +361,15 @@
       "python-capturer fails to build with Python 3.14: OSError: [Errno 29] Illegal seek"
     ]
   },
+  "python-cattrs": {
+    "urls": [],
+    "summaries": []
+  },
   "python-cffi": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-charset-normalizer": {
     "urls": [],
     "summaries": []
   },
@@ -404,10 +380,6 @@
     "summaries": [
       "python-colcon-parallel-executor fails to build with Python 3.14: test_parallel: AssertionError: DeprecationWarning: 'asyncio.iscoroutinefunction' is deprecated and slated for removal in Python 3.16; use inspect.iscoroutinefunction() instead"
     ]
-  },
-  "python-collada": {
-    "urls": [],
-    "summaries": []
   },
   "python-colorful": {
     "urls": [
@@ -505,10 +477,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-emcee": {
-    "urls": [],
-    "summaries": []
-  },
   "python-epub": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2319654"
@@ -545,6 +513,10 @@
     "urls": [],
     "summaries": []
   },
+  "python-fsleyes-widgets": {
+    "urls": [],
+    "summaries": []
+  },
   "python-genty": {
     "urls": [],
     "summaries": []
@@ -557,11 +529,7 @@
     "urls": [],
     "summaries": []
   },
-  "python-gradunwarp": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-gunicorn": {
+  "python-graph-tool": {
     "urls": [],
     "summaries": []
   },
@@ -609,14 +577,6 @@
       "python-inject fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
     ]
   },
-  "python-inkex": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2331350"
-    ],
-    "summaries": [
-      "python-inkex fails to build with Python 3.14: InxTestCase.test_inx_files: ValueError: badly formed help string"
-    ]
-  },
   "python-irc": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2327991"
@@ -657,10 +617,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-lazyarray": {
-    "urls": [],
-    "summaries": []
-  },
   "python-libarchive-c": {
     "urls": [],
     "summaries": []
@@ -672,14 +628,6 @@
     "summaries": [
       "python-libcst fails to build with Python 3.14: AttributeError: module 'typing' has no attribute 'ByteString'"
     ]
-  },
-  "python-lqrt": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-lxml": {
-    "urls": [],
-    "summaries": []
   },
   "python-makefun": {
     "urls": [
@@ -693,14 +641,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-matplotlib": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2328713"
-    ],
-    "summaries": [
-      "python-matplotlib fails to build with Python 3.14: RecursionError: maximum recursion depth exceeded"
-    ]
-  },
   "python-mccabe": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2328016"
@@ -709,11 +649,11 @@
       "python-mccabe fails to build with Python 3.14: AttributeError: module 'typing' has no attribute 'ByteString'"
     ]
   },
-  "python-meson-python": {
+  "python-messaging": {
     "urls": [],
     "summaries": []
   },
-  "python-messaging": {
+  "python-mizani": {
     "urls": [],
     "summaries": []
   },
@@ -741,11 +681,7 @@
     "urls": [],
     "summaries": []
   },
-  "python-nibabel": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-nmrglue": {
+  "python-niapy": {
     "urls": [],
     "summaries": []
   },
@@ -757,7 +693,7 @@
       "python-nose fails to build with Python 3.14: multiple AssertionErrors related to timeouts in test outputs"
     ]
   },
-  "python-orjson": {
+  "python-opfunu": {
     "urls": [],
     "summaries": []
   },
@@ -765,25 +701,9 @@
     "urls": [],
     "summaries": []
   },
-  "python-pandas": {
-    "urls": [],
-    "summaries": []
-  },
   "python-pandas-datareader": {
     "urls": [],
     "summaries": []
-  },
-  "python-patsy": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-pdfkit": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2319690"
-    ],
-    "summaries": [
-      "python-pdfkit fails to build with setuptools 74+"
-    ]
   },
   "python-pdm-backend": {
     "urls": [],
@@ -802,8 +722,12 @@
     "summaries": []
   },
   "python-pip": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2335909"
+    ],
+    "summaries": [
+      "python-pip fails to build with Python 3.14: AssertionError: assert 'file:/tmp/file' == 'file:///tmp/file'"
+    ]
   },
   "python-psycogreen": {
     "urls": [],
@@ -861,14 +785,6 @@
       "python-pygit2 fails to build with Python 3.14: TypeError: 'GenericIterator' object is not iterable"
     ]
   },
-  "python-pygmtools": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-pymatreader": {
-    "urls": [],
-    "summaries": []
-  },
   "python-pymdown-extensions": {
     "urls": [],
     "summaries": []
@@ -913,10 +829,6 @@
       "python-pyside6 fails to build with Python 3.14: TypeError: Formatter.formatannotation() got an unexpected keyword argument 'quote_annotation_strings'"
     ]
   },
-  "python-pyspike": {
-    "urls": [],
-    "summaries": []
-  },
   "python-pytaglib": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2319705"
@@ -941,6 +853,10 @@
     "urls": [],
     "summaries": []
   },
+  "python-pytest-regressions": {
+    "urls": [],
+    "summaries": []
+  },
   "python-pytz-deprecation-shim": {
     "urls": [],
     "summaries": []
@@ -960,6 +876,10 @@
     "summaries": [
       "python-pyvlx fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
     ]
+  },
+  "python-pywt": {
+    "urls": [],
+    "summaries": []
   },
   "python-rdflib": {
     "urls": [],
@@ -1057,6 +977,10 @@
       "python-s3transfer fails to build with Python 3.14: _pickle.PicklingError: Can't pickle local object <class 'tests.unit.test_compat.TestBaseManager.create_pid_manager.<locals>.PIDManager'>"
     ]
   },
+  "python-seaborn": {
+    "urls": [],
+    "summaries": []
+  },
   "python-sep": {
     "urls": [],
     "summaries": []
@@ -1125,7 +1049,11 @@
     "urls": [],
     "summaries": []
   },
-  "python-surt": {
+  "python-steps": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-succulent": {
     "urls": [],
     "summaries": []
   },
@@ -1184,10 +1112,6 @@
     "summaries": [
       "python-tree-format fails to build with setuptools 74+"
     ]
-  },
-  "python-tvb-gdist": {
-    "urls": [],
-    "summaries": []
   },
   "python-twisted": {
     "urls": [],
@@ -1257,6 +1181,14 @@
       "python-webscrapbook fails to build with Python 3.14: 60x AssertionError in the test suite"
     ]
   },
+  "python-wordcloud": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2335908"
+    ],
+    "summaries": [
+      "python-wordcloud fails to build with Python 3.14: test_cli_as_executable: AssertionError: assert expected_output in out if ret_code == 0 else err"
+    ]
+  },
   "python-xunitparser": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2319738"
@@ -1285,10 +1217,6 @@
       "python-zict fails to build with Python 3.14: test_stress_different_keys_threadsafe Timeout"
     ]
   },
-  "python-zmq": {
-    "urls": [],
-    "summaries": []
-  },
   "python-zope-deprecation": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2319742"
@@ -1302,8 +1230,12 @@
     "summaries": []
   },
   "python-zope-testrunner": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2335907"
+    ],
+    "summaries": [
+      "python-zope-testrunner fails to build with Python 3.14: difference in the asserted content in testrunner-edge-cases.rst"
+    ]
   },
   "python-zstandard": {
     "urls": [
@@ -1361,10 +1293,6 @@
     "urls": [],
     "summaries": []
   },
-  "urh": {
-    "urls": [],
-    "summaries": []
-  },
   "visidata": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2325446"
@@ -1378,6 +1306,10 @@
     "summaries": []
   },
   "weasyprint": {
+    "urls": [],
+    "summaries": []
+  },
+  "xonsh": {
     "urls": [],
     "summaries": []
   },
