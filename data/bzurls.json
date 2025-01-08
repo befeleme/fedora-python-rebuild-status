@@ -23,10 +23,6 @@
     "urls": [],
     "summaries": []
   },
-  "bids-schema": {
-    "urls": [],
-    "summaries": []
-  },
   "binwalk": {
     "urls": [],
     "summaries": []
@@ -99,10 +95,6 @@
     "urls": [],
     "summaries": []
   },
-  "flann": {
-    "urls": [],
-    "summaries": []
-  },
   "ioc-writer": {
     "urls": [],
     "summaries": []
@@ -123,7 +115,7 @@
     "urls": [],
     "summaries": []
   },
-  "libarrow": {
+  "lecm": {
     "urls": [],
     "summaries": []
   },
@@ -151,10 +143,6 @@
     "urls": [],
     "summaries": []
   },
-  "mlpack": {
-    "urls": [],
-    "summaries": []
-  },
   "mopidy-mpd": {
     "urls": [],
     "summaries": []
@@ -163,19 +151,7 @@
     "urls": [],
     "summaries": []
   },
-  "nwchem": {
-    "urls": [],
-    "summaries": []
-  },
-  "onnxruntime": {
-    "urls": [],
-    "summaries": []
-  },
   "opentrep": {
-    "urls": [],
-    "summaries": []
-  },
-  "pacemaker": {
     "urls": [],
     "summaries": []
   },
@@ -257,6 +233,10 @@
     "urls": [],
     "summaries": []
   },
+  "python-XStatic-roboto-fontface": {
+    "urls": [],
+    "summaries": []
+  },
   "python-aiosmtpd": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2322718"
@@ -279,14 +259,6 @@
     ],
     "summaries": [
       "python-astroid fails to build with Python 3.14: astroid.exceptions.InferenceError: StopIteration raised without any error information."
-    ]
-  },
-  "python-asttokens": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2331375"
-    ],
-    "summaries": [
-      "python-asttokens fails to build with Python 3.14: AttributeError: module 'ast' has no attribute 'Str'"
     ]
   },
   "python-async-lru": {
@@ -501,6 +473,10 @@
       "python-events fails to build with setuptools 74+"
     ]
   },
+  "python-fedora": {
+    "urls": [],
+    "summaries": []
+  },
   "python-flask": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2327965"
@@ -653,10 +629,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-mizani": {
-    "urls": [],
-    "summaries": []
-  },
   "python-msal": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2323170"
@@ -681,10 +653,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-niapy": {
-    "urls": [],
-    "summaries": []
-  },
   "python-nose": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2323163"
@@ -693,15 +661,7 @@
       "python-nose fails to build with Python 3.14: multiple AssertionErrors related to timeouts in test outputs"
     ]
   },
-  "python-opfunu": {
-    "urls": [],
-    "summaries": []
-  },
   "python-oscrypto": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-pandas-datareader": {
     "urls": [],
     "summaries": []
   },
@@ -713,7 +673,7 @@
     "urls": [],
     "summaries": []
   },
-  "python-pexpect": {
+  "python-photutils": {
     "urls": [],
     "summaries": []
   },
@@ -744,10 +704,6 @@
     "summaries": [
       "python-pure-protobuf fails to build with Python 3.14: ImportError: cannot import name 'ByteString' from 'typing'"
     ]
-  },
-  "python-pybbi": {
-    "urls": [],
-    "summaries": []
   },
   "python-pycec": {
     "urls": [
@@ -797,10 +753,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-pyongc": {
-    "urls": [],
-    "summaries": []
-  },
   "python-pyopencl": {
     "urls": [],
     "summaries": []
@@ -841,19 +793,11 @@
     "urls": [],
     "summaries": []
   },
-  "python-pytest-arraydiff": {
-    "urls": [],
-    "summaries": []
-  },
   "python-pytest-asyncio": {
     "urls": [],
     "summaries": []
   },
   "python-pytest-django": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-pytest-regressions": {
     "urls": [],
     "summaries": []
   },
@@ -1041,27 +985,11 @@
     "urls": [],
     "summaries": []
   },
-  "python-statsmodels": {
-    "urls": [],
-    "summaries": []
-  },
   "python-stdlibs": {
     "urls": [],
     "summaries": []
   },
-  "python-steps": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-succulent": {
-    "urls": [],
-    "summaries": []
-  },
   "python-svg2tikz": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-tabulate": {
     "urls": [],
     "summaries": []
   },
@@ -1078,12 +1006,8 @@
     "summaries": []
   },
   "python-tgscheduler": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2319728"
-    ],
-    "summaries": [
-      "python-tgscheduler fails to build with setuptools 74+"
-    ]
+    "urls": [],
+    "summaries": []
   },
   "python-toolz": {
     "urls": [
@@ -1205,6 +1129,10 @@
       "python-yappi fails to build with Python 3.14: error: invalid use of incomplete typedef \u2018PyGenObject\u2019 {aka \u2018struct _PyGenObject\u2019}"
     ]
   },
+  "python-zake": {
+    "urls": [],
+    "summaries": []
+  },
   "python-zc-lockfile": {
     "urls": [],
     "summaries": []
@@ -1261,10 +1189,6 @@
     "urls": [],
     "summaries": []
   },
-  "root": {
-    "urls": [],
-    "summaries": []
-  },
   "satyr": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2325452"
@@ -1272,10 +1196,6 @@
     "summaries": [
       "satyr fails to build with Python 3.14: _pickle.PicklingError: Can't pickle local object <function TestDistances.test_distances_part_parallel.<locals>.do_test.<locals>.compute_part at 0x7f7f845f2560>"
     ]
-  },
-  "sherlock-project": {
-    "urls": [],
-    "summaries": []
   },
   "strongswan": {
     "urls": [
@@ -1290,6 +1210,10 @@
     "summaries": []
   },
   "trademgen": {
+    "urls": [],
+    "summaries": []
+  },
+  "virt-who": {
     "urls": [],
     "summaries": []
   },

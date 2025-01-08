@@ -72,6 +72,7 @@ barman
 battray
 bcc
 beaker
+bids-schema
 blivet-gui
 bluechi
 bluefish
@@ -472,7 +473,9 @@ mirage
 mkdocs
 mkdocs-bootstrap
 mkdocs-bootswatch
+mkdocs-material
 mkosi
+mlpack
 mlt
 mock
 mod_wsgi
@@ -657,6 +660,7 @@ pyodbc
 pyosmium
 pyotherside
 pyowm
+pyp2spec
 pyparsing
 pyparted
 pypolicyd-spf
@@ -844,8 +848,12 @@ python-aspy.yaml
 python-asteval
 python-astral
 python-astroid
+python-astroplan
 python-astropy
+python-astropy-healpix
 python-astropy-iers-data
+python-astroquery
+python-astroscrappy
 python-asttokens
 python-async-timeout
 python-async-upnp-client
@@ -976,6 +984,7 @@ python-betamax
 python-betamax-serializers
 python-bibtexparser
 python-bidict
+python-bids-validator
 python-binary-manager
 python-binaryornot
 python-bioread
@@ -1085,6 +1094,7 @@ python-cmdkit
 python-coapthon3
 python-codecov
 python-cogapp
+python-coincidence
 python-colander
 python-colcon-alias
 python-colcon-argcomplete
@@ -1421,6 +1431,7 @@ python-fissix
 python-fisx
 python-fitdecode
 python-fitsio
+python-fixit
 python-fixtures
 python-flake8-blind-except
 python-flaky
@@ -1554,6 +1565,7 @@ python-hatasmota
 python-hatch-fancy-pypi-readme
 python-hatch-jupyter-builder
 python-hatch-nodejs-version
+python-hatch-requirements-txt
 python-hatch-vcs
 python-hatchling
 python-haversion
@@ -1604,6 +1616,7 @@ python-hupper
 python-husl
 python-hvac
 python-hyperframe
+python-hyperkitty
 python-hyperlink
 python-hypothesis
 python-hypothesmith
@@ -1817,6 +1830,7 @@ python-m3u8
 python-mackup
 python-magic
 python-mailer
+python-mailman-web
 python-mailmanclient
 python-mailmerge
 python-makeelf
@@ -1874,16 +1888,20 @@ python-minikerberos
 python-minimock
 python-mirakuru
 python-mirrors-countme
+python-mistune
 python-mistune08
 python-mitogen
+python-mizani
 python-mkdocs-autorefs
 python-mkdocs-click
 python-mkdocs-get-deps
 python-mkdocs-include-markdown-plugin
 python-mkdocs-macros-test
+python-mkdocs-material-extensions
 python-mkdocs-minify-plugin
 python-mkdocs-monorepo-plugin
 python-mkdocs-redirects
+python-mkdocs-static-i18n
 python-mmtf
 python-mnemonic
 python-mock
@@ -1960,6 +1978,7 @@ python-neurodsp
 python-neurotune
 python-nfcpy
 python-nh3
+python-niapy
 python-nibabel
 python-nihtest
 python-nine
@@ -2020,6 +2039,7 @@ python-openshift
 python-openslide
 python-openstackdocstheme
 python-openstep-plist
+python-opfunu
 python-opnsense
 python-opytimark
 python-oracledb
@@ -2051,6 +2071,7 @@ python-pam
 python-pamela
 python-pamqp
 python-pandas
+python-pandas-datareader
 python-pandocfilters
 python-parameter-expansion-patched
 python-parameterized
@@ -2199,6 +2220,7 @@ python-pyasn1
 python-pyasynchat
 python-pyasyncore
 python-pybalboa
+python-pybbi
 python-pybeam
 python-pybtex
 python-pybtex-docutils
@@ -2307,6 +2329,7 @@ python-pynsgr
 python-pynuvo
 python-pyobd
 python-pyocr
+python-pyongc
 python-pyopencl
 python-pyopengl
 python-pyopengltk
@@ -2377,6 +2400,8 @@ python-pytapo
 python-pyte
 python-pytesseract
 python-pytest-aiohttp
+python-pytest-arraydiff
+python-pytest-astropy
 python-pytest-astropy-header
 python-pytest-asyncio
 python-pytest-bdd
@@ -2420,6 +2445,7 @@ python-pytest-ordering
 python-pytest-param-files
 python-pytest-postgresql
 python-pytest-randomly
+python-pytest-regressions
 python-pytest-relaxed
 python-pytest-remotedata
 python-pytest-repeat
@@ -2456,6 +2482,7 @@ python-pyudev
 python-pyvat
 python-pyvit
 python-pyvlx
+python-pyvo
 python-pywayland
 python-pywizlight
 python-pywlroots
@@ -2682,6 +2709,7 @@ python-sphinx-basic-ng
 python-sphinx-bootstrap-theme
 python-sphinx-click
 python-sphinx-copybutton
+python-sphinx-design
 python-sphinx-documatt-theme
 python-sphinx-epytext
 python-sphinx-gallery
@@ -2695,6 +2723,7 @@ python-sphinx-last-updated-by-git
 python-sphinx-lint
 python-sphinx-markdown-tables
 python-sphinx-math-dollar
+python-sphinx-mdinclude
 python-sphinx-multiversion
 python-sphinx-notfound-page
 python-sphinx-press-theme
@@ -2702,6 +2731,7 @@ python-sphinx-pytest
 python-sphinx-removed-in
 python-sphinx-reredirects
 python-sphinx-sitemap
+python-sphinx-tabs
 python-sphinx-theme-alabaster
 python-sphinx-theme-py3doc-enhanced
 python-sphinx-typlog-theme
@@ -2738,6 +2768,7 @@ python-spnego
 python-spotipy
 python-spur
 python-spyder-kernels
+python-spyking-circus
 python-sql
 python-sqlacodegen
 python-sqlalchemy-filters
@@ -2754,11 +2785,13 @@ python-sshpubkeys
 python-sshtunnel
 python-stack-data
 python-stackprinter
+python-statsmodels
 python-stdiomask
 python-stdlib-list
 python-stdlibs
 python-stdnum
 python-stem
+python-steps
 python-stestr
 python-stevedore
 python-stone
@@ -2771,6 +2804,7 @@ python-stripe
 python-stuf
 python-subarulink
 python-subprocess-tee
+python-succulent
 python-suds
 python-sure
 python-surt
@@ -2859,6 +2893,7 @@ python-tox-current-env
 python-tox-uv
 python-tpm2-pytss
 python-tqdm
+python-trailrunner
 python-traitlets
 python-trampoline
 python-transaction
@@ -2929,6 +2964,7 @@ python-urwid-readline
 python-urwidtrees
 python-user-agents
 python-userpath
+python-usort
 python-uswid
 python-utils
 python-utmp
@@ -3166,6 +3202,7 @@ setconf
 setools
 setroubleshoot
 sgtk-menu
+sherlock-project
 showtime
 shyaml
 shybrid
