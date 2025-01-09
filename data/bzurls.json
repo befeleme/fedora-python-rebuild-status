@@ -765,28 +765,12 @@
     "urls": [],
     "summaries": []
   },
-  "python-pyramid_sawing": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2319702"
-    ],
-    "summaries": [
-      "python-pyramid_sawing fails to build with setuptools 74+"
-    ]
-  },
   "python-pyside6": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2325444"
     ],
     "summaries": [
       "python-pyside6 fails to build with Python 3.14: TypeError: Formatter.formatannotation() got an unexpected keyword argument 'quote_annotation_strings'"
-    ]
-  },
-  "python-pytaglib": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2319705"
-    ],
-    "summaries": [
-      "python-pytaglib fails to build with setuptools 74+"
     ]
   },
   "python-pytesseract": {
@@ -871,14 +855,6 @@
     ],
     "summaries": [
       "python-reportlab fails to build with Python 3.14: AttributeError: module 'ast' has no attribute 'Str'"
-    ]
-  },
-  "python-repoze-lru": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2319711"
-    ],
-    "summaries": [
-      "python-repoze-lru fails to build with setuptools 74+"
     ]
   },
   "python-requests-toolbelt": {
