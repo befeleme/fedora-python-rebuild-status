@@ -20,16 +20,20 @@
     ]
   },
   "awscli2": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2336910"
+    ],
+    "summaries": [
+      "awscli2 fails to build with Python 3.14: ValueError('badly formed help string'),  KeyError: 'PATH'"
+    ]
   },
   "binwalk": {
-    "urls": [],
-    "summaries": []
-  },
-  "boost": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2336914"
+    ],
+    "summaries": [
+      "binwalk fails to build with Python 3.14: TypeError: unsupported operand type(s) for +=: 'NoneType' and 'int'"
+    ]
   },
   "borgbackup": {
     "urls": [
@@ -40,8 +44,12 @@
     ]
   },
   "ceph": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2336913"
+    ],
+    "summaries": [
+      "ceph fails to build with Python 3.14: AttributeError: module 'pkgutil' has no attribute 'find_loader'"
+    ]
   },
   "chirp": {
     "urls": [],
@@ -88,8 +96,12 @@
     ]
   },
   "fedfind": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2336945"
+    ],
+    "summaries": [
+      "fedfind: FTBFS in Fedora Rawhide: AssertionError in TestRelease.test_all_stable"
+    ]
   },
   "fedscm-admin": {
     "urls": [],
@@ -136,20 +148,32 @@
     "summaries": []
   },
   "llvm": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2336915"
+    ],
+    "summaries": [
+      "llvm fails to build with Python 3.14: tools/opt-viewer/suppress.test: AttributeError: type object 'Passed' has no attribute 'demangler_lock'"
+    ]
   },
   "mathgl": {
     "urls": [],
     "summaries": []
   },
   "mopidy-mpd": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2336892"
+    ],
+    "summaries": [
+      "mopidy-mpd: FTBFS in Fedora Rawhide"
+    ]
   },
   "nox": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2336930"
+    ],
+    "summaries": [
+      "nox fails to build with Python 3.14:  nox.command.CommandFailed: Program /usr/bin/python3 not found"
+    ]
   },
   "opentrep": {
     "urls": [],
@@ -160,8 +184,12 @@
     "summaries": []
   },
   "plplot": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2336933"
+    ],
+    "summaries": [
+      "plplot: FTBFS in Fedora Rawhide: TypeError: 'numpy.float64' object cannot be interpreted as an integer"
+    ]
   },
   "postgresql15": {
     "urls": [],
@@ -186,8 +214,12 @@
     ]
   },
   "powerline": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2336943"
+    ],
+    "summaries": [
+      "powerline fails to build with Python 3.14: ValueError: argument groups cannot be nested"
+    ]
   },
   "prewikka": {
     "urls": [],
@@ -198,8 +230,12 @@
     "summaries": []
   },
   "pybind11": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2336889"
+    ],
+    "summaries": [
+      "pybind11 fails to build with Python 3.14: AttributeError: 'pybind11_tests.pickling.PickleableWithDict' object has no attribute 'dynamic' + AssertionError"
+    ]
   },
   "pychess": {
     "urls": [
@@ -250,8 +286,12 @@
     "summaries": []
   },
   "python-ase": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2336912"
+    ],
+    "summaries": [
+      "python-ase: FTBFS in Fedora Rawhide: ImportError: cannot import name 'VisibleDeprecationWarning' from 'numpy' (/usr/lib64/python3.13/site-packages/numpy/__init__.py)"
+    ]
   },
   "python-astroid": {
     "urls": [
@@ -262,8 +302,12 @@
     ]
   },
   "python-async-lru": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2336970"
+    ],
+    "summaries": [
+      "python-async-lru fails to build with Python 3.14:  DeprecationWarning: 'asyncio.iscoroutinefunction' is deprecated and slated for removal in Python 3.16; use inspect.iscoroutinefunction() instead"
+    ]
   },
   "python-asyncssh": {
     "urls": [
@@ -338,12 +382,20 @@
     "summaries": []
   },
   "python-cffi": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2336935"
+    ],
+    "summaries": [
+      "python-cffi fails to build with Python 3.14:  TestNewFFI1.test_import_from_lib: TypeError: bad argument type for built-in operation + multiple Warnings"
+    ]
   },
   "python-charset-normalizer": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2336939"
+    ],
+    "summaries": [
+      "python-charset-normalizer fails to build with Python 3.14: PendingDeprecationWarning: FileType is deprecated. Simply open files after parsing arguments."
+    ]
   },
   "python-colcon-parallel-executor": {
     "urls": [
@@ -402,8 +454,12 @@
     ]
   },
   "python-dateparser": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2336931"
+    ],
+    "summaries": [
+      "python-dateparser: FTBFS in Fedora Rawhide: AssertionError in TestTranslateSearch.test_relative_base_setting_2_en"
+    ]
   },
   "python-defcon": {
     "urls": [],
@@ -434,8 +490,12 @@
     ]
   },
   "python-django-filter": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2336944"
+    ],
+    "summaries": [
+      "python-django-filter fails to build with Python 3.14: AttributeError: module 'pkgutil' has no attribute 'find_loader'"
+    ]
   },
   "python-django-mailman3": {
     "urls": [],
@@ -446,8 +506,12 @@
     "summaries": []
   },
   "python-dunamai": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2336977"
+    ],
+    "summaries": [
+      "python-dunamai fails to build with Python 3.14: abort: cannot import name 'ByteString' from 'typing' (/usr/lib64/python3.14/typing.py)"
+    ]
   },
   "python-epub": {
     "urls": [
@@ -486,12 +550,20 @@
     ]
   },
   "python-fs": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2336951"
+    ],
+    "summaries": [
+      "python-fs fails to build with Python 3.14: AssertionError: 'osfs://///tmp/tmppauy69swfstestosfs/foo' != 'osfs:///tmp/tmppauy69swfstestosfs/foo'"
+    ]
   },
   "python-fsleyes-widgets": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2336911"
+    ],
+    "summaries": [
+      "python-fsleyes-widgets fails to build with Python 3.14: AssertionError: assert 'file:/home/b...htmlfile.html' == 'file:///home...htmlfile.html'"
+    ]
   },
   "python-genty": {
     "urls": [],
@@ -650,8 +722,12 @@
     "summaries": []
   },
   "python-neovim": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2336888"
+    ],
+    "summaries": [
+      "python-neovim fails to build with Python 3.14: ImportError: cannot import name 'ThreadedChildWatcher' from 'asyncio.unix_events' (/usr/lib64/python3.14/asyncio/unix_events.py)"
+    ]
   },
   "python-nose": {
     "urls": [
@@ -666,16 +742,20 @@
     "summaries": []
   },
   "python-pdm-backend": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-periodictable": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2336941"
+    ],
+    "summaries": [
+      "python-pdm-backend fails to build with Python 3.14: abort: cannot import name 'ByteString' from 'typing' (/usr/lib64/python3.14/typing.py)"
+    ]
   },
   "python-photutils": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2336893"
+    ],
+    "summaries": [
+      "python-photutils: FTBFS in Fedora Rawhide: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments."
+    ]
   },
   "python-pillow": {
     "urls": [],
@@ -734,8 +814,12 @@
     "summaries": []
   },
   "python-pymdown-extensions": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2336948"
+    ],
+    "summaries": [
+      "python-pymdown-extensions fails to build with Python 3.14: TestAbsolute.test_relative_path and TestAbsoluteFileScheme.test_relative_path AssertionErrors"
+    ]
   },
   "python-pymeeus": {
     "urls": [],
@@ -798,12 +882,20 @@
     ]
   },
   "python-pywt": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2336896"
+    ],
+    "summaries": [
+      "python-pywt: FTBFS in Fedora Rawhide: AttributeError: module 'numpy' has no attribute 'AxisError'"
+    ]
   },
   "python-rdflib": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2336891"
+    ],
+    "summaries": [
+      "python-rdflib fails to build with Python 3.14: \"TypeError: '<' not supported between instances of 'Literal' and 'Literal'\""
+    ]
   },
   "python-reactivex": {
     "urls": [
@@ -894,8 +986,12 @@
     "summaries": []
   },
   "python-sep": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2336965"
+    ],
+    "summaries": [
+      "python-sep: FTBFS in Fedora Rawhide: Error compiling Cython file: 'int_t' is not a type identifier"
+    ]
   },
   "python-serpy": {
     "urls": [
@@ -906,8 +1002,12 @@
     ]
   },
   "python-setuptools-rust": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2336950"
+    ],
+    "summaries": [
+      "python-setuptools-rust fails to build with Python 3.14: /builddir/build/BUILD/python-setuptools-rust-1.10.2-build/setuptools_rust-1.10.2/examples/hello-world/venv/bin/python: No module named pytest"
+    ]
   },
   "python-simplegeneric": {
     "urls": [],
@@ -954,8 +1054,12 @@
     "summaries": []
   },
   "python-stdlibs": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2336938"
+    ],
+    "summaries": [
+      "python-stdlibs fails to build with Python 3.14: test_all_my_modules_are_there: AssertionError: Items in the second set but not the first: '_apple_support'"
+    ]
   },
   "python-svg2tikz": {
     "urls": [],
@@ -1030,8 +1134,12 @@
     ]
   },
   "python-typing-extensions": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2336937"
+    ],
+    "summaries": [
+      "python-typing-extensions fails to build with Python 3.14: test_drop_in_for_typing: AssertionError: self.assertGreaterEqual(te_all, t_all - exceptions)"
+    ]
   },
   "python-typing-inspect": {
     "urls": [
@@ -1066,8 +1174,12 @@
     ]
   },
   "python-virtualenv": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2336936"
+    ],
+    "summaries": [
+      "python-virtualenv fails to build with Python 3.14: AssertionError: common, \"\\n\".join(difflib.unified_diff(list_to_str(sys_path), list_to_str(system_sys_path)))"
+    ]
   },
   "python-webscrapbook": {
     "urls": [
@@ -1206,15 +1318,23 @@
     "summaries": []
   },
   "xonsh": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2336895"
+    ],
+    "summaries": [
+      "xonsh fails to build with Python 3.14: ValueError: action 'store_true' is not valid for positional arguments"
+    ]
   },
   "xpra": {
     "urls": [],
     "summaries": []
   },
   "yamllint": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2336947"
+    ],
+    "summaries": [
+      "yamllint fails to build with Python 3.14: ValueError('I/O operation on closed file')"
+    ]
   }
 }
