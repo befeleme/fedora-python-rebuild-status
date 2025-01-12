@@ -183,14 +183,6 @@
     "urls": [],
     "summaries": []
   },
-  "plplot": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2336933"
-    ],
-    "summaries": [
-      "plplot: FTBFS in Fedora Rawhide: TypeError: 'numpy.float64' object cannot be interpreted as an integer"
-    ]
-  },
   "postgresql15": {
     "urls": [],
     "summaries": []
@@ -505,14 +497,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-dunamai": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2336977"
-    ],
-    "summaries": [
-      "python-dunamai fails to build with Python 3.14: abort: cannot import name 'ByteString' from 'typing' (/usr/lib64/python3.14/typing.py)"
-    ]
-  },
   "python-epub": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2319654"
@@ -688,6 +672,14 @@
   "python-mapbox-earcut": {
     "urls": [],
     "summaries": []
+  },
+  "python-matplotlib": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2328713"
+    ],
+    "summaries": [
+      "python-matplotlib fails to build with Python 3.14: RecursionError: maximum recursion depth exceeded"
+    ]
   },
   "python-mccabe": {
     "urls": [
