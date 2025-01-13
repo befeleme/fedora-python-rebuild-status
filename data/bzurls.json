@@ -135,6 +135,10 @@
     "urls": [],
     "summaries": []
   },
+  "libguestfs": {
+    "urls": [],
+    "summaries": []
+  },
   "libnvme": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2325194"
@@ -874,12 +878,8 @@
     ]
   },
   "python-pywt": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2336896"
-    ],
-    "summaries": [
-      "python-pywt: FTBFS in Fedora Rawhide: AttributeError: module 'numpy' has no attribute 'AxisError'"
-    ]
+    "urls": [],
+    "summaries": []
   },
   "python-rdflib": {
     "urls": [
@@ -1172,6 +1172,10 @@
     "summaries": [
       "python-virtualenv fails to build with Python 3.14: AssertionError: common, \"\\n\".join(difflib.unified_diff(list_to_str(sys_path), list_to_str(system_sys_path)))"
     ]
+  },
+  "python-watchfiles": {
+    "urls": [],
+    "summaries": []
   },
   "python-webscrapbook": {
     "urls": [
