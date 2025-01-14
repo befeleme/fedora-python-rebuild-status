@@ -203,7 +203,7 @@ evemu	succeeded
 fail2ban	succeeded
 fapolicy-analyzer	succeeded
 fedfind	failed
-fedora-business-cards	succeeded
+fedora-business-cards	failed
 fedora-distro-aliases	succeeded
 fedora-review	succeeded
 fedora-third-party	succeeded
@@ -334,7 +334,7 @@ jello	succeeded
 jsonnet	succeeded
 kea	succeeded
 kerberoast	succeeded
-kernel	succeeded
+kernel	running
 keycloak-httpd-client-install	succeeded
 keylime	succeeded
 kf6-kapidox	succeeded
@@ -416,7 +416,7 @@ libplist	succeeded
 libpst	succeeded
 libpwquality	succeeded
 librealsense	succeeded
-libreoffice	succeeded
+libreoffice	running
 librepo	succeeded
 libreport	succeeded
 libsavitar	succeeded
@@ -1729,6 +1729,7 @@ python-itsdangerous	succeeded
 python-jack-client	failed
 python-jaconv	succeeded
 python-janus	succeeded
+python-janus-swi	succeeded
 python-jaraco-classes	succeeded
 python-jaraco-collections	succeeded
 python-jaraco-context	succeeded
@@ -1939,7 +1940,7 @@ python-minikerberos	succeeded
 python-minimock	succeeded
 python-mirakuru	succeeded
 python-mirrors-countme	succeeded
-python-mistune	succeeded
+python-mistune	failed
 python-mistune08	succeeded
 python-mitogen	succeeded
 python-mizani	succeeded
@@ -2067,6 +2068,7 @@ python-oauth2	succeeded
 python-oauth2client	succeeded
 python-oauthlib	succeeded
 python-odata-query	succeeded
+python-ofxparse	succeeded
 python-olefile	succeeded
 python-oletools	succeeded
 python-omlmd	succeeded
@@ -2335,7 +2337,7 @@ python-pygatt	succeeded
 python-pygdbmi	succeeded
 python-pyghmi	succeeded
 python-pygiftiio	succeeded
-python-pygit2	succeeded
+python-pygit2	failed
 python-pyglet	succeeded
 python-pygmars	succeeded
 python-pygments	succeeded
@@ -2548,6 +2550,7 @@ python-pytz-deprecation-shim	failed
 python-pytzdata	succeeded
 python-pyuca	succeeded
 python-pyudev	succeeded
+python-pyunormalize	succeeded
 python-pyupgrade	failed
 python-pyvat	succeeded
 python-pyvit	succeeded
@@ -2560,6 +2563,7 @@ python-pywt	failed
 python-pyxdameraulevenshtein	succeeded
 python-pyxdf	succeeded
 python-pyxid	succeeded
+python-pyxlsb2	succeeded
 python-pyxs	succeeded
 python-pyyaml-env-tag	succeeded
 python-pyzabbix	succeeded
@@ -2741,6 +2745,7 @@ python-should_dsl	succeeded
 python-show-in-file-manager	succeeded
 python-shtab	succeeded
 python-sieve	succeeded
+python-sievelib	succeeded
 python-signedjson	succeeded
 python-simple-pid	succeeded
 python-simple-rlp	succeeded
@@ -2778,6 +2783,7 @@ python-social-auth-core	failed
 python-socks	succeeded
 python-socks5line	succeeded
 python-socksio	succeeded
+python-solc-ast	succeeded
 python-solcx	succeeded
 python-sortedcollections	succeeded
 python-sortedcontainers	succeeded
@@ -2829,7 +2835,7 @@ python-sphinxcontrib-autoprogram	succeeded
 python-sphinxcontrib-bibtex	succeeded
 python-sphinxcontrib-blockdiag	failed
 python-sphinxcontrib-devhelp	succeeded
-python-sphinxcontrib-github-alt	succeeded
+python-sphinxcontrib-github-alt	failed
 python-sphinxcontrib-globalsubs	succeeded
 python-sphinxcontrib-htmlhelp	succeeded
 python-sphinxcontrib-httpdomain	succeeded
@@ -2891,6 +2897,7 @@ python-subarulink	succeeded
 python-subprocess-tee	succeeded
 python-succulent	succeeded
 python-suds	succeeded
+python-super-collections	succeeded
 python-sure	succeeded
 python-surt	succeeded
 python-sushy	succeeded
@@ -2960,6 +2967,7 @@ python-tiny-proxy	succeeded
 python-tinycss2	succeeded
 python-tinydb	succeeded
 python-tinygrad	succeeded
+python-tinyhtml5	succeeded
 python-tkrzw	succeeded
 python-tld	succeeded
 python-tldextract	succeeded
@@ -2990,6 +2998,7 @@ python-tree-format	failed
 python-trezor	succeeded
 python-trio	succeeded
 python-trio-websocket	succeeded
+python-triton	succeeded
 python-trololio	succeeded
 python-trove-classifiers	succeeded
 python-trustme	succeeded
@@ -3135,7 +3144,7 @@ python-wled	succeeded
 python-wloc	succeeded
 python-wordcloud	failed
 python-wrapt	succeeded
-python-wsgi_intercept	succeeded
+python-wsgi_intercept	failed
 python-wsproto	succeeded
 python-wtforms	succeeded
 python-wurlitzer	succeeded
