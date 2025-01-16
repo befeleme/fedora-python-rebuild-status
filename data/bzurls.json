@@ -127,6 +127,10 @@
       "jc fails to build with Python 3.14: ImportError: cannot import name 'ByteString' from 'typing'"
     ]
   },
+  "kernel": {
+    "urls": [],
+    "summaries": []
+  },
   "kicad": {
     "urls": [],
     "summaries": []
@@ -177,14 +181,6 @@
     ],
     "summaries": [
       "mopidy-mpd: FTBFS in Fedora Rawhide"
-    ]
-  },
-  "nox": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2336930"
-    ],
-    "summaries": [
-      "nox fails to build with Python 3.14:  nox.command.CommandFailed: Program /usr/bin/python3 not found"
     ]
   },
   "opentrep": {
@@ -269,10 +265,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-PyGithub": {
-    "urls": [],
-    "summaries": []
-  },
   "python-XStatic-roboto-fontface": {
     "urls": [],
     "summaries": []
@@ -303,14 +295,6 @@
     ],
     "summaries": [
       "python-astroid fails to build with Python 3.14: astroid.exceptions.InferenceError: StopIteration raised without any error information."
-    ]
-  },
-  "python-async-lru": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2336970"
-    ],
-    "summaries": [
-      "python-async-lru fails to build with Python 3.14:  DeprecationWarning: 'asyncio.iscoroutinefunction' is deprecated and slated for removal in Python 3.16; use inspect.iscoroutinefunction() instead"
     ]
   },
   "python-asyncssh": {
@@ -393,14 +377,6 @@
       "python-cffi fails to build with Python 3.14:  TestNewFFI1.test_import_from_lib: TypeError: bad argument type for built-in operation + multiple Warnings"
     ]
   },
-  "python-charset-normalizer": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2336939"
-    ],
-    "summaries": [
-      "python-charset-normalizer fails to build with Python 3.14: PendingDeprecationWarning: FileType is deprecated. Simply open files after parsing arguments."
-    ]
-  },
   "python-colcon-parallel-executor": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2325186"
@@ -438,6 +414,10 @@
     "summaries": []
   },
   "python-crick": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-cvxopt": {
     "urls": [],
     "summaries": []
   },
@@ -661,6 +641,10 @@
     "urls": [],
     "summaries": []
   },
+  "python-jupyter-kernel-singular": {
+    "urls": [],
+    "summaries": []
+  },
   "python-libarchive-c": {
     "urls": [],
     "summaries": []
@@ -728,14 +712,6 @@
   "python-ndindex": {
     "urls": [],
     "summaries": []
-  },
-  "python-neovim": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2336888"
-    ],
-    "summaries": [
-      "python-neovim fails to build with Python 3.14: ImportError: cannot import name 'ThreadedChildWatcher' from 'asyncio.unix_events' (/usr/lib64/python3.14/asyncio/unix_events.py)"
-    ]
   },
   "python-nose": {
     "urls": [
@@ -1276,6 +1252,10 @@
     "summaries": [
       "python-zstandard fails to build with Python 3.14: ImportError: cannot import name 'ByteString' from 'typing'"
     ]
+  },
+  "python3.14": {
+    "urls": [],
+    "summaries": []
   },
   "qtile": {
     "urls": [
