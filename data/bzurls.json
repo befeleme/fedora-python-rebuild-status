@@ -1,5 +1,5 @@
 {
-  "RBTools": {
+  "GeographicLib": {
     "urls": [],
     "summaries": []
   },
@@ -35,6 +35,14 @@
       "binwalk fails to build with Python 3.14: TypeError: unsupported operand type(s) for +=: 'NoneType' and 'int'"
     ]
   },
+  "bluechi": {
+    "urls": [],
+    "summaries": []
+  },
+  "boom-boot": {
+    "urls": [],
+    "summaries": []
+  },
   "borgbackup": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2326916"
@@ -42,6 +50,10 @@
     "summaries": [
       "borgbackup fails to build with Python 3.14: OSError: AF_UNIX path too long when compiling"
     ]
+  },
+  "botan": {
+    "urls": [],
+    "summaries": []
   },
   "brltty": {
     "urls": [],
@@ -59,7 +71,51 @@
     "urls": [],
     "summaries": []
   },
+  "cjdns": {
+    "urls": [],
+    "summaries": []
+  },
+  "cmake": {
+    "urls": [],
+    "summaries": []
+  },
   "cockpit": {
+    "urls": [],
+    "summaries": []
+  },
+  "colin": {
+    "urls": [],
+    "summaries": []
+  },
+  "compizconfig-python": {
+    "urls": [],
+    "summaries": []
+  },
+  "condor": {
+    "urls": [],
+    "summaries": []
+  },
+  "conu": {
+    "urls": [],
+    "summaries": []
+  },
+  "copr-keygen": {
+    "urls": [],
+    "summaries": []
+  },
+  "cryptlib": {
+    "urls": [],
+    "summaries": []
+  },
+  "debconf": {
+    "urls": [],
+    "summaries": []
+  },
+  "dee": {
+    "urls": [],
+    "summaries": []
+  },
+  "diceware": {
     "urls": [],
     "summaries": []
   },
@@ -70,6 +126,10 @@
     "summaries": [
       "did fails to build with Python 3.14: AttributeError: module 'urllib.request' has no attribute 'FancyURLopener'"
     ]
+  },
+  "dionaea": {
+    "urls": [],
+    "summaries": []
   },
   "dlib": {
     "urls": [
@@ -83,7 +143,27 @@
     "urls": [],
     "summaries": []
   },
+  "dnsconfd": {
+    "urls": [],
+    "summaries": []
+  },
+  "dogtag-pki": {
+    "urls": [],
+    "summaries": []
+  },
+  "dxf2gcode": {
+    "urls": [],
+    "summaries": []
+  },
+  "electron-cash": {
+    "urls": [],
+    "summaries": []
+  },
   "elements-alexandria": {
+    "urls": [],
+    "summaries": []
+  },
+  "enki": {
     "urls": [],
     "summaries": []
   },
@@ -112,6 +192,34 @@
     "summaries": []
   },
   "fedscm-admin": {
+    "urls": [],
+    "summaries": []
+  },
+  "flent": {
+    "urls": [],
+    "summaries": []
+  },
+  "fontforge": {
+    "urls": [],
+    "summaries": []
+  },
+  "freeradius": {
+    "urls": [],
+    "summaries": []
+  },
+  "fros": {
+    "urls": [],
+    "summaries": []
+  },
+  "gdl": {
+    "urls": [],
+    "summaries": []
+  },
+  "gns3-server": {
+    "urls": [],
+    "summaries": []
+  },
+  "gnuradio": {
     "urls": [],
     "summaries": []
   },
@@ -182,6 +290,10 @@
     "summaries": [
       "mopidy-mpd: FTBFS in Fedora Rawhide"
     ]
+  },
+  "morphio": {
+    "urls": [],
+    "summaries": []
   },
   "opentrep": {
     "urls": [],
@@ -262,6 +374,10 @@
     ]
   },
   "python-APScheduler": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-Automat": {
     "urls": [],
     "summaries": []
   },
@@ -1253,9 +1369,13 @@
       "python-zstandard fails to build with Python 3.14: ImportError: cannot import name 'ByteString' from 'typing'"
     ]
   },
-  "python3.14": {
-    "urls": [],
-    "summaries": []
+  "qpid-proton": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2327999"
+    ],
+    "summaries": [
+      "qpid-proton fails to build with Python 3.14: error: File not found: /builddir/build/BUILD/qpid-proton-0.38.0-build/BUILDROOT/usr/share/proton/docs/api-py"
+    ]
   },
   "qtile": {
     "urls": [
@@ -1294,10 +1414,6 @@
     "summaries": []
   },
   "trademgen": {
-    "urls": [],
-    "summaries": []
-  },
-  "tuned": {
     "urls": [],
     "summaries": []
   },
