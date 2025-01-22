@@ -103,6 +103,14 @@
     "urls": [],
     "summaries": []
   },
+  "dlib": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2328014"
+    ],
+    "summaries": [
+      "dlib fails to build with Python 3.14: AttributeError: module 'pkgutil' has no attribute 'find_loader'"
+    ]
+  },
   "dnfdragora": {
     "urls": [],
     "summaries": []
@@ -195,6 +203,10 @@
       "jc fails to build with Python 3.14: ImportError: cannot import name 'ByteString' from 'typing'"
     ]
   },
+  "kernel": {
+    "urls": [],
+    "summaries": []
+  },
   "kicad": {
     "urls": [],
     "summaries": []
@@ -216,6 +228,10 @@
     "summaries": []
   },
   "lecm": {
+    "urls": [],
+    "summaries": []
+  },
+  "libarrow": {
     "urls": [],
     "summaries": []
   },
@@ -279,14 +295,6 @@
     "urls": [],
     "summaries": []
   },
-  "mopidy-mpd": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2336892"
-    ],
-    "summaries": [
-      "mopidy-mpd: FTBFS in Fedora Rawhide"
-    ]
-  },
   "morphio": {
     "urls": [],
     "summaries": []
@@ -304,6 +312,10 @@
     "summaries": []
   },
   "nvmetcli": {
+    "urls": [],
+    "summaries": []
+  },
+  "nwchem": {
     "urls": [],
     "summaries": []
   },
@@ -538,8 +550,12 @@
     ]
   },
   "python-behave": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2339094"
+    ],
+    "summaries": [
+      "python-behave fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
+    ]
   },
   "python-billiard": {
     "urls": [
@@ -626,6 +642,10 @@
     "summaries": []
   },
   "python-crick": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-cryptography": {
     "urls": [],
     "summaries": []
   },
@@ -1605,6 +1625,10 @@
     "urls": [],
     "summaries": []
   },
+  "uhd": {
+    "urls": [],
+    "summaries": []
+  },
   "uwsgi": {
     "urls": [],
     "summaries": []
@@ -1620,6 +1644,10 @@
     "summaries": [
       "visidata fails to build with Python 3.14: TestVisidataPath.test_withName: AssertionError: assert 'foo' == 'foo.'"
     ]
+  },
+  "vtk": {
+    "urls": [],
+    "summaries": []
   },
   "weasyprint": {
     "urls": [],
