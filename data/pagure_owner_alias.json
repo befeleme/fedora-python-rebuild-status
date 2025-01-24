@@ -320,6 +320,9 @@
         "abiword": [
             "yselkowitz"
         ],
+        "adw-gtk3-theme": [
+            "yselkowitz"
+        ],
         "aisleriot": [
             "kalev"
         ],
@@ -435,7 +438,13 @@
         "brasero": [
             "yselkowitz"
         ],
+        "breeze-gtk": [
+            "yselkowitz"
+        ],
         "bustle": [
+            "yselkowitz"
+        ],
+        "calf": [
             "yselkowitz"
         ],
         "calibre": [
@@ -671,6 +680,9 @@
             "otaylor",
             "tpopela",
             "kalev"
+        ],
+        "flatpak-runtime-locale": [
+            "yselkowitz"
         ],
         "flatpak-sdk": [
             "otaylor",
@@ -916,6 +928,9 @@
         "gnumeric": [
             "yselkowitz"
         ],
+        "golang": [
+            "yselkowitz"
+        ],
         "gpodder": [
             "yselkowitz"
         ],
@@ -982,6 +997,9 @@
         "hugin": [
             "yselkowitz"
         ],
+        "hunspell": [
+            "yselkowitz"
+        ],
         "hydrapaper": [
             "yselkowitz"
         ],
@@ -997,10 +1015,16 @@
         "inkscape": [
             "kalev"
         ],
+        "intel-media-driver-free": [
+            "yselkowitz"
+        ],
         "isoimagewriter": [
             "yselkowitz"
         ],
         "itinerary": [
+            "yselkowitz"
+        ],
+        "java-21-openjdk": [
             "yselkowitz"
         ],
         "jmol": [
@@ -1127,6 +1151,9 @@
             "yselkowitz"
         ],
         "kgeography": [
+            "yselkowitz"
+        ],
+        "kgeotag": [
             "yselkowitz"
         ],
         "kget": [
@@ -1351,6 +1378,18 @@
         "kxstitch": [
             "yselkowitz"
         ],
+        "ladspa-caps-plugins": [
+            "yselkowitz"
+        ],
+        "ladspa-cmt-plugins": [
+            "yselkowitz"
+        ],
+        "ladspa-swh-plugins": [
+            "yselkowitz"
+        ],
+        "ladspa-tap-plugins": [
+            "yselkowitz"
+        ],
         "lazpaint": [
             "yselkowitz"
         ],
@@ -1372,6 +1411,12 @@
         "lightsoff": [
             "yselkowitz"
         ],
+        "llvm18": [
+            "yselkowitz"
+        ],
+        "llvm19": [
+            "yselkowitz"
+        ],
         "lokalize": [
             "yselkowitz"
         ],
@@ -1379,6 +1424,15 @@
             "yselkowitz"
         ],
         "loupe": [
+            "yselkowitz"
+        ],
+        "lsp-plugins": [
+            "yselkowitz"
+        ],
+        "lv2-mdala-plugins": [
+            "yselkowitz"
+        ],
+        "lv2-x42-plugins": [
             "yselkowitz"
         ],
         "marble": [
@@ -1415,6 +1469,9 @@
             "feborges",
             "kalev"
         ],
+        "mesa": [
+            "yselkowitz"
+        ],
         "mesa-demos": [
             "yselkowitz"
         ],
@@ -1422,6 +1479,9 @@
             "yselkowitz"
         ],
         "minder": [
+            "yselkowitz"
+        ],
+        "mingw-gcc": [
             "yselkowitz"
         ],
         "minuet": [
@@ -1480,6 +1540,9 @@
         ],
         "openarena": [
             "kalev"
+        ],
+        "openh264": [
+            "yselkowitz"
         ],
         "openshot": [
             "yselkowitz"
@@ -1649,7 +1712,13 @@
         "rocs": [
             "yselkowitz"
         ],
+        "rubberband": [
+            "yselkowitz"
+        ],
         "ruqola": [
+            "yselkowitz"
+        ],
+        "rust-bankstown-lv2": [
             "yselkowitz"
         ],
         "scribus": [
@@ -1826,6 +1895,15 @@
         "vlc": [
             "yselkowitz"
         ],
+        "vlc-plugin-bittorrent": [
+            "yselkowitz"
+        ],
+        "vlc-plugin-pause-click": [
+            "yselkowitz"
+        ],
+        "vlc-plugin-pipewire": [
+            "yselkowitz"
+        ],
         "vmpk": [
             "yselkowitz"
         ],
@@ -1896,6 +1974,12 @@
             "yselkowitz"
         ],
         "yakuake": [
+            "yselkowitz"
+        ],
+        "yt-dlp": [
+            "yselkowitz"
+        ],
+        "zam-plugins": [
             "yselkowitz"
         ],
         "zeal": [
@@ -13120,6 +13204,9 @@
         "cri-o1.32": [
             "buckaroogeek"
         ],
+        "cri-o1.33": [
+            "buckaroogeek"
+        ],
         "cri-tools": [
             "haircommander",
             "dwalsh",
@@ -22152,8 +22239,7 @@
         "gawk": [
             "jamartis",
             "deekej",
-            "ajschorr",
-            "jrybar"
+            "ajschorr"
         ],
         "gawk-abort": [
             "ajschorr"
@@ -39868,6 +39954,9 @@
             "coiby",
             "labbott",
             "bmeneguele"
+        ],
+        "image-builder": [
+            "supakeen"
         ],
         "imagefactory": [
             "kevin",
@@ -64501,14 +64590,20 @@
         ],
         "nodejs18": [
             "jstanek",
+            "tjuhasz",
+            "aradchen",
             "sgallagh"
         ],
         "nodejs20": [
             "jstanek",
+            "aradchen",
+            "tjuhasz",
             "sgallagh"
         ],
         "nodejs22": [
             "jstanek",
+            "aradchen",
+            "tjuhasz",
             "sgallagh"
         ],
         "nodepool": [
@@ -67187,7 +67282,7 @@
             "dbelyavs"
         ],
         "openssl-gost-engine": [
-            "beldmit",
+            "orphan",
             "dbelyavs",
             "abbra"
         ],
@@ -76983,7 +77078,7 @@
             "orphan"
         ],
         "perl-Newt": [
-            "orphan"
+            "mspacek"
         ],
         "perl-Nmap-Parser": [
             "jplesnik",
@@ -92823,6 +92918,9 @@
             "gui1ty"
         ],
         "python-eth-abi": [
+            "peter"
+        ],
+        "python-eth-event": [
             "peter"
         ],
         "python-eth-hash": [
@@ -111843,6 +111941,9 @@
         "rust-cargo_metadata0.17": [
             "decathorpe"
         ],
+        "rust-cargo_metadata0.18": [
+            "decathorpe"
+        ],
         "rust-cargo_metadata0.6": [
             "orphan"
         ],
@@ -113044,6 +113145,12 @@
         ],
         "rust-digest_auth": [
             "orphan"
+        ],
+        "rust-dir-test": [
+            "decathorpe"
+        ],
+        "rust-dir-test-macros": [
+            "decathorpe"
         ],
         "rust-dircpy": [
             "decathorpe"
@@ -121233,6 +121340,9 @@
             "decathorpe",
             "kanru"
         ],
+        "rust-tokei12": [
+            "music"
+        ],
         "rust-tokio": [
             "decathorpe"
         ],
@@ -126120,6 +126230,7 @@
         ],
         "star": [
             "ovasik",
+            "ljavorsk",
             "praiskup"
         ],
         "starcal": [

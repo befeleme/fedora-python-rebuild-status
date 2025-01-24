@@ -1,12 +1,4 @@
 {
-  "GeographicLib": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2339847"
-    ],
-    "summaries": [
-      "GeographicLib: FTBFS in Fedora rawhide/f42"
-    ]
-  },
   "adapt": {
     "urls": [],
     "summaries": []
@@ -193,13 +185,9 @@
     "urls": [],
     "summaries": []
   },
-  "freeradius": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2340178"
-    ],
-    "summaries": [
-      "freeradius: FTBFS in Fedora rawhide/f42"
-    ]
+  "gdb": {
+    "urls": [],
+    "summaries": []
   },
   "gdl": {
     "urls": [
@@ -235,22 +223,6 @@
     ],
     "summaries": [
       "hplip: FTBFS in Fedora rawhide/f42"
-    ]
-  },
-  "i2c-tools": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2340627"
-    ],
-    "summaries": [
-      "i2c-tools: FTBFS in Fedora rawhide/f42"
-    ]
-  },
-  "ibus": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2340629"
-    ],
-    "summaries": [
-      "ibus: FTBFS in Fedora rawhide/f42"
     ]
   },
   "ikiwiki": {
@@ -329,14 +301,6 @@
     "urls": [],
     "summaries": []
   },
-  "libcamera": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2340721"
-    ],
-    "summaries": [
-      "libcamera: FTBFS in Fedora rawhide/f42"
-    ]
-  },
   "libgpiod": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2340738"
@@ -359,14 +323,6 @@
     ],
     "summaries": [
       "libnvme fails to build with Python 3.14: /usr/include/python3.14/pyport.h:629:35: error: missing ')' after \"__has_attribute\""
-    ]
-  },
-  "libstoragemgmt": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2340763"
-    ],
-    "summaries": [
-      "libstoragemgmt: FTBFS in Fedora rawhide/f42"
     ]
   },
   "link-grammar": {
@@ -409,14 +365,6 @@
     ],
     "summaries": [
       "mathgl: FTBFS in Fedora rawhide/f42"
-    ]
-  },
-  "med": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2340837"
-    ],
-    "summaries": [
-      "med: FTBFS in Fedora rawhide/f42"
     ]
   },
   "mlpack": {
@@ -489,14 +437,6 @@
     ],
     "summaries": [
       "opentrep: FTBFS in Fedora rawhide/f42"
-    ]
-  },
-  "openwsman": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2340984"
-    ],
-    "summaries": [
-      "openwsman: FTBFS in Fedora rawhide/f42"
     ]
   },
   "osh": {
@@ -680,6 +620,10 @@
     "summaries": [
       "python-astroid fails to build with Python 3.14: astroid.exceptions.InferenceError: StopIteration raised without any error information."
     ]
+  },
+  "python-astropy-iers-data": {
+    "urls": [],
+    "summaries": []
   },
   "python-asyncssh": {
     "urls": [
@@ -929,14 +873,6 @@
       "python-etcd fails to build with Python 3.14: _pickle.PicklingError: Can't pickle local object <function TestWatch.test_watch_indexed_generator.<locals>.watch_value at 0x7f0d39f71dd0>"
     ]
   },
-  "python-ethtool": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2341150"
-    ],
-    "summaries": [
-      "python-ethtool: FTBFS in Fedora rawhide/f42"
-    ]
-  },
   "python-events": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2319655"
@@ -946,12 +882,8 @@
     ]
   },
   "python-executing": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2341151"
-    ],
-    "summaries": [
-      "python-executing: FTBFS in Fedora rawhide/f42"
-    ]
+    "urls": [],
+    "summaries": []
   },
   "python-fedora": {
     "urls": [],
@@ -1111,11 +1043,9 @@
   },
   "python-josepy": {
     "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2341166",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2323171"
     ],
     "summaries": [
-      "python-josepy: FTBFS in Fedora rawhide/f42",
       "python-josepy fails to build with Python 3.14: 6x ValueError: Field `alg` in JSONObject `Header` has no type annotation."
     ]
   },
@@ -1509,14 +1439,6 @@
       "python-rosdep: FTBFS in Fedora rawhide/f42"
     ]
   },
-  "python-rpmfluff": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2341208"
-    ],
-    "summaries": [
-      "python-rpmfluff: FTBFS in Fedora rawhide/f42"
-    ]
-  },
   "python-rq": {
     "urls": [],
     "summaries": []
@@ -1805,14 +1727,6 @@
       "python-webscrapbook fails to build with Python 3.14: 60x AssertionError in the test suite"
     ]
   },
-  "python-whoosh": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2341238"
-    ],
-    "summaries": [
-      "python-whoosh: FTBFS in Fedora rawhide/f42"
-    ]
-  },
   "python-wled": {
     "urls": [],
     "summaries": []
@@ -1987,14 +1901,6 @@
     "urls": [],
     "summaries": []
   },
-  "tbb": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2341414"
-    ],
-    "summaries": [
-      "tbb: FTBFS in Fedora rawhide/f42"
-    ]
-  },
   "tcl-snack": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2341418"
@@ -2096,12 +2002,8 @@
     ]
   },
   "xpra": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2341582"
-    ],
-    "summaries": [
-      "xpra: FTBFS in Fedora rawhide/f42"
-    ]
+    "urls": [],
+    "summaries": []
   },
   "yamllint": {
     "urls": [
