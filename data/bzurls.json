@@ -91,14 +91,6 @@
       "condor: FTBFS in Fedora rawhide/f42"
     ]
   },
-  "cryptlib": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2340016"
-    ],
-    "summaries": [
-      "cryptlib: FTBFS in Fedora rawhide/f42"
-    ]
-  },
   "debconf": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2340035"
@@ -215,14 +207,6 @@
     ],
     "summaries": [
       "h5py fails to build with Python 3.14: ResourceWarning: TestFileObj.test_TemporaryFile: Implicitly cleaning up <_TemporaryFileWrapper file=<_io.BufferedRandom name='/tmp/tmp8pqafmzv'>>"
-    ]
-  },
-  "hplip": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2340616"
-    ],
-    "summaries": [
-      "hplip: FTBFS in Fedora rawhide/f42"
     ]
   },
   "ikiwiki": {
@@ -825,22 +809,6 @@
       "python-dill fails to build with Python 3.14: TypeError: _Pickler._batch_setitems() missing 1 required positional argument: 'obj'"
     ]
   },
-  "python-django-allauth": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-django-contrib-comments": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-django-debreach": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2328003"
-    ],
-    "summaries": [
-      "python-django-debreach fails to build with Python 3.14: AttributeError: 'super' object has no attribute 'dicts' and no __dict__ for setting new attributes"
-    ]
-  },
   "python-django-filter": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2336944"
@@ -979,10 +947,10 @@
   },
   "python-icalendar": {
     "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2341163"
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2336946"
     ],
     "summaries": [
-      "python-icalendar: FTBFS in Fedora rawhide/f42"
+      "python-icalendar: FTBFS in Fedora Rawhide: AssertionError: assert 'WET' in ('Europe/Lisbon', 'Portugal')  where ('Europe/Lisbon', 'Portugal') = tzids_from_tzinfo(tzfile('/usr/share/zoneinfo/WET'))"
     ]
   },
   "python-img2pdf": {
@@ -1187,10 +1155,6 @@
       "python-psycopg3 fails to build with Python 3.14: DeprecationWarning: 'asyncio.set_event_loop' is deprecated and slated for removal in Python 3.16"
     ]
   },
-  "python-pulp-glue": {
-    "urls": [],
-    "summaries": []
-  },
   "python-pure-protobuf": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2322710"
@@ -1202,6 +1166,14 @@
   "python-pyairvisual": {
     "urls": [],
     "summaries": []
+  },
+  "python-pybbi": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2341184"
+    ],
+    "summaries": [
+      "python-pybbi: FTBFS in Fedora rawhide/f42"
+    ]
   },
   "python-pycec": {
     "urls": [
@@ -1613,10 +1585,6 @@
       "python-tpm2-pytss: FTBFS in Fedora rawhide/f42"
     ]
   },
-  "python-traitsui": {
-    "urls": [],
-    "summaries": []
-  },
   "python-tree-format": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2319731"
@@ -1795,16 +1763,6 @@
       "python-zstandard fails to build with Python 3.14: ImportError: cannot import name 'ByteString' from 'typing'"
     ]
   },
-  "qpid-proton": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2341251",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2327999"
-    ],
-    "summaries": [
-      "qpid-proton: FTBFS in Fedora rawhide/f42",
-      "qpid-proton fails to build with Python 3.14: error: File not found: /builddir/build/BUILD/qpid-proton-0.38.0-build/BUILDROOT/usr/share/proton/docs/api-py"
-    ]
-  },
   "qtile": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2328711"
@@ -1870,8 +1828,12 @@
     ]
   },
   "scipy": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2341927"
+    ],
+    "summaries": [
+      "scipy fails to build with Python 3.14: TestSystematic::test_bessely, TestSystematic::test_bessely_int and TestSystematic::test_wrightomega fail"
+    ]
   },
   "signon-glib": {
     "urls": [
@@ -1898,6 +1860,10 @@
     ]
   },
   "syncplay": {
+    "urls": [],
+    "summaries": []
+  },
+  "systemtap": {
     "urls": [],
     "summaries": []
   },
@@ -1953,14 +1919,6 @@
       "uhd: FTBFS in Fedora rawhide/f42"
     ]
   },
-  "uwsgi": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2341497"
-    ],
-    "summaries": [
-      "uwsgi: FTBFS in Fedora rawhide/f42"
-    ]
-  },
   "veusz": {
     "urls": [],
     "summaries": []
@@ -1984,14 +1942,6 @@
   "weasyprint": {
     "urls": [],
     "summaries": []
-  },
-  "xen": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2341566"
-    ],
-    "summaries": [
-      "xen: FTBFS in Fedora rawhide/f42"
-    ]
   },
   "xonsh": {
     "urls": [
