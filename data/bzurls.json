@@ -590,12 +590,8 @@
     "summaries": []
   },
   "python-ase": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2336912"
-    ],
-    "summaries": [
-      "python-ase: FTBFS in Fedora Rawhide: ImportError: cannot import name 'VisibleDeprecationWarning' from 'numpy' (/usr/lib64/python3.13/site-packages/numpy/__init__.py)"
-    ]
+    "urls": [],
+    "summaries": []
   },
   "python-astroid": {
     "urls": [
@@ -1055,11 +1051,9 @@
   },
   "python-matplotlib": {
     "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2341338",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2328713"
     ],
     "summaries": [
-      "python-matplotlib: FTBFS in Fedora rawhide/f42",
       "python-matplotlib fails to build with Python 3.14: RecursionError: maximum recursion depth exceeded"
     ]
   },
