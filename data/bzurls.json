@@ -51,14 +51,6 @@
       "borgbackup fails to build with Python 3.14: OSError: AF_UNIX path too long when compiling"
     ]
   },
-  "brltty": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2339947"
-    ],
-    "summaries": [
-      "brltty: FTBFS in Fedora rawhide/f42"
-    ]
-  },
   "ceph": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2336913"
@@ -173,10 +165,6 @@
     "urls": [],
     "summaries": []
   },
-  "fonttools": {
-    "urls": [],
-    "summaries": []
-  },
   "gdb": {
     "urls": [],
     "summaries": []
@@ -236,6 +224,10 @@
     "summaries": [
       "jc fails to build with Python 3.14: ImportError: cannot import name 'ByteString' from 'typing'"
     ]
+  },
+  "jrnl": {
+    "urls": [],
+    "summaries": []
   },
   "kernel": {
     "urls": [
@@ -327,11 +319,9 @@
   },
   "llvm": {
     "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2340786",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2336915"
     ],
     "summaries": [
-      "llvm: FTBFS in Fedora rawhide/f42",
       "llvm fails to build with Python 3.14: tools/opt-viewer/suppress.test: AttributeError: type object 'Passed' has no attribute 'demangler_lock'"
     ]
   },
@@ -415,22 +405,6 @@
       "openbabel fails to build with Python 3.14: test_align_4 and test_align_5 fail"
     ]
   },
-  "opentrep": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2340980"
-    ],
-    "summaries": [
-      "opentrep: FTBFS in Fedora rawhide/f42"
-    ]
-  },
-  "osh": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2340988"
-    ],
-    "summaries": [
-      "osh: FTBFS in Fedora rawhide/f42"
-    ]
-  },
   "pcs": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2341012"
@@ -493,6 +467,10 @@
       "protobuf: FTBFS in Fedora rawhide/f42"
     ]
   },
+  "pulp-cli": {
+    "urls": [],
+    "summaries": []
+  },
   "pybind11": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2336889"
@@ -549,19 +527,11 @@
     "urls": [],
     "summaries": []
   },
-  "python-AppTools": {
-    "urls": [],
-    "summaries": []
-  },
   "python-Automat": {
     "urls": [],
     "summaries": []
   },
   "python-XStatic-roboto-fontface": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-aiohttp": {
     "urls": [],
     "summaries": []
   },
@@ -582,10 +552,6 @@
     ]
   },
   "python-apsw": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-aresponses": {
     "urls": [],
     "summaries": []
   },
@@ -612,10 +578,6 @@
     "summaries": [
       "python-asyncssh fails to build with Python 3.14: multiple test failures (failures=25, errors=697)"
     ]
-  },
-  "python-attrs": {
-    "urls": [],
-    "summaries": []
   },
   "python-auth-credential": {
     "urls": [],
@@ -681,10 +643,6 @@
       "python-blinker fails to build with Python 3.14: pluggy.PluggyTeardownRaisedWarning: A plugin raised an exception during an old-style hookwrapper teardown."
     ]
   },
-  "python-bravado": {
-    "urls": [],
-    "summaries": []
-  },
   "python-capturer": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2328004"
@@ -702,6 +660,10 @@
     ]
   },
   "python-cattrs": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-chalice": {
     "urls": [],
     "summaries": []
   },
@@ -754,10 +716,6 @@
     ]
   },
   "python-contourpy": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-cornice": {
     "urls": [],
     "summaries": []
   },
@@ -877,6 +835,10 @@
       "python-fsleyes-widgets fails to build with Python 3.14: AssertionError: assert 'file:/home/b...htmlfile.html' == 'file:///home...htmlfile.html'"
     ]
   },
+  "python-furo": {
+    "urls": [],
+    "summaries": []
+  },
   "python-genty": {
     "urls": [],
     "summaries": []
@@ -936,6 +898,10 @@
     "summaries": [
       "python-hl7: FTBFS in Fedora rawhide/f42"
     ]
+  },
+  "python-howdoi": {
+    "urls": [],
+    "summaries": []
   },
   "python-httpretty": {
     "urls": [],
@@ -1021,6 +987,10 @@
     "urls": [],
     "summaries": []
   },
+  "python-jupyter-events": {
+    "urls": [],
+    "summaries": []
+  },
   "python-jupyter-kernel-singular": {
     "urls": [],
     "summaries": []
@@ -1065,7 +1035,19 @@
       "python-mccabe fails to build with Python 3.14: AttributeError: module 'typing' has no attribute 'ByteString'"
     ]
   },
+  "python-meshio": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2333493"
+    ],
+    "summaries": [
+      "python-meshio: FTBFS in Fedora Rawhide"
+    ]
+  },
   "python-messaging": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-mkapi": {
     "urls": [],
     "summaries": []
   },
@@ -1113,14 +1095,6 @@
       "python-oscrypto: FTBFS in Fedora rawhide/f42"
     ]
   },
-  "python-pandas": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2341179"
-    ],
-    "summaries": [
-      "python-pandas: FTBFS in Fedora rawhide/f42"
-    ]
-  },
   "python-photutils": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2336893"
@@ -1157,10 +1131,6 @@
       "python-pure-protobuf fails to build with Python 3.14: ImportError: cannot import name 'ByteString' from 'typing'"
     ]
   },
-  "python-pyairvisual": {
-    "urls": [],
-    "summaries": []
-  },
   "python-pybbi": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2341184"
@@ -1184,6 +1154,10 @@
     "summaries": [
       "python-pydantic-core fails to build with Python 3.14: AssertionError: Regex pattern did not match. + AttributeError: module 'typing' has no attribute 'ByteString'"
     ]
+  },
+  "python-pydata-sphinx-theme": {
+    "urls": [],
+    "summaries": []
   },
   "python-pyemd": {
     "urls": [
@@ -1389,14 +1363,6 @@
       "python-requests-toolbelt: FTBFS in Fedora rawhide/f42"
     ]
   },
-  "python-rich": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2339510"
-    ],
-    "summaries": [
-      "python-rich fails to build with Python 3.14: 5 test fail"
-    ]
-  },
   "python-rosdep": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2341207"
@@ -1406,8 +1372,12 @@
     ]
   },
   "python-rq": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2342234"
+    ],
+    "summaries": [
+      "python-rq fails to build with Python 3.14: test_worker.py::HerokuWorkerShutdownTestCase::test_handle_shutdown_request shuts down the whole build"
+    ]
   },
   "python-rstcheck": {
     "urls": [
@@ -1423,14 +1393,6 @@
     ],
     "summaries": [
       "python-rx fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
-    ]
-  },
-  "python-s3transfer": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2326933"
-    ],
-    "summaries": [
-      "python-s3transfer fails to build with Python 3.14: _pickle.PicklingError: Can't pickle local object <class 'tests.unit.test_compat.TestBaseManager.create_pid_manager.<locals>.PIDManager'>"
     ]
   },
   "python-seaborn": {
@@ -1515,6 +1477,10 @@
     "urls": [],
     "summaries": []
   },
+  "python-starlette": {
+    "urls": [],
+    "summaries": []
+  },
   "python-stdlibs": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2336938"
@@ -1522,10 +1488,6 @@
     "summaries": [
       "python-stdlibs fails to build with Python 3.14: test_all_my_modules_are_there: AssertionError: Items in the second set but not the first: '_apple_support'"
     ]
-  },
-  "python-succulent": {
-    "urls": [],
-    "summaries": []
   },
   "python-svg2tikz": {
     "urls": [
@@ -1549,6 +1511,14 @@
     ],
     "summaries": [
       "python-terminado: FTBFS in Fedora rawhide/f42"
+    ]
+  },
+  "python-textual": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2341224"
+    ],
+    "summaries": [
+      "python-textual: FTBFS in Fedora rawhide/f42"
     ]
   },
   "python-tgscheduler": {
@@ -1659,6 +1629,10 @@
       "python-valkey fails to build with Python 3.14: _pickle.PicklingError: Can't pickle local object <function TestMultiprocessing.test_close_connection_in_child.<locals>.target at 0x7f7d711b5dd0>"
     ]
   },
+  "python-vcrpy": {
+    "urls": [],
+    "summaries": []
+  },
   "python-virtualbmc": {
     "urls": [],
     "summaries": []
@@ -1688,10 +1662,6 @@
       "python-webscrapbook: FTBFS in Fedora rawhide/f42",
       "python-webscrapbook fails to build with Python 3.14: 60x AssertionError in the test suite"
     ]
-  },
-  "python-wled": {
-    "urls": [],
-    "summaries": []
   },
   "python-wordcloud": {
     "urls": [
@@ -1798,12 +1768,8 @@
     ]
   },
   "rmol": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2341283"
-    ],
-    "summaries": [
-      "rmol: FTBFS in Fedora rawhide/f42"
-    ]
+    "urls": [],
+    "summaries": []
   },
   "root": {
     "urls": [
@@ -1883,14 +1849,6 @@
     ],
     "summaries": [
       "trac: FTBFS in Fedora rawhide/f42"
-    ]
-  },
-  "trademgen": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2341457"
-    ],
-    "summaries": [
-      "trademgen: FTBFS in Fedora rawhide/f42"
     ]
   },
   "trash-cli": {
