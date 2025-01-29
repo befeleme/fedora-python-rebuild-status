@@ -133,6 +133,10 @@
       "dlib fails to build with Python 3.14: AttributeError: module 'pkgutil' has no attribute 'find_loader'"
     ]
   },
+  "dnf": {
+    "urls": [],
+    "summaries": []
+  },
   "dnfdragora": {
     "urls": [],
     "summaries": []
@@ -197,6 +201,14 @@
       "h5py fails to build with Python 3.14: ResourceWarning: TestFileObj.test_TemporaryFile: Implicitly cleaning up <_TemporaryFileWrapper file=<_io.BufferedRandom name='/tmp/tmp8pqafmzv'>>"
     ]
   },
+  "httpie": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2340619"
+    ],
+    "summaries": [
+      "httpie: FTBFS in Fedora rawhide/f42"
+    ]
+  },
   "ikiwiki": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2340642"
@@ -237,6 +249,14 @@
       "kernel: FTBFS in Fedora rawhide/f42"
     ]
   },
+  "khal": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2340695"
+    ],
+    "summaries": [
+      "khal: FTBFS in Fedora rawhide/f42"
+    ]
+  },
   "kicad": {
     "urls": [],
     "summaries": []
@@ -270,10 +290,6 @@
     ]
   },
   "lecm": {
-    "urls": [],
-    "summaries": []
-  },
-  "libarrow": {
     "urls": [],
     "summaries": []
   },
@@ -363,14 +379,6 @@
     ],
     "summaries": [
       "nextpnr: FTBFS in Fedora rawhide/f42"
-    ]
-  },
-  "nut": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2340946"
-    ],
-    "summaries": [
-      "nut: FTBFS in Fedora rawhide/f42"
     ]
   },
   "nvmetcli": {
@@ -479,14 +487,6 @@
       "pybind11 fails to build with Python 3.14: AttributeError: 'pybind11_tests.pickling.PickleableWithDict' object has no attribute 'dynamic' + AssertionError"
     ]
   },
-  "pycairo": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2322709"
-    ],
-    "summaries": [
-      "pycairo fails to build with Python 3.14: ImportError: cannot import name 'ByteString' from 'typing'"
-    ]
-  },
   "pychess": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2328708"
@@ -552,10 +552,6 @@
     ]
   },
   "python-apsw": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-ase": {
     "urls": [],
     "summaries": []
   },
@@ -643,6 +639,14 @@
       "python-blinker fails to build with Python 3.14: pluggy.PluggyTeardownRaisedWarning: A plugin raised an exception during an old-style hookwrapper teardown."
     ]
   },
+  "python-breathe": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2341133"
+    ],
+    "summaries": [
+      "python-breathe: FTBFS in Fedora rawhide/f42"
+    ]
+  },
   "python-capturer": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2328004"
@@ -664,8 +668,12 @@
     "summaries": []
   },
   "python-chalice": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2342568"
+    ],
+    "summaries": [
+      "python-chalice fails to build with Python 3.14: AttributeError: module 'ast' has no attribute 'Str'"
+    ]
   },
   "python-colcon-cmake": {
     "urls": [
@@ -771,14 +779,6 @@
       "python-django-filter fails to build with Python 3.14: AttributeError: module 'pkgutil' has no attribute 'find_loader'"
     ]
   },
-  "python-django-mailman3": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-djangoql": {
-    "urls": [],
-    "summaries": []
-  },
   "python-epub": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2319654"
@@ -835,10 +835,6 @@
       "python-fsleyes-widgets fails to build with Python 3.14: AssertionError: assert 'file:/home/b...htmlfile.html' == 'file:///home...htmlfile.html'"
     ]
   },
-  "python-furo": {
-    "urls": [],
-    "summaries": []
-  },
   "python-genty": {
     "urls": [],
     "summaries": []
@@ -857,6 +853,14 @@
     ],
     "summaries": [
       "python-git-revise: FTBFS in Fedora rawhide/f42"
+    ]
+  },
+  "python-gitlab": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2342565"
+    ],
+    "summaries": [
+      "python-gitlab fails to build with Python 3.14: AttributeError: 'Variable' object has no attribute '__annotations__'. Did you mean: '__annotate__'? and more"
     ]
   },
   "python-glyphsLib": {
@@ -900,8 +904,12 @@
     ]
   },
   "python-howdoi": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2342558"
+    ],
+    "summaries": [
+      "python-howdoi fails to build with Python 3.14: AssertionError: 'ERROR: Unable to reach google. Do you need to use a proxy? + json.decoder.JSONDecodeError"
+    ]
   },
   "python-httpretty": {
     "urls": [],
@@ -973,9 +981,11 @@
   },
   "python-josepy": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2342557",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2323171"
     ],
     "summaries": [
+      "python-josepy fails to build with Python 3.14: 7 tests fail with ValueError: Field `alg` in JSONObject `Header` has no type annotation.",
       "python-josepy fails to build with Python 3.14: 6x ValueError: Field `alg` in JSONObject `Header` has no type annotation."
     ]
   },
@@ -1048,8 +1058,12 @@
     "summaries": []
   },
   "python-mkapi": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2342559"
+    ],
+    "summaries": [
+      "python-mkapi fails to build with Python 3.14: Expected: [None, <ast.Constant object at 0x...>, <ast.Constant object at 0x...>] Got: [None, Constant(value=2, kind=None), Constant(value=3, kind=None)]"
+    ]
   },
   "python-msal": {
     "urls": [
@@ -1095,6 +1109,14 @@
       "python-oscrypto: FTBFS in Fedora rawhide/f42"
     ]
   },
+  "python-packvers": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2341178"
+    ],
+    "summaries": [
+      "python-packvers: FTBFS in Fedora rawhide/f42"
+    ]
+  },
   "python-photutils": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2336893"
@@ -1109,6 +1131,14 @@
     ],
     "summaries": [
       "python-pip fails to build with Python 3.14: AssertionError: assert 'file:/tmp/file' == 'file:///tmp/file'"
+    ]
+  },
+  "python-praw": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2342562"
+    ],
+    "summaries": [
+      "python-praw fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
     ]
   },
   "python-psycogreen": {
@@ -1154,10 +1184,6 @@
     "summaries": [
       "python-pydantic-core fails to build with Python 3.14: AssertionError: Regex pattern did not match. + AttributeError: module 'typing' has no attribute 'ByteString'"
     ]
-  },
-  "python-pydata-sphinx-theme": {
-    "urls": [],
-    "summaries": []
   },
   "python-pyemd": {
     "urls": [
@@ -1260,12 +1286,12 @@
     ]
   },
   "python-pytest-asyncio": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-pytest-django": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2342564"
+    ],
+    "summaries": [
+      "python-pytest-asyncio fails to build with Python 3.14: DeprecationWarning: 'asyncio.get_event_loop_policy' is deprecated and slated for removal in Python 3.16"
+    ]
   },
   "python-pytz-deprecation-shim": {
     "urls": [],
@@ -1286,10 +1312,6 @@
     "summaries": [
       "python-pyvlx fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
     ]
-  },
-  "python-pywt": {
-    "urls": [],
-    "summaries": []
   },
   "python-qt5": {
     "urls": [],
@@ -1353,14 +1375,6 @@
     ],
     "summaries": [
       "python-reportlab fails to build with Python 3.14: AttributeError: module 'ast' has no attribute 'Str'"
-    ]
-  },
-  "python-requests-toolbelt": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2341206"
-    ],
-    "summaries": [
-      "python-requests-toolbelt: FTBFS in Fedora rawhide/f42"
     ]
   },
   "python-rosdep": {
@@ -1477,10 +1491,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-starlette": {
-    "urls": [],
-    "summaries": []
-  },
   "python-stdlibs": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2336938"
@@ -1557,14 +1567,6 @@
       "python-tree-format fails to build with setuptools 74+"
     ]
   },
-  "python-twilio": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2341229"
-    ],
-    "summaries": [
-      "python-twilio: FTBFS in Fedora rawhide/f42"
-    ]
-  },
   "python-twisted": {
     "urls": [],
     "summaries": []
@@ -1630,8 +1632,12 @@
     ]
   },
   "python-vcrpy": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2342566"
+    ],
+    "summaries": [
+      "python-vcrpy fails to build with Python 3.14: DeprecationWarning: 'asyncio.iscoroutinefunction' is deprecated and slated for removal in Python 3.16"
+    ]
   },
   "python-virtualbmc": {
     "urls": [],
@@ -1733,14 +1739,6 @@
     ],
     "summaries": [
       "qtile fails to build with Python 3.14: _pickle.PicklingError: Can't pickle local object <function TestManager.start.<locals>.run_qtile at 0x7f9c5918fed0>"
-    ]
-  },
-  "realtime-tests": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2341270"
-    ],
-    "summaries": [
-      "realtime-tests: FTBFS in Fedora rawhide/f42"
     ]
   },
   "recoll": {
