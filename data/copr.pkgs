@@ -90,7 +90,7 @@ botan	succeeded
 botan2	succeeded
 bpython	succeeded
 breezy	succeeded
-brial	succeeded
+brial	failed
 brltty	succeeded
 brotli	succeeded
 bst-external	succeeded
@@ -143,6 +143,7 @@ copr-cli	succeeded
 copr-keygen	succeeded
 cranc	succeeded
 createrepo_c	succeeded
+criu	failed
 cryptlib	succeeded
 cryptominisat	succeeded
 csdiff	succeeded
@@ -192,6 +193,7 @@ dxf2gcode	succeeded
 dynaconf	succeeded
 ec2-hibinit-agent	succeeded
 electron-cash	succeeded
+electrum	succeeded
 elements	succeeded
 elements-alexandria	failed
 enjarify	succeeded
@@ -339,7 +341,7 @@ jrnl	failed
 jsonnet	succeeded
 kea	succeeded
 kerberoast	succeeded
-kernel	failed
+kernel	running
 keycloak-httpd-client-install	succeeded
 keylime	succeeded
 kf6-kapidox	succeeded
@@ -375,6 +377,7 @@ lensfun	succeeded
 lhapdf	succeeded
 libCombine	succeeded
 libaccounts-glib	succeeded
+libarcus	failed
 libarrow	succeeded
 libbatch	succeeded
 libblockdev	succeeded
@@ -394,7 +397,7 @@ libfreenect	succeeded
 libftdi	succeeded
 libgexiv2	succeeded
 libgit2-glib	succeeded
-libgpiod	failed
+libgpiod	succeeded
 libguestfs	succeeded
 libiio	failed
 libiptcdata	succeeded
@@ -459,13 +462,14 @@ liquidctl	succeeded
 lirc	succeeded
 litecli	succeeded
 livecd-tools	succeeded
-llvm	failed
+llvm	running
 lollypop	succeeded
 loook	succeeded
 lorax	failed
 lrcalc	succeeded
 lttng-tools	succeeded
 lttng-ust	succeeded
+lutris	succeeded
 lvm2	succeeded
 mailnag	succeeded
 mailprocessing	succeeded
@@ -563,7 +567,8 @@ ogr2osm	succeeded
 omniORB	succeeded
 omniORBpy	succeeded
 onionshare	succeeded
-onnxruntime	succeeded
+onnx	failed
+onnxruntime	failed
 opae	succeeded
 openbabel	failed
 openmeeg	succeeded
@@ -624,8 +629,8 @@ policycoreutils	succeeded
 porcupine	succeeded
 portmidi	succeeded
 postfix-mta-sts-resolver	succeeded
-postgresql16	failed
-postgresql17	failed
+postgresql16	succeeded
+postgresql17	succeeded
 powerline	failed
 pre-commit	succeeded
 prewikka	failed
@@ -633,7 +638,7 @@ prewikka-updatedb	succeeded
 printrun	succeeded
 profanity	succeeded
 proselint	succeeded
-protobuf	failed
+protobuf	succeeded
 protontricks	succeeded
 protonvpn-cli	succeeded
 proxmark3	succeeded
@@ -658,6 +663,7 @@ pybugz	succeeded
 pycairo	succeeded
 pycanberra	succeeded
 pychess	failed
+pychromecast	failed
 pycmd	succeeded
 pycolumnize	succeeded
 pydeps	succeeded
@@ -790,6 +796,7 @@ python-ailment	succeeded
 python-aioasuswrt	succeeded
 python-aiocmd	succeeded
 python-aiodns	succeeded
+python-aioesphomeapi	failed
 python-aiofiles	succeeded
 python-aioftp	succeeded
 python-aiogqlc	succeeded
@@ -831,7 +838,7 @@ python-ajpy	succeeded
 python-ajsonrpc	succeeded
 python-allpairspy	succeeded
 python-alsa	succeeded
-python-alsaaudio	succeeded
+python-alsaaudio	failed
 python-amply	succeeded
 python-amqp	succeeded
 python-ana	succeeded
@@ -1045,7 +1052,7 @@ python-boltons	succeeded
 python-boolean.py	succeeded
 python-booleanoperations	succeeded
 python-boto	succeeded
-python-boto3	succeeded
+python-boto3	failed
 python-botocore	succeeded
 python-bottle	succeeded
 python-bottle-sqlite	succeeded
@@ -1605,6 +1612,7 @@ python-google-cloud-testutils	succeeded
 python-google-crc32c	succeeded
 python-google-i18n-address	succeeded
 python-google-resumable-media	succeeded
+python-googleapis-common-protos	failed
 python-gphoto2	failed
 python-gpiozero	succeeded
 python-gpxpy	succeeded
@@ -1851,6 +1859,8 @@ python-langdetect	succeeded
 python-lark	succeeded
 python-latexcodec	succeeded
 python-launchpadlib	succeeded
+python-lazr-config	succeeded
+python-lazr-delegates	succeeded
 python-lazr-restfulclient	succeeded
 python-lazr-uri	succeeded
 python-lazy-loader	succeeded
@@ -2163,7 +2173,7 @@ python-palettable	succeeded
 python-pam	succeeded
 python-pamela	succeeded
 python-pamqp	succeeded
-python-pandas	succeeded
+python-pandas	failed
 python-pandas-datareader	succeeded
 python-pandocfilters	succeeded
 python-parameter-expansion-patched	succeeded
@@ -2208,6 +2218,7 @@ python-pdm-pep517	succeeded
 python-peachpy	succeeded
 python-pebble	succeeded
 python-pecan	succeeded
+python-peewee	failed
 python-pefile	succeeded
 python-pelican	succeeded
 python-pendulum	succeeded
@@ -2344,6 +2355,7 @@ python-pycparser	succeeded
 python-pycryptodomex	succeeded
 python-pycurl	succeeded
 python-pycxx	succeeded
+python-pydantic-core	failed
 python-pydata-sphinx-theme	succeeded
 python-pydbus	succeeded
 python-pydepsdev	succeeded
@@ -2702,6 +2714,7 @@ python-rmtest	succeeded
 python-rnc2rng	succeeded
 python-robot-detection	succeeded
 python-robotframework	succeeded
+python-roman	succeeded
 python-rosdep	failed
 python-rosdistro	succeeded
 python-rosinstall_generator	succeeded
@@ -3125,7 +3138,7 @@ python-versioneer	succeeded
 python-vhacdx	succeeded
 python-vine	succeeded
 python-virt-firmware	succeeded
-python-virtualenv	failed
+python-virtualenv	succeeded
 python-virtualenv-api	succeeded
 python-virtualenv-clone	succeeded
 python-virtualenvwrapper	succeeded
@@ -3234,6 +3247,7 @@ python-yte	succeeded
 python-ytmusicapi	succeeded
 python-yubico	succeeded
 python-zc-customdoctests	succeeded
+python-zc-lockfile	succeeded
 python-zeep	succeeded
 python-zeroconf	succeeded
 python-zict	succeeded
@@ -3242,11 +3256,14 @@ python-zipstream	succeeded
 python-zm	succeeded
 python-zombie-imp	succeeded
 python-zope-component	succeeded
+python-zope-deprecation	succeeded
 python-zope-event	succeeded
 python-zope-exceptions	succeeded
 python-zope-hookable	succeeded
+python-zope-i18nmessageid	failed
 python-zope-interface	succeeded
 python-zope-sqlalchemy	succeeded
+python-zope-testing	succeeded
 python-zope-testrunner	failed
 python-zopfli	succeeded
 python-zstandard	failed
@@ -3456,7 +3473,7 @@ ustreamer	succeeded
 util-linux	succeeded
 uv	succeeded
 uwsgi	succeeded
-vapoursynth	failed
+vapoursynth	succeeded
 variety	succeeded
 vdirsyncer	succeeded
 vdr-epg-daemon	succeeded

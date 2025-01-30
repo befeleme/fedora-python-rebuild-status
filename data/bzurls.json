@@ -39,6 +39,10 @@
       "borgbackup fails to build with Python 3.14: OSError: AF_UNIX path too long when compiling"
     ]
   },
+  "brial": {
+    "urls": [],
+    "summaries": []
+  },
   "ceph": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2336913"
@@ -69,6 +73,14 @@
     ],
     "summaries": [
       "condor: FTBFS in Fedora rawhide/f42"
+    ]
+  },
+  "criu": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2340011"
+    ],
+    "summaries": [
+      "criu: FTBFS in Fedora rawhide/f42"
     ]
   },
   "debconf": {
@@ -209,14 +221,6 @@
     "urls": [],
     "summaries": []
   },
-  "kernel": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2340285"
-    ],
-    "summaries": [
-      "kernel: FTBFS in Fedora rawhide/f42"
-    ]
-  },
   "khal": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2340695"
@@ -253,12 +257,12 @@
       "lasso: FTBFS in Fedora rawhide/f42"
     ]
   },
-  "libgpiod": {
+  "libarcus": {
     "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2340738"
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2340716"
     ],
     "summaries": [
-      "libgpiod: FTBFS in Fedora rawhide/f42"
+      "libarcus: FTBFS in Fedora rawhide/f42"
     ]
   },
   "libiio": {
@@ -357,6 +361,14 @@
       "obs-studio: FTBFS in Fedora rawhide/f42"
     ]
   },
+  "onnx": {
+    "urls": [],
+    "summaries": []
+  },
+  "onnxruntime": {
+    "urls": [],
+    "summaries": []
+  },
   "openbabel": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2339472"
@@ -381,24 +393,6 @@
       "plplot: FTBFS in Fedora rawhide/f42"
     ]
   },
-  "postgresql16": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2332981"
-    ],
-    "summaries": [
-      "postgresql16-16.3-7.fc42 FTBFS: tests fail with tzdata-2024b"
-    ]
-  },
-  "postgresql17": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2332978",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2327967"
-    ],
-    "summaries": [
-      "postgresql17-17.0-1.fc42 FTBFS: RPM build errors: line 227: second Description",
-      "postgresql17 fails to build with Python 3.14: jsonb_jsonpath fails: - \"12:34:56-07:00\" != + \"12:34:56-08:00\""
-    ]
-  },
   "powerline": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2336943"
@@ -410,14 +404,6 @@
   "prewikka": {
     "urls": [],
     "summaries": []
-  },
-  "protobuf": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2341106"
-    ],
-    "summaries": [
-      "protobuf: FTBFS in Fedora rawhide/f42"
-    ]
   },
   "pulp-cli": {
     "urls": [],
@@ -438,6 +424,10 @@
     "summaries": [
       "pychess fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
     ]
+  },
+  "pychromecast": {
+    "urls": [],
+    "summaries": []
   },
   "pygsl": {
     "urls": [
@@ -463,6 +453,10 @@
       "pysubnettree: FTBFS in Fedora rawhide/f42"
     ]
   },
+  "python-aioesphomeapi": {
+    "urls": [],
+    "summaries": []
+  },
   "python-aiosmtpd": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2322718"
@@ -470,6 +464,10 @@
     "summaries": [
       "python-aiosmtpd fails to build with Python 3.14: ImportError: cannot import name 'ByteString' from 'typing'"
     ]
+  },
+  "python-alsaaudio": {
+    "urls": [],
+    "summaries": []
   },
   "python-anyio": {
     "urls": [
@@ -562,6 +560,10 @@
     "summaries": [
       "python-blinker fails to build with Python 3.14: pluggy.PluggyTeardownRaisedWarning: A plugin raised an exception during an old-style hookwrapper teardown."
     ]
+  },
+  "python-boto3": {
+    "urls": [],
+    "summaries": []
   },
   "python-breathe": {
     "urls": [
@@ -658,14 +660,6 @@
   "python-cryptography": {
     "urls": [],
     "summaries": []
-  },
-  "python-cysignals": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2325457"
-    ],
-    "summaries": [
-      "python-cysignals fails to build with Python 3.14: Doctest src/cysignals/pselect.pyx terminated. Timeout limit exceeded (>2400s)"
-    ]
   },
   "python-dataclassy": {
     "urls": [
@@ -780,6 +774,10 @@
     ]
   },
   "python-glyphsLib": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-googleapis-common-protos": {
     "urls": [],
     "summaries": []
   },
@@ -1009,6 +1007,18 @@
       "python-packvers: FTBFS in Fedora rawhide/f42"
     ]
   },
+  "python-pandas": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2341179"
+    ],
+    "summaries": [
+      "python-pandas: FTBFS in Fedora rawhide/f42"
+    ]
+  },
+  "python-peewee": {
+    "urls": [],
+    "summaries": []
+  },
   "python-photutils": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2336893"
@@ -1050,12 +1060,8 @@
     ]
   },
   "python-pybbi": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2341184"
-    ],
-    "summaries": [
-      "python-pybbi: FTBFS in Fedora rawhide/f42"
-    ]
+    "urls": [],
+    "summaries": []
   },
   "python-pycec": {
     "urls": [
@@ -1063,6 +1069,14 @@
     ],
     "summaries": [
       "python-pycec fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
+    ]
+  },
+  "python-pydantic-core": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2325425"
+    ],
+    "summaries": [
+      "python-pydantic-core fails to build with Python 3.14: AssertionError: Regex pattern did not match. + AttributeError: module 'typing' has no attribute 'ByteString'"
     ]
   },
   "python-pyemd": {
@@ -1183,11 +1197,9 @@
   },
   "python-rdflib": {
     "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2341203",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2336891"
     ],
     "summaries": [
-      "python-rdflib: FTBFS in Fedora rawhide/f42",
       "python-rdflib fails to build with Python 3.14: \"TypeError: '<' not supported between instances of 'Literal' and 'Literal'\""
     ]
   },
@@ -1463,14 +1475,6 @@
       "python-vcrpy fails to build with Python 3.14: DeprecationWarning: 'asyncio.iscoroutinefunction' is deprecated and slated for removal in Python 3.16"
     ]
   },
-  "python-virtualenv": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2336936"
-    ],
-    "summaries": [
-      "python-virtualenv fails to build with Python 3.14: AssertionError: common, \"\\n\".join(difflib.unified_diff(list_to_str(sys_path), list_to_str(system_sys_path)))"
-    ]
-  },
   "python-watchfiles": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2339462"
@@ -1511,6 +1515,14 @@
     ],
     "summaries": [
       "python-yappi fails to build with Python 3.14: error: invalid use of incomplete typedef \u2018PyGenObject\u2019 {aka \u2018struct _PyGenObject\u2019}"
+    ]
+  },
+  "python-zope-i18nmessageid": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2341241"
+    ],
+    "summaries": [
+      "python-zope-i18nmessageid: FTBFS in Fedora rawhide/f42"
     ]
   },
   "python-zope-testrunner": {
@@ -1656,10 +1668,6 @@
     "summaries": [
       "uhd: FTBFS in Fedora rawhide/f42"
     ]
-  },
-  "vapoursynth": {
-    "urls": [],
-    "summaries": []
   },
   "veusz": {
     "urls": [],
