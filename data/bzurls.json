@@ -23,14 +23,6 @@
       "binwalk fails to build with Python 3.14: TypeError: unsupported operand type(s) for +=: 'NoneType' and 'int'"
     ]
   },
-  "bluechi": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2339937"
-    ],
-    "summaries": [
-      "bluechi: FTBFS in Fedora rawhide/f42"
-    ]
-  },
   "borgbackup": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2326916"
@@ -40,6 +32,10 @@
     ]
   },
   "brial": {
+    "urls": [],
+    "summaries": []
+  },
+  "cairo-dock-plug-ins": {
     "urls": [],
     "summaries": []
   },
@@ -281,6 +277,14 @@
       "libnvme fails to build with Python 3.14: /usr/include/python3.14/pyport.h:629:35: error: missing ')' after \"__has_attribute\""
     ]
   },
+  "libselinux": {
+    "urls": [],
+    "summaries": []
+  },
+  "libsemanage": {
+    "urls": [],
+    "summaries": []
+  },
   "link-grammar": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2340774"
@@ -392,6 +396,10 @@
     "summaries": [
       "plplot: FTBFS in Fedora rawhide/f42"
     ]
+  },
+  "policycoreutils": {
+    "urls": [],
+    "summaries": []
   },
   "powerline": {
     "urls": [
@@ -911,13 +919,9 @@
     "urls": [],
     "summaries": []
   },
-  "python-kadmin": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2341167"
-    ],
-    "summaries": [
-      "python-kadmin: FTBFS in Fedora rawhide/f42"
-    ]
+  "python-m2r": {
+    "urls": [],
+    "summaries": []
   },
   "python-makefun": {
     "urls": [
@@ -1609,14 +1613,6 @@
       "signon-glib: FTBFS in Fedora rawhide/f42"
     ]
   },
-  "speech-dispatcher": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2341370"
-    ],
-    "summaries": [
-      "speech-dispatcher: FTBFS in Fedora rawhide/f42"
-    ]
-  },
   "strongswan": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2332864"
@@ -1643,14 +1639,6 @@
     ],
     "summaries": [
       "thrift: FTBFS in Fedora rawhide/f42"
-    ]
-  },
-  "trac": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2341454"
-    ],
-    "summaries": [
-      "trac: FTBFS in Fedora rawhide/f42"
     ]
   },
   "ufw": {
