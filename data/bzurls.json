@@ -253,14 +253,6 @@
       "libarcus: FTBFS in Fedora rawhide/f42"
     ]
   },
-  "libiio": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2340741"
-    ],
-    "summaries": [
-      "libiio: FTBFS in Fedora rawhide/f42"
-    ]
-  },
   "libnvme": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2325194"
@@ -277,13 +269,9 @@
     "urls": [],
     "summaries": []
   },
-  "link-grammar": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2340774"
-    ],
-    "summaries": [
-      "link-grammar: FTBFS in Fedora rawhide/f42"
-    ]
+  "libsonata": {
+    "urls": [],
+    "summaries": []
   },
   "llvm": {
     "urls": [
@@ -388,10 +376,6 @@
     "summaries": [
       "powerline fails to build with Python 3.14: ValueError: argument groups cannot be nested"
     ]
-  },
-  "prewikka": {
-    "urls": [],
-    "summaries": []
   },
   "pulp-cli": {
     "urls": [],
@@ -965,14 +949,6 @@
     ],
     "summaries": [
       "python-msal fails to build with Python 3.14: test_no_two_concurrent_receivers_can_listen_on_same_port: AssertionError: OSError not raised"
-    ]
-  },
-  "python-msgspec": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2325169"
-    ],
-    "summaries": [
-      "python-msgspec fails to build with Python 3.14: error: \u2018_Py_IMMORTAL_REFCNT\u2019 undeclared here"
     ]
   },
   "python-nose": {
