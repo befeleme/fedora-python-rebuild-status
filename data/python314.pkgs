@@ -186,6 +186,7 @@ dtc
 dxf2gcode
 dynaconf
 ec2-hibinit-agent
+eggdrop
 electron-cash
 electrum
 elements
@@ -545,6 +546,7 @@ nyx
 obs-studio
 obsctl
 obserware
+oci-cli
 oct2spec
 odfpy
 offlineimap
@@ -629,6 +631,7 @@ pss
 pssh
 ptpython
 puddletag
+pulp-cli
 pulsecaster
 pwncat
 py-radix
@@ -696,6 +699,7 @@ python-CacheControl
 python-CommonMark
 python-GeoIP
 python-IPy
+python-Mastodon
 python-ModulemdTranslationHelpers
 python-MultipartPostHandler2
 python-Naked
@@ -885,6 +889,7 @@ python-autograd
 python-automaton
 python-autopage
 python-autopep8
+python-avalara
 python-awesomeversion
 python-awscrt
 python-awsiotsdk
@@ -897,6 +902,7 @@ python-azure-common
 python-azure-core
 python-azure-cosmos
 python-azure-data-tables
+python-azure-devtools
 python-azure-functions-devops-build
 python-azure-graphrbac
 python-azure-keyvault
@@ -904,6 +910,8 @@ python-azure-keyvault-administration
 python-azure-keyvault-certificates
 python-azure-keyvault-keys
 python-azure-keyvault-secrets
+python-azure-loganalytics
+python-azure-mgmt-advisor
 python-azure-mgmt-apimanagement
 python-azure-mgmt-appconfiguration
 python-azure-mgmt-appcontainers
@@ -911,16 +919,23 @@ python-azure-mgmt-applicationinsights
 python-azure-mgmt-authorization
 python-azure-mgmt-batch
 python-azure-mgmt-batchai
+python-azure-mgmt-billing
+python-azure-mgmt-botservice
 python-azure-mgmt-cdn
 python-azure-mgmt-cognitiveservices
 python-azure-mgmt-compute
+python-azure-mgmt-consumption
 python-azure-mgmt-containerinstance
 python-azure-mgmt-containerregistry
 python-azure-mgmt-containerservice
 python-azure-mgmt-core
 python-azure-mgmt-cosmosdb
+python-azure-mgmt-databoxedge
 python-azure-mgmt-datalake-analytics
 python-azure-mgmt-datalake-store
+python-azure-mgmt-datamigration
+python-azure-mgmt-devtestlabs
+python-azure-mgmt-dns
 python-azure-mgmt-eventgrid
 python-azure-mgmt-eventhub
 python-azure-mgmt-extendedlocation
@@ -932,7 +947,10 @@ python-azure-mgmt-iothubprovisioningservices
 python-azure-mgmt-keyvault
 python-azure-mgmt-kusto
 python-azure-mgmt-loganalytics
+python-azure-mgmt-managedservices
 python-azure-mgmt-managementgroups
+python-azure-mgmt-maps
+python-azure-mgmt-marketplaceordering
 python-azure-mgmt-media
 python-azure-mgmt-monitor
 python-azure-mgmt-msi
@@ -1002,6 +1020,7 @@ python-bidict
 python-bids-validator
 python-binary-manager
 python-binaryornot
+python-biopython
 python-bioread
 python-biscuits
 python-bitarray
@@ -1341,6 +1360,7 @@ python-djangoql
 python-dkimpy
 python-dmidecode
 python-dns
+python-dns-lexicon
 python-dnslib
 python-dnspython
 python-docker
@@ -1448,6 +1468,7 @@ python-fido2
 python-fields
 python-filelock
 python-filetype
+python-findpython
 python-fingerprints
 python-fireflyalgorithm
 python-firehose
@@ -1929,6 +1950,7 @@ python-mizani
 python-mkdocs-autorefs
 python-mkdocs-click
 python-mkdocs-get-deps
+python-mkdocs-git-authors-plugin
 python-mkdocs-include-markdown-plugin
 python-mkdocs-macros-test
 python-mkdocs-material-extensions
@@ -2032,6 +2054,7 @@ python-normality
 python-nose-testconfig
 python-nose2
 python-notify2
+python-nptyping
 python-npyscreen
 python-nrf24
 python-ns1-python
@@ -2048,6 +2071,7 @@ python-oauth
 python-oauth2
 python-oauth2client
 python-oauthlib
+python-oci
 python-odata-query
 python-ofxparse
 python-olefile
@@ -2244,6 +2268,7 @@ python-pulsectl-asyncio
 python-pure-eval
 python-puremagic
 python-puzpy
+python-pvc
 python-pwntools
 python-py
 python-py-algorand-sdk
@@ -2533,6 +2558,7 @@ python-pyunormalize
 python-pyvat
 python-pyvit
 python-pyvlx
+python-pyvmomi
 python-pyvo
 python-pywayland
 python-pywizlight
@@ -2591,6 +2617,7 @@ python-renderspec
 python-reno
 python-reparser
 python-repomd
+python-reportlab
 python-repoze-lru
 python-repoze-sphinx-autointerface
 python-repoze-tm2
@@ -2966,6 +2993,7 @@ python-trezor
 python-trio
 python-trio-websocket
 python-triton
+python-trml2pdf
 python-trololio
 python-trove-classifiers
 python-trustme
@@ -2980,6 +3008,7 @@ python-twine
 python-txaio
 python-txredisapi
 python-typedecorator
+python-typeguard
 python-typepy
 python-typer
 python-types-boto
@@ -3038,6 +3067,8 @@ python-validators
 python-varint
 python-varlink
 python-vatnumber
+python-vconnector
+python-vcrpy
 python-vcstool
 python-vdf
 python-vedo
@@ -3045,6 +3076,7 @@ python-velbus
 python-venusian
 python-verboselogs
 python-versioneer
+python-vevents
 python-vhacdx
 python-vine
 python-virt-firmware
@@ -3233,6 +3265,7 @@ revelation
 rhythmbox-ampache
 rig
 rmlint
+rmol
 roca-detect
 rofimoji
 root
@@ -3246,6 +3279,7 @@ rpmspectool
 rpy
 rrdtool
 rss2email
+rst2pdf
 rst2txt
 rteval
 rtlsdr-scanner
@@ -3350,6 +3384,7 @@ trademgen
 transifex-client
 tre
 tree-sitter-java
+trelby
 tuna
 tuned
 txt2tags

@@ -3067,6 +3067,9 @@
         "ConsoleKit": [
             "orphan"
         ],
+        "CppMicroServices": [
+            "berrange"
+        ],
         "CriticalMass": [
             "jwrdegoede"
         ],
@@ -13264,7 +13267,7 @@
             "mmuzila"
         ],
         "cronolog": [
-            "ktdreyer"
+            "orphan"
         ],
         "crontabs": [
             "opohorel",
@@ -29280,7 +29283,7 @@
             "carlosrodrifernandez"
         ],
         "golang-github-containerd-cgroups-3": [
-            "orphan"
+            "carlosrodrifernandez"
         ],
         "golang-github-containerd-cni": [
             "alexsaezm"
@@ -45392,6 +45395,9 @@
         "kohsuke-pom": [
             "orphan"
         ],
+        "kojan-parent": [
+            "mizdebsk"
+        ],
         "koji": [
             "mikem",
             "puiterwijk",
@@ -46595,7 +46601,6 @@
             "peter",
             "stevetraylen",
             "gil",
-            "ktdreyer",
             "tchaikov"
         ],
         "leveldb-java": [
@@ -51799,6 +51804,9 @@
         "linux-libertine-fonts": [
             "tagoh"
         ],
+        "linux-sgx-enclaves-prebuilt": [
+            "berrange"
+        ],
         "linux-sysinfo-snapshot": [
             "dcavalca"
         ],
@@ -53496,6 +53504,11 @@
             "kasal",
             "nforro",
             "ljavorsk",
+            "djdelorie",
+            "submachine",
+            "fweimer",
+            "pfrankli",
+            "fberat",
             "jchaloup"
         ],
         "man-pages-cs": [
@@ -76675,8 +76688,7 @@
         "perl-NTLM": [
             "nb",
             "ppisar",
-            "mspacek",
-            "ktdreyer"
+            "mspacek"
         ],
         "perl-Nagios-NSCA": [
             "stevetraylen"
@@ -96395,8 +96407,11 @@
         "python-mkdocs-git-authors-plugin": [
             "dcavalca"
         ],
+        "python-mkdocs-git-committers-plugin-2": [
+            "dcavalca"
+        ],
         "python-mkdocs-git-revision-date-localized-plugin": [
-            "releng-bot"
+            "dcavalca"
         ],
         "python-mkdocs-include-markdown-plugin": [
             "dcavalca"
@@ -103058,7 +103073,8 @@
             "churchyard"
         ],
         "python-waitress": [
-            "carlwgeorge"
+            "carlwgeorge",
+            "ondrejj"
         ],
         "python-walkdir": [
             "kushal"
@@ -114997,6 +115013,12 @@
         "rust-gst-plugin-dav1d": [
             "decathorpe"
         ],
+        "rust-gst-plugin-fallbackswitch": [
+            "yselkowitz"
+        ],
+        "rust-gst-plugin-fmp4": [
+            "yselkowitz"
+        ],
         "rust-gst-plugin-gif": [
             "decathorpe"
         ],
@@ -121583,7 +121605,7 @@
             "jistone"
         ],
         "rust-tokio-tar": [
-            "music"
+            "orphan"
         ],
         "rust-tokio-tcp": [
             "jistone"
@@ -127951,6 +127973,7 @@
             "praiskup",
             "mmuzila",
             "ljavorsk",
+            "pcahyna",
             "ovasik",
             "kdudka",
             "pkubat"
@@ -136392,6 +136415,9 @@
         ]
     },
     "tests": {
+        "GeoIP-GeoLite-data": [
+            "omejzlik"
+        ],
         "acpid": [
             "omejzlik",
             "pdancak",
@@ -137069,6 +137095,9 @@
         ],
         "pocl": [
             "tstellar"
+        ],
+        "portreserve": [
+            "omejzlik"
         ],
         "postfix": [
             "fhrdina",

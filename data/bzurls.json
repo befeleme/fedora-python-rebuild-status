@@ -35,14 +35,6 @@
     "urls": [],
     "summaries": []
   },
-  "brltty": {
-    "urls": [],
-    "summaries": []
-  },
-  "cairo-dock-plug-ins": {
-    "urls": [],
-    "summaries": []
-  },
   "ceph": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2336913"
@@ -107,14 +99,6 @@
       "did fails to build with Python 3.14: AttributeError: module 'urllib.request' has no attribute 'FancyURLopener'"
     ]
   },
-  "dionaea": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2340077"
-    ],
-    "summaries": [
-      "dionaea: FTBFS in Fedora rawhide/f42"
-    ]
-  },
   "dlib": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2340079",
@@ -124,10 +108,6 @@
       "dlib: FTBFS in Fedora rawhide/f42",
       "dlib fails to build with Python 3.14: AttributeError: module 'pkgutil' has no attribute 'find_loader'"
     ]
-  },
-  "dnf": {
-    "urls": [],
-    "summaries": []
   },
   "dnsconfd": {
     "urls": [
@@ -261,14 +241,6 @@
       "libnvme fails to build with Python 3.14: /usr/include/python3.14/pyport.h:629:35: error: missing ')' after \"__has_attribute\""
     ]
   },
-  "libselinux": {
-    "urls": [],
-    "summaries": []
-  },
-  "libsemanage": {
-    "urls": [],
-    "summaries": []
-  },
   "libsonata": {
     "urls": [],
     "summaries": []
@@ -289,10 +261,6 @@
       "mathgl: FTBFS in Fedora rawhide/f42"
     ]
   },
-  "mlpack": {
-    "urls": [],
-    "summaries": []
-  },
   "morphio": {
     "urls": [],
     "summaries": []
@@ -308,14 +276,6 @@
   "netgen-mesher": {
     "urls": [],
     "summaries": []
-  },
-  "nextpnr": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2340929"
-    ],
-    "summaries": [
-      "nextpnr: FTBFS in Fedora rawhide/f42"
-    ]
   },
   "nvmetcli": {
     "urls": [
@@ -345,27 +305,11 @@
     "urls": [],
     "summaries": []
   },
-  "onnxruntime": {
-    "urls": [],
-    "summaries": []
-  },
-  "openbabel": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2339472"
-    ],
-    "summaries": [
-      "openbabel fails to build with Python 3.14: test_align_4 and test_align_5 fail"
-    ]
-  },
   "pcs": {
     "urls": [],
     "summaries": []
   },
   "plplot": {
-    "urls": [],
-    "summaries": []
-  },
-  "policycoreutils": {
     "urls": [],
     "summaries": []
   },
@@ -376,10 +320,6 @@
     "summaries": [
       "powerline fails to build with Python 3.14: ValueError: argument groups cannot be nested"
     ]
-  },
-  "pulp-cli": {
-    "urls": [],
-    "summaries": []
   },
   "pybind11": {
     "urls": [
@@ -423,6 +363,14 @@
     ],
     "summaries": [
       "pysubnettree: FTBFS in Fedora rawhide/f42"
+    ]
+  },
+  "python-TestSlide": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2343971"
+    ],
+    "summaries": [
+      "python-TestSlide fails to build with Python 3.14: ERROR collecting tests/mock_callable_testslide.py: RuntimeError: dictionary changed size during iteration"
     ]
   },
   "python-aioesphomeapi": {
@@ -562,8 +510,12 @@
     ]
   },
   "python-cattrs": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2343916"
+    ],
+    "summaries": [
+      "python-cattrs fails to build with Python 3.14: TypeError: <class 'tests.strategies.test_include_subclasses.GrandChild'> has no usable non-default attributes"
+    ]
   },
   "python-chalice": {
     "urls": [
@@ -626,10 +578,6 @@
     "summaries": []
   },
   "python-crick": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-cryptography": {
     "urls": [],
     "summaries": []
   },
@@ -806,8 +754,12 @@
     ]
   },
   "python-httpretty": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2343976"
+    ],
+    "summaries": [
+      "python-httpretty fails to build with Python 3.14: AttributeError: 'SSLContext' object has no attribute 'close' & 'sendall'"
+    ]
   },
   "python-icalendar": {
     "urls": [
@@ -823,6 +775,14 @@
     ],
     "summaries": [
       "python-img2pdf fails to build in rawhide: 48 AssertionErrors"
+    ]
+  },
+  "python-inflect": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2343970"
+    ],
+    "summaries": [
+      "python-inflect fails to build with Python 3.14: AttributeError: module 'ast' has no attribute 'Num'"
     ]
   },
   "python-iniparse": {
@@ -927,10 +887,6 @@
       "python-meshio: FTBFS in Fedora Rawhide"
     ]
   },
-  "python-meson-python": {
-    "urls": [],
-    "summaries": []
-  },
   "python-mistune08": {
     "urls": [],
     "summaries": []
@@ -949,6 +905,14 @@
     ],
     "summaries": [
       "python-msal fails to build with Python 3.14: test_no_two_concurrent_receivers_can_listen_on_same_port: AssertionError: OSError not raised"
+    ]
+  },
+  "python-nine": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2343977"
+    ],
+    "summaries": [
+      "python-nine fails to build with Python 3.14: AttributeError: module 'urllib.request' has no attribute 'URLopener'"
     ]
   },
   "python-nose": {
@@ -992,8 +956,12 @@
     ]
   },
   "python-peewee": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2343972"
+    ],
+    "summaries": [
+      "python-peewee fails to build with Python 3.14: TypeError: 'TestPostgresLateralJoin' object cannot be interpreted as an integer"
+    ]
   },
   "python-photutils": {
     "urls": [
@@ -1034,10 +1002,6 @@
     "summaries": [
       "python-pure-protobuf fails to build with Python 3.14: ImportError: cannot import name 'ByteString' from 'typing'"
     ]
-  },
-  "python-pybbi": {
-    "urls": [],
-    "summaries": []
   },
   "python-pycec": {
     "urls": [
@@ -1167,15 +1131,13 @@
       "python-pyvlx fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
     ]
   },
-  "python-qt5": {
-    "urls": [],
-    "summaries": []
-  },
   "python-rdflib": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2343978",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2336891"
     ],
     "summaries": [
+      "python-rdflib fails to build with Python 3.14: AttributeError: term 'value' not in namespace 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'",
       "python-rdflib fails to build with Python 3.14: \"TypeError: '<' not supported between instances of 'Literal' and 'Literal'\""
     ]
   },
@@ -1219,14 +1181,6 @@
     ],
     "summaries": [
       "python-remoto: FTBFS in Fedora rawhide/f42"
-    ]
-  },
-  "python-reportlab": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2331341"
-    ],
-    "summaries": [
-      "python-reportlab fails to build with Python 3.14: AttributeError: module 'ast' has no attribute 'Str'"
     ]
   },
   "python-rosdep": {
@@ -1285,14 +1239,6 @@
       "python-serpy fails to build with setuptools 74+"
     ]
   },
-  "python-setuptools-rust": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2336950"
-    ],
-    "summaries": [
-      "python-setuptools-rust fails to build with Python 3.14: /builddir/build/BUILD/python-setuptools-rust-1.10.2-build/setuptools_rust-1.10.2/examples/hello-world/venv/bin/python: No module named pytest"
-    ]
-  },
   "python-social-auth-core": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2341215",
@@ -1317,6 +1263,14 @@
     ],
     "summaries": [
       "python-stdlibs fails to build with Python 3.14: test_all_my_modules_are_there: AssertionError: Items in the second set but not the first: '_apple_support'"
+    ]
+  },
+  "python-steam": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2341218"
+    ],
+    "summaries": [
+      "python-steam: FTBFS in Fedora rawhide/f42"
     ]
   },
   "python-svg2tikz": {
@@ -1355,14 +1309,6 @@
       "python-tornado fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
     ]
   },
-  "python-tpm2-pytss": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2341227"
-    ],
-    "summaries": [
-      "python-tpm2-pytss: FTBFS in Fedora rawhide/f42"
-    ]
-  },
   "python-tree-format": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2319731"
@@ -1385,14 +1331,6 @@
     ],
     "summaries": [
       "python-txaio fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
-    ]
-  },
-  "python-typeguard": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2328015"
-    ],
-    "summaries": [
-      "python-typeguard fails to build with Python 3.14: typeguard.TypeCheckError: argument \"x\" (class dummymodule.DummyClass) is not a subclass of dummymodule.DummyClass && AssertionError: Regex pattern did not match."
     ]
   },
   "python-typing-extensions": {
@@ -1437,14 +1375,6 @@
     "summaries": [
       "python-valkey: FTBFS in Fedora rawhide/f42",
       "python-valkey fails to build with Python 3.14: _pickle.PicklingError: Can't pickle local object <function TestMultiprocessing.test_close_connection_in_child.<locals>.target at 0x7f7d711b5dd0>"
-    ]
-  },
-  "python-vcrpy": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2342566"
-    ],
-    "summaries": [
-      "python-vcrpy fails to build with Python 3.14: DeprecationWarning: 'asyncio.iscoroutinefunction' is deprecated and slated for removal in Python 3.16"
     ]
   },
   "python-watchfiles": {
@@ -1549,10 +1479,6 @@
       "renderdoc: FTBFS in Fedora rawhide/f42"
     ]
   },
-  "rmol": {
-    "urls": [],
-    "summaries": []
-  },
   "satyr": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2325452"
@@ -1636,10 +1562,6 @@
     "summaries": [
       "visidata fails to build with Python 3.14: TestVisidataPath.test_withName: AssertionError: assert 'foo' == 'foo.'"
     ]
-  },
-  "vtk": {
-    "urls": [],
-    "summaries": []
   },
   "weasyprint": {
     "urls": [],
