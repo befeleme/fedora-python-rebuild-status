@@ -35,6 +35,10 @@
     "urls": [],
     "summaries": []
   },
+  "capstone": {
+    "urls": [],
+    "summaries": []
+  },
   "ceph": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2336913"
@@ -128,10 +132,6 @@
     "summaries": [
       "espresso: FTBFS in Fedora rawhide/f42"
     ]
-  },
-  "gdb": {
-    "urls": [],
-    "summaries": []
   },
   "gdl": {
     "urls": [],
@@ -349,6 +349,10 @@
       "pygsl: FTBFS in Fedora rawhide/f42"
     ]
   },
+  "pykka": {
+    "urls": [],
+    "summaries": []
+  },
   "pyserial-asyncio": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2327980"
@@ -438,6 +442,10 @@
       "python-avocado: FTBFS in Fedora rawhide/f42",
       "python-avocado fails to build with Python 3.14: Error running method \"pre_tests\" of plugin \"fetchasset\": module 'ast' has no attribute 'Str' + Avocado crashed: TypeError: cannot pickle '_thread.RLock' object"
     ]
+  },
+  "python-aw-qt": {
+    "urls": [],
+    "summaries": []
   },
   "python-backrefs": {
     "urls": [
@@ -777,14 +785,6 @@
       "python-img2pdf fails to build in rawhide: 48 AssertionErrors"
     ]
   },
-  "python-inflect": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2343970"
-    ],
-    "summaries": [
-      "python-inflect fails to build with Python 3.14: AttributeError: module 'ast' has no attribute 'Num'"
-    ]
-  },
   "python-iniparse": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2323164"
@@ -953,14 +953,6 @@
     ],
     "summaries": [
       "python-pandas: FTBFS in Fedora rawhide/f42"
-    ]
-  },
-  "python-peewee": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2343972"
-    ],
-    "summaries": [
-      "python-peewee fails to build with Python 3.14: TypeError: 'TestPostgresLateralJoin' object cannot be interpreted as an integer"
     ]
   },
   "python-photutils": {
@@ -1562,6 +1554,10 @@
     "summaries": [
       "visidata fails to build with Python 3.14: TestVisidataPath.test_withName: AssertionError: assert 'foo' == 'foo.'"
     ]
+  },
+  "vorta": {
+    "urls": [],
+    "summaries": []
   },
   "weasyprint": {
     "urls": [],
