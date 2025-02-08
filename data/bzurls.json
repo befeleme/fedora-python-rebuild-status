@@ -79,6 +79,14 @@
       "criu: FTBFS in Fedora rawhide/f42"
     ]
   },
+  "cryptlib": {
+    "urls": [],
+    "summaries": []
+  },
+  "csdiff": {
+    "urls": [],
+    "summaries": []
+  },
   "dee": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2340038"
@@ -133,6 +141,10 @@
       "espresso: FTBFS in Fedora rawhide/f42"
     ]
   },
+  "gdb": {
+    "urls": [],
+    "summaries": []
+  },
   "gdl": {
     "urls": [],
     "summaries": []
@@ -170,12 +182,8 @@
     ]
   },
   "ipa-hcc": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2340655"
-    ],
-    "summaries": [
-      "ipa-hcc: FTBFS in Fedora rawhide/f42"
-    ]
+    "urls": [],
+    "summaries": []
   },
   "jc": {
     "urls": [
@@ -189,6 +197,14 @@
     "urls": [],
     "summaries": []
   },
+  "kernel": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2340285"
+    ],
+    "summaries": [
+      "kernel: FTBFS in Fedora rawhide/f42"
+    ]
+  },
   "khal": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2340695"
@@ -198,6 +214,10 @@
     ]
   },
   "kicad": {
+    "urls": [],
+    "summaries": []
+  },
+  "kiwi-boxed-plugin": {
     "urls": [],
     "summaries": []
   },
@@ -233,6 +253,18 @@
       "libarcus: FTBFS in Fedora rawhide/f42"
     ]
   },
+  "libarrow": {
+    "urls": [],
+    "summaries": []
+  },
+  "libixion": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2340744"
+    ],
+    "summaries": [
+      "libixion: FTBFS in Fedora rawhide/f42"
+    ]
+  },
   "libnvme": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2325194"
@@ -241,7 +273,31 @@
       "libnvme fails to build with Python 3.14: /usr/include/python3.14/pyport.h:629:35: error: missing ')' after \"__has_attribute\""
     ]
   },
+  "liborcus": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2341623"
+    ],
+    "summaries": [
+      "liborcus: FTBFS in Fedora rawhide/f42"
+    ]
+  },
+  "libreoffice": {
+    "urls": [],
+    "summaries": []
+  },
   "libsonata": {
+    "urls": [],
+    "summaries": []
+  },
+  "libtalloc": {
+    "urls": [],
+    "summaries": []
+  },
+  "libtdb": {
+    "urls": [],
+    "summaries": []
+  },
+  "libtevent": {
     "urls": [],
     "summaries": []
   },
@@ -338,6 +394,10 @@
     ]
   },
   "pychromecast": {
+    "urls": [],
+    "summaries": []
+  },
+  "pygame": {
     "urls": [],
     "summaries": []
   },
@@ -490,6 +550,10 @@
     ]
   },
   "python-boto3": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-botocore": {
     "urls": [],
     "summaries": []
   },
@@ -1107,6 +1171,10 @@
       "python-pytest-asyncio fails to build with Python 3.14: DeprecationWarning: 'asyncio.get_event_loop_policy' is deprecated and slated for removal in Python 3.16"
     ]
   },
+  "python-pytest-datadir": {
+    "urls": [],
+    "summaries": []
+  },
   "python-pyupgrade": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2322713"
@@ -1542,6 +1610,14 @@
     "summaries": [
       "uhd: FTBFS in Fedora rawhide/f42"
     ]
+  },
+  "unbound": {
+    "urls": [],
+    "summaries": []
+  },
+  "uv": {
+    "urls": [],
+    "summaries": []
   },
   "veusz": {
     "urls": [],
