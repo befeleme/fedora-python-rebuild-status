@@ -125,6 +125,10 @@
       "dlib fails to build with Python 3.14: AttributeError: module 'pkgutil' has no attribute 'find_loader'"
     ]
   },
+  "dnf-plugin-diff": {
+    "urls": [],
+    "summaries": []
+  },
   "dnsconfd": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2340084"
@@ -909,6 +913,10 @@
       "python-irc fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
     ]
   },
+  "python-janus": {
+    "urls": [],
+    "summaries": []
+  },
   "python-jeepney": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2327982"
@@ -916,6 +924,10 @@
     "summaries": [
       "python-jeepney fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
     ]
+  },
+  "python-jira": {
+    "urls": [],
+    "summaries": []
   },
   "python-joblib": {
     "urls": [
@@ -1058,6 +1070,10 @@
     "summaries": [
       "python-pandas: FTBFS in Fedora rawhide/f42"
     ]
+  },
+  "python-pep440": {
+    "urls": [],
+    "summaries": []
   },
   "python-photutils": {
     "urls": [
@@ -1263,11 +1279,9 @@
   },
   "python-redis": {
     "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2341204",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2326927"
     ],
     "summaries": [
-      "python-redis: FTBFS in Fedora rawhide/f42",
       "python-redis fails to build with Python 3.14: _pickle.PicklingError: Can't pickle local object <function TestMultiprocessing.test_redis_client.<locals>.target at 0x7fd5f829efb0>"
     ]
   },
@@ -1392,6 +1406,10 @@
     "summaries": [
       "python-tenacity fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
     ]
+  },
+  "python-tensile": {
+    "urls": [],
+    "summaries": []
   },
   "python-terminado": {
     "urls": [],
@@ -1562,6 +1580,10 @@
     "summaries": [
       "qtile fails to build with Python 3.14: _pickle.PicklingError: Can't pickle local object <function TestManager.start.<locals>.run_qtile at 0x7f9c5918fed0>"
     ]
+  },
+  "rapidyaml": {
+    "urls": [],
+    "summaries": []
   },
   "recoll": {
     "urls": [
