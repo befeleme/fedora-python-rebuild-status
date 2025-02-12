@@ -46,6 +46,7 @@ apbs
 appliance-tools
 apx
 arandr
+arbor
 argparse-manpage
 artifacts
 asahi-installer
@@ -123,6 +124,7 @@ cmake
 cobbler
 coccinelle
 codespell
+coin-or-HiGHS
 colin
 collectd
 compizconfig-python
@@ -269,6 +271,7 @@ gns3-net-converter
 gns3-server
 gnucash
 gnumeric
+gnuradio
 go-vendor-tools
 go2rpm
 gobject-introspection
@@ -328,6 +331,7 @@ iscsi-initiator-utils
 isomd5sum
 jack-mixer
 javapackages-tools
+jc
 jello
 joft
 jrnl
@@ -701,10 +705,12 @@ python-CacheControl
 python-CommonMark
 python-GeoIP
 python-IPy
+python-Levenshtein
 python-Mastodon
 python-ModulemdTranslationHelpers
 python-MultipartPostHandler2
 python-Naked
+python-OWSLib
 python-Pallets-Sphinx-Themes
 python-PyAVM
 python-PyGithub
@@ -780,6 +786,7 @@ python-ailment
 python-aioasuswrt
 python-aiocmd
 python-aiodns
+python-aioeafm
 python-aiofiles
 python-aioftp
 python-aiogqlc
@@ -799,6 +806,7 @@ python-aiokafka
 python-aiolifx
 python-aiomultiprocess
 python-aiomysql
+python-aionotion
 python-aioodbc
 python-aiopg
 python-aioquic
@@ -824,6 +832,7 @@ python-alsaaudio
 python-amply
 python-amqp
 python-ana
+python-animatplot
 python-aniso8601
 python-annexremote
 python-annotated-types
@@ -1024,6 +1033,7 @@ python-bidict
 python-bids-validator
 python-binary-manager
 python-binaryornot
+python-bioframe
 python-biopython
 python-bioread
 python-biscuits
@@ -1054,6 +1064,7 @@ python-bowler
 python-box
 python-boxsdk
 python-bracex
+python-branca
 python-bravado
 python-bravado-core
 python-brukerapi
@@ -1079,6 +1090,7 @@ python-catkin-sphinx
 python-catkin_lint
 python-catkin_pkg
 python-catkin_tools
+python-cattrs
 python-cbor2
 python-cccolutils
 python-cerberus
@@ -1106,6 +1118,7 @@ python-ciso8601
 python-citeproc-py
 python-ckzg
 python-claripy
+python-cleo
 python-cli-helpers
 python-click
 python-click-completion
@@ -1138,6 +1151,7 @@ python-coapthon3
 python-codecov
 python-cogapp
 python-coincidence
+python-coincurve
 python-colander
 python-colcon-alias
 python-colcon-argcomplete
@@ -1206,6 +1220,7 @@ python-connection_pool
 python-constantly
 python-construct
 python-construct-classes
+python-contourpy
 python-cookiecutter
 python-cooldict
 python-copr
@@ -1517,6 +1532,7 @@ python-flufl-i18n
 python-flufl-lock
 python-flufl-testing
 python-fluidity-sm
+python-folium
 python-fontMath
 python-fontconfig
 python-fontname
@@ -1535,6 +1551,7 @@ python-frozendict
 python-frozenlist
 python-fs
 python-fspath
+python-ftfy
 python-ftputil
 python-fuckit
 python-funcparserlib
@@ -1722,6 +1739,7 @@ python-ipgetter2
 python-ipmi
 python-ipuz
 python-ipykernel
+python-ipyparallel
 python-ipython_genutils
 python-irc
 python-irodsclient
@@ -1791,6 +1809,7 @@ python-junit_xml
 python-junitxml
 python-jupymake
 python-jupyter-c-kernel
+python-jupyter-client
 python-jupyter-console
 python-jupyter-core
 python-jupyter-kernel-singular
@@ -1881,6 +1900,7 @@ python-looseversion
 python-lqrt
 python-lru-dict
 python-lsp-jsonrpc
+python-lsprotocol
 python-lupa
 python-lxml
 python-lxml-html-clean
@@ -1899,10 +1919,12 @@ python-mako
 python-managesieve
 python-manatools
 python-manuel
+python-mapbox-earcut
 python-mapnik
 python-maps
 python-marathon
 python-markdown
+python-markdown-callouts
 python-markdown-exec
 python-markdown-include
 python-markdown-it-py
@@ -1949,16 +1971,20 @@ python-minikerberos
 python-minimock
 python-mirakuru
 python-mirrors-countme
+python-missingno
 python-mistune
 python-mistune08
 python-mitogen
 python-mizani
 python-mkdocs-autorefs
 python-mkdocs-click
+python-mkdocs-gen-files
 python-mkdocs-get-deps
 python-mkdocs-git-authors-plugin
 python-mkdocs-git-committers-plugin-2
+python-mkdocs-git-revision-date-localized-plugin
 python-mkdocs-include-markdown-plugin
+python-mkdocs-literate-nav
 python-mkdocs-macros-test
 python-mkdocs-material-extensions
 python-mkdocs-minify-plugin
@@ -2022,11 +2048,14 @@ python-myst-parser
 python-mystrom
 python-nagiosplugin
 python-name-that-hash
+python-nanobind
 python-nanoid
 python-natlas-libnmap
 python-natsort
 python-nbclient
+python-nbconvert
 python-nbformat
+python-nbsphinx
 python-nbxmpp
 python-ncclient
 python-ndeflib
@@ -2040,6 +2069,7 @@ python-netapp-lib
 python-netdata
 python-netdisco
 python-netifaces
+python-netmiko
 python-networkx
 python-neurodsp
 python-neurotune
@@ -2292,6 +2322,7 @@ python-pyactivetwo
 python-pyaes
 python-pyahocorasick
 python-pyaib
+python-pyairnow
 python-pyairvisual
 python-pyarlo
 python-pyasn
@@ -2357,6 +2388,7 @@ python-pyghmi
 python-pygiftiio
 python-pygit2
 python-pyglet
+python-pygls
 python-pygmars
 python-pygments
 python-pygments-ansi-color
@@ -2417,6 +2449,7 @@ python-pyongc
 python-pyopencl
 python-pyopengl
 python-pyopengltk
+python-pyopenuv
 python-pyotgw
 python-pyotp
 python-pyownet
@@ -2511,6 +2544,7 @@ python-pytest-forked
 python-pytest-freezegun
 python-pytest-freezer
 python-pytest-github-actions-annotate-failures
+python-pytest-golden
 python-pytest-home
 python-pytest-httpbin
 python-pytest-httpserver
@@ -2558,6 +2592,7 @@ python-pytest-xprocess
 python-pytest7
 python-python-fcl
 python-python-multipart
+python-pytile
 python-pytimeparse
 python-pytn3270
 python-pytools
@@ -2601,6 +2636,7 @@ python-ramalama
 python-random2
 python-rangehttpserver
 python-rangeparser
+python-rapidfuzz
 python-rarfile
 python-ratelimitingfilter
 python-raven
@@ -2634,6 +2670,7 @@ python-repoze-tm2
 python-repoze-who
 python-represent
 python-requests
+python-requests-cache
 python-requests-credssp
 python-requests-download
 python-requests-exoscale-auth
@@ -2713,6 +2750,7 @@ python-scantree
 python-schedutils
 python-schema
 python-scikit-build
+python-scikit-build-core
 python-scikit-misc
 python-scitokens
 python-scooby
@@ -2722,6 +2760,7 @@ python-scripttest
 python-scrypt
 python-sdkmanager
 python-sdnotify
+python-seaborn
 python-secure_cookie
 python-selenium
 python-semantic_version
@@ -2950,6 +2989,7 @@ python-testresources
 python-testscenarios
 python-testtools
 python-text-unidecode
+python-textdistance
 python-textfsm
 python-textile
 python-textparser
@@ -3090,6 +3130,7 @@ python-vevents
 python-vhacdx
 python-vine
 python-virt-firmware
+python-virtualbmc
 python-virtualenv
 python-virtualenv-api
 python-virtualenv-clone
@@ -3102,6 +3143,7 @@ python-volatile
 python-volkszaehler
 python-voluptuous
 python-voluptuous-serialize
+python-vpoller
 python-vsts
 python-vsts-cd-manager
 python-vsure
@@ -3205,6 +3247,7 @@ python-zict
 python-zipp
 python-zipstream
 python-zm
+python-zmq
 python-zombie-imp
 python-zope-component
 python-zope-deprecation
@@ -3300,6 +3343,7 @@ ruff
 rust2rpm
 s-tui
 s3cmd
+salt
 salt-lint
 sanlock
 sasutils
@@ -3345,6 +3389,7 @@ sourcextractor++
 spectrographic
 speech-dispatcher
 speedtest-cli
+spglib
 ssh-audit
 sshuttle
 sssd
@@ -3407,6 +3452,7 @@ udiskie
 uflash
 ufw
 uhd
+ulauncher
 unbound
 unicorn
 urh

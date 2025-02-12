@@ -177,14 +177,6 @@
       "ikiwiki: FTBFS in Fedora rawhide/f42"
     ]
   },
-  "jc": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2331343"
-    ],
-    "summaries": [
-      "jc fails to build with Python 3.14: ImportError: cannot import name 'ByteString' from 'typing'"
-    ]
-  },
   "khal": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2340695"
@@ -229,6 +221,10 @@
       "libarcus: FTBFS in Fedora rawhide/f42"
     ]
   },
+  "libixion": {
+    "urls": [],
+    "summaries": []
+  },
   "libnvme": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2325194"
@@ -236,6 +232,14 @@
     "summaries": [
       "libnvme fails to build with Python 3.14: /usr/include/python3.14/pyport.h:629:35: error: missing ')' after \"__has_attribute\""
     ]
+  },
+  "libopenshot": {
+    "urls": [],
+    "summaries": []
+  },
+  "liborcus": {
+    "urls": [],
+    "summaries": []
   },
   "libreoffice": {
     "urls": [],
@@ -281,6 +285,10 @@
       "needrestart: FTBFS in Fedora rawhide/f42"
     ]
   },
+  "nextpnr": {
+    "urls": [],
+    "summaries": []
+  },
   "nwchem": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2340948"
@@ -301,6 +309,10 @@
     "urls": [],
     "summaries": []
   },
+  "openshot": {
+    "urls": [],
+    "summaries": []
+  },
   "pcs": {
     "urls": [],
     "summaries": []
@@ -311,14 +323,6 @@
     ],
     "summaries": [
       "powerline fails to build with Python 3.14: ValueError: argument groups cannot be nested"
-    ]
-  },
-  "pybind11": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2336889"
-    ],
-    "summaries": [
-      "pybind11 fails to build with Python 3.14: AttributeError: 'pybind11_tests.pickling.PickleableWithDict' object has no attribute 'dynamic' + AssertionError"
     ]
   },
   "pychess": {
@@ -373,6 +377,14 @@
     "urls": [],
     "summaries": []
   },
+  "python-aioflo": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2341124"
+    ],
+    "summaries": [
+      "python-aioflo: FTBFS in Fedora rawhide/f42"
+    ]
+  },
   "python-aiosmtpd": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2322718"
@@ -384,14 +396,6 @@
   "python-alsaaudio": {
     "urls": [],
     "summaries": []
-  },
-  "python-anyio": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2328710"
-    ],
-    "summaries": [
-      "python-anyio fails to build with Python 3.14: AttributeError: '_UnixDefaultEventLoopPolicy' object has no attribute 'get_child_watcher' && TypeError: PurePath.relative_to() takes 2 positional arguments but 3 were given"
-    ]
   },
   "python-apsw": {
     "urls": [],
@@ -509,14 +513,6 @@
       "python-catkin_tools: FTBFS in Fedora rawhide/f42"
     ]
   },
-  "python-cattrs": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2343916"
-    ],
-    "summaries": [
-      "python-cattrs fails to build with Python 3.14: TypeError: <class 'tests.strategies.test_include_subclasses.GrandChild'> has no usable non-default attributes"
-    ]
-  },
   "python-chalice": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2342568"
@@ -572,10 +568,6 @@
     "summaries": [
       "python-confuse fails to build with Python 3.14: AttributeError: module 'pkgutil' has no attribute 'get_loader'"
     ]
-  },
-  "python-contourpy": {
-    "urls": [],
-    "summaries": []
   },
   "python-crick": {
     "urls": [],
@@ -879,6 +871,10 @@
       "python-meshio: FTBFS in Fedora Rawhide"
     ]
   },
+  "python-metakernel": {
+    "urls": [],
+    "summaries": []
+  },
   "python-mistune08": {
     "urls": [],
     "summaries": []
@@ -921,14 +917,6 @@
     ],
     "summaries": [
       "python-notify2: FTBFS in Fedora rawhide/f42"
-    ]
-  },
-  "python-oscrypto": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2341177"
-    ],
-    "summaries": [
-      "python-oscrypto: FTBFS in Fedora rawhide/f42"
     ]
   },
   "python-packvers": {
@@ -1087,6 +1075,10 @@
       "python-pytest-asyncio fails to build with Python 3.14: DeprecationWarning: 'asyncio.get_event_loop_policy' is deprecated and slated for removal in Python 3.16"
     ]
   },
+  "python-pytest-lsp": {
+    "urls": [],
+    "summaries": []
+  },
   "python-pyupgrade": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2322713"
@@ -1185,10 +1177,6 @@
       "python-rx fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
     ]
   },
-  "python-seaborn": {
-    "urls": [],
-    "summaries": []
-  },
   "python-serpy": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2319716"
@@ -1229,6 +1217,14 @@
     ],
     "summaries": [
       "python-steam: FTBFS in Fedora rawhide/f42"
+    ]
+  },
+  "python-stochastic": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2341219"
+    ],
+    "summaries": [
+      "python-stochastic: FTBFS in Fedora rawhide/f42"
     ]
   },
   "python-svg2tikz": {
@@ -1275,6 +1271,10 @@
       "python-tree-format fails to build with setuptools 74+"
     ]
   },
+  "python-trio": {
+    "urls": [],
+    "summaries": []
+  },
   "python-twisted": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2342754"
@@ -1307,6 +1307,10 @@
       "python-typing-inspect fails to build with Python 3.14: AssertionError: {} != {'x': <class 'int'>, 'y': <class 'int'>}"
     ]
   },
+  "python-ufoLib2": {
+    "urls": [],
+    "summaries": []
+  },
   "python-urwid": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2327984"
@@ -1327,20 +1331,10 @@
   },
   "python-valkey": {
     "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2341234",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2326934"
     ],
     "summaries": [
-      "python-valkey: FTBFS in Fedora rawhide/f42",
       "python-valkey fails to build with Python 3.14: _pickle.PicklingError: Can't pickle local object <function TestMultiprocessing.test_close_connection_in_child.<locals>.target at 0x7f7d711b5dd0>"
-    ]
-  },
-  "python-watchfiles": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2339462"
-    ],
-    "summaries": [
-      "python-watchfiles fails to build with Python 3.14: DeprecationWarning: 'asyncio.set_event_loop' is deprecated and slated for removal in Python 3.16"
     ]
   },
   "python-watchgod": {
@@ -1407,6 +1401,14 @@
     ],
     "summaries": [
       "python-zstandard fails to build with Python 3.14: ImportError: cannot import name 'ByteString' from 'typing'"
+    ]
+  },
+  "pythran": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2341244"
+    ],
+    "summaries": [
+      "pythran: FTBFS in Fedora rawhide/f42"
     ]
   },
   "qtile": {
