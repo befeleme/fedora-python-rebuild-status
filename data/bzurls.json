@@ -1,4 +1,8 @@
 {
+  "PyMca": {
+    "urls": [],
+    "summaries": []
+  },
   "ara": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2331346"
@@ -6,6 +10,26 @@
     "summaries": [
       "ara fails to build with Python 3.14: AttributeError: module 'pkgutil' has no attribute 'find_loader'"
     ]
+  },
+  "assimp": {
+    "urls": [],
+    "summaries": []
+  },
+  "astrometry": {
+    "urls": [],
+    "summaries": []
+  },
+  "atomic-reactor": {
+    "urls": [],
+    "summaries": []
+  },
+  "audit": {
+    "urls": [],
+    "summaries": []
+  },
+  "autowrap": {
+    "urls": [],
+    "summaries": []
   },
   "awscli2": {
     "urls": [
@@ -29,6 +53,14 @@
     ],
     "summaries": [
       "borgbackup fails to build with Python 3.14: OSError: AF_UNIX path too long when compiling"
+    ]
+  },
+  "botan2": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2339942"
+    ],
+    "summaries": [
+      "botan2: FTBFS in Fedora rawhide/f42"
     ]
   },
   "brial": {
@@ -60,6 +92,10 @@
     ]
   },
   "cockpit": {
+    "urls": [],
+    "summaries": []
+  },
+  "collectd": {
     "urls": [],
     "summaries": []
   },
@@ -141,6 +177,14 @@
     "urls": [],
     "summaries": []
   },
+  "geopmd": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2340207"
+    ],
+    "summaries": [
+      "geopmd: FTBFS in Fedora rawhide/f42"
+    ]
+  },
   "gnofract4d": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2339539"
@@ -169,6 +213,10 @@
       "httpie: FTBFS in Fedora rawhide/f42"
     ]
   },
+  "ibus-cangjie": {
+    "urls": [],
+    "summaries": []
+  },
   "ikiwiki": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2340642"
@@ -176,6 +224,18 @@
     "summaries": [
       "ikiwiki: FTBFS in Fedora rawhide/f42"
     ]
+  },
+  "insight": {
+    "urls": [],
+    "summaries": []
+  },
+  "jrnl": {
+    "urls": [],
+    "summaries": []
+  },
+  "jsonnet": {
+    "urls": [],
+    "summaries": []
   },
   "khal": {
     "urls": [
@@ -186,6 +246,10 @@
     ]
   },
   "kicad": {
+    "urls": [],
+    "summaries": []
+  },
+  "kmymoney": {
     "urls": [],
     "summaries": []
   },
@@ -213,6 +277,10 @@
       "lasso: FTBFS in Fedora rawhide/f42"
     ]
   },
+  "lazygal": {
+    "urls": [],
+    "summaries": []
+  },
   "libarcus": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2340716"
@@ -233,10 +301,6 @@
       "libnvme fails to build with Python 3.14: /usr/include/python3.14/pyport.h:629:35: error: missing ')' after \"__has_attribute\""
     ]
   },
-  "libopenshot": {
-    "urls": [],
-    "summaries": []
-  },
   "liborcus": {
     "urls": [],
     "summaries": []
@@ -245,11 +309,19 @@
     "urls": [],
     "summaries": []
   },
+  "libsolv": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2340762"
+    ],
+    "summaries": [
+      "libsolv: FTBFS in Fedora rawhide/f42: bool redefinitions with GCC 15 in bindings/solv.i (via Swig-generated solv_perl.c)"
+    ]
+  },
   "libsonata": {
     "urls": [],
     "summaries": []
   },
-  "libtevent": {
+  "libxc": {
     "urls": [],
     "summaries": []
   },
@@ -269,10 +341,6 @@
       "mathgl: FTBFS in Fedora rawhide/f42"
     ]
   },
-  "mkdocs-material": {
-    "urls": [],
-    "summaries": []
-  },
   "morphio": {
     "urls": [],
     "summaries": []
@@ -285,9 +353,13 @@
       "needrestart: FTBFS in Fedora rawhide/f42"
     ]
   },
-  "nextpnr": {
-    "urls": [],
-    "summaries": []
+  "neuron": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2340926"
+    ],
+    "summaries": [
+      "neuron: FTBFS in Fedora rawhide/f42"
+    ]
   },
   "nwchem": {
     "urls": [
@@ -309,13 +381,39 @@
     "urls": [],
     "summaries": []
   },
-  "openshot": {
-    "urls": [],
-    "summaries": []
-  },
   "pcs": {
     "urls": [],
     "summaries": []
+  },
+  "poetry": {
+    "urls": [],
+    "summaries": []
+  },
+  "poezio": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2341088"
+    ],
+    "summaries": [
+      "poezio: FTBFS in Fedora rawhide/f42"
+    ]
+  },
+  "postgresql16": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2332981"
+    ],
+    "summaries": [
+      "postgresql16-16.3-7.fc42 FTBFS: tests fail with tzdata-2024b"
+    ]
+  },
+  "postgresql17": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2332978",
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2327967"
+    ],
+    "summaries": [
+      "postgresql17-17.0-1.fc42 FTBFS: RPM build errors: line 227: second Description",
+      "postgresql17 fails to build with Python 3.14: jsonb_jsonpath fails: - \"12:34:56-07:00\" != + \"12:34:56-08:00\""
+    ]
   },
   "powerline": {
     "urls": [
@@ -323,6 +421,32 @@
     ],
     "summaries": [
       "powerline fails to build with Python 3.14: ValueError: argument groups cannot be nested"
+    ]
+  },
+  "protobuf": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2343969",
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2341106"
+    ],
+    "summaries": [
+      "protobuf doesn't work with Python 3.14: test_error_reason: TypeError: Metaclasses with custom tp_new are not supported.",
+      "protobuf: FTBFS in Fedora rawhide/f42, missing a dependency on mvn(com.google.truth:truth)"
+    ]
+  },
+  "pybind11": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2336889"
+    ],
+    "summaries": [
+      "pybind11 fails to build with Python 3.14: AttributeError: 'pybind11_tests.pickling.PickleableWithDict' object has no attribute 'dynamic' + AssertionError"
+    ]
+  },
+  "pycairo": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2322709"
+    ],
+    "summaries": [
+      "pycairo fails to build with Python 3.14: ImportError: cannot import name 'ByteString' from 'typing'"
     ]
   },
   "pychess": {
@@ -385,6 +509,10 @@
       "python-aioflo: FTBFS in Fedora rawhide/f42"
     ]
   },
+  "python-aiokafka": {
+    "urls": [],
+    "summaries": []
+  },
   "python-aiosmtpd": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2322718"
@@ -397,7 +525,23 @@
     "urls": [],
     "summaries": []
   },
+  "python-anyio": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2328710"
+    ],
+    "summaries": [
+      "python-anyio fails to build with Python 3.14: AttributeError: '_UnixDefaultEventLoopPolicy' object has no attribute 'get_child_watcher' && TypeError: PurePath.relative_to() takes 2 positional arguments but 3 were given"
+    ]
+  },
   "python-apsw": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-asgiref": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-astral": {
     "urls": [],
     "summaries": []
   },
@@ -409,7 +553,51 @@
       "python-astroid fails to build with Python 3.14: astroid.exceptions.InferenceError: StopIteration raised without any error information."
     ]
   },
+  "python-astroplan": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-astropy": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-astropy-healpix": {
+    "urls": [],
+    "summaries": []
+  },
   "python-astropy-iers-data": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-astroquery": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-astroscrappy": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2341127"
+    ],
+    "summaries": [
+      "python-astroscrappy: FTBFS in Fedora rawhide/f42"
+    ]
+  },
+  "python-asttokens": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-async-lru": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-async-timeout": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-async-upnp-client": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-asyncmy": {
     "urls": [],
     "summaries": []
   },
@@ -421,6 +609,46 @@
       "python-asyncssh fails to build with Python 3.14: multiple test failures (failures=25, errors=697)"
     ]
   },
+  "python-asysocks": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-atlassian-python-api": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-atomicwrites": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2341128"
+    ],
+    "summaries": [
+      "python-atomicwrites: FTBFS in Fedora rawhide/f42"
+    ]
+  },
+  "python-atpublic": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-attrs": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-audioread": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-augeas": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-authheaders": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-authres": {
+    "urls": [],
+    "summaries": []
+  },
   "python-autocommand": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2327972"
@@ -428,6 +656,26 @@
     "summaries": [
       "python-autocommand fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
     ]
+  },
+  "python-autograd": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-automaton": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-autopage": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-autopep8": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-avalara": {
+    "urls": [],
+    "summaries": []
   },
   "python-avocado": {
     "urls": [
@@ -439,9 +687,21 @@
       "python-avocado fails to build with Python 3.14: Error running method \"pre_tests\" of plugin \"fetchasset\": module 'ast' has no attribute 'Str' + Avocado crashed: TypeError: cannot pickle '_thread.RLock' object"
     ]
   },
+  "python-aw-client": {
+    "urls": [],
+    "summaries": []
+  },
   "python-aw-qt": {
     "urls": [],
     "summaries": []
+  },
+  "python-awscrt": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2322714"
+    ],
+    "summaries": [
+      "python-awscrt fails to build with Python 3.14: ImportError: cannot import name 'ByteString' from 'collections.abc'"
+    ]
   },
   "python-backrefs": {
     "urls": [
@@ -477,6 +737,10 @@
       "python-billiard fails to build with Python 3.14: AttributeError: module 'subprocess' has no attribute '_USE_VFORK'"
     ]
   },
+  "python-bioread": {
+    "urls": [],
+    "summaries": []
+  },
   "python-blinker": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2325193"
@@ -511,6 +775,14 @@
     ],
     "summaries": [
       "python-catkin_tools: FTBFS in Fedora rawhide/f42"
+    ]
+  },
+  "python-cattrs": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2343916"
+    ],
+    "summaries": [
+      "python-cattrs fails to build with Python 3.14: TypeError: <class 'tests.strategies.test_include_subclasses.GrandChild'> has no usable non-default attributes"
     ]
   },
   "python-chalice": {
@@ -569,7 +841,15 @@
       "python-confuse fails to build with Python 3.14: AttributeError: module 'pkgutil' has no attribute 'get_loader'"
     ]
   },
+  "python-crcmod": {
+    "urls": [],
+    "summaries": []
+  },
   "python-crick": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-cvxopt": {
     "urls": [],
     "summaries": []
   },
@@ -589,6 +869,10 @@
       "python-dateparser: FTBFS in Fedora Rawhide: AssertionError in TestTranslateSearch.test_relative_base_setting_2_en"
     ]
   },
+  "python-dbus-next": {
+    "urls": [],
+    "summaries": []
+  },
   "python-defcon": {
     "urls": [],
     "summaries": []
@@ -601,6 +885,10 @@
       "python-dill fails to build with Python 3.14: TypeError: _Pickler._batch_setitems() missing 1 required positional argument: 'obj'"
     ]
   },
+  "python-dipy": {
+    "urls": [],
+    "summaries": []
+  },
   "python-django-filter": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2336944"
@@ -608,6 +896,22 @@
     "summaries": [
       "python-django-filter fails to build with Python 3.14: AttributeError: module 'pkgutil' has no attribute 'find_loader'"
     ]
+  },
+  "python-domdf-python-tools": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-ducc0": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2341145"
+    ],
+    "summaries": [
+      "python-ducc0: FTBFS in Fedora rawhide/f42"
+    ]
+  },
+  "python-emcee": {
+    "urls": [],
+    "summaries": []
   },
   "python-epub": {
     "urls": [
@@ -633,6 +937,10 @@
       "python-events fails to build with setuptools 74+"
     ]
   },
+  "python-exdir": {
+    "urls": [],
+    "summaries": []
+  },
   "python-executing": {
     "urls": [],
     "summaries": []
@@ -643,6 +951,14 @@
     ],
     "summaries": [
       "python-flask fails to build with Python 3.14: AttributeError: module 'pkgutil' has no attribute 'get_loader'"
+    ]
+  },
+  "python-flask-caching": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2341153"
+    ],
+    "summaries": [
+      "python-flask-caching: FTBFS in Fedora rawhide/f42"
     ]
   },
   "python-fs": {
@@ -705,6 +1021,10 @@
     "urls": [],
     "summaries": []
   },
+  "python-grip": {
+    "urls": [],
+    "summaries": []
+  },
   "python-h5netcdf": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2325222"
@@ -720,6 +1040,10 @@
     "summaries": [
       "python-hamcrest: FTBFS in Fedora rawhide/f42"
     ]
+  },
+  "python-hdf5storage": {
+    "urls": [],
+    "summaries": []
   },
   "python-hexbytes": {
     "urls": [],
@@ -781,6 +1105,14 @@
       "python-inject fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
     ]
   },
+  "python-injector": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2341165"
+    ],
+    "summaries": [
+      "python-injector: FTBFS in Fedora rawhide/f42"
+    ]
+  },
   "python-irc": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2327991"
@@ -801,6 +1133,10 @@
       "python-jeepney fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
     ]
   },
+  "python-jiter": {
+    "urls": [],
+    "summaries": []
+  },
   "python-joblib": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2339519"
@@ -819,19 +1155,15 @@
       "python-josepy fails to build with Python 3.14: 6x ValueError: Field `alg` in JSONObject `Header` has no type annotation."
     ]
   },
-  "python-jupyter-c-kernel": {
-    "urls": [],
-    "summaries": []
-  },
   "python-jupyter-events": {
     "urls": [],
     "summaries": []
   },
-  "python-jupyter-kernel-singular": {
+  "python-klusta": {
     "urls": [],
     "summaries": []
   },
-  "python-jupyter-polymake": {
+  "python-loguru": {
     "urls": [],
     "summaries": []
   },
@@ -895,6 +1227,26 @@
       "python-msal fails to build with Python 3.14: test_no_two_concurrent_receivers_can_listen_on_same_port: AssertionError: OSError not raised"
     ]
   },
+  "python-msgspec": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2325169"
+    ],
+    "summaries": [
+      "python-msgspec fails to build with Python 3.14: error: \u2018_Py_IMMORTAL_REFCNT\u2019 undeclared here"
+    ]
+  },
+  "python-neurodsp": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-neurotune": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2341173"
+    ],
+    "summaries": [
+      "python-neurotune: FTBFS in Fedora rawhide/f42"
+    ]
+  },
   "python-nine": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2343977"
@@ -902,6 +1254,10 @@
     "summaries": [
       "python-nine fails to build with Python 3.14: AttributeError: module 'urllib.request' has no attribute 'URLopener'"
     ]
+  },
+  "python-nixio": {
+    "urls": [],
+    "summaries": []
   },
   "python-nose": {
     "urls": [
@@ -919,6 +1275,14 @@
       "python-notify2: FTBFS in Fedora rawhide/f42"
     ]
   },
+  "python-opytimark": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-orjson": {
+    "urls": [],
+    "summaries": []
+  },
   "python-packvers": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2341178"
@@ -935,9 +1299,25 @@
       "python-pandas: FTBFS in Fedora rawhide/f42"
     ]
   },
+  "python-parso": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2325187"
+    ],
+    "summaries": [
+      "python-parso fails to build with Python 3.14: NotImplementedError: Python version 3.14 is currently not supported."
+    ]
+  },
   "python-pep440": {
     "urls": [],
     "summaries": []
+  },
+  "python-pexpect": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2341180"
+    ],
+    "summaries": [
+      "python-pexpect: FTBFS in Fedora rawhide/f42"
+    ]
   },
   "python-pip": {
     "urls": [
@@ -955,12 +1335,12 @@
       "python-praw fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
     ]
   },
-  "python-psycopg3": {
+  "python-priority": {
     "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2339461"
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2341182"
     ],
     "summaries": [
-      "python-psycopg3 fails to build with Python 3.14: DeprecationWarning: 'asyncio.set_event_loop' is deprecated and slated for removal in Python 3.16"
+      "python-priority: FTBFS in Fedora rawhide/f42"
     ]
   },
   "python-pure-protobuf": {
@@ -969,6 +1349,18 @@
     ],
     "summaries": [
       "python-pure-protobuf fails to build with Python 3.14: ImportError: cannot import name 'ByteString' from 'typing'"
+    ]
+  },
+  "python-py-tes": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pyahocorasick": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2341183"
+    ],
+    "summaries": [
+      "python-pyahocorasick: FTBFS in Fedora rawhide/f42"
     ]
   },
   "python-pycec": {
@@ -994,6 +1386,22 @@
     "summaries": [
       "python-pyemd fails to build with setuptools 74+"
     ]
+  },
+  "python-pyev": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pyface": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pymapvbvd": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pymatreader": {
+    "urls": [],
+    "summaries": []
   },
   "python-pymdown-extensions": {
     "urls": [
@@ -1039,9 +1447,29 @@
       "python-pyopengl: FTBFS in Fedora rawhide/f42"
     ]
   },
+  "python-pyqt6": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pyqt6-charts": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pyqt6-webengine": {
+    "urls": [],
+    "summaries": []
+  },
   "python-pyqtgraph": {
     "urls": [],
     "summaries": []
+  },
+  "python-pysdl2": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2339020"
+    ],
+    "summaries": [
+      "python-pysdl2: FTBFS in Fedora Rawhide"
+    ]
   },
   "python-pyside6": {
     "urls": [
@@ -1095,6 +1523,14 @@
       "python-pyvlx fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
     ]
   },
+  "python-qcustomplot-pyqt": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-qt5": {
+    "urls": [],
+    "summaries": []
+  },
   "python-rdflib": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2343978",
@@ -1137,12 +1573,28 @@
       "python-redis fails to build with Python 3.14: _pickle.PicklingError: Can't pickle local object <function TestMultiprocessing.test_redis_client.<locals>.target at 0x7fd5f829efb0>"
     ]
   },
+  "python-regenmaschine": {
+    "urls": [],
+    "summaries": []
+  },
   "python-remoto": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2341205"
     ],
     "summaries": [
       "python-remoto: FTBFS in Fedora rawhide/f42"
+    ]
+  },
+  "python-respx": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-rich": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2339510"
+    ],
+    "summaries": [
+      "python-rich fails to build with Python 3.14: 5 test fail"
     ]
   },
   "python-rosdep": {
@@ -1177,12 +1629,36 @@
       "python-rx fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
     ]
   },
+  "python-s3transfer": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2326933"
+    ],
+    "summaries": [
+      "python-s3transfer fails to build with Python 3.14: _pickle.PicklingError: Can't pickle local object <class 'tests.unit.test_compat.TestBaseManager.create_pid_manager.<locals>.PIDManager'>"
+    ]
+  },
+  "python-scantree": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2328021"
+    ],
+    "summaries": [
+      "python-scantree fails to build with Python 3.14: AssertionError: assert 1.2218716144561768 < (2.0 / 2)"
+    ]
+  },
   "python-serpy": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2319716"
     ],
     "summaries": [
       "python-serpy fails to build with setuptools 74+"
+    ]
+  },
+  "python-setproctitle": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2341212"
+    ],
+    "summaries": [
+      "python-setproctitle: FTBFS in Fedora rawhide/f42"
     ]
   },
   "python-social-auth-core": {
@@ -1202,6 +1678,18 @@
     "summaries": [
       "python-sqlalchemy1.4 fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
     ]
+  },
+  "python-ssh-python": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-stack-data": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-starlette": {
+    "urls": [],
+    "summaries": []
   },
   "python-stdlibs": {
     "urls": [
@@ -1247,6 +1735,14 @@
     "urls": [],
     "summaries": []
   },
+  "python-textual": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2341224"
+    ],
+    "summaries": [
+      "python-textual: FTBFS in Fedora rawhide/f42"
+    ]
+  },
   "python-toolz": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2323168"
@@ -1262,6 +1758,10 @@
     "summaries": [
       "python-tornado fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
     ]
+  },
+  "python-traitsui": {
+    "urls": [],
+    "summaries": []
   },
   "python-tree-format": {
     "urls": [
@@ -1290,6 +1790,14 @@
     "summaries": [
       "python-txaio fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
     ]
+  },
+  "python-typedecorator": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-typeguard": {
+    "urls": [],
+    "summaries": []
   },
   "python-typing-extensions": {
     "urls": [
@@ -1337,6 +1845,14 @@
       "python-valkey fails to build with Python 3.14: _pickle.PicklingError: Can't pickle local object <function TestMultiprocessing.test_close_connection_in_child.<locals>.target at 0x7f7d711b5dd0>"
     ]
   },
+  "python-watchfiles": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2339462"
+    ],
+    "summaries": [
+      "python-watchfiles fails to build with Python 3.14: DeprecationWarning: 'asyncio.set_event_loop' is deprecated and slated for removal in Python 3.16"
+    ]
+  },
   "python-watchgod": {
     "urls": [],
     "summaries": []
@@ -1379,12 +1895,44 @@
       "python-yappi fails to build with Python 3.14: error: invalid use of incomplete typedef \u2018PyGenObject\u2019 {aka \u2018struct _PyGenObject\u2019}"
     ]
   },
+  "python-zict": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2328012"
+    ],
+    "summaries": [
+      "python-zict fails to build with Python 3.14: test_stress_different_keys_threadsafe Timeout"
+    ]
+  },
+  "python-zmq": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-zope-deprecation": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-zope-exceptions": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2341240"
+    ],
+    "summaries": [
+      "python-zope-exceptions: FTBFS in Fedora rawhide/f42"
+    ]
+  },
   "python-zope-i18nmessageid": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2341241"
     ],
     "summaries": [
       "python-zope-i18nmessageid: FTBFS in Fedora rawhide/f42"
+    ]
+  },
+  "python-zope-testing": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2341242"
+    ],
+    "summaries": [
+      "python-zope-testing: FTBFS in Fedora rawhide/f42"
     ]
   },
   "python-zope-testrunner": {
@@ -1410,6 +1958,10 @@
     "summaries": [
       "pythran: FTBFS in Fedora rawhide/f42"
     ]
+  },
+  "qscintilla": {
+    "urls": [],
+    "summaries": []
   },
   "qtile": {
     "urls": [
@@ -1443,20 +1995,20 @@
       "renderdoc: FTBFS in Fedora rawhide/f42"
     ]
   },
+  "retext": {
+    "urls": [],
+    "summaries": []
+  },
+  "rrdtool": {
+    "urls": [],
+    "summaries": []
+  },
   "satyr": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2325452"
     ],
     "summaries": [
       "satyr fails to build with Python 3.14: _pickle.PicklingError: Can't pickle local object <function TestDistances.test_distances_part_parallel.<locals>.do_test.<locals>.compute_part at 0x7f7f845f2560>"
-    ]
-  },
-  "scipy": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2341927"
-    ],
-    "summaries": [
-      "scipy fails to build with Python 3.14: TestSystematic::test_bessely, TestSystematic::test_bessely_int and TestSystematic::test_wrightomega fail"
     ]
   },
   "signon-glib": {
@@ -1467,6 +2019,14 @@
       "signon-glib: FTBFS in Fedora rawhide/f42"
     ]
   },
+  "sourcextractor++": {
+    "urls": [],
+    "summaries": []
+  },
+  "sssd": {
+    "urls": [],
+    "summaries": []
+  },
   "strongswan": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2332864"
@@ -1474,6 +2034,18 @@
     "summaries": [
       "strongswan-5.9.14-5.fc42 FTBFS: strongswan-5.9.14/missing: line 81: aclocal-1.16: command not found"
     ]
+  },
+  "sudo": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2341397"
+    ],
+    "summaries": [
+      "sudo: FTBFS in Fedora rawhide/f42"
+    ]
+  },
+  "syslog-ng": {
+    "urls": [],
+    "summaries": []
   },
   "tcl-snack": {
     "urls": [
@@ -1491,6 +2063,14 @@
       "thrift: FTBFS in Fedora rawhide/f42"
     ]
   },
+  "tiled": {
+    "urls": [],
+    "summaries": []
+  },
+  "tortoisehg": {
+    "urls": [],
+    "summaries": []
+  },
   "ufw": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2341477"
@@ -1506,6 +2086,10 @@
     "summaries": [
       "uhd: FTBFS in Fedora rawhide/f42"
     ]
+  },
+  "vdr-epg-daemon": {
+    "urls": [],
+    "summaries": []
   },
   "veusz": {
     "urls": [],
@@ -1527,6 +2111,10 @@
     "urls": [],
     "summaries": []
   },
+  "xapian-bindings": {
+    "urls": [],
+    "summaries": []
+  },
   "xonsh": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2336895"
@@ -1539,12 +2127,16 @@
     "urls": [],
     "summaries": []
   },
-  "yamllint": {
+  "yt-dlp": {
+    "urls": [],
+    "summaries": []
+  },
+  "zeek": {
     "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2336947"
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2341601"
     ],
     "summaries": [
-      "yamllint fails to build with Python 3.14: ValueError('I/O operation on closed file')"
+      "zeek: FTBFS in Fedora rawhide/f42"
     ]
   }
 }
