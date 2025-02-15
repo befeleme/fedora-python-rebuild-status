@@ -35,21 +35,17 @@
       "borgbackup fails to build with Python 3.14: OSError: AF_UNIX path too long when compiling"
     ]
   },
-  "botan2": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2339942"
-    ],
-    "summaries": [
-      "botan2: FTBFS in Fedora rawhide/f42"
-    ]
-  },
   "cairo-dock-plug-ins": {
     "urls": [],
     "summaries": []
   },
   "capstone": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2345714"
+    ],
+    "summaries": [
+      "capstone fails to build with Python 3.14: from capstone import *: ImportError: ERROR: fail to load the dynamic library"
+    ]
   },
   "ceph": {
     "urls": [
@@ -488,8 +484,12 @@
     "summaries": []
   },
   "python-astroscrappy": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2345724"
+    ],
+    "summaries": [
+      "python-astroscrappy fails to build with Python 3.14: astroscrappy/utils/medutils.h:19:17: error: two or more data types in declaration specifiers"
+    ]
   },
   "python-asyncssh": {
     "urls": [
@@ -835,14 +835,6 @@
       "python-git-revise: FTBFS in Fedora rawhide/f42"
     ]
   },
-  "python-gitlab": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2342565"
-    ],
-    "summaries": [
-      "python-gitlab fails to build with Python 3.14: AttributeError: 'Variable' object has no attribute '__annotations__'. Did you mean: '__annotate__'? and more"
-    ]
-  },
   "python-glyphsLib": {
     "urls": [],
     "summaries": []
@@ -1092,10 +1084,6 @@
     "summaries": [
       "python-notify2: FTBFS in Fedora rawhide/f42"
     ]
-  },
-  "python-opytimark": {
-    "urls": [],
-    "summaries": []
   },
   "python-orjson": {
     "urls": [],
@@ -1567,14 +1555,6 @@
       "python-tree-format fails to build with setuptools 74+"
     ]
   },
-  "python-trio": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2345516"
-    ],
-    "summaries": [
-      "python-trio fails to build with Python 3.14: test_ki_protection_doesnt_leave_cyclic_garbage: Left contains one more item: <coroutine object test_ki_protection_doesnt_leave_cyclic_garbage at 0x7fbaa2f162c0>"
-    ]
-  },
   "python-twisted": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2342754"
@@ -1886,14 +1866,6 @@
   "xapian-bindings": {
     "urls": [],
     "summaries": []
-  },
-  "xonsh": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2336895"
-    ],
-    "summaries": [
-      "xonsh fails to build with Python 3.14: ValueError: action 'store_true' is not valid for positional arguments"
-    ]
   },
   "xpra": {
     "urls": [],
