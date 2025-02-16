@@ -771,14 +771,6 @@
       "python-etcd fails to build with Python 3.14: _pickle.PicklingError: Can't pickle local object <function TestWatch.test_watch_indexed_generator.<locals>.watch_value at 0x7f0d39f71dd0>"
     ]
   },
-  "python-events": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2319655"
-    ],
-    "summaries": [
-      "python-events fails to build with setuptools 74+"
-    ]
-  },
   "python-exdir": {
     "urls": [],
     "summaries": []
@@ -850,10 +842,6 @@
     "summaries": [
       "python-gphoto2: FTBFS in Fedora rawhide/f42"
     ]
-  },
-  "python-graph-tool": {
-    "urls": [],
-    "summaries": []
   },
   "python-h5netcdf": {
     "urls": [
