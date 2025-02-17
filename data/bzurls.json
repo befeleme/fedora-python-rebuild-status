@@ -35,10 +35,6 @@
       "borgbackup fails to build with Python 3.14: OSError: AF_UNIX path too long when compiling"
     ]
   },
-  "cairo-dock-plug-ins": {
-    "urls": [],
-    "summaries": []
-  },
   "capstone": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2345714"
@@ -139,14 +135,6 @@
     ],
     "summaries": [
       "espresso: FTBFS in Fedora rawhide/f42"
-    ]
-  },
-  "gdl": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2345533"
-    ],
-    "summaries": [
-      "gdl fails to build with Python 3.14: test_tic_toc.pro failed"
     ]
   },
   "gnofract4d": {
@@ -385,14 +373,6 @@
     ],
     "summaries": [
       "pygsl: FTBFS in Fedora rawhide/f42"
-    ]
-  },
-  "pykka": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2345521"
-    ],
-    "summaries": [
-      "pykka fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
     ]
   },
   "pyserial-asyncio": {
@@ -852,12 +832,8 @@
     ]
   },
   "python-hamcrest": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2341160"
-    ],
-    "summaries": [
-      "python-hamcrest: FTBFS in Fedora rawhide/f42"
-    ]
+    "urls": [],
+    "summaries": []
   },
   "python-hdf5storage": {
     "urls": [],
