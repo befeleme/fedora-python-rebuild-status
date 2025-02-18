@@ -231,14 +231,6 @@
       "libnvme fails to build with Python 3.14: /usr/include/python3.14/pyport.h:629:35: error: missing ')' after \"__has_attribute\""
     ]
   },
-  "libsolv": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2340762"
-    ],
-    "summaries": [
-      "libsolv: FTBFS in Fedora rawhide/f42: bool redefinitions with GCC 15 in bindings/solv.i (via Swig-generated solv_perl.c)"
-    ]
-  },
   "libsonata": {
     "urls": [],
     "summaries": []
@@ -278,10 +270,6 @@
     "summaries": [
       "neuron: FTBFS in Fedora rawhide/f42"
     ]
-  },
-  "nox": {
-    "urls": [],
-    "summaries": []
   },
   "nwchem": {
     "urls": [
@@ -462,14 +450,6 @@
   "python-astropy-iers-data": {
     "urls": [],
     "summaries": []
-  },
-  "python-astroscrappy": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2345724"
-    ],
-    "summaries": [
-      "python-astroscrappy fails to build with Python 3.14: astroscrappy/utils/medutils.h:19:17: error: two or more data types in declaration specifiers"
-    ]
   },
   "python-asyncssh": {
     "urls": [
@@ -681,14 +661,6 @@
     ],
     "summaries": [
       "python-dateparser: FTBFS in Fedora Rawhide: AssertionError in TestTranslateSearch.test_relative_base_setting_2_en"
-    ]
-  },
-  "python-dbus-next": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2345525"
-    ],
-    "summaries": [
-      "python-dbus-next fails to build with Python 3.14: test_sending_file_descriptor_low_level: At index 0 diff: 'The name :1.46 was not provided by any .service files' != 'got it'"
     ]
   },
   "python-defcon": {
@@ -1535,10 +1507,6 @@
       "python-txaio fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
     ]
   },
-  "python-typeguard": {
-    "urls": [],
-    "summaries": []
-  },
   "python-typing-extensions": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2336937"
@@ -1584,6 +1552,10 @@
     "summaries": [
       "python-valkey fails to build with Python 3.14: _pickle.PicklingError: Can't pickle local object <function TestMultiprocessing.test_close_connection_in_child.<locals>.target at 0x7f7d711b5dd0>"
     ]
+  },
+  "python-vascpy": {
+    "urls": [],
+    "summaries": []
   },
   "python-watchfiles": {
     "urls": [
