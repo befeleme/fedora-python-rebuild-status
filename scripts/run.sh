@@ -26,7 +26,7 @@ rm data/copr_names.pkgs
 # env LANG=en_US.utf-8 comm -12 data/progress.pkgs data/todo.pkgs > data/failed.pkgs
 # env LANG=en_US.utf-8 comm -13 data/progress.pkgs data/todo.pkgs > data/waiting.pkgs
 
-repoquery -q --repo python314 python3.14 > data/pyver
+repoquery -q --repo python314 python3.14 --latest-limit 1 > data/pyver
 
 # get packages and their respective maintainers
 curl https://src.fedoraproject.org/extras/pagure_owner_alias.json -o data/pagure_owner_alias.json
