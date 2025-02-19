@@ -67,10 +67,6 @@
     "urls": [],
     "summaries": []
   },
-  "collectd": {
-    "urls": [],
-    "summaries": []
-  },
   "condor": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2339993"
@@ -144,10 +140,6 @@
     "summaries": [
       "gnofract4d fails to build with Python 3.14: AssertionError: 'ct_sin6 = (0.841471,-0)' != 'ct_sin6 = (0.841471,0)'"
     ]
-  },
-  "gpgme": {
-    "urls": [],
-    "summaries": []
   },
   "h5py": {
     "urls": [
@@ -235,14 +227,6 @@
       "llvm fails to build with Python 3.14: tools/opt-viewer/suppress.test: AttributeError: type object 'Passed' has no attribute 'demangler_lock'"
     ]
   },
-  "mathgl": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2340819"
-    ],
-    "summaries": [
-      "mathgl: FTBFS in Fedora rawhide/f42"
-    ]
-  },
   "morphio": {
     "urls": [],
     "summaries": []
@@ -261,14 +245,6 @@
     ],
     "summaries": [
       "neuron: FTBFS in Fedora rawhide/f42"
-    ]
-  },
-  "nwchem": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2340948"
-    ],
-    "summaries": [
-      "nwchem: FTBFS in Fedora rawhide/f42"
     ]
   },
   "obs-studio": {
@@ -396,8 +372,12 @@
     ]
   },
   "python-aiokafka": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2346517"
+    ],
+    "summaries": [
+      "python-aiokafka fails to build with Python 3.14: DeprecationWarning: 'asyncio.get_event_loop_policy' is deprecated and slated for removal in Python 3.16"
+    ]
   },
   "python-aiosmtpd": {
     "urls": [
@@ -546,10 +526,6 @@
     "summaries": [
       "python-blinker fails to build with Python 3.14: pluggy.PluggyTeardownRaisedWarning: A plugin raised an exception during an old-style hookwrapper teardown."
     ]
-  },
-  "python-boto3": {
-    "urls": [],
-    "summaries": []
   },
   "python-breathe": {
     "urls": [
@@ -804,8 +780,12 @@
     ]
   },
   "python-hamcrest": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2346504"
+    ],
+    "summaries": [
+      "python-hamcrest fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
+    ]
   },
   "python-hdf5storage": {
     "urls": [],
@@ -1085,14 +1065,6 @@
       "python-pure-protobuf fails to build with Python 3.14: ImportError: cannot import name 'ByteString' from 'typing'"
     ]
   },
-  "python-pyahocorasick": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2341183"
-    ],
-    "summaries": [
-      "python-pyahocorasick: FTBFS in Fedora rawhide/f42"
-    ]
-  },
   "python-pycec": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2327973"
@@ -1317,10 +1289,6 @@
       "python-remoto: FTBFS in Fedora rawhide/f42"
     ]
   },
-  "python-respx": {
-    "urls": [],
-    "summaries": []
-  },
   "python-rich": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2339510"
@@ -1457,14 +1425,6 @@
     ],
     "summaries": [
       "python-terminado fails to build with Python 3.14: DeprecationWarning: 'asyncio.DefaultEventLoopPolicy' is deprecated and slated for removal in Python 3.16"
-    ]
-  },
-  "python-textual": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2341224"
-    ],
-    "summaries": [
-      "python-textual: FTBFS in Fedora rawhide/f42"
     ]
   },
   "python-toolz": {
@@ -1718,10 +1678,6 @@
     "summaries": [
       "sudo: FTBFS in Fedora rawhide/f42"
     ]
-  },
-  "syslog-ng": {
-    "urls": [],
-    "summaries": []
   },
   "tcl-snack": {
     "urls": [
