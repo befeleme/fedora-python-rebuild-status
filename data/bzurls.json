@@ -203,14 +203,6 @@
       "lammps: FTBFS in Fedora rawhide/f42"
     ]
   },
-  "lasso": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2340708"
-    ],
-    "summaries": [
-      "lasso: FTBFS in Fedora rawhide/f42"
-    ]
-  },
   "lazygal": {
     "urls": [],
     "summaries": []
@@ -343,6 +335,10 @@
       "protobuf: FTBFS in Fedora rawhide/f42, missing a dependency on mvn(com.google.truth:truth)"
     ]
   },
+  "prunerepo": {
+    "urls": [],
+    "summaries": []
+  },
   "pychess": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2328708"
@@ -466,6 +462,10 @@
     "summaries": [
       "python-atomicwrites: FTBFS in Fedora rawhide/f42"
     ]
+  },
+  "python-authlib": {
+    "urls": [],
+    "summaries": []
   },
   "python-autocommand": {
     "urls": [
@@ -1153,6 +1153,14 @@
       "python-pymilter: FTBFS in Fedora rawhide/f42"
     ]
   },
+  "python-pymongo": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2341188"
+    ],
+    "summaries": [
+      "python-pymongo: FTBFS in Fedora rawhide/f42"
+    ]
+  },
   "python-pymssql": {
     "urls": [],
     "summaries": []
@@ -1403,10 +1411,6 @@
       "python-stack-data fails to build with Python 3.14: test_example: IndexError: list index out of range"
     ]
   },
-  "python-starlette": {
-    "urls": [],
-    "summaries": []
-  },
   "python-stdlibs": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2336938"
@@ -1557,14 +1561,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-watchfiles": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2339462"
-    ],
-    "summaries": [
-      "python-watchfiles fails to build with Python 3.14: DeprecationWarning: 'asyncio.set_event_loop' is deprecated and slated for removal in Python 3.16"
-    ]
-  },
   "python-webscrapbook": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2341237",
@@ -1637,14 +1633,6 @@
     ],
     "summaries": [
       "python-zope-testrunner fails to build with Python 3.14: difference in the asserted content in testrunner-edge-cases.rst"
-    ]
-  },
-  "python-zstandard": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2326925"
-    ],
-    "summaries": [
-      "python-zstandard fails to build with Python 3.14: ImportError: cannot import name 'ByteString' from 'typing'"
     ]
   },
   "pythran": {

@@ -113,6 +113,7 @@ catfish	succeeded
 ccsm	succeeded
 cdist	succeeded
 cekit	succeeded
+centpkg	succeeded
 cepces	succeeded
 ceph	failed
 cffconvert	succeeded
@@ -141,6 +142,7 @@ condor	failed
 congruity	succeeded
 conu	succeeded
 copr-cli	succeeded
+copr-dist-git	succeeded
 copr-keygen	succeeded
 cozy	succeeded
 cranc	succeeded
@@ -214,11 +216,13 @@ fedfind	succeeded
 fedora-distro-aliases	succeeded
 fedora-review	succeeded
 fedora-third-party	succeeded
+fedpkg	succeeded
 file	succeeded
 firewalld	succeeded
 firmitas	succeeded
 flann	succeeded
 flatbuffers	succeeded
+flatpak-module-tools	succeeded
 flent	succeeded
 flowblade	succeeded
 fmf	succeeded
@@ -308,6 +312,7 @@ gyp	succeeded
 h5py	failed
 hamlib	succeeded
 hashid	succeeded
+hatch	succeeded
 hddfancontrol	succeeded
 hexchat	succeeded
 hivex	succeeded
@@ -370,7 +375,7 @@ krop	succeeded
 kvirc	succeeded
 lammps	failed
 langtable	succeeded
-lasso	failed
+lasso	succeeded
 lazygal	failed
 ldapdomaindump	succeeded
 ldeep	succeeded
@@ -649,7 +654,7 @@ protobuf	failed
 protontricks	succeeded
 protonvpn-cli	succeeded
 proxmark3	succeeded
-prunerepo	succeeded
+prunerepo	failed
 pss	succeeded
 pssh	succeeded
 ptpython	succeeded
@@ -917,7 +922,7 @@ python-attrs	succeeded
 python-audioread	succeeded
 python-augeas	succeeded
 python-authheaders	succeeded
-python-authlib	succeeded
+python-authlib	failed
 python-authres	succeeded
 python-autocommand	failed
 python-autograd	succeeded
@@ -1117,6 +1122,7 @@ python-calcephpy	succeeded
 python-can	succeeded
 python-canonicaljson	succeeded
 python-capturer	failed
+python-cascadio	succeeded
 python-casttube	succeeded
 python-catkin-sphinx	succeeded
 python-catkin_lint	succeeded
@@ -1245,6 +1251,8 @@ python-compreffor	succeeded
 python-conda-content-trust	succeeded
 python-conda-inject	succeeded
 python-conda-libmamba-solver	succeeded
+python-conda-package-handling	succeeded
+python-conda-package-streaming	succeeded
 python-configargparse	succeeded
 python-configobj	succeeded
 python-configshell	succeeded
@@ -1417,6 +1425,7 @@ python-django-tastypie	succeeded
 python-django-threadedcomments	succeeded
 python-django-timezone-field	succeeded
 python-django-uuslug	succeeded
+python-django5	succeeded
 python-djangoql	succeeded
 python-dkimpy	succeeded
 python-dmidecode	succeeded
@@ -1548,6 +1557,7 @@ python-flask	failed
 python-flask-admin	succeeded
 python-flask-babel	succeeded
 python-flask-caching	failed
+python-flask-compress	succeeded
 python-flask-cors	succeeded
 python-flask-gravatar	succeeded
 python-flask-healthz	succeeded
@@ -1882,6 +1892,7 @@ python-jwcrypto	succeeded
 python-jwt	succeeded
 python-k5test	succeeded
 python-kadmin	succeeded
+python-kafka	succeeded
 python-kajiki	succeeded
 python-kanboard	succeeded
 python-kaptan	succeeded
@@ -2508,6 +2519,7 @@ python-pymeeus	failed
 python-pymemcache	succeeded
 python-pymilter	failed
 python-pymod2pkg	succeeded
+python-pymongo	failed
 python-pymssql	failed
 python-pynacl	succeeded
 python-pynamodb	succeeded
@@ -3004,7 +3016,7 @@ python-ssh-python	succeeded
 python-sshtunnel	succeeded
 python-stack-data	failed
 python-stackprinter	succeeded
-python-starlette	failed
+python-starlette	succeeded
 python-statsmodels	succeeded
 python-stdiomask	succeeded
 python-stdlib-list	succeeded
@@ -3250,7 +3262,7 @@ python-walkdir	succeeded
 python-waqiasync	succeeded
 python-warlock	succeeded
 python-watchdog	succeeded
-python-watchfiles	failed
+python-watchfiles	succeeded
 python-waterfurnace	succeeded
 python-wavio	succeeded
 python-wcag-contrast-ratio	succeeded
@@ -3357,7 +3369,7 @@ python-zope-sqlalchemy	succeeded
 python-zope-testing	failed
 python-zope-testrunner	failed
 python-zopfli	succeeded
-python-zstandard	failed
+python-zstandard	succeeded
 python-zstarfile	succeeded
 python-zstd	succeeded
 python-zuul-sphinx	succeeded
@@ -3427,12 +3439,14 @@ rmol	succeeded
 roca-detect	succeeded
 rofimoji	succeeded
 root	succeeded
+rpkg	succeeded
 rpkg-util	succeeded
 rpl	succeeded
 rpm	succeeded
 rpm-head-signing	succeeded
 rpmconf	succeeded
 rpmdeplint	succeeded
+rpmlint	succeeded
 rpmspectool	succeeded
 rpy	succeeded
 rrdtool	failed
@@ -3591,7 +3605,7 @@ vit	succeeded
 volk	succeeded
 volume_key	succeeded
 vorta	failed
-vtk	running
+vtk	succeeded
 vyper	succeeded
 wad	succeeded
 waf	succeeded
