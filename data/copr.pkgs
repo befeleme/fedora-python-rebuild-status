@@ -614,6 +614,7 @@ pass-audit	succeeded
 past-time	succeeded
 patool	succeeded
 pcapy	succeeded
+pcp	succeeded
 pcp2pdf	succeeded
 pcs	running
 pdf-stapler	succeeded
@@ -1091,7 +1092,7 @@ python-boltons	succeeded
 python-boolean.py	succeeded
 python-booleanoperations	succeeded
 python-boto	succeeded
-python-boto3	succeeded
+python-boto3	failed
 python-botocore	succeeded
 python-bottle	succeeded
 python-bottle-sqlite	succeeded
@@ -1567,6 +1568,7 @@ python-flask-httpauth	succeeded
 python-flask-login	succeeded
 python-flask-mail	succeeded
 python-flask-mako	succeeded
+python-flask-mongoengine	succeeded
 python-flask-multistatic	succeeded
 python-flask-oidc	succeeded
 python-flask-openid	succeeded
@@ -1882,11 +1884,12 @@ python-jupyter-c-kernel	succeeded
 python-jupyter-client	succeeded
 python-jupyter-console	succeeded
 python-jupyter-core	succeeded
-python-jupyter-events	failed
+python-jupyter-events	succeeded
 python-jupyter-kernel-singular	succeeded
 python-jupyter-kernel-test	succeeded
 python-jupyter-packaging	succeeded
 python-jupyter-polymake	succeeded
+python-jupyter-server-terminals	succeeded
 python-jupyterlab_pygments	succeeded
 python-justbases	succeeded
 python-justbytes	succeeded
@@ -2076,6 +2079,7 @@ python-moddb	succeeded
 python-modernize	succeeded
 python-modestmaps	succeeded
 python-molmass	succeeded
+python-mongoengine	succeeded
 python-mongomock	succeeded
 python-mongoquery	succeeded
 python-monotonic	succeeded
@@ -2520,7 +2524,7 @@ python-pymeeus	failed
 python-pymemcache	succeeded
 python-pymilter	failed
 python-pymod2pkg	succeeded
-python-pymongo	failed
+python-pymongo	succeeded
 python-pymssql	failed
 python-pynacl	succeeded
 python-pynamodb	succeeded
@@ -2576,6 +2580,7 @@ python-pyrpmmd	succeeded
 python-pyrsistent	succeeded
 python-pyrtlsdr	succeeded
 python-pysam	succeeded
+python-pysaml2	failed
 python-pysb	succeeded
 python-pyscaffold	succeeded
 python-pyscf	succeeded
@@ -3079,7 +3084,7 @@ python-tenacity	failed
 python-tensile	succeeded
 python-term-background	succeeded
 python-termcolor	succeeded
-python-terminado	failed
+python-terminado	succeeded
 python-terminaltables	succeeded
 python-teslajsonpy	succeeded
 python-testfixtures	succeeded
@@ -3439,7 +3444,7 @@ rmlint	succeeded
 rmol	succeeded
 roca-detect	succeeded
 rofimoji	succeeded
-root	running
+root	succeeded
 rpkg	succeeded
 rpkg-util	succeeded
 rpl	succeeded
@@ -3561,7 +3566,7 @@ trac-tracnav-plugin	succeeded
 trademgen	succeeded
 transifex-client	succeeded
 tre	succeeded
-tree-sitter-java	succeeded
+tree-sitter-java	failed
 trelby	succeeded
 trellis	succeeded
 tuna	succeeded
