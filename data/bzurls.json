@@ -1,4 +1,12 @@
 {
+  "Macaulay2": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2339852"
+    ],
+    "summaries": [
+      "Macaulay2: FTBFS in Fedora rawhide/f42"
+    ]
+  },
   "PyMca": {
     "urls": [],
     "summaries": []
@@ -178,6 +186,14 @@
   "jsonnet": {
     "urls": [],
     "summaries": []
+  },
+  "kernel": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2340285"
+    ],
+    "summaries": [
+      "kernel: FTBFS in Fedora rawhide/f42"
+    ]
   },
   "kicad": {
     "urls": [],
@@ -414,6 +430,10 @@
     "summaries": [
       "python-asgiref fails to build with Python 3.14: DeprecationWarning: 'asyncio.set_event_loop' is deprecated and slated for removal in Python 3.16"
     ]
+  },
+  "python-astdoc": {
+    "urls": [],
+    "summaries": []
   },
   "python-astroid": {
     "urls": [
@@ -1094,6 +1114,10 @@
     ]
   },
   "python-pyface": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pyforgejo": {
     "urls": [],
     "summaries": []
   },
