@@ -211,14 +211,6 @@
       "koji: FTBFS in Fedora rawhide/f42"
     ]
   },
-  "lammps": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2340706"
-    ],
-    "summaries": [
-      "lammps: FTBFS in Fedora rawhide/f42"
-    ]
-  },
   "lazygal": {
     "urls": [],
     "summaries": []
@@ -278,6 +270,10 @@
     "summaries": [
       "obs-studio: FTBFS in Fedora rawhide/f42"
     ]
+  },
+  "oci-cli": {
+    "urls": [],
+    "summaries": []
   },
   "onnx": {
     "urls": [],
@@ -898,14 +894,6 @@
   "python-janus": {
     "urls": [],
     "summaries": []
-  },
-  "python-jeepney": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2327982"
-    ],
-    "summaries": [
-      "python-jeepney fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
-    ]
   },
   "python-jiter": {
     "urls": [],
