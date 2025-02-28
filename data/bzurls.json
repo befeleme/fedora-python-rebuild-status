@@ -531,6 +531,10 @@
       "python-blinker fails to build with Python 3.14: pluggy.PluggyTeardownRaisedWarning: A plugin raised an exception during an old-style hookwrapper teardown."
     ]
   },
+  "python-blosc2": {
+    "urls": [],
+    "summaries": []
+  },
   "python-boto3": {
     "urls": [],
     "summaries": []
@@ -666,6 +670,14 @@
   "python-dipy": {
     "urls": [],
     "summaries": []
+  },
+  "python-django": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2341142"
+    ],
+    "summaries": [
+      "python-django: FTBFS in Fedora rawhide/f42"
+    ]
   },
   "python-django-filter": {
     "urls": [
@@ -1690,6 +1702,10 @@
     ]
   },
   "vorta": {
+    "urls": [],
+    "summaries": []
+  },
+  "vyper": {
     "urls": [],
     "summaries": []
   },
