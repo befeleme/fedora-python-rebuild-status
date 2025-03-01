@@ -263,11 +263,11 @@
       "obs-studio: FTBFS in Fedora rawhide/f42"
     ]
   },
-  "oci-cli": {
+  "onnx": {
     "urls": [],
     "summaries": []
   },
-  "onnx": {
+  "openwsman": {
     "urls": [],
     "summaries": []
   },
@@ -538,14 +538,6 @@
   "python-boto3": {
     "urls": [],
     "summaries": []
-  },
-  "python-breathe": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2341133"
-    ],
-    "summaries": [
-      "python-breathe: FTBFS in Fedora rawhide/f42"
-    ]
   },
   "python-capturer": {
     "urls": [
@@ -973,14 +965,6 @@
       "python-neurotune: FTBFS in Fedora rawhide/f42"
     ]
   },
-  "python-nine": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2343977"
-    ],
-    "summaries": [
-      "python-nine fails to build with Python 3.14: AttributeError: module 'urllib.request' has no attribute 'URLopener'"
-    ]
-  },
   "python-nixio": {
     "urls": [],
     "summaries": []
@@ -1208,6 +1192,10 @@
     "summaries": [
       "python-pytest-aiohttp fails to build with Python 3.14: DeprecationWarning: 'asyncio.get_event_loop_policy' is deprecated and slated for removal in Python 3.16"
     ]
+  },
+  "python-pytest-httpx": {
+    "urls": [],
+    "summaries": []
   },
   "python-pytest-lsp": {
     "urls": [],
@@ -1684,10 +1672,6 @@
     "summaries": [
       "uhd: FTBFS in Fedora rawhide/f42"
     ]
-  },
-  "vdr-epg-daemon": {
-    "urls": [],
-    "summaries": []
   },
   "veusz": {
     "urls": [],
