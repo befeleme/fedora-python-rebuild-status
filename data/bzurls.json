@@ -1,4 +1,8 @@
 {
+  "FP16": {
+    "urls": [],
+    "summaries": []
+  },
   "Macaulay2": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2339852"
@@ -481,14 +485,6 @@
       "python-awscrt fails to build with Python 3.14: ImportError: cannot import name 'ByteString' from 'collections.abc'"
     ]
   },
-  "python-backrefs": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2325184"
-    ],
-    "summaries": [
-      "python-backrefs fails to build with Python 3.14: Failed to acquire all needed Unicode files!"
-    ]
-  },
   "python-beartype": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2341131",
@@ -633,14 +629,6 @@
     ],
     "summaries": [
       "python-dataclassy fails to build with Python 3.14: TypeError: Beta() takes no arguments"
-    ]
-  },
-  "python-dateparser": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2336931"
-    ],
-    "summaries": [
-      "python-dateparser: FTBFS in Fedora Rawhide: AssertionError in TestTranslateSearch.test_relative_base_setting_2_en"
     ]
   },
   "python-dbutils": {
@@ -1608,6 +1596,10 @@
     "summaries": [
       "satyr fails to build with Python 3.14: _pickle.PicklingError: Can't pickle local object <function TestDistances.test_distances_part_parallel.<locals>.do_test.<locals>.compute_part at 0x7f7f845f2560>"
     ]
+  },
+  "sentencepiece": {
+    "urls": [],
+    "summaries": []
   },
   "showtime": {
     "urls": [],
