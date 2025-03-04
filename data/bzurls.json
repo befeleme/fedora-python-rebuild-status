@@ -133,13 +133,9 @@
       "dlib fails to build with Python 3.14: AttributeError: module 'pkgutil' has no attribute 'find_loader'"
     ]
   },
-  "dnsconfd": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2340084"
-    ],
-    "summaries": [
-      "dnsconfd: FTBFS in Fedora rawhide/f42"
-    ]
+  "dnf5": {
+    "urls": [],
+    "summaries": []
   },
   "espresso": {
     "urls": [
@@ -148,6 +144,10 @@
     "summaries": [
       "espresso: FTBFS in Fedora rawhide/f42"
     ]
+  },
+  "git-cola": {
+    "urls": [],
+    "summaries": []
   },
   "gnofract4d": {
     "urls": [
@@ -182,6 +182,10 @@
     "summaries": [
       "ikiwiki: FTBFS in Fedora rawhide/f42"
     ]
+  },
+  "imath": {
+    "urls": [],
+    "summaries": []
   },
   "insight": {
     "urls": [],
@@ -219,15 +223,11 @@
       "libarcus: FTBFS in Fedora rawhide/f42"
     ]
   },
-  "libnvme": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2325194"
-    ],
-    "summaries": [
-      "libnvme fails to build with Python 3.14: /usr/include/python3.14/pyport.h:629:35: error: missing ')' after \"__has_attribute\""
-    ]
-  },
   "libsonata": {
+    "urls": [],
+    "summaries": []
+  },
+  "libvirt-python": {
     "urls": [],
     "summaries": []
   },
@@ -404,8 +404,12 @@
     ]
   },
   "python-anyio": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2349445"
+    ],
+    "summaries": [
+      "python-anyio fails to build with Python 3.14: test_properties: AssertionError: assert not {'__open_rb__', '__open_wb__', 'info'}"
+    ]
   },
   "python-apsw": {
     "urls": [],
@@ -420,8 +424,12 @@
     ]
   },
   "python-astdoc": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2349452"
+    ],
+    "summaries": [
+      "python-astdoc fails to build with Python 3.14: 3 doctests fail, e.g.: Expected: <ast.Name object at 0x...> Got: Name(id='int', ctx=Load())"
+    ]
   },
   "python-astroid": {
     "urls": [
@@ -440,8 +448,12 @@
     ]
   },
   "python-astropy-iers-data": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2349443"
+    ],
+    "summaries": [
+      "python-astropy-iers-data fails to build with Python 3.14: 4 tests fail with KeyError: 'ra_in' and 'lon_in'"
+    ]
   },
   "python-asyncssh": {
     "urls": [
@@ -639,10 +651,6 @@
       "python-dataclassy fails to build with Python 3.14: TypeError: Beta() takes no arguments"
     ]
   },
-  "python-dbutils": {
-    "urls": [],
-    "summaries": []
-  },
   "python-defcon": {
     "urls": [],
     "summaries": []
@@ -695,10 +703,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-epub": {
-    "urls": [],
-    "summaries": []
-  },
   "python-etcd": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2323184"
@@ -712,8 +716,12 @@
     "summaries": []
   },
   "python-executing": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2349436"
+    ],
+    "summaries": [
+      "python-executing fails to build with Python 3.14: 52 test fail during the build"
+    ]
   },
   "python-flask": {
     "urls": [
@@ -986,8 +994,12 @@
     "summaries": []
   },
   "python-orjson": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2349447"
+    ],
+    "summaries": [
+      "python-orjson fails to build with Python 3.14: multiple AssertionError, mostly related to dict objects"
+    ]
   },
   "python-packvers": {
     "urls": [
@@ -1040,6 +1052,10 @@
     "summaries": [
       "python-priority: FTBFS in Fedora rawhide/f42"
     ]
+  },
+  "python-progressbar2": {
+    "urls": [],
+    "summaries": []
   },
   "python-pure-protobuf": {
     "urls": [
@@ -1198,8 +1214,12 @@
     "summaries": []
   },
   "python-pytest-lsp": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2349451"
+    ],
+    "summaries": [
+      "python-pytest-lsp fails to build with Python 3.14: warnings counts differ, resulting in AssertionError in 3 tests"
+    ]
   },
   "python-pyupgrade": {
     "urls": [
@@ -1333,10 +1353,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-serpy": {
-    "urls": [],
-    "summaries": []
-  },
   "python-setproctitle": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2341212"
@@ -1372,8 +1388,12 @@
     ]
   },
   "python-starlette": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2349450"
+    ],
+    "summaries": [
+      "python-starlette fails to build with Python 3.14: AssertionError: {'body': '{\"a\": \"123\"}'} != {'body': '{\"a\":\"123\"}'}"
+    ]
   },
   "python-stdlibs": {
     "urls": [
@@ -1435,10 +1455,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-tree-format": {
-    "urls": [],
-    "summaries": []
-  },
   "python-twisted": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2342754"
@@ -1495,9 +1511,11 @@
   },
   "python-valkey": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2349444",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2326934"
     ],
     "summaries": [
+      "python-valkey fails to build with Python 3.14: _pickle.PicklingError: Can't pickle local object <function TestMultiprocessing.test_close_connection_in_child.<locals>.target at 0x7f5aa68cddd0>",
       "python-valkey fails to build with Python 3.14: _pickle.PicklingError: Can't pickle local object <function TestMultiprocessing.test_close_connection_in_child.<locals>.target at 0x7f7d711b5dd0>"
     ]
   },
@@ -1514,10 +1532,6 @@
     ]
   },
   "python-xnat": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-xunitparser": {
     "urls": [],
     "summaries": []
   },
