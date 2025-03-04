@@ -35,4 +35,4 @@ curl https://src.fedoraproject.org/extras/pagure_owner_alias.json -o data/pagure
 python3 scripts/bugzillas.py
 
 # download the most downloaded packages from PyPI
-wget https://hugovk.github.io/top-pypi-packages/top-pypi-packages-30-days.min.json -O data/top-pypi-packages.json
+wget https://hugovk.github.io/top-pypi-packages/top-pypi-packages.min.json -O data/top-pypi-packages.json
