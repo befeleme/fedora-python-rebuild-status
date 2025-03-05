@@ -3,15 +3,17 @@
 ATpy	succeeded
 COPASI	succeeded
 Cython	succeeded
-FP16	failed
+FP16	succeeded
 GeographicLib	succeeded
 GitPython	succeeded
 HepMC3	succeeded
 Io-language	succeeded
 MUSIC	succeeded
-Macaulay2	failed
+Macaulay2	succeeded
 NFStest	succeeded
 NLopt	succeeded
+OpenColorIO	succeeded
+OpenImageIO	succeeded
 OpenLP	succeeded
 PackageKit	succeeded
 PyGreSQL	succeeded
@@ -26,6 +28,7 @@ RBTools	succeeded
 ServiceReport	succeeded
 SoapySDR	succeeded
 WALinuxAgent	succeeded
+YafaRay	failed
 Zim	succeeded
 aactivator	succeeded
 abiword	succeeded
@@ -212,6 +215,7 @@ espresso	failed
 esptool	succeeded
 etckeeper	succeeded
 evemu	succeeded
+f3d	failed
 fail2ban	succeeded
 fapolicy-analyzer	succeeded
 fedfind	succeeded
@@ -247,6 +251,7 @@ gammastep	succeeded
 ganglia	succeeded
 gaupol	succeeded
 gcovr	succeeded
+gdal	succeeded
 gdb	succeeded
 gdcm	succeeded
 gdl	succeeded
@@ -324,6 +329,7 @@ home-assistant-cli	succeeded
 hplip	succeeded
 hstsparser	succeeded
 httpie	failed
+hugin	succeeded
 hydrapaper	succeeded
 hyfetch	succeeded
 i2c-tools	succeeded
@@ -332,7 +338,7 @@ ibus-cangjie	succeeded
 ikiwiki	failed
 imagefactory	succeeded
 imagefactory-plugins	succeeded
-imath	failed
+imath	succeeded
 impressive	succeeded
 ini2toml	succeeded
 initial-setup	succeeded
@@ -375,6 +381,7 @@ koji-containerbuild	succeeded
 koji-flatpak	succeeded
 koji-osbuild	succeeded
 kopeninghours	succeeded
+krita	succeeded
 krop	succeeded
 kvirc	succeeded
 lammps	succeeded
@@ -461,7 +468,7 @@ libtevent	succeeded
 libucl	succeeded
 libunity	succeeded
 libuser	succeeded
-libvirt-python	failed
+libvirt-python	succeeded
 libvirt-test-API	succeeded
 libvoikko	succeeded
 libxc	succeeded
@@ -591,13 +598,15 @@ openmeeg	succeeded
 openmpi	succeeded
 openscap	succeeded
 openscap-report	succeeded
+openshadinglanguage	succeeded
 openshot	succeeded
 openssh-ldap-authkeys	succeeded
 opensuse-distro-aliases	succeeded
 opentrep	succeeded
+openvdb	succeeded
 openvino	succeeded
 openvswitch	succeeded
-openwsman	failed
+openwsman	succeeded
 orca	succeeded
 osbs-client	succeeded
 osbuild	succeeded
@@ -735,7 +744,7 @@ python-CacheControl	succeeded
 python-CommonMark	succeeded
 python-GeoIP	succeeded
 python-IPy	succeeded
-python-Levenshtein	failed
+python-Levenshtein	succeeded
 python-Mastodon	succeeded
 python-ModulemdTranslationHelpers	succeeded
 python-MultipartPostHandler2	succeeded
@@ -882,7 +891,7 @@ python-apipkg	succeeded
 python-appdirs	succeeded
 python-applicationinsights	succeeded
 python-apprise	succeeded
-python-apsw	failed
+python-apsw	succeeded
 python-apt	succeeded
 python-apypie	succeeded
 python-archinfo	succeeded
@@ -1677,7 +1686,7 @@ python-gpxpy	succeeded
 python-gql	succeeded
 python-grabserial	succeeded
 python-gradunwarp	succeeded
-python-graph-tool	succeeded
+python-graph-tool	failed
 python-graphene	succeeded
 python-graphql-core	succeeded
 python-graphql-relay	succeeded
@@ -2173,7 +2182,7 @@ python-nodeenv	succeeded
 python-noiseprotocol	succeeded
 python-normality	succeeded
 python-nose	failed
-python-nose-testconfig	succeeded
+python-nose-testconfig	failed
 python-nose2	succeeded
 python-notify2	failed
 python-nptyping	succeeded
@@ -2311,7 +2320,7 @@ python-pendulum	succeeded
 python-periodictable	succeeded
 python-perky	succeeded
 python-persist-queue	succeeded
-python-pexpect	failed
+python-pexpect	succeeded
 python-pgspecial	succeeded
 python-phonenumbers	succeeded
 python-photutils	succeeded
@@ -2644,7 +2653,7 @@ python-pytest-golden	succeeded
 python-pytest-home	succeeded
 python-pytest-httpbin	succeeded
 python-pytest-httpserver	succeeded
-python-pytest-httpx	failed
+python-pytest-httpx	succeeded
 python-pytest-isort	succeeded
 python-pytest-jupyter	succeeded
 python-pytest-lazy-fixture	succeeded
@@ -2855,7 +2864,7 @@ python-scantree	succeeded
 python-schedutils	succeeded
 python-schema	succeeded
 python-scikit-build	succeeded
-python-scikit-build-core	failed
+python-scikit-build-core	succeeded
 python-scikit-misc	succeeded
 python-scitokens	succeeded
 python-scooby	succeeded
@@ -2930,7 +2939,7 @@ python-snappy	succeeded
 python-snaptime	succeeded
 python-sniffio	succeeded
 python-snuggs	succeeded
-python-social-auth-core	failed
+python-social-auth-core	succeeded
 python-socks	succeeded
 python-socks5line	succeeded
 python-socksio	succeeded
@@ -3020,11 +3029,11 @@ python-ssdeep	succeeded
 python-ssdp	succeeded
 python-sseclient	succeeded
 python-sseclient-py	succeeded
-python-ssh-python	succeeded
+python-ssh-python	failed
 python-sshtunnel	succeeded
 python-stack-data	failed
 python-stackprinter	succeeded
-python-starlette	failed
+python-starlette	succeeded
 python-statsmodels	succeeded
 python-stdiomask	succeeded
 python-stdlib-list	succeeded
@@ -3227,7 +3236,7 @@ python-utmp	succeeded
 python-uvloop	failed
 python-validator-collection	succeeded
 python-validators	succeeded
-python-valkey	failed
+python-valkey	succeeded
 python-varint	succeeded
 python-varlink	succeeded
 python-vascpy	failed
@@ -3405,7 +3414,7 @@ pywebdav	succeeded
 pyxattr	succeeded
 pyxdg	succeeded
 pyzor	succeeded
-qgis	failed
+qgis	succeeded
 qhexedit2	succeeded
 qpid-proton	succeeded
 qr-code-generator	succeeded
@@ -3482,7 +3491,7 @@ scribus	succeeded
 seadrive-daemon	succeeded
 seafile	succeeded
 secrets	succeeded
-sentencepiece	failed
+sentencepiece	succeeded
 sepolicy_analysis	succeeded
 setconf	succeeded
 setools	succeeded
@@ -3514,7 +3523,7 @@ sourcextractor++	succeeded
 spectrographic	succeeded
 speech-dispatcher	succeeded
 speedtest-cli	succeeded
-spglib	failed
+spglib	succeeded
 ssh-audit	succeeded
 sshuttle	succeeded
 sssd	succeeded
@@ -3600,6 +3609,7 @@ vdr-epg-daemon	succeeded
 vdr-epg2vdr	succeeded
 veusz	failed
 vex	succeeded
+vigra	succeeded
 vim-jedi	succeeded
 vimiv	succeeded
 vimiv-qt	succeeded
@@ -3612,7 +3622,7 @@ vit	succeeded
 volk	succeeded
 volume_key	succeeded
 vorta	failed
-vtk	failed
+vtk	running
 vyper	failed
 wad	succeeded
 waf	succeeded

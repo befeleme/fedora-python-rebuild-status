@@ -1,17 +1,9 @@
 {
-  "FP16": {
+  "PyMca": {
     "urls": [],
     "summaries": []
   },
-  "Macaulay2": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2339852"
-    ],
-    "summaries": [
-      "Macaulay2: FTBFS in Fedora rawhide/f42"
-    ]
-  },
-  "PyMca": {
+  "YafaRay": {
     "urls": [],
     "summaries": []
   },
@@ -145,6 +137,10 @@
       "espresso: FTBFS in Fedora rawhide/f42"
     ]
   },
+  "f3d": {
+    "urls": [],
+    "summaries": []
+  },
   "git-cola": {
     "urls": [],
     "summaries": []
@@ -183,10 +179,6 @@
       "ikiwiki: FTBFS in Fedora rawhide/f42"
     ]
   },
-  "imath": {
-    "urls": [],
-    "summaries": []
-  },
   "insight": {
     "urls": [],
     "summaries": []
@@ -224,10 +216,6 @@
     ]
   },
   "libsonata": {
-    "urls": [],
-    "summaries": []
-  },
-  "libvirt-python": {
     "urls": [],
     "summaries": []
   },
@@ -272,10 +260,6 @@
     ]
   },
   "onnx": {
-    "urls": [],
-    "summaries": []
-  },
-  "openwsman": {
     "urls": [],
     "summaries": []
   },
@@ -363,10 +347,6 @@
       "pysubnettree: FTBFS in Fedora rawhide/f42"
     ]
   },
-  "python-Levenshtein": {
-    "urls": [],
-    "summaries": []
-  },
   "python-TestSlide": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2343971"
@@ -410,10 +390,6 @@
     "summaries": [
       "python-anyio fails to build with Python 3.14: test_properties: AssertionError: assert not {'__open_rb__', '__open_wb__', 'info'}"
     ]
-  },
-  "python-apsw": {
-    "urls": [],
-    "summaries": []
   },
   "python-asgiref": {
     "urls": [
@@ -787,6 +763,10 @@
       "python-gphoto2: FTBFS in Fedora rawhide/f42"
     ]
   },
+  "python-graph-tool": {
+    "urls": [],
+    "summaries": []
+  },
   "python-h5netcdf": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2325222"
@@ -981,6 +961,10 @@
       "python-nose fails to build with Python 3.14: multiple AssertionErrors related to timeouts in test outputs"
     ]
   },
+  "python-nose-testconfig": {
+    "urls": [],
+    "summaries": []
+  },
   "python-notify2": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2341175"
@@ -1020,14 +1004,6 @@
   "python-pbr": {
     "urls": [],
     "summaries": []
-  },
-  "python-pexpect": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2341180"
-    ],
-    "summaries": [
-      "python-pexpect: FTBFS in Fedora rawhide/f42"
-    ]
   },
   "python-pip": {
     "urls": [
@@ -1209,10 +1185,6 @@
       "python-pytest-aiohttp fails to build with Python 3.14: DeprecationWarning: 'asyncio.get_event_loop_policy' is deprecated and slated for removal in Python 3.16"
     ]
   },
-  "python-pytest-httpx": {
-    "urls": [],
-    "summaries": []
-  },
   "python-pytest-lsp": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2349451"
@@ -1349,26 +1321,12 @@
       "python-s3transfer fails to build with Python 3.14: _pickle.PicklingError: Can't pickle local object <class 'tests.unit.test_compat.TestBaseManager.create_pid_manager.<locals>.PIDManager'>"
     ]
   },
-  "python-scikit-build-core": {
-    "urls": [],
-    "summaries": []
-  },
   "python-setproctitle": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2341212"
     ],
     "summaries": [
       "python-setproctitle: FTBFS in Fedora rawhide/f42"
-    ]
-  },
-  "python-social-auth-core": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2341215",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2328010"
-    ],
-    "summaries": [
-      "python-social-auth-core: FTBFS in Fedora rawhide/f42",
-      "python-social-auth-core fails to build with Python 3.14: 'SSLContext' object has no attribute 'close'"
     ]
   },
   "python-sqlalchemy1.4": {
@@ -1379,20 +1337,16 @@
       "python-sqlalchemy1.4 fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
     ]
   },
+  "python-ssh-python": {
+    "urls": [],
+    "summaries": []
+  },
   "python-stack-data": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2345532"
     ],
     "summaries": [
       "python-stack-data fails to build with Python 3.14: test_example: IndexError: list index out of range"
-    ]
-  },
-  "python-starlette": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2349450"
-    ],
-    "summaries": [
-      "python-starlette fails to build with Python 3.14: AssertionError: {'body': '{\"a\": \"123\"}'} != {'body': '{\"a\":\"123\"}'}"
     ]
   },
   "python-stdlibs": {
@@ -1509,16 +1463,6 @@
       "python-uvloop fails to build with Python 3.14: AttributeError: module 'asyncio' has no attribute 'AbstractChildWatcher'"
     ]
   },
-  "python-valkey": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2349444",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2326934"
-    ],
-    "summaries": [
-      "python-valkey fails to build with Python 3.14: _pickle.PicklingError: Can't pickle local object <function TestMultiprocessing.test_close_connection_in_child.<locals>.target at 0x7f5aa68cddd0>",
-      "python-valkey fails to build with Python 3.14: _pickle.PicklingError: Can't pickle local object <function TestMultiprocessing.test_close_connection_in_child.<locals>.target at 0x7f7d711b5dd0>"
-    ]
-  },
   "python-vascpy": {
     "urls": [],
     "summaries": []
@@ -1587,10 +1531,6 @@
       "pythran: FTBFS in Fedora rawhide/f42"
     ]
   },
-  "qgis": {
-    "urls": [],
-    "summaries": []
-  },
   "qscintilla": {
     "urls": [],
     "summaries": []
@@ -1627,10 +1567,6 @@
       "satyr fails to build with Python 3.14: _pickle.PicklingError: Can't pickle local object <function TestDistances.test_distances_part_parallel.<locals>.do_test.<locals>.compute_part at 0x7f7f845f2560>"
     ]
   },
-  "sentencepiece": {
-    "urls": [],
-    "summaries": []
-  },
   "showtime": {
     "urls": [],
     "summaries": []
@@ -1642,10 +1578,6 @@
     "summaries": [
       "signon-glib: FTBFS in Fedora rawhide/f42"
     ]
-  },
-  "spglib": {
-    "urls": [],
-    "summaries": []
   },
   "strongswan": {
     "urls": [
@@ -1712,10 +1644,6 @@
     ]
   },
   "vorta": {
-    "urls": [],
-    "summaries": []
-  },
-  "vtk": {
     "urls": [],
     "summaries": []
   },
