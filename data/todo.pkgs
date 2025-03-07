@@ -6,7 +6,6 @@ TurboGears2
 YafaRay
 alot
 ansible
-ansible-builder
 ansible-core
 ansible-inventory-grapher
 ansible-lint
@@ -16,7 +15,6 @@ asv
 awscli2
 azure-cli
 bandit
-bindep
 binwalk
 blender
 bmap-tools
@@ -24,6 +22,7 @@ bodhi-messages
 bodhi-server
 borgbackup
 bout++
+bpython
 buildbot
 buildstream
 calibre
@@ -49,7 +48,6 @@ dolfin
 duplicity
 emacs-jedi
 eric
-f3d
 fastapi-cli
 fawltydeps
 fedora-messaging
@@ -68,9 +66,7 @@ gr-rds
 grpc
 hgsvn
 httpie
-ilua
 input-remapper
-jupyterlab
 kicad
 kmymoney
 libarcus
@@ -83,7 +79,6 @@ mailman3
 mailman3-fedmsg-plugin
 mailman3-fedmsg-plugin-schemas
 matrix-synapse
-micropipenv
 mirrormanager2
 mu
 mupdf
@@ -107,16 +102,15 @@ pcs
 pgcli
 picard
 piper
+prunerepo
 psi4
 pungi
 pychess
 pychromecast
-pyee
 pygrib
 pygsl
 pylint
 pymol
-pyp2rpm
 pyplane
 pyproj
 python-APScheduler
@@ -142,6 +136,7 @@ python-arviz
 python-ast-monitor
 python-astdoc
 python-astroML
+python-astropy
 python-asyncpg
 python-asyncssh
 python-autobahn
@@ -162,6 +157,7 @@ python-billiard
 python-binary-memcached
 python-black
 python-blessings
+python-blosc2
 python-bluepyopt
 python-boutdata
 python-brian2
@@ -188,7 +184,6 @@ python-contextualbandits
 python-convertdate
 python-crick
 python-cro
-python-crochet
 python-croniter
 python-csvkit
 python-curtsies
@@ -261,7 +256,6 @@ python-flask-socketio
 python-flask-sqlalchemy
 python-flask-sqlalchemy-lite
 python-flask-whooshee
-python-flexmock
 python-formulaic
 python-fsleyes
 python-fsleyes-props
@@ -278,6 +272,7 @@ python-gerritlib
 python-giacpy
 python-glanceclient
 python-glymur
+python-glyphsLib
 python-google-api-core
 python-google-cloud-core
 python-google-cloud-dns
@@ -291,6 +286,7 @@ python-hass-data-detective
 python-hdfs
 python-hdmf
 python-heatclient
+python-hexbytes
 python-hglib
 python-howdoi
 python-httpx-socks
@@ -304,7 +300,6 @@ python-img2pdf
 python-iniparse
 python-inline-snapshot
 python-intern
-python-ipywidgets
 python-ironicclient
 python-jenkins
 python-jenkins-job-builder
@@ -314,12 +309,7 @@ python-jschema-to-python
 python-jsonpickle
 python-jsons
 python-jupyter-cache
-python-jupyter-lsp
-python-jupyter-server
-python-jupyterlab-server
-python-jupytext
 python-keystoneclient
-python-klein
 python-koji-fedoramessaging-messages
 python-kombu
 python-lazy-ops
@@ -339,12 +329,8 @@ python-mailman-hyperkitty
 python-makefun
 python-manilaclient
 python-mapclassify
-python-matrix-common
 python-matrix-nio
-python-matrix-synapse-ldap3
 python-mccabe
-python-mechanize
-python-memray
 python-menuinst
 python-meshio
 python-metakernel
@@ -355,15 +341,12 @@ python-mkdocs-d2-plugin
 python-mne
 python-mne-bids
 python-moksha-common
-python-mpd2
 python-msal
 python-msal-extensions
 python-multiecho
 python-multiprocess
 python-music21
 python-nashpy
-python-nbclassic
-python-nbdime
 python-ndindex
 python-neatdend
 python-netpyne
@@ -381,8 +364,6 @@ python-nipy
 python-nipype
 python-noggin-messages
 python-nose
-python-notebook
-python-notebook-shim
 python-novaclient
 python-novaclient-os-networks
 python-novaclient-os-virtual-interfaces
@@ -390,12 +371,12 @@ python-numpoly
 python-octave-kernel
 python-octaviaclient
 python-odml
+python-ogr
 python-omemo
 python-omemo-backend-signal
 python-openapi-core
 python-opencensus-proto
 python-openstackclient
-python-openstacksdk
 python-optking
 python-optuna
 python-opytimizer
@@ -411,10 +392,8 @@ python-pagure-messages
 python-pandas-flavor
 python-papermill
 python-paperwork-backend
-python-parsley
 python-partd
 python-pathos
-python-pem
 python-pep8-naming
 python-pg8000
 python-piexif
@@ -430,7 +409,7 @@ python-pocketlint
 python-poi-tracker
 python-praw
 python-probeinterface
-python-prometheus_client
+python-progressbar2
 python-proto-plus
 python-proton-vpn-api-core
 python-pure-protobuf
@@ -441,6 +420,7 @@ python-pydantic-core
 python-pydantic-extra-types
 python-pydantic-settings
 python-pydoctor
+python-pyforgejo
 python-pygeoip
 python-pylint-venv
 python-pyls-spyder
@@ -450,7 +430,6 @@ python-pynetdicom
 python-pynn
 python-pynwb
 python-pyogrio
-python-pyone
 python-pypet
 python-pyphi
 python-pyqt-feedback-flow
@@ -540,7 +519,6 @@ python-snakemake-storage-plugin-xrootd
 python-snakemake-storage-plugin-zenodo
 python-socketio
 python-spdx-tools
-python-specfile
 python-sphinx-autobuild
 python-sphinxcontrib-websupport
 python-sport-activities-features
@@ -559,7 +537,6 @@ python-superqt
 python-swiftclient
 python-tackerclient
 python-taskflow
-python-tblib
 python-testing.postgresql
 python-texext
 python-tilestache
@@ -573,16 +550,10 @@ python-torchdiffeq
 python-torchsde
 python-torchtext
 python-torchvision
-python-towncrier
 python-transforms3d
-python-treq
 python-trie
 python-trimesh
 python-troveclient
-python-tubes
-python-twisted
-python-txws
-python-txzmq
 python-typecode
 python-typecode-libmagic
 python-typing-inspect
@@ -593,7 +564,6 @@ python-universal-pathlib
 python-uranium
 python-uvicorn
 python-uvloop
-python-vascpy
 python-versioningit
 python-vulture
 python-webdav4
@@ -603,6 +573,7 @@ python-wxnatpy
 python-xarray
 python-xarray-einstats
 python-xbout
+python-xnat
 python-xvfbwrapper
 python-yappi
 python-zaqarclient
@@ -620,16 +591,12 @@ quodlibet
 rdopkg
 rebase-helper
 resalloc
-rpm-spec-language-server
 samba
 satyr
 scancode-toolkit
-sen
 setzer
-showcert
 snakemake
 spec2nii
-spec2scl
 spyder
 stats-collect
 swift-lang
@@ -640,10 +607,10 @@ thonny
 tmt
 tracer
 translate-toolkit
-trash-cli
 usd
 visidata
 vorta
+vyper
 weasyprint
 wult
 xpra
