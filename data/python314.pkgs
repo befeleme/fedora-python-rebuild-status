@@ -27,6 +27,7 @@ R2spec
 RBTools
 ServiceReport
 SoapySDR
+TurboGears2
 WALinuxAgent
 Zim
 aactivator
@@ -145,6 +146,7 @@ copr-keygen
 cozy
 cranc
 createrepo_c
+credslayer
 cryptlib
 cryptominisat
 csdiff
@@ -293,6 +295,12 @@ gphotoframe
 gplugin
 gpodder
 gpsd
+gr-air-modes
+gr-funcube
+gr-hpsdr
+gr-iqbal
+gr-osmosdr
+gr-rds
 grammalecte
 gramps
 graphviz
@@ -465,6 +473,7 @@ libxml2
 libxslt
 libyui
 lightdm-gtk-greeter-settings
+limnoria
 link-grammar
 linkchecker
 linux-thermaltake-rgb
@@ -627,6 +636,7 @@ pg_activity
 pgzero
 photocollage
 piccata
+piper
 pipx
 pitivi
 pl
@@ -805,6 +815,10 @@ python-aenum
 python-aexpect
 python-affine
 python-afsapi
+python-agate
+python-agate-dbf
+python-agate-excel
+python-agate-sql
 python-ailment
 python-aioasuswrt
 python-aiocmd
@@ -849,6 +863,7 @@ python-aiowinreg
 python-airspeed
 python-ajpy
 python-ajsonrpc
+python-alembic
 python-allpairspy
 python-alsa
 python-amply
@@ -866,6 +881,7 @@ python-ansiwrap
 python-anyconfig
 python-anyio
 python-anyjson
+python-anykeystore
 python-anytree
 python-apipkg
 python-appdirs
@@ -1042,6 +1058,7 @@ python-bashate
 python-batalgorithm
 python-batinfo
 python-bcrypt
+python-beaker
 python-beanbag
 python-beautifulsoup4
 python-beautifultable
@@ -1054,6 +1071,7 @@ python-bibtexparser
 python-bidict
 python-bids-validator
 python-binary-manager
+python-binary-memcached
 python-binaryornot
 python-binstruct
 python-bioframe
@@ -1272,6 +1290,7 @@ python-crc32c
 python-crcelk
 python-crcmod
 python-crochet
+python-croniter
 python-crossword
 python-crypt-r
 python-crypto
@@ -1284,6 +1303,7 @@ python-cssmin
 python-cssselect
 python-cssselect2
 python-cssutils
+python-csvkit
 python-cups
 python-curio
 python-cvelib
@@ -1319,6 +1339,7 @@ python-dbusmock
 python-ddt
 python-deap
 python-debian
+python-debianbts
 python-debrepo
 python-debtcollector
 python-deconz
@@ -1371,6 +1392,7 @@ python-django-debug-toolbar
 python-django-email-url
 python-django-extensions
 python-django-filter
+python-django-formtools
 python-django-gravatar2
 python-django-haystack
 python-django-health-check
@@ -1473,6 +1495,7 @@ python-environs
 python-envisage
 python-enzyme
 python-ephem
+python-ephyviewer
 python-epi
 python-epson-projector
 python-et_xmlfile
@@ -1527,7 +1550,14 @@ python-fitdecode
 python-fitsio
 python-fixit
 python-fixtures
+python-flake8
 python-flake8-blind-except
+python-flake8-builtins
+python-flake8-class-newline
+python-flake8-deprecated
+python-flake8-import-order
+python-flake8-polyfill
+python-flake8-quotes
 python-flaky
 python-flask
 python-flask-admin
@@ -1541,6 +1571,7 @@ python-flask-httpauth
 python-flask-login
 python-flask-mail
 python-flask-mako
+python-flask-migrate
 python-flask-mongoengine
 python-flask-multistatic
 python-flask-oidc
@@ -1549,7 +1580,10 @@ python-flask-paranoid
 python-flask-principal
 python-flask-restx
 python-flask-session
+python-flask-sqlalchemy
+python-flask-sqlalchemy-lite
 python-flask-talisman
+python-flask-whooshee
 python-flask-wtf
 python-flask-wtf-decorators
 python-flexcache
@@ -1609,6 +1643,7 @@ python-genshi
 python-geoip2
 python-geojson
 python-geopy
+python-gerritlib
 python-gertty
 python-getmac
 python-gettext
@@ -1662,7 +1697,9 @@ python-h11
 python-h2
 python-h5io
 python-habitipy
+python-hacking
 python-hamcrest
+python-hass-data-detective
 python-hatasmota
 python-hatch-fancy-pypi-readme
 python-hatch-jupyter-builder
@@ -1905,6 +1942,7 @@ python-lazyarray
 python-ldap
 python-ldap3
 python-ldappool
+python-leather
 python-legacy-cgi
 python-lesscpy
 python-lexicon
@@ -1936,6 +1974,7 @@ python-lmdb
 python-localzone
 python-locket
 python-lockfile
+python-logbook
 python-logfury
 python-loguru
 python-logutils
@@ -1985,9 +2024,11 @@ python-matplotlib
 python-matplotlib-inline
 python-matplotlib-scalebar
 python-matrix-common
+python-matrix-nio
 python-matrix-synapse-ldap3
 python-maxminddb
 python-mbstrdecoder
+python-mccabe
 python-mdit-py-plugins
 python-mdurl
 python-mdx_gh_links
@@ -2196,6 +2237,7 @@ python-openstacksdk
 python-openstep-plist
 python-opfunu
 python-opnsense
+python-optuna
 python-opytimark
 python-oracledb
 python-oras
@@ -2207,7 +2249,10 @@ python-os-testr
 python-osa
 python-oslo-concurrency
 python-oslo-config
+python-oslo-context
 python-oslo-i18n
+python-oslo-log
+python-oslo-metrics
 python-oslo-serialization
 python-oslo-utils
 python-oslotest
@@ -2277,6 +2322,7 @@ python-pefile
 python-pelican
 python-pem
 python-pendulum
+python-pep8-naming
 python-periodictable
 python-perky
 python-persist-queue
@@ -2290,6 +2336,7 @@ python-phyghtmap
 python-pickleshare
 python-pid
 python-pidfile
+python-piexif
 python-pifpaf
 python-pigpio
 python-pikepdf
@@ -2489,6 +2536,7 @@ python-pymediainfo
 python-pymediawiki
 python-pymemcache
 python-pymilter
+python-pymochad
 python-pymod2pkg
 python-pymongo
 python-pymssql
@@ -2530,6 +2578,7 @@ python-pyqt6-charts
 python-pyqt6-sip
 python-pyqt6-webengine
 python-pyqtchart
+python-pyqtgraph
 python-pyquery
 python-pyramid
 python-pyramid-fas-openid
@@ -2550,6 +2599,7 @@ python-pysb
 python-pyscaffold
 python-pyscf
 python-pysdl2
+python-pyshark
 python-pysimplesoap
 python-pysingular
 python-pysmb
@@ -2596,6 +2646,7 @@ python-pytest-error-for-skips
 python-pytest-expect
 python-pytest-filter-subpackage
 python-pytest-fixture-config
+python-pytest-flake8-path
 python-pytest-flakes
 python-pytest-forked
 python-pytest-freezegun
@@ -2646,6 +2697,7 @@ python-pytest-venv
 python-pytest-watch
 python-pytest-xdist
 python-pytest-xprocess
+python-pytest-xvfb
 python-python-fcl
 python-python-multipart
 python-pytile
@@ -2657,6 +2709,8 @@ python-pyuca
 python-pyudev
 python-pyunormalize
 python-pyvat
+python-pyvirtualdisplay
+python-pyvirtualize
 python-pyvit
 python-pyvlx
 python-pyvmomi
@@ -2724,6 +2778,7 @@ python-repoze-lru
 python-repoze-sphinx-autointerface
 python-repoze-tm2
 python-repoze-who
+python-repoze-who-plugins-sa
 python-represent
 python-requests
 python-requests-cache
@@ -2768,6 +2823,7 @@ python-rnc2rng
 python-robot-detection
 python-robotframework
 python-roman
+python-roman-numerals-py
 python-rosdep
 python-rosdistro
 python-rosinstall_generator
@@ -2862,6 +2918,7 @@ python-simpleline
 python-single-version
 python-siphash
 python-six
+python-slackclient
 python-slacker
 python-slixmpp
 python-slugify
@@ -2951,6 +3008,7 @@ python-sphinxcontrib-serializinghtml
 python-sphinxcontrib-spelling
 python-sphinxcontrib-svg2pdfconverter
 python-sphinxcontrib-trio
+python-sphinxcontrib-websupport
 python-sphinxemoji
 python-sphinxext-opengraph
 python-sphinxtesters
@@ -2963,9 +3021,12 @@ python-spyder-kernels
 python-spyking-circus
 python-sql
 python-sqlacodegen
+python-sqlalchemy
+python-sqlalchemy-collectd
 python-sqlalchemy-filters
 python-sqlalchemy1.3
 python-sqlalchemy1.4
+python-sqlalchemy_schemadisplay
 python-sqlglot
 python-sqlparse
 python-ssdeep
@@ -3375,6 +3436,7 @@ relval
 remmina
 renderdoc
 reprotest
+resalloc
 resalloc-ibm-cloud
 resalloc-openstack
 restview

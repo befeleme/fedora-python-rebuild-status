@@ -1,4 +1,8 @@
 {
+  "Mayavi": {
+    "urls": [],
+    "summaries": []
+  },
   "YafaRay": {
     "urls": [],
     "summaries": []
@@ -633,6 +637,10 @@
       "python-executing fails to build with Python 3.14: 52 test fail during the build"
     ]
   },
+  "python-flake8-comprehensions": {
+    "urls": [],
+    "summaries": []
+  },
   "python-flask": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2327965"
@@ -815,14 +823,6 @@
       "python-matplotlib fails to build with Python 3.14: RecursionError: maximum recursion depth exceeded"
     ]
   },
-  "python-mccabe": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2328016"
-    ],
-    "summaries": [
-      "python-mccabe fails to build with Python 3.14: AttributeError: module 'typing' has no attribute 'ByteString'"
-    ]
-  },
   "python-meshio": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2333493"
@@ -849,6 +849,14 @@
     ],
     "summaries": [
       "python-neurotune: FTBFS in Fedora rawhide/f42"
+    ]
+  },
+  "python-nikola": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2341174"
+    ],
+    "summaries": [
+      "python-nikola: FTBFS in Fedora rawhide/f42"
     ]
   },
   "python-nose": {
@@ -1016,10 +1024,6 @@
     "summaries": []
   },
   "python-pyqt6-webengine": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-pyqtgraph": {
     "urls": [],
     "summaries": []
   },
@@ -1209,14 +1213,6 @@
     ],
     "summaries": [
       "python-setproctitle: FTBFS in Fedora rawhide/f42"
-    ]
-  },
-  "python-sqlalchemy": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2350336"
-    ],
-    "summaries": [
-      "python-sqlalchemy fails to build with Python 3.14: _pickle.PicklingError: Can't pickle local object <function profile_memory.<locals>.decorate.<locals>.profile at 0x7f0f43d5d170> + typing + more"
     ]
   },
   "python-sqlalchemy1.4": {
@@ -1424,6 +1420,10 @@
     "summaries": [
       "qtile fails to build with Python 3.14: _pickle.PicklingError: Can't pickle local object <function TestManager.start.<locals>.run_qtile at 0x7f9c5918fed0>"
     ]
+  },
+  "quodlibet": {
+    "urls": [],
+    "summaries": []
   },
   "renderdoc": {
     "urls": [
