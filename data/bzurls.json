@@ -79,14 +79,6 @@
       "cockpit fails to build from source with Python 3.14: AttributeError: module 'asyncio' has no attribute 'SafeChildWatcher'"
     ]
   },
-  "condor": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2339993"
-    ],
-    "summaries": [
-      "condor: FTBFS in Fedora rawhide/f42"
-    ]
-  },
   "criu": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2340011"
@@ -129,10 +121,6 @@
       "dlib fails to build with Python 3.14: AttributeError: module 'pkgutil' has no attribute 'find_loader'"
     ]
   },
-  "dnf5": {
-    "urls": [],
-    "summaries": []
-  },
   "git-cola": {
     "urls": [],
     "summaries": []
@@ -147,12 +135,10 @@
   },
   "httpie": {
     "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2350335",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2340619"
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2350335"
     ],
     "summaries": [
-      "httpie fails to build with Python 3.14: test_lazy_choices_help: AssertionError: Expected 'getter' to not have been called. Called 1 times.",
-      "httpie: FTBFS in Fedora rawhide/f42"
+      "httpie fails to build with Python 3.14: test_lazy_choices_help: AssertionError: Expected 'getter' to not have been called. Called 1 times."
     ]
   },
   "ikiwiki": {
@@ -893,14 +879,6 @@
     ],
     "summaries": [
       "python-packvers: FTBFS in Fedora rawhide/f42"
-    ]
-  },
-  "python-pandas": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2341179"
-    ],
-    "summaries": [
-      "python-pandas: FTBFS in Fedora rawhide/f42"
     ]
   },
   "python-pika": {
