@@ -7,6 +7,10 @@
     "urls": [],
     "summaries": []
   },
+  "ansible-core": {
+    "urls": [],
+    "summaries": []
+  },
   "ara": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2331346"
@@ -71,6 +75,10 @@
       "cjdns: FTBFS in Fedora rawhide/f42"
     ]
   },
+  "cloud-init": {
+    "urls": [],
+    "summaries": []
+  },
   "cockpit": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2350287"
@@ -78,6 +86,10 @@
     "summaries": [
       "cockpit fails to build from source with Python 3.14: AttributeError: module 'asyncio' has no attribute 'SafeChildWatcher'"
     ]
+  },
+  "copr-backend": {
+    "urls": [],
+    "summaries": []
   },
   "criu": {
     "urls": [
@@ -120,6 +132,10 @@
       "dlib: FTBFS in Fedora rawhide/f42",
       "dlib fails to build with Python 3.14: AttributeError: module 'pkgutil' has no attribute 'find_loader'"
     ]
+  },
+  "fawltydeps": {
+    "urls": [],
+    "summaries": []
   },
   "git-cola": {
     "urls": [],
@@ -192,6 +208,10 @@
     "summaries": [
       "llvm fails to build with Python 3.14: tools/opt-viewer/suppress.test: AttributeError: type object 'Passed' has no attribute 'demangler_lock'"
     ]
+  },
+  "nanovna-saver": {
+    "urls": [],
+    "summaries": []
   },
   "needrestart": {
     "urls": [
@@ -421,6 +441,10 @@
     "urls": [],
     "summaries": []
   },
+  "python-aws-sam-translator": {
+    "urls": [],
+    "summaries": []
+  },
   "python-awscrt": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2322714"
@@ -464,6 +488,10 @@
     ]
   },
   "python-boto3": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-bsmschema": {
     "urls": [],
     "summaries": []
   },
@@ -594,6 +622,10 @@
     "summaries": [
       "python-domdf-python-tools fails to build with Python 3.14: tests/test_words.py::test_alpha_sort - AssertionError: Regex pattern did not match."
     ]
+  },
+  "python-doubleratchet": {
+    "urls": [],
+    "summaries": []
   },
   "python-ducc0": {
     "urls": [
@@ -925,13 +957,9 @@
       "python-pycec fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
     ]
   },
-  "python-pydantic-core": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2325425"
-    ],
-    "summaries": [
-      "python-pydantic-core fails to build with Python 3.14: AssertionError: Regex pattern did not match. + AttributeError: module 'typing' has no attribute 'ByteString'"
-    ]
+  "python-pydantic-settings": {
+    "urls": [],
+    "summaries": []
   },
   "python-pyemd": {
     "urls": [
@@ -942,6 +970,10 @@
     ]
   },
   "python-pyface": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pyforgejo": {
     "urls": [],
     "summaries": []
   },
@@ -1053,6 +1085,10 @@
       "python-pytest-lsp fails to build with Python 3.14: warnings counts differ, resulting in AssertionError in 3 tests"
     ]
   },
+  "python-python-ulid": {
+    "urls": [],
+    "summaries": []
+  },
   "python-pyupgrade": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2322713"
@@ -1140,6 +1176,10 @@
     "summaries": [
       "python-rich fails to build with Python 3.14: 5 test fail"
     ]
+  },
+  "python-rope": {
+    "urls": [],
+    "summaries": []
   },
   "python-rosdep": {
     "urls": [
@@ -1236,6 +1276,10 @@
     "summaries": [
       "python-stochastic: FTBFS in Fedora rawhide/f42"
     ]
+  },
+  "python-streamlink": {
+    "urls": [],
+    "summaries": []
   },
   "python-svg2tikz": {
     "urls": [
@@ -1490,6 +1534,10 @@
     "summaries": [
       "uhd: FTBFS in Fedora rawhide/f42"
     ]
+  },
+  "uv": {
+    "urls": [],
+    "summaries": []
   },
   "visidata": {
     "urls": [
