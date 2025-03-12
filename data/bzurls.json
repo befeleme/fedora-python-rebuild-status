@@ -1,5 +1,13 @@
 {
   "Mayavi": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2351390"
+    ],
+    "summaries": [
+      "Mayavi fails to build with Python 3.14: TestMayaviGarbageCollection.test_mlab_scene_model_with_gui: IndexError: list index out of range"
+    ]
+  },
+  "NiaAML-GUI": {
     "urls": [],
     "summaries": []
   },
@@ -25,6 +33,14 @@
     ],
     "summaries": [
       "awscli2 fails to build with Python 3.14: ValueError('badly formed help string'),  KeyError: 'PATH'"
+    ]
+  },
+  "bandit": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2351393"
+    ],
+    "summaries": [
+      "bandit fails to build with Python 3.14: TypeError: Error: Str is not a valid node type in AST"
     ]
   },
   "binwalk": {
@@ -88,8 +104,12 @@
     ]
   },
   "copr-backend": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2351386"
+    ],
+    "summaries": [
+      "copr-backend fails to build with Python 3.14: TestActionWorkerManager.test_add_task_for_running_worker: TypeError: cannot pickle 'itertools.count' object"
+    ]
   },
   "criu": {
     "urls": [
@@ -134,8 +154,12 @@
     ]
   },
   "fawltydeps": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2351392"
+    ],
+    "summaries": [
+      "fawltydeps fails to build with Python 3.14: AttributeError: module 'ast' has no attribute 'Str'"
+    ]
   },
   "git-cola": {
     "urls": [],
@@ -250,8 +274,12 @@
     "summaries": []
   },
   "poetry": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2351383"
+    ],
+    "summaries": [
+      "poetry fails to build with Python 3.14: AssertionError in test_isolated_env_install_discards_requirements_not_needed_by_env and test_python_get_preferred_default"
+    ]
   },
   "poezio": {
     "urls": [
@@ -652,8 +680,12 @@
     ]
   },
   "python-flake8-comprehensions": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2351385"
+    ],
+    "summaries": [
+      "python-flake8-comprehensions fails to build with Python 3.14: Unnecessary reversed call around sorted() in 10 tests"
+    ]
   },
   "python-flask": {
     "urls": [
@@ -755,6 +787,10 @@
       "python-icalendar: FTBFS in Fedora Rawhide: AssertionError: assert 'WET' in ('Europe/Lisbon', 'Portugal')  where ('Europe/Lisbon', 'Portugal') = tzids_from_tzinfo(tzfile('/usr/share/zoneinfo/WET'))"
     ]
   },
+  "python-imbalanced-learn": {
+    "urls": [],
+    "summaries": []
+  },
   "python-img2pdf": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2328707"
@@ -802,14 +838,6 @@
   "python-jiter": {
     "urls": [],
     "summaries": []
-  },
-  "python-joblib": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2339519"
-    ],
-    "summaries": [
-      "python-joblib fails to build with Python 3.14: TypeError: Hasher._batch_setitems() takes 2 positional arguments but 3 were given"
-    ]
   },
   "python-josepy": {
     "urls": [
@@ -898,8 +926,12 @@
     ]
   },
   "python-osc-lib": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2351387"
+    ],
+    "summaries": [
+      "python-osc-lib fails to build with Python 3.14: testtools.matchers._impl.MismatchError in 4 tests"
+    ]
   },
   "python-packvers": {
     "urls": [
@@ -910,8 +942,12 @@
     ]
   },
   "python-pika": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2351384"
+    ],
+    "summaries": [
+      "python-pika fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
+    ]
   },
   "python-pip": {
     "urls": [
@@ -958,6 +994,10 @@
     ]
   },
   "python-pydantic-settings": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pydoctor": {
     "urls": [],
     "summaries": []
   },
@@ -1015,6 +1055,14 @@
     ],
     "summaries": [
       "python-pyopengl: FTBFS in Fedora rawhide/f42"
+    ]
+  },
+  "python-pyphi": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2341193"
+    ],
+    "summaries": [
+      "python-pyphi: FTBFS in Fedora rawhide/f42"
     ]
   },
   "python-pyqt6": {
@@ -1178,8 +1226,12 @@
     ]
   },
   "python-rope": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2351391"
+    ],
+    "summaries": [
+      "python-rope fails to build with Python 3.14: ImportError while loading conftest '/builddir/build/BUILD/python-rope-1.13.0-build/rope-1.13.0/ropetest/conftest.py'.: AssertionError: assert sys.version_info < (3, 8)"
+    ]
   },
   "python-rosdep": {
     "urls": [
@@ -1228,6 +1280,10 @@
     "summaries": [
       "python-setproctitle: FTBFS in Fedora rawhide/f42"
     ]
+  },
+  "python-sklearn-nature-inspired-algorithms": {
+    "urls": [],
+    "summaries": []
   },
   "python-sqlalchemy1.4": {
     "urls": [
@@ -1438,10 +1494,6 @@
     "summaries": [
       "qtile fails to build with Python 3.14: _pickle.PicklingError: Can't pickle local object <function TestManager.start.<locals>.run_qtile at 0x7f9c5918fed0>"
     ]
-  },
-  "quodlibet": {
-    "urls": [],
-    "summaries": []
   },
   "renderdoc": {
     "urls": [
