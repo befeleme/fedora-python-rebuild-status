@@ -15,10 +15,6 @@
     "urls": [],
     "summaries": []
   },
-  "ansible-core": {
-    "urls": [],
-    "summaries": []
-  },
   "ara": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2331346"
@@ -95,6 +91,10 @@
     "urls": [],
     "summaries": []
   },
+  "cmake": {
+    "urls": [],
+    "summaries": []
+  },
   "cockpit": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2350287"
@@ -151,14 +151,6 @@
     "summaries": [
       "dlib: FTBFS in Fedora rawhide/f42",
       "dlib fails to build with Python 3.14: AttributeError: module 'pkgutil' has no attribute 'find_loader'"
-    ]
-  },
-  "fawltydeps": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2351392"
-    ],
-    "summaries": [
-      "fawltydeps fails to build with Python 3.14: AttributeError: module 'ast' has no attribute 'Str'"
     ]
   },
   "git-cola": {
@@ -401,22 +393,6 @@
     ],
     "summaries": [
       "python-astroid fails to build with Python 3.14: astroid.exceptions.InferenceError: StopIteration raised without any error information."
-    ]
-  },
-  "python-astropy": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2345524"
-    ],
-    "summaries": [
-      "python-astropy fails to build with Python 3.14: test_info_preserved_pickle_copy_init[arrayswap]: AssertionError: assert dtype('>i4') == dtype('int32')"
-    ]
-  },
-  "python-astropy-iers-data": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2349443"
-    ],
-    "summaries": [
-      "python-astropy-iers-data fails to build with Python 3.14: 4 tests fail with KeyError: 'ra_in' and 'lon_in'"
     ]
   },
   "python-asyncssh": {
@@ -755,6 +731,10 @@
     "urls": [],
     "summaries": []
   },
+  "python-gstreamer1": {
+    "urls": [],
+    "summaries": []
+  },
   "python-hamcrest": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2346504"
@@ -797,14 +777,6 @@
     ],
     "summaries": [
       "python-img2pdf fails to build in rawhide: 48 AssertionErrors"
-    ]
-  },
-  "python-iniparse": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2323164"
-    ],
-    "summaries": [
-      "python-iniparse fails to build with Python 3.14: _pickle.PicklingError: Can't pickle local object <function TestIni.test_queue.<locals>.getxy at 0x7f86659a7740>"
     ]
   },
   "python-inject": {
@@ -899,14 +871,6 @@
     ],
     "summaries": [
       "python-nikola: FTBFS in Fedora rawhide/f42"
-    ]
-  },
-  "python-nose": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2323163"
-    ],
-    "summaries": [
-      "python-nose fails to build with Python 3.14: multiple AssertionErrors related to timeouts in test outputs"
     ]
   },
   "python-notify2": {
@@ -1201,12 +1165,10 @@
   },
   "python-redis": {
     "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2345526",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2326927"
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2345526"
     ],
     "summaries": [
-      "python-redis fails to build with Python 3.14: _pickle.PicklingError: Can't pickle local object <function TestMultiprocessing.test_close_connection_in_child.<locals>.target at 0x7f10027f31c0>",
-      "python-redis fails to build with Python 3.14: _pickle.PicklingError: Can't pickle local object <function TestMultiprocessing.test_redis_client.<locals>.target at 0x7fd5f829efb0>"
+      "python-redis fails to build with Python 3.14: _pickle.PicklingError: Can't pickle local object <function TestMultiprocessing.test_close_connection_in_child.<locals>.target at 0x7f10027f31c0>"
     ]
   },
   "python-remoto": {
@@ -1284,6 +1246,14 @@
   "python-sklearn-nature-inspired-algorithms": {
     "urls": [],
     "summaries": []
+  },
+  "python-sqlalchemy": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2350336"
+    ],
+    "summaries": [
+      "python-sqlalchemy fails to build with Python 3.14: _pickle.PicklingError: Can't pickle local object <function profile_memory.<locals>.decorate.<locals>.profile at 0x7f0f43d5d170> + typing + more"
+    ]
   },
   "python-sqlalchemy1.4": {
     "urls": [

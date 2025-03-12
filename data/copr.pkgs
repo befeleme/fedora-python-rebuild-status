@@ -48,10 +48,12 @@ alacarte	succeeded
 amdsmi	succeeded
 ampy	succeeded
 anaconda	succeeded
+ansible	succeeded
 ansible-bender	succeeded
 ansible-builder	succeeded
 ansible-collections-openstack	succeeded
-ansible-core	failed
+ansible-core	succeeded
+ansible-inventory-grapher	succeeded
 apbs	succeeded
 appliance-tools	succeeded
 apx	succeeded
@@ -115,6 +117,7 @@ buttermanager	succeeded
 cairo-dock-plug-ins	succeeded
 calamares	succeeded
 calibre	failed
+calypso	succeeded
 cantoolz	succeeded
 cantor	succeeded
 capstone	failed
@@ -130,6 +133,7 @@ cepces	succeeded
 ceph	failed
 cffconvert	succeeded
 chirp	failed
+cinch	succeeded
 cjdns	failed
 classification-banner	succeeded
 claws-mail	succeeded
@@ -137,7 +141,7 @@ clingo	succeeded
 cloud-init	failed
 clustershell	succeeded
 cm_rgb	succeeded
-cmake	succeeded
+cmake	failed
 cobbler	succeeded
 coccinelle	succeeded
 cockpit	failed
@@ -157,6 +161,7 @@ copr-backend	failed
 copr-cli	succeeded
 copr-dist-git	succeeded
 copr-keygen	succeeded
+copr-rpmbuild	succeeded
 cozy	succeeded
 cranc	succeeded
 createrepo_c	succeeded
@@ -229,7 +234,7 @@ evemu	succeeded
 f3d	succeeded
 fail2ban	succeeded
 fapolicy-analyzer	succeeded
-fawltydeps	failed
+fawltydeps	succeeded
 fedfind	succeeded
 fedora-distro-aliases	succeeded
 fedora-review	succeeded
@@ -913,6 +918,7 @@ python-aniso8601	succeeded
 python-annexremote	succeeded
 python-annotated-types	succeeded
 python-ansi2html	succeeded
+python-ansible-compat	succeeded
 python-ansible-pylibssh	succeeded
 python-ansicolor	succeeded
 python-ansicolors	succeeded
@@ -951,11 +957,12 @@ python-aspy.yaml	succeeded
 python-astdoc	failed
 python-asteval	succeeded
 python-astral	succeeded
+python-astroML	succeeded
 python-astroid	failed
 python-astroplan	succeeded
-python-astropy	failed
+python-astropy	succeeded
 python-astropy-healpix	succeeded
-python-astropy-iers-data	failed
+python-astropy-iers-data	succeeded
 python-astroquery	succeeded
 python-astroscrappy	succeeded
 python-asttokens	succeeded
@@ -1706,6 +1713,7 @@ python-fvs	succeeded
 python-fypp	succeeded
 python-gammu	succeeded
 python-gast	succeeded
+python-gatspy	succeeded
 python-gattlib	succeeded
 python-gbinder	succeeded
 python-gbulb	succeeded
@@ -1736,6 +1744,7 @@ python-github3py	succeeded
 python-gitlab	succeeded
 python-glad	succeeded
 python-glad2	succeeded
+python-glanceclient	succeeded
 python-glances-api	succeeded
 python-glfw	succeeded
 python-glob2	succeeded
@@ -1767,7 +1776,7 @@ python-grokmirror	succeeded
 python-grpcio-gcp	succeeded
 python-gsd	succeeded
 python-gssapi	succeeded
-python-gstreamer1	succeeded
+python-gstreamer1	failed
 python-gunicorn	succeeded
 python-h11	succeeded
 python-h2	succeeded
@@ -1870,7 +1879,7 @@ python-inflection	succeeded
 python-influxdb	succeeded
 python-influxdb-client	succeeded
 python-iniconfig	succeeded
-python-iniparse	failed
+python-iniparse	succeeded
 python-inject	failed
 python-injector	failed
 python-inkex	succeeded
@@ -2000,6 +2009,7 @@ python-kerberos	succeeded
 python-keyring	succeeded
 python-keyrings-alt	succeeded
 python-keystoneauth1	succeeded
+python-keystoneclient	succeeded
 python-kgb	succeeded
 python-kismet-rest	succeeded
 python-kiss-headers	succeeded
@@ -2343,6 +2353,7 @@ python-oras	succeeded
 python-ordered-set	succeeded
 python-orderly-set	succeeded
 python-orjson	failed
+python-os-client-config	succeeded
 python-os-service-types	succeeded
 python-os-testr	succeeded
 python-osa	succeeded
@@ -2807,6 +2818,7 @@ python-pytest-split	succeeded
 python-pytest-subprocess	succeeded
 python-pytest-subtests	succeeded
 python-pytest-sugar	succeeded
+python-pytest-testinfra	succeeded
 python-pytest-testmon	succeeded
 python-pytest-timeout	succeeded
 python-pytest-tldr	succeeded
@@ -3032,6 +3044,7 @@ python-sgmllib3k	succeeded
 python-sgp4	succeeded
 python-sgqlc	succeeded
 python-sh	succeeded
+python-shade	succeeded
 python-shamir-mnemonic	succeeded
 python-shapely	succeeded
 python-shellingham	succeeded
@@ -3160,7 +3173,7 @@ python-spyder-kernels	succeeded
 python-spyking-circus	succeeded
 python-sql	succeeded
 python-sqlacodegen	succeeded
-python-sqlalchemy	succeeded
+python-sqlalchemy	failed
 python-sqlalchemy-collectd	succeeded
 python-sqlalchemy-filters	succeeded
 python-sqlalchemy-utils	succeeded
@@ -3212,6 +3225,7 @@ python-svg-path	succeeded
 python-svg2tikz	failed
 python-svgwrite	succeeded
 python-swagger-spec-validator	succeeded
+python-swiftclient	succeeded
 python-sybil	succeeded
 python-symengine	succeeded
 python-syrupy	succeeded
@@ -3736,6 +3750,7 @@ trac-tracnav-plugin	succeeded
 tracer	succeeded
 trademgen	succeeded
 transifex-client	succeeded
+translate-toolkit	succeeded
 trash-cli	succeeded
 tre	succeeded
 tree-sitter-java	failed
@@ -3809,7 +3824,7 @@ xen	succeeded
 xmms2	succeeded
 xonsh	succeeded
 xortool	succeeded
-xpra	running
+xpra	failed
 xrootd	succeeded
 xwayland-run	succeeded
 yamllint	succeeded
