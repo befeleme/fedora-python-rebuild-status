@@ -221,14 +221,6 @@
       "libarcus: FTBFS in Fedora rawhide/f42"
     ]
   },
-  "llvm": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2336915"
-    ],
-    "summaries": [
-      "llvm fails to build with Python 3.14: tools/opt-viewer/suppress.test: AttributeError: type object 'Passed' has no attribute 'demangler_lock'"
-    ]
-  },
   "nanovna-saver": {
     "urls": [],
     "summaries": []
@@ -578,6 +570,10 @@
     "summaries": [
       "python-commoncode fails to build with Python 3.14: tarfile.SpecialFileError: '6-FIFOTYPE' is a special file"
     ]
+  },
+  "python-conda-index": {
+    "urls": [],
+    "summaries": []
   },
   "python-confuse": {
     "urls": [
@@ -1524,6 +1520,10 @@
     "summaries": [
       "sudo: FTBFS in Fedora rawhide/f42"
     ]
+  },
+  "sympy": {
+    "urls": [],
+    "summaries": []
   },
   "thrift": {
     "urls": [
