@@ -87,10 +87,6 @@
       "cjdns: FTBFS in Fedora rawhide/f42"
     ]
   },
-  "cloud-init": {
-    "urls": [],
-    "summaries": []
-  },
   "cockpit": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2350287"
@@ -221,6 +217,10 @@
       "libarcus: FTBFS in Fedora rawhide/f42"
     ]
   },
+  "myst-nb": {
+    "urls": [],
+    "summaries": []
+  },
   "nanovna-saver": {
     "urls": [],
     "summaries": []
@@ -242,12 +242,8 @@
     ]
   },
   "obs-studio": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2340952"
-    ],
-    "summaries": [
-      "obs-studio: FTBFS in Fedora rawhide/f42"
-    ]
+    "urls": [],
+    "summaries": []
   },
   "onnx": {
     "urls": [],
@@ -314,6 +310,10 @@
     "summaries": [
       "pygsl: FTBFS in Fedora rawhide/f42"
     ]
+  },
+  "pylint": {
+    "urls": [],
+    "summaries": []
   },
   "pyserial-asyncio": {
     "urls": [
@@ -491,6 +491,14 @@
     "urls": [],
     "summaries": []
   },
+  "python-boutdata": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2352553"
+    ],
+    "summaries": [
+      "python-boutdata fails to build with Python 3.14: NotImplementedError: Dataset is not picklable"
+    ]
+  },
   "python-bsmschema": {
     "urls": [],
     "summaries": []
@@ -602,14 +610,6 @@
   "python-defcon": {
     "urls": [],
     "summaries": []
-  },
-  "python-dill": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2323157"
-    ],
-    "summaries": [
-      "python-dill fails to build with Python 3.14: TypeError: _Pickler._batch_setitems() missing 1 required positional argument: 'obj'"
-    ]
   },
   "python-django-filter": {
     "urls": [
@@ -807,6 +807,10 @@
     "urls": [],
     "summaries": []
   },
+  "python-jenkins": {
+    "urls": [],
+    "summaries": []
+  },
   "python-jiter": {
     "urls": [],
     "summaries": []
@@ -819,6 +823,14 @@
     "summaries": [
       "python-josepy fails to build with Python 3.14: 7 tests fail with ValueError: Field `alg` in JSONObject `Header` has no type annotation.",
       "python-josepy fails to build with Python 3.14: 6x ValueError: Field `alg` in JSONObject `Header` has no type annotation."
+    ]
+  },
+  "python-lfpy": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2341168"
+    ],
+    "summaries": [
+      "python-lfpy: FTBFS in Fedora rawhide/f42"
     ]
   },
   "python-makefun": {
@@ -855,6 +867,22 @@
     ],
     "summaries": [
       "python-msal fails to build with Python 3.14: test_no_two_concurrent_receivers_can_listen_on_same_port: AssertionError: OSError not raised"
+    ]
+  },
+  "python-neatdend": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2341170"
+    ],
+    "summaries": [
+      "python-neatdend: FTBFS in Fedora rawhide/f42"
+    ]
+  },
+  "python-netpyne": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2341171"
+    ],
+    "summaries": [
+      "python-netpyne: FTBFS in Fedora rawhide/f42"
     ]
   },
   "python-neurotune": {
@@ -1001,6 +1029,14 @@
     "urls": [],
     "summaries": []
   },
+  "python-pynn": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2341189"
+    ],
+    "summaries": [
+      "python-pynn: FTBFS in Fedora rawhide/f42"
+    ]
+  },
   "python-pyopencl": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2341190"
@@ -1015,6 +1051,14 @@
     ],
     "summaries": [
       "python-pyopengl: FTBFS in Fedora rawhide/f42"
+    ]
+  },
+  "python-pypet": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2341192"
+    ],
+    "summaries": [
+      "python-pypet: FTBFS in Fedora rawhide/f42"
     ]
   },
   "python-pyphi": {
@@ -1239,6 +1283,14 @@
       "python-setproctitle: FTBFS in Fedora rawhide/f42"
     ]
   },
+  "python-simframe": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2352552"
+    ],
+    "summaries": [
+      "python-simframe fails to build with Python 3.14: TypeError: cannot pickle 'itertools.cycle' object"
+    ]
+  },
   "python-sklearn-nature-inspired-algorithms": {
     "urls": [],
     "summaries": []
@@ -1304,12 +1356,8 @@
     "summaries": []
   },
   "python-svg2tikz": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2341220"
-    ],
-    "summaries": [
-      "python-svg2tikz: FTBFS in Fedora rawhide/f42"
-    ]
+    "urls": [],
+    "summaries": []
   },
   "python-tenacity": {
     "urls": [
@@ -1461,13 +1509,17 @@
       "qtile fails to build with Python 3.14: _pickle.PicklingError: Can't pickle local object <function TestManager.start.<locals>.run_qtile at 0x7f9c5918fed0>"
     ]
   },
-  "renderdoc": {
+  "rebase-helper": {
     "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2341279"
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2352551"
     ],
     "summaries": [
-      "renderdoc: FTBFS in Fedora rawhide/f42"
+      "rebase-helper fails to build with Python 3.14: AssertionError in TestCLI.test_cli_unit and TestConfig.test_merge"
     ]
+  },
+  "renderdoc": {
+    "urls": [],
+    "summaries": []
   },
   "retext": {
     "urls": [],
@@ -1521,9 +1573,13 @@
       "sudo: FTBFS in Fedora rawhide/f42"
     ]
   },
-  "sympy": {
-    "urls": [],
-    "summaries": []
+  "swift-lang": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2341403"
+    ],
+    "summaries": [
+      "swift-lang: FTBFS in Fedora rawhide/f42"
+    ]
   },
   "thrift": {
     "urls": [
