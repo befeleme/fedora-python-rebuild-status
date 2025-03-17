@@ -1436,6 +1436,9 @@
         "llvm19": [
             "yselkowitz"
         ],
+        "llvm20": [
+            "yselkowitz"
+        ],
         "lokalize": [
             "yselkowitz"
         ],
@@ -20666,6 +20669,7 @@
             "rishi"
         ],
         "flatpak-builder": [
+            "amigadave",
             "kalev"
         ],
         "flatpak-epel": [
@@ -37287,7 +37291,7 @@
             "orphan"
         ],
         "gstreamer1-plugin-openh264": [
-            "kalev"
+            "orphan"
         ],
         "gstreamer1-plugins-bad-free": [
             "yselkowitz",
@@ -64823,6 +64827,7 @@
             "orphan"
         ],
         "noopenh264": [
+            "wtaymans",
             "kalev"
         ],
         "nopaste": [
@@ -67050,8 +67055,8 @@
             "orphan"
         ],
         "openh264": [
-            "kalev",
-            "wtaymans"
+            "wtaymans",
+            "kalev"
         ],
         "openhantek": [
             "vascom"
@@ -115255,6 +115260,9 @@
         "rust-gstreamer-allocators0.22": [
             "decathorpe"
         ],
+        "rust-gstreamer-app-sys": [
+            "yselkowitz"
+        ],
         "rust-gstreamer-audio": [
             "atim"
         ],
@@ -115290,6 +115298,9 @@
         ],
         "rust-gstreamer-base0.22": [
             "decathorpe"
+        ],
+        "rust-gstreamer-check-sys": [
+            "yselkowitz"
         ],
         "rust-gstreamer-editing-services": [
             "atim"
@@ -115381,6 +115392,9 @@
         "rust-gstreamer-gl0.22": [
             "decathorpe"
         ],
+        "rust-gstreamer-net-sys": [
+            "yselkowitz"
+        ],
         "rust-gstreamer-pbutils": [
             "atim"
         ],
@@ -115416,6 +115430,9 @@
         ],
         "rust-gstreamer-player0.22": [
             "decathorpe"
+        ],
+        "rust-gstreamer-rtp-sys": [
+            "yselkowitz"
         ],
         "rust-gstreamer-sys": [
             "atim"
@@ -116078,6 +116095,9 @@
         "rust-input": [
             "dcavalca"
         ],
+        "rust-input-event-codes": [
+            "samcday"
+        ],
         "rust-input-linux": [
             "dcavalca"
         ],
@@ -116198,6 +116218,9 @@
         "rust-iron": [
             "orphan"
         ],
+        "rust-ironrdp-acceptor": [
+            "elmarco"
+        ],
         "rust-ironrdp-ainput": [
             "elmarco"
         ],
@@ -116244,6 +116267,9 @@
             "elmarco"
         ],
         "rust-ironrdp-svc": [
+            "elmarco"
+        ],
+        "rust-ironrdp-tokio": [
             "elmarco"
         ],
         "rust-is-docker": [
@@ -119771,6 +119797,9 @@
         ],
         "rust-reis0.2": [
             "decathorpe"
+        ],
+        "rust-relative-luminance": [
+            "music"
         ],
         "rust-relative-path": [
             "decathorpe"
@@ -127026,7 +127055,9 @@
             "orphan"
         ],
         "steam-devices": [
-            "sfaulken"
+            "sfaulken",
+            "ngompa",
+            "slaanesh"
         ],
         "steghide": [
             "astra"
