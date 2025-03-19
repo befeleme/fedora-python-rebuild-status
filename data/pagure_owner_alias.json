@@ -3656,6 +3656,7 @@
         ],
         "OpenMesh": [
             "jussilehtola",
+            "rineau",
             "aekoroglu"
         ],
         "OpenMolcas": [
@@ -13060,7 +13061,7 @@
             "orphan"
         ],
         "cpmtools": [
-            "lucilanga"
+            "orphan"
         ],
         "cpp-hocon": [
             "orphan",
@@ -21624,10 +21625,10 @@
             "orphan"
         ],
         "fuse-emulator": [
-            "lucilanga"
+            "orphan"
         ],
         "fuse-emulator-utils": [
-            "lucilanga"
+            "orphan"
         ],
         "fuse-encfs": [
             "salimma",
@@ -46762,7 +46763,7 @@
             "churchyard"
         ],
         "lib765": [
-            "lucilanga"
+            "orphan"
         ],
         "libASL": [
             "orphan",
@@ -47824,7 +47825,7 @@
             "lkundrak"
         ],
         "libdsk": [
-            "lucilanga"
+            "orphan"
         ],
         "libdstr": [
             "mtasaka"
@@ -48263,7 +48264,7 @@
             "orphan"
         ],
         "libgeopm": [
-            "orphan"
+            "aekoroglu"
         ],
         "libgeopmd": [
             "aekoroglu"
@@ -49679,10 +49680,11 @@
             "orphan"
         ],
         "libnsl2": [
-            "osloup",
+            "anezbeda",
             "fjanus",
             "mmuzila",
-            "orion"
+            "orion",
+            "osloup"
         ],
         "libnss-mysql": [
             "ondrejj"
@@ -50736,7 +50738,7 @@
             "rdieter"
         ],
         "libspectrum": [
-            "lucilanga"
+            "orphan"
         ],
         "libspelling": [
             "carlwgeorge"
@@ -52152,8 +52154,7 @@
         "llvm14": [
             "nikic",
             "tstellar",
-            "kalev",
-            "jistone"
+            "kalev"
         ],
         "llvm15": [
             "frantisekz",
@@ -62857,7 +62858,9 @@
         "nodejs-nodemon": [
             "zvetlik",
             "jstanek",
-            "hhorak"
+            "hhorak",
+            "aradchen",
+            "tjuhasz"
         ],
         "nodejs-nomnom": [
             "orphan"
@@ -65052,9 +65055,10 @@
             "orphan"
         ],
         "nss_nis": [
-            "osloup",
+            "anezbeda",
             "fjanus",
-            "mmuzila"
+            "mmuzila",
+            "osloup"
         ],
         "nss_updatedb": [
             "kashyapc"
@@ -93990,6 +93994,9 @@
         "python-geoplot": [
             "orphan"
         ],
+        "python-geopmpy": [
+            "aekoroglu"
+        ],
         "python-geopy": [
             "ankursinha"
         ],
@@ -98466,6 +98473,7 @@
             "praiskup"
         ],
         "python-psycopg3": [
+            "anezbeda",
             "osloup"
         ],
         "python-pthreading": [
@@ -107354,6 +107362,9 @@
         "roca-detect": [
             "sdgathman"
         ],
+        "rocal": [
+            "trix"
+        ],
         "rocalution": [
             "trix"
         ],
@@ -107383,6 +107394,9 @@
         ],
         "rocksndiamonds": [
             "spot"
+        ],
+        "rocm": [
+            "trix"
         ],
         "rocm-cmake": [
             "tflink"
@@ -112662,6 +112676,9 @@
         "rust-const-random-macro": [
             "decathorpe"
         ],
+        "rust-const-str": [
+            "sbrivio"
+        ],
         "rust-const-str-proc-macro": [
             "sbrivio"
         ],
@@ -113682,7 +113699,7 @@
             "decathorpe"
         ],
         "rust-elasticlunr-rs": [
-            "orphan"
+            "decathorpe"
         ],
         "rust-elf": [
             "dcavalca"
@@ -117606,6 +117623,9 @@
         ],
         "rust-ndarray-stats": [
             "lecris"
+        ],
+        "rust-neli": [
+            "sbrivio"
         ],
         "rust-neli-proc-macros": [
             "sbrivio"
@@ -136300,21 +136320,23 @@
             "davidsch"
         ],
         "yp-tools": [
-            "osloup",
+            "anezbeda",
             "fjanus",
+            "osloup",
             "mmuzila",
             "pkubat"
         ],
         "ypbind": [
-            "osloup",
+            "anezbeda",
             "fjanus",
+            "osloup",
             "mmuzila",
             "pkubat"
         ],
         "ypserv": [
-            "osloup",
-            "fjanus",
             "anezbeda",
+            "fjanus",
+            "osloup",
             "mmuzila",
             "pkubat"
         ],

@@ -7,10 +7,6 @@
     "urls": [],
     "summaries": []
   },
-  "Macaulay2": {
-    "urls": [],
-    "summaries": []
-  },
   "Mayavi": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2351390"
@@ -19,19 +15,7 @@
       "Mayavi fails to build with Python 3.14: TestMayaviGarbageCollection.test_mlab_scene_model_with_gui: IndexError: list index out of range"
     ]
   },
-  "NiaAML-GUI": {
-    "urls": [],
-    "summaries": []
-  },
-  "OpenImageIO": {
-    "urls": [],
-    "summaries": []
-  },
   "ansible": {
-    "urls": [],
-    "summaries": []
-  },
-  "ansible-core": {
     "urls": [],
     "summaries": []
   },
@@ -79,10 +63,6 @@
       "borgbackup fails to build with Python 3.14: OSError: AF_UNIX path too long when compiling"
     ]
   },
-  "calibre": {
-    "urls": [],
-    "summaries": []
-  },
   "capstone": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2345714"
@@ -127,6 +107,10 @@
     "urls": [],
     "summaries": []
   },
+  "conda-build": {
+    "urls": [],
+    "summaries": []
+  },
   "copr-backend": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2351386"
@@ -142,10 +126,6 @@
     "summaries": [
       "criu: FTBFS in Fedora rawhide/f42"
     ]
-  },
-  "dblatex": {
-    "urls": [],
-    "summaries": []
   },
   "dee": {
     "urls": [
@@ -175,16 +155,6 @@
       "did fails to build with Python 3.14: AttributeError: module 'urllib.request' has no attribute 'FancyURLopener'"
     ]
   },
-  "dlib": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2340079",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2328014"
-    ],
-    "summaries": [
-      "dlib: FTBFS in Fedora rawhide/f42",
-      "dlib fails to build with Python 3.14: AttributeError: module 'pkgutil' has no attribute 'find_loader'"
-    ]
-  },
   "dogtag-pki": {
     "urls": [],
     "summaries": []
@@ -198,10 +168,6 @@
     "summaries": []
   },
   "gdl": {
-    "urls": [],
-    "summaries": []
-  },
-  "git-cola": {
     "urls": [],
     "summaries": []
   },
@@ -261,13 +227,17 @@
     "urls": [],
     "summaries": []
   },
-  "jsonnet": {
-    "urls": [],
-    "summaries": []
-  },
   "jupyterlab": {
     "urls": [],
     "summaries": []
+  },
+  "kernel": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2340285"
+    ],
+    "summaries": [
+      "kernel: FTBFS in Fedora rawhide/f42"
+    ]
   },
   "kicad": {
     "urls": [],
@@ -276,14 +246,6 @@
   "kmymoney": {
     "urls": [],
     "summaries": []
-  },
-  "koji": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2340700"
-    ],
-    "summaries": [
-      "koji: FTBFS in Fedora rawhide/f42"
-    ]
   },
   "kvirc": {
     "urls": [],
@@ -365,10 +327,6 @@
     "urls": [],
     "summaries": []
   },
-  "myst-nb": {
-    "urls": [],
-    "summaries": []
-  },
   "nanovna-saver": {
     "urls": [],
     "summaries": []
@@ -406,10 +364,6 @@
     ]
   },
   "openshadinglanguage": {
-    "urls": [],
-    "summaries": []
-  },
-  "openshot": {
     "urls": [],
     "summaries": []
   },
@@ -516,6 +470,14 @@
     ]
   },
   "pytest": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2353140"
+    ],
+    "summaries": [
+      "pytest fails to build with Python 3.14: mismatch of expected and actual strings in test output"
+    ]
+  },
+  "python-Automat": {
     "urls": [],
     "summaries": []
   },
@@ -542,10 +504,6 @@
     "summaries": [
       "python-aioflo: FTBFS in Fedora rawhide/f42"
     ]
-  },
-  "python-aiohttp-oauthlib": {
-    "urls": [],
-    "summaries": []
   },
   "python-aiokafka": {
     "urls": [
@@ -653,17 +611,17 @@
       "python-avocado fails to build with Python 3.14: Error running method \"pre_tests\" of plugin \"fetchasset\": module 'ast' has no attribute 'Str' + Avocado crashed: TypeError: cannot pickle '_thread.RLock' object"
     ]
   },
-  "python-aw-qt": {
-    "urls": [],
-    "summaries": []
-  },
   "python-awesomeversion": {
     "urls": [],
     "summaries": []
   },
   "python-aws-sam-translator": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2353126"
+    ],
+    "summaries": [
+      "python-aws-sam-translator fails to build with Python 3.14: 77 test failures, 4 error"
+    ]
   },
   "python-beartype": {
     "urls": [
@@ -799,10 +757,6 @@
       "python-commoncode fails to build with Python 3.14: tarfile.SpecialFileError: '6-FIFOTYPE' is a special file"
     ]
   },
-  "python-conda-index": {
-    "urls": [],
-    "summaries": []
-  },
   "python-conda-package-streaming": {
     "urls": [],
     "summaries": []
@@ -835,14 +789,6 @@
       "python-dataclassy fails to build with Python 3.14: TypeError: Beta() takes no arguments"
     ]
   },
-  "python-datrie": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-debianbts": {
-    "urls": [],
-    "summaries": []
-  },
   "python-deepdiff": {
     "urls": [],
     "summaries": []
@@ -851,11 +797,7 @@
     "urls": [],
     "summaries": []
   },
-  "python-devolo-home-control-api": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-dirty-equals": {
+  "python-dipy": {
     "urls": [],
     "summaries": []
   },
@@ -1011,14 +953,6 @@
       "python-giacpy: FTBFS in Fedora rawhide/f42"
     ]
   },
-  "python-git-revise": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2341157"
-    ],
-    "summaries": [
-      "python-git-revise: FTBFS in Fedora rawhide/f42"
-    ]
-  },
   "python-gitlab": {
     "urls": [],
     "summaries": []
@@ -1040,10 +974,6 @@
     ]
   },
   "python-gql": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-grip": {
     "urls": [],
     "summaries": []
   },
@@ -1076,8 +1006,12 @@
     ]
   },
   "python-httpcore": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2353138"
+    ],
+    "summaries": [
+      "python-httpcore fails to build with Python 3.14: AttributeError: 'typing.Union' object has no attribute '__module__' and no __dict__ for setting new attributes. Did you mean: '__reduce__'?"
+    ]
   },
   "python-icalendar": {
     "urls": [
@@ -1157,15 +1091,7 @@
       "python-josepy fails to build with Python 3.14: 6x ValueError: Field `alg` in JSONObject `Header` has no type annotation."
     ]
   },
-  "python-jupyter-client": {
-    "urls": [],
-    "summaries": []
-  },
   "python-jupyter-events": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-jupyter-kernel-singular": {
     "urls": [],
     "summaries": []
   },
@@ -1233,10 +1159,6 @@
       "python-msgspec fails to build with Python 3.14: error: \u2018_Py_IMMORTAL_REFCNT\u2019 undeclared here"
     ]
   },
-  "python-multiprocess": {
-    "urls": [],
-    "summaries": []
-  },
   "python-nbclient": {
     "urls": [],
     "summaries": []
@@ -1250,8 +1172,12 @@
     ]
   },
   "python-nest-asyncio": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2353141"
+    ],
+    "summaries": [
+      "python-nest-asyncio fails to build with Python 3.14: test_timeout: RuntimeError: Timeout should be used inside a task"
+    ]
   },
   "python-netmiko": {
     "urls": [],
@@ -1409,10 +1335,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-pydoctor": {
-    "urls": [],
-    "summaries": []
-  },
   "python-pyemd": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2319698"
@@ -1420,10 +1342,6 @@
     "summaries": [
       "python-pyemd fails to build with setuptools 74+"
     ]
-  },
-  "python-pyface": {
-    "urls": [],
-    "summaries": []
   },
   "python-pyforgejo": {
     "urls": [],
@@ -1500,14 +1418,6 @@
     "summaries": [
       "python-pyphi: FTBFS in Fedora rawhide/f42"
     ]
-  },
-  "python-pyqt6-charts": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-pyqt6-webengine": {
-    "urls": [],
-    "summaries": []
   },
   "python-pyrad": {
     "urls": [],
@@ -1601,10 +1511,6 @@
       "python-pyvlx fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
     ]
   },
-  "python-qcustomplot-pyqt": {
-    "urls": [],
-    "summaries": []
-  },
   "python-rdflib": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2343978",
@@ -1668,8 +1574,12 @@
     ]
   },
   "python-robotframework": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2353194"
+    ],
+    "summaries": [
+      "python-robotframework fails to build with Python 3.14: TypeError: 'member_descriptor' object is not iterable, AssertionError: getset_descriptor != Union"
+    ]
   },
   "python-rope": {
     "urls": [
@@ -1732,15 +1642,11 @@
     "summaries": []
   },
   "python-scikit-learn": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-setproctitle": {
     "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2341212"
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2353125"
     ],
     "summaries": [
-      "python-setproctitle: FTBFS in Fedora rawhide/f42"
+      "python-scikit-learn fails to build with Python 3.14: AssertionError in test_warn_if_metric_bool_data_no_bool and test_open_openml_url_retry_on_network_error"
     ]
   },
   "python-shortuuid": {
@@ -1760,8 +1666,12 @@
     "summaries": []
   },
   "python-sphinx": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2353144"
+    ],
+    "summaries": [
+      "python-sphinx fails to build with Python 3.14: multiple test failures"
+    ]
   },
   "python-sqlalchemy": {
     "urls": [
@@ -1777,14 +1687,6 @@
     ],
     "summaries": [
       "python-sqlalchemy1.4 fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
-    ]
-  },
-  "python-ssh-python": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2350333"
-    ],
-    "summaries": [
-      "python-ssh-python fails to build with Python 3.14: SessionTest.test_set_timeout: ssh.exceptions.SSHError: (-1, b'Invalid argument in ssh_options_set')"
     ]
   },
   "python-stack-data": {
@@ -1820,8 +1722,12 @@
     ]
   },
   "python-streamlink": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2353127"
+    ],
+    "summaries": [
+      "python-streamlink fails to build with Python 3.14: test_deprecated: AssetionError: Left contains one more item: <warnings.WarningMessage object at 0x7fd80afa3410>"
+    ]
   },
   "python-svg2tikz": {
     "urls": [],
@@ -1840,8 +1746,12 @@
     ]
   },
   "python-testtools": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2353143"
+    ],
+    "summaries": [
+      "python-testtools fails to build with Python 3.14: test_testcase_equals_edgecase: TypeError: NotImplemented should not be used in a boolean context"
+    ]
   },
   "python-toml-cli": {
     "urls": [],
@@ -1862,10 +1772,6 @@
     "summaries": [
       "python-tornado fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
     ]
-  },
-  "python-tox": {
-    "urls": [],
-    "summaries": []
   },
   "python-twisted": {
     "urls": [
@@ -1925,10 +1831,6 @@
       "python-uvloop fails to build with Python 3.14: AttributeError: module 'asyncio' has no attribute 'AbstractChildWatcher'"
     ]
   },
-  "python-virtualenv": {
-    "urls": [],
-    "summaries": []
-  },
   "python-webob": {
     "urls": [],
     "summaries": []
@@ -1960,10 +1862,6 @@
     "summaries": [
       "python-zict fails to build with Python 3.14: test_stress_different_keys_threadsafe Timeout"
     ]
-  },
-  "python-zombie-imp": {
-    "urls": [],
-    "summaries": []
   },
   "python-zope-deprecation": {
     "urls": [],
@@ -2017,14 +1915,6 @@
       "pythran: FTBFS in Fedora rawhide/f42"
     ]
   },
-  "qgis": {
-    "urls": [],
-    "summaries": []
-  },
-  "qscintilla": {
-    "urls": [],
-    "summaries": []
-  },
   "qtile": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2328711"
@@ -2032,10 +1922,6 @@
     "summaries": [
       "qtile fails to build with Python 3.14: _pickle.PicklingError: Can't pickle local object <function TestManager.start.<locals>.run_qtile at 0x7f9c5918fed0>"
     ]
-  },
-  "quodlibet": {
-    "urls": [],
-    "summaries": []
   },
   "rapidyaml": {
     "urls": [],
@@ -2089,14 +1975,6 @@
       "strongswan-5.9.14-5.fc42 FTBFS: strongswan-5.9.14/missing: line 81: aclocal-1.16: command not found"
     ]
   },
-  "sudo": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2341397"
-    ],
-    "summaries": [
-      "sudo: FTBFS in Fedora rawhide/f42"
-    ]
-  },
   "swift-lang": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2341403"
@@ -2106,14 +1984,6 @@
     ]
   },
   "sword": {
-    "urls": [],
-    "summaries": []
-  },
-  "sympy": {
-    "urls": [],
-    "summaries": []
-  },
-  "texworks": {
     "urls": [],
     "summaries": []
   },
