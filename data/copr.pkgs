@@ -145,7 +145,7 @@ cm_rgb	succeeded
 cmake	succeeded
 cobbler	succeeded
 coccinelle	succeeded
-cockpit	running
+cockpit	failed
 codespell	succeeded
 coin-or-HiGHS	succeeded
 colin	succeeded
@@ -225,6 +225,7 @@ electron-cash	succeeded
 electrum	succeeded
 elements	succeeded
 elements-alexandria	succeeded
+emacs-jedi	succeeded
 enjarify	succeeded
 enki	succeeded
 ephemeral-port-reserve	failed
@@ -515,7 +516,7 @@ liquidctl	succeeded
 lirc	succeeded
 litecli	succeeded
 livecd-tools	succeeded
-llvm	failed
+llvm	running
 lollypop	succeeded
 loook	succeeded
 lorax	succeeded
@@ -533,7 +534,7 @@ marshalparser	succeeded
 mat2	succeeded
 mate-menu	succeeded
 mathgl	succeeded
-maturin	succeeded
+maturin	failed
 mcomix3	succeeded
 med	failed
 meld	succeeded
@@ -720,11 +721,11 @@ py3status	succeeded
 pyOpenSSL	succeeded
 pyatspi	succeeded
 pyaudio	succeeded
-pybind11	failed
+pybind11	succeeded
 pybluez	succeeded
 pybox2d	succeeded
 pybugz	succeeded
-pycairo	failed
+pycairo	succeeded
 pycanberra	succeeded
 pychess	failed
 pychromecast	failed
@@ -990,7 +991,7 @@ python-attrs	succeeded
 python-audioread	succeeded
 python-augeas	succeeded
 python-authheaders	succeeded
-python-authlib	failed
+python-authlib	succeeded
 python-authres	succeeded
 python-autobahn	failed
 python-autocommand	failed
@@ -1451,7 +1452,7 @@ python-digitalocean	succeeded
 python-dijitso	succeeded
 python-dill	succeeded
 python-dingz	succeeded
-python-dipy	failed
+python-dipy	succeeded
 python-dirhash	succeeded
 python-dirq	succeeded
 python-dirty-equals	succeeded
@@ -1587,6 +1588,7 @@ python-enturclient	succeeded
 python-environs	succeeded
 python-envisage	succeeded
 python-enzyme	succeeded
+python-epc	succeeded
 python-ephem	succeeded
 python-ephyviewer	succeeded
 python-epi	succeeded
@@ -1656,7 +1658,7 @@ python-flake8-import-order	succeeded
 python-flake8-polyfill	succeeded
 python-flake8-quotes	succeeded
 python-flaky	succeeded
-python-flask	failed
+python-flask	succeeded
 python-flask-admin	succeeded
 python-flask-babel	succeeded
 python-flask-caching	failed
@@ -1743,6 +1745,7 @@ python-gemfileparser2	succeeded
 python-genshi	succeeded
 python-geoip2	succeeded
 python-geojson	succeeded
+python-geopmpy	succeeded
 python-geopy	succeeded
 python-gerritlib	succeeded
 python-gertty	succeeded
@@ -1869,7 +1872,7 @@ python-hypothesmith	succeeded
 python-i3ipc	succeeded
 python-ibm-cloud-sdk-core	succeeded
 python-ibm-vpc	succeeded
-python-icalendar	failed
+python-icalendar	succeeded
 python-icmplib	succeeded
 python-icoextract	succeeded
 python-id	succeeded
@@ -1898,7 +1901,7 @@ python-inflection	succeeded
 python-influxdb	succeeded
 python-influxdb-client	succeeded
 python-iniconfig	succeeded
-python-iniparse	failed
+python-iniparse	succeeded
 python-inject	failed
 python-injector	failed
 python-inkex	succeeded
@@ -2002,7 +2005,7 @@ python-jupyter-cache	succeeded
 python-jupyter-client	succeeded
 python-jupyter-console	succeeded
 python-jupyter-core	succeeded
-python-jupyter-events	failed
+python-jupyter-events	succeeded
 python-jupyter-kernel-singular	succeeded
 python-jupyter-kernel-test	succeeded
 python-jupyter-lsp	succeeded
@@ -2150,7 +2153,7 @@ python-matrix-nio	succeeded
 python-matrix-synapse-ldap3	succeeded
 python-maxminddb	succeeded
 python-mbstrdecoder	succeeded
-python-mccabe	failed
+python-mccabe	succeeded
 python-mdit-py-plugins	succeeded
 python-mdurl	succeeded
 python-mdx_gh_links	succeeded
@@ -2233,7 +2236,7 @@ python-mrcfile	succeeded
 python-mrcrowbar	succeeded
 python-msal	failed
 python-msgpack	succeeded
-python-msgspec	failed
+python-msgspec	succeeded
 python-msldap	succeeded
 python-msrest	succeeded
 python-msrestazure	succeeded
@@ -2413,7 +2416,7 @@ python-palettable	succeeded
 python-pam	succeeded
 python-pamela	failed
 python-pamqp	succeeded
-python-pandas	failed
+python-pandas	succeeded
 python-pandas-datareader	succeeded
 python-pandocfilters	succeeded
 python-paperwork-backend	succeeded
@@ -2608,8 +2611,8 @@ python-pycparser	succeeded
 python-pycryptodomex	succeeded
 python-pycurl	failed
 python-pycxx	succeeded
-python-pydantic	failed
-python-pydantic-core	failed
+python-pydantic	succeeded
+python-pydantic-core	succeeded
 python-pydantic-settings	failed
 python-pydapsys	succeeded
 python-pydata-sphinx-theme	succeeded
@@ -2794,7 +2797,7 @@ python-pytest-aiohttp	failed
 python-pytest-arraydiff	succeeded
 python-pytest-astropy	succeeded
 python-pytest-astropy-header	succeeded
-python-pytest-asyncio	failed
+python-pytest-asyncio	succeeded
 python-pytest-bdd	succeeded
 python-pytest-benchmark	succeeded
 python-pytest-cache	succeeded
@@ -3046,7 +3049,7 @@ python-schedutils	succeeded
 python-schema	succeeded
 python-scikit-build	failed
 python-scikit-build-core	failed
-python-scikit-learn	failed
+python-scikit-learn	succeeded
 python-scikit-misc	succeeded
 python-scikit-uplift	succeeded
 python-scitokens	succeeded
@@ -3372,6 +3375,7 @@ python-trololio	succeeded
 python-trove-classifiers	succeeded
 python-trustme	succeeded
 python-trx-python	succeeded
+python-ttfautohint-py	succeeded
 python-tubes	succeeded
 python-tvb-data	succeeded
 python-tvb-gdist	succeeded
@@ -3380,7 +3384,7 @@ python-tw2-forms	succeeded
 python-twiggy	succeeded
 python-twilio	succeeded
 python-twine	succeeded
-python-twisted	failed
+python-twisted	succeeded
 python-txaio	failed
 python-txredisapi	succeeded
 python-txws	succeeded
@@ -3596,10 +3600,10 @@ python-zope-hookable	succeeded
 python-zope-i18nmessageid	failed
 python-zope-interface	succeeded
 python-zope-sqlalchemy	succeeded
-python-zope-testing	failed
+python-zope-testing	succeeded
 python-zope-testrunner	failed
 python-zopfli	succeeded
-python-zstandard	failed
+python-zstandard	succeeded
 python-zstarfile	succeeded
 python-zstd	succeeded
 python-zuul-sphinx	succeeded
@@ -3690,7 +3694,7 @@ rst2txt	succeeded
 rteval	succeeded
 rtlsdr-scanner	succeeded
 rubber	succeeded
-ruff	succeeded
+ruff	failed
 rust2rpm	succeeded
 s-tui	succeeded
 s3cmd	succeeded
@@ -3874,7 +3878,7 @@ xen	succeeded
 xmms2	succeeded
 xonsh	succeeded
 xortool	succeeded
-xpra	running
+xpra	failed
 xrootd	succeeded
 xwayland-run	succeeded
 yamllint	succeeded
