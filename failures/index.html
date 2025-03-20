@@ -829,17 +829,15 @@
                 </td>
             </tr>
         
-            <tr id="row-llvm">
-                <td>llvm</td>
+            <tr id="row-maturin">
+                <td>maturin</td>
                 <td>🟠</td>
                 <td>
-                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/llvm/">
-                        Copr - llvm
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/maturin/">
+                        Copr - maturin
                     </a>
                 </td>
                 <td class="max-width-column">
-                    
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2336915">llvm fails to build with Python 3.14: tools/opt-viewer/suppress.test: AttributeError: type object &#39;Passed&#39; has no attribute &#39;demangler_lock&#39;</a><br>
                     
                 </td>
             </tr>
@@ -1107,36 +1105,6 @@
                 </td>
             </tr>
         
-            <tr id="row-pybind11">
-                <td>pybind11</td>
-                <td>🟠</td>
-                <td>
-                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/pybind11/">
-                        Copr - pybind11
-                    </a>
-                </td>
-                <td class="max-width-column">
-                    
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2336889">pybind11 fails to build with Python 3.14: AttributeError: &#39;pybind11_tests.pickling.PickleableWithDict&#39; object has no attribute &#39;dynamic&#39; + AssertionError</a><br>
-                    
-                </td>
-            </tr>
-        
-            <tr id="row-pycairo">
-                <td>pycairo</td>
-                <td>🟠</td>
-                <td>
-                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/pycairo/">
-                        Copr - pycairo
-                    </a>
-                </td>
-                <td class="max-width-column">
-                    
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2322709">pycairo fails to build with Python 3.14: ImportError: cannot import name &#39;ByteString&#39; from &#39;typing&#39;</a><br>
-                    
-                </td>
-            </tr>
-        
             <tr id="row-pychess">
                 <td>pychess</td>
                 <td>🔴</td>
@@ -1260,6 +1228,8 @@
                     </a>
                 </td>
                 <td class="max-width-column">
+                    
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2350306">Heads-up: python-TestSlide fails to build with python-pygments 2.19.1 on Fedora 43</a><br>
                     
                     <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2343971">python-TestSlide fails to build with Python 3.14: ERROR collecting tests/mock_callable_testslide.py: RuntimeError: dictionary changed size during iteration</a><br>
                     
@@ -1462,19 +1432,6 @@
                 <td class="max-width-column">
                     
                     <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2341128">python-atomicwrites: FTBFS in Fedora rawhide/f42</a><br>
-                    
-                </td>
-            </tr>
-        
-            <tr id="row-python-authlib">
-                <td>python-authlib</td>
-                <td>🟠</td>
-                <td>
-                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/python-authlib/">
-                        Copr - python-authlib
-                    </a>
-                </td>
-                <td class="max-width-column">
                     
                 </td>
             </tr>
@@ -1939,19 +1896,6 @@
                 </td>
             </tr>
         
-            <tr id="row-python-dipy">
-                <td>python-dipy</td>
-                <td>🟠</td>
-                <td>
-                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/python-dipy/">
-                        Copr - python-dipy
-                    </a>
-                </td>
-                <td class="max-width-column">
-                    
-                </td>
-            </tr>
-        
             <tr id="row-python-django-allauth">
                 <td>python-django-allauth</td>
                 <td>🟠</td>
@@ -2213,21 +2157,6 @@
                 </td>
             </tr>
         
-            <tr id="row-python-flask">
-                <td>python-flask</td>
-                <td>🟠</td>
-                <td>
-                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/python-flask/">
-                        Copr - python-flask
-                    </a>
-                </td>
-                <td class="max-width-column">
-                    
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2327965">python-flask fails to build with Python 3.14: AttributeError: module &#39;pkgutil&#39; has no attribute &#39;get_loader&#39;</a><br>
-                    
-                </td>
-            </tr>
-        
             <tr id="row-python-flask-caching">
                 <td>python-flask-caching</td>
                 <td>🟠</td>
@@ -2454,21 +2383,6 @@
                 </td>
             </tr>
         
-            <tr id="row-python-icalendar">
-                <td>python-icalendar</td>
-                <td>🟠</td>
-                <td>
-                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/python-icalendar/">
-                        Copr - python-icalendar
-                    </a>
-                </td>
-                <td class="max-width-column">
-                    
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2336946">python-icalendar: FTBFS in Fedora Rawhide: AssertionError: assert &#39;WET&#39; in (&#39;Europe/Lisbon&#39;, &#39;Portugal&#39;)  where (&#39;Europe/Lisbon&#39;, &#39;Portugal&#39;) = tzids_from_tzinfo(tzfile(&#39;/usr/share/zoneinfo/WET&#39;))</a><br>
-                    
-                </td>
-            </tr>
-        
             <tr id="row-python-imbalanced-learn">
                 <td>python-imbalanced-learn</td>
                 <td>🔴</td>
@@ -2493,21 +2407,6 @@
                 <td class="max-width-column">
                     
                     <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2328707">python-img2pdf fails to build in rawhide: 48 AssertionErrors</a><br>
-                    
-                </td>
-            </tr>
-        
-            <tr id="row-python-iniparse">
-                <td>python-iniparse</td>
-                <td>🟠</td>
-                <td>
-                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/python-iniparse/">
-                        Copr - python-iniparse
-                    </a>
-                </td>
-                <td class="max-width-column">
-                    
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2323164">python-iniparse fails to build with Python 3.14: _pickle.PicklingError: Can&#39;t pickle local object &lt;function TestIni.test_queue.&lt;locals&gt;.getxy at 0x7f86659a7740&gt;</a><br>
                     
                 </td>
             </tr>
@@ -2626,19 +2525,6 @@
                 </td>
             </tr>
         
-            <tr id="row-python-jupyter-events">
-                <td>python-jupyter-events</td>
-                <td>🟠</td>
-                <td>
-                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/python-jupyter-events/">
-                        Copr - python-jupyter-events
-                    </a>
-                </td>
-                <td class="max-width-column">
-                    
-                </td>
-            </tr>
-        
             <tr id="row-python-jupyter-server">
                 <td>python-jupyter-server</td>
                 <td>🟠</td>
@@ -2723,21 +2609,6 @@
                 </td>
             </tr>
         
-            <tr id="row-python-mccabe">
-                <td>python-mccabe</td>
-                <td>🟠</td>
-                <td>
-                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/python-mccabe/">
-                        Copr - python-mccabe
-                    </a>
-                </td>
-                <td class="max-width-column">
-                    
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2328016">python-mccabe fails to build with Python 3.14: AttributeError: module &#39;typing&#39; has no attribute &#39;ByteString&#39;</a><br>
-                    
-                </td>
-            </tr>
-        
             <tr id="row-python-metakernel">
                 <td>python-metakernel</td>
                 <td>🔴</td>
@@ -2762,21 +2633,6 @@
                 <td class="max-width-column">
                     
                     <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2323170">python-msal fails to build with Python 3.14: test_no_two_concurrent_receivers_can_listen_on_same_port: AssertionError: OSError not raised</a><br>
-                    
-                </td>
-            </tr>
-        
-            <tr id="row-python-msgspec">
-                <td>python-msgspec</td>
-                <td>🟠</td>
-                <td>
-                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/python-msgspec/">
-                        Copr - python-msgspec
-                    </a>
-                </td>
-                <td class="max-width-column">
-                    
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2325169">python-msgspec fails to build with Python 3.14: error: ‘_Py_IMMORTAL_REFCNT’ undeclared here</a><br>
                     
                 </td>
             </tr>
@@ -2981,21 +2837,6 @@
                 </td>
             </tr>
         
-            <tr id="row-python-pandas">
-                <td>python-pandas</td>
-                <td>🟠</td>
-                <td>
-                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/python-pandas/">
-                        Copr - python-pandas
-                    </a>
-                </td>
-                <td class="max-width-column">
-                    
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2341179">python-pandas: FTBFS in Fedora rawhide/f42</a><br>
-                    
-                </td>
-            </tr>
-        
             <tr id="row-python-pika">
                 <td>python-pika</td>
                 <td>🔴</td>
@@ -3125,34 +2966,6 @@
                 </td>
             </tr>
         
-            <tr id="row-python-pydantic">
-                <td>python-pydantic</td>
-                <td>🟠</td>
-                <td>
-                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/python-pydantic/">
-                        Copr - python-pydantic
-                    </a>
-                </td>
-                <td class="max-width-column">
-                    
-                </td>
-            </tr>
-        
-            <tr id="row-python-pydantic-core">
-                <td>python-pydantic-core</td>
-                <td>🟠</td>
-                <td>
-                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/python-pydantic-core/">
-                        Copr - python-pydantic-core
-                    </a>
-                </td>
-                <td class="max-width-column">
-                    
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2325425">python-pydantic-core fails to build with Python 3.14: AssertionError: Regex pattern did not match. + AttributeError: module &#39;typing&#39; has no attribute &#39;ByteString&#39;</a><br>
-                    
-                </td>
-            </tr>
-        
             <tr id="row-python-pydantic-settings">
                 <td>python-pydantic-settings</td>
                 <td>🔴</td>
@@ -3203,6 +3016,8 @@
                     </a>
                 </td>
                 <td class="max-width-column">
+                    
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2350300">Heads-up: python-pymdown-extensions fails to build with python-pygments 2.19.1 on Fedora 43</a><br>
                     
                     <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2336948">python-pymdown-extensions fails to build with Python 3.14: TestAbsolute.test_relative_path and TestAbsoluteFileScheme.test_relative_path AssertionErrors</a><br>
                     
@@ -3428,21 +3243,6 @@
                 </td>
             </tr>
         
-            <tr id="row-python-pytest-asyncio">
-                <td>python-pytest-asyncio</td>
-                <td>🟠</td>
-                <td>
-                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/python-pytest-asyncio/">
-                        Copr - python-pytest-asyncio
-                    </a>
-                </td>
-                <td class="max-width-column">
-                    
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2342564">python-pytest-asyncio fails to build with Python 3.14: DeprecationWarning: &#39;asyncio.get_event_loop_policy&#39; is deprecated and slated for removal in Python 3.16</a><br>
-                    
-                </td>
-            </tr>
-        
             <tr id="row-python-pytest-django">
                 <td>python-pytest-django</td>
                 <td>🟠</td>
@@ -3655,6 +3455,8 @@
                 </td>
                 <td class="max-width-column">
                     
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2350303">Heads-up: python-rich fails to build with python-pygments 2.19.1 on Fedora 43</a><br>
+                    
                     <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2339510">python-rich fails to build with Python 3.14: 5 test fail</a><br>
                     
                 </td>
@@ -3804,21 +3606,6 @@
                 </td>
             </tr>
         
-            <tr id="row-python-scikit-learn">
-                <td>python-scikit-learn</td>
-                <td>🟠</td>
-                <td>
-                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/python-scikit-learn/">
-                        Copr - python-scikit-learn
-                    </a>
-                </td>
-                <td class="max-width-column">
-                    
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2353125">python-scikit-learn fails to build with Python 3.14: AssertionError in test_warn_if_metric_bool_data_no_bool and test_open_openml_url_retry_on_network_error</a><br>
-                    
-                </td>
-            </tr>
-        
             <tr id="row-python-shortuuid">
                 <td>python-shortuuid</td>
                 <td>🟠</td>
@@ -3914,6 +3701,8 @@
                     </a>
                 </td>
                 <td class="max-width-column">
+                    
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2350304">Heads-up: python-stack-data fails to build with python-pygments 2.19.1 on Fedora 43</a><br>
                     
                     <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2345532">python-stack-data fails to build with Python 3.14: test_example: IndexError: list index out of range</a><br>
                     
@@ -4075,21 +3864,6 @@
                 <td class="max-width-column">
                     
                     <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2327969">python-tornado fails to build with Python 3.14: RuntimeError: There is no current event loop in thread &#39;MainThread&#39;.</a><br>
-                    
-                </td>
-            </tr>
-        
-            <tr id="row-python-twisted">
-                <td>python-twisted</td>
-                <td>🟠</td>
-                <td>
-                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/python-twisted/">
-                        Copr - python-twisted
-                    </a>
-                </td>
-                <td class="max-width-column">
-                    
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2342754">python-twisted fails to build with Python 3.14: RuntimeError: There is no current event loop in thread &#39;MainThread&#39;. + more</a><br>
                     
                 </td>
             </tr>
@@ -4311,21 +4085,6 @@
                 </td>
             </tr>
         
-            <tr id="row-python-zope-testing">
-                <td>python-zope-testing</td>
-                <td>🟠</td>
-                <td>
-                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/python-zope-testing/">
-                        Copr - python-zope-testing
-                    </a>
-                </td>
-                <td class="max-width-column">
-                    
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2341242">python-zope-testing: FTBFS in Fedora rawhide/f42</a><br>
-                    
-                </td>
-            </tr>
-        
             <tr id="row-python-zope-testrunner">
                 <td>python-zope-testrunner</td>
                 <td>🟠</td>
@@ -4337,21 +4096,6 @@
                 <td class="max-width-column">
                     
                     <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2335907">python-zope-testrunner fails to build with Python 3.14: difference in the asserted content in testrunner-edge-cases.rst</a><br>
-                    
-                </td>
-            </tr>
-        
-            <tr id="row-python-zstandard">
-                <td>python-zstandard</td>
-                <td>🟠</td>
-                <td>
-                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/python-zstandard/">
-                        Copr - python-zstandard
-                    </a>
-                </td>
-                <td class="max-width-column">
-                    
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2326925">python-zstandard fails to build with Python 3.14: ImportError: cannot import name &#39;ByteString&#39; from &#39;typing&#39;</a><br>
                     
                 </td>
             </tr>
@@ -4446,6 +4190,19 @@
                 <td>
                     <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/rrdtool/">
                         Copr - rrdtool
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-ruff">
+                <td>ruff</td>
+                <td>🟠</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/ruff/">
+                        Copr - ruff
                     </a>
                 </td>
                 <td class="max-width-column">
@@ -4718,7 +4475,7 @@
     <hr>
     <footer>
       <p>Maintained by <a href="https://github.com/befeleme">@befeleme</a>, source on <a href="https://github.com/befeleme/fedora-python-rebuild-status">GitHub</a>.</p>
-      <p>Last updated on <span class="date">2025-03-19 03:40:35.625972</span> (updated daily)</p>
+      <p>Last updated on <span class="date">2025-03-20 03:39:05.104737</span> (updated daily)</p>
     </footer>
   </div>
 </body>
