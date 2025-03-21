@@ -231,14 +231,6 @@
     "urls": [],
     "summaries": []
   },
-  "kernel": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2340285"
-    ],
-    "summaries": [
-      "kernel: FTBFS in Fedora rawhide/f42"
-    ]
-  },
   "kicad": {
     "urls": [],
     "summaries": []
@@ -296,10 +288,6 @@
     "summaries": []
   },
   "libyui": {
-    "urls": [],
-    "summaries": []
-  },
-  "maturin": {
     "urls": [],
     "summaries": []
   },
@@ -456,10 +444,6 @@
     "summaries": [
       "pytest fails to build with Python 3.14: mismatch of expected and actual strings in test output"
     ]
-  },
-  "python-Automat": {
-    "urls": [],
-    "summaries": []
   },
   "python-TestSlide": {
     "urls": [
@@ -627,10 +611,6 @@
       "python-billiard fails to build with Python 3.14: AttributeError: module 'subprocess' has no attribute '_USE_VFORK'"
     ]
   },
-  "python-binary-memcached": {
-    "urls": [],
-    "summaries": []
-  },
   "python-blinker": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2325193"
@@ -638,10 +618,6 @@
     "summaries": [
       "python-blinker fails to build with Python 3.14: pluggy.PluggyTeardownRaisedWarning: A plugin raised an exception during an old-style hookwrapper teardown."
     ]
-  },
-  "python-boto": {
-    "urls": [],
-    "summaries": []
   },
   "python-boto3": {
     "urls": [],
@@ -1237,10 +1213,6 @@
       "python-pycec fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
     ]
   },
-  "python-pycurl": {
-    "urls": [],
-    "summaries": []
-  },
   "python-pydantic-settings": {
     "urls": [],
     "summaries": []
@@ -1479,14 +1451,6 @@
       "python-rich fails to build with Python 3.14: 5 test fail"
     ]
   },
-  "python-robotframework": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2353194"
-    ],
-    "summaries": [
-      "python-robotframework fails to build with Python 3.14: TypeError: 'member_descriptor' object is not iterable, AssertionError: getset_descriptor != Union"
-    ]
-  },
   "python-rope": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2351391"
@@ -1569,14 +1533,6 @@
     ],
     "summaries": [
       "python-sphinx fails to build with Python 3.14: multiple test failures"
-    ]
-  },
-  "python-sqlalchemy": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2350336"
-    ],
-    "summaries": [
-      "python-sqlalchemy fails to build with Python 3.14: _pickle.PicklingError: Can't pickle local object <function profile_memory.<locals>.decorate.<locals>.profile at 0x7f0f43d5d170> + typing + more"
     ]
   },
   "python-sqlalchemy1.4": {
@@ -1823,10 +1779,6 @@
     "urls": [],
     "summaries": []
   },
-  "ruff": {
-    "urls": [],
-    "summaries": []
-  },
   "satyr": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2325452"
@@ -1846,14 +1798,6 @@
   "smoldyn": {
     "urls": [],
     "summaries": []
-  },
-  "strongswan": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2332864"
-    ],
-    "summaries": [
-      "strongswan-5.9.14-5.fc42 FTBFS: strongswan-5.9.14/missing: line 81: aclocal-1.16: command not found"
-    ]
   },
   "swift-lang": {
     "urls": [
