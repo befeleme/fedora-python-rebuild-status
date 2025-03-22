@@ -244,8 +244,12 @@
     "summaries": []
   },
   "lazygal": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2354084"
+    ],
+    "summaries": [
+      "lazygal FTBFS due to missing tox configuration"
+    ]
   },
   "libarcus": {
     "urls": [
@@ -290,6 +294,14 @@
   "libyui": {
     "urls": [],
     "summaries": []
+  },
+  "llvm": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2336915"
+    ],
+    "summaries": [
+      "llvm fails to build with Python 3.14: tools/opt-viewer/suppress.test: AttributeError: type object 'Passed' has no attribute 'demangler_lock'"
+    ]
   },
   "med": {
     "urls": [],
@@ -336,8 +348,12 @@
     "summaries": []
   },
   "onnx": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2354087"
+    ],
+    "summaries": [
+      "onnx FTBFS due to missing tox configuration"
+    ]
   },
   "openbabel": {
     "urls": [
@@ -498,6 +514,14 @@
   "python-apsw": {
     "urls": [],
     "summaries": []
+  },
+  "python-archinfo": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2354093"
+    ],
+    "summaries": [
+      "python-archinfo FTBFS due to missing tox configuration"
+    ]
   },
   "python-asgiref": {
     "urls": [
@@ -832,8 +856,12 @@
     ]
   },
   "python-eth-stdlib": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2354105"
+    ],
+    "summaries": [
+      "python-eth-stdlib FTBFS due to missing tox configuration"
+    ]
   },
   "python-executing": {
     "urls": [
@@ -1533,6 +1561,14 @@
     ],
     "summaries": [
       "python-sphinx fails to build with Python 3.14: multiple test failures"
+    ]
+  },
+  "python-sqlalchemy": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2350336"
+    ],
+    "summaries": [
+      "python-sqlalchemy fails to build with Python 3.14: _pickle.PicklingError: Can't pickle local object <function profile_memory.<locals>.decorate.<locals>.profile at 0x7f0f43d5d170> + typing + more"
     ]
   },
   "python-sqlalchemy1.4": {
