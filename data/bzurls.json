@@ -31,13 +31,9 @@
       "ara fails to build with Python 3.14: AttributeError: module 'pkgutil' has no attribute 'find_loader'"
     ]
   },
-  "awscli2": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2336910"
-    ],
-    "summaries": [
-      "awscli2 fails to build with Python 3.14: ValueError('badly formed help string'),  KeyError: 'PATH'"
-    ]
+  "audiotube": {
+    "urls": [],
+    "summaries": []
   },
   "bandit": {
     "urls": [
@@ -178,6 +174,10 @@
     "summaries": [
       "gnofract4d fails to build with Python 3.14: AssertionError: 'ct_sin6 = (0.841471,-0)' != 'ct_sin6 = (0.841471,0)'"
     ]
+  },
+  "go-vendor-tools": {
+    "urls": [],
+    "summaries": []
   },
   "graphviz": {
     "urls": [],
@@ -1700,6 +1700,10 @@
     "summaries": [
       "python-typing-inspect fails to build with Python 3.14: AssertionError: {} != {'x': <class 'int'>, 'y': <class 'int'>}"
     ]
+  },
+  "python-ua-parser": {
+    "urls": [],
+    "summaries": []
   },
   "python-ufoLib2": {
     "urls": [],
