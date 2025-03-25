@@ -180,8 +180,12 @@
     "summaries": []
   },
   "graphviz": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2337711"
+    ],
+    "summaries": [
+      "graphviz-12.2.1-3.fc43 FTBFS with Tcl/Tk 9.0"
+    ]
   },
   "h5py": {
     "urls": [
@@ -230,6 +234,14 @@
   "jupyterlab": {
     "urls": [],
     "summaries": []
+  },
+  "kernel": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2340285"
+    ],
+    "summaries": [
+      "kernel: FTBFS in Fedora rawhide/f42"
+    ]
   },
   "kicad": {
     "urls": [],
@@ -295,14 +307,6 @@
     "urls": [],
     "summaries": []
   },
-  "llvm": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2336915"
-    ],
-    "summaries": [
-      "llvm fails to build with Python 3.14: tools/opt-viewer/suppress.test: AttributeError: type object 'Passed' has no attribute 'demangler_lock'"
-    ]
-  },
   "med": {
     "urls": [],
     "summaries": []
@@ -332,7 +336,7 @@
       "https://bugzilla.redhat.com/show_bug.cgi?id=2340913"
     ],
     "summaries": [
-      "needrestart: FTBFS in Fedora rawhide/f42"
+      "needrestart-3.8-1.fc43 FTBFS: File not found: /builddir/build/BUILD/needrestart-3.8-build/BUILDROOT/usr/bin/needrestart"
     ]
   },
   "neuron": {
@@ -364,10 +368,6 @@
     ]
   },
   "openshadinglanguage": {
-    "urls": [],
-    "summaries": []
-  },
-  "opentrep": {
     "urls": [],
     "summaries": []
   },
@@ -755,6 +755,10 @@
     "urls": [],
     "summaries": []
   },
+  "python-curtsies": {
+    "urls": [],
+    "summaries": []
+  },
   "python-cvxopt": {
     "urls": [],
     "summaries": []
@@ -982,6 +986,10 @@
     "summaries": [
       "python-httpcore fails to build with Python 3.14: AttributeError: 'typing.Union' object has no attribute '__module__' and no __dict__ for setting new attributes. Did you mean: '__reduce__'?"
     ]
+  },
+  "python-ibm-vpc": {
+    "urls": [],
+    "summaries": []
   },
   "python-imbalanced-learn": {
     "urls": [],
@@ -1823,10 +1831,6 @@
     "urls": [],
     "summaries": []
   },
-  "rrdtool": {
-    "urls": [],
-    "summaries": []
-  },
   "satyr": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2325452"
@@ -1864,7 +1868,7 @@
       "https://bugzilla.redhat.com/show_bug.cgi?id=2341433"
     ],
     "summaries": [
-      "thrift: FTBFS in Fedora rawhide/f42"
+      "thrift-0.20.0-4.fc42 FTBFS: ./src/thrift/concurrency/Mutex.h:47:26: error: 'int64_t' has not been declared"
     ]
   },
   "tiled": {
