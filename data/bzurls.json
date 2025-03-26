@@ -19,6 +19,10 @@
     "urls": [],
     "summaries": []
   },
+  "ansible-core": {
+    "urls": [],
+    "summaries": []
+  },
   "apbs": {
     "urls": [],
     "summaries": []
@@ -307,6 +311,14 @@
     "urls": [],
     "summaries": []
   },
+  "llvm": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2336915"
+    ],
+    "summaries": [
+      "llvm fails to build with Python 3.14: tools/opt-viewer/suppress.test: AttributeError: type object 'Passed' has no attribute 'demangler_lock'"
+    ]
+  },
   "med": {
     "urls": [],
     "summaries": []
@@ -506,6 +518,10 @@
     "summaries": [
       "python-aiosmtpd fails to build with Python 3.14: ImportError: cannot import name 'ByteString' from 'typing'"
     ]
+  },
+  "python-aiounittest": {
+    "urls": [],
+    "summaries": []
   },
   "python-anyio": {
     "urls": [],
@@ -1681,6 +1697,14 @@
       "python-tornado fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
     ]
   },
+  "python-twisted": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2342754"
+    ],
+    "summaries": [
+      "python-twisted fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'. + more"
+    ]
+  },
   "python-txaio": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2327981"
@@ -1831,14 +1855,6 @@
     "urls": [],
     "summaries": []
   },
-  "satyr": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2325452"
-    ],
-    "summaries": [
-      "satyr fails to build with Python 3.14: _pickle.PicklingError: Can't pickle local object <function TestDistances.test_distances_part_parallel.<locals>.do_test.<locals>.compute_part at 0x7f7f845f2560>"
-    ]
-  },
   "signon-glib": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2341348"
@@ -1922,6 +1938,10 @@
     "summaries": [
       "xpra fails to build from source with Python 3.14: RuntimeError: An attempt has been made to start a new process before the current process has finished its bootstrapping phase."
     ]
+  },
+  "xrootd": {
+    "urls": [],
+    "summaries": []
   },
   "yt-dlp": {
     "urls": [
