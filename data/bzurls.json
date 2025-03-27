@@ -947,10 +947,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-google-auth-oauthlib": {
-    "urls": [],
-    "summaries": []
-  },
   "python-googleapis-common-protos": {
     "urls": [],
     "summaries": []
@@ -1129,14 +1125,6 @@
       "python-neatdend: FTBFS in Fedora rawhide/f42"
     ]
   },
-  "python-nest-asyncio": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2353141"
-    ],
-    "summaries": [
-      "python-nest-asyncio fails to build with Python 3.14: test_timeout: RuntimeError: Timeout should be used inside a task"
-    ]
-  },
   "python-netmiko": {
     "urls": [],
     "summaries": []
@@ -1164,6 +1152,10 @@
     "summaries": [
       "python-nikola: FTBFS in Fedora rawhide/f42"
     ]
+  },
+  "python-notebook": {
+    "urls": [],
+    "summaries": []
   },
   "python-notify2": {
     "urls": [
@@ -1878,14 +1870,6 @@
   "sword": {
     "urls": [],
     "summaries": []
-  },
-  "thrift": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2341433"
-    ],
-    "summaries": [
-      "thrift-0.20.0-4.fc42 FTBFS: ./src/thrift/concurrency/Mutex.h:47:26: error: 'int64_t' has not been declared"
-    ]
   },
   "tiled": {
     "urls": [],
