@@ -183,6 +183,10 @@
     "urls": [],
     "summaries": []
   },
+  "go2rpm": {
+    "urls": [],
+    "summaries": []
+  },
   "graphviz": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2337711"
@@ -238,14 +242,6 @@
   "jupyterlab": {
     "urls": [],
     "summaries": []
-  },
-  "kernel": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2340285"
-    ],
-    "summaries": [
-      "kernel: FTBFS in Fedora rawhide/f42"
-    ]
   },
   "kicad": {
     "urls": [],
@@ -379,9 +375,13 @@
       "openbabel fails to build with Python 3.14: test_align_4 and test_align_5 fail"
     ]
   },
-  "openshadinglanguage": {
-    "urls": [],
-    "summaries": []
+  "pag": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2340994"
+    ],
+    "summaries": [
+      "pag: FTBFS in Fedora rawhide/f42"
+    ]
   },
   "pcs": {
     "urls": [],
@@ -1117,6 +1117,10 @@
     "urls": [],
     "summaries": []
   },
+  "python-ndg_httpsclient": {
+    "urls": [],
+    "summaries": []
+  },
   "python-neatdend": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2341170"
@@ -1164,6 +1168,10 @@
     "summaries": [
       "python-notify2: FTBFS in Fedora rawhide/f42"
     ]
+  },
+  "python-nptyping": {
+    "urls": [],
+    "summaries": []
   },
   "python-ollama": {
     "urls": [],
@@ -1579,14 +1587,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-sphinx": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2353144"
-    ],
-    "summaries": [
-      "python-sphinx fails to build with Python 3.14: multiple test failures"
-    ]
-  },
   "python-sqlalchemy": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2350336"
@@ -1795,14 +1795,6 @@
       "python-zope-exceptions: FTBFS in Fedora rawhide/f42"
     ]
   },
-  "python-zope-i18nmessageid": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2341241"
-    ],
-    "summaries": [
-      "python-zope-i18nmessageid: FTBFS in Fedora rawhide/f42"
-    ]
-  },
   "python-zope-testrunner": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2335907"
@@ -1868,10 +1860,6 @@
     ]
   },
   "sword": {
-    "urls": [],
-    "summaries": []
-  },
-  "tiled": {
     "urls": [],
     "summaries": []
   },
