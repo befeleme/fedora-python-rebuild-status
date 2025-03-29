@@ -392,7 +392,7 @@ jsonnet	succeeded
 jupyterlab	failed
 kea	succeeded
 kerberoast	succeeded
-kernel	succeeded
+kernel	failed
 keycloak-httpd-client-install	succeeded
 keylime	succeeded
 kf6-kapidox	succeeded
@@ -932,6 +932,7 @@ python-annotated-types	succeeded
 python-ansi2html	succeeded
 python-ansible-compat	succeeded
 python-ansible-pylibssh	succeeded
+python-ansible-runner	succeeded
 python-ansicolor	succeeded
 python-ansicolors	succeeded
 python-ansiwrap	succeeded
@@ -2303,6 +2304,7 @@ python-netdisco	succeeded
 python-netifaces	succeeded
 python-netmiko	failed
 python-netpyne	failed
+python-network-runner	failed
 python-networkx	succeeded
 python-neurodsp	succeeded
 python-neurotune	failed
@@ -2497,6 +2499,7 @@ python-pigpio	succeeded
 python-pika	failed
 python-pikepdf	succeeded
 python-pillow	succeeded
+python-pillow-jxl-plugin	succeeded
 python-pip	failed
 python-pip-requirements-parser	succeeded
 python-pipdeptree	succeeded
@@ -3222,7 +3225,7 @@ python-spyder-kernels	succeeded
 python-spyking-circus	succeeded
 python-sql	succeeded
 python-sqlacodegen	succeeded
-python-sqlalchemy	failed
+python-sqlalchemy	succeeded
 python-sqlalchemy-collectd	succeeded
 python-sqlalchemy-filters	succeeded
 python-sqlalchemy-utils	succeeded
@@ -3602,17 +3605,19 @@ python-zmq	succeeded
 python-zoidberg	succeeded
 python-zombie-imp	succeeded
 python-zope-component	succeeded
+python-zope-configuration	succeeded
 python-zope-deprecation	failed
 python-zope-event	succeeded
 python-zope-exceptions	failed
 python-zope-hookable	succeeded
 python-zope-i18nmessageid	succeeded
 python-zope-interface	succeeded
+python-zope-schema	succeeded
 python-zope-sqlalchemy	succeeded
 python-zope-testing	succeeded
 python-zope-testrunner	failed
 python-zopfli	succeeded
-python-zstandard	succeeded
+python-zstandard	failed
 python-zstarfile	succeeded
 python-zstd	succeeded
 python-zuul-sphinx	succeeded
