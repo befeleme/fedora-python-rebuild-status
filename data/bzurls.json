@@ -63,6 +63,10 @@
       "borgbackup fails to build with Python 3.14: OSError: AF_UNIX path too long when compiling"
     ]
   },
+  "calibre": {
+    "urls": [],
+    "summaries": []
+  },
   "capstone": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2345714"
@@ -125,14 +129,6 @@
     ],
     "summaries": [
       "criu: FTBFS in Fedora rawhide/f42"
-    ]
-  },
-  "dee": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2340038"
-    ],
-    "summaries": [
-      "dee: FTBFS in Fedora rawhide/f42"
     ]
   },
   "dftd4": {
@@ -617,6 +613,10 @@
       "python-avocado fails to build with Python 3.14: Error running method \"pre_tests\" of plugin \"fetchasset\": module 'ast' has no attribute 'Str' + Avocado crashed: TypeError: cannot pickle '_thread.RLock' object"
     ]
   },
+  "python-aw-qt": {
+    "urls": [],
+    "summaries": []
+  },
   "python-awesomeversion": {
     "urls": [],
     "summaries": []
@@ -714,6 +714,10 @@
     "summaries": [
       "python-chalice fails to build with Python 3.14: AttributeError: module 'ast' has no attribute 'Str'"
     ]
+  },
+  "python-cmd2": {
+    "urls": [],
+    "summaries": []
   },
   "python-colcon-cmake": {
     "urls": [
