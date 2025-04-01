@@ -275,6 +275,10 @@
     "urls": [],
     "summaries": []
   },
+  "ocrmypdf": {
+    "urls": [],
+    "summaries": []
+  },
   "onnx": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2354087"
@@ -513,6 +517,10 @@
       "python-avocado fails to build with Python 3.14: Error running method \"pre_tests\" of plugin \"fetchasset\": module 'ast' has no attribute 'Str' + Avocado crashed: TypeError: cannot pickle '_thread.RLock' object"
     ]
   },
+  "python-aw-qt": {
+    "urls": [],
+    "summaries": []
+  },
   "python-awesomeversion": {
     "urls": [],
     "summaries": []
@@ -692,10 +700,6 @@
     ]
   },
   "python-deepdiff": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-defcon": {
     "urls": [],
     "summaries": []
   },
@@ -886,6 +890,10 @@
     "summaries": [
       "python-httpcore fails to build with Python 3.14: AttributeError: 'typing.Union' object has no attribute '__module__' and no __dict__ for setting new attributes. Did you mean: '__reduce__'?"
     ]
+  },
+  "python-ibm-vpc": {
+    "urls": [],
+    "summaries": []
   },
   "python-imbalanced-learn": {
     "urls": [],
@@ -1108,6 +1116,10 @@
     ]
   },
   "python-pkginfo": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-poetry-plugin-export": {
     "urls": [],
     "summaries": []
   },
@@ -1726,10 +1738,6 @@
     "summaries": [
       "visidata fails to build with Python 3.14: TestVisidataPath.test_withName: AssertionError: assert 'foo' == 'foo.'"
     ]
-  },
-  "weasyprint": {
-    "urls": [],
-    "summaries": []
   },
   "xpra": {
     "urls": [
