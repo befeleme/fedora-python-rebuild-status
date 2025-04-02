@@ -15,14 +15,6 @@
     "urls": [],
     "summaries": []
   },
-  "ara": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2331346"
-    ],
-    "summaries": [
-      "ara fails to build with Python 3.14: AttributeError: module 'pkgutil' has no attribute 'find_loader'"
-    ]
-  },
   "asv": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2339908"
@@ -54,10 +46,6 @@
     "summaries": [
       "borgbackup fails to build with Python 3.14: OSError: AF_UNIX path too long when compiling"
     ]
-  },
-  "calibre": {
-    "urls": [],
-    "summaries": []
   },
   "capstone": {
     "urls": [
@@ -353,10 +341,6 @@
       "pygsl: FTBFS in Fedora rawhide/f42"
     ]
   },
-  "pylint": {
-    "urls": [],
-    "summaries": []
-  },
   "pyserial-asyncio": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2327980"
@@ -391,21 +375,9 @@
       "python-TestSlide fails to build with Python 3.14: ERROR collecting tests/mock_callable_testslide.py: RuntimeError: dictionary changed size during iteration"
     ]
   },
-  "python-aioeafm": {
-    "urls": [],
-    "summaries": []
-  },
   "python-aioesphomeapi": {
     "urls": [],
     "summaries": []
-  },
-  "python-aioflo": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2341124"
-    ],
-    "summaries": [
-      "python-aioflo: FTBFS in Fedora rawhide/f42"
-    ]
   },
   "python-aiokafka": {
     "urls": [
@@ -414,10 +386,6 @@
     "summaries": [
       "python-aiokafka fails to build with Python 3.14: DeprecationWarning: 'asyncio.get_event_loop_policy' is deprecated and slated for removal in Python 3.16"
     ]
-  },
-  "python-aionotion": {
-    "urls": [],
-    "summaries": []
   },
   "python-aiosmtpd": {
     "urls": [
@@ -442,14 +410,6 @@
   "python-apsw": {
     "urls": [],
     "summaries": []
-  },
-  "python-archinfo": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2354093"
-    ],
-    "summaries": [
-      "python-archinfo FTBFS due to missing tox configuration"
-    ]
   },
   "python-asgiref": {
     "urls": [
@@ -516,10 +476,6 @@
       "python-avocado: FTBFS in Fedora rawhide/f42",
       "python-avocado fails to build with Python 3.14: Error running method \"pre_tests\" of plugin \"fetchasset\": module 'ast' has no attribute 'Str' + Avocado crashed: TypeError: cannot pickle '_thread.RLock' object"
     ]
-  },
-  "python-aw-qt": {
-    "urls": [],
-    "summaries": []
   },
   "python-awesomeversion": {
     "urls": [],
@@ -658,10 +614,6 @@
     "summaries": [
       "python-colorful fails to build with Python 3.14: ast.Constant.s has been removed from Python 3.14"
     ]
-  },
-  "python-conda-package-streaming": {
-    "urls": [],
-    "summaries": []
   },
   "python-confuse": {
     "urls": [
@@ -823,10 +775,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-ftfy": {
-    "urls": [],
-    "summaries": []
-  },
   "python-giacpy": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2341608"
@@ -890,10 +838,6 @@
     "summaries": [
       "python-httpcore fails to build with Python 3.14: AttributeError: 'typing.Union' object has no attribute '__module__' and no __dict__ for setting new attributes. Did you mean: '__reduce__'?"
     ]
-  },
-  "python-ibm-vpc": {
-    "urls": [],
-    "summaries": []
   },
   "python-imbalanced-learn": {
     "urls": [],
@@ -983,14 +927,6 @@
       "python-makefun fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
     ]
   },
-  "python-matplotlib": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2328713"
-    ],
-    "summaries": [
-      "python-matplotlib fails to build with Python 3.14: RecursionError: maximum recursion depth exceeded"
-    ]
-  },
   "python-metakernel": {
     "urls": [],
     "summaries": []
@@ -1014,10 +950,6 @@
     "summaries": [
       "python-neatdend: FTBFS in Fedora rawhide/f42"
     ]
-  },
-  "python-netmiko": {
-    "urls": [],
-    "summaries": []
   },
   "python-netpyne": {
     "urls": [
@@ -1119,10 +1051,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-poetry-plugin-export": {
-    "urls": [],
-    "summaries": []
-  },
   "python-praw": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2342562"
@@ -1146,10 +1074,6 @@
     "summaries": [
       "python-pure-protobuf fails to build with Python 3.14: ImportError: cannot import name 'ByteString' from 'typing'"
     ]
-  },
-  "python-pyairnow": {
-    "urls": [],
-    "summaries": []
   },
   "python-pycec": {
     "urls": [
@@ -1231,10 +1155,6 @@
       "python-pyopengl: FTBFS in Fedora rawhide/f42"
     ]
   },
-  "python-pyopenuv": {
-    "urls": [],
-    "summaries": []
-  },
   "python-pypet": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2341192"
@@ -1250,10 +1170,6 @@
     "summaries": [
       "python-pyphi: FTBFS in Fedora rawhide/f42"
     ]
-  },
-  "python-pyrad": {
-    "urls": [],
-    "summaries": []
   },
   "python-pysaml2": {
     "urls": [
@@ -1312,10 +1228,6 @@
     "summaries": []
   },
   "python-python-ulid": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-pytile": {
     "urls": [],
     "summaries": []
   },
@@ -1479,10 +1391,6 @@
       "python-simframe fails to build with Python 3.14: TypeError: cannot pickle 'itertools.cycle' object"
     ]
   },
-  "python-sklearn-nature-inspired-algorithms": {
-    "urls": [],
-    "summaries": []
-  },
   "python-sqlalchemy1.4": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2327976"
@@ -1517,14 +1425,6 @@
       "python-steam: FTBFS in Fedora rawhide/f42"
     ]
   },
-  "python-stochastic": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2341219"
-    ],
-    "summaries": [
-      "python-stochastic: FTBFS in Fedora rawhide/f42"
-    ]
-  },
   "python-streamlink": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2353127"
@@ -1552,10 +1452,6 @@
     "summaries": [
       "python-testtools fails to build with Python 3.14: test_testcase_equals_edgecase: TypeError: NotImplemented should not be used in a boolean context"
     ]
-  },
-  "python-toml-cli": {
-    "urls": [],
-    "summaries": []
   },
   "python-toolz": {
     "urls": [
@@ -1677,14 +1573,6 @@
     ],
     "summaries": [
       "python-zope-testrunner fails to build with Python 3.14: difference in the asserted content in testrunner-edge-cases.rst"
-    ]
-  },
-  "pythran": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2341244"
-    ],
-    "summaries": [
-      "pythran: FTBFS in Fedora rawhide/f42"
     ]
   },
   "qtile": {
