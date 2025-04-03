@@ -159,10 +159,6 @@
       "h5py fails to build with Python 3.14: ResourceWarning: TestFileObj.test_TemporaryFile: Implicitly cleaning up <_TemporaryFileWrapper file=<_io.BufferedRandom name='/tmp/tmp8pqafmzv'>>"
     ]
   },
-  "hatch": {
-    "urls": [],
-    "summaries": []
-  },
   "httpie": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2350335"
@@ -190,10 +186,6 @@
     "summaries": [
       "ipython fails to build with Python 3.14: AssertionErrors, pexpect.exceptions.TIMEOUTs and more in 12 tests"
     ]
-  },
-  "jupyterlab": {
-    "urls": [],
-    "summaries": []
   },
   "kmymoney": {
     "urls": [],
@@ -259,7 +251,7 @@
       "neuron: FTBFS in Fedora rawhide/f42"
     ]
   },
-  "nwchem": {
+  "nmstate": {
     "urls": [],
     "summaries": []
   },
@@ -575,6 +567,10 @@
       "python-chalice fails to build with Python 3.14: AttributeError: module 'ast' has no attribute 'Str'"
     ]
   },
+  "python-cleo": {
+    "urls": [],
+    "summaries": []
+  },
   "python-cmd2": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2356178"
@@ -679,15 +675,7 @@
     "urls": [],
     "summaries": []
   },
-  "python-dns": {
-    "urls": [],
-    "summaries": []
-  },
   "python-dns-lexicon": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-dnspython": {
     "urls": [],
     "summaries": []
   },
@@ -720,12 +708,8 @@
     ]
   },
   "python-eth-stdlib": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2354105"
-    ],
-    "summaries": [
-      "python-eth-stdlib FTBFS due to missing tox configuration"
-    ]
+    "urls": [],
+    "summaries": []
   },
   "python-executing": {
     "urls": [
@@ -799,10 +783,6 @@
       "python-gphoto2: FTBFS in Fedora rawhide/f42"
     ]
   },
-  "python-gql": {
-    "urls": [],
-    "summaries": []
-  },
   "python-gstreamer1": {
     "urls": [],
     "summaries": []
@@ -831,14 +811,6 @@
       "python-howdoi fails to build with Python 3.14: AssertionError: 'ERROR: Unable to reach google. Do you need to use a proxy? + json.decoder.JSONDecodeError"
     ]
   },
-  "python-httpcore": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2353138"
-    ],
-    "summaries": [
-      "python-httpcore fails to build with Python 3.14: AttributeError: 'typing.Union' object has no attribute '__module__' and no __dict__ for setting new attributes. Did you mean: '__reduce__'?"
-    ]
-  },
   "python-imbalanced-learn": {
     "urls": [],
     "summaries": []
@@ -858,10 +830,6 @@
     "summaries": [
       "python-injector: FTBFS in Fedora rawhide/f42"
     ]
-  },
-  "python-ipfshttpclient": {
-    "urls": [],
-    "summaries": []
   },
   "python-irc": {
     "urls": [
@@ -983,10 +951,6 @@
       "python-nikola: FTBFS in Fedora rawhide/f42"
     ]
   },
-  "python-notebook": {
-    "urls": [],
-    "summaries": []
-  },
   "python-notify2": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2341175"
@@ -1038,6 +1002,10 @@
     "summaries": [
       "python-pika fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
     ]
+  },
+  "python-pillow": {
+    "urls": [],
+    "summaries": []
   },
   "python-pip": {
     "urls": [
@@ -1211,10 +1179,6 @@
       "python-pytest-aiohttp fails to build with Python 3.14: DeprecationWarning: 'asyncio.get_event_loop_policy' is deprecated and slated for removal in Python 3.16"
     ]
   },
-  "python-pytest-httpx": {
-    "urls": [],
-    "summaries": []
-  },
   "python-pytest-lsp": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2349451"
@@ -1296,10 +1260,6 @@
     "summaries": [
       "python-remoto: FTBFS in Fedora rawhide/f42"
     ]
-  },
-  "python-respx": {
-    "urls": [],
-    "summaries": []
   },
   "python-rich": {
     "urls": [
