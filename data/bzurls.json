@@ -187,6 +187,10 @@
       "ipython fails to build with Python 3.14: AssertionErrors, pexpect.exceptions.TIMEOUTs and more in 12 tests"
     ]
   },
+  "kitty": {
+    "urls": [],
+    "summaries": []
+  },
   "kmymoney": {
     "urls": [],
     "summaries": []
@@ -293,16 +297,6 @@
     ],
     "summaries": [
       "poezio: FTBFS in Fedora rawhide/f42"
-    ]
-  },
-  "postgresql17": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2332978",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2327967"
-    ],
-    "summaries": [
-      "postgresql17-17.0-1.fc42 FTBFS: RPM build errors: line 227: second Description",
-      "postgresql17 fails to build with Python 3.14: jsonb_jsonpath fails: - \"12:34:56-07:00\" != + \"12:34:56-08:00\""
     ]
   },
   "powerline": {
@@ -566,10 +560,6 @@
     "summaries": [
       "python-chalice fails to build with Python 3.14: AttributeError: module 'ast' has no attribute 'Str'"
     ]
-  },
-  "python-cleo": {
-    "urls": [],
-    "summaries": []
   },
   "python-cmd2": {
     "urls": [
@@ -962,14 +952,6 @@
   "python-ollama": {
     "urls": [],
     "summaries": []
-  },
-  "python-orjson": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2349447"
-    ],
-    "summaries": [
-      "python-orjson fails to build with Python 3.14: multiple AssertionError, mostly related to dict objects"
-    ]
   },
   "python-osc-lib": {
     "urls": [
