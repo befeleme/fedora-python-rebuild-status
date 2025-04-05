@@ -260,8 +260,12 @@
     "summaries": []
   },
   "ocrmypdf": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2357508"
+    ],
+    "summaries": [
+      "ocrmypdf fails to build with Python 3.14: multiprocessing.Process now starts with forkserver method instead of fork, causing pickling error"
+    ]
   },
   "onnx": {
     "urls": [
@@ -984,10 +988,6 @@
     "summaries": [
       "python-pika fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
     ]
-  },
-  "python-pillow": {
-    "urls": [],
-    "summaries": []
   },
   "python-pip": {
     "urls": [
