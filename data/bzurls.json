@@ -143,6 +143,10 @@
     "urls": [],
     "summaries": []
   },
+  "gdal": {
+    "urls": [],
+    "summaries": []
+  },
   "gnofract4d": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2339539"
@@ -254,14 +258,6 @@
   "mopidy-mpd": {
     "urls": [],
     "summaries": []
-  },
-  "neuron": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2340926"
-    ],
-    "summaries": [
-      "neuron: FTBFS in Fedora rawhide/f42"
-    ]
   },
   "nmstate": {
     "urls": [],
@@ -400,10 +396,6 @@
     "summaries": [
       "python-aiounittest fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
     ]
-  },
-  "python-anyio": {
-    "urls": [],
-    "summaries": []
   },
   "python-apsw": {
     "urls": [],
@@ -894,8 +886,12 @@
     ]
   },
   "python-metakernel": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2357903"
+    ],
+    "summaries": [
+      "python-metakernel fails to build with Python 3.14: AssertionError in test_parallel_magic"
+    ]
   },
   "python-msal": {
     "urls": [
@@ -1355,14 +1351,6 @@
       "python-stack-data fails to build with Python 3.14: test_example: IndexError: list index out of range"
     ]
   },
-  "python-stdlibs": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2336938"
-    ],
-    "summaries": [
-      "python-stdlibs fails to build with Python 3.14: test_all_my_modules_are_there: AssertionError: Items in the second set but not the first: '_apple_support'"
-    ]
-  },
   "python-steam": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2341218"
@@ -1389,14 +1377,6 @@
     ],
     "summaries": [
       "python-tenacity fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
-    ]
-  },
-  "python-testtools": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2353143"
-    ],
-    "summaries": [
-      "python-testtools fails to build with Python 3.14: test_testcase_equals_edgecase: TypeError: NotImplemented should not be used in a boolean context"
     ]
   },
   "python-toolz": {
