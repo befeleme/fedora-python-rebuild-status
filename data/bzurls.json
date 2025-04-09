@@ -191,14 +191,6 @@
       "ipython fails to build with Python 3.14: AssertionErrors, pexpect.exceptions.TIMEOUTs and more in 12 tests"
     ]
   },
-  "kernel": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2340285"
-    ],
-    "summaries": [
-      "kernel: FTBFS in Fedora rawhide/f42"
-    ]
-  },
   "kitty": {
     "urls": [],
     "summaries": []
@@ -256,10 +248,6 @@
     "summaries": []
   },
   "mopidy-mpd": {
-    "urls": [],
-    "summaries": []
-  },
-  "nmstate": {
     "urls": [],
     "summaries": []
   },
@@ -334,6 +322,10 @@
     "summaries": [
       "pygsl: FTBFS in Fedora rawhide/f42"
     ]
+  },
+  "pylint": {
+    "urls": [],
+    "summaries": []
   },
   "pyserial-asyncio": {
     "urls": [
@@ -913,14 +905,6 @@
       "python-neatdend: FTBFS in Fedora rawhide/f42"
     ]
   },
-  "python-netpyne": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2341171"
-    ],
-    "summaries": [
-      "python-netpyne: FTBFS in Fedora rawhide/f42"
-    ]
-  },
   "python-network-runner": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2341172"
@@ -1080,14 +1064,6 @@
   "python-pynamodb": {
     "urls": [],
     "summaries": []
-  },
-  "python-pynn": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2341189"
-    ],
-    "summaries": [
-      "python-pynn: FTBFS in Fedora rawhide/f42"
-    ]
   },
   "python-pyopencl": {
     "urls": [
@@ -1268,10 +1244,6 @@
     "summaries": [
       "python-rosdep: FTBFS in Fedora rawhide/f42"
     ]
-  },
-  "python-rpmautospec": {
-    "urls": [],
-    "summaries": []
   },
   "python-rq": {
     "urls": [
