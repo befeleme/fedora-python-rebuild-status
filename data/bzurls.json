@@ -431,6 +431,14 @@
     "urls": [],
     "summaries": []
   },
+  "llvm": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2336915"
+    ],
+    "summaries": [
+      "llvm fails to build with Python 3.14: tools/opt-viewer/suppress.test: AttributeError: type object 'Passed' has no attribute 'demangler_lock'"
+    ]
+  },
   "lutris": {
     "urls": [],
     "summaries": []
@@ -1089,14 +1097,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-daphne": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2341140"
-    ],
-    "summaries": [
-      "python-daphne: FTBFS in Fedora rawhide/f42"
-    ]
-  },
   "python-dataclassy": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2325200"
@@ -1310,12 +1310,8 @@
     ]
   },
   "python-fsleyes-widgets": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2336911"
-    ],
-    "summaries": [
-      "python-fsleyes-widgets fails to build with Python 3.14: AssertionError: assert 'file:/home/b...htmlfile.html' == 'file:///home...htmlfile.html'"
-    ]
+    "urls": [],
+    "summaries": []
   },
   "python-fsspec": {
     "urls": [],
@@ -2134,12 +2130,8 @@
     "summaries": []
   },
   "python-pynn": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2341189"
-    ],
-    "summaries": [
-      "python-pynn: FTBFS in Fedora rawhide/f42"
-    ]
+    "urls": [],
+    "summaries": []
   },
   "python-pyopencl": {
     "urls": [
@@ -2727,6 +2719,10 @@
     "urls": [],
     "summaries": []
   },
+  "python-uv-build": {
+    "urls": [],
+    "summaries": []
+  },
   "python-uvloop": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2341233",
@@ -2994,6 +2990,10 @@
     "summaries": []
   },
   "ursa-major": {
+    "urls": [],
+    "summaries": []
+  },
+  "uv": {
     "urls": [],
     "summaries": []
   },
