@@ -83,10 +83,6 @@
     "urls": [],
     "summaries": []
   },
-  "bst-external": {
-    "urls": [],
-    "summaries": []
-  },
   "calibre": {
     "urls": [],
     "summaries": []
@@ -427,18 +423,6 @@
     "urls": [],
     "summaries": []
   },
-  "linux-thermaltake-rgb": {
-    "urls": [],
-    "summaries": []
-  },
-  "llvm": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2336915"
-    ],
-    "summaries": [
-      "llvm fails to build with Python 3.14: tools/opt-viewer/suppress.test: AttributeError: type object 'Passed' has no attribute 'demangler_lock'"
-    ]
-  },
   "lutris": {
     "urls": [],
     "summaries": []
@@ -480,8 +464,12 @@
     "summaries": []
   },
   "mrchem": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2359498"
+    ],
+    "summaries": [
+      "mrchem fails to build with Python 3.14: /builddir/build/BUILD/mrchem-1.1.4-build/mrchem-1.1.4/python/mrchem/input_parser/plumbing/pyparsing/core.py:5332: SyntaxWarning: 'return' in a 'finally' block"
+    ]
   },
   "myst-nb": {
     "urls": [],
@@ -496,10 +484,6 @@
     "summaries": []
   },
   "nicotine+": {
-    "urls": [],
-    "summaries": []
-  },
-  "nik4": {
     "urls": [],
     "summaries": []
   },
@@ -518,10 +502,6 @@
     "summaries": [
       "onnx FTBFS due to missing tox configuration"
     ]
-  },
-  "onnxruntime": {
-    "urls": [],
-    "summaries": []
   },
   "opae": {
     "urls": [],
@@ -560,8 +540,12 @@
     "summaries": []
   },
   "petsc": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2359524"
+    ],
+    "summaries": [
+      "petsc fails to build with Python 3.14: AssertionError: 2 != 3 self.assertEqual(getrefcount(ctx), 3)"
+    ]
   },
   "poetry": {
     "urls": [
@@ -604,8 +588,12 @@
     "summaries": []
   },
   "pyflakes": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2359503"
+    ],
+    "summaries": [
+      "pyflakes fails to build with Python 3.14: SyntaxError: future feature print_statement is not defined"
+    ]
   },
   "pygobject3": {
     "urls": [],
@@ -620,8 +608,12 @@
     ]
   },
   "pylibacl": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2359502"
+    ],
+    "summaries": [
+      "pylibacl fails to build with Python 3.14: tests/test_acls.py::TestModification: Failed: Wrong reference count, expected 2-1024 and got 1"
+    ]
   },
   "pylint": {
     "urls": [],
@@ -710,6 +702,10 @@
     ]
   },
   "python-alembic": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-alsa": {
     "urls": [],
     "summaries": []
   },
@@ -864,8 +860,12 @@
     "summaries": []
   },
   "python-beancount": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2359530"
+    ],
+    "summaries": [
+      "python-beancount fails to build with Python 3.14: TestReferenceCounting and TestLexer fail with AssertionError"
+    ]
   },
   "python-beartype": {
     "urls": [
@@ -1041,10 +1041,6 @@
       "python-colorful fails to build with Python 3.14: ast.Constant.s has been removed from Python 3.14"
     ]
   },
-  "python-colorthief": {
-    "urls": [],
-    "summaries": []
-  },
   "python-conda-index": {
     "urls": [],
     "summaries": []
@@ -1126,8 +1122,12 @@
     "summaries": []
   },
   "python-deprecated": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2359497"
+    ],
+    "summaries": [
+      "python-deprecated fails to build with Python 3.14: test_should_raise_type_error: AttributeError: 'int' object has no attribute 'split'"
+    ]
   },
   "python-diff-cover": {
     "urls": [
@@ -1218,8 +1218,12 @@
     "summaries": []
   },
   "python-et_xmlfile": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2359509"
+    ],
+    "summaries": [
+      "python-et_xmlfile fails to build with Python 3.14: ElementTreeTest.test_simpleops: AssertionError: 'Element.remove(x): element not found' != 'list.remove(x): x not in list'"
+    ]
   },
   "python-etcd": {
     "urls": [
@@ -1325,10 +1329,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-gevent-eventemitter": {
-    "urls": [],
-    "summaries": []
-  },
   "python-giacpy": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2341608"
@@ -1358,8 +1358,12 @@
     "summaries": []
   },
   "python-greenlet": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2359499"
+    ],
+    "summaries": [
+      "python-greenlet fails to build with Python 3.14: src/greenlet/TGreenlet.cpp:626:29: error: aggregate \u2018_PyInterpreterFrame iframe_copy\u2019 has incomplete type and cannot be defined - and more"
+    ]
   },
   "python-gstreamer1": {
     "urls": [],
@@ -1407,14 +1411,6 @@
     ],
     "summaries": [
       "python-howdoi fails to build with Python 3.14: AssertionError: 'ERROR: Unable to reach google. Do you need to use a proxy? + json.decoder.JSONDecodeError"
-    ]
-  },
-  "python-httpcore": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2353138"
-    ],
-    "summaries": [
-      "python-httpcore fails to build with Python 3.14: AttributeError: 'typing.Union' object has no attribute '__module__' and no __dict__ for setting new attributes. Did you mean: '__reduce__'?"
     ]
   },
   "python-hvac": {
@@ -1469,13 +1465,13 @@
     "urls": [],
     "summaries": []
   },
-  "python-ipykernel": {
-    "urls": [],
-    "summaries": []
-  },
   "python-ipyparallel": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2359525"
+    ],
+    "summaries": [
+      "python-ipyparallel fails to build with Python 3.14: TestAsyncResult.test_display_output_error: SyntaxWarning: 'return' in a 'finally' block treated as error"
+    ]
   },
   "python-ipywidgets": {
     "urls": [],
@@ -1510,8 +1506,12 @@
     ]
   },
   "python-josepy": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2359514"
+    ],
+    "summaries": [
+      "python-josepy fails to build with Python 3.14: ValueError: Field `alg` in JSONObject `Header` has no type annotation."
+    ]
   },
   "python-jsonpickle": {
     "urls": [],
@@ -1534,14 +1534,6 @@
     "summaries": []
   },
   "python-jupyter-cache": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-jupyter-client": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-jupyter-console": {
     "urls": [],
     "summaries": []
   },
@@ -1850,8 +1842,12 @@
     "summaries": []
   },
   "python-numexpr": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2359520"
+    ],
+    "summaries": [
+      "python-numexpr fails to build with Python 3.14: 8 errors: ValueError: operands could not be broadcast together with shapes (1000000,) (0,)  2 failures: AssertionError: sys.getrefcount(a) == 2"
+    ]
   },
   "python-odata-query": {
     "urls": [],
@@ -1974,8 +1970,12 @@
     "summaries": []
   },
   "python-pkginfo": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2359507"
+    ],
+    "summaries": [
+      "python-pkginfo will fail to build once we rebuild wheel with the newest flit_core: AssertionError: assert '2.4' == '2.3'"
+    ]
   },
   "python-poi-tracker": {
     "urls": [],
@@ -2173,6 +2173,10 @@
     "urls": [],
     "summaries": []
   },
+  "python-pyregion": {
+    "urls": [],
+    "summaries": []
+  },
   "python-pyriemann": {
     "urls": [],
     "summaries": []
@@ -2272,10 +2276,6 @@
     "summaries": [
       "python-pyupgrade fails to build with Python 3.14: AttributeError: module 'ast' has no attribute 'Str'"
     ]
-  },
-  "python-pyvirtualize": {
-    "urls": [],
-    "summaries": []
   },
   "python-pyvlx": {
     "urls": [
@@ -2393,10 +2393,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-rpmautospec-koji": {
-    "urls": [],
-    "summaries": []
-  },
   "python-rq": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2342234"
@@ -2501,10 +2497,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-spyder-kernels": {
-    "urls": [],
-    "summaries": []
-  },
   "python-sqlalchemy-collectd": {
     "urls": [],
     "summaries": []
@@ -2531,9 +2523,17 @@
       "python-stack-data fails to build with Python 3.14: test_example: IndexError: list index out of range"
     ]
   },
-  "python-stdlibs": {
+  "python-starlette": {
     "urls": [],
     "summaries": []
+  },
+  "python-stdlibs": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2359504"
+    ],
+    "summaries": [
+      "python-stdlibs fails to build with Python 3.14: AssertionError: Items in the second set but not the first: '_hmac' '_ast_unparse' '_types'"
+    ]
   },
   "python-steam": {
     "urls": [
@@ -2679,10 +2679,6 @@
       "python-txaio fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
     ]
   },
-  "python-txzmq": {
-    "urls": [],
-    "summaries": []
-  },
   "python-typeguard": {
     "urls": [],
     "summaries": []
@@ -2703,6 +2699,10 @@
       "python-typing-inspect fails to build with Python 3.14: AssertionError: {} != {'x': <class 'int'>, 'y': <class 'int'>}"
     ]
   },
+  "python-typing-inspection": {
+    "urls": [],
+    "summaries": []
+  },
   "python-ufoLib2": {
     "urls": [],
     "summaries": []
@@ -2716,10 +2716,6 @@
     ]
   },
   "python-usort": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-uv-build": {
     "urls": [],
     "summaries": []
   },
@@ -2750,14 +2746,6 @@
     "summaries": []
   },
   "python-versioningit": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-virtualbmc": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-vpoller": {
     "urls": [],
     "summaries": []
   },
@@ -2816,10 +2804,6 @@
     "summaries": [
       "python-zict fails to build with Python 3.14: test_stress_different_keys_threadsafe Timeout"
     ]
-  },
-  "python-zmq": {
-    "urls": [],
-    "summaries": []
   },
   "python-zoidberg": {
     "urls": [],
@@ -2885,11 +2869,11 @@
     "urls": [],
     "summaries": []
   },
-  "rust2rpm": {
+  "ruff": {
     "urls": [],
     "summaries": []
   },
-  "salt": {
+  "rust2rpm": {
     "urls": [],
     "summaries": []
   },
@@ -2908,14 +2892,6 @@
     "summaries": [
       "scipy fails to build with Python 3.14: TestSystematic::test_bessely, TestSystematic::test_bessely_int and TestSystematic::test_wrightomega fail"
     ]
-  },
-  "secrets": {
-    "urls": [],
-    "summaries": []
-  },
-  "sgtk-menu": {
-    "urls": [],
-    "summaries": []
   },
   "sherlock-project": {
     "urls": [],
@@ -2950,8 +2926,12 @@
     "summaries": []
   },
   "subversion": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2359500"
+    ],
+    "summaries": [
+      "subversion fails to build with Python 3.14: AssertionError: 3 != 4 : Memory leak!  Expected a ref count of 4 for svn_merge_range_t object, but got 3 instead (path: b'/trunk', index: 0)"
+    ]
   },
   "swift-lang": {
     "urls": [
@@ -2962,10 +2942,6 @@
     ]
   },
   "sympy": {
-    "urls": [],
-    "summaries": []
-  },
-  "sysmontask": {
     "urls": [],
     "summaries": []
   },

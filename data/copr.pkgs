@@ -109,7 +109,6 @@ bpython	succeeded
 breezy	succeeded
 brltty	succeeded
 brotli	succeeded
-bst-external	failed
 btrfs-backup-ng	succeeded
 btrfs-progs	succeeded
 btrfs-sxbackup	succeeded
@@ -514,12 +513,11 @@ lightdm-gtk-greeter-settings	succeeded
 limnoria	succeeded
 link-grammar	succeeded
 linkchecker	succeeded
-linux-thermaltake-rgb	failed
 liquidctl	succeeded
 lirc	succeeded
 litecli	succeeded
 livecd-tools	succeeded
-llvm	failed
+llvm	running
 lollypop	succeeded
 loook	succeeded
 lorax	succeeded
@@ -598,7 +596,6 @@ nfs-ganesha	succeeded
 nfsometer	failed
 nftables	succeeded
 nicotine+	failed
-nik4	failed
 ninja-build	succeeded
 nispor	succeeded
 nml	succeeded
@@ -629,7 +626,7 @@ omniORB	succeeded
 omniORBpy	succeeded
 onionshare	succeeded
 onnx	failed
-onnxruntime	failed
+onnxruntime	succeeded
 opae	failed
 openapi-python-client	failed
 openbabel	succeeded
@@ -921,7 +918,7 @@ python-ajpy	succeeded
 python-ajsonrpc	succeeded
 python-alembic	failed
 python-allpairspy	succeeded
-python-alsa	succeeded
+python-alsa	failed
 python-amply	succeeded
 python-amqp	succeeded
 python-ana	succeeded
@@ -1165,6 +1162,7 @@ python-blosc	succeeded
 python-blosc2	failed
 python-blowfish	succeeded
 python-blurb	succeeded
+python-blurhash	succeeded
 python-bokeh	succeeded
 python-boltons	succeeded
 python-boolean.py	succeeded
@@ -1326,7 +1324,6 @@ python-colored-traceback	succeeded
 python-colorful	failed
 python-colorlog	succeeded
 python-colormath2	succeeded
-python-colorthief	failed
 python-colorzero	succeeded
 python-colour	succeeded
 python-comm	succeeded
@@ -1759,7 +1756,6 @@ python-gertty	succeeded
 python-getmac	succeeded
 python-gettext	succeeded
 python-gevent	failed
-python-gevent-eventemitter	failed
 python-ghp-import	succeeded
 python-giacpy	failed
 python-gilt	succeeded
@@ -1860,7 +1856,7 @@ python-http-ece	succeeded
 python-http-server-mock	succeeded
 python-httpagentparser	succeeded
 python-httpbin	succeeded
-python-httpcore	failed
+python-httpcore	succeeded
 python-httplib2	succeeded
 python-httpretty	succeeded
 python-httpsig-cffi	succeeded
@@ -1932,7 +1928,7 @@ python-ipfshttpclient	succeeded
 python-ipgetter2	succeeded
 python-ipmi	succeeded
 python-ipuz	succeeded
-python-ipykernel	failed
+python-ipykernel	succeeded
 python-ipyparallel	failed
 python-ipython_genutils	succeeded
 python-ipywidgets	failed
@@ -2011,8 +2007,8 @@ python-junitxml	succeeded
 python-jupymake	succeeded
 python-jupyter-c-kernel	failed
 python-jupyter-cache	failed
-python-jupyter-client	failed
-python-jupyter-console	failed
+python-jupyter-client	succeeded
+python-jupyter-console	succeeded
 python-jupyter-core	succeeded
 python-jupyter-events	failed
 python-jupyter-kernel-singular	failed
@@ -2758,6 +2754,7 @@ python-pyramid-mako	succeeded
 python-pyramid-tm	succeeded
 python-pyramid_sawing	succeeded
 python-pyrate-limiter	succeeded
+python-pyregion	failed
 python-pyrfc3339	succeeded
 python-pyriemann	failed
 python-pyro	succeeded
@@ -2889,7 +2886,7 @@ python-pyunormalize	succeeded
 python-pyupgrade	failed
 python-pyvat	succeeded
 python-pyvirtualdisplay	succeeded
-python-pyvirtualize	failed
+python-pyvirtualize	succeeded
 python-pyvit	succeeded
 python-pyvlx	failed
 python-pyvmomi	succeeded
@@ -3023,7 +3020,7 @@ python-rply	succeeded
 python-rpm-macros	succeeded
 python-rpmautospec	succeeded
 python-rpmautospec-core	succeeded
-python-rpmautospec-koji	failed
+python-rpmautospec-koji	succeeded
 python-rpmfluff	succeeded
 python-rpyc	succeeded
 python-rq	failed
@@ -3219,7 +3216,7 @@ python-sphobjinv	succeeded
 python-spnego	succeeded
 python-spotipy	succeeded
 python-spur	succeeded
-python-spyder-kernels	failed
+python-spyder-kernels	succeeded
 python-spyking-circus	succeeded
 python-sql	succeeded
 python-sqlacodegen	succeeded
@@ -3240,7 +3237,8 @@ python-ssh-python	succeeded
 python-sshtunnel	succeeded
 python-stack-data	failed
 python-stackprinter	succeeded
-python-starlette	succeeded
+python-standard-mailcap	succeeded
+python-starlette	failed
 python-statsmodels	succeeded
 python-stdiomask	succeeded
 python-stdlib-list	succeeded
@@ -3394,7 +3392,7 @@ python-twisted	succeeded
 python-txaio	failed
 python-txredisapi	succeeded
 python-txws	succeeded
-python-txzmq	failed
+python-txzmq	succeeded
 python-typedecorator	succeeded
 python-typeguard	failed
 python-typepy	succeeded
@@ -3414,6 +3412,7 @@ python-types-setuptools	succeeded
 python-types-six	succeeded
 python-typing-extensions	failed
 python-typing-inspect	failed
+python-typing-inspection	failed
 python-typogrify	succeeded
 python-tzlocal	succeeded
 python-u-boot-pylib	succeeded
@@ -3454,7 +3453,7 @@ python-usort	failed
 python-uswid	succeeded
 python-utils	succeeded
 python-utmp	succeeded
-python-uv-build	failed
+python-uv-build	succeeded
 python-uvloop	failed
 python-validator-collection	failed
 python-validators	succeeded
@@ -3477,7 +3476,7 @@ python-vevents	succeeded
 python-vhacdx	succeeded
 python-vine	succeeded
 python-virt-firmware	succeeded
-python-virtualbmc	failed
+python-virtualbmc	succeeded
 python-virtualenv	succeeded
 python-virtualenv-api	succeeded
 python-virtualenv-clone	succeeded
@@ -3490,7 +3489,7 @@ python-volatile	succeeded
 python-volkszaehler	succeeded
 python-voluptuous	succeeded
 python-voluptuous-serialize	succeeded
-python-vpoller	failed
+python-vpoller	succeeded
 python-vsts	succeeded
 python-vsts-cd-manager	succeeded
 python-vsure	succeeded
@@ -3599,7 +3598,7 @@ python-zipp	succeeded
 python-zipstream	succeeded
 python-zlib-ng	succeeded
 python-zm	succeeded
-python-zmq	failed
+python-zmq	succeeded
 python-zoidberg	failed
 python-zombie-imp	succeeded
 python-zope-component	succeeded
@@ -3707,11 +3706,11 @@ rst2txt	succeeded
 rteval	succeeded
 rtlsdr-scanner	succeeded
 rubber	succeeded
-ruff	succeeded
+ruff	failed
 rust2rpm	failed
 s-tui	succeeded
 s3cmd	succeeded
-salt	failed
+salt	succeeded
 salt-lint	succeeded
 sanlock	succeeded
 sasutils	succeeded
@@ -3725,7 +3724,6 @@ screenkey	succeeded
 scribus	succeeded
 seadrive-daemon	succeeded
 seafile	succeeded
-secrets	failed
 sen	succeeded
 sentencepiece	succeeded
 sepolicy_analysis	succeeded
@@ -3733,7 +3731,6 @@ setconf	succeeded
 setools	succeeded
 setroubleshoot	succeeded
 setzer	succeeded
-sgtk-menu	failed
 sherlock-project	failed
 showcert	succeeded
 showtime	failed
@@ -3783,7 +3780,6 @@ sword	succeeded
 sympy	failed
 syndication-domination	succeeded
 syslog-ng	succeeded
-sysmontask	failed
 system-config-printer	succeeded
 system-storage-manager	succeeded
 systemd-coredump-python	succeeded
@@ -3891,7 +3887,7 @@ xen	succeeded
 xmms2	succeeded
 xonsh	succeeded
 xortool	succeeded
-xpra	running
+xpra	failed
 xrootd	succeeded
 xwayland-run	succeeded
 yamllint	succeeded
