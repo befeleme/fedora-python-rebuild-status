@@ -1169,14 +1169,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-fsspec": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2359832"
-    ],
-    "summaries": [
-      "python-fsspec: FTBFS in Fedora Rawhide"
-    ]
-  },
   "python-geopmpy": {
     "urls": [],
     "summaries": []
@@ -1424,6 +1416,10 @@
     "summaries": [
       "python-libcst fails to build with Python 3.14: Exception: Logic error, unexpected top level type! when importing libcst.codegen.gen_matcher_classes"
     ]
+  },
+  "python-llama-cpp-python": {
+    "urls": [],
+    "summaries": []
   },
   "python-loguru": {
     "urls": [
@@ -2077,6 +2073,10 @@
     "urls": [],
     "summaries": []
   },
+  "python-rasterio": {
+    "urls": [],
+    "summaries": []
+  },
   "python-rdflib": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2343978",
@@ -2379,6 +2379,10 @@
       "python-toolz fails to build with Python 3.14: AssertionError: is_none: assert should_curry(getattr(operator, k)) == isinstance(v, toolz.curry), k"
     ]
   },
+  "python-torch": {
+    "urls": [],
+    "summaries": []
+  },
   "python-tornado": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2327969"
@@ -2513,10 +2517,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-wheel": {
-    "urls": [],
-    "summaries": []
-  },
   "python-wordcloud": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2335908"
@@ -2532,6 +2532,10 @@
     "summaries": [
       "python-yappi fails to build with Python 3.14: error: invalid use of incomplete typedef \u2018PyGenObject\u2019 {aka \u2018struct _PyGenObject\u2019}"
     ]
+  },
+  "python-zarr": {
+    "urls": [],
+    "summaries": []
   },
   "python-zeep": {
     "urls": [],
@@ -2594,6 +2598,10 @@
     ]
   },
   "root": {
+    "urls": [],
+    "summaries": []
+  },
+  "rpmlint": {
     "urls": [],
     "summaries": []
   },
