@@ -219,10 +219,6 @@
     "urls": [],
     "summaries": []
   },
-  "gdal": {
-    "urls": [],
-    "summaries": []
-  },
   "geopmd": {
     "urls": [],
     "summaries": []
@@ -342,14 +338,6 @@
   "libxc": {
     "urls": [],
     "summaries": []
-  },
-  "llvm": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2336915"
-    ],
-    "summaries": [
-      "llvm fails to build with Python 3.14: tools/opt-viewer/suppress.test: AttributeError: type object 'Passed' has no attribute 'demangler_lock'"
-    ]
   },
   "mock": {
     "urls": [],
@@ -1901,10 +1889,6 @@
       "python-pymongo: FTBFS in Fedora rawhide/f42"
     ]
   },
-  "python-pynamodb": {
-    "urls": [],
-    "summaries": []
-  },
   "python-pynn": {
     "urls": [],
     "summaries": []
@@ -2596,10 +2580,6 @@
     "summaries": [
       "rebase-helper fails to build with Python 3.14: AssertionError in TestCLI.test_cli_unit and TestConfig.test_merge"
     ]
-  },
-  "root": {
-    "urls": [],
-    "summaries": []
   },
   "rpmlint": {
     "urls": [],
