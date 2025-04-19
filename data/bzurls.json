@@ -243,14 +243,6 @@
       "h5py fails to build with Python 3.14: ResourceWarning: TestFileObj.test_TemporaryFile: Implicitly cleaning up <_TemporaryFileWrapper file=<_io.BufferedRandom name='/tmp/tmp8pqafmzv'>>"
     ]
   },
-  "hddfancontrol": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2354083"
-    ],
-    "summaries": [
-      "hddfancontrol FTBFS due to missing tox configuration"
-    ]
-  },
   "httpie": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2350335"
@@ -392,12 +384,8 @@
     ]
   },
   "onnx": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2354087"
-    ],
-    "summaries": [
-      "onnx FTBFS due to missing tox configuration"
-    ]
+    "urls": [],
+    "summaries": []
   },
   "opae": {
     "urls": [],
@@ -1227,14 +1215,6 @@
     ],
     "summaries": [
       "python-howdoi fails to build with Python 3.14: AssertionError: 'ERROR: Unable to reach google. Do you need to use a proxy? + json.decoder.JSONDecodeError"
-    ]
-  },
-  "python-hvac": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2354110"
-    ],
-    "summaries": [
-      "python-hvac FTBFS due to missing tox configuration"
     ]
   },
   "python-igraph": {
@@ -2573,6 +2553,10 @@
       "qtile fails to build with Python 3.14: _pickle.PicklingError: Can't pickle local object <function TestManager.start.<locals>.run_qtile at 0x7f9c5918fed0>"
     ]
   },
+  "rapidyaml": {
+    "urls": [],
+    "summaries": []
+  },
   "rebase-helper": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2352551"
@@ -2580,6 +2564,10 @@
     "summaries": [
       "rebase-helper fails to build with Python 3.14: AssertionError in TestCLI.test_cli_unit and TestConfig.test_merge"
     ]
+  },
+  "root": {
+    "urls": [],
+    "summaries": []
   },
   "rpmlint": {
     "urls": [],
