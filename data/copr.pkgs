@@ -61,7 +61,7 @@ apk-tools	succeeded
 appliance-tools	succeeded
 apx	succeeded
 arandr	succeeded
-arbor	failed
+arbor	succeeded
 argparse-manpage	succeeded
 artifacts	succeeded
 asahi-installer	succeeded
@@ -147,7 +147,7 @@ cm_rgb	succeeded
 cmake	succeeded
 cobbler	succeeded
 coccinelle	succeeded
-cockpit	failed
+cockpit	succeeded
 codespell	succeeded
 coin-or-HiGHS	succeeded
 colin	succeeded
@@ -211,7 +211,7 @@ dnfdaemon	succeeded
 dnfdragora	succeeded
 dnsconfd	succeeded
 dnsgen	succeeded
-dnsviz	failed
+dnsviz	succeeded
 doge	succeeded
 dogtag-pki	succeeded
 dogtail	succeeded
@@ -596,7 +596,7 @@ neuron	succeeded
 newt	succeeded
 nextpnr	failed
 nfs-ganesha	succeeded
-nfsometer	failed
+nfsometer	succeeded
 nftables	succeeded
 nicotine+	succeeded
 ninja-build	succeeded
@@ -634,7 +634,7 @@ opae	failed
 openapi-python-client	failed
 openbabel	succeeded
 opencv	failed
-openmeeg	failed
+openmeeg	succeeded
 openmpi	succeeded
 openscap	succeeded
 openscap-report	failed
@@ -669,7 +669,7 @@ patool	succeeded
 pcapy	succeeded
 pcp	succeeded
 pcp2pdf	succeeded
-pcs	failed
+pcs	running
 pdf-stapler	succeeded
 pdfarranger	succeeded
 pdfposter	succeeded
@@ -767,7 +767,7 @@ pyp2rpm	succeeded
 pyp2spec	succeeded
 pyparsing	succeeded
 pyparted	succeeded
-pyplane	failed
+pyplane	succeeded
 pypolicyd-spf	succeeded
 pyppd	succeeded
 pypykatz	succeeded
@@ -813,7 +813,7 @@ python-QtPy	succeeded
 python-ROPGadget	succeeded
 python-Rtree	succeeded
 python-SALib	failed
-python-SecretStorage	failed
+python-SecretStorage	succeeded
 python-TestSlide	failed
 python-Traits	succeeded
 python-WSGIProxy2	succeeded
@@ -925,7 +925,7 @@ python-alsa	succeeded
 python-amply	succeeded
 python-amqp	succeeded
 python-ana	succeeded
-python-animatplot	succeeded
+python-animatplot	failed
 python-aniso8601	succeeded
 python-annarchy	failed
 python-annexremote	succeeded
@@ -1148,7 +1148,7 @@ python-binary-manager	failed
 python-binary-memcached	succeeded
 python-binaryornot	succeeded
 python-binstruct	succeeded
-python-bioframe	failed
+python-bioframe	succeeded
 python-biopython	succeeded
 python-bioread	failed
 python-biscuits	succeeded
@@ -1352,7 +1352,7 @@ python-constantly	succeeded
 python-construct	succeeded
 python-construct-classes	succeeded
 python-contextualbandits	failed
-python-contourpy	failed
+python-contourpy	succeeded
 python-cookiecutter	succeeded
 python-cooldict	succeeded
 python-copr	succeeded
@@ -1428,9 +1428,9 @@ python-dbus-client-gen	succeeded
 python-dbus-next	succeeded
 python-dbus-python-client-gen	succeeded
 python-dbus-signature-pyparsing	succeeded
-python-dbusmock	failed
+python-dbusmock	succeeded
 python-ddt	succeeded
-python-deap	failed
+python-deap	succeeded
 python-debian	succeeded
 python-debianbts	succeeded
 python-debrepo	succeeded
@@ -2159,9 +2159,9 @@ python-marshmallow-enum	succeeded
 python-masscan	succeeded
 python-mathics-pygments	succeeded
 python-mathics-scanner	succeeded
-python-matplotlib	failed
+python-matplotlib	succeeded
 python-matplotlib-inline	succeeded
-python-matplotlib-scalebar	failed
+python-matplotlib-scalebar	succeeded
 python-matrix-common	succeeded
 python-matrix-nio	failed
 python-matrix-synapse-ldap3	succeeded
@@ -2171,7 +2171,7 @@ python-mccabe	succeeded
 python-mdit-py-plugins	succeeded
 python-mdurl	succeeded
 python-mdx_gh_links	succeeded
-python-meautility	failed
+python-meautility	succeeded
 python-mechanicalsoup	succeeded
 python-mechanize	succeeded
 python-mediafile	succeeded
@@ -2245,7 +2245,7 @@ python-mozilla-django-oidc	succeeded
 python-mpd	succeeded
 python-mpd2	succeeded
 python-mplcairo	failed
-python-mplcursors	failed
+python-mplcursors	succeeded
 python-mpmath	succeeded
 python-mrcfile	succeeded
 python-mrcrowbar	succeeded
@@ -2285,7 +2285,7 @@ python-myst-parser	succeeded
 python-mystrom	succeeded
 python-nagiosplugin	succeeded
 python-name-that-hash	succeeded
-python-nanobind	failed
+python-nanobind	succeeded
 python-nanoid	succeeded
 python-natlas-libnmap	succeeded
 python-natsort	succeeded
@@ -2320,7 +2320,7 @@ python-nh3	succeeded
 python-niaaml	failed
 python-niaarmts	failed
 python-niaclass	failed
-python-niapy	failed
+python-niapy	succeeded
 python-nibabel	failed
 python-nihtest	succeeded
 python-nikola	failed
@@ -2396,7 +2396,7 @@ python-opfunu	failed
 python-opnsense	succeeded
 python-optuna	succeeded
 python-opytimark	succeeded
-python-opytimizer	failed
+python-opytimizer	succeeded
 python-oracledb	succeeded
 python-oras	succeeded
 python-ordered-set	succeeded
@@ -2588,7 +2588,7 @@ python-py-tes	succeeded
 python-py27hash	succeeded
 python-py2pack	succeeded
 python-py3nvml	succeeded
-python-pyABF	failed
+python-pyABF	succeeded
 python-pyModbusTCP	succeeded
 python-pyactivetwo	succeeded
 python-pyaes	succeeded
@@ -2633,7 +2633,7 @@ python-pydata-sphinx-theme	succeeded
 python-pydbus	succeeded
 python-pydepsdev	succeeded
 python-pydes	succeeded
-python-pydicom	failed
+python-pydicom	succeeded
 python-pydicom-data	succeeded
 python-pydiffx	succeeded
 python-pydispatcher	succeeded
@@ -2642,7 +2642,7 @@ python-pydoctor	succeeded
 python-pydotplus	succeeded
 python-pydyf	succeeded
 python-pyeclib	succeeded
-python-pyedflib	failed
+python-pyedflib	succeeded
 python-pyelectro	failed
 python-pyembroidery	succeeded
 python-pyemby	succeeded
@@ -2675,7 +2675,7 @@ python-pygments-markdown-lexer	succeeded
 python-pygments-pytest	succeeded
 python-pygments-style-solarized	succeeded
 python-pygmtools	failed
-python-pygraphviz	failed
+python-pygraphviz	succeeded
 python-pygrocy	succeeded
 python-pygtkspellcheck	succeeded
 python-pyhcl	succeeded
@@ -2849,14 +2849,14 @@ python-pytest-localserver	succeeded
 python-pytest-lsp	failed
 python-pytest-mock	succeeded
 python-pytest-mpi	succeeded
-python-pytest-mpl	failed
+python-pytest-mpl	succeeded
 python-pytest-multihost	succeeded
 python-pytest-openfiles	succeeded
 python-pytest-ordering	succeeded
 python-pytest-param-files	succeeded
 python-pytest-postgresql	succeeded
 python-pytest-randomly	succeeded
-python-pytest-regressions	failed
+python-pytest-regressions	succeeded
 python-pytest-relaxed	succeeded
 python-pytest-remotedata	succeeded
 python-pytest-repeat	succeeded
@@ -2905,7 +2905,7 @@ python-pyvo	failed
 python-pywayland	succeeded
 python-pywizlight	succeeded
 python-pywlroots	succeeded
-python-pywt	failed
+python-pywt	succeeded
 python-pyxdameraulevenshtein	succeeded
 python-pyxdf	succeeded
 python-pyxid	succeeded
@@ -3174,7 +3174,7 @@ python-sphinx-copybutton	succeeded
 python-sphinx-design	succeeded
 python-sphinx-documatt-theme	succeeded
 python-sphinx-epytext	succeeded
-python-sphinx-gallery	failed
+python-sphinx-gallery	succeeded
 python-sphinx-hoverxref	succeeded
 python-sphinx-inline-tabs	succeeded
 python-sphinx-intl	succeeded
@@ -3326,7 +3326,7 @@ python-testrepository	succeeded
 python-testresources	succeeded
 python-testscenarios	succeeded
 python-testtools	succeeded
-python-texext	failed
+python-texext	succeeded
 python-text-unidecode	succeeded
 python-textdistance	succeeded
 python-textfsm	succeeded
@@ -3342,7 +3342,7 @@ python-throttler	succeeded
 python-tidy	succeeded
 python-tifffile	succeeded
 python-tiktoken	succeeded
-python-tilestache	failed
+python-tilestache	succeeded
 python-time-machine	succeeded
 python-timelib	succeeded
 python-timeout-decorator	failed
@@ -3350,7 +3350,7 @@ python-timeslot	succeeded
 python-tiny-proxy	succeeded
 python-tinycss2	succeeded
 python-tinydb	succeeded
-python-tinygrad	failed
+python-tinygrad	succeeded
 python-tinyhtml5	succeeded
 python-tkrzw	succeeded
 python-tld	succeeded
@@ -3671,7 +3671,7 @@ rabbitvcs	succeeded
 radicale	succeeded
 ranger	succeeded
 rapid-photo-downloader	succeeded
-rapidyaml	failed
+rapidyaml	succeeded
 rb_libtorrent	succeeded
 rdiff-backup	succeeded
 rdma-core	succeeded
@@ -3711,7 +3711,7 @@ rpm-head-signing	succeeded
 rpm-spec-language-server	succeeded
 rpmconf	succeeded
 rpmdeplint	succeeded
-rpmlint	failed
+rpmlint	succeeded
 rpmspectool	succeeded
 rpy	succeeded
 rrdtool	succeeded
@@ -3761,7 +3761,7 @@ skf	succeeded
 slingshot	succeeded
 slowloris	succeeded
 smbcmp	succeeded
-smoldyn	failed
+smoldyn	succeeded
 snallygaster	succeeded
 snowball	succeeded
 socialscan	succeeded
@@ -3902,7 +3902,7 @@ xen	succeeded
 xmms2	succeeded
 xonsh	succeeded
 xortool	succeeded
-xpra	failed
+xpra	running
 xrootd	succeeded
 xwayland-run	succeeded
 yamllint	succeeded

@@ -27,10 +27,6 @@
     "urls": [],
     "summaries": []
   },
-  "arbor": {
-    "urls": [],
-    "summaries": []
-  },
   "asv": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2339908"
@@ -127,14 +123,6 @@
     "urls": [],
     "summaries": []
   },
-  "cockpit": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2350287"
-    ],
-    "summaries": [
-      "cockpit fails to build from source with Python 3.14: AttributeError: module 'asyncio' has no attribute 'SafeChildWatcher'"
-    ]
-  },
   "conda": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2356170"
@@ -192,10 +180,6 @@
     ]
   },
   "dlib": {
-    "urls": [],
-    "summaries": []
-  },
-  "dnsviz": {
     "urls": [],
     "summaries": []
   },
@@ -367,10 +351,6 @@
     "urls": [],
     "summaries": []
   },
-  "nfsometer": {
-    "urls": [],
-    "summaries": []
-  },
   "ocrmypdf": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2357508"
@@ -392,10 +372,6 @@
     "summaries": []
   },
   "opencv": {
-    "urls": [],
-    "summaries": []
-  },
-  "openmeeg": {
     "urls": [],
     "summaries": []
   },
@@ -491,10 +467,6 @@
     "urls": [],
     "summaries": []
   },
-  "pyplane": {
-    "urls": [],
-    "summaries": []
-  },
   "pyserial-asyncio": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2327980"
@@ -520,10 +492,6 @@
     ]
   },
   "python-SALib": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-SecretStorage": {
     "urls": [],
     "summaries": []
   },
@@ -568,6 +536,10 @@
     "summaries": [
       "python-aiounittest fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
     ]
+  },
+  "python-animatplot": {
+    "urls": [],
+    "summaries": []
   },
   "python-annarchy": {
     "urls": [],
@@ -757,10 +729,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-bioframe": {
-    "urls": [],
-    "summaries": []
-  },
   "python-bioread": {
     "urls": [],
     "summaries": []
@@ -905,10 +873,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-contourpy": {
-    "urls": [],
-    "summaries": []
-  },
   "python-cramjam": {
     "urls": [],
     "summaries": []
@@ -946,14 +910,6 @@
     ]
   },
   "python-dateparser": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-dbusmock": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-deap": {
     "urls": [],
     "summaries": []
   },
@@ -1405,23 +1361,7 @@
     "urls": [],
     "summaries": []
   },
-  "python-matplotlib": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2328713"
-    ],
-    "summaries": [
-      "python-matplotlib fails to build with Python 3.14: RecursionError: maximum recursion depth exceeded"
-    ]
-  },
-  "python-matplotlib-scalebar": {
-    "urls": [],
-    "summaries": []
-  },
   "python-matrix-nio": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-meautility": {
     "urls": [],
     "summaries": []
   },
@@ -1457,10 +1397,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-mplcursors": {
-    "urls": [],
-    "summaries": []
-  },
   "python-msal": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2323170"
@@ -1483,14 +1419,6 @@
     ],
     "summaries": [
       "python-music21 FTBFS due to missing tox configuration"
-    ]
-  },
-  "python-nanobind": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2359697"
-    ],
-    "summaries": [
-      "python-nanobind fails to build with Python 3.14: AssertionError related to the refcounting"
     ]
   },
   "python-nbclassic": {
@@ -1554,10 +1482,6 @@
     "summaries": []
   },
   "python-niaclass": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-niapy": {
     "urls": [],
     "summaries": []
   },
@@ -1638,10 +1562,6 @@
     "summaries": []
   },
   "python-opfunu": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-opytimizer": {
     "urls": [],
     "summaries": []
   },
@@ -1730,7 +1650,7 @@
       "https://bugzilla.redhat.com/show_bug.cgi?id=2359507"
     ],
     "summaries": [
-      "python-pkginfo will fail to build once we rebuild wheel with the newest flit_core: AssertionError: assert '2.4' == '2.3'"
+      "python-pkginfo fails to build when we rebuilt wheel with the newest flit_core: AssertionError: assert '2.4' == '2.3'"
     ]
   },
   "python-poi-tracker": {
@@ -1765,10 +1685,6 @@
       "python-pure-protobuf fails to build with Python 3.14: ImportError: cannot import name 'ByteString' from 'typing'"
     ]
   },
-  "python-pyABF": {
-    "urls": [],
-    "summaries": []
-  },
   "python-pycec": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2327973"
@@ -1793,14 +1709,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-pydicom": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-pyedflib": {
-    "urls": [],
-    "summaries": []
-  },
   "python-pyelectro": {
     "urls": [],
     "summaries": []
@@ -1818,10 +1726,6 @@
     "summaries": []
   },
   "python-pygmtools": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-pygraphviz": {
     "urls": [],
     "summaries": []
   },
@@ -1981,14 +1885,6 @@
       "python-pytest-lsp fails to build with Python 3.14: warnings counts differ, resulting in AssertionError in 3 tests"
     ]
   },
-  "python-pytest-mpl": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-pytest-regressions": {
-    "urls": [],
-    "summaries": []
-  },
   "python-pytest-testinfra": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2361631"
@@ -2018,10 +1914,6 @@
     ]
   },
   "python-pyvo": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-pywt": {
     "urls": [],
     "summaries": []
   },
@@ -2209,10 +2101,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-sphinx-gallery": {
-    "urls": [],
-    "summaries": []
-  },
   "python-sqlalchemy1.4": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2327976"
@@ -2287,10 +2175,6 @@
       "python-tenacity fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
     ]
   },
-  "python-texext": {
-    "urls": [],
-    "summaries": []
-  },
   "python-textual": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2341224"
@@ -2303,10 +2187,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-tilestache": {
-    "urls": [],
-    "summaries": []
-  },
   "python-timeout-decorator": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2354129"
@@ -2314,10 +2194,6 @@
     "summaries": [
       "python-timeout-decorator FTBFS due to missing tox configuration"
     ]
-  },
-  "python-tinygrad": {
-    "urls": [],
-    "summaries": []
   },
   "python-toolz": {
     "urls": [
@@ -2537,10 +2413,6 @@
       "qtile fails to build with Python 3.14: _pickle.PicklingError: Can't pickle local object <function TestManager.start.<locals>.run_qtile at 0x7f9c5918fed0>"
     ]
   },
-  "rapidyaml": {
-    "urls": [],
-    "summaries": []
-  },
   "rebase-helper": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2352551"
@@ -2550,10 +2422,6 @@
     ]
   },
   "root": {
-    "urls": [],
-    "summaries": []
-  },
-  "rpmlint": {
     "urls": [],
     "summaries": []
   },
@@ -2592,10 +2460,6 @@
     "summaries": [
       "signon-glib: FTBFS in Fedora rawhide/f42"
     ]
-  },
-  "smoldyn": {
-    "urls": [],
-    "summaries": []
   },
   "subversion": {
     "urls": [
