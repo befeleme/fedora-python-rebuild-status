@@ -1021,14 +1021,6 @@
       "python-et_xmlfile fails to build with Python 3.14: ElementTreeTest.test_simpleops: AssertionError: 'Element.remove(x): element not found' != 'list.remove(x): x not in list'"
     ]
   },
-  "python-etcd": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2323184"
-    ],
-    "summaries": [
-      "python-etcd fails to build with Python 3.14: _pickle.PicklingError: Can't pickle local object <function TestWatch.test_watch_indexed_generator.<locals>.watch_value at 0x7f0d39f71dd0>"
-    ]
-  },
   "python-eth-stdlib": {
     "urls": [],
     "summaries": []
@@ -1406,12 +1398,8 @@
     ]
   },
   "python-msgspec": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2325169"
-    ],
-    "summaries": [
-      "python-msgspec fails to build with Python 3.14: error: \u2018_Py_IMMORTAL_REFCNT\u2019 undeclared here"
-    ]
+    "urls": [],
+    "summaries": []
   },
   "python-music21": {
     "urls": [
@@ -1644,14 +1632,6 @@
   "python-pkg-depgraph": {
     "urls": [],
     "summaries": []
-  },
-  "python-pkginfo": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2359507"
-    ],
-    "summaries": [
-      "python-pkginfo fails to build when we rebuilt wheel with the newest flit_core: AssertionError: assert '2.4' == '2.3'"
-    ]
   },
   "python-poi-tracker": {
     "urls": [],
@@ -2077,10 +2057,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-shortuuid": {
-    "urls": [],
-    "summaries": []
-  },
   "python-simframe": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2352552"
@@ -2291,6 +2267,10 @@
     "urls": [],
     "summaries": []
   },
+  "python-uv-build": {
+    "urls": [],
+    "summaries": []
+  },
   "python-uvloop": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2341233",
@@ -2384,10 +2364,6 @@
     "summaries": [
       "python-zope-exceptions: FTBFS in Fedora rawhide/f42"
     ]
-  },
-  "python-zope-hookable": {
-    "urls": [],
-    "summaries": []
   },
   "python-zope-testrunner": {
     "urls": [
@@ -2492,6 +2468,10 @@
     "summaries": [
       "ufw: FTBFS in Fedora rawhide/f42"
     ]
+  },
+  "uv": {
+    "urls": [],
+    "summaries": []
   },
   "veusz": {
     "urls": [],
