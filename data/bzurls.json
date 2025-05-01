@@ -211,6 +211,10 @@
     "urls": [],
     "summaries": []
   },
+  "gedit": {
+    "urls": [],
+    "summaries": []
+  },
   "geopmd": {
     "urls": [],
     "summaries": []
@@ -1561,10 +1565,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-orjson": {
-    "urls": [],
-    "summaries": []
-  },
   "python-osc-lib": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2351387"
@@ -1832,10 +1832,6 @@
     "summaries": [
       "python-pyside6 fails to build with Python 3.14: TypeError: Formatter.formatannotation() got an unexpected keyword argument 'quote_annotation_strings'"
     ]
-  },
-  "python-pysol-cards": {
-    "urls": [],
-    "summaries": []
   },
   "python-pyspike": {
     "urls": [],
@@ -2257,6 +2253,14 @@
     ],
     "summaries": [
       "python-typing-inspect fails to build with Python 3.14: AssertionError: {} != {'x': <class 'int'>, 'y': <class 'int'>}"
+    ]
+  },
+  "python-typing-inspection": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2362887"
+    ],
+    "summaries": [
+      "python-typing-inspection fails to build with Python 3.14: AssertionError: test_is_union_does_not_match_uniontype"
     ]
   },
   "python-ufoLib2": {
