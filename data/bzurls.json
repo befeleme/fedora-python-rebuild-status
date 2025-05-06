@@ -289,9 +289,11 @@
   },
   "kernel": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2363674",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2340285"
     ],
     "summaries": [
+      "Dependency between termios.h and struct termio causes userspace to FTBFS on ppc64le",
       "kernel: FTBFS in Fedora rawhide/f42"
     ]
   },
@@ -2061,6 +2063,10 @@
       "python-scikit-learn fails to build with Python 3.14: AssertionError in test_warn_if_metric_bool_data_no_bool and test_open_openml_url_retry_on_network_error"
     ]
   },
+  "python-scipy-doctest": {
+    "urls": [],
+    "summaries": []
+  },
   "python-sciunit": {
     "urls": [],
     "summaries": []
@@ -2291,10 +2297,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-uv-build": {
-    "urls": [],
-    "summaries": []
-  },
   "python-uvloop": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2341233",
@@ -2492,10 +2494,6 @@
     "summaries": [
       "ufw: FTBFS in Fedora rawhide/f42"
     ]
-  },
-  "uv": {
-    "urls": [],
-    "summaries": []
   },
   "veusz": {
     "urls": [],
