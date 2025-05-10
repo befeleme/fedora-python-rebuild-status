@@ -87,6 +87,10 @@
     "urls": [],
     "summaries": []
   },
+  "cantor": {
+    "urls": [],
+    "summaries": []
+  },
   "capstone": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2345714"
@@ -370,6 +374,10 @@
     ]
   },
   "myst-nb": {
+    "urls": [],
+    "summaries": []
+  },
+  "nbdkit": {
     "urls": [],
     "summaries": []
   },
@@ -1395,6 +1403,14 @@
     "urls": [],
     "summaries": []
   },
+  "python-matplotlib": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2328713"
+    ],
+    "summaries": [
+      "python-matplotlib fails to build with Python 3.14: RecursionError: maximum recursion depth exceeded"
+    ]
+  },
   "python-matrix-nio": {
     "urls": [],
     "summaries": []
@@ -2139,6 +2155,14 @@
     "urls": [],
     "summaries": []
   },
+  "python-sqlalchemy": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2350336"
+    ],
+    "summaries": [
+      "python-sqlalchemy fails to build with Python 3.14: _pickle.PicklingError: Can't pickle local object <function profile_memory.<locals>.decorate.<locals>.profile at 0x7f0f43d5d170> + typing + more"
+    ]
+  },
   "python-sqlalchemy1.4": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2327976"
@@ -2325,17 +2349,13 @@
     "urls": [],
     "summaries": []
   },
-  "python-uranium": {
+  "python-uharfbuzz": {
     "urls": [],
     "summaries": []
   },
-  "python-urwid": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2327984"
-    ],
-    "summaries": [
-      "python-urwid fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
-    ]
+  "python-uranium": {
+    "urls": [],
+    "summaries": []
   },
   "python-usort": {
     "urls": [],
@@ -2399,6 +2419,10 @@
       "python-wordcloud fails to build with Python 3.14: test_cli_as_executable: AssertionError: assert expected_output in out if ret_code == 0 else err"
     ]
   },
+  "python-wsgidav": {
+    "urls": [],
+    "summaries": []
+  },
   "python-yappi": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2323160"
@@ -2422,6 +2446,10 @@
     "summaries": [
       "python-zict fails to build with Python 3.14: test_stress_different_keys_threadsafe Timeout"
     ]
+  },
+  "python-zmq": {
+    "urls": [],
+    "summaries": []
   },
   "python-zoidberg": {
     "urls": [],
