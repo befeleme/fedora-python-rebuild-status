@@ -5702,7 +5702,7 @@
             "mikep"
         ],
         "accel-config": [
-            "orphan",
+            "aekoroglu",
             "miaojun0823"
         ],
         "accel-ppp": [
@@ -8452,7 +8452,7 @@
             "rombobeorn"
         ],
         "aws-c-auth": [
-            "wombelix",
+            "orphan",
             "davdunc"
         ],
         "aws-c-cal": [
@@ -8462,35 +8462,35 @@
             "davdunc"
         ],
         "aws-c-compression": [
-            "wombelix",
+            "orphan",
             "davdunc"
         ],
         "aws-c-event-stream": [
-            "wombelix",
+            "orphan",
             "davdunc"
         ],
         "aws-c-http": [
-            "wombelix",
+            "orphan",
             "davdunc"
         ],
         "aws-c-io": [
-            "wombelix",
+            "orphan",
             "davdunc"
         ],
         "aws-c-mqtt": [
-            "wombelix",
+            "orphan",
             "davdunc"
         ],
         "aws-c-s3": [
-            "wombelix",
+            "orphan",
             "davdunc"
         ],
         "aws-c-sdkutils": [
-            "wombelix",
+            "orphan",
             "davdunc"
         ],
         "aws-checksums": [
-            "wombelix",
+            "orphan",
             "davdunc"
         ],
         "aws-sdk-java": [
@@ -17121,7 +17121,7 @@
             "davdunc"
         ],
         "ec2-instance-connect": [
-            "wombelix",
+            "orphan",
             "davdunc"
         ],
         "ec2-metadata": [
@@ -19501,8 +19501,7 @@
         "fakechroot": [
             "ngompa",
             "corsepiu",
-            "cicku",
-            "sergiomb"
+            "cicku"
         ],
         "fakeroot": [
             "ngompa",
@@ -49478,10 +49477,10 @@
             "mikelo2"
         ],
         "libmodulemd": [
-            "sgallagh",
             "ppisar",
             "nphilipp",
-            "asamalik"
+            "asamalik",
+            "sgallagh"
         ],
         "libmodulemd1": [
             "orphan"
@@ -59748,7 +59747,10 @@
             "heffer"
         ],
         "nginx-mod-headers-more": [
-            "orphan"
+            "ngompa",
+            "luhliarik",
+            "mikelo2",
+            "heffer"
         ],
         "nginx-mod-modsecurity": [
             "mikelo2",
@@ -70341,7 +70343,7 @@
             "spot"
         ],
         "perl-Cairo-GObject": [
-            "orphan"
+            "ppisar"
         ],
         "perl-Calendar-Simple": [
             "corsepiu",
@@ -73822,7 +73824,7 @@
             "mspacek"
         ],
         "perl-Glib-Object-Introspection": [
-            "orphan"
+            "ppisar"
         ],
         "perl-Gnome2": [
             "ppisar",
@@ -73984,7 +73986,7 @@
             "orphan"
         ],
         "perl-Gtk3": [
-            "orphan"
+            "ppisar"
         ],
         "perl-Gtk3-ImageView": [
             "ppisar"
@@ -89598,6 +89600,9 @@
         "python-aiolifx": [
             "fab"
         ],
+        "python-aiolimiter": [
+            "sgallagh"
+        ],
         "python-aiomodbus": [
             "orphan"
         ],
@@ -92177,7 +92182,8 @@
             "orphan"
         ],
         "python-deepdiff": [
-            "jussilehtola"
+            "jussilehtola",
+            "romaingeissler1a"
         ],
         "python-defcon": [
             "athoscr"
@@ -94636,7 +94642,8 @@
         ],
         "python-h5netcdf": [
             "sergiopr",
-            "gui1ty"
+            "gui1ty",
+            "kkeithle"
         ],
         "python-habitipy": [
             "fab"
@@ -97668,7 +97675,8 @@
             "orphan"
         ],
         "python-orderly-set": [
-            "jussilehtola"
+            "jussilehtola",
+            "romaingeissler1a"
         ],
         "python-orjson": [
             "gotmax23",
@@ -113437,6 +113445,9 @@
         "rust-dbus0.8": [
             "decathorpe"
         ],
+        "rust-deadpool-runtime": [
+            "music"
+        ],
         "rust-debug-helper": [
             "orion"
         ],
@@ -122938,6 +122949,9 @@
         "rust-udev0.7": [
             "dcavalca"
         ],
+        "rust-uefi-macros": [
+            "kraxel"
+        ],
         "rust-uefi-raw": [
             "kraxel"
         ],
@@ -123905,6 +123919,9 @@
         "rust-winnow0.6": [
             "decathorpe"
         ],
+        "rust-wiremock": [
+            "music"
+        ],
         "rust-witx": [
             "orphan"
         ],
@@ -124314,7 +124331,7 @@
             "atim"
         ],
         "s2n-tls": [
-            "wombelix",
+            "orphan",
             "davdunc"
         ],
         "s390utils": [
@@ -133434,7 +133451,7 @@
             "fschwarz"
         ],
         "web-assets": [
-            "orphan",
+            "jstanek",
             "patches"
         ],
         "web-assets-epel": [
@@ -137825,6 +137842,7 @@
         ],
         "lftp": [
             "mruprich",
+            "tkorbar",
             "omejzlik"
         ],
         "libarchive": [

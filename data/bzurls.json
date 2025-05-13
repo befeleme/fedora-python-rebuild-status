@@ -235,9 +235,17 @@
     "urls": [],
     "summaries": []
   },
-  "git-filter-repo": {
+  "git-cola": {
     "urls": [],
     "summaries": []
+  },
+  "git-filter-repo": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2365637"
+    ],
+    "summaries": [
+      "git-filter-repo fails to build with Python 3.14: == t9394-filter-repo-sanity-checks-and-bigger-repo-setup.sh == --replace-text all options not ok"
+    ]
   },
   "gnofract4d": {
     "urls": [
@@ -337,7 +345,15 @@
     "urls": [],
     "summaries": []
   },
+  "libsvm": {
+    "urls": [],
+    "summaries": []
+  },
   "libxc": {
+    "urls": [],
+    "summaries": []
+  },
+  "mlt": {
     "urls": [],
     "summaries": []
   },
@@ -374,10 +390,6 @@
     ]
   },
   "myst-nb": {
-    "urls": [],
-    "summaries": []
-  },
-  "nbdkit": {
     "urls": [],
     "summaries": []
   },
@@ -675,6 +687,10 @@
       "python-asyncssh fails to build with Python 3.14: multiple test failures (failures=25, errors=697)"
     ]
   },
+  "python-atlassian-python-api": {
+    "urls": [],
+    "summaries": []
+  },
   "python-atomicwrites": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2341128"
@@ -692,10 +708,6 @@
     ]
   },
   "python-autograd": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-avalara": {
     "urls": [],
     "summaries": []
   },
@@ -1464,6 +1476,14 @@
     ]
   },
   "python-msgspec": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2365636"
+    ],
+    "summaries": [
+      "python-msgspec fails to build with Python 3.14: TypeError: Extra positional arguments provided"
+    ]
+  },
+  "python-multidict": {
     "urls": [],
     "summaries": []
   },
@@ -1728,8 +1748,12 @@
     ]
   },
   "python-pudb": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2365643"
+    ],
+    "summaries": [
+      "python-pudb fails to build with Python 3.14: ImportError: cannot import name 'format_exception' from 'pudb.lowlevel'"
+    ]
   },
   "python-pure-protobuf": {
     "urls": [
@@ -1862,6 +1886,10 @@
     "summaries": [
       "python-pyphi: FTBFS in Fedora rawhide/f42"
     ]
+  },
+  "python-pyproject-api": {
+    "urls": [],
+    "summaries": []
   },
   "python-pyqtgraph": {
     "urls": [],
@@ -2128,6 +2156,14 @@
     "summaries": []
   },
   "python-sep": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-setuptools": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-setuptools_scm": {
     "urls": [],
     "summaries": []
   },
@@ -2408,8 +2444,12 @@
     ]
   },
   "python-webob": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2365645"
+    ],
+    "summaries": [
+      "python-webob fails to build with Python 3.14: test_interrupted_request: AssertionError: False disconnect alert"
+    ]
   },
   "python-wordcloud": {
     "urls": [
