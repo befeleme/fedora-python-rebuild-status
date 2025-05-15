@@ -309,6 +309,16 @@
     "urls": [],
     "summaries": []
   },
+  "kernel": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2363674",
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2340285"
+    ],
+    "summaries": [
+      "Dependency between termios.h and struct termio causes userspace to FTBFS on ppc64le",
+      "kernel: FTBFS in Fedora rawhide/f42"
+    ]
+  },
   "kitty": {
     "urls": [],
     "summaries": []
@@ -1743,6 +1753,10 @@
     "urls": [],
     "summaries": []
   },
+  "python-orjson": {
+    "urls": [],
+    "summaries": []
+  },
   "python-osc-lib": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2351387"
@@ -2674,6 +2688,10 @@
     "summaries": [
       "rebase-helper fails to build with Python 3.14: AssertionError in TestCLI.test_cli_unit and TestConfig.test_merge"
     ]
+  },
+  "root": {
+    "urls": [],
+    "summaries": []
   },
   "rpkg-util": {
     "urls": [],
