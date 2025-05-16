@@ -80,8 +80,12 @@
     ]
   },
   "bluechi": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2366508"
+    ],
+    "summaries": [
+      "bluechi: FTBFS in Fedora Rawhide: error: call to \u2018*__inet_pton_chk\u2019 declared with attribute warning: inet_pton called with a destination buffer size too small"
+    ]
   },
   "borgbackup": {
     "urls": [
@@ -140,8 +144,12 @@
     ]
   },
   "claws-mail": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2366512"
+    ],
+    "summaries": [
+      "claws-mail: FTBFS in Fedora Rawhide"
+    ]
   },
   "cloud-init": {
     "urls": [],
@@ -184,15 +192,21 @@
     ]
   },
   "dftd4": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2366480"
+    ],
+    "summaries": [
+      "dftd4 fails to build with Python 3.14: Error: Interface mismatch in dummy procedure \u2018argument_getter\u2019 at (1): ALLOCATABLE mismatch in argument '_formal_1'"
+    ]
   },
   "diceware": {
     "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2340075"
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2340075",
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2329832"
     ],
     "summaries": [
-      "diceware: FTBFS in Fedora rawhide/f42"
+      "diceware: FTBFS in Fedora rawhide/f42",
+      "diceware fails to build with sphinx 8.x: ERROR: Invalid value `None` in intersphinx_mapping['http://docs.python.org/']."
     ]
   },
   "did": {
@@ -216,8 +230,12 @@
     "summaries": []
   },
   "ephemeral-port-reserve": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2366471"
+    ],
+    "summaries": [
+      "ephemeral-port-reserve fails to build with Python 3.14: socket.gaierror: [Errno -3] Temporary failure in name resolution"
+    ]
   },
   "espresso": {
     "urls": [
@@ -236,6 +254,10 @@
     "summaries": []
   },
   "geopmd": {
+    "urls": [],
+    "summaries": []
+  },
+  "getmail6": {
     "urls": [],
     "summaries": []
   },
@@ -258,10 +280,6 @@
     "summaries": [
       "gnofract4d fails to build with Python 3.14: AssertionError: 'ct_sin6 = (0.841471,-0)' != 'ct_sin6 = (0.841471,0)'"
     ]
-  },
-  "gpaw": {
-    "urls": [],
-    "summaries": []
   },
   "h5py": {
     "urls": [
@@ -289,10 +307,6 @@
       "ikiwiki: FTBFS in Fedora rawhide/f42"
     ]
   },
-  "insight": {
-    "urls": [],
-    "summaries": []
-  },
   "ipa-hcc": {
     "urls": [],
     "summaries": []
@@ -311,11 +325,9 @@
   },
   "kernel": {
     "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2363674",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2340285"
     ],
     "summaries": [
-      "Dependency between termios.h and struct termio causes userspace to FTBFS on ppc64le",
       "kernel: FTBFS in Fedora rawhide/f42"
     ]
   },
@@ -344,6 +356,10 @@
     "summaries": []
   },
   "libsonata": {
+    "urls": [],
+    "summaries": []
+  },
+  "libxc": {
     "urls": [],
     "summaries": []
   },
@@ -404,8 +420,12 @@
     ]
   },
   "onnx": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2366510"
+    ],
+    "summaries": [
+      "onnx fails to build with Python 3.14: protobuf: TypeError: Metaclasses with custom tp_new are not supported."
+    ]
   },
   "opae": {
     "urls": [],
@@ -418,14 +438,6 @@
   "opencv": {
     "urls": [],
     "summaries": []
-  },
-  "openmeeg": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2365873"
-    ],
-    "summaries": [
-      "openmeeg fails to build with Python 3.14: openmeeg/tests/test_python.py: ValueError: operands could not be broadcast together with shapes (20124196,) (0,)"
-    ]
   },
   "openscap-report": {
     "urls": [],
@@ -444,8 +456,12 @@
     "summaries": []
   },
   "patool": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2366470"
+    ],
+    "summaries": [
+      "patool fails to build with Python 3.14: Codec Load Error: /usr/bin/7z.so : errno=25 : Inappropriate ioctl for device"
+    ]
   },
   "pcs": {
     "urls": [],
@@ -469,10 +485,12 @@
   },
   "poezio": {
     "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2341088"
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2341088",
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2329835"
     ],
     "summaries": [
-      "poezio: FTBFS in Fedora rawhide/f42"
+      "poezio: FTBFS in Fedora rawhide/f42",
+      "poezio fails to build with sphinx 8.x:  ERROR: Invalid value `None` in intersphinx_mapping['http://docs.python.org/']."
     ]
   },
   "pungi": {
@@ -496,8 +514,12 @@
     ]
   },
   "pychromecast": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2366486"
+    ],
+    "summaries": [
+      "pychromecast fails to build with Python 3.14: protobuf: TypeError: Metaclasses with custom tp_new are not supported."
+    ]
   },
   "pyflakes": {
     "urls": [
@@ -529,9 +551,11 @@
   },
   "pysubnettree": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2366464",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2341123"
     ],
     "summaries": [
+      "pysubnettree fails to build with Python 3.14/Fedora Rawhide: error: too many arguments to function \u2018func\u2019; expected 0, have 1",
       "pysubnettree: FTBFS in Fedora rawhide/f42"
     ]
   },
@@ -560,10 +584,6 @@
       "Heads-up: python-TestSlide fails to build with python-pygments 2.19.1 on Fedora 43",
       "python-TestSlide fails to build with Python 3.14: ERROR collecting tests/mock_callable_testslide.py: RuntimeError: dictionary changed size during iteration"
     ]
-  },
-  "python-adjustText": {
-    "urls": [],
-    "summaries": []
   },
   "python-aioesphomeapi": {
     "urls": [
@@ -633,10 +653,6 @@
       "python-array-api-strict fails to build with Python 3.14: test_iter: Failed: DID NOT RAISE <class 'TypeError'>"
     ]
   },
-  "python-ase": {
-    "urls": [],
-    "summaries": []
-  },
   "python-astdoc": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2349452"
@@ -685,10 +701,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-astroscrappy": {
-    "urls": [],
-    "summaries": []
-  },
   "python-asyncssh": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2325445"
@@ -713,10 +725,6 @@
       "python-autocommand fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
     ]
   },
-  "python-autograd": {
-    "urls": [],
-    "summaries": []
-  },
   "python-avocado": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2341130",
@@ -732,8 +740,12 @@
     "summaries": []
   },
   "python-awesomeversion": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2366476"
+    ],
+    "summaries": [
+      "python-awesomeversion fails to build in Fedora Rawhide: rm: cannot remove '/builddir/build/BUILD/python-awesomeversion-22.9.0-build/BUILDROOT//usr/lib/python3.14/site-packages/LICENCE.md': No such file or directory"
+    ]
   },
   "python-aws-sam-translator": {
     "urls": [
@@ -859,10 +871,12 @@
   },
   "python-catkin_tools": {
     "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2341134"
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2341134",
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2329848"
     ],
     "summaries": [
-      "python-catkin_tools: FTBFS in Fedora rawhide/f42"
+      "python-catkin_tools: FTBFS in Fedora rawhide/f42",
+      "python-catkin_tools fails to build with sphinx 8.x:  ERROR: Invalid value `None` in intersphinx_mapping['http://docs.python.org/']."
     ]
   },
   "python-cattrs": {
@@ -873,13 +887,13 @@
       "python-cattrs fails to build with Python 3.14: TypeError: <class 'tests.strategies.test_include_subclasses.GrandChild'> has no usable non-default attributes"
     ]
   },
-  "python-cclib": {
-    "urls": [],
-    "summaries": []
-  },
   "python-cerberus": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2366466"
+    ],
+    "summaries": [
+      "python-cerberus fails to build in Fedora Rawhide:  File not found: /builddir/build/BUILD/python-cerberus-1.3.4-build/BUILDROOT/usr/lib/python3.14/site-packages/Cerberus-1.3.4.dist-info"
+    ]
   },
   "python-chalice": {
     "urls": [
@@ -946,8 +960,12 @@
     "summaries": []
   },
   "python-crcmod": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2329852"
+    ],
+    "summaries": [
+      "python-crcmod fails to build with sphinx 8.x: ERROR: Invalid value `None` in intersphinx_mapping['/usr/share/doc/python3-docs/html/']."
+    ]
   },
   "python-crick": {
     "urls": [],
@@ -968,10 +986,6 @@
     "summaries": [
       "python-cvxopt fails to build with Python 3.14: tests/test_dsdp.py::TestDSDP::test_options Fatal Python error: Segmentation fault"
     ]
-  },
-  "python-cyipopt": {
-    "urls": [],
-    "summaries": []
   },
   "python-dataclassy": {
     "urls": [
@@ -1034,12 +1048,20 @@
     "summaries": []
   },
   "python-django-configurations": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2366494"
+    ],
+    "summaries": [
+      "python-django-configurations fails to build with Python 3.14: ValueTests.test_cache_url_value: AssertionError:"
+    ]
   },
   "python-django-contrib-comments": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2366520"
+    ],
+    "summaries": [
+      "python-django-contrib-comments fails to build with Python 3.14: ImportError: Module \"django.contrib.auth.hashers\" does not define a \"UnsaltedMD5PasswordHasher\" attribute/class"
+    ]
   },
   "python-django-debreach": {
     "urls": [
@@ -1090,7 +1112,7 @@
       "https://bugzilla.redhat.com/show_bug.cgi?id=2366194"
     ],
     "summaries": [
-      "python-dunamai fails to build with Python 3.14: Segmentation fault when invoking brz whoami 'Your Name <name@example.com>'"
+      "breezy dumps core with Python 3.14: Segmentation fault when invoking brz whoami 'Your Name <name@example.com>'"
     ]
   },
   "python-efel": {
@@ -1210,8 +1232,12 @@
     ]
   },
   "python-fsleyes-widgets": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2336911"
+    ],
+    "summaries": [
+      "python-fsleyes-widgets fails to build with Python 3.14: AssertionError: assert 'file:/home/b...htmlfile.html' == 'file:///home...htmlfile.html'"
+    ]
   },
   "python-fsspec": {
     "urls": [],
@@ -1223,9 +1249,11 @@
   },
   "python-giacpy": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2366459",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2341608"
     ],
     "summaries": [
+      "python-giacpy fails to build with Python 3.14: RuntimeError: Unable to multiply two graphic objects Error: Bad Argument Value",
       "python-giacpy: FTBFS in Fedora rawhide/f42"
     ]
   },
@@ -1243,15 +1271,13 @@
   },
   "python-gphoto2": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2366465",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2341158"
     ],
     "summaries": [
+      "python-gphoto2 fails to build with Python 3.14: ModuleNotFoundError: No module named 'distutils.command.upload'",
       "python-gphoto2: FTBFS in Fedora rawhide/f42"
     ]
-  },
-  "python-gradunwarp": {
-    "urls": [],
-    "summaries": []
   },
   "python-h5io": {
     "urls": [],
@@ -1275,10 +1301,12 @@
   },
   "python-hl7": {
     "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2341161"
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2341161",
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2329855"
     ],
     "summaries": [
-      "python-hl7: FTBFS in Fedora rawhide/f42"
+      "python-hl7: FTBFS in Fedora rawhide/f42",
+      "python-hl7 fails to build with sphinx 8.x: ERROR: Invalid value `None` in intersphinx_mapping['http://docs.python.org/']."
     ]
   },
   "python-howdoi": {
@@ -1293,15 +1321,7 @@
     "urls": [],
     "summaries": []
   },
-  "python-imagehash": {
-    "urls": [],
-    "summaries": []
-  },
   "python-imbalanced-learn": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-img2pdf": {
     "urls": [],
     "summaries": []
   },
@@ -1327,10 +1347,12 @@
   },
   "python-injector": {
     "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2341165"
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2341165",
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2329880"
     ],
     "summaries": [
-      "python-injector: FTBFS in Fedora rawhide/f42"
+      "python-injector: FTBFS in Fedora rawhide/f42",
+      "python-injector fails to build with sphinx 8.x: ERROR: Invalid value `None` in intersphinx_mapping['http://docs.python.org/']."
     ]
   },
   "python-invoke": {
@@ -1445,14 +1467,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-lazy-loader": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-lazyarray": {
-    "urls": [],
-    "summaries": []
-  },
   "python-lfpy": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2341168"
@@ -1460,10 +1474,6 @@
     "summaries": [
       "python-lfpy: FTBFS in Fedora rawhide/f42"
     ]
-  },
-  "python-lfpykit": {
-    "urls": [],
-    "summaries": []
   },
   "python-libNeuroML": {
     "urls": [],
@@ -1477,10 +1487,6 @@
       "python-libcst fails to build with Python 3.14: Exception: Logic error, unexpected top level type! when importing libcst.codegen.gen_matcher_classes"
     ]
   },
-  "python-llama-cpp-python": {
-    "urls": [],
-    "summaries": []
-  },
   "python-loguru": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2356181"
@@ -1488,10 +1494,6 @@
     "summaries": [
       "python-loguru fails to build with Python 3.14: test_exception_modern[type_hints-minimum_python_version0]: m<class 'typing.Union'>"
     ]
-  },
-  "python-lqrt": {
-    "urls": [],
-    "summaries": []
   },
   "python-lz4": {
     "urls": [
@@ -1510,15 +1512,11 @@
     ]
   },
   "python-markups": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-matplotlib": {
     "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2328713"
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2366489"
     ],
     "summaries": [
-      "python-matplotlib fails to build with Python 3.14: RecursionError: maximum recursion depth exceeded"
+      "python-markups fails to build with Python 3.14: AssertionError in test_get_pygments_stylesheet"
     ]
   },
   "python-matrix-nio": {
@@ -1566,10 +1564,6 @@
     "summaries": []
   },
   "python-more-executors": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-mplcairo": {
     "urls": [],
     "summaries": []
   },
@@ -1637,10 +1631,6 @@
       "python-neatdend: FTBFS in Fedora rawhide/f42"
     ]
   },
-  "python-neo": {
-    "urls": [],
-    "summaries": []
-  },
   "python-netpyne": {
     "urls": [],
     "summaries": []
@@ -1651,18 +1641,6 @@
     ],
     "summaries": [
       "python-network-runner: FTBFS in Fedora rawhide/f42"
-    ]
-  },
-  "python-neurodsp": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-neurotune": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2341173"
-    ],
-    "summaries": [
-      "python-neurotune: FTBFS in Fedora rawhide/f42"
     ]
   },
   "python-niaaml": {
@@ -1677,10 +1655,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-nibabel": {
-    "urls": [],
-    "summaries": []
-  },
   "python-nikola": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2341174"
@@ -1689,19 +1663,7 @@
       "python-nikola: FTBFS in Fedora rawhide/f42"
     ]
   },
-  "python-nipy": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-nitime": {
-    "urls": [],
-    "summaries": []
-  },
   "python-nixio": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-nmrglue": {
     "urls": [],
     "summaries": []
   },
@@ -1715,10 +1677,12 @@
   },
   "python-notify2": {
     "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2341175"
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2341175",
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2329864"
     ],
     "summaries": [
-      "python-notify2: FTBFS in Fedora rawhide/f42"
+      "python-notify2: FTBFS in Fedora rawhide/f42",
+      "python-notify2 fails to build with sphinx 8.x: ERROR: Invalid value `None` in intersphinx_mapping['http://docs.python.org/']."
     ]
   },
   "python-numexpr": {
@@ -1786,8 +1750,12 @@
     ]
   },
   "python-pamela": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2366474"
+    ],
+    "summaries": [
+      "python-pamela fails to build with Python 3.14: pamela.PAMError: [PAM Error 26] Critical error - immediate abort"
+    ]
   },
   "python-pandas": {
     "urls": [
@@ -1806,10 +1774,6 @@
     "summaries": []
   },
   "python-pathos": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-patsy": {
     "urls": [],
     "summaries": []
   },
@@ -1862,8 +1826,12 @@
     "summaries": []
   },
   "python-pkginfo2": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2366490"
+    ],
+    "summaries": [
+      "python-pkginfo2: FTBFS in Fedora Rawhide: AssertionError: None != '30.0.0'"
+    ]
   },
   "python-poi-tracker": {
     "urls": [],
@@ -1879,10 +1847,12 @@
   },
   "python-priority": {
     "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2341182"
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2341182",
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2329881"
     ],
     "summaries": [
-      "python-priority: FTBFS in Fedora rawhide/f42"
+      "python-priority: FTBFS in Fedora rawhide/f42",
+      "python-priority fails to build with sphinx 8.x: ERROR: Invalid value `None` in intersphinx_mapping['http://docs.python.org/']."
     ]
   },
   "python-pudb": {
@@ -1926,12 +1896,12 @@
     "summaries": []
   },
   "python-pydocstyle": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-pyelectro": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2366488"
+    ],
+    "summaries": [
+      "python-pydocstyle fails to build with Python 3.14: AssertionError in test_overload_nested_function_valid"
+    ]
   },
   "python-pyemd": {
     "urls": [
@@ -1946,10 +1916,6 @@
     "summaries": []
   },
   "python-pygments": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-pygmtools": {
     "urls": [],
     "summaries": []
   },
@@ -1973,10 +1939,12 @@
   },
   "python-pymeeus": {
     "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2341186"
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2341186",
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2329890"
     ],
     "summaries": [
-      "python-pymeeus: FTBFS in Fedora rawhide/f42"
+      "python-pymeeus: FTBFS in Fedora rawhide/f42",
+      "python-pymeeus fails to build with sphinx 8.x: ERROR: Invalid value `None` in intersphinx_mapping['https://docs.python.org/']."
     ]
   },
   "python-pymongo": {
@@ -2061,10 +2029,6 @@
       "python-pyside6 fails to build with Python 3.14: TypeError: Formatter.formatannotation() got an unexpected keyword argument 'quote_annotation_strings'"
     ]
   },
-  "python-pyspike": {
-    "urls": [],
-    "summaries": []
-  },
   "python-pytesseract": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2341201"
@@ -2141,15 +2105,7 @@
     "urls": [],
     "summaries": []
   },
-  "python-pywt": {
-    "urls": [],
-    "summaries": []
-  },
   "python-qudida": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-rapidfuzz": {
     "urls": [],
     "summaries": []
   },
@@ -2205,9 +2161,11 @@
   },
   "python-remoto": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2366491",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2341205"
     ],
     "summaries": [
+      "python-remoto fails to build with Python 3.14: AttributeError: 'TestRemoteError' object has no attribute 'traceback'",
       "python-remoto: FTBFS in Fedora rawhide/f42"
     ]
   },
@@ -2235,10 +2193,12 @@
   },
   "python-rosdep": {
     "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2341207"
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2341207",
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2329891"
     ],
     "summaries": [
-      "python-rosdep: FTBFS in Fedora rawhide/f42"
+      "python-rosdep: FTBFS in Fedora rawhide/f42",
+      "python-rosdep fails to build with sphinx 8.x: ERROR: Invalid value `None` in intersphinx_mapping['http://docs.python.org/']."
     ]
   },
   "python-rpds-py": {
@@ -2305,10 +2265,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-scipy-doctest": {
-    "urls": [],
-    "summaries": []
-  },
   "python-sciunit": {
     "urls": [],
     "summaries": []
@@ -2337,10 +2293,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-sortedcontainers": {
-    "urls": [],
-    "summaries": []
-  },
   "python-sphinx": {
     "urls": [],
     "summaries": []
@@ -2351,14 +2303,6 @@
     ],
     "summaries": [
       "python-sqlalchemy1.4 fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
-    ]
-  },
-  "python-ssh-python": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2350333"
-    ],
-    "summaries": [
-      "python-ssh-python fails to build with Python 3.14: SessionTest.test_set_timeout: ssh.exceptions.SSHError: (-1, b'Invalid argument in ssh_options_set')"
     ]
   },
   "python-stack-data": {
@@ -2399,10 +2343,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-svg2tikz": {
-    "urls": [],
-    "summaries": []
-  },
   "python-swagger-spec-validator": {
     "urls": [],
     "summaries": []
@@ -2438,10 +2378,6 @@
     "summaries": [
       "python-textual: FTBFS in Fedora rawhide/f42"
     ]
-  },
-  "python-threadpoolctl": {
-    "urls": [],
-    "summaries": []
   },
   "python-timeout-decorator": {
     "urls": [
@@ -2479,10 +2415,6 @@
       "python-towncrier FTBFS due to missing tox configuration"
     ]
   },
-  "python-transforms3d": {
-    "urls": [],
-    "summaries": []
-  },
   "python-trio": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2345516"
@@ -2492,10 +2424,6 @@
     ]
   },
   "python-trx-python": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-tvb-gdist": {
     "urls": [],
     "summaries": []
   },
@@ -2641,10 +2569,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-zoidberg": {
-    "urls": [],
-    "summaries": []
-  },
   "python-zope-exceptions": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2341240"
@@ -2690,8 +2614,12 @@
     ]
   },
   "root": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2366454"
+    ],
+    "summaries": [
+      "root fails to build with Python 3.14: AssertionErrors in test_refcount"
+    ]
   },
   "rpkg-util": {
     "urls": [],
@@ -2717,19 +2645,7 @@
       "satyr fails to build with Python 3.14: _pickle.PicklingError: Can't pickle local object <function TestDistances.test_distances_part_parallel.<locals>.do_test.<locals>.compute_part at 0x7f7f845f2560>"
     ]
   },
-  "scipy": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2341927"
-    ],
-    "summaries": [
-      "scipy fails to build with Python 3.14: TestSystematic::test_bessely, TestSystematic::test_bessely_int and TestSystematic::test_wrightomega fail"
-    ]
-  },
   "sherlock-project": {
-    "urls": [],
-    "summaries": []
-  },
-  "shybrid": {
     "urls": [],
     "summaries": []
   },
@@ -2767,9 +2683,11 @@
   },
   "ufw": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2366458",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2341477"
     ],
     "summaries": [
+      "ufw fails to build in Fedora Rawhide: File not found: /builddir/build/BUILD/ufw-0.35-build/BUILDROOT/usr/bin/ufw",
       "ufw: FTBFS in Fedora rawhide/f42"
     ]
   },
@@ -2821,9 +2739,11 @@
   },
   "zeek": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2366467",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2341601"
     ],
     "summaries": [
+      "zeek fails to build in Fedora Rawhide: Could not find prerequisite package 'BIND'",
       "zeek: FTBFS in Fedora rawhide/f42"
     ]
   }

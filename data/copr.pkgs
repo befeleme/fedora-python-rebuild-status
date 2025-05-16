@@ -284,7 +284,7 @@ geopmd	failed
 gerrymander	succeeded
 getdp	succeeded
 getmail	succeeded
-getmail6	succeeded
+getmail6	failed
 gi-docgen	succeeded
 ginga	succeeded
 git-archive-all	succeeded
@@ -319,7 +319,7 @@ gnuradio	succeeded
 gobject-introspection	succeeded
 gom	succeeded
 google-auth-httplib2	succeeded
-gpaw	failed
+gpaw	succeeded
 gpgme	succeeded
 gphotoframe	succeeded
 gplugin	succeeded
@@ -375,7 +375,7 @@ ini2toml	succeeded
 initial-setup	succeeded
 inn	succeeded
 input-remapper	succeeded
-insight	failed
+insight	succeeded
 intelhex	succeeded
 ipa-hcc	failed
 ipsilon	succeeded
@@ -508,7 +508,7 @@ libuser	succeeded
 libvirt-python	succeeded
 libvirt-test-API	succeeded
 libvoikko	succeeded
-libxc	succeeded
+libxc	failed
 libxml2	succeeded
 libxslt	succeeded
 libyui	succeeded
@@ -634,7 +634,7 @@ opae	failed
 openapi-python-client	failed
 openbabel	succeeded
 opencv	failed
-openmeeg	failed
+openmeeg	succeeded
 openmpi	succeeded
 openscap	succeeded
 openscap-report	failed
@@ -864,7 +864,7 @@ python-adafruit-platformdetect	succeeded
 python-adafruit-pureio	succeeded
 python-adal	succeeded
 python-adb-shell	succeeded
-python-adjustText	failed
+python-adjustText	succeeded
 python-admesh	succeeded
 python-advisory-parser	succeeded
 python-aenum	succeeded
@@ -966,7 +966,7 @@ python-arpy	succeeded
 python-array-api-strict	failed
 python-arrow	succeeded
 python-asciitree	succeeded
-python-ase	failed
+python-ase	succeeded
 python-asgiref	succeeded
 python-asn1	succeeded
 python-asn1crypto	succeeded
@@ -982,7 +982,7 @@ python-astropy	failed
 python-astropy-healpix	failed
 python-astropy-iers-data	failed
 python-astroquery	failed
-python-astroscrappy	failed
+python-astroscrappy	succeeded
 python-asttokens	succeeded
 python-async-lru	succeeded
 python-async-timeout	succeeded
@@ -1001,7 +1001,7 @@ python-authlib	succeeded
 python-authres	succeeded
 python-autobahn	succeeded
 python-autocommand	failed
-python-autograd	failed
+python-autograd	succeeded
 python-automaton	succeeded
 python-autopage	succeeded
 python-autopep8	succeeded
@@ -1222,7 +1222,7 @@ python-catkin_tools	failed
 python-cattrs	failed
 python-cbor2	succeeded
 python-cccolutils	succeeded
-python-cclib	failed
+python-cclib	succeeded
 python-cerberus	failed
 python-cerealizer	succeeded
 python-certifi	succeeded
@@ -1410,7 +1410,7 @@ python-cwcwidth	succeeded
 python-cx-oracle	succeeded
 python-cxxfilt	succeeded
 python-cycler	succeeded
-python-cyipopt	failed
+python-cyipopt	succeeded
 python-cymruwhois	succeeded
 python-d2to1	succeeded
 python-daemon	succeeded
@@ -1800,7 +1800,7 @@ python-gpiozero	succeeded
 python-gpxpy	succeeded
 python-gql	succeeded
 python-grabserial	succeeded
-python-gradunwarp	failed
+python-gradunwarp	succeeded
 python-graph-tool	succeeded
 python-graphene	succeeded
 python-graphql-core	succeeded
@@ -1899,12 +1899,12 @@ python-ifaddr	succeeded
 python-ifcfg	succeeded
 python-igraph	failed
 python-ijson	succeeded
-python-imagehash	failed
+python-imagehash	succeeded
 python-imageio	succeeded
 python-imagesize	succeeded
 python-imapclient	succeeded
 python-imbalanced-learn	failed
-python-img2pdf	failed
+python-img2pdf	succeeded
 python-immutabledict	succeeded
 python-immutables	succeeded
 python-impacket	succeeded
@@ -2076,10 +2076,10 @@ python-lazr-config	succeeded
 python-lazr-delegates	succeeded
 python-lazr-restfulclient	succeeded
 python-lazr-uri	succeeded
-python-lazy-loader	failed
+python-lazy-loader	succeeded
 python-lazy-object-proxy	succeeded
 python-lazy_load	succeeded
-python-lazyarray	failed
+python-lazyarray	succeeded
 python-ldap	succeeded
 python-ldap3	succeeded
 python-ldappool	succeeded
@@ -2088,7 +2088,7 @@ python-legacy-cgi	succeeded
 python-lesscpy	succeeded
 python-lexicon	succeeded
 python-lfpy	failed
-python-lfpykit	failed
+python-lfpykit	succeeded
 python-libNeuroML	failed
 python-libarchive-c	succeeded
 python-libcloud	succeeded
@@ -2111,7 +2111,7 @@ python-linuxdoc	succeeded
 python-listparser	succeeded
 python-littleutils	succeeded
 python-livereload	succeeded
-python-llama-cpp-python	failed
+python-llama-cpp-python	succeeded
 python-llfuse	succeeded
 python-llvmlite	succeeded
 python-lmdb	succeeded
@@ -2124,7 +2124,7 @@ python-loguru	failed
 python-logutils	succeeded
 python-logzero	succeeded
 python-looseversion	succeeded
-python-lqrt	failed
+python-lqrt	succeeded
 python-lru-dict	succeeded
 python-lsp-jsonrpc	succeeded
 python-lsprotocol	succeeded
@@ -2166,7 +2166,7 @@ python-marshmallow-enum	succeeded
 python-masscan	succeeded
 python-mathics-pygments	succeeded
 python-mathics-scanner	succeeded
-python-matplotlib	failed
+python-matplotlib	succeeded
 python-matplotlib-inline	succeeded
 python-matplotlib-scalebar	succeeded
 python-matrix-common	succeeded
@@ -2251,7 +2251,7 @@ python-moss	succeeded
 python-mozilla-django-oidc	succeeded
 python-mpd	succeeded
 python-mpd2	succeeded
-python-mplcairo	failed
+python-mplcairo	succeeded
 python-mplcursors	failed
 python-mpmath	succeeded
 python-mrcfile	succeeded
@@ -2309,7 +2309,7 @@ python-ndeflib	succeeded
 python-ndindex	succeeded
 python-ndjson-testrunner	succeeded
 python-neatdend	failed
-python-neo	failed
+python-neo	succeeded
 python-neovim	succeeded
 python-nessus-file-reader	succeeded
 python-nest-asyncio	succeeded
@@ -2321,25 +2321,25 @@ python-netifaces	succeeded
 python-netpyne	failed
 python-network-runner	failed
 python-networkx	succeeded
-python-neurodsp	failed
-python-neurotune	failed
+python-neurodsp	succeeded
+python-neurotune	succeeded
 python-nfcpy	succeeded
 python-nh3	succeeded
 python-niaaml	failed
 python-niaarmts	failed
 python-niaclass	failed
 python-niapy	succeeded
-python-nibabel	failed
+python-nibabel	succeeded
 python-nihtest	succeeded
 python-nikola	failed
 python-nine	succeeded
-python-nipy	failed
-python-nitime	failed
+python-nipy	succeeded
+python-nitime	succeeded
 python-nitrate	succeeded
 python-nixio	failed
 python-nltk	succeeded
 python-nmap	succeeded
-python-nmrglue	failed
+python-nmrglue	succeeded
 python-node-semver	succeeded
 python-nodeenv	succeeded
 python-noiseprotocol	succeeded
@@ -2472,7 +2472,7 @@ python-pathspec	succeeded
 python-pathtools	succeeded
 python-pathvalidate	succeeded
 python-patiencediff	succeeded
-python-patsy	failed
+python-patsy	succeeded
 python-pbkdf2	succeeded
 python-pbr	succeeded
 python-pbs-installer	succeeded
@@ -2653,7 +2653,7 @@ python-pydotplus	succeeded
 python-pydyf	succeeded
 python-pyeclib	succeeded
 python-pyedflib	succeeded
-python-pyelectro	failed
+python-pyelectro	succeeded
 python-pyembroidery	succeeded
 python-pyemby	succeeded
 python-pyemd	failed
@@ -2686,7 +2686,7 @@ python-pygments-lexer-solidity	succeeded
 python-pygments-markdown-lexer	succeeded
 python-pygments-pytest	succeeded
 python-pygments-style-solarized	succeeded
-python-pygmtools	failed
+python-pygmtools	succeeded
 python-pygraphviz	succeeded
 python-pygrocy	succeeded
 python-pygtkspellcheck	succeeded
@@ -2807,7 +2807,7 @@ python-pysol-cards	succeeded
 python-pyspellchecker	succeeded
 python-pyspf	succeeded
 python-pyspiflash	succeeded
-python-pyspike	failed
+python-pyspike	succeeded
 python-pysqueezebox	succeeded
 python-pysrt	succeeded
 python-pystemd	succeeded
@@ -2917,7 +2917,7 @@ python-pyvo	failed
 python-pywayland	succeeded
 python-pywizlight	succeeded
 python-pywlroots	succeeded
-python-pywt	failed
+python-pywt	succeeded
 python-pyxdameraulevenshtein	succeeded
 python-pyxdf	succeeded
 python-pyxid	succeeded
@@ -2947,7 +2947,7 @@ python-ramalama	succeeded
 python-random2	succeeded
 python-rangehttpserver	succeeded
 python-rangeparser	succeeded
-python-rapidfuzz	failed
+python-rapidfuzz	succeeded
 python-rarfile	succeeded
 python-rasterio	failed
 python-ratelimitingfilter	succeeded
@@ -3078,7 +3078,7 @@ python-scikit-build-core	failed
 python-scikit-learn	failed
 python-scikit-misc	succeeded
 python-scikit-uplift	failed
-python-scipy-doctest	failed
+python-scipy-doctest	succeeded
 python-scitokens	succeeded
 python-sciunit	failed
 python-scooby	succeeded
@@ -3170,7 +3170,7 @@ python-socksio	succeeded
 python-solc-ast	succeeded
 python-solcx	succeeded
 python-sortedcollections	succeeded
-python-sortedcontainers	failed
+python-sortedcontainers	succeeded
 python-soupsieve	succeeded
 python-speaklater	succeeded
 python-specfile	succeeded
@@ -3259,7 +3259,7 @@ python-ssdeep	succeeded
 python-ssdp	succeeded
 python-sseclient	succeeded
 python-sseclient-py	succeeded
-python-ssh-python	failed
+python-ssh-python	succeeded
 python-sshtunnel	succeeded
 python-stack-data	failed
 python-stackprinter	succeeded
@@ -3295,7 +3295,7 @@ python-surt	succeeded
 python-sushy	succeeded
 python-svg	succeeded
 python-svg-path	succeeded
-python-svg2tikz	failed
+python-svg2tikz	succeeded
 python-svgwrite	succeeded
 python-swagger-spec-validator	failed
 python-swiftclient	succeeded
@@ -3350,7 +3350,7 @@ python-texttable	succeeded
 python-textual	failed
 python-textwrap3	succeeded
 python-tftpy	succeeded
-python-threadpoolctl	failed
+python-threadpoolctl	succeeded
 python-three_merge	succeeded
 python-throttler	succeeded
 python-tidy	succeeded
@@ -3393,7 +3393,7 @@ python-traitlets	succeeded
 python-traitsui	succeeded
 python-trampoline	succeeded
 python-transaction	succeeded
-python-transforms3d	failed
+python-transforms3d	succeeded
 python-translationstring	succeeded
 python-translitcodec	succeeded
 python-treq	succeeded
@@ -3409,7 +3409,7 @@ python-trx-python	failed
 python-ttfautohint-py	succeeded
 python-tubes	succeeded
 python-tvb-data	succeeded
-python-tvb-gdist	failed
+python-tvb-gdist	succeeded
 python-tw2-core	succeeded
 python-tw2-forms	succeeded
 python-twiggy	succeeded
@@ -3630,7 +3630,7 @@ python-zipstream	succeeded
 python-zlib-ng	succeeded
 python-zm	succeeded
 python-zmq	succeeded
-python-zoidberg	failed
+python-zoidberg	succeeded
 python-zombie-imp	succeeded
 python-zope-component	succeeded
 python-zope-configuration	succeeded
@@ -3750,7 +3750,7 @@ satyr	failed
 scanless	succeeded
 scapy	succeeded
 scidavis	succeeded
-scipy	failed
+scipy	succeeded
 scons	succeeded
 screenkey	succeeded
 scribus	succeeded
@@ -3767,7 +3767,7 @@ sherlock-project	failed
 showcert	succeeded
 showtime	succeeded
 shyaml	succeeded
-shybrid	failed
+shybrid	succeeded
 sigil	succeeded
 signon-glib	failed
 simple-ccsm	succeeded
