@@ -115,6 +115,10 @@
       "capstone fails to build with Python 3.14: from capstone import *: ImportError: ERROR: fail to load the dynamic library"
     ]
   },
+  "centpkg": {
+    "urls": [],
+    "summaries": []
+  },
   "ceph": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2336913"
@@ -141,14 +145,6 @@
     ],
     "summaries": [
       "cjdns: FTBFS in Fedora rawhide/f42"
-    ]
-  },
-  "claws-mail": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2366512"
-    ],
-    "summaries": [
-      "claws-mail: FTBFS in Fedora Rawhide"
     ]
   },
   "cloud-init": {
@@ -567,10 +563,6 @@
       "pytest fails to build with Python 3.14: mismatch of expected and actual strings in test output"
     ]
   },
-  "python-Levenshtein": {
-    "urls": [],
-    "summaries": []
-  },
   "python-SALib": {
     "urls": [],
     "summaries": []
@@ -644,14 +636,6 @@
   "python-archspec": {
     "urls": [],
     "summaries": []
-  },
-  "python-array-api-strict": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2365875"
-    ],
-    "summaries": [
-      "python-array-api-strict fails to build with Python 3.14: test_iter: Failed: DID NOT RAISE <class 'TypeError'>"
-    ]
   },
   "python-astdoc": {
     "urls": [
@@ -907,10 +891,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-cleo": {
-    "urls": [],
-    "summaries": []
-  },
   "python-cliff": {
     "urls": [],
     "summaries": []
@@ -994,10 +974,6 @@
     "summaries": [
       "python-dataclassy fails to build with Python 3.14: TypeError: Beta() takes no arguments"
     ]
-  },
-  "python-datalad": {
-    "urls": [],
-    "summaries": []
   },
   "python-dateparser": {
     "urls": [],
@@ -1563,10 +1539,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-more-executors": {
-    "urls": [],
-    "summaries": []
-  },
   "python-mplcursors": {
     "urls": [],
     "summaries": []
@@ -1813,14 +1785,6 @@
       "python-pip fails to build with Python 3.14: AssertionError: assert 'file:/tmp/file' == 'file:///tmp/file'"
     ]
   },
-  "python-pipdeptree": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2365874"
-    ],
-    "summaries": [
-      "python-pipdeptree fails to build with Python 3.14: TypeError: _Formatter.__init__() got an unexpected keyword argument 'prefix_chars'"
-    ]
-  },
   "python-pkg-depgraph": {
     "urls": [],
     "summaries": []
@@ -1912,10 +1876,6 @@
     ]
   },
   "python-pyforgejo": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-pygments": {
     "urls": [],
     "summaries": []
   },
@@ -2152,7 +2112,7 @@
       "https://bugzilla.redhat.com/show_bug.cgi?id=2345526"
     ],
     "summaries": [
-      "python-redis fails to build with Python 3.14: _pickle.PicklingError: Can't pickle local object <function TestMultiprocessing.test_close_connection_in_child.<locals>.target at 0x7f10027f31c0>"
+      "python-redis fails to build with Python 3.14: TypeError: 'NoneType' object is not subscriptable"
     ]
   },
   "python-referencing": {
@@ -2366,10 +2326,6 @@
     "summaries": [
       "python-tenacity fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
     ]
-  },
-  "python-textdistance": {
-    "urls": [],
-    "summaries": []
   },
   "python-textual": {
     "urls": [
