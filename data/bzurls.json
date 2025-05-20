@@ -41,9 +41,11 @@
   },
   "asv": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2367256",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2339908"
     ],
     "summaries": [
+      "asv fails to build with Python 3.14: AttributeError: 'Constant' object has no attribute 's'",
       "asv: FTBFS in Fedora rawhide/f42"
     ]
   },
@@ -254,8 +256,12 @@
     "summaries": []
   },
   "getmail6": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2367259"
+    ],
+    "summaries": [
+      "getmail6 fails to build with Python 3.14: multiprocessing: default start method changed from fork to forkserver"
+    ]
   },
   "git-filter-repo": {
     "urls": [
@@ -266,8 +272,12 @@
     ]
   },
   "gmsh": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2367255"
+    ],
+    "summaries": [
+      "gmsh: FTBFS in Fedora Rawhide: error: template with C linkage"
+    ]
   },
   "gnofract4d": {
     "urls": [
@@ -275,16 +285,6 @@
     ],
     "summaries": [
       "gnofract4d fails to build with Python 3.14: AssertionError: 'ct_sin6 = (0.841471,-0)' != 'ct_sin6 = (0.841471,0)'"
-    ]
-  },
-  "h5py": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2365887",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2339470"
-    ],
-    "summaries": [
-      "h5py fails to build with Python 3.14: TestFileObj.test_TemporaryFile: ResourceWarning: Implicitly cleaning up <_TemporaryFileWrapper file=<_io.BufferedRandom name='/tmp/tmp86bropaf'>>",
-      "h5py fails to build with Python 3.14: ResourceWarning: TestFileObj.test_TemporaryFile: Implicitly cleaning up <_TemporaryFileWrapper file=<_io.BufferedRandom name='/tmp/tmp8pqafmzv'>>"
     ]
   },
   "httpie": {
@@ -297,9 +297,11 @@
   },
   "ikiwiki": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2366456",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2340642"
     ],
     "summaries": [
+      "ikiwiki fails to build in Rawhide: error: Installed (but unpackaged) file(s) found:  /usr/sbin/ikiwiki-mass-rebuild",
       "ikiwiki: FTBFS in Fedora rawhide/f42"
     ]
   },
@@ -976,8 +978,12 @@
     ]
   },
   "python-dateparser": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2367245"
+    ],
+    "summaries": [
+      "python-dateparser fails to build with Python 3.14: 11 test failures"
+    ]
   },
   "python-deepdiff": {
     "urls": [],
@@ -1132,8 +1138,12 @@
     "summaries": []
   },
   "python-exdir": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2367253"
+    ],
+    "summaries": [
+      "python-exdir fails to build with Python 3.14: TypeError: 'module' object is not iterable | TypeError: 'Plugin' object is not iterable"
+    ]
   },
   "python-executing": {
     "urls": [
@@ -2308,6 +2318,10 @@
     "summaries": []
   },
   "python-tables": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-tablib": {
     "urls": [],
     "summaries": []
   },
