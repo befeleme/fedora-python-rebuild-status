@@ -651,14 +651,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-astroid": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2323166"
-    ],
-    "summaries": [
-      "python-astroid fails to build with Python 3.14: astroid.exceptions.InferenceError: StopIteration raised without any error information."
-    ]
-  },
   "python-astroplan": {
     "urls": [],
     "summaries": []
@@ -950,10 +942,18 @@
     ]
   },
   "python-crick": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2367454"
+    ],
+    "summaries": [
+      "python-crick fails to build with Python 3.14: crick/tests/test_space_saving.py::test_merge_algorithm[s111-s211] Fatal Python error: Segmentation fault"
+    ]
+  },
+  "python-cro": {
     "urls": [],
     "summaries": []
   },
-  "python-cro": {
+  "python-cryptography": {
     "urls": [],
     "summaries": []
   },
@@ -1156,14 +1156,6 @@
   "python-factory-boy": {
     "urls": [],
     "summaries": []
-  },
-  "python-faker": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2366250"
-    ],
-    "summaries": [
-      "python-faker fails to build with Python 3.14: FactoryTestCase.test_documentor: AttributeError: 'function' object has no attribute 'JSONEncoder'"
-    ]
   },
   "python-fasjson-client": {
     "urls": [],
@@ -1550,8 +1542,12 @@
     "summaries": []
   },
   "python-mplcursors": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2367456"
+    ],
+    "summaries": [
+      "python-mplcursors: FTBFS in Fedora Rawhide"
+    ]
   },
   "python-msal": {
     "urls": [
@@ -1717,10 +1713,12 @@
   },
   "python-packvers": {
     "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2341178"
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2341178",
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2329888"
     ],
     "summaries": [
-      "python-packvers: FTBFS in Fedora rawhide/f42"
+      "python-packvers: FTBFS in Fedora rawhide/f42",
+      "python-packvers fails to build with sphinx 8.x: ERROR: Invalid value `None` in intersphinx_mapping['https://docs.python.org/']."
     ]
   },
   "python-paginate": {
@@ -1764,8 +1762,12 @@
     "summaries": []
   },
   "python-pendulum": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2367458"
+    ],
+    "summaries": [
+      "python-pendulum fails to build with Python 3.14: tests/datetime/test_from_format.py ...........................Fatal Python error: Segmentation fault"
+    ]
   },
   "python-photutils": {
     "urls": [],
@@ -2275,16 +2277,6 @@
       "python-sqlalchemy1.4 fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
     ]
   },
-  "python-stack-data": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2350304",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2345532"
-    ],
-    "summaries": [
-      "Heads-up: python-stack-data fails to build with python-pygments 2.19.1 on Fedora 43",
-      "python-stack-data fails to build with Python 3.14: test_example: IndexError: list index out of range"
-    ]
-  },
   "python-stdlibs": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2359504"
@@ -2343,9 +2335,11 @@
   },
   "python-textual": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2367457",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2341224"
     ],
     "summaries": [
+      "python-textual fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'.",
       "python-textual: FTBFS in Fedora rawhide/f42"
     ]
   },
@@ -2454,10 +2448,6 @@
     "summaries": []
   },
   "python-usort": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-uv-build": {
     "urls": [],
     "summaries": []
   },
@@ -2665,10 +2655,6 @@
       "ufw: FTBFS in Fedora rawhide/f42"
     ]
   },
-  "uv": {
-    "urls": [],
-    "summaries": []
-  },
   "uwsgi": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2366193",
@@ -2680,6 +2666,10 @@
     ]
   },
   "variety": {
+    "urls": [],
+    "summaries": []
+  },
+  "vdirsyncer": {
     "urls": [],
     "summaries": []
   },
