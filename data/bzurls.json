@@ -58,8 +58,12 @@
     "summaries": []
   },
   "awscli2": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2367786"
+    ],
+    "summaries": [
+      "awscli2 fails to build with Python 3.14: various test failures"
+    ]
   },
   "bandit": {
     "urls": [
@@ -255,14 +259,6 @@
     "urls": [],
     "summaries": []
   },
-  "getmail6": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2367259"
-    ],
-    "summaries": [
-      "getmail6 fails to build with Python 3.14: multiprocessing: default start method changed from fork to forkserver"
-    ]
-  },
   "git-filter-repo": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2365637"
@@ -361,14 +357,6 @@
     "urls": [],
     "summaries": []
   },
-  "mercurial": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2365820"
-    ],
-    "summaries": [
-      "mercurial fails to build with Python 3.14: AttributeError: partially initialized module 'threading' from '/usr/lib64/python3.14/threading.py' has no attribute 'RLock' (most likely due to a circular import)"
-    ]
-  },
   "mock": {
     "urls": [],
     "summaries": []
@@ -382,8 +370,12 @@
     ]
   },
   "mopidy": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2367738"
+    ],
+    "summaries": [
+      "mopidy fails to build with Python 3.14:  RuntimeError: unable to get value"
+    ]
   },
   "mopidy-mpd": {
     "urls": [],
@@ -492,8 +484,12 @@
     ]
   },
   "pungi": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2367780"
+    ],
+    "summaries": [
+      "pungi fails to build with Python 3.14: PermissionError: [Errno 1] Operation not permitted: '/tmp/tmpn4r5l99y/src/symlink2' -> '/tmp/tmpn4r5l99y/dst/symlink2'"
+    ]
   },
   "pybind11": {
     "urls": [
@@ -812,8 +808,12 @@
     "summaries": []
   },
   "python-botocore": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2367782"
+    ],
+    "summaries": [
+      "python-botocore fails to build with Python 3.14: test_lru_cache_weakref: AssertionError: assert getrefcount(cls1) == 2"
+    ]
   },
   "python-boutdata": {
     "urls": [
@@ -890,8 +890,12 @@
     "summaries": []
   },
   "python-cloudpickle": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2367731"
+    ],
+    "summaries": [
+      "python-cloudpickle fails to build with Python 3.14: AttributeError: 'MyClass' object has no attribute '__annotations__'. Did you mean: '__annotations_cache__'"
+    ]
   },
   "python-cmd2": {
     "urls": [
@@ -930,8 +934,12 @@
     "summaries": []
   },
   "python-cramjam": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2367779"
+    ],
+    "summaries": [
+      "python-cramjam fails to build with Python 3.14: Fatal Python error: Segmentation fault"
+    ]
   },
   "python-crcmod": {
     "urls": [
@@ -2221,10 +2229,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-scikit-build-core": {
-    "urls": [],
-    "summaries": []
-  },
   "python-scikit-learn": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2353125"
@@ -2431,14 +2435,6 @@
       "python-typing-inspect fails to build with Python 3.14: AssertionError: {} != {'x': <class 'int'>, 'y': <class 'int'>}"
     ]
   },
-  "python-typing-inspection": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2362887"
-    ],
-    "summaries": [
-      "python-typing-inspection fails to build with Python 3.14: AssertionError: test_is_union_does_not_match_uniontype"
-    ]
-  },
   "python-ufoLib2": {
     "urls": [],
     "summaries": []
@@ -2596,6 +2592,10 @@
     "summaries": [
       "rpm-head-signing: FTBFS in Fedora Rawhide with RPM 6"
     ]
+  },
+  "ruff": {
+    "urls": [],
+    "summaries": []
   },
   "rust2rpm": {
     "urls": [],
