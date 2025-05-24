@@ -345,15 +345,15 @@
       "libpeas fails to build with Python 3.14: test-extension-py  TIMEOUT"
     ]
   },
-  "libreoffice": {
-    "urls": [],
-    "summaries": []
-  },
   "libsonata": {
     "urls": [],
     "summaries": []
   },
   "libxc": {
+    "urls": [],
+    "summaries": []
+  },
+  "mlpack": {
     "urls": [],
     "summaries": []
   },
@@ -741,6 +741,10 @@
     "urls": [],
     "summaries": []
   },
+  "python-basis_set_exchange": {
+    "urls": [],
+    "summaries": []
+  },
   "python-beancount": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2359530"
@@ -968,14 +972,6 @@
   "python-cvelib": {
     "urls": [],
     "summaries": []
-  },
-  "python-cvxopt": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2365907"
-    ],
-    "summaries": [
-      "python-cvxopt fails to build with Python 3.14: tests/test_dsdp.py::TestDSDP::test_options Fatal Python error: Segmentation fault"
-    ]
   },
   "python-dataclassy": {
     "urls": [
@@ -1993,14 +1989,6 @@
       "python-pysaml2: FTBFS in Fedora rawhide/f42"
     ]
   },
-  "python-pyside6": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2325444"
-    ],
-    "summaries": [
-      "python-pyside6 fails to build with Python 3.14: TypeError: Formatter.formatannotation() got an unexpected keyword argument 'quote_annotation_strings'"
-    ]
-  },
   "python-pytesseract": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2341201"
@@ -2052,6 +2040,10 @@
     "summaries": [
       "python-pytest-testinfra FTBFS in rawhide"
     ]
+  },
+  "python-pytest-twisted": {
+    "urls": [],
+    "summaries": []
   },
   "python-python-ulid": {
     "urls": [],
@@ -2339,14 +2331,6 @@
       "python-textual: FTBFS in Fedora rawhide/f42"
     ]
   },
-  "python-timeout-decorator": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2354129"
-    ],
-    "summaries": [
-      "python-timeout-decorator FTBFS due to missing tox configuration"
-    ]
-  },
   "python-toolz": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2323168"
@@ -2470,12 +2454,8 @@
     "summaries": []
   },
   "python-warlock": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2354135"
-    ],
-    "summaries": [
-      "python-warlock FTBFS due to missing tox configuration"
-    ]
+    "urls": [],
+    "summaries": []
   },
   "python-watchfiles": {
     "urls": [
@@ -2513,6 +2493,10 @@
       "python-yappi fails to build with Python 3.14: error: invalid use of incomplete typedef \u2018PyGenObject\u2019 {aka \u2018struct _PyGenObject\u2019}"
     ]
   },
+  "python-yara": {
+    "urls": [],
+    "summaries": []
+  },
   "python-zarr": {
     "urls": [],
     "summaries": []
@@ -2527,14 +2511,6 @@
     ],
     "summaries": [
       "python-zope-exceptions: FTBFS in Fedora rawhide/f42"
-    ]
-  },
-  "python-zope-testrunner": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2335907"
-    ],
-    "summaries": [
-      "python-zope-testrunner fails to build with Python 3.14: difference in the asserted content in testrunner-edge-cases.rst"
     ]
   },
   "python-zstarfile": {
