@@ -267,14 +267,6 @@
       "git-filter-repo fails to build with Python 3.14: == t9394-filter-repo-sanity-checks-and-bigger-repo-setup.sh == --replace-text all options not ok"
     ]
   },
-  "gmsh": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2367255"
-    ],
-    "summaries": [
-      "gmsh: FTBFS in Fedora Rawhide: error: template with C linkage"
-    ]
-  },
   "gnofract4d": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2339539"
@@ -937,14 +929,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-cramjam": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2367779"
-    ],
-    "summaries": [
-      "python-cramjam fails to build with Python 3.14: Fatal Python error: Segmentation fault"
-    ]
-  },
   "python-crcmod": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2329852"
@@ -1003,14 +987,6 @@
     ],
     "summaries": [
       "Heads-up: python-diff-cover fails to build with python-pygments 2.19.1 on Fedora 43"
-    ]
-  },
-  "python-diff-match-patch": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2354097"
-    ],
-    "summaries": [
-      "python-diff-match-patch FTBFS due to missing tox configuration"
     ]
   },
   "python-dill": {
@@ -1370,12 +1346,8 @@
     "summaries": []
   },
   "python-jiter": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2366195"
-    ],
-    "summaries": [
-      "python-jiter fails to build with Python 3.14: crates/jiter-python/tests/test_jiter.py .Fatal Python error: Segmentation fault"
-    ]
+    "urls": [],
+    "summaries": []
   },
   "python-joblib": {
     "urls": [
@@ -1442,12 +1414,8 @@
     "summaries": []
   },
   "python-lfpy": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2341168"
-    ],
-    "summaries": [
-      "python-lfpy: FTBFS in Fedora rawhide/f42"
-    ]
+    "urls": [],
+    "summaries": []
   },
   "python-libNeuroML": {
     "urls": [],
@@ -2163,14 +2131,6 @@
     "summaries": [
       "python-rosdep: FTBFS in Fedora rawhide/f42",
       "python-rosdep fails to build with sphinx 8.x: ERROR: Invalid value `None` in intersphinx_mapping['http://docs.python.org/']."
-    ]
-  },
-  "python-rpds-py": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2366214"
-    ],
-    "summaries": [
-      "python-rpds-py fails to build with Python 3.14: tests/test_hash_trie_map.py::test_literalish_works Fatal Python error: Segmentation fault"
     ]
   },
   "python-rq": {
