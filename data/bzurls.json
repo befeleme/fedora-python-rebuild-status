@@ -329,6 +329,10 @@
     "urls": [],
     "summaries": []
   },
+  "libarrow": {
+    "urls": [],
+    "summaries": []
+  },
   "libpeas": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2366247"
@@ -344,6 +348,14 @@
   "libxc": {
     "urls": [],
     "summaries": []
+  },
+  "linode-cli": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2340775"
+    ],
+    "summaries": [
+      "linode-cli: FTBFS in Fedora rawhide/f42"
+    ]
   },
   "mlpack": {
     "urls": [],
@@ -528,6 +540,10 @@
     ]
   },
   "pylint": {
+    "urls": [],
+    "summaries": []
+  },
+  "pyproj": {
     "urls": [],
     "summaries": []
   },
@@ -730,10 +746,6 @@
     ]
   },
   "python-b4": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-basis_set_exchange": {
     "urls": [],
     "summaries": []
   },
@@ -1197,16 +1209,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-giacpy": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2366459",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2341608"
-    ],
-    "summaries": [
-      "python-giacpy fails to build with Python 3.14: RuntimeError: Unable to multiply two graphic objects Error: Bad Argument Value",
-      "python-giacpy: FTBFS in Fedora rawhide/f42"
-    ]
-  },
   "python-glanceclient": {
     "urls": [],
     "summaries": []
@@ -1232,6 +1234,14 @@
   "python-h5io": {
     "urls": [],
     "summaries": []
+  },
+  "python-h5netcdf": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2325222"
+    ],
+    "summaries": [
+      "python-h5netcdf fails to build with Python 3.14: test_no_circular_references: AssertionError"
+    ]
   },
   "python-hamcrest": {
     "urls": [
@@ -1410,10 +1420,6 @@
     "summaries": []
   },
   "python-klusta": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-lfpy": {
     "urls": [],
     "summaries": []
   },
@@ -2353,14 +2359,6 @@
     ],
     "summaries": [
       "python-typeguard fails to build with Python 3.14: AssertionError: assert 'str | int' == 'Union[str, int]' and more"
-    ]
-  },
-  "python-typing-extensions": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2336937"
-    ],
-    "summaries": [
-      "python-typing-extensions fails to build with Python 3.14: test_drop_in_for_typing: AssertionError: self.assertGreaterEqual(te_all, t_all - exceptions)"
     ]
   },
   "python-typing-inspect": {
