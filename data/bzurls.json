@@ -11,19 +11,19 @@
     "urls": [],
     "summaries": []
   },
-  "PyMca": {
+  "PackageKit": {
     "urls": [],
     "summaries": []
   },
   "alot": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2368593"
+    ],
+    "summaries": [
+      "alot fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
+    ]
   },
   "ansible": {
-    "urls": [],
-    "summaries": []
-  },
-  "ansible-builder": {
     "urls": [],
     "summaries": []
   },
@@ -48,10 +48,6 @@
       "asv fails to build with Python 3.14: AttributeError: 'Constant' object has no attribute 's'",
       "asv: FTBFS in Fedora rawhide/f42"
     ]
-  },
-  "audiotube": {
-    "urls": [],
-    "summaries": []
   },
   "avogadro2-libs": {
     "urls": [],
@@ -101,15 +97,7 @@
       "borgbackup fails to build with Python 3.14: OSError: AF_UNIX path too long when compiling"
     ]
   },
-  "borgmatic": {
-    "urls": [],
-    "summaries": []
-  },
   "calibre": {
-    "urls": [],
-    "summaries": []
-  },
-  "cantor": {
     "urls": [],
     "summaries": []
   },
@@ -133,10 +121,6 @@
       "ceph fails to build with Python 3.14: AttributeError: module 'pkgutil' has no attribute 'find_loader'"
     ]
   },
-  "cffconvert": {
-    "urls": [],
-    "summaries": []
-  },
   "chirp": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2361634"
@@ -152,10 +136,6 @@
     "summaries": [
       "cjdns: FTBFS in Fedora rawhide/f42"
     ]
-  },
-  "cloud-init": {
-    "urls": [],
-    "summaries": []
   },
   "conda": {
     "urls": [
@@ -181,7 +161,19 @@
       "copr-backend fails to build with Python 3.14: TestActionWorkerManager.test_add_task_for_running_worker: TypeError: cannot pickle 'itertools.count' object"
     ]
   },
+  "copr-dist-git": {
+    "urls": [],
+    "summaries": []
+  },
+  "copr-keygen": {
+    "urls": [],
+    "summaries": []
+  },
   "cozy": {
+    "urls": [],
+    "summaries": []
+  },
+  "cranc": {
     "urls": [],
     "summaries": []
   },
@@ -193,13 +185,53 @@
       "criu fails to build with Python 3.14: protobuf - TypeError: Metaclasses with custom tp_new are not supported."
     ]
   },
-  "dftd4": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2366480"
-    ],
-    "summaries": [
-      "dftd4 fails to build with Python 3.14: Error: Interface mismatch in dummy procedure \u2018argument_getter\u2019 at (1): ALLOCATABLE mismatch in argument '_formal_1'"
-    ]
+  "cryptlib": {
+    "urls": [],
+    "summaries": []
+  },
+  "csmock": {
+    "urls": [],
+    "summaries": []
+  },
+  "cura": {
+    "urls": [],
+    "summaries": []
+  },
+  "cxxtest": {
+    "urls": [],
+    "summaries": []
+  },
+  "d-feet": {
+    "urls": [],
+    "summaries": []
+  },
+  "dblatex": {
+    "urls": [],
+    "summaries": []
+  },
+  "ddiskit": {
+    "urls": [],
+    "summaries": []
+  },
+  "ddupdate": {
+    "urls": [],
+    "summaries": []
+  },
+  "dee": {
+    "urls": [],
+    "summaries": []
+  },
+  "deluge": {
+    "urls": [],
+    "summaries": []
+  },
+  "devscripts": {
+    "urls": [],
+    "summaries": []
+  },
+  "dib-utils": {
+    "urls": [],
+    "summaries": []
   },
   "diceware": {
     "urls": [
@@ -219,6 +251,22 @@
       "did fails to build with Python 3.14: AttributeError: module 'urllib.request' has no attribute 'FancyURLopener'"
     ]
   },
+  "diskimage-builder": {
+    "urls": [],
+    "summaries": []
+  },
+  "dist-git-client": {
+    "urls": [],
+    "summaries": []
+  },
+  "distcc": {
+    "urls": [],
+    "summaries": []
+  },
+  "distgen": {
+    "urls": [],
+    "summaries": []
+  },
   "dlib": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2366197"
@@ -227,7 +275,43 @@
       "dlib fails to build with Python 3.14: AssertionError in tests checking refcounting"
     ]
   },
-  "dt-schema": {
+  "dnf-plugin-diff": {
+    "urls": [],
+    "summaries": []
+  },
+  "dnf-plugin-ovl": {
+    "urls": [],
+    "summaries": []
+  },
+  "dnfdaemon": {
+    "urls": [],
+    "summaries": []
+  },
+  "dnfdragora": {
+    "urls": [],
+    "summaries": []
+  },
+  "dnsconfd": {
+    "urls": [],
+    "summaries": []
+  },
+  "dnsviz": {
+    "urls": [],
+    "summaries": []
+  },
+  "doge": {
+    "urls": [],
+    "summaries": []
+  },
+  "dogtag-pki": {
+    "urls": [],
+    "summaries": []
+  },
+  "eggdrop": {
+    "urls": [],
+    "summaries": []
+  },
+  "electrum": {
     "urls": [],
     "summaries": []
   },
@@ -247,15 +331,19 @@
       "espresso: FTBFS in Fedora rawhide/f42"
     ]
   },
+  "fedora-review": {
+    "urls": [],
+    "summaries": []
+  },
+  "fedpkg": {
+    "urls": [],
+    "summaries": []
+  },
   "fedrq": {
     "urls": [],
     "summaries": []
   },
-  "fmf": {
-    "urls": [],
-    "summaries": []
-  },
-  "geopmd": {
+  "freeipa-desktop-profile": {
     "urls": [],
     "summaries": []
   },
@@ -267,6 +355,10 @@
       "git-filter-repo fails to build with Python 3.14: == t9394-filter-repo-sanity-checks-and-bigger-repo-setup.sh == --replace-text all options not ok"
     ]
   },
+  "glade": {
+    "urls": [],
+    "summaries": []
+  },
   "gnofract4d": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2339539"
@@ -274,6 +366,26 @@
     "summaries": [
       "gnofract4d fails to build with Python 3.14: AssertionError: 'ct_sin6 = (0.841471,-0)' != 'ct_sin6 = (0.841471,0)'"
     ]
+  },
+  "gom": {
+    "urls": [],
+    "summaries": []
+  },
+  "gplugin": {
+    "urls": [],
+    "summaries": []
+  },
+  "gst-devtools": {
+    "urls": [],
+    "summaries": []
+  },
+  "gst-editing-services": {
+    "urls": [],
+    "summaries": []
+  },
+  "home-assistant-cli": {
+    "urls": [],
+    "summaries": []
   },
   "httpie": {
     "urls": [
@@ -293,10 +405,6 @@
       "ikiwiki: FTBFS in Fedora rawhide/f42"
     ]
   },
-  "ipa-hcc": {
-    "urls": [],
-    "summaries": []
-  },
   "ipython": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2356174"
@@ -305,17 +413,9 @@
       "ipython fails to build with Python 3.14: AssertionErrors, pexpect.exceptions.TIMEOUTs and more in 12 tests"
     ]
   },
-  "jupyterlab": {
+  "khal": {
     "urls": [],
     "summaries": []
-  },
-  "kernel": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2340285"
-    ],
-    "summaries": [
-      "kernel: FTBFS in Fedora rawhide/f42"
-    ]
   },
   "kitty": {
     "urls": [],
@@ -329,7 +429,27 @@
     "urls": [],
     "summaries": []
   },
+  "lensfun": {
+    "urls": [],
+    "summaries": []
+  },
+  "libaccounts-glib": {
+    "urls": [],
+    "summaries": []
+  },
   "libarrow": {
+    "urls": [],
+    "summaries": []
+  },
+  "libgexiv2": {
+    "urls": [],
+    "summaries": []
+  },
+  "libgit2-glib": {
+    "urls": [],
+    "summaries": []
+  },
+  "libmodulemd": {
     "urls": [],
     "summaries": []
   },
@@ -341,11 +461,19 @@
       "libpeas fails to build with Python 3.14: test-extension-py  TIMEOUT"
     ]
   },
-  "libsonata": {
+  "libpeas1": {
     "urls": [],
     "summaries": []
   },
-  "libxc": {
+  "libpoly": {
+    "urls": [],
+    "summaries": []
+  },
+  "libunity": {
+    "urls": [],
+    "summaries": []
+  },
+  "libvirt-test-API": {
     "urls": [],
     "summaries": []
   },
@@ -358,10 +486,6 @@
     ]
   },
   "mlpack": {
-    "urls": [],
-    "summaries": []
-  },
-  "mock": {
     "urls": [],
     "summaries": []
   },
@@ -385,10 +509,6 @@
     "urls": [],
     "summaries": []
   },
-  "morphio": {
-    "urls": [],
-    "summaries": []
-  },
   "mrchem": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2359498"
@@ -401,7 +521,15 @@
     "urls": [],
     "summaries": []
   },
+  "nemo-extensions": {
+    "urls": [],
+    "summaries": []
+  },
   "nextpnr": {
+    "urls": [],
+    "summaries": []
+  },
+  "obsctl": {
     "urls": [],
     "summaries": []
   },
@@ -421,21 +549,17 @@
       "onnx fails to build with Python 3.14: protobuf: TypeError: Metaclasses with custom tp_new are not supported."
     ]
   },
-  "opae": {
-    "urls": [],
-    "summaries": []
-  },
   "openapi-python-client": {
     "urls": [],
     "summaries": []
   },
   "opencv": {
-    "urls": [],
-    "summaries": []
-  },
-  "openscap-report": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2368529"
+    ],
+    "summaries": [
+      "opencv fails to build with Python 3.14: a failure in the %build phase"
+    ]
   },
   "openvino": {
     "urls": [],
@@ -461,14 +585,6 @@
     "urls": [],
     "summaries": []
   },
-  "petsc": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2359524"
-    ],
-    "summaries": [
-      "petsc fails to build with Python 3.14: AssertionError: 2 != 3 self.assertEqual(getrefcount(ctx), 3)"
-    ]
-  },
   "poetry": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2351383"
@@ -487,17 +603,13 @@
       "poezio fails to build with sphinx 8.x:  ERROR: Invalid value `None` in intersphinx_mapping['http://docs.python.org/']."
     ]
   },
-  "prewikka-updatedb": {
+  "postfix-mta-sts-resolver": {
     "urls": [],
     "summaries": []
   },
-  "pungi": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2367780"
-    ],
-    "summaries": [
-      "pungi fails to build with Python 3.14: PermissionError: [Errno 1] Operation not permitted: '/tmp/tmpn4r5l99y/src/symlink2' -> '/tmp/tmpn4r5l99y/dst/symlink2'"
-    ]
+  "prewikka-updatedb": {
+    "urls": [],
+    "summaries": []
   },
   "pybind11": {
     "urls": [
@@ -531,6 +643,14 @@
       "pyflakes fails to build with Python 3.14: SyntaxError: future feature print_statement is not defined"
     ]
   },
+  "pygobject3": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2359811"
+    ],
+    "summaries": [
+      "pygobject3 fails to build with Python 3.14: Failed TestPythonReferenceCounting and TestRefCountsIntrospected and TestRefCountsNonIntrospected"
+    ]
+  },
   "pylibacl": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2359502"
@@ -547,14 +667,6 @@
     "urls": [],
     "summaries": []
   },
-  "pyserial-asyncio": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2327980"
-    ],
-    "summaries": [
-      "pyserial-asyncio fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
-    ]
-  },
   "pysubnettree": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2366464",
@@ -564,18 +676,6 @@
       "pysubnettree fails to build with Python 3.14/Fedora Rawhide: error: too many arguments to function \u2018func\u2019; expected 0, have 1",
       "pysubnettree: FTBFS in Fedora rawhide/f42"
     ]
-  },
-  "pytest": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2353140"
-    ],
-    "summaries": [
-      "pytest fails to build with Python 3.14: mismatch of expected and actual strings in test output"
-    ]
-  },
-  "python-SALib": {
-    "urls": [],
-    "summaries": []
   },
   "python-TestSlide": {
     "urls": [
@@ -587,6 +687,10 @@
       "python-TestSlide fails to build with Python 3.14: ERROR collecting tests/mock_callable_testslide.py: RuntimeError: dictionary changed size during iteration"
     ]
   },
+  "python-accuweather": {
+    "urls": [],
+    "summaries": []
+  },
   "python-aioesphomeapi": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2366202"
@@ -595,6 +699,26 @@
       "python-aioesphomeapi fails to build with Python 3.14: protobuf: TypeError: Metaclasses with custom tp_new are not supported"
     ]
   },
+  "python-aiogqlc": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-aiohttp-cors": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-aiohttp-oauthlib": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-aiohttp-socks": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-aiohttp-sse-client": {
+    "urls": [],
+    "summaries": []
+  },
   "python-aiokafka": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2346517"
@@ -602,6 +726,14 @@
     "summaries": [
       "python-aiokafka fails to build with Python 3.14: DeprecationWarning: 'asyncio.get_event_loop_policy' is deprecated and slated for removal in Python 3.16"
     ]
+  },
+  "python-aioresponses": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-aioruckus": {
+    "urls": [],
+    "summaries": []
   },
   "python-aiosmtpd": {
     "urls": [
@@ -619,29 +751,37 @@
       "python-aiounittest fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
     ]
   },
-  "python-animatplot": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-annarchy": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-ansible-compat": {
-    "urls": [],
-    "summaries": []
-  },
   "python-ansible-runner": {
     "urls": [],
     "summaries": []
   },
+  "python-anyio": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2367992"
+    ],
+    "summaries": [
+      "python-anyio fails to build with Python 3.14: test_copy and test_copy_into fail with pathlib's AttributeError: 'Path' object has no attribute '_copy_from'"
+    ]
+  },
   "python-apsw": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2368619"
+    ],
+    "summaries": [
+      "python-apsw fails to build with Python 3.14: AttributeError: 'DataClassRowFactory.4524B5' object has no attribute '__annotations__'. Did you mean: '__annotate_func__'?"
+    ]
+  },
+  "python-aresponses": {
     "urls": [],
     "summaries": []
   },
-  "python-archspec": {
-    "urls": [],
-    "summaries": []
+  "python-array-api-strict": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2365875"
+    ],
+    "summaries": [
+      "python-array-api-strict fails to build with Python 3.14: test_iter: Failed: DID NOT RAISE <class 'TypeError'>"
+    ]
   },
   "python-astdoc": {
     "urls": [
@@ -680,6 +820,10 @@
     ]
   },
   "python-astroquery": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-async-upnp-client": {
     "urls": [],
     "summaries": []
   },
@@ -737,6 +881,10 @@
       "python-aws-sam-translator fails to build with Python 3.14: 77 test failures, 4 error"
     ]
   },
+  "python-aws-xray-sdk": {
+    "urls": [],
+    "summaries": []
+  },
   "python-axolotl": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2366200"
@@ -744,6 +892,14 @@
     "summaries": [
       "python-axolotl fails to build with Python 3.14: protobuf: TypeError: Metaclasses with custom tp_new are not supported."
     ]
+  },
+  "python-azure-multiapi-storage": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-azure-servicebus": {
+    "urls": [],
+    "summaries": []
   },
   "python-b4": {
     "urls": [],
@@ -767,6 +923,10 @@
       "python-beartype fails to build with Python 3.14: ImportError: cannot import name 'ByteString' from 'typing'"
     ]
   },
+  "python-beautifulsoup4": {
+    "urls": [],
+    "summaries": []
+  },
   "python-behave": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2339094"
@@ -774,10 +934,6 @@
     "summaries": [
       "python-behave fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
     ]
-  },
-  "python-bids-validator": {
-    "urls": [],
-    "summaries": []
   },
   "python-billiard": {
     "urls": [
@@ -787,15 +943,11 @@
       "python-billiard fails to build with Python 3.14: AttributeError: module 'subprocess' has no attribute '_USE_VFORK'"
     ]
   },
-  "python-binary-manager": {
+  "python-binary-memcached": {
     "urls": [],
     "summaries": []
   },
   "python-bioframe": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-bioread": {
     "urls": [],
     "summaries": []
   },
@@ -831,14 +983,6 @@
       "python-boutdata fails to build with Python 3.14: NotImplementedError: Dataset is not picklable"
     ]
   },
-  "python-bravado": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-bravado-core": {
-    "urls": [],
-    "summaries": []
-  },
   "python-bsmschema": {
     "urls": [],
     "summaries": []
@@ -852,8 +996,12 @@
     ]
   },
   "python-carbon": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2368591"
+    ],
+    "summaries": [
+      "python-carbon fails to build with Python 3.14: protobuf: TypeError: Metaclasses with custom tp_new are not supported."
+    ]
   },
   "python-catkin_tools": {
     "urls": [
@@ -897,14 +1045,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-cloudpickle": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2367731"
-    ],
-    "summaries": [
-      "python-cloudpickle fails to build with Python 3.14: AttributeError: 'MyClass' object has no attribute '__annotations__'. Did you mean: '__annotations_cache__'"
-    ]
-  },
   "python-cmd2": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2356178"
@@ -912,6 +1052,10 @@
     "summaries": [
       "python-cmd2 fails to build with Python 3.14:  ValueError: action 'store_true' is not valid for positional arguments"
     ]
+  },
+  "python-colcon-meson": {
+    "urls": [],
+    "summaries": []
   },
   "python-colcon-parallel-executor": {
     "urls": [
@@ -965,7 +1109,15 @@
     "urls": [],
     "summaries": []
   },
-  "python-cvelib": {
+  "python-cs": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-daikin": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-damo": {
     "urls": [],
     "summaries": []
   },
@@ -984,6 +1136,10 @@
     "summaries": [
       "python-dateparser fails to build with Python 3.14: 11 test failures"
     ]
+  },
+  "python-deconz": {
+    "urls": [],
+    "summaries": []
   },
   "python-deepdiff": {
     "urls": [],
@@ -1017,10 +1173,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-django-allauth": {
-    "urls": [],
-    "summaries": []
-  },
   "python-django-configurations": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2366494"
@@ -1035,14 +1187,6 @@
     ],
     "summaries": [
       "python-django-contrib-comments fails to build with Python 3.14: ImportError: Module \"django.contrib.auth.hashers\" does not define a \"UnsaltedMD5PasswordHasher\" attribute/class"
-    ]
-  },
-  "python-django-debreach": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2328003"
-    ],
-    "summaries": [
-      "python-django-debreach fails to build with Python 3.14: AttributeError: 'super' object has no attribute 'dicts' and no __dict__ for setting new attributes"
     ]
   },
   "python-django-extensions": {
@@ -1061,10 +1205,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-djangoql": {
-    "urls": [],
-    "summaries": []
-  },
   "python-domdf-python-tools": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2345519"
@@ -1077,17 +1217,17 @@
     "urls": [],
     "summaries": []
   },
+  "python-drgn": {
+    "urls": [],
+    "summaries": []
+  },
   "python-duecredit": {
     "urls": [],
     "summaries": []
   },
   "python-dunamai": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2366194"
-    ],
-    "summaries": [
-      "breezy dumps core with Python 3.14: Segmentation fault when invoking brz whoami 'Your Name <name@example.com>'"
-    ]
+    "urls": [],
+    "summaries": []
   },
   "python-efel": {
     "urls": [],
@@ -1097,7 +1237,15 @@
     "urls": [],
     "summaries": []
   },
-  "python-emcee": {
+  "python-email-validator": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-engineio": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-enturclient": {
     "urls": [],
     "summaries": []
   },
@@ -1106,6 +1254,10 @@
     "summaries": []
   },
   "python-ephyviewer": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-epson-projector": {
     "urls": [],
     "summaries": []
   },
@@ -1118,8 +1270,12 @@
     ]
   },
   "python-eth-stdlib": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2368527"
+    ],
+    "summaries": [
+      "python-eth-stdlib fails to build in Copr: error: Bad file: /builddir/build/SOURCES/python-eth-stdlib-0004-Fix-for-modern-poetry.patch: No such file or directory"
+    ]
   },
   "python-exdir": {
     "urls": [
@@ -1141,11 +1297,11 @@
     "urls": [],
     "summaries": []
   },
-  "python-fasjson-client": {
+  "python-fastavro": {
     "urls": [],
     "summaries": []
   },
-  "python-fastavro": {
+  "python-fiona": {
     "urls": [],
     "summaries": []
   },
@@ -1167,10 +1323,12 @@
   },
   "python-flask-caching": {
     "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2341153"
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2341153",
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2329857"
     ],
     "summaries": [
-      "python-flask-caching: FTBFS in Fedora rawhide/f42"
+      "python-flask-caching: FTBFS in Fedora rawhide/f42",
+      "python-flask-caching fails to build with sphinx 8.x: ERROR: Invalid value `None` in intersphinx_mapping['https://docs.python.org/3/']."
     ]
   },
   "python-flask-session": {
@@ -1180,6 +1338,10 @@
     "summaries": [
       "python-flask-session FTBFS due to missing tox configuration"
     ]
+  },
+  "python-fluidity-sm": {
+    "urls": [],
+    "summaries": []
   },
   "python-formulaic": {
     "urls": [],
@@ -1205,11 +1367,29 @@
     "urls": [],
     "summaries": []
   },
+  "python-geoip2": {
+    "urls": [],
+    "summaries": []
+  },
   "python-geopmpy": {
     "urls": [],
     "summaries": []
   },
-  "python-glanceclient": {
+  "python-geopy": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-giacpy": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2366459",
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2341608"
+    ],
+    "summaries": [
+      "python-giacpy fails to build with Python 3.14: RuntimeError: Unable to multiply two graphic objects Error: Bad Argument Value",
+      "python-giacpy: FTBFS in Fedora rawhide/f42"
+    ]
+  },
+  "python-gios": {
     "urls": [],
     "summaries": []
   },
@@ -1231,6 +1411,14 @@
       "python-gphoto2: FTBFS in Fedora rawhide/f42"
     ]
   },
+  "python-gql": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-greenlet": {
+    "urls": [],
+    "summaries": []
+  },
   "python-h5io": {
     "urls": [],
     "summaries": []
@@ -1251,7 +1439,11 @@
       "python-hamcrest fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
     ]
   },
-  "python-hdf5storage": {
+  "python-hass-data-detective": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-hdfs": {
     "urls": [],
     "summaries": []
   },
@@ -1324,8 +1516,12 @@
     ]
   },
   "python-ipfshttpclient": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2368589"
+    ],
+    "summaries": [
+      "python-ipfshttpclient fails to build with Python 3.14: AssertionError: assert ['(?![.])(?s:literal)\\\\z'] == ['(?![.])(?s:literal)\\\\Z']"
+    ]
   },
   "python-ipyparallel": {
     "urls": [
@@ -1334,10 +1530,6 @@
     "summaries": [
       "python-ipyparallel fails to build with Python 3.14: TestAsyncResult.test_display_output_error: SyntaxWarning: 'return' in a 'finally' block treated as error"
     ]
-  },
-  "python-ipywidgets": {
-    "urls": [],
-    "summaries": []
   },
   "python-irc": {
     "urls": [
@@ -1352,10 +1544,6 @@
     "summaries": []
   },
   "python-jedi": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-jiter": {
     "urls": [],
     "summaries": []
   },
@@ -1379,22 +1567,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-jsonschema": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-jsonschema-path": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-jsonschema-specifications": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-jupyter-cache": {
-    "urls": [],
-    "summaries": []
-  },
   "python-jupyter-events": {
     "urls": [],
     "summaries": []
@@ -1403,15 +1575,7 @@
     "urls": [],
     "summaries": []
   },
-  "python-jupyter-lsp": {
-    "urls": [],
-    "summaries": []
-  },
   "python-jupyter-server": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-jupyterlab-server": {
     "urls": [],
     "summaries": []
   },
@@ -1419,7 +1583,7 @@
     "urls": [],
     "summaries": []
   },
-  "python-klusta": {
+  "python-lazr-uri": {
     "urls": [],
     "summaries": []
   },
@@ -1467,6 +1631,14 @@
       "python-markups fails to build with Python 3.14: AssertionError in test_get_pygments_stylesheet"
     ]
   },
+  "python-matplotlib": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2328713"
+    ],
+    "summaries": [
+      "python-matplotlib fails to build with Python 3.14: RecursionError: maximum recursion depth exceeded"
+    ]
+  },
   "python-matrix-nio": {
     "urls": [],
     "summaries": []
@@ -1476,16 +1648,16 @@
       "https://bugzilla.redhat.com/show_bug.cgi?id=2328016"
     ],
     "summaries": [
-      "python-mccabe fails to build with Python 3.14: AttributeError: module 'typing' has no attribute 'ByteString'"
+      "python-mccabe fails to build with Python 3.14: test_idempotent_any_syntatically_valid_python fails"
     ]
   },
   "python-mechanize": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-meshio": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2368592"
+    ],
+    "summaries": [
+      "python-mechanize fails to build with Python 3.14: test.test_cookies.CookieTests.test_missing_name: AssertionError"
+    ]
   },
   "python-metakernel": {
     "urls": [
@@ -1504,10 +1676,6 @@
     "summaries": []
   },
   "python-mkdocs-d2-plugin": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-mkdocs-rss-plugin": {
     "urls": [],
     "summaries": []
   },
@@ -1535,7 +1703,7 @@
       "python-msgspec fails to build with Python 3.14: TypeError: Extra positional arguments provided"
     ]
   },
-  "python-multiprocess": {
+  "python-msrest": {
     "urls": [],
     "summaries": []
   },
@@ -1547,10 +1715,6 @@
       "python-music21 FTBFS due to missing tox configuration"
     ]
   },
-  "python-nbclassic": {
-    "urls": [],
-    "summaries": []
-  },
   "python-nbclient": {
     "urls": [],
     "summaries": []
@@ -1560,14 +1724,6 @@
     "summaries": []
   },
   "python-nbdime": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-nbformat": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-nbsphinx": {
     "urls": [],
     "summaries": []
   },
@@ -1603,6 +1759,10 @@
     "urls": [],
     "summaries": []
   },
+  "python-niapy": {
+    "urls": [],
+    "summaries": []
+  },
   "python-nikola": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2341174"
@@ -1611,15 +1771,7 @@
       "python-nikola: FTBFS in Fedora rawhide/f42"
     ]
   },
-  "python-nixio": {
-    "urls": [],
-    "summaries": []
-  },
   "python-notebook": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-notebook-shim": {
     "urls": [],
     "summaries": []
   },
@@ -1649,15 +1801,7 @@
     "urls": [],
     "summaries": []
   },
-  "python-openapi-schema-validator": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-openapi-spec-validator": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-openstacksdk": {
+  "python-opensearch-py": {
     "urls": [],
     "summaries": []
   },
@@ -1678,6 +1822,10 @@
     ]
   },
   "python-oslo-config": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-oslo-log": {
     "urls": [],
     "summaries": []
   },
@@ -1715,15 +1863,15 @@
       "python-pandas: FTBFS in Fedora rawhide/f42"
     ]
   },
+  "python-pandas-datareader": {
+    "urls": [],
+    "summaries": []
+  },
   "python-paperwork-backend": {
     "urls": [],
     "summaries": []
   },
-  "python-pari-jupyter": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-pathos": {
+  "python-pecan": {
     "urls": [],
     "summaries": []
   },
@@ -1801,6 +1949,22 @@
       "python-priority fails to build with sphinx 8.x: ERROR: Invalid value `None` in intersphinx_mapping['http://docs.python.org/']."
     ]
   },
+  "python-proton-core": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-proton-vpn-network-manager": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-psycopg3": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2339461"
+    ],
+    "summaries": [
+      "python-psycopg3 fails to build with Python 3.14: DeprecationWarning: 'asyncio.set_event_loop' is deprecated and slated for removal in Python 3.16"
+    ]
+  },
   "python-pudb": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2365643"
@@ -1816,6 +1980,10 @@
     "summaries": [
       "python-pure-protobuf fails to build with Python 3.14: ImportError: cannot import name 'ByteString' from 'typing'"
     ]
+  },
+  "python-pybbi": {
+    "urls": [],
+    "summaries": []
   },
   "python-pycec": {
     "urls": [
@@ -1841,6 +2009,10 @@
     "urls": [],
     "summaries": []
   },
+  "python-pydepsdev": {
+    "urls": [],
+    "summaries": []
+  },
   "python-pydocstyle": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2366488"
@@ -1861,11 +2033,11 @@
     "urls": [],
     "summaries": []
   },
-  "python-pymapvbvd": {
+  "python-pygmtools": {
     "urls": [],
     "summaries": []
   },
-  "python-pymatreader": {
+  "python-pyiqvia": {
     "urls": [],
     "summaries": []
   },
@@ -1903,6 +2075,10 @@
     "urls": [],
     "summaries": []
   },
+  "python-pyongc": {
+    "urls": [],
+    "summaries": []
+  },
   "python-pyopencl": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2341190"
@@ -1920,6 +2096,10 @@
     ]
   },
   "python-pyopengltk": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pypcapkit": {
     "urls": [],
     "summaries": []
   },
@@ -1963,37 +2143,13 @@
       "python-pysaml2: FTBFS in Fedora rawhide/f42"
     ]
   },
-  "python-pytesseract": {
+  "python-pyside6": {
     "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2341201"
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2325444"
     ],
     "summaries": [
-      "python-pytesseract: FTBFS in Fedora rawhide/f42"
+      "python-pyside6 fails to build with Python 3.14: TypeError: Formatter.formatannotation() got an unexpected keyword argument 'quote_annotation_strings'"
     ]
-  },
-  "python-pytest-aiohttp": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2339466"
-    ],
-    "summaries": [
-      "python-pytest-aiohttp fails to build with Python 3.14: DeprecationWarning: 'asyncio.get_event_loop_policy' is deprecated and slated for removal in Python 3.16"
-    ]
-  },
-  "python-pytest-asyncio": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2342564"
-    ],
-    "summaries": [
-      "python-pytest-asyncio fails to build with Python 3.14: DeprecationWarning: 'asyncio.get_event_loop_policy' is deprecated and slated for removal in Python 3.16"
-    ]
-  },
-  "python-pytest-django": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-pytest-jupyter": {
-    "urls": [],
-    "summaries": []
   },
   "python-pytest-lsp": {
     "urls": [
@@ -2002,10 +2158,6 @@
     "summaries": [
       "python-pytest-lsp fails to build with Python 3.14: warnings counts differ, resulting in AssertionError in 3 tests"
     ]
-  },
-  "python-pytest-regressions": {
-    "urls": [],
-    "summaries": []
   },
   "python-pytest-testinfra": {
     "urls": [
@@ -2016,8 +2168,12 @@
     ]
   },
   "python-pytest-twisted": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2368594"
+    ],
+    "summaries": [
+      "python-pytest-twisted fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
+    ]
   },
   "python-python-ulid": {
     "urls": [],
@@ -2031,22 +2187,6 @@
       "python-pyupgrade fails to build with Python 3.14: AttributeError: module 'ast' has no attribute 'Str'"
     ]
   },
-  "python-pyvlx": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2327983"
-    ],
-    "summaries": [
-      "python-pyvlx fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
-    ]
-  },
-  "python-pyvo": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-qudida": {
-    "urls": [],
-    "summaries": []
-  },
   "python-rasterio": {
     "urls": [],
     "summaries": []
@@ -2059,14 +2199,6 @@
     "summaries": [
       "python-rdflib fails to build with Python 3.14: AttributeError: term 'value' not in namespace 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'",
       "python-rdflib fails to build with Python 3.14: \"TypeError: '<' not supported between instances of 'Literal' and 'Literal'\""
-    ]
-  },
-  "python-reactivex": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2327987"
-    ],
-    "summaries": [
-      "python-reactivex fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
     ]
   },
   "python-readability-lxml": {
@@ -2085,18 +2217,6 @@
       "python-recordclass fails to build with Python 3.14: 25 failures, 65 errors in the test suite"
     ]
   },
-  "python-redis": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2345526"
-    ],
-    "summaries": [
-      "python-redis fails to build with Python 3.14: TypeError: 'NoneType' object is not subscriptable"
-    ]
-  },
-  "python-referencing": {
-    "urls": [],
-    "summaries": []
-  },
   "python-remoto": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2366491",
@@ -2107,36 +2227,12 @@
       "python-remoto: FTBFS in Fedora rawhide/f42"
     ]
   },
-  "python-rich": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2350303",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2339510"
-    ],
-    "summaries": [
-      "Heads-up: python-rich fails to build with python-pygments 2.19.1 on Fedora 43",
-      "python-rich fails to build with Python 3.14: 5 test fail"
-    ]
-  },
-  "python-robotframework": {
-    "urls": [],
-    "summaries": []
-  },
   "python-rope": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2351391"
     ],
     "summaries": [
       "python-rope fails to build with Python 3.14: ImportError while loading conftest '/builddir/build/BUILD/python-rope-1.13.0-build/rope-1.13.0/ropetest/conftest.py'.: AssertionError: assert sys.version_info < (3, 8)"
-    ]
-  },
-  "python-rosdep": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2341207",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2329891"
-    ],
-    "summaries": [
-      "python-rosdep: FTBFS in Fedora rawhide/f42",
-      "python-rosdep fails to build with sphinx 8.x: ERROR: Invalid value `None` in intersphinx_mapping['http://docs.python.org/']."
     ]
   },
   "python-rq": {
@@ -2155,49 +2251,17 @@
       "python-rstcheck fails to build with Python 3.14: AttributeError: 'Constant' object has no attribute 's'"
     ]
   },
-  "python-rstcheck-core": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-rx": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2327979"
-    ],
-    "summaries": [
-      "python-rx fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
-    ]
-  },
-  "python-s3transfer": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2326933"
-    ],
-    "summaries": [
-      "python-s3transfer fails to build with Python 3.14: _pickle.PicklingError: Can't pickle local object <class 'tests.unit.test_compat.TestBaseManager.create_pid_manager.<locals>.PIDManager'>"
-    ]
-  },
   "python-scikit-build": {
     "urls": [],
     "summaries": []
   },
-  "python-scikit-learn": {
+  "python-scikit-image": {
     "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2353125"
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2368531"
     ],
     "summaries": [
-      "python-scikit-learn fails to build with Python 3.14: AssertionError in test_warn_if_metric_bool_data_no_bool and test_open_openml_url_retry_on_network_error"
+      "python-scikit-image fails to build with Python 3.14: AssertionError: Regex pattern did not match. Regex: \"'old' is not in list\" Input: 'list.index(x): x not in list'"
     ]
-  },
-  "python-scikit-uplift": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-sciunit": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-seaborn": {
-    "urls": [],
-    "summaries": []
   },
   "python-simframe": {
     "urls": [
@@ -2207,37 +2271,9 @@
       "python-simframe fails to build with Python 3.14: TypeError: cannot pickle 'itertools.cycle' object"
     ]
   },
-  "python-sklearn-genetic": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-sklearn-genetic-opt": {
-    "urls": [],
-    "summaries": []
-  },
   "python-smart_open": {
     "urls": [],
     "summaries": []
-  },
-  "python-sphinx": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-sqlalchemy1.4": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2327976"
-    ],
-    "summaries": [
-      "python-sqlalchemy1.4 fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
-    ]
-  },
-  "python-stdlibs": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2359504"
-    ],
-    "summaries": [
-      "python-stdlibs fails to build with Python 3.14: AssertionError: Items in the second set but not the first: '_hmac' '_ast_unparse' '_types'"
-    ]
   },
   "python-steam": {
     "urls": [
@@ -2255,48 +2291,6 @@
       "python-streamlink fails to build with Python 3.14: test_deprecated: AssetionError: Left contains one more item: <warnings.WarningMessage object at 0x7fd80afa3410>"
     ]
   },
-  "python-succulent": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-swagger-spec-validator": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-tables": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-tablib": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-telnetlib3": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2354126"
-    ],
-    "summaries": [
-      "python-telnetlib3 FTBFS due to missing tox configuration"
-    ]
-  },
-  "python-tenacity": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2327977"
-    ],
-    "summaries": [
-      "python-tenacity fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
-    ]
-  },
-  "python-textual": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2367457",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2341224"
-    ],
-    "summaries": [
-      "python-textual fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'.",
-      "python-textual: FTBFS in Fedora rawhide/f42"
-    ]
-  },
   "python-toolz": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2323168"
@@ -2308,58 +2302,6 @@
   "python-torch": {
     "urls": [],
     "summaries": []
-  },
-  "python-tornado": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2327969"
-    ],
-    "summaries": [
-      "python-tornado fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
-    ]
-  },
-  "python-towncrier": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2354131"
-    ],
-    "summaries": [
-      "python-towncrier FTBFS due to missing tox configuration"
-    ]
-  },
-  "python-trio": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2345516"
-    ],
-    "summaries": [
-      "python-trio fails to build with Python 3.14: test_ki_protection_doesnt_leave_cyclic_garbage: Left contains one more item: <coroutine object test_ki_protection_doesnt_leave_cyclic_garbage at 0x7fbaa2f162c0>"
-    ]
-  },
-  "python-trx-python": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-twisted": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2342754"
-    ],
-    "summaries": [
-      "python-twisted fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'. + more"
-    ]
-  },
-  "python-txaio": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2327981"
-    ],
-    "summaries": [
-      "python-txaio fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
-    ]
-  },
-  "python-typeguard": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2366201"
-    ],
-    "summaries": [
-      "python-typeguard fails to build with Python 3.14: AssertionError: assert 'str | int' == 'Union[str, int]' and more"
-    ]
   },
   "python-typing-inspect": {
     "urls": [
@@ -2373,14 +2315,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-uranium": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-usort": {
-    "urls": [],
-    "summaries": []
-  },
   "python-uvloop": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2341233",
@@ -2389,50 +2323,6 @@
     "summaries": [
       "python-uvloop: FTBFS in Fedora rawhide/f42",
       "python-uvloop fails to build with Python 3.14: AttributeError: module 'asyncio' has no attribute 'AbstractChildWatcher'"
-    ]
-  },
-  "python-validator-collection": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-valkey": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2349444"
-    ],
-    "summaries": [
-      "python-valkey fails to build with Python 3.14: _pickle.PicklingError: Can't pickle local object <function TestMultiprocessing.test_close_connection_in_child.<locals>.target at 0x7f5aa68cddd0>"
-    ]
-  },
-  "python-vascpy": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-versioningit": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-warlock": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-watchfiles": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2339462"
-    ],
-    "summaries": [
-      "python-watchfiles fails to build with Python 3.14: DeprecationWarning: 'asyncio.set_event_loop' is deprecated and slated for removal in Python 3.16"
-    ]
-  },
-  "python-wcwidth": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-webob": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2365645"
-    ],
-    "summaries": [
-      "python-webob fails to build with Python 3.14: test_interrupted_request: AssertionError: False disconnect alert"
     ]
   },
   "python-wordcloud": {
@@ -2451,27 +2341,7 @@
       "python-yappi fails to build with Python 3.14: error: invalid use of incomplete typedef \u2018PyGenObject\u2019 {aka \u2018struct _PyGenObject\u2019}"
     ]
   },
-  "python-yara": {
-    "urls": [],
-    "summaries": []
-  },
   "python-zarr": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-zeep": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-zope-exceptions": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2341240"
-    ],
-    "summaries": [
-      "python-zope-exceptions: FTBFS in Fedora rawhide/f42"
-    ]
-  },
-  "python-zstarfile": {
     "urls": [],
     "summaries": []
   },
@@ -2499,62 +2369,6 @@
       "rebase-helper fails to build with Python 3.14: AssertionError in TestCLI.test_cli_unit and TestConfig.test_merge"
     ]
   },
-  "root": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2366454"
-    ],
-    "summaries": [
-      "root fails to build with Python 3.14: AssertionErrors in test_refcount"
-    ]
-  },
-  "rpkg-util": {
-    "urls": [],
-    "summaries": []
-  },
-  "rpm-head-signing": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2366308"
-    ],
-    "summaries": [
-      "rpm-head-signing: FTBFS in Fedora Rawhide with RPM 6"
-    ]
-  },
-  "ruff": {
-    "urls": [],
-    "summaries": []
-  },
-  "rust2rpm": {
-    "urls": [],
-    "summaries": []
-  },
-  "satyr": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2325452"
-    ],
-    "summaries": [
-      "satyr fails to build with Python 3.14: _pickle.PicklingError: Can't pickle local object <function TestDistances.test_distances_part_parallel.<locals>.do_test.<locals>.compute_part at 0x7f7f845f2560>"
-    ]
-  },
-  "sherlock-project": {
-    "urls": [],
-    "summaries": []
-  },
-  "signon-glib": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2341348"
-    ],
-    "summaries": [
-      "signon-glib: FTBFS in Fedora rawhide/f42"
-    ]
-  },
-  "subversion": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2359500"
-    ],
-    "summaries": [
-      "subversion fails to build with Python 3.14: AssertionError: 3 != 4 : Memory leak!  Expected a ref count of 4 for svn_merge_range_t object, but got 3 instead (path: b'/trunk', index: 0)"
-    ]
-  },
   "swift-lang": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2341403"
@@ -2563,43 +2377,7 @@
       "swift-lang: FTBFS in Fedora rawhide/f42"
     ]
   },
-  "sympy": {
-    "urls": [],
-    "summaries": []
-  },
   "tree-sitter-java": {
-    "urls": [],
-    "summaries": []
-  },
-  "ufw": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2366458",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2341477"
-    ],
-    "summaries": [
-      "ufw fails to build in Fedora Rawhide: File not found: /builddir/build/BUILD/ufw-0.35-build/BUILDROOT/usr/bin/ufw",
-      "ufw: FTBFS in Fedora rawhide/f42"
-    ]
-  },
-  "uwsgi": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2366193",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2341497"
-    ],
-    "summaries": [
-      "uwsgi fails to build with Python 3.14: plugins/python/python_plugin.c:1620:80: error: \u2018PyThreadState\u2019 {aka \u2018struct _ts\u2019} has no member named \u2018c_recursion_remaining\u2019; did you mean \u2018py_recursion_remaining\u2019?",
-      "uwsgi: FTBFS in Fedora rawhide/f42"
-    ]
-  },
-  "variety": {
-    "urls": [],
-    "summaries": []
-  },
-  "vdirsyncer": {
-    "urls": [],
-    "summaries": []
-  },
-  "veusz": {
     "urls": [],
     "summaries": []
   },
@@ -2611,34 +2389,12 @@
       "visidata fails to build with Python 3.14: TestVisidataPath.test_withName: AssertionError: assert 'foo' == 'foo.'"
     ]
   },
-  "weasyprint": {
-    "urls": [],
-    "summaries": []
-  },
   "xpra": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2350289"
     ],
     "summaries": [
       "xpra fails to build from source with Python 3.14: RuntimeError: An attempt has been made to start a new process before the current process has finished its bootstrapping phase."
-    ]
-  },
-  "yt-dlp": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2345522"
-    ],
-    "summaries": [
-      "yt-dlp fails to build with Python 3.14: TestTraversal.test_traversal_morsel: AssertionError: `...` should yield all values: Left contains one more item: 'item_value'"
-    ]
-  },
-  "zeek": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2366467",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2341601"
-    ],
-    "summaries": [
-      "zeek fails to build in Fedora Rawhide: Could not find prerequisite package 'BIND'",
-      "zeek: FTBFS in Fedora rawhide/f42"
     ]
   }
 }
