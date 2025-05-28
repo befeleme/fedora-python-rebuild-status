@@ -11,10 +11,6 @@
     "urls": [],
     "summaries": []
   },
-  "PackageKit": {
-    "urls": [],
-    "summaries": []
-  },
   "alot": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2368593"
@@ -34,6 +30,10 @@
     "summaries": [
       "ansible-core fails to build with Python 3.14: This version of ansible-test cannot be executed with Python version 3.14.0"
     ]
+  },
+  "arbor": {
+    "urls": [],
+    "summaries": []
   },
   "asv": {
     "urls": [
@@ -207,13 +207,13 @@
       "ephemeral-port-reserve fails to build with Python 3.14: socket.gaierror: [Errno -3] Temporary failure in name resolution"
     ]
   },
-  "fedora-review": {
-    "urls": [],
-    "summaries": []
-  },
-  "fedpkg": {
-    "urls": [],
-    "summaries": []
+  "espresso": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2340139"
+    ],
+    "summaries": [
+      "espresso: FTBFS in Fedora rawhide/f42"
+    ]
   },
   "fedrq": {
     "urls": [],
@@ -227,10 +227,6 @@
       "git-filter-repo fails to build with Python 3.14: == t9394-filter-repo-sanity-checks-and-bigger-repo-setup.sh == --replace-text all options not ok"
     ]
   },
-  "glade": {
-    "urls": [],
-    "summaries": []
-  },
   "gnofract4d": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2339539"
@@ -238,22 +234,6 @@
     "summaries": [
       "gnofract4d fails to build with Python 3.14: AssertionError: 'ct_sin6 = (0.841471,-0)' != 'ct_sin6 = (0.841471,0)'"
     ]
-  },
-  "gom": {
-    "urls": [],
-    "summaries": []
-  },
-  "gplugin": {
-    "urls": [],
-    "summaries": []
-  },
-  "gst-devtools": {
-    "urls": [],
-    "summaries": []
-  },
-  "gst-editing-services": {
-    "urls": [],
-    "summaries": []
   },
   "httpie": {
     "urls": [
@@ -294,26 +274,14 @@
     "summaries": []
   },
   "lensfun": {
-    "urls": [],
-    "summaries": []
-  },
-  "libaccounts-glib": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2368735"
+    ],
+    "summaries": [
+      "lensfun: FTBFS in Fedora Rawhide (probably with doxygen 1.14)"
+    ]
   },
   "libarrow": {
-    "urls": [],
-    "summaries": []
-  },
-  "libgexiv2": {
-    "urls": [],
-    "summaries": []
-  },
-  "libgit2-glib": {
-    "urls": [],
-    "summaries": []
-  },
-  "libmodulemd": {
     "urls": [],
     "summaries": []
   },
@@ -325,11 +293,15 @@
       "libpeas fails to build with Python 3.14: test-extension-py  TIMEOUT"
     ]
   },
-  "libpeas1": {
-    "urls": [],
-    "summaries": []
-  },
   "libunity": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2368739"
+    ],
+    "summaries": [
+      "libunity: FTBFS in Fedora Rawhide (probably since gettext 0.25)"
+    ]
+  },
+  "libxc": {
     "urls": [],
     "summaries": []
   },
@@ -377,15 +349,7 @@
     "urls": [],
     "summaries": []
   },
-  "nemo-extensions": {
-    "urls": [],
-    "summaries": []
-  },
   "nextpnr": {
-    "urls": [],
-    "summaries": []
-  },
-  "obsctl": {
     "urls": [],
     "summaries": []
   },
@@ -503,14 +467,6 @@
       "pyflakes fails to build with Python 3.14: SyntaxError: future feature print_statement is not defined"
     ]
   },
-  "pygobject3": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2359811"
-    ],
-    "summaries": [
-      "pygobject3 fails to build with Python 3.14: Failed TestPythonReferenceCounting and TestRefCountsIntrospected and TestRefCountsNonIntrospected"
-    ]
-  },
   "pylibacl": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2359502"
@@ -548,6 +504,14 @@
       "pysubnettree fails to build with Python 3.14/Fedora Rawhide: error: too many arguments to function \u2018func\u2019; expected 0, have 1",
       "pysubnettree: FTBFS in Fedora rawhide/f42"
     ]
+  },
+  "python-Mastodon": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-SALib": {
+    "urls": [],
+    "summaries": []
   },
   "python-TestSlide": {
     "urls": [
@@ -595,28 +559,12 @@
     "urls": [],
     "summaries": []
   },
-  "python-anyio": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2367992"
-    ],
-    "summaries": [
-      "python-anyio fails to build with Python 3.14: test_copy and test_copy_into fail with pathlib's AttributeError: 'Path' object has no attribute '_copy_from'"
-    ]
-  },
   "python-apsw": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2368619"
     ],
     "summaries": [
       "python-apsw fails to build with Python 3.14: AttributeError: 'DataClassRowFactory.4524B5' object has no attribute '__annotations__'. Did you mean: '__annotate_func__'?"
-    ]
-  },
-  "python-array-api-strict": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2365875"
-    ],
-    "summaries": [
-      "python-array-api-strict fails to build with Python 3.14: test_iter: Failed: DID NOT RAISE <class 'TypeError'>"
     ]
   },
   "python-astdoc": {
@@ -673,14 +621,6 @@
     ],
     "summaries": [
       "python-atomicwrites: FTBFS in Fedora rawhide/f42"
-    ]
-  },
-  "python-autocommand": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2327972"
-    ],
-    "summaries": [
-      "python-autocommand fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
     ]
   },
   "python-avocado": {
@@ -744,8 +684,12 @@
     ]
   },
   "python-beautifulsoup4": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2368745"
+    ],
+    "summaries": [
+      "python-beautifulsoup4 fails to build with Python 3.14: 3 tests Failed: DID NOT RAISE <class 'bs4.exceptions.ParserRejectedMarkup'>"
+    ]
   },
   "python-behave": {
     "urls": [
@@ -861,17 +805,13 @@
     "urls": [],
     "summaries": []
   },
-  "python-cmd2": {
+  "python-colcon-meson": {
     "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2356178"
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2368744"
     ],
     "summaries": [
-      "python-cmd2 fails to build with Python 3.14:  ValueError: action 'store_true' is not valid for positional arguments"
+      "python-colcon-meson fails to build with Python 3.14: test_capital_case: TypeError: InterpreterBase.__init__() missing 2 required positional arguments: 'subproject_dir' and 'env'"
     ]
-  },
-  "python-colcon-meson": {
-    "urls": [],
-    "summaries": []
   },
   "python-colcon-parallel-executor": {
     "urls": [
@@ -933,18 +873,6 @@
       "python-dataclassy fails to build with Python 3.14: TypeError: Beta() takes no arguments"
     ]
   },
-  "python-dateparser": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2367245"
-    ],
-    "summaries": [
-      "python-dateparser fails to build with Python 3.14: 11 test failures"
-    ]
-  },
-  "python-deepdiff": {
-    "urls": [],
-    "summaries": []
-  },
   "python-defcon": {
     "urls": [],
     "summaries": []
@@ -955,14 +883,6 @@
     ],
     "summaries": [
       "Heads-up: python-diff-cover fails to build with python-pygments 2.19.1 on Fedora 43"
-    ]
-  },
-  "python-dill": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2323157"
-    ],
-    "summaries": [
-      "python-dill fails to build with Python 3.14: TypeError: _Pickler._batch_setitems() missing 1 required positional argument: 'obj'"
     ]
   },
   "python-dipy": {
@@ -1034,8 +954,12 @@
     "summaries": []
   },
   "python-email-validator": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2368747"
+    ],
+    "summaries": [
+      "python-email-validator fails to build with Python 3.14: 1 test failure"
+    ]
   },
   "python-envisage": {
     "urls": [],
@@ -1091,14 +1015,6 @@
     ],
     "summaries": [
       "python-flake8-comprehensions fails to build with Python 3.14: Unnecessary reversed call around sorted() in 10 tests"
-    ]
-  },
-  "python-flask": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2327965"
-    ],
-    "summaries": [
-      "python-flask fails to build with Python 3.14: AttributeError: module 'pkgutil' has no attribute 'get_loader'"
     ]
   },
   "python-flask-caching": {
@@ -1165,10 +1081,6 @@
       "python-gphoto2: FTBFS in Fedora rawhide/f42"
     ]
   },
-  "python-greenlet": {
-    "urls": [],
-    "summaries": []
-  },
   "python-h5io": {
     "urls": [],
     "summaries": []
@@ -1180,22 +1092,6 @@
     "summaries": [
       "python-h5netcdf fails to build with Python 3.14: test_no_circular_references: AssertionError"
     ]
-  },
-  "python-hamcrest": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2346504"
-    ],
-    "summaries": [
-      "python-hamcrest fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
-    ]
-  },
-  "python-hass-data-detective": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-hdfs": {
-    "urls": [],
-    "summaries": []
   },
   "python-healpy": {
     "urls": [],
@@ -1218,6 +1114,10 @@
     "summaries": [
       "python-howdoi fails to build with Python 3.14: AssertionError: 'ERROR: Unable to reach google. Do you need to use a proxy? + json.decoder.JSONDecodeError"
     ]
+  },
+  "python-httpx": {
+    "urls": [],
+    "summaries": []
   },
   "python-igraph": {
     "urls": [],
@@ -1337,14 +1237,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-libcst": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2356182"
-    ],
-    "summaries": [
-      "python-libcst fails to build with Python 3.14: Exception: Logic error, unexpected top level type! when importing libcst.codegen.gen_matcher_classes"
-    ]
-  },
   "python-loguru": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2356181"
@@ -1377,25 +1269,9 @@
       "python-markups fails to build with Python 3.14: AssertionError in test_get_pygments_stylesheet"
     ]
   },
-  "python-matplotlib": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2328713"
-    ],
-    "summaries": [
-      "python-matplotlib fails to build with Python 3.14: RecursionError: maximum recursion depth exceeded"
-    ]
-  },
   "python-matrix-nio": {
     "urls": [],
     "summaries": []
-  },
-  "python-mccabe": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2328016"
-    ],
-    "summaries": [
-      "python-mccabe fails to build with Python 3.14: test_idempotent_any_syntatically_valid_python fails"
-    ]
   },
   "python-mechanize": {
     "urls": [
@@ -1489,10 +1365,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-niapy": {
-    "urls": [],
-    "summaries": []
-  },
   "python-nikola": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2341174"
@@ -1544,8 +1416,12 @@
     "summaries": []
   },
   "python-oslo-log": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2368746"
+    ],
+    "summaries": [
+      "python-oslo-log fails to build with Python 3.14: 2 test failures (MismatchErrors)"
+    ]
   },
   "python-packvers": {
     "urls": [
@@ -1573,14 +1449,6 @@
       "python-pamela fails to build with Python 3.14: pamela.PAMError: [PAM Error 26] Critical error - immediate abort"
     ]
   },
-  "python-pandas": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2341179"
-    ],
-    "summaries": [
-      "python-pandas: FTBFS in Fedora rawhide/f42"
-    ]
-  },
   "python-pandas-datareader": {
     "urls": [],
     "summaries": []
@@ -1593,14 +1461,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-pendulum": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2367458"
-    ],
-    "summaries": [
-      "python-pendulum fails to build with Python 3.14: tests/datetime/test_from_format.py ...........................Fatal Python error: Segmentation fault"
-    ]
-  },
   "python-photutils": {
     "urls": [],
     "summaries": []
@@ -1611,14 +1471,6 @@
     ],
     "summaries": [
       "python-pika fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
-    ]
-  },
-  "python-pikepdf": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2359815"
-    ],
-    "summaries": [
-      "python-pikepdf fails to build with Python 3.14: Test failures related to refcounting"
     ]
   },
   "python-pip": {
@@ -1678,10 +1530,6 @@
     "summaries": [
       "python-pure-protobuf fails to build with Python 3.14: ImportError: cannot import name 'ByteString' from 'typing'"
     ]
-  },
-  "python-pybbi": {
-    "urls": [],
-    "summaries": []
   },
   "python-pycec": {
     "urls": [
@@ -1758,10 +1606,6 @@
     ]
   },
   "python-pynn": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-pyongc": {
     "urls": [],
     "summaries": []
   },
@@ -1939,14 +1783,6 @@
       "python-recordclass fails to build with Python 3.14: 25 failures, 65 errors in the test suite"
     ]
   },
-  "python-redis": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2345526"
-    ],
-    "summaries": [
-      "python-redis fails to build with Python 3.14: TypeError: 'NoneType' object is not subscriptable"
-    ]
-  },
   "python-remoto": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2366491",
@@ -1955,16 +1791,6 @@
     "summaries": [
       "python-remoto fails to build with Python 3.14: AttributeError: 'TestRemoteError' object has no attribute 'traceback'",
       "python-remoto: FTBFS in Fedora rawhide/f42"
-    ]
-  },
-  "python-rich": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2350303",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2339510"
-    ],
-    "summaries": [
-      "Heads-up: python-rich fails to build with python-pygments 2.19.1 on Fedora 43",
-      "python-rich fails to build with Python 3.14: 5 test fail"
     ]
   },
   "python-rope": {
@@ -2025,16 +1851,20 @@
     "urls": [],
     "summaries": []
   },
-  "python-scikit-build-core": {
-    "urls": [],
-    "summaries": []
-  },
   "python-scikit-image": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2368531"
     ],
     "summaries": [
       "python-scikit-image fails to build with Python 3.14: AssertionError: Regex pattern did not match. Regex: \"'old' is not in list\" Input: 'list.index(x): x not in list'"
+    ]
+  },
+  "python-scikit-learn": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2353125"
+    ],
+    "summaries": [
+      "python-scikit-learn fails to build with Python 3.14: AssertionError in test_warn_if_metric_bool_data_no_bool and test_open_openml_url_retry_on_network_error"
     ]
   },
   "python-scikit-uplift": {
@@ -2074,8 +1904,12 @@
     "summaries": []
   },
   "python-sphinxygen": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2368738"
+    ],
+    "summaries": [
+      "python-sphinxygen: FTBFS in Fedora Rawhide (probably with doxygen 1.14)"
+    ]
   },
   "python-sqlalchemy1.4": {
     "urls": [
@@ -2121,10 +1955,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-tabulate": {
-    "urls": [],
-    "summaries": []
-  },
   "python-telnetlib3": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2354126"
@@ -2163,14 +1993,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-tornado": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2327969"
-    ],
-    "summaries": [
-      "python-tornado fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
-    ]
-  },
   "python-towncrier": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2354131"
@@ -2190,14 +2012,6 @@
   "python-trx-python": {
     "urls": [],
     "summaries": []
-  },
-  "python-twisted": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2342754"
-    ],
-    "summaries": [
-      "python-twisted fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'. + more"
-    ]
   },
   "python-txaio": {
     "urls": [
@@ -2220,7 +2034,7 @@
       "https://bugzilla.redhat.com/show_bug.cgi?id=2336937"
     ],
     "summaries": [
-      "python-typing-extensions fails to build with Python 3.14: test_drop_in_for_typing: AssertionError: self.assertGreaterEqual(te_all, t_all - exceptions)"
+      "python-typing-extensions fails to build with Python 3.14: test_invalid_special_forms: AssertionError: TypeError not raised"
     ]
   },
   "python-typing-inspect": {
@@ -2301,10 +2115,6 @@
       "python-yappi fails to build with Python 3.14: error: invalid use of incomplete typedef \u2018PyGenObject\u2019 {aka \u2018struct _PyGenObject\u2019}"
     ]
   },
-  "python-yfinance": {
-    "urls": [],
-    "summaries": []
-  },
   "python-zarr": {
     "urls": [],
     "summaries": []
@@ -2353,9 +2163,13 @@
       "rebase-helper fails to build with Python 3.14: AssertionError in TestCLI.test_cli_unit and TestConfig.test_merge"
     ]
   },
-  "rpkg": {
-    "urls": [],
-    "summaries": []
+  "root": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2366454"
+    ],
+    "summaries": [
+      "root fails to build with Python 3.14: AssertionErrors in test_refcount"
+    ]
   },
   "rpkg-util": {
     "urls": [],
@@ -2369,25 +2183,17 @@
       "rpm-head-signing: FTBFS in Fedora Rawhide with RPM 6"
     ]
   },
-  "rpmspectool": {
-    "urls": [],
-    "summaries": []
-  },
   "rss2email": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2368743"
+    ],
+    "summaries": [
+      "rss2email fails to build with Python 3.14: ERROR: test_email_data/tails/1.config..."
+    ]
   },
   "ruff": {
     "urls": [],
     "summaries": []
-  },
-  "satyr": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2325452"
-    ],
-    "summaries": [
-      "satyr fails to build with Python 3.14: _pickle.PicklingError: Can't pickle local object <function TestDistances.test_distances_part_parallel.<locals>.do_test.<locals>.compute_part at 0x7f7f845f2560>"
-    ]
   },
   "sherlock-project": {
     "urls": [],
@@ -2409,6 +2215,14 @@
       "strongswan-5.9.14-5.fc42 FTBFS: strongswan-5.9.14/missing: line 81: aclocal-1.16: command not found"
     ]
   },
+  "subversion": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2359500"
+    ],
+    "summaries": [
+      "subversion fails to build with Python 3.14: AssertionError: 3 != 4 : Memory leak!  Expected a ref count of 4 for svn_merge_range_t object, but got 3 instead (path: b'/trunk', index: 0)"
+    ]
+  },
   "sugar": {
     "urls": [],
     "summaries": []
@@ -2424,6 +2238,10 @@
     "summaries": [
       "swift-lang: FTBFS in Fedora rawhide/f42"
     ]
+  },
+  "sympy": {
+    "urls": [],
+    "summaries": []
   },
   "tree-sitter-java": {
     "urls": [],
@@ -2453,6 +2271,14 @@
     "urls": [],
     "summaries": []
   },
+  "vdr-epg-daemon": {
+    "urls": [],
+    "summaries": []
+  },
+  "vdr-epg2vdr": {
+    "urls": [],
+    "summaries": []
+  },
   "visidata": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2325446"
@@ -2462,10 +2288,6 @@
     ]
   },
   "weasyprint": {
-    "urls": [],
-    "summaries": []
-  },
-  "xapps": {
     "urls": [],
     "summaries": []
   },
