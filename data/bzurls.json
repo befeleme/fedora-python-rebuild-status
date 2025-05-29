@@ -77,14 +77,6 @@
       "binwalk fails to build with Python 3.14: TypeError: unsupported operand type(s) for +=: 'NoneType' and 'int'"
     ]
   },
-  "bluechi": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2366508"
-    ],
-    "summaries": [
-      "bluechi: FTBFS in Fedora Rawhide: error: call to \u2018*__inet_pton_chk\u2019 declared with attribute warning: inet_pton called with a destination buffer size too small"
-    ]
-  },
   "borgbackup": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2326916"
@@ -200,12 +192,8 @@
     ]
   },
   "ephemeral-port-reserve": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2366471"
-    ],
-    "summaries": [
-      "ephemeral-port-reserve fails to build with Python 3.14: socket.gaierror: [Errno -3] Temporary failure in name resolution"
-    ]
+    "urls": [],
+    "summaries": []
   },
   "espresso": {
     "urls": [
@@ -307,9 +295,11 @@
   },
   "linode-cli": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2368974",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2340775"
     ],
     "summaries": [
+      "linode-cli fails to build with Python 3.14: The current dist-git state is unbuildable",
       "linode-cli: FTBFS in Fedora rawhide/f42"
     ]
   },
@@ -411,14 +401,6 @@
     ],
     "summaries": [
       "petsc fails to build with Python 3.14: AssertionError: 2 != 3 self.assertEqual(getrefcount(ctx), 3)"
-    ]
-  },
-  "poetry": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2351383"
-    ],
-    "summaries": [
-      "poetry fails to build with Python 3.14: AssertionError in test_isolated_env_install_discards_requirements_not_needed_by_env and test_python_get_preferred_default"
     ]
   },
   "poezio": {
@@ -547,25 +529,9 @@
       "python-aiosmtpd fails to build with Python 3.14: ImportError: cannot import name 'ByteString' from 'typing'"
     ]
   },
-  "python-aiounittest": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2356177"
-    ],
-    "summaries": [
-      "python-aiounittest fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
-    ]
-  },
   "python-ansible-runner": {
     "urls": [],
     "summaries": []
-  },
-  "python-apsw": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2368619"
-    ],
-    "summaries": [
-      "python-apsw fails to build with Python 3.14: AttributeError: 'DataClassRowFactory.4524B5' object has no attribute '__annotations__'. Did you mean: '__annotate_func__'?"
-    ]
   },
   "python-astdoc": {
     "urls": [
@@ -617,10 +583,12 @@
   },
   "python-atomicwrites": {
     "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2341128"
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2341128",
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2329842"
     ],
     "summaries": [
-      "python-atomicwrites: FTBFS in Fedora rawhide/f42"
+      "python-atomicwrites: FTBFS in Fedora rawhide/f42",
+      "python-atomicwrites fails to build with sphinx 8.x: ERROR: Invalid value `None` in intersphinx_mapping['http://docs.python.org/']."
     ]
   },
   "python-avocado": {
@@ -861,10 +829,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-cryptography": {
-    "urls": [],
-    "summaries": []
-  },
   "python-dataclassy": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2325200"
@@ -952,14 +916,6 @@
   "python-elephant": {
     "urls": [],
     "summaries": []
-  },
-  "python-email-validator": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2368747"
-    ],
-    "summaries": [
-      "python-email-validator fails to build with Python 3.14: 1 test failure"
-    ]
   },
   "python-envisage": {
     "urls": [],
@@ -1131,14 +1087,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-iniparse": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2323164"
-    ],
-    "summaries": [
-      "python-iniparse fails to build with Python 3.14: _pickle.PicklingError: Can't pickle local object <function TestIni.test_queue.<locals>.getxy at 0x7f86659a7740>"
-    ]
-  },
   "python-inject": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2327978"
@@ -1194,8 +1142,12 @@
     "summaries": []
   },
   "python-jedi": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2368972"
+    ],
+    "summaries": [
+      "python-jedi fails to build with Python 3.14: test_string_annotation: AssertionError: assert [] == ['int', 'str'] etc."
+    ]
   },
   "python-joblib": {
     "urls": [
@@ -1218,8 +1170,12 @@
     "summaries": []
   },
   "python-jupyter-events": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2368977"
+    ],
+    "summaries": [
+      "python-jupyter-events fails to build with Python 3.14: python-pytest-asyncio: DeprecationWarning: 'asyncio.get_event_loop_policy' is deprecated and slated for removal in Python 3.16"
+    ]
   },
   "python-jupyter-kernel-test": {
     "urls": [],
@@ -1895,13 +1851,21 @@
     "urls": [],
     "summaries": []
   },
+  "python-sklearn-nature-inspired-algorithms": {
+    "urls": [],
+    "summaries": []
+  },
   "python-smart_open": {
     "urls": [],
     "summaries": []
   },
   "python-sphinx": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2368973"
+    ],
+    "summaries": [
+      "python-sphinx fails to build with Python 3.14: test_autodoc_special_members'   .. py:attribute:: Class.__annotations_cache__' != '   .. py:attribute:: Class.__annotations__'"
+    ]
   },
   "python-sphinxygen": {
     "urls": [
@@ -2087,10 +2051,6 @@
       "python-watchfiles fails to build with Python 3.14: DeprecationWarning: 'asyncio.set_event_loop' is deprecated and slated for removal in Python 3.16"
     ]
   },
-  "python-wcwidth": {
-    "urls": [],
-    "summaries": []
-  },
   "python-webob": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2365645"
@@ -2129,10 +2089,12 @@
   },
   "python-zope-exceptions": {
     "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2341240"
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2341240",
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2329901"
     ],
     "summaries": [
-      "python-zope-exceptions: FTBFS in Fedora rawhide/f42"
+      "python-zope-exceptions: FTBFS in Fedora rawhide/f42",
+      "python-zope-exceptions fails to build with sphinx 8.x:  ERROR: Invalid value `None` in intersphinx_mapping['http://docs.python.org/']."
     ]
   },
   "python-zstarfile": {
@@ -2209,9 +2171,11 @@
   },
   "strongswan": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2368971",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2332864"
     ],
     "summaries": [
+      "strongswan: FTBFS in Fedora Rawhide: error: possibly undefined macro: AC_LIB_PREFIX",
       "strongswan-5.9.14-5.fc42 FTBFS: strongswan-5.9.14/missing: line 81: aclocal-1.16: command not found"
     ]
   },
@@ -2224,8 +2188,12 @@
     ]
   },
   "sugar": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2368968"
+    ],
+    "summaries": [
+      "sugar: FTBFS in Fedora Rawhide"
+    ]
   },
   "sugar-toolkit-gtk3": {
     "urls": [],
