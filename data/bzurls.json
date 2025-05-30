@@ -11,14 +11,6 @@
     "urls": [],
     "summaries": []
   },
-  "alot": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2368593"
-    ],
-    "summaries": [
-      "alot fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
-    ]
-  },
   "ansible": {
     "urls": [],
     "summaries": []
@@ -190,10 +182,6 @@
     "summaries": [
       "dlib fails to build with Python 3.14: AssertionError in tests checking refcounting"
     ]
-  },
-  "ephemeral-port-reserve": {
-    "urls": [],
-    "summaries": []
   },
   "espresso": {
     "urls": [
@@ -651,14 +639,6 @@
       "python-beartype fails to build with Python 3.14: ImportError: cannot import name 'ByteString' from 'typing'"
     ]
   },
-  "python-beautifulsoup4": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2368745"
-    ],
-    "summaries": [
-      "python-beautifulsoup4 fails to build with Python 3.14: 3 tests Failed: DID NOT RAISE <class 'bs4.exceptions.ParserRejectedMarkup'>"
-    ]
-  },
   "python-behave": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2339094"
@@ -973,16 +953,6 @@
       "python-flake8-comprehensions fails to build with Python 3.14: Unnecessary reversed call around sorted() in 10 tests"
     ]
   },
-  "python-flask-caching": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2341153",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2329857"
-    ],
-    "summaries": [
-      "python-flask-caching: FTBFS in Fedora rawhide/f42",
-      "python-flask-caching fails to build with sphinx 8.x: ERROR: Invalid value `None` in intersphinx_mapping['https://docs.python.org/3/']."
-    ]
-  },
   "python-flask-session": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2354108"
@@ -1151,10 +1121,10 @@
   },
   "python-joblib": {
     "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2339519"
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2369159"
     ],
     "summaries": [
-      "python-joblib fails to build with Python 3.14: TypeError: Hasher._batch_setitems() takes 2 positional arguments but 3 were given"
+      "python-joblib fails to build with Python 3.13.3+: AssertionError: assert b\"resource_tracker\" not in err, err.decode()"
     ]
   },
   "python-josepy": {
@@ -1199,14 +1169,6 @@
     ],
     "summaries": [
       "python-loguru fails to build with Python 3.14: test_exception_modern[type_hints-minimum_python_version0]: m<class 'typing.Union'>"
-    ]
-  },
-  "python-lz4": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2365823"
-    ],
-    "summaries": [
-      "python-lz4 fails to build with Python 3.14: ImportError: cannot import name '_compression' from partially initialized module 'lz4.frame' (most likely due to a circular import)"
     ]
   },
   "python-makefun": {
@@ -1337,14 +1299,6 @@
     "summaries": [
       "python-notify2: FTBFS in Fedora rawhide/f42",
       "python-notify2 fails to build with sphinx 8.x: ERROR: Invalid value `None` in intersphinx_mapping['http://docs.python.org/']."
-    ]
-  },
-  "python-numexpr": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2359520"
-    ],
-    "summaries": [
-      "python-numexpr fails to build with Python 3.14: 8 errors: ValueError: operands could not be broadcast together with shapes (1000000,) (0,)  2 failures: AssertionError: sys.getrefcount(a) == 2"
     ]
   },
   "python-odata-query": {
@@ -1815,14 +1769,6 @@
       "python-scikit-image fails to build with Python 3.14: AssertionError: Regex pattern did not match. Regex: \"'old' is not in list\" Input: 'list.index(x): x not in list'"
     ]
   },
-  "python-scikit-learn": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2353125"
-    ],
-    "summaries": [
-      "python-scikit-learn fails to build with Python 3.14: AssertionError in test_warn_if_metric_bool_data_no_bool and test_open_openml_url_retry_on_network_error"
-    ]
-  },
   "python-scikit-uplift": {
     "urls": [],
     "summaries": []
@@ -1991,14 +1937,6 @@
     ],
     "summaries": [
       "python-typeguard fails to build with Python 3.14: AssertionError: assert 'str | int' == 'Union[str, int]' and more"
-    ]
-  },
-  "python-typing-extensions": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2336937"
-    ],
-    "summaries": [
-      "python-typing-extensions fails to build with Python 3.14: test_invalid_special_forms: AssertionError: TypeError not raised"
     ]
   },
   "python-typing-inspect": {
