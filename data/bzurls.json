@@ -191,6 +191,10 @@
     "urls": [],
     "summaries": []
   },
+  "getmail": {
+    "urls": [],
+    "summaries": []
+  },
   "git-filter-repo": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2365637"
@@ -560,14 +564,6 @@
   "python-astroquery": {
     "urls": [],
     "summaries": []
-  },
-  "python-asyncssh": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2325445"
-    ],
-    "summaries": [
-      "python-asyncssh fails to build with Python 3.14: multiple test failures (failures=25, errors=697)"
-    ]
   },
   "python-atomicwrites": {
     "urls": [
@@ -1995,14 +1991,6 @@
     ],
     "summaries": [
       "python-yappi fails to build with Python 3.14: error: invalid use of incomplete typedef \u2018PyGenObject\u2019 {aka \u2018struct _PyGenObject\u2019}"
-    ]
-  },
-  "python-zeep": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2368530"
-    ],
-    "summaries": [
-      "python-zeep: FTBFS in Fedora Rawhide: TypeError: Client.__init__() got an unexpected keyword argument 'proxies'"
     ]
   },
   "python-zope-exceptions": {
