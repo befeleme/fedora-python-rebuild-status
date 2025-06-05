@@ -133,10 +133,6 @@
       "copr-backend fails to build with Python 3.14: TestActionWorkerManager.test_add_task_for_running_worker: TypeError: cannot pickle 'itertools.count' object"
     ]
   },
-  "copr-dist-git": {
-    "urls": [],
-    "summaries": []
-  },
   "cozy": {
     "urls": [],
     "summaries": []
@@ -159,14 +155,6 @@
       "diceware fails to build with sphinx 8.x: ERROR: Invalid value `None` in intersphinx_mapping['http://docs.python.org/']."
     ]
   },
-  "did": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2328006"
-    ],
-    "summaries": [
-      "did fails to build with Python 3.14: AttributeError: module 'urllib.request' has no attribute 'FancyURLopener'"
-    ]
-  },
   "dlib": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2366197"
@@ -178,6 +166,14 @@
   "dnf5": {
     "urls": [],
     "summaries": []
+  },
+  "espresso": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2340139"
+    ],
+    "summaries": [
+      "espresso: FTBFS in Fedora rawhide/f42"
+    ]
   },
   "fedrq": {
     "urls": [],
@@ -677,10 +673,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-boto3": {
-    "urls": [],
-    "summaries": []
-  },
   "python-boutdata": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2352553"
@@ -871,6 +863,14 @@
     "urls": [],
     "summaries": []
   },
+  "python-domdf-python-tools": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2345519"
+    ],
+    "summaries": [
+      "python-domdf-python-tools fails to build with Python 3.14: tests/test_words.py::test_alpha_sort - AssertionError: Regex pattern did not match."
+    ]
+  },
   "python-doubleratchet": {
     "urls": [],
     "summaries": []
@@ -919,6 +919,14 @@
       "python-exdir fails to build with Python 3.14: TypeError: 'module' object is not iterable | TypeError: 'Plugin' object is not iterable"
     ]
   },
+  "python-executing": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2349436"
+    ],
+    "summaries": [
+      "python-executing fails to build with Python 3.14: 52 test fail during the build"
+    ]
+  },
   "python-fastavro": {
     "urls": [],
     "summaries": []
@@ -964,6 +972,10 @@
     "summaries": []
   },
   "python-geopmpy": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-gerritlib": {
     "urls": [],
     "summaries": []
   },
@@ -1040,10 +1052,6 @@
     ]
   },
   "python-httpx": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-igraph": {
     "urls": [],
     "summaries": []
   },
@@ -1148,14 +1156,6 @@
   "python-libNeuroML": {
     "urls": [],
     "summaries": []
-  },
-  "python-loguru": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2356181"
-    ],
-    "summaries": [
-      "python-loguru fails to build with Python 3.14: test_exception_modern[type_hints-minimum_python_version0]: m<class 'typing.Union'>"
-    ]
   },
   "python-makefun": {
     "urls": [
@@ -1338,6 +1338,14 @@
   "python-pamqp": {
     "urls": [],
     "summaries": []
+  },
+  "python-pandas": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2341179"
+    ],
+    "summaries": [
+      "python-pandas: FTBFS in Fedora rawhide/f42"
+    ]
   },
   "python-pandas-datareader": {
     "urls": [],
@@ -1591,14 +1599,6 @@
       "python-pytesseract: FTBFS in Fedora rawhide/f42"
     ]
   },
-  "python-pytest-aiohttp": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2339466"
-    ],
-    "summaries": [
-      "python-pytest-aiohttp fails to build with Python 3.14: DeprecationWarning: 'asyncio.get_event_loop_policy' is deprecated and slated for removal in Python 3.16"
-    ]
-  },
   "python-pytest-lsp": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2349451"
@@ -1719,6 +1719,10 @@
     "urls": [],
     "summaries": []
   },
+  "python-robotframework": {
+    "urls": [],
+    "summaries": []
+  },
   "python-rope": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2351391"
@@ -1763,6 +1767,14 @@
     ],
     "summaries": [
       "python-rx fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
+    ]
+  },
+  "python-s3transfer": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2326933"
+    ],
+    "summaries": [
+      "python-s3transfer fails to build with Python 3.14: _pickle.PicklingError: Can't pickle local object <class 'tests.unit.test_compat.TestBaseManager.create_pid_manager.<locals>.PIDManager'>"
     ]
   },
   "python-scikit-build": {
@@ -1963,14 +1975,6 @@
       "python-txaio fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
     ]
   },
-  "python-typeguard": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2366201"
-    ],
-    "summaries": [
-      "python-typeguard fails to build with Python 3.14: AssertionError: assert 'str | int' == 'Union[str, int]' and more"
-    ]
-  },
   "python-typing-inspect": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2325455"
@@ -2013,14 +2017,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-watchfiles": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2339462"
-    ],
-    "summaries": [
-      "python-watchfiles fails to build with Python 3.14: DeprecationWarning: 'asyncio.set_event_loop' is deprecated and slated for removal in Python 3.16"
-    ]
-  },
   "python-webob": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2365645"
@@ -2053,6 +2049,16 @@
     "urls": [],
     "summaries": []
   },
+  "python-zope-exceptions": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2341240",
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2329901"
+    ],
+    "summaries": [
+      "python-zope-exceptions: FTBFS in Fedora rawhide/f42",
+      "python-zope-exceptions fails to build with sphinx 8.x:  ERROR: Invalid value `None` in intersphinx_mapping['http://docs.python.org/']."
+    ]
+  },
   "python3-exiv2": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2354137"
@@ -2077,6 +2083,10 @@
       "qtile fails to build with Python 3.14: _pickle.PicklingError: Can't pickle local object <function TestManager.start.<locals>.run_qtile at 0x7f9c5918fed0>"
     ]
   },
+  "quodlibet": {
+    "urls": [],
+    "summaries": []
+  },
   "rebase-helper": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2352551"
@@ -2088,6 +2098,14 @@
   "recoll": {
     "urls": [],
     "summaries": []
+  },
+  "root": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2366454"
+    ],
+    "summaries": [
+      "root fails to build with Python 3.14: AssertionErrors in test_refcount"
+    ]
   },
   "rpm-head-signing": {
     "urls": [
