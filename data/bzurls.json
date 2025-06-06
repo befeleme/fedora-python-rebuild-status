@@ -343,10 +343,6 @@
     "urls": [],
     "summaries": []
   },
-  "nbdkit": {
-    "urls": [],
-    "summaries": []
-  },
   "ocrmypdf": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2357508"
@@ -670,6 +666,10 @@
     "summaries": []
   },
   "python-blosc2": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-boto3": {
     "urls": [],
     "summaries": []
   },
@@ -1025,16 +1025,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-hl7": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2341161",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2329855"
-    ],
-    "summaries": [
-      "python-hl7: FTBFS in Fedora rawhide/f42",
-      "python-hl7 fails to build with sphinx 8.x: ERROR: Invalid value `None` in intersphinx_mapping['http://docs.python.org/']."
-    ]
-  },
   "python-homeconnect": {
     "urls": [],
     "summaries": []
@@ -1093,14 +1083,6 @@
       "python-ipfshttpclient fails to build with Python 3.14: AssertionError: assert ['(?![.])(?s:literal)\\\\z'] == ['(?![.])(?s:literal)\\\\Z']"
     ]
   },
-  "python-ipyparallel": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2359525"
-    ],
-    "summaries": [
-      "python-ipyparallel fails to build with Python 3.14: TestAsyncResult.test_display_output_error: SyntaxWarning: 'return' in a 'finally' block treated as error"
-    ]
-  },
   "python-irc": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2327991"
@@ -1138,10 +1120,6 @@
     "summaries": []
   },
   "python-jupyter-kernel-test": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-jupyter-server": {
     "urls": [],
     "summaries": []
   },
@@ -1185,14 +1163,6 @@
       "python-mechanize fails to build with Python 3.14: test.test_cookies.CookieTests.test_missing_name: AssertionError"
     ]
   },
-  "python-metakernel": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2357903"
-    ],
-    "summaries": [
-      "python-metakernel fails to build with Python 3.14: AssertionError in test_parallel_magic"
-    ]
-  },
   "python-missingno": {
     "urls": [],
     "summaries": []
@@ -1216,14 +1186,6 @@
     "summaries": [
       "python-msal fails to build with Python 3.14: test_no_two_concurrent_receivers_can_listen_on_same_port: AssertionError: OSError not raised"
     ]
-  },
-  "python-nbclient": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-nbconvert": {
-    "urls": [],
-    "summaries": []
   },
   "python-neatdend": {
     "urls": [
