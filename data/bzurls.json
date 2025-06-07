@@ -85,10 +85,6 @@
       "capstone fails to build with Python 3.14: from capstone import *: ImportError: ERROR: fail to load the dynamic library"
     ]
   },
-  "centpkg": {
-    "urls": [],
-    "summaries": []
-  },
   "ceph": {
     "urls": [],
     "summaries": []
@@ -107,14 +103,6 @@
     ],
     "summaries": [
       "cjdns: FTBFS in Fedora rawhide/f42"
-    ]
-  },
-  "conda": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2356170"
-    ],
-    "summaries": [
-      "conda fails to build with Python 3.14: tests/test_shell.py: TypeError: 'str' object cannot be interpreted as an integer"
     ]
   },
   "conda-build": {
@@ -1521,6 +1509,10 @@
       "python-pyphi: FTBFS in Fedora rawhide/f42"
     ]
   },
+  "python-pyqt6": {
+    "urls": [],
+    "summaries": []
+  },
   "python-pyqtgraph": {
     "urls": [],
     "summaries": []
@@ -1539,6 +1531,14 @@
     ],
     "summaries": [
       "python-pysaml2: FTBFS in Fedora rawhide/f42"
+    ]
+  },
+  "python-pyside6": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2325444"
+    ],
+    "summaries": [
+      "python-pyside6 fails to build with Python 3.14: TypeError: Formatter.formatannotation() got an unexpected keyword argument 'quote_annotation_strings'"
     ]
   },
   "python-pysol-cards": {
