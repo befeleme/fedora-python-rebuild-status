@@ -11,18 +11,6 @@
     "urls": [],
     "summaries": []
   },
-  "ansible": {
-    "urls": [],
-    "summaries": []
-  },
-  "ansible-core": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2366307"
-    ],
-    "summaries": [
-      "ansible-core fails to build with Python 3.14: This version of ansible-test cannot be executed with Python version 3.14.0"
-    ]
-  },
   "arbor": {
     "urls": [],
     "summaries": []
@@ -657,10 +645,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-boto3": {
-    "urls": [],
-    "summaries": []
-  },
   "python-boutdata": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2352553"
@@ -1033,10 +1017,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-influxdb-client": {
-    "urls": [],
-    "summaries": []
-  },
   "python-inject": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2327978"
@@ -1325,14 +1305,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-pika": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2351384"
-    ],
-    "summaries": [
-      "python-pika fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
-    ]
-  },
   "python-pkg-depgraph": {
     "urls": [],
     "summaries": []
@@ -1509,10 +1481,6 @@
       "python-pyphi: FTBFS in Fedora rawhide/f42"
     ]
   },
-  "python-pyqt6": {
-    "urls": [],
-    "summaries": []
-  },
   "python-pyqtgraph": {
     "urls": [],
     "summaries": []
@@ -1576,14 +1544,6 @@
   "python-pytest-runner": {
     "urls": [],
     "summaries": []
-  },
-  "python-pytest-testinfra": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2361631"
-    ],
-    "summaries": [
-      "python-pytest-testinfra FTBFS in rawhide"
-    ]
   },
   "python-pytest-twisted": {
     "urls": [
@@ -1978,14 +1938,6 @@
   "python-versioningit": {
     "urls": [],
     "summaries": []
-  },
-  "python-webob": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2365645"
-    ],
-    "summaries": [
-      "python-webob fails to build with Python 3.14: test_interrupted_request: AssertionError: False disconnect alert"
-    ]
   },
   "python-websockify": {
     "urls": [],
