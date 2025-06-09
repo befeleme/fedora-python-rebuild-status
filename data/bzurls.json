@@ -1245,14 +1245,6 @@
       "python-packvers fails to build with sphinx 8.x: ERROR: Invalid value `None` in intersphinx_mapping['https://docs.python.org/']."
     ]
   },
-  "python-paginate": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2354116"
-    ],
-    "summaries": [
-      "python-paginate FTBFS due to missing tox configuration"
-    ]
-  },
   "python-paho-mqtt": {
     "urls": [],
     "summaries": []
@@ -1783,14 +1775,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-stdlibs": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2359504"
-    ],
-    "summaries": [
-      "python-stdlibs fails to build with Python 3.14: AssertionError: Items in the second set but not the first: '_hmac' '_ast_unparse' '_types'"
-    ]
-  },
   "python-steam": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2341218"
@@ -2115,16 +2099,6 @@
     "summaries": [
       "ufw fails to build in Fedora Rawhide: File not found: /builddir/build/BUILD/ufw-0.35-build/BUILDROOT/usr/bin/ufw",
       "ufw: FTBFS in Fedora rawhide/f42"
-    ]
-  },
-  "uwsgi": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2366193",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2341497"
-    ],
-    "summaries": [
-      "uwsgi fails to build with Python 3.14: plugins/python/python_plugin.c:1620:80: error: \u2018PyThreadState\u2019 {aka \u2018struct _ts\u2019} has no member named \u2018c_recursion_remaining\u2019; did you mean \u2018py_recursion_remaining\u2019?",
-      "uwsgi: FTBFS in Fedora rawhide/f42"
     ]
   },
   "vigra": {
