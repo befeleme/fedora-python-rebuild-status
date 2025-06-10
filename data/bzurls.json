@@ -159,6 +159,10 @@
     "urls": [],
     "summaries": []
   },
+  "frescobaldi": {
+    "urls": [],
+    "summaries": []
+  },
   "gajim": {
     "urls": [],
     "summaries": []
@@ -642,6 +646,10 @@
     "summaries": []
   },
   "python-blosc2": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-boto3": {
     "urls": [],
     "summaries": []
   },
@@ -1221,14 +1229,6 @@
     ],
     "summaries": [
       "python-osc-lib fails to build with Python 3.14: testtools.matchers._impl.MismatchError in 4 tests"
-    ]
-  },
-  "python-oslo-log": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2368746"
-    ],
-    "summaries": [
-      "python-oslo-log fails to build with Python 3.14: 2 test failures (MismatchErrors)"
     ]
   },
   "python-oslo-serialization": {
@@ -1998,12 +1998,8 @@
     "summaries": []
   },
   "root": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2366454"
-    ],
-    "summaries": [
-      "root fails to build with Python 3.14: AssertionErrors in test_refcount"
-    ]
+    "urls": [],
+    "summaries": []
   },
   "rpm-head-signing": {
     "urls": [
