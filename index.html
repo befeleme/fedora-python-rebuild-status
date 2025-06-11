@@ -79,51 +79,64 @@
 <p>
     Fedora 43 (Target: Fedora 43)<br>
     Python 3.14.0~b2 (Target: Python 3.14.0)<br>
-    Data source: <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/">Copr</a>
+    Data source: Koji</a>
 </p>
 
 
-<h2 class="mb-3">Statistics</h2>
-<ul class="list-group mb-4">
-    <li class="list-group-item">
-        🌏 All packages: <b>4259</b>
-        <span class="badge bg-primary">100%</span>
-    </li>
-    <li class="list-group-item">
-        🟢 Packages built successfully with Python 3.14:
-        <b>3624</b>
-        <span class="badge bg-success">
-            85.09%
-        </span>
-    </li>
-    <li class="list-group-item">
-        🟠 Packages built successfully with Python 3.14 (last build failed though):
-        <b>255</b>
-        <span class="badge bg-warning">
-            5.99%
-        </span>
-    </li>
-    <li class="list-group-item">
-        🔴 Packages that failed to build with Python 3.14:
-        <b>92</b>
-        <span class="badge bg-danger">
-            2.16%
-        </span>
-    </li>
-    <li class="list-group-item">
-        ⚪ Packages not yet attempted to build (blocked on missing dependencies):
-        <b>288</b>
-        <span class="badge bg-secondary">
-            6.76%
-        </span>
-    </li>
-</ul>
+<div class="card mb-4" style="max-width: 600px; margin-left: 1rem;">
+    <div class="card-header">
+        <h5 class="mb-0">Summary</h5>
+    </div>
+    <ul class="list-group list-group-flush">
+        <li class="list-group-item d-flex justify-content-between">
+            <span style="min-width: 60%;">🌏 All packages:</span>
+            <span class="text-end" style="min-width: 20%;"><b>4258</b></span>
+            <span class="text-end" style="min-width: 20%;"><span class="badge bg-primary">100%</span></span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between">
+            <span style="min-width: 60%;">🟢 Built successfully with Python 3.14:</span>
+            <span class="text-end" style="min-width: 20%;"><b>3710</b></span>
+            <span class="text-end" style="min-width: 20%;">
+                <span class="badge bg-success">
+                    87.13%
+                </span>
+            </span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between">
+            <span style="min-width: 60%;">🕒 Waiting to be rebuilt:</span>
+            <span class="text-end" style="min-width: 20%;"><b>548</b></span>
+            <span class="text-end" style="min-width: 20%;">
+                <span class="badge bg-warning">
+                    12.87%
+                </span>
+            </span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between ps-5">
+            <span style="min-width: 60%;">🔴 Failed (Python 3.14):</span>
+            <span class="text-end" style="min-width: 17%;"><b>150</b></span>
+            <span class="text-end" style="min-width: 20%;">
+                <span class="badge bg-danger">
+                    3.52%
+                </span>
+            </span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between ps-5">
+            <span style="min-width: 60%;">⚪ Blocked (missing dependencies):</span>
+            <span class="text-end" style="min-width: 17%;"><b>398</b></span>
+            <span class="text-end" style="min-width: 20%;">
+                <span class="badge bg-secondary">
+                    9.35%
+                </span>
+            </span>
+        </li>
+    </ul>
+</div>
 
 <h2 class="mb-3">Status breakdown</h2>
 <div class="list-group mb-4">
-<a href="/packages/" class="d-block mb-2">All packages sorted by package names</a>
-<a href="/maintainers/" class="d-block mb-2">All packages sorted by maintainers</a>
-<a href="/failures/" class="d-block mb-2">Build failures</a>
+    <div class="mb-2"><a href="/packages/">Todo packages sorted by package names</a></div>
+    <div class="mb-2"><a href="/maintainers/">Todo packages sorted by maintainers</a></div>
+    <div class="mb-2"><a href="/failures/">Build failures</a></div>
 </div>
 
 <h2 class="mb-3">Python 3.13 wheel readiness</h2>
@@ -138,7 +151,7 @@
     <hr>
     <footer>
       <p>Maintained by <a href="https://github.com/befeleme">@befeleme</a>, source on <a href="https://github.com/befeleme/fedora-python-rebuild-status">GitHub</a>.</p>
-      <p>Last updated on <span class="date">2025-06-11 04:00:00.705383</span> (updated daily)</p>
+      <p>Last updated on <span class="date">2025-06-11 12:34:02.893422</span> (updated daily)</p>
     </footer>
   </div>
 </body>
