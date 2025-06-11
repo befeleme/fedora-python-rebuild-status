@@ -225,12 +225,10 @@
   },
   "ikiwiki": {
     "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2366456",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2340642"
     ],
     "summaries": [
-      "ikiwiki fails to build in Rawhide: error: Installed (but unpackaged) file(s) found:  /usr/sbin/ikiwiki-mass-rebuild",
-      "ikiwiki: FTBFS in Fedora rawhide/f42"
+      "ikiwiki-3.20200202.4-4.fc43 FTBFS: Installed (but unpackaged) file(s) found: /usr/sbin/ikiwiki-mass-rebuild"
     ]
   },
   "kitty": {
@@ -649,10 +647,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-boto3": {
-    "urls": [],
-    "summaries": []
-  },
   "python-boutdata": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2352553"
@@ -1059,14 +1053,6 @@
       "python-ipfshttpclient fails to build with Python 3.14: AssertionError: assert ['(?![.])(?s:literal)\\\\z'] == ['(?![.])(?s:literal)\\\\Z']"
     ]
   },
-  "python-irc": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2327991"
-    ],
-    "summaries": [
-      "python-irc fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
-    ]
-  },
   "python-janus": {
     "urls": [],
     "summaries": []
@@ -1234,16 +1220,6 @@
   "python-oslo-serialization": {
     "urls": [],
     "summaries": []
-  },
-  "python-packvers": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2341178",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2329888"
-    ],
-    "summaries": [
-      "python-packvers: FTBFS in Fedora rawhide/f42",
-      "python-packvers fails to build with sphinx 8.x: ERROR: Invalid value `None` in intersphinx_mapping['https://docs.python.org/']."
-    ]
   },
   "python-paho-mqtt": {
     "urls": [],
@@ -1956,6 +1932,10 @@
       "python-zope-exceptions: FTBFS in Fedora rawhide/f42",
       "python-zope-exceptions fails to build with sphinx 8.x:  ERROR: Invalid value `None` in intersphinx_mapping['http://docs.python.org/']."
     ]
+  },
+  "python-zstarfile": {
+    "urls": [],
+    "summaries": []
   },
   "python3-exiv2": {
     "urls": [
