@@ -7,51 +7,64 @@
 <p>
     Fedora 43 (Target: Fedora 43)<br>
     Python {{currver}} (Target: Python {{majorver}}.0)<br>
-    Data source: <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/">Copr</a>
+    Data source: Koji</a>
 </p>
 
 
-<h2 class="mb-3">Statistics</h2>
-<ul class="list-group mb-4">
-    <li class="list-group-item">
-        🌏 All packages: <b>{{ number_pkgs_to_rebuild }}</b>
-        <span class="badge bg-primary">100%</span>
-    </li>
-    <li class="list-group-item">
-        🟢 Packages built successfully with Python {{majorver}}:
-        <b>{{ number_pkgs_success }}</b>
-        <span class="badge bg-success">
-            {{ "{:.2f}%".format(number_pkgs_success * 100 / (number_pkgs_to_rebuild)) }}
-        </span>
-    </li>
-    <li class="list-group-item">
-        🟠 Packages built successfully with Python {{majorver}} (last build failed though):
-        <b>{{ number_pkgs_flaky }}</b>
-        <span class="badge bg-warning">
-            {{ "{:.2f}%".format(number_pkgs_flaky * 100 / (number_pkgs_to_rebuild)) }}
-        </span>
-    </li>
-    <li class="list-group-item">
-        🔴 Packages that failed to build with Python {{majorver}}:
-        <b>{{ number_pkgs_failed }}</b>
-        <span class="badge bg-danger">
-            {{ "{:.2f}%".format(number_pkgs_failed * 100 / (number_pkgs_to_rebuild)) }}
-        </span>
-    </li>
-    <li class="list-group-item">
-        ⚪ Packages not yet attempted to build (blocked on missing dependencies):
-        <b>{{ number_pkgs_waiting }}</b>
-        <span class="badge bg-secondary">
-            {{ "{:.2f}%".format(number_pkgs_waiting * 100 / (number_pkgs_to_rebuild)) }}
-        </span>
-    </li>
-</ul>
+<div class="card mb-4" style="max-width: 600px; margin-left: 1rem;">
+    <div class="card-header">
+        <h5 class="mb-0">Summary</h5>
+    </div>
+    <ul class="list-group list-group-flush">
+        <li class="list-group-item d-flex justify-content-between">
+            <span style="min-width: 60%;">🌏 All packages:</span>
+            <span class="text-end" style="min-width: 20%;"><b>{{ number_pkgs_to_rebuild + number_pkgs_success }}</b></span>
+            <span class="text-end" style="min-width: 20%;"><span class="badge bg-primary">100%</span></span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between">
+            <span style="min-width: 60%;">🟢 Built successfully with Python {{majorver}}:</span>
+            <span class="text-end" style="min-width: 20%;"><b>{{ number_pkgs_success }}</b></span>
+            <span class="text-end" style="min-width: 20%;">
+                <span class="badge bg-success">
+                    {{ "{:.2f}%".format(number_pkgs_success * 100 / (number_pkgs_to_rebuild + number_pkgs_success)) }}
+                </span>
+            </span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between">
+            <span style="min-width: 60%;">🕒 Waiting to be rebuilt:</span>
+            <span class="text-end" style="min-width: 20%;"><b>{{ number_pkgs_to_rebuild }}</b></span>
+            <span class="text-end" style="min-width: 20%;">
+                <span class="badge bg-warning">
+                    {{ "{:.2f}%".format(number_pkgs_to_rebuild * 100 / (number_pkgs_to_rebuild + number_pkgs_success)) }}
+                </span>
+            </span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between ps-5">
+            <span style="min-width: 60%;">🔴 Failed (Python {{majorver}}):</span>
+            <span class="text-end" style="min-width: 17%;"><b>{{ number_pkgs_failed }}</b></span>
+            <span class="text-end" style="min-width: 20%;">
+                <span class="badge bg-danger">
+                    {{ "{:.2f}%".format(number_pkgs_failed * 100 / (number_pkgs_to_rebuild + number_pkgs_success)) }}
+                </span>
+            </span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between ps-5">
+            <span style="min-width: 60%;">⚪ Blocked (missing dependencies):</span>
+            <span class="text-end" style="min-width: 17%;"><b>{{ number_pkgs_waiting }}</b></span>
+            <span class="text-end" style="min-width: 20%;">
+                <span class="badge bg-secondary">
+                    {{ "{:.2f}%".format(number_pkgs_waiting * 100 / (number_pkgs_to_rebuild + number_pkgs_success)) }}
+                </span>
+            </span>
+        </li>
+    </ul>
+</div>
 
 <h2 class="mb-3">Status breakdown</h2>
 <div class="list-group mb-4">
-<a href="{{ url_for('packages') }}" class="d-block mb-2">All packages sorted by package names</a>
-<a href="{{ url_for('maintainers') }}" class="d-block mb-2">All packages sorted by maintainers</a>
-<a href="{{ url_for('failures') }}" class="d-block mb-2">Build failures</a>
+    <div class="mb-2"><a href="{{ url_for('packages') }}">Todo packages sorted by package names</a></div>
+    <div class="mb-2"><a href="{{ url_for('maintainers') }}">Todo packages sorted by maintainers</a></div>
+    <div class="mb-2"><a href="{{ url_for('failures') }}">Build failures</a></div>
 </div>
 
 <h2 class="mb-3">Python 3.13 wheel readiness</h2>
