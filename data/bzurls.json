@@ -107,14 +107,6 @@
       "git-filter-repo fails to build with Python 3.14: == t9394-filter-repo-sanity-checks-and-bigger-repo-setup.sh == --replace-text all options not ok"
     ]
   },
-  "gnofract4d": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2339539"
-    ],
-    "summaries": [
-      "gnofract4d fails to build with Python 3.14: AssertionError: 'ct_sin6 = (0.841471,-0)' != 'ct_sin6 = (0.841471,0)'"
-    ]
-  },
   "httpie": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2350335"
@@ -249,6 +241,14 @@
     ],
     "summaries": [
       "protobuf doesn't build on s390x and i686, blocking the Python 3.14 rebuild"
+    ]
+  },
+  "pychess": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2328708"
+    ],
+    "summaries": [
+      "pychess fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
     ]
   },
   "pylibacl": {
@@ -575,14 +575,6 @@
       "python-fsleyes-widgets fails to build with Python 3.14: AssertionError: assert 'file:/home/b...htmlfile.html' == 'file:///home...htmlfile.html'"
     ]
   },
-  "python-glymur": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2371923"
-    ],
-    "summaries": [
-      "F43FailsToInstall: python3-glymur"
-    ]
-  },
   "python-gphoto2": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2366465",
@@ -689,6 +681,14 @@
     ],
     "summaries": [
       "python-msal fails to build with Python 3.14: test_no_two_concurrent_receivers_can_listen_on_same_port: AssertionError: OSError not raised"
+    ]
+  },
+  "python-nashpy": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2371994"
+    ],
+    "summaries": [
+      "F43FailsToInstall: python3-nashpy"
     ]
   },
   "python-neatdend": {
@@ -887,14 +887,6 @@
       "python-pyvlx fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
     ]
   },
-  "python-rasterio": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2369423"
-    ],
-    "summaries": [
-      "python-rasterio fails to build with Python 3.14: Multiprocessing switched the default context method from fork to forkserver"
-    ]
-  },
   "python-rdflib": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2372097",
@@ -981,14 +973,6 @@
     ],
     "summaries": [
       "python-sphinxygen: FTBFS in Fedora Rawhide (probably with doxygen 1.14)"
-    ]
-  },
-  "python-sqlalchemy1.4": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2327976"
-    ],
-    "summaries": [
-      "python-sqlalchemy1.4 fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
     ]
   },
   "python-ssh-python": {
