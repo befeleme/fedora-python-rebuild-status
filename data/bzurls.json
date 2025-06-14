@@ -17,14 +17,6 @@
       "asv: FTBFS in Fedora rawhide/f42"
     ]
   },
-  "awscli2": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2367786"
-    ],
-    "summaries": [
-      "awscli2 fails to build with Python 3.14: various test failures"
-    ]
-  },
   "bandit": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2351393"
@@ -609,16 +601,6 @@
       "python-inject fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
     ]
   },
-  "python-injector": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2341165",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2329880"
-    ],
-    "summaries": [
-      "python-injector: FTBFS in Fedora rawhide/f42",
-      "python-injector fails to build with sphinx 8.x: ERROR: Invalid value `None` in intersphinx_mapping['http://docs.python.org/']."
-    ]
-  },
   "python-invoke": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2365652"
@@ -747,16 +729,6 @@
     ],
     "summaries": [
       "python-praw fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
-    ]
-  },
-  "python-priority": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2341182",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2329881"
-    ],
-    "summaries": [
-      "python-priority: FTBFS in Fedora rawhide/f42",
-      "python-priority fails to build with sphinx 8.x: ERROR: Invalid value `None` in intersphinx_mapping['http://docs.python.org/']."
     ]
   },
   "python-pudb": {
@@ -945,14 +917,6 @@
     ],
     "summaries": [
       "python-simframe fails to build with Python 3.14: TypeError: cannot pickle 'itertools.cycle' object"
-    ]
-  },
-  "python-sphinxygen": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2368738"
-    ],
-    "summaries": [
-      "python-sphinxygen: FTBFS in Fedora Rawhide (probably with doxygen 1.14)"
     ]
   },
   "python-ssh-python": {
@@ -1178,10 +1142,6 @@
     "summaries": [
       "visidata fails to build with Python 3.14: TestVisidataPath.test_withName: AssertionError: assert 'foo' == 'foo.'"
     ]
-  },
-  "xpra": {
-    "urls": [],
-    "summaries": []
   },
   "yt-dlp": {
     "urls": [
