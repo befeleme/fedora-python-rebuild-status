@@ -17,7 +17,7 @@ REPORT_STATES = {
 }
 
 MAJOR_VERSION = "3.14"
-WHEEL_MAJOR_VERSION = "3.13"
+WHEEL_MAJOR_VERSION = "3.14"
 ALL_TO_BUILD = sorted(load_data("data/python313.pkgs"))
 ALL_TO_BUILD.remove("python3.13")  # it won't ever require 'python(abi) = MAJOR_VERSION'
 SUCCESSFULLY_REBUILT = load_data("data/python314.pkgs")
