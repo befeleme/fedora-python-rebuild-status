@@ -8,7 +8,7 @@ import urllib.request
 
 PYPI_URL = "https://pypi.org/pypi/{name}/json"
 
-NEWEST_PYTHON_ABI_TAG = "cp313"
+NEWEST_PYTHON_ABI_TAG = "cp314"
 
 
 def get_top_360_packages():
@@ -41,7 +41,7 @@ def find_wheels(packages):
                 abi_tag = download["filename"].split("-")[-2]
                 # wheel can be universal or compiled for the specific Python version
                 # there can be additional letters at the end of the abi tag
-                # e.g. "cp313t" built for free-threading
+                # e.g. "cp314t" built for free-threading
                 if abi_tag in ["none", "abi3"] or abi_tag.startswith(NEWEST_PYTHON_ABI_TAG):
                     has_newest_wheel = True
         results.append((package, has_newest_wheel))
