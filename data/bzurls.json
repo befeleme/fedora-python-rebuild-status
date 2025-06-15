@@ -41,6 +41,22 @@
       "borgbackup fails to build with Python 3.14: OSError: AF_UNIX path too long when compiling"
     ]
   },
+  "calibre": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2371688"
+    ],
+    "summaries": [
+      "F43FailsToInstall: calibre, FTBFS: Bus error (core dumped)"
+    ]
+  },
+  "cantera": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2371689"
+    ],
+    "summaries": [
+      "F43FailsToInstall: python3-cantera"
+    ]
+  },
   "capstone": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2345714"
@@ -207,16 +223,6 @@
     ],
     "summaries": [
       "petsc fails to build with Python 3.14: AssertionError: 2 != 3 self.assertEqual(getrefcount(ctx), 3)"
-    ]
-  },
-  "poezio": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2341088",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2329835"
-    ],
-    "summaries": [
-      "poezio: FTBFS in Fedora rawhide/f42",
-      "poezio fails to build with sphinx 8.x:  ERROR: Invalid value `None` in intersphinx_mapping['http://docs.python.org/']."
     ]
   },
   "protobuf": {
