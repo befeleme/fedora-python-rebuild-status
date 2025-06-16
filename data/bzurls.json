@@ -549,14 +549,6 @@
       "python-flask-session FTBFS due to missing tox configuration"
     ]
   },
-  "python-fs": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2336951"
-    ],
-    "summaries": [
-      "python-fs fails to build with Python 3.14: AssertionError: 'osfs://///tmp/tmppauy69swfstestosfs/foo' != 'osfs:///tmp/tmppauy69swfstestosfs/foo'"
-    ]
-  },
   "python-fsleyes-widgets": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2336911"
@@ -647,14 +639,6 @@
       "python-msal fails to build with Python 3.14: test_no_two_concurrent_receivers_can_listen_on_same_port: AssertionError: OSError not raised"
     ]
   },
-  "python-nashpy": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2371994"
-    ],
-    "summaries": [
-      "F43FailsToInstall: python3-nashpy"
-    ]
-  },
   "python-neatdend": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2341170"
@@ -669,16 +653,6 @@
     ],
     "summaries": [
       "python-niaarmts fails to build with Python 3.14: ERROR: Package 'niaarmts' requires a different Python: 3.14.0 not in '<3.14,>=3.11'"
-    ]
-  },
-  "python-nikola": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2372002",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2341174"
-    ],
-    "summaries": [
-      "F43FailsToInstall: python3-nikola+extras, python3-nikola",
-      "python-nikola: FTBFS in Fedora rawhide/f42"
     ]
   },
   "python-octave-kernel": {
@@ -983,6 +957,16 @@
       "python-typing-inspect fails to build with Python 3.14: AssertionError: {} != {'x': <class 'int'>, 'y': <class 'int'>}"
     ]
   },
+  "python-ufo2ft": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2372184",
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2341231"
+    ],
+    "summaries": [
+      "F43FailsToInstall: python3-ufo2ft+cffsubr, python3-ufo2ft+compreffor, python3-ufo2ft. Test failures with Python 3.14",
+      "python-ufo2ft: FTBFS in Fedora rawhide/f42"
+    ]
+  },
   "python-uvloop": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2341233",
@@ -1115,6 +1099,14 @@
     ],
     "summaries": [
       "visidata fails to build with Python 3.14: TestVisidataPath.test_withName: AssertionError: assert 'foo' == 'foo.'"
+    ]
+  },
+  "weasyprint": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2372240"
+    ],
+    "summaries": [
+      "F43FailsToInstall: python3-weasyprint. Segmentation fault when building with Python 3.14"
     ]
   },
   "yt-dlp": {
