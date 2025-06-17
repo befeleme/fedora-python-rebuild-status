@@ -139,10 +139,6 @@
       "F43FailsToInstall: kurchu"
     ]
   },
-  "kvirc": {
-    "urls": [],
-    "summaries": []
-  },
   "libpeas": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2366247"
@@ -711,6 +707,14 @@
       "python-pycec fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
     ]
   },
+  "python-pydantic-core": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2325425"
+    ],
+    "summaries": [
+      "python-pydantic-core fails to build with Python 3.14: AssertionError: Regex pattern did not match. + AttributeError: module 'typing' has no attribute 'ByteString'"
+    ]
+  },
   "python-pyemd": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2319698"
@@ -939,16 +943,6 @@
     ],
     "summaries": [
       "python-typing-inspect fails to build with Python 3.14: AssertionError: {} != {'x': <class 'int'>, 'y': <class 'int'>}"
-    ]
-  },
-  "python-ufo2ft": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2372184",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2341231"
-    ],
-    "summaries": [
-      "F43FailsToInstall: python3-ufo2ft+cffsubr, python3-ufo2ft+compreffor, python3-ufo2ft. Test failures with Python 3.14",
-      "python-ufo2ft: FTBFS in Fedora rawhide/f42"
     ]
   },
   "python-uvloop": {
