@@ -89,6 +89,14 @@
       "copr-backend fails to build with Python 3.14: TestActionWorkerManager.test_add_task_for_running_worker: TypeError: cannot pickle 'itertools.count' object"
     ]
   },
+  "criu": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2365821"
+    ],
+    "summaries": [
+      "criu fails to build with Python 3.14: protobuf - TypeError: Metaclasses with custom tp_new are not supported."
+    ]
+  },
   "diceware": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2340075",
@@ -219,14 +227,6 @@
     ],
     "summaries": [
       "petsc fails to build with Python 3.14: AssertionError: 2 != 3 self.assertEqual(getrefcount(ctx), 3)"
-    ]
-  },
-  "protobuf": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2343969"
-    ],
-    "summaries": [
-      "protobuf doesn't build on s390x and i686, blocking the Python 3.14 rebuild"
     ]
   },
   "pychess": {
@@ -579,14 +579,6 @@
       "python-howdoi fails to build with Python 3.14: AssertionError: 'ERROR: Unable to reach google. Do you need to use a proxy? + json.decoder.JSONDecodeError"
     ]
   },
-  "python-inject": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2327978"
-    ],
-    "summaries": [
-      "python-inject fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
-    ]
-  },
   "python-invoke": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2365652"
@@ -919,14 +911,6 @@
     ],
     "summaries": [
       "python-towncrier FTBFS due to missing tox configuration"
-    ]
-  },
-  "python-tpm2-pytss": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2372172"
-    ],
-    "summaries": [
-      "F43FailsToInstall: python3-tpm2-pytss"
     ]
   },
   "python-txaio": {
