@@ -33,6 +33,10 @@
       "binwalk fails to build with Python 3.14: TypeError: unsupported operand type(s) for +=: 'NoneType' and 'int'"
     ]
   },
+  "blender": {
+    "urls": [],
+    "summaries": []
+  },
   "borgbackup": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2326916"
@@ -41,12 +45,12 @@
       "borgbackup fails to build with Python 3.14: OSError: AF_UNIX path too long when compiling"
     ]
   },
-  "calibre": {
+  "buildstream": {
     "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2371688"
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2371687"
     ],
     "summaries": [
-      "F43FailsToInstall: calibre, FTBFS: Bus error (core dumped)"
+      "F43FailsToInstall: buildstream"
     ]
   },
   "cantera": {
@@ -253,14 +257,6 @@
       "pylint fails to build with Python 3.14: AssertionError tests/test_functional.py::test_functional"
     ]
   },
-  "pyproj": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2371782"
-    ],
-    "summaries": [
-      "F43FailsToInstall: python3-pyproj"
-    ]
-  },
   "pyserial-asyncio": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2327980"
@@ -341,6 +337,14 @@
       "python-awesomeversion fails to build in Fedora Rawhide: rm: cannot remove '/builddir/build/BUILD/python-awesomeversion-22.9.0-build/BUILDROOT//usr/lib/python3.14/site-packages/LICENCE.md': No such file or directory"
     ]
   },
+  "python-basemap": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2371813"
+    ],
+    "summaries": [
+      "F43FailsToInstall: python3-basemap"
+    ]
+  },
   "python-beancount": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2359530"
@@ -381,6 +385,14 @@
     ],
     "summaries": [
       "python-capturer fails to build with Python 3.14: OSError: [Errno 29] Illegal seek"
+    ]
+  },
+  "python-cartopy": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2371825"
+    ],
+    "summaries": [
+      "F43FailsToInstall: python3-cartopy+ows, python3-cartopy+plotting, python3-cartopy+speedups, python3-cartopy"
     ]
   },
   "python-catkin_tools": {
@@ -513,14 +525,6 @@
       "python-envisage: FTBFS in Fedora Rawhide: ModuleNotFoundError: No module named 'configobj'"
     ]
   },
-  "python-exdir": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2367253"
-    ],
-    "summaries": [
-      "python-exdir fails to build with Python 3.14: TypeError: 'module' object is not iterable | TypeError: 'Plugin' object is not iterable"
-    ]
-  },
   "python-fiat": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2371903"
@@ -617,14 +621,6 @@
     ],
     "summaries": [
       "python-markups fails to build with Python 3.14: AssertionError in test_get_pygments_stylesheet"
-    ]
-  },
-  "python-msal": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2323170"
-    ],
-    "summaries": [
-      "python-msal fails to build with Python 3.14: test_no_two_concurrent_receivers_can_listen_on_same_port: AssertionError: OSError not raised"
     ]
   },
   "python-neatdend": {
@@ -855,6 +851,14 @@
       "python-simframe fails to build with Python 3.14: TypeError: cannot pickle 'itertools.cycle' object"
     ]
   },
+  "python-snakemake-storage-plugin-azure": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2372133"
+    ],
+    "summaries": [
+      "F43FailsToInstall: python3-snakemake-storage-plugin-azure"
+    ]
+  },
   "python-streamlink": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2353127"
@@ -1061,22 +1065,6 @@
     ],
     "summaries": [
       "visidata fails to build with Python 3.14: TestVisidataPath.test_withName: AssertionError: assert 'foo' == 'foo.'"
-    ]
-  },
-  "weasyprint": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2372240"
-    ],
-    "summaries": [
-      "F43FailsToInstall: python3-weasyprint. Segmentation fault when building with Python 3.14"
-    ]
-  },
-  "yt-dlp": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2345522"
-    ],
-    "summaries": [
-      "yt-dlp fails to build with Python 3.14: TestTraversal.test_traversal_morsel: AssertionError: `...` should yield all values: Left contains one more item: 'item_value'"
     ]
   },
   "zeek": {

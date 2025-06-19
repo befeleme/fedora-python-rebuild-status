@@ -73,6 +73,7 @@ assimp
 astrometry
 atomic-reactor
 aubio
+audiotube
 audit
 auditwheel
 autojump
@@ -117,6 +118,7 @@ bumpversion
 buttermanager
 cairo-dock-plug-ins
 calamares
+calibre
 calypso
 cantoolz
 cantor
@@ -305,6 +307,7 @@ go-vendor-tools
 go2rpm
 gobject-introspection
 gom
+google-api-python-client
 google-auth-httplib2
 gpaw
 gpgme
@@ -444,7 +447,6 @@ libguestfs
 libiio
 libiptcdata
 libixion
-libkdtree++
 libkml
 libkolabxml
 liblc3
@@ -548,7 +550,6 @@ mod_wsgi
 module-build
 modulemd-tools
 mogui
-mom
 moose
 morphio
 mozo
@@ -567,6 +568,7 @@ mygnuhealth
 mysql-connector-python
 myst-nb
 nagios-plugins-systemd
+nanopb
 nanovna-saver
 nautilus-python
 nbdkit
@@ -749,6 +751,7 @@ pyparted
 pyplane
 pypolicyd-spf
 pyppd
+pyproj
 pypykatz
 pyqtwebengine
 pyscard
@@ -901,7 +904,6 @@ python-alembic
 python-alembic1.14
 python-allpairspy
 python-alsa
-python-amply
 python-amqp
 python-ana
 python-androguard
@@ -916,7 +918,6 @@ python-ansible-pylibssh
 python-ansicolor
 python-ansicolors
 python-ansiwrap
-python-anyconfig
 python-anyio
 python-anyjson
 python-anytree
@@ -986,7 +987,6 @@ python-aw-client
 python-aw-core
 python-aw-qt
 python-awscrt
-python-awsiotsdk
 python-axolotl
 python-axolotl-curve25519
 python-azure-ai-formrecognizer
@@ -1001,6 +1001,7 @@ python-azure-datalake-store
 python-azure-devtools
 python-azure-functions-devops-build
 python-azure-graphrbac
+python-azure-identity
 python-azure-keyvault
 python-azure-keyvault-administration
 python-azure-keyvault-certificates
@@ -1221,7 +1222,6 @@ python-click
 python-click-completion
 python-click-default-group
 python-click-didyoumean
-python-click-help-colors
 python-click-log
 python-click-man
 python-click-option-group
@@ -1230,7 +1230,6 @@ python-click-repl
 python-click-spinner
 python-click-threading
 python-cliff
-python-cliff-tablib
 python-cligj
 python-cloud-sptheme
 python-cloudant
@@ -1376,7 +1375,6 @@ python-d2to1
 python-daemon
 python-daemonize
 python-daikin
-python-daiquiri
 python-damo
 python-danfossair
 python-dasbus
@@ -1386,7 +1384,6 @@ python-dateparser
 python-datetimerange
 python-dateutil
 python-dateutils
-python-datrie
 python-dbf
 python-dbfread
 python-dbus-client-gen
@@ -1532,7 +1529,6 @@ python-ecdsa
 python-edgegrid
 python-edimax
 python-editables
-python-editdistance
 python-editor
 python-editorconfig
 python-efel
@@ -1545,7 +1541,6 @@ python-empy
 python-enchant
 python-engineio
 python-enlighten
-python-enrich
 python-enthought-sphinx-theme
 python-entrypoints
 python-enturclient
@@ -1567,6 +1562,7 @@ python-ethtool
 python-evdev
 python-events
 python-exabgp
+python-exdir
 python-execnet
 python-executing
 python-exif
@@ -1695,7 +1691,6 @@ python-furo
 python-fuse
 python-futurist
 python-fuzzyfinder
-python-fuzzywuzzy
 python-fvs
 python-fypp
 python-gammu
@@ -1720,11 +1715,9 @@ python-gettext
 python-gevent
 python-ghp-import
 python-giacpy
-python-gilt
 python-gios
 python-git-changelog
 python-git-revise
-python-git-url-parse
 python-gitapi
 python-gitdb
 python-github3py
@@ -1743,6 +1736,9 @@ python-gnupg
 python-google-api-core
 python-google-auth
 python-google-auth-oauthlib
+python-google-cloud-core
+python-google-cloud-dns
+python-google-cloud-storage
 python-google-cloud-testutils
 python-google-crc32c
 python-google-i18n-address
@@ -1761,6 +1757,7 @@ python-graphviz
 python-greenlet
 python-grip
 python-grokmirror
+python-grpc-google-iam-v1
 python-grpcio-gcp
 python-gsd
 python-gssapi
@@ -1957,7 +1954,6 @@ python-jsonformatter
 python-jsonpatch
 python-jsonpath-ng
 python-jsonpath-rw
-python-jsonpath-rw-ext
 python-jsonpickle
 python-jsonpointer
 python-jsonref
@@ -2034,7 +2030,6 @@ python-lazy_load
 python-lazyarray
 python-ldap
 python-ldap3
-python-ldappool
 python-leather
 python-legacy-cgi
 python-lesscpy
@@ -2191,7 +2186,6 @@ python-moreorless
 python-morphys
 python-moss
 python-mozilla-django-oidc
-python-mpd
 python-mpd2
 python-mplcairo
 python-mplcursors
@@ -2199,6 +2193,8 @@ python-mpmath
 python-mrcfile
 python-mrcrowbar
 python-mrtparse
+python-msal
+python-msal-extensions
 python-msgpack
 python-msgspec
 python-msldap
@@ -2211,6 +2207,7 @@ python-multiaddr
 python-multibase
 python-multicodec
 python-multidict
+python-multiecho
 python-multihash
 python-multilib
 python-multipart
@@ -2261,7 +2258,6 @@ python-netifaces
 python-netmiko
 python-netpyne
 python-networkx
-python-neurodsp
 python-neurotune
 python-nh3
 python-niaaml
@@ -2307,7 +2303,6 @@ python-oauth2client
 python-oauthlib
 python-oci
 python-odata-query
-python-odml
 python-ofxparse
 python-olefile
 python-oletools
@@ -2320,10 +2315,10 @@ python-opcodes
 python-openant
 python-openapi-schema-validator
 python-openapi-spec-validator
+python-opencensus-proto
 python-openctm
 python-opendata-transport
 python-openid-cla
-python-openid-teams
 python-openidc-client
 python-openneuro
 python-openoffice
@@ -2447,7 +2442,6 @@ python-pickleshare
 python-pid
 python-pidfile
 python-piexif
-python-pifpaf
 python-pigpio
 python-pika
 python-pikepdf
@@ -2486,7 +2480,6 @@ python-portalocker
 python-portend
 python-posix-ipc
 python-pox
-python-poyo
 python-ppft
 python-prawcore
 python-precis_i18n
@@ -2507,6 +2500,7 @@ python-promise
 python-prompt-toolkit
 python-propcache
 python-protego
+python-proto-plus
 python-proton-core
 python-proton-vpn-api-core
 python-proton-vpn-network-manager
@@ -2529,7 +2523,6 @@ python-py
 python-py-algorand-sdk
 python-py-tes
 python-py27hash
-python-py2pack
 python-py3nvml
 python-pyABF
 python-pyModbusTCP
@@ -2579,7 +2572,6 @@ python-pydocstyle
 python-pydoctor
 python-pydotplus
 python-pydyf
-python-pyeclib
 python-pyedflib
 python-pyelectro
 python-pyembroidery
@@ -2849,7 +2841,6 @@ python-pyyaml-env-tag
 python-pyzabbix
 python-pyzolib
 python-pyzstd
-python-q
 python-qcustomplot-pyqt
 python-qdarkstyle
 python-qpageview
@@ -3083,6 +3074,7 @@ python-snakemake-interface-report-plugins
 python-snakemake-interface-storage-plugins
 python-snakemake-storage-plugin-fs
 python-snakemake-storage-plugin-ftp
+python-snakemake-storage-plugin-gcs
 python-snakemake-storage-plugin-http
 python-snakemake-storage-plugin-s3
 python-snakemake-storage-plugin-webdav
@@ -3205,7 +3197,6 @@ python-steps
 python-stestr
 python-stevedore
 python-stone
-python-stopit
 python-straight-plugin
 python-strict-rfc3339
 python-strictyaml
@@ -3304,7 +3295,6 @@ python-toml-cli
 python-tomli
 python-tomli-w
 python-tomlkit
-python-toposort
 python-tornado
 python-tosca-parser
 python-tox
@@ -3475,7 +3465,6 @@ python-webthing-ws
 python-werkzeug
 python-whatthepatch
 python-wheel
-python-whichcraft
 python-whisper
 python-whitenoise
 python-whois
@@ -3810,6 +3799,7 @@ wad
 waf
 wafw00f
 wapiti
+weasyprint
 webtech
 weechat
 wesnoth
@@ -3837,6 +3827,7 @@ yawn
 ydiff
 yle-dl
 youtube-dl
+yt-dlp
 z3
 zbar
 zeitgeist
