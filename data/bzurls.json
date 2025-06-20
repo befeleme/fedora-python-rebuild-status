@@ -34,8 +34,12 @@
     ]
   },
   "blender": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2373840"
+    ],
+    "summaries": [
+      "blender: FTBFS in Fedora Rawhide: error: \u2018BINARY_SUBSCR\u2019 was not declared in this scope; did you mean \u2018BINARY_SLICE\u2019?"
+    ]
   },
   "borgbackup": {
     "urls": [
@@ -59,14 +63,6 @@
     ],
     "summaries": [
       "F43FailsToInstall: python3-cantera"
-    ]
-  },
-  "capstone": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2345714"
-    ],
-    "summaries": [
-      "capstone fails to build with Python 3.14: from capstone import *: ImportError: ERROR: fail to load the dynamic library"
     ]
   },
   "chirp": {
@@ -337,14 +333,6 @@
       "python-awesomeversion fails to build in Fedora Rawhide: rm: cannot remove '/builddir/build/BUILD/python-awesomeversion-22.9.0-build/BUILDROOT//usr/lib/python3.14/site-packages/LICENCE.md': No such file or directory"
     ]
   },
-  "python-basemap": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2371813"
-    ],
-    "summaries": [
-      "F43FailsToInstall: python3-basemap"
-    ]
-  },
   "python-beancount": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2359530"
@@ -385,14 +373,6 @@
     ],
     "summaries": [
       "python-capturer fails to build with Python 3.14: OSError: [Errno 29] Illegal seek"
-    ]
-  },
-  "python-cartopy": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2371825"
-    ],
-    "summaries": [
-      "F43FailsToInstall: python3-cartopy+ows, python3-cartopy+plotting, python3-cartopy+speedups, python3-cartopy"
     ]
   },
   "python-catkin_tools": {
@@ -509,12 +489,14 @@
       "python-django-filter fails to build with Python 3.14: AttributeError: module 'pkgutil' has no attribute 'find_loader'"
     ]
   },
-  "python-dunamai": {
+  "python-earthpy": {
     "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2371874"
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2371875",
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2341146"
     ],
     "summaries": [
-      "F43FailsToInstall: python3-dunamai"
+      "F43FailsToInstall: python3-earthpy",
+      "python-earthpy: FTBFS in Fedora rawhide/f42"
     ]
   },
   "python-envisage": {
@@ -663,20 +645,20 @@
       "python-pkginfo2: FTBFS in Fedora Rawhide: AssertionError: None != '30.0.0'"
     ]
   },
+  "python-plotnine": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2372035"
+    ],
+    "summaries": [
+      "F43FailsToInstall: python3-plotnine+extra, python3-plotnine"
+    ]
+  },
   "python-praw": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2342562"
     ],
     "summaries": [
       "python-praw fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
-    ]
-  },
-  "python-pudb": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2365643"
-    ],
-    "summaries": [
-      "python-pudb fails to build with Python 3.14: ImportError: cannot import name 'format_exception' from 'pudb.lowlevel'"
     ]
   },
   "python-pure-protobuf": {
@@ -851,14 +833,6 @@
       "python-simframe fails to build with Python 3.14: TypeError: cannot pickle 'itertools.cycle' object"
     ]
   },
-  "python-snakemake-storage-plugin-azure": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2372133"
-    ],
-    "summaries": [
-      "F43FailsToInstall: python3-snakemake-storage-plugin-azure"
-    ]
-  },
   "python-streamlink": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2353127"
@@ -1023,14 +997,6 @@
     "summaries": [
       "strongswan: FTBFS in Fedora Rawhide: error: possibly undefined macro: AC_LIB_PREFIX",
       "strongswan-5.9.14-5.fc42 FTBFS: strongswan-5.9.14/missing: line 81: aclocal-1.16: command not found"
-    ]
-  },
-  "subversion": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2359500"
-    ],
-    "summaries": [
-      "subversion fails to build with Python 3.14: AssertionError: 3 != 4 : Memory leak!  Expected a ref count of 4 for svn_merge_range_t object, but got 3 instead (path: b'/trunk', index: 0)"
     ]
   },
   "sugar": {
