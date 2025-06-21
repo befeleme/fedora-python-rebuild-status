@@ -33,14 +33,6 @@
       "binwalk fails to build with Python 3.14: TypeError: unsupported operand type(s) for +=: 'NoneType' and 'int'"
     ]
   },
-  "blender": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2373840"
-    ],
-    "summaries": [
-      "blender: FTBFS in Fedora Rawhide: error: \u2018BINARY_SUBSCR\u2019 was not declared in this scope; did you mean \u2018BINARY_SLICE\u2019?"
-    ]
-  },
   "borgbackup": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2326916"
@@ -521,14 +513,6 @@
     ],
     "summaries": [
       "python-flake8-comprehensions fails to build with Python 3.14: Unnecessary reversed call around sorted() in 10 tests"
-    ]
-  },
-  "python-flask-session": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2354108"
-    ],
-    "summaries": [
-      "python-flask-session FTBFS due to missing tox configuration"
     ]
   },
   "python-fsleyes-widgets": {
