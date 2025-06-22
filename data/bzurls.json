@@ -123,14 +123,6 @@
       "httpie fails to build with Python 3.14: test_lazy_choices_help: AssertionError: Expected 'getter' to not have been called. Called 1 times."
     ]
   },
-  "ikiwiki": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2340642"
-    ],
-    "summaries": [
-      "ikiwiki-3.20200202.4-4.fc43 FTBFS: Installed (but unpackaged) file(s) found: /usr/sbin/ikiwiki-mass-rebuild"
-    ]
-  },
   "kurchu": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2371734"
@@ -351,14 +343,6 @@
       "python-billiard fails to build with Python 3.14: AttributeError: module 'subprocess' has no attribute '_USE_VFORK'"
     ]
   },
-  "python-boutdata": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2371821"
-    ],
-    "summaries": [
-      "F43FailsToInstall: python3-boutdata"
-    ]
-  },
   "python-capturer": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2328004"
@@ -491,14 +475,6 @@
       "python-earthpy: FTBFS in Fedora rawhide/f42"
     ]
   },
-  "python-envisage": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2369420"
-    ],
-    "summaries": [
-      "python-envisage: FTBFS in Fedora Rawhide: ModuleNotFoundError: No module named 'configobj'"
-    ]
-  },
   "python-fiat": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2371903"
@@ -531,14 +507,6 @@
     "summaries": [
       "python-gphoto2 fails to build with Python 3.14: ModuleNotFoundError: No module named 'distutils.command.upload'",
       "python-gphoto2: FTBFS in Fedora rawhide/f42"
-    ]
-  },
-  "python-h5netcdf": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2325222"
-    ],
-    "summaries": [
-      "python-h5netcdf fails to build with Python 3.14: test_no_circular_references: AssertionError"
     ]
   },
   "python-howdoi": {
@@ -661,14 +629,6 @@
       "python-pycec fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
     ]
   },
-  "python-pydantic-core": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2325425"
-    ],
-    "summaries": [
-      "python-pydantic-core fails to build with Python 3.14: AssertionError: Regex pattern did not match. + AttributeError: module 'typing' has no attribute 'ByteString'"
-    ]
-  },
   "python-pyemd": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2319698"
@@ -701,11 +661,9 @@
   },
   "python-pymongo": {
     "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2356166",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2341188"
     ],
     "summaries": [
-      "python-pymongo fails to build with Python 3.14: DeprecationWarning: 'asyncio.iscoroutinefunction' and 'asyncio.get_event_loop_policy' is deprecated and slated for removal in Python 3.16",
       "python-pymongo: FTBFS in Fedora rawhide/f42"
     ]
   },
@@ -941,14 +899,6 @@
       "qtile fails to build with Python 3.14: _pickle.PicklingError: Can't pickle local object <function TestManager.start.<locals>.run_qtile at 0x7f9c5918fed0>"
     ]
   },
-  "rebase-helper": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2352551"
-    ],
-    "summaries": [
-      "rebase-helper fails to build with Python 3.14: AssertionError in TestCLI.test_cli_unit and TestConfig.test_merge"
-    ]
-  },
   "rpm-head-signing": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2366308"
@@ -997,16 +947,6 @@
     ],
     "summaries": [
       "F43FailsToInstall: sugar-toolkit-gtk3"
-    ]
-  },
-  "ufw": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2366458",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2341477"
-    ],
-    "summaries": [
-      "ufw fails to build in Fedora Rawhide: File not found: /builddir/build/BUILD/ufw-0.35-build/BUILDROOT/usr/bin/ufw",
-      "ufw: FTBFS in Fedora rawhide/f42"
     ]
   },
   "visidata": {
