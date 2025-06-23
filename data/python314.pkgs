@@ -232,12 +232,14 @@ evemu
 f3d
 fail2ban
 fapolicy-analyzer
+fawltydeps
 fedfind
 fedora-distro-aliases
 fedora-messaging
 fedora-review
 fedora-third-party
 fedpkg
+fedrq
 file
 firewalld
 firmitas
@@ -362,6 +364,7 @@ impressive
 ini2toml
 initial-setup
 inn
+input-remapper
 insight
 intelhex
 ipa-hcc
@@ -625,6 +628,7 @@ onionshare
 onnx
 onnxruntime
 opae
+openapi-python-client
 openbabel
 openmeeg
 openmpi
@@ -647,6 +651,7 @@ osh
 otf2
 oz
 pacemaker
+packit
 pagure
 pagure-dist-git
 pagure-exporter
@@ -926,6 +931,7 @@ python-ansicolors
 python-ansiwrap
 python-anyio
 python-anyjson
+python-anykeystore
 python-anytree
 python-aodhclient
 python-apipkg
@@ -1172,6 +1178,7 @@ python-breathe
 python-brian2
 python-brukerapi
 python-bsddb3
+python-bsmschema
 python-btchip
 python-btrfs
 python-bucky
@@ -1311,6 +1318,7 @@ python-commoncode
 python-compal
 python-compreffor
 python-conda-content-trust
+python-conda-index
 python-conda-inject
 python-conda-libmamba-solver
 python-conda-package-handling
@@ -1385,6 +1393,7 @@ python-daemon
 python-daemonize
 python-daikin
 python-damo
+python-dandischema
 python-danfossair
 python-dasbus
 python-datanommer-commands
@@ -1509,6 +1518,7 @@ python-doit
 python-domdf-python-tools
 python-dotenv
 python-dotmap
+python-doubleratchet
 python-doxypypy
 python-doxyqml
 python-doxytag2zealdb
@@ -1595,6 +1605,7 @@ python-faker
 python-falcon
 python-fasjson-client
 python-fast-simplification
+python-fastapi
 python-fastavro
 python-fastbencode
 python-fasteners
@@ -1647,12 +1658,14 @@ python-flask-mail
 python-flask-mailman
 python-flask-mako
 python-flask-migrate
+python-flask-mongoengine
 python-flask-multistatic
 python-flask-oidc
 python-flask-openid
 python-flask-paranoid
 python-flask-principal
 python-flask-restx
+python-flask-security-too
 python-flask-session
 python-flask-socketio
 python-flask-sqlalchemy
@@ -2030,6 +2043,7 @@ python-klusta
 python-kmod
 python-knack
 python-koji-fedoramessaging-messages
+python-kombu
 python-korean-lunar-calendar
 python-krb5
 python-kubernetes
@@ -2148,6 +2162,7 @@ python-mediafile
 python-medimages4tests
 python-meh
 python-memcached
+python-menuinst
 python-mercantile
 python-merge3
 python-mergedeep
@@ -2196,6 +2211,7 @@ python-moddb
 python-modernize
 python-modestmaps
 python-molmass
+python-mongoengine
 python-mongomock
 python-mongoquery
 python-monotonic
@@ -2323,8 +2339,11 @@ python-oauthlib
 python-oci
 python-odata-query
 python-ofxparse
+python-ogr
 python-olefile
 python-oletools
+python-ollama
+python-omemo
 python-omlmd
 python-omsdk
 python-onionbalance
@@ -2471,6 +2490,7 @@ python-pip
 python-pip-requirements-parser
 python-pipdeptree
 python-pivy
+python-pkg-depgraph
 python-pkgconfig
 python-pkginfo
 python-plac
@@ -2492,6 +2512,7 @@ python-podman
 python-poetry-core
 python-poetry-dynamic-versioning
 python-poetry-plugin-export
+python-poi-tracker
 python-polib
 python-policyuniverse
 python-pooch
@@ -2585,6 +2606,7 @@ python-pycxx
 python-pydantic
 python-pydantic-core
 python-pydantic-extra-types
+python-pydantic-settings
 python-pydapsys
 python-pydata-sphinx-theme
 python-pydbus
@@ -2608,6 +2630,7 @@ python-pyfakefs
 python-pyfiglet
 python-pyfim
 python-pyflame
+python-pyforgejo
 python-pyformlang
 python-pyftdi
 python-pyftpdlib
@@ -2667,6 +2690,7 @@ python-pymemcache
 python-pymilter
 python-pymochad
 python-pymod2pkg
+python-pymongo
 python-pymssql
 python-pynacl
 python-pynamodb
@@ -2843,10 +2867,12 @@ python-python-multipart
 python-python-ulid
 python-pytile
 python-pytimeparse
+python-pytoolconfig
 python-pytools
 python-pytzdata
 python-pyuca
 python-pyudev
+python-pyunicorn
 python-pyunormalize
 python-pyvat
 python-pyvirtualdisplay
@@ -2991,6 +3017,7 @@ python-rsa
 python-rsd-lib
 python-rsdclient
 python-rst-linker
+python-rstcheck-core
 python-rstr
 python-rtmidi
 python-rtslib
@@ -3079,6 +3106,7 @@ python-slackclient
 python-slacker
 python-slip10
 python-slixmpp
+python-slixmpp-omemo
 python-slugify
 python-sly
 python-smart_open
@@ -3200,6 +3228,7 @@ python-sqlacodegen
 python-sqlalchemy
 python-sqlalchemy-collectd
 python-sqlalchemy-filters
+python-sqlalchemy-helpers
 python-sqlalchemy-utils
 python-sqlalchemy1.3
 python-sqlalchemy1.4
@@ -3227,6 +3256,7 @@ python-stestr
 python-stevedore
 python-stone
 python-straight-plugin
+python-stravalib
 python-strict-rfc3339
 python-strictyaml
 python-string_utils

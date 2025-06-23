@@ -73,6 +73,14 @@
       "cjdns: FTBFS in Fedora rawhide/f42"
     ]
   },
+  "conda-build": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2356162"
+    ],
+    "summaries": [
+      "conda-build fails to build with Python 3.14: TypeError: _WorkItem.__init__() takes 3 positional arguments but 5 were given"
+    ]
+  },
   "copr-backend": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2351386"
@@ -197,6 +205,14 @@
       "patool fails to build with Python 3.14: Codec Load Error: /usr/bin/7z.so : errno=25 : Inappropriate ioctl for device"
     ]
   },
+  "pcp": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2371769"
+    ],
+    "summaries": [
+      "F43FailsToInstall: python3-pcp"
+    ]
+  },
   "pcs": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2371770"
@@ -315,6 +331,14 @@
     ],
     "summaries": [
       "python-awesomeversion fails to build in Fedora Rawhide: rm: cannot remove '/builddir/build/BUILD/python-awesomeversion-22.9.0-build/BUILDROOT//usr/lib/python3.14/site-packages/LICENCE.md': No such file or directory"
+    ]
+  },
+  "python-aws-sam-translator": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2353126"
+    ],
+    "summaries": [
+      "python-aws-sam-translator fails to build with Python 3.14: 77 test failures, 4 error"
     ]
   },
   "python-beancount": {
@@ -581,6 +605,14 @@
       "python-octave-kernel: FTBFS in Fedora rawhide/f42"
     ]
   },
+  "python-openapi-core": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2372014"
+    ],
+    "summaries": [
+      "F43FailsToInstall: python3-openapi-core+aiohttp, python3-openapi-core+django, python3-openapi-core+falcon, python3-openapi-core+fastapi, python3-openapi-core+flask, python3-openapi-core+requests, python3-openapi-core+starlette, python3-openapi-core"
+    ]
+  },
   "python-pamela": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2366474"
@@ -659,14 +691,6 @@
       "python-pymeeus fails to build with sphinx 8.x: ERROR: Invalid value `None` in intersphinx_mapping['https://docs.python.org/']."
     ]
   },
-  "python-pymongo": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2341188"
-    ],
-    "summaries": [
-      "python-pymongo: FTBFS in Fedora rawhide/f42"
-    ]
-  },
   "python-pyopencl": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2341190"
@@ -681,6 +705,16 @@
     ],
     "summaries": [
       "python-pyopengl: FTBFS in Fedora rawhide/f42"
+    ]
+  },
+  "python-pysaml2": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2372073",
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2341199"
+    ],
+    "summaries": [
+      "F43FailsToInstall: python3-pysaml2",
+      "python-pysaml2: FTBFS in Fedora rawhide/f42"
     ]
   },
   "python-pytest-lsp": {
@@ -715,6 +749,14 @@
       "python-pyvlx fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
     ]
   },
+  "python-qcelemental": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2372089"
+    ],
+    "summaries": [
+      "F43FailsToInstall: python3-qcelemental"
+    ]
+  },
   "python-readability-lxml": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2323185"
@@ -739,6 +781,14 @@
     "summaries": [
       "python-remoto fails to build with Python 3.14: AttributeError: 'TestRemoteError' object has no attribute 'traceback'",
       "python-remoto: FTBFS in Fedora rawhide/f42"
+    ]
+  },
+  "python-rope": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2351391"
+    ],
+    "summaries": [
+      "python-rope fails to build with Python 3.14: ImportError while loading conftest '/builddir/build/BUILD/python-rope-1.13.0-build/rope-1.13.0/ropetest/conftest.py'.: AssertionError: assert sys.version_info < (3, 8)"
     ]
   },
   "python-rosdep": {
@@ -773,6 +823,14 @@
     ],
     "summaries": [
       "python-simframe fails to build with Python 3.14: TypeError: cannot pickle 'itertools.cycle' object"
+    ]
+  },
+  "python-sqlmodel": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2372150"
+    ],
+    "summaries": [
+      "F43FailsToInstall: python3-sqlmodel, python3-sqlmodel-slim"
     ]
   },
   "python-streamlink": {
@@ -947,6 +1005,14 @@
     ],
     "summaries": [
       "F43FailsToInstall: sugar-toolkit-gtk3"
+    ]
+  },
+  "tmt": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2372233"
+    ],
+    "summaries": [
+      "F43FailsToInstall: tmt+all, tmt+export-polarion, tmt+link-jira, tmt+provision-beaker, tmt+provision-bootc, tmt+provision-container, tmt+provision-virtual, tmt+report-junit, tmt+report-polarion, tmt+test-convert, tmt"
     ]
   },
   "visidata": {
