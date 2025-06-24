@@ -115,14 +115,6 @@
       "dlib fails to build with Python 3.14: AssertionError in tests checking refcounting"
     ]
   },
-  "git-filter-repo": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2365637"
-    ],
-    "summaries": [
-      "git-filter-repo fails to build with Python 3.14: == t9394-filter-repo-sanity-checks-and-bigger-repo-setup.sh == --replace-text all options not ok"
-    ]
-  },
   "httpie": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2350335"
@@ -541,14 +533,6 @@
       "python-howdoi fails to build with Python 3.14: AssertionError: 'ERROR: Unable to reach google. Do you need to use a proxy? + json.decoder.JSONDecodeError"
     ]
   },
-  "python-invoke": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2365652"
-    ],
-    "summaries": [
-      "python-invoke fails to build with Python 3.14: SystemError: buffer overflow in 16 tests"
-    ]
-  },
   "python-ipfshttpclient": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2368589"
@@ -603,14 +587,6 @@
     ],
     "summaries": [
       "python-octave-kernel: FTBFS in Fedora rawhide/f42"
-    ]
-  },
-  "python-openapi-core": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2372014"
-    ],
-    "summaries": [
-      "F43FailsToInstall: python3-openapi-core+aiohttp, python3-openapi-core+django, python3-openapi-core+falcon, python3-openapi-core+fastapi, python3-openapi-core+flask, python3-openapi-core+requests, python3-openapi-core+starlette, python3-openapi-core"
     ]
   },
   "python-pamela": {
