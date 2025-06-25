@@ -165,12 +165,12 @@
       "monkeytype fails to build with Python 3.14: typing.Union changed with Python 3.14.0a6"
     ]
   },
-  "mopidy": {
+  "mopidy-mpd": {
     "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2367738"
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2371748"
     ],
     "summaries": [
-      "mopidy fails to build with Python 3.14:  RuntimeError: unable to get value"
+      "F43FailsToInstall: mopidy-mpd"
     ]
   },
   "ocrmypdf": {
@@ -407,14 +407,6 @@
     ],
     "summaries": [
       "python-colcon-parallel-executor fails to build with Python 3.14: test_parallel: AssertionError: DeprecationWarning: 'asyncio.iscoroutinefunction' is deprecated and slated for removal in Python 3.16; use inspect.iscoroutinefunction() instead"
-    ]
-  },
-  "python-colorful": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2325168"
-    ],
-    "summaries": [
-      "python-colorful fails to build with Python 3.14: ast.Constant.s has been removed from Python 3.14"
     ]
   },
   "python-confuse": {
