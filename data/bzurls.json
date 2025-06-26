@@ -433,6 +433,14 @@
       "python-crick fails to build with Python 3.14: crick/tests/test_space_saving.py::test_merge_algorithm[s111-s211] Fatal Python error: Segmentation fault"
     ]
   },
+  "python-cytoolz": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2371849"
+    ],
+    "summaries": [
+      "F43FailsToInstall: python3-cytoolz"
+    ]
+  },
   "python-dataclassy": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2325200"
@@ -587,6 +595,14 @@
     ],
     "summaries": [
       "python-pamela fails to build with Python 3.14: pamela.PAMError: [PAM Error 26] Critical error - immediate abort"
+    ]
+  },
+  "python-partd": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2372026"
+    ],
+    "summaries": [
+      "F43FailsToInstall: python3-partd+complete, python3-partd"
     ]
   },
   "python-pkginfo2": {
@@ -809,6 +825,14 @@
       "python-streamlink fails to build with Python 3.14: test_deprecated: AssetionError: Left contains one more item: <warnings.WarningMessage object at 0x7fd80afa3410>"
     ]
   },
+  "python-subliminal": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2372155"
+    ],
+    "summaries": [
+      "F43FailsToInstall: python3-subliminal"
+    ]
+  },
   "python-telnetlib3": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2354126"
@@ -833,14 +857,6 @@
     "summaries": [
       "python-textual fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'.",
       "python-textual: FTBFS in Fedora rawhide/f42"
-    ]
-  },
-  "python-toolz": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2323168"
-    ],
-    "summaries": [
-      "python-toolz fails to build with Python 3.14: AssertionError: is_none: assert should_curry(getattr(operator, k)) == isinstance(v, toolz.curry), k"
     ]
   },
   "python-torch": {
