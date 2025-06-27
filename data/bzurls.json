@@ -197,28 +197,12 @@
       "patool fails to build with Python 3.14: Codec Load Error: /usr/bin/7z.so : errno=25 : Inappropriate ioctl for device"
     ]
   },
-  "pcp": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2371769"
-    ],
-    "summaries": [
-      "F43FailsToInstall: python3-pcp"
-    ]
-  },
   "pcs": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2371770"
     ],
     "summaries": [
       "F43FailsToInstall: pcs, pcs-web-ui"
-    ]
-  },
-  "petsc": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2359524"
-    ],
-    "summaries": [
-      "petsc fails to build with Python 3.14: AssertionError: 2 != 3 self.assertEqual(getrefcount(ctx), 3)"
     ]
   },
   "pychess": {
@@ -457,12 +441,12 @@
       "Heads-up: python-diff-cover fails to build with python-pygments 2.19.1 on Fedora 43"
     ]
   },
-  "python-django-configurations": {
+  "python-django-cacheops": {
     "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2366494"
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2371864"
     ],
     "summaries": [
-      "python-django-configurations fails to build with Python 3.14: ValueTests.test_cache_url_value: AssertionError:"
+      "F43FailsToInstall: python3-django-cacheops"
     ]
   },
   "python-django-contrib-comments": {
@@ -471,6 +455,14 @@
     ],
     "summaries": [
       "python-django-contrib-comments fails to build with Python 3.14: ImportError: Module \"django.contrib.auth.hashers\" does not define a \"UnsaltedMD5PasswordHasher\" attribute/class"
+    ]
+  },
+  "python-django-extensions": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2371867"
+    ],
+    "summaries": [
+      "F43FailsToInstall: python3-django-extensions"
     ]
   },
   "python-django-filter": {
@@ -547,14 +539,6 @@
     ],
     "summaries": [
       "F43FailsToInstall: python3-janus"
-    ]
-  },
-  "python-josepy": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2359514"
-    ],
-    "summaries": [
-      "python-josepy fails to build with Python 3.14: ValueError: Field `alg` in JSONObject `Header` has no type annotation."
     ]
   },
   "python-markups": {
@@ -823,14 +807,6 @@
     ],
     "summaries": [
       "python-streamlink fails to build with Python 3.14: test_deprecated: AssetionError: Left contains one more item: <warnings.WarningMessage object at 0x7fd80afa3410>"
-    ]
-  },
-  "python-subliminal": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2372155"
-    ],
-    "summaries": [
-      "F43FailsToInstall: python3-subliminal"
     ]
   },
   "python-telnetlib3": {
