@@ -457,14 +457,6 @@
       "python-django-contrib-comments fails to build with Python 3.14: ImportError: Module \"django.contrib.auth.hashers\" does not define a \"UnsaltedMD5PasswordHasher\" attribute/class"
     ]
   },
-  "python-django-extensions": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2371867"
-    ],
-    "summaries": [
-      "F43FailsToInstall: python3-django-extensions"
-    ]
-  },
   "python-django-filter": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2336944"
@@ -791,6 +783,14 @@
     ],
     "summaries": [
       "python-simframe fails to build with Python 3.14: TypeError: cannot pickle 'itertools.cycle' object"
+    ]
+  },
+  "python-sphinx-autobuild": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2372144"
+    ],
+    "summaries": [
+      "F43FailsToInstall: python3-sphinx-autobuild"
     ]
   },
   "python-sqlmodel": {
