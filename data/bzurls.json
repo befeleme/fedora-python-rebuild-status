@@ -165,14 +165,6 @@
       "monkeytype fails to build with Python 3.14: typing.Union changed with Python 3.14.0a6"
     ]
   },
-  "mopidy-mpd": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2371748"
-    ],
-    "summaries": [
-      "F43FailsToInstall: mopidy-mpd"
-    ]
-  },
   "ocrmypdf": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2357508"
@@ -659,14 +651,6 @@
       "python-pyopencl: FTBFS in Fedora rawhide/f42"
     ]
   },
-  "python-pyopengl": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2341191"
-    ],
-    "summaries": [
-      "python-pyopengl: FTBFS in Fedora rawhide/f42"
-    ]
-  },
   "python-pysaml2": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2372073",
@@ -743,14 +727,6 @@
       "python-remoto: FTBFS in Fedora rawhide/f42"
     ]
   },
-  "python-rope": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2351391"
-    ],
-    "summaries": [
-      "python-rope fails to build with Python 3.14: ImportError while loading conftest '/builddir/build/BUILD/python-rope-1.13.0-build/rope-1.13.0/ropetest/conftest.py'.: AssertionError: assert sys.version_info < (3, 8)"
-    ]
-  },
   "python-rosdep": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2341207",
@@ -807,22 +783,6 @@
     ],
     "summaries": [
       "python-streamlink fails to build with Python 3.14: test_deprecated: AssetionError: Left contains one more item: <warnings.WarningMessage object at 0x7fd80afa3410>"
-    ]
-  },
-  "python-telnetlib3": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2354126"
-    ],
-    "summaries": [
-      "python-telnetlib3 FTBFS due to missing tox configuration"
-    ]
-  },
-  "python-tenacity": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2327977"
-    ],
-    "summaries": [
-      "python-tenacity fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
     ]
   },
   "python-textual": {
