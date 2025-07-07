@@ -335,6 +335,16 @@
       "python-billiard fails to build with Python 3.14: AttributeError: module 'subprocess' has no attribute '_USE_VFORK'"
     ]
   },
+  "python-bluepyopt": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2371820",
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2341132"
+    ],
+    "summaries": [
+      "F43FailsToInstall: python3-bluepyopt",
+      "python-bluepyopt: FTBFS in Fedora rawhide/f42"
+    ]
+  },
   "python-capturer": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2328004"
@@ -391,14 +401,6 @@
     ],
     "summaries": [
       "python-confuse fails to build with Python 3.14: AttributeError: module 'pkgutil' has no attribute 'get_loader'"
-    ]
-  },
-  "python-crcmod": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2329852"
-    ],
-    "summaries": [
-      "python-crcmod fails to build with sphinx 8.x: ERROR: Invalid value `None` in intersphinx_mapping['/usr/share/doc/python3-docs/html/']."
     ]
   },
   "python-crick": {
@@ -595,6 +597,14 @@
     ],
     "summaries": [
       "python-pure-protobuf fails to build with Python 3.14: ImportError: cannot import name 'ByteString' from 'typing'"
+    ]
+  },
+  "python-pybids": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2372050"
+    ],
+    "summaries": [
+      "F43FailsToInstall: python3-pybids+plotting, python3-pybids+test, python3-pybids+tests, python3-pybids"
     ]
   },
   "python-pycec": {
