@@ -165,10 +165,6 @@
       "ocrmypdf fails to build with Python 3.14: multiprocessing.Process now starts with forkserver method instead of fork, causing pickling error"
     ]
   },
-  "opencv": {
-    "urls": [],
-    "summaries": []
-  },
   "patool": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2366470"
@@ -281,14 +277,6 @@
       "python-avocado fails to build with Python 3.14: Error running method \"pre_tests\" of plugin \"fetchasset\": module 'ast' has no attribute 'Str' + Avocado crashed: TypeError: cannot pickle '_thread.RLock' object"
     ]
   },
-  "python-awesomeversion": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2366476"
-    ],
-    "summaries": [
-      "python-awesomeversion fails to build in Fedora Rawhide: rm: cannot remove '/builddir/build/BUILD/python-awesomeversion-22.9.0-build/BUILDROOT//usr/lib/python3.14/site-packages/LICENCE.md': No such file or directory"
-    ]
-  },
   "python-aws-sam-translator": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2353126"
@@ -381,14 +369,6 @@
     ],
     "summaries": [
       "python-colcon-parallel-executor fails to build with Python 3.14: test_parallel: AssertionError: DeprecationWarning: 'asyncio.iscoroutinefunction' is deprecated and slated for removal in Python 3.16; use inspect.iscoroutinefunction() instead"
-    ]
-  },
-  "python-confuse": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2327966"
-    ],
-    "summaries": [
-      "python-confuse fails to build with Python 3.14: AttributeError: module 'pkgutil' has no attribute 'get_loader'"
     ]
   },
   "python-crick": {
@@ -623,16 +603,6 @@
       "python-pymdown-extensions fails to build with Python 3.14: TestAbsolute.test_relative_path and TestAbsoluteFileScheme.test_relative_path AssertionErrors"
     ]
   },
-  "python-pymeeus": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2341186",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2329890"
-    ],
-    "summaries": [
-      "python-pymeeus: FTBFS in Fedora rawhide/f42",
-      "python-pymeeus fails to build with sphinx 8.x: ERROR: Invalid value `None` in intersphinx_mapping['https://docs.python.org/']."
-    ]
-  },
   "python-pyopencl": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2341190"
@@ -852,12 +822,8 @@
     ]
   },
   "python3-exiv2": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2354137"
-    ],
-    "summaries": [
-      "python3-exiv2 FTBFS due to missing tox configuration"
-    ]
+    "urls": [],
+    "summaries": []
   },
   "qtile": {
     "urls": [
