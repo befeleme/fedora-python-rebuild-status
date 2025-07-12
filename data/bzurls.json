@@ -223,18 +223,6 @@
       "python-Mastodon fails to build with Python 3.14: ValueError: Unknown type <something> | None"
     ]
   },
-  "python-TestSlide": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2371789",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2350306",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2343971"
-    ],
-    "summaries": [
-      "F43FailsToInstall: python3-testslide",
-      "Heads-up: python-TestSlide fails to build with python-pygments 2.19.1 on Fedora 43",
-      "python-TestSlide fails to build with Python 3.14: ERROR collecting tests/mock_callable_testslide.py: RuntimeError: dictionary changed size during iteration"
-    ]
-  },
   "python-aiokafka": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2346517"
@@ -803,14 +791,6 @@
     ],
     "summaries": [
       "rpm-head-signing: FTBFS in Fedora Rawhide with RPM 6"
-    ]
-  },
-  "rss2email": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2368743"
-    ],
-    "summaries": [
-      "rss2email fails to build with Python 3.14: ERROR: test_email_data/tails/1.config..."
     ]
   },
   "signon-glib": {
