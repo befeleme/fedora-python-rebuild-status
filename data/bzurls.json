@@ -107,14 +107,6 @@
       "dlib fails to build with Python 3.14: AssertionError in tests checking refcounting"
     ]
   },
-  "kurchu": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2371734"
-    ],
-    "summaries": [
-      "F43FailsToInstall: kurchu"
-    ]
-  },
   "libpeas": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2366247"
@@ -351,14 +343,6 @@
       "python-crick fails to build with Python 3.14: crick/tests/test_space_saving.py::test_merge_algorithm[s111-s211] Fatal Python error: Segmentation fault"
     ]
   },
-  "python-cytoolz": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2371849"
-    ],
-    "summaries": [
-      "F43FailsToInstall: python3-cytoolz"
-    ]
-  },
   "python-dataclassy": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2325200"
@@ -401,6 +385,14 @@
       "python-earthpy: FTBFS in Fedora rawhide/f42"
     ]
   },
+  "python-eth-keys": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2371889"
+    ],
+    "summaries": [
+      "F43FailsToInstall: python3-eth-keys"
+    ]
+  },
   "python-fiat": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2371903"
@@ -423,6 +415,14 @@
     ],
     "summaries": [
       "python-fsleyes-widgets fails to build with Python 3.14: AssertionError: assert 'file:/home/b...htmlfile.html' == 'file:///home...htmlfile.html'"
+    ]
+  },
+  "python-geotiler": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2371921"
+    ],
+    "summaries": [
+      "F43FailsToInstall: python3-geotiler"
     ]
   },
   "python-gphoto2": {
