@@ -531,18 +531,6 @@
       "python-pyemd fails to build with setuptools 74+"
     ]
   },
-  "python-pymdown-extensions": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2372063",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2350300",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2336948"
-    ],
-    "summaries": [
-      "F43FailsToInstall: python3-pymdown-extensions+extra, python3-pymdown-extensions",
-      "Heads-up: python-pymdown-extensions fails to build with python-pygments 2.19.1 on Fedora 43",
-      "python-pymdown-extensions fails to build with Python 3.14: TestAbsolute.test_relative_path and TestAbsoluteFileScheme.test_relative_path AssertionErrors"
-    ]
-  },
   "python-pyopencl": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2341190"
@@ -669,16 +657,6 @@
       "F43FailsToInstall: python3-sqlmodel, python3-sqlmodel-slim"
     ]
   },
-  "python-textual": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2367457",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2341224"
-    ],
-    "summaries": [
-      "python-textual fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'.",
-      "python-textual: FTBFS in Fedora rawhide/f42"
-    ]
-  },
   "python-torch": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2372164"
@@ -719,14 +697,6 @@
     ],
     "summaries": [
       "python-valkey fails to build with Python 3.14: _pickle.PicklingError: Can't pickle local object <function TestMultiprocessing.test_close_connection_in_child.<locals>.target at 0x7f5aa68cddd0>"
-    ]
-  },
-  "python-wordcloud": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2335908"
-    ],
-    "summaries": [
-      "python-wordcloud fails to build with Python 3.14: test_cli_as_executable: AssertionError: assert expected_output in out if ret_code == 0 else err"
     ]
   },
   "python-yappi": {
