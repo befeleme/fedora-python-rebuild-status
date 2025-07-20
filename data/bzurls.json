@@ -133,14 +133,6 @@
       "linode-cli: FTBFS in Fedora rawhide/f42"
     ]
   },
-  "monkeytype": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2356179"
-    ],
-    "summaries": [
-      "monkeytype fails to build with Python 3.14: typing.Union changed with Python 3.14.0a6"
-    ]
-  },
   "ocrmypdf": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2357508"
@@ -361,6 +353,14 @@
       "python-earthpy: FTBFS in Fedora rawhide/f42"
     ]
   },
+  "python-esbonio": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2371883"
+    ],
+    "summaries": [
+      "F43FailsToInstall: python3-esbonio+dev, python3-esbonio+typecheck, python3-esbonio"
+    ]
+  },
   "python-fiat": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2371903"
@@ -433,6 +433,14 @@
     ],
     "summaries": [
       "python-markups fails to build with Python 3.14: AssertionError in test_get_pygments_stylesheet"
+    ]
+  },
+  "python-mkapi": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2342559"
+    ],
+    "summaries": [
+      "python-mkapi fails to build with Python 3.14: Expected: [None, <ast.Constant object at 0x...>, <ast.Constant object at 0x...>] Got: [None, Constant(value=2, kind=None), Constant(value=3, kind=None)]"
     ]
   },
   "python-neatdend": {
@@ -539,14 +547,6 @@
     "summaries": [
       "F43FailsToInstall: python3-pysaml2",
       "python-pysaml2: FTBFS in Fedora rawhide/f42"
-    ]
-  },
-  "python-pytest-lsp": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2349451"
-    ],
-    "summaries": [
-      "python-pytest-lsp fails to build with Python 3.14: warnings counts differ, resulting in AssertionError in 3 tests"
     ]
   },
   "python-pytest-twisted": {
