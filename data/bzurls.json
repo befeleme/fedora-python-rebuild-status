@@ -89,16 +89,6 @@
       "criu fails to build with Python 3.14: protobuf - TypeError: Metaclasses with custom tp_new are not supported."
     ]
   },
-  "diceware": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2340075",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2329832"
-    ],
-    "summaries": [
-      "diceware: FTBFS in Fedora rawhide/f42",
-      "diceware fails to build with sphinx 8.x: ERROR: Invalid value `None` in intersphinx_mapping['http://docs.python.org/']."
-    ]
-  },
   "dlib": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2366197"
@@ -155,14 +145,6 @@
     ],
     "summaries": [
       "F43FailsToInstall: pcs, pcs-web-ui"
-    ]
-  },
-  "pychess": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2328708"
-    ],
-    "summaries": [
-      "pychess fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
     ]
   },
   "pylint": {
