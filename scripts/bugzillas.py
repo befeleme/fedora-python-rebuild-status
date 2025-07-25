@@ -7,12 +7,15 @@ from loaders import load_data, load_monitor_report, KOJI
 BUGZILLA = 'bugzilla.redhat.com'
 BZ_PAGE_SIZE = 20
 TRACKER = 2322407  # PYTHON3.14
-RAWHIDE = 2300528  # F42FTBFS
+RAWHIDE = 2339432  # F43FTBFS
 BZAPI = bugzilla.Bugzilla(BUGZILLA)
 
 FAILED = load_data("data/failed.pkgs")
+if KOJI:
+    WAITING = load_data("data/waiting.pkgs")
+    FAILED.update(WAITING)
 # we only want to do Copr magic before the mass rebuild
-if not KOJI:
+else:
     HISTORICALLY_SUCCESSFUL = load_data("data/python314.pkgs")
     ALL_IN_COPR = load_monitor_report("data/copr.pkgs")
 
