@@ -74,7 +74,7 @@
   <div class="container mt-4">
     
 <a href="/" class="btn btn-primary mb-3"> &lt&lt&lt Home</a>
-<h2 class="mb-3">Packages that fail to build (🔴 + 🟠)</h2>
+<h2 class="mb-3">Packages that weren't built successfully (🔴 + 🟠 + ⚪)</h2>
 
 <style>
     .max-width-column {
@@ -96,6 +96,21 @@
         </thead>
         <tbody>
         
+            <tr id="row-APLpy">
+                <td>APLpy</td>
+                <td>⚪</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/APLpy/">
+                        Copr - APLpy
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2371672">F43FailsToInstall: python3-APLpy</a><br>
+                    
+                </td>
+            </tr>
+        
             <tr id="row-Mayavi">
                 <td>Mayavi</td>
                 <td>🔴</td>
@@ -111,6 +126,21 @@
                 </td>
             </tr>
         
+            <tr id="row-ara">
+                <td>ara</td>
+                <td>⚪</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/ara/">
+                        Copr - ara
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2331346">ara fails to build with Python 3.14: AttributeError: module &#39;pkgutil&#39; has no attribute &#39;find_loader&#39;</a><br>
+                    
+                </td>
+            </tr>
+        
             <tr id="row-asv">
                 <td>asv</td>
                 <td>🔴</td>
@@ -122,8 +152,6 @@
                 <td class="max-width-column">
                     
                     <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2367256">asv fails to build with Python 3.14: AttributeError: &#39;Constant&#39; object has no attribute &#39;s&#39;</a><br>
-                    
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2339908">asv: FTBFS in Fedora rawhide/f42</a><br>
                     
                 </td>
             </tr>
@@ -158,6 +186,51 @@
                 </td>
             </tr>
         
+            <tr id="row-bodhi-server">
+                <td>bodhi-server</td>
+                <td>⚪</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/bodhi-server/">
+                        Copr - bodhi-server
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2371683">F43FailsToInstall: bodhi-composer, bodhi-server</a><br>
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-bout++">
+                <td>bout++</td>
+                <td>⚪</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/bout++/">
+                        Copr - bout++
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2371685">F43FailsToInstall: python3-bout++-mpich, python3-bout++-openmpi</a><br>
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-buildbot">
+                <td>buildbot</td>
+                <td>⚪</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/buildbot/">
+                        Copr - buildbot
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2371686">F43FailsToInstall: buildbot-master, buildbot-master-container, buildbot-master-ec2, buildbot-master-libvirt, buildbot-master-openstack, buildbot-worker, buildbot-www</a><br>
+                    
+                </td>
+            </tr>
+        
             <tr id="row-buildstream">
                 <td>buildstream</td>
                 <td>🔴</td>
@@ -184,6 +257,21 @@
                 <td class="max-width-column">
                     
                     <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2371689">F43FailsToInstall: python3-cantera</a><br>
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-cfn-lint">
+                <td>cfn-lint</td>
+                <td>⚪</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/cfn-lint/">
+                        Copr - cfn-lint
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2371692">F43FailsToInstall: cfn-lint+full, cfn-lint+graph, cfn-lint+junit, cfn-lint+sarif, cfn-lint</a><br>
                     
                 </td>
             </tr>
@@ -248,6 +336,21 @@
                 </td>
             </tr>
         
+            <tr id="row-distro-info">
+                <td>distro-info</td>
+                <td>⚪</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/distro-info/">
+                        Copr - distro-info
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2371705">F43FailsToInstall: python3-distro-info</a><br>
+                    
+                </td>
+            </tr>
+        
             <tr id="row-dlib">
                 <td>dlib</td>
                 <td>🔴</td>
@@ -259,6 +362,21 @@
                 <td class="max-width-column">
                     
                     <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2366197">dlib fails to build with Python 3.14: AssertionError in tests checking refcounting</a><br>
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-dolfin">
+                <td>dolfin</td>
+                <td>⚪</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/dolfin/">
+                        Copr - dolfin
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2371707">F43FailsToInstall: python3-dolfin</a><br>
                     
                 </td>
             </tr>
@@ -320,7 +438,46 @@
                     
                     <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2368974">linode-cli fails to build with Python 3.14: The current dist-git state is unbuildable</a><br>
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2340775">linode-cli: FTBFS in Fedora rawhide/f42</a><br>
+                </td>
+            </tr>
+        
+            <tr id="row-mailman3-fedmsg-plugin">
+                <td>mailman3-fedmsg-plugin</td>
+                <td>⚪</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/mailman3-fedmsg-plugin/">
+                        Copr - mailman3-fedmsg-plugin
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-matrix-synapse">
+                <td>matrix-synapse</td>
+                <td>⚪</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/matrix-synapse/">
+                        Copr - matrix-synapse
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2371743">F43FailsToInstall: Multiple packages built from matrix-synapse</a><br>
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-mirrormanager2">
+                <td>mirrormanager2</td>
+                <td>⚪</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/mirrormanager2/">
+                        Copr - mirrormanager2
+                    </a>
+                </td>
+                <td class="max-width-column">
                     
                 </td>
             </tr>
@@ -340,6 +497,49 @@
                 </td>
             </tr>
         
+            <tr id="row-odcs">
+                <td>odcs</td>
+                <td>⚪</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/odcs/">
+                        Copr - odcs
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2371758">F43FailsToInstall: python3-odcs-common, odcs, python3-odcs-client</a><br>
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-openms">
+                <td>openms</td>
+                <td>⚪</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/openms/">
+                        Copr - openms
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2371763">F43FailsToInstall: python3-openms</a><br>
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-paraview">
+                <td>paraview</td>
+                <td>⚪</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/paraview/">
+                        Copr - paraview
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                </td>
+            </tr>
+        
             <tr id="row-patool">
                 <td>patool</td>
                 <td>🔴</td>
@@ -351,6 +551,21 @@
                 <td class="max-width-column">
                     
                     <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2366470">patool fails to build with Python 3.14: Codec Load Error: /usr/bin/7z.so : errno=25 : Inappropriate ioctl for device</a><br>
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-psi4">
+                <td>psi4</td>
+                <td>⚪</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/psi4/">
+                        Copr - psi4
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2371776">F43FailsToInstall: psi4</a><br>
                     
                 </td>
             </tr>
@@ -396,8 +611,6 @@
                 <td class="max-width-column">
                     
                     <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2366464">pysubnettree fails to build with Python 3.14/Fedora Rawhide: error: too many arguments to function ‘func’; expected 0, have 1</a><br>
-                    
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2341123">pysubnettree: FTBFS in Fedora rawhide/f42</a><br>
                     
                 </td>
             </tr>
@@ -447,6 +660,66 @@
                 </td>
             </tr>
         
+            <tr id="row-python-arm-preprocessing">
+                <td>python-arm-preprocessing</td>
+                <td>⚪</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/python-arm-preprocessing/">
+                        Copr - python-arm-preprocessing
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2371796">F43FailsToInstall: python3-arm-preprocessing</a><br>
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-python-arviz">
+                <td>python-arviz</td>
+                <td>⚪</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/python-arviz/">
+                        Copr - python-arviz
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2371797">F43FailsToInstall: python3-arviz</a><br>
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-python-ast-monitor">
+                <td>python-ast-monitor</td>
+                <td>⚪</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/python-ast-monitor/">
+                        Copr - python-ast-monitor
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2371799">F43FailsToInstall: python3-ast-monitor</a><br>
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-python-autobahn">
+                <td>python-autobahn</td>
+                <td>⚪</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/python-autobahn/">
+                        Copr - python-autobahn
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2371802">F43FailsToInstall: python3-autobahn+twisted, python3-autobahn</a><br>
+                    
+                </td>
+            </tr>
+        
             <tr id="row-python-avocado">
                 <td>python-avocado</td>
                 <td>🔴</td>
@@ -456,8 +729,6 @@
                     </a>
                 </td>
                 <td class="max-width-column">
-                    
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2341130">python-avocado: FTBFS in Fedora rawhide/f42</a><br>
                     
                     <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2325218">python-avocado fails to build with Python 3.14: Error running method &#34;pre_tests&#34; of plugin &#34;fetchasset&#34;: module &#39;ast&#39; has no attribute &#39;Str&#39; + Avocado crashed: TypeError: cannot pickle &#39;_thread.RLock&#39; object</a><br>
                     
@@ -494,19 +765,32 @@
                 </td>
             </tr>
         
-            <tr id="row-python-beartype">
-                <td>python-beartype</td>
-                <td>🔴</td>
+            <tr id="row-python-beangulp">
+                <td>python-beangulp</td>
+                <td>⚪</td>
                 <td>
-                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/python-beartype/">
-                        Copr - python-beartype
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/python-beangulp/">
+                        Copr - python-beangulp
                     </a>
                 </td>
                 <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2341131">python-beartype: FTBFS in Fedora rawhide/f42</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2371815">F43FailsToInstall: python3-beangulp</a><br>
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2322721">python-beartype fails to build with Python 3.14: ImportError: cannot import name &#39;ByteString&#39; from &#39;typing&#39;</a><br>
+                </td>
+            </tr>
+        
+            <tr id="row-python-beanprice">
+                <td>python-beanprice</td>
+                <td>⚪</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/python-beanprice/">
+                        Copr - python-beanprice
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2371816">F43FailsToInstall: python3-beanprice</a><br>
                     
                 </td>
             </tr>
@@ -538,8 +822,6 @@
                     
                     <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2371820">F43FailsToInstall: python3-bluepyopt</a><br>
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2341132">python-bluepyopt: FTBFS in Fedora rawhide/f42</a><br>
-                    
                 </td>
             </tr>
         
@@ -553,9 +835,37 @@
                 </td>
                 <td class="max-width-column">
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2341134">python-catkin_tools: FTBFS in Fedora rawhide/f42</a><br>
-                    
                     <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2329848">python-catkin_tools fails to build with sphinx 8.x:  ERROR: Invalid value `None` in intersphinx_mapping[&#39;http://docs.python.org/&#39;].</a><br>
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-python-ccdproc">
+                <td>python-ccdproc</td>
+                <td>⚪</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/python-ccdproc/">
+                        Copr - python-ccdproc
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2371827">F43FailsToInstall: python3-ccdproc</a><br>
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-python-celery">
+                <td>python-celery</td>
+                <td>⚪</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/python-celery/">
+                        Copr - python-celery
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2371829">F43FailsToInstall: python3-celery</a><br>
                     
                 </td>
             </tr>
@@ -605,6 +915,21 @@
                 </td>
             </tr>
         
+            <tr id="row-python-colcon-ros-bundle">
+                <td>python-colcon-ros-bundle</td>
+                <td>⚪</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/python-colcon-ros-bundle/">
+                        Copr - python-colcon-ros-bundle
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2371838">F43FailsToInstall: python3-colcon-ros-bundle</a><br>
+                    
+                </td>
+            </tr>
+        
             <tr id="row-python-crick">
                 <td>python-crick</td>
                 <td>🔴</td>
@@ -620,6 +945,36 @@
                 </td>
             </tr>
         
+            <tr id="row-python-daphne">
+                <td>python-daphne</td>
+                <td>⚪</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/python-daphne/">
+                        Copr - python-daphne
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2371851">F43FailsToInstall: python3-daphne</a><br>
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-python-dask">
+                <td>python-dask</td>
+                <td>⚪</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/python-dask/">
+                        Copr - python-dask
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2371852">F43FailsToInstall: python3-dask+array, python3-dask+bag, python3-dask+dataframe, python3-dask+delayed, python3-dask+distributed, python3-dask</a><br>
+                    
+                </td>
+            </tr>
+        
             <tr id="row-python-dataclassy">
                 <td>python-dataclassy</td>
                 <td>🔴</td>
@@ -631,6 +986,36 @@
                 <td class="max-width-column">
                     
                     <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2325200">python-dataclassy fails to build with Python 3.14: TypeError: Beta() takes no arguments</a><br>
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-python-datalad">
+                <td>python-datalad</td>
+                <td>⚪</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/python-datalad/">
+                        Copr - python-datalad
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2371854">F43FailsToInstall: python3-datalad</a><br>
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-python-distributed">
+                <td>python-distributed</td>
+                <td>⚪</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/python-distributed/">
+                        Copr - python-distributed
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2371862">F43FailsToInstall: python3-distributed</a><br>
                     
                 </td>
             </tr>
@@ -677,7 +1062,50 @@
                     
                     <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2371875">F43FailsToInstall: python3-earthpy</a><br>
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2341146">python-earthpy: FTBFS in Fedora rawhide/f42</a><br>
+                </td>
+            </tr>
+        
+            <tr id="row-python-einops">
+                <td>python-einops</td>
+                <td>⚪</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/python-einops/">
+                        Copr - python-einops
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2371876">F43FailsToInstall: python3-einops</a><br>
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-python-elastic-transport">
+                <td>python-elastic-transport</td>
+                <td>⚪</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/python-elastic-transport/">
+                        Copr - python-elastic-transport
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2371877">F43FailsToInstall: python3-elastic-transport</a><br>
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-python-elasticsearch">
+                <td>python-elasticsearch</td>
+                <td>⚪</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/python-elasticsearch/">
+                        Copr - python-elasticsearch
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2371878">F43FailsToInstall: python3-elasticsearch</a><br>
                     
                 </td>
             </tr>
@@ -693,6 +1121,51 @@
                 <td class="max-width-column">
                     
                     <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2371883">F43FailsToInstall: python3-esbonio+dev, python3-esbonio+typecheck, python3-esbonio</a><br>
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-python-eth-tester">
+                <td>python-eth-tester</td>
+                <td>⚪</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/python-eth-tester/">
+                        Copr - python-eth-tester
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2371891">F43FailsToInstall: python3-eth-tester</a><br>
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-python-eventlet">
+                <td>python-eventlet</td>
+                <td>⚪</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/python-eventlet/">
+                        Copr - python-eventlet
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2371893">F43FailsToInstall: python3-eventlet</a><br>
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-python-ffc">
+                <td>python-ffc</td>
+                <td>⚪</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/python-ffc/">
+                        Copr - python-ffc
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2371902">F43FailsToInstall: python3-ffc</a><br>
                     
                 </td>
             </tr>
@@ -723,6 +1196,36 @@
                 <td class="max-width-column">
                     
                     <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2351385">python-flake8-comprehensions fails to build with Python 3.14: Unnecessary reversed call around sorted() in 10 tests</a><br>
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-python-fsleyes">
+                <td>python-fsleyes</td>
+                <td>⚪</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/python-fsleyes/">
+                        Copr - python-fsleyes
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2371912">F43FailsToInstall: python3-fsleyes</a><br>
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-python-fsleyes-props">
+                <td>python-fsleyes-props</td>
+                <td>⚪</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/python-fsleyes-props/">
+                        Copr - python-fsleyes-props
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2371913">F43FailsToInstall: python3-fsleyes-props</a><br>
                     
                 </td>
             </tr>
@@ -769,7 +1272,20 @@
                     
                     <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2366465">python-gphoto2 fails to build with Python 3.14: ModuleNotFoundError: No module named &#39;distutils.command.upload&#39;</a><br>
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2341158">python-gphoto2: FTBFS in Fedora rawhide/f42</a><br>
+                </td>
+            </tr>
+        
+            <tr id="row-python-heatclient">
+                <td>python-heatclient</td>
+                <td>⚪</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/python-heatclient/">
+                        Copr - python-heatclient
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2371937">F43FailsToInstall: python3-heatclient</a><br>
                     
                 </td>
             </tr>
@@ -804,6 +1320,21 @@
                 </td>
             </tr>
         
+            <tr id="row-python-ironicclient">
+                <td>python-ironicclient</td>
+                <td>⚪</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/python-ironicclient/">
+                        Copr - python-ironicclient
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2371952">F43FailsToInstall: python3-ironicclient</a><br>
+                    
+                </td>
+            </tr>
+        
             <tr id="row-python-janus">
                 <td>python-janus</td>
                 <td>🔴</td>
@@ -815,6 +1346,81 @@
                 <td class="max-width-column">
                     
                     <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2371953">F43FailsToInstall: python3-janus</a><br>
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-python-jsons">
+                <td>python-jsons</td>
+                <td>⚪</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/python-jsons/">
+                        Copr - python-jsons
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2371957">F43FailsToInstall: python3-jsons</a><br>
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-python-libpysal">
+                <td>python-libpysal</td>
+                <td>⚪</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/python-libpysal/">
+                        Copr - python-libpysal
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2371962">F43FailsToInstall: python3-libpysal</a><br>
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-python-lion-pytorch">
+                <td>python-lion-pytorch</td>
+                <td>⚪</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/python-lion-pytorch/">
+                        Copr - python-lion-pytorch
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2371963">F43FailsToInstall: python3-lion-pytorch</a><br>
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-python-manilaclient">
+                <td>python-manilaclient</td>
+                <td>⚪</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/python-manilaclient/">
+                        Copr - python-manilaclient
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2371971">F43FailsToInstall: python3-manilaclient</a><br>
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-python-mapclassify">
+                <td>python-mapclassify</td>
+                <td>⚪</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/python-mapclassify/">
+                        Copr - python-mapclassify
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2371972">F43FailsToInstall: python3-mapclassify</a><br>
                     
                 </td>
             </tr>
@@ -834,6 +1440,21 @@
                 </td>
             </tr>
         
+            <tr id="row-python-mistralclient">
+                <td>python-mistralclient</td>
+                <td>⚪</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/python-mistralclient/">
+                        Copr - python-mistralclient
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2371979">F43FailsToInstall: python3-mistralclient</a><br>
+                    
+                </td>
+            </tr>
+        
             <tr id="row-python-mkapi">
                 <td>python-mkapi</td>
                 <td>🔴</td>
@@ -845,6 +1466,51 @@
                 <td class="max-width-column">
                     
                     <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2342559">python-mkapi fails to build with Python 3.14: Expected: [None, &lt;ast.Constant object at 0x...&gt;, &lt;ast.Constant object at 0x...&gt;] Got: [None, Constant(value=2, kind=None), Constant(value=3, kind=None)]</a><br>
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-python-mkdocs-rss-plugin">
+                <td>python-mkdocs-rss-plugin</td>
+                <td>⚪</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/python-mkdocs-rss-plugin/">
+                        Copr - python-mkdocs-rss-plugin
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2371984">F43FailsToInstall: python3-mkdocs-rss-plugin</a><br>
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-python-mne">
+                <td>python-mne</td>
+                <td>⚪</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/python-mne/">
+                        Copr - python-mne
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2371986">F43FailsToInstall: python3-mne</a><br>
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-python-mne-bids">
+                <td>python-mne-bids</td>
+                <td>⚪</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/python-mne-bids/">
+                        Copr - python-mne-bids
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2371987">F43FailsToInstall: python3-mne-bids+full, python3-mne-bids</a><br>
                     
                 </td>
             </tr>
@@ -864,6 +1530,66 @@
                 </td>
             </tr>
         
+            <tr id="row-python-network-runner">
+                <td>python-network-runner</td>
+                <td>⚪</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/python-network-runner/">
+                        Copr - python-network-runner
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2371996">F43FailsToInstall: python3-network-runner</a><br>
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-python-neurom">
+                <td>python-neurom</td>
+                <td>⚪</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/python-neurom/">
+                        Copr - python-neurom
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2371997">F43FailsToInstall: python3-neurom+plotly, python3-neurom</a><br>
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-python-neutronclient">
+                <td>python-neutronclient</td>
+                <td>⚪</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/python-neutronclient/">
+                        Copr - python-neutronclient
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2371998">F43FailsToInstall: python3-neutronclient, python3-neutronclient-tests</a><br>
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-python-niaarm">
+                <td>python-niaarm</td>
+                <td>⚪</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/python-niaarm/">
+                        Copr - python-niaarm
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2371999">F43FailsToInstall: python3-niaarm</a><br>
+                    
+                </td>
+            </tr>
+        
             <tr id="row-python-niaarmts">
                 <td>python-niaarmts</td>
                 <td>🔴</td>
@@ -875,6 +1601,81 @@
                 <td class="max-width-column">
                     
                     <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2369421">python-niaarmts fails to build with Python 3.14: ERROR: Package &#39;niaarmts&#39; requires a different Python: 3.14.0 not in &#39;&lt;3.14,&gt;=3.11&#39;</a><br>
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-python-nilearn">
+                <td>python-nilearn</td>
+                <td>⚪</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/python-nilearn/">
+                        Copr - python-nilearn
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2372003">F43FailsToInstall: python3-nilearn</a><br>
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-python-nipype">
+                <td>python-nipype</td>
+                <td>⚪</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/python-nipype/">
+                        Copr - python-nipype
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2372004">F43FailsToInstall: python3-nipype+data, python3-nipype+duecredit, python3-nipype+nipy, python3-nipype+pybids, python3-nipype+ssh, python3-nipype</a><br>
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-python-novaclient">
+                <td>python-novaclient</td>
+                <td>⚪</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/python-novaclient/">
+                        Copr - python-novaclient
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2372005">F43FailsToInstall: python3-novaclient</a><br>
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-python-novaclient-os-networks">
+                <td>python-novaclient-os-networks</td>
+                <td>⚪</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/python-novaclient-os-networks/">
+                        Copr - python-novaclient-os-networks
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2372006">F43FailsToInstall: python3-novaclient-os-networks</a><br>
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-python-novaclient-os-virtual-interfaces">
+                <td>python-novaclient-os-virtual-interfaces</td>
+                <td>⚪</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/python-novaclient-os-virtual-interfaces/">
+                        Copr - python-novaclient-os-virtual-interfaces
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2372007">F43FailsToInstall: python3-novaclient-os-virtual-interfaces</a><br>
                     
                 </td>
             </tr>
@@ -894,6 +1695,64 @@
                 </td>
             </tr>
         
+            <tr id="row-python-octaviaclient">
+                <td>python-octaviaclient</td>
+                <td>⚪</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/python-octaviaclient/">
+                        Copr - python-octaviaclient
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2372009">F43FailsToInstall: python3-octaviaclient, python3-octaviaclient-tests</a><br>
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-python-openstackclient">
+                <td>python-openstackclient</td>
+                <td>⚪</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/python-openstackclient/">
+                        Copr - python-openstackclient
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2372016">F43FailsToInstall: python3-openstackclient</a><br>
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-python-optking">
+                <td>python-optking</td>
+                <td>⚪</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/python-optking/">
+                        Copr - python-optking
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2372017">F43FailsToInstall: python3-optking</a><br>
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-python-oslo-middleware">
+                <td>python-oslo-middleware</td>
+                <td>⚪</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/python-oslo-middleware/">
+                        Copr - python-oslo-middleware
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                </td>
+            </tr>
+        
             <tr id="row-python-pamela">
                 <td>python-pamela</td>
                 <td>🔴</td>
@@ -905,6 +1764,36 @@
                 <td class="max-width-column">
                     
                     <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2366474">python-pamela fails to build with Python 3.14: pamela.PAMError: [PAM Error 26] Critical error - immediate abort</a><br>
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-python-pandas-flavor">
+                <td>python-pandas-flavor</td>
+                <td>⚪</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/python-pandas-flavor/">
+                        Copr - python-pandas-flavor
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2372024">F43FailsToInstall: python3-pandas-flavor</a><br>
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-python-pingouin">
+                <td>python-pingouin</td>
+                <td>⚪</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/python-pingouin/">
+                        Copr - python-pingouin
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2372029">F43FailsToInstall: python3-pingouin</a><br>
                     
                 </td>
             </tr>
@@ -924,6 +1813,21 @@
                 </td>
             </tr>
         
+            <tr id="row-python-plotly">
+                <td>python-plotly</td>
+                <td>⚪</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/python-plotly/">
+                        Copr - python-plotly
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2372034">F43FailsToInstall: python3-plotly</a><br>
+                    
+                </td>
+            </tr>
+        
             <tr id="row-python-plotnine">
                 <td>python-plotnine</td>
                 <td>🔴</td>
@@ -935,6 +1839,21 @@
                 <td class="max-width-column">
                     
                     <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2372035">F43FailsToInstall: python3-plotnine+extra, python3-plotnine</a><br>
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-python-pocketlint">
+                <td>python-pocketlint</td>
+                <td>⚪</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/python-pocketlint/">
+                        Copr - python-pocketlint
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2372037">F43FailsToInstall: python3-pocketlint</a><br>
                     
                 </td>
             </tr>
@@ -984,6 +1903,21 @@
                 </td>
             </tr>
         
+            <tr id="row-python-pybv">
+                <td>python-pybv</td>
+                <td>⚪</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/python-pybv/">
+                        Copr - python-pybv
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2372051">F43FailsToInstall: python3-pybv</a><br>
+                    
+                </td>
+            </tr>
+        
             <tr id="row-python-pycec">
                 <td>python-pycec</td>
                 <td>🔴</td>
@@ -995,6 +1929,19 @@
                 <td class="max-width-column">
                     
                     <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2327973">python-pycec fails to build with Python 3.14: RuntimeError: There is no current event loop in thread &#39;MainThread&#39;.</a><br>
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-python-pycomfoair">
+                <td>python-pycomfoair</td>
+                <td>⚪</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/python-pycomfoair/">
+                        Copr - python-pycomfoair
+                    </a>
+                </td>
+                <td class="max-width-column">
                     
                 </td>
             </tr>
@@ -1014,6 +1961,21 @@
                 </td>
             </tr>
         
+            <tr id="row-python-pylint-venv">
+                <td>python-pylint-venv</td>
+                <td>⚪</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/python-pylint-venv/">
+                        Copr - python-pylint-venv
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2372061">F43FailsToInstall: python3-pylint-venv</a><br>
+                    
+                </td>
+            </tr>
+        
             <tr id="row-python-pyopencl">
                 <td>python-pyopencl</td>
                 <td>🔴</td>
@@ -1025,6 +1987,21 @@
                 <td class="max-width-column">
                     
                     <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2341190">python-pyopencl: FTBFS in Fedora rawhide/f42</a><br>
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-python-pyphi">
+                <td>python-pyphi</td>
+                <td>⚪</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/python-pyphi/">
+                        Copr - python-pyphi
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2372070">F43FailsToInstall: python3-pyphi</a><br>
                     
                 </td>
             </tr>
@@ -1041,7 +2018,20 @@
                     
                     <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2372073">F43FailsToInstall: python3-pysaml2</a><br>
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2341199">python-pysaml2: FTBFS in Fedora rawhide/f42</a><br>
+                </td>
+            </tr>
+        
+            <tr id="row-python-pyshtools">
+                <td>python-pyshtools</td>
+                <td>⚪</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/python-pyshtools/">
+                        Copr - python-pyshtools
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2372075">F43FailsToInstall: python3-pyshtools+cartopy, python3-pyshtools+ducc, python3-pyshtools</a><br>
                     
                 </td>
             </tr>
@@ -1091,6 +2081,36 @@
                 </td>
             </tr>
         
+            <tr id="row-python-qcengine">
+                <td>python-qcengine</td>
+                <td>⚪</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/python-qcengine/">
+                        Copr - python-qcengine
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2372090">F43FailsToInstall: python3-qcengine</a><br>
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-python-qemu-qmp">
+                <td>python-qemu-qmp</td>
+                <td>⚪</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/python-qemu-qmp/">
+                        Copr - python-qemu-qmp
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2372091">F43FailsToInstall: python3-qemu-qmp</a><br>
+                    
+                </td>
+            </tr>
+        
             <tr id="row-python-readability-lxml">
                 <td>python-readability-lxml</td>
                 <td>🔴</td>
@@ -1133,7 +2153,20 @@
                     
                     <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2366491">python-remoto fails to build with Python 3.14: AttributeError: &#39;TestRemoteError&#39; object has no attribute &#39;traceback&#39;</a><br>
                     
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2341205">python-remoto: FTBFS in Fedora rawhide/f42</a><br>
+                </td>
+            </tr>
+        
+            <tr id="row-python-reproject">
+                <td>python-reproject</td>
+                <td>⚪</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/python-reproject/">
+                        Copr - python-reproject
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2372104">F43FailsToInstall: python3-reproject</a><br>
                     
                 </td>
             </tr>
@@ -1147,8 +2180,6 @@
                     </a>
                 </td>
                 <td class="max-width-column">
-                    
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2341207">python-rosdep: FTBFS in Fedora rawhide/f42</a><br>
                     
                     <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2329891">python-rosdep fails to build with sphinx 8.x: ERROR: Invalid value `None` in intersphinx_mapping[&#39;http://docs.python.org/&#39;].</a><br>
                     
@@ -1185,6 +2216,21 @@
                 </td>
             </tr>
         
+            <tr id="row-python-saharaclient">
+                <td>python-saharaclient</td>
+                <td>⚪</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/python-saharaclient/">
+                        Copr - python-saharaclient
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2372114">F43FailsToInstall: python3-saharaclient</a><br>
+                    
+                </td>
+            </tr>
+        
             <tr id="row-python-simframe">
                 <td>python-simframe</td>
                 <td>🔴</td>
@@ -1196,6 +2242,19 @@
                 <td class="max-width-column">
                     
                     <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2352552">python-simframe fails to build with Python 3.14: TypeError: cannot pickle &#39;itertools.cycle&#39; object</a><br>
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-python-snakemake-executor-plugin-azure-batch">
+                <td>python-snakemake-executor-plugin-azure-batch</td>
+                <td>⚪</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/python-snakemake-executor-plugin-azure-batch/">
+                        Copr - python-snakemake-executor-plugin-azure-batch
+                    </a>
+                </td>
+                <td class="max-width-column">
                     
                 </td>
             </tr>
@@ -1215,6 +2274,21 @@
                 </td>
             </tr>
         
+            <tr id="row-python-sport-activities-features">
+                <td>python-sport-activities-features</td>
+                <td>⚪</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/python-sport-activities-features/">
+                        Copr - python-sport-activities-features
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2372146">F43FailsToInstall: python3-sport-activities-features</a><br>
+                    
+                </td>
+            </tr>
+        
             <tr id="row-python-sqlmodel">
                 <td>python-sqlmodel</td>
                 <td>🔴</td>
@@ -1230,6 +2304,51 @@
                 </td>
             </tr>
         
+            <tr id="row-python-steam">
+                <td>python-steam</td>
+                <td>⚪</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/python-steam/">
+                        Copr - python-steam
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2372152">F43FailsToInstall: python3-steam</a><br>
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-python-taskflow">
+                <td>python-taskflow</td>
+                <td>⚪</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/python-taskflow/">
+                        Copr - python-taskflow
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2372159">F43FailsToInstall: python3-taskflow</a><br>
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-python-tinygrad">
+                <td>python-tinygrad</td>
+                <td>⚪</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/python-tinygrad/">
+                        Copr - python-tinygrad
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2372162">F43FailsToInstall: python3-tinygrad</a><br>
+                    
+                </td>
+            </tr>
+        
             <tr id="row-python-torch">
                 <td>python-torch</td>
                 <td>🔴</td>
@@ -1241,6 +2360,111 @@
                 <td class="max-width-column">
                     
                     <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2372164">F43FailsToInstall: python3-torch</a><br>
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-python-torchaudio">
+                <td>python-torchaudio</td>
+                <td>⚪</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/python-torchaudio/">
+                        Copr - python-torchaudio
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2372165">F43FailsToInstall: python3-torchaudio</a><br>
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-python-torchdata">
+                <td>python-torchdata</td>
+                <td>⚪</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/python-torchdata/">
+                        Copr - python-torchdata
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2372166">F43FailsToInstall: python3-torchdata</a><br>
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-python-torchdiffeq">
+                <td>python-torchdiffeq</td>
+                <td>⚪</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/python-torchdiffeq/">
+                        Copr - python-torchdiffeq
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2372167">F43FailsToInstall: python3-torchdiffeq</a><br>
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-python-torchsde">
+                <td>python-torchsde</td>
+                <td>⚪</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/python-torchsde/">
+                        Copr - python-torchsde
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2372168">F43FailsToInstall: python3-torchsde</a><br>
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-python-torchtext">
+                <td>python-torchtext</td>
+                <td>⚪</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/python-torchtext/">
+                        Copr - python-torchtext
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2372169">F43FailsToInstall: python3-torchtext</a><br>
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-python-torchvision">
+                <td>python-torchvision</td>
+                <td>⚪</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/python-torchvision/">
+                        Copr - python-torchvision
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2372170">F43FailsToInstall: python3-torchvision</a><br>
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-python-troveclient">
+                <td>python-troveclient</td>
+                <td>⚪</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/python-troveclient/">
+                        Copr - python-troveclient
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2372175">F43FailsToInstall: python3-troveclient</a><br>
                     
                 </td>
             </tr>
@@ -1275,6 +2499,19 @@
                 </td>
             </tr>
         
+            <tr id="row-python-typish">
+                <td>python-typish</td>
+                <td>⚪</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/python-typish/">
+                        Copr - python-typish
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                </td>
+            </tr>
+        
             <tr id="row-python-uvloop">
                 <td>python-uvloop</td>
                 <td>🔴</td>
@@ -1284,8 +2521,6 @@
                     </a>
                 </td>
                 <td class="max-width-column">
-                    
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2341233">python-uvloop: FTBFS in Fedora rawhide/f42</a><br>
                     
                     <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2326210">python-uvloop fails to build with Python 3.14: AttributeError: module &#39;asyncio&#39; has no attribute &#39;AbstractChildWatcher&#39;</a><br>
                     
@@ -1303,6 +2538,66 @@
                 <td class="max-width-column">
                     
                     <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2349444">python-valkey fails to build with Python 3.14: _pickle.PicklingError: Can&#39;t pickle local object &lt;function TestMultiprocessing.test_close_connection_in_child.&lt;locals&gt;.target at 0x7f5aa68cddd0&gt;</a><br>
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-python-wxnatpy">
+                <td>python-wxnatpy</td>
+                <td>⚪</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/python-wxnatpy/">
+                        Copr - python-wxnatpy
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2372198">F43FailsToInstall: python3-wxnatpy</a><br>
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-python-xarray">
+                <td>python-xarray</td>
+                <td>⚪</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/python-xarray/">
+                        Copr - python-xarray
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2372200">F43FailsToInstall: python3-xarray+io, python3-xarray</a><br>
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-python-xarray-einstats">
+                <td>python-xarray-einstats</td>
+                <td>⚪</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/python-xarray-einstats/">
+                        Copr - python-xarray-einstats
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2372201">F43FailsToInstall: python3-xarray-einstats</a><br>
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-python-xbout">
+                <td>python-xbout</td>
+                <td>⚪</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/python-xbout/">
+                        Copr - python-xbout
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2372202">F43FailsToInstall: python3-xbout</a><br>
                     
                 </td>
             </tr>
@@ -1337,6 +2632,36 @@
                 </td>
             </tr>
         
+            <tr id="row-qtile-extras">
+                <td>qtile-extras</td>
+                <td>⚪</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/qtile-extras/">
+                        Copr - qtile-extras
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2372210">F43FailsToInstall: qtile-extras</a><br>
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-retext">
+                <td>retext</td>
+                <td>⚪</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/retext/">
+                        Copr - retext
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2372215">F43FailsToInstall: retext</a><br>
+                    
+                </td>
+            </tr>
+        
             <tr id="row-rpm-head-signing">
                 <td>rpm-head-signing</td>
                 <td>🔴</td>
@@ -1348,6 +2673,21 @@
                 <td class="max-width-column">
                     
                     <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2366308">rpm-head-signing: FTBFS in Fedora Rawhide with RPM 6</a><br>
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-scancode-toolkit">
+                <td>scancode-toolkit</td>
+                <td>⚪</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/scancode-toolkit/">
+                        Copr - scancode-toolkit
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2372219">F43FailsToInstall: scancode-toolkit</a><br>
                     
                 </td>
             </tr>
@@ -1367,6 +2707,21 @@
                 </td>
             </tr>
         
+            <tr id="row-stats-collect">
+                <td>stats-collect</td>
+                <td>⚪</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/stats-collect/">
+                        Copr - stats-collect
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2372225">F43FailsToInstall: stats-collect</a><br>
+                    
+                </td>
+            </tr>
+        
             <tr id="row-strongswan">
                 <td>strongswan</td>
                 <td>🔴</td>
@@ -1378,8 +2733,6 @@
                 <td class="max-width-column">
                     
                     <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2368971">strongswan: FTBFS in Fedora Rawhide: error: possibly undefined macro: AC_LIB_PREFIX</a><br>
-                    
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2332864">strongswan-5.9.14-5.fc42 FTBFS: strongswan-5.9.14/missing: line 81: aclocal-1.16: command not found</a><br>
                     
                 </td>
             </tr>
@@ -1414,6 +2767,51 @@
                 </td>
             </tr>
         
+            <tr id="row-swift-lang">
+                <td>swift-lang</td>
+                <td>⚪</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/swift-lang/">
+                        Copr - swift-lang
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2341403">swift-lang: FTBFS in Fedora rawhide/f42</a><br>
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-syncstar">
+                <td>syncstar</td>
+                <td>⚪</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/syncstar/">
+                        Copr - syncstar
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2372230">F43FailsToInstall: syncstar</a><br>
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-thonny">
+                <td>thonny</td>
+                <td>⚪</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/thonny/">
+                        Copr - thonny
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2372232">F43FailsToInstall: thonny</a><br>
+                    
+                </td>
+            </tr>
+        
             <tr id="row-tmt">
                 <td>tmt</td>
                 <td>🔴</td>
@@ -1444,6 +2842,21 @@
                 </td>
             </tr>
         
+            <tr id="row-wult">
+                <td>wult</td>
+                <td>⚪</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/wult/">
+                        Copr - wult
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2372241">F43FailsToInstall: python3-wult</a><br>
+                    
+                </td>
+            </tr>
+        
             <tr id="row-zeek">
                 <td>zeek</td>
                 <td>🔴</td>
@@ -1455,8 +2868,6 @@
                 <td class="max-width-column">
                     
                     <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2366467">zeek fails to build in Fedora Rawhide: Could not find prerequisite package &#39;BIND&#39;</a><br>
-                    
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2341601">zeek: FTBFS in Fedora rawhide/f42</a><br>
                     
                 </td>
             </tr>
@@ -1472,7 +2883,7 @@
     <hr>
     <footer>
       <p>Maintained by <a href="https://github.com/befeleme">@befeleme</a>, source on <a href="https://github.com/befeleme/fedora-python-rebuild-status">GitHub</a>.</p>
-      <p>Last updated on <span class="date">2025-07-25 04:11:34.405421</span> (updated daily)</p>
+      <p>Last updated on <span class="date">2025-07-25 09:52:03.534801</span> (updated daily)</p>
     </footer>
   </div>
 </body>
