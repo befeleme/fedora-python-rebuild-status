@@ -17,3 +17,18 @@ The necessary packages are defined in `requirements.txt`.
 - This repo is licensed under MIT.
 - `templates/base.html` and `templates/wheels.html` come from [pyreadiness.org](https://github.com/di/pyreadiness/) and are licensed under Apache-2.0.
 - `wheels.py` derives the data obtaining logic from [pythonwheels.com](https://pythonwheels.com/) and is licensed under BSD-2-Clause.
+
+## Running the page locally
+
+1. Install project requirements to a venv.
+
+`$ pip install -r requirements.txt`
+
+2. You may want to change the `wheels.py` to fetch less than 360 packages when developing other pages.
+3. If you changed scripts loading data, you may want to rerun them to generate new files.
+
+`$ ./scripts/run.sh`
+
+4. Run the flask app.
+
+`$ flask run`
