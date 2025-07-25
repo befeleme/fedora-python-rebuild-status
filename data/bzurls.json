@@ -1,4 +1,12 @@
 {
+  "APLpy": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2371672"
+    ],
+    "summaries": [
+      "F43FailsToInstall: python3-APLpy"
+    ]
+  },
   "Mayavi": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2351390"
@@ -7,14 +15,20 @@
       "Mayavi fails to build with Python 3.14: TestMayaviGarbageCollection.test_mlab_scene_model_with_gui: IndexError: list index out of range"
     ]
   },
-  "asv": {
+  "ara": {
     "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2367256",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2339908"
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2331346"
     ],
     "summaries": [
-      "asv fails to build with Python 3.14: AttributeError: 'Constant' object has no attribute 's'",
-      "asv: FTBFS in Fedora rawhide/f42"
+      "ara fails to build with Python 3.14: AttributeError: module 'pkgutil' has no attribute 'find_loader'"
+    ]
+  },
+  "asv": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2367256"
+    ],
+    "summaries": [
+      "asv fails to build with Python 3.14: AttributeError: 'Constant' object has no attribute 's'"
     ]
   },
   "bandit": {
@@ -33,6 +47,30 @@
       "binwalk fails to build with Python 3.14: TypeError: unsupported operand type(s) for +=: 'NoneType' and 'int'"
     ]
   },
+  "bodhi-server": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2371683"
+    ],
+    "summaries": [
+      "F43FailsToInstall: bodhi-composer, bodhi-server"
+    ]
+  },
+  "bout++": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2371685"
+    ],
+    "summaries": [
+      "F43FailsToInstall: python3-bout++-mpich, python3-bout++-openmpi"
+    ]
+  },
+  "buildbot": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2371686"
+    ],
+    "summaries": [
+      "F43FailsToInstall: buildbot-master, buildbot-master-container, buildbot-master-ec2, buildbot-master-libvirt, buildbot-master-openstack, buildbot-worker, buildbot-www"
+    ]
+  },
   "buildstream": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2371687"
@@ -47,6 +85,14 @@
     ],
     "summaries": [
       "F43FailsToInstall: python3-cantera"
+    ]
+  },
+  "cfn-lint": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2371692"
+    ],
+    "summaries": [
+      "F43FailsToInstall: cfn-lint+full, cfn-lint+graph, cfn-lint+junit, cfn-lint+sarif, cfn-lint"
     ]
   },
   "cjdns": {
@@ -81,12 +127,28 @@
       "criu fails to build with Python 3.14: protobuf - TypeError: Metaclasses with custom tp_new are not supported."
     ]
   },
+  "distro-info": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2371705"
+    ],
+    "summaries": [
+      "F43FailsToInstall: python3-distro-info"
+    ]
+  },
   "dlib": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2366197"
     ],
     "summaries": [
       "dlib fails to build with Python 3.14: AssertionError in tests checking refcounting"
+    ]
+  },
+  "dolfin": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2371707"
+    ],
+    "summaries": [
+      "F43FailsToInstall: python3-dolfin"
     ]
   },
   "duplicity": {
@@ -115,13 +177,27 @@
   },
   "linode-cli": {
     "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2368974",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2340775"
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2368974"
     ],
     "summaries": [
-      "linode-cli fails to build with Python 3.14: The current dist-git state is unbuildable",
-      "linode-cli: FTBFS in Fedora rawhide/f42"
+      "linode-cli fails to build with Python 3.14: The current dist-git state is unbuildable"
     ]
+  },
+  "mailman3-fedmsg-plugin": {
+    "urls": [],
+    "summaries": []
+  },
+  "matrix-synapse": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2371743"
+    ],
+    "summaries": [
+      "F43FailsToInstall: Multiple packages built from matrix-synapse"
+    ]
+  },
+  "mirrormanager2": {
+    "urls": [],
+    "summaries": []
   },
   "ocrmypdf": {
     "urls": [
@@ -131,12 +207,40 @@
       "ocrmypdf fails to build with Python 3.14: multiprocessing.Process now starts with forkserver method instead of fork, causing pickling error"
     ]
   },
+  "odcs": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2371758"
+    ],
+    "summaries": [
+      "F43FailsToInstall: python3-odcs-common, odcs, python3-odcs-client"
+    ]
+  },
+  "openms": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2371763"
+    ],
+    "summaries": [
+      "F43FailsToInstall: python3-openms"
+    ]
+  },
+  "paraview": {
+    "urls": [],
+    "summaries": []
+  },
   "patool": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2366470"
     ],
     "summaries": [
       "patool fails to build with Python 3.14: Codec Load Error: /usr/bin/7z.so : errno=25 : Inappropriate ioctl for device"
+    ]
+  },
+  "psi4": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2371776"
+    ],
+    "summaries": [
+      "F43FailsToInstall: psi4"
     ]
   },
   "pylint": {
@@ -157,12 +261,10 @@
   },
   "pysubnettree": {
     "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2366464",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2341123"
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2366464"
     ],
     "summaries": [
-      "pysubnettree fails to build with Python 3.14/Fedora Rawhide: error: too many arguments to function \u2018func\u2019; expected 0, have 1",
-      "pysubnettree: FTBFS in Fedora rawhide/f42"
+      "pysubnettree fails to build with Python 3.14/Fedora Rawhide: error: too many arguments to function \u2018func\u2019; expected 0, have 1"
     ]
   },
   "python-Mastodon": {
@@ -189,13 +291,43 @@
       "F43FailsToInstall: python3-ansible-runner"
     ]
   },
+  "python-arm-preprocessing": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2371796"
+    ],
+    "summaries": [
+      "F43FailsToInstall: python3-arm-preprocessing"
+    ]
+  },
+  "python-arviz": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2371797"
+    ],
+    "summaries": [
+      "F43FailsToInstall: python3-arviz"
+    ]
+  },
+  "python-ast-monitor": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2371799"
+    ],
+    "summaries": [
+      "F43FailsToInstall: python3-ast-monitor"
+    ]
+  },
+  "python-autobahn": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2371802"
+    ],
+    "summaries": [
+      "F43FailsToInstall: python3-autobahn+twisted, python3-autobahn"
+    ]
+  },
   "python-avocado": {
     "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2341130",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2325218"
     ],
     "summaries": [
-      "python-avocado: FTBFS in Fedora rawhide/f42",
       "python-avocado fails to build with Python 3.14: Error running method \"pre_tests\" of plugin \"fetchasset\": module 'ast' has no attribute 'Str' + Avocado crashed: TypeError: cannot pickle '_thread.RLock' object"
     ]
   },
@@ -215,14 +347,20 @@
       "python-beancount fails to build with Python 3.14: TestReferenceCounting and TestLexer fail with AssertionError"
     ]
   },
-  "python-beartype": {
+  "python-beangulp": {
     "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2341131",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2322721"
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2371815"
     ],
     "summaries": [
-      "python-beartype: FTBFS in Fedora rawhide/f42",
-      "python-beartype fails to build with Python 3.14: ImportError: cannot import name 'ByteString' from 'typing'"
+      "F43FailsToInstall: python3-beangulp"
+    ]
+  },
+  "python-beanprice": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2371816"
+    ],
+    "summaries": [
+      "F43FailsToInstall: python3-beanprice"
     ]
   },
   "python-billiard": {
@@ -235,22 +373,34 @@
   },
   "python-bluepyopt": {
     "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2371820",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2341132"
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2371820"
     ],
     "summaries": [
-      "F43FailsToInstall: python3-bluepyopt",
-      "python-bluepyopt: FTBFS in Fedora rawhide/f42"
+      "F43FailsToInstall: python3-bluepyopt"
     ]
   },
   "python-catkin_tools": {
     "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2341134",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2329848"
     ],
     "summaries": [
-      "python-catkin_tools: FTBFS in Fedora rawhide/f42",
       "python-catkin_tools fails to build with sphinx 8.x:  ERROR: Invalid value `None` in intersphinx_mapping['http://docs.python.org/']."
+    ]
+  },
+  "python-ccdproc": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2371827"
+    ],
+    "summaries": [
+      "F43FailsToInstall: python3-ccdproc"
+    ]
+  },
+  "python-celery": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2371829"
+    ],
+    "summaries": [
+      "F43FailsToInstall: python3-celery"
     ]
   },
   "python-chalice": {
@@ -277,6 +427,14 @@
       "python-colcon-parallel-executor fails to build with Python 3.14: test_parallel: AssertionError: DeprecationWarning: 'asyncio.iscoroutinefunction' is deprecated and slated for removal in Python 3.16; use inspect.iscoroutinefunction() instead"
     ]
   },
+  "python-colcon-ros-bundle": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2371838"
+    ],
+    "summaries": [
+      "F43FailsToInstall: python3-colcon-ros-bundle"
+    ]
+  },
   "python-crick": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2367454"
@@ -285,12 +443,44 @@
       "python-crick fails to build with Python 3.14: crick/tests/test_space_saving.py::test_merge_algorithm[s111-s211] Fatal Python error: Segmentation fault"
     ]
   },
+  "python-daphne": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2371851"
+    ],
+    "summaries": [
+      "F43FailsToInstall: python3-daphne"
+    ]
+  },
+  "python-dask": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2371852"
+    ],
+    "summaries": [
+      "F43FailsToInstall: python3-dask+array, python3-dask+bag, python3-dask+dataframe, python3-dask+delayed, python3-dask+distributed, python3-dask"
+    ]
+  },
   "python-dataclassy": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2325200"
     ],
     "summaries": [
       "python-dataclassy fails to build with Python 3.14: TypeError: Beta() takes no arguments"
+    ]
+  },
+  "python-datalad": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2371854"
+    ],
+    "summaries": [
+      "F43FailsToInstall: python3-datalad"
+    ]
+  },
+  "python-distributed": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2371862"
+    ],
+    "summaries": [
+      "F43FailsToInstall: python3-distributed"
     ]
   },
   "python-django-cacheops": {
@@ -311,12 +501,34 @@
   },
   "python-earthpy": {
     "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2371875",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2341146"
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2371875"
     ],
     "summaries": [
-      "F43FailsToInstall: python3-earthpy",
-      "python-earthpy: FTBFS in Fedora rawhide/f42"
+      "F43FailsToInstall: python3-earthpy"
+    ]
+  },
+  "python-einops": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2371876"
+    ],
+    "summaries": [
+      "F43FailsToInstall: python3-einops"
+    ]
+  },
+  "python-elastic-transport": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2371877"
+    ],
+    "summaries": [
+      "F43FailsToInstall: python3-elastic-transport"
+    ]
+  },
+  "python-elasticsearch": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2371878"
+    ],
+    "summaries": [
+      "F43FailsToInstall: python3-elasticsearch"
     ]
   },
   "python-esbonio": {
@@ -325,6 +537,30 @@
     ],
     "summaries": [
       "F43FailsToInstall: python3-esbonio+dev, python3-esbonio+typecheck, python3-esbonio"
+    ]
+  },
+  "python-eth-tester": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2371891"
+    ],
+    "summaries": [
+      "F43FailsToInstall: python3-eth-tester"
+    ]
+  },
+  "python-eventlet": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2371893"
+    ],
+    "summaries": [
+      "F43FailsToInstall: python3-eventlet"
+    ]
+  },
+  "python-ffc": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2371902"
+    ],
+    "summaries": [
+      "F43FailsToInstall: python3-ffc"
     ]
   },
   "python-fiat": {
@@ -341,6 +577,22 @@
     ],
     "summaries": [
       "python-flake8-comprehensions fails to build with Python 3.14: Unnecessary reversed call around sorted() in 10 tests"
+    ]
+  },
+  "python-fsleyes": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2371912"
+    ],
+    "summaries": [
+      "F43FailsToInstall: python3-fsleyes"
+    ]
+  },
+  "python-fsleyes-props": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2371913"
+    ],
+    "summaries": [
+      "F43FailsToInstall: python3-fsleyes-props"
     ]
   },
   "python-fsleyes-widgets": {
@@ -361,12 +613,18 @@
   },
   "python-gphoto2": {
     "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2366465",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2341158"
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2366465"
     ],
     "summaries": [
-      "python-gphoto2 fails to build with Python 3.14: ModuleNotFoundError: No module named 'distutils.command.upload'",
-      "python-gphoto2: FTBFS in Fedora rawhide/f42"
+      "python-gphoto2 fails to build with Python 3.14: ModuleNotFoundError: No module named 'distutils.command.upload'"
+    ]
+  },
+  "python-heatclient": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2371937"
+    ],
+    "summaries": [
+      "F43FailsToInstall: python3-heatclient"
     ]
   },
   "python-howdoi": {
@@ -385,12 +643,60 @@
       "python-ipfshttpclient fails to build with Python 3.14: AssertionError: assert ['(?![.])(?s:literal)\\\\z'] == ['(?![.])(?s:literal)\\\\Z']"
     ]
   },
+  "python-ironicclient": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2371952"
+    ],
+    "summaries": [
+      "F43FailsToInstall: python3-ironicclient"
+    ]
+  },
   "python-janus": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2371953"
     ],
     "summaries": [
       "F43FailsToInstall: python3-janus"
+    ]
+  },
+  "python-jsons": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2371957"
+    ],
+    "summaries": [
+      "F43FailsToInstall: python3-jsons"
+    ]
+  },
+  "python-libpysal": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2371962"
+    ],
+    "summaries": [
+      "F43FailsToInstall: python3-libpysal"
+    ]
+  },
+  "python-lion-pytorch": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2371963"
+    ],
+    "summaries": [
+      "F43FailsToInstall: python3-lion-pytorch"
+    ]
+  },
+  "python-manilaclient": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2371971"
+    ],
+    "summaries": [
+      "F43FailsToInstall: python3-manilaclient"
+    ]
+  },
+  "python-mapclassify": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2371972"
+    ],
+    "summaries": [
+      "F43FailsToInstall: python3-mapclassify"
     ]
   },
   "python-markups": {
@@ -401,12 +707,44 @@
       "python-markups fails to build with Python 3.14: AssertionError in test_get_pygments_stylesheet"
     ]
   },
+  "python-mistralclient": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2371979"
+    ],
+    "summaries": [
+      "F43FailsToInstall: python3-mistralclient"
+    ]
+  },
   "python-mkapi": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2342559"
     ],
     "summaries": [
       "python-mkapi fails to build with Python 3.14: Expected: [None, <ast.Constant object at 0x...>, <ast.Constant object at 0x...>] Got: [None, Constant(value=2, kind=None), Constant(value=3, kind=None)]"
+    ]
+  },
+  "python-mkdocs-rss-plugin": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2371984"
+    ],
+    "summaries": [
+      "F43FailsToInstall: python3-mkdocs-rss-plugin"
+    ]
+  },
+  "python-mne": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2371986"
+    ],
+    "summaries": [
+      "F43FailsToInstall: python3-mne"
+    ]
+  },
+  "python-mne-bids": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2371987"
+    ],
+    "summaries": [
+      "F43FailsToInstall: python3-mne-bids+full, python3-mne-bids"
     ]
   },
   "python-neatdend": {
@@ -417,12 +755,84 @@
       "python-neatdend: FTBFS in Fedora rawhide/f42"
     ]
   },
+  "python-network-runner": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2371996"
+    ],
+    "summaries": [
+      "F43FailsToInstall: python3-network-runner"
+    ]
+  },
+  "python-neurom": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2371997"
+    ],
+    "summaries": [
+      "F43FailsToInstall: python3-neurom+plotly, python3-neurom"
+    ]
+  },
+  "python-neutronclient": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2371998"
+    ],
+    "summaries": [
+      "F43FailsToInstall: python3-neutronclient, python3-neutronclient-tests"
+    ]
+  },
+  "python-niaarm": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2371999"
+    ],
+    "summaries": [
+      "F43FailsToInstall: python3-niaarm"
+    ]
+  },
   "python-niaarmts": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2369421"
     ],
     "summaries": [
       "python-niaarmts fails to build with Python 3.14: ERROR: Package 'niaarmts' requires a different Python: 3.14.0 not in '<3.14,>=3.11'"
+    ]
+  },
+  "python-nilearn": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2372003"
+    ],
+    "summaries": [
+      "F43FailsToInstall: python3-nilearn"
+    ]
+  },
+  "python-nipype": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2372004"
+    ],
+    "summaries": [
+      "F43FailsToInstall: python3-nipype+data, python3-nipype+duecredit, python3-nipype+nipy, python3-nipype+pybids, python3-nipype+ssh, python3-nipype"
+    ]
+  },
+  "python-novaclient": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2372005"
+    ],
+    "summaries": [
+      "F43FailsToInstall: python3-novaclient"
+    ]
+  },
+  "python-novaclient-os-networks": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2372006"
+    ],
+    "summaries": [
+      "F43FailsToInstall: python3-novaclient-os-networks"
+    ]
+  },
+  "python-novaclient-os-virtual-interfaces": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2372007"
+    ],
+    "summaries": [
+      "F43FailsToInstall: python3-novaclient-os-virtual-interfaces"
     ]
   },
   "python-octave-kernel": {
@@ -433,12 +843,56 @@
       "python-octave-kernel: FTBFS in Fedora rawhide/f42"
     ]
   },
+  "python-octaviaclient": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2372009"
+    ],
+    "summaries": [
+      "F43FailsToInstall: python3-octaviaclient, python3-octaviaclient-tests"
+    ]
+  },
+  "python-openstackclient": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2372016"
+    ],
+    "summaries": [
+      "F43FailsToInstall: python3-openstackclient"
+    ]
+  },
+  "python-optking": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2372017"
+    ],
+    "summaries": [
+      "F43FailsToInstall: python3-optking"
+    ]
+  },
+  "python-oslo-middleware": {
+    "urls": [],
+    "summaries": []
+  },
   "python-pamela": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2366474"
     ],
     "summaries": [
       "python-pamela fails to build with Python 3.14: pamela.PAMError: [PAM Error 26] Critical error - immediate abort"
+    ]
+  },
+  "python-pandas-flavor": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2372024"
+    ],
+    "summaries": [
+      "F43FailsToInstall: python3-pandas-flavor"
+    ]
+  },
+  "python-pingouin": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2372029"
+    ],
+    "summaries": [
+      "F43FailsToInstall: python3-pingouin"
     ]
   },
   "python-pkginfo2": {
@@ -449,12 +903,28 @@
       "python-pkginfo2: FTBFS in Fedora Rawhide: AssertionError: None != '30.0.0'"
     ]
   },
+  "python-plotly": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2372034"
+    ],
+    "summaries": [
+      "F43FailsToInstall: python3-plotly"
+    ]
+  },
   "python-plotnine": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2372035"
     ],
     "summaries": [
       "F43FailsToInstall: python3-plotnine+extra, python3-plotnine"
+    ]
+  },
+  "python-pocketlint": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2372037"
+    ],
+    "summaries": [
+      "F43FailsToInstall: python3-pocketlint"
     ]
   },
   "python-praw": {
@@ -481,6 +951,14 @@
       "F43FailsToInstall: python3-pybids+plotting, python3-pybids+test, python3-pybids+tests, python3-pybids"
     ]
   },
+  "python-pybv": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2372051"
+    ],
+    "summaries": [
+      "F43FailsToInstall: python3-pybv"
+    ]
+  },
   "python-pycec": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2327973"
@@ -489,12 +967,24 @@
       "python-pycec fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
     ]
   },
+  "python-pycomfoair": {
+    "urls": [],
+    "summaries": []
+  },
   "python-pyemd": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2319698"
     ],
     "summaries": [
       "python-pyemd fails to build with setuptools 74+"
+    ]
+  },
+  "python-pylint-venv": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2372061"
+    ],
+    "summaries": [
+      "F43FailsToInstall: python3-pylint-venv"
     ]
   },
   "python-pyopencl": {
@@ -505,14 +995,28 @@
       "python-pyopencl: FTBFS in Fedora rawhide/f42"
     ]
   },
-  "python-pysaml2": {
+  "python-pyphi": {
     "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2372073",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2341199"
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2372070"
     ],
     "summaries": [
-      "F43FailsToInstall: python3-pysaml2",
-      "python-pysaml2: FTBFS in Fedora rawhide/f42"
+      "F43FailsToInstall: python3-pyphi"
+    ]
+  },
+  "python-pysaml2": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2372073"
+    ],
+    "summaries": [
+      "F43FailsToInstall: python3-pysaml2"
+    ]
+  },
+  "python-pyshtools": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2372075"
+    ],
+    "summaries": [
+      "F43FailsToInstall: python3-pyshtools+cartopy, python3-pyshtools+ducc, python3-pyshtools"
     ]
   },
   "python-pytest-twisted": {
@@ -539,6 +1043,22 @@
       "F43FailsToInstall: python3-qcelemental"
     ]
   },
+  "python-qcengine": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2372090"
+    ],
+    "summaries": [
+      "F43FailsToInstall: python3-qcengine"
+    ]
+  },
+  "python-qemu-qmp": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2372091"
+    ],
+    "summaries": [
+      "F43FailsToInstall: python3-qemu-qmp"
+    ]
+  },
   "python-readability-lxml": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2323185"
@@ -557,21 +1077,25 @@
   },
   "python-remoto": {
     "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2366491",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2341205"
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2366491"
     ],
     "summaries": [
-      "python-remoto fails to build with Python 3.14: AttributeError: 'TestRemoteError' object has no attribute 'traceback'",
-      "python-remoto: FTBFS in Fedora rawhide/f42"
+      "python-remoto fails to build with Python 3.14: AttributeError: 'TestRemoteError' object has no attribute 'traceback'"
+    ]
+  },
+  "python-reproject": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2372104"
+    ],
+    "summaries": [
+      "F43FailsToInstall: python3-reproject"
     ]
   },
   "python-rosdep": {
     "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2341207",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2329891"
     ],
     "summaries": [
-      "python-rosdep: FTBFS in Fedora rawhide/f42",
       "python-rosdep fails to build with sphinx 8.x: ERROR: Invalid value `None` in intersphinx_mapping['http://docs.python.org/']."
     ]
   },
@@ -591,6 +1115,14 @@
       "python-rx fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
     ]
   },
+  "python-saharaclient": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2372114"
+    ],
+    "summaries": [
+      "F43FailsToInstall: python3-saharaclient"
+    ]
+  },
   "python-simframe": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2352552"
@@ -599,12 +1131,24 @@
       "python-simframe fails to build with Python 3.14: TypeError: cannot pickle 'itertools.cycle' object"
     ]
   },
+  "python-snakemake-executor-plugin-azure-batch": {
+    "urls": [],
+    "summaries": []
+  },
   "python-sphinx-autobuild": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2372144"
     ],
     "summaries": [
       "F43FailsToInstall: python3-sphinx-autobuild"
+    ]
+  },
+  "python-sport-activities-features": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2372146"
+    ],
+    "summaries": [
+      "F43FailsToInstall: python3-sport-activities-features"
     ]
   },
   "python-sqlmodel": {
@@ -615,12 +1159,92 @@
       "F43FailsToInstall: python3-sqlmodel, python3-sqlmodel-slim"
     ]
   },
+  "python-steam": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2372152"
+    ],
+    "summaries": [
+      "F43FailsToInstall: python3-steam"
+    ]
+  },
+  "python-taskflow": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2372159"
+    ],
+    "summaries": [
+      "F43FailsToInstall: python3-taskflow"
+    ]
+  },
+  "python-tinygrad": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2372162"
+    ],
+    "summaries": [
+      "F43FailsToInstall: python3-tinygrad"
+    ]
+  },
   "python-torch": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2372164"
     ],
     "summaries": [
       "F43FailsToInstall: python3-torch"
+    ]
+  },
+  "python-torchaudio": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2372165"
+    ],
+    "summaries": [
+      "F43FailsToInstall: python3-torchaudio"
+    ]
+  },
+  "python-torchdata": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2372166"
+    ],
+    "summaries": [
+      "F43FailsToInstall: python3-torchdata"
+    ]
+  },
+  "python-torchdiffeq": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2372167"
+    ],
+    "summaries": [
+      "F43FailsToInstall: python3-torchdiffeq"
+    ]
+  },
+  "python-torchsde": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2372168"
+    ],
+    "summaries": [
+      "F43FailsToInstall: python3-torchsde"
+    ]
+  },
+  "python-torchtext": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2372169"
+    ],
+    "summaries": [
+      "F43FailsToInstall: python3-torchtext"
+    ]
+  },
+  "python-torchvision": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2372170"
+    ],
+    "summaries": [
+      "F43FailsToInstall: python3-torchvision"
+    ]
+  },
+  "python-troveclient": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2372175"
+    ],
+    "summaries": [
+      "F43FailsToInstall: python3-troveclient"
     ]
   },
   "python-txaio": {
@@ -639,13 +1263,15 @@
       "python-typing-inspect fails to build with Python 3.14: AssertionError: {} != {'x': <class 'int'>, 'y': <class 'int'>}"
     ]
   },
+  "python-typish": {
+    "urls": [],
+    "summaries": []
+  },
   "python-uvloop": {
     "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2341233",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2326210"
     ],
     "summaries": [
-      "python-uvloop: FTBFS in Fedora rawhide/f42",
       "python-uvloop fails to build with Python 3.14: AttributeError: module 'asyncio' has no attribute 'AbstractChildWatcher'"
     ]
   },
@@ -655,6 +1281,38 @@
     ],
     "summaries": [
       "python-valkey fails to build with Python 3.14: _pickle.PicklingError: Can't pickle local object <function TestMultiprocessing.test_close_connection_in_child.<locals>.target at 0x7f5aa68cddd0>"
+    ]
+  },
+  "python-wxnatpy": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2372198"
+    ],
+    "summaries": [
+      "F43FailsToInstall: python3-wxnatpy"
+    ]
+  },
+  "python-xarray": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2372200"
+    ],
+    "summaries": [
+      "F43FailsToInstall: python3-xarray+io, python3-xarray"
+    ]
+  },
+  "python-xarray-einstats": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2372201"
+    ],
+    "summaries": [
+      "F43FailsToInstall: python3-xarray-einstats"
+    ]
+  },
+  "python-xbout": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2372202"
+    ],
+    "summaries": [
+      "F43FailsToInstall: python3-xbout"
     ]
   },
   "python-yappi": {
@@ -673,12 +1331,36 @@
       "qtile fails to build with Python 3.14: _pickle.PicklingError: Can't pickle local object <function TestManager.start.<locals>.run_qtile at 0x7f9c5918fed0>"
     ]
   },
+  "qtile-extras": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2372210"
+    ],
+    "summaries": [
+      "F43FailsToInstall: qtile-extras"
+    ]
+  },
+  "retext": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2372215"
+    ],
+    "summaries": [
+      "F43FailsToInstall: retext"
+    ]
+  },
   "rpm-head-signing": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2366308"
     ],
     "summaries": [
       "rpm-head-signing: FTBFS in Fedora Rawhide with RPM 6"
+    ]
+  },
+  "scancode-toolkit": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2372219"
+    ],
+    "summaries": [
+      "F43FailsToInstall: scancode-toolkit"
     ]
   },
   "signon-glib": {
@@ -689,14 +1371,20 @@
       "signon-glib: FTBFS in Fedora rawhide/f42"
     ]
   },
-  "strongswan": {
+  "stats-collect": {
     "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2368971",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2332864"
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2372225"
     ],
     "summaries": [
-      "strongswan: FTBFS in Fedora Rawhide: error: possibly undefined macro: AC_LIB_PREFIX",
-      "strongswan-5.9.14-5.fc42 FTBFS: strongswan-5.9.14/missing: line 81: aclocal-1.16: command not found"
+      "F43FailsToInstall: stats-collect"
+    ]
+  },
+  "strongswan": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2368971"
+    ],
+    "summaries": [
+      "strongswan: FTBFS in Fedora Rawhide: error: possibly undefined macro: AC_LIB_PREFIX"
     ]
   },
   "sugar": {
@@ -715,6 +1403,30 @@
       "F43FailsToInstall: sugar-toolkit-gtk3"
     ]
   },
+  "swift-lang": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2341403"
+    ],
+    "summaries": [
+      "swift-lang: FTBFS in Fedora rawhide/f42"
+    ]
+  },
+  "syncstar": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2372230"
+    ],
+    "summaries": [
+      "F43FailsToInstall: syncstar"
+    ]
+  },
+  "thonny": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2372232"
+    ],
+    "summaries": [
+      "F43FailsToInstall: thonny"
+    ]
+  },
   "tmt": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2372233"
@@ -731,14 +1443,20 @@
       "visidata fails to build with Python 3.14: TestVisidataPath.test_withName: AssertionError: assert 'foo' == 'foo.'"
     ]
   },
-  "zeek": {
+  "wult": {
     "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2366467",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2341601"
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2372241"
     ],
     "summaries": [
-      "zeek fails to build in Fedora Rawhide: Could not find prerequisite package 'BIND'",
-      "zeek: FTBFS in Fedora rawhide/f42"
+      "F43FailsToInstall: python3-wult"
+    ]
+  },
+  "zeek": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2366467"
+    ],
+    "summaries": [
+      "zeek fails to build in Fedora Rawhide: Could not find prerequisite package 'BIND'"
     ]
   }
 }
