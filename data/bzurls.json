@@ -33,14 +33,6 @@
       "binwalk fails to build with Python 3.14: TypeError: unsupported operand type(s) for +=: 'NoneType' and 'int'"
     ]
   },
-  "borgbackup": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2326916"
-    ],
-    "summaries": [
-      "borgbackup fails to build with Python 3.14: OSError: AF_UNIX path too long when compiling"
-    ]
-  },
   "buildstream": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2371687"
