@@ -47,14 +47,6 @@
       "binwalk fails to build with Python 3.14: TypeError: unsupported operand type(s) for +=: 'NoneType' and 'int'"
     ]
   },
-  "bodhi-server": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2371683"
-    ],
-    "summaries": [
-      "F43FailsToInstall: bodhi-composer, bodhi-server"
-    ]
-  },
   "bout++": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2371685"
@@ -119,14 +111,6 @@
       "copr-backend fails to build with Python 3.14: TestActionWorkerManager.test_add_task_for_running_worker: TypeError: cannot pickle 'itertools.count' object"
     ]
   },
-  "criu": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2365821"
-    ],
-    "summaries": [
-      "criu fails to build with Python 3.14: protobuf - TypeError: Metaclasses with custom tp_new are not supported."
-    ]
-  },
   "distro-info": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2371705"
@@ -167,14 +151,6 @@
       "libpeas fails to build with Python 3.14: test-extension-py  TIMEOUT"
     ]
   },
-  "libunity": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2368739"
-    ],
-    "summaries": [
-      "libunity: FTBFS in Fedora Rawhide (probably since gettext 0.25)"
-    ]
-  },
   "linode-cli": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2368974"
@@ -205,14 +181,6 @@
     ],
     "summaries": [
       "ocrmypdf fails to build with Python 3.14: multiprocessing.Process now starts with forkserver method instead of fork, causing pickling error"
-    ]
-  },
-  "odcs": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2371758"
-    ],
-    "summaries": [
-      "F43FailsToInstall: python3-odcs-common, odcs, python3-odcs-client"
     ]
   },
   "openms": {
@@ -1363,36 +1331,12 @@
       "strongswan: FTBFS in Fedora Rawhide: error: possibly undefined macro: AC_LIB_PREFIX"
     ]
   },
-  "sugar": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2368968"
-    ],
-    "summaries": [
-      "sugar: FTBFS in Fedora Rawhide"
-    ]
-  },
-  "sugar-toolkit-gtk3": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2372229"
-    ],
-    "summaries": [
-      "F43FailsToInstall: sugar-toolkit-gtk3"
-    ]
-  },
   "swift-lang": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2341403"
     ],
     "summaries": [
       "swift-lang: FTBFS in Fedora rawhide/f42"
-    ]
-  },
-  "syncstar": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2372230"
-    ],
-    "summaries": [
-      "F43FailsToInstall: syncstar"
     ]
   },
   "thonny": {
