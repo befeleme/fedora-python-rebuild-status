@@ -135,14 +135,6 @@
       "F43FailsToInstall: python3-dolfin"
     ]
   },
-  "duplicity": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2371708"
-    ],
-    "summaries": [
-      "F43FailsToInstall: duplicity"
-    ]
-  },
   "libpeas": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2366247"
@@ -483,14 +475,6 @@
       "F43FailsToInstall: python3-esbonio+dev, python3-esbonio+typecheck, python3-esbonio"
     ]
   },
-  "python-eth-tester": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2371891"
-    ],
-    "summaries": [
-      "F43FailsToInstall: python3-eth-tester"
-    ]
-  },
   "python-eventlet": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2371893"
@@ -547,28 +531,12 @@
       "python-fsleyes-widgets fails to build with Python 3.14: AssertionError: assert 'file:/home/b...htmlfile.html' == 'file:///home...htmlfile.html'"
     ]
   },
-  "python-geotiler": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2371921"
-    ],
-    "summaries": [
-      "F43FailsToInstall: python3-geotiler"
-    ]
-  },
   "python-gphoto2": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2366465"
     ],
     "summaries": [
       "python-gphoto2 fails to build with Python 3.14: ModuleNotFoundError: No module named 'distutils.command.upload'"
-    ]
-  },
-  "python-heatclient": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2371937"
-    ],
-    "summaries": [
-      "F43FailsToInstall: python3-heatclient"
     ]
   },
   "python-howdoi": {
@@ -585,14 +553,6 @@
     ],
     "summaries": [
       "python-ipfshttpclient fails to build with Python 3.14: AssertionError: assert ['(?![.])(?s:literal)\\\\z'] == ['(?![.])(?s:literal)\\\\Z']"
-    ]
-  },
-  "python-ironicclient": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2371952"
-    ],
-    "summaries": [
-      "F43FailsToInstall: python3-ironicclient"
     ]
   },
   "python-janus": {
@@ -627,14 +587,6 @@
       "F43FailsToInstall: python3-lion-pytorch"
     ]
   },
-  "python-manilaclient": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2371971"
-    ],
-    "summaries": [
-      "F43FailsToInstall: python3-manilaclient"
-    ]
-  },
   "python-mapclassify": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2371972"
@@ -649,14 +601,6 @@
     ],
     "summaries": [
       "python-markups fails to build with Python 3.14: AssertionError in test_get_pygments_stylesheet"
-    ]
-  },
-  "python-mistralclient": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2371979"
-    ],
-    "summaries": [
-      "F43FailsToInstall: python3-mistralclient"
     ]
   },
   "python-mkapi": {
@@ -715,14 +659,6 @@
       "F43FailsToInstall: python3-neurom+plotly, python3-neurom"
     ]
   },
-  "python-neutronclient": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2371998"
-    ],
-    "summaries": [
-      "F43FailsToInstall: python3-neutronclient, python3-neutronclient-tests"
-    ]
-  },
   "python-niaarm": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2371999"
@@ -755,52 +691,12 @@
       "F43FailsToInstall: python3-nipype+data, python3-nipype+duecredit, python3-nipype+nipy, python3-nipype+pybids, python3-nipype+ssh, python3-nipype"
     ]
   },
-  "python-novaclient": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2372005"
-    ],
-    "summaries": [
-      "F43FailsToInstall: python3-novaclient"
-    ]
-  },
-  "python-novaclient-os-networks": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2372006"
-    ],
-    "summaries": [
-      "F43FailsToInstall: python3-novaclient-os-networks"
-    ]
-  },
-  "python-novaclient-os-virtual-interfaces": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2372007"
-    ],
-    "summaries": [
-      "F43FailsToInstall: python3-novaclient-os-virtual-interfaces"
-    ]
-  },
   "python-octave-kernel": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2341176"
     ],
     "summaries": [
       "python-octave-kernel: FTBFS in Fedora rawhide/f42"
-    ]
-  },
-  "python-octaviaclient": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2372009"
-    ],
-    "summaries": [
-      "F43FailsToInstall: python3-octaviaclient, python3-octaviaclient-tests"
-    ]
-  },
-  "python-openstackclient": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2372016"
-    ],
-    "summaries": [
-      "F43FailsToInstall: python3-openstackclient"
     ]
   },
   "python-optking": {
@@ -1035,14 +931,6 @@
       "F43FailsToInstall: python3-reproject"
     ]
   },
-  "python-rosdep": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2329891"
-    ],
-    "summaries": [
-      "python-rosdep fails to build with sphinx 8.x: ERROR: Invalid value `None` in intersphinx_mapping['http://docs.python.org/']."
-    ]
-  },
   "python-rstcheck": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2322705"
@@ -1059,14 +947,6 @@
       "python-rx fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
     ]
   },
-  "python-saharaclient": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2372114"
-    ],
-    "summaries": [
-      "F43FailsToInstall: python3-saharaclient"
-    ]
-  },
   "python-simframe": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2352552"
@@ -1078,14 +958,6 @@
   "python-snakemake-executor-plugin-azure-batch": {
     "urls": [],
     "summaries": []
-  },
-  "python-sphinx-autobuild": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2372144"
-    ],
-    "summaries": [
-      "F43FailsToInstall: python3-sphinx-autobuild"
-    ]
   },
   "python-sport-activities-features": {
     "urls": [
@@ -1181,14 +1053,6 @@
     ],
     "summaries": [
       "F43FailsToInstall: python3-torchvision"
-    ]
-  },
-  "python-troveclient": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2372175"
-    ],
-    "summaries": [
-      "F43FailsToInstall: python3-troveclient"
     ]
   },
   "python-txaio": {
