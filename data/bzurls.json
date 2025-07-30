@@ -152,8 +152,12 @@
     ]
   },
   "mailman3-fedmsg-plugin": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2304216"
+    ],
+    "summaries": [
+      "F41FailsToInstall: python3-mailman3-fedmsg-plugin"
+    ]
   },
   "matrix-synapse": {
     "urls": [
@@ -164,8 +168,12 @@
     ]
   },
   "mirrormanager2": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2347031"
+    ],
+    "summaries": [
+      "F43FailsToInstall: mirrormanager2"
+    ]
   },
   "ocrmypdf": {
     "urls": [
@@ -361,14 +369,6 @@
     ],
     "summaries": [
       "python-colcon-parallel-executor fails to build with Python 3.14: test_parallel: AssertionError: DeprecationWarning: 'asyncio.iscoroutinefunction' is deprecated and slated for removal in Python 3.16; use inspect.iscoroutinefunction() instead"
-    ]
-  },
-  "python-colcon-ros-bundle": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2371838"
-    ],
-    "summaries": [
-      "F43FailsToInstall: python3-colcon-ros-bundle"
     ]
   },
   "python-crick": {
@@ -708,8 +708,12 @@
     ]
   },
   "python-oslo-middleware": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2347032"
+    ],
+    "summaries": [
+      "F43FailsToInstall: python3-oslo-middleware"
+    ]
   },
   "python-pamela": {
     "urls": [
@@ -808,8 +812,12 @@
     ]
   },
   "python-pycomfoair": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2372053"
+    ],
+    "summaries": [
+      "F43FailsToInstall: python3-pycomfoair"
+    ]
   },
   "python-pyemd": {
     "urls": [
@@ -956,8 +964,12 @@
     ]
   },
   "python-snakemake-executor-plugin-azure-batch": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2363643"
+    ],
+    "summaries": [
+      "F43FailsToInstall: python3-snakemake-executor-plugin-azure-batch"
+    ]
   },
   "python-sport-activities-features": {
     "urls": [
@@ -1072,8 +1084,12 @@
     ]
   },
   "python-typish": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2372181"
+    ],
+    "summaries": [
+      "F43FailsToInstall: python3-typish"
+    ]
   },
   "python-uvloop": {
     "urls": [
