@@ -1,9 +1,11 @@
 {
   "APLpy": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2384432",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2371672"
     ],
     "summaries": [
+      "APLpy: FTBFS in Fedora rawhide/f43",
       "F43FailsToInstall: python3-APLpy"
     ]
   },
@@ -49,41 +51,51 @@
   },
   "bout++": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2384484",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2371685"
     ],
     "summaries": [
+      "bout++: FTBFS in Fedora rawhide/f43",
       "F43FailsToInstall: python3-bout++-mpich, python3-bout++-openmpi"
     ]
   },
   "buildbot": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2384488",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2371686"
     ],
     "summaries": [
+      "buildbot: FTBFS in Fedora rawhide/f43",
       "F43FailsToInstall: buildbot-master, buildbot-master-container, buildbot-master-ec2, buildbot-master-libvirt, buildbot-master-openstack, buildbot-worker, buildbot-www"
     ]
   },
   "buildstream": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2384490",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2371687"
     ],
     "summaries": [
+      "buildstream: FTBFS in Fedora rawhide/f43",
       "F43FailsToInstall: buildstream"
     ]
   },
   "cantera": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2384495",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2371689"
     ],
     "summaries": [
+      "cantera: FTBFS in Fedora rawhide/f43",
       "F43FailsToInstall: python3-cantera"
     ]
   },
   "cfn-lint": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2384496",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2371692"
     ],
     "summaries": [
+      "cfn-lint: FTBFS in Fedora rawhide/f43",
       "F43FailsToInstall: cfn-lint+full, cfn-lint+graph, cfn-lint+junit, cfn-lint+sarif, cfn-lint"
     ]
   },
@@ -113,9 +125,11 @@
   },
   "distro-info": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2384546",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2371705"
     ],
     "summaries": [
+      "distro-info: FTBFS in Fedora rawhide/f43",
       "F43FailsToInstall: python3-distro-info"
     ]
   },
@@ -129,17 +143,21 @@
   },
   "dolfin": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2384554",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2371707"
     ],
     "summaries": [
+      "dolfin: FTBFS in Fedora rawhide/f43",
       "F43FailsToInstall: python3-dolfin"
     ]
   },
   "libpeas": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2385122",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2366247"
     ],
     "summaries": [
+      "libpeas: FTBFS in Fedora rawhide/f43",
       "libpeas fails to build with Python 3.14: test-extension-py  TIMEOUT"
     ]
   },
@@ -153,25 +171,31 @@
   },
   "mailman3-fedmsg-plugin": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2385168",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2304216"
     ],
     "summaries": [
+      "mailman3-fedmsg-plugin: FTBFS in Fedora rawhide/f43",
       "F41FailsToInstall: python3-mailman3-fedmsg-plugin"
     ]
   },
   "matrix-synapse": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2385171",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2371743"
     ],
     "summaries": [
+      "matrix-synapse: FTBFS in Fedora rawhide/f43",
       "F43FailsToInstall: Multiple packages built from matrix-synapse"
     ]
   },
   "mirrormanager2": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2385192",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2347031"
     ],
     "summaries": [
+      "mirrormanager2: FTBFS in Fedora rawhide/f43",
       "F43FailsToInstall: mirrormanager2"
     ]
   },
@@ -235,14 +259,6 @@
       "pysubnettree fails to build with Python 3.14/Fedora Rawhide: error: too many arguments to function \u2018func\u2019; expected 0, have 1"
     ]
   },
-  "python-Mastodon": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2369422"
-    ],
-    "summaries": [
-      "python-Mastodon fails to build with Python 3.14: ValueError: Unknown type <something> | None"
-    ]
-  },
   "python-aiokafka": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2346517"
@@ -265,14 +281,6 @@
     ],
     "summaries": [
       "F43FailsToInstall: python3-arviz"
-    ]
-  },
-  "python-ast-monitor": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2371799"
-    ],
-    "summaries": [
-      "F43FailsToInstall: python3-ast-monitor"
     ]
   },
   "python-autobahn": {
@@ -369,14 +377,6 @@
     ],
     "summaries": [
       "python-colcon-parallel-executor fails to build with Python 3.14: test_parallel: AssertionError: DeprecationWarning: 'asyncio.iscoroutinefunction' is deprecated and slated for removal in Python 3.16; use inspect.iscoroutinefunction() instead"
-    ]
-  },
-  "python-crick": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2367454"
-    ],
-    "summaries": [
-      "python-crick fails to build with Python 3.14: crick/tests/test_space_saving.py::test_merge_algorithm[s111-s211] Fatal Python error: Segmentation fault"
     ]
   },
   "python-daphne": {
@@ -969,14 +969,6 @@
     ],
     "summaries": [
       "F43FailsToInstall: python3-snakemake-executor-plugin-azure-batch"
-    ]
-  },
-  "python-sport-activities-features": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2372146"
-    ],
-    "summaries": [
-      "F43FailsToInstall: python3-sport-activities-features"
     ]
   },
   "python-sqlmodel": {
