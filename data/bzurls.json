@@ -475,16 +475,6 @@
       "F43FailsToInstall: python3-earthpy"
     ]
   },
-  "python-einops": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2385461",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2371876"
-    ],
-    "summaries": [
-      "python-einops: FTBFS in Fedora rawhide/f43",
-      "F43FailsToInstall: python3-einops"
-    ]
-  },
   "python-elastic-transport": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2385462",
@@ -625,16 +615,6 @@
     "summaries": [
       "python-libpysal: FTBFS in Fedora rawhide/f43",
       "F43FailsToInstall: python3-libpysal"
-    ]
-  },
-  "python-lion-pytorch": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2385482",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2371963"
-    ],
-    "summaries": [
-      "python-lion-pytorch: FTBFS in Fedora rawhide/f43",
-      "F43FailsToInstall: python3-lion-pytorch"
     ]
   },
   "python-mapclassify": {
@@ -1117,76 +1097,6 @@
       "F43FailsToInstall: python3-tinygrad"
     ]
   },
-  "python-torch": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2385542",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2372164"
-    ],
-    "summaries": [
-      "python-torch: FTBFS in Fedora rawhide/f43",
-      "F43FailsToInstall: python3-torch"
-    ]
-  },
-  "python-torchaudio": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2385543",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2372165"
-    ],
-    "summaries": [
-      "python-torchaudio: FTBFS in Fedora rawhide/f43",
-      "F43FailsToInstall: python3-torchaudio"
-    ]
-  },
-  "python-torchdata": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2385544",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2372166"
-    ],
-    "summaries": [
-      "python-torchdata: FTBFS in Fedora rawhide/f43",
-      "F43FailsToInstall: python3-torchdata"
-    ]
-  },
-  "python-torchdiffeq": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2385545",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2372167"
-    ],
-    "summaries": [
-      "python-torchdiffeq: FTBFS in Fedora rawhide/f43",
-      "F43FailsToInstall: python3-torchdiffeq"
-    ]
-  },
-  "python-torchsde": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2385546",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2372168"
-    ],
-    "summaries": [
-      "python-torchsde: FTBFS in Fedora rawhide/f43",
-      "F43FailsToInstall: python3-torchsde"
-    ]
-  },
-  "python-torchtext": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2385547",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2372169"
-    ],
-    "summaries": [
-      "python-torchtext: FTBFS in Fedora rawhide/f43",
-      "F43FailsToInstall: python3-torchtext"
-    ]
-  },
-  "python-torchvision": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2385548",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2372170"
-    ],
-    "summaries": [
-      "python-torchvision: FTBFS in Fedora rawhide/f43",
-      "F43FailsToInstall: python3-torchvision"
-    ]
-  },
   "python-txaio": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2327981"
@@ -1361,11 +1271,9 @@
   },
   "thonny": {
     "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2385688",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2372232"
     ],
     "summaries": [
-      "thonny: FTBFS in Fedora rawhide/f43",
       "F43FailsToInstall: thonny"
     ]
   },
