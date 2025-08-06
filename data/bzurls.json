@@ -351,14 +351,6 @@
       "F43FailsToInstall: python3-bluepyopt"
     ]
   },
-  "python-catkin_tools": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2329848"
-    ],
-    "summaries": [
-      "python-catkin_tools fails to build with sphinx 8.x:  ERROR: Invalid value `None` in intersphinx_mapping['http://docs.python.org/']."
-    ]
-  },
   "python-ccdproc": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2385447",
@@ -879,14 +871,6 @@
       "F43FailsToInstall: python3-pycomfoair"
     ]
   },
-  "python-pyemd": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2319698"
-    ],
-    "summaries": [
-      "python-pyemd fails to build with setuptools 74+"
-    ]
-  },
   "python-pylint-venv": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2385521",
@@ -903,16 +887,6 @@
     ],
     "summaries": [
       "python-pyopencl: FTBFS in Fedora rawhide/f42"
-    ]
-  },
-  "python-pyphi": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2385522",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2372070"
-    ],
-    "summaries": [
-      "python-pyphi: FTBFS in Fedora rawhide/f43",
-      "F43FailsToInstall: python3-pyphi"
     ]
   },
   "python-pysaml2": {
