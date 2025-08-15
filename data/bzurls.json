@@ -51,16 +51,6 @@
       "F43FailsToInstall: buildbot-master, buildbot-master-container, buildbot-master-ec2, buildbot-master-libvirt, buildbot-master-openstack, buildbot-worker, buildbot-www"
     ]
   },
-  "buildstream": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2384490",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2371687"
-    ],
-    "summaries": [
-      "buildstream: FTBFS in Fedora rawhide/f43",
-      "F43FailsToInstall: buildstream"
-    ]
-  },
   "cantera": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2384495",
@@ -591,16 +581,6 @@
       "python-mkapi fails to build with Python 3.14: Expected: [None, <ast.Constant object at 0x...>, <ast.Constant object at 0x...>] Got: [None, Constant(value=2, kind=None), Constant(value=3, kind=None)]"
     ]
   },
-  "python-mkdocs-rss-plugin": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2385490",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2371984"
-    ],
-    "summaries": [
-      "python-mkdocs-rss-plugin: FTBFS in Fedora rawhide/f43",
-      "F43FailsToInstall: python3-mkdocs-rss-plugin"
-    ]
-  },
   "python-mne": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2385491",
@@ -815,14 +795,6 @@
       "F43FailsToInstall: python3-pylint-venv"
     ]
   },
-  "python-pyopencl": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2341190"
-    ],
-    "summaries": [
-      "python-pyopencl: FTBFS in Fedora rawhide/f42"
-    ]
-  },
   "python-pysaml2": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2385525",
@@ -931,14 +903,6 @@
       "python-rstcheck fails to build with Python 3.14: AttributeError: 'Constant' object has no attribute 's'"
     ]
   },
-  "python-rx": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2327979"
-    ],
-    "summaries": [
-      "python-rx fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
-    ]
-  },
   "python-simframe": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2352552"
@@ -975,16 +939,6 @@
     "summaries": [
       "python-taskflow: FTBFS in Fedora rawhide/f43",
       "F43FailsToInstall: python3-taskflow"
-    ]
-  },
-  "python-tinygrad": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2385541",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2372162"
-    ],
-    "summaries": [
-      "python-tinygrad: FTBFS in Fedora rawhide/f43",
-      "F43FailsToInstall: python3-tinygrad"
     ]
   },
   "python-txaio": {
@@ -1121,14 +1075,6 @@
     "summaries": [
       "stats-collect: FTBFS in Fedora rawhide/f43",
       "F43FailsToInstall: stats-collect"
-    ]
-  },
-  "strongswan": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2368971"
-    ],
-    "summaries": [
-      "strongswan: FTBFS in Fedora Rawhide: error: possibly undefined macro: AC_LIB_PREFIX"
     ]
   },
   "swift-lang": {
