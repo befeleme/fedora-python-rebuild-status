@@ -261,14 +261,6 @@
       "F43FailsToInstall: python3-fsleyes-props"
     ]
   },
-  "python-fsleyes-widgets": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2336911"
-    ],
-    "summaries": [
-      "python-fsleyes-widgets fails to build with Python 3.14: AssertionError: assert 'file:/home/b...htmlfile.html' == 'file:///home...htmlfile.html'"
-    ]
-  },
   "python-howdoi": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2342558"
@@ -428,6 +420,10 @@
     "summaries": [
       "python-typing-inspect fails to build with Python 3.14: AssertionError: {} != {'x': <class 'int'>, 'y': <class 'int'>}"
     ]
+  },
+  "python-wxnatpy": {
+    "urls": [],
+    "summaries": []
   },
   "python-xbout": {
     "urls": [
