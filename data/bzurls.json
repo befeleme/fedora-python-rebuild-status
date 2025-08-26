@@ -1,12 +1,4 @@
 {
-  "ara": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2331346"
-    ],
-    "summaries": [
-      "ara fails to build with Python 3.14: AttributeError: module 'pkgutil' has no attribute 'find_loader'"
-    ]
-  },
   "bandit": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2351393"
@@ -79,11 +71,9 @@
   },
   "libpeas": {
     "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2385122",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2366247"
     ],
     "summaries": [
-      "libpeas: FTBFS in Fedora rawhide/f43",
       "libpeas fails to build with Python 3.14: test-extension-py  TIMEOUT"
     ]
   },
@@ -133,14 +123,6 @@
       "paraview: FTBFS in Fedora rawhide/f43"
     ]
   },
-  "patool": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2366470"
-    ],
-    "summaries": [
-      "patool fails to build with Python 3.14: Codec Load Error: /usr/bin/7z.so : errno=25 : Inappropriate ioctl for device"
-    ]
-  },
   "psi4": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2385428",
@@ -149,22 +131,6 @@
     "summaries": [
       "psi4: FTBFS in Fedora rawhide/f43",
       "F43FailsToInstall: psi4"
-    ]
-  },
-  "pylint": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2368703"
-    ],
-    "summaries": [
-      "pylint fails to build with Python 3.14: AssertionError tests/test_functional.py::test_functional"
-    ]
-  },
-  "pyserial-asyncio": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2327980"
-    ],
-    "summaries": [
-      "pyserial-asyncio fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
     ]
   },
   "python-autobahn": {
@@ -211,16 +177,6 @@
       "python-dataclassy fails to build with Python 3.14: TypeError: Beta() takes no arguments"
     ]
   },
-  "python-datalad": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2385452",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2371854"
-    ],
-    "summaries": [
-      "python-datalad: FTBFS in Fedora rawhide/f43",
-      "F43FailsToInstall: python3-datalad"
-    ]
-  },
   "python-eventlet": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2385466",
@@ -241,52 +197,12 @@
       "F43FailsToInstall: python3-ffc"
     ]
   },
-  "python-fsleyes": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2385470",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2371912"
-    ],
-    "summaries": [
-      "python-fsleyes: FTBFS in Fedora rawhide/f43",
-      "F43FailsToInstall: python3-fsleyes"
-    ]
-  },
-  "python-fsleyes-props": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2385472",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2371913"
-    ],
-    "summaries": [
-      "python-fsleyes-props: FTBFS in Fedora rawhide/f43",
-      "F43FailsToInstall: python3-fsleyes-props"
-    ]
-  },
   "python-howdoi": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2342558"
     ],
     "summaries": [
       "python-howdoi fails to build with Python 3.14: AssertionError: 'ERROR: Unable to reach google. Do you need to use a proxy? + json.decoder.JSONDecodeError"
-    ]
-  },
-  "python-jsons": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2385477",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2371957"
-    ],
-    "summaries": [
-      "python-jsons: FTBFS in Fedora rawhide/f43",
-      "F43FailsToInstall: python3-jsons"
-    ]
-  },
-  "python-nipype": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2385502",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2372004"
-    ],
-    "summaries": [
-      "python-nipype: FTBFS in Fedora rawhide/f43",
-      "F43FailsToInstall: python3-nipype+data, python3-nipype+duecredit, python3-nipype+nipy, python3-nipype+pybids, python3-nipype+ssh, python3-nipype"
     ]
   },
   "python-optking": {
@@ -327,26 +243,6 @@
       "F43FailsToInstall: python3-pingouin"
     ]
   },
-  "python-plotnine": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2385511",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2372035"
-    ],
-    "summaries": [
-      "python-plotnine: FTBFS in Fedora rawhide/f43",
-      "F43FailsToInstall: python3-plotnine+extra, python3-plotnine"
-    ]
-  },
-  "python-pocketlint": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2385512",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2372037"
-    ],
-    "summaries": [
-      "python-pocketlint: FTBFS in Fedora rawhide/f43",
-      "F43FailsToInstall: python3-pocketlint"
-    ]
-  },
   "python-pybids": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2385515",
@@ -355,16 +251,6 @@
     "summaries": [
       "python-pybids: FTBFS in Fedora rawhide/f43",
       "F43FailsToInstall: python3-pybids+plotting, python3-pybids+test, python3-pybids+tests, python3-pybids"
-    ]
-  },
-  "python-pysaml2": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2385525",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2372073"
-    ],
-    "summaries": [
-      "python-pysaml2: FTBFS in Fedora rawhide/f43",
-      "F43FailsToInstall: python3-pysaml2"
     ]
   },
   "python-qcelemental": {
@@ -387,14 +273,6 @@
       "F43FailsToInstall: python3-qemu-qmp"
     ]
   },
-  "python-rstcheck": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2322705"
-    ],
-    "summaries": [
-      "python-rstcheck fails to build with Python 3.14: AttributeError: 'Constant' object has no attribute 's'"
-    ]
-  },
   "python-sqlmodel": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2385537",
@@ -412,18 +290,6 @@
     "summaries": [
       "python-txaio fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
     ]
-  },
-  "python-typing-inspect": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2325455"
-    ],
-    "summaries": [
-      "python-typing-inspect fails to build with Python 3.14: AssertionError: {} != {'x': <class 'int'>, 'y': <class 'int'>}"
-    ]
-  },
-  "python-wxnatpy": {
-    "urls": [],
-    "summaries": []
   },
   "python-xbout": {
     "urls": [
@@ -461,14 +327,6 @@
     "summaries": [
       "swift-lang: FTBFS in Fedora rawhide/f43",
       "swift-lang: FTBFS in Fedora rawhide/f42"
-    ]
-  },
-  "thonny": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2372232"
-    ],
-    "summaries": [
-      "F43FailsToInstall: thonny"
     ]
   },
   "zeek": {
