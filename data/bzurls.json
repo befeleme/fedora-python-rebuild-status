@@ -25,16 +25,6 @@
       "F43FailsToInstall: buildbot-master, buildbot-master-container, buildbot-master-ec2, buildbot-master-libvirt, buildbot-master-openstack, buildbot-worker, buildbot-www"
     ]
   },
-  "cfn-lint": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2384496",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2371692"
-    ],
-    "summaries": [
-      "cfn-lint: FTBFS in Fedora rawhide/f43",
-      "F43FailsToInstall: cfn-lint+full, cfn-lint+graph, cfn-lint+junit, cfn-lint+sarif, cfn-lint"
-    ]
-  },
   "cjdns": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2339969"
@@ -49,14 +39,6 @@
     ],
     "summaries": [
       "conda-build fails to build with Python 3.14: TypeError: _WorkItem.__init__() takes 3 positional arguments but 5 were given"
-    ]
-  },
-  "copr-backend": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2351386"
-    ],
-    "summaries": [
-      "copr-backend fails to build with Python 3.14: TestActionWorkerManager.test_add_task_for_running_worker: TypeError: cannot pickle 'itertools.count' object"
     ]
   },
   "dolfin": {
@@ -141,14 +123,6 @@
     "summaries": [
       "python-autobahn: FTBFS in Fedora rawhide/f43",
       "F43FailsToInstall: python3-autobahn+twisted, python3-autobahn"
-    ]
-  },
-  "python-aws-sam-translator": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2353126"
-    ],
-    "summaries": [
-      "python-aws-sam-translator fails to build with Python 3.14: 77 test failures, 4 error"
     ]
   },
   "python-colcon-meson": {
@@ -241,26 +215,6 @@
     "summaries": [
       "python-pingouin: FTBFS in Fedora rawhide/f43",
       "F43FailsToInstall: python3-pingouin"
-    ]
-  },
-  "python-pybids": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2385515",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2372050"
-    ],
-    "summaries": [
-      "python-pybids: FTBFS in Fedora rawhide/f43",
-      "F43FailsToInstall: python3-pybids+plotting, python3-pybids+test, python3-pybids+tests, python3-pybids"
-    ]
-  },
-  "python-qcelemental": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2385528",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2372089"
-    ],
-    "summaries": [
-      "python-qcelemental: FTBFS in Fedora rawhide/f43",
-      "F43FailsToInstall: python3-qcelemental"
     ]
   },
   "python-qemu-qmp": {
