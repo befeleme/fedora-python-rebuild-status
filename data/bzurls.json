@@ -189,16 +189,6 @@
       "F43FailsToInstall: python3-optking"
     ]
   },
-  "python-oslo-middleware": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2385506",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2347032"
-    ],
-    "summaries": [
-      "python-oslo-middleware: FTBFS in Fedora rawhide/f43",
-      "F43FailsToInstall: python3-oslo-middleware"
-    ]
-  },
   "python-pamela": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2366474"
@@ -216,6 +206,10 @@
       "python-pingouin: FTBFS in Fedora rawhide/f43",
       "F43FailsToInstall: python3-pingouin"
     ]
+  },
+  "python-qcengine": {
+    "urls": [],
+    "summaries": []
   },
   "python-qemu-qmp": {
     "urls": [
