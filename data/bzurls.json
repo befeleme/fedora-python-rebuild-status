@@ -79,16 +79,6 @@
       "F43FailsToInstall: Multiple packages built from matrix-synapse"
     ]
   },
-  "mirrormanager2": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2385192",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2347031"
-    ],
-    "summaries": [
-      "mirrormanager2: FTBFS in Fedora rawhide/f43",
-      "F43FailsToInstall: mirrormanager2"
-    ]
-  },
   "ocrmypdf": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2357508"
@@ -123,6 +113,14 @@
     "summaries": [
       "python-autobahn: FTBFS in Fedora rawhide/f43",
       "F43FailsToInstall: python3-autobahn+twisted, python3-autobahn"
+    ]
+  },
+  "python-avocado": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2325218"
+    ],
+    "summaries": [
+      "python-avocado fails to build with Python 3.14: Error running method \"pre_tests\" of plugin \"fetchasset\": module 'ast' has no attribute 'Str' + Avocado crashed: TypeError: cannot pickle '_thread.RLock' object"
     ]
   },
   "python-colcon-meson": {
