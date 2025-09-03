@@ -15,16 +15,6 @@
       "binwalk fails to build with Python 3.14: TypeError: unsupported operand type(s) for +=: 'NoneType' and 'int'"
     ]
   },
-  "buildbot": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2384488",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2371686"
-    ],
-    "summaries": [
-      "buildbot: FTBFS in Fedora rawhide/f43",
-      "F43FailsToInstall: buildbot-master, buildbot-master-container, buildbot-master-ec2, buildbot-master-libvirt, buildbot-master-openstack, buildbot-worker, buildbot-www"
-    ]
-  },
   "cjdns": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2339969"
@@ -105,16 +95,6 @@
       "F43FailsToInstall: psi4"
     ]
   },
-  "python-autobahn": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2385437",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2371802"
-    ],
-    "summaries": [
-      "python-autobahn: FTBFS in Fedora rawhide/f43",
-      "F43FailsToInstall: python3-autobahn+twisted, python3-autobahn"
-    ]
-  },
   "python-avocado": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2325218"
@@ -129,16 +109,6 @@
     ],
     "summaries": [
       "python-colcon-meson fails to build with Meson 1.8.0: test_capital_case: TypeError: InterpreterBase.__init__() missing 2 required positional arguments: 'subproject_dir' and 'env'"
-    ]
-  },
-  "python-daphne": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2385451",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2371851"
-    ],
-    "summaries": [
-      "python-daphne: FTBFS in Fedora rawhide/f43",
-      "F43FailsToInstall: python3-daphne"
     ]
   },
   "python-dataclassy": {
@@ -195,16 +165,6 @@
       "python-pamela fails to build with Python 3.14: pamela.PAMError: [PAM Error 26] Critical error - immediate abort"
     ]
   },
-  "python-pingouin": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2385509",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2372029"
-    ],
-    "summaries": [
-      "python-pingouin: FTBFS in Fedora rawhide/f43",
-      "F43FailsToInstall: python3-pingouin"
-    ]
-  },
   "python-qcengine": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2385529",
@@ -233,14 +193,6 @@
     "summaries": [
       "python-sqlmodel: FTBFS in Fedora rawhide/f43",
       "F43FailsToInstall: python3-sqlmodel, python3-sqlmodel-slim"
-    ]
-  },
-  "python-txaio": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2327981"
-    ],
-    "summaries": [
-      "python-txaio fails to build with Python 3.14: RuntimeError: There is no current event loop in thread 'MainThread'."
     ]
   },
   "python-xbout": {
