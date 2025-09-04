@@ -7,14 +7,6 @@
       "bandit fails to build with Python 3.14: TypeError: Error: Str is not a valid node type in AST"
     ]
   },
-  "binwalk": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2336914"
-    ],
-    "summaries": [
-      "binwalk fails to build with Python 3.14: TypeError: unsupported operand type(s) for +=: 'NoneType' and 'int'"
-    ]
-  },
   "cjdns": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2339969"
@@ -47,16 +39,6 @@
     ],
     "summaries": [
       "libpeas fails to build with Python 3.14: test-extension-py  TIMEOUT"
-    ]
-  },
-  "mailman3-fedmsg-plugin": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2385168",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2304216"
-    ],
-    "summaries": [
-      "mailman3-fedmsg-plugin: FTBFS in Fedora rawhide/f43",
-      "F41FailsToInstall: python3-mailman3-fedmsg-plugin"
     ]
   },
   "matrix-synapse": {
