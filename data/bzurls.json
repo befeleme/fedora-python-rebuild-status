@@ -33,14 +33,6 @@
       "F43FailsToInstall: python3-dolfin"
     ]
   },
-  "ocrmypdf": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2357508"
-    ],
-    "summaries": [
-      "ocrmypdf fails to build with Python 3.14: multiprocessing.Process now starts with forkserver method instead of fork, causing pickling error"
-    ]
-  },
   "paraview": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2385379"
