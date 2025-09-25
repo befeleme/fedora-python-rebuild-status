@@ -51,14 +51,6 @@
       "python-avocado fails to build with Python 3.14: Error running method \"pre_tests\" of plugin \"fetchasset\": module 'ast' has no attribute 'Str' + Avocado crashed: TypeError: cannot pickle '_thread.RLock' object"
     ]
   },
-  "python-colcon-meson": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2368744"
-    ],
-    "summaries": [
-      "python-colcon-meson fails to build with Meson 1.8.0: test_capital_case: TypeError: InterpreterBase.__init__() missing 2 required positional arguments: 'subproject_dir' and 'env'"
-    ]
-  },
   "python-dataclassy": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2325200"
