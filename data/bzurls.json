@@ -1,12 +1,4 @@
 {
-  "bandit": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2351393"
-    ],
-    "summaries": [
-      "bandit fails to build with Python 3.14: TypeError: Error: Str is not a valid node type in AST"
-    ]
-  },
   "cjdns": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2339969"
@@ -41,14 +33,6 @@
     "summaries": [
       "psi4: FTBFS in Fedora rawhide/f43",
       "F43FailsToInstall: psi4"
-    ]
-  },
-  "python-avocado": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2325218"
-    ],
-    "summaries": [
-      "python-avocado fails to build with Python 3.14: Error running method \"pre_tests\" of plugin \"fetchasset\": module 'ast' has no attribute 'Str' + Avocado crashed: TypeError: cannot pickle '_thread.RLock' object"
     ]
   },
   "python-dataclassy": {
