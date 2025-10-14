@@ -126,34 +126,66 @@ def index():
 @app.route('/packages/')
 def packages():
     return render_template(
-        'packages.html',
-        status_by_packages=status_by_packages,
+        'packages_py314.html',
+        py314_status_by_packages=status_by_packages,
         updated=updated,
-        majorver=MAJOR_VERSION,
     )
 
 @app.route('/maintainers/')
 def maintainers():
     return render_template(
-        'maintainers.html',
-        status_by_maintainers=status_by_maintainers,
+        'maintainers_py314.html',
+        py314_status_by_maintainers=status_by_maintainers,
         updated=updated,
-        majorver=MAJOR_VERSION,
     )
 
 @app.route('/failures/')
 def failures():
-        return render_template(
-        'failures.html',
-        status_failed=create_failed_report(build_status),
+    return render_template(
+        'failures_py314.html',
+        py314_status_failed=create_failed_report(build_status),
         updated=updated,
-        majorver=MAJOR_VERSION,
+        zip=zip,
+    )
+
+@app.route('/packages_py314/')
+def packages_py314():
+    return render_template(
+        'packages_py314.html',
+        py314_status_by_packages=status_by_packages,
+        updated=updated,
+    )
+
+@app.route('/maintainers_py314/')
+def maintainers_py314():
+    return render_template(
+        'maintainers_py314.html',
+        py314_status_by_maintainers=status_by_maintainers,
+        updated=updated,
+    )
+
+@app.route('/failures_py314/')
+def failures_py314():
+    return render_template(
+        'failures_py314.html',
+        py314_status_failed=create_failed_report(build_status),
+        updated=updated,
         zip=zip,
     )
 
 @app.route('/wheels/')
 def wheels():
-        return render_template(
+    return render_template(
+        'wheels.html',
+        results=wheel_readiness,
+        major=WHEEL_MAJOR_VERSION,
+        updated=updated,
+        do_support=wheels_count,
+    )
+
+@app.route('/wheels_py314/')
+def wheels_py314():
+    return render_template(
         'wheels.html',
         results=wheel_readiness,
         major=WHEEL_MAJOR_VERSION,
