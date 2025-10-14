@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+{% block title %}Python 3.14 failed to build breakdown{% endblock %}
+{% block content %}
+<a href="{{ url_for('index') }}" class="btn btn-primary mb-3"> &lt&lt&lt Home</a>
+<h2 class="mb-3">Python 3.14: Packages that weren't built successfully (🔴 + 🟠 + ⚪)</h2>
+
+<style>
+    .max-width-column {
+        max-width: 600px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+</style>
+
+<div class="container mt-4">
+    <table class="table table-striped table-hover table-bordered">
+        <thead class="table-dark">
+            <tr>
+                <th scope="col">Package name</th>
+                <th scope="col">Build status</th>
+                <th scope="col">Build attempts in Copr</th>
+                <th scope="col" class="max-width-column">Bugzilla ticket (all open PYTHON314 and F43FTBFS)</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for package_name, detail in py314_status_failed.items() %}
+            <tr id="row-{{ package_name }}">
+                <td>{{ package_name }}</td>
+                <td>{{ detail["state"] }}</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/{{ package_name }}/">
+                        Copr - {{ package_name }}
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    {% for url, summary in zip(detail["urls"], detail["summaries"]) %}
+                    <a href="{{ url }}">{{ summary }}</a><br>
+                    {% endfor %}
+                </td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+</div>
+{% endblock %}

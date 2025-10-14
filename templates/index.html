@@ -1,74 +1,162 @@
 {% extends "base.html" %}
-{% block title %}Python {{majorver}} rebuild status page in Fedora{% endblock %}
+{% block title %}Python 3.15 rebuild status page in Fedora{% endblock %}
 {% block content %}
-<h1 class="mb-4">Python {{majorver}} Rebuild Status Page in Fedora</h1>
+<h1 class="mb-4">Python Rebuild Status Page in Fedora</h1>
 
-<h2 class="mb-3">Current Build Environment</h2>
-<p>
-    Fedora 43 (Target: Fedora 43)<br>
-    Python {{currver}} (Target: Python {{majorver}}.0)<br>
-    Data source: Koji</a>
-</p>
+<!-- Python 3.15 Statistics (Visible by default) -->
+<div class="mb-5">
+    <h2 class="mb-3">Python 3.15 Rebuild Status</h2>
 
+    <h3 class="mb-3">Current Build Environment</h3>
+    <p>
+        Fedora {{ py315_fedora_version }} (Target: Fedora {{ py315_target_fedora }})<br>
+        Python {{ py315_current_version }} (Target: Python 3.15.0)<br>
+        Data source: {{ py315_data_source }}
+    </p>
 
-<div class="card mb-4" style="max-width: 600px; margin-left: 1rem;">
-    <div class="card-header">
-        <h5 class="mb-0">Summary</h5>
+    <div class="card mb-4" style="max-width: 600px; margin-left: 1rem;">
+        <div class="card-header">
+            <h5 class="mb-0">Summary</h5>
+        </div>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item d-flex justify-content-between">
+                <span style="min-width: 60%;">🌏 All packages:</span>
+                <span class="text-end" style="min-width: 20%;"><b>{{ py315_total_packages }}</b></span>
+                <span class="text-end" style="min-width: 20%;"><span class="badge bg-primary">100%</span></span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between">
+                <span style="min-width: 60%;">🟢 Built successfully with Python 3.15:</span>
+                <span class="text-end" style="min-width: 20%;"><b>{{ py315_success_count }}</b></span>
+                <span class="text-end" style="min-width: 20%;">
+                    <span class="badge bg-success">
+                        {{ py315_success_percentage }}%
+                    </span>
+                </span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between">
+                <span style="min-width: 60%;">🕒 Waiting to be rebuilt:</span>
+                <span class="text-end" style="min-width: 20%;"><b>{{ py315_waiting_count }}</b></span>
+                <span class="text-end" style="min-width: 20%;">
+                    <span class="badge bg-warning">
+                        {{ py315_waiting_percentage }}%
+                    </span>
+                </span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between ps-5">
+                <span style="min-width: 60%;">🔴 Failed (Python 3.15):</span>
+                <span class="text-end" style="min-width: 17%;"><b>{{ py315_failed_count }}</b></span>
+                <span class="text-end" style="min-width: 20%;">
+                    <span class="badge bg-danger">
+                        {{ py315_failed_percentage }}%
+                    </span>
+                </span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between ps-5">
+                <span style="min-width: 60%;">⚪ Blocked (missing dependencies):</span>
+                <span class="text-end" style="min-width: 17%;"><b>{{ py315_blocked_count }}</b></span>
+                <span class="text-end" style="min-width: 20%;">
+                    <span class="badge bg-secondary">
+                        {{ py315_blocked_percentage }}%
+                    </span>
+                </span>
+            </li>
+        </ul>
     </div>
-    <ul class="list-group list-group-flush">
-        <li class="list-group-item d-flex justify-content-between">
-            <span style="min-width: 60%;">🌏 All packages:</span>
-            <span class="text-end" style="min-width: 20%;"><b>{{ number_pkgs_to_rebuild + number_pkgs_success }}</b></span>
-            <span class="text-end" style="min-width: 20%;"><span class="badge bg-primary">100%</span></span>
-        </li>
-        <li class="list-group-item d-flex justify-content-between">
-            <span style="min-width: 60%;">🟢 Built successfully with Python {{majorver}}:</span>
-            <span class="text-end" style="min-width: 20%;"><b>{{ number_pkgs_success }}</b></span>
-            <span class="text-end" style="min-width: 20%;">
-                <span class="badge bg-success">
-                    {{ "{:.2f}%".format(number_pkgs_success * 100 / (number_pkgs_to_rebuild + number_pkgs_success)) }}
-                </span>
-            </span>
-        </li>
-        <li class="list-group-item d-flex justify-content-between">
-            <span style="min-width: 60%;">🕒 Waiting to be rebuilt:</span>
-            <span class="text-end" style="min-width: 20%;"><b>{{ number_pkgs_to_rebuild }}</b></span>
-            <span class="text-end" style="min-width: 20%;">
-                <span class="badge bg-warning">
-                    {{ "{:.2f}%".format(number_pkgs_to_rebuild * 100 / (number_pkgs_to_rebuild + number_pkgs_success)) }}
-                </span>
-            </span>
-        </li>
-        <li class="list-group-item d-flex justify-content-between ps-5">
-            <span style="min-width: 60%;">🔴 Failed (Python {{majorver}}):</span>
-            <span class="text-end" style="min-width: 17%;"><b>{{ number_pkgs_failed }}</b></span>
-            <span class="text-end" style="min-width: 20%;">
-                <span class="badge bg-danger">
-                    {{ "{:.2f}%".format(number_pkgs_failed * 100 / (number_pkgs_to_rebuild + number_pkgs_success)) }}
-                </span>
-            </span>
-        </li>
-        <li class="list-group-item d-flex justify-content-between ps-5">
-            <span style="min-width: 60%;">⚪ Blocked (missing dependencies):</span>
-            <span class="text-end" style="min-width: 17%;"><b>{{ number_pkgs_waiting }}</b></span>
-            <span class="text-end" style="min-width: 20%;">
-                <span class="badge bg-secondary">
-                    {{ "{:.2f}%".format(number_pkgs_waiting * 100 / (number_pkgs_to_rebuild + number_pkgs_success)) }}
-                </span>
-            </span>
-        </li>
-    </ul>
+
+    <h3 class="mb-3">Status breakdown</h3>
+    <div class="list-group mb-4">
+        <div class="mb-2"><a href="{{ url_for('packages_py315') }}">Todo packages sorted by package names</a></div>
+        <div class="mb-2"><a href="{{ url_for('maintainers_py315') }}">Todo packages sorted by maintainers</a></div>
+        <div class="mb-2"><a href="{{ url_for('failures_py315') }}">Build failures</a></div>
+    </div>
+
+    <h3 class="mb-3">Python 3.15 wheel readiness</h3>
+    <div>
+        <a href="{{ url_for('wheels_py315') }}" class="d-block mb-2">Top PyPI packages and their Python 3.15 wheel status</a>
+    </div>
 </div>
 
-<h2 class="mb-3">Status breakdown</h2>
-<div class="list-group mb-4">
-    <div class="mb-2"><a href="{{ url_for('packages') }}">Todo packages sorted by package names</a></div>
-    <div class="mb-2"><a href="{{ url_for('maintainers') }}">Todo packages sorted by maintainers</a></div>
-    <div class="mb-2"><a href="{{ url_for('failures') }}">Build failures</a></div>
+<!-- Python 3.14 Statistics (Collapsible) -->
+<div class="mb-5">
+    <h2 class="mb-3">
+        <a class="text-decoration-none" data-bs-toggle="collapse" href="#py314Section" role="button" aria-expanded="false" aria-controls="py314Section">
+            Python 3.14 Rebuild Status
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+            </svg>
+        </a>
+    </h2>
+
+    <div class="collapse" id="py314Section">
+        <h3 class="mb-3">Current Build Environment</h3>
+        <p>
+            Fedora {{ py314_fedora_version }} (Target: Fedora {{ py314_target_fedora }})<br>
+            Python {{ py314_current_version }} (Target: Python 3.14.0)<br>
+            Data source: {{ py314_data_source }}
+        </p>
+
+        <div class="card mb-4" style="max-width: 600px; margin-left: 1rem;">
+            <div class="card-header">
+                <h5 class="mb-0">Summary</h5>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item d-flex justify-content-between">
+                    <span style="min-width: 60%;">🌏 All packages:</span>
+                    <span class="text-end" style="min-width: 20%;"><b>{{ py314_total_packages }}</b></span>
+                    <span class="text-end" style="min-width: 20%;"><span class="badge bg-primary">100%</span></span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between">
+                    <span style="min-width: 60%;">🟢 Built successfully with Python 3.14:</span>
+                    <span class="text-end" style="min-width: 20%;"><b>{{ py314_success_count }}</b></span>
+                    <span class="text-end" style="min-width: 20%;">
+                        <span class="badge bg-success">
+                            {{ py314_success_percentage }}%
+                        </span>
+                    </span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between">
+                    <span style="min-width: 60%;">🕒 Waiting to be rebuilt:</span>
+                    <span class="text-end" style="min-width: 20%;"><b>{{ py314_waiting_count }}</b></span>
+                    <span class="text-end" style="min-width: 20%;">
+                        <span class="badge bg-warning">
+                            {{ py314_waiting_percentage }}%
+                        </span>
+                    </span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between ps-5">
+                    <span style="min-width: 60%;">🔴 Failed (Python 3.14):</span>
+                    <span class="text-end" style="min-width: 17%;"><b>{{ py314_failed_count }}</b></span>
+                    <span class="text-end" style="min-width: 20%;">
+                        <span class="badge bg-danger">
+                            {{ py314_failed_percentage }}%
+                        </span>
+                    </span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between ps-5">
+                    <span style="min-width: 60%;">⚪ Blocked (missing dependencies):</span>
+                    <span class="text-end" style="min-width: 17%;"><b>{{ py314_blocked_count }}</b></span>
+                    <span class="text-end" style="min-width: 20%;">
+                        <span class="badge bg-secondary">
+                            {{ py314_blocked_percentage }}%
+                        </span>
+                    </span>
+                </li>
+            </ul>
+        </div>
+
+        <h3 class="mb-3">Status breakdown</h3>
+        <div class="list-group mb-4">
+            <div class="mb-2"><a href="{{ url_for('packages_py314') }}">Todo packages sorted by package names</a></div>
+            <div class="mb-2"><a href="{{ url_for('maintainers_py314') }}">Todo packages sorted by maintainers</a></div>
+            <div class="mb-2"><a href="{{ url_for('failures_py314') }}">Build failures</a></div>
+        </div>
+
+        <h3 class="mb-3">Python 3.14 wheel readiness</h3>
+        <div>
+            <a href="{{ url_for('wheels_py314') }}" class="d-block mb-2">Top PyPI packages and their Python 3.14 wheel status</a>
+        </div>
+    </div>
 </div>
 
-<h2 class="mb-3">Python 3.14 wheel readiness</h2>
-<div>
-<a href="{{ url_for('wheels')}}" class="d-block mb-2">Top PyPI packages and their Python 3.14 wheel status</a>
-</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 {% endblock %}

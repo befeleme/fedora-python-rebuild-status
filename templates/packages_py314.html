@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% block title %}Fedora - Python 3.14 rebuild: sorted by package name{% endblock %}
+{% block content %}
+<a href="{{ url_for('index') }}" class="btn btn-primary mb-3"> &lt&lt&lt Home</a>
+<h2 class="mb-3">Python 3.14: All packages sorted by package name</h2>
+
+<p><strong>Legend</strong><br>
+    🟢 = successful build<br>
+    🟠 = successfully built at least once, last build failed<br>
+    🔴 = failed build<br>
+    ⚪ = waiting to be rebuilt<br>
+</p>
+
+<div class="container mt-4">
+    <table class="table table-striped table-hover table-bordered">
+        <thead class="table-dark">
+            <tr>
+                <th scope="col">Package</th>
+                <th scope="col">Status</th>
+                <th scope="col">Maintainer</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for package_name, status, maintainers in py314_status_by_packages %}
+            <tr>
+                <td>
+                    {% if status in ["🟠", "🔴"] %}
+                        <a href="{{ url_for('failures_py314') }}#row-{{ package_name }}">{{ package_name }}</a>
+                    {% else %}
+                        {{ package_name }}
+                    {% endif %}
+                </td>
+                <td>{{ status }}</td>
+                <td>{{ ", ".join(maintainers) }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+{% endblock %}
