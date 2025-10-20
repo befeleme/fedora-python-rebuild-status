@@ -2,7 +2,7 @@
 {% block title %}Python 3.15 failed to build breakdown{% endblock %}
 {% block content %}
 <a href="{{ url_for('index') }}" class="btn btn-primary mb-3"> &lt&lt&lt Home</a>
-<h2 class="mb-3">Python 3.15: Packages that weren't built successfully (🔴 + 🟠 + ⚪)</h2>
+<h2 class="mb-3">Python 3.15: Packages that weren't built successfully (🔴 + 🟠)</h2>
 
 <style>
     .max-width-column {
@@ -19,7 +19,7 @@
                 <th scope="col">Package name</th>
                 <th scope="col">Build status</th>
                 <th scope="col">Build attempts in Copr</th>
-                <th scope="col" class="max-width-column">Bugzilla ticket (all open PYTHON315 and F44FTBFS)</th>
+                <th scope="col" class="max-width-column">Bugzilla ticket (all open PYTHON315)</th>
             </tr>
         </thead>
         <tbody>
