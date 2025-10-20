@@ -11,3 +11,13 @@ baseurl=https://kojipkgs.fedoraproject.org/repos/rawhide/latest/src/
 enabled=0
 #metadata_expire=60m
 gpgcheck=0
+
+[koji43]
+name=koji43
+baseurl=http://kojipkgs.fedoraproject.org/repos/f43-build/latest/$basearch/
+enabled=0
+
+[koji43-source]
+name=koji43-source
+baseurl=http://kojipkgs.fedoraproject.org/repos/f43-build/latest/src/
+enabled=0
