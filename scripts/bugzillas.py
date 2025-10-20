@@ -20,8 +20,8 @@ VERSION_CONFIG = {
         "output_file": "data/bzurls_py314.json"
     },
     "3.15": {
-        "tracker": None,  # PYTHON3.15 tracker ID - to be created
-        "rawhide": 2339432,  # F44FTBFS - update when F44 tracker is created
+        "tracker": None,  # TODO: PYTHON3.15 tracker ID - to be created
+        "rawhide": 2339432,  # TODO: F44FTBFS - update when F44 tracker is created
         "failed_file": "data/failed_py315.pkgs",
         "waiting_file": "data/waiting_py315.pkgs",
         "python_pkgs": "data/python315.pkgs",
