@@ -25,6 +25,7 @@ apk-tools
 appliance-tools
 arandr
 argparse-manpage
+asahi-installer
 asciidoc
 atomic-reactor
 audit
@@ -87,6 +88,7 @@ ephemeral-port-reserve
 evemu
 fail2ban
 fedora-distro-aliases
+fedora-repro
 file
 firewalld
 flent
@@ -145,12 +147,14 @@ kobo
 koji
 koji-containerbuild
 koji-flatpak
+koji-image-builder
 koji-osbuild
 krop
 langtable
 lasso
 ldns
 legendary
+legofy
 lhapdf
 libCombine
 libbatch
@@ -225,9 +229,11 @@ newt
 nftables
 ninja-build
 nispor
+nml
 nmstate
 nordugrid-arc-nagios-plugins
 ntpsec
+numpy
 nvmetcli
 nwg-panel
 nwg-wrapper
@@ -254,6 +260,7 @@ pcp2pdf
 pdfarranger
 perl-Inline-Python
 persepolis
+photocollage
 piccata
 pmbootstrap
 pocketsphinx
@@ -347,6 +354,7 @@ python-aenum
 python-aexpect
 python-affine
 python-ailment
+python-aiodns
 python-aioftp
 python-aiohttp-negotiate
 python-aioitertools
@@ -360,6 +368,7 @@ python-ajsonrpc
 python-allpairspy
 python-alsa
 python-amqp
+python-aniso8601
 python-annexremote
 python-annotated-types
 python-ansicolor
@@ -391,6 +400,7 @@ python-atpublic
 python-augeas
 python-authres
 python-autocommand
+python-autopep8
 python-avalara
 python-awscrt
 python-axolotl-curve25519
@@ -413,6 +423,7 @@ python-baseconv
 python-batalgorithm
 python-batinfo
 python-beanbag
+python-beancount
 python-beautifulsoup4
 python-beautifultable
 python-beniget
@@ -426,6 +437,7 @@ python-bitcoinlib
 python-bitmath
 python-bitstring
 python-bitstruct
+python-blobfile
 python-blowfish
 python-bokeh
 python-boltons
@@ -441,8 +453,10 @@ python-bucky
 python-cachetools
 python-can
 python-capturer
+python-cart
 python-casttube
 python-catkin-sphinx
+python-catkin_pkg
 python-cccolutils
 python-cerberus
 python-cerealizer
@@ -518,6 +532,7 @@ python-confuse
 python-connection_pool
 python-constantly
 python-construct
+python-convertdate
 python-cooldict
 python-cov-core
 python-coverage
@@ -530,6 +545,7 @@ python-cram
 python-crayons
 python-crc32c
 python-crcmod
+python-cron-converter
 python-crypt-r
 python-crypto
 python-cson
@@ -636,6 +652,7 @@ python-entrypoints
 python-ephem
 python-et_xmlfile
 python-etcd3
+python-eth-hash
 python-eth-typing
 python-ethtool
 python-evalidate
@@ -651,6 +668,7 @@ python-fastjsonschema
 python-fastrand
 python-fauxquests
 python-fedora-sig-onboard
+python-feedgen
 python-feedgenerator
 python-feedparser
 python-fields
@@ -661,6 +679,7 @@ python-firehose
 python-fissix
 python-fitdecode
 python-fixtures
+python-flake8-blind-except
 python-flaky
 python-flask-admin
 python-flask-talisman
@@ -693,6 +712,7 @@ python-geographiclib
 python-gertty
 python-getmac
 python-gettext
+python-ghp-import
 python-giacpy
 python-git-revise
 python-gitapi
@@ -781,6 +801,7 @@ python-jaconv
 python-jaraco-classes
 python-jaraco-path
 python-jaraco-stream
+python-javaproperties
 python-jcconv
 python-jdcal
 python-jedi
@@ -813,6 +834,7 @@ python-kerberos
 python-kgb
 python-kiss-headers
 python-kitchen
+python-kiwisolver
 python-kmod
 python-krb5
 python-landslide
@@ -861,6 +883,7 @@ python-markdown-include
 python-markdown-math
 python-markdown2
 python-markupsafe
+python-marshmallow
 python-mathics-pygments
 python-mathics-scanner
 python-matplotlib-inline
@@ -917,6 +940,7 @@ python-nest-asyncio
 python-netaddr
 python-netapp-lib
 python-netifaces
+python-nihtest
 python-nitrate
 python-nltk
 python-nmap
@@ -929,12 +953,14 @@ python-num2words
 python-oauth2
 python-ofxparse
 python-olefile
+python-omemo
 python-op1repacker
 python-op1svg
 python-opcodes
 python-openant
 python-openidc-client
 python-openoffice
+python-openslide
 python-ordered-set
 python-osa
 python-oslo-i18n
@@ -952,6 +978,7 @@ python-parameter-expansion-patched
 python-parse
 python-parsedatetime
 python-parso
+python-patch-manager
 python-patch-ng
 python-path
 python-path-and-address
@@ -1014,6 +1041,7 @@ python-puremagic
 python-py
 python-py3nvml
 python-pyModbusTCP
+python-pyaes
 python-pyahocorasick
 python-pyaib
 python-pyasn
@@ -1043,6 +1071,7 @@ python-pydbus
 python-pydicom-data
 python-pydiffx
 python-pydispatcher
+python-pydyf
 python-pyembroidery
 python-pyev
 python-pyfakefs
@@ -1060,6 +1089,7 @@ python-pygments-markdown-lexer
 python-pygments-pytest
 python-pygments-style-solarized
 python-pyhcl
+python-pyjwkest
 python-pykdumpfile
 python-pykmip
 python-pylero
@@ -1079,9 +1109,11 @@ python-pymilter
 python-pymssql
 python-pynetbox
 python-pynsgr
+python-pyocr
 python-pyotp
 python-pyownet
 python-pyphen
+python-pypillowfight
 python-pypng
 python-pypresence
 python-pyproject-api
@@ -1107,10 +1139,12 @@ python-pysol-cards
 python-pyspellchecker
 python-pyspf
 python-pystitch
+python-pystray
 python-pyswip
 python-pysword
 python-pytaglib
 python-pyte
+python-pytesseract
 python-pytest-astropy-header
 python-pytest-asyncio
 python-pytest-benchmark
@@ -1191,10 +1225,12 @@ python-roundrobin
 python-rpi-gpio2
 python-rpmfluff
 python-rsa
+python-rst-linker
 python-rtslib
 python-ruamel-yaml
 python-rustcfg
 python-rxjson
+python-samloader
 python-sanction
 python-sane
 python-saneyaml
@@ -1236,6 +1272,7 @@ python-smartypants
 python-smbc
 python-smbpasswd
 python-smmap
+python-snaptime
 python-sniffio
 python-socksio
 python-solc-ast
@@ -1301,6 +1338,7 @@ python-stem
 python-stone
 python-straight-plugin
 python-strict-rfc3339
+python-strictyaml
 python-stripe
 python-stuf
 python-subprocess-tee
@@ -1308,6 +1346,7 @@ python-suds
 python-super-collections
 python-sure
 python-svg
+python-svg-path
 python-svgwrite
 python-sybil
 python-symengine
@@ -1319,6 +1358,7 @@ python-sysv_ipc
 python-tamilstring
 python-tasklib
 python-tcolorpy
+python-tcxparser
 python-teamcity-messages
 python-teletype
 python-telnetlib3
@@ -1359,6 +1399,7 @@ python-trove-classifiers
 python-tvb-data
 python-twiggy
 python-txredisapi
+python-typepy
 python-types-boto
 python-types-cryptography
 python-types-decorator
@@ -1415,6 +1456,7 @@ python-vine
 python-visitor
 python-visvis
 python-vkbasalt-cli
+python-vobject
 python-volatile
 python-voluptuous
 python-vvm
@@ -1525,6 +1567,7 @@ sos
 speech-dispatcher
 speedtest-cli
 sssd
+subscription-manager
 subversion
 sudo
 supervisor
@@ -1561,6 +1604,7 @@ vim-jedi
 virt-lightning
 virt-who
 virtme-ng
+visidata
 vit
 volk
 volume_key
@@ -1571,6 +1615,7 @@ wordxtr
 xcat
 xcb-proto
 xen
+xrootd
 xwayland-run
 yamllint
 ydiff
