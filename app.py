@@ -180,6 +180,7 @@ def as_percentage(state, total):
 
 # Prepare data for all versions
 build_data = {}
+wheel_data = {}
 for ver in VERSIONS.keys():
     build_status = assign_build_status(ver)
     packages_with_maintainers = find_maintainers(ver)
@@ -193,8 +194,12 @@ for ver in VERSIONS.keys():
         "failed_report": create_failed_report(ver, build_status),
     }
 
-# Generate wheel readiness data (shared for now)
-wheel_readiness, wheels_count = generate_wheel_readiness_data()
+    # Generate wheel readiness data for each version
+    wheel_readiness, wheels_count = generate_wheel_readiness_data(ver)
+    wheel_data[ver] = {
+        "readiness": wheel_readiness,
+        "count": wheels_count,
+    }
 
 updated = datetime.datetime.now()
 
@@ -299,20 +304,20 @@ def failures_py314():
 def wheels():
     return render_template(
         'wheels.html',
-        results=wheel_readiness,
+        results=wheel_data["315"]["readiness"],
         major=VERSIONS["315"]["major_version"],
         updated=updated,
-        do_support=wheels_count,
+        do_support=wheel_data["315"]["count"],
     )
 
 @app.route('/wheels_py314/')
 def wheels_py314():
     return render_template(
         'wheels.html',
-        results=wheel_readiness,
+        results=wheel_data["314"]["readiness"],
         major=VERSIONS["314"]["major_version"],
         updated=updated,
-        do_support=wheels_count,
+        do_support=wheel_data["314"]["count"],
     )
 
 @app.route('/packages_py315/')
@@ -344,8 +349,8 @@ def failures_py315():
 def wheels_py315():
     return render_template(
         'wheels.html',
-        results=wheel_readiness,
+        results=wheel_data["315"]["readiness"],
         major=VERSIONS["315"]["major_version"],
         updated=updated,
-        do_support=wheels_count,
+        do_support=wheel_data["315"]["count"],
     )
