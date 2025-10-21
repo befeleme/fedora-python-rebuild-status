@@ -34,26 +34,26 @@
                 </span>
             </li>
             <li class="list-group-item d-flex justify-content-between">
-                <span style="min-width: 60%;">🕒 Waiting to be rebuilt:</span>
-                <span class="text-end" style="min-width: 20%;"><b>{{ py315_waiting_count }}</b></span>
+                <span style="min-width: 60%;">🟠 Last build with Python 3.15 failed:</span>
+                <span class="text-end" style="min-width: 20%;"><b>{{ py315_flaky_count }}</b></span>
                 <span class="text-end" style="min-width: 20%;">
                     <span class="badge bg-warning">
-                        {{ py315_waiting_percentage }}%
+                        {{ py315_flaky_percentage }}%
                     </span>
                 </span>
             </li>
-            <li class="list-group-item d-flex justify-content-between ps-5">
+            <li class="list-group-item d-flex justify-content-between">
                 <span style="min-width: 60%;">🔴 Failed (Python 3.15):</span>
-                <span class="text-end" style="min-width: 17%;"><b>{{ py315_failed_count }}</b></span>
+                <span class="text-end" style="min-width: 20%;"><b>{{ py315_failed_count }}</b></span>
                 <span class="text-end" style="min-width: 20%;">
                     <span class="badge bg-danger">
                         {{ py315_failed_percentage }}%
                     </span>
                 </span>
             </li>
-            <li class="list-group-item d-flex justify-content-between ps-5">
+            <li class="list-group-item d-flex justify-content-between">
                 <span style="min-width: 60%;">⚪ Blocked (missing dependencies):</span>
-                <span class="text-end" style="min-width: 17%;"><b>{{ py315_blocked_count }}</b></span>
+                <span class="text-end" style="min-width: 20%;"><b>{{ py315_blocked_count }}</b></span>
                 <span class="text-end" style="min-width: 20%;">
                     <span class="badge bg-secondary">
                         {{ py315_blocked_percentage }}%

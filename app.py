@@ -19,7 +19,6 @@ VERSIONS = {
     "314": {
         "major_version": "3.14",
         "fedora_version": "43",
-        "data_source": "Koji" if KOJI_PY314 else "Copr",
         "koji_enabled": KOJI_PY314,
         "base_packages": "data/python313.pkgs",
         "exclude_package": "python3.13",
@@ -33,7 +32,6 @@ VERSIONS = {
     "315": {
         "major_version": "3.15",
         "fedora_version": "44",
-        "data_source": "Koji" if KOJI_PY315 else "Copr",
         "koji_enabled": KOJI_PY315,
         "base_packages": "data/python314.pkgs",
         "exclude_package": "python3.14",
@@ -48,7 +46,6 @@ VERSIONS = {
 
 # Load data for each version
 for ver, config in VERSIONS.items():
-    # Load all packages to build
     all_to_build = sorted(load_data(config["base_packages"]))
     all_to_build.remove(config["exclude_package"])
     config["all_to_build"] = all_to_build
@@ -63,7 +60,6 @@ for ver, config in VERSIONS.items():
     config["waiting"] = load_data(f"data/waiting_py{ver}.pkgs")
     config["bugzillas"] = load_json(f"data/bzurls_py{ver}.json")
 
-    # Load Copr data if not using Koji
     if not config["koji_enabled"]:
         config["all_in_copr"] = load_monitor_report(f"data/copr_py{ver}.pkgs")
 
@@ -178,6 +174,10 @@ def create_failed_report(ver, build_status):
     return failure_report
 
 
+def as_percentage(state, total):
+    return f"{state * 100 / total:.2f}" if total > 0 else "0.00"
+
+
 # Prepare data for all versions
 build_data = {}
 for ver in VERSIONS.keys():
@@ -207,24 +207,29 @@ def index():
     for ver, config in VERSIONS.items():
         data = build_data[ver]
         build_status = data["build_status"]
-
-        total = len(config["all_to_build"])
         success = count_pkgs_with_state(build_status, REPORT_STATES["success"])
-        failed = len(config["failed"])
-        waiting = len(config["waiting"])
+        failed = count_pkgs_with_state(build_status, REPORT_STATES["failed"])
         blocked = count_pkgs_with_state(build_status, REPORT_STATES["waiting"])
+        flaky = count_pkgs_with_state(build_status, REPORT_STATES["once_succeeded_last_failed"])
+        if config["koji_enabled"]:
+            total = len(config["all_to_build"]) + success
+            waiting = blocked + failed
+        else:
+            total = len(config["all_to_build"])
+            waiting = blocked
 
-        success_pct = f"{success * 100 / total:.2f}" if total > 0 else "0.00"
-        failed_pct = f"{failed * 100 / total:.2f}" if total > 0 else "0.00"
-        waiting_pct = f"{waiting * 100 / total:.2f}" if total > 0 else "0.00"
-        blocked_pct = f"{blocked * 100 / total:.2f}" if total > 0 else "0.00"
+        success_pct = as_percentage(success, total)
+        failed_pct = as_percentage(failed, total)
+        waiting_pct = as_percentage(waiting, total)
+        blocked_pct = as_percentage(blocked, total)
+        flaky_pct = as_percentage(flaky, total)
 
         prefix = f"py{ver}"
         template_vars.update({
             f"{prefix}_fedora_version": config["fedora_version"],
             f"{prefix}_target_fedora": config["fedora_version"],
             f"{prefix}_current_version": load_python_version(ver),
-            f"{prefix}_data_source": config["data_source"],
+            f"{prefix}_data_source": "Koji" if config["koji_enabled"] else "Copr",
             f"{prefix}_total_packages": total,
             f"{prefix}_success_count": success,
             f"{prefix}_success_percentage": success_pct,
@@ -234,6 +239,8 @@ def index():
             f"{prefix}_failed_percentage": failed_pct,
             f"{prefix}_blocked_count": blocked,
             f"{prefix}_blocked_percentage": blocked_pct,
+            f"{prefix}_flaky_count": flaky,
+            f"{prefix}_flaky_percentage": flaky_pct,
         })
 
     return render_template('index.html', **template_vars)
@@ -241,24 +248,24 @@ def index():
 @app.route('/packages/')
 def packages():
     return render_template(
-        'packages_py314.html',
-        py314_status_by_packages=build_data["314"]["status_by_packages"],
+        'packages_py315.html',
+        py315_status_by_packages=build_data["315"]["status_by_packages"],
         updated=updated,
     )
 
 @app.route('/maintainers/')
 def maintainers():
     return render_template(
-        'maintainers_py314.html',
-        py314_status_by_maintainers=build_data["314"]["status_by_maintainers"],
+        'maintainers_py315.html',
+        py315_status_by_maintainers=build_data["315"]["status_by_maintainers"],
         updated=updated,
     )
 
 @app.route('/failures/')
 def failures():
     return render_template(
-        'failures_py314.html',
-        py314_status_failed=build_data["314"]["failed_report"],
+        'failures_py315.html',
+        py315_status_failed=build_data["315"]["failed_report"],
         updated=updated,
         zip=zip,
     )
@@ -293,7 +300,7 @@ def wheels():
     return render_template(
         'wheels.html',
         results=wheel_readiness,
-        major=VERSIONS["314"]["major_version"],
+        major=VERSIONS["315"]["major_version"],
         updated=updated,
         do_support=wheels_count,
     )
