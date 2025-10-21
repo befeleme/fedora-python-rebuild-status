@@ -68,81 +68,169 @@
     }
   </style>
   
-  <title>Python 3.14 rebuild status page in Fedora</title>
+  <title>Python 3.15 rebuild status page in Fedora</title>
 </head>
 <body>
   <div class="container mt-4">
     
-<h1 class="mb-4">Python 3.14 Rebuild Status Page in Fedora</h1>
+<h1 class="mb-4">Python Rebuild Status Page in Fedora</h1>
 
-<h2 class="mb-3">Current Build Environment</h2>
-<p>
-    Fedora 43 (Target: Fedora 43)<br>
-    Python 3.14.0 (Target: Python 3.14.0)<br>
-    Data source: Koji</a>
-</p>
+<!-- Python 3.15 Statistics (Visible by default) -->
+<div class="mb-5">
+    <h2 class="mb-3">Python 3.15 Rebuild Status</h2>
 
+    <h3 class="mb-3">Current Build Environment</h3>
+    <p>
+        Fedora 44 (Target: Fedora 44)<br>
+        Python 3.15.0~a1 (Target: Python 3.15.0)<br>
+        Data source: Copr
+    </p>
 
-<div class="card mb-4" style="max-width: 600px; margin-left: 1rem;">
-    <div class="card-header">
-        <h5 class="mb-0">Summary</h5>
+    <div class="card mb-4" style="max-width: 600px; margin-left: 1rem;">
+        <div class="card-header">
+            <h5 class="mb-0">Summary</h5>
+        </div>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item d-flex justify-content-between">
+                <span style="min-width: 60%;">🌏 All packages:</span>
+                <span class="text-end" style="min-width: 20%;"><b>3858</b></span>
+                <span class="text-end" style="min-width: 20%;"><span class="badge bg-primary">100%</span></span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between">
+                <span style="min-width: 60%;">🟢 Built successfully with Python 3.15:</span>
+                <span class="text-end" style="min-width: 20%;"><b>1580</b></span>
+                <span class="text-end" style="min-width: 20%;">
+                    <span class="badge bg-success">
+                        40.95%
+                    </span>
+                </span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between">
+                <span style="min-width: 60%;">🟠 Last build with Python 3.15 failed:</span>
+                <span class="text-end" style="min-width: 20%;"><b>0</b></span>
+                <span class="text-end" style="min-width: 20%;">
+                    <span class="badge bg-warning">
+                        0.00%
+                    </span>
+                </span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between">
+                <span style="min-width: 60%;">🔴 Failed (Python 3.15):</span>
+                <span class="text-end" style="min-width: 20%;"><b>50</b></span>
+                <span class="text-end" style="min-width: 20%;">
+                    <span class="badge bg-danger">
+                        1.30%
+                    </span>
+                </span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between">
+                <span style="min-width: 60%;">⚪ Blocked (missing dependencies):</span>
+                <span class="text-end" style="min-width: 20%;"><b>2228</b></span>
+                <span class="text-end" style="min-width: 20%;">
+                    <span class="badge bg-secondary">
+                        57.75%
+                    </span>
+                </span>
+            </li>
+        </ul>
     </div>
-    <ul class="list-group list-group-flush">
-        <li class="list-group-item d-flex justify-content-between">
-            <span style="min-width: 60%;">🌏 All packages:</span>
-            <span class="text-end" style="min-width: 20%;"><b>3869</b></span>
-            <span class="text-end" style="min-width: 20%;"><span class="badge bg-primary">100%</span></span>
-        </li>
-        <li class="list-group-item d-flex justify-content-between">
-            <span style="min-width: 60%;">🟢 Built successfully with Python 3.14:</span>
-            <span class="text-end" style="min-width: 20%;"><b>3859</b></span>
-            <span class="text-end" style="min-width: 20%;">
-                <span class="badge bg-success">
-                    99.74%
-                </span>
-            </span>
-        </li>
-        <li class="list-group-item d-flex justify-content-between">
-            <span style="min-width: 60%;">🕒 Waiting to be rebuilt:</span>
-            <span class="text-end" style="min-width: 20%;"><b>10</b></span>
-            <span class="text-end" style="min-width: 20%;">
-                <span class="badge bg-warning">
-                    0.26%
-                </span>
-            </span>
-        </li>
-        <li class="list-group-item d-flex justify-content-between ps-5">
-            <span style="min-width: 60%;">🔴 Failed (Python 3.14):</span>
-            <span class="text-end" style="min-width: 17%;"><b>5</b></span>
-            <span class="text-end" style="min-width: 20%;">
-                <span class="badge bg-danger">
-                    0.13%
-                </span>
-            </span>
-        </li>
-        <li class="list-group-item d-flex justify-content-between ps-5">
-            <span style="min-width: 60%;">⚪ Blocked (missing dependencies):</span>
-            <span class="text-end" style="min-width: 17%;"><b>5</b></span>
-            <span class="text-end" style="min-width: 20%;">
-                <span class="badge bg-secondary">
-                    0.13%
-                </span>
-            </span>
-        </li>
-    </ul>
+
+    <h3 class="mb-3">Status breakdown</h3>
+    <div class="list-group mb-4">
+        <div class="mb-2"><a href="/packages_py315/">All packages sorted by package names</a></div>
+        <div class="mb-2"><a href="/maintainers_py315/">All packages sorted by maintainers</a></div>
+        <div class="mb-2"><a href="/failures_py315/">Build failures</a></div>
+    </div>
+
+    <h3 class="mb-3">Python 3.15 wheel readiness</h3>
+    <div>
+        <a href="/wheels_py315/" class="d-block mb-2">Top PyPI packages and their Python 3.15 wheel status</a>
+    </div>
 </div>
 
-<h2 class="mb-3">Status breakdown</h2>
-<div class="list-group mb-4">
-    <div class="mb-2"><a href="/packages/">Todo packages sorted by package names</a></div>
-    <div class="mb-2"><a href="/maintainers/">Todo packages sorted by maintainers</a></div>
-    <div class="mb-2"><a href="/failures/">Build failures</a></div>
+<!-- Python 3.14 Statistics (Collapsible) -->
+<div class="mb-5">
+    <h2 class="mb-3">
+        <a class="text-decoration-none" data-bs-toggle="collapse" href="#py314Section" role="button" aria-expanded="false" aria-controls="py314Section">
+            Python 3.14 Rebuild Status
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+            </svg>
+        </a>
+    </h2>
+
+    <div class="collapse" id="py314Section">
+        <h3 class="mb-3">Current Build Environment</h3>
+        <p>
+            Fedora 43 (Target: Fedora 43)<br>
+            Python 3.14.0 (Target: Python 3.14.0)<br>
+            Data source: Koji
+        </p>
+
+        <div class="card mb-4" style="max-width: 600px; margin-left: 1rem;">
+            <div class="card-header">
+                <h5 class="mb-0">Summary</h5>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item d-flex justify-content-between">
+                    <span style="min-width: 60%;">🌏 All packages:</span>
+                    <span class="text-end" style="min-width: 20%;"><b>3941</b></span>
+                    <span class="text-end" style="min-width: 20%;"><span class="badge bg-primary">100%</span></span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between">
+                    <span style="min-width: 60%;">🟢 Built successfully with Python 3.14:</span>
+                    <span class="text-end" style="min-width: 20%;"><b>3928</b></span>
+                    <span class="text-end" style="min-width: 20%;">
+                        <span class="badge bg-success">
+                            99.67%
+                        </span>
+                    </span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between">
+                    <span style="min-width: 60%;">🕒 Waiting to be rebuilt:</span>
+                    <span class="text-end" style="min-width: 20%;"><b>13</b></span>
+                    <span class="text-end" style="min-width: 20%;">
+                        <span class="badge bg-warning">
+                            0.33%
+                        </span>
+                    </span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between ps-5">
+                    <span style="min-width: 60%;">🔴 Failed (Python 3.14):</span>
+                    <span class="text-end" style="min-width: 17%;"><b>5</b></span>
+                    <span class="text-end" style="min-width: 20%;">
+                        <span class="badge bg-danger">
+                            0.13%
+                        </span>
+                    </span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between ps-5">
+                    <span style="min-width: 60%;">⚪ Blocked (missing dependencies):</span>
+                    <span class="text-end" style="min-width: 17%;"><b>8</b></span>
+                    <span class="text-end" style="min-width: 20%;">
+                        <span class="badge bg-secondary">
+                            0.20%
+                        </span>
+                    </span>
+                </li>
+            </ul>
+        </div>
+
+        <h3 class="mb-3">Status breakdown</h3>
+        <div class="list-group mb-4">
+            <div class="mb-2"><a href="/packages_py314/">Todo packages sorted by package names</a></div>
+            <div class="mb-2"><a href="/maintainers_py314/">Todo packages sorted by maintainers</a></div>
+            <div class="mb-2"><a href="/failures_py314/">Build failures</a></div>
+        </div>
+
+        <h3 class="mb-3">Python 3.14 wheel readiness</h3>
+        <div>
+            <a href="/wheels_py314/" class="d-block mb-2">Top PyPI packages and their Python 3.14 wheel status</a>
+        </div>
+    </div>
 </div>
 
-<h2 class="mb-3">Python 3.14 wheel readiness</h2>
-<div>
-<a href="/wheels/" class="d-block mb-2">Top PyPI packages and their Python 3.14 wheel status</a>
-</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
     <h3 class="mb-3">Thanks</h3>
     <p>This is derivative work from <a href="https://pyreadiness.org">pyreadiness.org</a> and <a href="https://pythonwheels.com/">pythonwheels.com</a>, a site that tracks which Python distributions ship the wheel distribution.</p>
@@ -151,7 +239,7 @@
     <hr>
     <footer>
       <p>Maintained by <a href="https://github.com/befeleme">@befeleme</a>, source on <a href="https://github.com/befeleme/fedora-python-rebuild-status">GitHub</a>.</p>
-      <p>Last updated on <span class="date">2025-10-21 03:47:58.183957</span> (updated daily)</p>
+      <p>Last updated on <span class="date">2025-10-21 12:55:36.171432</span> (updated daily)</p>
     </footer>
   </div>
 </body>

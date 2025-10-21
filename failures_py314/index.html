@@ -74,7 +74,7 @@
   <div class="container mt-4">
     
 <a href="/" class="btn btn-primary mb-3"> &lt&lt&lt Home</a>
-<h2 class="mb-3">Packages that weren't built successfully (🔴 + 🟠 + ⚪)</h2>
+<h2 class="mb-3">Python 3.14: Packages that weren't built successfully (🔴 + 🟠 + ⚪)</h2>
 
 <style>
     .max-width-column {
@@ -91,7 +91,7 @@
                 <th scope="col">Package name</th>
                 <th scope="col">Build status</th>
                 <th scope="col">Build attempts in Copr</th>
-                <th scope="col" class="max-width-column">Bugzilla ticket (all open PYTHON3.14 and F43FTBFS)</th>
+                <th scope="col" class="max-width-column">Bugzilla ticket (all open PYTHON314 and F43FTBFS)</th>
             </tr>
         </thead>
         <tbody>
@@ -143,6 +143,23 @@
                 </td>
             </tr>
         
+            <tr id="row-matrix-synapse">
+                <td>matrix-synapse</td>
+                <td>⚪</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/matrix-synapse/">
+                        Copr - matrix-synapse
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2385171">matrix-synapse: FTBFS in Fedora rawhide/f43</a><br>
+                    
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2371743">F43FailsToInstall: Multiple packages built from matrix-synapse</a><br>
+                    
+                </td>
+            </tr>
+        
             <tr id="row-psi4">
                 <td>psi4</td>
                 <td>⚪</td>
@@ -156,6 +173,19 @@
                     <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2385428">psi4: FTBFS in Fedora rawhide/f43</a><br>
                     
                     <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2371776">F43FailsToInstall: psi4</a><br>
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-python-colcon-meson">
+                <td>python-colcon-meson</td>
+                <td>⚪</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/python-colcon-meson/">
+                        Copr - python-colcon-meson
+                    </a>
+                </td>
+                <td class="max-width-column">
                     
                 </td>
             </tr>
@@ -188,6 +218,21 @@
                     <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2385467">python-ffc: FTBFS in Fedora rawhide/f43</a><br>
                     
                     <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2371902">F43FailsToInstall: python3-ffc</a><br>
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-python-howdoi">
+                <td>python-howdoi</td>
+                <td>⚪</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/python-howdoi/">
+                        Copr - python-howdoi
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2342558">python-howdoi fails to build with Python 3.14: AssertionError: &#39;ERROR: Unable to reach google. Do you need to use a proxy? + json.decoder.JSONDecodeError</a><br>
                     
                 </td>
             </tr>
@@ -267,7 +312,7 @@
     <hr>
     <footer>
       <p>Maintained by <a href="https://github.com/befeleme">@befeleme</a>, source on <a href="https://github.com/befeleme/fedora-python-rebuild-status">GitHub</a>.</p>
-      <p>Last updated on <span class="date">2025-10-21 03:47:58.183957</span> (updated daily)</p>
+      <p>Last updated on <span class="date">2025-10-21 12:55:36.171432</span> (updated daily)</p>
     </footer>
   </div>
 </body>
