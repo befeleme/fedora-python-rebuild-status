@@ -2,7 +2,7 @@ import argparse
 import json
 import bugzilla
 
-from loaders import load_data, load_monitor_report, KOJI
+from loaders import load_data, load_monitor_report, KOJI_PY314, KOJI_PY315
 
 
 BUGZILLA = 'bugzilla.redhat.com'
@@ -21,7 +21,7 @@ VERSION_CONFIG = {
     },
     "3.15": {
         "tracker": None,  # TODO: PYTHON3.15 tracker ID - to be created
-        "rawhide": 2339432,  # TODO: F44FTBFS - update when F44 tracker is created
+        "rawhide": 2384424,  # F44FTBFS
         "failed_file": "data/failed_py315.pkgs",
         "waiting_file": "data/waiting_py315.pkgs",
         "python_pkgs": "data/python315.pkgs",
@@ -35,10 +35,13 @@ BZAPI = bugzilla.Bugzilla(BUGZILLA)
 
 def load_failed_packages(version="3.14"):
     """Load failed packages for a specific Python version."""
+
+    koji = KOJI_PY314 if version == "3.14" else KOJI_PY315
+
     config = VERSION_CONFIG[version]
 
     FAILED = load_data(config["failed_file"])
-    if KOJI:
+    if koji:
         WAITING = load_data(config["waiting_file"])
         FAILED.update(WAITING)
     # we only want to do Copr magic before the mass rebuild

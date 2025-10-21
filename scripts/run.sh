@@ -27,7 +27,7 @@ repoquery -q --repo python314 python3.14 --latest-limit 1 > data/pyver_py314
 ##############################################################################
 
 # get what was built with python 3.15 in copr
-repoquery --repo=python315 --source --whatrequires 'libpython3.15.so.1.0()(64bit)' --whatrequires 'python(abi) = 3.15' --whatrequires 'python3.15dist(*)' | pkgname | env LANG=en_US.utf-8 sort | uniq > data/python315.pkgs
+repoquery --refresh --repo=python315 --source --whatrequires 'libpython3.15.so.1.0()(64bit)' --whatrequires 'python(abi) = 3.15' --whatrequires 'python3.15dist(*)' | pkgname | env LANG=en_US.utf-8 sort | uniq > data/python315.pkgs
 
 # get what's built with old python in koji
 repoquery --repo=koji --source --whatrequires 'libpython3.14.so.1.0()(64bit)' --whatrequires 'python(abi) = 3.14' --whatrequires 'python3.14dist(*)' | pkgname | env LANG=en_US.utf-8 sort | uniq > data/python314.pkgs
@@ -59,7 +59,7 @@ python3 scripts/bugzillas.py
 
 # not tracker yet - skip
 # get bz urls for failed packages (python 3.15)
-# python3 scripts/bugzillas.py --version 3.15
+python3 scripts/bugzillas.py --version 3.15
 
 # download the most downloaded packages from PyPI
 wget https://hugovk.github.io/top-pypi-packages/top-pypi-packages.min.json -O data/top-pypi-packages.json

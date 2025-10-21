@@ -25,6 +25,16 @@
       "F43FailsToInstall: python3-dolfin"
     ]
   },
+  "matrix-synapse": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2385171",
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2371743"
+    ],
+    "summaries": [
+      "matrix-synapse: FTBFS in Fedora rawhide/f43",
+      "F43FailsToInstall: Multiple packages built from matrix-synapse"
+    ]
+  },
   "psi4": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2385428",
@@ -34,6 +44,10 @@
       "psi4: FTBFS in Fedora rawhide/f43",
       "F43FailsToInstall: psi4"
     ]
+  },
+  "python-colcon-meson": {
+    "urls": [],
+    "summaries": []
   },
   "python-dataclassy": {
     "urls": [
@@ -51,6 +65,14 @@
     "summaries": [
       "python-ffc: FTBFS in Fedora rawhide/f43",
       "F43FailsToInstall: python3-ffc"
+    ]
+  },
+  "python-howdoi": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2342558"
+    ],
+    "summaries": [
+      "python-howdoi fails to build with Python 3.14: AssertionError: 'ERROR: Unable to reach google. Do you need to use a proxy? + json.decoder.JSONDecodeError"
     ]
   },
   "python-optking": {
