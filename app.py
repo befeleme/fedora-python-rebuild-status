@@ -19,6 +19,7 @@ VERSIONS = {
     "314": {
         "major_version": "3.14",
         "fedora_version": "43",
+        "target_fedora": "43",
         "koji_enabled": KOJI_PY314,
         "base_packages": "data/python313.pkgs",
         "exclude_package": "python3.13",
@@ -31,7 +32,8 @@ VERSIONS = {
     },
     "315": {
         "major_version": "3.15",
-        "fedora_version": "45",
+        "fedora_version": "44",
+        "target_fedora": "45",
         "koji_enabled": KOJI_PY315,
         "base_packages": "data/python314.pkgs",
         "exclude_package": "python3.14",
@@ -232,7 +234,7 @@ def index():
         prefix = f"py{ver}"
         template_vars.update({
             f"{prefix}_fedora_version": config["fedora_version"],
-            f"{prefix}_target_fedora": config["fedora_version"],
+            f"{prefix}_target_fedora": config["target_fedora"],
             f"{prefix}_current_version": load_python_version(ver),
             f"{prefix}_data_source": "Koji" if config["koji_enabled"] else "Copr",
             f"{prefix}_total_packages": total,
