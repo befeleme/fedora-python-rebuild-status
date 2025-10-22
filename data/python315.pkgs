@@ -11,6 +11,7 @@ PyX
 PyYAML
 R2spec
 ServiceReport
+SoapySDR
 WALinuxAgent
 aactivator
 abrt-server-info-page
@@ -21,6 +22,7 @@ airnef
 amdsmi
 ansible-bender
 ansible-collections-openstack
+apbs
 apk-tools
 appliance-tools
 arandr
@@ -28,6 +30,7 @@ argparse-manpage
 asahi-installer
 asciidoc
 atomic-reactor
+aubio
 audit
 autojump
 azote
@@ -44,6 +47,7 @@ brotli
 btrfs-progs
 btrfs-sxbackup
 buildstream-plugins
+calypso
 capstone
 capypdf
 cargo2rpm
@@ -91,6 +95,7 @@ fedora-distro-aliases
 fedora-repro
 file
 firewalld
+flatbuffers
 flent
 flowblade
 fprettify
@@ -293,6 +298,7 @@ pydeps
 pyee
 pyelftools
 pyflakes
+pygsl
 pyhoca-cli
 pyhoca-gui
 pyhunspell
@@ -328,6 +334,8 @@ python-PyRSS2Gen
 python-QtAwesome
 python-QtPy
 python-ROPGadget
+python-Rtree
+python-Traits
 python-XStatic-Angular-FileUpload
 python-XStatic-Angular-Mock
 python-XStatic-Angular-UUID
@@ -424,6 +432,8 @@ python-batalgorithm
 python-batinfo
 python-beanbag
 python-beancount
+python-beangulp
+python-beanprice
 python-beautifulsoup4
 python-beautifultable
 python-beniget
@@ -439,6 +449,7 @@ python-bitstring
 python-bitstruct
 python-blobfile
 python-blowfish
+python-blurhash
 python-bokeh
 python-boltons
 python-boolean.py
@@ -446,23 +457,28 @@ python-booleanoperations
 python-bottle
 python-bottle-sqlite
 python-bracex
+python-brukerapi
 python-bsddb3
 python-btchip
 python-btrfs
 python-bucky
+python-buildman
 python-cachetools
+python-calcephpy
 python-can
 python-capturer
 python-cart
 python-casttube
 python-catkin-sphinx
 python-catkin_pkg
+python-catkin_tools
 python-cccolutils
 python-cerberus
 python-cerealizer
 python-certifi
 python-cffi
 python-cfgv
+python-cftime
 python-chardet
 python-charset-normalizer
 python-chm
@@ -483,6 +499,9 @@ python-click-threading
 python-cligj
 python-cloud-sptheme
 python-cloudflare
+python-cma
+python-cmake-build-extension
+python-cmap
 python-cmarkgfm
 python-codecov
 python-cogapp
@@ -510,6 +529,7 @@ python-colcon-ros-bazel
 python-colcon-spawn-shell
 python-colcon-test-result
 python-colcon-zsh
+python-collada
 python-collectd_puppet
 python-colorama
 python-colorclass
@@ -566,6 +586,7 @@ python-daemon
 python-daemonize
 python-damo
 python-dasbus
+python-datetimerange
 python-dateutil
 python-dbf
 python-dbfread
@@ -663,8 +684,10 @@ python-executing
 python-exif
 python-expandvars
 python-extras
+python-fast-simplification
 python-fastbencode
 python-fastjsonschema
+python-fastprogress
 python-fastrand
 python-fauxquests
 python-fedora-sig-onboard
@@ -677,7 +700,9 @@ python-filetype
 python-fingerprints
 python-firehose
 python-fissix
+python-fisx
 python-fitdecode
+python-fitsio
 python-fixtures
 python-flake8-blind-except
 python-flaky
@@ -733,6 +758,7 @@ python-gpxpy
 python-grabserial
 python-grokmirror
 python-grpcio-gcp
+python-gsd
 python-gssapi
 python-gunicorn
 python-h11
@@ -772,6 +798,7 @@ python-idstools
 python-ifaddr
 python-ifcfg
 python-ijson
+python-imageio
 python-imagesize
 python-imapclient
 python-immutables
@@ -904,7 +931,9 @@ python-mitogen
 python-mkdocs-click
 python-mkdocs-macros-test
 python-mkdocs-material-extensions
+python-mmtf
 python-mock
+python-mockito
 python-moddb
 python-modernize
 python-modestmaps
@@ -913,6 +942,7 @@ python-mongomock
 python-monotonic
 python-more-itertools
 python-morphys
+python-mrcfile
 python-mrtparse
 python-msgpack
 python-msgspec
@@ -950,6 +980,7 @@ python-npyscreen
 python-ns1-python
 python-ntplib
 python-num2words
+python-numexpr
 python-oauth2
 python-ofxparse
 python-olefile
@@ -960,7 +991,9 @@ python-opcodes
 python-openant
 python-openidc-client
 python-openoffice
+python-openpyxl
 python-openslide
+python-opytimark
 python-ordered-set
 python-osa
 python-oslo-i18n
@@ -973,6 +1006,7 @@ python-paho-mqtt
 python-palettable
 python-pam
 python-pamqp
+python-pandas
 python-pandocfilters
 python-parameter-expansion-patched
 python-parse
@@ -996,6 +1030,7 @@ python-pdm-pep517
 python-peachpy
 python-pebble
 python-pefile
+python-periodictable
 python-perky
 python-pexpect
 python-phonenumbers
@@ -1068,6 +1103,7 @@ python-pycryptodomex
 python-pycxx
 python-pydaraja
 python-pydbus
+python-pydicom
 python-pydicom-data
 python-pydiffx
 python-pydispatcher
@@ -1090,6 +1126,7 @@ python-pygments-pytest
 python-pygments-style-solarized
 python-pyhcl
 python-pyjwkest
+python-pykdtree
 python-pykdumpfile
 python-pykmip
 python-pylero
@@ -1129,6 +1166,7 @@ python-pyrpm
 python-pyrpmmd
 python-pyrtlsdr
 python-pysam
+python-pyscipopt
 python-pysimplesoap
 python-pysingular
 python-pysnmp-mibs
@@ -1153,6 +1191,7 @@ python-pytest-click
 python-pytest-cov
 python-pytest-datafiles
 python-pytest-dependency
+python-pytest-doctestplus
 python-pytest-env
 python-pytest-filter-subpackage
 python-pytest-fixture-config
@@ -1173,6 +1212,7 @@ python-pytest-smartcov
 python-pytest-spec
 python-pytest-sugar
 python-pytest-testmon
+python-python-fcl
 python-python-multipart
 python-pytn3270
 python-pyudev
@@ -1187,6 +1227,7 @@ python-pyzabbix
 python-pyzolib
 python-qemu-qmp
 python-qstylizer
+python-quantities
 python-queuelib
 python-radexreader
 python-railroad-diagrams
@@ -1221,6 +1262,7 @@ python-rfc3986
 python-rfc3987
 python-rjsmin
 python-roman-numerals-py
+python-rospkg
 python-roundrobin
 python-rpi-gpio2
 python-rpmfluff
@@ -1252,6 +1294,7 @@ python-setuptools-gettext
 python-setuptools-git-versioning
 python-setuptools_scm
 python-sgmllib3k
+python-sgp4
 python-shellingham
 python-should_dsl
 python-show-in-file-manager
@@ -1266,6 +1309,7 @@ python-simpleeval
 python-simplejson
 python-siphash
 python-six
+python-slixmpp
 python-slugify
 python-sly
 python-smartypants
@@ -1344,6 +1388,7 @@ python-stuf
 python-subprocess-tee
 python-suds
 python-super-collections
+python-supersmoother
 python-sure
 python-svg
 python-svg-path
@@ -1380,6 +1425,7 @@ python-tftpy
 python-threadpoolctl
 python-three_merge
 python-tidy
+python-tifffile
 python-timelib
 python-timeout-decorator
 python-tinycss2
@@ -1394,6 +1440,7 @@ python-tqdm
 python-traitlets
 python-trampoline
 python-transaction
+python-triton
 python-trololio
 python-trove-classifiers
 python-tvb-data
@@ -1452,6 +1499,7 @@ python-vdf
 python-venusian
 python-verboselogs
 python-versioneer
+python-vhacdx
 python-vine
 python-visitor
 python-visvis
@@ -1462,6 +1510,7 @@ python-voluptuous
 python-vvm
 python-waitress
 python-walkdir
+python-wavio
 python-wcmatch
 python-wcwidth
 python-webencodings
@@ -1614,6 +1663,7 @@ winpdb
 wordxtr
 xcat
 xcb-proto
+xcfun
 xen
 xrootd
 xwayland-run
@@ -1621,6 +1671,7 @@ yamllint
 ydiff
 youtube-dl
 z3
+zfp
 zinnia
 znc
 zxing-cpp
