@@ -39,6 +39,7 @@ ansible-collections-openstack	succeeded
 apbs	succeeded
 apk-tools	succeeded
 appliance-tools	succeeded
+apx	succeeded
 arandr	succeeded
 argparse-manpage	succeeded
 asahi-installer	succeeded
@@ -86,6 +87,7 @@ caribou	succeeded
 catfish	succeeded
 ccsm	succeeded
 cdist	succeeded
+cekit	succeeded
 ceph	failed
 classification-banner	succeeded
 claws-mail	succeeded
@@ -248,6 +250,7 @@ iscsi-initiator-utils	succeeded
 isomd5sum	succeeded
 jack-mixer	succeeded
 javapackages-tools	failed
+jc	failed
 jello	succeeded
 jsonnet	succeeded
 kea	succeeded
@@ -263,6 +266,7 @@ kf6-kunitconversion	succeeded
 kf6-kwidgetsaddons	succeeded
 kf6-kxmlgui	succeeded
 khal	failed
+khard	succeeded
 kig	succeeded
 kiwi	succeeded
 kiwi-stackbuild-plugin	succeeded
@@ -333,6 +337,7 @@ libplist	succeeded
 libpst	succeeded
 libpwquality	succeeded
 librealsense	succeeded
+libreoffice	failed
 libreport	succeeded
 libsbml	succeeded
 libsearpc	succeeded
@@ -719,6 +724,7 @@ python-betamax	succeeded
 python-bibtexparser	succeeded
 python-binaryornot	succeeded
 python-binstruct	succeeded
+python-biopython	succeeded
 python-biscuits	succeeded
 python-bitarray	succeeded
 python-bitcoinlib	succeeded
@@ -841,6 +847,7 @@ python-colored-traceback	succeeded
 python-coloredlogs	succeeded
 python-colorful	succeeded
 python-colorlog	succeeded
+python-colormath2	succeeded
 python-colorzero	succeeded
 python-colour	succeeded
 python-columnar	succeeded
@@ -995,6 +1002,7 @@ python-easydict	succeeded
 python-easygui	succeeded
 python-easyprocess	succeeded
 python-ebooklib	succeeded
+python-ebranch	succeeded
 python-eccodes	succeeded
 python-ecdsa	succeeded
 python-editables	succeeded
@@ -1020,6 +1028,7 @@ python-evdev	succeeded
 python-events	succeeded
 python-exabgp	succeeded
 python-exceptiongroup	succeeded
+python-exdir	failed
 python-execnet	succeeded
 python-executing	succeeded
 python-exif	succeeded
@@ -1329,9 +1338,10 @@ python-mailmerge	succeeded
 python-makefun	succeeded
 python-mako	succeeded
 python-managesieve	succeeded
-python-mapnik	succeeded
+python-mapnik	failed
 python-maps	succeeded
 python-markdown	succeeded
+python-markdown-callouts	failed
 python-markdown-exec	succeeded
 python-markdown-include	succeeded
 python-markdown-math	succeeded
@@ -1363,10 +1373,12 @@ python-minimock	succeeded
 python-mitogen	succeeded
 python-mkdocs-autorefs	failed
 python-mkdocs-click	succeeded
+python-mkdocs-gen-files	succeeded
 python-mkdocs-get-deps	succeeded
 python-mkdocs-git-authors-plugin	succeeded
 python-mkdocs-git-committers-plugin-2	succeeded
 python-mkdocs-include-markdown-plugin	succeeded
+python-mkdocs-literate-nav	succeeded
 python-mkdocs-macros-test	succeeded
 python-mkdocs-material-extensions	succeeded
 python-mkdocs-minify-plugin	succeeded
@@ -1417,6 +1429,7 @@ python-netaddr	succeeded
 python-netapp-lib	succeeded
 python-netdisco	succeeded
 python-netifaces	succeeded
+python-networkx	succeeded
 python-nihtest	succeeded
 python-nine	succeeded
 python-nitrate	succeeded
@@ -1627,6 +1640,7 @@ python-pykdtree	succeeded
 python-pykdumpfile	succeeded
 python-pykeepass	succeeded
 python-pykmip	succeeded
+python-pykwalify	succeeded
 python-pylero	succeeded
 python-pylev	succeeded
 python-pyliblo3	succeeded
@@ -1717,6 +1731,7 @@ python-pytest-freezegun	succeeded
 python-pytest-freezer	succeeded
 python-pytest-gitconfig	succeeded
 python-pytest-github-actions-annotate-failures	succeeded
+python-pytest-golden	succeeded
 python-pytest-home	succeeded
 python-pytest-httpserver	succeeded
 python-pytest-isort	succeeded
@@ -1727,6 +1742,7 @@ python-pytest-mock	succeeded
 python-pytest-mpi	succeeded
 python-pytest-multihost	succeeded
 python-pytest-ordering	succeeded
+python-pytest-param-files	succeeded
 python-pytest-relaxed	succeeded
 python-pytest-remotedata	succeeded
 python-pytest-repeat	succeeded
@@ -1768,6 +1784,7 @@ python-qstylizer	succeeded
 python-qt5	failed
 python-qtsass	succeeded
 python-quantities	succeeded
+python-questionary	succeeded
 python-queuelib	succeeded
 python-radexreader	succeeded
 python-railroad-diagrams	succeeded
@@ -1777,7 +1794,7 @@ python-ratelimitingfilter	failed
 python-raven	succeeded
 python-rcssmin	succeeded
 python-re-assert	succeeded
-python-reactivex	succeeded
+python-reactivex	failed
 python-readability	succeeded
 python-readability-lxml	succeeded
 python-readchar	succeeded
@@ -1790,6 +1807,7 @@ python-regex	succeeded
 python-relatorio	succeeded
 python-rencode	succeeded
 python-repomd	succeeded
+python-reportlab	succeeded
 python-repoze-lru	succeeded
 python-repoze-sphinx-autointerface	succeeded
 python-repoze-tm2	succeeded
@@ -1835,6 +1853,7 @@ python-rst-linker	succeeded
 python-rstr	failed
 python-rtslib	succeeded
 python-ruamel-yaml	succeeded
+python-ruamel-yaml-clib	succeeded
 python-rustcfg	succeeded
 python-rx	succeeded
 python-rxjson	succeeded
@@ -1971,7 +1990,7 @@ python-ssdeep	succeeded
 python-ssh-python	succeeded
 python-standard-mailcap	succeeded
 python-stdlib-list	succeeded
-python-stdlibs	failed
+python-stdlibs	succeeded
 python-stdnum	succeeded
 python-stem	succeeded
 python-stevedore	succeeded
@@ -2055,6 +2074,7 @@ python-translationstring	succeeded
 python-translitcodec	failed
 python-trio	failed
 python-triton	succeeded
+python-trml2pdf	succeeded
 python-trololio	succeeded
 python-trove-classifiers	succeeded
 python-tvb-data	succeeded
