@@ -97,6 +97,7 @@ ccsm	succeeded
 cdist	succeeded
 cekit	succeeded
 ceph	failed
+cffconvert	succeeded
 chirp	succeeded
 classification-banner	succeeded
 claws-mail	succeeded
@@ -117,6 +118,7 @@ concordance	succeeded
 condor	succeeded
 congruity	succeeded
 copr-cli	succeeded
+copr-keygen	succeeded
 createrepo_c	succeeded
 cryptlib	succeeded
 cryptominisat	succeeded
@@ -180,6 +182,7 @@ flowblade	succeeded
 fmf	succeeded
 fontforge	succeeded
 fonts-tweak-tool	succeeded
+fonttools	succeeded
 fprettify	succeeded
 freecell-solver	succeeded
 freeipa-fas	succeeded
@@ -278,7 +281,7 @@ jc	failed
 jello	succeeded
 jsonnet	succeeded
 kea	succeeded
-kernel	failed
+kernel	succeeded
 keycloak-httpd-client-install	succeeded
 keylime	succeeded
 kf6-kapidox	succeeded
@@ -456,6 +459,7 @@ nordugrid-arc	failed
 nordugrid-arc-nagios-plugins	succeeded
 notcurses	succeeded
 notmuch	failed
+nototools	succeeded
 ntpsec	succeeded
 numpy	succeeded
 nvme-stas	succeeded
@@ -871,6 +875,7 @@ python-cerberus	succeeded
 python-cerealizer	succeeded
 python-certifi	succeeded
 python-cffi	succeeded
+python-cffsubr	succeeded
 python-cfgv	succeeded
 python-cftime	succeeded
 python-chai	failed
@@ -951,6 +956,7 @@ python-colour	succeeded
 python-columnar	succeeded
 python-comm	succeeded
 python-commoncode	succeeded
+python-compreffor	succeeded
 python-conda-content-trust	succeeded
 python-conda-inject	succeeded
 python-conda-libmamba-solver	succeeded
@@ -1223,8 +1229,24 @@ python-flake8-deprecated	succeeded
 python-flake8-polyfill	succeeded
 python-flake8-quotes	succeeded
 python-flaky	succeeded
+python-flask	succeeded
 python-flask-admin	succeeded
+python-flask-caching	succeeded
+python-flask-cors	succeeded
+python-flask-gravatar	succeeded
+python-flask-healthz	succeeded
+python-flask-httpauth	succeeded
+python-flask-login	succeeded
+python-flask-mail	succeeded
+python-flask-mako	succeeded
+python-flask-multistatic	succeeded
+python-flask-oidc	failed
+python-flask-paranoid	succeeded
+python-flask-principal	succeeded
+python-flask-restx	succeeded
+python-flask-session	succeeded
 python-flask-talisman	succeeded
+python-flask-wtf	succeeded
 python-flexcache	succeeded
 python-flexparser	succeeded
 python-flit	succeeded
@@ -1236,8 +1258,11 @@ python-flufl-i18n	succeeded
 python-flufl-lock	succeeded
 python-flufl-testing	succeeded
 python-fluidity-sm	succeeded
+python-fontMath	succeeded
 python-fontconfig	succeeded
+python-fontname	succeeded
 python-fontquery	succeeded
+python-fontrpmspec	succeeded
 python-formencode	succeeded
 python-fortranformat	succeeded
 python-fqdn	succeeded
@@ -1339,7 +1364,9 @@ python-htmlmin2	succeeded
 python-httmock	succeeded
 python-http-client	succeeded
 python-http-ece	succeeded
+python-http-server-mock	succeeded
 python-httpagentparser	succeeded
+python-httpbin	succeeded
 python-httplib2	succeeded
 python-httpretty	succeeded
 python-httpsig-cffi	succeeded
@@ -1843,6 +1870,7 @@ python-pycotap	succeeded
 python-pycparser	succeeded
 python-pycparserext	succeeded
 python-pycryptodomex	succeeded
+python-pycurl	succeeded
 python-pycxx	succeeded
 python-pydaraja	succeeded
 python-pydbus	succeeded
@@ -2082,6 +2110,7 @@ python-requests-kerberos	succeeded
 python-requests-pkcs12	succeeded
 python-requests-toolbelt	succeeded
 python-requests-unixsocket	succeeded
+python-requests_ntlm	succeeded
 python-requestsexceptions	succeeded
 python-requirements-parser	succeeded
 python-reretry	succeeded
@@ -2236,6 +2265,7 @@ python-sphinx-press-theme	succeeded
 python-sphinx-pytest	succeeded
 python-sphinx-removed-in	succeeded
 python-sphinx-reredirects	succeeded
+python-sphinx-tabs	succeeded
 python-sphinx-theme-alabaster	succeeded
 python-sphinx-theme-py3doc-enhanced	succeeded
 python-sphinx-typlog-theme	succeeded
@@ -2376,6 +2406,7 @@ python-trml2pdf	succeeded
 python-trololio	succeeded
 python-trove-classifiers	succeeded
 python-trustme	succeeded
+python-ttfautohint-py	succeeded
 python-tvb-data	succeeded
 python-twiggy	succeeded
 python-twilio	succeeded
@@ -2406,7 +2437,7 @@ python-tzlocal	succeeded
 python-u-boot-pylib	succeeded
 python-u-msgpack-python	succeeded
 python-uc-micro-py	succeeded
-python-uharfbuzz	failed
+python-uharfbuzz	succeeded
 python-uhashring	succeeded
 python-uinput	succeeded
 python-ujson	succeeded
@@ -2475,6 +2506,7 @@ python-wcwidth	succeeded
 python-webcolors	succeeded
 python-webencodings	succeeded
 python-webob	succeeded
+python-webscrapbook	succeeded
 python-websocket-client	succeeded
 python-websockets	succeeded
 python-websockify	succeeded
