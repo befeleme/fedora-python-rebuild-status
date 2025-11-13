@@ -55,10 +55,6 @@
     "urls": [],
     "summaries": []
   },
-  "gpgme": {
-    "urls": [],
-    "summaries": []
-  },
   "javapackages-tools": {
     "urls": [],
     "summaries": []
@@ -67,11 +63,11 @@
     "urls": [],
     "summaries": []
   },
-  "khal": {
+  "kernel": {
     "urls": [],
     "summaries": []
   },
-  "knot": {
+  "khal": {
     "urls": [],
     "summaries": []
   },
@@ -107,11 +103,11 @@
     "urls": [],
     "summaries": []
   },
-  "libsolv": {
+  "librepo": {
     "urls": [],
     "summaries": []
   },
-  "libuser": {
+  "libsolv": {
     "urls": [],
     "summaries": []
   },
@@ -140,14 +136,6 @@
     "summaries": []
   },
   "notmuch": {
-    "urls": [],
-    "summaries": []
-  },
-  "nwchem": {
-    "urls": [],
-    "summaries": []
-  },
-  "obs-studio": {
     "urls": [],
     "summaries": []
   },
@@ -187,15 +175,11 @@
     "urls": [],
     "summaries": []
   },
+  "python-apprise": {
+    "urls": [],
+    "summaries": []
+  },
   "python-arpeggio": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-astroid": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-azure-mgmt-authorization": {
     "urls": [],
     "summaries": []
   },
@@ -252,8 +236,12 @@
     "summaries": []
   },
   "python-colcon-core": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2403563"
+    ],
+    "summaries": [
+      "python-colcon-core: Fails to build with setuptools 80.9.0, fails to install [pins setuptools < 80, test_build_package fails]"
+    ]
   },
   "python-cooldict": {
     "urls": [],
@@ -291,19 +279,15 @@
     "urls": [],
     "summaries": []
   },
+  "python-gstreamer1": {
+    "urls": [],
+    "summaries": []
+  },
   "python-kadmin": {
     "urls": [],
     "summaries": []
   },
   "python-lazy-object-proxy": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-ldap": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-lmdb": {
     "urls": [],
     "summaries": []
   },
@@ -319,15 +303,15 @@
     "urls": [],
     "summaries": []
   },
+  "python-mechanicalsoup": {
+    "urls": [],
+    "summaries": []
+  },
   "python-mirrors-countme": {
     "urls": [],
     "summaries": []
   },
   "python-mkdocs-autorefs": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-oauthlib": {
     "urls": [],
     "summaries": []
   },
@@ -351,15 +335,7 @@
     "urls": [],
     "summaries": []
   },
-  "python-pyftpdlib": {
-    "urls": [],
-    "summaries": []
-  },
   "python-pyqt6": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-pyscaffold": {
     "urls": [],
     "summaries": []
   },
@@ -391,7 +367,7 @@
     "urls": [],
     "summaries": []
   },
-  "python-sqlalchemy1.4": {
+  "python-sphinx-autoapi": {
     "urls": [],
     "summaries": []
   },
@@ -408,6 +384,10 @@
     "summaries": []
   },
   "python-tornado": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-tox-uv": {
     "urls": [],
     "summaries": []
   },
@@ -459,6 +439,10 @@
     "urls": [],
     "summaries": []
   },
+  "scipy": {
+    "urls": [],
+    "summaries": []
+  },
   "sip": {
     "urls": [],
     "summaries": []
@@ -476,10 +460,6 @@
     ]
   },
   "trademgen": {
-    "urls": [],
-    "summaries": []
-  },
-  "uv": {
     "urls": [],
     "summaries": []
   },
