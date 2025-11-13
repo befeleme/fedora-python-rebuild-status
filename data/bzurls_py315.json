@@ -20,8 +20,12 @@
     "summaries": []
   },
   "bumpversion": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2414558"
+    ],
+    "summaries": [
+      "bumpversion fails to build with Python 3.15: ModuleNotFoundError: No module named 'sre_constants'"
+    ]
   },
   "cantor": {
     "urls": [],
@@ -131,10 +135,6 @@
     "urls": [],
     "summaries": []
   },
-  "nordugrid-arc": {
-    "urls": [],
-    "summaries": []
-  },
   "notmuch": {
     "urls": [],
     "summaries": []
@@ -212,16 +212,24 @@
     "summaries": []
   },
   "python-backrefs": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2414790"
+    ],
+    "summaries": [
+      "python-backrefs fails to build with Python 3.15: Missing unicode data for 17.0.0"
+    ]
   },
   "python-beartype": {
     "urls": [],
     "summaries": []
   },
   "python-blessed": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2414791"
+    ],
+    "summaries": [
+      "python-blessed fails to build with Python 3.15: Additional space in test_wrap.py::test_SequenceWrapper[1-kwargs5]"
+    ]
   },
   "python-botocore": {
     "urls": [],
@@ -244,12 +252,20 @@
     ]
   },
   "python-cooldict": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2414556"
+    ],
+    "summaries": [
+      "python-cooldict fails to build with Python 3.15: AttributeError: module 'collections' has no attribute 'MutableMapping'. Did you mean: 'abc.MutableMapping'?"
+    ]
   },
   "python-dill": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2414572"
+    ],
+    "summaries": [
+      "python-dill fails to build with Python 3.15: AttributeError: type object 'object' has no attribute '__weakref__'"
+    ]
   },
   "python-dunamai": {
     "urls": [],
@@ -364,8 +380,12 @@
     "summaries": []
   },
   "python-rstr": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2414567"
+    ],
+    "summaries": [
+      "python-rstr fails to build with Python 3.15: 3 errors when collecting tests: ModuleNotFoundError: No module named 'sre_parse'"
+    ]
   },
   "python-sphinx-autoapi": {
     "urls": [],
@@ -384,16 +404,24 @@
     "summaries": []
   },
   "python-tornado": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2414557"
+    ],
+    "summaries": [
+      "python-tornado fails to build with Python 3.15: ERROR: test_multi_process"
+    ]
   },
   "python-tox-uv": {
     "urls": [],
     "summaries": []
   },
   "python-translitcodec": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2414561"
+    ],
+    "summaries": [
+      "python-translitcodec fails to build with Python 3.15: 8 tests failing with LookupError: unknown encoding: translit/*"
+    ]
   },
   "python-trio": {
     "urls": [],
@@ -420,8 +448,12 @@
     "summaries": []
   },
   "renderdoc": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2414559"
+    ],
+    "summaries": [
+      "renderdoc fails to build with Python 3.15: qrenderdoc_python.cxx:2296:13: error: \u2018PyWeakref_GET_OBJECT\u2019 was not declared in this scope"
+    ]
   },
   "retis": {
     "urls": [],
@@ -444,8 +476,12 @@
     "summaries": []
   },
   "sip": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2414555"
+    ],
+    "summaries": [
+      "sip fails to build with Python 3.15: error: implicit declaration of function \u2018PyWeakref_GetObject\u2019; did you mean \u2018PyWeakref_GetRef\u2019?"
+    ]
   },
   "solaar": {
     "urls": [],
