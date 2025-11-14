@@ -60,14 +60,50 @@
     "summaries": []
   },
   "javapackages-tools": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2414799"
+    ],
+    "summaries": [
+      "javapackages-tools fails to build with Python 3.15: AssertionError in TestMvnBuild.test_builddep"
+    ]
   },
   "jc": {
     "urls": [],
     "summaries": []
   },
   "kernel": {
+    "urls": [],
+    "summaries": []
+  },
+  "kf6-kcoreaddons": {
+    "urls": [],
+    "summaries": []
+  },
+  "kf6-kguiaddons": {
+    "urls": [],
+    "summaries": []
+  },
+  "kf6-kjobwidgets": {
+    "urls": [],
+    "summaries": []
+  },
+  "kf6-knotifications": {
+    "urls": [],
+    "summaries": []
+  },
+  "kf6-kstatusnotifieritem": {
+    "urls": [],
+    "summaries": []
+  },
+  "kf6-kunitconversion": {
+    "urls": [],
+    "summaries": []
+  },
+  "kf6-kwidgetsaddons": {
+    "urls": [],
+    "summaries": []
+  },
+  "kf6-kxmlgui": {
     "urls": [],
     "summaries": []
   },
@@ -127,9 +163,17 @@
     "urls": [],
     "summaries": []
   },
-  "moose": {
+  "mercurial": {
     "urls": [],
     "summaries": []
+  },
+  "moose": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2414807"
+    ],
+    "summaries": [
+      "moose fails to build with Python 3.15: moose-core-3.1.5/pymoose/PyRun.h:58:24: error: \u2018Py_GetProgramName\u2019 was not declared in this scope; did you mean \u2018Py_SetProgramName\u2019?"
+    ]
   },
   "netplan": {
     "urls": [],
@@ -336,28 +380,48 @@
     "summaries": []
   },
   "python-pipdeptree": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2414803"
+    ],
+    "summaries": [
+      "python-pipdeptree fails to build with Python 3.15: tests/test_discovery.py::test_invalid_metadata - TypeError: argument of type 'NoneType' is not a container or iterable"
+    ]
   },
   "python-precis_i18n": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2414797"
+    ],
+    "summaries": [
+      "python-precis_i18n fails to build with Python 3.15: The Unicode database has been updated to Unicode 17.0.0."
+    ]
   },
   "python-psycopg2": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2414801"
+    ],
+    "summaries": [
+      "python-psycopg2 fails to build with Python 3.15: error: implicit declaration of function \u2018PyWeakref_GetObject\u2019; did you mean \u2018PyWeakref_GetRef\u2019?"
+    ]
   },
   "python-pure-eval": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2414805"
+    ],
+    "summaries": [
+      "python-pure-eval fails to build with Python 3.15: pure_eval.utils.CannotEval: CannotEval in 11 tests"
+    ]
   },
   "python-pyqt6": {
     "urls": [],
     "summaries": []
   },
   "python-pysdl2": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2414796"
+    ],
+    "summaries": [
+      "python-pysdl2 fails to build with Python 3.15: failing assertions in a few test_TTF_*"
+    ]
   },
   "python-qt5": {
     "urls": [],
@@ -376,8 +440,12 @@
     "summaries": []
   },
   "python-rq": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2414802"
+    ],
+    "summaries": [
+      "python-rq fails to build with Python 3.15: AssertionError in TestDependencies.test_dependencies_are_met_at_execution_time"
+    ]
   },
   "python-rstr": {
     "urls": [
@@ -424,8 +492,12 @@
     ]
   },
   "python-trio": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2414804"
+    ],
+    "summaries": [
+      "python-trio fails to build with Python 3.15: test_clear_thread_cache_after_fork: DeprecationWarning: This process (pid=1742) is multi-threaded, use of fork() may lead to deadlocks in the child."
+    ]
   },
   "python-valkey": {
     "urls": [],
