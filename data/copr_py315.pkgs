@@ -38,7 +38,7 @@ anaconda	succeeded
 ansible-bender	succeeded
 ansible-collections-openstack	succeeded
 apbs	succeeded
-apk-tools	succeeded
+apk-tools	failed
 appliance-tools	succeeded
 apx	succeeded
 arandr	succeeded
@@ -66,7 +66,7 @@ bcc	succeeded
 beaker	succeeded
 binwalk	succeeded
 blivet-gui	succeeded
-bluechi	succeeded
+bluechi	failed
 bluefish	succeeded
 blueman	failed
 blueprint-compiler	succeeded
@@ -98,6 +98,7 @@ catfish	succeeded
 ccsm	succeeded
 cdist	succeeded
 cekit	succeeded
+cepces	succeeded
 ceph	failed
 cffconvert	succeeded
 chirp	succeeded
@@ -116,7 +117,7 @@ colin	succeeded
 collectd	succeeded
 compizconfig-python	succeeded
 compose-utils	succeeded
-conan	succeeded
+conan	failed
 concordance	succeeded
 condor	succeeded
 congruity	succeeded
@@ -185,6 +186,7 @@ flatbuffers	succeeded
 flent	succeeded
 flowblade	succeeded
 fmf	succeeded
+fmf-jinja	failed
 fontforge	succeeded
 fonts-tweak-tool	succeeded
 fonttools	succeeded
@@ -359,7 +361,7 @@ liblinear	succeeded
 libloc	succeeded
 liblouis	succeeded
 libmodulemd	succeeded
-libnbd	failed
+libnbd	succeeded
 libnuml	succeeded
 libnvme	succeeded
 libolm	succeeded
@@ -615,6 +617,7 @@ python-QtPy	succeeded
 python-ROPGadget	succeeded
 python-Rtree	succeeded
 python-Traits	succeeded
+python-XStatic	succeeded
 python-XStatic-Angular-FileUpload	failed
 python-XStatic-Angular-Mock	succeeded
 python-XStatic-Angular-UUID	succeeded
@@ -1025,7 +1028,7 @@ python-cooldict	failed
 python-copr	succeeded
 python-copr-common	succeeded
 python-cov-core	succeeded
-python-coverage	succeeded
+python-coverage	failed
 python-coverage_pth	succeeded
 python-coveralls	succeeded
 python-cpio	succeeded
@@ -1865,9 +1868,10 @@ python-pluggy	succeeded
 python-pluginbase	succeeded
 python-plugincode	succeeded
 python-pluginlib	succeeded
+python-plumbum	failed
 python-ply	succeeded
 python-pmw	succeeded
-python-podcastparser	succeeded
+python-podcastparser	failed
 python-podman	succeeded
 python-poetry-core	succeeded
 python-polib	succeeded
@@ -2214,12 +2218,13 @@ python-roundrobin	succeeded
 python-rpdb	succeeded
 python-rpds-py	succeeded
 python-rpi-gpio2	succeeded
-python-rpm-generators	succeeded
+python-rpm-generators	failed
 python-rpm-macros	succeeded
 python-rpmautospec	succeeded
 python-rpmautospec-core	succeeded
 python-rpmautospec-koji	succeeded
 python-rpmfluff	succeeded
+python-rpyc	failed
 python-rq	failed
 python-rsa	succeeded
 python-rsdclient	succeeded
@@ -2381,6 +2386,7 @@ python-ssdeep	succeeded
 python-ssh-python	succeeded
 python-sshtunnel	succeeded
 python-standard-mailcap	succeeded
+python-standard-nntplib	succeeded
 python-stdlib-list	succeeded
 python-stdlibs	succeeded
 python-stdnum	succeeded
@@ -2724,6 +2730,7 @@ s-tui	succeeded
 s3cmd	succeeded
 salt	succeeded
 salt-lint	succeeded
+samba	failed
 sanlock	succeeded
 sasutils	succeeded
 satyr	succeeded
@@ -2762,7 +2769,7 @@ sshuttle	succeeded
 sssd	succeeded
 stomppy	succeeded
 stp	succeeded
-stratis-cli	succeeded
+stratis-cli	failed
 subscription-manager	succeeded
 subunit	succeeded
 subversion	succeeded
