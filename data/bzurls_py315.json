@@ -803,6 +803,10 @@
     "urls": [],
     "summaries": []
   },
+  "python-rpds-py": {
+    "urls": [],
+    "summaries": []
+  },
   "python-rpmautospec-koji": {
     "urls": [],
     "summaries": []
@@ -883,14 +887,6 @@
       "python-translitcodec fails to build with Python 3.15: 8 tests failing with LookupError: unknown encoding: translit/*"
     ]
   },
-  "python-trio": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2414804"
-    ],
-    "summaries": [
-      "python-trio fails to build with Python 3.15: test_clear_thread_cache_after_fork: DeprecationWarning: This process (pid=1742) is multi-threaded, use of fork() may lead to deadlocks in the child."
-    ]
-  },
   "python-ttfautohint-py": {
     "urls": [],
     "summaries": []
@@ -943,6 +939,10 @@
     "urls": [],
     "summaries": []
   },
+  "python3.15": {
+    "urls": [],
+    "summaries": []
+  },
   "quodlibet": {
     "urls": [],
     "summaries": []
@@ -972,6 +972,10 @@
     "summaries": []
   },
   "rpmlint": {
+    "urls": [],
+    "summaries": []
+  },
+  "ruff": {
     "urls": [],
     "summaries": []
   },
