@@ -27,23 +27,19 @@
     "urls": [],
     "summaries": []
   },
-  "beaker": {
-    "urls": [],
-    "summaries": []
-  },
   "blueman": {
     "urls": [],
     "summaries": []
   },
   "bmap-tools": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2416984"
+    ],
+    "summaries": [
+      "bmap-tools fails to build with Python 3.15: bmaptool.BmapCopy.Error: checksum mismatch for blocks range 34-35"
+    ]
   },
   "boom-boot": {
-    "urls": [],
-    "summaries": []
-  },
-  "borgbackup": {
     "urls": [],
     "summaries": []
   },
@@ -59,19 +55,11 @@
       "bumpversion fails to build with Python 3.15: ModuleNotFoundError: No module named 'sre_constants'"
     ]
   },
-  "calamares": {
-    "urls": [],
-    "summaries": []
-  },
   "cantor": {
     "urls": [],
     "summaries": []
   },
   "catfish": {
-    "urls": [],
-    "summaries": []
-  },
-  "cepces": {
     "urls": [],
     "summaries": []
   },
@@ -135,10 +123,6 @@
     "urls": [],
     "summaries": []
   },
-  "ibus-cangjie": {
-    "urls": [],
-    "summaries": []
-  },
   "jack-mixer": {
     "urls": [],
     "summaries": []
@@ -159,14 +143,6 @@
     "urls": [],
     "summaries": []
   },
-  "kig": {
-    "urls": [],
-    "summaries": []
-  },
-  "kiwi": {
-    "urls": [],
-    "summaries": []
-  },
   "kmymoney": {
     "urls": [],
     "summaries": []
@@ -180,8 +156,12 @@
     "summaries": []
   },
   "ldns": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2416980"
+    ],
+    "summaries": [
+      "ldns fails to build with Python 3.15: error: conflicting types for '__assert_single_arg'; have 'signed char(signed char)'"
+    ]
   },
   "lensfun": {
     "urls": [],
@@ -219,19 +199,11 @@
     "urls": [],
     "summaries": []
   },
-  "libvirt-test-API": {
-    "urls": [],
-    "summaries": []
-  },
   "libyui": {
     "urls": [],
     "summaries": []
   },
   "link-grammar": {
-    "urls": [],
-    "summaries": []
-  },
-  "liquidctl": {
     "urls": [],
     "summaries": []
   },
@@ -255,10 +227,6 @@
     "urls": [],
     "summaries": []
   },
-  "netcdf4-python": {
-    "urls": [],
-    "summaries": []
-  },
   "netplan": {
     "urls": [],
     "summaries": []
@@ -267,19 +235,7 @@
     "urls": [],
     "summaries": []
   },
-  "notmuch": {
-    "urls": [],
-    "summaries": []
-  },
   "numpy": {
-    "urls": [],
-    "summaries": []
-  },
-  "nvme-stas": {
-    "urls": [],
-    "summaries": []
-  },
-  "nwchem": {
     "urls": [],
     "summaries": []
   },
@@ -291,23 +247,11 @@
     "urls": [],
     "summaries": []
   },
-  "openscap-report": {
-    "urls": [],
-    "summaries": []
-  },
   "opentrep": {
     "urls": [],
     "summaries": []
   },
   "orca": {
-    "urls": [],
-    "summaries": []
-  },
-  "oz": {
-    "urls": [],
-    "summaries": []
-  },
-  "piper": {
     "urls": [],
     "summaries": []
   },
@@ -331,10 +275,6 @@
     "urls": [],
     "summaries": []
   },
-  "pybind11": {
-    "urls": [],
-    "summaries": []
-  },
   "pygame": {
     "urls": [],
     "summaries": []
@@ -344,10 +284,6 @@
     "summaries": []
   },
   "pyproj": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-OWSLib": {
     "urls": [],
     "summaries": []
   },
@@ -388,16 +324,12 @@
     "summaries": []
   },
   "python-astroid": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-astropy-iers-data": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-asyncpg": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2416979"
+    ],
+    "summaries": [
+      "python-astroid fails to build with Python 3.15: typing.ByteString has been removed from Python, failing TypingBrain.test_typing_object_notsubscriptable_3"
+    ]
   },
   "python-asyncssh": {
     "urls": [],
@@ -459,27 +391,11 @@
     "urls": [],
     "summaries": []
   },
-  "python-blobfile": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-bluebell-akn": {
-    "urls": [],
-    "summaries": []
-  },
   "python-botocore": {
     "urls": [],
     "summaries": []
   },
   "python-cairocffi": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-catkin_lint": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-cffsubr": {
     "urls": [],
     "summaries": []
   },
@@ -491,6 +407,10 @@
     "urls": [],
     "summaries": []
   },
+  "python-coincurve": {
+    "urls": [],
+    "summaries": []
+  },
   "python-colcon-core": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2403563"
@@ -499,15 +419,7 @@
       "python-colcon-core: Fails to build with setuptools 80.9.0, fails to install [pins setuptools < 80, test_build_package fails]"
     ]
   },
-  "python-collada": {
-    "urls": [],
-    "summaries": []
-  },
   "python-colormath2": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-compreffor": {
     "urls": [],
     "summaries": []
   },
@@ -519,19 +431,7 @@
       "python-cooldict fails to build with Python 3.15: AttributeError: module 'collections' has no attribute 'MutableMapping'. Did you mean: 'abc.MutableMapping'?"
     ]
   },
-  "python-copr": {
-    "urls": [],
-    "summaries": []
-  },
   "python-cron-converter": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-cssselect": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-dateparser": {
     "urls": [],
     "summaries": []
   },
@@ -544,10 +444,6 @@
     "summaries": []
   },
   "python-dbusmock": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-defusedxml": {
     "urls": [],
     "summaries": []
   },
@@ -575,10 +471,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-ebooklib": {
-    "urls": [],
-    "summaries": []
-  },
   "python-et_xmlfile": {
     "urls": [],
     "summaries": []
@@ -591,14 +483,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-fasjson-client": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-feedgen": {
-    "urls": [],
-    "summaries": []
-  },
   "python-fido2": {
     "urls": [],
     "summaries": []
@@ -608,14 +492,14 @@
     "summaries": []
   },
   "python-frozenlist": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2416992"
+    ],
+    "summaries": [
+      "python-frozenlist fails to build with Python 3.15: test_iface: AssertionError: assert hasattr(self.FrozenList, name)"
+    ]
   },
   "python-fs": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-geotiler": {
     "urls": [],
     "summaries": []
   },
@@ -632,14 +516,6 @@
     "summaries": []
   },
   "python-h5netcdf": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-html-text": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-html5-parser": {
     "urls": [],
     "summaries": []
   },
@@ -663,18 +539,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-ldap3": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-lxml-html-clean": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-mapnik": {
-    "urls": [],
-    "summaries": []
-  },
   "python-markdown-callouts": {
     "urls": [],
     "summaries": []
@@ -687,10 +551,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-mf2py": {
-    "urls": [],
-    "summaries": []
-  },
   "python-mirrors-countme": {
     "urls": [],
     "summaries": []
@@ -699,19 +559,11 @@
     "urls": [],
     "summaries": []
   },
-  "python-ncclient": {
-    "urls": [],
-    "summaries": []
-  },
   "python-networkx": {
     "urls": [],
     "summaries": []
   },
   "python-oauthlib": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-parsel": {
     "urls": [],
     "summaries": []
   },
@@ -751,6 +603,10 @@
       "python-psycopg2 fails to build with Python 3.15: error: implicit declaration of function \u2018PyWeakref_GetObject\u2019; did you mean \u2018PyWeakref_GetRef\u2019?"
     ]
   },
+  "python-pulp": {
+    "urls": [],
+    "summaries": []
+  },
   "python-pure-eval": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2414805"
@@ -763,19 +619,7 @@
     "urls": [],
     "summaries": []
   },
-  "python-pykeepass": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-pymaven-patch": {
-    "urls": [],
-    "summaries": []
-  },
   "python-pyqt6": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-pystemd": {
     "urls": [],
     "summaries": []
   },
@@ -799,27 +643,11 @@
     "urls": [],
     "summaries": []
   },
-  "python-relatorio": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-repomd": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-requests-gssapi": {
-    "urls": [],
-    "summaries": []
-  },
   "python-restructuredtext-lint": {
     "urls": [],
     "summaries": []
   },
   "python-robotframework": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-rpds-py": {
     "urls": [],
     "summaries": []
   },
@@ -835,31 +663,11 @@
       "python-rstr fails to build with Python 3.15: 3 errors when collecting tests: ModuleNotFoundError: No module named 'sre_parse'"
     ]
   },
-  "python-sieve": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-sphinx-argparse": {
-    "urls": [],
-    "summaries": []
-  },
   "python-sphinx-autoapi": {
     "urls": [],
     "summaries": []
   },
-  "python-sphinxcontrib-trio": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-sqlalchemy1.4": {
-    "urls": [],
-    "summaries": []
-  },
   "python-stdlibs": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-svg2tikz": {
     "urls": [],
     "summaries": []
   },
@@ -871,15 +679,11 @@
     "urls": [],
     "summaries": []
   },
-  "python-tcx2gpx": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-tcxparser": {
-    "urls": [],
-    "summaries": []
-  },
   "python-time-machine": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-tinygrad": {
     "urls": [],
     "summaries": []
   },
@@ -903,27 +707,19 @@
       "python-translitcodec fails to build with Python 3.15: 8 tests failing with LookupError: unknown encoding: translit/*"
     ]
   },
-  "python-ttfautohint-py": {
-    "urls": [],
-    "summaries": []
-  },
   "python-typeguard": {
     "urls": [],
     "summaries": []
   },
   "python-typing-extensions": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2416981"
+    ],
+    "summaries": [
+      "python-typing-extensions fails to build with Python 3.15: no_type_check_decorator no longer exists in typing"
+    ]
   },
   "python-uharfbuzz": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-urllib-gssapi": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-uswid": {
     "urls": [],
     "summaries": []
   },
@@ -935,27 +731,11 @@
     "urls": [],
     "summaries": []
   },
-  "python-webscrapbook": {
-    "urls": [],
-    "summaries": []
-  },
   "python-wxpython4": {
     "urls": [],
     "summaries": []
   },
-  "python-zict": {
-    "urls": [],
-    "summaries": []
-  },
   "python-zlib-ng": {
-    "urls": [],
-    "summaries": []
-  },
-  "python3-saml": {
-    "urls": [],
-    "summaries": []
-  },
-  "python3.15": {
     "urls": [],
     "summaries": []
   },
@@ -988,10 +768,6 @@
     "summaries": []
   },
   "rpmlint": {
-    "urls": [],
-    "summaries": []
-  },
-  "ruff": {
     "urls": [],
     "summaries": []
   },
@@ -1032,10 +808,6 @@
     ]
   },
   "trademgen": {
-    "urls": [],
-    "summaries": []
-  },
-  "trelby": {
     "urls": [],
     "summaries": []
   },
