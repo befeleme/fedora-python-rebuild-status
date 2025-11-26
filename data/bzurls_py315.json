@@ -139,6 +139,10 @@
     "urls": [],
     "summaries": []
   },
+  "kernel": {
+    "urls": [],
+    "summaries": []
+  },
   "khal": {
     "urls": [],
     "summaries": []
@@ -236,6 +240,14 @@
     "summaries": []
   },
   "numpy": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2417020"
+    ],
+    "summaries": [
+      "numpy fails to build with Python 3.15: ../numpy/_core/src/multiarray/conversion_utils.h:116:30: error: expected \u2018;\u2019 before \u2018int\u2019"
+    ]
+  },
+  "nwchem": {
     "urls": [],
     "summaries": []
   },
@@ -292,6 +304,22 @@
     "summaries": []
   },
   "python-XStatic-Angular-FileUpload": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-XStatic-Angular-Mock": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-XStatic-Bootstrap-Datepicker": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-XStatic-D3": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-XStatic-Font-Awesome": {
     "urls": [],
     "summaries": []
   },
@@ -403,10 +431,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-cobalt": {
-    "urls": [],
-    "summaries": []
-  },
   "python-coincurve": {
     "urls": [],
     "summaries": []
@@ -432,8 +456,12 @@
     ]
   },
   "python-cron-converter": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2417019"
+    ],
+    "summaries": [
+      "python-cron-converter fails to build with Python 3.15: AssertionError: False is not true : Timezones does not match"
+    ]
   },
   "python-dbus-fast": {
     "urls": [],
@@ -490,14 +518,6 @@
   "python-flask-oidc": {
     "urls": [],
     "summaries": []
-  },
-  "python-frozenlist": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2416992"
-    ],
-    "summaries": [
-      "python-frozenlist fails to build with Python 3.15: test_iface: AssertionError: assert hasattr(self.FrozenList, name)"
-    ]
   },
   "python-fs": {
     "urls": [],
@@ -667,17 +687,29 @@
     "urls": [],
     "summaries": []
   },
-  "python-stdlibs": {
+  "python-sqlalchemy1.4": {
     "urls": [],
     "summaries": []
+  },
+  "python-stdlibs": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2417018"
+    ],
+    "summaries": [
+      "python-stdlibs fails to build with Python 3.15: test_sys_stdlib_modules_agrees: AssertionError: Items in the second set but not the first: '_math_integer'"
+    ]
   },
   "python-system-calls": {
     "urls": [],
     "summaries": []
   },
   "python-tabulate": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2417016"
+    ],
+    "summaries": [
+      "python-tabulate fails to build with Python 3.15: AssertionError: additional space character in test_wrap_multiword_non_wide, test_wrap_multiword_non_wide_with_hypens"
+    ]
   },
   "python-time-machine": {
     "urls": [],
@@ -720,8 +752,12 @@
     ]
   },
   "python-uharfbuzz": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2417022"
+    ],
+    "summaries": [
+      "python-uharfbuzz fails to build with Python 3.15: test_uharfbuzz_version: AssertionError: assert 'unknown' not in '0.0.0+unknown'"
+    ]
   },
   "python-utils": {
     "urls": [],
@@ -824,8 +860,12 @@
     "summaries": []
   },
   "xapian-bindings": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2417021"
+    ],
+    "summaries": [
+      "xapian-bindings fails to build with Python 3.15: Fatal Python error: PyMutex_Unlock: unlocking mutex that is not locked"
+    ]
   },
   "yle-dl": {
     "urls": [],
