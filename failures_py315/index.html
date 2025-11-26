@@ -518,6 +518,19 @@
                 </td>
             </tr>
         
+            <tr id="row-kernel">
+                <td>kernel</td>
+                <td>🟠</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.15/package/kernel/">
+                        Copr - kernel
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                </td>
+            </tr>
+        
             <tr id="row-khal">
                 <td>khal</td>
                 <td>🔴</td>
@@ -814,6 +827,21 @@
                 <td>
                     <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.15/package/numpy/">
                         Copr - numpy
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2417020">numpy fails to build with Python 3.15: ../numpy/_core/src/multiarray/conversion_utils.h:116:30: error: expected ‘;’ before ‘int’</a><br>
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-nwchem">
+                <td>nwchem</td>
+                <td>🟠</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.15/package/nwchem/">
+                        Copr - nwchem
                     </a>
                 </td>
                 <td class="max-width-column">
@@ -1269,19 +1297,6 @@
                 </td>
             </tr>
         
-            <tr id="row-python-cobalt">
-                <td>python-cobalt</td>
-                <td>🟠</td>
-                <td>
-                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.15/package/python-cobalt/">
-                        Copr - python-cobalt
-                    </a>
-                </td>
-                <td class="max-width-column">
-                    
-                </td>
-            </tr>
-        
             <tr id="row-python-coincurve">
                 <td>python-coincurve</td>
                 <td>🔴</td>
@@ -1347,6 +1362,8 @@
                     </a>
                 </td>
                 <td class="max-width-column">
+                    
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2417019">python-cron-converter fails to build with Python 3.15: AssertionError: False is not true : Timezones does not match</a><br>
                     
                 </td>
             </tr>
@@ -1518,21 +1535,6 @@
                     </a>
                 </td>
                 <td class="max-width-column">
-                    
-                </td>
-            </tr>
-        
-            <tr id="row-python-frozenlist">
-                <td>python-frozenlist</td>
-                <td>🟠</td>
-                <td>
-                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.15/package/python-frozenlist/">
-                        Copr - python-frozenlist
-                    </a>
-                </td>
-                <td class="max-width-column">
-                    
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2416992">python-frozenlist fails to build with Python 3.15: test_iface: AssertionError: assert hasattr(self.FrozenList, name)</a><br>
                     
                 </td>
             </tr>
@@ -1963,6 +1965,19 @@
                 </td>
             </tr>
         
+            <tr id="row-python-sqlalchemy1.4">
+                <td>python-sqlalchemy1.4</td>
+                <td>🟠</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.15/package/python-sqlalchemy1.4/">
+                        Copr - python-sqlalchemy1.4
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                </td>
+            </tr>
+        
             <tr id="row-python-stdlibs">
                 <td>python-stdlibs</td>
                 <td>🟠</td>
@@ -1972,6 +1987,8 @@
                     </a>
                 </td>
                 <td class="max-width-column">
+                    
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2417018">python-stdlibs fails to build with Python 3.15: test_sys_stdlib_modules_agrees: AssertionError: Items in the second set but not the first: &#39;_math_integer&#39;</a><br>
                     
                 </td>
             </tr>
@@ -1985,6 +2002,8 @@
                     </a>
                 </td>
                 <td class="max-width-column">
+                    
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2417016">python-tabulate fails to build with Python 3.15: AssertionError: additional space character in test_wrap_multiword_non_wide, test_wrap_multiword_non_wide_with_hypens</a><br>
                     
                 </td>
             </tr>
@@ -2095,6 +2114,8 @@
                     </a>
                 </td>
                 <td class="max-width-column">
+                    
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2417022">python-uharfbuzz fails to build with Python 3.15: test_uharfbuzz_version: AssertionError: assert &#39;unknown&#39; not in &#39;0.0.0+unknown&#39;</a><br>
                     
                 </td>
             </tr>
@@ -2401,6 +2422,8 @@
                 </td>
                 <td class="max-width-column">
                     
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2417021">xapian-bindings fails to build with Python 3.15: Fatal Python error: PyMutex_Unlock: unlocking mutex that is not locked</a><br>
+                    
                 </td>
             </tr>
         
@@ -2441,7 +2464,7 @@
     <hr>
     <footer>
       <p>Maintained by <a href="https://github.com/befeleme">@befeleme</a>, source on <a href="https://github.com/befeleme/fedora-python-rebuild-status">GitHub</a>.</p>
-      <p>Last updated on <span class="date">2025-11-25 13:31:23.162496</span> (updated daily)</p>
+      <p>Last updated on <span class="date">2025-11-26 04:00:06.561067</span> (updated daily)</p>
     </footer>
   </div>
 </body>
