@@ -423,10 +423,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-cairocffi": {
-    "urls": [],
-    "summaries": []
-  },
   "python-chai": {
     "urls": [],
     "summaries": []
@@ -453,14 +449,6 @@
     ],
     "summaries": [
       "python-cooldict fails to build with Python 3.15: AttributeError: module 'collections' has no attribute 'MutableMapping'. Did you mean: 'abc.MutableMapping'?"
-    ]
-  },
-  "python-cron-converter": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2417019"
-    ],
-    "summaries": [
-      "python-cron-converter fails to build with Python 3.15: AssertionError: False is not true : Timezones does not match"
     ]
   },
   "python-dbus-fast": {
