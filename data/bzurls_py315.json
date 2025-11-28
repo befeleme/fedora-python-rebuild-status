@@ -47,14 +47,6 @@
     "urls": [],
     "summaries": []
   },
-  "bumpversion": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2414558"
-    ],
-    "summaries": [
-      "bumpversion fails to build with Python 3.15: ModuleNotFoundError: No module named 'sre_constants'"
-    ]
-  },
   "cantor": {
     "urls": [],
     "summaries": []
@@ -136,10 +128,6 @@
     ]
   },
   "jc": {
-    "urls": [],
-    "summaries": []
-  },
-  "kernel": {
     "urls": [],
     "summaries": []
   },
@@ -328,6 +316,10 @@
     "summaries": []
   },
   "python-XStatic-mdi": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-aiohttp-cors": {
     "urls": [],
     "summaries": []
   },
@@ -802,14 +794,6 @@
   "scipy": {
     "urls": [],
     "summaries": []
-  },
-  "sip": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2414555"
-    ],
-    "summaries": [
-      "sip fails to build with Python 3.15: error: implicit declaration of function \u2018PyWeakref_GetObject\u2019; did you mean \u2018PyWeakref_GetRef\u2019?"
-    ]
   },
   "snapm": {
     "urls": [],
