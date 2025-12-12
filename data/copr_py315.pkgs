@@ -5,7 +5,7 @@ Cython	succeeded
 FP16	succeeded
 GitPython	succeeded
 HepMC3	succeeded
-Io-language	failed
+Io-language	succeeded
 MUSIC	succeeded
 Macaulay2	succeeded
 NFStest	succeeded
@@ -108,7 +108,7 @@ clingo	succeeded
 cloud-init	succeeded
 clustershell	succeeded
 cm_rgb	succeeded
-cmake	succeeded
+cmake	failed
 cobbler	succeeded
 coccinelle	succeeded
 cockpit	succeeded
@@ -157,7 +157,7 @@ dnf-plugin-cow	succeeded
 dnf-plugin-diff	succeeded
 dnf-plugin-flunk_dependent_remove	succeeded
 dnf-plugin-ovl	succeeded
-dnf-plugin-perfmetrics	failed
+dnf-plugin-perfmetrics	succeeded
 dnf-plugins-core	failed
 dnf-plugins-extras	succeeded
 dnfdaemon	succeeded
@@ -186,6 +186,7 @@ file	succeeded
 firewalld	succeeded
 firmitas	succeeded
 flatbuffers	succeeded
+flatpak-module-tools	failed
 flent	succeeded
 flowblade	succeeded
 fmf	succeeded
@@ -240,7 +241,7 @@ gns3-net-converter	succeeded
 gns3-server	succeeded
 gnucash	succeeded
 gnumeric	succeeded
-gobject-introspection	failed
+gobject-introspection	succeeded
 gom	succeeded
 google-auth-httplib2	succeeded
 gpgme	succeeded
@@ -297,13 +298,13 @@ kernel	succeeded
 keycloak-httpd-client-install	succeeded
 keylime	succeeded
 kf6-kapidox	succeeded
-kf6-kcoreaddons	failed
-kf6-kguiaddons	failed
+kf6-kcoreaddons	succeeded
+kf6-kguiaddons	succeeded
 kf6-kjobwidgets	failed
-kf6-knotifications	failed
-kf6-kstatusnotifieritem	failed
-kf6-kunitconversion	failed
-kf6-kwidgetsaddons	failed
+kf6-knotifications	succeeded
+kf6-kstatusnotifieritem	succeeded
+kf6-kunitconversion	succeeded
+kf6-kwidgetsaddons	succeeded
 kf6-kxmlgui	failed
 khal	failed
 khard	succeeded
@@ -319,7 +320,7 @@ koji-containerbuild	succeeded
 koji-flatpak	succeeded
 koji-image-builder	succeeded
 koji-osbuild	succeeded
-kopeninghours	failed
+kopeninghours	succeeded
 krop	succeeded
 kurchu	succeeded
 kvirc	succeeded
@@ -330,7 +331,7 @@ lazygal	succeeded
 ldns	succeeded
 legendary	succeeded
 legofy	succeeded
-lensfun	failed
+lensfun	succeeded
 lhapdf	succeeded
 libCombine	succeeded
 libaccounts-glib	succeeded
@@ -348,7 +349,7 @@ libcpuid	succeeded
 libdnet	succeeded
 libdnf	succeeded
 libesedb	succeeded
-libftdi	failed
+libftdi	succeeded
 libgexiv2	succeeded
 libgit2-glib	succeeded
 libgpiod	succeeded
@@ -358,7 +359,7 @@ libiptcdata	succeeded
 libixion	succeeded
 libkdtree++	succeeded
 libkml	succeeded
-libkolabxml	failed
+libkolabxml	succeeded
 liblc3	succeeded
 liblinear	succeeded
 libloc	succeeded
@@ -389,7 +390,7 @@ libselinux	succeeded
 libsemanage	succeeded
 libsigrokdecode	succeeded
 libsmbios	succeeded
-libsolv	failed
+libsolv	succeeded
 libstoragemgmt	succeeded
 libtalloc	succeeded
 libtdb	succeeded
@@ -403,11 +404,12 @@ libvoikko	succeeded
 libxc	succeeded
 libxml2	succeeded
 libxslt	succeeded
-libyui	failed
+libyui	succeeded
 lightdm-gtk-greeter-settings	succeeded
 link-grammar	failed
 linkchecker	succeeded
 liquidctl	succeeded
+lirc	succeeded
 livecd-tools	succeeded
 lollypop	succeeded
 loook	succeeded
@@ -418,6 +420,7 @@ lttng-ust	succeeded
 lvm2	failed
 mailnag	succeeded
 mailprocessing	succeeded
+manafirewall	succeeded
 mapserver	succeeded
 marisa	succeeded
 marshalparser	succeeded
@@ -479,7 +482,7 @@ ntpsec	succeeded
 numpy	failed
 nvme-stas	succeeded
 nvmetcli	succeeded
-nwchem	failed
+nwchem	succeeded
 nwg-panel	succeeded
 nwg-wrapper	succeeded
 nyx	succeeded
@@ -503,7 +506,7 @@ opensuse-distro-aliases	succeeded
 opentrep	failed
 openvswitch	succeeded
 openwsman	succeeded
-orca	failed
+orca	succeeded
 osbs-client	succeeded
 osbuild	succeeded
 otf2	succeeded
@@ -583,7 +586,7 @@ pyke	succeeded
 pykickstart	succeeded
 pykka	succeeded
 pylibacl	succeeded
-pylibgamerzilla	failed
+pylibgamerzilla	succeeded
 pymilia	succeeded
 pymodbus	succeeded
 pyodbc	succeeded
@@ -1016,7 +1019,7 @@ python-colour	succeeded
 python-columnar	succeeded
 python-comm	succeeded
 python-commoncode	succeeded
-python-compreffor	failed
+python-compreffor	succeeded
 python-conda-content-trust	succeeded
 python-conda-inject	succeeded
 python-conda-libmamba-solver	succeeded
@@ -1369,7 +1372,7 @@ python-getmac	succeeded
 python-gettext	succeeded
 python-gevent	succeeded
 python-ghp-import	succeeded
-python-giacpy	failed
+python-giacpy	succeeded
 python-git-changelog	succeeded
 python-git-revise	succeeded
 python-gitapi	succeeded
@@ -1398,7 +1401,7 @@ python-grokmirror	succeeded
 python-grpcio-gcp	succeeded
 python-gsd	succeeded
 python-gssapi	succeeded
-python-gstreamer1	failed
+python-gstreamer1	succeeded
 python-guessit	succeeded
 python-gunicorn	succeeded
 python-h11	succeeded
@@ -1629,6 +1632,7 @@ python-mailmerge	succeeded
 python-makefun	succeeded
 python-mako	succeeded
 python-managesieve	succeeded
+python-manatools	succeeded
 python-mapbox-earcut	succeeded
 python-mapnik	succeeded
 python-maps	succeeded
@@ -1945,7 +1949,7 @@ python-pybbi	succeeded
 python-pybeam	succeeded
 python-pybtex	succeeded
 python-pybtex-docutils	succeeded
-python-pycares	succeeded
+python-pycares	failed
 python-pycdio	succeeded
 python-pycdlib	succeeded
 python-pycec	succeeded
@@ -2054,7 +2058,7 @@ python-pyrsistent	succeeded
 python-pyrtlsdr	succeeded
 python-pysam	succeeded
 python-pyscaffold	succeeded
-python-pyscipopt	failed
+python-pyscipopt	succeeded
 python-pysdl2	succeeded
 python-pyside6	succeeded
 python-pysimplesoap	succeeded
@@ -2216,7 +2220,7 @@ python-requirements-parser	succeeded
 python-reretry	succeeded
 python-resolvelib	succeeded
 python-responses	succeeded
-python-restructuredtext-lint	failed
+python-restructuredtext-lint	succeeded
 python-result	succeeded
 python-resultsdb_api	succeeded
 python-resumable-urlretrieve	succeeded
@@ -2714,7 +2718,7 @@ qr-code-generator	succeeded
 quearcode	succeeded
 quisk	succeeded
 quodlibet	failed
-qutebrowser	failed
+qutebrowser	succeeded
 ramalama	succeeded
 ranger	succeeded
 rapidyaml	succeeded
@@ -2727,7 +2731,7 @@ recoll	succeeded
 rednotebook	succeeded
 redshift	succeeded
 relval	succeeded
-remmina	failed
+remmina	succeeded
 renderdoc	failed
 resalloc-ibm-cloud	succeeded
 resalloc-openstack	succeeded
@@ -2852,6 +2856,7 @@ uhd	succeeded
 unbound	succeeded
 unicorn	succeeded
 units-llnl	succeeded
+urjtag	succeeded
 urlscan	succeeded
 ursa-major	succeeded
 usbrelay	succeeded
@@ -2877,7 +2882,7 @@ volk	succeeded
 volume_key	succeeded
 waf	succeeded
 wafw00f	succeeded
-weechat	failed
+weechat	succeeded
 wesnoth	succeeded
 whatip	succeeded
 winpdb	succeeded
