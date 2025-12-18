@@ -1,5 +1,5 @@
 {
-  "PyX": {
+  "389-ds-base": {
     "urls": [],
     "summaries": []
   },
@@ -19,7 +19,23 @@
     "urls": [],
     "summaries": []
   },
+  "argparse-manpage": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2417959"
+    ],
+    "summaries": [
+      "argparse-manpage fails to build with pip 25.3"
+    ]
+  },
   "awscli2": {
+    "urls": [],
+    "summaries": []
+  },
+  "beaker": {
+    "urls": [],
+    "summaries": []
+  },
+  "bluechi": {
     "urls": [],
     "summaries": []
   },
@@ -35,11 +51,23 @@
       "bmap-tools fails to build with Python 3.15: bmaptool.BmapCopy.Error: checksum mismatch for blocks range 34-35"
     ]
   },
+  "bodhi-client": {
+    "urls": [],
+    "summaries": []
+  },
   "boom-boot": {
     "urls": [],
     "summaries": []
   },
+  "borgbackup": {
+    "urls": [],
+    "summaries": []
+  },
   "breezy": {
+    "urls": [],
+    "summaries": []
+  },
+  "calamares": {
     "urls": [],
     "summaries": []
   },
@@ -48,6 +76,10 @@
     "summaries": []
   },
   "catfish": {
+    "urls": [],
+    "summaries": []
+  },
+  "cepces": {
     "urls": [],
     "summaries": []
   },
@@ -63,15 +95,19 @@
     "urls": [],
     "summaries": []
   },
-  "cmake": {
+  "clingo": {
+    "urls": [],
+    "summaries": []
+  },
+  "cobbler": {
+    "urls": [],
+    "summaries": []
+  },
+  "cockpit": {
     "urls": [],
     "summaries": []
   },
   "conan": {
-    "urls": [],
-    "summaries": []
-  },
-  "cvc5": {
     "urls": [],
     "summaries": []
   },
@@ -83,7 +119,19 @@
     "urls": [],
     "summaries": []
   },
-  "dionaea": {
+  "dnf": {
+    "urls": [],
+    "summaries": []
+  },
+  "dnf-plugin-cow": {
+    "urls": [],
+    "summaries": []
+  },
+  "dnf-plugin-flunk_dependent_remove": {
+    "urls": [],
+    "summaries": []
+  },
+  "dnf-plugin-perfmetrics": {
     "urls": [],
     "summaries": []
   },
@@ -91,7 +139,39 @@
     "urls": [],
     "summaries": []
   },
-  "elements": {
+  "dnf-plugins-extras": {
+    "urls": [],
+    "summaries": []
+  },
+  "dnsconfd": {
+    "urls": [],
+    "summaries": []
+  },
+  "dt-schema": {
+    "urls": [],
+    "summaries": []
+  },
+  "dtc": {
+    "urls": [],
+    "summaries": []
+  },
+  "ec2-hibinit-agent": {
+    "urls": [],
+    "summaries": []
+  },
+  "fail2ban": {
+    "urls": [],
+    "summaries": []
+  },
+  "fedora-repro": {
+    "urls": [],
+    "summaries": []
+  },
+  "fedora-review": {
+    "urls": [],
+    "summaries": []
+  },
+  "firmitas": {
     "urls": [],
     "summaries": []
   },
@@ -99,7 +179,35 @@
     "urls": [],
     "summaries": []
   },
-  "getdp": {
+  "fonttools": {
+    "urls": [],
+    "summaries": []
+  },
+  "freecell-solver": {
+    "urls": [],
+    "summaries": []
+  },
+  "freeipa": {
+    "urls": [],
+    "summaries": []
+  },
+  "freeipa-healthcheck": {
+    "urls": [],
+    "summaries": []
+  },
+  "gcovr": {
+    "urls": [],
+    "summaries": []
+  },
+  "gdb": {
+    "urls": [],
+    "summaries": []
+  },
+  "geopmd": {
+    "urls": [],
+    "summaries": []
+  },
+  "git-up": {
     "urls": [],
     "summaries": []
   },
@@ -108,6 +216,30 @@
     "summaries": []
   },
   "gnofract4d": {
+    "urls": [],
+    "summaries": []
+  },
+  "gnome-abrt": {
+    "urls": [],
+    "summaries": []
+  },
+  "gpodder": {
+    "urls": [],
+    "summaries": []
+  },
+  "hexchat": {
+    "urls": [],
+    "summaries": []
+  },
+  "hstsparser": {
+    "urls": [],
+    "summaries": []
+  },
+  "ini2toml": {
+    "urls": [],
+    "summaries": []
+  },
+  "insight": {
     "urls": [],
     "summaries": []
   },
@@ -127,11 +259,39 @@
     "urls": [],
     "summaries": []
   },
-  "kea": {
+  "kernel": {
+    "urls": [],
+    "summaries": []
+  },
+  "keylime": {
+    "urls": [],
+    "summaries": []
+  },
+  "kf6-kcoreaddons": {
+    "urls": [],
+    "summaries": []
+  },
+  "kf6-kguiaddons": {
     "urls": [],
     "summaries": []
   },
   "kf6-kjobwidgets": {
+    "urls": [],
+    "summaries": []
+  },
+  "kf6-knotifications": {
+    "urls": [],
+    "summaries": []
+  },
+  "kf6-kstatusnotifieritem": {
+    "urls": [],
+    "summaries": []
+  },
+  "kf6-kunitconversion": {
+    "urls": [],
+    "summaries": []
+  },
+  "kf6-kwidgetsaddons": {
     "urls": [],
     "summaries": []
   },
@@ -147,11 +307,27 @@
     "urls": [],
     "summaries": []
   },
+  "kiwi": {
+    "urls": [],
+    "summaries": []
+  },
+  "kiwi-stackbuild-plugin": {
+    "urls": [],
+    "summaries": []
+  },
   "kmymoney": {
     "urls": [],
     "summaries": []
   },
-  "kvirc": {
+  "koan": {
+    "urls": [],
+    "summaries": []
+  },
+  "kurchu": {
+    "urls": [],
+    "summaries": []
+  },
+  "lasso": {
     "urls": [],
     "summaries": []
   },
@@ -159,11 +335,27 @@
     "urls": [],
     "summaries": []
   },
+  "libcpuid": {
+    "urls": [],
+    "summaries": []
+  },
+  "libguestfs": {
+    "urls": [],
+    "summaries": []
+  },
   "libmodulemd": {
     "urls": [],
     "summaries": []
   },
+  "libolm": {
+    "urls": [],
+    "summaries": []
+  },
   "libpeas1": {
+    "urls": [],
+    "summaries": []
+  },
+  "libpfm": {
     "urls": [],
     "summaries": []
   },
@@ -175,7 +367,19 @@
     "urls": [],
     "summaries": []
   },
+  "libvirt-python": {
+    "urls": [],
+    "summaries": []
+  },
+  "libvirt-test-API": {
+    "urls": [],
+    "summaries": []
+  },
   "link-grammar": {
+    "urls": [],
+    "summaries": []
+  },
+  "linkchecker": {
     "urls": [],
     "summaries": []
   },
@@ -183,7 +387,15 @@
     "urls": [],
     "summaries": []
   },
-  "maturin": {
+  "mat2": {
+    "urls": [],
+    "summaries": []
+  },
+  "module-build": {
+    "urls": [],
+    "summaries": []
+  },
+  "modulemd-tools": {
     "urls": [],
     "summaries": []
   },
@@ -194,6 +406,14 @@
     "summaries": [
       "moose fails to build with Python 3.15: moose-core-3.1.5/pymoose/PyRun.h:58:24: error: \u2018Py_GetProgramName\u2019 was not declared in this scope; did you mean \u2018Py_SetProgramName\u2019?"
     ]
+  },
+  "msoffcrypto-tool": {
+    "urls": [],
+    "summaries": []
+  },
+  "nagios-plugins-systemd": {
+    "urls": [],
+    "summaries": []
   },
   "nemo-extensions": {
     "urls": [],
@@ -207,15 +427,35 @@
     "urls": [],
     "summaries": []
   },
-  "numpy": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2417020"
-    ],
-    "summaries": [
-      "numpy fails to build with Python 3.15: ../numpy/_core/src/multiarray/conversion_utils.h:116:30: error: expected \u2018;\u2019 before \u2018int\u2019"
-    ]
+  "notcurses": {
+    "urls": [],
+    "summaries": []
+  },
+  "notmuch": {
+    "urls": [],
+    "summaries": []
+  },
+  "nototools": {
+    "urls": [],
+    "summaries": []
+  },
+  "nvme-stas": {
+    "urls": [],
+    "summaries": []
   },
   "onnxruntime": {
+    "urls": [],
+    "summaries": []
+  },
+  "openscap-report": {
+    "urls": [],
+    "summaries": []
+  },
+  "openssh-ldap-authkeys": {
+    "urls": [],
+    "summaries": []
+  },
+  "opensuse-distro-aliases": {
     "urls": [],
     "summaries": []
   },
@@ -223,7 +463,27 @@
     "urls": [],
     "summaries": []
   },
+  "openvswitch": {
+    "urls": [],
+    "summaries": []
+  },
+  "openwsman": {
+    "urls": [],
+    "summaries": []
+  },
+  "oz": {
+    "urls": [],
+    "summaries": []
+  },
   "pagure-dist-git": {
+    "urls": [],
+    "summaries": []
+  },
+  "piper": {
+    "urls": [],
+    "summaries": []
+  },
+  "postfix-mta-sts-resolver": {
     "urls": [],
     "summaries": []
   },
@@ -235,7 +495,15 @@
     "urls": [],
     "summaries": []
   },
+  "proselint": {
+    "urls": [],
+    "summaries": []
+  },
   "protobuf": {
+    "urls": [],
+    "summaries": []
+  },
+  "pyOpenSSL": {
     "urls": [],
     "summaries": []
   },
@@ -247,11 +515,35 @@
     "urls": [],
     "summaries": []
   },
+  "pykka": {
+    "urls": [],
+    "summaries": []
+  },
   "pyproj": {
     "urls": [],
     "summaries": []
   },
+  "pysysbot": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-OWSLib": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-PyGithub": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-PyMySQL": {
+    "urls": [],
+    "summaries": []
+  },
   "python-SecretStorage": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-Traits": {
     "urls": [],
     "summaries": []
   },
@@ -283,7 +575,31 @@
     "urls": [],
     "summaries": []
   },
+  "python-adal": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-adb-shell": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-aiodns": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-aiohappyeyeballs": {
+    "urls": [],
+    "summaries": []
+  },
   "python-aiohttp-cors": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-aiolimiter": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-aiomysql": {
     "urls": [],
     "summaries": []
   },
@@ -295,11 +611,35 @@
     "urls": [],
     "summaries": []
   },
+  "python-application-properties": {
+    "urls": [],
+    "summaries": []
+  },
   "python-apprise": {
     "urls": [],
     "summaries": []
   },
+  "python-archspec": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-argon2-cffi": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-argon2-cffi-bindings": {
+    "urls": [],
+    "summaries": []
+  },
   "python-arpeggio": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-arrow": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-asn1tools": {
     "urls": [],
     "summaries": []
   },
@@ -311,6 +651,10 @@
       "python-astroid fails to build with Python 3.15: typing.ByteString has been removed from Python, failing TypingBrain.test_typing_object_notsubscriptable_3"
     ]
   },
+  "python-asyncmy": {
+    "urls": [],
+    "summaries": []
+  },
   "python-asyncpg": {
     "urls": [],
     "summaries": []
@@ -319,11 +663,55 @@
     "urls": [],
     "summaries": []
   },
+  "python-asysocks": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-augeas": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-authlib": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-awesomeversion": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-azure-ai-projects": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-azure-datalake-store": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-azure-graphrbac": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-azure-identity": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-azure-keyvault": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-azure-keyvault-keys": {
+    "urls": [],
+    "summaries": []
+  },
   "python-azure-mgmt-cognitiveservices": {
     "urls": [],
     "summaries": []
   },
   "python-azure-mgmt-containerservice": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-azure-mgmt-datalake-analytics": {
     "urls": [],
     "summaries": []
   },
@@ -339,7 +727,15 @@
     "urls": [],
     "summaries": []
   },
+  "python-azure-mgmt-kusto": {
+    "urls": [],
+    "summaries": []
+  },
   "python-azure-mgmt-recoveryservices": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-azure-mgmt-relay": {
     "urls": [],
     "summaries": []
   },
@@ -347,7 +743,31 @@
     "urls": [],
     "summaries": []
   },
+  "python-azure-multiapi-storage": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-azure-storage-blob": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-azure-storage-common": {
+    "urls": [],
+    "summaries": []
+  },
   "python-azure-synapse-artifacts": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-b4": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-babelfish": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-backoff": {
     "urls": [],
     "summaries": []
   },
@@ -359,11 +779,23 @@
       "python-backrefs fails to build with Python 3.15: Missing unicode data for 17.0.0"
     ]
   },
+  "python-beangulp": {
+    "urls": [],
+    "summaries": []
+  },
   "python-beartype": {
     "urls": [],
     "summaries": []
   },
+  "python-beautifulsoup4": {
+    "urls": [],
+    "summaries": []
+  },
   "python-binary-manager": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-binary-memcached": {
     "urls": [],
     "summaries": []
   },
@@ -379,11 +811,75 @@
     "urls": [],
     "summaries": []
   },
+  "python-blobfile": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-bluebell-akn": {
+    "urls": [],
+    "summaries": []
+  },
   "python-botocore": {
     "urls": [],
     "summaries": []
   },
+  "python-bravado": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-bravado-core": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-build": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-buildman": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-cairocffi": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-cairosvg": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-cart": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-catkin_lint": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-cffsubr": {
+    "urls": [],
+    "summaries": []
+  },
   "python-chai": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-chameleon": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-click-didyoumean": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-cmarkgfm": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-cmdkit": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-cobalt": {
     "urls": [],
     "summaries": []
   },
@@ -399,7 +895,55 @@
       "python-colcon-core: Fails to build with setuptools 80.9.0, fails to install [pins setuptools < 80, test_build_package fails]"
     ]
   },
-  "python-colormath2": {
+  "python-collada": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-compreffor": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-conda-content-trust": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-conda-inject": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-confuse": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-constantly": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-construct-classes": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-coveralls": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-crashtest": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-cryptography": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-cssselect": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-cucumber-expressions": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-dateutil": {
     "urls": [],
     "summaries": []
   },
@@ -415,6 +959,18 @@
     "urls": [],
     "summaries": []
   },
+  "python-defusedxml": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-detect-secrets": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-diff-cover": {
+    "urls": [],
+    "summaries": []
+  },
   "python-dill": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2414572"
@@ -423,7 +979,15 @@
       "python-dill fails to build with Python 3.15: AttributeError: type object 'object' has no attribute '__weakref__'"
     ]
   },
+  "python-distlib": {
+    "urls": [],
+    "summaries": []
+  },
   "python-django-angular": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-django-clacks": {
     "urls": [],
     "summaries": []
   },
@@ -435,11 +999,35 @@
     "urls": [],
     "summaries": []
   },
+  "python-django-ipware": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-django-q2": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-django-rules": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-django5": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-dkimpy": {
+    "urls": [],
+    "summaries": []
+  },
   "python-dns": {
     "urls": [],
     "summaries": []
   },
-  "python-docs-theme": {
+  "python-doxytag2zealdb": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-dtoc": {
     "urls": [],
     "summaries": []
   },
@@ -447,7 +1035,31 @@
     "urls": [],
     "summaries": []
   },
+  "python-ebooklib": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-eccodes": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-elementpath": {
+    "urls": [],
+    "summaries": []
+  },
   "python-et_xmlfile": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-etcd": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-eth-bloom": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-eth-hash": {
     "urls": [],
     "summaries": []
   },
@@ -455,7 +1067,35 @@
     "urls": [],
     "summaries": []
   },
+  "python-exceptiongroup": {
+    "urls": [],
+    "summaries": []
+  },
   "python-exdir": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-execnet": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-expecttest": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-extractcode": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-fabric": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-fasjson-client": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-feedgen": {
     "urls": [],
     "summaries": []
   },
@@ -463,7 +1103,35 @@
     "urls": [],
     "summaries": []
   },
+  "python-flask": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-flask-healthz": {
+    "urls": [],
+    "summaries": []
+  },
   "python-flask-oidc": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-fontMath": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-fontname": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-fontrpmspec": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-fortranformat": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-freecell_solver": {
     "urls": [],
     "summaries": []
   },
@@ -471,7 +1139,27 @@
     "urls": [],
     "summaries": []
   },
+  "python-funcparserlib": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-gevent": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-giacpy": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-github3py": {
+    "urls": [],
+    "summaries": []
+  },
   "python-google-auth": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-graphql-core": {
     "urls": [],
     "summaries": []
   },
@@ -479,11 +1167,59 @@
     "urls": [],
     "summaries": []
   },
+  "python-gunicorn": {
+    "urls": [],
+    "summaries": []
+  },
   "python-h5netcdf": {
     "urls": [],
     "summaries": []
   },
+  "python-hiredis": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-html-text": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-html5-parser": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-html5lib": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-http-ece": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-httplib2": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-httpsig-cffi": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-hvac": {
+    "urls": [],
+    "summaries": []
+  },
   "python-hypothesmith": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-identify": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-ijson": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-immutabledict": {
     "urls": [],
     "summaries": []
   },
@@ -495,11 +1231,63 @@
     "urls": [],
     "summaries": []
   },
+  "python-ipcqueue": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-iso8601": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-jedi": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-josepy": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-journal-brief": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-jsonschema-path": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-jwcrypto": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-jwt": {
+    "urls": [],
+    "summaries": []
+  },
   "python-kadmin": {
     "urls": [],
     "summaries": []
   },
-  "python-lazy-object-proxy": {
+  "python-kafka": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-kaptan": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-keep": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-libnacl": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-locket": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-lxml-html-clean": {
     "urls": [],
     "summaries": []
   },
@@ -507,7 +1295,19 @@
     "urls": [],
     "summaries": []
   },
+  "python-marshmallow": {
+    "urls": [],
+    "summaries": []
+  },
   "python-mechanicalsoup": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-mf2py": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-minikerberos": {
     "urls": [],
     "summaries": []
   },
@@ -519,7 +1319,39 @@
     "urls": [],
     "summaries": []
   },
-  "python-msgpack": {
+  "python-mock-ssh-server": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-mozilla-django-oidc": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-msal": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-msal-extensions": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-msrestazure": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-mygpoclient": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-ncclient": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-neovim": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-netdisco": {
     "urls": [],
     "summaries": []
   },
@@ -527,7 +1359,19 @@
     "urls": [],
     "summaries": []
   },
+  "python-nine": {
+    "urls": [],
+    "summaries": []
+  },
   "python-nltk": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-noiseprotocol": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-ntlm-auth": {
     "urls": [],
     "summaries": []
   },
@@ -535,11 +1379,99 @@
     "urls": [],
     "summaries": []
   },
+  "python-odata-query": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-ofxparse": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-oletools": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-omemo": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-omlmd": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-omsdk": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-onionbalance": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-openapi-schema-validator": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-opensearch-py": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-openstackdocstheme": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-parameterized": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-paramiko": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-parsel": {
+    "urls": [],
+    "summaries": []
+  },
   "python-parver": {
     "urls": [],
     "summaries": []
   },
+  "python-passlib": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2403565"
+    ],
+    "summaries": [
+      "python-flask-security-too: Fails to build with setuptools 80.9.0 [ERROR in tests: UserWarning: pkg_resources is deprecated as an API]"
+    ]
+  },
+  "python-patatt": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-patch-manager": {
+    "urls": [],
+    "summaries": []
+  },
   "python-path-and-address": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pathable": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pdfminer": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pdir2": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pdm-pep517": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pikepdf": {
     "urls": [],
     "summaries": []
   },
@@ -551,7 +1483,23 @@
       "python-pipdeptree fails to build with Python 3.15: tests/test_discovery.py::test_invalid_metadata - TypeError: argument of type 'NoneType' is not a container or iterable"
     ]
   },
+  "python-pkgconfig": {
+    "urls": [],
+    "summaries": []
+  },
   "python-plumbum": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-ply": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-poetry-core": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pooch": {
     "urls": [],
     "summaries": []
   },
@@ -563,6 +1511,22 @@
       "python-precis_i18n fails to build with Python 3.15: The Unicode database has been updated to Unicode 17.0.0."
     ]
   },
+  "python-proton-core": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-proton-vpn-api-core": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-proton-vpn-network-manager": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-psutil": {
+    "urls": [],
+    "summaries": []
+  },
   "python-psycopg2": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2414801"
@@ -570,10 +1534,6 @@
     "summaries": [
       "python-psycopg2 fails to build with Python 3.15: error: implicit declaration of function \u2018PyWeakref_GetObject\u2019; did you mean \u2018PyWeakref_GetRef\u2019?"
     ]
-  },
-  "python-pulp": {
-    "urls": [],
-    "summaries": []
   },
   "python-pure-eval": {
     "urls": [
@@ -583,11 +1543,71 @@
       "python-pure-eval fails to build with Python 3.15: pure_eval.utils.CannotEval: CannotEval in 11 tests"
     ]
   },
+  "python-pwntools": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pyaes": {
+    "urls": [],
+    "summaries": []
+  },
   "python-pycares": {
     "urls": [],
     "summaries": []
   },
-  "python-pyformlang": {
+  "python-pydocstyle": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pyftpdlib": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pygal": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pygit2": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pygments": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pyjwkest": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pykdumpfile": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pykeepass": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pymaven-patch": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pymemcache": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pymssql": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pynacl": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pyngus": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pypandoc": {
     "urls": [],
     "summaries": []
   },
@@ -595,11 +1615,87 @@
     "urls": [],
     "summaries": []
   },
+  "python-pyquery": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pyrate-limiter": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pystemd": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pytest-bdd": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pytest-django": {
+    "urls": [],
+    "summaries": []
+  },
   "python-pytest-freezegun": {
     "urls": [],
     "summaries": []
   },
+  "python-pytest-httpserver": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pytest-isort": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pytest-lazy-fixtures": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pytest-localftpserver": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pytest-sourceorder": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pytest-split": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pytest-tldr": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pytest-trio": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pytzdata": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pyvlx": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pywayland": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pywlroots": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-qrcode": {
+    "urls": [],
+    "summaries": []
+  },
   "python-qt5": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-questionary": {
     "urls": [],
     "summaries": []
   },
@@ -611,7 +1707,71 @@
     "urls": [],
     "summaries": []
   },
+  "python-readability-lxml": {
+    "urls": [],
+    "summaries": []
+  },
   "python-readme-renderer": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-reflink": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-relatorio": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-rencode": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-repomd": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-reportlab": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-repoze-sphinx-autointerface": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-requests": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-requests-kerberos": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-requests-pkcs12": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-requests-toolbelt": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-requests-unixsocket": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-requests_ntlm": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-requirements-parser": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-result": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-resultsdb_api": {
     "urls": [],
     "summaries": []
   },
@@ -623,7 +1783,15 @@
     "urls": [],
     "summaries": []
   },
-  "python-rosdep": {
+  "python-rpdb": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-rpmautospec": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-rpmautospec-core": {
     "urls": [],
     "summaries": []
   },
@@ -639,7 +1807,123 @@
       "python-rstr fails to build with Python 3.15: 3 errors when collecting tests: ModuleNotFoundError: No module named 'sre_parse'"
     ]
   },
+  "python-rust-update-set": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-rx": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-samloader": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-scales": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-scitokens": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-scp": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-service-identity": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-setuptools-git-versioning": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-setuptools-rust": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-sh": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-shamir-mnemonic": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-shortuuid": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-sieve": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-signedjson": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-single-version": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-slip10": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-slixmpp": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-slixmpp-omemo": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-smbprotocol": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-snakemake-interface-executor-plugins": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-snakemake-interface-report-plugins": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-snakemake-interface-storage-plugins": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-snappy": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-soundfile": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-soupsieve": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-spdx-license-list": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-sphinx-argparse": {
+    "urls": [],
+    "summaries": []
+  },
   "python-sphinx-autoapi": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-sphinx-basic-ng": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-sphinx-jsonschema": {
     "urls": [],
     "summaries": []
   },
@@ -647,7 +1931,23 @@
     "urls": [],
     "summaries": []
   },
+  "python-sphinxcontrib-doxylink": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-spnego": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-spur": {
+    "urls": [],
+    "summaries": []
+  },
   "python-sqlalchemy1.4": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-sshtunnel": {
     "urls": [],
     "summaries": []
   },
@@ -658,6 +1958,18 @@
     "summaries": [
       "python-stdlibs fails to build with Python 3.15: test_sys_stdlib_modules_agrees: AssertionError: Items in the second set but not the first: '_math_integer'"
     ]
+  },
+  "python-supersmoother": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-svg2tikz": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-syrupy": {
+    "urls": [],
+    "summaries": []
   },
   "python-system-calls": {
     "urls": [],
@@ -671,11 +1983,35 @@
       "python-tabulate fails to build with Python 3.15: AssertionError: additional space character in test_wrap_multiword_non_wide, test_wrap_multiword_non_wide_with_hypens"
     ]
   },
+  "python-tcxreader": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-terminaltables": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-terminaltables3": {
+    "urls": [],
+    "summaries": []
+  },
   "python-time-machine": {
     "urls": [],
     "summaries": []
   },
-  "python-tinygrad": {
+  "python-timeslot": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-tinydb": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-tomli": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-tomlkit": {
     "urls": [],
     "summaries": []
   },
@@ -687,7 +2023,7 @@
       "python-tornado fails to build with Python 3.15: ERROR: test_multi_process"
     ]
   },
-  "python-tox-uv": {
+  "python-tpm2-pytss": {
     "urls": [],
     "summaries": []
   },
@@ -698,6 +2034,26 @@
     "summaries": [
       "python-translitcodec fails to build with Python 3.15: 8 tests failing with LookupError: unknown encoding: translit/*"
     ]
+  },
+  "python-trio-websocket": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-trustme": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-ttfautohint-py": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-twilio": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-typecode": {
+    "urls": [],
+    "summaries": []
   },
   "python-typeguard": {
     "urls": [],
@@ -719,11 +2075,15 @@
       "python-uharfbuzz fails to build with Python 3.15: test_uharfbuzz_version: AssertionError: assert 'unknown' not in '0.0.0+unknown'"
     ]
   },
-  "python-utils": {
+  "python-unpaddedbase64": {
     "urls": [],
     "summaries": []
   },
-  "python-uv-build": {
+  "python-url-normalize": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-utils": {
     "urls": [],
     "summaries": []
   },
@@ -731,7 +2091,35 @@
     "urls": [],
     "summaries": []
   },
-  "python-xmlsec": {
+  "python-virt-firmware": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-webscrapbook": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-werkzeug": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-winrm": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-x2go": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-xmlschema": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-zeroconf": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-zict": {
     "urls": [],
     "summaries": []
   },
@@ -739,11 +2127,35 @@
     "urls": [],
     "summaries": []
   },
+  "python-zombie-imp": {
+    "urls": [],
+    "summaries": []
+  },
+  "python3-mypy": {
+    "urls": [],
+    "summaries": []
+  },
+  "python3-pydo": {
+    "urls": [],
+    "summaries": []
+  },
+  "python3-saml": {
+    "urls": [],
+    "summaries": []
+  },
   "python3.15": {
     "urls": [],
     "summaries": []
   },
+  "qpid-proton": {
+    "urls": [],
+    "summaries": []
+  },
   "quodlibet": {
+    "urls": [],
+    "summaries": []
+  },
+  "recoll": {
     "urls": [],
     "summaries": []
   },
@@ -759,11 +2171,23 @@
     "urls": [],
     "summaries": []
   },
+  "rig": {
+    "urls": [],
+    "summaries": []
+  },
   "rmol": {
     "urls": [],
     "summaries": []
   },
+  "roca-detect": {
+    "urls": [],
+    "summaries": []
+  },
   "root": {
+    "urls": [],
+    "summaries": []
+  },
+  "rpm-head-signing": {
     "urls": [],
     "summaries": []
   },
@@ -791,7 +2215,23 @@
     "urls": [],
     "summaries": []
   },
+  "stomppy": {
+    "urls": [],
+    "summaries": []
+  },
   "stratis-cli": {
+    "urls": [],
+    "summaries": []
+  },
+  "teampulls": {
+    "urls": [],
+    "summaries": []
+  },
+  "tiled": {
+    "urls": [],
+    "summaries": []
+  },
+  "tpm2-pkcs11": {
     "urls": [],
     "summaries": []
   },
@@ -803,7 +2243,7 @@
     "urls": [],
     "summaries": []
   },
-  "uv": {
+  "ustreamer": {
     "urls": [],
     "summaries": []
   },
@@ -812,6 +2252,18 @@
     "summaries": []
   },
   "vdirsyncer": {
+    "urls": [],
+    "summaries": []
+  },
+  "virt-bootstrap": {
+    "urls": [],
+    "summaries": []
+  },
+  "virt-lightning": {
+    "urls": [],
+    "summaries": []
+  },
+  "waf": {
     "urls": [],
     "summaries": []
   },
@@ -824,6 +2276,10 @@
     ]
   },
   "xcat": {
+    "urls": [],
+    "summaries": []
+  },
+  "xen": {
     "urls": [],
     "summaries": []
   },
