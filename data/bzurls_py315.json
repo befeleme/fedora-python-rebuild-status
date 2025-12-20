@@ -108,18 +108,14 @@
     "summaries": []
   },
   "fail2ban": {
-    "urls": [],
-    "summaries": []
-  },
-  "firmitas": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2423879"
+    ],
+    "summaries": [
+      "fail2ban fails to build with Python 3.15: AttributeError: 'SourceFileLoader' object has no attribute 'load_module'. Did you mean: 'exec_module'?"
+    ]
   },
   "gdb": {
-    "urls": [],
-    "summaries": []
-  },
-  "git-up": {
     "urls": [],
     "summaries": []
   },
@@ -128,14 +124,6 @@
     "summaries": []
   },
   "gnofract4d": {
-    "urls": [],
-    "summaries": []
-  },
-  "gpodder": {
-    "urls": [],
-    "summaries": []
-  },
-  "hstsparser": {
     "urls": [],
     "summaries": []
   },
@@ -163,38 +151,6 @@
     "urls": [],
     "summaries": []
   },
-  "kf6-kcoreaddons": {
-    "urls": [],
-    "summaries": []
-  },
-  "kf6-kguiaddons": {
-    "urls": [],
-    "summaries": []
-  },
-  "kf6-kjobwidgets": {
-    "urls": [],
-    "summaries": []
-  },
-  "kf6-knotifications": {
-    "urls": [],
-    "summaries": []
-  },
-  "kf6-kstatusnotifieritem": {
-    "urls": [],
-    "summaries": []
-  },
-  "kf6-kunitconversion": {
-    "urls": [],
-    "summaries": []
-  },
-  "kf6-kwidgetsaddons": {
-    "urls": [],
-    "summaries": []
-  },
-  "kf6-kxmlgui": {
-    "urls": [],
-    "summaries": []
-  },
   "khal": {
     "urls": [],
     "summaries": []
@@ -203,19 +159,7 @@
     "urls": [],
     "summaries": []
   },
-  "kiwi": {
-    "urls": [],
-    "summaries": []
-  },
-  "kiwi-stackbuild-plugin": {
-    "urls": [],
-    "summaries": []
-  },
   "kmymoney": {
-    "urls": [],
-    "summaries": []
-  },
-  "kurchu": {
     "urls": [],
     "summaries": []
   },
@@ -228,10 +172,6 @@
     "summaries": []
   },
   "libpeas1": {
-    "urls": [],
-    "summaries": []
-  },
-  "libpfm": {
     "urls": [],
     "summaries": []
   },
@@ -252,8 +192,12 @@
     "summaries": []
   },
   "mat2": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2423895"
+    ],
+    "summaries": [
+      "mat2 fails to build with Python 3.15: AssertionError: self.assertIn(b' [-v]', stdout)"
+    ]
   },
   "moose": {
     "urls": [
@@ -262,14 +206,6 @@
     "summaries": [
       "moose fails to build with Python 3.15: moose-core-3.1.5/pymoose/PyRun.h:58:24: error: \u2018Py_GetProgramName\u2019 was not declared in this scope; did you mean \u2018Py_SetProgramName\u2019?"
     ]
-  },
-  "msoffcrypto-tool": {
-    "urls": [],
-    "summaries": []
-  },
-  "nagios-plugins-systemd": {
-    "urls": [],
-    "summaries": []
   },
   "nemo-extensions": {
     "urls": [],
@@ -287,10 +223,6 @@
     "urls": [],
     "summaries": []
   },
-  "opensuse-distro-aliases": {
-    "urls": [],
-    "summaries": []
-  },
   "opentrep": {
     "urls": [],
     "summaries": []
@@ -304,10 +236,6 @@
     "summaries": []
   },
   "profanity": {
-    "urls": [],
-    "summaries": []
-  },
-  "proselint": {
     "urls": [],
     "summaries": []
   },
@@ -363,15 +291,7 @@
     "urls": [],
     "summaries": []
   },
-  "python-aiohappyeyeballs": {
-    "urls": [],
-    "summaries": []
-  },
   "python-aiohttp-cors": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-aiolimiter": {
     "urls": [],
     "summaries": []
   },
@@ -387,10 +307,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-archspec": {
-    "urls": [],
-    "summaries": []
-  },
   "python-arpeggio": {
     "urls": [],
     "summaries": []
@@ -403,19 +319,11 @@
       "python-astroid fails to build with Python 3.15: typing.ByteString has been removed from Python, failing TypingBrain.test_typing_object_notsubscriptable_3"
     ]
   },
-  "python-asyncmy": {
-    "urls": [],
-    "summaries": []
-  },
   "python-asyncssh": {
     "urls": [],
     "summaries": []
   },
   "python-autopage": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-awesomeversion": {
     "urls": [],
     "summaries": []
   },
@@ -448,14 +356,6 @@
     "summaries": []
   },
   "python-azure-synapse-artifacts": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-babelfish": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-backoff": {
     "urls": [],
     "summaries": []
   },
@@ -499,11 +399,7 @@
     "urls": [],
     "summaries": []
   },
-  "python-click-didyoumean": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-cmdkit": {
+  "python-cheroot": {
     "urls": [],
     "summaries": []
   },
@@ -519,33 +415,13 @@
       "python-colcon-core: Fails to build with setuptools 80.9.0, fails to install [pins setuptools < 80, test_build_package fails]"
     ]
   },
-  "python-conda-inject": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-confuse": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-construct-classes": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-coveralls": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-crashtest": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-cucumber-expressions": {
-    "urls": [],
-    "summaries": []
-  },
   "python-dateutil": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2423882"
+    ],
+    "summaries": [
+      "python-dateutil fails to build with Python 3.15: test_tzlocal_local_time_trim_colon: AssertionError: assert tz.gettz() is not None"
+    ]
   },
   "python-dbus-fast": {
     "urls": [],
@@ -559,10 +435,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-diff-cover": {
-    "urls": [],
-    "summaries": []
-  },
   "python-dill": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2414572"
@@ -572,14 +444,14 @@
     ]
   },
   "python-distlib": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2423877"
+    ],
+    "summaries": [
+      "python-distlib fails to build with Python 3.15: TypeError: cache_from_source() takes 1 positional argument but 2 were given"
+    ]
   },
   "python-django-angular": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-django-clacks": {
     "urls": [],
     "summaries": []
   },
@@ -588,10 +460,6 @@
     "summaries": []
   },
   "python-django-ipware": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-django-q2": {
     "urls": [],
     "summaries": []
   },
@@ -616,26 +484,30 @@
     "summaries": []
   },
   "python-eth-stdlib": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2423875"
+    ],
+    "summaries": [
+      "python-eth-stdlib fails to build with Python 3.15: RPM build errors: error: Bad file: /builddir/build/SOURCES/python-eth-stdlib-0004-Fix-for-modern-poetry.patch: No such file or directory"
+    ]
+  },
+  "python-exabgp": {
     "urls": [],
     "summaries": []
   },
   "python-exceptiongroup": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2423878"
+    ],
+    "summaries": [
+      "python-exceptiongroup fails to build with Python 3.15: assert \"BaseExceptionGroup('foo', [ValueError(1), KeyboardInterrupt()])\" == \"BaseExceptionGroup('foo', [ValueError(1), KeyboardInterrupt(), KeyError('bar')])\""
+    ]
   },
   "python-exdir": {
     "urls": [],
     "summaries": []
   },
   "python-execnet": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-expecttest": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-fasjson-client": {
     "urls": [],
     "summaries": []
   },
@@ -647,23 +519,11 @@
     "urls": [],
     "summaries": []
   },
-  "python-flask-healthz": {
-    "urls": [],
-    "summaries": []
-  },
   "python-flask-oidc": {
     "urls": [],
     "summaries": []
   },
-  "python-fortranformat": {
-    "urls": [],
-    "summaries": []
-  },
   "python-fs": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-funcparserlib": {
     "urls": [],
     "summaries": []
   },
@@ -676,10 +536,6 @@
     "summaries": []
   },
   "python-google-auth": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-graphql-core": {
     "urls": [],
     "summaries": []
   },
@@ -699,15 +555,7 @@
     "urls": [],
     "summaries": []
   },
-  "python-hvac": {
-    "urls": [],
-    "summaries": []
-  },
   "python-hypothesmith": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-immutabledict": {
     "urls": [],
     "summaries": []
   },
@@ -727,31 +575,19 @@
     "urls": [],
     "summaries": []
   },
-  "python-josepy": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-jsonschema-path": {
-    "urls": [],
-    "summaries": []
-  },
   "python-kadmin": {
     "urls": [],
     "summaries": []
   },
   "python-kaptan": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-libnacl": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2423881"
+    ],
+    "summaries": [
+      "python-kaptan fails to build with Python 3.15: AttributeError: 'SourceFileLoader' object has no attribute 'load_module'. Did you mean: 'exec_module'? in test_py_file_handler and test_py_file_away_handler"
+    ]
   },
   "python-markdown-callouts": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-mf2py": {
     "urls": [],
     "summaries": []
   },
@@ -771,27 +607,11 @@
     "urls": [],
     "summaries": []
   },
-  "python-nine": {
-    "urls": [],
-    "summaries": []
-  },
   "python-nltk": {
     "urls": [],
     "summaries": []
   },
   "python-oauthlib": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-odata-query": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-omlmd": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-openapi-schema-validator": {
     "urls": [],
     "summaries": []
   },
@@ -807,13 +627,13 @@
     "urls": [],
     "summaries": []
   },
-  "python-pathable": {
-    "urls": [],
-    "summaries": []
-  },
   "python-pdir2": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2423880"
+    ],
+    "summaries": [
+      "python-pdir2 fails to build with Python 3.15: AssertionError in test_pdir_module"
+    ]
   },
   "python-pdm-pep517": {
     "urls": [],
@@ -831,15 +651,7 @@
       "python-pipdeptree fails to build with Python 3.15: tests/test_discovery.py::test_invalid_metadata - TypeError: argument of type 'NoneType' is not a container or iterable"
     ]
   },
-  "python-pkgconfig": {
-    "urls": [],
-    "summaries": []
-  },
   "python-plumbum": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-poetry-core": {
     "urls": [],
     "summaries": []
   },
@@ -871,13 +683,13 @@
       "python-pure-eval fails to build with Python 3.15: pure_eval.utils.CannotEval: CannotEval in 11 tests"
     ]
   },
-  "python-pydocstyle": {
-    "urls": [],
-    "summaries": []
-  },
   "python-pygments": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2423874"
+    ],
+    "summaries": [
+      "python-pygments: FTBFS in Fedora Rawhide: AssertionError: Example file /builddir/build/BUILD/python-pygments-2.19.1-build/BUILDROOT/usr/lib/python3.14/site-packages/tests/examplefiles/tcshcon/session not found"
+    ]
   },
   "python-pymemcache": {
     "urls": [],
@@ -891,19 +703,7 @@
     "urls": [],
     "summaries": []
   },
-  "python-pypandoc": {
-    "urls": [],
-    "summaries": []
-  },
   "python-pyqt6": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-pyrate-limiter": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-pytest-bdd": {
     "urls": [],
     "summaries": []
   },
@@ -915,43 +715,27 @@
     "urls": [],
     "summaries": []
   },
-  "python-pytest-httpserver": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-pytest-isort": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-pytest-lazy-fixtures": {
-    "urls": [],
-    "summaries": []
-  },
   "python-pytest-sourceorder": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-pytest-split": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2423893"
+    ],
+    "summaries": [
+      "python-pytest-sourceorder fails to build with Python 3.15: 'yield' keyword is allowed in fixtures, but not in tests (test_nose_generator)."
+    ]
   },
   "python-pytest-tldr": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2423890"
+    ],
+    "summaries": [
+      "python-pytest-tldr fails to build with Python 3.15: tests/test_plugins.py::test_coverage: remains unmatched: '*----- coverage: platform *-----'"
+    ]
   },
   "python-pytest-trio": {
     "urls": [],
     "summaries": []
   },
-  "python-pytzdata": {
-    "urls": [],
-    "summaries": []
-  },
   "python-pyvlx": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-qrcode": {
     "urls": [],
     "summaries": []
   },
@@ -975,19 +759,7 @@
     "urls": [],
     "summaries": []
   },
-  "python-rencode": {
-    "urls": [],
-    "summaries": []
-  },
   "python-reportlab": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-requests-unixsocket": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-requirements-parser": {
     "urls": [],
     "summaries": []
   },
@@ -996,14 +768,6 @@
     "summaries": []
   },
   "python-robotframework": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-rpdb": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-rpmautospec-core": {
     "urls": [],
     "summaries": []
   },
@@ -1018,30 +782,6 @@
     "summaries": [
       "python-rstr fails to build with Python 3.15: 3 errors when collecting tests: ModuleNotFoundError: No module named 'sre_parse'"
     ]
-  },
-  "python-rx": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-sh": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-shamir-mnemonic": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-shortuuid": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-single-version": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-slip10": {
-    "urls": [],
-    "summaries": []
   },
   "python-snakemake-interface-executor-plugins": {
     "urls": [],
@@ -1059,10 +799,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-spdx-license-list": {
-    "urls": [],
-    "summaries": []
-  },
   "python-sphinx-jsonschema": {
     "urls": [],
     "summaries": []
@@ -1071,13 +807,13 @@
     "urls": [],
     "summaries": []
   },
-  "python-sphinxcontrib-doxylink": {
-    "urls": [],
-    "summaries": []
-  },
   "python-sqlalchemy1.4": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2423897"
+    ],
+    "summaries": [
+      "python-sqlalchemy1.4 fails to build with Python 3.15: TypeError: greenlet context must be a contextvars.Context or None"
+    ]
   },
   "python-stdlibs": {
     "urls": [
@@ -1088,14 +824,6 @@
     ]
   },
   "python-supersmoother": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-svg2tikz": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-syrupy": {
     "urls": [],
     "summaries": []
   },
@@ -1111,35 +839,11 @@
       "python-tabulate fails to build with Python 3.15: AssertionError: additional space character in test_wrap_multiword_non_wide, test_wrap_multiword_non_wide_with_hypens"
     ]
   },
-  "python-tcxreader": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-terminaltables": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-terminaltables3": {
-    "urls": [],
-    "summaries": []
-  },
   "python-time-machine": {
     "urls": [],
     "summaries": []
   },
-  "python-timeslot": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-tinydb": {
-    "urls": [],
-    "summaries": []
-  },
   "python-tomli": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-tomlkit": {
     "urls": [],
     "summaries": []
   },
@@ -1160,8 +864,12 @@
     ]
   },
   "python-typeguard": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2423892"
+    ],
+    "summaries": [
+      "python-typeguard fails to build with Python 3.15: TypeError: cache_from_source() takes 1 positional argument but 2 positional arguments (and 1 keyword-only argument) were given"
+    ]
   },
   "python-typing-extensions": {
     "urls": [
@@ -1179,14 +887,6 @@
       "python-uharfbuzz fails to build with Python 3.15: test_uharfbuzz_version: AssertionError: assert 'unknown' not in '0.0.0+unknown'"
     ]
   },
-  "python-unpaddedbase64": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-url-normalize": {
-    "urls": [],
-    "summaries": []
-  },
   "python-utils": {
     "urls": [],
     "summaries": []
@@ -1203,10 +903,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-zeroconf": {
-    "urls": [],
-    "summaries": []
-  },
   "python-zict": {
     "urls": [],
     "summaries": []
@@ -1216,26 +912,14 @@
     "summaries": []
   },
   "python-zombie-imp": {
-    "urls": [],
-    "summaries": []
-  },
-  "python3-pydo": {
-    "urls": [],
-    "summaries": []
-  },
-  "python3-saml": {
-    "urls": [],
-    "summaries": []
-  },
-  "qpid-proton": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2423876"
+    ],
+    "summaries": [
+      "python-zombie-imp fails to build with Python 3.15: TypeError: cache_from_source() takes 1 positional argument but 2 were given"
+    ]
   },
   "quodlibet": {
-    "urls": [],
-    "summaries": []
-  },
-  "recoll": {
     "urls": [],
     "summaries": []
   },
@@ -1279,19 +963,7 @@
     "urls": [],
     "summaries": []
   },
-  "solaar": {
-    "urls": [],
-    "summaries": []
-  },
-  "stomppy": {
-    "urls": [],
-    "summaries": []
-  },
   "stratis-cli": {
-    "urls": [],
-    "summaries": []
-  },
-  "teampulls": {
     "urls": [],
     "summaries": []
   },
@@ -1304,10 +976,6 @@
     "summaries": []
   },
   "tuned": {
-    "urls": [],
-    "summaries": []
-  },
-  "ustreamer": {
     "urls": [],
     "summaries": []
   },
