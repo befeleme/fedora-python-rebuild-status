@@ -1,7 +1,11 @@
 {
   "389-ds-base": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2424574"
+    ],
+    "summaries": [
+      "389-ds-base fails to build with Python 3.15: AttributeError: 'CustomHelpFormatter' object has no attribute '_format_actions_usage'"
+    ]
   },
   "Zim": {
     "urls": [],
@@ -52,8 +56,12 @@
     "summaries": []
   },
   "borgbackup": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2424590"
+    ],
+    "summaries": [
+      "borgbackup fails to build with Python 3.15: ValueError: badly formed help string"
+    ]
   },
   "breezy": {
     "urls": [],
@@ -88,8 +96,12 @@
     "summaries": []
   },
   "dbus-python": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2424563"
+    ],
+    "summaries": [
+      "dbus-python doesn't work with Python 3.15: SystemError: type _dbus_bindings.Connection has the Py_TPFLAGS_MANAGED_WEAKREF flag but not Py_TPFLAGS_HAVE_GC flag"
+    ]
   },
   "dftd4": {
     "urls": [],
@@ -148,8 +160,12 @@
     ]
   },
   "jc": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2424595"
+    ],
+    "summaries": [
+      "jc fails to build with Python 3.15: AssertionError: 'format': 1760, != 'format': 7250,"
+    ]
   },
   "kig": {
     "urls": [],
@@ -211,17 +227,17 @@
     "urls": [],
     "summaries": []
   },
-  "opentrep": {
-    "urls": [],
-    "summaries": []
-  },
   "pagure-dist-git": {
     "urls": [],
     "summaries": []
   },
   "powerline": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2424587"
+    ],
+    "summaries": [
+      "powerline fails to build with Python 3.15: ImportError: cannot import name 'glob1' from 'glob' (/usr/lib64/python3.15/glob.py). Did you mean: 'glob'?"
+    ]
   },
   "profanity": {
     "urls": [],
@@ -236,8 +252,12 @@
     "summaries": []
   },
   "pygame": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2424565"
+    ],
+    "summaries": [
+      "pygame fails to build with Python 3.15: error: implicit declaration of function \u2018PyWeakref_GetObject\u2019; did you mean \u2018PyWeakref_GetRef\u2019"
+    ]
   },
   "pykka": {
     "urls": [],
@@ -292,8 +312,12 @@
     "summaries": []
   },
   "python-apprise": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2424601"
+    ],
+    "summaries": [
+      "python-apprise fails to build with Python 3.15: AssertionError: assert 'NotifyType.INFO' == 'info'"
+    ]
   },
   "python-arpeggio": {
     "urls": [],
@@ -312,8 +336,12 @@
     "summaries": []
   },
   "python-autopage": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2424583"
+    ],
+    "summaries": [
+      "python-autopage fails to build with Python 3.15: TypeError: ArgumentParser._get_formatter() got an unexpected keyword argument 'file' and one more"
+    ]
   },
   "python-azure-mgmt-cognitiveservices": {
     "urls": [],
@@ -376,8 +404,12 @@
     "summaries": []
   },
   "python-botocore": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2424584"
+    ],
+    "summaries": [
+      "python-botocore fails to build with Python 3.15: AssertionError: At index 8 diff: b'\\x00' != b'\\x02'"
+    ]
   },
   "python-cairocffi": {
     "urls": [],
@@ -504,16 +536,24 @@
     ]
   },
   "python-exdir": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2424591"
+    ],
+    "summaries": [
+      "python-exdir fails to build with Python 3.15: TypeError: 'module'/'Plugin' object is not iterable"
+    ]
   },
   "python-execnet": {
     "urls": [],
     "summaries": []
   },
   "python-fido2": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2424579"
+    ],
+    "summaries": [
+      "python-fido2 fails to build with Python 3.15: tests failures: AssertionError: 'TYPE.CREATE' != 'webauthn.create' and more"
+    ]
   },
   "python-flask": {
     "urls": [],
@@ -528,8 +568,12 @@
     ]
   },
   "python-fs": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2424571"
+    ],
+    "summaries": [
+      "python-fs fails to build with Python 3.15: AttributeError: 'DocTestCase' object has no attribute '_test_result'"
+    ]
   },
   "python-gevent": {
     "urls": [],
@@ -544,8 +588,12 @@
     "summaries": []
   },
   "python-greenlet": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2424580"
+    ],
+    "summaries": [
+      "python-greenlet fails to build with Python 3.15: src/greenlet/TGreenlet.cpp:636:41: error: \u2018FRAME_OWNED_BY_CSTACK\u2019 was not declared in this scope; did you mean \u2018FRAME_OWNED_BY_THREAD\u2019?"
+    ]
   },
   "python-gunicorn": {
     "urls": [],
@@ -600,8 +648,12 @@
     "summaries": []
   },
   "python-mirrors-countme": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2424567"
+    ],
+    "summaries": [
+      "python-mirrors-countme fails to build with Python 3.15: TypeError: NamedTuple() got an unexpected keyword argument 'INTEGER_NOT_NULL'"
+    ]
   },
   "python-mkdocs-autorefs": {
     "urls": [],
@@ -720,8 +772,12 @@
     "summaries": []
   },
   "python-pytest-django": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2424593"
+    ],
+    "summaries": [
+      "python-pytest-django fails to build with Python 3.15: AttributeError: 'ConfigurationLoader' object has no attribute 'exec_module'. Did you mean: 'load_module'?"
+    ]
   },
   "python-pytest-freezegun": {
     "urls": [],
@@ -756,8 +812,12 @@
     "summaries": []
   },
   "python-questionary": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2424586"
+    ],
+    "summaries": [
+      "python-questionary fails to build with Python 3.15: AttributeError: 'VSplit' object has no attribute 'content'. Did you mean: 'window_too_small.content'"
+    ]
   },
   "python-ratelimitingfilter": {
     "urls": [],
@@ -768,8 +828,12 @@
     "summaries": []
   },
   "python-readme-renderer": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2424573"
+    ],
+    "summaries": [
+      "python-readme-renderer fails to build with Python 3.15: test_cli_package: No content rendered from RST source."
+    ]
   },
   "python-reportlab": {
     "urls": [
@@ -784,8 +848,12 @@
     "summaries": []
   },
   "python-robotframework": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2424602"
+    ],
+    "summaries": [
+      "python-robotframework fails to build with Python 3.15: AssertionError: Expected output to be empty:/builddir/build/BUILD/python-robotframework-7.4-build/robotframework-7.4/utest/../src/robot/result/resultbuilder.py:147: ResourceWarning: unclosed iterparse"
+    ]
   },
   "python-rpmautospec-koji": {
     "urls": [],
@@ -856,8 +924,12 @@
     ]
   },
   "python-time-machine": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2424589"
+    ],
+    "summaries": [
+      "python-time-machine fails to build with Python 3.15: AssertionError: assert 2025 == 1970"
+    ]
   },
   "python-tomli": {
     "urls": [
@@ -908,8 +980,12 @@
     ]
   },
   "python-utils": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2424562"
+    ],
+    "summaries": [
+      "python-utils fails to build with Python 3.15: AttributeError: module 'typing_extensions' has no attribute 'no_type_check_decorator'"
+    ]
   },
   "python-valkey": {
     "urls": [],
@@ -960,8 +1036,12 @@
     "summaries": []
   },
   "rpmlint": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2424585"
+    ],
+    "summaries": [
+      "rpmlint fails to build with Python 3.15: AttributeError: 'NoneType' object has no attribute 'get_all'"
+    ]
   },
   "ruff": {
     "urls": [],
