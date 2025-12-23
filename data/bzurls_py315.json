@@ -151,10 +151,6 @@
     "urls": [],
     "summaries": []
   },
-  "khal": {
-    "urls": [],
-    "summaries": []
-  },
   "kig": {
     "urls": [],
     "summaries": []
@@ -388,8 +384,12 @@
     "summaries": []
   },
   "python-chai": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2424293"
+    ],
+    "summaries": [
+      "python-chai fails to build with Python 3.15: chai.exception.UnsupportedStub: (\"can't stub %s\", <property object at 0x7fbbc41d1df0>)"
+    ]
   },
   "python-cheroot": {
     "urls": [],
@@ -472,8 +472,12 @@
     "summaries": []
   },
   "python-et_xmlfile": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2424294"
+    ],
+    "summaries": [
+      "python-et_xmlfile fails to build with Python 3.15: ElementTreeTest.test_iterparse: AssertionError: Lists differ: [<WarningMessage {message : ResourceWarnin[235 chars]ne}>] != []"
+    ]
   },
   "python-eth-stdlib": {
     "urls": [
@@ -484,8 +488,12 @@
     ]
   },
   "python-exabgp": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2424298"
+    ],
+    "summaries": [
+      "python-exabgp fails to build with Python 3.15: enable building with Python 3.15"
+    ]
   },
   "python-exceptiongroup": {
     "urls": [
@@ -512,8 +520,12 @@
     "summaries": []
   },
   "python-flask-oidc": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2424320"
+    ],
+    "summaries": [
+      "python-flask-oidc fails to build with Python 3.15: 'error_description': \"Missing 'Authorization' in headers.\"} != {'error_description': 'Missing \"Authorization\" in headers.'"
+    ]
   },
   "python-fs": {
     "urls": [],
@@ -564,8 +576,12 @@
     "summaries": []
   },
   "python-jedi": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2424301"
+    ],
+    "summaries": [
+      "python-jedi fails to build with Python 3.15: multiple AssertionError in tests"
+    ]
   },
   "python-kadmin": {
     "urls": [],
@@ -644,8 +660,12 @@
     ]
   },
   "python-plumbum": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2424319"
+    ],
+    "summaries": [
+      "python-plumbum fails to build with Python 3.15: TestLocalPath.test_relative_to: TypeError: can only concatenate str (not \"RelativePath\") to str"
+    ]
   },
   "python-precis_i18n": {
     "urls": [
@@ -654,10 +674,6 @@
     "summaries": [
       "python-precis_i18n fails to build with Python 3.15: The Unicode database has been updated to Unicode 17.0.0."
     ]
-  },
-  "python-psutil": {
-    "urls": [],
-    "summaries": []
   },
   "python-psycopg2": {
     "urls": [
@@ -674,6 +690,10 @@
     "summaries": [
       "python-pure-eval fails to build with Python 3.15: pure_eval.utils.CannotEval: CannotEval in 11 tests"
     ]
+  },
+  "python-pycountry": {
+    "urls": [],
+    "summaries": []
   },
   "python-pygments": {
     "urls": [
@@ -752,8 +772,12 @@
     "summaries": []
   },
   "python-reportlab": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2424322"
+    ],
+    "summaries": [
+      "python-reportlab fails to build with Python 3.15: AttributeError: 'SourceFileLoader' object has no attribute 'load_module'. Did you mean: 'exec_module'?"
+    ]
   },
   "python-result": {
     "urls": [],
@@ -836,8 +860,12 @@
     "summaries": []
   },
   "python-tomli": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2424297"
+    ],
+    "summaries": [
+      "python-tomli fails to build with Python 3.15: /usr/lib/python3.15/site-packages/mypyc/lib-rt/pythonsupport.h:125:5: error: \u2018_PyObject_GetAttrId\u2019 is deprecated"
+    ]
   },
   "python-tornado": {
     "urls": [
@@ -927,10 +955,6 @@
     "urls": [],
     "summaries": []
   },
-  "rmol": {
-    "urls": [],
-    "summaries": []
-  },
   "root": {
     "urls": [],
     "summaries": []
@@ -948,8 +972,12 @@
     "summaries": []
   },
   "scipy": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2424321"
+    ],
+    "summaries": [
+      "scipy fails to build with Python 3.15: AssertionError: Not equal to tolerance rtol=0.03125, atol=0"
+    ]
   },
   "snapm": {
     "urls": [],
@@ -963,10 +991,6 @@
     "urls": [],
     "summaries": []
   },
-  "trademgen": {
-    "urls": [],
-    "summaries": []
-  },
   "tuned": {
     "urls": [],
     "summaries": []
@@ -976,8 +1000,12 @@
     "summaries": []
   },
   "waf": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2424309"
+    ],
+    "summaries": [
+      "waf fails to build with Python 3.15: AttributeError: 'SourceFileLoader' object has no attribute 'load_module'. Did you mean: 'exec_module'?"
+    ]
   },
   "xapian-bindings": {
     "urls": [
@@ -996,8 +1024,12 @@
     "summaries": []
   },
   "yle-dl": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2424323"
+    ],
+    "summaries": [
+      "yle-dl fails to build with Python 3.15: AssertionError: assert datetime.datetime(2018, 1, 2, 18, 30) is None where datetime.datetime(2018, 1, 2, 18, 30) = parse_areena_timestamp('2018-01-02T18:30:00')"
+    ]
   },
   "zbar": {
     "urls": [],
