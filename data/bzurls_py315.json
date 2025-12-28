@@ -507,14 +507,6 @@
       "python-eth-stdlib fails to build with Python 3.15: RPM build errors: error: Bad file: /builddir/build/SOURCES/python-eth-stdlib-0004-Fix-for-modern-poetry.patch: No such file or directory"
     ]
   },
-  "python-exabgp": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2424298"
-    ],
-    "summaries": [
-      "python-exabgp fails to build with Python 3.15: enable building with Python 3.15"
-    ]
-  },
   "python-exceptiongroup": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2423878"
@@ -892,12 +884,8 @@
     "summaries": []
   },
   "python-tabulate": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2417016"
-    ],
-    "summaries": [
-      "python-tabulate fails to build with Python 3.15: AssertionError: additional space character in test_wrap_multiword_non_wide, test_wrap_multiword_non_wide_with_hypens"
-    ]
+    "urls": [],
+    "summaries": []
   },
   "python-time-machine": {
     "urls": [
@@ -1078,14 +1066,6 @@
   "xen": {
     "urls": [],
     "summaries": []
-  },
-  "yle-dl": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2424323"
-    ],
-    "summaries": [
-      "yle-dl fails to build with Python 3.15: AssertionError: assert datetime.datetime(2018, 1, 2, 18, 30) is None where datetime.datetime(2018, 1, 2, 18, 30) = parse_areena_timestamp('2018-01-02T18:30:00')"
-    ]
   },
   "zbar": {
     "urls": [],
