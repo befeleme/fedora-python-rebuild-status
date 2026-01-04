@@ -155,6 +155,38 @@
       "jc fails to build with Python 3.15: AssertionError: 'format': 1760, != 'format': 7250,"
     ]
   },
+  "kf6-kcoreaddons": {
+    "urls": [],
+    "summaries": []
+  },
+  "kf6-kguiaddons": {
+    "urls": [],
+    "summaries": []
+  },
+  "kf6-kjobwidgets": {
+    "urls": [],
+    "summaries": []
+  },
+  "kf6-knotifications": {
+    "urls": [],
+    "summaries": []
+  },
+  "kf6-kstatusnotifieritem": {
+    "urls": [],
+    "summaries": []
+  },
+  "kf6-kunitconversion": {
+    "urls": [],
+    "summaries": []
+  },
+  "kf6-kwidgetsaddons": {
+    "urls": [],
+    "summaries": []
+  },
+  "kf6-kxmlgui": {
+    "urls": [],
+    "summaries": []
+  },
   "kig": {
     "urls": [],
     "summaries": []
@@ -340,6 +372,10 @@
     "summaries": []
   },
   "python-azure-mgmt-keyvault": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-azure-mgmt-quota": {
     "urls": [],
     "summaries": []
   },
@@ -562,14 +598,6 @@
   "python-google-auth": {
     "urls": [],
     "summaries": []
-  },
-  "python-greenlet": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2424580"
-    ],
-    "summaries": [
-      "python-greenlet fails to build with Python 3.15: src/greenlet/TGreenlet.cpp:636:41: error: \u2018FRAME_OWNED_BY_CSTACK\u2019 was not declared in this scope; did you mean \u2018FRAME_OWNED_BY_THREAD\u2019?"
-    ]
   },
   "python-gunicorn": {
     "urls": [],
