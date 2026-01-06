@@ -110,6 +110,7 @@ cloud-init	succeeded
 clustershell	succeeded
 cm_rgb	succeeded
 cmake	succeeded
+cmakelang	failed
 cobbler	succeeded
 coccinelle	succeeded
 cockpit	succeeded
@@ -300,13 +301,13 @@ kernel	succeeded
 keycloak-httpd-client-install	succeeded
 keylime	succeeded
 kf6-kapidox	succeeded
-kf6-kcoreaddons	failed
-kf6-kguiaddons	failed
+kf6-kcoreaddons	succeeded
+kf6-kguiaddons	succeeded
 kf6-kjobwidgets	failed
-kf6-knotifications	failed
-kf6-kstatusnotifieritem	failed
-kf6-kunitconversion	failed
-kf6-kwidgetsaddons	failed
+kf6-knotifications	succeeded
+kf6-kstatusnotifieritem	succeeded
+kf6-kunitconversion	succeeded
+kf6-kwidgetsaddons	succeeded
 kf6-kxmlgui	failed
 khal	succeeded
 khard	succeeded
@@ -374,7 +375,7 @@ libnvme	succeeded
 libolm	succeeded
 liborcus	succeeded
 libpeas	succeeded
-libpeas1	failed
+libpeas1	succeeded
 libpfm	succeeded
 libpkgmanifest	succeeded
 libplist	succeeded
@@ -576,7 +577,7 @@ pydot	succeeded
 pyee	succeeded
 pyelftools	succeeded
 pyflakes	succeeded
-pygame	failed
+pygame	succeeded
 pygobject3	succeeded
 pygsl	succeeded
 pyhoca-cli	succeeded
@@ -1046,6 +1047,7 @@ python-cooldict	succeeded
 python-copr	succeeded
 python-copr-common	succeeded
 python-cov-core	succeeded
+python-covdefaults	succeeded
 python-coverage	succeeded
 python-coverage_pth	succeeded
 python-coveralls	succeeded
@@ -1377,7 +1379,7 @@ python-geotiler	succeeded
 python-gertty	succeeded
 python-getmac	succeeded
 python-gettext	succeeded
-python-gevent	failed
+python-gevent	succeeded
 python-ghp-import	succeeded
 python-giacpy	failed
 python-git-changelog	succeeded
@@ -1408,7 +1410,7 @@ python-grokmirror	succeeded
 python-grpcio-gcp	succeeded
 python-gsd	succeeded
 python-gssapi	succeeded
-python-gstreamer1	succeeded
+python-gstreamer1	failed
 python-guessit	succeeded
 python-gunicorn	failed
 python-h11	succeeded
@@ -1755,13 +1757,14 @@ python-nagiosplugin	succeeded
 python-nanobind	succeeded
 python-natsort	succeeded
 python-nbformat	succeeded
+python-nbxmpp	succeeded
 python-ncclient	succeeded
 python-ndjson-testrunner	succeeded
-python-neovim	failed
+python-neovim	succeeded
 python-nest-asyncio	succeeded
 python-netaddr	succeeded
 python-netapp-lib	succeeded
-python-netdisco	failed
+python-netdisco	succeeded
 python-netifaces	succeeded
 python-networkx	succeeded
 python-nh3	succeeded
@@ -1855,6 +1858,7 @@ python-patch-ng	succeeded
 python-path	succeeded
 python-path-and-address	failed
 python-pathable	succeeded
+python-pathlib-abc	succeeded
 python-pathspec	succeeded
 python-pathtools	succeeded
 python-pathvalidate	succeeded
@@ -2043,7 +2047,7 @@ python-pymssql	failed
 python-pynacl	succeeded
 python-pynest2d	succeeded
 python-pynetbox	succeeded
-python-pyngus	failed
+python-pyngus	succeeded
 python-pynsgr	succeeded
 python-pyobd	succeeded
 python-pyocr	succeeded
@@ -2171,7 +2175,7 @@ python-pyuca	succeeded
 python-pyudev	succeeded
 python-pyunormalize	succeeded
 python-pyvirtualdisplay	succeeded
-python-pyvlx	failed
+python-pyvlx	succeeded
 python-pywayland	succeeded
 python-pywizlight	succeeded
 python-pywlroots	succeeded
@@ -2426,7 +2430,7 @@ python-sql	succeeded
 python-sqlacodegen	succeeded
 python-sqlalchemy-filters	succeeded
 python-sqlalchemy1.3	succeeded
-python-sqlalchemy1.4	failed
+python-sqlalchemy1.4	succeeded
 python-sqlglot	succeeded
 python-sqlite-fts4	succeeded
 python-sqlparse	succeeded
@@ -2775,6 +2779,7 @@ rpmlint	failed
 rpmspectool	succeeded
 rpy	succeeded
 rrdtool	succeeded
+rst2pdf	succeeded
 rteval	succeeded
 rubber	succeeded
 ruff	failed

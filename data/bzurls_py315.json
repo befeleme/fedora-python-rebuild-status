@@ -20,12 +20,8 @@
     "summaries": []
   },
   "argparse-manpage": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2417959"
-    ],
-    "summaries": [
-      "argparse-manpage fails to build with pip 25.3"
-    ]
+    "urls": [],
+    "summaries": []
   },
   "awscli2": {
     "urls": [],
@@ -80,6 +76,10 @@
     "summaries": []
   },
   "claws-mail": {
+    "urls": [],
+    "summaries": []
+  },
+  "cmakelang": {
     "urls": [],
     "summaries": []
   },
@@ -155,31 +155,7 @@
       "jc fails to build with Python 3.15: AssertionError: 'format': 1760, != 'format': 7250,"
     ]
   },
-  "kf6-kcoreaddons": {
-    "urls": [],
-    "summaries": []
-  },
-  "kf6-kguiaddons": {
-    "urls": [],
-    "summaries": []
-  },
   "kf6-kjobwidgets": {
-    "urls": [],
-    "summaries": []
-  },
-  "kf6-knotifications": {
-    "urls": [],
-    "summaries": []
-  },
-  "kf6-kstatusnotifieritem": {
-    "urls": [],
-    "summaries": []
-  },
-  "kf6-kunitconversion": {
-    "urls": [],
-    "summaries": []
-  },
-  "kf6-kwidgetsaddons": {
     "urls": [],
     "summaries": []
   },
@@ -200,10 +176,6 @@
     "summaries": []
   },
   "libmodulemd": {
-    "urls": [],
-    "summaries": []
-  },
-  "libpeas1": {
     "urls": [],
     "summaries": []
   },
@@ -262,14 +234,6 @@
   "pyatspi": {
     "urls": [],
     "summaries": []
-  },
-  "pygame": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2424565"
-    ],
-    "summaries": [
-      "pygame fails to build with Python 3.15: error: implicit declaration of function \u2018PyWeakref_GetObject\u2019; did you mean \u2018PyWeakref_GetRef\u2019"
-    ]
   },
   "pykka": {
     "urls": [],
@@ -587,15 +551,15 @@
       "python-fs fails to build with Python 3.15: AttributeError: 'DocTestCase' object has no attribute '_test_result'"
     ]
   },
-  "python-gevent": {
-    "urls": [],
-    "summaries": []
-  },
   "python-giacpy": {
     "urls": [],
     "summaries": []
   },
   "python-google-auth": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-gstreamer1": {
     "urls": [],
     "summaries": []
   },
@@ -660,14 +624,6 @@
     ]
   },
   "python-mkdocs-autorefs": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-neovim": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-netdisco": {
     "urls": [],
     "summaries": []
   },
@@ -759,10 +715,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-pyngus": {
-    "urls": [],
-    "summaries": []
-  },
   "python-pyqt6": {
     "urls": [],
     "summaries": []
@@ -796,10 +748,6 @@
     ]
   },
   "python-pytest-trio": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-pyvlx": {
     "urls": [],
     "summaries": []
   },
@@ -878,14 +826,6 @@
   "python-sphinx-theme-builder": {
     "urls": [],
     "summaries": []
-  },
-  "python-sqlalchemy1.4": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2423897"
-    ],
-    "summaries": [
-      "python-sqlalchemy1.4 fails to build with Python 3.15: TypeError: greenlet context must be a contextvars.Context or None"
-    ]
   },
   "python-stdlibs": {
     "urls": [
