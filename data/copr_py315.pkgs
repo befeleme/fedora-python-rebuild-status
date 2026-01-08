@@ -2,6 +2,7 @@
 389-ds-base	failed
 COPASI	succeeded
 Cython	succeeded
+DisplayCAL	succeeded
 FP16	succeeded
 GitPython	succeeded
 HepMC3	succeeded
@@ -38,6 +39,7 @@ ampy	succeeded
 anaconda	succeeded
 ansible-bender	succeeded
 ansible-collections-openstack	succeeded
+antlr4-project	succeeded
 apbs	failed
 apk-tools	succeeded
 appliance-tools	succeeded
@@ -86,6 +88,7 @@ brotli	succeeded
 btrfs-progs	succeeded
 btrfs-sxbackup	succeeded
 bubblemail	succeeded
+buildstream	succeeded
 buildstream-plugins	succeeded
 bumpversion	succeeded
 calamares	failed
@@ -128,6 +131,7 @@ conu	succeeded
 copr-cli	succeeded
 copr-keygen	succeeded
 createrepo_c	succeeded
+criu	succeeded
 cryptlib	succeeded
 cryptominisat	succeeded
 csdiff	succeeded
@@ -165,6 +169,7 @@ dnf-plugins-extras	succeeded
 dnfdaemon	succeeded
 dnsconfd	succeeded
 doge	succeeded
+dogtag-pki	succeeded
 dogtail	succeeded
 dot2tex	succeeded
 dt-schema	failed
@@ -200,6 +205,7 @@ fonttools	succeeded
 fprettify	succeeded
 freecell-solver	succeeded
 freeipa	succeeded
+freeipa-desktop-profile	succeeded
 freeipa-fas	succeeded
 freeipa-healthcheck	succeeded
 freeradius	succeeded
@@ -255,6 +261,7 @@ gpsd	succeeded
 grammalecte	succeeded
 graphviz	succeeded
 grin	succeeded
+grpc	succeeded
 gst	succeeded
 gst-devtools	succeeded
 gst-editing-services	succeeded
@@ -292,12 +299,12 @@ is-it-in-rhel	succeeded
 iscsi-initiator-utils	succeeded
 isomd5sum	succeeded
 jack-mixer	failed
-javapackages-tools	failed
+javapackages-tools	succeeded
 jc	failed
 jello	succeeded
 jsonnet	succeeded
 kea	succeeded
-kernel	succeeded
+kernel	failed
 keycloak-httpd-client-install	succeeded
 keylime	succeeded
 kf6-kapidox	succeeded
@@ -338,6 +345,7 @@ lensfun	succeeded
 lhapdf	succeeded
 libCombine	succeeded
 libaccounts-glib	succeeded
+libarcus	succeeded
 libarrow	failed
 libbatch	succeeded
 libblockdev	succeeded
@@ -420,6 +428,7 @@ lorax	succeeded
 lrcalc	succeeded
 lttng-tools	succeeded
 lttng-ust	succeeded
+lutris	succeeded
 lvm2	failed
 mailnag	succeeded
 mailprocessing	succeeded
@@ -460,6 +469,7 @@ mqtt-randompub	succeeded
 mrack	succeeded
 mrchem	succeeded
 msoffcrypto-tool	succeeded
+mysql-connector-python	succeeded
 nagios-plugins-systemd	succeeded
 nautilus-python	succeeded
 needrestart	succeeded
@@ -496,6 +506,7 @@ offlineimap	succeeded
 omniORB	succeeded
 omniORBpy	succeeded
 onionshare	succeeded
+onnx	failed
 onnxruntime	failed
 opae	succeeded
 openbabel	succeeded
@@ -551,7 +562,7 @@ pre-commit	succeeded
 printrun	succeeded
 profanity	failed
 proselint	succeeded
-protobuf	failed
+protobuf	succeeded
 protontricks	succeeded
 protonvpn-cli	succeeded
 proxmark3	succeeded
@@ -570,6 +581,7 @@ pybox2d	succeeded
 pybugz	succeeded
 pycairo	succeeded
 pycanberra	succeeded
+pychromecast	succeeded
 pycmd	succeeded
 pycolumnize	succeeded
 pydeps	succeeded
@@ -699,6 +711,7 @@ python-annotated-types	succeeded
 python-ansi2html	succeeded
 python-ansible-pylibssh	succeeded
 python-ansicolor	succeeded
+python-anyio	failed
 python-anyjson	succeeded
 python-anytree	succeeded
 python-apipkg	succeeded
@@ -722,6 +735,7 @@ python-arpy	succeeded
 python-array-api-strict	succeeded
 python-arrow	succeeded
 python-asciitree	succeeded
+python-asgi-lifespan	succeeded
 python-asgiref	succeeded
 python-asn1	succeeded
 python-asn1crypto	succeeded
@@ -754,6 +768,7 @@ python-autopep8	succeeded
 python-avalara	succeeded
 python-awesomeversion	succeeded
 python-awscrt	succeeded
+python-axolotl	succeeded
 python-axolotl-curve25519	succeeded
 python-azure-ai-agents	succeeded
 python-azure-ai-formrecognizer	succeeded
@@ -1118,6 +1133,7 @@ python-demjson	succeeded
 python-dependency-groups	succeeded
 python-deprecated	succeeded
 python-deprecation	succeeded
+python-desktop-entry-lib	succeeded
 python-detect-secrets	succeeded
 python-dialog	succeeded
 python-dict-sorted	succeeded
@@ -1400,6 +1416,7 @@ python-google-cloud-testutils	succeeded
 python-google-crc32c	succeeded
 python-google-i18n-address	succeeded
 python-google-resumable-media	succeeded
+python-googleapis-common-protos	succeeded
 python-gpiozero	succeeded
 python-gpxpy	succeeded
 python-grabserial	succeeded
@@ -1407,6 +1424,7 @@ python-graphql-core	succeeded
 python-graphviz	succeeded
 python-greenlet	succeeded
 python-grokmirror	succeeded
+python-grpc-google-iam-v1	succeeded
 python-grpcio-gcp	succeeded
 python-gsd	succeeded
 python-gssapi	succeeded
@@ -1658,6 +1676,7 @@ python-markdown	succeeded
 python-markdown-callouts	failed
 python-markdown-exec	succeeded
 python-markdown-include	succeeded
+python-markdown-it-py	succeeded
 python-markdown-math	succeeded
 python-markdown2	succeeded
 python-markdown_2	failed
@@ -1665,6 +1684,7 @@ python-markupsafe	succeeded
 python-marshmallow	succeeded
 python-mathics-pygments	succeeded
 python-mathics-scanner	succeeded
+python-matplotlib	failed
 python-matplotlib-inline	succeeded
 python-maxminddb	succeeded
 python-mbstrdecoder	succeeded
@@ -1804,6 +1824,7 @@ python-opcodes	succeeded
 python-openant	succeeded
 python-openapi-schema-validator	succeeded
 python-openapi-spec-validator	succeeded
+python-opencensus-proto	succeeded
 python-openidc-client	succeeded
 python-openoffice	succeeded
 python-openpaperwork-core	succeeded
@@ -2254,6 +2275,7 @@ python-rfc3339-validator	succeeded
 python-rfc3986	succeeded
 python-rfc3986-validator	succeeded
 python-rfc3987	succeeded
+python-rich	failed
 python-rjsmin	succeeded
 python-rmtest	succeeded
 python-robot-detection	succeeded
@@ -2366,6 +2388,7 @@ python-socksio	succeeded
 python-solc-ast	succeeded
 python-solcx	succeeded
 python-sortedcontainers	succeeded
+python-sounddevice	succeeded
 python-soundfile	succeeded
 python-soupsieve	failed
 python-spdx-license-list	succeeded
@@ -2921,7 +2944,7 @@ xapps	succeeded
 xcat	failed
 xcb-proto	succeeded
 xcfun	succeeded
-xen	failed
+xen	succeeded
 xmms2	succeeded
 xpra	succeeded
 xrootd	succeeded

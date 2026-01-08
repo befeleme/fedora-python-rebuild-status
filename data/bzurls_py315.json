@@ -139,14 +139,6 @@
     "urls": [],
     "summaries": []
   },
-  "javapackages-tools": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2414799"
-    ],
-    "summaries": [
-      "javapackages-tools fails to build with Python 3.15: AssertionError in TestMvnBuild.test_builddep"
-    ]
-  },
   "jc": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2424595"
@@ -154,6 +146,10 @@
     "summaries": [
       "jc fails to build with Python 3.15: AssertionError: 'format': 1760, != 'format': 7250,"
     ]
+  },
+  "kernel": {
+    "urls": [],
+    "summaries": []
   },
   "kf6-kjobwidgets": {
     "urls": [],
@@ -176,8 +172,12 @@
     "summaries": []
   },
   "libmodulemd": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2423153"
+    ],
+    "summaries": [
+      "libmodulemd-2.15.2-4.fc44 FTBFS: tests fail with glib2 \u2265 2.87.0"
+    ]
   },
   "libreoffice": {
     "urls": [],
@@ -215,6 +215,10 @@
     "urls": [],
     "summaries": []
   },
+  "onnx": {
+    "urls": [],
+    "summaries": []
+  },
   "onnxruntime": {
     "urls": [],
     "summaries": []
@@ -224,10 +228,6 @@
     "summaries": []
   },
   "profanity": {
-    "urls": [],
-    "summaries": []
-  },
-  "protobuf": {
     "urls": [],
     "summaries": []
   },
@@ -280,6 +280,10 @@
     "summaries": []
   },
   "python-aiosmtpd": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-anyio": {
     "urls": [],
     "summaries": []
   },
@@ -615,6 +619,10 @@
     "urls": [],
     "summaries": []
   },
+  "python-matplotlib": {
+    "urls": [],
+    "summaries": []
+  },
   "python-mirrors-countme": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2424567"
@@ -784,6 +792,10 @@
     "summaries": []
   },
   "python-result": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-rich": {
     "urls": [],
     "summaries": []
   },
@@ -1020,10 +1032,6 @@
     ]
   },
   "xcat": {
-    "urls": [],
-    "summaries": []
-  },
-  "xen": {
     "urls": [],
     "summaries": []
   },
