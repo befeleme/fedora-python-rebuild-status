@@ -111,6 +111,10 @@
     "urls": [],
     "summaries": []
   },
+  "esptool": {
+    "urls": [],
+    "summaries": []
+  },
   "fail2ban": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2423879"
@@ -146,10 +150,6 @@
     "summaries": [
       "jc fails to build with Python 3.15: AssertionError: 'format': 1760, != 'format': 7250,"
     ]
-  },
-  "kernel": {
-    "urls": [],
-    "summaries": []
   },
   "kf6-kjobwidgets": {
     "urls": [],
@@ -187,7 +187,19 @@
     "urls": [],
     "summaries": []
   },
+  "libyui": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2427943"
+    ],
+    "summaries": [
+      "libyui: FTBFS with gcc16 due to C++20 change"
+    ]
+  },
   "link-grammar": {
+    "urls": [],
+    "summaries": []
+  },
+  "llvm": {
     "urls": [],
     "summaries": []
   },
@@ -587,6 +599,10 @@
     "urls": [],
     "summaries": []
   },
+  "python-intervaltree": {
+    "urls": [],
+    "summaries": []
+  },
   "python-into-dbus-python": {
     "urls": [],
     "summaries": []
@@ -667,10 +683,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-pikepdf": {
-    "urls": [],
-    "summaries": []
-  },
   "python-pipdeptree": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2414803"
@@ -715,11 +727,11 @@
       "python-pygments: FTBFS in Fedora Rawhide: AssertionError: Example file /builddir/build/BUILD/python-pygments-2.19.1-build/BUILDROOT/usr/lib/python3.14/site-packages/tests/examplefiles/tcshcon/session not found"
     ]
   },
-  "python-pymemcache": {
+  "python-pygtkspellcheck": {
     "urls": [],
     "summaries": []
   },
-  "python-pymssql": {
+  "python-pymemcache": {
     "urls": [],
     "summaries": []
   },
@@ -795,10 +807,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-rich": {
-    "urls": [],
-    "summaries": []
-  },
   "python-rpmautospec-koji": {
     "urls": [],
     "summaries": []
@@ -835,10 +843,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-sphinx-theme-builder": {
-    "urls": [],
-    "summaries": []
-  },
   "python-stdlibs": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2417018"
@@ -865,14 +869,6 @@
     ],
     "summaries": [
       "python-time-machine fails to build with Python 3.15: AssertionError: assert 2025 == 1970"
-    ]
-  },
-  "python-tomli": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2424297"
-    ],
-    "summaries": [
-      "python-tomli fails to build with Python 3.15: /usr/lib/python3.15/site-packages/mypyc/lib-rt/pythonsupport.h:125:5: error: \u2018_PyObject_GetAttrId\u2019 is deprecated"
     ]
   },
   "python-tornado": {
@@ -942,14 +938,6 @@
   "python-zlib-ng": {
     "urls": [],
     "summaries": []
-  },
-  "python-zombie-imp": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2423876"
-    ],
-    "summaries": [
-      "python-zombie-imp fails to build with Python 3.15: TypeError: cache_from_source() takes 1 positional argument but 2 were given"
-    ]
   },
   "quodlibet": {
     "urls": [],
