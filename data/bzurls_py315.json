@@ -516,7 +516,7 @@
       "https://bugzilla.redhat.com/show_bug.cgi?id=2423875"
     ],
     "summaries": [
-      "python-eth-stdlib fails to build with Python 3.15: RPM build errors: error: Bad file: /builddir/build/SOURCES/python-eth-stdlib-0004-Fix-for-modern-poetry.patch: No such file or directory"
+      "python-eth-stdlib fails to build in Copr: RPM build errors: error: Bad file: /builddir/build/SOURCES/python-eth-stdlib-0004-Fix-for-modern-poetry.patch: No such file or directory"
     ]
   },
   "python-exceptiongroup": {
@@ -756,7 +756,7 @@
       "https://bugzilla.redhat.com/show_bug.cgi?id=2423893"
     ],
     "summaries": [
-      "python-pytest-sourceorder fails to build with Python 3.15: 'yield' keyword is allowed in fixtures, but not in tests (test_nose_generator)."
+      "python-pytest-sourceorder fails to build with pytest 8.4+: 'yield' keyword is allowed in fixtures, but not in tests (test_nose_generator)."
     ]
   },
   "python-pytest-tldr": {
