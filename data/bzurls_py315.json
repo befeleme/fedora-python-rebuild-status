@@ -151,6 +151,10 @@
       "jc fails to build with Python 3.15: AssertionError: 'format': 1760, != 'format': 7250,"
     ]
   },
+  "kea": {
+    "urls": [],
+    "summaries": []
+  },
   "kf6-kjobwidgets": {
     "urls": [],
     "summaries": []
@@ -214,6 +218,10 @@
     "summaries": [
       "moose fails to build with Python 3.15: moose-core-3.1.5/pymoose/PyRun.h:58:24: error: \u2018Py_GetProgramName\u2019 was not declared in this scope; did you mean \u2018Py_SetProgramName\u2019?"
     ]
+  },
+  "mpsolve": {
+    "urls": [],
+    "summaries": []
   },
   "nemo-extensions": {
     "urls": [],
@@ -687,14 +695,6 @@
       "python-pipdeptree fails to build with Python 3.15: tests/test_discovery.py::test_invalid_metadata - TypeError: argument of type 'NoneType' is not a container or iterable"
     ]
   },
-  "python-plumbum": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2424319"
-    ],
-    "summaries": [
-      "python-plumbum fails to build with Python 3.15: TestLocalPath.test_relative_to: TypeError: can only concatenate str (not \"RelativePath\") to str"
-    ]
-  },
   "python-psycopg2": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2414801"
@@ -828,6 +828,10 @@
     "summaries": []
   },
   "python-soupsieve": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-sphinx-design": {
     "urls": [],
     "summaries": []
   },
@@ -971,10 +975,6 @@
     "urls": [],
     "summaries": []
   },
-  "samba": {
-    "urls": [],
-    "summaries": []
-  },
   "scipy": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2424321"
@@ -988,6 +988,10 @@
     "summaries": []
   },
   "stratis-cli": {
+    "urls": [],
+    "summaries": []
+  },
+  "trademgen": {
     "urls": [],
     "summaries": []
   },
