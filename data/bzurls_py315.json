@@ -11,7 +11,15 @@
     "urls": [],
     "summaries": []
   },
+  "MUSIC": {
+    "urls": [],
+    "summaries": []
+  },
   "Macaulay2": {
+    "urls": [],
+    "summaries": []
+  },
+  "NLopt": {
     "urls": [],
     "summaries": []
   },
@@ -19,7 +27,7 @@
     "urls": [],
     "summaries": []
   },
-  "PyX": {
+  "PyYAML": {
     "urls": [],
     "summaries": []
   },
@@ -27,11 +35,7 @@
     "urls": [],
     "summaries": []
   },
-  "RBTools": {
-    "urls": [],
-    "summaries": []
-  },
-  "WALinuxAgent": {
+  "SoapySDR": {
     "urls": [],
     "summaries": []
   },
@@ -51,6 +55,10 @@
     "urls": [],
     "summaries": []
   },
+  "afflib": {
+    "urls": [],
+    "summaries": []
+  },
   "alacarte": {
     "urls": [],
     "summaries": []
@@ -59,7 +67,15 @@
     "urls": [],
     "summaries": []
   },
+  "antlr4-project": {
+    "urls": [],
+    "summaries": []
+  },
   "apbs": {
+    "urls": [],
+    "summaries": []
+  },
+  "apx": {
     "urls": [],
     "summaries": []
   },
@@ -67,15 +83,23 @@
     "urls": [],
     "summaries": []
   },
+  "assimp": {
+    "urls": [],
+    "summaries": []
+  },
+  "astrometry": {
+    "urls": [],
+    "summaries": []
+  },
   "at-spi2-core": {
     "urls": [],
     "summaries": []
   },
-  "aubio": {
+  "auditwheel": {
     "urls": [],
     "summaries": []
   },
-  "auditwheel": {
+  "autowrap": {
     "urls": [],
     "summaries": []
   },
@@ -180,10 +204,6 @@
     "summaries": []
   },
   "catfish": {
-    "urls": [],
-    "summaries": []
-  },
-  "ccsm": {
     "urls": [],
     "summaries": []
   },
@@ -299,6 +319,14 @@
     "urls": [],
     "summaries": []
   },
+  "dbus-python": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2424563"
+    ],
+    "summaries": [
+      "dbus-python doesn't work with Python 3.15: SystemError: type _dbus_bindings.Connection has the Py_TPFLAGS_MANAGED_WEAKREF flag but not Py_TPFLAGS_HAVE_GC flag"
+    ]
+  },
   "dcm2niix": {
     "urls": [],
     "summaries": []
@@ -391,10 +419,6 @@
       "fail2ban fails to build with Python 3.15: AttributeError: 'SourceFileLoader' object has no attribute 'load_module'. Did you mean: 'exec_module'?"
     ]
   },
-  "fedfind": {
-    "urls": [],
-    "summaries": []
-  },
   "fedora-repro": {
     "urls": [],
     "summaries": []
@@ -431,7 +455,23 @@
     "urls": [],
     "summaries": []
   },
+  "fonttools": {
+    "urls": [],
+    "summaries": []
+  },
   "freecell-solver": {
+    "urls": [],
+    "summaries": []
+  },
+  "freeipa": {
+    "urls": [],
+    "summaries": []
+  },
+  "freeipa-desktop-profile": {
+    "urls": [],
+    "summaries": []
+  },
+  "freeipa-healthcheck": {
     "urls": [],
     "summaries": []
   },
@@ -456,10 +496,6 @@
     "summaries": []
   },
   "gitg": {
-    "urls": [],
-    "summaries": []
-  },
-  "gitlint": {
     "urls": [],
     "summaries": []
   },
@@ -575,10 +611,6 @@
     "urls": [],
     "summaries": []
   },
-  "hplip": {
-    "urls": [],
-    "summaries": []
-  },
   "httpie": {
     "urls": [],
     "summaries": []
@@ -599,9 +631,21 @@
     "urls": [],
     "summaries": []
   },
+  "intelhex": {
+    "urls": [],
+    "summaries": []
+  },
   "jack-mixer": {
     "urls": [],
     "summaries": []
+  },
+  "javapackages-tools": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2414799"
+    ],
+    "summaries": [
+      "javapackages-tools fails to build with Python 3.15: AssertionError in TestMvnBuild.test_builddep"
+    ]
   },
   "jc": {
     "urls": [
@@ -615,7 +659,43 @@
     "urls": [],
     "summaries": []
   },
+  "kernel": {
+    "urls": [],
+    "summaries": []
+  },
+  "keylime": {
+    "urls": [],
+    "summaries": []
+  },
+  "kf6-kapidox": {
+    "urls": [],
+    "summaries": []
+  },
+  "kf6-kcoreaddons": {
+    "urls": [],
+    "summaries": []
+  },
+  "kf6-kguiaddons": {
+    "urls": [],
+    "summaries": []
+  },
   "kf6-kjobwidgets": {
+    "urls": [],
+    "summaries": []
+  },
+  "kf6-knotifications": {
+    "urls": [],
+    "summaries": []
+  },
+  "kf6-kstatusnotifieritem": {
+    "urls": [],
+    "summaries": []
+  },
+  "kf6-kunitconversion": {
+    "urls": [],
+    "summaries": []
+  },
+  "kf6-kwidgetsaddons": {
     "urls": [],
     "summaries": []
   },
@@ -631,11 +711,59 @@
     "urls": [],
     "summaries": []
   },
+  "kiwi": {
+    "urls": [],
+    "summaries": []
+  },
+  "kiwi-stackbuild-plugin": {
+    "urls": [],
+    "summaries": []
+  },
   "kmymoney": {
     "urls": [],
     "summaries": []
   },
+  "knot": {
+    "urls": [],
+    "summaries": []
+  },
+  "koan": {
+    "urls": [],
+    "summaries": []
+  },
+  "koji-image-builder": {
+    "urls": [],
+    "summaries": []
+  },
   "kopeninghours": {
+    "urls": [],
+    "summaries": []
+  },
+  "lammps": {
+    "urls": [],
+    "summaries": []
+  },
+  "lasso": {
+    "urls": [],
+    "summaries": []
+  },
+  "lazygal": {
+    "urls": [],
+    "summaries": []
+  },
+  "legofy": {
+    "urls": [],
+    "summaries": []
+  },
+  "lhapdf": {
+    "urls": [],
+    "summaries": []
+  },
+  "libaccounts-glib": {
+    "urls": [],
+    "summaries": []
+  },
+  "libarcus": {
     "urls": [],
     "summaries": []
   },
@@ -651,7 +779,27 @@
     "urls": [],
     "summaries": []
   },
+  "libcamera": {
+    "urls": [],
+    "summaries": []
+  },
+  "libcomps": {
+    "urls": [],
+    "summaries": []
+  },
+  "libcpuid": {
+    "urls": [],
+    "summaries": []
+  },
+  "libdnet": {
+    "urls": [],
+    "summaries": []
+  },
   "libdnf": {
+    "urls": [],
+    "summaries": []
+  },
+  "libftdi": {
     "urls": [],
     "summaries": []
   },
@@ -659,11 +807,79 @@
     "urls": [],
     "summaries": []
   },
+  "libgit2-glib": {
+    "urls": [],
+    "summaries": []
+  },
+  "libgpiod": {
+    "urls": [],
+    "summaries": []
+  },
+  "libguestfs": {
+    "urls": [],
+    "summaries": []
+  },
   "libiio": {
     "urls": [],
     "summaries": []
   },
+  "libiptcdata": {
+    "urls": [],
+    "summaries": []
+  },
+  "libixion": {
+    "urls": [],
+    "summaries": []
+  },
+  "libkml": {
+    "urls": [],
+    "summaries": []
+  },
+  "libkolabxml": {
+    "urls": [],
+    "summaries": []
+  },
+  "libmodulemd": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2423153"
+    ],
+    "summaries": [
+      "libmodulemd-2.15.2-4.fc44 FTBFS: tests fail with glib2 \u2265 2.87.0"
+    ]
+  },
+  "libnvme": {
+    "urls": [],
+    "summaries": []
+  },
+  "libolm": {
+    "urls": [],
+    "summaries": []
+  },
   "liborcus": {
+    "urls": [],
+    "summaries": []
+  },
+  "libpeas": {
+    "urls": [],
+    "summaries": []
+  },
+  "libpeas1": {
+    "urls": [],
+    "summaries": []
+  },
+  "libpfm": {
+    "urls": [],
+    "summaries": []
+  },
+  "libplist": {
+    "urls": [],
+    "summaries": []
+  },
+  "libpst": {
+    "urls": [],
+    "summaries": []
+  },
+  "librealsense": {
     "urls": [],
     "summaries": []
   },
@@ -675,6 +891,34 @@
     "urls": [],
     "summaries": []
   },
+  "libstoragemgmt": {
+    "urls": [],
+    "summaries": []
+  },
+  "libunity": {
+    "urls": [],
+    "summaries": []
+  },
+  "libuser": {
+    "urls": [],
+    "summaries": []
+  },
+  "libvirt-python": {
+    "urls": [],
+    "summaries": []
+  },
+  "libvirt-test-API": {
+    "urls": [],
+    "summaries": []
+  },
+  "libxc": {
+    "urls": [],
+    "summaries": []
+  },
+  "libxslt": {
+    "urls": [],
+    "summaries": []
+  },
   "libyui": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2427943"
@@ -683,11 +927,99 @@
       "libyui: FTBFS with gcc16 due to C++20 change"
     ]
   },
+  "lilv": {
+    "urls": [],
+    "summaries": []
+  },
+  "link-grammar": {
+    "urls": [],
+    "summaries": []
+  },
+  "linkchecker": {
+    "urls": [],
+    "summaries": []
+  },
+  "liquidctl": {
+    "urls": [],
+    "summaries": []
+  },
+  "lirc": {
+    "urls": [],
+    "summaries": []
+  },
   "llvm": {
     "urls": [],
     "summaries": []
   },
+  "lollypop": {
+    "urls": [],
+    "summaries": []
+  },
+  "lrcalc": {
+    "urls": [],
+    "summaries": []
+  },
+  "lutris": {
+    "urls": [],
+    "summaries": []
+  },
   "lvm2": {
+    "urls": [],
+    "summaries": []
+  },
+  "manafirewall": {
+    "urls": [],
+    "summaries": []
+  },
+  "mat2": {
+    "urls": [],
+    "summaries": []
+  },
+  "mate-menu": {
+    "urls": [],
+    "summaries": []
+  },
+  "mathgl": {
+    "urls": [],
+    "summaries": []
+  },
+  "meld": {
+    "urls": [],
+    "summaries": []
+  },
+  "meson": {
+    "urls": [],
+    "summaries": []
+  },
+  "minigalaxy": {
+    "urls": [],
+    "summaries": []
+  },
+  "mkdocs": {
+    "urls": [],
+    "summaries": []
+  },
+  "mkdocs-bootstrap": {
+    "urls": [],
+    "summaries": []
+  },
+  "mkdocs-bootswatch": {
+    "urls": [],
+    "summaries": []
+  },
+  "mock": {
+    "urls": [],
+    "summaries": []
+  },
+  "module-build": {
+    "urls": [],
+    "summaries": []
+  },
+  "modulemd-tools": {
+    "urls": [],
+    "summaries": []
+  },
+  "monkeytype": {
     "urls": [],
     "summaries": []
   },
@@ -699,7 +1031,39 @@
       "moose fails to build with Python 3.15: moose-core-3.1.5/pymoose/PyRun.h:58:24: error: \u2018Py_GetProgramName\u2019 was not declared in this scope; did you mean \u2018Py_SetProgramName\u2019?"
     ]
   },
-  "mpsolve": {
+  "mozo": {
+    "urls": [],
+    "summaries": []
+  },
+  "mpi4py": {
+    "urls": [],
+    "summaries": []
+  },
+  "mrack": {
+    "urls": [],
+    "summaries": []
+  },
+  "msoffcrypto-tool": {
+    "urls": [],
+    "summaries": []
+  },
+  "mysql-connector-python": {
+    "urls": [],
+    "summaries": []
+  },
+  "nautilus-python": {
+    "urls": [],
+    "summaries": []
+  },
+  "nemo-extensions": {
+    "urls": [],
+    "summaries": []
+  },
+  "nest": {
+    "urls": [],
+    "summaries": []
+  },
+  "netcdf4-python": {
     "urls": [],
     "summaries": []
   },
@@ -707,7 +1071,63 @@
     "urls": [],
     "summaries": []
   },
+  "nextpnr": {
+    "urls": [],
+    "summaries": []
+  },
   "nicotine+": {
+    "urls": [],
+    "summaries": []
+  },
+  "nml": {
+    "urls": [],
+    "summaries": []
+  },
+  "nmstate": {
+    "urls": [],
+    "summaries": []
+  },
+  "nordugrid-arc-nagios-plugins": {
+    "urls": [],
+    "summaries": []
+  },
+  "notcurses": {
+    "urls": [],
+    "summaries": []
+  },
+  "notmuch": {
+    "urls": [],
+    "summaries": []
+  },
+  "nototools": {
+    "urls": [],
+    "summaries": []
+  },
+  "nox": {
+    "urls": [],
+    "summaries": []
+  },
+  "numpy": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2417020"
+    ],
+    "summaries": [
+      "numpy fails to build with Python 3.15: ../numpy/_core/src/multiarray/conversion_utils.h:116:30: error: expected \u2018;\u2019 before \u2018int\u2019"
+    ]
+  },
+  "nvme-stas": {
+    "urls": [],
+    "summaries": []
+  },
+  "obs-studio": {
+    "urls": [],
+    "summaries": []
+  },
+  "offlineimap": {
+    "urls": [],
+    "summaries": []
+  },
+  "omniORBpy": {
     "urls": [],
     "summaries": []
   },
@@ -719,7 +1139,55 @@
     "urls": [],
     "summaries": []
   },
+  "opae": {
+    "urls": [],
+    "summaries": []
+  },
+  "openbabel": {
+    "urls": [],
+    "summaries": []
+  },
+  "openmeeg": {
+    "urls": [],
+    "summaries": []
+  },
   "openmpi": {
+    "urls": [],
+    "summaries": []
+  },
+  "openscap-report": {
+    "urls": [],
+    "summaries": []
+  },
+  "opensips": {
+    "urls": [],
+    "summaries": []
+  },
+  "openssh-ldap-authkeys": {
+    "urls": [],
+    "summaries": []
+  },
+  "opentrep": {
+    "urls": [],
+    "summaries": []
+  },
+  "openvswitch": {
+    "urls": [],
+    "summaries": []
+  },
+  "openwsman": {
+    "urls": [],
+    "summaries": []
+  },
+  "orca": {
+    "urls": [],
+    "summaries": []
+  },
+  "osbuild": {
+    "urls": [],
+    "summaries": []
+  },
+  "oz": {
     "urls": [],
     "summaries": []
   },
@@ -728,6 +1196,70 @@
     "summaries": []
   },
   "pagure-dist-git": {
+    "urls": [],
+    "summaries": []
+  },
+  "pepc": {
+    "urls": [],
+    "summaries": []
+  },
+  "petsc": {
+    "urls": [],
+    "summaries": []
+  },
+  "photocollage": {
+    "urls": [],
+    "summaries": []
+  },
+  "piper": {
+    "urls": [],
+    "summaries": []
+  },
+  "pitivi": {
+    "urls": [],
+    "summaries": []
+  },
+  "playitagainsam": {
+    "urls": [],
+    "summaries": []
+  },
+  "pocketsphinx": {
+    "urls": [],
+    "summaries": []
+  },
+  "podman-compose": {
+    "urls": [],
+    "summaries": []
+  },
+  "portmidi": {
+    "urls": [],
+    "summaries": []
+  },
+  "postfix-mta-sts-resolver": {
+    "urls": [],
+    "summaries": []
+  },
+  "powerline": {
+    "urls": [],
+    "summaries": []
+  },
+  "pre-commit": {
+    "urls": [],
+    "summaries": []
+  },
+  "printrun": {
+    "urls": [],
+    "summaries": []
+  },
+  "profanity": {
+    "urls": [],
+    "summaries": []
+  },
+  "protobuf": {
+    "urls": [],
+    "summaries": []
+  },
+  "pyOpenSSL": {
     "urls": [],
     "summaries": []
   },
@@ -743,7 +1275,19 @@
     "urls": [],
     "summaries": []
   },
+  "pydeps": {
+    "urls": [],
+    "summaries": []
+  },
+  "pydot": {
+    "urls": [],
+    "summaries": []
+  },
   "pyee": {
+    "urls": [],
+    "summaries": []
+  },
+  "pygame": {
     "urls": [],
     "summaries": []
   },
@@ -751,11 +1295,67 @@
     "urls": [],
     "summaries": []
   },
+  "pygsl": {
+    "urls": [],
+    "summaries": []
+  },
+  "pykakasi": {
+    "urls": [],
+    "summaries": []
+  },
+  "pykickstart": {
+    "urls": [],
+    "summaries": []
+  },
+  "pykka": {
+    "urls": [],
+    "summaries": []
+  },
+  "pymilia": {
+    "urls": [],
+    "summaries": []
+  },
   "pyproj": {
     "urls": [],
     "summaries": []
   },
+  "pystatgrab": {
+    "urls": [],
+    "summaries": []
+  },
+  "pysysbot": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-OWSLib": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-Pallets-Sphinx-Themes": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-PyGithub": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-PyMySQL": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-Rtree": {
+    "urls": [],
+    "summaries": []
+  },
   "python-SecretStorage": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-Traits": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-WSGIProxy2": {
     "urls": [],
     "summaries": []
   },
@@ -787,11 +1387,103 @@
     "urls": [],
     "summaries": []
   },
+  "python-abimap": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-acoustid": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-adafruit-platformdetect": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-adal": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-adb-shell": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-admesh": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-advisory-parser": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-aiodns": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-aiohttp": {
+    "urls": [],
+    "summaries": []
+  },
   "python-aiohttp-cors": {
     "urls": [],
     "summaries": []
   },
+  "python-aiohttp-oauthlib": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-aiohttp-retry": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-aiomysql": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-aioodbc": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-aioquic": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-aioresponses": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-aioruckus": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-aiosignal": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-aiounifi": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-aiounittest": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-ansible-pylibssh": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-ansicolor": {
+    "urls": [],
+    "summaries": []
+  },
   "python-anyio": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-apkinspector": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-application-properties": {
     "urls": [],
     "summaries": []
   },
@@ -803,7 +1495,47 @@
       "python-apprise fails to build with Python 3.15: AssertionError: assert 'NotifyType.INFO' == 'info'"
     ]
   },
+  "python-archspec": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-argon2-cffi": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-argon2-cffi-bindings": {
+    "urls": [],
+    "summaries": []
+  },
   "python-arpeggio": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-array-api-strict": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-arrow": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-asn1": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-asn1tools": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-aspy.yaml": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-astdoc": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-asteval": {
     "urls": [],
     "summaries": []
   },
@@ -815,11 +1547,43 @@
       "python-astroid fails to build with Python 3.15: typing.ByteString has been removed from Python, failing TypingBrain.test_typing_object_notsubscriptable_3"
     ]
   },
+  "python-astropy": {
+    "urls": [],
+    "summaries": []
+  },
   "python-astropy-iers-data": {
     "urls": [],
     "summaries": []
   },
+  "python-asyncmy": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-asyncpg": {
+    "urls": [],
+    "summaries": []
+  },
   "python-asyncssh": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-asysocks": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-atlassian-python-api": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-audioread": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-augeas": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-authlib": {
     "urls": [],
     "summaries": []
   },
@@ -831,11 +1595,51 @@
       "python-autopage fails to build with Python 3.15: TypeError: ArgumentParser._get_formatter() got an unexpected keyword argument 'file' and one more"
     ]
   },
+  "python-awscrt": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-axolotl": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-azure-ai-projects": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-azure-datalake-store": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-azure-functions-devops-build": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-azure-graphrbac": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-azure-identity": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-azure-keyvault": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-azure-keyvault-keys": {
+    "urls": [],
+    "summaries": []
+  },
   "python-azure-mgmt-cognitiveservices": {
     "urls": [],
     "summaries": []
   },
   "python-azure-mgmt-containerservice": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-azure-mgmt-datalake-analytics": {
     "urls": [],
     "summaries": []
   },
@@ -851,6 +1655,10 @@
     "urls": [],
     "summaries": []
   },
+  "python-azure-mgmt-kusto": {
+    "urls": [],
+    "summaries": []
+  },
   "python-azure-mgmt-quota": {
     "urls": [],
     "summaries": []
@@ -859,7 +1667,27 @@
     "urls": [],
     "summaries": []
   },
+  "python-azure-mgmt-relay": {
+    "urls": [],
+    "summaries": []
+  },
   "python-azure-mgmt-storage": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-azure-multiapi-storage": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-azure-servicebus": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-azure-storage-blob": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-azure-storage-common": {
     "urls": [],
     "summaries": []
   },
@@ -911,6 +1739,10 @@
     "urls": [],
     "summaries": []
   },
+  "python-billiard": {
+    "urls": [],
+    "summaries": []
+  },
   "python-binary-manager": {
     "urls": [],
     "summaries": []
@@ -928,10 +1760,6 @@
     "summaries": []
   },
   "python-biscuits": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-bitstring": {
     "urls": [],
     "summaries": []
   },
@@ -983,11 +1811,19 @@
       "python-botocore fails to build with Python 3.15: AssertionError: At index 8 diff: b'\\x00' != b'\\x02'"
     ]
   },
+  "python-bottle-sqlite": {
+    "urls": [],
+    "summaries": []
+  },
   "python-bowler": {
     "urls": [],
     "summaries": []
   },
   "python-boxsdk": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-bracex": {
     "urls": [],
     "summaries": []
   },
@@ -1008,10 +1844,6 @@
     "summaries": []
   },
   "python-bugzilla": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-build": {
     "urls": [],
     "summaries": []
   },
@@ -1040,10 +1872,6 @@
     "summaries": []
   },
   "python-can": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-canonicaljson": {
     "urls": [],
     "summaries": []
   },
@@ -1107,10 +1935,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-cloup": {
-    "urls": [],
-    "summaries": []
-  },
   "python-cma": {
     "urls": [],
     "summaries": []
@@ -1131,11 +1955,11 @@
     "urls": [],
     "summaries": []
   },
-  "python-coincurve": {
+  "python-cobalt": {
     "urls": [],
     "summaries": []
   },
-  "python-colander": {
+  "python-coincurve": {
     "urls": [],
     "summaries": []
   },
@@ -1171,10 +1995,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-colorzero": {
-    "urls": [],
-    "summaries": []
-  },
   "python-commoncode": {
     "urls": [],
     "summaries": []
@@ -1195,11 +2015,19 @@
     "urls": [],
     "summaries": []
   },
+  "python-configupdater": {
+    "urls": [],
+    "summaries": []
+  },
   "python-confuse": {
     "urls": [],
     "summaries": []
   },
   "python-container-inspector": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-contourpy": {
     "urls": [],
     "summaries": []
   },
@@ -1215,14 +2043,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-covdefaults": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-coveralls": {
-    "urls": [],
-    "summaries": []
-  },
   "python-cppy": {
     "urls": [],
     "summaries": []
@@ -1232,10 +2052,6 @@
     "summaries": []
   },
   "python-crcmod": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-croniter": {
     "urls": [],
     "summaries": []
   },
@@ -1415,10 +2231,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-django-picklefield": {
-    "urls": [],
-    "summaries": []
-  },
   "python-django-rules": {
     "urls": [],
     "summaries": []
@@ -1432,6 +2244,10 @@
     "summaries": []
   },
   "python-dmidecode": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-dns": {
     "urls": [],
     "summaries": []
   },
@@ -1527,6 +2343,10 @@
       "python-eth-stdlib fails to build in Copr: RPM build errors: error: Bad file: /builddir/build/SOURCES/python-eth-stdlib-0004-Fix-for-modern-poetry.patch: No such file or directory"
     ]
   },
+  "python-exabgp": {
+    "urls": [],
+    "summaries": []
+  },
   "python-exceptiongroup": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2423878"
@@ -1542,10 +2362,6 @@
     "summaries": [
       "python-exdir fails to build with Python 3.15: TypeError: 'module'/'Plugin' object is not iterable"
     ]
-  },
-  "python-execnet": {
-    "urls": [],
-    "summaries": []
   },
   "python-extension-helpers": {
     "urls": [],
@@ -1584,6 +2400,10 @@
     "summaries": []
   },
   "python-fast-simplification": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-fastar": {
     "urls": [],
     "summaries": []
   },
@@ -1727,6 +2547,10 @@
     "urls": [],
     "summaries": []
   },
+  "python-flufl-lock": {
+    "urls": [],
+    "summaries": []
+  },
   "python-fontMath": {
     "urls": [],
     "summaries": []
@@ -1831,11 +2655,15 @@
     "urls": [],
     "summaries": []
   },
-  "python-google-resumable-media": {
+  "python-googleapis-common-protos": {
     "urls": [],
     "summaries": []
   },
   "python-graphviz": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-greenlet": {
     "urls": [],
     "summaries": []
   },
@@ -1855,10 +2683,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-gunicorn": {
-    "urls": [],
-    "summaries": []
-  },
   "python-h2": {
     "urls": [],
     "summaries": []
@@ -1872,14 +2696,6 @@
     "summaries": []
   },
   "python-helpdev": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-hgapi": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-hglib": {
     "urls": [],
     "summaries": []
   },
@@ -1983,6 +2799,10 @@
     "urls": [],
     "summaries": []
   },
+  "python-intbitset": {
+    "urls": [],
+    "summaries": []
+  },
   "python-intervaltree": {
     "urls": [],
     "summaries": []
@@ -1991,7 +2811,31 @@
     "urls": [],
     "summaries": []
   },
+  "python-invoke": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-ipcqueue": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-ipuz": {
+    "urls": [],
+    "summaries": []
+  },
   "python-iso8601": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-itemloaders": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-jaraco-packaging": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-jaraco-text": {
     "urls": [],
     "summaries": []
   },
@@ -2003,7 +2847,71 @@
       "python-jedi fails to build with Python 3.15: multiple AssertionError in tests"
     ]
   },
+  "python-jeepney": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-jinja2": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-jinja2-cli": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-jinja2-time": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-jinja2_pluralize": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-josepy": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-journal-brief": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-jsondiff": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-jsonschema-path": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-jsonstreams": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-junitparser": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-jupymake": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-jupyter-events": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-jwcrypto": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-jwt": {
+    "urls": [],
+    "summaries": []
+  },
   "python-kadmin": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-kafka": {
     "urls": [],
     "summaries": []
   },
@@ -2015,11 +2923,191 @@
       "python-kaptan fails to build with Python 3.15: AttributeError: 'SourceFileLoader' object has no attribute 'load_module'. Did you mean: 'exec_module'? in test_py_file_handler and test_py_file_away_handler"
     ]
   },
+  "python-kazoo": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-keep": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-kmod": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-krb5": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-kubernetes": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-landslide": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-lap": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-latexcodec": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-lazy_load": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-ldap3": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-libcst": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-libdiscid": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-libnacl": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-libsass": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-license-expression": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-linuxdoc": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-listparser": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-llfuse": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-llvmlite": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-locket": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-lockfile": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-lsp-jsonrpc": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-lupa": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-lxml": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-lxml-html-clean": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-lz4": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-mako": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-managesieve": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-manatools": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-manuel": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-mapbox-earcut": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-mapnik": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-markdown": {
+    "urls": [],
+    "summaries": []
+  },
   "python-markdown-callouts": {
     "urls": [],
     "summaries": []
   },
+  "python-markdown-exec": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-marshmallow": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-mathics-pygments": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-mathics-scanner": {
+    "urls": [],
+    "summaries": []
+  },
   "python-matplotlib": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-mechanicalsoup": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-meh": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-meshio": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-meson-python": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-mf2py": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-micawber": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-minikerberos": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-mirakuru": {
     "urls": [],
     "summaries": []
   },
@@ -2035,7 +3123,143 @@
     "urls": [],
     "summaries": []
   },
+  "python-mkdocs-get-deps": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-mkdocs-git-authors-plugin": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-mkdocs-git-committers-plugin-2": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-mkdocs-include-markdown-plugin": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-mkdocs-minify-plugin": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-mkdocs-monorepo-plugin": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-mkdocs-redirects": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-mmtf": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-mock-ssh-server": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-mockito": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-moddb": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-mozilla-django-oidc": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-mpmath": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-mrcfile": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-msal": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-msal-extensions": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-msgpack": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-msrest": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-msrestazure": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-multidict": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-munch": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-murmurhash": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-mwclient": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-mwparserfromhell": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-mygpoclient": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-nbformat": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-nbxmpp": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-ncclient": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-neovim": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-netdisco": {
+    "urls": [],
+    "summaries": []
+  },
   "python-nltk": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-noiseprotocol": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-normality": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-ntlm-auth": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-numexpr": {
     "urls": [],
     "summaries": []
   },
@@ -2043,7 +3267,111 @@
     "urls": [],
     "summaries": []
   },
+  "python-odata-query": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-ofxparse": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-oletools": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-omemo": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-omlmd": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-omsdk": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-onionbalance": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-openapi-schema-validator": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-openapi-spec-validator": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-opencensus-proto": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-openpaperwork-core": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-openpaperwork-gtk": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-openpyxl": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-openqa_client": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-opensearch-py": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-openshift": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-openslide": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-openstackdocstheme": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-openstep-plist": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-opytimark": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-oras": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-os-service-types": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-ovirt-engine-sdk4": {
+    "urls": [],
+    "summaries": []
+  },
   "python-parameterized": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-paramiko": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-parsel": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-parsimonious": {
     "urls": [],
     "summaries": []
   },
@@ -2051,7 +3379,35 @@
     "urls": [],
     "summaries": []
   },
+  "python-passlib": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2403565"
+    ],
+    "summaries": [
+      "python-flask-security-too: Fails to build with setuptools 80.9.0 [ERROR in tests: UserWarning: pkg_resources is deprecated as an API]"
+    ]
+  },
+  "python-patatt": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-patch-manager": {
+    "urls": [],
+    "summaries": []
+  },
   "python-path-and-address": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pdf2image": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pdfminer": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pdfrw": {
     "urls": [],
     "summaries": []
   },
@@ -2067,6 +3423,26 @@
     "urls": [],
     "summaries": []
   },
+  "python-periodictable": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-persist-queue": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pidfile": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pikepdf": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pillow-jxl-plugin": {
+    "urls": [],
+    "summaries": []
+  },
   "python-pipdeptree": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2414803"
@@ -2074,6 +3450,46 @@
     "summaries": [
       "python-pipdeptree fails to build with Python 3.15: tests/test_discovery.py::test_invalid_metadata - TypeError: argument of type 'NoneType' is not a container or iterable"
     ]
+  },
+  "python-plugincode": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-plumbum": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pooch": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pretty-yaml": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-promptml": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-propcache": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-proton-core": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-proton-vpn-api-core": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-proton-vpn-network-manager": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-psutil": {
+    "urls": [],
+    "summaries": []
   },
   "python-psycopg2": {
     "urls": [
@@ -2083,6 +3499,14 @@
       "python-psycopg2 fails to build with Python 3.15: error: implicit declaration of function \u2018PyWeakref_GetObject\u2019; did you mean \u2018PyWeakref_GetRef\u2019?"
     ]
   },
+  "python-pulp": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pulp-glue": {
+    "urls": [],
+    "summaries": []
+  },
   "python-pure-eval": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2414805"
@@ -2091,7 +3515,79 @@
       "python-pure-eval fails to build with Python 3.15: pure_eval.utils.CannotEval: CannotEval in 11 tests"
     ]
   },
+  "python-pwntools": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pyaes": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pybtex": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pybtex-docutils": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pycares": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pyclipper": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pycomposefile": {
+    "urls": [],
+    "summaries": []
+  },
   "python-pycountry": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pydepsdev": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pydicom": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pydyf": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pyerfa": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pyformlang": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pyftpdlib": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pygal": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pygit2": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pyglet": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pygments": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pygments-git": {
     "urls": [],
     "summaries": []
   },
@@ -2099,7 +3595,87 @@
     "urls": [],
     "summaries": []
   },
+  "python-pyjwkest": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pykdtree": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pykdumpfile": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pykeepass": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pyliblo3": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pymaven-patch": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pymdown-extensions": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pymediawiki": {
+    "urls": [],
+    "summaries": []
+  },
   "python-pymemcache": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pymilter": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pymssql": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pynacl": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pynest2d": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pyngus": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pyobd": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pyocr": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pyopencl": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pyopengl": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pyopengltk": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pypdf": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pypillowfight": {
     "urls": [],
     "summaries": []
   },
@@ -2107,7 +3683,55 @@
     "urls": [],
     "summaries": []
   },
-  "python-pytest-datadir": {
+  "python-pyquery": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pyroaring": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pysam": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pyscaffold": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pyscipopt": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pysdl2": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pyside6": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pysocks": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pystemd": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pystray": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pytaglib": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pytesseract": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pytest-aiohttp": {
     "urls": [],
     "summaries": []
   },
@@ -2119,7 +3743,23 @@
       "python-pytest-django fails to build with Python 3.15: AttributeError: 'ConfigurationLoader' object has no attribute 'exec_module'. Did you mean: 'load_module'?"
     ]
   },
+  "python-pytest-doctestplus": {
+    "urls": [],
+    "summaries": []
+  },
   "python-pytest-freezegun": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pytest-localftpserver": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pytest-openfiles": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pytest-randomly": {
     "urls": [],
     "summaries": []
   },
@@ -2135,7 +3775,63 @@
     "urls": [],
     "summaries": []
   },
+  "python-pytest-xdist": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pytest-xprocess": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-python-fcl": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-python-multipart": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pytools": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pyvirtualdisplay": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pyvlx": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pywayland": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pywlroots": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pyxdameraulevenshtein": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pyyaml-env-tag": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-qrcode": {
+    "urls": [],
+    "summaries": []
+  },
   "python-qt5": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-qtsass": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-quantities": {
     "urls": [],
     "summaries": []
   },
@@ -2151,7 +3847,19 @@
     "urls": [],
     "summaries": []
   },
+  "python-rdflib": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-re-assert": {
+    "urls": [],
+    "summaries": []
+  },
   "python-reactivex": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-readability-lxml": {
     "urls": [],
     "summaries": []
   },
@@ -2163,7 +3871,83 @@
       "python-readme-renderer fails to build with Python 3.15: test_cli_package: No content rendered from RST source."
     ]
   },
+  "python-recipe-scrapers": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-redis": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-reedsolo": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-referencing": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-reflink": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-relatorio": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-rencode": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-repomd": {
+    "urls": [],
+    "summaries": []
+  },
   "python-reportlab": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-repoze-sphinx-autointerface": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-repoze-tm2": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-repoze-who": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-requests": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-requests-gssapi": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-requests-kerberos": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-requests-pkcs12": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-requests-toolbelt": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-requests_ntlm": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-responses": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-restructuredtext-lint": {
     "urls": [],
     "summaries": []
   },
@@ -2171,7 +3955,59 @@
     "urls": [],
     "summaries": []
   },
+  "python-resultsdb_api": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-rich": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-robotframework": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-rosdep": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-rosdistro": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-rosinstall_generator": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-rospkg": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-routes": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-rpmautospec": {
+    "urls": [],
+    "summaries": []
+  },
   "python-rpmautospec-koji": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-rpmfluff": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-rq": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2414802"
+    ],
+    "summaries": [
+      "python-rq fails to build with Python 3.15: AssertionError in TestDependencies.test_dependencies_are_met_at_execution_time"
+    ]
+  },
+  "python-rsdclient": {
     "urls": [],
     "summaries": []
   },
@@ -2183,15 +4019,87 @@
       "python-rstr fails to build with Python 3.15: 3 errors when collecting tests: ModuleNotFoundError: No module named 'sre_parse'"
     ]
   },
-  "python-snakemake-interface-executor-plugins": {
+  "python-rtslib": {
     "urls": [],
     "summaries": []
   },
-  "python-snakemake-interface-report-plugins": {
+  "python-rust-update-set": {
     "urls": [],
     "summaries": []
   },
-  "python-snakemake-interface-storage-plugins": {
+  "python-saneyaml": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-scales": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-scitokens": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-scp": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-scrape-schema-recipe": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-sep": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-service-identity": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-setuptools-rust": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-sgp4": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-sieve": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-signedjson": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-simpleline": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-slip10": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-slixmpp": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-slixmpp-omemo": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-smbprotocol": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-snappy": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-sounddevice": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-soundfile": {
     "urls": [],
     "summaries": []
   },
@@ -2199,11 +4107,55 @@
     "urls": [],
     "summaries": []
   },
+  "python-sphinx-argparse": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-sphinx-autoapi": {
+    "urls": [],
+    "summaries": []
+  },
   "python-sphinx-design": {
     "urls": [],
     "summaries": []
   },
+  "python-sphinx-favicon": {
+    "urls": [],
+    "summaries": []
+  },
   "python-sphinx-inline-tabs": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-sphinx-jsonschema": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-sphinx-lint": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-sphinxcontrib-trio": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-spnego": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-spur": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-ssdeep": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-ssh-python": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-sshtunnel": {
     "urls": [],
     "summaries": []
   },
@@ -2219,11 +4171,55 @@
     "urls": [],
     "summaries": []
   },
+  "python-svg-path": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-svg2tikz": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-swagger-spec-validator": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-sybil": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-symengine": {
+    "urls": [],
+    "summaries": []
+  },
   "python-system-calls": {
     "urls": [],
     "summaries": []
   },
   "python-tabulate": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-tcx2gpx": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-tcxparser": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-textile": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-throttler": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-tifffile": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-tiktoken": {
     "urls": [],
     "summaries": []
   },
@@ -2235,6 +4231,30 @@
       "python-time-machine fails to build with Python 3.15: AssertionError: assert 2025 == 1970"
     ]
   },
+  "python-timelib": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-tldextract": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-tmuxp": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-tomli": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2424297"
+    ],
+    "summaries": [
+      "python-tomli fails to build with Python 3.15: /usr/lib/python3.15/site-packages/mypyc/lib-rt/pythonsupport.h:125:5: error: \u2018_PyObject_GetAttrId\u2019 is deprecated"
+    ]
+  },
+  "python-tomlkit": {
+    "urls": [],
+    "summaries": []
+  },
   "python-tornado": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2414557"
@@ -2243,6 +4263,14 @@
       "python-tornado fails to build with Python 3.15: ERROR: test_multi_process"
     ]
   },
+  "python-tpm2-pytss": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-transaction": {
+    "urls": [],
+    "summaries": []
+  },
   "python-translitcodec": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2414561"
@@ -2250,6 +4278,42 @@
     "summaries": [
       "python-translitcodec fails to build with Python 3.15: 8 tests failing with LookupError: unknown encoding: translit/*"
     ]
+  },
+  "python-trio-websocket": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-triton": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-trustme": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-ttfautohint-py": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-tw2-core": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-tw2-forms": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-twilio": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-typecode": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-typecode-libmagic": {
+    "urls": [],
+    "summaries": []
   },
   "python-typeguard": {
     "urls": [
@@ -2275,6 +4339,18 @@
       "python-uharfbuzz fails to build with Python 3.15: test_uharfbuzz_version: AssertionError: assert 'unknown' not in '0.0.0+unknown'"
     ]
   },
+  "python-ukkonen": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-urllib-gssapi": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-uswid": {
+    "urls": [],
+    "summaries": []
+  },
   "python-utils": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2424562"
@@ -2287,11 +4363,119 @@
     "urls": [],
     "summaries": []
   },
+  "python-vcs2l": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-vcstool": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-vhacdx": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-virt-firmware": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-visvis": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-watchdog": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-wavio": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-webscrapbook": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-websocket-client": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-websockets": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-webtest": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-werkzeug": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-wikipedia": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-winrm": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-wxpython4": {
+    "urls": [],
+    "summaries": []
+  },
   "python-x2go": {
     "urls": [],
     "summaries": []
   },
+  "python-xattr": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-xcffib": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-xeddsa": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-xkbcommon": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-xkbregistry": {
+    "urls": [],
+    "summaries": []
+  },
   "python-xmlschema": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-xmlsec": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-xword-dl": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-yaml2ical": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-yamlloader": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-yarl": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-yte": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-zeroconf": {
     "urls": [],
     "summaries": []
   },
@@ -2303,11 +4487,71 @@
     "urls": [],
     "summaries": []
   },
+  "python-zope-exceptions": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-zstandard": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-zstarfile": {
+    "urls": [],
+    "summaries": []
+  },
   "python3-cangjie": {
     "urls": [],
     "summaries": []
   },
+  "python3-mypy": {
+    "urls": [],
+    "summaries": []
+  },
+  "python3-pydo": {
+    "urls": [],
+    "summaries": []
+  },
+  "python3-saml": {
+    "urls": [],
+    "summaries": []
+  },
+  "pywbem": {
+    "urls": [],
+    "summaries": []
+  },
+  "pywhispercpp": {
+    "urls": [],
+    "summaries": []
+  },
+  "qpid-proton": {
+    "urls": [],
+    "summaries": []
+  },
+  "quearcode": {
+    "urls": [],
+    "summaries": []
+  },
+  "quisk": {
+    "urls": [],
+    "summaries": []
+  },
   "quodlibet": {
+    "urls": [],
+    "summaries": []
+  },
+  "qutebrowser": {
+    "urls": [],
+    "summaries": []
+  },
+  "ramalama": {
+    "urls": [],
+    "summaries": []
+  },
+  "rb_libtorrent": {
+    "urls": [],
+    "summaries": []
+  },
+  "rdma-core": {
     "urls": [],
     "summaries": []
   },
@@ -2323,11 +4567,39 @@
       "renderdoc fails to build with Python 3.15: qrenderdoc_python.cxx:2296:13: error: \u2018PyWeakref_GET_OBJECT\u2019 was not declared in this scope"
     ]
   },
+  "resultsdb_conventions": {
+    "urls": [],
+    "summaries": []
+  },
   "retis": {
     "urls": [],
     "summaries": []
   },
+  "retrace-server": {
+    "urls": [],
+    "summaries": []
+  },
+  "revelation": {
+    "urls": [],
+    "summaries": []
+  },
+  "rig": {
+    "urls": [],
+    "summaries": []
+  },
+  "roca-detect": {
+    "urls": [],
+    "summaries": []
+  },
   "root": {
+    "urls": [],
+    "summaries": []
+  },
+  "rpm-head-signing": {
+    "urls": [],
+    "summaries": []
+  },
+  "rpmconf": {
     "urls": [],
     "summaries": []
   },
@@ -2339,7 +4611,43 @@
       "rpmlint fails to build with Python 3.15: AttributeError: 'NoneType' object has no attribute 'get_all'"
     ]
   },
+  "rpmspectool": {
+    "urls": [],
+    "summaries": []
+  },
+  "rpy": {
+    "urls": [],
+    "summaries": []
+  },
+  "rst2pdf": {
+    "urls": [],
+    "summaries": []
+  },
+  "rteval": {
+    "urls": [],
+    "summaries": []
+  },
+  "rtlsdr-scanner": {
+    "urls": [],
+    "summaries": []
+  },
   "ruff": {
+    "urls": [],
+    "summaries": []
+  },
+  "ruyi": {
+    "urls": [],
+    "summaries": []
+  },
+  "salt-lint": {
+    "urls": [],
+    "summaries": []
+  },
+  "samba": {
+    "urls": [],
+    "summaries": []
+  },
+  "scapy": {
     "urls": [],
     "summaries": []
   },
@@ -2351,7 +4659,55 @@
       "scipy fails to build with Python 3.15: AssertionError: Not equal to tolerance rtol=0.03125, atol=0"
     ]
   },
+  "screenkey": {
+    "urls": [],
+    "summaries": []
+  },
+  "setools": {
+    "urls": [],
+    "summaries": []
+  },
+  "setroubleshoot": {
+    "urls": [],
+    "summaries": []
+  },
+  "showtime": {
+    "urls": [],
+    "summaries": []
+  },
+  "shyaml": {
+    "urls": [],
+    "summaries": []
+  },
   "snapm": {
+    "urls": [],
+    "summaries": []
+  },
+  "solaar": {
+    "urls": [],
+    "summaries": []
+  },
+  "sos": {
+    "urls": [],
+    "summaries": []
+  },
+  "soundconverter": {
+    "urls": [],
+    "summaries": []
+  },
+  "spectrographic": {
+    "urls": [],
+    "summaries": []
+  },
+  "spglib": {
+    "urls": [],
+    "summaries": []
+  },
+  "sshuttle": {
+    "urls": [],
+    "summaries": []
+  },
+  "stp": {
     "urls": [],
     "summaries": []
   },
@@ -2359,7 +4715,43 @@
     "urls": [],
     "summaries": []
   },
+  "sugar-toolkit-gtk3": {
+    "urls": [],
+    "summaries": []
+  },
+  "sword": {
+    "urls": [],
+    "summaries": []
+  },
   "systemtap": {
+    "urls": [],
+    "summaries": []
+  },
+  "targetcli": {
+    "urls": [],
+    "summaries": []
+  },
+  "targetd": {
+    "urls": [],
+    "summaries": []
+  },
+  "terminator": {
+    "urls": [],
+    "summaries": []
+  },
+  "thefuck": {
+    "urls": [],
+    "summaries": []
+  },
+  "thrift": {
+    "urls": [],
+    "summaries": []
+  },
+  "toot": {
+    "urls": [],
+    "summaries": []
+  },
+  "tpm2-pkcs11": {
     "urls": [],
     "summaries": []
   },
@@ -2367,11 +4759,67 @@
     "urls": [],
     "summaries": []
   },
+  "trelby": {
+    "urls": [],
+    "summaries": []
+  },
+  "trellis": {
+    "urls": [],
+    "summaries": []
+  },
   "tuned": {
     "urls": [],
     "summaries": []
   },
+  "udiskie": {
+    "urls": [],
+    "summaries": []
+  },
+  "uhd": {
+    "urls": [],
+    "summaries": []
+  },
+  "urjtag": {
+    "urls": [],
+    "summaries": []
+  },
+  "ursa-major": {
+    "urls": [],
+    "summaries": []
+  },
+  "ustreamer": {
+    "urls": [],
+    "summaries": []
+  },
+  "uwsgi": {
+    "urls": [],
+    "summaries": []
+  },
+  "vapoursynth": {
+    "urls": [],
+    "summaries": []
+  },
   "variety": {
+    "urls": [],
+    "summaries": []
+  },
+  "vdirsyncer": {
+    "urls": [],
+    "summaries": []
+  },
+  "vimiv": {
+    "urls": [],
+    "summaries": []
+  },
+  "virt-bootstrap": {
+    "urls": [],
+    "summaries": []
+  },
+  "virt-lightning": {
+    "urls": [],
+    "summaries": []
+  },
+  "virt-who": {
     "urls": [],
     "summaries": []
   },
@@ -2383,6 +4831,14 @@
       "waf fails to build with Python 3.15: AttributeError: 'SourceFileLoader' object has no attribute 'load_module'. Did you mean: 'exec_module'?"
     ]
   },
+  "wesnoth": {
+    "urls": [],
+    "summaries": []
+  },
+  "whatip": {
+    "urls": [],
+    "summaries": []
+  },
   "xapian-bindings": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2417021"
@@ -2391,11 +4847,51 @@
       "xapian-bindings fails to build with Python 3.15: Fatal Python error: PyMutex_Unlock: unlocking mutex that is not locked"
     ]
   },
+  "xapps": {
+    "urls": [],
+    "summaries": []
+  },
   "xcat": {
     "urls": [],
     "summaries": []
   },
+  "xcfun": {
+    "urls": [],
+    "summaries": []
+  },
+  "xmms2": {
+    "urls": [],
+    "summaries": []
+  },
+  "xpra": {
+    "urls": [],
+    "summaries": []
+  },
+  "xrootd": {
+    "urls": [],
+    "summaries": []
+  },
+  "yamllint": {
+    "urls": [],
+    "summaries": []
+  },
+  "yle-dl": {
+    "urls": [],
+    "summaries": []
+  },
   "zbar": {
+    "urls": [],
+    "summaries": []
+  },
+  "zeitgeist": {
+    "urls": [],
+    "summaries": []
+  },
+  "zfp": {
+    "urls": [],
+    "summaries": []
+  },
+  "zinnia": {
     "urls": [],
     "summaries": []
   }
