@@ -107,10 +107,6 @@
     "urls": [],
     "summaries": []
   },
-  "cm_rgb": {
-    "urls": [],
-    "summaries": []
-  },
   "cmakelang": {
     "urls": [],
     "summaries": []
@@ -151,14 +147,6 @@
     "urls": [],
     "summaries": []
   },
-  "dnf-plugin-perfmetrics": {
-    "urls": [],
-    "summaries": []
-  },
-  "dogtag-pki": {
-    "urls": [],
-    "summaries": []
-  },
   "elements": {
     "urls": [],
     "summaries": []
@@ -187,27 +175,15 @@
     "urls": [],
     "summaries": []
   },
-  "freeipa": {
-    "urls": [],
-    "summaries": []
-  },
-  "freeipa-desktop-profile": {
-    "urls": [],
-    "summaries": []
-  },
-  "freeipa-healthcheck": {
-    "urls": [],
-    "summaries": []
-  },
   "gdb": {
     "urls": [],
     "summaries": []
   },
-  "geopmd": {
+  "gnucash": {
     "urls": [],
     "summaries": []
   },
-  "gnucash": {
+  "gpgme": {
     "urls": [],
     "summaries": []
   },
@@ -216,10 +192,6 @@
     "summaries": []
   },
   "hamlib": {
-    "urls": [],
-    "summaries": []
-  },
-  "httpie": {
     "urls": [],
     "summaries": []
   },
@@ -295,10 +267,6 @@
     "urls": [],
     "summaries": []
   },
-  "koan": {
-    "urls": [],
-    "summaries": []
-  },
   "kopeninghours": {
     "urls": [],
     "summaries": []
@@ -316,6 +284,10 @@
     "summaries": []
   },
   "libftdi": {
+    "urls": [],
+    "summaries": []
+  },
+  "libgexiv2": {
     "urls": [],
     "summaries": []
   },
@@ -348,10 +320,6 @@
     "summaries": []
   },
   "libreoffice": {
-    "urls": [],
-    "summaries": []
-  },
-  "libvirt-test-API": {
     "urls": [],
     "summaries": []
   },
@@ -459,10 +427,6 @@
     "urls": [],
     "summaries": []
   },
-  "oz": {
-    "urls": [],
-    "summaries": []
-  },
   "pacemaker": {
     "urls": [],
     "summaries": []
@@ -475,23 +439,7 @@
     "urls": [],
     "summaries": []
   },
-  "playitagainsam": {
-    "urls": [],
-    "summaries": []
-  },
-  "postfix-mta-sts-resolver": {
-    "urls": [],
-    "summaries": []
-  },
-  "powerline": {
-    "urls": [],
-    "summaries": []
-  },
   "pybluez": {
-    "urls": [],
-    "summaries": []
-  },
-  "pydot": {
     "urls": [],
     "summaries": []
   },
@@ -508,10 +456,6 @@
     "summaries": []
   },
   "pyproj": {
-    "urls": [],
-    "summaries": []
-  },
-  "pysysbot": {
     "urls": [],
     "summaries": []
   },
@@ -551,31 +495,11 @@
     "urls": [],
     "summaries": []
   },
-  "python-aiohttp": {
-    "urls": [],
-    "summaries": []
-  },
   "python-aiohttp-cors": {
     "urls": [],
     "summaries": []
   },
-  "python-aiohttp-oauthlib": {
-    "urls": [],
-    "summaries": []
-  },
   "python-aiohttp-retry": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-aioresponses": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-aioruckus": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-aiounifi": {
     "urls": [],
     "summaries": []
   },
@@ -623,10 +547,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-authlib": {
-    "urls": [],
-    "summaries": []
-  },
   "python-autopage": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2424583"
@@ -636,14 +556,6 @@
     ]
   },
   "python-awscrt": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-azure-multiapi-storage": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-azure-servicebus": {
     "urls": [],
     "summaries": []
   },
@@ -660,10 +572,6 @@
     ]
   },
   "python-beartype": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-billiard": {
     "urls": [],
     "summaries": []
   },
@@ -711,10 +619,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-cachelib": {
-    "urls": [],
-    "summaries": []
-  },
   "python-cairocffi": {
     "urls": [],
     "summaries": []
@@ -751,10 +655,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-cobalt": {
-    "urls": [],
-    "summaries": []
-  },
   "python-coincurve": {
     "urls": [],
     "summaries": []
@@ -771,10 +671,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-collectd_cvmfs": {
-    "urls": [],
-    "summaries": []
-  },
   "python-colormath2": {
     "urls": [],
     "summaries": []
@@ -784,10 +680,6 @@
     "summaries": []
   },
   "python-cramjam": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-cs": {
     "urls": [],
     "summaries": []
   },
@@ -843,10 +735,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-dns": {
-    "urls": [],
-    "summaries": []
-  },
   "python-ducc0": {
     "urls": [],
     "summaries": []
@@ -883,10 +771,6 @@
       "python-eth-stdlib fails to build in Copr: RPM build errors: error: Bad file: /builddir/build/SOURCES/python-eth-stdlib-0004-Fix-for-modern-poetry.patch: No such file or directory"
     ]
   },
-  "python-exabgp": {
-    "urls": [],
-    "summaries": []
-  },
   "python-exceptiongroup": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2423878"
@@ -903,27 +787,11 @@
       "python-exdir fails to build with Python 3.15: TypeError: 'module'/'Plugin' object is not iterable"
     ]
   },
-  "python-extruct": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-eyed3": {
-    "urls": [],
-    "summaries": []
-  },
   "python-falcon": {
     "urls": [],
     "summaries": []
   },
   "python-fast-simplification": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-fastar": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-fastbencode": {
     "urls": [],
     "summaries": []
   },
@@ -955,10 +823,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-flask-caching": {
-    "urls": [],
-    "summaries": []
-  },
   "python-flask-oidc": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2424320"
@@ -966,10 +830,6 @@
     "summaries": [
       "python-flask-oidc fails to build with Python 3.15: 'error_description': \"Missing 'Authorization' in headers.\"} != {'error_description': 'Missing \"Authorization\" in headers.'"
     ]
-  },
-  "python-flufl-lock": {
-    "urls": [],
-    "summaries": []
   },
   "python-freeqdsk": {
     "urls": [],
@@ -987,39 +847,11 @@
     "urls": [],
     "summaries": []
   },
-  "python-geoip2": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-geopy": {
-    "urls": [],
-    "summaries": []
-  },
   "python-geotiler": {
     "urls": [],
     "summaries": []
   },
-  "python-gevent": {
-    "urls": [],
-    "summaries": []
-  },
   "python-giacpy": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-google-auth": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-googleapis-common-protos": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-greenlet": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-grpc-google-iam-v1": {
     "urls": [],
     "summaries": []
   },
@@ -1032,10 +864,6 @@
     "summaries": []
   },
   "python-hamcrest": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-helpdev": {
     "urls": [],
     "summaries": []
   },
@@ -1103,10 +931,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-lz4": {
-    "urls": [],
-    "summaries": []
-  },
   "python-manatools": {
     "urls": [],
     "summaries": []
@@ -1128,10 +952,6 @@
     "summaries": []
   },
   "python-meshio": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-mirakuru": {
     "urls": [],
     "summaries": []
   },
@@ -1163,14 +983,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-multidict": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-mwparserfromhell": {
-    "urls": [],
-    "summaries": []
-  },
   "python-nltk": {
     "urls": [],
     "summaries": []
@@ -1183,23 +995,7 @@
     "urls": [],
     "summaries": []
   },
-  "python-oletools": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-opencensus-proto": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-openpaperwork-core": {
-    "urls": [],
-    "summaries": []
-  },
   "python-openpyxl": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-opensearch-py": {
     "urls": [],
     "summaries": []
   },
@@ -1208,10 +1004,6 @@
     "summaries": []
   },
   "python-parameterized": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-parsel": {
     "urls": [],
     "summaries": []
   },
@@ -1239,10 +1031,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-pidfile": {
-    "urls": [],
-    "summaries": []
-  },
   "python-pipdeptree": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2414803"
@@ -1251,23 +1039,11 @@
       "python-pipdeptree fails to build with Python 3.15: tests/test_discovery.py::test_invalid_metadata - TypeError: argument of type 'NoneType' is not a container or iterable"
     ]
   },
-  "python-plumbum": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-proton-core": {
-    "urls": [],
-    "summaries": []
-  },
   "python-proton-vpn-api-core": {
     "urls": [],
     "summaries": []
   },
   "python-proton-vpn-network-manager": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-psutil": {
     "urls": [],
     "summaries": []
   },
@@ -1283,10 +1059,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-pulp-glue": {
-    "urls": [],
-    "summaries": []
-  },
   "python-pure-eval": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2414805"
@@ -1294,18 +1066,6 @@
     "summaries": [
       "python-pure-eval fails to build with Python 3.15: pure_eval.utils.CannotEval: CannotEval in 11 tests"
     ]
-  },
-  "python-pwntools": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-pycountry": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-pydepsdev": {
-    "urls": [],
-    "summaries": []
   },
   "python-pydicom": {
     "urls": [],
@@ -1319,19 +1079,11 @@
     "urls": [],
     "summaries": []
   },
-  "python-pyftpdlib": {
-    "urls": [],
-    "summaries": []
-  },
   "python-pygtkspellcheck": {
     "urls": [],
     "summaries": []
   },
   "python-pykdtree": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-pymemcache": {
     "urls": [],
     "summaries": []
   },
@@ -1371,19 +1123,7 @@
     "urls": [],
     "summaries": []
   },
-  "python-pysocks": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-pystemd": {
-    "urls": [],
-    "summaries": []
-  },
   "python-pyswip": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-pytest-aiohttp": {
     "urls": [],
     "summaries": []
   },
@@ -1403,10 +1143,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-pytest-openfiles": {
-    "urls": [],
-    "summaries": []
-  },
   "python-pytest-randomly": {
     "urls": [],
     "summaries": []
@@ -1423,23 +1159,11 @@
     "urls": [],
     "summaries": []
   },
-  "python-pytest-xdist": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-pytest-xprocess": {
-    "urls": [],
-    "summaries": []
-  },
   "python-python-fcl": {
     "urls": [],
     "summaries": []
   },
   "python-pytools": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-pyvirtualdisplay": {
     "urls": [],
     "summaries": []
   },
@@ -1483,10 +1207,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-repoze-sphinx-autointerface": {
-    "urls": [],
-    "summaries": []
-  },
   "python-result": {
     "urls": [],
     "summaries": []
@@ -1519,10 +1239,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-service-identity": {
-    "urls": [],
-    "summaries": []
-  },
   "python-sgp4": {
     "urls": [],
     "summaries": []
@@ -1532,10 +1248,6 @@
     "summaries": []
   },
   "python-soundfile": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-soupsieve": {
     "urls": [],
     "summaries": []
   },
@@ -1568,10 +1280,6 @@
     "summaries": []
   },
   "python-tabulate": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-throttler": {
     "urls": [],
     "summaries": []
   },
@@ -1671,15 +1379,7 @@
     "urls": [],
     "summaries": []
   },
-  "python-x2go": {
-    "urls": [],
-    "summaries": []
-  },
   "python-xmlschema": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-yarl": {
     "urls": [],
     "summaries": []
   },
@@ -1692,22 +1392,6 @@
     "summaries": []
   },
   "python-zlib-ng": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-zope-exceptions": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-zstarfile": {
-    "urls": [],
-    "summaries": []
-  },
-  "python3-mypy": {
-    "urls": [],
-    "summaries": []
-  },
-  "python3.15": {
     "urls": [],
     "summaries": []
   },
@@ -1743,10 +1427,6 @@
     "urls": [],
     "summaries": []
   },
-  "rig": {
-    "urls": [],
-    "summaries": []
-  },
   "rmol": {
     "urls": [],
     "summaries": []
@@ -1771,10 +1451,6 @@
     "urls": [],
     "summaries": []
   },
-  "s-tui": {
-    "urls": [],
-    "summaries": []
-  },
   "scipy": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2424321"
@@ -1782,14 +1458,6 @@
     "summaries": [
       "scipy fails to build with Python 3.15: AssertionError: Not equal to tolerance rtol=0.03125, atol=0"
     ]
-  },
-  "snapm": {
-    "urls": [],
-    "summaries": []
-  },
-  "solaar": {
-    "urls": [],
-    "summaries": []
   },
   "spectrographic": {
     "urls": [],
@@ -1799,15 +1467,7 @@
     "urls": [],
     "summaries": []
   },
-  "sshuttle": {
-    "urls": [],
-    "summaries": []
-  },
   "stp": {
-    "urls": [],
-    "summaries": []
-  },
-  "stratis-cli": {
     "urls": [],
     "summaries": []
   },
@@ -1816,14 +1476,6 @@
     "summaries": []
   },
   "systemtap": {
-    "urls": [],
-    "summaries": []
-  },
-  "terminator": {
-    "urls": [],
-    "summaries": []
-  },
-  "thefuck": {
     "urls": [],
     "summaries": []
   },
@@ -1851,23 +1503,11 @@
     "urls": [],
     "summaries": []
   },
-  "ursa-major": {
-    "urls": [],
-    "summaries": []
-  },
   "uwsgi": {
     "urls": [],
     "summaries": []
   },
   "vdirsyncer": {
-    "urls": [],
-    "summaries": []
-  },
-  "virt-bootstrap": {
-    "urls": [],
-    "summaries": []
-  },
-  "virt-lightning": {
     "urls": [],
     "summaries": []
   },
@@ -1900,10 +1540,6 @@
     "summaries": []
   },
   "xmms2": {
-    "urls": [],
-    "summaries": []
-  },
-  "yle-dl": {
     "urls": [],
     "summaries": []
   },
