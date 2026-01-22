@@ -36,8 +36,12 @@
     "summaries": []
   },
   "argparse-manpage": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2431586"
+    ],
+    "summaries": [
+      "argparse-manpage fails to build with Python 3.15: AttributeError: '_ManpageFormatter' object has no attribute '_theme'. Did you mean: 'of._theme'?"
+    ]
   },
   "assimp": {
     "urls": [],
@@ -70,10 +74,6 @@
     "summaries": [
       "bmap-tools fails to build with Python 3.15: bmaptool.BmapCopy.Error: checksum mismatch for blocks range 34-35"
     ]
-  },
-  "bodhi-client": {
-    "urls": [],
-    "summaries": []
   },
   "boost": {
     "urls": [],
@@ -156,8 +156,12 @@
     "summaries": []
   },
   "esptool": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2431599"
+    ],
+    "summaries": [
+      "esptool fails to build with Python 3.15: AttributeError: 'CustomLoggerIncomplete' object has no attribute '_set_smart_features'. Did you mean: '_smart_features'?"
+    ]
   },
   "fail2ban": {
     "urls": [
@@ -176,6 +180,10 @@
     "summaries": []
   },
   "gdb": {
+    "urls": [],
+    "summaries": []
+  },
+  "gdcm": {
     "urls": [],
     "summaries": []
   },
@@ -220,6 +228,10 @@
     ]
   },
   "kea": {
+    "urls": [],
+    "summaries": []
+  },
+  "kernel": {
     "urls": [],
     "summaries": []
   },
@@ -304,10 +316,6 @@
     "summaries": []
   },
   "liborcus": {
-    "urls": [],
-    "summaries": []
-  },
-  "libpfm": {
     "urls": [],
     "summaries": []
   },
@@ -503,10 +511,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-anyio": {
-    "urls": [],
-    "summaries": []
-  },
   "python-apprise": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2424601"
@@ -536,10 +540,6 @@
     "summaries": []
   },
   "python-astropy-iers-data": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-asyncpg": {
     "urls": [],
     "summaries": []
   },
@@ -847,6 +847,10 @@
     "urls": [],
     "summaries": []
   },
+  "python-gelidum": {
+    "urls": [],
+    "summaries": []
+  },
   "python-geotiler": {
     "urls": [],
     "summaries": []
@@ -864,10 +868,6 @@
     "summaries": []
   },
   "python-hamcrest": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-hiredis": {
     "urls": [],
     "summaries": []
   },
@@ -927,6 +927,10 @@
       "python-kaptan fails to build with Python 3.15: AttributeError: 'SourceFileLoader' object has no attribute 'load_module'. Did you mean: 'exec_module'? in test_py_file_handler and test_py_file_away_handler"
     ]
   },
+  "python-krb5": {
+    "urls": [],
+    "summaries": []
+  },
   "python-lap": {
     "urls": [],
     "summaries": []
@@ -975,13 +979,21 @@
     "urls": [],
     "summaries": []
   },
+  "python-mpmath": {
+    "urls": [],
+    "summaries": []
+  },
   "python-mrcfile": {
     "urls": [],
     "summaries": []
   },
   "python-msrest": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2431658"
+    ],
+    "summaries": [
+      "python-msrest fails to build with Python 3.15: AssertionErrors in two TestServiceClient::test_client_send"
+    ]
   },
   "python-nltk": {
     "urls": [],
@@ -1116,8 +1128,12 @@
     "summaries": []
   },
   "python-pysdl2": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2431587"
+    ],
+    "summaries": [
+      "python-pysdl2 fails to build with Python 3.15: AssertionError: That operation is not supported"
+    ]
   },
   "python-pyside6": {
     "urls": [],
@@ -1212,8 +1228,12 @@
     "summaries": []
   },
   "python-rich": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2431601"
+    ],
+    "summaries": [
+      "python-rich fails to build with Python 3.15: AssertionError in test_inspect_builtin_function_only_python311"
+    ]
   },
   "python-rpmautospec-koji": {
     "urls": [],
@@ -1472,8 +1492,12 @@
     "summaries": []
   },
   "sword": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2431537"
+    ],
+    "summaries": [
+      "sword-1.9.0-36.fc44 FTBFS: tests/swbuftest.cpp:167:41: error: use of deleted function \u2018std::basic_ostream<char, _Traits>& std::operator<<(basic_ostream<char, _Traits>&, const wchar_t*) [with _Traits = char_traits<char>]\u2019"
+    ]
   },
   "systemtap": {
     "urls": [],
