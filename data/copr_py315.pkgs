@@ -278,6 +278,7 @@ gwebsockets	succeeded
 gyp	succeeded
 h5py	failed
 hamlib	failed
+hatch	failed
 hddfancontrol	succeeded
 hexchat	succeeded
 hgsvn	succeeded
@@ -365,7 +366,7 @@ libdnet	succeeded
 libdnf	succeeded
 libesedb	succeeded
 libftdi	failed
-libgexiv2	failed
+libgexiv2	succeeded
 libgit2-glib	succeeded
 libgpiod	succeeded
 libguestfs	succeeded
@@ -581,7 +582,7 @@ pulsecaster	succeeded
 py-radix	succeeded
 py-spidev	succeeded
 py3status	succeeded
-pyOpenSSL	succeeded
+pyOpenSSL	failed
 pyatspi	succeeded
 pyaudio	succeeded
 pybind11	succeeded
@@ -610,6 +611,7 @@ pykakasi	succeeded
 pyke	succeeded
 pykickstart	succeeded
 pykka	succeeded
+pylast	succeeded
 pylibacl	succeeded
 pylibgamerzilla	succeeded
 pymilia	failed
@@ -695,6 +697,7 @@ python-aiohttp-cors	failed
 python-aiohttp-negotiate	succeeded
 python-aiohttp-oauthlib	succeeded
 python-aiohttp-retry	failed
+python-aiohttp-socks	succeeded
 python-aioitertools	succeeded
 python-aiolimiter	succeeded
 python-aiomysql	succeeded
@@ -1093,7 +1096,7 @@ python-croniter	succeeded
 python-crossword	succeeded
 python-crypt-r	succeeded
 python-crypto	succeeded
-python-cryptography	succeeded
+python-cryptography	failed
 python-cs	succeeded
 python-cson	succeeded
 python-css-parser	succeeded
@@ -1482,10 +1485,12 @@ python-http-ece	succeeded
 python-http-server-mock	succeeded
 python-httpagentparser	succeeded
 python-httpbin	succeeded
+python-httpcore	succeeded
 python-httplib2	succeeded
 python-httpretty	succeeded
 python-httpsig-cffi	succeeded
 python-httptools	succeeded
+python-httpx	succeeded
 python-huami-token	succeeded
 python-humanfriendly	succeeded
 python-humanize	succeeded
@@ -1494,6 +1499,7 @@ python-hupper	failed
 python-husl	succeeded
 python-hvac	succeeded
 python-hwdata	succeeded
+python-hypercorn	succeeded
 python-hyperframe	succeeded
 python-hyperlink	succeeded
 python-hypothesis	succeeded
@@ -1536,6 +1542,7 @@ python-into-dbus-python	succeeded
 python-invoke	succeeded
 python-iowait	succeeded
 python-ipcqueue	succeeded
+python-ipfshttpclient	succeeded
 python-ipmi	succeeded
 python-ipuz	succeeded
 python-ipython-pygments-lexers	succeeded
@@ -1914,6 +1921,7 @@ python-pathvalidate	succeeded
 python-patiencediff	succeeded
 python-pbkdf2	succeeded
 python-pbr	succeeded
+python-pbs-installer	succeeded
 python-pcicrawler	succeeded
 python-pdf2image	succeeded
 python-pdfkit	succeeded
@@ -1931,6 +1939,7 @@ python-periodictable	failed
 python-perky	succeeded
 python-persist-queue	succeeded
 python-pexpect	succeeded
+python-pgspecial	succeeded
 python-phonenumbers	succeeded
 python-phply	succeeded
 python-phpserialize	succeeded
@@ -1991,6 +2000,7 @@ python-proton-vpn-network-manager	failed
 python-prov	succeeded
 python-psutil	succeeded
 python-psycopg2	failed
+python-psycopg3	succeeded
 python-ptrace	succeeded
 python-ptyprocess	succeeded
 python-publicsuffix2	succeeded
@@ -2187,6 +2197,7 @@ python-pytest-golden	succeeded
 python-pytest-home	succeeded
 python-pytest-httpbin	succeeded
 python-pytest-httpserver	succeeded
+python-pytest-httpx	succeeded
 python-pytest-isort	succeeded
 python-pytest-lazy-fixture	succeeded
 python-pytest-lazy-fixtures	succeeded
@@ -2199,6 +2210,7 @@ python-pytest-multihost	succeeded
 python-pytest-openfiles	succeeded
 python-pytest-ordering	succeeded
 python-pytest-param-files	succeeded
+python-pytest-postgresql	succeeded
 python-pytest-randomly	failed
 python-pytest-relaxed	succeeded
 python-pytest-remotedata	succeeded
@@ -2210,6 +2222,7 @@ python-pytest-smartcov	succeeded
 python-pytest-sourceorder	succeeded
 python-pytest-spec	succeeded
 python-pytest-split	succeeded
+python-pytest-subprocess	succeeded
 python-pytest-subtests	succeeded
 python-pytest-sugar	succeeded
 python-pytest-testmon	succeeded
@@ -2296,6 +2309,7 @@ python-requests-unixsocket	succeeded
 python-requests_ntlm	succeeded
 python-requestsexceptions	succeeded
 python-requirements-parser	succeeded
+python-requre	succeeded
 python-reretry	succeeded
 python-resolvelib	succeeded
 python-responses	succeeded
@@ -2422,6 +2436,7 @@ python-snakemake-interface-storage-plugins	succeeded
 python-snappy	failed
 python-snaptime	succeeded
 python-sniffio	succeeded
+python-socks	succeeded
 python-socksio	succeeded
 python-solc-ast	succeeded
 python-solcx	succeeded
@@ -2503,6 +2518,7 @@ python-ssh-python	succeeded
 python-sshtunnel	succeeded
 python-standard-mailcap	succeeded
 python-standard-nntplib	succeeded
+python-starlette	succeeded
 python-stdlib-list	succeeded
 python-stdlibs	failed
 python-stdnum	succeeded
@@ -2575,6 +2591,7 @@ python-time-machine	failed
 python-timelib	succeeded
 python-timeout-decorator	succeeded
 python-timeslot	succeeded
+python-tiny-proxy	succeeded
 python-tinycss2	succeeded
 python-tinydb	succeeded
 python-tinygrad	succeeded
@@ -2613,6 +2630,7 @@ python-tw2-core	succeeded
 python-tw2-forms	succeeded
 python-twiggy	succeeded
 python-twilio	failed
+python-twisted	failed
 python-txredisapi	succeeded
 python-typecode	succeeded
 python-typecode-libmagic	succeeded
@@ -2994,6 +3012,7 @@ xcb-proto	succeeded
 xcfun	failed
 xen	succeeded
 xmms2	failed
+xonsh	succeeded
 xpra	succeeded
 xrootd	succeeded
 xwayland-run	succeeded
