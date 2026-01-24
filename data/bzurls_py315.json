@@ -15,19 +15,15 @@
     "urls": [],
     "summaries": []
   },
-  "NLopt": {
-    "urls": [],
-    "summaries": []
-  },
-  "SoapySDR": {
-    "urls": [],
-    "summaries": []
-  },
   "Zim": {
     "urls": [],
     "summaries": []
   },
   "abiword": {
+    "urls": [],
+    "summaries": []
+  },
+  "ansible-core": {
     "urls": [],
     "summaries": []
   },
@@ -51,10 +47,6 @@
     "urls": [],
     "summaries": []
   },
-  "aubio": {
-    "urls": [],
-    "summaries": []
-  },
   "autowrap": {
     "urls": [],
     "summaries": []
@@ -74,18 +66,6 @@
     "summaries": [
       "bmap-tools fails to build with Python 3.15: bmaptool.BmapCopy.Error: checksum mismatch for blocks range 34-35"
     ]
-  },
-  "boost": {
-    "urls": [],
-    "summaries": []
-  },
-  "botan": {
-    "urls": [],
-    "summaries": []
-  },
-  "breezy": {
-    "urls": [],
-    "summaries": []
   },
   "calamares": {
     "urls": [],
@@ -111,35 +91,11 @@
     "urls": [],
     "summaries": []
   },
-  "coin-or-HiGHS": {
-    "urls": [],
-    "summaries": []
-  },
   "collectd": {
     "urls": [],
     "summaries": []
   },
-  "condor": {
-    "urls": [],
-    "summaries": []
-  },
-  "cryptominisat": {
-    "urls": [],
-    "summaries": []
-  },
-  "csdiff": {
-    "urls": [],
-    "summaries": []
-  },
-  "cvc5": {
-    "urls": [],
-    "summaries": []
-  },
   "deluge": {
-    "urls": [],
-    "summaries": []
-  },
-  "dftd4": {
     "urls": [],
     "summaries": []
   },
@@ -179,6 +135,10 @@
     "urls": [],
     "summaries": []
   },
+  "gdal": {
+    "urls": [],
+    "summaries": []
+  },
   "gdb": {
     "urls": [],
     "summaries": []
@@ -187,23 +147,7 @@
     "urls": [],
     "summaries": []
   },
-  "gnucash": {
-    "urls": [],
-    "summaries": []
-  },
   "gpgme": {
-    "urls": [],
-    "summaries": []
-  },
-  "h5py": {
-    "urls": [],
-    "summaries": []
-  },
-  "hamlib": {
-    "urls": [],
-    "summaries": []
-  },
-  "hatch": {
     "urls": [],
     "summaries": []
   },
@@ -239,38 +183,6 @@
     "urls": [],
     "summaries": []
   },
-  "kf6-kcoreaddons": {
-    "urls": [],
-    "summaries": []
-  },
-  "kf6-kguiaddons": {
-    "urls": [],
-    "summaries": []
-  },
-  "kf6-kjobwidgets": {
-    "urls": [],
-    "summaries": []
-  },
-  "kf6-knotifications": {
-    "urls": [],
-    "summaries": []
-  },
-  "kf6-kstatusnotifieritem": {
-    "urls": [],
-    "summaries": []
-  },
-  "kf6-kunitconversion": {
-    "urls": [],
-    "summaries": []
-  },
-  "kf6-kwidgetsaddons": {
-    "urls": [],
-    "summaries": []
-  },
-  "kf6-kxmlgui": {
-    "urls": [],
-    "summaries": []
-  },
   "khal": {
     "urls": [],
     "summaries": []
@@ -280,10 +192,6 @@
     "summaries": []
   },
   "kmymoney": {
-    "urls": [],
-    "summaries": []
-  },
-  "kopeninghours": {
     "urls": [],
     "summaries": []
   },
@@ -299,27 +207,7 @@
     "urls": [],
     "summaries": []
   },
-  "libftdi": {
-    "urls": [],
-    "summaries": []
-  },
-  "libixion": {
-    "urls": [],
-    "summaries": []
-  },
   "libkml": {
-    "urls": [],
-    "summaries": []
-  },
-  "libkolabxml": {
-    "urls": [],
-    "summaries": []
-  },
-  "liborcus": {
-    "urls": [],
-    "summaries": []
-  },
-  "libpst": {
     "urls": [],
     "summaries": []
   },
@@ -342,10 +230,6 @@
     "summaries": [
       "libyui: FTBFS with gcc16 due to C++20 change"
     ]
-  },
-  "lirc": {
-    "urls": [],
-    "summaries": []
   },
   "llvm": {
     "urls": [],
@@ -375,18 +259,6 @@
       "moose fails to build with Python 3.15: moose-core-3.1.5/pymoose/PyRun.h:58:24: error: \u2018Py_GetProgramName\u2019 was not declared in this scope; did you mean \u2018Py_SetProgramName\u2019?"
     ]
   },
-  "nest": {
-    "urls": [],
-    "summaries": []
-  },
-  "netcdf4-python": {
-    "urls": [],
-    "summaries": []
-  },
-  "netplan": {
-    "urls": [],
-    "summaries": []
-  },
   "nextpnr": {
     "urls": [],
     "summaries": []
@@ -395,31 +267,11 @@
     "urls": [],
     "summaries": []
   },
-  "numpy": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2417020"
-    ],
-    "summaries": [
-      "numpy fails to build with Python 3.15: ../numpy/_core/src/multiarray/conversion_utils.h:116:30: error: expected \u2018;\u2019 before \u2018int\u2019"
-    ]
-  },
   "obs-studio": {
     "urls": [],
     "summaries": []
   },
-  "onnx": {
-    "urls": [],
-    "summaries": []
-  },
   "onnxruntime": {
-    "urls": [],
-    "summaries": []
-  },
-  "openbabel": {
-    "urls": [],
-    "summaries": []
-  },
-  "openmeeg": {
     "urls": [],
     "summaries": []
   },
@@ -451,31 +303,11 @@
     "urls": [],
     "summaries": []
   },
-  "pybluez": {
-    "urls": [],
-    "summaries": []
-  },
-  "pygame": {
-    "urls": [],
-    "summaries": []
-  },
-  "pygsl": {
-    "urls": [],
-    "summaries": []
-  },
-  "pymilia": {
-    "urls": [],
-    "summaries": []
-  },
   "pyproj": {
     "urls": [],
     "summaries": []
   },
   "python-Rtree": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-Traits": {
     "urls": [],
     "summaries": []
   },
@@ -539,10 +371,6 @@
       "python-astroid fails to build with Python 3.15: typing.ByteString has been removed from Python, failing TypingBrain.test_typing_object_notsubscriptable_3"
     ]
   },
-  "python-astropy": {
-    "urls": [],
-    "summaries": []
-  },
   "python-astropy-iers-data": {
     "urls": [],
     "summaries": []
@@ -576,14 +404,14 @@
     ]
   },
   "python-beartype": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2432345"
+    ],
+    "summaries": [
+      "python-beartype fails to build with Python 3.15: ImportError: cannot import name 'no_type_check_decorator' from 'typing'"
+    ]
   },
   "python-binary-manager": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-biopython": {
     "urls": [],
     "summaries": []
   },
@@ -594,10 +422,6 @@
     "summaries": [
       "python-blessed fails to build with Python 3.15: Additional space in test_wrap.py::test_SequenceWrapper[1-kwargs5]"
     ]
-  },
-  "python-blosc": {
-    "urls": [],
-    "summaries": []
   },
   "python-blurhash": {
     "urls": [],
@@ -624,14 +448,6 @@
     "summaries": []
   },
   "python-cairocffi": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-calcephpy": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-cftime": {
     "urls": [],
     "summaries": []
   },
@@ -679,14 +495,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-contourpy": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-cramjam": {
-    "urls": [],
-    "summaries": []
-  },
   "python-cryptography": {
     "urls": [],
     "summaries": []
@@ -719,14 +527,6 @@
       "python-dill fails to build with Python 3.15: AttributeError: type object 'object' has no attribute '__weakref__'"
     ]
   },
-  "python-distlib": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2423877"
-    ],
-    "summaries": [
-      "python-distlib fails to build with Python 3.15: TypeError: cache_from_source() takes 1 positional argument but 2 were given"
-    ]
-  },
   "python-django-angular": {
     "urls": [],
     "summaries": []
@@ -740,18 +540,6 @@
     "summaries": []
   },
   "python-django-rules": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-ducc0": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-dunamai": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-eccodes": {
     "urls": [],
     "summaries": []
   },
@@ -799,10 +587,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-fast-simplification": {
-    "urls": [],
-    "summaries": []
-  },
   "python-fastprogress": {
     "urls": [],
     "summaries": []
@@ -819,15 +603,11 @@
     "urls": [],
     "summaries": []
   },
-  "python-fisx": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-fitsio": {
-    "urls": [],
-    "summaries": []
-  },
   "python-flask": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-flask-babel": {
     "urls": [],
     "summaries": []
   },
@@ -851,23 +631,11 @@
       "python-fs fails to build with Python 3.15: AttributeError: 'DocTestCase' object has no attribute '_test_result'"
     ]
   },
-  "python-gattlib": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-gelidum": {
-    "urls": [],
-    "summaries": []
-  },
   "python-geotiler": {
     "urls": [],
     "summaries": []
   },
   "python-giacpy": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-gsd": {
     "urls": [],
     "summaries": []
   },
@@ -915,10 +683,6 @@
       "python-jedi fails to build with Python 3.15: multiple AssertionError in tests"
     ]
   },
-  "python-jupymake": {
-    "urls": [],
-    "summaries": []
-  },
   "python-kadmin": {
     "urls": [],
     "summaries": []
@@ -939,19 +703,7 @@
     "urls": [],
     "summaries": []
   },
-  "python-lap": {
-    "urls": [],
-    "summaries": []
-  },
   "python-manatools": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-mapbox-earcut": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-mapnik": {
     "urls": [],
     "summaries": []
   },
@@ -1004,10 +756,6 @@
     ]
   },
   "python-nltk": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-numexpr": {
     "urls": [],
     "summaries": []
   },
@@ -1091,10 +839,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-pyerfa": {
-    "urls": [],
-    "summaries": []
-  },
   "python-pyformlang": {
     "urls": [],
     "summaries": []
@@ -1103,23 +847,7 @@
     "urls": [],
     "summaries": []
   },
-  "python-pykdtree": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-pynest2d": {
-    "urls": [],
-    "summaries": []
-  },
   "python-pyobd": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-pyopencl": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-pyopengl": {
     "urls": [],
     "summaries": []
   },
@@ -1131,10 +859,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-pyscipopt": {
-    "urls": [],
-    "summaries": []
-  },
   "python-pysdl2": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2431587"
@@ -1142,10 +866,6 @@
     "summaries": [
       "python-pysdl2 fails to build with Python 3.15: AssertionError: That operation is not supported"
     ]
-  },
-  "python-pyside6": {
-    "urls": [],
-    "summaries": []
   },
   "python-pyswip": {
     "urls": [],
@@ -1180,10 +900,6 @@
     ]
   },
   "python-pytest-trio": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-python-fcl": {
     "urls": [],
     "summaries": []
   },
@@ -1267,23 +983,11 @@
     "urls": [],
     "summaries": []
   },
-  "python-sgp4": {
-    "urls": [],
-    "summaries": []
-  },
   "python-snappy": {
     "urls": [],
     "summaries": []
   },
   "python-soundfile": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-sphinx-design": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-sphinx-inline-tabs": {
     "urls": [],
     "summaries": []
   },
@@ -1347,17 +1051,17 @@
       "python-translitcodec fails to build with Python 3.15: 8 tests failing with LookupError: unknown encoding: translit/*"
     ]
   },
-  "python-triton": {
-    "urls": [],
-    "summaries": []
-  },
   "python-twilio": {
     "urls": [],
     "summaries": []
   },
   "python-twisted": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2432344"
+    ],
+    "summaries": [
+      "python-twisted fails to build with Python 3.15: twisted.trial.unittest.FailTest: 5 != 7, builtins.AttributeError: 'SourceFileLoader' object has no attribute 'load_module' and one more"
+    ]
   },
   "python-typeguard": {
     "urls": [
@@ -1387,10 +1091,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-vhacdx": {
-    "urls": [],
-    "summaries": []
-  },
   "python-visvis": {
     "urls": [],
     "summaries": []
@@ -1404,10 +1104,6 @@
     "summaries": []
   },
   "python-websockets": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-wxpython4": {
     "urls": [],
     "summaries": []
   },
@@ -1427,21 +1123,17 @@
     "urls": [],
     "summaries": []
   },
-  "pywhispercpp": {
-    "urls": [],
-    "summaries": []
-  },
-  "quisk": {
+  "python-zope-testrunner": {
     "urls": [],
     "summaries": []
   },
   "quodlibet": {
-    "urls": [],
-    "summaries": []
-  },
-  "rb_libtorrent": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2432343"
+    ],
+    "summaries": [
+      "quodlibet fails to build with Python 3.15: AttributeError: 'RedirectImportHook' object has no attribute 'exec_module'. Did you mean: 'find_module'?"
+    ]
   },
   "recoll": {
     "urls": [],
@@ -1479,27 +1171,23 @@
     "urls": [],
     "summaries": []
   },
-  "ruff": {
+  "scipy": {
     "urls": [],
     "summaries": []
   },
-  "scipy": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2424321"
-    ],
-    "summaries": [
-      "scipy fails to build with Python 3.15: AssertionError: Not equal to tolerance rtol=0.03125, atol=0"
-    ]
+  "sourcextractor++": {
+    "urls": [],
+    "summaries": []
   },
   "spectrographic": {
     "urls": [],
     "summaries": []
   },
-  "spglib": {
+  "stp": {
     "urls": [],
     "summaries": []
   },
-  "stp": {
+  "swig": {
     "urls": [],
     "summaries": []
   },
@@ -1510,10 +1198,6 @@
     "summaries": [
       "sword-1.9.0-36.fc44 FTBFS: tests/swbuftest.cpp:167:41: error: use of deleted function \u2018std::basic_ostream<char, _Traits>& std::operator<<(basic_ostream<char, _Traits>&, const wchar_t*) [with _Traits = char_traits<char>]\u2019"
     ]
-  },
-  "systemtap": {
-    "urls": [],
-    "summaries": []
   },
   "thrift": {
     "urls": [],
@@ -1528,14 +1212,6 @@
     "summaries": []
   },
   "trellis": {
-    "urls": [],
-    "summaries": []
-  },
-  "uhd": {
-    "urls": [],
-    "summaries": []
-  },
-  "urjtag": {
     "urls": [],
     "summaries": []
   },
@@ -1571,19 +1247,7 @@
     "urls": [],
     "summaries": []
   },
-  "xcfun": {
-    "urls": [],
-    "summaries": []
-  },
-  "xmms2": {
-    "urls": [],
-    "summaries": []
-  },
   "zbar": {
-    "urls": [],
-    "summaries": []
-  },
-  "zfp": {
     "urls": [],
     "summaries": []
   }
