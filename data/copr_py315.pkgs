@@ -28,6 +28,7 @@ aactivator	succeeded
 abiword	failed
 abrt	succeeded
 abrt-server-info-page	succeeded
+academic-admin	succeeded
 accerciser	succeeded
 adb-enhanced	succeeded
 afflib	succeeded
@@ -49,8 +50,8 @@ arandr	succeeded
 argparse-manpage	failed
 asahi-installer	succeeded
 asciidoc	succeeded
-assimp	failed
-astrometry	failed
+assimp	succeeded
+astrometry	succeeded
 at-spi2-core	succeeded
 atomic-reactor	succeeded
 aubio	succeeded
@@ -83,6 +84,7 @@ borgmatic	succeeded
 botan	succeeded
 botan2	succeeded
 botan3	succeeded
+bpython	succeeded
 breezy	succeeded
 brltty	succeeded
 brotli	succeeded
@@ -220,7 +222,7 @@ gajim	succeeded
 gammastep	succeeded
 ganglia	succeeded
 gcovr	succeeded
-gdal	failed
+gdal	succeeded
 gdb	failed
 gdcm	failed
 gensio	succeeded
@@ -270,7 +272,7 @@ graphviz	succeeded
 grin	succeeded
 grpc	succeeded
 gst	succeeded
-gst-devtools	succeeded
+gst-devtools	failed
 gst-editing-services	succeeded
 gtimelog	succeeded
 gtts	succeeded
@@ -316,6 +318,7 @@ jc	failed
 jello	succeeded
 jrnl	succeeded
 jsonnet	succeeded
+kalamine	succeeded
 kea	failed
 kernel	failed
 keycloak-httpd-client-install	succeeded
@@ -553,6 +556,7 @@ pass-audit	succeeded
 patool	succeeded
 pcapy	succeeded
 pcp2pdf	succeeded
+pcs	failed
 pdf-stapler	succeeded
 pdfarranger	succeeded
 pepc	succeeded
@@ -560,6 +564,7 @@ perl-Inline-Python	succeeded
 persepolis	succeeded
 petsc	failed
 pew	succeeded
+pg_activity	succeeded
 photocollage	succeeded
 piccata	succeeded
 piper	succeeded
@@ -933,7 +938,7 @@ python-bitmath	succeeded
 python-bitstring	succeeded
 python-bitstruct	succeeded
 python-bleach	succeeded
-python-blessed	failed
+python-blessed	succeeded
 python-blessings	succeeded
 python-blinker	succeeded
 python-blivet	succeeded
@@ -1015,6 +1020,7 @@ python-click-threading	succeeded
 python-cligj	succeeded
 python-cloud-sptheme	succeeded
 python-cloudflare	succeeded
+python-cloudpickle	succeeded
 python-cloudscraper	succeeded
 python-cloup	succeeded
 python-cma	failed
@@ -1125,6 +1131,7 @@ python-cucumber-expressions	succeeded
 python-cucumber-tag-expressions	succeeded
 python-cups	succeeded
 python-curio	succeeded
+python-curtsies	succeeded
 python-cvdupdate	succeeded
 python-cvelib	succeeded
 python-cvss	succeeded
@@ -1214,6 +1221,7 @@ python-django-pglocks	succeeded
 python-django-picklefield	succeeded
 python-django-pipeline	succeeded
 python-django-pytest	succeeded
+python-django-q	succeeded
 python-django-q2	succeeded
 python-django-redis	succeeded
 python-django-rest-framework	succeeded
@@ -1282,6 +1290,8 @@ python-email-validator	succeeded
 python-emoji	succeeded
 python-empy	succeeded
 python-enchant	failed
+python-engineio	succeeded
+python-enlighten	succeeded
 python-enthought-sphinx-theme	succeeded
 python-entrypoints	succeeded
 python-environs	succeeded
@@ -1559,6 +1569,7 @@ python-injector	succeeded
 python-inkex	failed
 python-inotify	succeeded
 python-inotify_simple	succeeded
+python-inquirer	failed
 python-installer	succeeded
 python-intbitset	succeeded
 python-interface-meta	succeeded
@@ -1611,6 +1622,7 @@ python-jinja2_pluralize	succeeded
 python-jira	succeeded
 python-jmespath	succeeded
 python-jnius	succeeded
+python-joblib	failed
 python-josepy	succeeded
 python-journal-brief	succeeded
 python-jsmin	succeeded
@@ -1634,9 +1646,13 @@ python-jstyleson	succeeded
 python-junitparser	succeeded
 python-junitxml	succeeded
 python-jupymake	succeeded
+python-jupyter-client	succeeded
 python-jupyter-core	succeeded
 python-jupyter-events	succeeded
+python-jupyter-lsp	succeeded
 python-jupyter-packaging	succeeded
+python-jupyter-server	succeeded
+python-jupyter-server-terminals	succeeded
 python-jupyterlab_pygments	succeeded
 python-justbases	succeeded
 python-justbytes	succeeded
@@ -1696,6 +1712,7 @@ python-linux-procfs	succeeded
 python-linuxdoc	succeeded
 python-listparser	succeeded
 python-littleutils	succeeded
+python-livereload	succeeded
 python-llfuse	succeeded
 python-llvmlite	succeeded
 python-lmdb	succeeded
@@ -1838,6 +1855,8 @@ python-nagiosplugin	succeeded
 python-name-that-hash	succeeded
 python-nanobind	succeeded
 python-natsort	succeeded
+python-nbclient	succeeded
+python-nbconvert	succeeded
 python-nbformat	succeeded
 python-nbxmpp	succeeded
 python-ncclient	succeeded
@@ -2260,6 +2279,7 @@ python-pytest-sugar	succeeded
 python-pytest-testmon	succeeded
 python-pytest-timeout	succeeded
 python-pytest-tldr	failed
+python-pytest-tornado	failed
 python-pytest-trio	failed
 python-pytest-venv	succeeded
 python-pytest-watch	succeeded
@@ -2419,7 +2439,7 @@ python-semver	succeeded
 python-send2trash	succeeded
 python-sentinels	succeeded
 python-sentry-sdk	succeeded
-python-sep	failed
+python-sep	succeeded
 python-serpent	succeeded
 python-service-identity	succeeded
 python-setproctitle	succeeded
@@ -2604,9 +2624,11 @@ python-tempdir	succeeded
 python-tempita	succeeded
 python-templated-dictionary	succeeded
 python-tempora	succeeded
+python-tenacity	succeeded
 python-tensile	succeeded
 python-term-background	succeeded
 python-termcolor	succeeded
+python-terminado	succeeded
 python-terminaltables	succeeded
 python-terminaltables3	succeeded
 python-testfixtures	succeeded
@@ -2645,7 +2667,7 @@ python-tomli	failed
 python-tomli-w	succeeded
 python-tomlkit	succeeded
 python-toolz	succeeded
-python-tornado	failed
+python-tornado	succeeded
 python-tox	succeeded
 python-tox-current-env	succeeded
 python-tox-uv	succeeded
@@ -2836,6 +2858,7 @@ python-zict	failed
 python-zipp	succeeded
 python-zipstream	succeeded
 python-zlib-ng	failed
+python-zmq	succeeded
 python-zombie-imp	succeeded
 python-zope-component	succeeded
 python-zope-event	succeeded
@@ -2997,7 +3020,7 @@ tldr	succeeded
 tlsh	succeeded
 todocli	succeeded
 tomcli	succeeded
-toot	succeeded
+toot	failed
 torbrowser-launcher	succeeded
 totpcgi	failed
 tpm2-pkcs11	succeeded
@@ -3047,6 +3070,7 @@ visidata	succeeded
 vit	succeeded
 volk	succeeded
 volume_key	succeeded
+vtk	succeeded
 waf	failed
 wafw00f	succeeded
 weechat	succeeded

@@ -39,14 +39,6 @@
       "argparse-manpage fails to build with Python 3.15: AttributeError: '_ManpageFormatter' object has no attribute '_theme'. Did you mean: 'of._theme'?"
     ]
   },
-  "assimp": {
-    "urls": [],
-    "summaries": []
-  },
-  "astrometry": {
-    "urls": [],
-    "summaries": []
-  },
   "autowrap": {
     "urls": [],
     "summaries": []
@@ -131,10 +123,6 @@
     "urls": [],
     "summaries": []
   },
-  "gdal": {
-    "urls": [],
-    "summaries": []
-  },
   "gdb": {
     "urls": [],
     "summaries": []
@@ -144,6 +132,10 @@
     "summaries": []
   },
   "gpgme": {
+    "urls": [],
+    "summaries": []
+  },
+  "gst-devtools": {
     "urls": [],
     "summaries": []
   },
@@ -291,6 +283,10 @@
     "urls": [],
     "summaries": []
   },
+  "pcs": {
+    "urls": [],
+    "summaries": []
+  },
   "petsc": {
     "urls": [],
     "summaries": []
@@ -402,14 +398,6 @@
   "python-binary-manager": {
     "urls": [],
     "summaries": []
-  },
-  "python-blessed": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2414791"
-    ],
-    "summaries": [
-      "python-blessed fails to build with Python 3.15: Additional space in test_wrap.py::test_SequenceWrapper[1-kwargs5]"
-    ]
   },
   "python-blurhash": {
     "urls": [],
@@ -659,6 +647,10 @@
     "urls": [],
     "summaries": []
   },
+  "python-inquirer": {
+    "urls": [],
+    "summaries": []
+  },
   "python-intervaltree": {
     "urls": [],
     "summaries": []
@@ -674,6 +666,10 @@
     "summaries": [
       "python-jedi fails to build with Python 3.15: multiple AssertionError in tests"
     ]
+  },
+  "python-joblib": {
+    "urls": [],
+    "summaries": []
   },
   "python-kadmin": {
     "urls": [],
@@ -895,6 +891,10 @@
       "python-pytest-tldr fails to build with Python 3.15: tests/test_plugins.py::test_coverage: remains unmatched: '*----- coverage: platform *-----'"
     ]
   },
+  "python-pytest-tornado": {
+    "urls": [],
+    "summaries": []
+  },
   "python-pytest-trio": {
     "urls": [],
     "summaries": []
@@ -975,10 +975,6 @@
       "python-rstr fails to build with Python 3.15: 3 errors when collecting tests: ModuleNotFoundError: No module named 'sre_parse'"
     ]
   },
-  "python-sep": {
-    "urls": [],
-    "summaries": []
-  },
   "python-snappy": {
     "urls": [],
     "summaries": []
@@ -1029,14 +1025,6 @@
     ],
     "summaries": [
       "python-tomli fails to build with Python 3.15: /usr/lib/python3.15/site-packages/mypyc/lib-rt/pythonsupport.h:125:5: error: \u2018_PyObject_GetAttrId\u2019 is deprecated"
-    ]
-  },
-  "python-tornado": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2414557"
-    ],
-    "summaries": [
-      "python-tornado fails to build with Python 3.15: ERROR: test_multi_process"
     ]
   },
   "python-translitcodec": {
@@ -1192,6 +1180,10 @@
     ]
   },
   "thrift": {
+    "urls": [],
+    "summaries": []
+  },
+  "toot": {
     "urls": [],
     "summaries": []
   },
