@@ -7,29 +7,33 @@
       "389-ds-base fails to build with Python 3.15: AttributeError: 'CustomHelpFormatter' object has no attribute '_format_actions_usage'"
     ]
   },
-  "DisplayCAL": {
-    "urls": [],
-    "summaries": []
-  },
-  "Macaulay2": {
-    "urls": [],
-    "summaries": []
-  },
   "Zim": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2433851"
+    ],
+    "summaries": [
+      "Zim: FTBFS in Fedora rawhide/f44"
+    ]
   },
   "abiword": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2433852"
+    ],
+    "summaries": [
+      "abiword: FTBFS in Fedora rawhide/f44"
+    ]
   },
   "ansible-core": {
     "urls": [],
     "summaries": []
   },
   "apbs": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2433862"
+    ],
+    "summaries": [
+      "apbs: FTBFS in Fedora rawhide/f44"
+    ]
   },
   "argparse-manpage": {
     "urls": [
@@ -39,17 +43,17 @@
       "argparse-manpage fails to build with Python 3.15: AttributeError: '_ManpageFormatter' object has no attribute '_theme'. Did you mean: 'of._theme'?"
     ]
   },
-  "autowrap": {
-    "urls": [],
-    "summaries": []
-  },
   "awscli2": {
     "urls": [],
     "summaries": []
   },
   "bluechi": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2433883"
+    ],
+    "summaries": [
+      "bluechi: FTBFS in Fedora rawhide/f44"
+    ]
   },
   "bmap-tools": {
     "urls": [
@@ -59,41 +63,37 @@
       "bmap-tools fails to build with Python 3.15: bmaptool.BmapCopy.Error: checksum mismatch for blocks range 34-35"
     ]
   },
-  "calamares": {
-    "urls": [],
-    "summaries": []
-  },
-  "cantor": {
-    "urls": [],
-    "summaries": []
-  },
   "ceph": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2433903"
+    ],
+    "summaries": [
+      "ceph: FTBFS in Fedora rawhide/f44"
+    ]
   },
   "classification-banner": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2433911"
+    ],
+    "summaries": [
+      "classification-banner: FTBFS in Fedora rawhide/f44"
+    ]
   },
   "cmakelang": {
-    "urls": [],
-    "summaries": []
-  },
-  "collectd": {
-    "urls": [],
-    "summaries": []
-  },
-  "deluge": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2433805"
+    ],
+    "summaries": [
+      "cmakelang fails to build with Python 3.15: ValueError: Cannot use capturing groups in re.Scanner and multiple AssertionErrors"
+    ]
   },
   "dnf-plugin-diff": {
-    "urls": [],
-    "summaries": []
-  },
-  "elements": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2433989"
+    ],
+    "summaries": [
+      "dnf-plugin-diff: FTBFS in Fedora rawhide/f44"
+    ]
   },
   "elements-alexandria": {
     "urls": [],
@@ -116,16 +116,12 @@
     ]
   },
   "fapolicy-analyzer": {
-    "urls": [],
-    "summaries": []
-  },
-  "flatbuffers": {
-    "urls": [],
-    "summaries": []
-  },
-  "gdb": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2434029"
+    ],
+    "summaries": [
+      "fapolicy-analyzer: FTBFS in Fedora rawhide/f44"
+    ]
   },
   "gdcm": {
     "urls": [],
@@ -136,6 +132,10 @@
     "summaries": []
   },
   "gst-devtools": {
+    "urls": [],
+    "summaries": []
+  },
+  "gst-editing-services": {
     "urls": [],
     "summaries": []
   },
@@ -163,27 +163,15 @@
       "jc fails to build with Python 3.15: AssertionError: 'format': 1760, != 'format': 7250,"
     ]
   },
-  "kea": {
-    "urls": [],
-    "summaries": []
-  },
-  "kernel": {
-    "urls": [],
-    "summaries": []
-  },
   "khal": {
     "urls": [],
     "summaries": []
   },
-  "kig": {
+  "kicad": {
     "urls": [],
     "summaries": []
   },
   "kmymoney": {
-    "urls": [],
-    "summaries": []
-  },
-  "lammps": {
     "urls": [],
     "summaries": []
   },
@@ -207,7 +195,7 @@
     "urls": [],
     "summaries": []
   },
-  "libxc": {
+  "libsvm": {
     "urls": [],
     "summaries": []
   },
@@ -227,14 +215,6 @@
     "urls": [],
     "summaries": []
   },
-  "mathgl": {
-    "urls": [],
-    "summaries": []
-  },
-  "meson": {
-    "urls": [],
-    "summaries": []
-  },
   "mlpack": {
     "urls": [],
     "summaries": []
@@ -247,15 +227,7 @@
       "moose fails to build with Python 3.15: moose-core-3.1.5/pymoose/PyRun.h:58:24: error: \u2018Py_GetProgramName\u2019 was not declared in this scope; did you mean \u2018Py_SetProgramName\u2019?"
     ]
   },
-  "nextpnr": {
-    "urls": [],
-    "summaries": []
-  },
   "nicotine+": {
-    "urls": [],
-    "summaries": []
-  },
-  "obs-studio": {
     "urls": [],
     "summaries": []
   },
@@ -271,7 +243,7 @@
     "urls": [],
     "summaries": []
   },
-  "opentrep": {
+  "openvino": {
     "urls": [],
     "summaries": []
   },
@@ -296,10 +268,6 @@
     "summaries": []
   },
   "pyproj": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-Rtree": {
     "urls": [],
     "summaries": []
   },
@@ -331,23 +299,15 @@
     "urls": [],
     "summaries": []
   },
-  "python-aiohttp-cors": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-aiohttp-retry": {
-    "urls": [],
-    "summaries": []
-  },
   "python-apprise": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2433807"
+    ],
+    "summaries": [
+      "python-apprise fails to build with Python 3.15: AssertionError: test_apprise_cli_persistent_storage"
+    ]
   },
   "python-arpeggio": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-array-api-strict": {
     "urls": [],
     "summaries": []
   },
@@ -399,10 +359,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-blurhash": {
-    "urls": [],
-    "summaries": []
-  },
   "python-bokeh": {
     "urls": [],
     "summaries": []
@@ -439,18 +395,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-cma": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-cmake-build-extension": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-cmap": {
-    "urls": [],
-    "summaries": []
-  },
   "python-coincurve": {
     "urls": [],
     "summaries": []
@@ -463,35 +407,7 @@
       "python-colcon-core: Fails to build with setuptools 80.9.0, fails to install [pins setuptools < 80, test_build_package fails]"
     ]
   },
-  "python-collada": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-colormath2": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-cryptography": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-dateutil": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2423882"
-    ],
-    "summaries": [
-      "python-dateutil fails to build with Python 3.15: test_tzlocal_local_time_trim_colon: AssertionError: assert tz.gettz() is not None"
-    ]
-  },
   "python-dbus-fast": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-dictdiffer": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-dijitso": {
     "urls": [],
     "summaries": []
   },
@@ -508,8 +424,12 @@
     "summaries": []
   },
   "python-django-configurations": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2433919"
+    ],
+    "summaries": [
+      "python-django-configurations fails to build with Python 3.15: AttributeError: 'ConfigurationLoader' object has no attribute 'exec_module'. Did you mean: 'load_module'?"
+    ]
   },
   "python-django-health-check": {
     "urls": [],
@@ -527,24 +447,12 @@
     "urls": [],
     "summaries": []
   },
-  "python-enchant": {
-    "urls": [],
-    "summaries": []
-  },
   "python-et_xmlfile": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2424294"
     ],
     "summaries": [
       "python-et_xmlfile fails to build with Python 3.15: ElementTreeTest.test_iterparse: AssertionError: Lists differ: [<WarningMessage {message : ResourceWarnin[235 chars]ne}>] != []"
-    ]
-  },
-  "python-eth-stdlib": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2423875"
-    ],
-    "summaries": [
-      "python-eth-stdlib fails to build in Copr: RPM build errors: error: Bad file: /builddir/build/SOURCES/python-eth-stdlib-0004-Fix-for-modern-poetry.patch: No such file or directory"
     ]
   },
   "python-exceptiongroup": {
@@ -567,10 +475,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-fastprogress": {
-    "urls": [],
-    "summaries": []
-  },
   "python-fido2": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2424579"
@@ -579,17 +483,17 @@
       "python-fido2 fails to build with Python 3.15: tests failures: AssertionError: 'TYPE.CREATE' != 'webauthn.create' and more"
     ]
   },
-  "python-fireflyalgorithm": {
-    "urls": [],
-    "summaries": []
-  },
   "python-flask": {
     "urls": [],
     "summaries": []
   },
   "python-flask-babel": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2433806"
+    ],
+    "summaries": [
+      "python-flask-babel fails to build with Python 3.15: AssertionError: assert 'ja' == 'de'"
+    ]
   },
   "python-flask-oidc": {
     "urls": [
@@ -598,10 +502,6 @@
     "summaries": [
       "python-flask-oidc fails to build with Python 3.15: 'error_description': \"Missing 'Authorization' in headers.\"} != {'error_description': 'Missing \"Authorization\" in headers.'"
     ]
-  },
-  "python-freeqdsk": {
-    "urls": [],
-    "summaries": []
   },
   "python-fs": {
     "urls": [
@@ -619,27 +519,19 @@
     "urls": [],
     "summaries": []
   },
-  "python-h5netcdf": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-hamcrest": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-humblewx": {
+  "python-gstreamer1": {
     "urls": [],
     "summaries": []
   },
   "python-hupper": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2433885"
+    ],
+    "summaries": [
+      "python-hupper fails to build with Python 3.15: ModuleNotFoundError: No module named 'pytest_cov.embed'"
+    ]
   },
   "python-hypothesmith": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-imageio": {
     "urls": [],
     "summaries": []
   },
@@ -648,10 +540,6 @@
     "summaries": []
   },
   "python-inquirer": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-intervaltree": {
     "urls": [],
     "summaries": []
   },
@@ -672,10 +560,6 @@
     "summaries": []
   },
   "python-kadmin": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-kafka": {
     "urls": [],
     "summaries": []
   },
@@ -700,12 +584,12 @@
     "summaries": []
   },
   "python-matplotlib": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-meshio": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2433761"
+    ],
+    "summaries": [
+      "python-matplotlib fails to build with Python 3.15: failure of test_norm_callback and test_fork"
+    ]
   },
   "python-mirrors-countme": {
     "urls": [
@@ -716,14 +600,6 @@
     ]
   },
   "python-mkdocs-autorefs": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-mmtf": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-mockito": {
     "urls": [],
     "summaries": []
   },
@@ -743,19 +619,15 @@
       "python-msrest fails to build with Python 3.15: AssertionErrors in two TestServiceClient::test_client_send"
     ]
   },
+  "python-ncclient": {
+    "urls": [],
+    "summaries": []
+  },
   "python-nltk": {
     "urls": [],
     "summaries": []
   },
   "python-oauthlib": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-openpyxl": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-opytimark": {
     "urls": [],
     "summaries": []
   },
@@ -783,10 +655,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-periodictable": {
-    "urls": [],
-    "summaries": []
-  },
   "python-pipdeptree": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2414803"
@@ -799,10 +667,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-proton-vpn-network-manager": {
-    "urls": [],
-    "summaries": []
-  },
   "python-psycopg2": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2414801"
@@ -810,10 +674,6 @@
     "summaries": [
       "python-psycopg2 fails to build with Python 3.15: error: implicit declaration of function \u2018PyWeakref_GetObject\u2019; did you mean \u2018PyWeakref_GetRef\u2019?"
     ]
-  },
-  "python-pulp": {
-    "urls": [],
-    "summaries": []
   },
   "python-pure-eval": {
     "urls": [
@@ -823,27 +683,15 @@
       "python-pure-eval fails to build with Python 3.15: pure_eval.utils.CannotEval: CannotEval in 11 tests"
     ]
   },
-  "python-pydicom": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-pyformlang": {
-    "urls": [],
-    "summaries": []
-  },
   "python-pygtkspellcheck": {
     "urls": [],
     "summaries": []
   },
-  "python-pyobd": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-pyopengltk": {
-    "urls": [],
-    "summaries": []
-  },
   "python-pyqt6": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pyrsistent": {
     "urls": [],
     "summaries": []
   },
@@ -859,10 +707,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-pytaglib": {
-    "urls": [],
-    "summaries": []
-  },
   "python-pytest-django": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2424593"
@@ -871,15 +715,7 @@
       "python-pytest-django fails to build with Python 3.15: AttributeError: 'ConfigurationLoader' object has no attribute 'exec_module'. Did you mean: 'load_module'?"
     ]
   },
-  "python-pytest-doctestplus": {
-    "urls": [],
-    "summaries": []
-  },
   "python-pytest-freezegun": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-pytest-randomly": {
     "urls": [],
     "summaries": []
   },
@@ -899,15 +735,7 @@
     "urls": [],
     "summaries": []
   },
-  "python-pytools": {
-    "urls": [],
-    "summaries": []
-  },
   "python-qt5": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-quantities": {
     "urls": [],
     "summaries": []
   },
@@ -935,13 +763,13 @@
       "python-readme-renderer fails to build with Python 3.15: test_cli_package: No content rendered from RST source."
     ]
   },
-  "python-redis": {
-    "urls": [],
-    "summaries": []
-  },
   "python-reportlab": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2433920"
+    ],
+    "summaries": [
+      "python-reportlab fails to build with Python 3.15: TypeError: _LoaderBasics.exec_module() missing 1 required positional argument: 'module'"
+    ]
   },
   "python-result": {
     "urls": [],
@@ -959,14 +787,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-rq": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2414802"
-    ],
-    "summaries": [
-      "python-rq fails to build with Python 3.15: AssertionError in TestDependencies.test_dependencies_are_met_at_execution_time"
-    ]
-  },
   "python-rstr": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2414567"
@@ -974,14 +794,6 @@
     "summaries": [
       "python-rstr fails to build with Python 3.15: 3 errors when collecting tests: ModuleNotFoundError: No module named 'sre_parse'"
     ]
-  },
-  "python-snappy": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-soundfile": {
-    "urls": [],
-    "summaries": []
   },
   "python-stdlibs": {
     "urls": [
@@ -991,11 +803,11 @@
       "python-stdlibs fails to build with Python 3.15: test_sys_stdlib_modules_agrees: AssertionError: Items in the second set but not the first: '_math_integer'"
     ]
   },
-  "python-supersmoother": {
+  "python-strictyaml": {
     "urls": [],
     "summaries": []
   },
-  "python-svg2tikz": {
+  "python-supersmoother": {
     "urls": [],
     "summaries": []
   },
@@ -1004,10 +816,6 @@
     "summaries": []
   },
   "python-tabulate": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-tifffile": {
     "urls": [],
     "summaries": []
   },
@@ -1034,10 +842,6 @@
     "summaries": [
       "python-translitcodec fails to build with Python 3.15: 8 tests failing with LookupError: unknown encoding: translit/*"
     ]
-  },
-  "python-twilio": {
-    "urls": [],
-    "summaries": []
   },
   "python-twisted": {
     "urls": [
@@ -1075,14 +879,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-visvis": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-wavio": {
-    "urls": [],
-    "summaries": []
-  },
   "python-websocket-client": {
     "urls": [],
     "summaries": []
@@ -1095,10 +891,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-yte": {
-    "urls": [],
-    "summaries": []
-  },
   "python-zict": {
     "urls": [],
     "summaries": []
@@ -1108,8 +900,12 @@
     "summaries": []
   },
   "python-zope-testrunner": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2433888"
+    ],
+    "summaries": [
+      "python-zope-testrunner fails to build with Python 3.15: help2man: can't get `--help' info from /builddir/build/BUILD/python-zope-testrunner-8.1-build/BUILDROOT/usr/bin/zope-testrunner"
+    ]
   },
   "quodlibet": {
     "urls": [
@@ -1126,14 +922,6 @@
     "summaries": [
       "renderdoc fails to build with Python 3.15: qrenderdoc_python.cxx:2296:13: error: \u2018PyWeakref_GET_OBJECT\u2019 was not declared in this scope"
     ]
-  },
-  "retis": {
-    "urls": [],
-    "summaries": []
-  },
-  "rmol": {
-    "urls": [],
-    "summaries": []
   },
   "root": {
     "urls": [],
@@ -1159,14 +947,6 @@
     "urls": [],
     "summaries": []
   },
-  "spectrographic": {
-    "urls": [],
-    "summaries": []
-  },
-  "stp": {
-    "urls": [],
-    "summaries": []
-  },
   "swig": {
     "urls": [],
     "summaries": []
@@ -1179,19 +959,7 @@
       "sword-1.9.0-36.fc44 FTBFS: tests/swbuftest.cpp:167:41: error: use of deleted function \u2018std::basic_ostream<char, _Traits>& std::operator<<(basic_ostream<char, _Traits>&, const wchar_t*) [with _Traits = char_traits<char>]\u2019"
     ]
   },
-  "thrift": {
-    "urls": [],
-    "summaries": []
-  },
   "toot": {
-    "urls": [],
-    "summaries": []
-  },
-  "trademgen": {
-    "urls": [],
-    "summaries": []
-  },
-  "trelby": {
     "urls": [],
     "summaries": []
   },
@@ -1199,21 +967,13 @@
     "urls": [],
     "summaries": []
   },
-  "uwsgi": {
-    "urls": [],
-    "summaries": []
-  },
-  "vdirsyncer": {
-    "urls": [],
-    "summaries": []
-  },
-  "vdr-epg-daemon": {
-    "urls": [],
-    "summaries": []
-  },
-  "vdr-epg2vdr": {
-    "urls": [],
-    "summaries": []
+  "usd": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2433881"
+    ],
+    "summaries": [
+      "usd fails to build with Python 3.15: /builddir/build/BUILD/usd-25.11-build/OpenUSD-25.11/pxr/base/tf/pyIdentity.cpp:139:16: error: \u2018PyWeakref_GetObject\u2019 was not declared in this scope; did you mean \u2018PyWeakref_GetRef\u2019?"
+    ]
   },
   "waf": {
     "urls": [
@@ -1222,10 +982,6 @@
     "summaries": [
       "waf fails to build with Python 3.15: AttributeError: 'SourceFileLoader' object has no attribute 'load_module'. Did you mean: 'exec_module'?"
     ]
-  },
-  "wesnoth": {
-    "urls": [],
-    "summaries": []
   },
   "xapian-bindings": {
     "urls": [
