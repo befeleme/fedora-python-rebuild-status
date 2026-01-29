@@ -64,12 +64,8 @@
     ]
   },
   "ceph": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2433903"
-    ],
-    "summaries": [
-      "ceph: FTBFS in Fedora rawhide/f44"
-    ]
+    "urls": [],
+    "summaries": []
   },
   "classification-banner": {
     "urls": [
@@ -94,10 +90,6 @@
     "summaries": [
       "dnf-plugin-diff: FTBFS in Fedora rawhide/f44"
     ]
-  },
-  "elements-alexandria": {
-    "urls": [],
-    "summaries": []
   },
   "esptool": {
     "urls": [
@@ -140,12 +132,20 @@
     "summaries": []
   },
   "insight": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2434680"
+    ],
+    "summaries": [
+      "insight: FTBFS in Fedora rawhide/f44"
+    ]
   },
   "jack-mixer": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2434689"
+    ],
+    "summaries": [
+      "jack-mixer: FTBFS in Fedora rawhide/f44"
+    ]
   },
   "javapackages-tools": {
     "urls": [
@@ -180,16 +180,28 @@
     "summaries": []
   },
   "libcamera": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2434746"
+    ],
+    "summaries": [
+      "libcamera: FTBFS in Fedora rawhide/f44"
+    ]
   },
   "libkml": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2434757"
+    ],
+    "summaries": [
+      "libkml: FTBFS in Fedora rawhide/f44"
+    ]
   },
   "librealsense": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2434769"
+    ],
+    "summaries": [
+      "librealsense: FTBFS in Fedora rawhide/f44"
+    ]
   },
   "libreoffice": {
     "urls": [],
@@ -260,10 +272,6 @@
     "summaries": []
   },
   "petsc": {
-    "urls": [],
-    "summaries": []
-  },
-  "pyOpenSSL": {
     "urls": [],
     "summaries": []
   },
@@ -407,17 +415,17 @@
       "python-colcon-core: Fails to build with setuptools 80.9.0, fails to install [pins setuptools < 80, test_build_package fails]"
     ]
   },
+  "python-dateutil": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2423882"
+    ],
+    "summaries": [
+      "python-dateutil fails to build with Python 3.15: test_tzlocal_local_time_trim_colon: AssertionError: assert tz.gettz() is not None"
+    ]
+  },
   "python-dbus-fast": {
     "urls": [],
     "summaries": []
-  },
-  "python-dill": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2414572"
-    ],
-    "summaries": [
-      "python-dill fails to build with Python 3.15: AttributeError: type object 'object' has no attribute '__weakref__'"
-    ]
   },
   "python-django-angular": {
     "urls": [],
@@ -662,10 +670,6 @@
     "summaries": [
       "python-pipdeptree fails to build with Python 3.15: tests/test_discovery.py::test_invalid_metadata - TypeError: argument of type 'NoneType' is not a container or iterable"
     ]
-  },
-  "python-proton-vpn-api-core": {
-    "urls": [],
-    "summaries": []
   },
   "python-psycopg2": {
     "urls": [
@@ -940,10 +944,6 @@
     "summaries": []
   },
   "scipy": {
-    "urls": [],
-    "summaries": []
-  },
-  "sourcextractor++": {
     "urls": [],
     "summaries": []
   },
