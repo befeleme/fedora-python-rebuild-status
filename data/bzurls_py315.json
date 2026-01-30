@@ -63,10 +63,6 @@
       "bmap-tools fails to build with Python 3.15: bmaptool.BmapCopy.Error: checksum mismatch for blocks range 34-35"
     ]
   },
-  "ceph": {
-    "urls": [],
-    "summaries": []
-  },
   "classification-banner": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2433911"
@@ -139,14 +135,6 @@
       "insight: FTBFS in Fedora rawhide/f44"
     ]
   },
-  "jack-mixer": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2434689"
-    ],
-    "summaries": [
-      "jack-mixer: FTBFS in Fedora rawhide/f44"
-    ]
-  },
   "javapackages-tools": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2414799"
@@ -162,6 +150,10 @@
     "summaries": [
       "jc fails to build with Python 3.15: AssertionError: 'format': 1760, != 'format': 7250,"
     ]
+  },
+  "kernel": {
+    "urls": [],
+    "summaries": []
   },
   "khal": {
     "urls": [],
@@ -207,6 +199,14 @@
     "urls": [],
     "summaries": []
   },
+  "libselinux": {
+    "urls": [],
+    "summaries": []
+  },
+  "libsemanage": {
+    "urls": [],
+    "summaries": []
+  },
   "libsvm": {
     "urls": [],
     "summaries": []
@@ -218,10 +218,6 @@
     "summaries": [
       "libyui: FTBFS with gcc16 due to C++20 change"
     ]
-  },
-  "llvm": {
-    "urls": [],
-    "summaries": []
   },
   "manafirewall": {
     "urls": [],
@@ -240,16 +236,20 @@
     ]
   },
   "nicotine+": {
-    "urls": [],
-    "summaries": []
-  },
-  "onnxruntime": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2434863"
+    ],
+    "summaries": [
+      "nicotine+: FTBFS in Fedora rawhide/f44"
+    ]
   },
   "openmpi": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2434889"
+    ],
+    "summaries": [
+      "openmpi: FTBFS in Fedora rawhide/f44"
+    ]
   },
   "opensips": {
     "urls": [],
@@ -260,8 +260,12 @@
     "summaries": []
   },
   "pacemaker": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2434896"
+    ],
+    "summaries": [
+      "pacemaker: FTBFS in Fedora rawhide/f44"
+    ]
   },
   "pagure-dist-git": {
     "urls": [],
@@ -275,9 +279,21 @@
     "urls": [],
     "summaries": []
   },
-  "pyproj": {
+  "policycoreutils": {
     "urls": [],
     "summaries": []
+  },
+  "pylint": {
+    "urls": [],
+    "summaries": []
+  },
+  "pyproj": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2434944"
+    ],
+    "summaries": [
+      "pyproj: FTBFS in Fedora rawhide/f44"
+    ]
   },
   "python-XStatic-Angular-FileUpload": {
     "urls": [],
@@ -357,9 +373,11 @@
   },
   "python-beartype": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2434952",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2432345"
     ],
     "summaries": [
+      "python-beartype: FTBFS in Fedora rawhide/f44",
       "python-beartype fails to build with Python 3.15: ImportError: cannot import name 'no_type_check_decorator' from 'typing'"
     ]
   },
@@ -404,8 +422,12 @@
     "summaries": []
   },
   "python-coincurve": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2434958"
+    ],
+    "summaries": [
+      "python-coincurve: FTBFS in Fedora rawhide/f44"
+    ]
   },
   "python-colcon-core": {
     "urls": [
@@ -428,14 +450,20 @@
     "summaries": []
   },
   "python-django-angular": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2434976"
+    ],
+    "summaries": [
+      "python-django-angular: FTBFS in Fedora rawhide/f44"
+    ]
   },
   "python-django-configurations": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2434977",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2433919"
     ],
     "summaries": [
+      "python-django-configurations: FTBFS in Fedora rawhide/f44",
       "python-django-configurations fails to build with Python 3.15: AttributeError: 'ConfigurationLoader' object has no attribute 'exec_module'. Did you mean: 'load_module'?"
     ]
   },
@@ -500,22 +528,26 @@
       "https://bugzilla.redhat.com/show_bug.cgi?id=2433806"
     ],
     "summaries": [
-      "python-flask-babel fails to build with Python 3.15: AssertionError: assert 'ja' == 'de'"
+      "python-flask-babel fails to build in Copr: AssertionError: assert 'ja' == 'de'"
     ]
   },
   "python-flask-oidc": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2434981",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2424320"
     ],
     "summaries": [
+      "python-flask-oidc: FTBFS in Fedora rawhide/f44",
       "python-flask-oidc fails to build with Python 3.15: 'error_description': \"Missing 'Authorization' in headers.\"} != {'error_description': 'Missing \"Authorization\" in headers.'"
     ]
   },
   "python-fs": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2434982",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2424571"
     ],
     "summaries": [
+      "python-fs: FTBFS in Fedora rawhide/f44",
       "python-fs fails to build with Python 3.15: AttributeError: 'DocTestCase' object has no attribute '_test_result'"
     ]
   },
@@ -524,8 +556,12 @@
     "summaries": []
   },
   "python-giacpy": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2434983"
+    ],
+    "summaries": [
+      "python-giacpy: FTBFS in Fedora rawhide/f44"
+    ]
   },
   "python-gstreamer1": {
     "urls": [],
@@ -533,27 +569,45 @@
   },
   "python-hupper": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2434985",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2433885"
     ],
     "summaries": [
+      "python-hupper: FTBFS in Fedora rawhide/f44",
       "python-hupper fails to build with Python 3.15: ModuleNotFoundError: No module named 'pytest_cov.embed'"
     ]
   },
   "python-hypothesmith": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2434986"
+    ],
+    "summaries": [
+      "python-hypothesmith: FTBFS in Fedora rawhide/f44"
+    ]
   },
   "python-inkex": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2435216"
+    ],
+    "summaries": [
+      "python-inkex: FTBFS in Fedora rawhide/f44"
+    ]
   },
   "python-inquirer": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2434987"
+    ],
+    "summaries": [
+      "python-inquirer: FTBFS in Fedora rawhide/f44"
+    ]
   },
   "python-iso8601": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2434988"
+    ],
+    "summaries": [
+      "python-iso8601: FTBFS in Fedora rawhide/f44"
+    ]
   },
   "python-jedi": {
     "urls": [
@@ -568,8 +622,12 @@
     "summaries": []
   },
   "python-kadmin": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2434989"
+    ],
+    "summaries": [
+      "python-kadmin: FTBFS in Fedora rawhide/f44"
+    ]
   },
   "python-kaptan": {
     "urls": [
@@ -588,8 +646,12 @@
     "summaries": []
   },
   "python-markdown-callouts": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2434991"
+    ],
+    "summaries": [
+      "python-markdown-callouts: FTBFS in Fedora rawhide/f44"
+    ]
   },
   "python-matplotlib": {
     "urls": [
@@ -616,8 +678,12 @@
     "summaries": []
   },
   "python-mrcfile": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2434994"
+    ],
+    "summaries": [
+      "python-mrcfile: FTBFS in Fedora rawhide/f44"
+    ]
   },
   "python-msrest": {
     "urls": [
@@ -626,6 +692,10 @@
     "summaries": [
       "python-msrest fails to build with Python 3.15: AssertionErrors in two TestServiceClient::test_client_send"
     ]
+  },
+  "python-multiprocess": {
+    "urls": [],
+    "summaries": []
   },
   "python-ncclient": {
     "urls": [],
@@ -636,8 +706,12 @@
     "summaries": []
   },
   "python-oauthlib": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2434999"
+    ],
+    "summaries": [
+      "python-oauthlib: FTBFS in Fedora rawhide/f44"
+    ]
   },
   "python-parameterized": {
     "urls": [],
@@ -653,9 +727,11 @@
   },
   "python-pdir2": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2435007",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2423880"
     ],
     "summaries": [
+      "python-pdir2: FTBFS in Fedora rawhide/f44",
       "python-pdir2 fails to build with Python 3.15: AssertionError in test_pdir_module"
     ]
   },
@@ -670,6 +746,10 @@
     "summaries": [
       "python-pipdeptree fails to build with Python 3.15: tests/test_discovery.py::test_invalid_metadata - TypeError: argument of type 'NoneType' is not a container or iterable"
     ]
+  },
+  "python-progressbar2": {
+    "urls": [],
+    "summaries": []
   },
   "python-psycopg2": {
     "urls": [
@@ -688,8 +768,12 @@
     ]
   },
   "python-pygtkspellcheck": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2435008"
+    ],
+    "summaries": [
+      "python-pygtkspellcheck: FTBFS in Fedora rawhide/f44"
+    ]
   },
   "python-pyqt6": {
     "urls": [],
@@ -701,9 +785,11 @@
   },
   "python-pysdl2": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2435012",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2431587"
     ],
     "summaries": [
+      "python-pysdl2: FTBFS in Fedora rawhide/f44",
       "python-pysdl2 fails to build with Python 3.15: AssertionError: That operation is not supported"
     ]
   },
@@ -725,9 +811,11 @@
   },
   "python-pytest-tldr": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2435014",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2423890"
     ],
     "summaries": [
+      "python-pytest-tldr: FTBFS in Fedora rawhide/f44",
       "python-pytest-tldr fails to build with Python 3.15: tests/test_plugins.py::test_coverage: remains unmatched: '*----- coverage: platform *-----'"
     ]
   },
@@ -736,8 +824,12 @@
     "summaries": []
   },
   "python-pytest-trio": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2435015"
+    ],
+    "summaries": [
+      "python-pytest-trio: FTBFS in Fedora rawhide/f44"
+    ]
   },
   "python-qt5": {
     "urls": [],
@@ -745,9 +837,11 @@
   },
   "python-questionary": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2435019",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2424586"
     ],
     "summaries": [
+      "python-questionary: FTBFS in Fedora rawhide/f44",
       "python-questionary fails to build with Python 3.15: AttributeError: 'VSplit' object has no attribute 'content'. Did you mean: 'window_too_small.content'"
     ]
   },
@@ -776,8 +870,12 @@
     ]
   },
   "python-result": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2435020"
+    ],
+    "summaries": [
+      "python-result: FTBFS in Fedora rawhide/f44"
+    ]
   },
   "python-rich": {
     "urls": [
@@ -812,8 +910,12 @@
     "summaries": []
   },
   "python-supersmoother": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2435026"
+    ],
+    "summaries": [
+      "python-supersmoother: FTBFS in Fedora rawhide/f44"
+    ]
   },
   "python-system-calls": {
     "urls": [],
@@ -849,9 +951,11 @@
   },
   "python-twisted": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2435033",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2432344"
     ],
     "summaries": [
+      "python-twisted: FTBFS in Fedora rawhide/f44",
       "python-twisted fails to build with Python 3.15: twisted.trial.unittest.FailTest: 5 != 7, builtins.AttributeError: 'SourceFileLoader' object has no attribute 'load_module' and one more"
     ]
   },
@@ -878,10 +982,6 @@
     "summaries": [
       "python-utils fails to build with Python 3.15: AttributeError: module 'typing_extensions' has no attribute 'no_type_check_decorator'"
     ]
-  },
-  "python-valkey": {
-    "urls": [],
-    "summaries": []
   },
   "python-websocket-client": {
     "urls": [],
@@ -928,8 +1028,12 @@
     ]
   },
   "root": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2435066"
+    ],
+    "summaries": [
+      "root: FTBFS in Fedora rawhide/f44"
+    ]
   },
   "rpmlint": {
     "urls": [
@@ -996,7 +1100,11 @@
     "summaries": []
   },
   "zbar": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2435207"
+    ],
+    "summaries": [
+      "zbar: FTBFS in Fedora rawhide/f44"
+    ]
   }
 }
