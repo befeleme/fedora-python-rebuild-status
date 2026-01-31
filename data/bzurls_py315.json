@@ -171,14 +171,6 @@
     "urls": [],
     "summaries": []
   },
-  "libcamera": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2434746"
-    ],
-    "summaries": [
-      "libcamera: FTBFS in Fedora rawhide/f44"
-    ]
-  },
   "libkml": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2434757"
@@ -219,6 +211,10 @@
       "libyui: FTBFS with gcc16 due to C++20 change"
     ]
   },
+  "llvm": {
+    "urls": [],
+    "summaries": []
+  },
   "manafirewall": {
     "urls": [],
     "summaries": []
@@ -234,6 +230,10 @@
     "summaries": [
       "moose fails to build with Python 3.15: moose-core-3.1.5/pymoose/PyRun.h:58:24: error: \u2018Py_GetProgramName\u2019 was not declared in this scope; did you mean \u2018Py_SetProgramName\u2019?"
     ]
+  },
+  "mupdf": {
+    "urls": [],
+    "summaries": []
   },
   "nicotine+": {
     "urls": [
@@ -350,14 +350,6 @@
   "python-asyncssh": {
     "urls": [],
     "summaries": []
-  },
-  "python-autopage": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2424583"
-    ],
-    "summaries": [
-      "python-autopage fails to build with Python 3.15: TypeError: ArgumentParser._get_formatter() got an unexpected keyword argument 'file' and one more"
-    ]
   },
   "python-awscrt": {
     "urls": [],
@@ -1078,6 +1070,10 @@
     "summaries": [
       "usd fails to build with Python 3.15: /builddir/build/BUILD/usd-25.11-build/OpenUSD-25.11/pxr/base/tf/pyIdentity.cpp:139:16: error: \u2018PyWeakref_GetObject\u2019 was not declared in this scope; did you mean \u2018PyWeakref_GetRef\u2019?"
     ]
+  },
+  "uv": {
+    "urls": [],
+    "summaries": []
   },
   "waf": {
     "urls": [
