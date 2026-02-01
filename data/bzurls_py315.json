@@ -251,10 +251,6 @@
       "openmpi: FTBFS in Fedora rawhide/f44"
     ]
   },
-  "opensips": {
-    "urls": [],
-    "summaries": []
-  },
   "openvino": {
     "urls": [],
     "summaries": []
@@ -320,6 +316,10 @@
     "summaries": []
   },
   "python-XStatic-mdi": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-application-properties": {
     "urls": [],
     "summaries": []
   },
@@ -390,10 +390,6 @@
     ]
   },
   "python-bowler": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-brukerapi": {
     "urls": [],
     "summaries": []
   },
@@ -514,14 +510,6 @@
   "python-flask": {
     "urls": [],
     "summaries": []
-  },
-  "python-flask-babel": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2433806"
-    ],
-    "summaries": [
-      "python-flask-babel fails to build in Copr: AssertionError: assert 'ja' == 'de'"
-    ]
   },
   "python-flask-oidc": {
     "urls": [
@@ -1003,6 +991,10 @@
       "python-zope-testrunner fails to build with Python 3.15: help2man: can't get `--help' info from /builddir/build/BUILD/python-zope-testrunner-8.1-build/BUILDROOT/usr/bin/zope-testrunner"
     ]
   },
+  "python3-pydo": {
+    "urls": [],
+    "summaries": []
+  },
   "quodlibet": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2432343"
@@ -1046,14 +1038,6 @@
   "swig": {
     "urls": [],
     "summaries": []
-  },
-  "sword": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2431537"
-    ],
-    "summaries": [
-      "sword-1.9.0-36.fc44 FTBFS: tests/swbuftest.cpp:167:41: error: use of deleted function \u2018std::basic_ostream<char, _Traits>& std::operator<<(basic_ostream<char, _Traits>&, const wchar_t*) [with _Traits = char_traits<char>]\u2019"
-    ]
   },
   "toot": {
     "urls": [],
