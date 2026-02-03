@@ -87,14 +87,6 @@
       "fail2ban fails to build with Python 3.15: AttributeError: 'SourceFileLoader' object has no attribute 'load_module'. Did you mean: 'exec_module'?"
     ]
   },
-  "fapolicy-analyzer": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2434029"
-    ],
-    "summaries": [
-      "fapolicy-analyzer: FTBFS in Fedora rawhide/f44"
-    ]
-  },
   "gdcm": {
     "urls": [],
     "summaries": []
@@ -1058,13 +1050,5 @@
   "xcat": {
     "urls": [],
     "summaries": []
-  },
-  "zbar": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2435207"
-    ],
-    "summaries": [
-      "zbar: FTBFS in Fedora rawhide/f44"
-    ]
   }
 }
