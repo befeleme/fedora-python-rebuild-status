@@ -123,10 +123,6 @@
       "jc fails to build with Python 3.15: AssertionError: 'format': 1760, != 'format': 7250,"
     ]
   },
-  "kernel": {
-    "urls": [],
-    "summaries": []
-  },
   "khal": {
     "urls": [],
     "summaries": []
@@ -149,14 +145,6 @@
     ],
     "summaries": [
       "libkml: FTBFS in Fedora rawhide/f44"
-    ]
-  },
-  "librealsense": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2434769"
-    ],
-    "summaries": [
-      "librealsense: FTBFS in Fedora rawhide/f44"
     ]
   },
   "libreoffice": {
@@ -462,6 +450,10 @@
     "summaries": [
       "python-exdir fails to build with Python 3.15: TypeError: 'module'/'Plugin' object is not iterable"
     ]
+  },
+  "python-exiv2": {
+    "urls": [],
+    "summaries": []
   },
   "python-falcon": {
     "urls": [],
@@ -1018,10 +1010,6 @@
     "summaries": [
       "usd fails to build with Python 3.15: /builddir/build/BUILD/usd-25.11-build/OpenUSD-25.11/pxr/base/tf/pyIdentity.cpp:139:16: error: \u2018PyWeakref_GetObject\u2019 was not declared in this scope; did you mean \u2018PyWeakref_GetRef\u2019?"
     ]
-  },
-  "uv": {
-    "urls": [],
-    "summaries": []
   },
   "waf": {
     "urls": [
