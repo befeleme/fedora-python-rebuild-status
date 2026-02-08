@@ -51,14 +51,6 @@
       "classification-banner: FTBFS in Fedora rawhide/f44"
     ]
   },
-  "cmakelang": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2433805"
-    ],
-    "summaries": [
-      "cmakelang fails to build with Python 3.15: ValueError: Cannot use capturing groups in re.Scanner and multiple AssertionErrors"
-    ]
-  },
   "dnf-plugin-diff": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2433989"
@@ -976,12 +968,8 @@
     ]
   },
   "root": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2435066"
-    ],
-    "summaries": [
-      "root: FTBFS in Fedora rawhide/f44"
-    ]
+    "urls": [],
+    "summaries": []
   },
   "rpmlint": {
     "urls": [
