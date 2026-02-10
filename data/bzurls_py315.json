@@ -75,10 +75,6 @@
       "fail2ban fails to build with Python 3.15: AttributeError: 'SourceFileLoader' object has no attribute 'load_module'. Did you mean: 'exec_module'?"
     ]
   },
-  "gdal": {
-    "urls": [],
-    "summaries": []
-  },
   "gdcm": {
     "urls": [],
     "summaries": []
@@ -276,10 +272,6 @@
     "summaries": []
   },
   "python-aiohttp-negotiate": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-application-properties": {
     "urls": [],
     "summaries": []
   },
@@ -621,6 +613,10 @@
     "urls": [],
     "summaries": []
   },
+  "python-monotonic": {
+    "urls": [],
+    "summaries": []
+  },
   "python-mpmath": {
     "urls": [],
     "summaries": []
@@ -911,22 +907,6 @@
       "python-typeguard fails to build with Python 3.15: TypeError: cache_from_source() takes 1 positional argument but 2 positional arguments (and 1 keyword-only argument) were given"
     ]
   },
-  "python-typing-extensions": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2416981"
-    ],
-    "summaries": [
-      "python-typing-extensions fails to build with Python 3.15: no_type_check_decorator no longer exists in typing"
-    ]
-  },
-  "python-utils": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2424562"
-    ],
-    "summaries": [
-      "python-utils fails to build with Python 3.15: AttributeError: module 'typing_extensions' has no attribute 'no_type_check_decorator'"
-    ]
-  },
   "python-websocket-client": {
     "urls": [],
     "summaries": []
@@ -960,12 +940,8 @@
     "summaries": []
   },
   "quodlibet": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2432343"
-    ],
-    "summaries": [
-      "quodlibet fails to build with Python 3.15: AttributeError: 'RedirectImportHook' object has no attribute 'exec_module'. Did you mean: 'find_module'?"
-    ]
+    "urls": [],
+    "summaries": []
   },
   "renderdoc": {
     "urls": [
@@ -1003,10 +979,6 @@
     "urls": [],
     "summaries": []
   },
-  "toot": {
-    "urls": [],
-    "summaries": []
-  },
   "trellis": {
     "urls": [],
     "summaries": []
@@ -1018,6 +990,10 @@
     "summaries": [
       "usd fails to build with Python 3.15: /builddir/build/BUILD/usd-25.11-build/OpenUSD-25.11/pxr/base/tf/pyIdentity.cpp:139:16: error: \u2018PyWeakref_GetObject\u2019 was not declared in this scope; did you mean \u2018PyWeakref_GetRef\u2019?"
     ]
+  },
+  "volk": {
+    "urls": [],
+    "summaries": []
   },
   "waf": {
     "urls": [
