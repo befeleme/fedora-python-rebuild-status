@@ -1,12 +1,4 @@
 {
-  "389-ds-base": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2424574"
-    ],
-    "summaries": [
-      "389-ds-base fails to build with Python 3.15: AttributeError: 'CustomHelpFormatter' object has no attribute '_format_actions_usage'"
-    ]
-  },
   "abiword": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2433852"
@@ -119,10 +111,6 @@
       "jc fails to build with Python 3.15: AssertionError: 'format': 1760, != 'format': 7250,"
     ]
   },
-  "kernel": {
-    "urls": [],
-    "summaries": []
-  },
   "khal": {
     "urls": [],
     "summaries": []
@@ -190,10 +178,6 @@
     "summaries": [
       "moose fails to build with Python 3.15: moose-core-3.1.5/pymoose/PyRun.h:58:24: error: \u2018Py_GetProgramName\u2019 was not declared in this scope; did you mean \u2018Py_SetProgramName\u2019?"
     ]
-  },
-  "mupdf": {
-    "urls": [],
-    "summaries": []
   },
   "muse": {
     "urls": [],
@@ -462,6 +446,10 @@
     "summaries": [
       "python-fido2 fails to build with Python 3.15: tests failures: AssertionError: 'TYPE.CREATE' != 'webauthn.create' and more"
     ]
+  },
+  "python-fissix": {
+    "urls": [],
+    "summaries": []
   },
   "python-flask": {
     "urls": [],
@@ -990,6 +978,10 @@
     "summaries": [
       "usd fails to build with Python 3.15: /builddir/build/BUILD/usd-25.11-build/OpenUSD-25.11/pxr/base/tf/pyIdentity.cpp:139:16: error: \u2018PyWeakref_GetObject\u2019 was not declared in this scope; did you mean \u2018PyWeakref_GetRef\u2019?"
     ]
+  },
+  "uv": {
+    "urls": [],
+    "summaries": []
   },
   "volk": {
     "urls": [],
