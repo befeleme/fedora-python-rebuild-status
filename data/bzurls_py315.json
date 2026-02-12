@@ -1,4 +1,8 @@
 {
+  "OpenLP": {
+    "urls": [],
+    "summaries": []
+  },
   "abiword": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2433852"
@@ -42,6 +46,10 @@
     "summaries": [
       "classification-banner: FTBFS in Fedora rawhide/f44"
     ]
+  },
+  "cockpit": {
+    "urls": [],
+    "summaries": []
   },
   "dnf-plugin-diff": {
     "urls": [
@@ -119,6 +127,10 @@
     "urls": [],
     "summaries": []
   },
+  "kiwi-boxed-plugin": {
+    "urls": [],
+    "summaries": []
+  },
   "kmymoney": {
     "urls": [],
     "summaries": []
@@ -171,6 +183,10 @@
     "urls": [],
     "summaries": []
   },
+  "mlt": {
+    "urls": [],
+    "summaries": []
+  },
   "moose": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2414807"
@@ -191,6 +207,14 @@
       "nicotine+: FTBFS in Fedora rawhide/f44"
     ]
   },
+  "nispor": {
+    "urls": [],
+    "summaries": []
+  },
+  "openbabel": {
+    "urls": [],
+    "summaries": []
+  },
   "openmpi": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2434889"
@@ -200,6 +224,14 @@
     ]
   },
   "openvino": {
+    "urls": [],
+    "summaries": []
+  },
+  "osbuild": {
+    "urls": [],
+    "summaries": []
+  },
+  "osc": {
     "urls": [],
     "summaries": []
   },
@@ -288,6 +320,30 @@
     "summaries": []
   },
   "python-awscrt": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-azure-mgmt-containerservice": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-azure-mgmt-cosmosdb": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-azure-mgmt-keyvault": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-azure-mgmt-msi": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-azure-mgmt-mysqlflexibleservers": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-azure-mgmt-postgresqlflexibleservers": {
     "urls": [],
     "summaries": []
   },
@@ -487,6 +543,10 @@
       "python-giacpy: FTBFS in Fedora rawhide/f44"
     ]
   },
+  "python-gnupg": {
+    "urls": [],
+    "summaries": []
+  },
   "python-grpcio-gcp": {
     "urls": [],
     "summaries": []
@@ -629,6 +689,10 @@
     "urls": [],
     "summaries": []
   },
+  "python-mwclient": {
+    "urls": [],
+    "summaries": []
+  },
   "python-ncclient": {
     "urls": [],
     "summaries": []
@@ -663,6 +727,10 @@
     "urls": [],
     "summaries": []
   },
+  "python-pillow": {
+    "urls": [],
+    "summaries": []
+  },
   "python-pipdeptree": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2414803"
@@ -670,10 +738,6 @@
     "summaries": [
       "python-pipdeptree fails to build with Python 3.15: tests/test_discovery.py::test_invalid_metadata - TypeError: argument of type 'NoneType' is not a container or iterable"
     ]
-  },
-  "python-progressbar2": {
-    "urls": [],
-    "summaries": []
   },
   "python-psycopg2": {
     "urls": [
@@ -721,7 +785,15 @@
       "python-pysdl2 fails to build with Python 3.15: AssertionError: That operation is not supported"
     ]
   },
+  "python-pyside6": {
+    "urls": [],
+    "summaries": []
+  },
   "python-pyswip": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pytaglib": {
     "urls": [],
     "summaries": []
   },
@@ -734,6 +806,10 @@
     ]
   },
   "python-pytest-freezegun": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pytest-spec": {
     "urls": [],
     "summaries": []
   },
@@ -758,6 +834,10 @@
     "summaries": [
       "python-pytest-trio: FTBFS in Fedora rawhide/f44"
     ]
+  },
+  "python-pyxlsb2": {
+    "urls": [],
+    "summaries": []
   },
   "python-qt5": {
     "urls": [],
@@ -812,6 +892,10 @@
     "summaries": [
       "python-rich fails to build with Python 3.15: AssertionError in test_inspect_builtin_function_only_python311"
     ]
+  },
+  "python-roman-numerals-py": {
+    "urls": [],
+    "summaries": []
   },
   "python-rpmautospec-koji": {
     "urls": [],
@@ -895,6 +979,10 @@
       "python-typeguard fails to build with Python 3.15: TypeError: cache_from_source() takes 1 positional argument but 2 positional arguments (and 1 keyword-only argument) were given"
     ]
   },
+  "python-vsts-cd-manager": {
+    "urls": [],
+    "summaries": []
+  },
   "python-websocket-client": {
     "urls": [],
     "summaries": []
@@ -943,6 +1031,10 @@
     "urls": [],
     "summaries": []
   },
+  "rpkg-util": {
+    "urls": [],
+    "summaries": []
+  },
   "rpmlint": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2424585"
@@ -967,7 +1059,19 @@
     "urls": [],
     "summaries": []
   },
+  "tito": {
+    "urls": [],
+    "summaries": []
+  },
   "trellis": {
+    "urls": [],
+    "summaries": []
+  },
+  "ty": {
+    "urls": [],
+    "summaries": []
+  },
+  "ursa-major": {
     "urls": [],
     "summaries": []
   },
