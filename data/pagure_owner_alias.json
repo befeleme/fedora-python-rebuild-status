@@ -8415,7 +8415,7 @@
             "jmoyer"
         ],
         "autogen": [
-            "tkorbar"
+            "orphan"
         ],
         "autojump": [
             "salimma",
@@ -9653,6 +9653,7 @@
             "pbrobinson",
             "lihis",
             "salimma",
+            "hadess",
             "ngompa",
             "dwmw2"
         ],
@@ -9932,7 +9933,8 @@
             "jaruga"
         ],
         "bowtie2": [
-            "jaruga"
+            "jaruga",
+            "ron"
         ],
         "box64": [
             "dcavalca"
@@ -10337,6 +10339,7 @@
         ],
         "bwa": [
             "verdurin",
+            "ron",
             "jaruga"
         ],
         "bwbar": [
@@ -12561,8 +12564,7 @@
         ],
         "compat-guile18": [
             "limb",
-            "jskarvad",
-            "tkorbar"
+            "jskarvad"
         ],
         "compat-libcdio-paranoia1": [
             "orphan"
@@ -29552,7 +29554,7 @@
             "dfateyev"
         ],
         "golang-github-burntsushi-toml-test": [
-            "mikelo2"
+            "orphan"
         ],
         "golang-github-burntsushi-xdg": [
             "orphan"
@@ -30083,7 +30085,7 @@
             "orphan"
         ],
         "golang-github-crossdock": [
-            "mikelo2"
+            "orphan"
         ],
         "golang-github-cryptix-wav": [
             "orphan"
@@ -33069,7 +33071,7 @@
             "orphan"
         ],
         "golang-github-maxatome-testdeep": [
-            "mikelo2"
+            "orphan"
         ],
         "golang-github-maxhalford-halfgone": [
             "dcavalca"
@@ -33670,7 +33672,7 @@
             "orphan"
         ],
         "golang-github-olekukonko-tablewriter": [
-            "mikelo2"
+            "orphan"
         ],
         "golang-github-olekukonko-ts": [
             "orphan"
@@ -38372,7 +38374,6 @@
             "tkorbar"
         ],
         "guile30": [
-            "tkorbar",
             "fed500"
         ],
         "guiloader": [
@@ -42330,7 +42331,8 @@
             "salimma"
         ],
         "javaparser": [
-            "korkeala"
+            "korkeala",
+            "mkoncek"
         ],
         "javapoet": [
             "mbooth"
@@ -104816,6 +104818,9 @@
         "python-webpy": [
             "orphan"
         ],
+        "python-webrtcvad": [
+            "matiwari"
+        ],
         "python-webscrapbook": [
             "ferdnyc"
         ],
@@ -112842,6 +112847,7 @@
         ],
         "rust-ashpd": [
             "mclasen",
+            "decathorpe",
             "kalev"
         ],
         "rust-ashpd0.11": [
@@ -116550,10 +116556,12 @@
         ],
         "rust-gdk4-wayland": [
             "mclasen",
+            "decathorpe",
             "kalev"
         ],
         "rust-gdk4-wayland-sys": [
             "mclasen",
+            "decathorpe",
             "kalev"
         ],
         "rust-gdk4-wayland-sys0.6": [
@@ -116584,10 +116592,12 @@
         ],
         "rust-gdk4-x11": [
             "mclasen",
+            "decathorpe",
             "kalev"
         ],
         "rust-gdk4-x11-sys": [
             "mclasen",
+            "decathorpe",
             "kalev"
         ],
         "rust-gdk4-x11-sys0.6": [
@@ -117341,6 +117351,7 @@
         ],
         "rust-gst-plugin-gtk4": [
             "mclasen",
+            "decathorpe",
             "kalev"
         ],
         "rust-gst-plugin-hsv": [
@@ -117456,6 +117467,7 @@
         ],
         "rust-gstreamer-gl": [
             "mclasen",
+            "decathorpe",
             "kalev"
         ],
         "rust-gstreamer-gl-egl": [
@@ -117464,6 +117476,7 @@
         ],
         "rust-gstreamer-gl-egl-sys": [
             "mclasen",
+            "decathorpe",
             "kalev"
         ],
         "rust-gstreamer-gl-egl-sys0.21": [
@@ -117480,6 +117493,7 @@
         ],
         "rust-gstreamer-gl-sys": [
             "mclasen",
+            "decathorpe",
             "kalev"
         ],
         "rust-gstreamer-gl-sys0.21": [
@@ -117490,10 +117504,12 @@
         ],
         "rust-gstreamer-gl-wayland": [
             "mclasen",
+            "decathorpe",
             "kalev"
         ],
         "rust-gstreamer-gl-wayland-sys": [
             "mclasen",
+            "decathorpe",
             "kalev"
         ],
         "rust-gstreamer-gl-wayland-sys0.21": [
@@ -117510,10 +117526,12 @@
         ],
         "rust-gstreamer-gl-x11": [
             "mclasen",
+            "decathorpe",
             "kalev"
         ],
         "rust-gstreamer-gl-x11-sys": [
             "mclasen",
+            "decathorpe",
             "kalev"
         ],
         "rust-gstreamer-gl-x11-sys0.21": [
@@ -117812,6 +117830,7 @@
         ],
         "rust-gvdb": [
             "mclasen",
+            "decathorpe",
             "kalev"
         ],
         "rust-gvdb-macros": [
@@ -119038,11 +119057,13 @@
         ],
         "rust-libadwaita": [
             "mclasen",
-            "kalev"
+            "kalev",
+            "decathorpe"
         ],
         "rust-libadwaita-sys": [
             "mclasen",
-            "kalev"
+            "kalev",
+            "decathorpe"
         ],
         "rust-libadwaita-sys0.1": [
             "orphan"
@@ -123640,6 +123661,9 @@
             "decathorpe"
         ],
         "rust-serde-xml-rs0.4": [
+            "decathorpe"
+        ],
+        "rust-serde-xml-rs0.6": [
             "decathorpe"
         ],
         "rust-serde0.8": [
