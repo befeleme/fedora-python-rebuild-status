@@ -19,14 +19,6 @@
     "urls": [],
     "summaries": []
   },
-  "abiword": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2433852"
-    ],
-    "summaries": [
-      "abiword: FTBFS in Fedora rawhide/f44"
-    ]
-  },
   "academic-admin": {
     "urls": [],
     "summaries": []
@@ -204,8 +196,12 @@
     "summaries": []
   },
   "kmymoney": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2440571"
+    ],
+    "summaries": [
+      "kmymoney fails to build with Python 3.15: /usr/include/python3.15/pyport.h:523:9: error: \u2018__STDC_VERSION__\u2019 is not defined, evaluates to \u20180\u2019 [-Werror=undef]"
+    ]
   },
   "lazygal": {
     "urls": [],
@@ -232,16 +228,24 @@
     ]
   },
   "libmodulemd": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2440570"
+    ],
+    "summaries": [
+      "libmodulemd fails to build with Python 3.15: TypeError: property 'name' can only be set in constructor"
+    ]
   },
   "libopenshot": {
     "urls": [],
     "summaries": []
   },
   "libpeas": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2440569"
+    ],
+    "summaries": [
+      "libpeas fails to build with Python 3.15: ERROR:../tests/libpeas/extension-py.c:54:test_extension_py_instance_refcount: assertion failed (extension->ref_count == 2): (1 == 2)"
+    ]
   },
   "libreoffice": {
     "urls": [],
@@ -264,10 +268,6 @@
     "summaries": []
   },
   "llvm": {
-    "urls": [],
-    "summaries": []
-  },
-  "lttng-tools": {
     "urls": [],
     "summaries": []
   },
@@ -296,10 +296,6 @@
     ]
   },
   "morphio": {
-    "urls": [],
-    "summaries": []
-  },
-  "muse": {
     "urls": [],
     "summaries": []
   },
@@ -359,17 +355,21 @@
     "urls": [],
     "summaries": []
   },
-  "pagure-dist-git": {
-    "urls": [],
-    "summaries": []
-  },
   "pcs": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2440684"
+    ],
+    "summaries": [
+      "pcs fails to build with Python 3.15: pcs.lib.permissions.config.parser.ParserError in test_valid_data and AttributeError in test_has_all_subclasses_are_dataclasses"
+    ]
   },
   "petsc": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2440567"
+    ],
+    "summaries": [
+      "petsc fails to build with Python 3.15: AssertionError: 2 != 3; self.assertEqual(getrefcount(context), 3)"
+    ]
   },
   "pl": {
     "urls": [],
@@ -384,8 +384,12 @@
     "summaries": []
   },
   "pylint": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2440562"
+    ],
+    "summaries": [
+      "pylint fails to build with Python 3.15: multiple AssertionErrors"
+    ]
   },
   "pyproj": {
     "urls": [],
@@ -395,43 +399,11 @@
     "urls": [],
     "summaries": []
   },
-  "python-XStatic-Angular-FileUpload": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-XStatic-Angular-Mock": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-XStatic-Bootstrap-Datepicker": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-XStatic-D3": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-XStatic-Font-Awesome": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-XStatic-bootswatch": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-XStatic-mdi": {
-    "urls": [],
-    "summaries": []
-  },
   "python-aiohttp": {
     "urls": [],
     "summaries": []
   },
   "python-aiohttp-cors": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-aiohttp-negotiate": {
     "urls": [],
     "summaries": []
   },
@@ -460,10 +432,6 @@
     "summaries": []
   },
   "python-apprise": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-arpeggio": {
     "urls": [],
     "summaries": []
   },
@@ -536,8 +504,12 @@
     "summaries": []
   },
   "python-azure-mgmt-privatedns": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2440577"
+    ],
+    "summaries": [
+      "python-azure-mgmt-privatedns: FTBFS in Fedora Rawhide: No module named 'six'"
+    ]
   },
   "python-azure-mgmt-subscription": {
     "urls": [],
@@ -607,6 +579,10 @@
     "urls": [],
     "summaries": []
   },
+  "python-boto3": {
+    "urls": [],
+    "summaries": []
+  },
   "python-botocore": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2424584"
@@ -614,10 +590,6 @@
     "summaries": [
       "python-botocore fails to build with Python 3.15: AssertionError: At index 8 diff: b'\\x00' != b'\\x02'"
     ]
-  },
-  "python-bowler": {
-    "urls": [],
-    "summaries": []
   },
   "python-build": {
     "urls": [],
@@ -634,10 +606,6 @@
     "summaries": [
       "python-chai fails to build with Python 3.15: chai.exception.UnsupportedStub: (\"can't stub %s\", <property object at 0x7fbbc41d1df0>)"
     ]
-  },
-  "python-cheroot": {
-    "urls": [],
-    "summaries": []
   },
   "python-cloudpickle": {
     "urls": [],
@@ -701,14 +669,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-django-ipware": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-django-rules": {
-    "urls": [],
-    "summaries": []
-  },
   "python-dulwich": {
     "urls": [],
     "summaries": []
@@ -742,8 +702,12 @@
     ]
   },
   "python-exiv2": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2440690"
+    ],
+    "summaries": [
+      "python-exiv2 fails to build with Python 3.15: error: \u2018PyWeakref_GetObject\u2019 was not declared in this scope; did you mean \u2018PyWeakref_GetRef\u2019?"
+    ]
   },
   "python-extractcode": {
     "urls": [],
@@ -756,14 +720,6 @@
     "summaries": [
       "python-fido2 fails to build with Python 3.15: tests failures: AssertionError: 'TYPE.CREATE' != 'webauthn.create' and more"
     ]
-  },
-  "python-fissix": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-flask": {
-    "urls": [],
-    "summaries": []
   },
   "python-flask-oidc": {
     "urls": [
@@ -875,10 +831,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-jupyter-client": {
-    "urls": [],
-    "summaries": []
-  },
   "python-jupyter-lsp": {
     "urls": [],
     "summaries": []
@@ -951,10 +903,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-monotonic": {
-    "urls": [],
-    "summaries": []
-  },
   "python-mpmath": {
     "urls": [],
     "summaries": []
@@ -991,10 +939,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-ncclient": {
-    "urls": [],
-    "summaries": []
-  },
   "python-nibabel": {
     "urls": [],
     "summaries": []
@@ -1019,21 +963,13 @@
     "urls": [],
     "summaries": []
   },
-  "python-parameterized": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-parver": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-path-and-address": {
-    "urls": [],
-    "summaries": []
-  },
   "python-patsy": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2440691"
+    ],
+    "summaries": [
+      "python-patsy fails to build with Python 3.15: ValueError: Cannot use capturing groups in re.Scanner"
+    ]
   },
   "python-pdf2image": {
     "urls": [],
@@ -1048,10 +984,6 @@
       "python-pdir2: FTBFS in Fedora rawhide/f44",
       "python-pdir2 fails to build with Python 3.15: AssertionError in test_pdir_module"
     ]
-  },
-  "python-pdm-pep517": {
-    "urls": [],
-    "summaries": []
   },
   "python-pip": {
     "urls": [],
@@ -1118,16 +1050,20 @@
     ]
   },
   "python-pyproject-hooks": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2440564"
+    ],
+    "summaries": [
+      "python-pyproject-hooks fails to build with Python 3.15: DeprecationWarning: os.path.commonprefix() is deprecated. Use os.path.commonpath() for longest path prefix."
+    ]
   },
   "python-pyqt6": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-pyrsistent": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2440573"
+    ],
+    "summaries": [
+      "python-pyqt6 fails to build with Python 3.15: ../../qpy/QtCore/qpycore_pyqtslot.cpp:210:16: error: \u2018PyWeakref_GetObject\u2019 was not declared in this scope; did you mean \u2018PyErr_SetObject\u2019?"
+    ]
   },
   "python-pysdl2": {
     "urls": [
@@ -1140,8 +1076,12 @@
     ]
   },
   "python-pyswip": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2440565"
+    ],
+    "summaries": [
+      "python-pyswip fails to build with Python 3.15: 28 test failures: AttributeError: 'list' object has no attribute 'value'"
+    ]
   },
   "python-pytest-aiohttp": {
     "urls": [],
@@ -1156,10 +1096,6 @@
     ]
   },
   "python-pytest-freezegun": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-pytest-runner": {
     "urls": [],
     "summaries": []
   },
@@ -1186,8 +1122,12 @@
     ]
   },
   "python-qt5": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2440551"
+    ],
+    "summaries": [
+      "python-qt5 fails to build with Python 3.15: ../../qpy/QtCore/qpycore_pyqtslot.cpp:222:16: error: \u2018PyWeakref_GetObject\u2019 was not declared in this scope; did you mean \u2018PyErr_SetObject\u2019?"
+    ]
   },
   "python-questionary": {
     "urls": [
@@ -1198,14 +1138,6 @@
       "python-questionary: FTBFS in Fedora rawhide/f44",
       "python-questionary fails to build with Python 3.15: AttributeError: 'VSplit' object has no attribute 'content'. Did you mean: 'window_too_small.content'"
     ]
-  },
-  "python-ratelimitingfilter": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-reactivex": {
-    "urls": [],
-    "summaries": []
   },
   "python-readme-renderer": {
     "urls": [
@@ -1224,8 +1156,12 @@
     ]
   },
   "python-requests-oauthlib": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2440683"
+    ],
+    "summaries": [
+      "python-requests-oauthlib fails to build with Python 3.15: test_fetch_access_token: AssertionError"
+    ]
   },
   "python-result": {
     "urls": [
@@ -1234,22 +1170,6 @@
     "summaries": [
       "python-result: FTBFS in Fedora rawhide/f44"
     ]
-  },
-  "python-rich": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2431601"
-    ],
-    "summaries": [
-      "python-rich fails to build with Python 3.15: AssertionError in test_inspect_builtin_function_only_python311"
-    ]
-  },
-  "python-roman-numerals-py": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-rpmautospec-koji": {
-    "urls": [],
-    "summaries": []
   },
   "python-rsdclient": {
     "urls": [],
@@ -1269,9 +1189,11 @@
   },
   "python-setuptools": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2440552",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2424312"
     ],
     "summaries": [
+      "python-setuptools fails to build with Python 3.15: DeprecationWarning: '__version__' is deprecated and slated for removal in Python 3.20",
       "typing-extensions vendored in setuptools is not compatible with Python 3.15.0a3"
     ]
   },
@@ -1303,10 +1225,6 @@
       "python-stdlibs fails to build with Python 3.15: test_sys_stdlib_modules_agrees: AssertionError: Items in the second set but not the first: '_math_integer'"
     ]
   },
-  "python-strictyaml": {
-    "urls": [],
-    "summaries": []
-  },
   "python-string_utils": {
     "urls": [],
     "summaries": []
@@ -1320,10 +1238,6 @@
     ]
   },
   "python-symengine": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-system-calls": {
     "urls": [],
     "summaries": []
   },
@@ -1357,14 +1271,6 @@
     ],
     "summaries": [
       "python-tomli fails to build with Python 3.15: /usr/lib/python3.15/site-packages/mypyc/lib-rt/pythonsupport.h:125:5: error: \u2018_PyObject_GetAttrId\u2019 is deprecated"
-    ]
-  },
-  "python-tornado": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2414557"
-    ],
-    "summaries": [
-      "python-tornado fails to build with Python 3.15: ERROR: test_multi_process"
     ]
   },
   "python-translitcodec": {
@@ -1402,16 +1308,24 @@
     "summaries": []
   },
   "python-webob": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2440568"
+    ],
+    "summaries": [
+      "python-webob fails to build with Python 3.15: test_client_cookies: http.client.RemoteDisconnected: Remote end closed connection without response"
+    ]
   },
   "python-websocket-client": {
     "urls": [],
     "summaries": []
   },
   "python-websockets": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2440566"
+    ],
+    "summaries": [
+      "python-websockets fails to build with Python 3.15: test_apply_mask_non_contiguous_memoryview: BufferError: memoryview: underlying buffer is not C-contiguous"
+    ]
   },
   "python-willow": {
     "urls": [],
@@ -1430,14 +1344,14 @@
     ]
   },
   "python-zict": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2440574"
+    ],
+    "summaries": [
+      "python-zict fails to build with Python 3.15: timeout in test_stress_different_keys_threadsafe"
+    ]
   },
   "python-zlib-ng": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-zmq": {
     "urls": [],
     "summaries": []
   },
@@ -1450,10 +1364,6 @@
     ]
   },
   "python3-pydo": {
-    "urls": [],
-    "summaries": []
-  },
-  "quodlibet": {
     "urls": [],
     "summaries": []
   },
@@ -1536,10 +1446,6 @@
     "summaries": [
       "xapian-bindings fails to build with Python 3.15: Fatal Python error: PyMutex_Unlock: unlocking mutex that is not locked"
     ]
-  },
-  "xcat": {
-    "urls": [],
-    "summaries": []
   },
   "xcfun": {
     "urls": [],
