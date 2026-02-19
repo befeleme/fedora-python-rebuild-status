@@ -19,10 +19,6 @@
     "urls": [],
     "summaries": []
   },
-  "academic-admin": {
-    "urls": [],
-    "summaries": []
-  },
   "ansible-core": {
     "urls": [],
     "summaries": []
@@ -72,8 +68,12 @@
     ]
   },
   "collectd": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2440548"
+    ],
+    "summaries": [
+      "collectd-5.12.0-62.fc45 FTBFS: mosquitto.h not found"
+    ]
   },
   "dionaea": {
     "urls": [],
@@ -143,10 +143,6 @@
     "urls": [],
     "summaries": []
   },
-  "hatch": {
-    "urls": [],
-    "summaries": []
-  },
   "ikiwiki": {
     "urls": [],
     "summaries": []
@@ -175,18 +171,6 @@
       "jc fails to build with Python 3.15: AssertionError: 'format': 1760, != 'format': 7250,"
     ]
   },
-  "kalamine": {
-    "urls": [],
-    "summaries": []
-  },
-  "kernel": {
-    "urls": [],
-    "summaries": []
-  },
-  "keylime": {
-    "urls": [],
-    "summaries": []
-  },
   "khal": {
     "urls": [],
     "summaries": []
@@ -208,10 +192,6 @@
     "summaries": []
   },
   "libCombine": {
-    "urls": [],
-    "summaries": []
-  },
-  "libarrow": {
     "urls": [],
     "summaries": []
   },
@@ -267,19 +247,11 @@
     "urls": [],
     "summaries": []
   },
-  "llvm": {
-    "urls": [],
-    "summaries": []
-  },
   "manafirewall": {
     "urls": [],
     "summaries": []
   },
   "materialx": {
-    "urls": [],
-    "summaries": []
-  },
-  "mlpack": {
     "urls": [],
     "summaries": []
   },
@@ -432,8 +404,12 @@
     "summaries": []
   },
   "python-apprise": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2433807"
+    ],
+    "summaries": [
+      "python-apprise fails to build with Python 3.15: AssertionError: test_apprise_cli_persistent_storage"
+    ]
   },
   "python-astroid": {
     "urls": [
@@ -607,10 +583,6 @@
       "python-chai fails to build with Python 3.15: chai.exception.UnsupportedStub: (\"can't stub %s\", <property object at 0x7fbbc41d1df0>)"
     ]
   },
-  "python-cloudpickle": {
-    "urls": [],
-    "summaries": []
-  },
   "python-coincurve": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2434958"
@@ -627,21 +599,9 @@
       "python-colcon-core: Fails to build with setuptools 80.9.0, fails to install [pins setuptools < 80, test_build_package fails]"
     ]
   },
-  "python-configupdater": {
-    "urls": [],
-    "summaries": []
-  },
   "python-cs": {
     "urls": [],
     "summaries": []
-  },
-  "python-dateutil": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2423882"
-    ],
-    "summaries": [
-      "python-dateutil fails to build with Python 3.15: test_tzlocal_local_time_trim_colon: AssertionError: assert tz.gettz() is not None"
-    ]
   },
   "python-dbus-fast": {
     "urls": [],
@@ -769,10 +729,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-helpdev": {
-    "urls": [],
-    "summaries": []
-  },
   "python-httpx-socks": {
     "urls": [],
     "summaries": []
@@ -831,15 +787,7 @@
     "urls": [],
     "summaries": []
   },
-  "python-jupyter-lsp": {
-    "urls": [],
-    "summaries": []
-  },
   "python-jupyter-server": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-jupyter-server-terminals": {
     "urls": [],
     "summaries": []
   },
@@ -858,14 +806,6 @@
     "summaries": [
       "python-kaptan fails to build with Python 3.15: AttributeError: 'SourceFileLoader' object has no attribute 'load_module'. Did you mean: 'exec_module'? in test_py_file_handler and test_py_file_away_handler"
     ]
-  },
-  "python-livereload": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-llvmlite": {
-    "urls": [],
-    "summaries": []
   },
   "python-manatools": {
     "urls": [],
@@ -886,10 +826,6 @@
     "summaries": [
       "python-matplotlib fails to build with Python 3.15: failure of test_norm_callback and test_fork"
     ]
-  },
-  "python-migen": {
-    "urls": [],
-    "summaries": []
   },
   "python-mirrors-countme": {
     "urls": [
@@ -947,10 +883,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-odata-query": {
-    "urls": [],
-    "summaries": []
-  },
   "python-opensearch-py": {
     "urls": [],
     "summaries": []
@@ -970,10 +902,6 @@
     "summaries": [
       "python-patsy fails to build with Python 3.15: ValueError: Cannot use capturing groups in re.Scanner"
     ]
-  },
-  "python-pdf2image": {
-    "urls": [],
-    "summaries": []
   },
   "python-pdir2": {
     "urls": [
@@ -998,10 +926,6 @@
     ]
   },
   "python-poetry-dynamic-versioning": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-pox": {
     "urls": [],
     "summaries": []
   },
@@ -1197,10 +1121,6 @@
       "typing-extensions vendored in setuptools is not compatible with Python 3.15.0a3"
     ]
   },
-  "python-simple-websocket": {
-    "urls": [],
-    "summaries": []
-  },
   "python-slixmpp": {
     "urls": [],
     "summaries": []
@@ -1213,10 +1133,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-stdlib-list": {
-    "urls": [],
-    "summaries": []
-  },
   "python-stdlibs": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2417018"
@@ -1224,10 +1140,6 @@
     "summaries": [
       "python-stdlibs fails to build with Python 3.15: test_sys_stdlib_modules_agrees: AssertionError: Items in the second set but not the first: '_math_integer'"
     ]
-  },
-  "python-string_utils": {
-    "urls": [],
-    "summaries": []
   },
   "python-supersmoother": {
     "urls": [
@@ -1238,14 +1150,6 @@
     ]
   },
   "python-symengine": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-tenacity": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-terminado": {
     "urls": [],
     "summaries": []
   },
@@ -1388,8 +1292,12 @@
     ]
   },
   "rrdtool": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2440557"
+    ],
+    "summaries": [
+      "rrdtool-1.9.0-10.fc45 FTBFS: File not found: /builddir/build/BUILD/rrdtool-1.9.0-build/BUILDROOT/usr/lib64/lua/5.5/*"
+    ]
   },
   "rtlsdr-scanner": {
     "urls": [],
@@ -1400,10 +1308,6 @@
     "summaries": []
   },
   "subscription-manager": {
-    "urls": [],
-    "summaries": []
-  },
-  "trellis": {
     "urls": [],
     "summaries": []
   },

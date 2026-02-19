@@ -31,7 +31,7 @@ aactivator	succeeded
 abiword	succeeded
 abrt	succeeded
 abrt-server-info-page	succeeded
-academic-admin	failed
+academic-admin	succeeded
 accerciser	succeeded
 adb-enhanced	succeeded
 afflib	succeeded
@@ -291,7 +291,7 @@ gwebsockets	succeeded
 gyp	succeeded
 h5py	succeeded
 hamlib	succeeded
-hatch	failed
+hatch	succeeded
 hddfancontrol	succeeded
 hexchat	succeeded
 hgsvn	succeeded
@@ -326,11 +326,11 @@ jello	succeeded
 joft	succeeded
 jrnl	succeeded
 jsonnet	succeeded
-kalamine	failed
+kalamine	succeeded
 kea	succeeded
-kernel	failed
+kernel	running
 keycloak-httpd-client-install	succeeded
-keylime	failed
+keylime	succeeded
 kf6-kapidox	succeeded
 kf6-kcoreaddons	succeeded
 kf6-kguiaddons	succeeded
@@ -372,7 +372,7 @@ lhapdf	succeeded
 libCombine	failed
 libaccounts-glib	succeeded
 libarcus	succeeded
-libarrow	failed
+libarrow	succeeded
 libbatch	succeeded
 libblockdev	succeeded
 libbytesize	succeeded
@@ -457,7 +457,7 @@ liquidctl	succeeded
 lirc	failed
 litecli	succeeded
 livecd-tools	succeeded
-llvm	failed
+llvm	running
 lollypop	succeeded
 loook	succeeded
 lorax	succeeded
@@ -491,7 +491,7 @@ mkdocs	succeeded
 mkdocs-bootstrap	succeeded
 mkdocs-bootswatch	succeeded
 mkosi	succeeded
-mlpack	failed
+mlpack	succeeded
 mlt	failed
 mock	succeeded
 mod_wsgi	succeeded
@@ -1047,7 +1047,7 @@ python-click-threading	succeeded
 python-cligj	succeeded
 python-cloud-sptheme	succeeded
 python-cloudflare	succeeded
-python-cloudpickle	failed
+python-cloudpickle	succeeded
 python-cloudscraper	succeeded
 python-cloup	succeeded
 python-cma	succeeded
@@ -1110,7 +1110,7 @@ python-condense-json	succeeded
 python-configargparse	succeeded
 python-configobj	succeeded
 python-configshell	succeeded
-python-configupdater	failed
+python-configupdater	succeeded
 python-confluent-kafka	succeeded
 python-confuse	succeeded
 python-connection_pool	succeeded
@@ -1176,7 +1176,7 @@ python-damo	succeeded
 python-dasbus	succeeded
 python-dateparser	succeeded
 python-datetimerange	succeeded
-python-dateutil	failed
+python-dateutil	running
 python-dbf	succeeded
 python-dbfread	succeeded
 python-dbus-client-gen	succeeded
@@ -1522,7 +1522,7 @@ python-hatch-nodejs-version	succeeded
 python-hatch-vcs	succeeded
 python-hatchling	succeeded
 python-heapdict	succeeded
-python-helpdev	failed
+python-helpdev	succeeded
 python-hexdump	succeeded
 python-hgapi	succeeded
 python-hglib	succeeded
@@ -1683,10 +1683,10 @@ python-jupymake	succeeded
 python-jupyter-client	succeeded
 python-jupyter-core	succeeded
 python-jupyter-events	succeeded
-python-jupyter-lsp	failed
+python-jupyter-lsp	succeeded
 python-jupyter-packaging	succeeded
 python-jupyter-server	failed
-python-jupyter-server-terminals	failed
+python-jupyter-server-terminals	succeeded
 python-jupyterlab_pygments	succeeded
 python-justbases	succeeded
 python-justbytes	succeeded
@@ -1749,9 +1749,9 @@ python-linuxdoc	succeeded
 python-listparser	succeeded
 python-litellm-proxy-extras	succeeded
 python-littleutils	succeeded
-python-livereload	failed
+python-livereload	succeeded
 python-llfuse	succeeded
-python-llvmlite	failed
+python-llvmlite	succeeded
 python-lmdb	succeeded
 python-localzone	succeeded
 python-locket	succeeded
@@ -1814,7 +1814,7 @@ python-metar	succeeded
 python-mf2py	succeeded
 python-micawber	succeeded
 python-microsoft-security-utilities-secret-masker	succeeded
-python-migen	failed
+python-migen	succeeded
 python-mimeparse	succeeded
 python-mimerender	succeeded
 python-minidb	succeeded
@@ -1929,7 +1929,7 @@ python-oauth	succeeded
 python-oauth2	succeeded
 python-oauth2client	succeeded
 python-oauthlib	succeeded
-python-odata-query	failed
+python-odata-query	succeeded
 python-ofxparse	succeeded
 python-olefile	succeeded
 python-oletools	succeeded
@@ -2009,7 +2009,7 @@ python-pbkdf2	succeeded
 python-pbr	succeeded
 python-pbs-installer	succeeded
 python-pcicrawler	succeeded
-python-pdf2image	failed
+python-pdf2image	succeeded
 python-pdfkit	succeeded
 python-pdfminer	succeeded
 python-pdfrw	succeeded
@@ -2063,7 +2063,7 @@ python-port-for	succeeded
 python-portalocker	succeeded
 python-portend	succeeded
 python-posix-ipc	succeeded
-python-pox	failed
+python-pox	succeeded
 python-ppft	succeeded
 python-precis_i18n	succeeded
 python-prefixed	succeeded
@@ -2508,7 +2508,7 @@ python-sievelib	succeeded
 python-signedjson	succeeded
 python-simple-pid	succeeded
 python-simple-rlp	succeeded
-python-simple-websocket	failed
+python-simple-websocket	succeeded
 python-simpleaudio	succeeded
 python-simpleeval	succeeded
 python-simplejson	succeeded
@@ -2623,7 +2623,7 @@ python-sshtunnel	succeeded
 python-standard-mailcap	succeeded
 python-standard-nntplib	succeeded
 python-starlette	succeeded
-python-stdlib-list	failed
+python-stdlib-list	succeeded
 python-stdlibs	failed
 python-stdnum	succeeded
 python-stem	succeeded
@@ -2631,7 +2631,7 @@ python-stevedore	succeeded
 python-stone	succeeded
 python-straight-plugin	succeeded
 python-strict-rfc3339	succeeded
-python-string_utils	failed
+python-string_utils	succeeded
 python-stripe	succeeded
 python-stuf	succeeded
 python-subliminal	succeeded
@@ -2669,11 +2669,11 @@ python-tempdir	succeeded
 python-tempita	succeeded
 python-templated-dictionary	succeeded
 python-tempora	succeeded
-python-tenacity	failed
+python-tenacity	succeeded
 python-tensile	succeeded
 python-term-background	succeeded
 python-termcolor	succeeded
-python-terminado	failed
+python-terminado	succeeded
 python-terminaltables	succeeded
 python-terminaltables3	succeeded
 python-testfixtures	succeeded
@@ -2864,6 +2864,7 @@ python-wikitcms	succeeded
 python-willow	failed
 python-winrm	succeeded
 python-wrapt	succeeded
+python-wsgidav	succeeded
 python-wsproto	succeeded
 python-wtforms	succeeded
 python-wurlitzer	succeeded
@@ -2977,7 +2978,7 @@ rmlint	succeeded
 rmol	succeeded
 roca-detect	succeeded
 rofimoji	succeeded
-root	failed
+root	running
 rpkg-util	succeeded
 rpl	succeeded
 rpm	succeeded
@@ -3084,7 +3085,7 @@ tracer	succeeded
 trademgen	succeeded
 tre	succeeded
 trelby	succeeded
-trellis	failed
+trellis	succeeded
 tuna	succeeded
 tuned	succeeded
 txt2tags	succeeded
