@@ -12,7 +12,7 @@ BZ_PAGE_SIZE = 20
 VERSION_CONFIG = {
     "3.14": {
         "tracker": 2322407,  # PYTHON3.14
-        "rawhide": 2339432,  # F43FTBFS
+        "rawhide": [2339432],  # F43FTBFS
         "failed_file": "data/failed_py314.pkgs",
         "waiting_file": "data/waiting_py314.pkgs",
         "python_pkgs": "data/python314.pkgs",
