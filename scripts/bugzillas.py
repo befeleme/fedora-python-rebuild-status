@@ -21,7 +21,7 @@ VERSION_CONFIG = {
     },
     "3.15": {
         "tracker": 2412434,  # PYTHON3.15
-        "rawhide": 2384424,  # F44FTBFS
+        "rawhide": [2384424, 2433833],  # F44FTBFS, F45FTBFS
         "failed_file": "data/failed_py315.pkgs",
         "waiting_file": "data/waiting_py315.pkgs",
         "python_pkgs": "data/python315.pkgs",
@@ -65,7 +65,7 @@ def bugzillas(sorted_fails, tracker, rawhide):
     if tracker:
         blocks.append(tracker)
     if rawhide:
-        blocks.append(rawhide)
+        blocks.extend(rawhide)
 
     if not blocks:
         # If no trackers, return empty list
