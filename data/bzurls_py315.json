@@ -19,6 +19,10 @@
     "urls": [],
     "summaries": []
   },
+  "ansible": {
+    "urls": [],
+    "summaries": []
+  },
   "ansible-core": {
     "urls": [],
     "summaries": []
@@ -95,6 +99,10 @@
     "urls": [],
     "summaries": []
   },
+  "dnfdragora": {
+    "urls": [],
+    "summaries": []
+  },
   "dogtag-pki": {
     "urls": [],
     "summaries": []
@@ -127,10 +135,6 @@
       "fail2ban fails to build with Python 3.15: AttributeError: 'SourceFileLoader' object has no attribute 'load_module'. Did you mean: 'exec_module'?"
     ]
   },
-  "gdal": {
-    "urls": [],
-    "summaries": []
-  },
   "gherkin": {
     "urls": [],
     "summaries": []
@@ -140,6 +144,14 @@
     "summaries": []
   },
   "gplugin": {
+    "urls": [],
+    "summaries": []
+  },
+  "hatch": {
+    "urls": [],
+    "summaries": []
+  },
+  "home-assistant-cli": {
     "urls": [],
     "summaries": []
   },
@@ -213,14 +225,6 @@
     ],
     "summaries": [
       "libkml: FTBFS in Fedora rawhide/f44"
-    ]
-  },
-  "libmodulemd": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2440570"
-    ],
-    "summaries": [
-      "libmodulemd fails to build with Python 3.15: TypeError: property 'name' can only be set in constructor"
     ]
   },
   "libopenshot": {
@@ -415,6 +419,10 @@
     "urls": [],
     "summaries": []
   },
+  "python-ansible-runner": {
+    "urls": [],
+    "summaries": []
+  },
   "python-apprise": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2433807"
@@ -442,6 +450,14 @@
   "python-asyncssh": {
     "urls": [],
     "summaries": []
+  },
+  "python-avocado": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2434951"
+    ],
+    "summaries": [
+      "python-avocado: FTBFS in Fedora rawhide/f44"
+    ]
   },
   "python-awscrt": {
     "urls": [],
@@ -657,10 +673,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-elementpath": {
-    "urls": [],
-    "summaries": []
-  },
   "python-engineio": {
     "urls": [],
     "summaries": []
@@ -725,6 +737,10 @@
       "python-fs fails to build with Python 3.15: AttributeError: 'DocTestCase' object has no attribute '_test_result'"
     ]
   },
+  "python-fsspec": {
+    "urls": [],
+    "summaries": []
+  },
   "python-geoip2": {
     "urls": [],
     "summaries": []
@@ -744,6 +760,10 @@
     "summaries": [
       "python-giacpy: FTBFS in Fedora rawhide/f44"
     ]
+  },
+  "python-git-changelog": {
+    "urls": [],
+    "summaries": []
   },
   "python-google-auth": {
     "urls": [],
@@ -841,9 +861,11 @@
   },
   "python-matplotlib": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2442243",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2433761"
     ],
     "summaries": [
+      "python-matplotlib: FTBFS in Fedora Rawhide: No match for argument: tex(cmb10.tfm) and more",
       "python-matplotlib fails to build with Python 3.15: failure of test_norm_callback and test_fork"
     ]
   },
@@ -880,12 +902,20 @@
     ]
   },
   "python-multiprocess": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2442368"
+    ],
+    "summaries": [
+      "python-multiprocess fails to build with Python 3.15: ValueError: Globs did not match any module: _multiprocess"
+    ]
   },
   "python-nashpy": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2442356"
+    ],
+    "summaries": [
+      "python-nashpy fails to build with Python 3.15: AssertionError in test_properties_of_scores"
+    ]
   },
   "python-nbclient": {
     "urls": [],
@@ -896,8 +926,12 @@
     "summaries": []
   },
   "python-nibabel": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2442355"
+    ],
+    "summaries": [
+      "python-nibabel fails to build with Python 3.15: AssertionError in test_DeterministicGzipFile"
+    ]
   },
   "python-nltk": {
     "urls": [],
@@ -934,6 +968,10 @@
     ]
   },
   "python-pip": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pip-requirements-parser": {
     "urls": [],
     "summaries": []
   },
@@ -982,6 +1020,10 @@
     "summaries": []
   },
   "python-pydo": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pygmtools": {
     "urls": [],
     "summaries": []
   },
@@ -1065,6 +1107,10 @@
       "python-pytest-trio: FTBFS in Fedora rawhide/f44"
     ]
   },
+  "python-pywlroots": {
+    "urls": [],
+    "summaries": []
+  },
   "python-qt5": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2440551"
@@ -1113,6 +1159,14 @@
     ],
     "summaries": [
       "python-result: FTBFS in Fedora rawhide/f44"
+    ]
+  },
+  "python-rich": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2431601"
+    ],
+    "summaries": [
+      "python-rich fails to build with Python 3.15: AssertionError in test_inspect_builtin_function_only_python311"
     ]
   },
   "python-rsdclient": {
@@ -1247,10 +1301,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-xmlschema": {
-    "urls": [],
-    "summaries": []
-  },
   "python-yarl": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2440415"
@@ -1356,6 +1406,10 @@
     ]
   },
   "xcfun": {
+    "urls": [],
+    "summaries": []
+  },
+  "yt-dlp": {
     "urls": [],
     "summaries": []
   }

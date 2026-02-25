@@ -41,9 +41,11 @@ alacarte	succeeded
 amdsmi	succeeded
 ampy	succeeded
 anaconda	succeeded
+ansible	failed
 ansible-bender	succeeded
 ansible-collections-openstack	succeeded
 ansible-core	failed
+ansible-inventory-grapher	succeeded
 antlr4-project	succeeded
 apbs	succeeded
 apk-tools	succeeded
@@ -177,6 +179,7 @@ dnf-plugins-core	failed
 dnf-plugins-extras	succeeded
 dnf5	succeeded
 dnfdaemon	succeeded
+dnfdragora	failed
 dnsconfd	succeeded
 doge	succeeded
 dogtag-pki	failed
@@ -229,7 +232,7 @@ gajim	succeeded
 gammastep	succeeded
 ganglia	succeeded
 gcovr	succeeded
-gdal	failed
+gdal	succeeded
 gdb	succeeded
 gdcm	succeeded
 gensio	succeeded
@@ -292,11 +295,12 @@ gwebsockets	succeeded
 gyp	succeeded
 h5py	succeeded
 hamlib	succeeded
-hatch	succeeded
+hatch	failed
 hddfancontrol	succeeded
 hexchat	succeeded
 hgsvn	succeeded
 hivex	succeeded
+home-assistant-cli	failed
 hplip	succeeded
 hstsparser	succeeded
 httpie	succeeded
@@ -406,7 +410,7 @@ liblinear	succeeded
 libloc	succeeded
 liblouis	succeeded
 libmamba	succeeded
-libmodulemd	failed
+libmodulemd	succeeded
 libnbd	succeeded
 libnuml	succeeded
 libnvme	succeeded
@@ -764,7 +768,9 @@ python-annexremote	succeeded
 python-annotated-doc	succeeded
 python-annotated-types	succeeded
 python-ansi2html	succeeded
+python-ansible-compat	succeeded
 python-ansible-pylibssh	succeeded
+python-ansible-runner	failed
 python-ansicolor	succeeded
 python-anyio	succeeded
 python-anyjson	succeeded
@@ -820,6 +826,7 @@ python-autocommand	succeeded
 python-autopage	succeeded
 python-autopep8	succeeded
 python-avalara	succeeded
+python-avocado	failed
 python-awesomeversion	succeeded
 python-awscrt	failed
 python-axolotl	succeeded
@@ -1312,7 +1319,7 @@ python-edgegrid	succeeded
 python-editables	succeeded
 python-editor	succeeded
 python-editorconfig	succeeded
-python-elementpath	failed
+python-elementpath	succeeded
 python-email-validator	succeeded
 python-emcee	succeeded
 python-emoji	succeeded
@@ -1449,6 +1456,7 @@ python-frozendict	succeeded
 python-frozenlist	succeeded
 python-fs	failed
 python-fspath	succeeded
+python-fsspec	failed
 python-ftputil	succeeded
 python-fuckit	succeeded
 python-funcparserlib	succeeded
@@ -1479,7 +1487,7 @@ python-gevent	succeeded
 python-gevent-eventemitter	succeeded
 python-ghp-import	succeeded
 python-giacpy	failed
-python-git-changelog	succeeded
+python-git-changelog	failed
 python-git-revise	succeeded
 python-gitapi	succeeded
 python-gitdb	succeeded
@@ -2038,7 +2046,7 @@ python-pikepdf	succeeded
 python-pillow	succeeded
 python-pillow-jxl-plugin	succeeded
 python-pip	failed
-python-pip-requirements-parser	succeeded
+python-pip-requirements-parser	failed
 python-pipdeptree	failed
 python-pivy	succeeded
 python-pkgconfig	succeeded
@@ -2170,6 +2178,7 @@ python-pygments-lexer-solidity	succeeded
 python-pygments-markdown-lexer	succeeded
 python-pygments-pytest	succeeded
 python-pygments-style-solarized	succeeded
+python-pygmtools	failed
 python-pygtkspellcheck	failed
 python-pyhcl	succeeded
 python-pyjson5	succeeded
@@ -2343,7 +2352,7 @@ python-pyvirtualdisplay	succeeded
 python-pyvlx	succeeded
 python-pywayland	succeeded
 python-pywizlight	succeeded
-python-pywlroots	succeeded
+python-pywlroots	failed
 python-pyxdameraulevenshtein	succeeded
 python-pyxlsb2	succeeded
 python-pyxs	succeeded
@@ -2422,7 +2431,7 @@ python-rfc3339-validator	succeeded
 python-rfc3986	succeeded
 python-rfc3986-validator	succeeded
 python-rfc3987	succeeded
-python-rich	succeeded
+python-rich	failed
 python-rich-click	succeeded
 python-rich-rst	succeeded
 python-rjsmin	succeeded
@@ -2886,7 +2895,7 @@ python-xlrd2	succeeded
 python-xlsxwriter	succeeded
 python-xlwt	succeeded
 python-xml2rfc	succeeded
-python-xmlschema	failed
+python-xmlschema	succeeded
 python-xmlsec	succeeded
 python-xmltodict	succeeded
 python-xmltramp	succeeded
@@ -3151,6 +3160,7 @@ yawn	succeeded
 ydiff	succeeded
 yle-dl	succeeded
 youtube-dl	succeeded
+yt-dlp	failed
 z3	succeeded
 zbar	succeeded
 zeitgeist	succeeded
