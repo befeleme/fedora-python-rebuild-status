@@ -96,8 +96,12 @@
     "summaries": []
   },
   "dnf-plugins-core": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2380990"
+    ],
+    "summaries": [
+      "dnf-plugins-core-4.10.1-8.fc45 FTBFS with CMake using ninja: make: *** No targets specified and no makefile found."
+    ]
   },
   "dnfdragora": {
     "urls": [],
@@ -110,14 +114,6 @@
   "elements-alexandria": {
     "urls": [],
     "summaries": []
-  },
-  "esptool": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2431599"
-    ],
-    "summaries": [
-      "esptool fails to build with Python 3.15: AttributeError: 'CustomLoggerIncomplete' object has no attribute '_set_smart_features'. Did you mean: '_smart_features'?"
-    ]
   },
   "etckeeper": {
     "urls": [],
@@ -230,14 +226,6 @@
   "libopenshot": {
     "urls": [],
     "summaries": []
-  },
-  "libpeas": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2440569"
-    ],
-    "summaries": [
-      "libpeas fails to build with Python 3.15: ERROR:../tests/libpeas/extension-py.c:54:test_extension_py_instance_refcount: assertion failed (extension->ref_count == 2): (1 == 2)"
-    ]
   },
   "libreoffice": {
     "urls": [],
@@ -565,10 +553,6 @@
       "python-beartype fails to build with Python 3.15: ImportError: cannot import name 'no_type_check_decorator' from 'typing'"
     ]
   },
-  "python-binary-manager": {
-    "urls": [],
-    "summaries": []
-  },
   "python-blessed": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2434953",
@@ -603,20 +587,16 @@
     "urls": [],
     "summaries": []
   },
+  "python-catkin_lint": {
+    "urls": [],
+    "summaries": []
+  },
   "python-chai": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2424293"
     ],
     "summaries": [
       "python-chai fails to build with Python 3.15: chai.exception.UnsupportedStub: (\"can't stub %s\", <property object at 0x7fbbc41d1df0>)"
-    ]
-  },
-  "python-coincurve": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2434958"
-    ],
-    "summaries": [
-      "python-coincurve: FTBFS in Fedora rawhide/f44"
     ]
   },
   "python-colcon-core": {
@@ -827,6 +807,10 @@
     "urls": [],
     "summaries": []
   },
+  "python-jsonpath-rw": {
+    "urls": [],
+    "summaries": []
+  },
   "python-jupyter-server": {
     "urls": [],
     "summaries": []
@@ -925,6 +909,14 @@
     "urls": [],
     "summaries": []
   },
+  "python-neo": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2434996"
+    ],
+    "summaries": [
+      "python-neo: FTBFS in Fedora rawhide/f44"
+    ]
+  },
   "python-nibabel": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2442355"
@@ -972,8 +964,12 @@
     "summaries": []
   },
   "python-pip-requirements-parser": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2442577"
+    ],
+    "summaries": [
+      "python-pip-requirements-parser fails to build with Python 3.15: missing whitespace in a few tests"
+    ]
   },
   "python-pipdeptree": {
     "urls": [
@@ -1005,14 +1001,6 @@
     ],
     "summaries": [
       "python-psycopg2 fails to build with Python 3.15: error: implicit declaration of function \u2018PyWeakref_GetObject\u2019; did you mean \u2018PyWeakref_GetRef\u2019?"
-    ]
-  },
-  "python-pure-eval": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2414805"
-    ],
-    "summaries": [
-      "python-pure-eval fails to build with Python 3.15: pure_eval.utils.CannotEval: CannotEval in 11 tests"
     ]
   },
   "python-pydepsdev": {
@@ -1081,10 +1069,6 @@
       "python-pytest-django fails to build with Python 3.15: AttributeError: 'ConfigurationLoader' object has no attribute 'exec_module'. Did you mean: 'load_module'?"
     ]
   },
-  "python-pytest-freezegun": {
-    "urls": [],
-    "summaries": []
-  },
   "python-pytest-tldr": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2435014",
@@ -1094,10 +1078,6 @@
       "python-pytest-tldr: FTBFS in Fedora rawhide/f44",
       "python-pytest-tldr fails to build with Python 3.15: tests/test_plugins.py::test_coverage: remains unmatched: '*----- coverage: platform *-----'"
     ]
-  },
-  "python-pytest-tornado": {
-    "urls": [],
-    "summaries": []
   },
   "python-pytest-trio": {
     "urls": [
@@ -1184,16 +1164,6 @@
   "python-sep": {
     "urls": [],
     "summaries": []
-  },
-  "python-setuptools": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2440552",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2424312"
-    ],
-    "summaries": [
-      "python-setuptools fails to build with Python 3.15: DeprecationWarning: '__version__' is deprecated and slated for removal in Python 3.20",
-      "typing-extensions vendored in setuptools is not compatible with Python 3.15.0a3"
-    ]
   },
   "python-slixmpp": {
     "urls": [],
@@ -1382,10 +1352,6 @@
     ]
   },
   "vdirsyncer": {
-    "urls": [],
-    "summaries": []
-  },
-  "vtk": {
     "urls": [],
     "summaries": []
   },

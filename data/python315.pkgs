@@ -193,6 +193,7 @@ emacs-jedi
 enjarify
 ephemeral-port-reserve
 espresso
+esptool
 etckeeper
 evemu
 f3d
@@ -315,6 +316,7 @@ initial-setup
 inn
 insight
 intelhex
+ipython
 irclog2html
 is-it-in-rhel
 iscsi-initiator-utils
@@ -614,7 +616,9 @@ proxmark3
 prunerepo
 pss
 pssh
+ptpython
 pulp-cli
+pulp-cli-deb
 pulsecaster
 pungi
 py-radix
@@ -691,6 +695,7 @@ python-QtPy
 python-ROPGadget
 python-Rtree
 python-SecretStorage
+python-TestSlide
 python-Traits
 python-WSGIProxy2
 python-XStatic
@@ -970,6 +975,7 @@ python-bottle
 python-bottle-sqlite
 python-boxsdk
 python-bracex
+python-branca
 python-bravado
 python-bravado-core
 python-breathe
@@ -988,6 +994,7 @@ python-cairocffi
 python-cairosvg
 python-caja
 python-calcephpy
+python-call-graph
 python-can
 python-canonicaljson
 python-capturer
@@ -1046,6 +1053,7 @@ python-cobalt
 python-codecov
 python-cogapp
 python-coherent-licensed
+python-coincurve
 python-colander
 python-colcon-argcomplete
 python-colcon-bash
@@ -1595,6 +1603,7 @@ python-ipcqueue
 python-ipfshttpclient
 python-ipmi
 python-ipuz
+python-ipykernel
 python-ipython-pygments-lexers
 python-ipython_genutils
 python-irc
@@ -1660,12 +1669,17 @@ python-junitparser
 python-junitxml
 python-jupymake
 python-jupyter-client
+python-jupyter-console
 python-jupyter-core
 python-jupyter-events
+python-jupyter-kernel-singular
+python-jupyter-kernel-test
 python-jupyter-lsp
 python-jupyter-packaging
+python-jupyter-polymake
 python-jupyter-server
 python-jupyter-server-terminals
+python-jupyterlab-server
 python-jupyterlab_pygments
 python-justbases
 python-justbytes
@@ -1865,6 +1879,7 @@ python-nagiosplugin
 python-name-that-hash
 python-nanobind
 python-natsort
+python-nbclassic
 python-nbclient
 python-nbconvert
 python-nbformat
@@ -1890,6 +1905,7 @@ python-noiseprotocol
 python-normality
 python-norpm
 python-nose2
+python-notebook-shim
 python-notify2
 python-npyscreen
 python-ns1-python
@@ -1957,6 +1973,7 @@ python-pandas-datareader
 python-pandocfilters
 python-parameter-expansion-patched
 python-paramiko
+python-pari-jupyter
 python-parse
 python-parse_type
 python-parsedatetime
@@ -2040,6 +2057,7 @@ python-prefixed
 python-presets
 python-pretend
 python-pretty-yaml
+python-prettyprinter
 python-prettytable
 python-priority
 python-process-tests
@@ -2064,8 +2082,10 @@ python-publicsuffix2
 python-pudb
 python-pulp
 python-pulp-glue
+python-pulp-glue-deb
 python-pulsectl
 python-pulsectl-asyncio
+python-pure-eval
 python-pure-protobuf
 python-puremagic
 python-puzpy
@@ -2260,6 +2280,7 @@ python-pytest-httpbin
 python-pytest-httpserver
 python-pytest-httpx
 python-pytest-isort
+python-pytest-jupyter
 python-pytest-lazy-fixture
 python-pytest-lazy-fixtures
 python-pytest-localftpserver
@@ -2288,6 +2309,7 @@ python-pytest-sugar
 python-pytest-testmon
 python-pytest-timeout
 python-pytest-tldr
+python-pytest-tornado
 python-pytest-trio
 python-pytest-venv
 python-pytest-watch
@@ -2351,6 +2373,7 @@ python-repoze-lru
 python-repoze-sphinx-autointerface
 python-repoze-tm2
 python-repoze-who
+python-represent
 python-requests
 python-requests-download
 python-requests-exoscale-auth
@@ -2568,6 +2591,7 @@ python-sphinxygen
 python-spnego
 python-spotipy
 python-spur
+python-spyder-kernels
 python-sql
 python-sqlacodegen
 python-sqlalchemy-filters
@@ -2581,6 +2605,7 @@ python-sqlparse
 python-ssdeep
 python-ssh-python
 python-sshtunnel
+python-stack-data
 python-standard-mailcap
 python-standard-nntplib
 python-starlette
