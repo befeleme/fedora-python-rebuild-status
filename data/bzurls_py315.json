@@ -3,19 +3,7 @@
     "urls": [],
     "summaries": []
   },
-  "OpenColorIO": {
-    "urls": [],
-    "summaries": []
-  },
-  "OpenImageIO": {
-    "urls": [],
-    "summaries": []
-  },
   "OpenLP": {
-    "urls": [],
-    "summaries": []
-  },
-  "YafaRay": {
     "urls": [],
     "summaries": []
   },
@@ -71,14 +59,6 @@
       "classification-banner: FTBFS in Fedora rawhide/f44"
     ]
   },
-  "collectd": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2440548"
-    ],
-    "summaries": [
-      "collectd-5.12.0-62.fc45 FTBFS: mosquitto.h not found"
-    ]
-  },
   "dionaea": {
     "urls": [],
     "summaries": []
@@ -95,14 +75,6 @@
     "urls": [],
     "summaries": []
   },
-  "dnf-plugins-core": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2380990"
-    ],
-    "summaries": [
-      "dnf-plugins-core-4.10.1-8.fc45 FTBFS with CMake using ninja: make: *** No targets specified and no makefile found."
-    ]
-  },
   "dnfdragora": {
     "urls": [],
     "summaries": []
@@ -115,11 +87,11 @@
     "urls": [],
     "summaries": []
   },
-  "etckeeper": {
+  "espresso": {
     "urls": [],
     "summaries": []
   },
-  "f3d": {
+  "etckeeper": {
     "urls": [],
     "summaries": []
   },
@@ -179,10 +151,6 @@
       "jc fails to build with Python 3.15: AssertionError: 'format': 1760, != 'format': 7250,"
     ]
   },
-  "kernel": {
-    "urls": [],
-    "summaries": []
-  },
   "khal": {
     "urls": [],
     "summaries": []
@@ -207,10 +175,6 @@
     "urls": [],
     "summaries": []
   },
-  "libfreenect": {
-    "urls": [],
-    "summaries": []
-  },
   "libftdi": {
     "urls": [],
     "summaries": []
@@ -223,15 +187,7 @@
       "libkml: FTBFS in Fedora rawhide/f44"
     ]
   },
-  "libopenshot": {
-    "urls": [],
-    "summaries": []
-  },
   "libreoffice": {
-    "urls": [],
-    "summaries": []
-  },
-  "libsonata": {
     "urls": [],
     "summaries": []
   },
@@ -259,10 +215,6 @@
     "urls": [],
     "summaries": []
   },
-  "mlt": {
-    "urls": [],
-    "summaries": []
-  },
   "moose": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2414807"
@@ -270,14 +222,6 @@
     "summaries": [
       "moose fails to build with Python 3.15: moose-core-3.1.5/pymoose/PyRun.h:58:24: error: \u2018Py_GetProgramName\u2019 was not declared in this scope; did you mean \u2018Py_SetProgramName\u2019?"
     ]
-  },
-  "morphio": {
-    "urls": [],
-    "summaries": []
-  },
-  "netgen-mesher": {
-    "urls": [],
-    "summaries": []
   },
   "netplan": {
     "urls": [
@@ -300,10 +244,6 @@
     "summaries": []
   },
   "opae": {
-    "urls": [],
-    "summaries": []
-  },
-  "opencv": {
     "urls": [],
     "summaries": []
   },
@@ -571,19 +511,7 @@
     "urls": [],
     "summaries": []
   },
-  "python-botocore": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2424584"
-    ],
-    "summaries": [
-      "python-botocore fails to build with Python 3.15: AssertionError: At index 8 diff: b'\\x00' != b'\\x02'"
-    ]
-  },
   "python-build": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-cascadio": {
     "urls": [],
     "summaries": []
   },
@@ -606,6 +534,10 @@
     "summaries": [
       "python-colcon-core: Fails to build with setuptools 80.9.0, fails to install [pins setuptools < 80, test_build_package fails]"
     ]
+  },
+  "python-container-inspector": {
+    "urls": [],
+    "summaries": []
   },
   "python-cs": {
     "urls": [],
@@ -746,6 +678,10 @@
     "summaries": []
   },
   "python-google-auth": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-gstreamer1": {
     "urls": [],
     "summaries": []
   },
@@ -1251,6 +1187,10 @@
       "python-typeguard fails to build with Python 3.15: TypeError: cache_from_source() takes 1 positional argument but 2 positional arguments (and 1 keyword-only argument) were given"
     ]
   },
+  "python-uv-build": {
+    "urls": [],
+    "summaries": []
+  },
   "python-vedo": {
     "urls": [],
     "summaries": []
@@ -1350,6 +1290,10 @@
     "summaries": [
       "usd fails to build with Python 3.15: /builddir/build/BUILD/usd-25.11-build/OpenUSD-25.11/pxr/base/tf/pyIdentity.cpp:139:16: error: \u2018PyWeakref_GetObject\u2019 was not declared in this scope; did you mean \u2018PyWeakref_GetRef\u2019?"
     ]
+  },
+  "uv": {
+    "urls": [],
+    "summaries": []
   },
   "vdirsyncer": {
     "urls": [],
