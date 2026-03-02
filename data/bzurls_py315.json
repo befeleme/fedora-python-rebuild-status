@@ -107,10 +107,6 @@
       "fail2ban fails to build with Python 3.15: AttributeError: 'SourceFileLoader' object has no attribute 'load_module'. Did you mean: 'exec_module'?"
     ]
   },
-  "gherkin": {
-    "urls": [],
-    "summaries": []
-  },
   "gmsh": {
     "urls": [],
     "summaries": []
@@ -1298,14 +1294,6 @@
   "vdirsyncer": {
     "urls": [],
     "summaries": []
-  },
-  "waf": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2424309"
-    ],
-    "summaries": [
-      "waf fails to build with Python 3.15: AttributeError: 'SourceFileLoader' object has no attribute 'load_module'. Did you mean: 'exec_module'?"
-    ]
   },
   "xapian-bindings": {
     "urls": [
