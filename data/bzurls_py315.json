@@ -511,6 +511,14 @@
     "urls": [],
     "summaries": []
   },
+  "python-botocore": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2424584"
+    ],
+    "summaries": [
+      "python-botocore fails to build with Python 3.15: AssertionError: At index 8 diff: b'\\x00' != b'\\x02'"
+    ]
+  },
   "python-build": {
     "urls": [],
     "summaries": []
@@ -862,6 +870,14 @@
     ]
   },
   "python-nltk": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-openapi-schema-validator": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-openapi-spec-validator": {
     "urls": [],
     "summaries": []
   },
