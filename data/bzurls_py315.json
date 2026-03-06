@@ -147,6 +147,10 @@
       "jc fails to build with Python 3.15: AssertionError: 'format': 1760, != 'format': 7250,"
     ]
   },
+  "kernel": {
+    "urls": [],
+    "summaries": []
+  },
   "kf6-kguiaddons": {
     "urls": [],
     "summaries": []
@@ -250,14 +254,6 @@
   "opae": {
     "urls": [],
     "summaries": []
-  },
-  "openmpi": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2434889"
-    ],
-    "summaries": [
-      "openmpi: FTBFS in Fedora rawhide/f44"
-    ]
   },
   "openshadinglanguage": {
     "urls": [],
@@ -538,6 +534,10 @@
     "summaries": [
       "python-chai fails to build with Python 3.15: chai.exception.UnsupportedStub: (\"can't stub %s\", <property object at 0x7fbbc41d1df0>)"
     ]
+  },
+  "python-cli-helpers": {
+    "urls": [],
+    "summaries": []
   },
   "python-colcon-core": {
     "urls": [
