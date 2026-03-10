@@ -79,10 +79,6 @@
     "urls": [],
     "summaries": []
   },
-  "dogtag-pki": {
-    "urls": [],
-    "summaries": []
-  },
   "espresso": {
     "urls": [],
     "summaries": []
@@ -507,10 +503,6 @@
       "python-chai fails to build with Python 3.15: chai.exception.UnsupportedStub: (\"can't stub %s\", <property object at 0x7fbbc41d1df0>)"
     ]
   },
-  "python-cli-helpers": {
-    "urls": [],
-    "summaries": []
-  },
   "python-colcon-core": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2403563"
@@ -835,14 +827,6 @@
       "python-neo: FTBFS in Fedora rawhide/f44"
     ]
   },
-  "python-nibabel": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2442355"
-    ],
-    "summaries": [
-      "python-nibabel fails to build with Python 3.15: AssertionError in test_DeterministicGzipFile"
-    ]
-  },
   "python-nltk": {
     "urls": [],
     "summaries": []
@@ -888,14 +872,6 @@
   "python-pip": {
     "urls": [],
     "summaries": []
-  },
-  "python-pip-requirements-parser": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2442577"
-    ],
-    "summaries": [
-      "python-pip-requirements-parser fails to build with Python 3.15: missing whitespace in a few tests"
-    ]
   },
   "python-pipdeptree": {
     "urls": [
@@ -947,14 +923,6 @@
     ],
     "summaries": [
       "python-pygtkspellcheck: FTBFS in Fedora rawhide/f44"
-    ]
-  },
-  "python-pyproject-hooks": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2440564"
-    ],
-    "summaries": [
-      "python-pyproject-hooks fails to build with Python 3.15: DeprecationWarning: os.path.commonprefix() is deprecated. Use os.path.commonpath() for longest path prefix."
     ]
   },
   "python-pyqt6": {
