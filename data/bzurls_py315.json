@@ -15,10 +15,6 @@
     "urls": [],
     "summaries": []
   },
-  "apx": {
-    "urls": [],
-    "summaries": []
-  },
   "argparse-manpage": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2431586"
@@ -59,6 +55,10 @@
       "classification-banner: FTBFS in Fedora rawhide/f44"
     ]
   },
+  "diffoscope": {
+    "urls": [],
+    "summaries": []
+  },
   "dionaea": {
     "urls": [],
     "summaries": []
@@ -95,19 +95,11 @@
       "fail2ban fails to build with Python 3.15: AttributeError: 'SourceFileLoader' object has no attribute 'load_module'. Did you mean: 'exec_module'?"
     ]
   },
-  "gmsh": {
-    "urls": [],
-    "summaries": []
-  },
   "gplugin": {
     "urls": [],
     "summaries": []
   },
   "hatch": {
-    "urls": [],
-    "summaries": []
-  },
-  "home-assistant-cli": {
     "urls": [],
     "summaries": []
   },
@@ -131,11 +123,35 @@
       "jc fails to build with Python 3.15: AssertionError: 'format': 1760, != 'format': 7250,"
     ]
   },
-  "kernel": {
+  "kf6-kcoreaddons": {
     "urls": [],
     "summaries": []
   },
   "kf6-kguiaddons": {
+    "urls": [],
+    "summaries": []
+  },
+  "kf6-kjobwidgets": {
+    "urls": [],
+    "summaries": []
+  },
+  "kf6-knotifications": {
+    "urls": [],
+    "summaries": []
+  },
+  "kf6-kstatusnotifieritem": {
+    "urls": [],
+    "summaries": []
+  },
+  "kf6-kunitconversion": {
+    "urls": [],
+    "summaries": []
+  },
+  "kf6-kwidgetsaddons": {
+    "urls": [],
+    "summaries": []
+  },
+  "kf6-kxmlgui": {
     "urls": [],
     "summaries": []
   },
@@ -179,10 +195,6 @@
     "urls": [],
     "summaries": []
   },
-  "libvirt-python": {
-    "urls": [],
-    "summaries": []
-  },
   "libyui": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2427943"
@@ -200,10 +212,6 @@
     "summaries": []
   },
   "manafirewall": {
-    "urls": [],
-    "summaries": []
-  },
-  "materialx": {
     "urls": [],
     "summaries": []
   },
@@ -231,19 +239,11 @@
     "urls": [],
     "summaries": []
   },
-  "openshadinglanguage": {
-    "urls": [],
-    "summaries": []
-  },
   "openvino": {
     "urls": [],
     "summaries": []
   },
   "osc": {
-    "urls": [],
-    "summaries": []
-  },
-  "osh": {
     "urls": [],
     "summaries": []
   },
@@ -256,10 +256,6 @@
     ]
   },
   "postfix-mta-sts-resolver": {
-    "urls": [],
-    "summaries": []
-  },
-  "protonvpn-cli": {
     "urls": [],
     "summaries": []
   },
@@ -280,10 +276,6 @@
     "summaries": []
   },
   "pysysbot": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-aiohttp": {
     "urls": [],
     "summaries": []
   },
@@ -487,14 +479,6 @@
       "python-botocore fails to build with Python 3.15: AssertionError: At index 8 diff: b'\\x00' != b'\\x02'"
     ]
   },
-  "python-build": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-catkin_lint": {
-    "urls": [],
-    "summaries": []
-  },
   "python-chai": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2424293"
@@ -511,10 +495,6 @@
       "python-colcon-core: Fails to build with setuptools 80.9.0, fails to install [pins setuptools < 80, test_build_package fails]"
     ]
   },
-  "python-container-inspector": {
-    "urls": [],
-    "summaries": []
-  },
   "python-cs": {
     "urls": [],
     "summaries": []
@@ -528,10 +508,6 @@
     ]
   },
   "python-dbus-fast": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-discovery": {
     "urls": [],
     "summaries": []
   },
@@ -552,10 +528,6 @@
     ]
   },
   "python-django-health-check": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-dulwich": {
     "urls": [],
     "summaries": []
   },
@@ -595,14 +567,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-fido2": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2424579"
-    ],
-    "summaries": [
-      "python-fido2 fails to build with Python 3.15: tests failures: AssertionError: 'TYPE.CREATE' != 'webauthn.create' and more"
-    ]
-  },
   "python-flask-oidc": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2434981",
@@ -627,10 +591,6 @@
       "python-fs fails to build with Python 3.15: AttributeError: 'DocTestCase' object has no attribute '_test_result'"
     ]
   },
-  "python-fsspec": {
-    "urls": [],
-    "summaries": []
-  },
   "python-geoip2": {
     "urls": [],
     "summaries": []
@@ -651,15 +611,7 @@
       "python-giacpy: FTBFS in Fedora rawhide/f44"
     ]
   },
-  "python-git-changelog": {
-    "urls": [],
-    "summaries": []
-  },
   "python-google-auth": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-gstreamer1": {
     "urls": [],
     "summaries": []
   },
@@ -713,19 +665,7 @@
       "python-iso8601: FTBFS in Fedora rawhide/f44"
     ]
   },
-  "python-jedi": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2424301"
-    ],
-    "summaries": [
-      "python-jedi fails to build with Python 3.15: multiple AssertionError in tests"
-    ]
-  },
   "python-joblib": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-jsonpath-rw": {
     "urls": [],
     "summaries": []
   },
@@ -913,10 +853,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-pygmtools": {
-    "urls": [],
-    "summaries": []
-  },
   "python-pygtkspellcheck": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2435008"
@@ -980,10 +916,6 @@
     "summaries": [
       "python-pytest-trio: FTBFS in Fedora rawhide/f44"
     ]
-  },
-  "python-pywlroots": {
-    "urls": [],
-    "summaries": []
   },
   "python-qt5": {
     "urls": [
@@ -1059,19 +991,11 @@
     "urls": [],
     "summaries": []
   },
-  "python-slixmpp": {
-    "urls": [],
-    "summaries": []
-  },
   "python-slixmpp-omemo": {
     "urls": [],
     "summaries": []
   },
   "python-socks": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-supersmoother": {
     "urls": [],
     "summaries": []
   },
@@ -1133,10 +1057,6 @@
       "python-typeguard fails to build with Python 3.15: TypeError: cache_from_source() takes 1 positional argument but 2 positional arguments (and 1 keyword-only argument) were given"
     ]
   },
-  "python-vedo": {
-    "urls": [],
-    "summaries": []
-  },
   "python-websocket-client": {
     "urls": [],
     "summaries": []
@@ -1147,18 +1067,6 @@
     ],
     "summaries": [
       "python-websockets fails to build with Python 3.15: test_apply_mask_non_contiguous_memoryview: BufferError: memoryview: underlying buffer is not C-contiguous"
-    ]
-  },
-  "python-willow": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-yarl": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2440415"
-    ],
-    "summaries": [
-      "python-yarl fails to build with Python 3.15: test_pickle and test_pickle_does_not_pollute_cache end with TypeError: 'NoneType' object is not subscriptable"
     ]
   },
   "python-zict": {
@@ -1172,6 +1080,14 @@
   "python-zlib-ng": {
     "urls": [],
     "summaries": []
+  },
+  "python-zope-testing": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2435040"
+    ],
+    "summaries": [
+      "python-zope-testing: FTBFS in Fedora rawhide/f44"
+    ]
   },
   "python-zope-testrunner": {
     "urls": [
@@ -1209,19 +1125,11 @@
     "urls": [],
     "summaries": []
   },
-  "ruff": {
-    "urls": [],
-    "summaries": []
-  },
   "sourcextractor++": {
     "urls": [],
     "summaries": []
   },
   "subscription-manager": {
-    "urls": [],
-    "summaries": []
-  },
-  "ty": {
     "urls": [],
     "summaries": []
   },
