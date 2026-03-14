@@ -59,10 +59,6 @@
       "bmap-tools fails to build with Python 3.15: bmaptool.BmapCopy.Error: checksum mismatch for blocks range 34-35"
     ]
   },
-  "bpython": {
-    "urls": [],
-    "summaries": []
-  },
   "breezy": {
     "urls": [],
     "summaries": []
@@ -76,6 +72,10 @@
     ]
   },
   "cantor": {
+    "urls": [],
+    "summaries": []
+  },
+  "ceph": {
     "urls": [],
     "summaries": []
   },
@@ -411,10 +411,6 @@
     "urls": [],
     "summaries": []
   },
-  "pysysbot": {
-    "urls": [],
-    "summaries": []
-  },
   "python-ansible-runner": {
     "urls": [],
     "summaries": []
@@ -545,11 +541,9 @@
   },
   "python-beartype": {
     "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2434952",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2432345"
     ],
     "summaries": [
-      "python-beartype: FTBFS in Fedora rawhide/f44",
       "python-beartype fails to build with Python 3.15: ImportError: cannot import name 'no_type_check_decorator' from 'typing'"
     ]
   },
@@ -566,18 +560,6 @@
   "python-bokeh": {
     "urls": [],
     "summaries": []
-  },
-  "python-boto3": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-botocore": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2424584"
-    ],
-    "summaries": [
-      "python-botocore fails to build with Python 3.15: AssertionError: At index 8 diff: b'\\x00' != b'\\x02'"
-    ]
   },
   "python-cascadio": {
     "urls": [],
@@ -610,6 +592,14 @@
   "python-cytoolz": {
     "urls": [],
     "summaries": []
+  },
+  "python-dateutil": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2423882"
+    ],
+    "summaries": [
+      "python-dateutil fails to build with Python 3.15: test_tzlocal_local_time_trim_colon: AssertionError: assert tz.gettz() is not None"
+    ]
   },
   "python-dbus-fast": {
     "urls": [],
@@ -675,6 +665,10 @@
       "python-exiv2 fails to build with Python 3.15: error: \u2018PyWeakref_GetObject\u2019 was not declared in this scope; did you mean \u2018PyWeakref_GetRef\u2019?"
     ]
   },
+  "python-exoscale": {
+    "urls": [],
+    "summaries": []
+  },
   "python-extractcode": {
     "urls": [],
     "summaries": []
@@ -731,10 +725,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-httpbin": {
-    "urls": [],
-    "summaries": []
-  },
   "python-hupper": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2434985",
@@ -782,14 +772,6 @@
     ]
   },
   "python-joblib": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-jupyter-client": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-jupyter-console": {
     "urls": [],
     "summaries": []
   },
@@ -891,10 +873,6 @@
       "python-neo: FTBFS in Fedora rawhide/f44"
     ]
   },
-  "python-neovim": {
-    "urls": [],
-    "summaries": []
-  },
   "python-nibabel": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2442355"
@@ -912,10 +890,6 @@
     "summaries": []
   },
   "python-openapi-spec-validator": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-openstackdocstheme": {
     "urls": [],
     "summaries": []
   },
@@ -974,14 +948,6 @@
     "summaries": []
   },
   "python-pyngus": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-pyogrio": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-pyopengltk": {
     "urls": [],
     "summaries": []
   },
@@ -1123,23 +1089,11 @@
     "urls": [],
     "summaries": []
   },
-  "python-slixmpp-omemo": {
-    "urls": [],
-    "summaries": []
-  },
   "python-sphinx-argparse-cli": {
     "urls": [],
     "summaries": []
   },
   "python-sphinx-basic-ng": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-spyder-kernels": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-sqlalchemy1.4": {
     "urls": [],
     "summaries": []
   },
@@ -1206,10 +1160,6 @@
     "summaries": []
   },
   "python-virtualenv-clone": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-visvis": {
     "urls": [],
     "summaries": []
   },
