@@ -3,23 +3,11 @@
     "urls": [],
     "summaries": []
   },
-  "OpenColorIO": {
-    "urls": [],
-    "summaries": []
-  },
-  "OpenImageIO": {
-    "urls": [],
-    "summaries": []
-  },
   "OpenLP": {
     "urls": [],
     "summaries": []
   },
   "RBTools": {
-    "urls": [],
-    "summaries": []
-  },
-  "YafaRay": {
     "urls": [],
     "summaries": []
   },
@@ -128,10 +116,6 @@
     "summaries": []
   },
   "etckeeper": {
-    "urls": [],
-    "summaries": []
-  },
-  "f3d": {
     "urls": [],
     "summaries": []
   },
@@ -251,10 +235,6 @@
     "urls": [],
     "summaries": []
   },
-  "libfreenect": {
-    "urls": [],
-    "summaries": []
-  },
   "libftdi": {
     "urls": [],
     "summaries": []
@@ -267,15 +247,7 @@
       "libkml: FTBFS in Fedora rawhide/f44"
     ]
   },
-  "libopenshot": {
-    "urls": [],
-    "summaries": []
-  },
   "libreoffice": {
-    "urls": [],
-    "summaries": []
-  },
-  "libsonata": {
     "urls": [],
     "summaries": []
   },
@@ -299,19 +271,15 @@
     "urls": [],
     "summaries": []
   },
-  "materialx": {
-    "urls": [],
-    "summaries": []
-  },
   "mercurial": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2447913"
+    ],
+    "summaries": [
+      "mercurial fails to build with Python 3.15: ImportError: cannot import name 'nlargest' from 'heapq'"
+    ]
   },
   "meson": {
-    "urls": [],
-    "summaries": []
-  },
-  "mlt": {
     "urls": [],
     "summaries": []
   },
@@ -327,10 +295,6 @@
     "urls": [],
     "summaries": []
   },
-  "netgen-mesher": {
-    "urls": [],
-    "summaries": []
-  },
   "netplan": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2434859"
@@ -343,23 +307,7 @@
     "urls": [],
     "summaries": []
   },
-  "nox": {
-    "urls": [],
-    "summaries": []
-  },
-  "ocrmypdf": {
-    "urls": [],
-    "summaries": []
-  },
   "opae": {
-    "urls": [],
-    "summaries": []
-  },
-  "opencv": {
-    "urls": [],
-    "summaries": []
-  },
-  "openshadinglanguage": {
     "urls": [],
     "summaries": []
   },
@@ -391,13 +339,13 @@
     "urls": [],
     "summaries": []
   },
-  "pyinstrument": {
-    "urls": [],
-    "summaries": []
-  },
   "pykakasi": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2440185"
+    ],
+    "summaries": [
+      "[heads up] pykakasi will fail to build with Sphinx 9+ in Fedora 45: sphinx.errors.SphinxError: cannot determine default role!"
+    ]
   },
   "pylint": {
     "urls": [
@@ -444,8 +392,12 @@
     "summaries": []
   },
   "python-attrs": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2447915"
+    ],
+    "summaries": [
+      "python-attrs fails to build with Python 3.15: TestMatchesRe.test_catches_invalid_func: 'func' must be one of None, fullmatch, prefixmatch, search."
+    ]
   },
   "python-avocado": {
     "urls": [
@@ -463,6 +415,14 @@
     "urls": [],
     "summaries": []
   },
+  "python-azure-loganalytics": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-azure-mgmt-advisor": {
+    "urls": [],
+    "summaries": []
+  },
   "python-azure-mgmt-applicationinsights": {
     "urls": [],
     "summaries": []
@@ -471,7 +431,31 @@
     "urls": [],
     "summaries": []
   },
+  "python-azure-mgmt-billing": {
+    "urls": [],
+    "summaries": []
+  },
   "python-azure-mgmt-cdn": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-azure-mgmt-consumption": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-azure-mgmt-databoxedge": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-azure-mgmt-datamigration": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-azure-mgmt-devtestlabs": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-azure-mgmt-dns": {
     "urls": [],
     "summaries": []
   },
@@ -495,7 +479,19 @@
     "urls": [],
     "summaries": []
   },
+  "python-azure-mgmt-managedservices": {
+    "urls": [],
+    "summaries": []
+  },
   "python-azure-mgmt-managementgroups": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-azure-mgmt-maps": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-azure-mgmt-marketplaceordering": {
     "urls": [],
     "summaries": []
   },
@@ -541,9 +537,11 @@
   },
   "python-beartype": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2447904",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2432345"
     ],
     "summaries": [
+      "python-beartype fails to build with Python 3.15: ImportError: cannot import name 'no_type_check_decorator' from 'typing' (/usr/lib64/python3.15/typing.py)",
       "python-beartype fails to build with Python 3.15: ImportError: cannot import name 'no_type_check_decorator' from 'typing'"
     ]
   },
@@ -561,7 +559,11 @@
     "urls": [],
     "summaries": []
   },
-  "python-cascadio": {
+  "python-boto3": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-bytecode": {
     "urls": [],
     "summaries": []
   },
@@ -585,13 +587,13 @@
       "python-colcon-core: Fails to build with setuptools 80.9.0, fails to install [pins setuptools < 80, test_build_package fails]"
     ]
   },
-  "python-compreffor": {
-    "urls": [],
-    "summaries": []
-  },
   "python-cytoolz": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2447903"
+    ],
+    "summaries": [
+      "python-cytoolz fails to build with Python 3.15: AssertionError: Missing introspection for the following callables: frozendict"
+    ]
   },
   "python-dateutil": {
     "urls": [
@@ -629,10 +631,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-elementpath": {
-    "urls": [],
-    "summaries": []
-  },
   "python-et_xmlfile": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2424294"
@@ -654,8 +652,12 @@
     ]
   },
   "python-executing": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2447898"
+    ],
+    "summaries": [
+      "python-executing fails to build with Python 3.15: executing._exceptions.VerifierFailure: ast.<something> is not created from LOAD_FAST"
+    ]
   },
   "python-exiv2": {
     "urls": [
@@ -666,8 +668,12 @@
     ]
   },
   "python-exoscale": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2447917"
+    ],
+    "summaries": [
+      "python-exoscale fails to build with Python 3.15: TypeError: unsupported operand type(s) for +=: 'NoneType' and 'str'"
+    ]
   },
   "python-extractcode": {
     "urls": [],
@@ -682,14 +688,6 @@
       "python-flask-oidc: FTBFS in Fedora rawhide/f44",
       "python-flask-oidc fails to build with Python 3.15: 'error_description': \"Missing 'Authorization' in headers.\"} != {'error_description': 'Missing \"Authorization\" in headers.'"
     ]
-  },
-  "python-fontMath": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-fontname": {
-    "urls": [],
-    "summaries": []
   },
   "python-fontrpmspec": {
     "urls": [],
@@ -706,10 +704,6 @@
     ]
   },
   "python-fsspec": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-furo": {
     "urls": [],
     "summaries": []
   },
@@ -800,10 +794,6 @@
     "summaries": []
   },
   "python-manatools": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-manuel": {
     "urls": [],
     "summaries": []
   },
@@ -943,15 +933,7 @@
       "python-pygtkspellcheck: FTBFS in Fedora rawhide/f44"
     ]
   },
-  "python-pyjson5": {
-    "urls": [],
-    "summaries": []
-  },
   "python-pyngus": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-pypdf": {
     "urls": [],
     "summaries": []
   },
@@ -1009,6 +991,14 @@
     ],
     "summaries": [
       "python-pytest-trio: FTBFS in Fedora rawhide/f44"
+    ]
+  },
+  "python-pyvmomi": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2435016"
+    ],
+    "summaries": [
+      "python-pyvmomi: FTBFS in Fedora rawhide/f44"
     ]
   },
   "python-qt5": {
@@ -1081,21 +1071,17 @@
     "urls": [],
     "summaries": []
   },
-  "python-service-identity": {
-    "urls": [],
-    "summaries": []
-  },
   "python-setuptools_scm": {
     "urls": [],
     "summaries": []
   },
   "python-sphinx-argparse-cli": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-sphinx-basic-ng": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2440188"
+    ],
+    "summaries": [
+      "[heads up] python-sphinx-argparse-cli will fail to build with Sphinx 9+ in Fedora 45: ModuleNotFoundError: No module named 'sphinx.testing.path'"
+    ]
   },
   "python-symengine": {
     "urls": [],
@@ -1118,8 +1104,12 @@
     ]
   },
   "python-toolz": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2447909"
+    ],
+    "summaries": [
+      "python-toolz fails to build with Python 3.15: AssertionError: Missing introspection for the following callables: frozendict"
+    ]
   },
   "python-translitcodec": {
     "urls": [
@@ -1251,10 +1241,6 @@
     "urls": [],
     "summaries": []
   },
-  "subunit": {
-    "urls": [],
-    "summaries": []
-  },
   "ubertooth": {
     "urls": [],
     "summaries": []
@@ -1272,10 +1258,6 @@
     ]
   },
   "virtme-ng": {
-    "urls": [],
-    "summaries": []
-  },
-  "vtk": {
     "urls": [],
     "summaries": []
   },

@@ -11,8 +11,8 @@ MUSIC	succeeded
 Macaulay2	failed
 NFStest	succeeded
 NLopt	succeeded
-OpenColorIO	failed
-OpenImageIO	failed
+OpenColorIO	succeeded
+OpenImageIO	succeeded
 OpenLP	failed
 PackageKit	succeeded
 PyGreSQL	succeeded
@@ -25,7 +25,7 @@ RBTools	failed
 ServiceReport	succeeded
 SoapySDR	succeeded
 WALinuxAgent	succeeded
-YafaRay	failed
+YafaRay	succeeded
 Zim	succeeded
 aactivator	succeeded
 abiword	succeeded
@@ -203,7 +203,7 @@ espresso	failed
 esptool	succeeded
 etckeeper	failed
 evemu	succeeded
-f3d	failed
+f3d	succeeded
 fail2ban	failed
 fapolicy-analyzer	failed
 fedfind	succeeded
@@ -397,7 +397,7 @@ libdex	succeeded
 libdnet	succeeded
 libdnf	succeeded
 libesedb	succeeded
-libfreenect	failed
+libfreenect	succeeded
 libftdi	failed
 libgexiv2	succeeded
 libgexiv2_0.14	succeeded
@@ -420,7 +420,7 @@ libnbd	succeeded
 libnuml	succeeded
 libnvme	succeeded
 libolm	succeeded
-libopenshot	failed
+libopenshot	succeeded
 liborcus	succeeded
 libpeas	succeeded
 libpeas1	succeeded
@@ -442,7 +442,7 @@ libsemanage	succeeded
 libsigrokdecode	succeeded
 libsmbios	succeeded
 libsolv	succeeded
-libsonata	failed
+libsonata	succeeded
 libstoragemgmt	succeeded
 libsvm	succeeded
 libtalloc	succeeded
@@ -484,7 +484,7 @@ marisa	succeeded
 marshalparser	succeeded
 mat2	succeeded
 mate-menu	succeeded
-materialx	failed
+materialx	succeeded
 mathgl	succeeded
 maturin	succeeded
 mcomix3	succeeded
@@ -502,9 +502,10 @@ mkdocs-bootstrap	succeeded
 mkdocs-bootswatch	succeeded
 mkosi	succeeded
 mlpack	succeeded
-mlt	failed
+mlt	succeeded
 mock	succeeded
 mod_wsgi	succeeded
+modpoll	succeeded
 module-build	succeeded
 modulemd-tools	succeeded
 monkeytype	succeeded
@@ -528,7 +529,7 @@ nemo-extensions	succeeded
 nest	succeeded
 net-snmp	succeeded
 netcdf4-python	succeeded
-netgen-mesher	failed
+netgen-mesher	succeeded
 netplan	failed
 newt	succeeded
 nextpnr	succeeded
@@ -543,7 +544,7 @@ nordugrid-arc-nagios-plugins	succeeded
 notcurses	succeeded
 notmuch	succeeded
 nototools	failed
-nox	failed
+nox	succeeded
 ntpsec	succeeded
 numpy	succeeded
 nvme-stas	succeeded
@@ -553,7 +554,7 @@ nwg-panel	succeeded
 nwg-wrapper	succeeded
 nyx	succeeded
 obs-studio	succeeded
-ocrmypdf	failed
+ocrmypdf	succeeded
 oct2spec	succeeded
 odfpy	succeeded
 offlineimap	succeeded
@@ -565,12 +566,12 @@ onnx	succeeded
 onnxruntime	succeeded
 opae	failed
 openbabel	succeeded
-opencv	failed
+opencv	succeeded
 openmeeg	succeeded
 openmpi	succeeded
 openscap	succeeded
 openscap-report	succeeded
-openshadinglanguage	failed
+openshadinglanguage	succeeded
 opensips	succeeded
 openssh-ldap-authkeys	succeeded
 opensuse-distro-aliases	succeeded
@@ -663,7 +664,7 @@ pyhoca-cli	succeeded
 pyhoca-gui	succeeded
 pyhunspell	succeeded
 pyicu	succeeded
-pyinstrument	failed
+pyinstrument	succeeded
 pyjokes	succeeded
 pykakasi	failed
 pyke	succeeded
@@ -851,6 +852,7 @@ python-azure-core	succeeded
 python-azure-cosmos	succeeded
 python-azure-data-tables	failed
 python-azure-datalake-store	succeeded
+python-azure-devtools	succeeded
 python-azure-functions-devops-build	succeeded
 python-azure-graphrbac	succeeded
 python-azure-identity	succeeded
@@ -860,6 +862,8 @@ python-azure-keyvault-certificates	succeeded
 python-azure-keyvault-keys	succeeded
 python-azure-keyvault-secrets	succeeded
 python-azure-keyvault-securitydomain	succeeded
+python-azure-loganalytics	failed
+python-azure-mgmt-advisor	failed
 python-azure-mgmt-apimanagement	succeeded
 python-azure-mgmt-appconfiguration	succeeded
 python-azure-mgmt-appcontainers	succeeded
@@ -867,16 +871,23 @@ python-azure-mgmt-applicationinsights	failed
 python-azure-mgmt-authorization	succeeded
 python-azure-mgmt-batch	succeeded
 python-azure-mgmt-batchai	failed
+python-azure-mgmt-billing	failed
+python-azure-mgmt-botservice	succeeded
 python-azure-mgmt-cdn	failed
 python-azure-mgmt-cognitiveservices	succeeded
 python-azure-mgmt-compute	succeeded
+python-azure-mgmt-consumption	failed
 python-azure-mgmt-containerinstance	succeeded
 python-azure-mgmt-containerregistry	succeeded
 python-azure-mgmt-containerservice	succeeded
 python-azure-mgmt-core	succeeded
 python-azure-mgmt-cosmosdb	succeeded
+python-azure-mgmt-databoxedge	failed
 python-azure-mgmt-datalake-analytics	succeeded
 python-azure-mgmt-datalake-store	succeeded
+python-azure-mgmt-datamigration	failed
+python-azure-mgmt-devtestlabs	failed
+python-azure-mgmt-dns	failed
 python-azure-mgmt-eventgrid	failed
 python-azure-mgmt-eventhub	succeeded
 python-azure-mgmt-extendedlocation	failed
@@ -888,7 +899,10 @@ python-azure-mgmt-iothubprovisioningservices	failed
 python-azure-mgmt-keyvault	succeeded
 python-azure-mgmt-kusto	succeeded
 python-azure-mgmt-loganalytics	failed
+python-azure-mgmt-managedservices	failed
 python-azure-mgmt-managementgroups	failed
+python-azure-mgmt-maps	failed
+python-azure-mgmt-marketplaceordering	failed
 python-azure-mgmt-media	failed
 python-azure-mgmt-monitor	succeeded
 python-azure-mgmt-msi	succeeded
@@ -994,7 +1008,7 @@ python-boltons	succeeded
 python-boolean.py	succeeded
 python-booleanoperations	succeeded
 python-boto	succeeded
-python-boto3	succeeded
+python-boto3	failed
 python-botocore	succeeded
 python-bottle	succeeded
 python-bottle-sqlite	succeeded
@@ -1012,6 +1026,7 @@ python-bucky	succeeded
 python-bugzilla	succeeded
 python-build	succeeded
 python-buildman	succeeded
+python-bytecode	failed
 python-cached_property	succeeded
 python-cachelib	succeeded
 python-cachetools	succeeded
@@ -1024,7 +1039,7 @@ python-can	succeeded
 python-canonicaljson	succeeded
 python-capturer	succeeded
 python-cart	succeeded
-python-cascadio	failed
+python-cascadio	succeeded
 python-casttube	succeeded
 python-catkin-sphinx	succeeded
 python-catkin_pkg	succeeded
@@ -1121,10 +1136,11 @@ python-colour	succeeded
 python-columnar	succeeded
 python-comm	succeeded
 python-commoncode	succeeded
-python-compreffor	failed
+python-compreffor	succeeded
 python-conda-content-trust	succeeded
 python-conda-inject	succeeded
 python-conda-libmamba-solver	succeeded
+python-conda-package-handling	succeeded
 python-conda-package-streaming	succeeded
 python-condense-json	succeeded
 python-configargparse	succeeded
@@ -1333,7 +1349,7 @@ python-edgegrid	succeeded
 python-editables	succeeded
 python-editor	succeeded
 python-editorconfig	succeeded
-python-elementpath	failed
+python-elementpath	succeeded
 python-email-validator	succeeded
 python-emcee	succeeded
 python-emoji	succeeded
@@ -1454,9 +1470,9 @@ python-flufl-i18n	succeeded
 python-flufl-lock	succeeded
 python-flufl-testing	succeeded
 python-fluidity-sm	succeeded
-python-fontMath	failed
+python-fontMath	succeeded
 python-fontconfig	succeeded
-python-fontname	failed
+python-fontname	succeeded
 python-fontquery	succeeded
 python-fontrpmspec	failed
 python-formencode	succeeded
@@ -1477,7 +1493,7 @@ python-fuckit	succeeded
 python-funcparserlib	succeeded
 python-funcsigs	succeeded
 python-funcy	succeeded
-python-furo	failed
+python-furo	succeeded
 python-fuse	succeeded
 python-fuzzyfinder	succeeded
 python-fypp	succeeded
@@ -1811,7 +1827,7 @@ python-makefun	succeeded
 python-mako	succeeded
 python-managesieve	succeeded
 python-manatools	failed
-python-manuel	failed
+python-manuel	succeeded
 python-mapbox-earcut	succeeded
 python-mapnik	succeeded
 python-maps	succeeded
@@ -2215,7 +2231,7 @@ python-pygments-style-solarized	succeeded
 python-pygmtools	succeeded
 python-pygtkspellcheck	failed
 python-pyhcl	succeeded
-python-pyjson5	failed
+python-pyjson5	succeeded
 python-pyjwkest	succeeded
 python-pykcs11	succeeded
 python-pykdtree	succeeded
@@ -2256,7 +2272,7 @@ python-pyopengltk	succeeded
 python-pyotp	succeeded
 python-pyownet	succeeded
 python-pypandoc	succeeded
-python-pypdf	failed
+python-pypdf	succeeded
 python-pyphen	succeeded
 python-pypillowfight	succeeded
 python-pypng	succeeded
@@ -2370,6 +2386,7 @@ python-pytest-timeout	succeeded
 python-pytest-tldr	failed
 python-pytest-tornado	succeeded
 python-pytest-trio	failed
+python-pytest-vcr	succeeded
 python-pytest-venv	succeeded
 python-pytest-watch	succeeded
 python-pytest-xdist	succeeded
@@ -2386,6 +2403,7 @@ python-pyunormalize	succeeded
 python-pyvat	succeeded
 python-pyvirtualdisplay	succeeded
 python-pyvlx	succeeded
+python-pyvmomi	failed
 python-pywayland	succeeded
 python-pywizlight	succeeded
 python-pyxdameraulevenshtein	succeeded
@@ -2532,7 +2550,7 @@ python-sentinels	succeeded
 python-sentry-sdk	succeeded
 python-sep	failed
 python-serpent	succeeded
-python-service-identity	failed
+python-service-identity	succeeded
 python-setproctitle	succeeded
 python-setupmeta	succeeded
 python-setuptools	succeeded
@@ -2600,7 +2618,7 @@ python-sphinx-argparse	succeeded
 python-sphinx-argparse-cli	failed
 python-sphinx-autoapi	succeeded
 python-sphinx-autodoc-typehints	succeeded
-python-sphinx-basic-ng	failed
+python-sphinx-basic-ng	succeeded
 python-sphinx-bootstrap-theme	succeeded
 python-sphinx-click	succeeded
 python-sphinx-copybutton	succeeded
@@ -2676,6 +2694,7 @@ python-starlette	succeeded
 python-stdlib-list	succeeded
 python-stdlibs	succeeded
 python-stdnum	succeeded
+python-steam	succeeded
 python-stem	succeeded
 python-stevedore	succeeded
 python-stone	succeeded
@@ -3099,7 +3118,7 @@ stomppy	succeeded
 stp	succeeded
 stratis-cli	succeeded
 subscription-manager	failed
-subunit	failed
+subunit	succeeded
 subversion	succeeded
 sudo	succeeded
 sugar	succeeded
@@ -3182,7 +3201,7 @@ visidata	succeeded
 vit	succeeded
 volk	succeeded
 volume_key	succeeded
-vtk	failed
+vtk	succeeded
 waf	succeeded
 wafw00f	succeeded
 weechat	succeeded
