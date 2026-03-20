@@ -32,7 +32,7 @@ VERSIONS = {
     },
     "315": {
         "major_version": "3.15",
-        "fedora_version": "44",
+        "fedora_version": "45",
         "target_fedora": "45",
         "koji_enabled": KOJI_PY315,
         "base_packages": "data/python314.pkgs",
