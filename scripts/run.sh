@@ -63,3 +63,6 @@ python3 scripts/bugzillas.py --version 3.15
 
 # download the most downloaded packages from PyPI
 wget https://hugovk.github.io/top-pypi-packages/top-pypi-packages.min.json -O data/top-pypi-packages.json
+
+# download commonly needed components report
+curl https://raw.githubusercontent.com/befeleme/whatdoibuild/refs/heads/store-reports/commonly-needed-report.json -o data/commonly-needed-report.json

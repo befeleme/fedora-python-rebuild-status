@@ -1,0 +1,179 @@
+{% extends "base.html" %}
+{% block title %}Commonly Blocking Components{% endblock %}
+{% block content %}
+<a href="{{ url_for('index') }}" class="btn btn-primary mb-3"> &lt&lt&lt Home</a>
+<h2 class="mb-3">Commonly Blocking Components</h2>
+
+<p>
+    Find the biggest rebuild blockers at the moment and see what's most important to fix now.
+</p>
+
+<style>
+    .component-col {
+        white-space: nowrap;
+        width: 25%;
+    }
+    .count-col {
+        white-space: nowrap;
+        width: 15%;
+    }
+    .blocking-col {
+        width: 55%;
+    }
+    .rank-col {
+        width: 5%;
+        text-align: center;
+    }
+</style>
+
+<!-- Most Commonly Last Blocking -->
+<div class="mb-5">
+    <h3 class="mb-3">Most Commonly Last Blocking Components</h3>
+    <p>
+        When these build successfully, they will immediately unblock "Needed by" number of packages.
+    </p>
+    <div class="table-responsive">
+        <table class="table table-hover table-bordered">
+            <thead class="table-dark">
+                <tr>
+                    <th scope="col" class="rank-col">#</th>
+                    <th scope="col" class="component-col">Component</th>
+                    <th scope="col" class="count-col">Needed by</th>
+                    <th scope="col" class="blocking-col">Blocked by</th>
+                </tr>
+            </thead>
+            <tbody>
+            {% for item in most_commonly_last_blocking %}
+                <tr>
+                    <td class="rank-col">{{ loop.index }}</td>
+                    <td class="component-col"><a href="{{ url_for('failures_py315') }}#row-{{ item.component }}">{{ item.component }}</a></td>
+                    <td class="count-col"><span class="badge bg-primary">{{ item.count }}</span></td>
+                    <td class="blocking-col">
+                        {% if item.blocked_by %}
+                            {% for blocker in item.blocked_by %}
+                                <span class="badge bg-danger me-1 mb-1">{{ blocker }}</span>
+                            {% endfor %}
+                        {% else %}
+                            <span class="text-muted">—</span>
+                        {% endif %}
+                    </td>
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<!-- Most Commonly Needed -->
+<div class="mb-5">
+    <h3 class="mb-3">Most Commonly Needed Components</h3>
+    <p>
+        These packages are required by the most other packages.
+    </p>
+    <div class="table-responsive">
+        <table class="table table-hover table-bordered">
+            <thead class="table-dark">
+                <tr>
+                    <th scope="col" class="rank-col">#</th>
+                    <th scope="col" class="component-col">Component</th>
+                    <th scope="col" class="count-col">Needed by</th>
+                    <th scope="col" class="blocking-col">Blocked by</th>
+                </tr>
+            </thead>
+            <tbody>
+            {% for item in most_commonly_needed %}
+                <tr>
+                    <td class="rank-col">{{ loop.index }}</td>
+                    <td class="component-col"><a href="{{ url_for('failures_py315') }}#row-{{ item.component }}">{{ item.component }}</a></td>
+                    <td class="count-col"><span class="badge bg-primary">{{ item.count }}</span></td>
+                    <td class="blocking-col">
+                        {% if item.blocked_by %}
+                            {% for blocker in item.blocked_by %}
+                                <span class="badge bg-danger me-1 mb-1">{{ blocker }}</span>
+                            {% endfor %}
+                        {% else %}
+                            <span class="text-muted">—</span>
+                        {% endif %}
+                    </td>
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<!-- Most Commonly Last Blocking Combinations -->
+{% if most_commonly_last_blocking_combinations %}
+<div class="mb-5">
+    <h3 class="mb-3">Most Commonly Last Blocking Combinations</h3>
+    <p>
+        These are combinations of packages that together block "Needed by" number of packages.
+    </p>
+    <div class="table-responsive">
+        <table class="table table-hover table-bordered">
+            <thead class="table-dark">
+                <tr>
+                    <th scope="col" class="rank-col">#</th>
+                    <th scope="col" style="width: 70%;">Blocking Combination</th>
+                    <th scope="col" class="count-col">Needed by</th>
+                </tr>
+            </thead>
+            <tbody>
+            {% for item in most_commonly_last_blocking_combinations %}
+                <tr>
+                    <td class="rank-col">{{ loop.index }}</td>
+                    <td>
+                        {% if item.components %}
+                            {% for component in item.components %}
+                                <span class="badge bg-secondary me-1 mb-1">{{ component }}</span>
+                            {% endfor %}
+                        {% elif item.component %}
+                            <span class="badge bg-secondary">{{ item.component }}</span>
+                        {% endif %}
+                    </td>
+                    <td class="count-col"><span class="badge bg-primary">{{ item.count }}</span></td>
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+{% endif %}
+
+<!-- Dependency Loops -->
+{% if dependency_loops %}
+<div class="mb-5">
+    <h3 class="mb-3">Dependency Loops</h3>
+    <p>
+        These packages have circular dependencies that need special attention during rebuilds.
+    </p>
+    <div class="table-responsive">
+        <table class="table table-hover table-bordered">
+            <thead class="table-dark">
+                <tr>
+                    <th scope="col" class="rank-col">#</th>
+                    <th scope="col">Loop</th>
+                </tr>
+            </thead>
+            <tbody>
+            {% for item in dependency_loops %}
+                <tr>
+                    <td class="rank-col">{{ loop.index }}</td>
+                    <td>
+                        {% if item.loop %}
+                            {% for component in item.loop %}
+                                <span class="badge bg-danger me-1 mb-1">{{ component }}</span>
+                                {% if not loop.last %}<span class="text-muted">→</span>{% endif %}
+                            {% endfor %}
+                        {% endif %}
+                    </td>
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+{% endif %}
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+{% endblock %}

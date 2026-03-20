@@ -1,0 +1,713 @@
+{
+  "most_commonly_needed": [
+    {
+      "component": "python-matplotlib",
+      "count": 109
+    },
+    {
+      "component": "python-Bottleneck",
+      "count": 85,
+      "blocked_by": [
+        "python-numpydoc"
+      ]
+    },
+    {
+      "component": "python-pydantic-core",
+      "count": 82,
+      "blocked_by": [
+        "python-dirty-equals",
+        "python-inline-snapshot"
+      ]
+    },
+    {
+      "component": "python-pydantic",
+      "count": 81,
+      "blocked_by": [
+        "python-dirty-equals",
+        "python-pydantic-core"
+      ]
+    },
+    {
+      "component": "python-pyperclip",
+      "count": 58,
+      "blocked_by": [
+        "python-qt5"
+      ]
+    },
+    {
+      "component": "python-qt5",
+      "count": 55
+    },
+    {
+      "component": "python-cmd2",
+      "count": 53,
+      "blocked_by": [
+        "python-pyperclip"
+      ]
+    },
+    {
+      "component": "python-cliff",
+      "count": 52,
+      "blocked_by": [
+        "python-cmd2",
+        "python-pyperclip"
+      ]
+    },
+    {
+      "component": "python-sqlalchemy",
+      "count": 50,
+      "blocked_by": [
+        "python-pg8000",
+        "python-psycopg2",
+        "python-scramp"
+      ]
+    },
+    {
+      "component": "python-twisted",
+      "count": 48
+    },
+    {
+      "component": "python-stestr",
+      "count": 47,
+      "blocked_by": [
+        "python-cliff",
+        "python-cmd2",
+        "python-pyperclip"
+      ]
+    },
+    {
+      "component": "python-django6",
+      "count": 44,
+      "blocked_by": [
+        "python-oracledb",
+        "python-tblib"
+      ]
+    },
+    {
+      "component": "python-debtcollector",
+      "count": 38,
+      "blocked_by": [
+        "python-cliff",
+        "python-cmd2",
+        "python-pyperclip",
+        "python-reno",
+        "python-stestr"
+      ]
+    },
+    {
+      "component": "python-pyqt6",
+      "count": 31
+    },
+    {
+      "component": "python-reno",
+      "count": 31,
+      "blocked_by": [
+        "python-cliff",
+        "python-cmd2",
+        "python-pyperclip",
+        "python-stestr"
+      ]
+    },
+    {
+      "component": "python-joblib",
+      "count": 30
+    },
+    {
+      "component": "python-oslo-utils",
+      "count": 30,
+      "blocked_by": [
+        "python-cliff",
+        "python-cmd2",
+        "python-debtcollector",
+        "python-oslo-config",
+        "python-pyperclip",
+        "python-reno",
+        "python-stestr"
+      ]
+    },
+    {
+      "component": "sympy",
+      "count": 29,
+      "blocked_by": [
+        "llvm",
+        "python-matplotlib"
+      ]
+    },
+    {
+      "component": "python-oslo-config",
+      "count": 27,
+      "blocked_by": [
+        "python-cliff",
+        "python-cmd2",
+        "python-debtcollector",
+        "python-oslo-config",
+        "python-oslo-context",
+        "python-oslo-log",
+        "python-oslo-serialization",
+        "python-oslo-utils",
+        "python-pyperclip",
+        "python-reno",
+        "python-stestr"
+      ]
+    },
+    {
+      "component": "python-keystoneauth1",
+      "count": 26,
+      "blocked_by": [
+        "python-cliff",
+        "python-cmd2",
+        "python-debtcollector",
+        "python-oslo-config",
+        "python-oslo-utils",
+        "python-pyperclip",
+        "python-reno",
+        "python-stestr"
+      ]
+    },
+    {
+      "component": "python-smart_open",
+      "count": 24,
+      "blocked_by": [
+        "python-google-api-core",
+        "python-google-cloud-core",
+        "python-google-cloud-storage",
+        "python-proto-plus"
+      ]
+    },
+    {
+      "component": "python-oslo-serialization",
+      "count": 23,
+      "blocked_by": [
+        "python-cliff",
+        "python-cmd2",
+        "python-debtcollector",
+        "python-oslo-utils",
+        "python-pyperclip",
+        "python-reno",
+        "python-stestr"
+      ]
+    },
+    {
+      "component": "python-scikit-learn",
+      "count": 22,
+      "blocked_by": [
+        "python-joblib"
+      ]
+    },
+    {
+      "component": "snakemake",
+      "count": 22,
+      "blocked_by": [
+        "python-Bottleneck",
+        "python-google-api-core",
+        "python-google-cloud-core",
+        "python-google-cloud-storage",
+        "python-proto-plus",
+        "python-smart_open",
+        "python-snakemake-executor-plugin-cluster-generic",
+        "python-snakemake-storage-plugin-fs",
+        "python-snakemake-storage-plugin-http",
+        "python-snakemake-storage-plugin-s3"
+      ]
+    },
+    {
+      "component": "python-websockets",
+      "count": 20,
+      "prerel_abi_blocked": true
+    },
+    {
+      "component": "python-numpydoc",
+      "count": 19,
+      "blocked_by": [
+        "python-matplotlib"
+      ]
+    },
+    {
+      "component": "python-openstacksdk",
+      "count": 19,
+      "blocked_by": [
+        "python-cliff",
+        "python-cmd2",
+        "python-debtcollector",
+        "python-keystoneauth1",
+        "python-oslo-config",
+        "python-pyperclip",
+        "python-stestr"
+      ]
+    },
+    {
+      "component": "python-shapely",
+      "count": 18,
+      "blocked_by": [
+        "pyproj",
+        "python-matplotlib",
+        "python-scipy-doctest"
+      ]
+    },
+    {
+      "component": "python-astropy",
+      "count": 18,
+      "prerel_abi_blocked": true,
+      "blocked_by": [
+        "python-matplotlib",
+        "python-pytest-arraydiff",
+        "python-pytest-astropy",
+        "python-scikit-image"
+      ]
+    },
+    {
+      "component": "python-cytoolz",
+      "count": 18,
+      "prerel_abi_blocked": true
+    },
+    {
+      "component": "python-rapidfuzz",
+      "count": 16,
+      "blocked_by": [
+        "python-Bottleneck"
+      ]
+    },
+    {
+      "component": "python-pytest-regressions",
+      "count": 16,
+      "blocked_by": [
+        "python-Bottleneck",
+        "python-matplotlib"
+      ]
+    },
+    {
+      "component": "python-pika",
+      "count": 15,
+      "blocked_by": [
+        "python-twisted"
+      ]
+    },
+    {
+      "component": "python-keystoneclient",
+      "count": 15,
+      "blocked_by": [
+        "python-cliff",
+        "python-cmd2",
+        "python-debtcollector",
+        "python-keystoneauth1",
+        "python-openstacksdk",
+        "python-os-client-config",
+        "python-oslo-config",
+        "python-oslo-serialization",
+        "python-oslo-utils",
+        "python-pyperclip",
+        "python-reno",
+        "python-stestr"
+      ]
+    },
+    {
+      "component": "python-pyside6",
+      "count": 15,
+      "prerel_abi_blocked": true
+    },
+    {
+      "component": "python-osc-lib",
+      "count": 15,
+      "blocked_by": [
+        "python-cliff",
+        "python-cmd2",
+        "python-debtcollector",
+        "python-keystoneauth1",
+        "python-openstacksdk",
+        "python-oslo-utils",
+        "python-pyperclip",
+        "python-reno",
+        "python-stestr"
+      ]
+    },
+    {
+      "component": "python-pydata-sphinx-theme",
+      "count": 14,
+      "blocked_by": [
+        "python-pytest-regressions"
+      ]
+    },
+    {
+      "component": "python-psycopg2",
+      "count": 14
+    },
+    {
+      "component": "python-proto-plus",
+      "count": 14,
+      "blocked_by": [
+        "python-google-api-core",
+        "python-proto-plus"
+      ]
+    },
+    {
+      "component": "python-eth-utils",
+      "count": 14,
+      "blocked_by": [
+        "python-cytoolz",
+        "python-pydantic",
+        "python-pydantic-core"
+      ]
+    },
+    {
+      "component": "pyproj",
+      "count": 13
+    },
+    {
+      "component": "python-crochet",
+      "count": 13,
+      "blocked_by": [
+        "python-twisted"
+      ]
+    },
+    {
+      "component": "python-uvicorn",
+      "count": 13,
+      "blocked_by": [
+        "python-watchfiles",
+        "python-websockets"
+      ]
+    },
+    {
+      "component": "python-cattrs",
+      "count": 13,
+      "blocked_by": [
+        "python-orjson",
+        "python-pymongo"
+      ]
+    },
+    {
+      "component": "python-CacheControl",
+      "count": 13,
+      "blocked_by": [
+        "python-cherrypy",
+        "python-zc-lockfile"
+      ]
+    },
+    {
+      "component": "jupyterlab",
+      "count": 13,
+      "blocked_by": [
+        "python-cattrs",
+        "python-requests-cache"
+      ]
+    },
+    {
+      "component": "python-alembic",
+      "count": 12,
+      "blocked_by": [
+        "python-sqlalchemy"
+      ]
+    },
+    {
+      "component": "fedora-messaging",
+      "count": 12,
+      "blocked_by": [
+        "python-crochet",
+        "python-pika",
+        "python-twisted"
+      ]
+    },
+    {
+      "component": "python-google-api-core",
+      "count": 12,
+      "blocked_by": [
+        "python-proto-plus"
+      ]
+    },
+    {
+      "component": "python3-openid",
+      "count": 12,
+      "blocked_by": [
+        "python-django6",
+        "python-psycopg2"
+      ]
+    }
+  ],
+  "most_commonly_last_blocking": [
+    {
+      "component": "python-django6",
+      "count": 34,
+      "blocked_by": [
+        "python-oracledb",
+        "python-tblib"
+      ]
+    },
+    {
+      "component": "python-matplotlib",
+      "count": 27
+    },
+    {
+      "component": "python-qt5",
+      "count": 24
+    },
+    {
+      "component": "python-twisted",
+      "count": 23
+    },
+    {
+      "component": "python-Bottleneck",
+      "count": 16,
+      "blocked_by": [
+        "python-numpydoc"
+      ]
+    },
+    {
+      "component": "python-sqlalchemy",
+      "count": 14,
+      "blocked_by": [
+        "python-pg8000",
+        "python-psycopg2",
+        "python-scramp"
+      ]
+    },
+    {
+      "component": "python-pytest-regressions",
+      "count": 10,
+      "blocked_by": [
+        "python-Bottleneck",
+        "python-matplotlib"
+      ]
+    },
+    {
+      "component": "python-pyqt6",
+      "count": 9
+    },
+    {
+      "component": "python-pyside6",
+      "count": 9,
+      "prerel_abi_blocked": true
+    },
+    {
+      "component": "python-zope-testrunner",
+      "count": 7
+    },
+    {
+      "component": "python-flexmock",
+      "count": 6,
+      "blocked_by": [
+        "python-twisted",
+        "python-zope-testrunner"
+      ]
+    },
+    {
+      "component": "python-time-machine",
+      "count": 5
+    },
+    {
+      "component": "python-versioningit",
+      "count": 5,
+      "blocked_by": [
+        "python-pydantic",
+        "python-pydantic-core"
+      ]
+    },
+    {
+      "component": "python-numpydoc",
+      "count": 5,
+      "blocked_by": [
+        "python-matplotlib"
+      ]
+    },
+    {
+      "component": "python3-openid",
+      "count": 5,
+      "blocked_by": [
+        "python-django6",
+        "python-psycopg2"
+      ]
+    },
+    {
+      "component": "python-peewee",
+      "count": 4,
+      "blocked_by": [
+        "python-psycopg2"
+      ]
+    },
+    {
+      "component": "python-psycopg2",
+      "count": 4
+    },
+    {
+      "component": "python-orjson",
+      "count": 4,
+      "blocked_by": [
+        "python-pendulum"
+      ]
+    },
+    {
+      "component": "python-websockets",
+      "count": 4,
+      "prerel_abi_blocked": true
+    },
+    {
+      "component": "jupyterlab",
+      "count": 4,
+      "blocked_by": [
+        "python-cattrs",
+        "python-requests-cache"
+      ]
+    }
+  ],
+  "most_commonly_last_blocking_combinations": [
+    {
+      "components": [
+        "python-pydantic",
+        "python-pydantic-core"
+      ],
+      "count": 24
+    },
+    {
+      "components": [
+        "python-smart_open",
+        "snakemake"
+      ],
+      "count": 17
+    },
+    {
+      "components": [
+        "fedora-messaging",
+        "python-crochet",
+        "python-pika",
+        "python-twisted"
+      ],
+      "count": 8
+    },
+    {
+      "components": [
+        "poetry",
+        "python-CacheControl",
+        "python-cleo",
+        "python-rapidfuzz"
+      ],
+      "count": 7
+    },
+    {
+      "components": [
+        "python-torch",
+        "sympy"
+      ],
+      "count": 7
+    },
+    {
+      "components": [
+        "python-cliff",
+        "python-cmd2",
+        "python-pyperclip",
+        "python-reno",
+        "python-stestr"
+      ],
+      "count": 6
+    },
+    {
+      "components": [
+        "gnuradio",
+        "python-pyqtgraph",
+        "python-qt5"
+      ],
+      "count": 5
+    },
+    {
+      "components": [
+        "python-astropy",
+        "python-pytest-arraydiff",
+        "python-pytest-astropy"
+      ],
+      "count": 5
+    },
+    {
+      "components": [
+        "python-cytoolz",
+        "python-eth-utils",
+        "python-pydantic",
+        "python-pydantic-core"
+      ],
+      "count": 5
+    },
+    {
+      "components": [
+        "python-cliff",
+        "python-cmd2",
+        "python-pyperclip",
+        "python-stestr"
+      ],
+      "count": 5
+    },
+    {
+      "components": [
+        "python-google-api-core",
+        "python-proto-plus"
+      ],
+      "count": 4
+    },
+    {
+      "components": [
+        "python-Bottleneck",
+        "python-matplotlib"
+      ],
+      "count": 4
+    },
+    {
+      "components": [
+        "mkdocs-material",
+        "python-backrefs"
+      ],
+      "count": 4
+    },
+    {
+      "components": [
+        "python-pyqt6",
+        "python-qt5"
+      ],
+      "count": 4
+    },
+    {
+      "components": [
+        "python-pymongo",
+        "python-sqlalchemy"
+      ],
+      "count": 3
+    },
+    {
+      "components": [
+        "python-pyramid",
+        "python-zope-deprecation"
+      ],
+      "count": 3
+    },
+    {
+      "components": [
+        "python-cliff",
+        "python-cmd2",
+        "python-debtcollector",
+        "python-oslo-config",
+        "python-pyperclip",
+        "python-reno",
+        "python-stestr"
+      ],
+      "count": 3
+    },
+    {
+      "components": [
+        "python-pint",
+        "python-pydantic",
+        "python-pydantic-core"
+      ],
+      "count": 3
+    },
+    {
+      "components": [
+        "python-Levenshtein",
+        "python-rapidfuzz"
+      ],
+      "count": 3
+    },
+    {
+      "components": [
+        "python-matplotlib",
+        "python-qt5"
+      ],
+      "count": 2
+    }
+  ],
+  "dependency_loops": []
+}
