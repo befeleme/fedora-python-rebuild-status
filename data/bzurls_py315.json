@@ -19,10 +19,6 @@
     "urls": [],
     "summaries": []
   },
-  "antlr4-project": {
-    "urls": [],
-    "summaries": []
-  },
   "argparse-manpage": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2431586"
@@ -103,15 +99,7 @@
     "urls": [],
     "summaries": []
   },
-  "dogtag-pki": {
-    "urls": [],
-    "summaries": []
-  },
   "espresso": {
-    "urls": [],
-    "summaries": []
-  },
-  "etckeeper": {
     "urls": [],
     "summaries": []
   },
@@ -131,10 +119,6 @@
     "urls": [],
     "summaries": []
   },
-  "gmsh": {
-    "urls": [],
-    "summaries": []
-  },
   "gplugin": {
     "urls": [],
     "summaries": []
@@ -144,10 +128,6 @@
     "summaries": []
   },
   "ikiwiki": {
-    "urls": [],
-    "summaries": []
-  },
-  "ipython": {
     "urls": [],
     "summaries": []
   },
@@ -243,10 +223,6 @@
       "libkml: FTBFS in Fedora rawhide/f44"
     ]
   },
-  "libreoffice": {
-    "urls": [],
-    "summaries": []
-  },
   "libyui": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2427943"
@@ -256,10 +232,6 @@
     ]
   },
   "lirc": {
-    "urls": [],
-    "summaries": []
-  },
-  "llvm": {
     "urls": [],
     "summaries": []
   },
@@ -303,10 +275,6 @@
       "netplan: FTBFS in Fedora rawhide/f44"
     ]
   },
-  "nototools": {
-    "urls": [],
-    "summaries": []
-  },
   "opae": {
     "urls": [],
     "summaries": []
@@ -328,14 +296,6 @@
     ]
   },
   "powerline": {
-    "urls": [],
-    "summaries": []
-  },
-  "protobuf": {
-    "urls": [],
-    "summaries": []
-  },
-  "pyatspi": {
     "urls": [],
     "summaries": []
   },
@@ -363,10 +323,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-application-properties": {
-    "urls": [],
-    "summaries": []
-  },
   "python-apprise": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2433807"
@@ -390,14 +346,6 @@
   "python-astropy-iers-data": {
     "urls": [],
     "summaries": []
-  },
-  "python-attrs": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2447915"
-    ],
-    "summaries": [
-      "python-attrs fails to build with Python 3.15: TestMatchesRe.test_catches_invalid_func: 'func' must be one of None, fullmatch, prefixmatch, search."
-    ]
   },
   "python-avocado": {
     "urls": [
@@ -563,11 +511,15 @@
     "urls": [],
     "summaries": []
   },
-  "python-bytecode": {
-    "urls": [],
-    "summaries": []
+  "python-botocore": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2424584"
+    ],
+    "summaries": [
+      "python-botocore fails to build with Python 3.15: AssertionError: At index 8 diff: b'\\x00' != b'\\x02'"
+    ]
   },
-  "python-cffsubr": {
+  "python-bytecode": {
     "urls": [],
     "summaries": []
   },
@@ -651,14 +603,6 @@
       "python-exceptiongroup fails to build with Python 3.15: assert \"BaseExceptionGroup('foo', [ValueError(1), KeyboardInterrupt()])\" == \"BaseExceptionGroup('foo', [ValueError(1), KeyboardInterrupt(), KeyError('bar')])\""
     ]
   },
-  "python-executing": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2447898"
-    ],
-    "summaries": [
-      "python-executing fails to build with Python 3.15: executing._exceptions.VerifierFailure: ast.<something> is not created from LOAD_FAST"
-    ]
-  },
   "python-exiv2": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2440690"
@@ -676,20 +620,6 @@
     ]
   },
   "python-extractcode": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-flask-oidc": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2434981",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2424320"
-    ],
-    "summaries": [
-      "python-flask-oidc: FTBFS in Fedora rawhide/f44",
-      "python-flask-oidc fails to build with Python 3.15: 'error_description': \"Missing 'Authorization' in headers.\"} != {'error_description': 'Missing \"Authorization\" in headers.'"
-    ]
-  },
-  "python-fontrpmspec": {
     "urls": [],
     "summaries": []
   },
@@ -772,14 +702,6 @@
   "python-jupyter-server": {
     "urls": [],
     "summaries": []
-  },
-  "python-kadmin": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2434989"
-    ],
-    "summaries": [
-      "python-kadmin: FTBFS in Fedora rawhide/f44"
-    ]
   },
   "python-kaptan": {
     "urls": [
@@ -904,14 +826,6 @@
   "python-pdm-backend": {
     "urls": [],
     "summaries": []
-  },
-  "python-pipdeptree": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2414803"
-    ],
-    "summaries": [
-      "python-pipdeptree fails to build with Python 3.15: tests/test_discovery.py::test_invalid_metadata - TypeError: argument of type 'NoneType' is not a container or iterable"
-    ]
   },
   "python-poetry-dynamic-versioning": {
     "urls": [],
@@ -1119,10 +1033,6 @@
       "python-translitcodec fails to build with Python 3.15: 8 tests failing with LookupError: unknown encoding: translit/*"
     ]
   },
-  "python-ttfautohint-py": {
-    "urls": [],
-    "summaries": []
-  },
   "python-twisted": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2435033",
@@ -1142,10 +1052,6 @@
     ]
   },
   "python-vcs2l": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-vedo": {
     "urls": [],
     "summaries": []
   },
@@ -1256,10 +1162,6 @@
     "summaries": [
       "usd fails to build with Python 3.15: /builddir/build/BUILD/usd-25.11-build/OpenUSD-25.11/pxr/base/tf/pyIdentity.cpp:139:16: error: \u2018PyWeakref_GetObject\u2019 was not declared in this scope; did you mean \u2018PyWeakref_GetRef\u2019?"
     ]
-  },
-  "uv": {
-    "urls": [],
-    "summaries": []
   },
   "virtme-ng": {
     "urls": [],
