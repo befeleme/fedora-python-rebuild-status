@@ -7,6 +7,9 @@ from wheels import generate_wheel_readiness_data
 
 app = Flask("python_rebuild_status")
 
+# Load commonly needed components report
+commonly_blocking_data = load_json("data/commonly-needed-report.json")
+
 
 REPORT_STATES = {
     "success": "🟢",
@@ -355,4 +358,15 @@ def wheels_py315():
         major=VERSIONS["315"]["major_version"],
         updated=updated,
         do_support=wheel_data["315"]["count"],
+    )
+
+@app.route('/commonly-blocking/')
+def commonly_blocking():
+    return render_template(
+        'commonly_blocking.html',
+        most_commonly_needed=commonly_blocking_data.get("most_commonly_needed", []),
+        most_commonly_last_blocking=commonly_blocking_data.get("most_commonly_last_blocking", []),
+        most_commonly_last_blocking_combinations=commonly_blocking_data.get("most_commonly_last_blocking_combinations", []),
+        dependency_loops=commonly_blocking_data.get("dependency_loops", []),
+        updated=updated,
     )

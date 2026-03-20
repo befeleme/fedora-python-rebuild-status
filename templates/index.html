@@ -65,6 +65,7 @@
 
     <h3 class="mb-3">Status breakdown</h3>
     <div class="list-group mb-4">
+        <div class="mb-2"><a href="{{ url_for('commonly_blocking') }}">Commonly blocking components</a></div>
         <div class="mb-2"><a href="{{ url_for('packages_py315') }}">All packages sorted by package names</a></div>
         <div class="mb-2"><a href="{{ url_for('maintainers_py315') }}">All packages sorted by maintainers</a></div>
         <div class="mb-2"><a href="{{ url_for('failures_py315') }}">Build failures</a></div>
