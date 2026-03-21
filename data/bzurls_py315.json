@@ -235,17 +235,21 @@
     "urls": [],
     "summaries": []
   },
-  "manafirewall": {
+  "llvm": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2448969"
+    ],
+    "summaries": [
+      "llvm fails to build with Python 3.15: shtest-ulimit-nondarwin.py: error: no match found"
+    ]
+  },
+  "llvm21": {
     "urls": [],
     "summaries": []
   },
-  "mercurial": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2447913"
-    ],
-    "summaries": [
-      "mercurial fails to build with Python 3.15: ImportError: cannot import name 'nlargest' from 'heapq'"
-    ]
+  "manafirewall": {
+    "urls": [],
+    "summaries": []
   },
   "meson": {
     "urls": [],
@@ -511,14 +515,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-botocore": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2424584"
-    ],
-    "summaries": [
-      "python-botocore fails to build with Python 3.15: AssertionError: At index 8 diff: b'\\x00' != b'\\x02'"
-    ]
-  },
   "python-bytecode": {
     "urls": [],
     "summaries": []
@@ -699,7 +695,7 @@
     "urls": [],
     "summaries": []
   },
-  "python-jupyter-server": {
+  "python-jwt": {
     "urls": [],
     "summaries": []
   },
@@ -822,10 +818,6 @@
       "python-pdir2: FTBFS in Fedora rawhide/f44",
       "python-pdir2 fails to build with Python 3.15: AssertionError in test_pdir_module"
     ]
-  },
-  "python-pdm-backend": {
-    "urls": [],
-    "summaries": []
   },
   "python-poetry-dynamic-versioning": {
     "urls": [],

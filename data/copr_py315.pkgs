@@ -467,7 +467,8 @@ liquidctl	succeeded
 lirc	failed
 litecli	succeeded
 livecd-tools	succeeded
-llvm	running
+llvm	failed
+llvm21	failed
 lollypop	succeeded
 loook	succeeded
 lorax	succeeded
@@ -490,7 +491,7 @@ maturin	succeeded
 mcomix3	succeeded
 med	succeeded
 meld	succeeded
-mercurial	failed
+mercurial	succeeded
 meson	failed
 mgarepo	succeeded
 minigalaxy	succeeded
@@ -1009,7 +1010,7 @@ python-boolean.py	succeeded
 python-booleanoperations	succeeded
 python-boto	succeeded
 python-boto3	failed
-python-botocore	failed
+python-botocore	succeeded
 python-bottle	succeeded
 python-bottle-sqlite	succeeded
 python-boxsdk	succeeded
@@ -1732,14 +1733,14 @@ python-jupyter-kernel-test	succeeded
 python-jupyter-lsp	succeeded
 python-jupyter-packaging	succeeded
 python-jupyter-polymake	succeeded
-python-jupyter-server	failed
+python-jupyter-server	succeeded
 python-jupyter-server-terminals	succeeded
 python-jupyterlab-server	succeeded
 python-jupyterlab_pygments	succeeded
 python-justbases	succeeded
 python-justbytes	succeeded
 python-jwcrypto	succeeded
-python-jwt	succeeded
+python-jwt	failed
 python-k5test	succeeded
 python-kadmin	succeeded
 python-kafka	succeeded
@@ -2071,7 +2072,7 @@ python-pdfkit	succeeded
 python-pdfminer	succeeded
 python-pdfrw	succeeded
 python-pdir2	failed
-python-pdm-backend	failed
+python-pdm-backend	succeeded
 python-peachpy	succeeded
 python-pebble	succeeded
 python-pecan	succeeded
@@ -2370,6 +2371,7 @@ python-pytest-ordering	succeeded
 python-pytest-param-files	succeeded
 python-pytest-postgresql	succeeded
 python-pytest-randomly	succeeded
+python-pytest-recording	succeeded
 python-pytest-relaxed	succeeded
 python-pytest-remotedata	succeeded
 python-pytest-repeat	succeeded
@@ -3198,6 +3200,7 @@ virt-bootstrap	succeeded
 virt-lightning	succeeded
 virt-who	succeeded
 virtme-ng	failed
+virtnbdbackup	succeeded
 visidata	succeeded
 vit	succeeded
 volk	succeeded
