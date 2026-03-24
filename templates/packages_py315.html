@@ -9,19 +9,54 @@
     🟠 = successfully built at least once, last build failed<br>
     🔴 = failed build<br>
     ⚪ = waiting to be rebuilt<br>
+
+    <strong>Buildable?</strong> - Whether all package dependencies have been built<br>
+    <strong>Buildable bconds?</strong> - There's a bconded version of the package; whether all of the dependencies have been built?<br>
+    <strong>Bconds</strong> - List of the bconds defined for rebuild<br>
+    <strong>Deps resolved?</strong> - Whether the dependencies for the package are resolvable<br>
+    <strong>Outdated Python ABI?</strong> - Whether package with compiled extensions has been built with the newest available Python prerelease<br>
+    <strong>Needed by</strong> - Number of packages it blocks<br>
+    <strong>Blocked by</strong> - List of dependencies which have not been built yet<br>
 </p>
 
-<div class="container mt-4">
-    <table class="table table-striped table-hover table-bordered">
+<style>
+    .packages-table {
+        width: 100%;
+        table-layout: fixed;
+    }
+    .packages-table thead th {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background-color: #212529 !important;
+        box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.4);
+        white-space: normal;
+        word-break: keep-all;
+    }
+    .packages-table td {
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+    }
+</style>
+
+<table class="table table-hover table-bordered packages-table">
         <thead class="table-dark">
             <tr>
-                <th scope="col">Package</th>
-                <th scope="col">Status</th>
-                <th scope="col">Maintainer</th>
+                <th scope="col" style="width: 16%;">Package</th>
+                <th scope="col" style="width: 5%; text-align: center;">Status</th>
+                <th scope="col" style="width: 10%;">Maintainer</th>
+                <th scope="col" style="width: 7%; text-align: center;">Buildable?</th>
+                <th scope="col" style="width: 7%; text-align: center;">Buildable bconds?</th>
+                <th scope="col" style="width: 8%; text-align: center;">Bconds</th>
+                <th scope="col" style="width: 7%; text-align: center;">Deps resolved?</th>
+                <th scope="col" style="width: 7%; text-align: center;">Outdated Python ABI?</th>
+                <th scope="col" style="width: 6%; text-align: center;">Needed by</th>
+                <th scope="col" style="width: 28%;">Blocked By</th>
             </tr>
         </thead>
         <tbody>
             {% for package_name, status, maintainers in py315_status_by_packages %}
+            {% set avail_data = dict(component_availability).get(package_name, {}) %}
             <tr>
                 <td>
                     {% if status in ["🟠", "🔴"] %}
@@ -30,11 +65,85 @@
                         {{ package_name }}
                     {% endif %}
                 </td>
-                <td>{{ status }}</td>
+                <td style="text-align: center;">{{ status }}</td>
                 <td>{{ ", ".join(maintainers) }}</td>
+                <td style="text-align: center;">
+                    {% if avail_data and avail_data.can_build_regular %}
+                        <span class="text-success">✓</span>
+                    {% elif avail_data %}
+                        <span class="text-danger">✗</span>
+                    {% else %}
+                        <span class="text-muted">—</span>
+                    {% endif %}
+                </td>
+                <td style="text-align: center;">
+                    {% if avail_data %}
+                        {% if avail_data.can_build_bcond is none %}
+                            <span class="text-muted">—</span>
+                        {% elif avail_data.can_build_bcond %}
+                            <span class="text-success">✓</span>
+                        {% else %}
+                            <span class="text-danger">✗</span>
+                        {% endif %}
+                    {% else %}
+                        <span class="text-muted">—</span>
+                    {% endif %}
+                </td>
+                <td style="text-align: center;">
+                    {% if avail_data and avail_data.get('bcond_id') %}
+                        {% set bcond_full = avail_data.bcond_id.split(':')[1:] | reject('equalto', '') | join(':') %}
+                        {% if bcond_full %}
+                            {% set bcond_names = bcond_full.split('-') %}
+                            {% for bcond in bcond_names %}
+                                <span class="badge bg-info me-1 mb-1">{{ bcond }}</span>
+                            {% endfor %}
+                        {% else %}
+                            <span class="text-muted">—</span>
+                        {% endif %}
+                    {% else %}
+                        <span class="text-muted">—</span>
+                    {% endif %}
+                </td>
+                <td style="text-align: center;">
+                    {% if avail_data and avail_data.is_resolvable %}
+                        <span class="text-success">✓</span>
+                    {% elif avail_data %}
+                        <span class="text-danger">✗</span>
+                    {% else %}
+                        <span class="text-muted">—</span>
+                    {% endif %}
+                </td>
+                <td style="text-align: center;">
+                    {% if avail_data %}
+                        {% if avail_data.prerel_abi_blocked %}
+                            <span class="text-danger">✓</span>
+                        {% else %}
+                            <span class="text-success">✗</span>
+                        {% endif %}
+                    {% else %}
+                        <span class="text-muted">—</span>
+                    {% endif %}
+                </td>
+                <td style="text-align: center;">
+                    {% if avail_data and avail_data.blocks_count > 0 %}
+                        <span class="badge bg-warning">{{ avail_data.blocks_count }}</span>
+                    {% elif avail_data %}
+                        <span class="text-muted">0</span>
+                    {% else %}
+                        <span class="text-muted">—</span>
+                    {% endif %}
+                </td>
+                <td>
+                    {% if avail_data and avail_data.blocked_by %}
+                        {% for blocker in avail_data.blocked_by %}
+                            <span class="badge bg-danger me-1 mb-1">{{ blocker }}</span>
+                        {% endfor %}
+                    {% else %}
+                        <span class="text-muted">—</span>
+                    {% endif %}
+                </td>
             </tr>
             {% endfor %}
         </tbody>
-    </table>
-</div>
+</table>
 {% endblock %}

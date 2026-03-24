@@ -9,6 +9,8 @@ app = Flask("python_rebuild_status")
 
 # Load commonly needed components report
 commonly_blocking_data = load_json("data/commonly-needed-report.json")
+# Load component availability report
+component_availability_data = load_json("data/component-availability-report.json")
 
 
 REPORT_STATES = {
@@ -327,9 +329,13 @@ def wheels_py314():
 
 @app.route('/packages_py315/')
 def packages_py315():
+    # Sort component availability data by package name
+    sorted_components = sorted(component_availability_data.items())
+
     return render_template(
         'packages_py315.html',
         py315_status_by_packages=build_data["315"]["status_by_packages"],
+        component_availability=sorted_components,
         updated=updated,
     )
 

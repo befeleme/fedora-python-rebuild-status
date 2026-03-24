@@ -66,3 +66,6 @@ wget https://hugovk.github.io/top-pypi-packages/top-pypi-packages.min.json -O da
 
 # download commonly needed components report
 curl https://raw.githubusercontent.com/befeleme/whatdoibuild/refs/heads/store-reports/commonly-needed-report.json -o data/commonly-needed-report.json
+
+# download component availability report
+curl https://raw.githubusercontent.com/befeleme/whatdoibuild/refs/heads/store-reports/component-availability-report.json -o data/component-availability-report.json
