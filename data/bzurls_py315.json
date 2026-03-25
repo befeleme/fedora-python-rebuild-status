@@ -239,6 +239,14 @@
     "urls": [],
     "summaries": []
   },
+  "llvm": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2448969"
+    ],
+    "summaries": [
+      "llvm fails to build with Python 3.15: shtest-ulimit-nondarwin.py: error: no match found"
+    ]
+  },
   "llvm21": {
     "urls": [],
     "summaries": []
@@ -548,12 +556,8 @@
     ]
   },
   "python-dateutil": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2423882"
-    ],
-    "summaries": [
-      "python-dateutil fails to build with Python 3.15: test_tzlocal_local_time_trim_colon: AssertionError: assert tz.gettz() is not None"
-    ]
+    "urls": [],
+    "summaries": []
   },
   "python-dbus-fast": {
     "urls": [],
@@ -1080,6 +1084,10 @@
     "summaries": [
       "python-zope-testrunner fails to build with Python 3.15: help2man: can't get `--help' info from /builddir/build/BUILD/python-zope-testrunner-8.1-build/BUILDROOT/usr/bin/zope-testrunner"
     ]
+  },
+  "python3-iep": {
+    "urls": [],
+    "summaries": []
   },
   "python3-pydo": {
     "urls": [],
