@@ -67,6 +67,14 @@
       "classification-banner: FTBFS in Fedora rawhide/f44"
     ]
   },
+  "claws-mail": {
+    "urls": [],
+    "summaries": []
+  },
+  "coccinelle": {
+    "urls": [],
+    "summaries": []
+  },
   "dbus-python": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2424563"
@@ -74,6 +82,10 @@
     "summaries": [
       "dbus-python doesn't work with Python 3.15: SystemError: type _dbus_bindings.Connection has the Py_TPFLAGS_MANAGED_WEAKREF flag but not Py_TPFLAGS_HAVE_GC flag"
     ]
+  },
+  "dib-utils": {
+    "urls": [],
+    "summaries": []
   },
   "diffoscope": {
     "urls": [],
@@ -547,6 +559,10 @@
       "python-colcon-core: Fails to build with setuptools 80.9.0, fails to install [pins setuptools < 80, test_build_package fails]"
     ]
   },
+  "python-croniter": {
+    "urls": [],
+    "summaries": []
+  },
   "python-cytoolz": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2447903"
@@ -554,10 +570,6 @@
     "summaries": [
       "python-cytoolz fails to build with Python 3.15: AssertionError: Missing introspection for the following callables: frozendict"
     ]
-  },
-  "python-dateutil": {
-    "urls": [],
-    "summaries": []
   },
   "python-dbus-fast": {
     "urls": [],
@@ -806,6 +818,10 @@
     "summaries": []
   },
   "python-os-service-types": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-oslo-config": {
     "urls": [],
     "summaries": []
   },
