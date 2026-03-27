@@ -77,7 +77,13 @@
             {% for item in most_commonly_last_blocking %}
                 <tr>
                     <td class="rank-col">{{ loop.index }}</td>
-                    <td class="component-col"><a href="{{ url_for('failures_py315') }}#row-{{ item.component }}">{{ item.component }}</a></td>
+                    <td class="component-col">
+                        {% if item.component in failed_packages %}
+                            <a href="{{ url_for('failures_py315') }}#row-{{ item.component }}">{{ item.component }}</a>
+                        {% else %}
+                            {{ item.component }}
+                        {% endif %}
+                    </td>
                     <td class="count-col"><span class="badge bg-primary">{{ item.count }}</span></td>
                     <td class="blocking-col">
                         {% if item.blocked_by %}
@@ -115,7 +121,13 @@
             {% for item in most_commonly_needed %}
                 <tr>
                     <td class="rank-col">{{ loop.index }}</td>
-                    <td class="component-col"><a href="{{ url_for('failures_py315') }}#row-{{ item.component }}">{{ item.component }}</a></td>
+                    <td class="component-col">
+                        {% if item.component in failed_packages %}
+                            <a href="{{ url_for('failures_py315') }}#row-{{ item.component }}">{{ item.component }}</a>
+                        {% else %}
+                            {{ item.component }}
+                        {% endif %}
+                    </td>
                     <td class="count-col"><span class="badge bg-primary">{{ item.count }}</span></td>
                     <td class="blocking-col">
                         {% if item.blocked_by %}

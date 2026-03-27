@@ -362,11 +362,15 @@ def wheels_py315():
 
 @app.route('/commonly-blocking/')
 def commonly_blocking():
+    # Get the set of packages that are in the failures report
+    failed_packages = set(build_data["315"]["failed_report"].keys())
+
     return render_template(
         'commonly_blocking.html',
         most_commonly_needed=commonly_blocking_data.get("most_commonly_needed", []),
         most_commonly_last_blocking=commonly_blocking_data.get("most_commonly_last_blocking", []),
         most_commonly_last_blocking_combinations=commonly_blocking_data.get("most_commonly_last_blocking_combinations", []),
         dependency_loops=commonly_blocking_data.get("dependency_loops", []),
+        failed_packages=failed_packages,
         updated=updated,
     )
