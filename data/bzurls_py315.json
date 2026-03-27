@@ -627,14 +627,6 @@
       "python-exiv2 fails to build with Python 3.15: error: \u2018PyWeakref_GetObject\u2019 was not declared in this scope; did you mean \u2018PyWeakref_GetRef\u2019?"
     ]
   },
-  "python-exoscale": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2447917"
-    ],
-    "summaries": [
-      "python-exoscale fails to build with Python 3.15: TypeError: unsupported operand type(s) for +=: 'NoneType' and 'str'"
-    ]
-  },
   "python-extractcode": {
     "urls": [],
     "summaries": []
@@ -702,14 +694,6 @@
   "python-interrogate": {
     "urls": [],
     "summaries": []
-  },
-  "python-iso8601": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2434988"
-    ],
-    "summaries": [
-      "python-iso8601: FTBFS in Fedora rawhide/f44"
-    ]
   },
   "python-joblib": {
     "urls": [],
@@ -1110,6 +1094,10 @@
     "summaries": []
   },
   "qpid-proton": {
+    "urls": [],
+    "summaries": []
+  },
+  "rapidyaml": {
     "urls": [],
     "summaries": []
   },
