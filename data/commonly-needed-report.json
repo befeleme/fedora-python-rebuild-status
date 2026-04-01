@@ -1,10 +1,6 @@
 {
   "most_commonly_needed": [
     {
-      "component": "python-matplotlib",
-      "count": 109
-    },
-    {
       "component": "python-pydantic-core",
       "count": 102,
       "blocked_by": [
@@ -18,13 +14,6 @@
       "blocked_by": [
         "python-dirty-equals",
         "python-pydantic-core"
-      ]
-    },
-    {
-      "component": "python-Bottleneck",
-      "count": 84,
-      "blocked_by": [
-        "python-numpydoc"
       ]
     },
     {
@@ -111,8 +100,7 @@
       "component": "sympy",
       "count": 29,
       "blocked_by": [
-        "llvm",
-        "python-matplotlib"
+        "llvm"
       ]
     },
     {
@@ -199,7 +187,6 @@
       "component": "snakemake",
       "count": 22,
       "blocked_by": [
-        "python-Bottleneck",
         "python-google-api-core",
         "python-google-cloud-core",
         "python-google-cloud-storage",
@@ -219,9 +206,7 @@
       "component": "python-shapely",
       "count": 18,
       "blocked_by": [
-        "pyproj",
-        "python-matplotlib",
-        "python-scipy-doctest"
+        "pyproj"
       ]
     },
     {
@@ -229,7 +214,6 @@
       "count": 18,
       "prerel_abi_blocked": true,
       "blocked_by": [
-        "python-matplotlib",
         "python-pytest-arraydiff",
         "python-pytest-astropy",
         "python-scikit-image"
@@ -244,28 +228,6 @@
       "component": "python-websockets",
       "count": 17,
       "prerel_abi_blocked": true
-    },
-    {
-      "component": "python-numpydoc",
-      "count": 17,
-      "blocked_by": [
-        "python-matplotlib"
-      ]
-    },
-    {
-      "component": "python-rapidfuzz",
-      "count": 16,
-      "blocked_by": [
-        "python-Bottleneck"
-      ]
-    },
-    {
-      "component": "python-pytest-regressions",
-      "count": 16,
-      "blocked_by": [
-        "python-Bottleneck",
-        "python-matplotlib"
-      ]
     },
     {
       "component": "python-pika",
@@ -301,13 +263,6 @@
         "python-oslo-utils",
         "python-pyperclip",
         "python-stestr"
-      ]
-    },
-    {
-      "component": "python-pydata-sphinx-theme",
-      "count": 14,
-      "blocked_by": [
-        "python-pytest-regressions"
       ]
     },
     {
@@ -393,8 +348,7 @@
       "component": "python-cattrs",
       "count": 12,
       "blocked_by": [
-        "python-orjson",
-        "python-pymongo"
+        "python-orjson"
       ]
     },
     {
@@ -413,47 +367,90 @@
     },
     {
       "component": "python-partd",
+      "count": 11
+    },
+    {
+      "component": "python-torch",
       "count": 11,
       "blocked_by": [
-        "python-Bottleneck"
+        "sympy"
+      ]
+    },
+    {
+      "component": "python-cinderclient",
+      "count": 11,
+      "blocked_by": [
+        "python-cliff",
+        "python-cmd2",
+        "python-debtcollector",
+        "python-keystoneauth1",
+        "python-oslo-serialization",
+        "python-oslo-utils",
+        "python-pyperclip",
+        "python-reno",
+        "python-stestr"
+      ]
+    },
+    {
+      "component": "python-uvicorn",
+      "count": 10,
+      "blocked_by": [
+        "python-watchfiles",
+        "python-websockets"
+      ]
+    },
+    {
+      "component": "python-dask",
+      "count": 10,
+      "blocked_by": [
+        "python-blosc2",
+        "python-dask",
+        "python-distributed",
+        "python-fastavro",
+        "python-ndindex",
+        "python-partd",
+        "python-scikit-image",
+        "python-sqlalchemy",
+        "python-tables",
+        "python-tblib",
+        "python-xarray",
+        "python-zarr"
+      ]
+    },
+    {
+      "component": "python-pytest-arraydiff",
+      "count": 10,
+      "blocked_by": [
+        "python-astropy",
+        "python-blosc2",
+        "python-ndindex",
+        "python-tables"
+      ]
+    },
+    {
+      "component": "python-ndindex",
+      "count": 10,
+      "blocked_by": [
+        "sympy"
       ]
     }
   ],
   "most_commonly_last_blocking": [
     {
-      "component": "python-matplotlib",
-      "count": 27
-    },
-    {
       "component": "python-twisted",
-      "count": 24
+      "count": 25
     },
     {
       "component": "python-qt5",
-      "count": 24
-    },
-    {
-      "component": "python-Bottleneck",
-      "count": 17,
-      "blocked_by": [
-        "python-numpydoc"
-      ]
+      "count": 25
     },
     {
       "component": "python-sqlalchemy",
-      "count": 15,
+      "count": 18,
       "blocked_by": [
         "python-pg8000",
         "python-psycopg2",
         "python-scramp"
-      ]
-    },
-    {
-      "component": "python-pytest-regressions",
-      "count": 10,
-      "blocked_by": [
-        "python-Bottleneck",
-        "python-matplotlib"
       ]
     },
     {
@@ -464,6 +461,24 @@
       "component": "python-pyside6",
       "count": 9,
       "prerel_abi_blocked": true
+    },
+    {
+      "component": "sympy",
+      "count": 8,
+      "blocked_by": [
+        "llvm"
+      ]
+    },
+    {
+      "component": "poetry",
+      "count": 7,
+      "blocked_by": [
+        "python-deepdiff"
+      ]
+    },
+    {
+      "component": "python-psycopg2",
+      "count": 6
     },
     {
       "component": "python-flexmock",
@@ -477,8 +492,18 @@
       "count": 5
     },
     {
-      "component": "python-psycopg2",
-      "count": 5
+      "component": "python-peewee",
+      "count": 5,
+      "blocked_by": [
+        "python-psycopg2"
+      ]
+    },
+    {
+      "component": "python-orjson",
+      "count": 5,
+      "blocked_by": [
+        "python-pendulum"
+      ]
     },
     {
       "component": "python-versioningit",
@@ -489,13 +514,6 @@
       ]
     },
     {
-      "component": "python-numpydoc",
-      "count": 5,
-      "blocked_by": [
-        "python-matplotlib"
-      ]
-    },
-    {
       "component": "python3-openid",
       "count": 5,
       "blocked_by": [
@@ -503,23 +521,26 @@
       ]
     },
     {
-      "component": "python-peewee",
+      "component": "python-astropy",
       "count": 4,
+      "prerel_abi_blocked": true,
       "blocked_by": [
-        "python-psycopg2"
-      ]
-    },
-    {
-      "component": "python-orjson",
-      "count": 4,
-      "blocked_by": [
-        "python-pendulum"
+        "python-pytest-arraydiff",
+        "python-pytest-astropy",
+        "python-scikit-image"
       ]
     },
     {
       "component": "python-websockets",
       "count": 4,
       "prerel_abi_blocked": true
+    },
+    {
+      "component": "python-shapely",
+      "count": 4,
+      "blocked_by": [
+        "pyproj"
+      ]
     },
     {
       "component": "jupyterlab",
@@ -530,17 +551,17 @@
       ]
     },
     {
-      "component": "sympy",
-      "count": 4,
-      "blocked_by": [
-        "llvm",
-        "python-matplotlib"
-      ]
-    },
-    {
       "component": "libyui",
       "count": 3,
       "prerel_abi_blocked": true
+    },
+    {
+      "component": "python-oci",
+      "count": 3,
+      "blocked_by": [
+        "python-pydantic",
+        "python-pydantic-core"
+      ]
     }
   ],
   "most_commonly_last_blocking_combinations": [
@@ -549,7 +570,7 @@
         "python-pydantic",
         "python-pydantic-core"
       ],
-      "count": 24
+      "count": 27
     },
     {
       "components": [
@@ -582,9 +603,8 @@
     },
     {
       "components": [
-        "poetry",
-        "python-cleo",
-        "python-rapidfuzz"
+        "python-joblib",
+        "python-scikit-learn"
       ],
       "count": 7
     },
@@ -597,17 +617,17 @@
     },
     {
       "components": [
-        "gnuradio",
-        "python-pyqtgraph",
-        "python-qt5"
-      ],
-      "count": 5
-    },
-    {
-      "components": [
         "python-astropy",
         "python-pytest-arraydiff",
         "python-pytest-astropy"
+      ],
+      "count": 6
+    },
+    {
+      "components": [
+        "gnuradio",
+        "python-pyqtgraph",
+        "python-qt5"
       ],
       "count": 5
     },
@@ -636,24 +656,10 @@
     },
     {
       "components": [
-        "python-Bottleneck",
-        "python-matplotlib"
-      ],
-      "count": 4
-    },
-    {
-      "components": [
         "python-pyqt6",
         "python-qt5"
       ],
       "count": 4
-    },
-    {
-      "components": [
-        "python-pymongo",
-        "python-sqlalchemy"
-      ],
-      "count": 3
     },
     {
       "components": [
@@ -670,6 +676,13 @@
         "python-pyperclip",
         "python-reno",
         "python-stestr"
+      ],
+      "count": 3
+    },
+    {
+      "components": [
+        "conda",
+        "python-menuinst"
       ],
       "count": 3
     },
@@ -696,18 +709,25 @@
     },
     {
       "components": [
-        "python-pint",
-        "python-pydantic",
-        "python-pydantic-core"
+        "python-matplotlib",
+        "python-qt5"
       ],
-      "count": 3
+      "count": 2
     },
     {
       "components": [
-        "python-Levenshtein",
-        "python-rapidfuzz"
+        "rpkg",
+        "rpmlint"
       ],
-      "count": 3
+      "count": 2
+    },
+    {
+      "components": [
+        "python-openid-cla",
+        "python-openid-teams",
+        "python3-openid"
+      ],
+      "count": 2
     }
   ],
   "dependency_loops": []

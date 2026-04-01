@@ -923,14 +923,6 @@
       "python-pyvmomi: FTBFS in Fedora rawhide/f44"
     ]
   },
-  "python-qt5": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2440551"
-    ],
-    "summaries": [
-      "python-qt5 fails to build with Python 3.15: ../../qpy/QtCore/qpycore_pyqtslot.cpp:222:16: error: \u2018PyWeakref_GetObject\u2019 was not declared in this scope; did you mean \u2018PyErr_SetObject\u2019?"
-    ]
-  },
   "python-questionary": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2435019",
