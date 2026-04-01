@@ -66,6 +66,7 @@ aubio	succeeded
 audit	succeeded
 auditwheel	succeeded
 autojump	succeeded
+autokey	succeeded
 autowrap	succeeded
 avogadro2-libs	succeeded
 awscli2	failed
@@ -105,6 +106,7 @@ bubblemail	succeeded
 buildstream	succeeded
 buildstream-plugins	succeeded
 bumpversion	succeeded
+buttermanager	succeeded
 calamares	failed
 calypso	succeeded
 cambalache	succeeded
@@ -194,13 +196,17 @@ dogtail	succeeded
 dot2tex	succeeded
 dt-schema	succeeded
 dtc	succeeded
+dxf2gcode	failed
 dynaconf	succeeded
 ec2-hibinit-agent	succeeded
 eggdrop	succeeded
+electron-cash	failed
+electrum	succeeded
 elements	succeeded
 elements-alexandria	succeeded
 emacs-jedi	succeeded
 enjarify	succeeded
+enki	succeeded
 ephemeral-port-reserve	succeeded
 espresso	failed
 esptool	succeeded
@@ -279,6 +285,7 @@ gns3-server	succeeded
 gnucash	succeeded
 gnulib	succeeded
 gnumeric	succeeded
+gnuradio	succeeded
 gobject-introspection	succeeded
 gom	succeeded
 google-auth-httplib2	succeeded
@@ -288,6 +295,12 @@ gphotoframe	succeeded
 gplugin	failed
 gpodder	succeeded
 gpsd	succeeded
+gr-air-modes	succeeded
+gr-funcube	succeeded
+gr-hpsdr	succeeded
+gr-iqbal	succeeded
+gr-osmosdr	succeeded
+gr-rds	succeeded
 grammalecte	succeeded
 graphviz	succeeded
 grin	succeeded
@@ -381,6 +394,7 @@ langtable	succeeded
 lasso	succeeded
 lazygal	failed
 ldns	succeeded
+lector	succeeded
 legendary	succeeded
 legofy	succeeded
 lensfun	succeeded
@@ -403,6 +417,7 @@ libdex	succeeded
 libdnet	succeeded
 libdnf	succeeded
 libesedb	succeeded
+libffado	failed
 libfreenect	succeeded
 libftdi	failed
 libgexiv2	succeeded
@@ -515,6 +530,7 @@ mod_wsgi	succeeded
 modpoll	succeeded
 module-build	succeeded
 modulemd-tools	succeeded
+mogui	failed
 monkeytype	succeeded
 moose	failed
 morphio	failed
@@ -540,6 +556,7 @@ netgen-mesher	succeeded
 netplan	failed
 newt	succeeded
 nextpnr	succeeded
+nfs-ganesha	failed
 nfsometer	succeeded
 nftables	succeeded
 nicotine+	succeeded
@@ -581,6 +598,7 @@ openms	succeeded
 openscap	succeeded
 openscap-report	succeeded
 openshadinglanguage	succeeded
+openshot	succeeded
 opensips	succeeded
 openssh-ldap-authkeys	succeeded
 opensuse-distro-aliases	succeeded
@@ -614,17 +632,20 @@ pew	succeeded
 pg_activity	succeeded
 pgcli	succeeded
 photocollage	succeeded
+picard	succeeded
 piccata	succeeded
 piper	succeeded
 pipx	succeeded
 pitivi	succeeded
 pl	succeeded
 playitagainsam	succeeded
+plplot	succeeded
 pmbootstrap	succeeded
 pocketsphinx	succeeded
 podman-compose	succeeded
 poezio-omemo	succeeded
 policycoreutils	succeeded
+porcupine	succeeded
 portmidi	succeeded
 postfix-mta-sts-resolver	succeeded
 postgresql16	succeeded
@@ -642,6 +663,7 @@ prunerepo	succeeded
 pss	succeeded
 pssh	succeeded
 ptpython	succeeded
+puddletag	failed
 pulp-cli	succeeded
 pulp-cli-deb	succeeded
 pulsecaster	succeeded
@@ -694,6 +716,7 @@ pyparted	succeeded
 pypolicyd-spf	succeeded
 pyppd	succeeded
 pyproj	failed
+pyqtwebengine	failed
 pyscard	succeeded
 pyserial	succeeded
 pyshp	succeeded
@@ -788,6 +811,7 @@ python-allpairspy	succeeded
 python-alsa	succeeded
 python-amqp	succeeded
 python-ana	succeeded
+python-androguard	succeeded
 python-animatplot	succeeded
 python-aniso8601	succeeded
 python-annexremote	succeeded
@@ -1110,6 +1134,7 @@ python-cma	succeeded
 python-cmake-build-extension	succeeded
 python-cmap	succeeded
 python-cmarkgfm	succeeded
+python-cmd2	failed
 python-cmdkit	succeeded
 python-cobalt	succeeded
 python-codecov	succeeded
@@ -2031,6 +2056,7 @@ python-ntplib	succeeded
 python-num2words	succeeded
 python-numcodecs	succeeded
 python-numexpr	succeeded
+python-numpy-stl	succeeded
 python-numpydoc	succeeded
 python-oauth	succeeded
 python-oauth2	succeeded
@@ -2338,6 +2364,7 @@ python-pyotp	succeeded
 python-pyownet	succeeded
 python-pypandoc	succeeded
 python-pypdf	succeeded
+python-pyperclip	succeeded
 python-pyphen	succeeded
 python-pypillowfight	succeeded
 python-pypng	succeeded
@@ -2347,8 +2374,9 @@ python-pyproject-hooks	succeeded
 python-pyproject-metadata	succeeded
 python-pypubsub	succeeded
 python-pyqt5-sip	succeeded
-python-pyqt6	failed
+python-pyqt6	running
 python-pyqt6-sip	succeeded
+python-pyqtgraph	succeeded
 python-pyquery	succeeded
 python-pyramid	succeeded
 python-pyramid-mako	succeeded
@@ -2424,7 +2452,7 @@ python-pytest-harvest	succeeded
 python-pytest-home	succeeded
 python-pytest-httpbin	succeeded
 python-pytest-httpserver	succeeded
-python-pytest-httpx	succeeded
+python-pytest-httpx	failed
 python-pytest-isort	succeeded
 python-pytest-jupyter	succeeded
 python-pytest-lazy-fixture	succeeded
@@ -2491,16 +2519,19 @@ python-pyyaml-env-tag	succeeded
 python-pyzabbix	succeeded
 python-pyzolib	succeeded
 python-pyzstd	succeeded
+python-qdarkstyle	succeeded
 python-qemu-qmp	succeeded
 python-qrcode	succeeded
 python-qstylizer	succeeded
 python-qt5	succeeded
+python-qtconsole	succeeded
 python-qtsass	succeeded
 python-quantities	succeeded
 python-quart	succeeded
 python-quart-trio	succeeded
 python-questionary	failed
 python-queuelib	succeeded
+python-qutepart	succeeded
 python-radexreader	succeeded
 python-railroad-diagrams	succeeded
 python-rangehttpserver	succeeded
@@ -2613,6 +2644,7 @@ python-scantree	succeeded
 python-schedutils	succeeded
 python-schema	succeeded
 python-scikit-build-core	succeeded
+python-scikit-image	failed
 python-scipy-doctest	succeeded
 python-scitokens	succeeded
 python-scooby	succeeded
@@ -2882,6 +2914,7 @@ python-trampoline	succeeded
 python-transaction	succeeded
 python-translationstring	succeeded
 python-translitcodec	failed
+python-trezor	succeeded
 python-trio	succeeded
 python-trio-websocket	succeeded
 python-triton	succeeded
@@ -3101,6 +3134,7 @@ python3-iep	failed
 python3-lxc	succeeded
 python3-mallard-ducktype	succeeded
 python3-mypy	succeeded
+python3-poppler-qt5	succeeded
 python3-py3dns	succeeded
 python3-pydo	succeeded
 python3-saml	succeeded
@@ -3177,9 +3211,11 @@ sanlock	succeeded
 sasutils	succeeded
 satyr	succeeded
 scapy	succeeded
+scidavis	succeeded
 scipy	succeeded
 scons	succeeded
 screenkey	succeeded
+scribus	succeeded
 seadrive-daemon	succeeded
 seafile	succeeded
 sentencepiece	succeeded
@@ -3265,7 +3301,7 @@ trellis	succeeded
 tuna	succeeded
 tuned	succeeded
 txt2tags	succeeded
-ty	failed
+ty	running
 ubertooth	failed
 udica	succeeded
 udiskie	succeeded
@@ -3295,6 +3331,7 @@ vex	succeeded
 vigra	succeeded
 vim-jedi	succeeded
 vimiv	succeeded
+vimiv-qt	failed
 virt-bootstrap	succeeded
 virt-lightning	succeeded
 virt-who	succeeded

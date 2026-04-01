@@ -2,7 +2,7 @@
   "most_commonly_needed": [
     {
       "component": "python-pydantic-core",
-      "count": 102,
+      "count": 105,
       "blocked_by": [
         "python-dirty-equals",
         "python-inline-snapshot"
@@ -10,7 +10,7 @@
     },
     {
       "component": "python-pydantic",
-      "count": 101,
+      "count": 104,
       "blocked_by": [
         "python-dirty-equals",
         "python-pydantic-core"
@@ -26,22 +26,8 @@
       ]
     },
     {
-      "component": "python-pyperclip",
-      "count": 59,
-      "blocked_by": [
-        "python-qt5"
-      ]
-    },
-    {
       "component": "python-cmd2",
-      "count": 55,
-      "blocked_by": [
-        "python-pyperclip"
-      ]
-    },
-    {
-      "component": "python-qt5",
-      "count": 54
+      "count": 55
     },
     {
       "component": "python-cliff",
@@ -49,8 +35,15 @@
       "blocked_by": [
         "python-cliff",
         "python-cmd2",
-        "python-pyperclip",
         "python-stestr"
+      ]
+    },
+    {
+      "component": "python-stestr",
+      "count": 49,
+      "blocked_by": [
+        "python-cliff",
+        "python-cmd2"
       ]
     },
     {
@@ -58,21 +51,11 @@
       "count": 48
     },
     {
-      "component": "python-stestr",
-      "count": 48,
-      "blocked_by": [
-        "python-cliff",
-        "python-cmd2",
-        "python-pyperclip"
-      ]
-    },
-    {
       "component": "python-debtcollector",
       "count": 34,
       "blocked_by": [
         "python-cliff",
         "python-cmd2",
-        "python-pyperclip",
         "python-stestr"
       ]
     },
@@ -92,7 +75,6 @@
         "python-cmd2",
         "python-debtcollector",
         "python-oslo-config",
-        "python-pyperclip",
         "python-stestr"
       ]
     },
@@ -112,7 +94,6 @@
         "python-debtcollector",
         "python-oslo-config",
         "python-oslo-utils",
-        "python-pyperclip",
         "python-stestr"
       ]
     },
@@ -127,7 +108,6 @@
         "python-oslo-log",
         "python-oslo-serialization",
         "python-oslo-utils",
-        "python-pyperclip",
         "python-stestr"
       ]
     },
@@ -160,7 +140,6 @@
         "python-cmd2",
         "python-debtcollector",
         "python-oslo-utils",
-        "python-pyperclip",
         "python-stestr"
       ]
     },
@@ -179,7 +158,6 @@
         "python-cmd2",
         "python-keystoneauth1",
         "python-oslo-config",
-        "python-pyperclip",
         "python-stestr"
       ]
     },
@@ -201,6 +179,11 @@
         "python-sqlalchemy",
         "python-sqlmodel"
       ]
+    },
+    {
+      "component": "python-websockets",
+      "count": 19,
+      "prerel_abi_blocked": true
     },
     {
       "component": "python-shapely",
@@ -225,9 +208,17 @@
       "prerel_abi_blocked": true
     },
     {
-      "component": "python-websockets",
-      "count": 17,
-      "prerel_abi_blocked": true
+      "component": "python-osc-lib",
+      "count": 16,
+      "blocked_by": [
+        "python-cliff",
+        "python-cmd2",
+        "python-debtcollector",
+        "python-keystoneauth1",
+        "python-openstacksdk",
+        "python-oslo-utils",
+        "python-stestr"
+      ]
     },
     {
       "component": "python-pika",
@@ -240,30 +231,6 @@
       "component": "python-pyside6",
       "count": 15,
       "prerel_abi_blocked": true
-    },
-    {
-      "component": "python-reno",
-      "count": 15,
-      "blocked_by": [
-        "python-cliff",
-        "python-cmd2",
-        "python-pyperclip",
-        "python-stestr"
-      ]
-    },
-    {
-      "component": "python-osc-lib",
-      "count": 15,
-      "blocked_by": [
-        "python-cliff",
-        "python-cmd2",
-        "python-debtcollector",
-        "python-keystoneauth1",
-        "python-openstacksdk",
-        "python-oslo-utils",
-        "python-pyperclip",
-        "python-stestr"
-      ]
     },
     {
       "component": "python-psycopg2",
@@ -281,7 +248,6 @@
         "python-oslo-config",
         "python-oslo-serialization",
         "python-oslo-utils",
-        "python-pyperclip",
         "python-stestr"
       ]
     },
@@ -311,6 +277,14 @@
       "count": 13,
       "blocked_by": [
         "python-twisted"
+      ]
+    },
+    {
+      "component": "python-uvicorn",
+      "count": 13,
+      "blocked_by": [
+        "python-watchfiles",
+        "python-websockets"
       ]
     },
     {
@@ -359,6 +333,27 @@
       ]
     },
     {
+      "component": "python-dirty-equals",
+      "count": 12,
+      "blocked_by": [
+        "python-pydantic",
+        "python-pydantic-core"
+      ]
+    },
+    {
+      "component": "python-cinderclient",
+      "count": 12,
+      "blocked_by": [
+        "python-cliff",
+        "python-cmd2",
+        "python-debtcollector",
+        "python-keystoneauth1",
+        "python-oslo-serialization",
+        "python-oslo-utils",
+        "python-stestr"
+      ]
+    },
+    {
       "component": "python-orjson",
       "count": 11,
       "blocked_by": [
@@ -377,26 +372,44 @@
       ]
     },
     {
-      "component": "python-cinderclient",
+      "component": "python-reno",
       "count": 11,
       "blocked_by": [
         "python-cliff",
         "python-cmd2",
-        "python-debtcollector",
-        "python-keystoneauth1",
-        "python-oslo-serialization",
-        "python-oslo-utils",
-        "python-pyperclip",
-        "python-reno",
         "python-stestr"
       ]
     },
     {
-      "component": "python-uvicorn",
-      "count": 10,
+      "component": "python-openstackclient",
+      "count": 11,
       "blocked_by": [
-        "python-watchfiles",
-        "python-websockets"
+        "python-aodhclient",
+        "python-cinderclient",
+        "python-cliff",
+        "python-cmd2",
+        "python-debtcollector",
+        "python-futurist",
+        "python-gnocchiclient",
+        "python-heatclient",
+        "python-ironicclient",
+        "python-keystoneauth1",
+        "python-keystoneclient",
+        "python-manilaclient",
+        "python-mistralclient",
+        "python-neutronclient",
+        "python-octaviaclient",
+        "python-openstackclient",
+        "python-openstacksdk",
+        "python-osc-lib",
+        "python-oslo-config",
+        "python-oslo-log",
+        "python-oslo-serialization",
+        "python-oslo-utils",
+        "python-stestr",
+        "python-swiftclient",
+        "python-troveclient",
+        "python-zaqarclient"
       ]
     },
     {
@@ -441,10 +454,6 @@
       "count": 25
     },
     {
-      "component": "python-qt5",
-      "count": 25
-    },
-    {
       "component": "python-sqlalchemy",
       "count": 18,
       "blocked_by": [
@@ -455,16 +464,16 @@
     },
     {
       "component": "python-pyqt6",
-      "count": 9
+      "count": 13
     },
     {
       "component": "python-pyside6",
-      "count": 9,
+      "count": 11,
       "prerel_abi_blocked": true
     },
     {
       "component": "sympy",
-      "count": 8,
+      "count": 9,
       "blocked_by": [
         "llvm"
       ]
@@ -562,6 +571,17 @@
         "python-pydantic",
         "python-pydantic-core"
       ]
+    },
+    {
+      "component": "fonttools",
+      "count": 3,
+      "blocked_by": [
+        "fonttools",
+        "python-glyphsLib",
+        "python-ufo2ft",
+        "python-ufoLib2",
+        "sympy"
+      ]
     }
   ],
   "most_commonly_last_blocking_combinations": [
@@ -587,7 +607,6 @@
       "components": [
         "python-cliff",
         "python-cmd2",
-        "python-pyperclip",
         "python-stestr"
       ],
       "count": 10
@@ -625,14 +644,6 @@
     },
     {
       "components": [
-        "gnuradio",
-        "python-pyqtgraph",
-        "python-qt5"
-      ],
-      "count": 5
-    },
-    {
-      "components": [
         "python-cytoolz",
         "python-eth-utils",
         "python-pydantic",
@@ -656,16 +667,8 @@
     },
     {
       "components": [
-        "python-pyqt6",
-        "python-qt5"
-      ],
-      "count": 4
-    },
-    {
-      "components": [
         "python-cliff",
-        "python-cmd2",
-        "python-pyperclip"
+        "python-cmd2"
       ],
       "count": 3
     },
@@ -673,7 +676,6 @@
       "components": [
         "python-cliff",
         "python-cmd2",
-        "python-pyperclip",
         "python-reno",
         "python-stestr"
       ],
@@ -694,7 +696,6 @@
         "python-keystoneauth1",
         "python-openstacksdk",
         "python-oslo-utils",
-        "python-pyperclip",
         "python-stestr"
       ],
       "count": 3
@@ -709,13 +710,6 @@
     },
     {
       "components": [
-        "python-matplotlib",
-        "python-qt5"
-      ],
-      "count": 2
-    },
-    {
-      "components": [
         "rpkg",
         "rpmlint"
       ],
@@ -726,6 +720,31 @@
         "python-openid-cla",
         "python-openid-teams",
         "python3-openid"
+      ],
+      "count": 2
+    },
+    {
+      "components": [
+        "python-cattrs",
+        "python-requests-cache"
+      ],
+      "count": 2
+    },
+    {
+      "components": [
+        "python-alembic",
+        "python-sqlalchemy"
+      ],
+      "count": 2
+    },
+    {
+      "components": [
+        "python-jiter",
+        "python-llm",
+        "python-openai",
+        "python-pydantic",
+        "python-pydantic-core",
+        "python-python-ulid"
       ],
       "count": 2
     }
