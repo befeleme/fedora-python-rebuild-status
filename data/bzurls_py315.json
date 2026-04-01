@@ -255,6 +255,14 @@
     "urls": [],
     "summaries": []
   },
+  "llvm": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2448969"
+    ],
+    "summaries": [
+      "llvm fails to build with Python 3.15: shtest-ulimit-nondarwin.py: error: no match found"
+    ]
+  },
   "llvm21": {
     "urls": [],
     "summaries": []
@@ -567,6 +575,10 @@
     "urls": [],
     "summaries": []
   },
+  "python-deap": {
+    "urls": [],
+    "summaries": []
+  },
   "python-django-angular": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2434976"
@@ -638,6 +650,10 @@
     "summaries": []
   },
   "python-geotiler": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-graph-tool": {
     "urls": [],
     "summaries": []
   },
@@ -719,16 +735,6 @@
       "python-markdown-callouts: FTBFS in Fedora rawhide/f44"
     ]
   },
-  "python-matplotlib": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2442243",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2433761"
-    ],
-    "summaries": [
-      "python-matplotlib: FTBFS in Fedora Rawhide: No match for argument: tex(cmb10.tfm) and more",
-      "python-matplotlib fails to build with Python 3.15: failure of test_norm_callback and test_fork"
-    ]
-  },
   "python-mirrors-countme": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2424567"
@@ -793,11 +799,23 @@
     "urls": [],
     "summaries": []
   },
+  "python-opytimizer": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2435001"
+    ],
+    "summaries": [
+      "python-opytimizer: FTBFS in Fedora rawhide/f44"
+    ]
+  },
   "python-os-service-types": {
     "urls": [],
     "summaries": []
   },
   "python-oslo-config": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-partd": {
     "urls": [],
     "summaries": []
   },
@@ -834,6 +852,10 @@
     ]
   },
   "python-pyngus": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pynwb": {
     "urls": [],
     "summaries": []
   },
@@ -1061,6 +1083,10 @@
     "urls": [],
     "summaries": []
   },
+  "python-zarr": {
+    "urls": [],
+    "summaries": []
+  },
   "python-zict": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2440574"
@@ -1072,14 +1098,6 @@
   "python-zlib-ng": {
     "urls": [],
     "summaries": []
-  },
-  "python-zope-testrunner": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2433888"
-    ],
-    "summaries": [
-      "python-zope-testrunner fails to build with Python 3.15: help2man: can't get `--help' info from /builddir/build/BUILD/python-zope-testrunner-8.1-build/BUILDROOT/usr/bin/zope-testrunner"
-    ]
   },
   "python3-iep": {
     "urls": [],

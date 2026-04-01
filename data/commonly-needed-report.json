@@ -359,14 +359,6 @@
       ]
     },
     {
-      "component": "python-CacheControl",
-      "count": 13,
-      "blocked_by": [
-        "python-cherrypy",
-        "python-zc-lockfile"
-      ]
-    },
-    {
       "component": "jupyterlab",
       "count": 13,
       "blocked_by": [
@@ -418,6 +410,13 @@
       "blocked_by": [
         "python-pendulum"
       ]
+    },
+    {
+      "component": "python-partd",
+      "count": 11,
+      "blocked_by": [
+        "python-Bottleneck"
+      ]
     }
   ],
   "most_commonly_last_blocking": [
@@ -426,12 +425,12 @@
       "count": 27
     },
     {
-      "component": "python-qt5",
+      "component": "python-twisted",
       "count": 24
     },
     {
-      "component": "python-twisted",
-      "count": 23
+      "component": "python-qt5",
+      "count": 24
     },
     {
       "component": "python-Bottleneck",
@@ -467,15 +466,10 @@
       "prerel_abi_blocked": true
     },
     {
-      "component": "python-zope-testrunner",
-      "count": 7
-    },
-    {
       "component": "python-flexmock",
       "count": 6,
       "blocked_by": [
-        "python-twisted",
-        "python-zope-testrunner"
+        "python-twisted"
       ]
     },
     {
@@ -542,6 +536,11 @@
         "llvm",
         "python-matplotlib"
       ]
+    },
+    {
+      "component": "libyui",
+      "count": 3,
+      "prerel_abi_blocked": true
     }
   ],
   "most_commonly_last_blocking_combinations": [
@@ -584,7 +583,6 @@
     {
       "components": [
         "poetry",
-        "python-CacheControl",
         "python-cleo",
         "python-rapidfuzz"
       ],
@@ -624,6 +622,13 @@
     },
     {
       "components": [
+        "mkdocs-material",
+        "python-backrefs"
+      ],
+      "count": 5
+    },
+    {
+      "components": [
         "python-google-api-core",
         "python-proto-plus"
       ],
@@ -633,13 +638,6 @@
       "components": [
         "python-Bottleneck",
         "python-matplotlib"
-      ],
-      "count": 4
-    },
-    {
-      "components": [
-        "mkdocs-material",
-        "python-backrefs"
       ],
       "count": 4
     },
@@ -677,13 +675,6 @@
     },
     {
       "components": [
-        "python-pyramid",
-        "python-zope-deprecation"
-      ],
-      "count": 3
-    },
-    {
-      "components": [
         "python-cliff",
         "python-cmd2",
         "python-debtcollector",
@@ -708,6 +699,13 @@
         "python-pint",
         "python-pydantic",
         "python-pydantic-core"
+      ],
+      "count": 3
+    },
+    {
+      "components": [
+        "python-Levenshtein",
+        "python-rapidfuzz"
       ],
       "count": 3
     }
