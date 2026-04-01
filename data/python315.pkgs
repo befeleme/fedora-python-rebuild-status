@@ -45,6 +45,7 @@ ampy
 anaconda
 ansible
 ansible-bender
+ansible-builder
 ansible-collections-openstack
 ansible-core
 ansible-inventory-grapher
@@ -79,6 +80,7 @@ battray
 bcc
 beaker
 bids-schema
+bindep
 binwalk
 blivet-gui
 bluechi
@@ -86,6 +88,7 @@ bluefish
 blueman
 blueprint-compiler
 bodhi-client
+bodhi-messages
 boom-boot
 boost
 borgbackup
@@ -106,6 +109,7 @@ buildstream-plugins
 bumpversion
 buttermanager
 calamares
+calibre
 calypso
 cambalache
 cantor
@@ -145,6 +149,7 @@ congruity
 conu
 copr-cli
 copr-keygen
+copr-messaging
 createrepo-agent
 createrepo_c
 criu
@@ -210,6 +215,7 @@ fail2ban
 fapolicy-analyzer
 fedfind
 fedora-distro-aliases
+fedora-messaging
 fedora-repro
 fedora-review
 fedora-third-party
@@ -232,6 +238,7 @@ freeipa-desktop-profile
 freeipa-fas
 freeipa-healthcheck
 freeradius
+frescobaldi
 fts-rest-client
 fusion-icon
 gajim
@@ -250,6 +257,7 @@ getmail6
 gherkin
 gi-docgen
 git-archive-all
+git-cola
 git-fame
 git-filter-repo
 git-imerge
@@ -327,6 +335,7 @@ i2c-tools
 ibus
 ibus-cangjie
 ikiwiki
+ilua
 imagefactory
 imagefactory-plugins
 imath
@@ -488,6 +497,7 @@ lttng-tools
 lttng-ust
 lutris
 lvm2
+mailman3-fedmsg-plugin-schemas
 mailnag
 mailprocessing
 manafirewall
@@ -505,6 +515,7 @@ meld
 mercurial
 meson
 mgarepo
+micropipenv
 minigalaxy
 mininet
 miniupnpc
@@ -559,6 +570,7 @@ nototools
 nox
 ntpsec
 numpy
+nut
 nvme-stas
 nvmetcli
 nwchem
@@ -853,6 +865,7 @@ python-augeas
 python-authheaders
 python-authlib
 python-authres
+python-autobahn
 python-autocommand
 python-autopage
 python-autopep8
@@ -1046,6 +1059,7 @@ python-call-graph
 python-can
 python-canonicaljson
 python-capturer
+python-carbon
 python-cart
 python-cascadio
 python-casttube
@@ -1190,6 +1204,7 @@ python-crayons
 python-crc32c
 python-crcmod
 python-crick
+python-crochet
 python-cron-converter
 python-croniter
 python-crossword
@@ -1223,6 +1238,7 @@ python-daemon
 python-daemonize
 python-daiquiri
 python-damo
+python-daphne
 python-dasbus
 python-dateparser
 python-datetimerange
@@ -1422,6 +1438,7 @@ python-fastrand
 python-fastrlock
 python-fastuuid
 python-fauxquests
+python-fedora-image-uploader-messages
 python-fedora-sig-onboard
 python-feedgen
 python-feedgenerator
@@ -1474,6 +1491,7 @@ python-flask-talisman
 python-flask-wtf
 python-flask-wtf-decorators
 python-flexcache
+python-flexmock
 python-flexparser
 python-flit
 python-flit-core
@@ -1775,8 +1793,10 @@ python-kgb
 python-kiss-headers
 python-kitchen
 python-kiwisolver
+python-klein
 python-kmod
 python-knack
+python-koji-fedoramessaging-messages
 python-krb5
 python-kubernetes
 python-landslide
@@ -1867,6 +1887,8 @@ python-mathics-scanner
 python-matplotlib
 python-matplotlib-inline
 python-matplotlib-scalebar
+python-matrix-common
+python-matrix-synapse-ldap3
 python-maxminddb
 python-mbstrdecoder
 python-mccabe
@@ -1875,6 +1897,7 @@ python-mdurl
 python-mdx_gh_links
 python-meautility
 python-mechanicalsoup
+python-mechanize
 python-mediafile
 python-medimages4tests
 python-meh
@@ -1926,6 +1949,7 @@ python-more-itertools
 python-moreorless
 python-morphys
 python-mozilla-django-oidc
+python-mpd2
 python-mplcursors
 python-mpmath
 python-mrcfile
@@ -1995,6 +2019,7 @@ python-nmap
 python-nmrglue
 python-node-semver
 python-nodeenv
+python-noggin-messages
 python-noiseprotocol
 python-normality
 python-norpm
@@ -2064,6 +2089,7 @@ python-packaging
 python-packbits
 python-packvers
 python-paginate
+python-pagure-messages
 python-paho-mqtt
 python-palettable
 python-pam
@@ -2079,6 +2105,7 @@ python-parse_type
 python-parsedatetime
 python-parsel
 python-parsimonious
+python-parsley
 python-parso
 python-pass-import
 python-passlib
@@ -2107,6 +2134,7 @@ python-peachpy
 python-pebble
 python-pecan
 python-pefile
+python-pem
 python-pep8-naming
 python-periodictable
 python-perky
@@ -2121,6 +2149,7 @@ python-pickleshare
 python-pid
 python-pidfile
 python-pigpio
+python-pika
 python-pikepdf
 python-pillow
 python-pillow-jxl-plugin
@@ -2239,6 +2268,7 @@ python-pydyf
 python-pyembroidery
 python-pyerfa
 python-pyev
+python-pyface
 python-pyfakefs
 python-pyfiglet
 python-pyflame
@@ -2319,9 +2349,13 @@ python-pyproject-hooks
 python-pyproject-metadata
 python-pypubsub
 python-pyqt5-sip
+python-pyqt6
+python-pyqt6-charts
 python-pyqt6-sip
+python-pyqt6-webengine
 python-pyqtgraph
 python-pyquery
+python-pyrad
 python-pyramid
 python-pyramid-mako
 python-pyramid-tm
@@ -2464,6 +2498,7 @@ python-pyzolib
 python-pyzstd
 python-qdarkstyle
 python-qemu-qmp
+python-qpageview
 python-qrcode
 python-qstylizer
 python-qt5
@@ -2544,6 +2579,7 @@ python-rich-rst
 python-rjsmin
 python-rmtest
 python-rnc2rng
+python-robosignatory
 python-robot-detection
 python-robotframework
 python-roman
@@ -2589,6 +2625,7 @@ python-scooby
 python-scour
 python-scp
 python-scrape-schema-recipe
+python-scrapy
 python-scripttest
 python-scrypt
 python-sdkmanager
@@ -2663,6 +2700,7 @@ python-soundfile
 python-soupsieve
 python-spdx-license-list
 python-speaklater
+python-specfile
 python-speedtest-cli
 python-speg
 python-sphinx
@@ -2785,6 +2823,7 @@ python-tabulate
 python-tamilstring
 python-tasklib
 python-tatsu
+python-tblib
 python-tcolorpy
 python-tcx2gpx
 python-tcxparser
@@ -2829,6 +2868,7 @@ python-tinycss2
 python-tinydb
 python-tinygrad
 python-tinyhtml5
+python-tinyrpc
 python-tkrzw
 python-tld
 python-tldextract
@@ -2840,6 +2880,7 @@ python-tomli-w
 python-tomlkit
 python-toolz
 python-tornado
+python-towncrier
 python-tox
 python-tox-current-env
 python-tox-uv
@@ -2847,6 +2888,7 @@ python-tpm2-pytss
 python-tqdm
 python-trailrunner
 python-traitlets
+python-traitsui
 python-trampoline
 python-transaction
 python-translationstring
@@ -2860,14 +2902,18 @@ python-trove-classifiers
 python-trustme
 python-truststore
 python-ttfautohint-py
+python-tubes
 python-tvb-data
 python-tvb-gdist
 python-tw2-core
 python-tw2-forms
 python-twiggy
 python-twilio
+python-twisted
 python-txaio
 python-txredisapi
+python-txws
+python-txzmq
 python-typecode
 python-typecode-libmagic
 python-typeguard
@@ -3081,12 +3127,15 @@ pywhispercpp
 pyxattr
 pyxdg
 pyzor
+qhexedit2
 qpid-proton
 qr-code-generator
+qscintilla
 quearcode
 quisk
 quodlibet
 qutebrowser
+radicale
 ramalama
 ranger
 rapidyaml
@@ -3146,6 +3195,7 @@ screenkey
 scribus
 seadrive-daemon
 seafile
+sen
 sentencepiece
 sepolicy_analysis
 setconf
@@ -3153,6 +3203,7 @@ setools
 setroubleshoot
 setzer
 sherlock-project
+showcert
 showtime
 shyaml
 sigil
@@ -3171,6 +3222,7 @@ solarwolf
 sos
 soundconverter
 sourcextractor++
+spec2scl
 spectrographic
 speech-dispatcher
 speedtest-cli
@@ -3216,6 +3268,7 @@ todocli
 tomcli
 toot
 torbrowser-launcher
+tortoisehg
 tpm2-pkcs11
 trac
 trac-monotone-plugin
@@ -3223,6 +3276,7 @@ trac-tracnav-plugin
 tracer
 trademgen
 translate-toolkit
+trash-cli
 tre
 trelby
 trellis
@@ -3240,6 +3294,7 @@ ulauncher
 unbound
 unicorn
 units-llnl
+urh
 urjtag
 urlscan
 urlwatch
@@ -3254,6 +3309,7 @@ variety
 vdirsyncer
 vdr-epg-daemon
 vdr-epg2vdr
+veusz
 vex
 vigra
 vim-jedi
@@ -3273,6 +3329,7 @@ wafw00f
 weechat
 wesnoth
 whatip
+whipper
 winpdb
 wordxtr
 xapps

@@ -11,6 +11,10 @@
     "urls": [],
     "summaries": []
   },
+  "alot": {
+    "urls": [],
+    "summaries": []
+  },
   "ansible": {
     "urls": [],
     "summaries": []
@@ -123,6 +127,10 @@
     "urls": [],
     "summaries": []
   },
+  "eric": {
+    "urls": [],
+    "summaries": []
+  },
   "espresso": {
     "urls": [],
     "summaries": []
@@ -226,6 +234,10 @@
     "summaries": [
       "kmymoney fails to build with Python 3.15: /usr/include/python3.15/pyport.h:523:9: error: \u2018__STDC_VERSION__\u2019 is not defined, evaluates to \u20180\u2019 [-Werror=undef]"
     ]
+  },
+  "krita": {
+    "urls": [],
+    "summaries": []
   },
   "lazygal": {
     "urls": [],
@@ -331,6 +343,10 @@
     "urls": [],
     "summaries": []
   },
+  "paraview": {
+    "urls": [],
+    "summaries": []
+  },
   "petsc": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2440567"
@@ -362,6 +378,10 @@
     "summaries": [
       "pylint fails to build with Python 3.15: multiple AssertionErrors"
     ]
+  },
+  "pyp2rpm": {
+    "urls": [],
+    "summaries": []
   },
   "pyproj": {
     "urls": [],
@@ -895,14 +915,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-pyqt6": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2440573"
-    ],
-    "summaries": [
-      "python-pyqt6 fails to build with Python 3.15: ../../qpy/QtCore/qpycore_pyqtslot.cpp:210:16: error: \u2018PyWeakref_GetObject\u2019 was not declared in this scope; did you mean \u2018PyErr_SetObject\u2019?"
-    ]
-  },
   "python-pysdl2": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2435012",
@@ -961,6 +973,14 @@
     ],
     "summaries": [
       "python-pyvmomi: FTBFS in Fedora rawhide/f44"
+    ]
+  },
+  "python-qcustomplot-pyqt": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2435018"
+    ],
+    "summaries": [
+      "python-qcustomplot-pyqt: FTBFS in Fedora rawhide/f44"
     ]
   },
   "python-questionary": {
@@ -1081,15 +1101,9 @@
       "python-translitcodec fails to build with Python 3.15: 8 tests failing with LookupError: unknown encoding: translit/*"
     ]
   },
-  "python-twisted": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2435033",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2432344"
-    ],
-    "summaries": [
-      "python-twisted: FTBFS in Fedora rawhide/f44",
-      "python-twisted fails to build with Python 3.15: twisted.trial.unittest.FailTest: 5 != 7, builtins.AttributeError: 'SourceFileLoader' object has no attribute 'load_module' and one more"
-    ]
+  "python-treq": {
+    "urls": [],
+    "summaries": []
   },
   "python-typeguard": {
     "urls": [
@@ -1144,6 +1158,10 @@
     "summaries": []
   },
   "python3-pydo": {
+    "urls": [],
+    "summaries": []
+  },
+  "qgis": {
     "urls": [],
     "summaries": []
   },

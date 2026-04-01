@@ -47,10 +47,6 @@
       ]
     },
     {
-      "component": "python-twisted",
-      "count": 48
-    },
-    {
       "component": "python-debtcollector",
       "count": 34,
       "blocked_by": [
@@ -58,10 +54,6 @@
         "python-cmd2",
         "python-stestr"
       ]
-    },
-    {
-      "component": "python-pyqt6",
-      "count": 30
     },
     {
       "component": "python-joblib",
@@ -221,13 +213,6 @@
       ]
     },
     {
-      "component": "python-pika",
-      "count": 15,
-      "blocked_by": [
-        "python-twisted"
-      ]
-    },
-    {
       "component": "python-pyside6",
       "count": 15,
       "prerel_abi_blocked": true
@@ -273,13 +258,6 @@
       "count": 13
     },
     {
-      "component": "python-crochet",
-      "count": 13,
-      "blocked_by": [
-        "python-twisted"
-      ]
-    },
-    {
       "component": "python-uvicorn",
       "count": 13,
       "blocked_by": [
@@ -300,15 +278,6 @@
       "count": 12,
       "blocked_by": [
         "python-sqlalchemy"
-      ]
-    },
-    {
-      "component": "fedora-messaging",
-      "count": 12,
-      "blocked_by": [
-        "python-crochet",
-        "python-pika",
-        "python-twisted"
       ]
     },
     {
@@ -425,7 +394,6 @@
         "python-scikit-image",
         "python-sqlalchemy",
         "python-tables",
-        "python-tblib",
         "python-xarray",
         "python-zarr"
       ]
@@ -446,13 +414,38 @@
       "blocked_by": [
         "sympy"
       ]
+    },
+    {
+      "component": "python-peewee",
+      "count": 9,
+      "blocked_by": [
+        "python-psycopg2"
+      ]
+    },
+    {
+      "component": "python-backrefs",
+      "count": 9
+    },
+    {
+      "component": "python-notebook",
+      "count": 9,
+      "blocked_by": [
+        "jupyterlab"
+      ]
+    },
+    {
+      "component": "python-pytest-astropy",
+      "count": 9,
+      "blocked_by": [
+        "python-pytest-arraydiff"
+      ]
+    },
+    {
+      "component": "python-zarr",
+      "count": 9
     }
   ],
   "most_commonly_last_blocking": [
-    {
-      "component": "python-twisted",
-      "count": 25
-    },
     {
       "component": "python-sqlalchemy",
       "count": 18,
@@ -463,12 +456,8 @@
       ]
     },
     {
-      "component": "python-pyqt6",
-      "count": 13
-    },
-    {
       "component": "python-pyside6",
-      "count": 11,
+      "count": 13,
       "prerel_abi_blocked": true
     },
     {
@@ -486,26 +475,19 @@
       ]
     },
     {
+      "component": "python-peewee",
+      "count": 6,
+      "blocked_by": [
+        "python-psycopg2"
+      ]
+    },
+    {
       "component": "python-psycopg2",
       "count": 6
     },
     {
-      "component": "python-flexmock",
-      "count": 6,
-      "blocked_by": [
-        "python-twisted"
-      ]
-    },
-    {
       "component": "python-time-machine",
       "count": 5
-    },
-    {
-      "component": "python-peewee",
-      "count": 5,
-      "blocked_by": [
-        "python-psycopg2"
-      ]
     },
     {
       "component": "python-orjson",
@@ -520,6 +502,13 @@
       "blocked_by": [
         "python-pydantic",
         "python-pydantic-core"
+      ]
+    },
+    {
+      "component": "python-shapely",
+      "count": 5,
+      "blocked_by": [
+        "pyproj"
       ]
     },
     {
@@ -543,13 +532,6 @@
       "component": "python-websockets",
       "count": 4,
       "prerel_abi_blocked": true
-    },
-    {
-      "component": "python-shapely",
-      "count": 4,
-      "blocked_by": [
-        "pyproj"
-      ]
     },
     {
       "component": "jupyterlab",
@@ -582,6 +564,25 @@
         "python-ufoLib2",
         "sympy"
       ]
+    },
+    {
+      "component": "python-dirty-equals",
+      "count": 3,
+      "blocked_by": [
+        "python-pydantic",
+        "python-pydantic-core"
+      ]
+    },
+    {
+      "component": "python-cattrs",
+      "count": 3,
+      "blocked_by": [
+        "python-orjson"
+      ]
+    },
+    {
+      "component": "python-joblib",
+      "count": 3
     }
   ],
   "most_commonly_last_blocking_combinations": [
@@ -610,15 +611,6 @@
         "python-stestr"
       ],
       "count": 10
-    },
-    {
-      "components": [
-        "fedora-messaging",
-        "python-crochet",
-        "python-pika",
-        "python-twisted"
-      ],
-      "count": 8
     },
     {
       "components": [
@@ -667,6 +659,21 @@
     },
     {
       "components": [
+        "rpkg",
+        "rpmlint"
+      ],
+      "count": 3
+    },
+    {
+      "components": [
+        "python-blosc2",
+        "python-ndindex",
+        "python-tables"
+      ],
+      "count": 3
+    },
+    {
+      "components": [
         "python-cliff",
         "python-cmd2"
       ],
@@ -707,13 +714,6 @@
         "python-pydantic-settings"
       ],
       "count": 3
-    },
-    {
-      "components": [
-        "rpkg",
-        "rpmlint"
-      ],
-      "count": 2
     },
     {
       "components": [
