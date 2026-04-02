@@ -12,8 +12,12 @@
     "summaries": []
   },
   "alot": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2453850"
+    ],
+    "summaries": [
+      "alot fails to build with Python 3.15: AttributeError: module 'glob' has no attribute 'glob1'. Did you mean '.glob' instead of '.glob1'?"
+    ]
   },
   "ansible": {
     "urls": [],
@@ -116,14 +120,6 @@
     "summaries": []
   },
   "dnfdragora": {
-    "urls": [],
-    "summaries": []
-  },
-  "dxf2gcode": {
-    "urls": [],
-    "summaries": []
-  },
-  "electron-cash": {
     "urls": [],
     "summaries": []
   },
@@ -235,19 +231,11 @@
       "kmymoney fails to build with Python 3.15: /usr/include/python3.15/pyport.h:523:9: error: \u2018__STDC_VERSION__\u2019 is not defined, evaluates to \u20180\u2019 [-Werror=undef]"
     ]
   },
-  "krita": {
-    "urls": [],
-    "summaries": []
-  },
   "lazygal": {
     "urls": [],
     "summaries": []
   },
   "libCombine": {
-    "urls": [],
-    "summaries": []
-  },
-  "libffado": {
     "urls": [],
     "summaries": []
   },
@@ -299,10 +287,6 @@
     "urls": [],
     "summaries": []
   },
-  "mogui": {
-    "urls": [],
-    "summaries": []
-  },
   "moose": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2414807"
@@ -326,10 +310,6 @@
     "summaries": [
       "netplan: FTBFS in Fedora rawhide/f44"
     ]
-  },
-  "nfs-ganesha": {
-    "urls": [],
-    "summaries": []
   },
   "opae": {
     "urls": [],
@@ -359,10 +339,6 @@
     "urls": [],
     "summaries": []
   },
-  "puddletag": {
-    "urls": [],
-    "summaries": []
-  },
   "pykakasi": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2440185"
@@ -380,8 +356,12 @@
     ]
   },
   "pyp2rpm": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2453848"
+    ],
+    "summaries": [
+      "pyp2rpm fails to build with Python 3.15: ModuleNotFoundError: No module named 'sre_constants'"
+    ]
   },
   "pyproj": {
     "urls": [],
@@ -912,8 +892,12 @@
     "summaries": []
   },
   "python-pynwb": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2453852"
+    ],
+    "summaries": [
+      "python-pynwb fails to build with Python 3.15: test_outer_import_structure: AssertionError: '__cached__' not found in ..."
+    ]
   },
   "python-pysdl2": {
     "urls": [
@@ -1053,6 +1037,10 @@
     "urls": [],
     "summaries": []
   },
+  "python-simpleaudio": {
+    "urls": [],
+    "summaries": []
+  },
   "python-sphinx-argparse-cli": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2440188"
@@ -1121,6 +1109,10 @@
     "urls": [],
     "summaries": []
   },
+  "python-wavio": {
+    "urls": [],
+    "summaries": []
+  },
   "python-websocket-client": {
     "urls": [],
     "summaries": []
@@ -1138,8 +1130,12 @@
     "summaries": []
   },
   "python-zarr": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2453855"
+    ],
+    "summaries": [
+      "python-zarr fails to build with Python 3.15:  SyntaxError: \"\\_\" is an invalid escape sequence. Did you mean \"\\\\_\"? A raw string is also an option."
+    ]
   },
   "python-zict": {
     "urls": [
@@ -1158,10 +1154,6 @@
     "summaries": []
   },
   "python3-pydo": {
-    "urls": [],
-    "summaries": []
-  },
-  "qgis": {
     "urls": [],
     "summaries": []
   },
@@ -1210,6 +1202,10 @@
     "summaries": []
   },
   "sourcextractor++": {
+    "urls": [],
+    "summaries": []
+  },
+  "spectrographic": {
     "urls": [],
     "summaries": []
   },
