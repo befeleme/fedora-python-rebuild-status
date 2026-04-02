@@ -55,6 +55,10 @@
       "bmap-tools fails to build with Python 3.15: bmaptool.BmapCopy.Error: checksum mismatch for blocks range 34-35"
     ]
   },
+  "bodhi-server": {
+    "urls": [],
+    "summaries": []
+  },
   "calamares": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2433899"
@@ -267,14 +271,6 @@
     "urls": [],
     "summaries": []
   },
-  "llvm": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2448969"
-    ],
-    "summaries": [
-      "llvm fails to build with Python 3.15: shtest-ulimit-nondarwin.py: error: no match found"
-    ]
-  },
   "llvm21": {
     "urls": [],
     "summaries": []
@@ -324,6 +320,10 @@
     "summaries": []
   },
   "paraview": {
+    "urls": [],
+    "summaries": []
+  },
+  "pcp": {
     "urls": [],
     "summaries": []
   },
@@ -378,6 +378,14 @@
   "python-PyMuPDF": {
     "urls": [],
     "summaries": []
+  },
+  "python-alembic1.14": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2434950"
+    ],
+    "summaries": [
+      "python-alembic1.14: FTBFS in Fedora rawhide/f44"
+    ]
   },
   "python-ansible-runner": {
     "urls": [],
@@ -448,8 +456,12 @@
     "summaries": []
   },
   "python-azure-mgmt-datamigration": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2454250"
+    ],
+    "summaries": [
+      "python-azure-mgmt-datamigration (and others) fail to build with Python 3.15: TypeError: Permissions.__init__() got an unexpected keyword argument 'keys'"
+    ]
   },
   "python-azure-mgmt-devtestlabs": {
     "urls": [],
@@ -563,15 +575,11 @@
     "urls": [],
     "summaries": []
   },
-  "python-botocore": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2424584"
-    ],
-    "summaries": [
-      "python-botocore fails to build with Python 3.15: AssertionError: At index 8 diff: b'\\x00' != b'\\x02'"
-    ]
-  },
   "python-bytecode": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-cattrs": {
     "urls": [],
     "summaries": []
   },
@@ -612,6 +620,10 @@
     "summaries": []
   },
   "python-deap": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-django-allauth": {
     "urls": [],
     "summaries": []
   },
@@ -689,6 +701,10 @@
     "urls": [],
     "summaries": []
   },
+  "python-gitlab": {
+    "urls": [],
+    "summaries": []
+  },
   "python-graph-tool": {
     "urls": [],
     "summaries": []
@@ -744,8 +760,12 @@
     "summaries": []
   },
   "python-jwt": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2454248"
+    ],
+    "summaries": [
+      "python-jwt fails to build with Python 3.15: FutureWarning: invalid character '/' in URL-safe Base64 data will be discarded in future Python versions"
+    ]
   },
   "python-kaptan": {
     "urls": [
@@ -871,14 +891,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-psycopg2": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2414801"
-    ],
-    "summaries": [
-      "python-psycopg2 fails to build with Python 3.15: error: implicit declaration of function \u2018PyWeakref_GetObject\u2019; did you mean \u2018PyWeakref_GetRef\u2019?"
-    ]
-  },
   "python-pygtkspellcheck": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2435008"
@@ -908,10 +920,6 @@
       "python-pysdl2: FTBFS in Fedora rawhide/f44",
       "python-pysdl2 fails to build with Python 3.15: AssertionError: That operation is not supported"
     ]
-  },
-  "python-pyside6": {
-    "urls": [],
-    "summaries": []
   },
   "python-pyswip": {
     "urls": [
@@ -977,6 +985,10 @@
       "python-questionary fails to build with Python 3.15: AttributeError: 'VSplit' object has no attribute 'content'. Did you mean: 'window_too_small.content'"
     ]
   },
+  "python-qutepart": {
+    "urls": [],
+    "summaries": []
+  },
   "python-readme-renderer": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2424573"
@@ -1013,6 +1025,10 @@
     "urls": [],
     "summaries": []
   },
+  "python-rstcheck": {
+    "urls": [],
+    "summaries": []
+  },
   "python-rstr": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2414567"
@@ -1037,6 +1053,10 @@
     "urls": [],
     "summaries": []
   },
+  "python-simple-salesforce": {
+    "urls": [],
+    "summaries": []
+  },
   "python-simpleaudio": {
     "urls": [],
     "summaries": []
@@ -1053,17 +1073,25 @@
     "urls": [],
     "summaries": []
   },
+  "python-streamlink": {
+    "urls": [],
+    "summaries": []
+  },
   "python-symengine": {
     "urls": [],
     "summaries": []
   },
-  "python-time-machine": {
+  "python-textual": {
     "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2424589"
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2435027"
     ],
     "summaries": [
-      "python-time-machine fails to build with Python 3.15: AssertionError: assert 2025 == 1970"
+      "python-textual: FTBFS in Fedora rawhide/f44"
     ]
+  },
+  "python-toml-cli": {
+    "urls": [],
+    "summaries": []
   },
   "python-tomli": {
     "urls": [
@@ -1106,6 +1134,18 @@
     "summaries": []
   },
   "python-virtualenv-clone": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2454249"
+    ],
+    "summaries": [
+      "python-virtualenv-clone fails to build with virtualenv 20.38.0+: test_clone_contents: AssertionError: Found source path in cloned file /tmp/tmpt25l9ytk/clone_venv/pyvenv.cfg"
+    ]
+  },
+  "python-watchdog": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-watchfiles": {
     "urls": [],
     "summaries": []
   },
@@ -1161,6 +1201,10 @@
     "urls": [],
     "summaries": []
   },
+  "rebase-helper": {
+    "urls": [],
+    "summaries": []
+  },
   "recoll": {
     "urls": [],
     "summaries": []
@@ -1182,15 +1226,11 @@
     "summaries": []
   },
   "root": {
-    "urls": [],
-    "summaries": []
-  },
-  "rpmlint": {
     "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2424585"
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2454247"
     ],
     "summaries": [
-      "rpmlint fails to build with Python 3.15: AttributeError: 'NoneType' object has no attribute 'get_all'"
+      "root fails to build with Python 3.15:  AttributeError: partially initialized module 'ROOT' from '/builddir/build/BUILD/root-6.38.04-build/root-6.38.04/redhat-linux-build/lib/ROOT/__init__.py' has no attribute '__cached__' (most likely due to a circular im"
     ]
   },
   "rtlsdr-scanner": {

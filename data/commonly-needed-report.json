@@ -1,31 +1,6 @@
 {
   "most_commonly_needed": [
     {
-      "component": "python-pydantic-core",
-      "count": 105,
-      "blocked_by": [
-        "python-dirty-equals",
-        "python-inline-snapshot"
-      ]
-    },
-    {
-      "component": "python-pydantic",
-      "count": 104,
-      "blocked_by": [
-        "python-dirty-equals",
-        "python-pydantic-core"
-      ]
-    },
-    {
-      "component": "python-sqlalchemy",
-      "count": 75,
-      "blocked_by": [
-        "python-pg8000",
-        "python-psycopg2",
-        "python-scramp"
-      ]
-    },
-    {
       "component": "python-cmd2",
       "count": 55
     },
@@ -107,11 +82,7 @@
       "component": "python-sqlmodel",
       "count": 24,
       "blocked_by": [
-        "python-dirty-equals",
-        "python-fastapi",
-        "python-pydantic",
-        "python-pydantic-core",
-        "python-sqlalchemy"
+        "python-fastapi"
       ]
     },
     {
@@ -161,14 +132,11 @@
         "python-google-cloud-core",
         "python-google-cloud-storage",
         "python-proto-plus",
-        "python-pydantic",
-        "python-pydantic-core",
         "python-smart_open",
         "python-snakemake-executor-plugin-cluster-generic",
         "python-snakemake-storage-plugin-fs",
         "python-snakemake-storage-plugin-http",
         "python-snakemake-storage-plugin-s3",
-        "python-sqlalchemy",
         "python-sqlmodel"
       ]
     },
@@ -218,10 +186,6 @@
       "prerel_abi_blocked": true
     },
     {
-      "component": "python-psycopg2",
-      "count": 14
-    },
-    {
       "component": "python-keystoneclient",
       "count": 14,
       "blocked_by": [
@@ -248,9 +212,7 @@
       "component": "python-eth-utils",
       "count": 14,
       "blocked_by": [
-        "python-cytoolz",
-        "python-pydantic",
-        "python-pydantic-core"
+        "python-cytoolz"
       ]
     },
     {
@@ -274,13 +236,6 @@
       ]
     },
     {
-      "component": "python-alembic",
-      "count": 12,
-      "blocked_by": [
-        "python-sqlalchemy"
-      ]
-    },
-    {
       "component": "python-google-api-core",
       "count": 12,
       "blocked_by": [
@@ -289,25 +244,7 @@
     },
     {
       "component": "python-cattrs",
-      "count": 12,
-      "blocked_by": [
-        "python-orjson"
-      ]
-    },
-    {
-      "component": "python3-openid",
-      "count": 12,
-      "blocked_by": [
-        "python-psycopg2"
-      ]
-    },
-    {
-      "component": "python-dirty-equals",
-      "count": 12,
-      "blocked_by": [
-        "python-pydantic",
-        "python-pydantic-core"
-      ]
+      "count": 12
     },
     {
       "component": "python-cinderclient",
@@ -320,13 +257,6 @@
         "python-oslo-serialization",
         "python-oslo-utils",
         "python-stestr"
-      ]
-    },
-    {
-      "component": "python-orjson",
-      "count": 11,
-      "blocked_by": [
-        "python-pendulum"
       ]
     },
     {
@@ -392,7 +322,6 @@
         "python-ndindex",
         "python-partd",
         "python-scikit-image",
-        "python-sqlalchemy",
         "python-tables",
         "python-xarray",
         "python-zarr"
@@ -416,13 +345,6 @@
       ]
     },
     {
-      "component": "python-peewee",
-      "count": 9,
-      "blocked_by": [
-        "python-psycopg2"
-      ]
-    },
-    {
       "component": "python-backrefs",
       "count": 9
     },
@@ -443,18 +365,80 @@
     {
       "component": "python-zarr",
       "count": 9
+    },
+    {
+      "component": "python-blosc2",
+      "count": 9,
+      "blocked_by": [
+        "python-ndindex"
+      ]
+    },
+    {
+      "component": "python-watchfiles",
+      "count": 8
+    },
+    {
+      "component": "fonttools",
+      "count": 8,
+      "blocked_by": [
+        "fonttools",
+        "python-glyphsLib",
+        "python-ufo2ft",
+        "python-ufoLib2",
+        "sympy"
+      ]
+    },
+    {
+      "component": "python-oslo-log",
+      "count": 8,
+      "blocked_by": [
+        "python-cliff",
+        "python-cmd2",
+        "python-debtcollector",
+        "python-oslo-config",
+        "python-oslo-serialization",
+        "python-oslo-utils",
+        "python-reno",
+        "python-stestr"
+      ]
+    },
+    {
+      "component": "python-fastapi",
+      "count": 7,
+      "blocked_by": [
+        "fastapi-cli",
+        "fastapi-cloud-cli",
+        "python-sqlmodel",
+        "python-uvicorn",
+        "python-watchfiles",
+        "python-websockets"
+      ]
+    },
+    {
+      "component": "python-jupyterlab-widgets",
+      "count": 7,
+      "blocked_by": [
+        "jupyterlab"
+      ]
+    },
+    {
+      "component": "python-multiprocess",
+      "count": 7
+    },
+    {
+      "component": "python-scikit-image",
+      "count": 7
+    },
+    {
+      "component": "python-tables",
+      "count": 7,
+      "blocked_by": [
+        "python-blosc2",
+        "python-ndindex"
+      ]
     }
   ],
   "most_commonly_last_blocking": [
-    {
-      "component": "python-sqlalchemy",
-      "count": 18,
-      "blocked_by": [
-        "python-pg8000",
-        "python-psycopg2",
-        "python-scramp"
-      ]
-    },
     {
       "component": "python-pyside6",
       "count": 13,
@@ -468,41 +452,9 @@
       ]
     },
     {
-      "component": "poetry",
-      "count": 7,
-      "blocked_by": [
-        "python-deepdiff"
-      ]
-    },
-    {
-      "component": "python-peewee",
+      "component": "python-websockets",
       "count": 6,
-      "blocked_by": [
-        "python-psycopg2"
-      ]
-    },
-    {
-      "component": "python-psycopg2",
-      "count": 6
-    },
-    {
-      "component": "python-time-machine",
-      "count": 5
-    },
-    {
-      "component": "python-orjson",
-      "count": 5,
-      "blocked_by": [
-        "python-pendulum"
-      ]
-    },
-    {
-      "component": "python-versioningit",
-      "count": 5,
-      "blocked_by": [
-        "python-pydantic",
-        "python-pydantic-core"
-      ]
+      "prerel_abi_blocked": true
     },
     {
       "component": "python-shapely",
@@ -512,10 +464,10 @@
       ]
     },
     {
-      "component": "python3-openid",
-      "count": 5,
+      "component": "python-gitlab",
+      "count": 4,
       "blocked_by": [
-        "python-psycopg2"
+        "python-gql"
       ]
     },
     {
@@ -529,9 +481,11 @@
       ]
     },
     {
-      "component": "python-websockets",
+      "component": "conda",
       "count": 4,
-      "prerel_abi_blocked": true
+      "blocked_by": [
+        "conda"
+      ]
     },
     {
       "component": "jupyterlab",
@@ -547,11 +501,11 @@
       "prerel_abi_blocked": true
     },
     {
-      "component": "python-oci",
+      "component": "python-jsonpickle",
       "count": 3,
       "blocked_by": [
-        "python-pydantic",
-        "python-pydantic-core"
+        "python-joblib",
+        "python-scikit-learn"
       ]
     },
     {
@@ -566,39 +520,64 @@
       ]
     },
     {
-      "component": "python-dirty-equals",
-      "count": 3,
-      "blocked_by": [
-        "python-pydantic",
-        "python-pydantic-core"
-      ]
-    },
-    {
       "component": "python-cattrs",
-      "count": 3,
-      "blocked_by": [
-        "python-orjson"
-      ]
+      "count": 3
     },
     {
       "component": "python-joblib",
       "count": 3
+    },
+    {
+      "component": "python-pcodedmp",
+      "count": 3,
+      "blocked_by": [
+        "python-pcodedmp"
+      ]
+    },
+    {
+      "component": "python-fastapi",
+      "count": 3,
+      "blocked_by": [
+        "fastapi-cli",
+        "fastapi-cloud-cli",
+        "python-sqlmodel",
+        "python-uvicorn",
+        "python-watchfiles",
+        "python-websockets"
+      ]
+    },
+    {
+      "component": "python-matplotlib",
+      "count": 2
+    },
+    {
+      "component": "go-vendor-tools",
+      "count": 2,
+      "blocked_by": [
+        "python-beartype",
+        "python-spdx-tools",
+        "scancode-toolkit"
+      ]
+    },
+    {
+      "component": "libftdi",
+      "count": 2,
+      "prerel_abi_blocked": true
+    },
+    {
+      "component": "qpid-proton",
+      "count": 2,
+      "prerel_abi_blocked": true
+    },
+    {
+      "component": "python-zlib-ng",
+      "count": 2
     }
   ],
   "most_commonly_last_blocking_combinations": [
     {
       "components": [
-        "python-pydantic",
-        "python-pydantic-core"
-      ],
-      "count": 27
-    },
-    {
-      "components": [
-        "python-pydantic",
-        "python-pydantic-core",
         "python-smart_open",
-        "python-sqlalchemy",
         "python-sqlmodel",
         "snakemake"
       ],
@@ -617,7 +596,7 @@
         "python-joblib",
         "python-scikit-learn"
       ],
-      "count": 7
+      "count": 8
     },
     {
       "components": [
@@ -637,9 +616,7 @@
     {
       "components": [
         "python-cytoolz",
-        "python-eth-utils",
-        "python-pydantic",
-        "python-pydantic-core"
+        "python-eth-utils"
       ],
       "count": 5
     },
@@ -656,13 +633,6 @@
         "python-proto-plus"
       ],
       "count": 4
-    },
-    {
-      "components": [
-        "rpkg",
-        "rpmlint"
-      ],
-      "count": 3
     },
     {
       "components": [
@@ -690,13 +660,6 @@
     },
     {
       "components": [
-        "conda",
-        "python-menuinst"
-      ],
-      "count": 3
-    },
-    {
-      "components": [
         "python-cliff",
         "python-cmd2",
         "python-debtcollector",
@@ -709,17 +672,16 @@
     },
     {
       "components": [
-        "python-pydantic",
-        "python-pydantic-core",
-        "python-pydantic-settings"
+        "python-uvicorn",
+        "python-watchfiles",
+        "python-websockets"
       ],
-      "count": 3
+      "count": 2
     },
     {
       "components": [
-        "python-openid-cla",
-        "python-openid-teams",
-        "python3-openid"
+        "python-fastapi",
+        "python-uvicorn"
       ],
       "count": 2
     },
@@ -732,19 +694,40 @@
     },
     {
       "components": [
-        "python-alembic",
-        "python-sqlalchemy"
+        "python-llm",
+        "python-openai"
       ],
       "count": 2
     },
     {
       "components": [
-        "python-jiter",
-        "python-llm",
-        "python-openai",
-        "python-pydantic",
-        "python-pydantic-core",
-        "python-python-ulid"
+        "conda",
+        "conda-build"
+      ],
+      "count": 2
+    },
+    {
+      "components": [
+        "python-cytoolz",
+        "python-eth-utils",
+        "python-hexbytes",
+        "python-rlp"
+      ],
+      "count": 2
+    },
+    {
+      "components": [
+        "pyproj",
+        "python-geopandas",
+        "python-shapely"
+      ],
+      "count": 2
+    },
+    {
+      "components": [
+        "python-google-api-core",
+        "python-google-cloud-core",
+        "python-proto-plus"
       ],
       "count": 2
     }
