@@ -575,6 +575,14 @@
     "urls": [],
     "summaries": []
   },
+  "python-botocore": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2424584"
+    ],
+    "summaries": [
+      "python-botocore fails to build with Python 3.15: AssertionError: At index 8 diff: b'\\x00' != b'\\x02'"
+    ]
+  },
   "python-bytecode": {
     "urls": [],
     "summaries": []
@@ -920,6 +928,10 @@
       "python-pysdl2: FTBFS in Fedora rawhide/f44",
       "python-pysdl2 fails to build with Python 3.15: AssertionError: That operation is not supported"
     ]
+  },
+  "python-pyside6": {
+    "urls": [],
+    "summaries": []
   },
   "python-pyswip": {
     "urls": [
