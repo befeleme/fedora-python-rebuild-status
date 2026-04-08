@@ -1,81 +1,14 @@
 {
   "most_commonly_needed": [
     {
-      "component": "python-cmd2",
-      "count": 54
-    },
-    {
-      "component": "python-cliff",
-      "count": 53,
-      "blocked_by": [
-        "python-cliff",
-        "python-cmd2",
-        "python-stestr"
-      ]
-    },
-    {
-      "component": "python-stestr",
-      "count": 48,
-      "blocked_by": [
-        "python-cliff",
-        "python-cmd2"
-      ]
-    },
-    {
-      "component": "python-debtcollector",
-      "count": 34,
-      "blocked_by": [
-        "python-cliff",
-        "python-cmd2",
-        "python-stestr"
-      ]
-    },
-    {
       "component": "python-joblib",
       "count": 31
-    },
-    {
-      "component": "python-oslo-utils",
-      "count": 30,
-      "blocked_by": [
-        "python-cliff",
-        "python-cmd2",
-        "python-debtcollector",
-        "python-oslo-config",
-        "python-stestr"
-      ]
     },
     {
       "component": "sympy",
       "count": 29,
       "blocked_by": [
         "llvm"
-      ]
-    },
-    {
-      "component": "python-keystoneauth1",
-      "count": 28,
-      "blocked_by": [
-        "python-cliff",
-        "python-cmd2",
-        "python-debtcollector",
-        "python-oslo-config",
-        "python-oslo-utils",
-        "python-stestr"
-      ]
-    },
-    {
-      "component": "python-oslo-config",
-      "count": 25,
-      "blocked_by": [
-        "python-cliff",
-        "python-cmd2",
-        "python-debtcollector",
-        "python-oslo-config",
-        "python-oslo-log",
-        "python-oslo-serialization",
-        "python-oslo-utils",
-        "python-stestr"
       ]
     },
     {
@@ -86,26 +19,8 @@
       ]
     },
     {
-      "component": "python-oslo-serialization",
-      "count": 23,
-      "blocked_by": [
-        "python-cliff",
-        "python-cmd2",
-        "python-debtcollector",
-        "python-oslo-utils",
-        "python-stestr"
-      ]
-    },
-    {
       "component": "python-openstacksdk",
-      "count": 22,
-      "blocked_by": [
-        "python-cliff",
-        "python-cmd2",
-        "python-keystoneauth1",
-        "python-oslo-config",
-        "python-stestr"
-      ]
+      "count": 22
     },
     {
       "component": "python-shapely",
@@ -133,13 +48,7 @@
       "component": "python-osc-lib",
       "count": 16,
       "blocked_by": [
-        "python-cliff",
-        "python-cmd2",
-        "python-debtcollector",
-        "python-keystoneauth1",
-        "python-openstacksdk",
-        "python-oslo-utils",
-        "python-stestr"
+        "python-openstacksdk"
       ]
     },
     {
@@ -151,15 +60,7 @@
       "component": "python-keystoneclient",
       "count": 14,
       "blocked_by": [
-        "python-cliff",
-        "python-cmd2",
-        "python-debtcollector",
-        "python-keystoneauth1",
-        "python-openstacksdk",
-        "python-oslo-config",
-        "python-oslo-serialization",
-        "python-oslo-utils",
-        "python-stestr"
+        "python-openstacksdk"
       ]
     },
     {
@@ -201,19 +102,6 @@
       ]
     },
     {
-      "component": "python-cinderclient",
-      "count": 12,
-      "blocked_by": [
-        "python-cliff",
-        "python-cmd2",
-        "python-debtcollector",
-        "python-keystoneauth1",
-        "python-oslo-serialization",
-        "python-oslo-utils",
-        "python-stestr"
-      ]
-    },
-    {
       "component": "python-partd",
       "count": 11
     },
@@ -229,15 +117,8 @@
       "count": 11,
       "blocked_by": [
         "python-aodhclient",
-        "python-cinderclient",
-        "python-cliff",
-        "python-cmd2",
-        "python-debtcollector",
-        "python-futurist",
-        "python-gnocchiclient",
         "python-heatclient",
         "python-ironicclient",
-        "python-keystoneauth1",
         "python-keystoneclient",
         "python-manilaclient",
         "python-mistralclient",
@@ -246,11 +127,6 @@
         "python-openstackclient",
         "python-openstacksdk",
         "python-osc-lib",
-        "python-oslo-config",
-        "python-oslo-log",
-        "python-oslo-serialization",
-        "python-oslo-utils",
-        "python-stestr",
         "python-swiftclient",
         "python-troveclient",
         "python-zaqarclient"
@@ -345,20 +221,6 @@
       "count": 8
     },
     {
-      "component": "python-oslo-log",
-      "count": 8,
-      "blocked_by": [
-        "python-cliff",
-        "python-cmd2",
-        "python-debtcollector",
-        "python-oslo-config",
-        "python-oslo-serialization",
-        "python-oslo-utils",
-        "python-reno",
-        "python-stestr"
-      ]
-    },
-    {
       "component": "python-fastapi",
       "count": 7,
       "blocked_by": [
@@ -400,13 +262,6 @@
       ]
     },
     {
-      "component": "conda",
-      "count": 7,
-      "blocked_by": [
-        "conda"
-      ]
-    },
-    {
       "component": "python-hexbytes",
       "count": 7,
       "blocked_by": [
@@ -426,6 +281,84 @@
     {
       "component": "python-beartype",
       "count": 6
+    },
+    {
+      "component": "python-ipywidgets",
+      "count": 6,
+      "blocked_by": [
+        "jupyterlab",
+        "python-jupyterlab-widgets",
+        "python-notebook"
+      ]
+    },
+    {
+      "component": "python-readme-renderer",
+      "count": 6
+    },
+    {
+      "component": "python-jsonpickle",
+      "count": 6,
+      "blocked_by": [
+        "python-joblib",
+        "python-scikit-learn"
+      ]
+    },
+    {
+      "component": "python-rlp",
+      "count": 6,
+      "blocked_by": [
+        "python-cytoolz",
+        "python-eth-utils"
+      ]
+    },
+    {
+      "component": "python-lsprotocol",
+      "count": 6,
+      "blocked_by": [
+        "python-cattrs"
+      ]
+    },
+    {
+      "component": "python-pytest-qt",
+      "count": 5,
+      "blocked_by": [
+        "python-pyside6"
+      ]
+    },
+    {
+      "component": "python-fslpy",
+      "count": 5,
+      "blocked_by": [
+        "python-trimesh"
+      ]
+    },
+    {
+      "component": "python-gitlab",
+      "count": 5
+    },
+    {
+      "component": "python-seaborn",
+      "count": 5,
+      "blocked_by": [
+        "python-patsy",
+        "python-statsmodels"
+      ]
+    },
+    {
+      "component": "python-eth-abi",
+      "count": 5,
+      "blocked_by": [
+        "python-cytoolz",
+        "python-eth-utils"
+      ]
+    },
+    {
+      "component": "python-eth-keys",
+      "count": 5,
+      "blocked_by": [
+        "python-cytoolz",
+        "python-eth-utils"
+      ]
     }
   ],
   "most_commonly_last_blocking": [
@@ -440,6 +373,10 @@
       "blocked_by": [
         "llvm"
       ]
+    },
+    {
+      "component": "python-openstacksdk",
+      "count": 6
     },
     {
       "component": "python-shapely",
@@ -460,13 +397,6 @@
         "python-pytest-arraydiff",
         "python-pytest-astropy",
         "python-scikit-image"
-      ]
-    },
-    {
-      "component": "conda",
-      "count": 4,
-      "blocked_by": [
-        "conda"
       ]
     },
     {
@@ -514,13 +444,6 @@
       "count": 3
     },
     {
-      "component": "python-pcodedmp",
-      "count": 3,
-      "blocked_by": [
-        "python-pcodedmp"
-      ]
-    },
-    {
       "component": "python-fastapi",
       "count": 3,
       "blocked_by": [
@@ -550,34 +473,35 @@
       "prerel_abi_blocked": true
     },
     {
-      "component": "python-llm",
-      "count": 2,
-      "blocked_by": [
-        "python-llm",
-        "python-llm-echo"
-      ]
-    },
-    {
       "component": "qpid-proton",
       "count": 2,
       "prerel_abi_blocked": true
+    },
+    {
+      "component": "python-multiprocess",
+      "count": 2
+    },
+    {
+      "component": "python-zlib-ng",
+      "count": 2
     }
   ],
   "most_commonly_last_blocking_combinations": [
-    {
-      "components": [
-        "python-cliff",
-        "python-cmd2",
-        "python-stestr"
-      ],
-      "count": 11
-    },
     {
       "components": [
         "python-joblib",
         "python-scikit-learn"
       ],
       "count": 8
+    },
+    {
+      "components": [
+        "python-keystoneclient",
+        "python-openstackclient",
+        "python-openstacksdk",
+        "python-osc-lib"
+      ],
+      "count": 7
     },
     {
       "components": [
@@ -617,6 +541,13 @@
     },
     {
       "components": [
+        "python-openstacksdk",
+        "python-osc-lib"
+      ],
+      "count": 3
+    },
+    {
+      "components": [
         "python-blosc2",
         "python-ndindex",
         "python-tables"
@@ -625,28 +556,9 @@
     },
     {
       "components": [
-        "python-cliff",
-        "python-cmd2"
-      ],
-      "count": 3
-    },
-    {
-      "components": [
         "python-cattrs",
         "python-lsprotocol",
         "python-pygls"
-      ],
-      "count": 3
-    },
-    {
-      "components": [
-        "python-cliff",
-        "python-cmd2",
-        "python-debtcollector",
-        "python-keystoneauth1",
-        "python-openstacksdk",
-        "python-oslo-utils",
-        "python-stestr"
       ],
       "count": 3
     },
@@ -668,22 +580,6 @@
       "components": [
         "python-cattrs",
         "python-requests-cache"
-      ],
-      "count": 2
-    },
-    {
-      "components": [
-        "python-cliff",
-        "python-cmd2",
-        "python-reno",
-        "python-stestr"
-      ],
-      "count": 2
-    },
-    {
-      "components": [
-        "conda",
-        "conda-build"
       ],
       "count": 2
     },
@@ -714,12 +610,32 @@
     },
     {
       "components": [
-        "python-cliff",
-        "python-cmd2",
-        "python-debtcollector",
-        "python-oslo-config",
-        "python-oslo-utils",
-        "python-stestr"
+        "python-readme-renderer",
+        "python-twine"
+      ],
+      "count": 2
+    },
+    {
+      "components": [
+        "jupyterlab",
+        "python-ipywidgets",
+        "python-jupyterlab-widgets",
+        "python-notebook"
+      ],
+      "count": 2
+    },
+    {
+      "components": [
+        "python-keystoneclient",
+        "python-openstacksdk",
+        "python-osc-lib"
+      ],
+      "count": 2
+    },
+    {
+      "components": [
+        "python-dask",
+        "python-partd"
       ],
       "count": 2
     }
