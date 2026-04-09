@@ -3,6 +3,10 @@
     "urls": [],
     "summaries": []
   },
+  "OpenImageIO": {
+    "urls": [],
+    "summaries": []
+  },
   "OpenLP": {
     "urls": [],
     "summaries": []
@@ -63,6 +67,10 @@
     "urls": [],
     "summaries": []
   },
+  "boost": {
+    "urls": [],
+    "summaries": []
+  },
   "calamares": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2433899"
@@ -92,6 +100,10 @@
     "summaries": []
   },
   "coccinelle": {
+    "urls": [],
+    "summaries": []
+  },
+  "cockpit": {
     "urls": [],
     "summaries": []
   },
@@ -151,11 +163,27 @@
     "urls": [],
     "summaries": []
   },
+  "gnuradio": {
+    "urls": [],
+    "summaries": []
+  },
   "gplugin": {
     "urls": [],
     "summaries": []
   },
+  "gst-devtools": {
+    "urls": [],
+    "summaries": []
+  },
+  "gst-editing-services": {
+    "urls": [],
+    "summaries": []
+  },
   "hgsvn": {
+    "urls": [],
+    "summaries": []
+  },
+  "home-assistant-cli": {
     "urls": [],
     "summaries": []
   },
@@ -235,6 +263,10 @@
       "kmymoney fails to build with Python 3.15: /usr/include/python3.15/pyport.h:523:9: error: \u2018__STDC_VERSION__\u2019 is not defined, evaluates to \u20180\u2019 [-Werror=undef]"
     ]
   },
+  "knot": {
+    "urls": [],
+    "summaries": []
+  },
   "lazygal": {
     "urls": [],
     "summaries": []
@@ -259,6 +291,18 @@
     "urls": [],
     "summaries": []
   },
+  "libreport": {
+    "urls": [],
+    "summaries": []
+  },
+  "libsbml": {
+    "urls": [],
+    "summaries": []
+  },
+  "libsvm": {
+    "urls": [],
+    "summaries": []
+  },
   "libyui": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2427943"
@@ -267,15 +311,35 @@
       "libyui: FTBFS with gcc16 due to C++20 change"
     ]
   },
+  "link-grammar": {
+    "urls": [],
+    "summaries": []
+  },
   "lirc": {
     "urls": [],
     "summaries": []
+  },
+  "llvm": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2448969"
+    ],
+    "summaries": [
+      "llvm fails to build with Python 3.15: shtest-ulimit-nondarwin.py: error: no match found"
+    ]
   },
   "llvm21": {
     "urls": [],
     "summaries": []
   },
+  "lttng-tools": {
+    "urls": [],
+    "summaries": []
+  },
   "manafirewall": {
+    "urls": [],
+    "summaries": []
+  },
+  "med": {
     "urls": [],
     "summaries": []
   },
@@ -307,6 +371,14 @@
       "netplan: FTBFS in Fedora rawhide/f44"
     ]
   },
+  "nmstate": {
+    "urls": [],
+    "summaries": []
+  },
+  "notmuch": {
+    "urls": [],
+    "summaries": []
+  },
   "opae": {
     "urls": [],
     "summaries": []
@@ -334,6 +406,10 @@
     "summaries": [
       "petsc fails to build with Python 3.15: AssertionError: 2 != 3; self.assertEqual(getrefcount(context), 3)"
     ]
+  },
+  "poetry": {
+    "urls": [],
+    "summaries": []
   },
   "powerline": {
     "urls": [],
@@ -599,6 +675,10 @@
     "urls": [],
     "summaries": []
   },
+  "python-cryptography": {
+    "urls": [],
+    "summaries": []
+  },
   "python-cytoolz": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2447903"
@@ -651,6 +731,14 @@
     "urls": [],
     "summaries": []
   },
+  "python-etcd3gw": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-exabgp": {
+    "urls": [],
+    "summaries": []
+  },
   "python-exceptiongroup": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2423878"
@@ -668,6 +756,10 @@
     ]
   },
   "python-extractcode": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-fastar": {
     "urls": [],
     "summaries": []
   },
@@ -689,7 +781,15 @@
     "urls": [],
     "summaries": []
   },
+  "python-giacpy": {
+    "urls": [],
+    "summaries": []
+  },
   "python-gitlab": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-gstreamer1": {
     "urls": [],
     "summaries": []
   },
@@ -718,6 +818,10 @@
     "summaries": [
       "python-hypothesmith: FTBFS in Fedora rawhide/f44"
     ]
+  },
+  "python-ibm-cloud-sdk-core": {
+    "urls": [],
+    "summaries": []
   },
   "python-inkex": {
     "urls": [
@@ -871,11 +975,19 @@
       "python-patsy fails to build with Python 3.15: ValueError: Cannot use capturing groups in re.Scanner"
     ]
   },
+  "python-pbs-installer": {
+    "urls": [],
+    "summaries": []
+  },
   "python-pdir2": {
     "urls": [],
     "summaries": []
   },
   "python-poetry-dynamic-versioning": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-psutil": {
     "urls": [],
     "summaries": []
   },
@@ -898,6 +1010,10 @@
     "summaries": [
       "python-pynwb fails to build with Python 3.15: test_outer_import_structure: AssertionError: '__cached__' not found in ..."
     ]
+  },
+  "python-pyscipopt": {
+    "urls": [],
+    "summaries": []
   },
   "python-pysdl2": {
     "urls": [
@@ -950,6 +1066,10 @@
     "summaries": [
       "python-pytest-trio: FTBFS in Fedora rawhide/f44"
     ]
+  },
+  "python-pytest-xprocess": {
+    "urls": [],
+    "summaries": []
   },
   "python-pyvmomi": {
     "urls": [
@@ -1065,6 +1185,10 @@
     "urls": [],
     "summaries": []
   },
+  "python-sqlalchemy1.4": {
+    "urls": [],
+    "summaries": []
+  },
   "python-streamlink": {
     "urls": [],
     "summaries": []
@@ -1081,17 +1205,17 @@
       "python-textual: FTBFS in Fedora rawhide/f44"
     ]
   },
+  "python-time-machine": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2424589"
+    ],
+    "summaries": [
+      "python-time-machine fails to build with Python 3.15: AssertionError: assert 2025 == 1970"
+    ]
+  },
   "python-toml-cli": {
     "urls": [],
     "summaries": []
-  },
-  "python-tomli": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2424297"
-    ],
-    "summaries": [
-      "python-tomli fails to build with Python 3.15: /usr/lib/python3.15/site-packages/mypyc/lib-rt/pythonsupport.h:125:5: error: \u2018_PyObject_GetAttrId\u2019 is deprecated"
-    ]
   },
   "python-toolz": {
     "urls": [
@@ -1099,6 +1223,14 @@
     ],
     "summaries": [
       "python-toolz fails to build with Python 3.15: AssertionError: Missing introspection for the following callables: frozendict"
+    ]
+  },
+  "python-tornado": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2414557"
+    ],
+    "summaries": [
+      "python-tornado fails to build with Python 3.15: ERROR: test_multi_process"
     ]
   },
   "python-translitcodec": {
@@ -1120,6 +1252,18 @@
     "summaries": [
       "python-typeguard fails to build with Python 3.15: TypeError: cache_from_source() takes 1 positional argument but 2 positional arguments (and 1 keyword-only argument) were given"
     ]
+  },
+  "python-uharfbuzz": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2417022"
+    ],
+    "summaries": [
+      "python-uharfbuzz fails to build with Python 3.15: test_uharfbuzz_version: AssertionError: assert 'unknown' not in '0.0.0+unknown'"
+    ]
+  },
+  "python-urllib3": {
+    "urls": [],
+    "summaries": []
   },
   "python-vcs2l": {
     "urls": [],
@@ -1148,6 +1292,14 @@
   "python-websocket-client": {
     "urls": [],
     "summaries": []
+  },
+  "python-websockets": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2440566"
+    ],
+    "summaries": [
+      "python-websockets fails to build with Python 3.15: test_apply_mask_non_contiguous_memoryview: BufferError: memoryview: underlying buffer is not C-contiguous"
+    ]
   },
   "python-willow": {
     "urls": [],
@@ -1221,6 +1373,10 @@
     "urls": [],
     "summaries": []
   },
+  "scipy": {
+    "urls": [],
+    "summaries": []
+  },
   "sourcextractor++": {
     "urls": [],
     "summaries": []
@@ -1232,6 +1388,22 @@
   "subscription-manager": {
     "urls": [],
     "summaries": []
+  },
+  "sundials": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2435127"
+    ],
+    "summaries": [
+      "sundials: FTBFS in Fedora rawhide/f44"
+    ]
+  },
+  "superlu_dist": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2435129"
+    ],
+    "summaries": [
+      "superlu_dist: FTBFS in Fedora rawhide/f44"
+    ]
   },
   "ubertooth": {
     "urls": [],
