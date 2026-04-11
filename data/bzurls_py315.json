@@ -83,10 +83,6 @@
     "urls": [],
     "summaries": []
   },
-  "breezy": {
-    "urls": [],
-    "summaries": []
-  },
   "calamares": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2433899"
@@ -207,10 +203,6 @@
     "urls": [],
     "summaries": []
   },
-  "gramps": {
-    "urls": [],
-    "summaries": []
-  },
   "hamlib": {
     "urls": [],
     "summaries": []
@@ -248,10 +240,6 @@
     "summaries": []
   },
   "kea": {
-    "urls": [],
-    "summaries": []
-  },
-  "kernel": {
     "urls": [],
     "summaries": []
   },
@@ -371,14 +359,6 @@
     "urls": [],
     "summaries": []
   },
-  "llvm": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2448969"
-    ],
-    "summaries": [
-      "llvm fails to build with Python 3.15: shtest-ulimit-nondarwin.py: error: no match found"
-    ]
-  },
   "llvm21": {
     "urls": [],
     "summaries": []
@@ -484,10 +464,6 @@
     "summaries": []
   },
   "paraview": {
-    "urls": [],
-    "summaries": []
-  },
-  "pcp": {
     "urls": [],
     "summaries": []
   },
@@ -803,10 +779,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-cattrs": {
-    "urls": [],
-    "summaries": []
-  },
   "python-cclib": {
     "urls": [],
     "summaries": []
@@ -927,10 +899,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-elementpath": {
-    "urls": [],
-    "summaries": []
-  },
   "python-emcee": {
     "urls": [],
     "summaries": []
@@ -1026,10 +994,6 @@
     ]
   },
   "python-fsleyes-widgets": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-fsspec": {
     "urls": [],
     "summaries": []
   },
@@ -1225,6 +1189,16 @@
     ],
     "summaries": [
       "python-markdown-callouts: FTBFS in Fedora rawhide/f44"
+    ]
+  },
+  "python-matplotlib": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2442243",
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2433761"
+    ],
+    "summaries": [
+      "python-matplotlib: FTBFS in Fedora Rawhide: No match for argument: tex(cmb10.tfm) and more",
+      "python-matplotlib fails to build with Python 3.15: failure of test_norm_callback and test_fork"
     ]
   },
   "python-matplotlib-scalebar": {
@@ -1765,14 +1739,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-time-machine": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2424589"
-    ],
-    "summaries": [
-      "python-time-machine fails to build with Python 3.15: AssertionError: assert 2025 == 1970"
-    ]
-  },
   "python-tinyrpc": {
     "urls": [],
     "summaries": []
@@ -1787,14 +1753,6 @@
     ],
     "summaries": [
       "python-toolz fails to build with Python 3.15: AssertionError: Missing introspection for the following callables: frozendict"
-    ]
-  },
-  "python-tornado": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2414557"
-    ],
-    "summaries": [
-      "python-tornado fails to build with Python 3.15: ERROR: test_multi_process"
     ]
   },
   "python-tox-uv": {
@@ -1816,16 +1774,6 @@
   "python-ttfautohint-py": {
     "urls": [],
     "summaries": []
-  },
-  "python-twisted": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2435033",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2432344"
-    ],
-    "summaries": [
-      "python-twisted: FTBFS in Fedora rawhide/f44",
-      "python-twisted fails to build with Python 3.15: twisted.trial.unittest.FailTest: 5 != 7, builtins.AttributeError: 'SourceFileLoader' object has no attribute 'load_module' and one more"
-    ]
   },
   "python-txaio": {
     "urls": [],
