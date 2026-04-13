@@ -1,45 +1,9 @@
 {
   "most_commonly_needed": [
     {
-      "component": "fonttools",
-      "count": 127,
-      "prerel_abi_blocked": true,
-      "blocked_by": [
-        "fonttools",
-        "python-glyphsLib",
-        "python-matplotlib",
-        "python-ufo2ft",
-        "python-ufoLib2",
-        "python-uharfbuzz",
-        "scipy",
-        "sympy"
-      ]
-    },
-    {
       "component": "scipy",
-      "count": 123,
+      "count": 124,
       "prerel_abi_blocked": true
-    },
-    {
-      "component": "python-matplotlib",
-      "count": 111,
-      "prerel_abi_blocked": true,
-      "blocked_by": [
-        "fonttools"
-      ]
-    },
-    {
-      "component": "python-tornado",
-      "count": 69,
-      "prerel_abi_blocked": true
-    },
-    {
-      "component": "python-zmq",
-      "count": 61,
-      "prerel_abi_blocked": true,
-      "blocked_by": [
-        "python-tornado"
-      ]
     },
     {
       "component": "python-joblib",
@@ -49,9 +13,6 @@
       "component": "sympy",
       "count": 29,
       "blocked_by": [
-        "fonttools",
-        "llvm",
-        "python-matplotlib",
         "scipy"
       ]
     },
@@ -109,17 +70,10 @@
       ]
     },
     {
-      "component": "python-websockets",
-      "count": 20,
-      "prerel_abi_blocked": true
-    },
-    {
       "component": "python-shapely",
       "count": 18,
       "blocked_by": [
-        "fonttools",
-        "pyproj",
-        "python-matplotlib"
+        "pyproj"
       ]
     },
     {
@@ -127,8 +81,6 @@
       "count": 18,
       "prerel_abi_blocked": true,
       "blocked_by": [
-        "fonttools",
-        "python-matplotlib",
         "python-pytest-arraydiff",
         "python-pytest-astropy",
         "python-scikit-image",
@@ -138,11 +90,6 @@
     {
       "component": "python-cytoolz",
       "count": 18,
-      "prerel_abi_blocked": true
-    },
-    {
-      "component": "python-rapidfuzz",
-      "count": 16,
       "prerel_abi_blocked": true
     },
     {
@@ -168,11 +115,6 @@
       ]
     },
     {
-      "component": "libarrow",
-      "count": 14,
-      "prerel_abi_blocked": true
-    },
-    {
       "component": "python-eth-utils",
       "count": 14,
       "blocked_by": [
@@ -187,25 +129,7 @@
       "component": "python-uvicorn",
       "count": 13,
       "blocked_by": [
-        "python-watchfiles",
-        "python-websockets"
-      ]
-    },
-    {
-      "component": "python-cattrs",
-      "count": 13,
-      "blocked_by": [
-        "python-orjson"
-      ]
-    },
-    {
-      "component": "jupyterlab",
-      "count": 13,
-      "blocked_by": [
-        "python-cattrs",
-        "python-requests-cache",
-        "python-tornado",
-        "python-zmq"
+        "python-watchfiles"
       ]
     },
     {
@@ -216,19 +140,8 @@
       ]
     },
     {
-      "component": "python-orjson",
-      "count": 11,
-      "prerel_abi_blocked": true,
-      "blocked_by": [
-        "python-pendulum"
-      ]
-    },
-    {
       "component": "python-partd",
-      "count": 11,
-      "blocked_by": [
-        "python-zmq"
-      ]
+      "count": 11
     },
     {
       "component": "python-torch",
@@ -261,19 +174,15 @@
       "component": "python-dask",
       "count": 10,
       "blocked_by": [
-        "fonttools",
-        "libarrow",
         "python-blosc2",
         "python-crick",
         "python-dask",
         "python-distributed",
         "python-fastavro",
-        "python-matplotlib",
         "python-ndindex",
         "python-partd",
         "python-scikit-image",
         "python-tables",
-        "python-tornado",
         "python-xarray",
         "python-zarr",
         "scipy"
@@ -301,24 +210,15 @@
       "count": 9
     },
     {
-      "component": "python-notebook",
-      "count": 9,
-      "blocked_by": [
-        "jupyterlab",
-        "python-tornado",
-        "python-zmq"
-      ]
-    },
-    {
-      "component": "python-zarr",
-      "count": 9
-    },
-    {
       "component": "python-pytest-astropy",
       "count": 9,
       "blocked_by": [
         "python-pytest-arraydiff"
       ]
+    },
+    {
+      "component": "python-zarr",
+      "count": 9
     },
     {
       "component": "python-blosc2",
@@ -349,34 +249,15 @@
       "blocked_by": [
         "fastapi-cli",
         "fastapi-cloud-cli",
-        "python-orjson",
         "python-sqlmodel",
         "python-uvicorn",
-        "python-watchfiles",
-        "python-websockets"
-      ]
-    },
-    {
-      "component": "thrift",
-      "count": 7,
-      "prerel_abi_blocked": true
-    },
-    {
-      "component": "python-jupyterlab-widgets",
-      "count": 7,
-      "blocked_by": [
-        "jupyterlab",
-        "python-tornado",
-        "python-zmq"
+        "python-watchfiles"
       ]
     },
     {
       "component": "python-scikit-image",
       "count": 7,
       "blocked_by": [
-        "fonttools",
-        "python-matplotlib",
-        "python-pywt",
         "scipy"
       ]
     },
@@ -392,10 +273,7 @@
       "component": "python-xarray",
       "count": 7,
       "blocked_by": [
-        "fonttools",
-        "libarrow",
         "python-dask",
-        "python-matplotlib",
         "python-partd",
         "python-rasterio",
         "python-seaborn",
@@ -410,17 +288,112 @@
         "python-cytoolz",
         "python-eth-utils"
       ]
+    },
+    {
+      "component": "mkdocs-material",
+      "count": 7,
+      "blocked_by": [
+        "python-backrefs",
+        "python-mkdocs-git-revision-date-localized-plugin",
+        "python-mkdocs-rss-plugin"
+      ]
+    },
+    {
+      "component": "python-beartype",
+      "count": 6
+    },
+    {
+      "component": "gnuradio",
+      "count": 6,
+      "prerel_abi_blocked": true,
+      "blocked_by": [
+        "scipy"
+      ]
+    },
+    {
+      "component": "python-jsonpickle",
+      "count": 6,
+      "blocked_by": [
+        "python-joblib",
+        "python-scikit-learn",
+        "scipy"
+      ]
+    },
+    {
+      "component": "python-rlp",
+      "count": 6,
+      "blocked_by": [
+        "python-cytoolz",
+        "python-eth-utils"
+      ]
+    },
+    {
+      "component": "python-google-cloud-core",
+      "count": 6,
+      "blocked_by": [
+        "python-google-api-core",
+        "python-proto-plus"
+      ]
+    },
+    {
+      "component": "python-fslpy",
+      "count": 5,
+      "blocked_by": [
+        "python-trimesh",
+        "scipy"
+      ]
+    },
+    {
+      "component": "python-readme-renderer",
+      "count": 5
+    },
+    {
+      "component": "python-seaborn",
+      "count": 5,
+      "blocked_by": [
+        "python-patsy",
+        "python-statsmodels",
+        "scipy"
+      ]
+    },
+    {
+      "component": "python-eth-abi",
+      "count": 5,
+      "blocked_by": [
+        "python-cytoolz",
+        "python-eth-utils"
+      ]
+    },
+    {
+      "component": "python-eth-keys",
+      "count": 5,
+      "blocked_by": [
+        "python-cytoolz",
+        "python-eth-utils"
+      ]
+    },
+    {
+      "component": "python-geopandas",
+      "count": 5,
+      "blocked_by": [
+        "pyproj",
+        "python-fiona",
+        "python-joblib",
+        "python-mapclassify",
+        "python-scikit-learn",
+        "python-shapely",
+        "scipy"
+      ]
+    },
+    {
+      "component": "pylint",
+      "count": 5
     }
   ],
   "most_commonly_last_blocking": [
     {
       "component": "scipy",
-      "count": 28,
-      "prerel_abi_blocked": true
-    },
-    {
-      "component": "python-tornado",
-      "count": 19,
+      "count": 44,
       "prerel_abi_blocked": true
     },
     {
@@ -432,69 +405,19 @@
       ]
     },
     {
-      "component": "fonttools",
-      "count": 12,
-      "prerel_abi_blocked": true,
-      "blocked_by": [
-        "fonttools",
-        "python-glyphsLib",
-        "python-matplotlib",
-        "python-ufo2ft",
-        "python-ufoLib2",
-        "python-uharfbuzz",
-        "scipy",
-        "sympy"
-      ]
-    },
-    {
-      "component": "python-rapidfuzz",
-      "count": 11,
-      "prerel_abi_blocked": true
-    },
-    {
-      "component": "python-websockets",
-      "count": 7,
-      "prerel_abi_blocked": true
-    },
-    {
-      "component": "python-zmq",
-      "count": 6,
-      "prerel_abi_blocked": true,
-      "blocked_by": [
-        "python-tornado"
-      ]
-    },
-    {
       "component": "python-openstacksdk",
       "count": 6
     },
     {
-      "component": "python-time-machine",
-      "count": 5,
-      "prerel_abi_blocked": true
-    },
-    {
-      "component": "python-orjson",
-      "count": 5,
-      "prerel_abi_blocked": true,
-      "blocked_by": [
-        "python-pendulum"
-      ]
-    },
-    {
-      "component": "breezy",
-      "count": 4,
-      "prerel_abi_blocked": true
-    },
-    {
       "component": "sympy",
-      "count": 4,
+      "count": 6,
       "blocked_by": [
-        "fonttools",
-        "llvm",
-        "python-matplotlib",
         "scipy"
       ]
+    },
+    {
+      "component": "pylint",
+      "count": 4
     },
     {
       "component": "libyui",
@@ -510,8 +433,6 @@
       "count": 3,
       "prerel_abi_blocked": true,
       "blocked_by": [
-        "fonttools",
-        "python-matplotlib",
         "python-pytest-arraydiff",
         "python-pytest-astropy",
         "python-scikit-image",
@@ -519,50 +440,83 @@
       ]
     },
     {
-      "component": "python-sqlalchemy1.4",
-      "count": 3,
-      "prerel_abi_blocked": true
-    },
-    {
-      "component": "libarrow",
-      "count": 3,
-      "prerel_abi_blocked": true
-    },
-    {
-      "component": "python-cattrs",
+      "component": "python-jsonpickle",
       "count": 3,
       "blocked_by": [
-        "python-orjson"
+        "python-joblib",
+        "python-scikit-learn",
+        "scipy"
       ]
     },
     {
-      "component": "python-pendulum",
-      "count": 3,
-      "prerel_abi_blocked": true,
-      "blocked_by": [
-        "python-time-machine"
-      ]
-    },
-    {
-      "component": "pylint",
+      "component": "python-pygls",
       "count": 3
+    },
+    {
+      "component": "python-shapely",
+      "count": 3,
+      "blocked_by": [
+        "pyproj"
+      ]
+    },
+    {
+      "component": "python-lsp-server",
+      "count": 3,
+      "blocked_by": [
+        "pylint"
+      ]
+    },
+    {
+      "component": "python-fastapi",
+      "count": 3,
+      "blocked_by": [
+        "fastapi-cli",
+        "fastapi-cloud-cli",
+        "python-sqlmodel",
+        "python-uvicorn",
+        "python-watchfiles"
+      ]
+    },
+    {
+      "component": "go-vendor-tools",
+      "count": 2,
+      "blocked_by": [
+        "python-beartype",
+        "python-spdx-tools",
+        "scancode-toolkit"
+      ]
+    },
+    {
+      "component": "libftdi",
+      "count": 2,
+      "prerel_abi_blocked": true
+    },
+    {
+      "component": "osc",
+      "count": 2
+    },
+    {
+      "component": "qpid-proton",
+      "count": 2,
+      "prerel_abi_blocked": true
+    },
+    {
+      "component": "python-multiprocess",
+      "count": 2
+    },
+    {
+      "component": "pyproj",
+      "count": 2
+    },
+    {
+      "component": "conda-build",
+      "count": 2,
+      "blocked_by": [
+        "python-conda-index"
+      ]
     }
   ],
   "most_commonly_last_blocking_combinations": [
-    {
-      "components": [
-        "fonttools",
-        "python-matplotlib"
-      ],
-      "count": 32
-    },
-    {
-      "components": [
-        "python-tornado",
-        "python-zmq"
-      ],
-      "count": 23
-    },
     {
       "components": [
         "python-smart_open",
@@ -573,11 +527,11 @@
     },
     {
       "components": [
-        "fonttools",
-        "python-matplotlib",
+        "python-joblib",
+        "python-scikit-learn",
         "scipy"
       ],
-      "count": 13
+      "count": 7
     },
     {
       "components": [
@@ -590,17 +544,14 @@
     },
     {
       "components": [
-        "gnuradio",
-        "python-zmq",
-        "scipy",
-        "thrift"
+        "python-torch",
+        "sympy"
       ],
-      "count": 5
+      "count": 6
     },
     {
       "components": [
-        "python-joblib",
-        "python-scikit-learn",
+        "gnuradio",
         "scipy"
       ],
       "count": 5
@@ -614,13 +565,6 @@
     },
     {
       "components": [
-        "python-torch",
-        "sympy"
-      ],
-      "count": 5
-    },
-    {
-      "components": [
         "mkdocs-material",
         "python-backrefs"
       ],
@@ -628,10 +572,16 @@
     },
     {
       "components": [
-        "fonttools",
-        "python-matplotlib",
         "scipy",
         "sympy"
+      ],
+      "count": 4
+    },
+    {
+      "components": [
+        "python-astropy",
+        "python-pytest-arraydiff",
+        "python-pytest-astropy"
       ],
       "count": 4
     },
@@ -644,24 +594,8 @@
     },
     {
       "components": [
-        "jupyterlab",
-        "python-tornado",
-        "python-zmq"
-      ],
-      "count": 4
-    },
-    {
-      "components": [
         "python-openstacksdk",
         "python-osc-lib"
-      ],
-      "count": 3
-    },
-    {
-      "components": [
-        "python-astropy",
-        "python-pytest-arraydiff",
-        "python-pytest-astropy"
       ],
       "count": 3
     },
@@ -674,17 +608,15 @@
     },
     {
       "components": [
-        "python-Levenshtein",
-        "python-rapidfuzz"
+        "python-uvicorn",
+        "python-watchfiles"
       ],
-      "count": 3
+      "count": 2
     },
     {
       "components": [
-        "fonttools",
-        "python-matplotlib",
-        "python-tornado",
-        "python-zmq"
+        "python-fastapi",
+        "python-uvicorn"
       ],
       "count": 2
     },
@@ -702,6 +634,39 @@
         "python-pytest-arraydiff",
         "python-pytest-astropy",
         "scipy"
+      ],
+      "count": 2
+    },
+    {
+      "components": [
+        "python-joblib",
+        "python-multiprocess",
+        "python-scikit-learn",
+        "scipy"
+      ],
+      "count": 2
+    },
+    {
+      "components": [
+        "python-cytoolz",
+        "python-eth-utils",
+        "python-hexbytes",
+        "python-rlp"
+      ],
+      "count": 2
+    },
+    {
+      "components": [
+        "python-fslpy",
+        "scipy"
+      ],
+      "count": 2
+    },
+    {
+      "components": [
+        "pyproj",
+        "python-geopandas",
+        "python-shapely"
       ],
       "count": 2
     }

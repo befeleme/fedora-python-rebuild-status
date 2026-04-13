@@ -24,6 +24,7 @@ PyYAML
 R2spec
 RBTools
 ServiceReport
+Silo
 SoapySDR
 TurboGears2
 WALinuxAgent
@@ -55,6 +56,7 @@ apbs
 apk-tools
 appliance-tools
 apx
+ara
 arandr
 argparse-manpage
 asahi-installer
@@ -179,7 +181,6 @@ deltarpm
 deluge
 devscripts
 dftd4
-dib-utils
 diceware
 did
 dionaea
@@ -375,6 +376,7 @@ jello
 joft
 jrnl
 jsonnet
+jupyterlab
 kalamine
 kea
 kernel
@@ -618,7 +620,6 @@ omniORBpy
 onionshare
 onnx
 onnxruntime
-opae
 openapi-python-client
 openbabel
 opencv
@@ -1310,6 +1311,7 @@ python-dbus-python-client-gen
 python-dbus-signature-pyparsing
 python-dbusmock
 python-ddt
+python-deap
 python-debian
 python-debian-inspector
 python-debianbts
@@ -1320,6 +1322,7 @@ python-decorator
 python-deepdiff
 python-deepl
 python-deepmerge
+python-defcon
 python-defusedxml
 python-demjson
 python-dependency-groups
@@ -1782,8 +1785,10 @@ python-iplotx
 python-ipmi
 python-ipuz
 python-ipykernel
+python-ipyparallel
 python-ipython-pygments-lexers
 python-ipython_genutils
+python-ipywidgets
 python-irc
 python-irodsclient
 python-isal
@@ -1859,7 +1864,9 @@ python-jupyter-polymake
 python-jupyter-server
 python-jupyter-server-terminals
 python-jupyterlab-server
+python-jupyterlab-widgets
 python-jupyterlab_pygments
+python-jupytext
 python-justbases
 python-justbytes
 python-jwcrypto
@@ -2031,7 +2038,6 @@ python-mkdocs-monorepo-plugin
 python-mkdocs-redirects
 python-mmtf
 python-mnemonic
-python-mock
 python-mock-ssh-server
 python-mockito
 python-moddb
@@ -2048,7 +2054,6 @@ python-mozilla-django-oidc
 python-mpd2
 python-mplcursors
 python-mpmath
-python-mrcfile
 python-mrtparse
 python-msal
 python-msal-extensions
@@ -2091,6 +2096,7 @@ python-natsort
 python-nbclassic
 python-nbclient
 python-nbconvert
+python-nbdime
 python-nbformat
 python-nbsphinx
 python-nbxmpp
@@ -2121,6 +2127,7 @@ python-noiseprotocol
 python-normality
 python-norpm
 python-nose2
+python-notebook
 python-notebook-shim
 python-notify2
 python-npyscreen
@@ -2172,6 +2179,7 @@ python-openslide
 python-openstackdocstheme
 python-openstep-plist
 python-opentelemetry-api
+python-opentypesvg
 python-opfunu
 python-opnsense
 python-optuna
@@ -2246,7 +2254,6 @@ python-pdf2image
 python-pdfkit
 python-pdfminer
 python-pdfrw
-python-pdir2
 python-pdm-backend
 python-peachpy
 python-pebble
@@ -2694,6 +2701,7 @@ python-requests-kerberos
 python-requests-mock
 python-requests-oauthlib
 python-requests-pkcs12
+python-requests-ratelimiter
 python-requests-toolbelt
 python-requests-unixsocket
 python-requests_ntlm
@@ -2814,7 +2822,6 @@ python-signedjson
 python-simple-pid
 python-simple-rlp
 python-simple-websocket
-python-simpleaudio
 python-simpleeval
 python-simplejson
 python-simpleline
@@ -3109,6 +3116,8 @@ python-u-msgpack-python
 python-ua-parser
 python-ua-parser-builtins
 python-uc-micro-py
+python-ufo2ft
+python-ufoLib2
 python-uharfbuzz
 python-uhashring
 python-uinput
@@ -3185,7 +3194,6 @@ python-walkdir
 python-wand
 python-warlock
 python-watchdog
-python-wavio
 python-wcag-contrast-ratio
 python-wcmatch
 python-wcwidth
@@ -3211,6 +3219,7 @@ python-wikipedia
 python-wikitcms
 python-willow
 python-winrm
+python-wordcloud
 python-wrapt
 python-wsgidav
 python-wsproto
@@ -3289,7 +3298,6 @@ python-zuul-sphinx
 python-zxcvbn
 python3-cangjie
 python3-discid
-python3-iep
 python3-lxc
 python3-mallard-ducktype
 python3-mypy
@@ -3408,9 +3416,7 @@ solaar
 solarwolf
 sos
 soundconverter
-sourcextractor++
 spec2scl
-spectrographic
 speech-dispatcher
 speedtest-cli
 spglib
