@@ -95,10 +95,6 @@
     "urls": [],
     "summaries": []
   },
-  "diffoscope": {
-    "urls": [],
-    "summaries": []
-  },
   "dionaea": {
     "urls": [],
     "summaries": []
@@ -275,7 +271,7 @@
     "urls": [],
     "summaries": []
   },
-  "netgen-mesher": {
+  "nemo-extensions": {
     "urls": [],
     "summaries": []
   },
@@ -569,6 +565,18 @@
     "summaries": [
       "python-blessed: FTBFS in Fedora rawhide/f44",
       "python-blessed fails to build with Python 3.15: Additional space in test_wrap.py::test_SequenceWrapper[1-kwargs5]"
+    ]
+  },
+  "python-boto3": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-botocore": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2424584"
+    ],
+    "summaries": [
+      "python-botocore fails to build with Python 3.15: AssertionError: At index 8 diff: b'\\x00' != b'\\x02'"
     ]
   },
   "python-build": {
@@ -1026,10 +1034,6 @@
     ]
   },
   "python-pyqtgraph": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-pyscipopt": {
     "urls": [],
     "summaries": []
   },
