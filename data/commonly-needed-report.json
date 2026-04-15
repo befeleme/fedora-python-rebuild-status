@@ -17,14 +17,6 @@
       ]
     },
     {
-      "component": "vtk",
-      "count": 27,
-      "prerel_abi_blocked": true,
-      "blocked_by": [
-        "vtk"
-      ]
-    },
-    {
       "component": "python-sqlmodel",
       "count": 24,
       "blocked_by": [
@@ -238,10 +230,7 @@
     {
       "component": "OpenColorIO",
       "count": 7,
-      "prerel_abi_blocked": true,
-      "blocked_by": [
-        "vtk"
-      ]
+      "prerel_abi_blocked": true
     },
     {
       "component": "python-fastapi",
@@ -388,6 +377,16 @@
     {
       "component": "pylint",
       "count": 5
+    },
+    {
+      "component": "python-swiftclient",
+      "count": 4,
+      "blocked_by": [
+        "python-keystoneclient",
+        "python-openstackclient",
+        "python-openstacksdk",
+        "python-osc-lib"
+      ]
     }
   ],
   "most_commonly_last_blocking": [
@@ -395,14 +394,6 @@
       "component": "scipy",
       "count": 44,
       "prerel_abi_blocked": true
-    },
-    {
-      "component": "vtk",
-      "count": 14,
-      "prerel_abi_blocked": true,
-      "blocked_by": [
-        "vtk"
-      ]
     },
     {
       "component": "python-openstacksdk",
@@ -414,6 +405,11 @@
       "blocked_by": [
         "scipy"
       ]
+    },
+    {
+      "component": "OpenColorIO",
+      "count": 4,
+      "prerel_abi_blocked": true
     },
     {
       "component": "pylint",
@@ -601,13 +597,6 @@
     },
     {
       "components": [
-        "OpenColorIO",
-        "vtk"
-      ],
-      "count": 3
-    },
-    {
-      "components": [
         "python-uvicorn",
         "python-watchfiles"
       ],
@@ -667,6 +656,14 @@
         "pyproj",
         "python-geopandas",
         "python-shapely"
+      ],
+      "count": 2
+    },
+    {
+      "components": [
+        "python-google-api-core",
+        "python-google-cloud-core",
+        "python-proto-plus"
       ],
       "count": 2
     }
