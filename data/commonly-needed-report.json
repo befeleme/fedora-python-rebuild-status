@@ -1,20 +1,8 @@
 {
   "most_commonly_needed": [
     {
-      "component": "scipy",
-      "count": 124,
-      "prerel_abi_blocked": true
-    },
-    {
       "component": "python-joblib",
       "count": 31
-    },
-    {
-      "component": "sympy",
-      "count": 29,
-      "blocked_by": [
-        "scipy"
-      ]
     },
     {
       "component": "python-sqlmodel",
@@ -37,8 +25,7 @@
       "component": "python-scikit-learn",
       "count": 23,
       "blocked_by": [
-        "python-joblib",
-        "scipy"
+        "python-joblib"
       ]
     },
     {
@@ -75,8 +62,7 @@
       "blocked_by": [
         "python-pytest-arraydiff",
         "python-pytest-astropy",
-        "python-scikit-image",
-        "scipy"
+        "python-scikit-image"
       ]
     },
     {
@@ -137,10 +123,7 @@
     },
     {
       "component": "python-torch",
-      "count": 11,
-      "blocked_by": [
-        "sympy"
-      ]
+      "count": 11
     },
     {
       "component": "python-openstackclient",
@@ -166,35 +149,20 @@
       "component": "python-dask",
       "count": 10,
       "blocked_by": [
-        "python-blosc2",
-        "python-crick",
         "python-dask",
         "python-distributed",
         "python-fastavro",
-        "python-ndindex",
         "python-partd",
         "python-scikit-image",
-        "python-tables",
         "python-xarray",
-        "python-zarr",
-        "scipy"
+        "python-zarr"
       ]
     },
     {
       "component": "python-pytest-arraydiff",
       "count": 10,
       "blocked_by": [
-        "python-astropy",
-        "python-blosc2",
-        "python-ndindex",
-        "python-tables"
-      ]
-    },
-    {
-      "component": "python-ndindex",
-      "count": 10,
-      "blocked_by": [
-        "sympy"
+        "python-astropy"
       ]
     },
     {
@@ -213,24 +181,12 @@
       "count": 9
     },
     {
-      "component": "python-blosc2",
-      "count": 9,
-      "blocked_by": [
-        "python-ndindex"
-      ]
-    },
-    {
       "component": "python-watchfiles",
       "count": 8
     },
     {
       "component": "python-multiprocess",
       "count": 8
-    },
-    {
-      "component": "OpenColorIO",
-      "count": 7,
-      "prerel_abi_blocked": true
     },
     {
       "component": "python-fastapi",
@@ -245,18 +201,7 @@
     },
     {
       "component": "python-scikit-image",
-      "count": 7,
-      "blocked_by": [
-        "scipy"
-      ]
-    },
-    {
-      "component": "python-tables",
-      "count": 7,
-      "blocked_by": [
-        "python-blosc2",
-        "python-ndindex"
-      ]
+      "count": 7
     },
     {
       "component": "python-xarray",
@@ -266,8 +211,7 @@
         "python-partd",
         "python-rasterio",
         "python-seaborn",
-        "python-zarr",
-        "scipy"
+        "python-zarr"
       ]
     },
     {
@@ -292,20 +236,11 @@
       "count": 6
     },
     {
-      "component": "gnuradio",
-      "count": 6,
-      "prerel_abi_blocked": true,
-      "blocked_by": [
-        "scipy"
-      ]
-    },
-    {
       "component": "python-jsonpickle",
       "count": 6,
       "blocked_by": [
         "python-joblib",
-        "python-scikit-learn",
-        "scipy"
+        "python-scikit-learn"
       ]
     },
     {
@@ -328,8 +263,7 @@
       "component": "python-fslpy",
       "count": 5,
       "blocked_by": [
-        "python-trimesh",
-        "scipy"
+        "python-trimesh"
       ]
     },
     {
@@ -341,8 +275,7 @@
       "count": 5,
       "blocked_by": [
         "python-patsy",
-        "python-statsmodels",
-        "scipy"
+        "python-statsmodels"
       ]
     },
     {
@@ -370,8 +303,7 @@
         "python-joblib",
         "python-mapclassify",
         "python-scikit-learn",
-        "python-shapely",
-        "scipy"
+        "python-shapely"
       ]
     },
     {
@@ -387,29 +319,81 @@
         "python-openstacksdk",
         "python-osc-lib"
       ]
+    },
+    {
+      "component": "python-django-allauth",
+      "count": 4
+    },
+    {
+      "component": "python-patsy",
+      "count": 4
+    },
+    {
+      "component": "python-py_ecc",
+      "count": 4,
+      "blocked_by": [
+        "python-cytoolz",
+        "python-eth-utils"
+      ]
+    },
+    {
+      "component": "python-sse-starlette",
+      "count": 4,
+      "blocked_by": [
+        "python-fastapi",
+        "python-uvicorn"
+      ]
+    },
+    {
+      "component": "python-lsp-server",
+      "count": 4,
+      "blocked_by": [
+        "pylint"
+      ]
+    },
+    {
+      "component": "python-google-cloud-storage",
+      "count": 4,
+      "blocked_by": [
+        "python-google-api-core",
+        "python-google-cloud-core",
+        "python-proto-plus"
+      ]
+    },
+    {
+      "component": "python-niaaml",
+      "count": 3,
+      "blocked_by": [
+        "python-joblib",
+        "python-scikit-learn"
+      ]
     }
   ],
   "most_commonly_last_blocking": [
     {
-      "component": "scipy",
-      "count": 44,
-      "prerel_abi_blocked": true
+      "component": "python-torch",
+      "count": 8
     },
     {
       "component": "python-openstacksdk",
       "count": 6
     },
     {
-      "component": "sympy",
-      "count": 6,
+      "component": "python-astropy",
+      "count": 5,
+      "prerel_abi_blocked": true,
       "blocked_by": [
-        "scipy"
+        "python-pytest-arraydiff",
+        "python-pytest-astropy",
+        "python-scikit-image"
       ]
     },
     {
-      "component": "OpenColorIO",
-      "count": 4,
-      "prerel_abi_blocked": true
+      "component": "python-shapely",
+      "count": 5,
+      "blocked_by": [
+        "pyproj"
+      ]
     },
     {
       "component": "pylint",
@@ -425,23 +409,11 @@
       "count": 3
     },
     {
-      "component": "python-astropy",
-      "count": 3,
-      "prerel_abi_blocked": true,
-      "blocked_by": [
-        "python-pytest-arraydiff",
-        "python-pytest-astropy",
-        "python-scikit-image",
-        "scipy"
-      ]
-    },
-    {
       "component": "python-jsonpickle",
       "count": 3,
       "blocked_by": [
         "python-joblib",
-        "python-scikit-learn",
-        "scipy"
+        "python-scikit-learn"
       ]
     },
     {
@@ -449,18 +421,15 @@
       "count": 3
     },
     {
-      "component": "python-shapely",
-      "count": 3,
-      "blocked_by": [
-        "pyproj"
-      ]
-    },
-    {
       "component": "python-lsp-server",
       "count": 3,
       "blocked_by": [
         "pylint"
       ]
+    },
+    {
+      "component": "python-joblib",
+      "count": 3
     },
     {
       "component": "python-fastapi",
@@ -472,6 +441,10 @@
         "python-uvicorn",
         "python-watchfiles"
       ]
+    },
+    {
+      "component": "python-matplotlib",
+      "count": 2
     },
     {
       "component": "go-vendor-tools",
@@ -501,15 +474,16 @@
       "count": 2
     },
     {
-      "component": "pyproj",
-      "count": 2
-    },
-    {
-      "component": "conda-build",
+      "component": "python-seaborn",
       "count": 2,
       "blocked_by": [
-        "python-conda-index"
+        "python-patsy",
+        "python-statsmodels"
       ]
+    },
+    {
+      "component": "python-scikit-image",
+      "count": 2
     }
   ],
   "most_commonly_last_blocking_combinations": [
@@ -524,10 +498,9 @@
     {
       "components": [
         "python-joblib",
-        "python-scikit-learn",
-        "scipy"
+        "python-scikit-learn"
       ],
-      "count": 7
+      "count": 8
     },
     {
       "components": [
@@ -540,17 +513,11 @@
     },
     {
       "components": [
-        "python-torch",
-        "sympy"
+        "python-astropy",
+        "python-pytest-arraydiff",
+        "python-pytest-astropy"
       ],
       "count": 6
-    },
-    {
-      "components": [
-        "gnuradio",
-        "scipy"
-      ],
-      "count": 5
     },
     {
       "components": [
@@ -565,21 +532,6 @@
         "python-backrefs"
       ],
       "count": 5
-    },
-    {
-      "components": [
-        "scipy",
-        "sympy"
-      ],
-      "count": 4
-    },
-    {
-      "components": [
-        "python-astropy",
-        "python-pytest-arraydiff",
-        "python-pytest-astropy"
-      ],
-      "count": 4
     },
     {
       "components": [
@@ -611,27 +563,9 @@
     },
     {
       "components": [
-        "python-blosc2",
-        "python-ndindex",
-        "python-tables"
-      ],
-      "count": 2
-    },
-    {
-      "components": [
-        "python-astropy",
-        "python-pytest-arraydiff",
-        "python-pytest-astropy",
-        "scipy"
-      ],
-      "count": 2
-    },
-    {
-      "components": [
         "python-joblib",
         "python-multiprocess",
-        "python-scikit-learn",
-        "scipy"
+        "python-scikit-learn"
       ],
       "count": 2
     },
@@ -641,13 +575,6 @@
         "python-eth-utils",
         "python-hexbytes",
         "python-rlp"
-      ],
-      "count": 2
-    },
-    {
-      "components": [
-        "python-fslpy",
-        "scipy"
       ],
       "count": 2
     },
@@ -666,6 +593,55 @@
         "python-proto-plus"
       ],
       "count": 2
+    },
+    {
+      "components": [
+        "python-keystoneclient",
+        "python-openstacksdk",
+        "python-osc-lib"
+      ],
+      "count": 2
+    },
+    {
+      "components": [
+        "python-dask",
+        "python-partd"
+      ],
+      "count": 2
+    },
+    {
+      "components": [
+        "python-patsy",
+        "python-statsmodels"
+      ],
+      "count": 2
+    },
+    {
+      "components": [
+        "python-joblib",
+        "python-niaaml",
+        "python-scikit-learn"
+      ],
+      "count": 1
+    },
+    {
+      "components": [
+        "python-azure-mgmt-advisor",
+        "python-azure-mgmt-billing",
+        "python-azure-mgmt-datamigration",
+        "python-azure-mgmt-maps",
+        "python-azure-mgmt-marketplaceordering"
+      ],
+      "count": 1
+    },
+    {
+      "components": [
+        "python-duecredit",
+        "python-fslpy",
+        "python-nifti-mrs",
+        "spec2nii"
+      ],
+      "count": 1
     }
   ],
   "dependency_loops": []
