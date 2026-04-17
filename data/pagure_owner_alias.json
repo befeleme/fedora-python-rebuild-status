@@ -2810,7 +2810,7 @@
             "jorton"
         ],
         "sway": [
-            "thofmann"
+            "orphan"
         ],
         "swig": [
             "jplesnik"
@@ -12396,7 +12396,7 @@
             "phracek"
         ],
         "collada-dom": [
-            "thofmann"
+            "orphan"
         ],
         "collectd": [
             "jonathanspw",
@@ -15111,7 +15111,7 @@
             "orphan"
         ],
         "dex-autostart": [
-            "thofmann"
+            "orphan"
         ],
         "dexter": [
             "orphan"
@@ -15783,7 +15783,7 @@
             "salimma"
         ],
         "dnf-plugin-ovl": [
-            "thofmann"
+            "orphan"
         ],
         "dnf-plugin-perfmetrics": [
             "dcavalca",
@@ -20887,6 +20887,9 @@
         "fips": [
             "matwey"
         ],
+        "fips-provider": [
+            "simo"
+        ],
         "fipscheck": [
             "orphan"
         ],
@@ -21608,7 +21611,7 @@
             "bubeck"
         ],
         "fparser": [
-            "thofmann"
+            "orphan"
         ],
         "fpart": [
             "survient",
@@ -26544,7 +26547,7 @@
             "orphan"
         ],
         "glibd": [
-            "crisdel"
+            "orphan"
         ],
         "glibmm2.4": [
             "mclasen",
@@ -48403,7 +48406,7 @@
             "farchord"
         ],
         "libdc1394": [
-            "thofmann",
+            "orphan",
             "slaanesh"
         ],
         "libdca": [
@@ -67101,6 +67104,9 @@
             "rjones"
         ],
         "ocaml-yaml": [
+            "jjames"
+        ],
+        "ocaml-yamlx": [
             "jjames"
         ],
         "ocaml-yojson": [
@@ -100145,6 +100151,10 @@
         "python-pycatch22": [
             "orphan"
         ],
+        "python-pycayennelpp": [
+            "pemensik",
+            "jskarvad"
+        ],
         "python-pycdio": [
             "kevin"
         ],
@@ -101976,7 +101986,8 @@
             "orphan"
         ],
         "python-rich": [
-            "pnemade"
+            "pnemade",
+            "stevetraylen"
         ],
         "python-rich-argparse": [
             "stevetraylen"
@@ -102965,6 +102976,9 @@
         ],
         "python-sphinx-favicon": [
             "orion"
+        ],
+        "python-sphinx-feature-classification": [
+            "stevetraylen"
         ],
         "python-sphinx-gallery": [
             "orion"
@@ -113047,16 +113061,46 @@
         "rust-arrayvec0.5": [
             "decathorpe"
         ],
+        "rust-arrow": [
+            "salimma"
+        ],
+        "rust-arrow-arith": [
+            "salimma"
+        ],
         "rust-arrow-array": [
             "salimma"
         ],
         "rust-arrow-buffer": [
             "salimma"
         ],
+        "rust-arrow-cast": [
+            "salimma"
+        ],
+        "rust-arrow-csv": [
+            "salimma"
+        ],
         "rust-arrow-data": [
             "salimma"
         ],
+        "rust-arrow-ipc": [
+            "salimma"
+        ],
+        "rust-arrow-json": [
+            "salimma"
+        ],
+        "rust-arrow-ord": [
+            "salimma"
+        ],
+        "rust-arrow-row": [
+            "salimma"
+        ],
         "rust-arrow-schema": [
+            "salimma"
+        ],
+        "rust-arrow-select": [
+            "salimma"
+        ],
+        "rust-arrow-string": [
             "salimma"
         ],
         "rust-article_scraper": [
@@ -114195,6 +114239,9 @@
         ],
         "rust-cargo-credential-libsecret": [
             "decathorpe"
+        ],
+        "rust-cargo-cyclonedx": [
+            "music"
         ],
         "rust-cargo-deny": [
             "decathorpe"
@@ -125815,6 +125862,12 @@
             "lecris"
         ],
         "rust-tonic-build": [
+            "lecris"
+        ],
+        "rust-tonic-prost": [
+            "lecris"
+        ],
+        "rust-tonic-prost-build": [
             "lecris"
         ],
         "rust-tonic-types": [
