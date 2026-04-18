@@ -39,10 +39,6 @@
       "argparse-manpage fails to build with Python 3.15: AttributeError: '_ManpageFormatter' object has no attribute '_theme'. Did you mean: 'of._theme'?"
     ]
   },
-  "astrometry": {
-    "urls": [],
-    "summaries": []
-  },
   "awscli2": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2458685"
@@ -167,6 +163,10 @@
       "jc fails to build with Python 3.15: AssertionError: 'format': 1760, != 'format': 7250,"
     ]
   },
+  "kernel": {
+    "urls": [],
+    "summaries": []
+  },
   "kicad": {
     "urls": [],
     "summaries": []
@@ -182,10 +182,6 @@
     "summaries": [
       "kmymoney fails to build with Python 3.15: /usr/include/python3.15/pyport.h:523:9: error: \u2018__STDC_VERSION__\u2019 is not defined, evaluates to \u20180\u2019 [-Werror=undef]"
     ]
-  },
-  "krita": {
-    "urls": [],
-    "summaries": []
   },
   "lazygal": {
     "urls": [
@@ -375,6 +371,10 @@
     "urls": [],
     "summaries": []
   },
+  "python-accelerate": {
+    "urls": [],
+    "summaries": []
+  },
   "python-alembic1.14": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2434950"
@@ -394,10 +394,6 @@
     "summaries": [
       "python-astroid fails to build with Python 3.15: typing.ByteString has been removed from Python, failing TypingBrain.test_typing_object_notsubscriptable_3"
     ]
-  },
-  "python-astropy": {
-    "urls": [],
-    "summaries": []
   },
   "python-astropy-iers-data": {
     "urls": [],
@@ -559,14 +555,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-botocore": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2424584"
-    ],
-    "summaries": [
-      "python-botocore fails to build with Python 3.15: AssertionError: At index 8 diff: b'\\x00' != b'\\x02'"
-    ]
-  },
   "python-build": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2458645"
@@ -686,6 +674,10 @@
     "summaries": [
       "python-ecdsa fails to build with Python 3.15: test_SigningKey_from_pem_pkcs8v2_EdDSA: binascii.Error: Incorrect padding"
     ]
+  },
+  "python-einops": {
+    "urls": [],
+    "summaries": []
   },
   "python-elastic-transport": {
     "urls": [
@@ -1159,18 +1151,6 @@
       "python-rstr fails to build with Python 3.15: 3 errors when collecting tests: ModuleNotFoundError: No module named 'sre_parse'"
     ]
   },
-  "python-scikit-image": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2435022"
-    ],
-    "summaries": [
-      "python-scikit-image: FTBFS in Fedora rawhide/f44"
-    ]
-  },
-  "python-sep": {
-    "urls": [],
-    "summaries": []
-  },
   "python-simple-salesforce": {
     "urls": [],
     "summaries": []
@@ -1222,10 +1202,6 @@
     "summaries": [
       "python-toolz fails to build with Python 3.15: AssertionError: Missing introspection for the following callables: frozendict"
     ]
-  },
-  "python-torch": {
-    "urls": [],
-    "summaries": []
   },
   "python-translitcodec": {
     "urls": [
@@ -1307,6 +1283,10 @@
     "urls": [],
     "summaries": []
   },
+  "qgis": {
+    "urls": [],
+    "summaries": []
+  },
   "qpid-proton": {
     "urls": [],
     "summaries": []
@@ -1336,6 +1316,10 @@
     "summaries": []
   },
   "rss2email": {
+    "urls": [],
+    "summaries": []
+  },
+  "samba": {
     "urls": [],
     "summaries": []
   },
@@ -1372,6 +1356,10 @@
     "summaries": []
   },
   "virtme-ng": {
+    "urls": [],
+    "summaries": []
+  },
+  "vtk": {
     "urls": [],
     "summaries": []
   },

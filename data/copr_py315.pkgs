@@ -65,7 +65,7 @@ argparse-manpage	failed
 asahi-installer	succeeded
 asciidoc	succeeded
 assimp	succeeded
-astrometry	failed
+astrometry	succeeded
 at-spi2-core	succeeded
 atomic-reactor	succeeded
 aubio	succeeded
@@ -393,7 +393,7 @@ jsonnet	succeeded
 jupyterlab	succeeded
 kalamine	succeeded
 kea	succeeded
-kernel	succeeded
+kernel	failed
 keycloak-httpd-client-install	succeeded
 keylime	succeeded
 kf6-kapidox	succeeded
@@ -422,11 +422,11 @@ koji-flatpak	succeeded
 koji-image-builder	succeeded
 koji-osbuild	succeeded
 kopeninghours	succeeded
-krita	failed
+krita	succeeded
 krop	succeeded
 kurchu	succeeded
 kvirc	succeeded
-lammps	running
+lammps	succeeded
 langtable	succeeded
 lasso	succeeded
 lazygal	failed
@@ -526,7 +526,7 @@ liquidctl	succeeded
 lirc	failed
 litecli	succeeded
 livecd-tools	succeeded
-llvm	canceled
+llvm	running
 llvm21	canceled
 lollypop	succeeded
 loook	succeeded
@@ -666,7 +666,7 @@ otf2	succeeded
 oz	succeeded
 pacemaker	succeeded
 pam_wrapper	succeeded
-paraview	running
+paraview	succeeded
 partio	succeeded
 pass-audit	succeeded
 patool	succeeded
@@ -775,6 +775,7 @@ pyproj	failed
 pyqtwebengine	failed
 pyscard	succeeded
 pyserial	succeeded
+pyserial-asyncio	succeeded
 pyshp	succeeded
 pysnmp	succeeded
 pystatgrab	succeeded
@@ -827,6 +828,7 @@ python-a2wsgi	succeeded
 python-aaargh	succeeded
 python-abimap	succeeded
 python-absl-py	succeeded
+python-accelerate	failed
 python-accept-types	succeeded
 python-accessible-pygments	succeeded
 python-acoustid	succeeded
@@ -918,8 +920,11 @@ python-assertpy	succeeded
 python-astdoc	succeeded
 python-asteval	succeeded
 python-astroid	failed
-python-astropy	failed
+python-astroplan	succeeded
+python-astropy	succeeded
+python-astropy-healpix	succeeded
 python-astropy-iers-data	failed
+python-astroscrappy	succeeded
 python-asttokens	succeeded
 python-async-lru	succeeded
 python-async-timeout	succeeded
@@ -1124,7 +1129,7 @@ python-boolean.py	succeeded
 python-booleanoperations	succeeded
 python-boto	succeeded
 python-boto3	failed
-python-botocore	failed
+python-botocore	succeeded
 python-bottle	succeeded
 python-bottle-sqlite	succeeded
 python-boutdata	succeeded
@@ -1497,6 +1502,7 @@ python-edgegrid	succeeded
 python-editables	succeeded
 python-editor	succeeded
 python-editorconfig	succeeded
+python-einops	failed
 python-elastic-transport	failed
 python-elementpath	succeeded
 python-email-validator	succeeded
@@ -1697,6 +1703,7 @@ python-glad	succeeded
 python-glad2	succeeded
 python-glfw	succeeded
 python-glob2	succeeded
+python-glymur	succeeded
 python-glyphsLib	succeeded
 python-gmpy2	succeeded
 python-gmqtt	succeeded
@@ -1741,6 +1748,7 @@ python-hatch-requirements-txt	succeeded
 python-hatch-vcs	succeeded
 python-hatchling	succeeded
 python-hdmf	failed
+python-healpy	succeeded
 python-heapdict	succeeded
 python-helpdev	succeeded
 python-hexdump	succeeded
@@ -1992,6 +2000,7 @@ python-linetable	succeeded
 python-linkify-it-py	succeeded
 python-linux-procfs	succeeded
 python-linuxdoc	succeeded
+python-lion-pytorch	succeeded
 python-listparser	succeeded
 python-litellm-proxy-extras	succeeded
 python-littleutils	succeeded
@@ -2343,6 +2352,7 @@ python-pexpect	succeeded
 python-pg8000	succeeded
 python-pgspecial	succeeded
 python-phonenumbers	succeeded
+python-photutils	succeeded
 python-phply	succeeded
 python-phpserialize	succeeded
 python-phyghtmap	succeeded
@@ -2444,6 +2454,7 @@ python-pybeam	succeeded
 python-pybtex	succeeded
 python-pybtex-docutils	succeeded
 python-pycares	succeeded
+python-pycayennelpp	succeeded
 python-pycdio	succeeded
 python-pycdlib	succeeded
 python-pycec	succeeded
@@ -2581,6 +2592,7 @@ python-pyramid-tm	succeeded
 python-pyrankvote	succeeded
 python-pyrate-limiter	succeeded
 python-pyrdfa3	succeeded
+python-pyregion	succeeded
 python-pyrfc3339	succeeded
 python-pyro	succeeded
 python-pyroaring	succeeded
@@ -2619,6 +2631,8 @@ python-pytaglib	succeeded
 python-pyte	succeeded
 python-pytesseract	succeeded
 python-pytest-aiohttp	succeeded
+python-pytest-arraydiff	succeeded
+python-pytest-astropy	succeeded
 python-pytest-astropy-header	succeeded
 python-pytest-asyncio	succeeded
 python-pytest-bdd	succeeded
@@ -2711,6 +2725,7 @@ python-pyvat	succeeded
 python-pyvirtualdisplay	succeeded
 python-pyvlx	succeeded
 python-pyvmomi	failed
+python-pyvo	succeeded
 python-pywayland	succeeded
 python-pywizlight	succeeded
 python-pywt	succeeded
@@ -2852,6 +2867,7 @@ python-rustcfg	succeeded
 python-rx	succeeded
 python-rxjson	succeeded
 python-s3transfer	succeeded
+python-safetensors	succeeded
 python-samloader	succeeded
 python-sanction	succeeded
 python-sane	succeeded
@@ -2861,7 +2877,7 @@ python-scantree	succeeded
 python-schedutils	succeeded
 python-schema	succeeded
 python-scikit-build-core	succeeded
-python-scikit-image	failed
+python-scikit-image	succeeded
 python-scipy-doctest	succeeded
 python-scitokens	succeeded
 python-scooby	succeeded
@@ -2881,7 +2897,7 @@ python-semver	succeeded
 python-send2trash	succeeded
 python-sentinels	succeeded
 python-sentry-sdk	succeeded
-python-sep	failed
+python-sep	succeeded
 python-serpent	succeeded
 python-service-identity	succeeded
 python-setproctitle	succeeded
@@ -3143,7 +3159,12 @@ python-tomli	succeeded
 python-tomli-w	succeeded
 python-tomlkit	succeeded
 python-toolz	failed
-python-torch	running
+python-torch	succeeded
+python-torchaudio	succeeded
+python-torchdata	succeeded
+python-torchdiffeq	succeeded
+python-torchsde	succeeded
+python-torchvision	succeeded
 python-tornado	succeeded
 python-towncrier	succeeded
 python-tox	succeeded
@@ -3419,7 +3440,7 @@ pywhispercpp	succeeded
 pyxattr	succeeded
 pyxdg	succeeded
 pyzor	succeeded
-qgis	running
+qgis	failed
 qhexedit2	succeeded
 qm	succeeded
 qpid-proton	failed
@@ -3484,7 +3505,7 @@ s-tui	succeeded
 s3cmd	succeeded
 salt	succeeded
 salt-lint	succeeded
-samba	succeeded
+samba	failed
 sanlock	succeeded
 sasutils	succeeded
 satyr	succeeded
@@ -3631,7 +3652,7 @@ vit	succeeded
 volk	succeeded
 volume_key	succeeded
 vorta	succeeded
-vtk	running
+vtk	failed
 waf	succeeded
 wafw00f	succeeded
 weasyprint	failed

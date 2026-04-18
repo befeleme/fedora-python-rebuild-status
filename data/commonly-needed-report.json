@@ -122,10 +122,6 @@
       "count": 11
     },
     {
-      "component": "python-torch",
-      "count": 11
-    },
-    {
       "component": "python-openstackclient",
       "count": 11,
       "blocked_by": [
@@ -170,15 +166,15 @@
       "count": 9
     },
     {
+      "component": "python-zarr",
+      "count": 9
+    },
+    {
       "component": "python-pytest-astropy",
       "count": 9,
       "blocked_by": [
         "python-pytest-arraydiff"
       ]
-    },
-    {
-      "component": "python-zarr",
-      "count": 9
     },
     {
       "component": "python-watchfiles",
@@ -367,13 +363,14 @@
         "python-joblib",
         "python-scikit-learn"
       ]
+    },
+    {
+      "component": "libyui",
+      "count": 3,
+      "prerel_abi_blocked": true
     }
   ],
   "most_commonly_last_blocking": [
-    {
-      "component": "python-torch",
-      "count": 8
-    },
     {
       "component": "python-openstacksdk",
       "count": 6
@@ -400,12 +397,20 @@
       "count": 4
     },
     {
+      "component": "python-joblib",
+      "count": 4
+    },
+    {
       "component": "libyui",
       "count": 3,
       "prerel_abi_blocked": true
     },
     {
       "component": "python-zlib-ng",
+      "count": 3
+    },
+    {
+      "component": "python-multiprocess",
       "count": 3
     },
     {
@@ -426,10 +431,6 @@
       "blocked_by": [
         "pylint"
       ]
-    },
-    {
-      "component": "python-joblib",
-      "count": 3
     },
     {
       "component": "python-fastapi",
@@ -470,10 +471,6 @@
       "prerel_abi_blocked": true
     },
     {
-      "component": "python-multiprocess",
-      "count": 2
-    },
-    {
       "component": "python-seaborn",
       "count": 2,
       "blocked_by": [
@@ -483,6 +480,10 @@
     },
     {
       "component": "python-scikit-image",
+      "count": 2
+    },
+    {
+      "component": "pyproj",
       "count": 2
     }
   ],
