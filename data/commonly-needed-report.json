@@ -29,10 +29,6 @@
       ]
     },
     {
-      "component": "python-openstacksdk",
-      "count": 22
-    },
-    {
       "component": "snakemake",
       "count": 22,
       "blocked_by": [
@@ -56,33 +52,9 @@
       ]
     },
     {
-      "component": "python-astropy",
-      "count": 18,
-      "prerel_abi_blocked": true,
-      "blocked_by": [
-        "python-pytest-arraydiff",
-        "python-pytest-astropy",
-        "python-scikit-image"
-      ]
-    },
-    {
       "component": "python-cytoolz",
       "count": 18,
       "prerel_abi_blocked": true
-    },
-    {
-      "component": "python-osc-lib",
-      "count": 16,
-      "blocked_by": [
-        "python-openstacksdk"
-      ]
-    },
-    {
-      "component": "python-keystoneclient",
-      "count": 14,
-      "blocked_by": [
-        "python-openstacksdk"
-      ]
     },
     {
       "component": "python-proto-plus",
@@ -125,20 +97,15 @@
       "component": "python-openstackclient",
       "count": 11,
       "blocked_by": [
-        "python-aodhclient",
         "python-heatclient",
         "python-ironicclient",
-        "python-keystoneclient",
         "python-manilaclient",
         "python-mistralclient",
         "python-neutronclient",
         "python-octaviaclient",
         "python-openstackclient",
-        "python-openstacksdk",
-        "python-osc-lib",
         "python-swiftclient",
-        "python-troveclient",
-        "python-zaqarclient"
+        "python-troveclient"
       ]
     },
     {
@@ -149,16 +116,8 @@
         "python-distributed",
         "python-fastavro",
         "python-partd",
-        "python-scikit-image",
         "python-xarray",
         "python-zarr"
-      ]
-    },
-    {
-      "component": "python-pytest-arraydiff",
-      "count": 10,
-      "blocked_by": [
-        "python-astropy"
       ]
     },
     {
@@ -168,13 +127,6 @@
     {
       "component": "python-zarr",
       "count": 9
-    },
-    {
-      "component": "python-pytest-astropy",
-      "count": 9,
-      "blocked_by": [
-        "python-pytest-arraydiff"
-      ]
     },
     {
       "component": "python-watchfiles",
@@ -194,10 +146,6 @@
         "python-uvicorn",
         "python-watchfiles"
       ]
-    },
-    {
-      "component": "python-scikit-image",
-      "count": 7
     },
     {
       "component": "python-xarray",
@@ -310,10 +258,7 @@
       "component": "python-swiftclient",
       "count": 4,
       "blocked_by": [
-        "python-keystoneclient",
-        "python-openstackclient",
-        "python-openstacksdk",
-        "python-osc-lib"
+        "python-openstackclient"
       ]
     },
     {
@@ -368,21 +313,74 @@
       "component": "libyui",
       "count": 3,
       "prerel_abi_blocked": true
+    },
+    {
+      "component": "python-django-mailman3",
+      "count": 3,
+      "blocked_by": [
+        "python-django-allauth"
+      ]
+    },
+    {
+      "component": "python-zlib-ng",
+      "count": 3
+    },
+    {
+      "component": "python-trimesh",
+      "count": 3,
+      "blocked_by": [
+        "blender",
+        "python-ezdxf",
+        "python-shapely",
+        "usd"
+      ]
+    },
+    {
+      "component": "python-rasterio",
+      "count": 3,
+      "blocked_by": [
+        "python-shapely"
+      ]
+    },
+    {
+      "component": "python-fastavro",
+      "count": 3,
+      "blocked_by": [
+        "python-zlib-ng"
+      ]
+    },
+    {
+      "component": "python-statsmodels",
+      "count": 3,
+      "blocked_by": [
+        "python-patsy"
+      ]
+    },
+    {
+      "component": "python-eth-keyfile",
+      "count": 3,
+      "blocked_by": [
+        "python-cytoolz",
+        "python-eth-keys",
+        "python-eth-utils",
+        "python-py_ecc"
+      ]
     }
   ],
   "most_commonly_last_blocking": [
     {
-      "component": "python-openstacksdk",
-      "count": 6
-    },
-    {
-      "component": "python-astropy",
-      "count": 5,
-      "prerel_abi_blocked": true,
+      "component": "python-openstackclient",
+      "count": 8,
       "blocked_by": [
-        "python-pytest-arraydiff",
-        "python-pytest-astropy",
-        "python-scikit-image"
+        "python-heatclient",
+        "python-ironicclient",
+        "python-manilaclient",
+        "python-mistralclient",
+        "python-neutronclient",
+        "python-octaviaclient",
+        "python-openstackclient",
+        "python-swiftclient",
+        "python-troveclient"
       ]
     },
     {
@@ -479,12 +477,25 @@
       ]
     },
     {
-      "component": "python-scikit-image",
+      "component": "pyproj",
       "count": 2
     },
     {
-      "component": "pyproj",
-      "count": 2
+      "component": "python-trimesh",
+      "count": 2,
+      "blocked_by": [
+        "blender",
+        "python-ezdxf",
+        "python-shapely",
+        "usd"
+      ]
+    },
+    {
+      "component": "conda-build",
+      "count": 2,
+      "blocked_by": [
+        "python-conda-index"
+      ]
     }
   ],
   "most_commonly_last_blocking_combinations": [
@@ -501,24 +512,7 @@
         "python-joblib",
         "python-scikit-learn"
       ],
-      "count": 8
-    },
-    {
-      "components": [
-        "python-keystoneclient",
-        "python-openstackclient",
-        "python-openstacksdk",
-        "python-osc-lib"
-      ],
-      "count": 7
-    },
-    {
-      "components": [
-        "python-astropy",
-        "python-pytest-arraydiff",
-        "python-pytest-astropy"
-      ],
-      "count": 6
+      "count": 9
     },
     {
       "components": [
@@ -540,13 +534,6 @@
         "python-proto-plus"
       ],
       "count": 4
-    },
-    {
-      "components": [
-        "python-openstacksdk",
-        "python-osc-lib"
-      ],
-      "count": 3
     },
     {
       "components": [
@@ -597,14 +584,6 @@
     },
     {
       "components": [
-        "python-keystoneclient",
-        "python-openstacksdk",
-        "python-osc-lib"
-      ],
-      "count": 2
-    },
-    {
-      "components": [
         "python-dask",
         "python-partd"
       ],
@@ -641,6 +620,39 @@
         "python-fslpy",
         "python-nifti-mrs",
         "spec2nii"
+      ],
+      "count": 1
+    },
+    {
+      "components": [
+        "materialx",
+        "pyproj",
+        "usd"
+      ],
+      "count": 1
+    },
+    {
+      "components": [
+        "python-shapely",
+        "python-uranium"
+      ],
+      "count": 1
+    },
+    {
+      "components": [
+        "google-api-python-client",
+        "python-google-api-core",
+        "python-proto-plus",
+        "python-swiftclient"
+      ],
+      "count": 1
+    },
+    {
+      "components": [
+        "fastapi-cloud-cli",
+        "python-fastapi",
+        "python-uvicorn",
+        "python-watchfiles"
       ],
       "count": 1
     }

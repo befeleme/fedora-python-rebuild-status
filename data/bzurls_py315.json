@@ -223,6 +223,14 @@
     "urls": [],
     "summaries": []
   },
+  "llvm": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2448969"
+    ],
+    "summaries": [
+      "llvm fails to build with Python 3.15: shtest-ulimit-nondarwin.py: error: no match found"
+    ]
+  },
   "llvm21": {
     "urls": [],
     "summaries": []
@@ -396,6 +404,10 @@
     ]
   },
   "python-astropy-iers-data": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-astroquery": {
     "urls": [],
     "summaries": []
   },
@@ -603,6 +615,10 @@
     "urls": [],
     "summaries": []
   },
+  "python-desktop-entry-lib": {
+    "urls": [],
+    "summaries": []
+  },
   "python-django-allauth": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2458667"
@@ -727,6 +743,10 @@
       "python-extras fails to build with Python 3.15: AttributeError: 'TestTryImports' object has no attribute 'assertEquals'. Did you mean '.assertEqual' instead of '.assertEquals'?"
     ]
   },
+  "python-faker": {
+    "urls": [],
+    "summaries": []
+  },
   "python-fs": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2434982",
@@ -746,6 +766,10 @@
     "summaries": []
   },
   "python-giacpy": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-glanceclient": {
     "urls": [],
     "summaries": []
   },
@@ -941,13 +965,9 @@
       "python-numpoly: FTBFS in Fedora rawhide/f44"
     ]
   },
-  "python-openstacksdk": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2458679"
-    ],
-    "summaries": [
-      "python-openstacksdk fails to build with Python 3.15:  openstack.exceptions.SDKException: Unsupported hash algorithm 'ancient_hash_algo': unsupported hash algorithm ancient_hash_algo"
-    ]
+  "python-openstackclient": {
+    "urls": [],
+    "summaries": []
   },
   "python-opytimizer": {
     "urls": [

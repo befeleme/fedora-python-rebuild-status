@@ -526,7 +526,7 @@ liquidctl	succeeded
 lirc	failed
 litecli	succeeded
 livecd-tools	succeeded
-llvm	running
+llvm	failed
 llvm21	canceled
 lollypop	succeeded
 loook	succeeded
@@ -889,6 +889,7 @@ python-anyio	succeeded
 python-anyjson	succeeded
 python-anykeystore	succeeded
 python-anytree	succeeded
+python-aodhclient	succeeded
 python-apipkg	succeeded
 python-apkinspector	succeeded
 python-appdirs	succeeded
@@ -924,6 +925,7 @@ python-astroplan	succeeded
 python-astropy	succeeded
 python-astropy-healpix	succeeded
 python-astropy-iers-data	failed
+python-astroquery	failed
 python-astroscrappy	succeeded
 python-asttokens	succeeded
 python-async-lru	succeeded
@@ -1383,7 +1385,7 @@ python-demjson	succeeded
 python-dependency-groups	succeeded
 python-deprecated	succeeded
 python-deprecation	succeeded
-python-desktop-entry-lib	succeeded
+python-desktop-entry-lib	failed
 python-detect-secrets	succeeded
 python-diagnostic	succeeded
 python-dialog	succeeded
@@ -1552,7 +1554,7 @@ python-extruct	succeeded
 python-eyed3	succeeded
 python-fabric	succeeded
 python-factory-boy	succeeded
-python-faker	succeeded
+python-faker	failed
 python-fakeredis	succeeded
 python-falcon	succeeded
 python-fasjson-client	succeeded
@@ -1701,6 +1703,7 @@ python-github3py	succeeded
 python-gitlab	succeeded
 python-glad	succeeded
 python-glad2	succeeded
+python-glanceclient	failed
 python-glfw	succeeded
 python-glob2	succeeded
 python-glymur	succeeded
@@ -1952,6 +1955,7 @@ python-kerberos	succeeded
 python-keyring	succeeded
 python-keyrings-alt	succeeded
 python-keystoneauth1	succeeded
+python-keystoneclient	succeeded
 python-kgb	succeeded
 python-kiss-headers	succeeded
 python-kitchen	succeeded
@@ -2207,6 +2211,8 @@ python-nose2	succeeded
 python-notebook	succeeded
 python-notebook-shim	succeeded
 python-notify2	succeeded
+python-novaclient	succeeded
+python-novaclient-os-virtual-interfaces	succeeded
 python-npyscreen	succeeded
 python-ns1-python	succeeded
 python-ntlm-auth	succeeded
@@ -2254,8 +2260,9 @@ python-openqa_client	succeeded
 python-opensearch-py	succeeded
 python-openshift	succeeded
 python-openslide	succeeded
+python-openstackclient	failed
 python-openstackdocstheme	succeeded
-python-openstacksdk	failed
+python-openstacksdk	succeeded
 python-openstep-plist	succeeded
 python-opentelemetry-api	succeeded
 python-opentypesvg	succeeded
@@ -2269,8 +2276,10 @@ python-oras	succeeded
 python-ordered-set	succeeded
 python-orderly-set	succeeded
 python-orjson	succeeded
+python-os-client-config	succeeded
 python-os-service-types	succeeded
 python-osa	succeeded
+python-osc-lib	succeeded
 python-oscrypto	succeeded
 python-oslo-concurrency	succeeded
 python-oslo-config	succeeded
@@ -3095,6 +3104,7 @@ python-sysv_ipc	succeeded
 python-tables	succeeded
 python-tablib	succeeded
 python-tabulate	succeeded
+python-tackerclient	succeeded
 python-tamilstring	succeeded
 python-tasklib	succeeded
 python-tatsu	succeeded
@@ -3388,6 +3398,7 @@ python-yfinance	succeeded
 python-yte	succeeded
 python-ytmusicapi	succeeded
 python-yubico	succeeded
+python-zaqarclient	succeeded
 python-zarr	failed
 python-zc-lockfile	succeeded
 python-zeep	succeeded
