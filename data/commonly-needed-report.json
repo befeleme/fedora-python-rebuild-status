@@ -1,10 +1,6 @@
 {
   "most_commonly_needed": [
     {
-      "component": "python-joblib",
-      "count": 31
-    },
-    {
       "component": "python-sqlmodel",
       "count": 24,
       "blocked_by": [
@@ -19,13 +15,6 @@
         "python-google-cloud-core",
         "python-google-cloud-storage",
         "python-proto-plus"
-      ]
-    },
-    {
-      "component": "python-scikit-learn",
-      "count": 23,
-      "blocked_by": [
-        "python-joblib"
       ]
     },
     {
@@ -117,10 +106,6 @@
       "count": 8
     },
     {
-      "component": "python-multiprocess",
-      "count": 8
-    },
-    {
       "component": "python-fastapi",
       "count": 7,
       "blocked_by": [
@@ -162,14 +147,6 @@
     {
       "component": "python-beartype",
       "count": 6
-    },
-    {
-      "component": "python-jsonpickle",
-      "count": 6,
-      "blocked_by": [
-        "python-joblib",
-        "python-scikit-learn"
-      ]
     },
     {
       "component": "python-rlp",
@@ -228,9 +205,7 @@
       "blocked_by": [
         "pyproj",
         "python-fiona",
-        "python-joblib",
         "python-mapclassify",
-        "python-scikit-learn",
         "python-shapely"
       ]
     },
@@ -280,11 +255,7 @@
     },
     {
       "component": "python-niaaml",
-      "count": 3,
-      "blocked_by": [
-        "python-joblib",
-        "python-scikit-learn"
-      ]
+      "count": 3
     },
     {
       "component": "libyui",
@@ -356,6 +327,26 @@
     {
       "component": "myst-nb",
       "count": 3
+    },
+    {
+      "component": "pyqtwebengine",
+      "count": 2
+    },
+    {
+      "component": "python-matplotlib",
+      "count": 2
+    },
+    {
+      "component": "python-nifti-mrs",
+      "count": 2,
+      "blocked_by": [
+        "python-fslpy"
+      ]
+    },
+    {
+      "component": "materialx",
+      "count": 2,
+      "prerel_abi_blocked": true
     }
   ],
   "most_commonly_last_blocking": [
@@ -371,24 +362,16 @@
       "count": 4
     },
     {
-      "component": "python-joblib",
-      "count": 4
-    },
-    {
       "component": "libyui",
       "count": 3,
       "prerel_abi_blocked": true
     },
     {
-      "component": "python-multiprocess",
-      "count": 3
-    },
-    {
-      "component": "python-jsonpickle",
+      "component": "python-seaborn",
       "count": 3,
       "blocked_by": [
-        "python-joblib",
-        "python-scikit-learn"
+        "python-patsy",
+        "python-statsmodels"
       ]
     },
     {
@@ -441,14 +424,6 @@
       "prerel_abi_blocked": true
     },
     {
-      "component": "python-seaborn",
-      "count": 2,
-      "blocked_by": [
-        "python-patsy",
-        "python-statsmodels"
-      ]
-    },
-    {
       "component": "pyproj",
       "count": 2
     },
@@ -477,6 +452,28 @@
       "component": "python-cytoolz",
       "count": 2,
       "prerel_abi_blocked": true
+    },
+    {
+      "component": "python-fslpy",
+      "count": 2,
+      "blocked_by": [
+        "python-trimesh"
+      ]
+    },
+    {
+      "component": "python-proto-plus",
+      "count": 2,
+      "blocked_by": [
+        "python-google-api-core",
+        "python-proto-plus"
+      ]
+    },
+    {
+      "component": "python-uvicorn",
+      "count": 2,
+      "blocked_by": [
+        "python-watchfiles"
+      ]
     }
   ],
   "most_commonly_last_blocking_combinations": [
@@ -487,13 +484,6 @@
         "snakemake"
       ],
       "count": 18
-    },
-    {
-      "components": [
-        "python-joblib",
-        "python-scikit-learn"
-      ],
-      "count": 9
     },
     {
       "components": [
@@ -518,6 +508,28 @@
     },
     {
       "components": [
+        "python-dask",
+        "python-partd"
+      ],
+      "count": 3
+    },
+    {
+      "components": [
+        "python-patsy",
+        "python-statsmodels"
+      ],
+      "count": 3
+    },
+    {
+      "components": [
+        "google-api-python-client",
+        "python-google-api-core",
+        "python-proto-plus"
+      ],
+      "count": 2
+    },
+    {
+      "components": [
         "python-uvicorn",
         "python-watchfiles"
       ],
@@ -532,9 +544,8 @@
     },
     {
       "components": [
-        "python-joblib",
-        "python-multiprocess",
-        "python-scikit-learn"
+        "python-readme-renderer",
+        "python-twine"
       ],
       "count": 2
     },
@@ -562,28 +573,6 @@
         "python-proto-plus"
       ],
       "count": 2
-    },
-    {
-      "components": [
-        "python-dask",
-        "python-partd"
-      ],
-      "count": 2
-    },
-    {
-      "components": [
-        "python-patsy",
-        "python-statsmodels"
-      ],
-      "count": 2
-    },
-    {
-      "components": [
-        "python-joblib",
-        "python-niaaml",
-        "python-scikit-learn"
-      ],
-      "count": 1
     },
     {
       "components": [
@@ -621,18 +610,25 @@
     },
     {
       "components": [
-        "google-api-python-client",
-        "python-google-api-core",
-        "python-proto-plus"
+        "fastapi-cloud-cli",
+        "python-fastapi",
+        "python-uvicorn",
+        "python-watchfiles"
       ],
       "count": 1
     },
     {
       "components": [
-        "fastapi-cloud-cli",
-        "python-fastapi",
-        "python-uvicorn",
-        "python-watchfiles"
+        "python-beartype",
+        "python-spdx-tools",
+        "scancode-toolkit"
+      ],
+      "count": 1
+    },
+    {
+      "components": [
+        "python-django-allauth",
+        "python-django-mailman3"
       ],
       "count": 1
     }
