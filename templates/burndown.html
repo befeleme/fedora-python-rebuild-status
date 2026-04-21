@@ -5,165 +5,213 @@
 <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns@3"></script>
 {% endblock %}
 
-{% block title %}Python 3.15 Rebuild Burndown — Fedora{% endblock %}
+{% block title %}Python Rebuild Burndown — Fedora{% endblock %}
 
 {% block content %}
 <h1 class="mb-4">Python 3.15 Rebuild Burndown</h1>
-
 <div style="position: relative; max-width: 960px; margin: 0 auto;">
-  <canvas id="burndownChart"></canvas>
+  <canvas id="chart315"></canvas>
+</div>
+
+<h1 class="mb-4 mt-5">Python 3.14 Rebuild Burndown</h1>
+<div style="position: relative; max-width: 960px; margin: 0 auto;">
+  <canvas id="chart314"></canvas>
 </div>
 
 <script>
-const data = {{ burndown_data | tojson }};
-
-const dates = data.map(d => d.date);
-const succeeded = data.map(d => d.succeeded);
-const failed = data.map(d => d.failed);
-const waiting = data.map(d => d.waiting);
-const pyVersions = data.map(d => d.python_version);
-
-// Find indices where Python version changes
-const versionChanges = [];
-for (let i = 1; i < pyVersions.length; i++) {
-  if (pyVersions[i] !== pyVersions[i - 1] && pyVersions[i]) {
-    versionChanges.push({index: i, version: pyVersions[i]});
-  }
-}
-
 const isDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
 const gridColor = isDark ? 'rgba(255,255,255,0.1)' : 'rgba(0,0,0,0.1)';
 const textColor = isDark ? '#ccc' : '#333';
 
-const ctx = document.getElementById('burndownChart').getContext('2d');
+const data315 = {{ burndown_315 | tojson }};
+const data314 = {{ burndown_314 | tojson }};
 
-// Plugin for version-change vertical lines
-const versionLinePlugin = {
-  id: 'versionLines',
-  afterDraw(chart) {
-    const {ctx, scales: {x, y}} = chart;
-    ctx.save();
-    versionChanges.forEach(vc => {
-      const xPos = x.getPixelForValue(dates[vc.index]);
-      ctx.beginPath();
-      ctx.setLineDash([5, 5]);
-      ctx.strokeStyle = isDark ? 'rgba(255,255,255,0.3)' : 'rgba(0,0,0,0.3)';
-      ctx.lineWidth = 1;
-      ctx.moveTo(xPos, y.top);
-      ctx.lineTo(xPos, y.bottom);
-      ctx.stroke();
+// Normalize dates to a common Oct-Oct cycle ignoring year.
+// Month >= 10 maps to year 2000, month < 10 maps to year 2001.
+function normalizeDate(dateStr) {
+  const d = new Date(dateStr);
+  const month = d.getUTCMonth();
+  const day = d.getUTCDate();
+  // Oct 21+ = start of cycle, Oct 1-20 = end of cycle
+  const year = (month > 9 || (month === 9 && day >= 21)) ? 2000 : 2001;
+  return new Date(Date.UTC(year, month, day)).toISOString().slice(0, 10);
+}
 
-      ctx.setLineDash([]);
-      ctx.fillStyle = textColor;
-      ctx.font = '11px sans-serif';
-      ctx.textAlign = 'center';
-      ctx.fillText(vc.version, xPos, y.top - 5);
-    });
-    ctx.restore();
+const globalMin = '2000-10-21';
+const globalMax = '2001-10-20';
+
+// Deduplicate: keep last entry per normalized date
+function dedup(data) {
+  const byDate = new Map();
+  data.forEach(d => {
+    const nd = normalizeDate(d.date);
+    byDate.set(nd, d);
+  });
+  const result = [];
+  byDate.forEach((entry, nd) => {
+    result.push({...entry, _nd: nd});
+  });
+  result.sort((a, b) => a._nd.localeCompare(b._nd));
+  return result;
+}
+
+function createBurndownChart(canvasId, data) {
+  const deduped = dedup(data);
+  const dates = deduped.map(d => d._nd);
+  const pyVersions = deduped.map(d => d.python_version);
+
+  const waitingXY = deduped.map(d => ({x: d._nd, y: d.waiting}));
+  const failedXY = deduped.map(d => ({x: d._nd, y: d.failed}));
+  const succeededXY = deduped.map(d => ({x: d._nd, y: d.succeeded}));
+
+  const versionChanges = [];
+  for (let i = 1; i < pyVersions.length; i++) {
+    if (pyVersions[i] !== pyVersions[i - 1] && pyVersions[i]) {
+      versionChanges.push({date: dates[i], version: pyVersions[i]});
+    }
   }
-};
 
-const legendSpacingPlugin = {
-  id: 'legendSpacing',
-  afterInit(chart) {
-    const origFit = chart.legend.fit.bind(chart.legend);
-    chart.legend.fit = function() {
-      origFit();
-      this.height += 40;
-    };
-  }
-};
+  const versionLinePlugin = {
+    id: 'versionLines_' + canvasId,
+    afterDraw(chart) {
+      const {ctx, scales: {x, y}} = chart;
+      ctx.save();
+      versionChanges.forEach(vc => {
+        const xPos = x.getPixelForValue(new Date(vc.date));
+        ctx.beginPath();
+        ctx.setLineDash([5, 5]);
+        ctx.strokeStyle = isDark ? 'rgba(255,255,255,0.3)' : 'rgba(0,0,0,0.3)';
+        ctx.lineWidth = 1;
+        ctx.moveTo(xPos, y.top);
+        ctx.lineTo(xPos, y.bottom);
+        ctx.stroke();
 
-new Chart(ctx, {
-  type: 'line',
-  data: {
-    labels: dates,
-    datasets: [
-      {
-        label: 'Waiting',
-        data: waiting,
-        borderColor: '#9ca3ab',
-        backgroundColor: '#9ca3ab',
-        fill: true,
-        stack: 'total',
-        tension: 0.2,
-        pointRadius: 0,
-        borderWidth: 1,
-      },
-      {
-        label: 'Failed',
-        data: failed,
-        borderColor: '#e07a83',
-        backgroundColor: '#e07a83',
-        fill: true,
-        stack: 'total',
-        tension: 0.2,
-        pointRadius: 0,
-        borderWidth: 1,
-      },
-      {
-        label: 'Succeeded',
-        data: succeeded,
-        borderColor: '#5fb88e',
-        backgroundColor: '#5fb88e',
-        fill: true,
-        stack: 'total',
-        tension: 0.2,
-        pointRadius: 0,
-        borderWidth: 1,
-      },
-    ],
-  },
-  options: {
-    responsive: true,
-    interaction: {
-      mode: 'index',
-      intersect: false,
+        ctx.setLineDash([]);
+        ctx.fillStyle = textColor;
+        ctx.font = '11px sans-serif';
+        ctx.textAlign = 'center';
+        ctx.fillText(vc.version, xPos, y.top - 5);
+      });
+      ctx.restore();
+    }
+  };
+
+  const legendSpacingPlugin = {
+    id: 'legendSpacing_' + canvasId,
+    afterInit(chart) {
+      const origFit = chart.legend.fit.bind(chart.legend);
+      chart.legend.fit = function() {
+        origFit();
+        this.height += 40;
+      };
+    }
+  };
+
+  const ctx = document.getElementById(canvasId).getContext('2d');
+  new Chart(ctx, {
+    type: 'line',
+    data: {
+      datasets: [
+        {
+          label: 'Waiting',
+          data: waitingXY,
+          borderColor: '#9ca3ab',
+          backgroundColor: '#9ca3ab',
+          fill: true,
+          stack: 'total',
+          tension: 0.2,
+          pointRadius: 0,
+          borderWidth: 1,
+        },
+        {
+          label: 'Failed',
+          data: failedXY,
+          borderColor: '#e07a83',
+          backgroundColor: '#e07a83',
+          fill: true,
+          stack: 'total',
+          tension: 0.2,
+          pointRadius: 0,
+          borderWidth: 1,
+        },
+        {
+          label: 'Succeeded',
+          data: succeededXY,
+          borderColor: '#5fb88e',
+          backgroundColor: '#5fb88e',
+          fill: true,
+          stack: 'total',
+          tension: 0.2,
+          pointRadius: 0,
+          borderWidth: 1,
+        },
+      ],
     },
-    layout: {
-      padding: {top: 25},
-    },
-    scales: {
-      x: {
-        type: 'category',
-        grid: {color: gridColor},
-        ticks: {
-          color: textColor,
-          maxTicksLimit: 12,
+    options: {
+      responsive: true,
+      interaction: {
+        mode: 'index',
+        intersect: false,
+      },
+      layout: {
+        padding: {top: 25},
+      },
+      scales: {
+        x: {
+          type: 'time',
+          min: globalMin,
+          max: globalMax,
+          time: {
+            unit: 'month',
+            displayFormats: {month: 'MMM'},
+          },
+          grid: {color: gridColor},
+          ticks: {color: textColor},
+        },
+        y: {
+          stacked: true,
+          beginAtZero: true,
+          grid: {color: gridColor},
+          ticks: {color: textColor},
+          title: {
+            display: true,
+            text: 'Packages',
+            color: textColor,
+          },
         },
       },
-      y: {
-        stacked: true,
-        beginAtZero: true,
-        grid: {color: gridColor},
-        ticks: {color: textColor},
-        title: {
-          display: true,
-          text: 'Packages',
-          color: textColor,
+      plugins: {
+        legend: {
+          labels: {
+            color: textColor,
+            padding: 20,
+          },
+          padding: {bottom: 10},
         },
-      },
-    },
-    plugins: {
-      legend: {
-        labels: {
-          color: textColor,
-          padding: 20,
-        },
-        padding: {bottom: 10},
-      },
-      tooltip: {
-        callbacks: {
-          afterTitle(items) {
-            const idx = items[0].dataIndex;
-            const ver = pyVersions[idx];
-            return ver ? `Python ${ver}` : '';
+        tooltip: {
+          callbacks: {
+            title(items) {
+              const idx = items[0].dataIndex;
+              const raw = items[0].raw.x;
+              const d = new Date(raw);
+              const month = d.toLocaleString('en', {month: 'short', timeZone: 'UTC'});
+              const day = d.getUTCDate();
+              return `${month} ${day}`;
+            },
+            afterTitle(items) {
+              const idx = items[0].dataIndex;
+              const ver = pyVersions[idx];
+              return ver ? `Python ${ver}` : '';
+            },
           },
         },
       },
     },
-  },
-  plugins: [versionLinePlugin, legendSpacingPlugin],
-});
+    plugins: [versionLinePlugin, legendSpacingPlugin],
+  });
+}
+
+createBurndownChart('chart315', data315);
+createBurndownChart('chart314', data314);
 </script>
 {% endblock %}
