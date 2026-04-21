@@ -8,6 +8,7 @@
 {% block title %}Python Rebuild Burndown — Fedora{% endblock %}
 
 {% block content %}
+<a href="{{ url_for('index') }}" class="btn btn-primary mb-3"> &lt&lt&lt Home</a>
 <h1 class="mb-4">Python 3.15 Rebuild Burndown</h1>
 <div style="position: relative; max-width: 960px; margin: 0 auto;">
   <canvas id="chart315"></canvas>
@@ -18,6 +19,11 @@
   <canvas id="chart314"></canvas>
 </div>
 
+<h1 class="mb-4 mt-5">Python 3.13 Rebuild Burndown</h1>
+<div style="position: relative; max-width: 960px; margin: 0 auto;">
+  <canvas id="chart313"></canvas>
+</div>
+
 <script>
 const isDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
 const gridColor = isDark ? 'rgba(255,255,255,0.1)' : 'rgba(0,0,0,0.1)';
@@ -25,15 +31,17 @@ const textColor = isDark ? '#ccc' : '#333';
 
 const data315 = {{ burndown_315 | tojson }};
 const data314 = {{ burndown_314 | tojson }};
+const data313 = {{ burndown_313 | tojson }};
 
-// Normalize dates to a common Oct-Oct cycle ignoring year.
-// Month >= 10 maps to year 2000, month < 10 maps to year 2001.
-function normalizeDate(dateStr) {
+// Normalize dates to a common cycle ignoring year.
+// startMonth/startDay define where the cycle begins.
+// Dates on or after start → year 2000, before start → year 2001.
+function normalizeDate(dateStr, startMonth, startDay) {
   const d = new Date(dateStr);
   const month = d.getUTCMonth();
   const day = d.getUTCDate();
-  // Oct 21+ = start of cycle, Oct 1-20 = end of cycle
-  const year = (month > 9 || (month === 9 && day >= 21)) ? 2000 : 2001;
+  const afterStart = (month > startMonth) || (month === startMonth && day >= startDay);
+  const year = afterStart ? 2000 : 2001;
   return new Date(Date.UTC(year, month, day)).toISOString().slice(0, 10);
 }
 
@@ -41,10 +49,10 @@ const globalMin = '2000-10-21';
 const globalMax = '2001-10-20';
 
 // Deduplicate: keep last entry per normalized date
-function dedup(data) {
+function dedup(data, startMonth, startDay) {
   const byDate = new Map();
   data.forEach(d => {
-    const nd = normalizeDate(d.date);
+    const nd = normalizeDate(d.date, startMonth, startDay);
     byDate.set(nd, d);
   });
   const result = [];
@@ -55,8 +63,8 @@ function dedup(data) {
   return result;
 }
 
-function createBurndownChart(canvasId, data) {
-  const deduped = dedup(data);
+function createBurndownChart(canvasId, data, startMonth, startDay) {
+  const deduped = dedup(data, startMonth, startDay);
   const dates = deduped.map(d => d._nd);
   const pyVersions = deduped.map(d => d.python_version);
 
@@ -211,7 +219,8 @@ function createBurndownChart(canvasId, data) {
   });
 }
 
-createBurndownChart('chart315', data315);
-createBurndownChart('chart314', data314);
+createBurndownChart('chart315', data315, 9, 21);  // Oct 21
+createBurndownChart('chart314', data314, 9, 21);  // Oct 21
+createBurndownChart('chart313', data313, 10, 6);  // Nov 6
 </script>
 {% endblock %}

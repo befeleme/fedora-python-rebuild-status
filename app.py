@@ -364,7 +364,8 @@ def wheels_py315():
 def burndown():
     burndown_315 = load_json("data/burndown_py315.json")
     burndown_314 = load_json("data/burndown_py314.json")
-    return render_template('burndown.html', burndown_315=burndown_315, burndown_314=burndown_314, updated=updated)
+    burndown_313 = load_json("data/burndown_py313.json")
+    return render_template('burndown.html', burndown_315=burndown_315, burndown_314=burndown_314, burndown_313=burndown_313, updated=updated)
 
 
 @app.route('/commonly-blocking/')
