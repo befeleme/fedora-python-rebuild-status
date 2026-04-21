@@ -39,14 +39,6 @@
       "argparse-manpage fails to build with Python 3.15: AttributeError: '_ManpageFormatter' object has no attribute '_theme'. Did you mean: 'of._theme'?"
     ]
   },
-  "awscli2": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2458685"
-    ],
-    "summaries": [
-      "awscli2 fails to build with Python 3.15: AssertionError: At index 8 diff: b'\\x00' != b'\\x02' in 15 tests"
-    ]
-  },
   "beets": {
     "urls": [],
     "summaries": []
@@ -292,6 +284,14 @@
     ]
   },
   "nfs-ganesha": {
+    "urls": [],
+    "summaries": []
+  },
+  "novelwriter": {
+    "urls": [],
+    "summaries": []
+  },
+  "nwg-panel": {
     "urls": [],
     "summaries": []
   },
@@ -691,6 +691,10 @@
       "python-dns fails to build with Python 3.15: testInvalidDigestLengthCDS0: AssertionError: 'Odd-length string' != 'Odd number of hexadecimal digits'"
     ]
   },
+  "python-ebranch": {
+    "urls": [],
+    "summaries": []
+  },
   "python-ecdsa": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2458647"
@@ -843,10 +847,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-joblib": {
-    "urls": [],
-    "summaries": []
-  },
   "python-jupyter-console": {
     "urls": [],
     "summaries": []
@@ -881,11 +881,9 @@
   },
   "python-matplotlib": {
     "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2442243",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2433761"
     ],
     "summaries": [
-      "python-matplotlib: FTBFS in Fedora Rawhide: No match for argument: tex(cmb10.tfm) and more",
       "python-matplotlib fails to build with Python 3.15: failure of test_norm_callback and test_fork"
     ]
   },
@@ -933,14 +931,6 @@
       "python-msrest fails to build with Python 3.15: AssertionErrors in two TestServiceClient::test_client_send"
     ]
   },
-  "python-multiprocess": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2442368"
-    ],
-    "summaries": [
-      "python-multiprocess fails to build with Python 3.15: ValueError: Globs did not match any module: _multiprocess"
-    ]
-  },
   "python-neo": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2434996"
@@ -972,10 +962,6 @@
     "summaries": [
       "python-numpoly: FTBFS in Fedora rawhide/f44"
     ]
-  },
-  "python-openstackclient": {
-    "urls": [],
-    "summaries": []
   },
   "python-opytimizer": {
     "urls": [
@@ -1013,6 +999,10 @@
     "urls": [],
     "summaries": []
   },
+  "python-poi-tracker": {
+    "urls": [],
+    "summaries": []
+  },
   "python-pulp": {
     "urls": [],
     "summaries": []
@@ -1036,6 +1026,10 @@
     "summaries": [
       "python-pygtkspellcheck: FTBFS in Fedora rawhide/f44"
     ]
+  },
+  "python-pymatreader": {
+    "urls": [],
+    "summaries": []
   },
   "python-pyngus": {
     "urls": [],
@@ -1151,14 +1145,6 @@
       "python-result: FTBFS in Fedora rawhide/f44"
     ]
   },
-  "python-rich": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2431601"
-    ],
-    "summaries": [
-      "python-rich fails to build with Python 3.15: AssertionError in test_inspect_builtin_function_only_python311"
-    ]
-  },
   "python-rsdclient": {
     "urls": [],
     "summaries": []
@@ -1178,6 +1164,10 @@
     "summaries": [
       "python-rstr fails to build with Python 3.15: 3 errors when collecting tests: ModuleNotFoundError: No module named 'sre_parse'"
     ]
+  },
+  "python-saharaclient": {
+    "urls": [],
+    "summaries": []
   },
   "python-simple-salesforce": {
     "urls": [],
@@ -1294,10 +1284,6 @@
     "summaries": [
       "python-zict fails to build with Python 3.15: timeout in test_stress_different_keys_threadsafe"
     ]
-  },
-  "python-zlib-ng": {
-    "urls": [],
-    "summaries": []
   },
   "python-zope-testrunner": {
     "urls": [

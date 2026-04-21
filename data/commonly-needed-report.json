@@ -94,27 +94,11 @@
       "count": 11
     },
     {
-      "component": "python-openstackclient",
-      "count": 11,
-      "blocked_by": [
-        "python-heatclient",
-        "python-ironicclient",
-        "python-manilaclient",
-        "python-mistralclient",
-        "python-neutronclient",
-        "python-octaviaclient",
-        "python-openstackclient",
-        "python-swiftclient",
-        "python-troveclient"
-      ]
-    },
-    {
       "component": "python-dask",
       "count": 10,
       "blocked_by": [
         "python-dask",
         "python-distributed",
-        "python-fastavro",
         "python-partd",
         "python-xarray",
         "python-zarr"
@@ -255,13 +239,6 @@
       "count": 5
     },
     {
-      "component": "python-swiftclient",
-      "count": 4,
-      "blocked_by": [
-        "python-openstackclient"
-      ]
-    },
-    {
       "component": "python-django-allauth",
       "count": 4
     },
@@ -322,10 +299,6 @@
       ]
     },
     {
-      "component": "python-zlib-ng",
-      "count": 3
-    },
-    {
       "component": "python-trimesh",
       "count": 3,
       "blocked_by": [
@@ -340,13 +313,6 @@
       "count": 3,
       "blocked_by": [
         "python-shapely"
-      ]
-    },
-    {
-      "component": "python-fastavro",
-      "count": 3,
-      "blocked_by": [
-        "python-zlib-ng"
       ]
     },
     {
@@ -365,24 +331,34 @@
         "python-eth-utils",
         "python-py_ecc"
       ]
+    },
+    {
+      "component": "python-eth-rlp",
+      "count": 3,
+      "blocked_by": [
+        "python-cytoolz",
+        "python-eth-utils",
+        "python-hexbytes",
+        "python-rlp"
+      ]
+    },
+    {
+      "component": "python-pygls",
+      "count": 3
+    },
+    {
+      "component": "python-httpx-sse",
+      "count": 3,
+      "blocked_by": [
+        "python-sse-starlette"
+      ]
+    },
+    {
+      "component": "myst-nb",
+      "count": 3
     }
   ],
   "most_commonly_last_blocking": [
-    {
-      "component": "python-openstackclient",
-      "count": 8,
-      "blocked_by": [
-        "python-heatclient",
-        "python-ironicclient",
-        "python-manilaclient",
-        "python-mistralclient",
-        "python-neutronclient",
-        "python-octaviaclient",
-        "python-openstackclient",
-        "python-swiftclient",
-        "python-troveclient"
-      ]
-    },
     {
       "component": "python-shapely",
       "count": 5,
@@ -402,10 +378,6 @@
       "component": "libyui",
       "count": 3,
       "prerel_abi_blocked": true
-    },
-    {
-      "component": "python-zlib-ng",
-      "count": 3
     },
     {
       "component": "python-multiprocess",
@@ -496,6 +468,15 @@
       "blocked_by": [
         "python-conda-index"
       ]
+    },
+    {
+      "component": "python-neo",
+      "count": 2
+    },
+    {
+      "component": "python-cytoolz",
+      "count": 2,
+      "prerel_abi_blocked": true
     }
   ],
   "most_commonly_last_blocking_combinations": [
@@ -642,8 +623,7 @@
       "components": [
         "google-api-python-client",
         "python-google-api-core",
-        "python-proto-plus",
-        "python-swiftclient"
+        "python-proto-plus"
       ],
       "count": 1
     },
