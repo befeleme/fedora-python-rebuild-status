@@ -1,0 +1,169 @@
+{% extends "base.html" %}
+
+{% block head %}
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4"></script>
+<script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns@3"></script>
+{% endblock %}
+
+{% block title %}Python 3.15 Rebuild Burndown — Fedora{% endblock %}
+
+{% block content %}
+<h1 class="mb-4">Python 3.15 Rebuild Burndown</h1>
+
+<div style="position: relative; max-width: 960px; margin: 0 auto;">
+  <canvas id="burndownChart"></canvas>
+</div>
+
+<script>
+const data = {{ burndown_data | tojson }};
+
+const dates = data.map(d => d.date);
+const succeeded = data.map(d => d.succeeded);
+const failed = data.map(d => d.failed);
+const waiting = data.map(d => d.waiting);
+const pyVersions = data.map(d => d.python_version);
+
+// Find indices where Python version changes
+const versionChanges = [];
+for (let i = 1; i < pyVersions.length; i++) {
+  if (pyVersions[i] !== pyVersions[i - 1] && pyVersions[i]) {
+    versionChanges.push({index: i, version: pyVersions[i]});
+  }
+}
+
+const isDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+const gridColor = isDark ? 'rgba(255,255,255,0.1)' : 'rgba(0,0,0,0.1)';
+const textColor = isDark ? '#ccc' : '#333';
+
+const ctx = document.getElementById('burndownChart').getContext('2d');
+
+// Plugin for version-change vertical lines
+const versionLinePlugin = {
+  id: 'versionLines',
+  afterDraw(chart) {
+    const {ctx, scales: {x, y}} = chart;
+    ctx.save();
+    versionChanges.forEach(vc => {
+      const xPos = x.getPixelForValue(dates[vc.index]);
+      ctx.beginPath();
+      ctx.setLineDash([5, 5]);
+      ctx.strokeStyle = isDark ? 'rgba(255,255,255,0.3)' : 'rgba(0,0,0,0.3)';
+      ctx.lineWidth = 1;
+      ctx.moveTo(xPos, y.top);
+      ctx.lineTo(xPos, y.bottom);
+      ctx.stroke();
+
+      ctx.setLineDash([]);
+      ctx.fillStyle = textColor;
+      ctx.font = '11px sans-serif';
+      ctx.textAlign = 'center';
+      ctx.fillText(vc.version, xPos, y.top - 5);
+    });
+    ctx.restore();
+  }
+};
+
+const legendSpacingPlugin = {
+  id: 'legendSpacing',
+  afterInit(chart) {
+    const origFit = chart.legend.fit.bind(chart.legend);
+    chart.legend.fit = function() {
+      origFit();
+      this.height += 40;
+    };
+  }
+};
+
+new Chart(ctx, {
+  type: 'line',
+  data: {
+    labels: dates,
+    datasets: [
+      {
+        label: 'Waiting',
+        data: waiting,
+        borderColor: '#9ca3ab',
+        backgroundColor: '#9ca3ab',
+        fill: true,
+        stack: 'total',
+        tension: 0.2,
+        pointRadius: 0,
+        borderWidth: 1,
+      },
+      {
+        label: 'Failed',
+        data: failed,
+        borderColor: '#e07a83',
+        backgroundColor: '#e07a83',
+        fill: true,
+        stack: 'total',
+        tension: 0.2,
+        pointRadius: 0,
+        borderWidth: 1,
+      },
+      {
+        label: 'Succeeded',
+        data: succeeded,
+        borderColor: '#5fb88e',
+        backgroundColor: '#5fb88e',
+        fill: true,
+        stack: 'total',
+        tension: 0.2,
+        pointRadius: 0,
+        borderWidth: 1,
+      },
+    ],
+  },
+  options: {
+    responsive: true,
+    interaction: {
+      mode: 'index',
+      intersect: false,
+    },
+    layout: {
+      padding: {top: 25},
+    },
+    scales: {
+      x: {
+        type: 'category',
+        grid: {color: gridColor},
+        ticks: {
+          color: textColor,
+          maxTicksLimit: 12,
+        },
+      },
+      y: {
+        stacked: true,
+        beginAtZero: true,
+        grid: {color: gridColor},
+        ticks: {color: textColor},
+        title: {
+          display: true,
+          text: 'Packages',
+          color: textColor,
+        },
+      },
+    },
+    plugins: {
+      legend: {
+        labels: {
+          color: textColor,
+          padding: 20,
+        },
+        padding: {bottom: 10},
+      },
+      tooltip: {
+        callbacks: {
+          afterTitle(items) {
+            const idx = items[0].dataIndex;
+            const ver = pyVersions[idx];
+            return ver ? `Python ${ver}` : '';
+          },
+        },
+      },
+    },
+  },
+  plugins: [versionLinePlugin, legendSpacingPlugin],
+});
+</script>
+{% endblock %}

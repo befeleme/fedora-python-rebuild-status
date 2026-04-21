@@ -28,6 +28,8 @@ jobs:
         run: |
           chmod +x ./scripts/run.sh
           ./scripts/run.sh
+      - name: Update burndown data
+        run: python3 scripts/burndown_update.py
       - name: Commit and push
         run: |-
           git config --global --add safe.directory /__w/fedora-python-rebuild-status/fedora-python-rebuild-status

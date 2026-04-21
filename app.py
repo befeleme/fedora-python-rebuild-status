@@ -360,6 +360,12 @@ def wheels_py315():
         do_support=wheel_data["315"]["count"],
     )
 
+@app.route('/burndown/')
+def burndown():
+    burndown_data = load_json("data/burndown_py315.json")
+    return render_template('burndown.html', burndown_data=burndown_data, updated=updated)
+
+
 @app.route('/commonly-blocking/')
 def commonly_blocking():
     # Get the set of packages that are in the failures report
