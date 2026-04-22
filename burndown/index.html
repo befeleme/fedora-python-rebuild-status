@@ -156,14 +156,14 @@ function createBurndownChart(canvasId, data, startMonth, startDay) {
         const xPos = x.getPixelForValue(new Date(vc.date));
         ctx.beginPath();
         ctx.setLineDash([5, 5]);
-        ctx.strokeStyle = isDark ? 'rgba(255,255,255,0.3)' : 'rgba(0,0,0,0.3)';
-        ctx.lineWidth = 1;
+        ctx.strokeStyle = isDark ? '#e6c54a' : '#b8860b';
+        ctx.lineWidth = 1.5;
         ctx.moveTo(xPos, y.top);
         ctx.lineTo(xPos, y.bottom);
         ctx.stroke();
 
         ctx.setLineDash([]);
-        ctx.fillStyle = textColor;
+        ctx.fillStyle = isDark ? '#e6c54a' : '#b8860b';
         ctx.font = '11px sans-serif';
         ctx.textAlign = 'center';
         ctx.fillText(vc.version, xPos, y.top - 5);
@@ -241,7 +241,7 @@ function createBurndownChart(canvasId, data, startMonth, startDay) {
             unit: 'month',
             displayFormats: {month: 'MMM'},
           },
-          grid: {color: gridColor},
+          grid: {color: isDark ? 'rgba(255,255,255,0.25)' : 'rgba(0,0,0,0.2)', z: 1},
           ticks: {color: textColor},
         },
         y: {
@@ -299,7 +299,7 @@ createBurndownChart('chart313', data313, 10, 6);  // Nov 6
     <hr>
     <footer>
       <p>Maintained by <a href="https://github.com/befeleme">@befeleme</a>, source on <a href="https://github.com/befeleme/fedora-python-rebuild-status">GitHub</a>.</p>
-      <p>Last updated on <span class="date">2026-04-22 05:43:36.317194</span> (updated daily)</p>
+      <p>Last updated on <span class="date">2026-04-22 08:18:22.662090</span> (updated daily)</p>
     </footer>
   </div>
 </body>
