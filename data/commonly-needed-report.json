@@ -189,10 +189,6 @@
       ]
     },
     {
-      "component": "pylint",
-      "count": 5
-    },
-    {
       "component": "python-django-allauth",
       "count": 4
     },
@@ -218,10 +214,7 @@
     },
     {
       "component": "python-lsp-server",
-      "count": 4,
-      "blocked_by": [
-        "pylint"
-      ]
+      "count": 4
     },
     {
       "component": "python-google-cloud-storage",
@@ -348,13 +341,18 @@
       "blocked_by": [
         "python-beartype"
       ]
+    },
+    {
+      "component": "go-vendor-tools",
+      "count": 2,
+      "blocked_by": [
+        "python-beartype",
+        "python-spdx-tools",
+        "scancode-toolkit"
+      ]
     }
   ],
   "most_commonly_last_blocking": [
-    {
-      "component": "pylint",
-      "count": 4
-    },
     {
       "component": "libyui",
       "count": 3,
@@ -385,10 +383,7 @@
     },
     {
       "component": "python-lsp-server",
-      "count": 3,
-      "blocked_by": [
-        "pylint"
-      ]
+      "count": 3
     },
     {
       "component": "python-fastapi",
@@ -476,6 +471,10 @@
     },
     {
       "component": "python-watchfiles",
+      "count": 2
+    },
+    {
+      "component": "xapian-bindings",
       "count": 2
     }
   ],

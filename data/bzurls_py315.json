@@ -335,14 +335,6 @@
       "[heads up] pykakasi will fail to build with Sphinx 9+ in Fedora 45: sphinx.errors.SphinxError: cannot determine default role!"
     ]
   },
-  "pylint": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2440562"
-    ],
-    "summaries": [
-      "pylint fails to build with Python 3.15: multiple AssertionErrors"
-    ]
-  },
   "pyp2rpm": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2453848"
@@ -866,6 +858,10 @@
     "summaries": [
       "python-kaptan fails to build with Python 3.15: AttributeError: 'SourceFileLoader' object has no attribute 'load_module'. Did you mean: 'exec_module'? in test_py_file_handler and test_py_file_away_handler"
     ]
+  },
+  "python-lsp-server": {
+    "urls": [],
+    "summaries": []
   },
   "python-manatools": {
     "urls": [],
