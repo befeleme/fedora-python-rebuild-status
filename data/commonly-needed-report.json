@@ -34,13 +34,6 @@
       ]
     },
     {
-      "component": "python-shapely",
-      "count": 18,
-      "blocked_by": [
-        "pyproj"
-      ]
-    },
-    {
       "component": "python-cytoolz",
       "count": 18,
       "prerel_abi_blocked": true
@@ -59,10 +52,6 @@
       "blocked_by": [
         "python-cytoolz"
       ]
-    },
-    {
-      "component": "pyproj",
-      "count": 13
     },
     {
       "component": "python-uvicorn",
@@ -200,16 +189,6 @@
       ]
     },
     {
-      "component": "python-geopandas",
-      "count": 5,
-      "blocked_by": [
-        "pyproj",
-        "python-fiona",
-        "python-mapclassify",
-        "python-shapely"
-      ]
-    },
-    {
       "component": "pylint",
       "count": 5
     },
@@ -275,16 +254,12 @@
       "blocked_by": [
         "blender",
         "python-ezdxf",
-        "python-shapely",
         "usd"
       ]
     },
     {
       "component": "python-rasterio",
-      "count": 3,
-      "blocked_by": [
-        "python-shapely"
-      ]
+      "count": 3
     },
     {
       "component": "python-statsmodels",
@@ -325,10 +300,6 @@
       ]
     },
     {
-      "component": "myst-nb",
-      "count": 3
-    },
-    {
       "component": "pyqtwebengine",
       "count": 2
     },
@@ -344,19 +315,42 @@
       ]
     },
     {
+      "component": "usd",
+      "count": 2,
+      "blocked_by": [
+        "materialx"
+      ]
+    },
+    {
       "component": "materialx",
       "count": 2,
       "prerel_abi_blocked": true
+    },
+    {
+      "component": "google-api-python-client",
+      "count": 2,
+      "blocked_by": [
+        "python-google-api-core",
+        "python-proto-plus"
+      ]
+    },
+    {
+      "component": "fastapi-cloud-cli",
+      "count": 2,
+      "blocked_by": [
+        "python-uvicorn",
+        "python-watchfiles"
+      ]
+    },
+    {
+      "component": "python-spdx-tools",
+      "count": 2,
+      "blocked_by": [
+        "python-beartype"
+      ]
     }
   ],
   "most_commonly_last_blocking": [
-    {
-      "component": "python-shapely",
-      "count": 5,
-      "blocked_by": [
-        "pyproj"
-      ]
-    },
     {
       "component": "pylint",
       "count": 4
@@ -377,6 +371,17 @@
     {
       "component": "python-pygls",
       "count": 3
+    },
+    {
+      "component": "python-xarray",
+      "count": 3,
+      "blocked_by": [
+        "python-dask",
+        "python-partd",
+        "python-rasterio",
+        "python-seaborn",
+        "python-zarr"
+      ]
     },
     {
       "component": "python-lsp-server",
@@ -410,11 +415,6 @@
       ]
     },
     {
-      "component": "libftdi",
-      "count": 2,
-      "prerel_abi_blocked": true
-    },
-    {
       "component": "osc",
       "count": 2
     },
@@ -424,16 +424,11 @@
       "prerel_abi_blocked": true
     },
     {
-      "component": "pyproj",
-      "count": 2
-    },
-    {
       "component": "python-trimesh",
       "count": 2,
       "blocked_by": [
         "blender",
         "python-ezdxf",
-        "python-shapely",
         "usd"
       ]
     },
@@ -474,6 +469,14 @@
       "blocked_by": [
         "python-watchfiles"
       ]
+    },
+    {
+      "component": "python-zarr",
+      "count": 2
+    },
+    {
+      "component": "python-watchfiles",
+      "count": 2
     }
   ],
   "most_commonly_last_blocking_combinations": [
@@ -544,6 +547,15 @@
     },
     {
       "components": [
+        "python-dask",
+        "python-partd",
+        "python-reproject",
+        "python-zarr"
+      ],
+      "count": 2
+    },
+    {
+      "components": [
         "python-readme-renderer",
         "python-twine"
       ],
@@ -555,14 +567,6 @@
         "python-eth-utils",
         "python-hexbytes",
         "python-rlp"
-      ],
-      "count": 2
-    },
-    {
-      "components": [
-        "pyproj",
-        "python-geopandas",
-        "python-shapely"
       ],
       "count": 2
     },
@@ -596,15 +600,7 @@
     {
       "components": [
         "materialx",
-        "pyproj",
         "usd"
-      ],
-      "count": 1
-    },
-    {
-      "components": [
-        "python-shapely",
-        "python-uranium"
       ],
       "count": 1
     },
@@ -629,6 +625,14 @@
       "components": [
         "python-django-allauth",
         "python-django-mailman3"
+      ],
+      "count": 1
+    },
+    {
+      "components": [
+        "python-backrefs",
+        "python-mkdocs-git-revision-date-localized-plugin",
+        "python-mkdocs-rss-plugin"
       ],
       "count": 1
     }

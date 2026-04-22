@@ -244,18 +244,18 @@
     ]
   },
   "mopidy-mpd": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2460139"
+    ],
+    "summaries": [
+      "mopidy-mpd: FTBFS in Fedora Rawhide: pydantic_core._pydantic_core.ValidationError: 1 validation error for Playlist"
+    ]
   },
   "morphio": {
     "urls": [],
     "summaries": []
   },
   "mupdf": {
-    "urls": [],
-    "summaries": []
-  },
-  "myst-nb": {
     "urls": [],
     "summaries": []
   },
@@ -280,10 +280,6 @@
     "summaries": []
   },
   "novelwriter": {
-    "urls": [],
-    "summaries": []
-  },
-  "nwg-panel": {
     "urls": [],
     "summaries": []
   },
@@ -384,8 +380,12 @@
     ]
   },
   "python-accelerate": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2460068"
+    ],
+    "summaries": [
+      "python-accelerate fails to build with Python 3.15: TypeError: Signature mismatch between <built-in function pack> and <function pack at 0x7f50247c78a0>: (format, /, *values) != (fmt: 'bytes | str', /, *v: 'Any') -> 'bytes'"
+    ]
   },
   "python-alembic1.14": {
     "urls": [
@@ -399,21 +399,17 @@
     "urls": [],
     "summaries": []
   },
-  "python-astroid": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2416979"
-    ],
-    "summaries": [
-      "python-astroid fails to build with Python 3.15: typing.ByteString has been removed from Python, failing TypingBrain.test_typing_object_notsubscriptable_3"
-    ]
-  },
   "python-astropy-iers-data": {
     "urls": [],
     "summaries": []
   },
   "python-astroquery": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2460120"
+    ],
+    "summaries": [
+      "python-astroquery fails to build with Python 3.15: AttributeError: 'SourceFileLoader' object has no attribute 'load_module'. Did you mean '.exec_module' instead of '.load_module'?"
+    ]
   },
   "python-azure-data-tables": {
     "urls": [],
@@ -571,12 +567,12 @@
     "urls": [],
     "summaries": []
   },
-  "python-build": {
+  "python-botocore": {
     "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2458645"
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2424584"
     ],
     "summaries": [
-      "python-build fails to build with Python 3.15: test_isolation: Failed: DID NOT RAISE <class 'subprocess.CalledProcessError'>"
+      "python-botocore fails to build with Python 3.15: AssertionError: At index 8 diff: b'\\x00' != b'\\x02'"
     ]
   },
   "python-bytecode": {
@@ -588,8 +584,12 @@
     ]
   },
   "python-cartopy": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2460066"
+    ],
+    "summaries": [
+      "python-cartopy: FTBFS in Fedora Rawhide: 165 tests fail"
+    ]
   },
   "python-chai": {
     "urls": [
@@ -691,10 +691,6 @@
       "python-dns fails to build with Python 3.15: testInvalidDigestLengthCDS0: AssertionError: 'Odd-length string' != 'Odd number of hexadecimal digits'"
     ]
   },
-  "python-ebranch": {
-    "urls": [],
-    "summaries": []
-  },
   "python-ecdsa": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2458647"
@@ -782,8 +778,12 @@
     "summaries": []
   },
   "python-glanceclient": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2460071"
+    ],
+    "summaries": [
+      "python-glanceclient fails to build with Python 3.15: ValueError: unsupported hash algorithm not_an_algo"
+    ]
   },
   "python-graph-tool": {
     "urls": [],
@@ -944,8 +944,12 @@
     "summaries": []
   },
   "python-niaaml": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2460114"
+    ],
+    "summaries": [
+      "python-niaaml: FTBFS in Fedora Rawhide: ModuleNotFoundError: No module named 'typing_extensions'"
+    ]
   },
   "python-nibabel": {
     "urls": [
@@ -1003,10 +1007,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-poi-tracker": {
-    "urls": [],
-    "summaries": []
-  },
   "python-pulp": {
     "urls": [],
     "summaries": []
@@ -1016,12 +1016,20 @@
     "summaries": []
   },
   "python-pydantic": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2460140"
+    ],
+    "summaries": [
+      "python-pydantic fails to build with Python 3.15: FutureWarning and DID NOT RAISE <class 'pydantic_core._pydantic_core.ValidationError'>"
+    ]
   },
   "python-pydoctor": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2460116"
+    ],
+    "summaries": [
+      "python-pydoctor fails to build with Python 3.15: fixture 'subtests' not found"
+    ]
   },
   "python-pygls": {
     "urls": [],
@@ -1182,8 +1190,12 @@
     ]
   },
   "python-saharaclient": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2460117"
+    ],
+    "summaries": [
+      "python-saharaclient: FTBFS in Fedora Rawhide: 76 failed tests"
+    ]
   },
   "python-simple-salesforce": {
     "urls": [],
@@ -1196,6 +1208,10 @@
     "summaries": [
       "[heads up] python-sphinx-argparse-cli will fail to build with Sphinx 9+ in Fedora 45: ModuleNotFoundError: No module named 'sphinx.testing.path'"
     ]
+  },
+  "python-sphinx-book-theme": {
+    "urls": [],
+    "summaries": []
   },
   "python-steps": {
     "urls": [],
@@ -1326,8 +1342,12 @@
     "summaries": []
   },
   "rebase-helper": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2460122"
+    ],
+    "summaries": [
+      "rebase-helper: FTBFS in Fedora Rawhide: AttributeError: 'CustomHelpFormatter' object has no attribute '_format_actions_usage'"
+    ]
   },
   "recoll": {
     "urls": [],
@@ -1350,10 +1370,6 @@
     "summaries": []
   },
   "rss2email": {
-    "urls": [],
-    "summaries": []
-  },
-  "ruyi": {
     "urls": [],
     "summaries": []
   },
