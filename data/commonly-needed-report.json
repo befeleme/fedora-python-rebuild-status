@@ -47,17 +47,17 @@
       ]
     },
     {
+      "component": "python-uvicorn",
+      "count": 14,
+      "blocked_by": [
+        "python-watchfiles"
+      ]
+    },
+    {
       "component": "python-eth-utils",
       "count": 14,
       "blocked_by": [
         "python-cytoolz"
-      ]
-    },
-    {
-      "component": "python-uvicorn",
-      "count": 13,
-      "blocked_by": [
-        "python-watchfiles"
       ]
     },
     {
@@ -83,16 +83,16 @@
       ]
     },
     {
+      "component": "python-watchfiles",
+      "count": 9
+    },
+    {
       "component": "python-backrefs",
       "count": 9
     },
     {
       "component": "python-zarr",
       "count": 9
-    },
-    {
-      "component": "python-watchfiles",
-      "count": 8
     },
     {
       "component": "python-fastapi",
@@ -510,6 +510,13 @@
     },
     {
       "components": [
+        "python-uvicorn",
+        "python-watchfiles"
+      ],
+      "count": 3
+    },
+    {
+      "components": [
         "python-dask",
         "python-partd"
       ],
@@ -527,13 +534,6 @@
         "google-api-python-client",
         "python-google-api-core",
         "python-proto-plus"
-      ],
-      "count": 2
-    },
-    {
-      "components": [
-        "python-uvicorn",
-        "python-watchfiles"
       ],
       "count": 2
     },

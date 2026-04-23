@@ -16,8 +16,12 @@
     "summaries": []
   },
   "alot": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2460533"
+    ],
+    "summaries": [
+      "alot fails to build with Python 3.15: TypeError: 'Mock' object cannot be interpreted as an integer"
+    ]
   },
   "ansible": {
     "urls": [],
@@ -67,14 +71,6 @@
       "bout++: FTBFS in Fedora rawhide/f44"
     ]
   },
-  "calamares": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2433899"
-    ],
-    "summaries": [
-      "calamares: FTBFS in Fedora rawhide/f44"
-    ]
-  },
   "calibre": {
     "urls": [],
     "summaries": []
@@ -96,8 +92,12 @@
     "summaries": []
   },
   "dionaea": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2380545"
+    ],
+    "summaries": [
+      "dionaea: FTBFS with change proposal CMake 4.0"
+    ]
   },
   "dnf-plugin-diff": {
     "urls": [
@@ -108,12 +108,12 @@
     ]
   },
   "dnf-plugin-perfmetrics": {
-    "urls": [],
-    "summaries": []
-  },
-  "dnfdragora": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2380550"
+    ],
+    "summaries": [
+      "dnf-plugin-perfmetrics: FTBFS with change proposal CMake 4.0"
+    ]
   },
   "dnsviz": {
     "urls": [],
@@ -148,10 +148,6 @@
     "summaries": []
   },
   "gmsh": {
-    "urls": [],
-    "summaries": []
-  },
-  "gplugin": {
     "urls": [],
     "summaries": []
   },
@@ -201,18 +197,6 @@
     ],
     "summaries": [
       "libkml: FTBFS in Fedora rawhide/f44"
-    ]
-  },
-  "libreoffice": {
-    "urls": [],
-    "summaries": []
-  },
-  "libyui": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2427943"
-    ],
-    "summaries": [
-      "libyui: FTBFS with gcc16 due to C++20 change"
     ]
   },
   "llvm": {
@@ -300,8 +284,12 @@
     "summaries": []
   },
   "openvino": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2460557"
+    ],
+    "summaries": [
+      "openvino: FTBFS in Fedora Rawhide: resolution failed, missing gcc14 and gcc14-c++"
+    ]
   },
   "osc": {
     "urls": [],
@@ -349,14 +337,6 @@
     ],
     "summaries": [
       "pyqtwebengine: FTBFS in Fedora rawhide/f44"
-    ]
-  },
-  "pytest": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2458644"
-    ],
-    "summaries": [
-      "pytest fails to build with Python 3.15: DeprecationWarning: This process (pid=1119) is multi-threaded, use of forkpty() may lead to deadlocks in the child."
     ]
   },
   "python-PyMuPDF": {
@@ -448,7 +428,7 @@
       "https://bugzilla.redhat.com/show_bug.cgi?id=2454250"
     ],
     "summaries": [
-      "python-azure-mgmt-datamigration (and others) fail to build with Python 3.15: TypeError: Permissions.__init__() got an unexpected keyword argument 'keys'"
+      "python-azure-mgmt-datamigration (and others) fail to build in Fedora Rawhide: TypeError: Permissions.__init__() got an unexpected keyword argument 'keys'"
     ]
   },
   "python-azure-mgmt-devtestlabs": {
@@ -615,10 +595,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-desktop-entry-lib": {
-    "urls": [],
-    "summaries": []
-  },
   "python-django-allauth": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2458667"
@@ -744,8 +720,12 @@
     ]
   },
   "python-faker": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2460595"
+    ],
+    "summaries": [
+      "python-faker fails to build with Python 3.15: NameError: name 'TestEnUS' is not defined"
+    ]
   },
   "python-fs": {
     "urls": [
@@ -761,13 +741,21 @@
     "urls": [],
     "summaries": []
   },
+  "python-futurist": {
+    "urls": [],
+    "summaries": []
+  },
   "python-geotiler": {
     "urls": [],
     "summaries": []
   },
   "python-giacpy": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2460593"
+    ],
+    "summaries": [
+      "python-giacpy: FTBFS in Fedora Rawhide: line 51: Segmentation fault: /usr/bin/python3 -m doctest ../../giacpy/giacpy.pyx -vv"
+    ]
   },
   "python-glanceclient": {
     "urls": [
@@ -835,9 +823,17 @@
     "urls": [],
     "summaries": []
   },
-  "python-jnius": {
+  "python-jiter": {
     "urls": [],
     "summaries": []
+  },
+  "python-jnius": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2460555"
+    ],
+    "summaries": [
+      "python-jnius: FTBFS in Fedora Rawhide: error: incompatible pointer types passing 'JNIEnv **' (aka 'const struct JNINativeInterface_ ***') to parameter of type 'void **'"
+    ]
   },
   "python-jupyter-console": {
     "urls": [],
@@ -884,8 +880,12 @@
     ]
   },
   "python-meshio": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2460576"
+    ],
+    "summaries": [
+      "python-meshio: FTBFS in Fedora Rawhide: binascii.Error: Invalid base64-encoded string: number of data characters (8889) cannot be 1 more than a multiple of 4"
+    ]
   },
   "python-metakernel": {
     "urls": [
@@ -1008,8 +1008,12 @@
     "summaries": []
   },
   "python-pycparserext": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2450092"
+    ],
+    "summaries": [
+      "F45FailsToInstall: python3-pycparserext"
+    ]
   },
   "python-pydantic": {
     "urls": [
@@ -1017,14 +1021,6 @@
     ],
     "summaries": [
       "python-pydantic fails to build with Python 3.15: FutureWarning and DID NOT RAISE <class 'pydantic_core._pydantic_core.ValidationError'>"
-    ]
-  },
-  "python-pydoctor": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2460116"
-    ],
-    "summaries": [
-      "python-pydoctor fails to build with Python 3.15: fixture 'subtests' not found"
     ]
   },
   "python-pygls": {
@@ -1054,6 +1050,10 @@
     "summaries": [
       "python-pynwb fails to build with Python 3.15: test_outer_import_structure: AssertionError: '__cached__' not found in ..."
     ]
+  },
+  "python-pyscf": {
+    "urls": [],
+    "summaries": []
   },
   "python-pysdl2": {
     "urls": [
@@ -1093,14 +1093,6 @@
     "summaries": [
       "python-pytest-tldr: FTBFS in Fedora rawhide/f44",
       "python-pytest-tldr fails to build with Python 3.15: tests/test_plugins.py::test_coverage: remains unmatched: '*----- coverage: platform *-----'"
-    ]
-  },
-  "python-pytest-trio": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2435015"
-    ],
-    "summaries": [
-      "python-pytest-trio: FTBFS in Fedora rawhide/f44"
     ]
   },
   "python-pyvmomi": {
@@ -1194,8 +1186,12 @@
     ]
   },
   "python-simple-salesforce": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2460532"
+    ],
+    "summaries": [
+      "python-simple-salesforce fails to build with Python 3.15:  simple_salesforce.exceptions.SalesforceBulkV2LoadError: Failed to upload job data. Response content: OrderedDict({'apiVersion': 52.0, 'columnDelimiter': 'COMMA', 'concurrencyMode': 'Parallel', 'co"
+    ]
   },
   "python-sphinx-argparse-cli": {
     "urls": [
@@ -1226,8 +1222,12 @@
     "summaries": []
   },
   "python-symengine": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2381387"
+    ],
+    "summaries": [
+      "python-symengine: FTBFS with change proposal CMake 4.0"
+    ]
   },
   "python-textual": {
     "urls": [
@@ -1279,9 +1279,11 @@
   },
   "python-valkey": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2460577",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2435034"
     ],
     "summaries": [
+      "python-valkey: FTBFS in Fedora Rawhide: AttributeError: No valkey module named timeseries (and others)",
       "python-valkey: FTBFS in Fedora rawhide/f44"
     ]
   },
@@ -1290,8 +1292,12 @@
     "summaries": []
   },
   "python-watchdog": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2460596"
+    ],
+    "summaries": [
+      "python-watchdog: FTBFS in Fedora Rawhide: requires Sphinx < 9, which is no longer available in Fedora"
+    ]
   },
   "python-watchfiles": {
     "urls": [],
@@ -1334,8 +1340,12 @@
     "summaries": []
   },
   "qpid-proton": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2381112"
+    ],
+    "summaries": [
+      "qpid-proton: FTBFS with change proposal CMake: Use ninja generator by default"
+    ]
   },
   "rebase-helper": {
     "urls": [
@@ -1374,8 +1384,12 @@
     "summaries": []
   },
   "subscription-manager": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2381467"
+    ],
+    "summaries": [
+      "subscription-manager: FTBFS with change proposal CMake 4.0"
+    ]
   },
   "sundials": {
     "urls": [
@@ -1386,8 +1400,12 @@
     ]
   },
   "ubertooth": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2381615"
+    ],
+    "summaries": [
+      "ubertooth: FTBFS with change proposal CMake 4.0"
+    ]
   },
   "usd": {
     "urls": [
@@ -1426,8 +1444,12 @@
     ]
   },
   "xcfun": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2381159"
+    ],
+    "summaries": [
+      "xcfun: FTBFS with change proposal CMake: Use ninja generator by default"
+    ]
   },
   "yt-dlp": {
     "urls": [
