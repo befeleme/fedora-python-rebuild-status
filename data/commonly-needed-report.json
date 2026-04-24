@@ -230,11 +230,6 @@
       "count": 3
     },
     {
-      "component": "libyui",
-      "count": 3,
-      "prerel_abi_blocked": true
-    },
-    {
       "component": "python-django-mailman3",
       "count": 3,
       "blocked_by": [
@@ -350,14 +345,13 @@
         "python-spdx-tools",
         "scancode-toolkit"
       ]
+    },
+    {
+      "component": "osc",
+      "count": 2
     }
   ],
   "most_commonly_last_blocking": [
-    {
-      "component": "libyui",
-      "count": 3,
-      "prerel_abi_blocked": true
-    },
     {
       "component": "python-seaborn",
       "count": 3,
@@ -476,6 +470,10 @@
     {
       "component": "xapian-bindings",
       "count": 2
+    },
+    {
+      "component": "python-niaaml",
+      "count": 1
     }
   ],
   "most_commonly_last_blocking_combinations": [
