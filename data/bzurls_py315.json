@@ -371,6 +371,10 @@
     "urls": [],
     "summaries": []
   },
+  "python-astroid": {
+    "urls": [],
+    "summaries": []
+  },
   "python-astropy-iers-data": {
     "urls": [],
     "summaries": []
@@ -538,14 +542,6 @@
   "python-boto3": {
     "urls": [],
     "summaries": []
-  },
-  "python-botocore": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2424584"
-    ],
-    "summaries": [
-      "python-botocore fails to build with Python 3.15: AssertionError: At index 8 diff: b'\\x00' != b'\\x02'"
-    ]
   },
   "python-bytecode": {
     "urls": [
@@ -1177,6 +1173,10 @@
       "python-rstr fails to build with Python 3.15: 3 errors when collecting tests: ModuleNotFoundError: No module named 'sre_parse'"
     ]
   },
+  "python-s3transfer": {
+    "urls": [],
+    "summaries": []
+  },
   "python-saharaclient": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2460117"
@@ -1276,16 +1276,6 @@
   "python-uranium": {
     "urls": [],
     "summaries": []
-  },
-  "python-valkey": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2460577",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2435034"
-    ],
-    "summaries": [
-      "python-valkey: FTBFS in Fedora Rawhide: AttributeError: No valkey module named timeseries (and others)",
-      "python-valkey: FTBFS in Fedora rawhide/f44"
-    ]
   },
   "python-vedo": {
     "urls": [],
