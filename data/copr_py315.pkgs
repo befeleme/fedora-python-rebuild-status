@@ -540,7 +540,7 @@ mailman3	succeeded
 mailman3-fedmsg-plugin-schemas	succeeded
 mailnag	succeeded
 mailprocessing	succeeded
-manafirewall	failed
+manafirewall	succeeded
 mapserver	succeeded
 marisa	succeeded
 marshalparser	succeeded
@@ -1136,7 +1136,7 @@ python-boolean.py	succeeded
 python-booleanoperations	succeeded
 python-boto	succeeded
 python-boto3	failed
-python-botocore	succeeded
+python-botocore	failed
 python-bottle	succeeded
 python-bottle-sqlite	succeeded
 python-boutdata	succeeded
@@ -1352,12 +1352,13 @@ python-cycler	succeeded
 python-cyclopts	succeeded
 python-cymruwhois	succeeded
 python-cyseq	succeeded
-python-cytoolz	failed
+python-cytoolz	succeeded
 python-d2to1	succeeded
 python-daemon	succeeded
 python-daemonize	succeeded
 python-daiquiri	succeeded
 python-damo	succeeded
+python-dandischema	succeeded
 python-daphne	succeeded
 python-dasbus	succeeded
 python-datalad	succeeded
@@ -1534,10 +1535,16 @@ python-et_xmlfile	failed
 python-etcd	failed
 python-etcd3	succeeded
 python-etcd3gw	succeeded
+python-eth-abi	succeeded
 python-eth-bloom	succeeded
+python-eth-event	failed
 python-eth-hash	succeeded
+python-eth-keys	failed
+python-eth-pydantic-types	succeeded
+python-eth-rlp	succeeded
 python-eth-stdlib	succeeded
 python-eth-typing	succeeded
+python-eth-utils	succeeded
 python-ethtool	succeeded
 python-evalidate	succeeded
 python-evdev	succeeded
@@ -1769,6 +1776,7 @@ python-healpy	succeeded
 python-heapdict	succeeded
 python-heatclient	succeeded
 python-helpdev	succeeded
+python-hexbytes	succeeded
 python-hexdump	succeeded
 python-hgapi	succeeded
 python-hglib	succeeded
@@ -1829,6 +1837,7 @@ python-ifaddr	succeeded
 python-ifcfg	succeeded
 python-igraph	succeeded
 python-ijson	succeeded
+python-imagecodecs	succeeded
 python-imageio	succeeded
 python-imagesize	succeeded
 python-imapclient	succeeded
@@ -2066,7 +2075,7 @@ python-mailmerge	succeeded
 python-makefun	succeeded
 python-mako	succeeded
 python-managesieve	succeeded
-python-manatools	failed
+python-manatools	succeeded
 python-manilaclient	succeeded
 python-manuel	succeeded
 python-mapbox-earcut	succeeded
@@ -2484,6 +2493,7 @@ python-py-tes	succeeded
 python-py-walk	succeeded
 python-py3nvml	succeeded
 python-pyModbusTCP	succeeded
+python-py_ecc	succeeded
 python-pyaes	succeeded
 python-pyahocorasick	succeeded
 python-pyaib	succeeded
@@ -2874,6 +2884,7 @@ python-rich-rst	succeeded
 python-rich-toolkit	succeeded
 python-rignore	succeeded
 python-rjsmin	succeeded
+python-rlp	succeeded
 python-rmtest	succeeded
 python-rnc2rng	succeeded
 python-robosignatory	succeeded
@@ -3242,6 +3253,7 @@ python-translationstring	succeeded
 python-translitcodec	failed
 python-treq	failed
 python-trezor	succeeded
+python-trie	succeeded
 python-trio	succeeded
 python-trio-websocket	succeeded
 python-triton	succeeded
@@ -3451,7 +3463,8 @@ python-yte	succeeded
 python-ytmusicapi	succeeded
 python-yubico	succeeded
 python-zaqarclient	succeeded
-python-zarr	failed
+python-zarr	succeeded
+python-zarr-checksum	succeeded
 python-zc-lockfile	succeeded
 python-zeep	succeeded
 python-zeroconf	succeeded

@@ -211,10 +211,6 @@
     "urls": [],
     "summaries": []
   },
-  "manafirewall": {
-    "urls": [],
-    "summaries": []
-  },
   "materialx": {
     "urls": [],
     "summaries": []
@@ -543,6 +539,14 @@
     "urls": [],
     "summaries": []
   },
+  "python-botocore": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2424584"
+    ],
+    "summaries": [
+      "python-botocore fails to build with Python 3.15: AssertionError: At index 8 diff: b'\\x00' != b'\\x02'"
+    ]
+  },
   "python-bytecode": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2458689"
@@ -577,14 +581,6 @@
     ],
     "summaries": [
       "python-colcon-core: Fails to build with setuptools 80.9.0, fails to install [pins setuptools < 80, test_build_package fails]"
-    ]
-  },
-  "python-cytoolz": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2447903"
-    ],
-    "summaries": [
-      "python-cytoolz fails to build with Python 3.15: AssertionError: Missing introspection for the following callables: frozendict"
     ]
   },
   "python-dbus-fast": {
@@ -684,6 +680,14 @@
     ]
   },
   "python-etcd": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-eth-event": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-eth-keys": {
     "urls": [],
     "summaries": []
   },
@@ -852,10 +856,6 @@
     ]
   },
   "python-lsp-server": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-manatools": {
     "urls": [],
     "summaries": []
   },
@@ -1296,14 +1296,6 @@
   "python-willow": {
     "urls": [],
     "summaries": []
-  },
-  "python-zarr": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2453855"
-    ],
-    "summaries": [
-      "python-zarr fails to build with Python 3.15:  SyntaxError: \"\\_\" is an invalid escape sequence. Did you mean \"\\\\_\"? A raw string is also an option."
-    ]
   },
   "python-zict": {
     "urls": [

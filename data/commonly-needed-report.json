@@ -34,11 +34,6 @@
       ]
     },
     {
-      "component": "python-cytoolz",
-      "count": 18,
-      "prerel_abi_blocked": true
-    },
-    {
       "component": "python-proto-plus",
       "count": 14,
       "blocked_by": [
@@ -51,13 +46,6 @@
       "count": 14,
       "blocked_by": [
         "python-watchfiles"
-      ]
-    },
-    {
-      "component": "python-eth-utils",
-      "count": 14,
-      "blocked_by": [
-        "python-cytoolz"
       ]
     },
     {
@@ -78,8 +66,7 @@
         "python-dask",
         "python-distributed",
         "python-partd",
-        "python-xarray",
-        "python-zarr"
+        "python-xarray"
       ]
     },
     {
@@ -88,10 +75,6 @@
     },
     {
       "component": "python-backrefs",
-      "count": 9
-    },
-    {
-      "component": "python-zarr",
       "count": 9
     },
     {
@@ -112,16 +95,7 @@
         "python-dask",
         "python-partd",
         "python-rasterio",
-        "python-seaborn",
-        "python-zarr"
-      ]
-    },
-    {
-      "component": "python-hexbytes",
-      "count": 7,
-      "blocked_by": [
-        "python-cytoolz",
-        "python-eth-utils"
+        "python-seaborn"
       ]
     },
     {
@@ -136,14 +110,6 @@
     {
       "component": "python-beartype",
       "count": 6
-    },
-    {
-      "component": "python-rlp",
-      "count": 6,
-      "blocked_by": [
-        "python-cytoolz",
-        "python-eth-utils"
-      ]
     },
     {
       "component": "python-google-cloud-core",
@@ -173,20 +139,8 @@
       ]
     },
     {
-      "component": "python-eth-abi",
-      "count": 5,
-      "blocked_by": [
-        "python-cytoolz",
-        "python-eth-utils"
-      ]
-    },
-    {
       "component": "python-eth-keys",
-      "count": 5,
-      "blocked_by": [
-        "python-cytoolz",
-        "python-eth-utils"
-      ]
+      "count": 5
     },
     {
       "component": "python-django-allauth",
@@ -195,14 +149,6 @@
     {
       "component": "python-patsy",
       "count": 4
-    },
-    {
-      "component": "python-py_ecc",
-      "count": 4,
-      "blocked_by": [
-        "python-cytoolz",
-        "python-eth-utils"
-      ]
     },
     {
       "component": "python-sse-starlette",
@@ -260,20 +206,7 @@
       "component": "python-eth-keyfile",
       "count": 3,
       "blocked_by": [
-        "python-cytoolz",
-        "python-eth-keys",
-        "python-eth-utils",
-        "python-py_ecc"
-      ]
-    },
-    {
-      "component": "python-eth-rlp",
-      "count": 3,
-      "blocked_by": [
-        "python-cytoolz",
-        "python-eth-utils",
-        "python-hexbytes",
-        "python-rlp"
+        "python-eth-keys"
       ]
     },
     {
@@ -349,6 +282,61 @@
     {
       "component": "osc",
       "count": 2
+    },
+    {
+      "component": "qpid-proton",
+      "count": 2,
+      "prerel_abi_blocked": true
+    },
+    {
+      "component": "python-reproject",
+      "count": 2,
+      "blocked_by": [
+        "python-dask",
+        "python-partd"
+      ]
+    },
+    {
+      "component": "mupdf",
+      "count": 2,
+      "prerel_abi_blocked": true,
+      "blocked_by": [
+        "llvm21"
+      ]
+    },
+    {
+      "component": "conda-build",
+      "count": 2,
+      "blocked_by": [
+        "python-conda-index"
+      ]
+    },
+    {
+      "component": "python-distributed",
+      "count": 2,
+      "blocked_by": [
+        "python-dask",
+        "python-partd"
+      ]
+    },
+    {
+      "component": "python-eth-account",
+      "count": 2,
+      "blocked_by": [
+        "python-eth-keyfile",
+        "python-eth-keys"
+      ]
+    },
+    {
+      "component": "python-twine",
+      "count": 2,
+      "blocked_by": [
+        "python-readme-renderer"
+      ]
+    },
+    {
+      "component": "python-neo",
+      "count": 2
     }
   ],
   "most_commonly_last_blocking": [
@@ -371,8 +359,7 @@
         "python-dask",
         "python-partd",
         "python-rasterio",
-        "python-seaborn",
-        "python-zarr"
+        "python-seaborn"
       ]
     },
     {
@@ -389,6 +376,10 @@
         "python-uvicorn",
         "python-watchfiles"
       ]
+    },
+    {
+      "component": "python-niaaml",
+      "count": 2
     },
     {
       "component": "python-matplotlib",
@@ -433,9 +424,8 @@
       "count": 2
     },
     {
-      "component": "python-cytoolz",
-      "count": 2,
-      "prerel_abi_blocked": true
+      "component": "python-eth-keys",
+      "count": 2
     },
     {
       "component": "python-fslpy",
@@ -460,10 +450,6 @@
       ]
     },
     {
-      "component": "python-zarr",
-      "count": 2
-    },
-    {
       "component": "python-watchfiles",
       "count": 2
     },
@@ -472,7 +458,7 @@
       "count": 2
     },
     {
-      "component": "python-niaaml",
+      "component": "pyqtwebengine",
       "count": 1
     }
   ],
@@ -487,17 +473,17 @@
     },
     {
       "components": [
-        "python-cytoolz",
-        "python-eth-utils"
+        "mkdocs-material",
+        "python-backrefs"
       ],
       "count": 5
     },
     {
       "components": [
-        "mkdocs-material",
-        "python-backrefs"
+        "python-dask",
+        "python-partd"
       ],
-      "count": 5
+      "count": 4
     },
     {
       "components": [
@@ -510,13 +496,6 @@
       "components": [
         "python-uvicorn",
         "python-watchfiles"
-      ],
-      "count": 3
-    },
-    {
-      "components": [
-        "python-dask",
-        "python-partd"
       ],
       "count": 3
     },
@@ -546,8 +525,7 @@
       "components": [
         "python-dask",
         "python-partd",
-        "python-reproject",
-        "python-zarr"
+        "python-reproject"
       ],
       "count": 2
     },
@@ -555,15 +533,6 @@
       "components": [
         "python-readme-renderer",
         "python-twine"
-      ],
-      "count": 2
-    },
-    {
-      "components": [
-        "python-cytoolz",
-        "python-eth-utils",
-        "python-hexbytes",
-        "python-rlp"
       ],
       "count": 2
     },
@@ -630,6 +599,21 @@
         "python-backrefs",
         "python-mkdocs-git-revision-date-localized-plugin",
         "python-mkdocs-rss-plugin"
+      ],
+      "count": 1
+    },
+    {
+      "components": [
+        "python-django-allauth",
+        "python-django-mailman3",
+        "python-readme-renderer"
+      ],
+      "count": 1
+    },
+    {
+      "components": [
+        "python-xarray",
+        "python-xarray-einstats"
       ],
       "count": 1
     }
