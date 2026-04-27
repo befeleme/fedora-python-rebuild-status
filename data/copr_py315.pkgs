@@ -124,7 +124,7 @@ calamares	succeeded
 calibre	failed
 calypso	succeeded
 cambalache	succeeded
-cantor	succeeded
+cantor	failed
 capstone	succeeded
 capypdf	succeeded
 cargo2rpm	succeeded
@@ -237,6 +237,8 @@ evemu	succeeded
 f3d	failed
 fail2ban	failed
 fapolicy-analyzer	succeeded
+fastapi-cli	succeeded
+fastapi-cloud-cli	succeeded
 fastapi-new	succeeded
 fawltydeps	succeeded
 fedfind	succeeded
@@ -429,7 +431,7 @@ kvirc	succeeded
 lammps	succeeded
 langtable	succeeded
 lasso	succeeded
-lazygal	failed
+lazygal	succeeded
 ldns	succeeded
 lector	succeeded
 legendary	succeeded
@@ -1079,7 +1081,7 @@ python-babelfish	succeeded
 python-backcall	succeeded
 python-backlash	succeeded
 python-backoff	succeeded
-python-backrefs	failed
+python-backrefs	succeeded
 python-banal	succeeded
 python-base58	succeeded
 python-baseconv	succeeded
@@ -1094,7 +1096,7 @@ python-beanbag	succeeded
 python-beancount	succeeded
 python-beangulp	succeeded
 python-beanprice	succeeded
-python-beartype	failed
+python-beartype	succeeded
 python-beautifulsoup4	succeeded
 python-beautifultable	succeeded
 python-behave	succeeded
@@ -1509,7 +1511,7 @@ python-easygui	succeeded
 python-easyprocess	succeeded
 python-ebooklib	succeeded
 python-eccodes	succeeded
-python-ecdsa	failed
+python-ecdsa	succeeded
 python-edgegrid	succeeded
 python-editables	succeeded
 python-editor	succeeded
@@ -1575,6 +1577,7 @@ python-fakeredis	succeeded
 python-falcon	succeeded
 python-fasjson-client	succeeded
 python-fast-simplification	succeeded
+python-fastapi	succeeded
 python-fastar	succeeded
 python-fastavro	succeeded
 python-fastbencode	succeeded
@@ -1723,7 +1726,7 @@ python-github3py	succeeded
 python-gitlab	succeeded
 python-glad	succeeded
 python-glad2	succeeded
-python-glanceclient	failed
+python-glanceclient	succeeded
 python-glfw	succeeded
 python-glob2	succeeded
 python-glymur	succeeded
@@ -1732,8 +1735,11 @@ python-gmpy2	succeeded
 python-gmqtt	succeeded
 python-gnocchiclient	succeeded
 python-gnupg	succeeded
+python-google-api-core	succeeded
 python-google-auth	succeeded
 python-google-auth-oauthlib	succeeded
+python-google-cloud-core	succeeded
+python-google-cloud-storage	succeeded
 python-google-cloud-testutils	succeeded
 python-google-crc32c	succeeded
 python-google-i18n-address	succeeded
@@ -2093,7 +2099,7 @@ python-markupsafe	succeeded
 python-marshmallow	succeeded
 python-mathics-pygments	succeeded
 python-mathics-scanner	succeeded
-python-matplotlib	failed
+python-matplotlib	succeeded
 python-matplotlib-inline	succeeded
 python-matplotlib-scalebar	succeeded
 python-matrix-common	succeeded
@@ -2360,7 +2366,7 @@ python-parsel	succeeded
 python-parsimonious	succeeded
 python-parsley	succeeded
 python-parso	succeeded
-python-partd	failed
+python-partd	succeeded
 python-pass-import	succeeded
 python-passlib	succeeded
 python-paste	succeeded
@@ -2466,6 +2472,7 @@ python-prompt-toolkit	succeeded
 python-promptml	succeeded
 python-propcache	succeeded
 python-protego	succeeded
+python-proto-plus	succeeded
 python-proton-core	succeeded
 python-proton-vpn-api-core	succeeded
 python-proton-vpn-network-manager	succeeded
@@ -3000,6 +3007,7 @@ python-slixmpp	succeeded
 python-slixmpp-omemo	succeeded
 python-slugify	succeeded
 python-sly	succeeded
+python-smart_open	succeeded
 python-smartypants	succeeded
 python-smbc	succeeded
 python-smbpasswd	succeeded
@@ -3110,6 +3118,7 @@ python-sqlglot	succeeded
 python-sqlite-fts4	succeeded
 python-sqlite-migrate	succeeded
 python-sqlite-utils	succeeded
+python-sqlmodel	succeeded
 python-sqlparse	succeeded
 python-ssdeep	succeeded
 python-ssh-python	succeeded
@@ -3122,7 +3131,7 @@ python-stdlib-list	succeeded
 python-stdlibs	succeeded
 python-stdnum	succeeded
 python-steam	succeeded
-python-steampunk-spotter	succeeded
+python-steampunk-spotter	failed
 python-stem	succeeded
 python-steps	failed
 python-stestr	succeeded
@@ -3346,6 +3355,7 @@ python-utils	succeeded
 python-utmp	succeeded
 python-uv-build	succeeded
 python-uv-dynamic-versioning	succeeded
+python-uvicorn	succeeded
 python-validator-collection	succeeded
 python-validators	succeeded
 python-valkey	succeeded
@@ -3386,7 +3396,7 @@ python-walkdir	succeeded
 python-wand	succeeded
 python-warlock	succeeded
 python-watchdog	failed
-python-watchfiles	running
+python-watchfiles	succeeded
 python-wcag-contrast-ratio	succeeded
 python-wcmatch	succeeded
 python-wcwidth	succeeded

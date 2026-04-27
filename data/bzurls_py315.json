@@ -75,6 +75,10 @@
     "urls": [],
     "summaries": []
   },
+  "cantor": {
+    "urls": [],
+    "summaries": []
+  },
   "classification-banner": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2433911"
@@ -173,14 +177,6 @@
     ],
     "summaries": [
       "kmymoney fails to build with Python 3.15: /usr/include/python3.15/pyport.h:523:9: error: \u2018__STDC_VERSION__\u2019 is not defined, evaluates to \u20180\u2019 [-Werror=undef]"
-    ]
-  },
-  "lazygal": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2458648"
-    ],
-    "summaries": [
-      "lazygal: FTBFS in Fedora Rawhide: ValueError: Namespace GExiv2 not available for version 0.10"
     ]
   },
   "libCombine": {
@@ -503,24 +499,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-backrefs": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2414790"
-    ],
-    "summaries": [
-      "python-backrefs fails to build with Python 3.15: Missing unicode data for 17.0.0"
-    ]
-  },
-  "python-beartype": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2447904",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2432345"
-    ],
-    "summaries": [
-      "python-beartype fails to build with Python 3.15: ImportError: cannot import name 'no_type_check_decorator' from 'typing' (/usr/lib64/python3.15/typing.py)",
-      "python-beartype fails to build with Python 3.15: ImportError: cannot import name 'no_type_check_decorator' from 'typing'"
-    ]
-  },
   "python-blessed": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2434953",
@@ -647,14 +625,6 @@
       "python-dns fails to build with Python 3.15: testInvalidDigestLengthCDS0: AssertionError: 'Odd-length string' != 'Odd number of hexadecimal digits'"
     ]
   },
-  "python-ecdsa": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2458647"
-    ],
-    "summaries": [
-      "python-ecdsa fails to build with Python 3.15: test_SigningKey_from_pem_pkcs8v2_EdDSA: binascii.Error: Incorrect padding"
-    ]
-  },
   "python-einops": {
     "urls": [],
     "summaries": []
@@ -751,14 +721,6 @@
     ],
     "summaries": [
       "python-giacpy: FTBFS in Fedora Rawhide: line 51: Segmentation fault: /usr/bin/python3 -m doctest ../../giacpy/giacpy.pyx -vv"
-    ]
-  },
-  "python-glanceclient": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2460071"
-    ],
-    "summaries": [
-      "python-glanceclient fails to build with Python 3.15: ValueError: unsupported hash algorithm not_an_algo"
     ]
   },
   "python-graph-tool": {
@@ -867,14 +829,6 @@
       "python-markdown-callouts: FTBFS in Fedora rawhide/f44"
     ]
   },
-  "python-matplotlib": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2433761"
-    ],
-    "summaries": [
-      "python-matplotlib fails to build with Python 3.15: failure of test_norm_callback and test_fork"
-    ]
-  },
   "python-meshio": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2460576"
@@ -961,14 +915,6 @@
     ],
     "summaries": [
       "python-opytimizer: FTBFS in Fedora rawhide/f44"
-    ]
-  },
-  "python-partd": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2458729"
-    ],
-    "summaries": [
-      "python-partd fails to build with Python 3.15: NotImplementedError: (string[python], array(['a', 'b', 'c'], dtype=object)) in 5 tests"
     ]
   },
   "python-patsy": {
@@ -1165,14 +1111,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-saharaclient": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2460117"
-    ],
-    "summaries": [
-      "python-saharaclient: FTBFS in Fedora Rawhide: 76 failed tests"
-    ]
-  },
   "python-simple-salesforce": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2460532"
@@ -1190,6 +1128,10 @@
     ]
   },
   "python-sphinx-book-theme": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-steampunk-spotter": {
     "urls": [],
     "summaries": []
   },
@@ -1276,10 +1218,6 @@
     "summaries": [
       "python-watchdog: FTBFS in Fedora Rawhide: requires Sphinx < 9, which is no longer available in Fedora"
     ]
-  },
-  "python-watchfiles": {
-    "urls": [],
-    "summaries": []
   },
   "python-willow": {
     "urls": [],
