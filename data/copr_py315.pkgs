@@ -12,6 +12,7 @@ Macaulay2	succeeded
 Mayavi	failed
 NFStest	succeeded
 NLopt	succeeded
+NiaAML-GUI	failed
 OpenColorIO	succeeded
 OpenImageIO	succeeded
 OpenLP	failed
@@ -136,6 +137,7 @@ cekit	succeeded
 centpkg	succeeded
 cepces	succeeded
 ceph	succeeded
+certbot	failed
 cffconvert	succeeded
 chirp	succeeded
 classification-banner	failed
@@ -216,6 +218,7 @@ dogtail	succeeded
 dot2tex	succeeded
 dt-schema	succeeded
 dtc	succeeded
+duplicity	failed
 dxf2gcode	succeeded
 dynaconf	succeeded
 ec2-hibinit-agent	succeeded
@@ -300,6 +303,7 @@ gitg	succeeded
 gitlint	succeeded
 gjots2	succeeded
 glade	succeeded
+glances	succeeded
 glaxnimate	failed
 globus-net-manager	succeeded
 glusterfs	succeeded
@@ -321,6 +325,7 @@ gnumeric	succeeded
 gnuradio	succeeded
 gobject-introspection	succeeded
 gom	succeeded
+google-api-python-client	succeeded
 google-auth-httplib2	succeeded
 gpaw	succeeded
 gpgme	succeeded
@@ -566,6 +571,7 @@ mirage	succeeded
 mkdocs	succeeded
 mkdocs-bootstrap	succeeded
 mkdocs-bootswatch	succeeded
+mkdocs-material	succeeded
 mkosi	succeeded
 mlpack	succeeded
 mlt	succeeded
@@ -704,8 +710,8 @@ policycoreutils	succeeded
 porcupine	succeeded
 portmidi	succeeded
 postfix-mta-sts-resolver	succeeded
-postgresql16	succeeded
-postgresql17	succeeded
+postgresql16	running
+postgresql17	running
 postgresql18	succeeded
 powerline	succeeded
 pre-commit	succeeded
@@ -923,6 +929,7 @@ python-asn1crypto	succeeded
 python-asn1tools	succeeded
 python-aspy.yaml	succeeded
 python-assertpy	succeeded
+python-ast-monitor	failed
 python-astdoc	succeeded
 python-asteval	succeeded
 python-astroML	succeeded
@@ -1363,6 +1370,7 @@ python-damo	succeeded
 python-dandischema	succeeded
 python-daphne	succeeded
 python-dasbus	succeeded
+python-dask	failed
 python-datalad	succeeded
 python-datanommer-commands	succeeded
 python-datanommer-models	succeeded
@@ -1520,6 +1528,7 @@ python-einops	failed
 python-elastic-transport	failed
 python-elementpath	succeeded
 python-email-validator	succeeded
+python-embreex	succeeded
 python-emcee	succeeded
 python-emoji	succeeded
 python-empy	succeeded
@@ -1533,6 +1542,7 @@ python-envisage	succeeded
 python-enzyme	succeeded
 python-epc	succeeded
 python-ephem	succeeded
+python-esbonio	succeeded
 python-et_xmlfile	failed
 python-etcd	failed
 python-etcd3	succeeded
@@ -1642,6 +1652,7 @@ python-flask-principal	succeeded
 python-flask-restx	succeeded
 python-flask-security-too	succeeded
 python-flask-session	succeeded
+python-flask-socketio	succeeded
 python-flask-sqlalchemy	succeeded
 python-flask-sqlalchemy-lite	succeeded
 python-flask-talisman	succeeded
@@ -1739,6 +1750,7 @@ python-google-api-core	succeeded
 python-google-auth	succeeded
 python-google-auth-oauthlib	succeeded
 python-google-cloud-core	succeeded
+python-google-cloud-dns	succeeded
 python-google-cloud-storage	succeeded
 python-google-cloud-testutils	succeeded
 python-google-crc32c	succeeded
@@ -1815,6 +1827,7 @@ python-httpsig-cffi	succeeded
 python-httptools	succeeded
 python-httpx	succeeded
 python-httpx-socks	succeeded
+python-httpx-sse	succeeded
 python-huami-token	succeeded
 python-huggingface-hub	succeeded
 python-humanfriendly	succeeded
@@ -2107,6 +2120,7 @@ python-matrix-synapse-ldap3	succeeded
 python-maxminddb	succeeded
 python-mbstrdecoder	succeeded
 python-mccabe	succeeded
+python-mcp	succeeded
 python-mdit-py-plugins	succeeded
 python-mdurl	succeeded
 python-mdx_gh_links	succeeded
@@ -2139,6 +2153,7 @@ python-mirrors-countme	failed
 python-mistralclient	succeeded
 python-mistune	succeeded
 python-mitogen	succeeded
+python-mkapi	succeeded
 python-mkdocs-autorefs	failed
 python-mkdocs-click	succeeded
 python-mkdocs-d2-plugin	succeeded
@@ -2146,6 +2161,7 @@ python-mkdocs-gen-files	succeeded
 python-mkdocs-get-deps	succeeded
 python-mkdocs-git-authors-plugin	succeeded
 python-mkdocs-git-committers-plugin-2	succeeded
+python-mkdocs-git-revision-date-localized-plugin	succeeded
 python-mkdocs-include-markdown-plugin	succeeded
 python-mkdocs-literate-nav	succeeded
 python-mkdocs-macros-test	succeeded
@@ -2153,6 +2169,8 @@ python-mkdocs-material-extensions	succeeded
 python-mkdocs-minify-plugin	succeeded
 python-mkdocs-monorepo-plugin	succeeded
 python-mkdocs-redirects	succeeded
+python-mkdocs-rss-plugin	succeeded
+python-mkdocs-static-i18n	succeeded
 python-mmtf	succeeded
 python-mnemonic	succeeded
 python-mock-ssh-server	succeeded
@@ -2289,6 +2307,7 @@ python-op1svg	succeeded
 python-opcodes	succeeded
 python-openai	succeeded
 python-openant	succeeded
+python-openapi-core	succeeded
 python-openapi-pydantic	succeeded
 python-openapi-schema-validator	succeeded
 python-openapi-spec-validator	succeeded
@@ -2399,6 +2418,7 @@ python-pebble	succeeded
 python-pecan	succeeded
 python-peewee	succeeded
 python-pefile	succeeded
+python-pelican	succeeded
 python-pem	succeeded
 python-pendulum	succeeded
 python-pep8-naming	succeeded
@@ -2734,6 +2754,7 @@ python-pytest-lazy-fixture	succeeded
 python-pytest-lazy-fixtures	succeeded
 python-pytest-localftpserver	succeeded
 python-pytest-localserver	succeeded
+python-pytest-lsp	succeeded
 python-pytest-metadata	succeeded
 python-pytest-mock	succeeded
 python-pytest-mpi	succeeded
@@ -3013,16 +3034,34 @@ python-smbc	succeeded
 python-smbpasswd	succeeded
 python-smbprotocol	succeeded
 python-smmap	succeeded
+python-snakemake-executor-plugin-cluster-generic	succeeded
+python-snakemake-executor-plugin-cluster-sync	succeeded
+python-snakemake-executor-plugin-flux	succeeded
+python-snakemake-executor-plugin-kubernetes	succeeded
+python-snakemake-executor-plugin-slurm	succeeded
+python-snakemake-executor-plugin-slurm-jobstep	succeeded
+python-snakemake-executor-plugin-tes	succeeded
 python-snakemake-interface-common	succeeded
 python-snakemake-interface-executor-plugins	succeeded
 python-snakemake-interface-logger-plugins	succeeded
 python-snakemake-interface-report-plugins	succeeded
 python-snakemake-interface-scheduler-plugins	succeeded
 python-snakemake-interface-storage-plugins	succeeded
+python-snakemake-logger-plugin-rich	succeeded
+python-snakemake-storage-plugin-azure	succeeded
+python-snakemake-storage-plugin-fs	succeeded
+python-snakemake-storage-plugin-ftp	succeeded
+python-snakemake-storage-plugin-gcs	succeeded
+python-snakemake-storage-plugin-http	succeeded
+python-snakemake-storage-plugin-s3	succeeded
+python-snakemake-storage-plugin-webdav	succeeded
+python-snakemake-storage-plugin-xrootd	succeeded
+python-snakemake-storage-plugin-zenodo	succeeded
 python-snappy	succeeded
 python-snaptime	succeeded
 python-sniffio	succeeded
 python-social-auth-core	succeeded
+python-socketio	succeeded
 python-socks	succeeded
 python-socksio	succeeded
 python-solc-ast	succeeded
@@ -3032,6 +3071,7 @@ python-sounddevice	succeeded
 python-soundfile	succeeded
 python-soupsieve	succeeded
 python-spdx-license-list	succeeded
+python-spdx-tools	succeeded
 python-speaklater	succeeded
 python-specfile	succeeded
 python-speedtest-cli	succeeded
@@ -3040,6 +3080,7 @@ python-sphinx	succeeded
 python-sphinx-argparse	succeeded
 python-sphinx-argparse-cli	failed
 python-sphinx-autoapi	succeeded
+python-sphinx-autobuild	succeeded
 python-sphinx-autodoc-typehints	succeeded
 python-sphinx-basic-ng	succeeded
 python-sphinx-book-theme	failed
@@ -3101,6 +3142,7 @@ python-sphinxext-opengraph	succeeded
 python-sphinxtesters	succeeded
 python-sphinxygen	succeeded
 python-spnego	succeeded
+python-sport-activities-features	succeeded
 python-spotipy	succeeded
 python-spur	succeeded
 python-spyder-kernels	succeeded
@@ -3121,6 +3163,7 @@ python-sqlite-utils	succeeded
 python-sqlmodel	succeeded
 python-sqlparse	succeeded
 python-ssdeep	succeeded
+python-sse-starlette	succeeded
 python-ssh-python	succeeded
 python-sshtunnel	succeeded
 python-stack-data	succeeded
@@ -3573,6 +3616,7 @@ rpkg-util	succeeded
 rpl	succeeded
 rpm	succeeded
 rpm-head-signing	succeeded
+rpm-spec-language-server	failed
 rpmconf	succeeded
 rpmdeplint	succeeded
 rpmlint	succeeded
@@ -3595,6 +3639,7 @@ samba	failed
 sanlock	succeeded
 sasutils	succeeded
 satyr	succeeded
+scancode-toolkit	failed
 scapy	succeeded
 scidavis	succeeded
 scipy	succeeded
@@ -3623,6 +3668,7 @@ slingshot	succeeded
 slowloris	succeeded
 smbcmp	succeeded
 smoldyn	succeeded
+snakemake	succeeded
 snapm	succeeded
 snowball	succeeded
 solaar	succeeded

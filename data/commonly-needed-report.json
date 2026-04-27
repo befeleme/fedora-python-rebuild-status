@@ -1,91 +1,12 @@
 {
   "most_commonly_needed": [
     {
-      "component": "python-sqlmodel",
-      "count": 24,
-      "blocked_by": [
-        "python-fastapi"
-      ]
-    },
-    {
-      "component": "python-smart_open",
-      "count": 24,
-      "blocked_by": [
-        "python-google-api-core",
-        "python-google-cloud-core",
-        "python-google-cloud-storage",
-        "python-proto-plus"
-      ]
-    },
-    {
-      "component": "snakemake",
-      "count": 22,
-      "blocked_by": [
-        "python-google-api-core",
-        "python-google-cloud-core",
-        "python-google-cloud-storage",
-        "python-proto-plus",
-        "python-smart_open",
-        "python-snakemake-executor-plugin-cluster-generic",
-        "python-snakemake-storage-plugin-fs",
-        "python-snakemake-storage-plugin-http",
-        "python-snakemake-storage-plugin-s3",
-        "python-sqlmodel"
-      ]
-    },
-    {
-      "component": "python-proto-plus",
-      "count": 14,
-      "blocked_by": [
-        "python-google-api-core",
-        "python-proto-plus"
-      ]
-    },
-    {
-      "component": "python-uvicorn",
-      "count": 14,
-      "blocked_by": [
-        "python-watchfiles"
-      ]
-    },
-    {
-      "component": "python-google-api-core",
-      "count": 12,
-      "blocked_by": [
-        "python-proto-plus"
-      ]
-    },
-    {
-      "component": "python-partd",
-      "count": 11
-    },
-    {
       "component": "python-dask",
       "count": 10,
       "blocked_by": [
         "python-dask",
         "python-distributed",
-        "python-partd",
         "python-xarray"
-      ]
-    },
-    {
-      "component": "python-watchfiles",
-      "count": 9
-    },
-    {
-      "component": "python-backrefs",
-      "count": 9
-    },
-    {
-      "component": "python-fastapi",
-      "count": 7,
-      "blocked_by": [
-        "fastapi-cli",
-        "fastapi-cloud-cli",
-        "python-sqlmodel",
-        "python-uvicorn",
-        "python-watchfiles"
       ]
     },
     {
@@ -93,30 +14,8 @@
       "count": 7,
       "blocked_by": [
         "python-dask",
-        "python-partd",
         "python-rasterio",
         "python-seaborn"
-      ]
-    },
-    {
-      "component": "mkdocs-material",
-      "count": 7,
-      "blocked_by": [
-        "python-backrefs",
-        "python-mkdocs-git-revision-date-localized-plugin",
-        "python-mkdocs-rss-plugin"
-      ]
-    },
-    {
-      "component": "python-beartype",
-      "count": 6
-    },
-    {
-      "component": "python-google-cloud-core",
-      "count": 6,
-      "blocked_by": [
-        "python-google-api-core",
-        "python-proto-plus"
       ]
     },
     {
@@ -151,29 +50,8 @@
       "count": 4
     },
     {
-      "component": "python-sse-starlette",
-      "count": 4,
-      "blocked_by": [
-        "python-fastapi",
-        "python-uvicorn"
-      ]
-    },
-    {
       "component": "python-lsp-server",
       "count": 4
-    },
-    {
-      "component": "python-google-cloud-storage",
-      "count": 4,
-      "blocked_by": [
-        "python-google-api-core",
-        "python-google-cloud-core",
-        "python-proto-plus"
-      ]
-    },
-    {
-      "component": "python-niaaml",
-      "count": 3
     },
     {
       "component": "python-django-mailman3",
@@ -210,17 +88,6 @@
       ]
     },
     {
-      "component": "python-pygls",
-      "count": 3
-    },
-    {
-      "component": "python-httpx-sse",
-      "count": 3,
-      "blocked_by": [
-        "python-sse-starlette"
-      ]
-    },
-    {
       "component": "pyqtwebengine",
       "count": 2
     },
@@ -248,34 +115,9 @@
       "prerel_abi_blocked": true
     },
     {
-      "component": "google-api-python-client",
-      "count": 2,
-      "blocked_by": [
-        "python-google-api-core",
-        "python-proto-plus"
-      ]
-    },
-    {
-      "component": "fastapi-cloud-cli",
-      "count": 2,
-      "blocked_by": [
-        "python-uvicorn",
-        "python-watchfiles"
-      ]
-    },
-    {
-      "component": "python-spdx-tools",
-      "count": 2,
-      "blocked_by": [
-        "python-beartype"
-      ]
-    },
-    {
       "component": "go-vendor-tools",
       "count": 2,
       "blocked_by": [
-        "python-beartype",
-        "python-spdx-tools",
         "scancode-toolkit"
       ]
     },
@@ -292,8 +134,7 @@
       "component": "python-reproject",
       "count": 2,
       "blocked_by": [
-        "python-dask",
-        "python-partd"
+        "python-dask"
       ]
     },
     {
@@ -315,8 +156,7 @@
       "component": "python-distributed",
       "count": 2,
       "blocked_by": [
-        "python-dask",
-        "python-partd"
+        "python-dask"
       ]
     },
     {
@@ -337,9 +177,127 @@
     {
       "component": "python-neo",
       "count": 2
+    },
+    {
+      "component": "python-py-key-value",
+      "count": 2,
+      "blocked_by": [
+        "python-elasticsearch"
+      ]
+    },
+    {
+      "component": "python-igraph",
+      "count": 2,
+      "prerel_abi_blocked": true,
+      "blocked_by": [
+        "python-graph-tool"
+      ]
+    },
+    {
+      "component": "python-libpysal",
+      "count": 2,
+      "blocked_by": [
+        "python-xarray"
+      ]
+    },
+    {
+      "component": "python-cartopy",
+      "count": 2
+    },
+    {
+      "component": "xapian-bindings",
+      "count": 2
+    },
+    {
+      "component": "python-azure-mgmt-advisor",
+      "count": 1
+    },
+    {
+      "component": "python-azure-mgmt-billing",
+      "count": 1
+    },
+    {
+      "component": "python-azure-mgmt-datamigration",
+      "count": 1
+    },
+    {
+      "component": "python-azure-mgmt-maps",
+      "count": 1
+    },
+    {
+      "component": "python-azure-mgmt-marketplaceordering",
+      "count": 1
+    },
+    {
+      "component": "spec2nii",
+      "count": 1,
+      "blocked_by": [
+        "python-fslpy",
+        "python-nifti-mrs"
+      ]
+    },
+    {
+      "component": "python-duecredit",
+      "count": 1,
+      "blocked_by": [
+        "python-patsy",
+        "python-statsmodels"
+      ]
+    },
+    {
+      "component": "python-treq",
+      "count": 1
+    },
+    {
+      "component": "subscription-manager",
+      "count": 1,
+      "prerel_abi_blocked": true
+    },
+    {
+      "component": "python-uranium",
+      "count": 1
+    },
+    {
+      "component": "scancode-toolkit",
+      "count": 1
+    },
+    {
+      "component": "python-translitcodec",
+      "count": 1
+    },
+    {
+      "component": "python-xarray-einstats",
+      "count": 1,
+      "blocked_by": [
+        "python-xarray"
+      ]
+    },
+    {
+      "component": "certbot",
+      "count": 1
+    },
+    {
+      "component": "python-numpoly",
+      "count": 1
+    },
+    {
+      "component": "python-conda-index",
+      "count": 1,
+      "blocked_by": [
+        "conda-build"
+      ]
     }
   ],
   "most_commonly_last_blocking": [
+    {
+      "component": "python-dask",
+      "count": 4,
+      "blocked_by": [
+        "python-dask",
+        "python-distributed",
+        "python-xarray"
+      ]
+    },
     {
       "component": "python-seaborn",
       "count": 3,
@@ -349,15 +307,10 @@
       ]
     },
     {
-      "component": "python-pygls",
-      "count": 3
-    },
-    {
       "component": "python-xarray",
       "count": 3,
       "blocked_by": [
         "python-dask",
-        "python-partd",
         "python-rasterio",
         "python-seaborn"
       ]
@@ -367,21 +320,6 @@
       "count": 3
     },
     {
-      "component": "python-fastapi",
-      "count": 3,
-      "blocked_by": [
-        "fastapi-cli",
-        "fastapi-cloud-cli",
-        "python-sqlmodel",
-        "python-uvicorn",
-        "python-watchfiles"
-      ]
-    },
-    {
-      "component": "python-niaaml",
-      "count": 2
-    },
-    {
       "component": "python-matplotlib",
       "count": 2
     },
@@ -389,8 +327,6 @@
       "component": "go-vendor-tools",
       "count": 2,
       "blocked_by": [
-        "python-beartype",
-        "python-spdx-tools",
         "scancode-toolkit"
       ]
     },
@@ -435,70 +371,36 @@
       ]
     },
     {
-      "component": "python-proto-plus",
-      "count": 2,
-      "blocked_by": [
-        "python-google-api-core",
-        "python-proto-plus"
-      ]
-    },
-    {
-      "component": "python-uvicorn",
-      "count": 2,
-      "blocked_by": [
-        "python-watchfiles"
-      ]
-    },
-    {
-      "component": "python-watchfiles",
-      "count": 2
-    },
-    {
       "component": "xapian-bindings",
       "count": 2
     },
     {
       "component": "pyqtwebengine",
       "count": 1
+    },
+    {
+      "component": "python-treq",
+      "count": 1
+    },
+    {
+      "component": "subscription-manager",
+      "count": 1,
+      "prerel_abi_blocked": true
+    },
+    {
+      "component": "python-uranium",
+      "count": 1
+    },
+    {
+      "component": "scancode-toolkit",
+      "count": 1
+    },
+    {
+      "component": "python-translitcodec",
+      "count": 1
     }
   ],
   "most_commonly_last_blocking_combinations": [
-    {
-      "components": [
-        "python-smart_open",
-        "python-sqlmodel",
-        "snakemake"
-      ],
-      "count": 18
-    },
-    {
-      "components": [
-        "mkdocs-material",
-        "python-backrefs"
-      ],
-      "count": 5
-    },
-    {
-      "components": [
-        "python-dask",
-        "python-partd"
-      ],
-      "count": 4
-    },
-    {
-      "components": [
-        "python-google-api-core",
-        "python-proto-plus"
-      ],
-      "count": 4
-    },
-    {
-      "components": [
-        "python-uvicorn",
-        "python-watchfiles"
-      ],
-      "count": 3
-    },
     {
       "components": [
         "python-patsy",
@@ -508,24 +410,16 @@
     },
     {
       "components": [
-        "google-api-python-client",
-        "python-google-api-core",
-        "python-proto-plus"
-      ],
-      "count": 2
-    },
-    {
-      "components": [
-        "python-fastapi",
-        "python-uvicorn"
-      ],
-      "count": 2
-    },
-    {
-      "components": [
         "python-dask",
-        "python-partd",
         "python-reproject"
+      ],
+      "count": 2
+    },
+    {
+      "components": [
+        "python-eth-account",
+        "python-eth-keyfile",
+        "python-eth-keys"
       ],
       "count": 2
     },
@@ -533,14 +427,6 @@
       "components": [
         "python-readme-renderer",
         "python-twine"
-      ],
-      "count": 2
-    },
-    {
-      "components": [
-        "python-google-api-core",
-        "python-google-cloud-core",
-        "python-proto-plus"
       ],
       "count": 2
     },
@@ -572,33 +458,8 @@
     },
     {
       "components": [
-        "fastapi-cloud-cli",
-        "python-fastapi",
-        "python-uvicorn",
-        "python-watchfiles"
-      ],
-      "count": 1
-    },
-    {
-      "components": [
-        "python-beartype",
-        "python-spdx-tools",
-        "scancode-toolkit"
-      ],
-      "count": 1
-    },
-    {
-      "components": [
         "python-django-allauth",
         "python-django-mailman3"
-      ],
-      "count": 1
-    },
-    {
-      "components": [
-        "python-backrefs",
-        "python-mkdocs-git-revision-date-localized-plugin",
-        "python-mkdocs-rss-plugin"
       ],
       "count": 1
     },
@@ -614,6 +475,88 @@
       "components": [
         "python-xarray",
         "python-xarray-einstats"
+      ],
+      "count": 1
+    },
+    {
+      "components": [
+        "python-dask",
+        "python-distributed",
+        "python-xarray"
+      ],
+      "count": 1
+    },
+    {
+      "components": [
+        "python-eth-keyfile",
+        "python-eth-keys"
+      ],
+      "count": 1
+    },
+    {
+      "components": [
+        "mupdf",
+        "python-PyMuPDF"
+      ],
+      "count": 1
+    },
+    {
+      "components": [
+        "python-py-key-value",
+        "python-pydocket"
+      ],
+      "count": 1
+    },
+    {
+      "components": [
+        "python-fsleyes-props",
+        "python-fslpy",
+        "python-trimesh"
+      ],
+      "count": 1
+    },
+    {
+      "components": [
+        "python-dask",
+        "python-distributed"
+      ],
+      "count": 1
+    },
+    {
+      "components": [
+        "python-django-allauth",
+        "python-django-mailman3",
+        "python-hyperkitty",
+        "python-postorius",
+        "python-readme-renderer"
+      ],
+      "count": 1
+    },
+    {
+      "components": [
+        "python-contextily",
+        "python-igraph",
+        "python-libpysal",
+        "python-rasterio",
+        "python-seaborn"
+      ],
+      "count": 1
+    },
+    {
+      "components": [
+        "python-cartopy",
+        "python-xarray"
+      ],
+      "count": 1
+    },
+    {
+      "components": [
+        "pyqtwebengine",
+        "python-lsp-black",
+        "python-lsp-ruff",
+        "python-lsp-server",
+        "python-pyls-spyder",
+        "python-superqt"
       ],
       "count": 1
     }
