@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Append today's data to the burndown JSON. Idempotent — skips if today exists."""
+"""Append today's data to the burndown JSON. Updates if today exists."""
 
 import json
 import re
@@ -44,10 +44,6 @@ def main():
     except FileNotFoundError:
         entries = []
 
-    if entries and entries[-1]["date"] == today:
-        print(f"Entry for {today} already exists, skipping", file=sys.stderr)
-        return
-
     entry = {
         "date": today,
         "timestamp": now.isoformat(),
@@ -56,12 +52,17 @@ def main():
     for key, filepath in DATA_FILES.items():
         entry[key] = count_lines(filepath)
 
-    entries.append(entry)
+    if entries and entries[-1]["date"] == today:
+        entries[-1] = entry
+        action = "Updated"
+    else:
+        entries.append(entry)
+        action = "Appended"
 
     with open(OUTPUT, "w") as f:
         json.dump(entries, f, indent=2)
 
-    print(f"Appended entry for {today} to {OUTPUT}", file=sys.stderr)
+    print(f"{action} entry for {today} to {OUTPUT}", file=sys.stderr)
 
 
 if __name__ == "__main__":
