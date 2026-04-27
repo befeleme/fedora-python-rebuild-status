@@ -704,14 +704,14 @@ plplot	succeeded
 pmbootstrap	succeeded
 pocketsphinx	succeeded
 podman-compose	succeeded
-poetry	failed
+poetry	succeeded
 poezio-omemo	succeeded
 policycoreutils	succeeded
 porcupine	succeeded
 portmidi	succeeded
 postfix-mta-sts-resolver	succeeded
-postgresql16	running
-postgresql17	running
+postgresql16	succeeded
+postgresql17	succeeded
 postgresql18	succeeded
 powerline	succeeded
 pre-commit	succeeded
@@ -2075,8 +2075,10 @@ python-logutils	succeeded
 python-logzero	succeeded
 python-looseversion	succeeded
 python-lru-dict	succeeded
+python-lsp-black	succeeded
 python-lsp-jsonrpc	succeeded
-python-lsp-server	failed
+python-lsp-ruff	succeeded
+python-lsp-server	succeeded
 python-lsprotocol	succeeded
 python-lunr	succeeded
 python-lupa	succeeded
@@ -2618,6 +2620,7 @@ python-pylibmc	succeeded
 python-pylibravatar	succeeded
 python-pylint-venv	succeeded
 python-pylons-sphinx-themes	succeeded
+python-pyls-spyder	succeeded
 python-pylsqpack	succeeded
 python-pymacaroons-pynacl	succeeded
 python-pymapvbvd	succeeded
@@ -3280,7 +3283,7 @@ python-toml-cli	failed
 python-tomli	succeeded
 python-tomli-w	succeeded
 python-tomlkit	succeeded
-python-toolz	failed
+python-toolz	succeeded
 python-torch	succeeded
 python-torchaudio	succeeded
 python-torchdata	succeeded

@@ -307,14 +307,6 @@
       "petsc fails to build with Python 3.15: AssertionError: 2 != 3; self.assertEqual(getrefcount(context), 3)"
     ]
   },
-  "poetry": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2458671"
-    ],
-    "summaries": [
-      "poetry fails to build with Python 3.15: test_load_successful_with_invalid_distribution: importlib.metadata.MetadataNotFound: No package metadata was found."
-    ]
-  },
   "pykakasi": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2440185"
@@ -837,10 +829,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-lsp-server": {
-    "urls": [],
-    "summaries": []
-  },
   "python-markdown-callouts": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2434991"
@@ -1190,14 +1178,6 @@
   "python-toml-cli": {
     "urls": [],
     "summaries": []
-  },
-  "python-toolz": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2447909"
-    ],
-    "summaries": [
-      "python-toolz fails to build with Python 3.15: AssertionError: Missing introspection for the following callables: frozendict"
-    ]
   },
   "python-translitcodec": {
     "urls": [

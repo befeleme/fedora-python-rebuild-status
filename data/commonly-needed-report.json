@@ -50,10 +50,6 @@
       "count": 4
     },
     {
-      "component": "python-lsp-server",
-      "count": 4
-    },
-    {
       "component": "python-django-mailman3",
       "count": 3,
       "blocked_by": [
@@ -286,6 +282,14 @@
       "blocked_by": [
         "conda-build"
       ]
+    },
+    {
+      "component": "python-PyMuPDF",
+      "count": 1,
+      "prerel_abi_blocked": true,
+      "blocked_by": [
+        "mupdf"
+      ]
     }
   ],
   "most_commonly_last_blocking": [
@@ -314,10 +318,6 @@
         "python-rasterio",
         "python-seaborn"
       ]
-    },
-    {
-      "component": "python-lsp-server",
-      "count": 3
     },
     {
       "component": "python-matplotlib",
@@ -398,6 +398,14 @@
     {
       "component": "python-translitcodec",
       "count": 1
+    },
+    {
+      "component": "mupdf",
+      "count": 1,
+      "prerel_abi_blocked": true,
+      "blocked_by": [
+        "llvm21"
+      ]
     }
   ],
   "most_commonly_last_blocking_combinations": [
@@ -552,10 +560,6 @@
     {
       "components": [
         "pyqtwebengine",
-        "python-lsp-black",
-        "python-lsp-ruff",
-        "python-lsp-server",
-        "python-pyls-spyder",
         "python-superqt"
       ],
       "count": 1
