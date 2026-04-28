@@ -14,8 +14,7 @@
       "count": 7,
       "blocked_by": [
         "python-dask",
-        "python-rasterio",
-        "python-seaborn"
+        "python-rasterio"
       ]
     },
     {
@@ -26,27 +25,11 @@
       ]
     },
     {
-      "component": "python-readme-renderer",
-      "count": 5
-    },
-    {
-      "component": "python-seaborn",
-      "count": 5,
-      "blocked_by": [
-        "python-patsy",
-        "python-statsmodels"
-      ]
-    },
-    {
       "component": "python-eth-keys",
       "count": 5
     },
     {
       "component": "python-django-allauth",
-      "count": 4
-    },
-    {
-      "component": "python-patsy",
       "count": 4
     },
     {
@@ -68,13 +51,6 @@
     {
       "component": "python-rasterio",
       "count": 3
-    },
-    {
-      "component": "python-statsmodels",
-      "count": 3,
-      "blocked_by": [
-        "python-patsy"
-      ]
     },
     {
       "component": "python-eth-keyfile",
@@ -164,22 +140,8 @@
       ]
     },
     {
-      "component": "python-twine",
-      "count": 2,
-      "blocked_by": [
-        "python-readme-renderer"
-      ]
-    },
-    {
       "component": "python-neo",
       "count": 2
-    },
-    {
-      "component": "python-py-key-value",
-      "count": 2,
-      "blocked_by": [
-        "python-elasticsearch"
-      ]
     },
     {
       "component": "python-igraph",
@@ -233,14 +195,6 @@
       ]
     },
     {
-      "component": "python-duecredit",
-      "count": 1,
-      "blocked_by": [
-        "python-patsy",
-        "python-statsmodels"
-      ]
-    },
-    {
       "component": "python-treq",
       "count": 1
     },
@@ -290,6 +244,49 @@
       "blocked_by": [
         "mupdf"
       ]
+    },
+    {
+      "component": "python-fsleyes-props",
+      "count": 1,
+      "blocked_by": [
+        "python-fslpy"
+      ]
+    },
+    {
+      "component": "python-mapclassify",
+      "count": 1,
+      "blocked_by": [
+        "python-libpysal"
+      ]
+    },
+    {
+      "component": "python-astroquery",
+      "count": 1
+    },
+    {
+      "component": "python-sphinx-book-theme",
+      "count": 1
+    },
+    {
+      "component": "python-graph-tool",
+      "count": 1,
+      "prerel_abi_blocked": true
+    },
+    {
+      "component": "python-hyperkitty",
+      "count": 1,
+      "blocked_by": [
+        "python-django-allauth",
+        "python-django-mailman3"
+      ]
+    },
+    {
+      "component": "python-postorius",
+      "count": 1,
+      "blocked_by": [
+        "python-django-allauth",
+        "python-django-mailman3"
+      ]
     }
   ],
   "most_commonly_last_blocking": [
@@ -303,20 +300,11 @@
       ]
     },
     {
-      "component": "python-seaborn",
-      "count": 3,
-      "blocked_by": [
-        "python-patsy",
-        "python-statsmodels"
-      ]
-    },
-    {
       "component": "python-xarray",
       "count": 3,
       "blocked_by": [
         "python-dask",
-        "python-rasterio",
-        "python-seaborn"
+        "python-rasterio"
       ]
     },
     {
@@ -406,15 +394,19 @@
       "blocked_by": [
         "llvm21"
       ]
+    },
+    {
+      "component": "certbot",
+      "count": 1
     }
   ],
   "most_commonly_last_blocking_combinations": [
     {
       "components": [
-        "python-patsy",
-        "python-statsmodels"
+        "python-django-allauth",
+        "python-django-mailman3"
       ],
-      "count": 3
+      "count": 2
     },
     {
       "components": [
@@ -433,13 +425,6 @@
     },
     {
       "components": [
-        "python-readme-renderer",
-        "python-twine"
-      ],
-      "count": 2
-    },
-    {
-      "components": [
         "python-azure-mgmt-advisor",
         "python-azure-mgmt-billing",
         "python-azure-mgmt-datamigration",
@@ -450,7 +435,6 @@
     },
     {
       "components": [
-        "python-duecredit",
         "python-fslpy",
         "python-nifti-mrs",
         "spec2nii"
@@ -461,21 +445,6 @@
       "components": [
         "materialx",
         "usd"
-      ],
-      "count": 1
-    },
-    {
-      "components": [
-        "python-django-allauth",
-        "python-django-mailman3"
-      ],
-      "count": 1
-    },
-    {
-      "components": [
-        "python-django-allauth",
-        "python-django-mailman3",
-        "python-readme-renderer"
       ],
       "count": 1
     },
@@ -510,13 +479,6 @@
     },
     {
       "components": [
-        "python-py-key-value",
-        "python-pydocket"
-      ],
-      "count": 1
-    },
-    {
-      "components": [
         "python-fsleyes-props",
         "python-fslpy",
         "python-trimesh"
@@ -535,8 +497,7 @@
         "python-django-allauth",
         "python-django-mailman3",
         "python-hyperkitty",
-        "python-postorius",
-        "python-readme-renderer"
+        "python-postorius"
       ],
       "count": 1
     },
@@ -545,8 +506,7 @@
         "python-contextily",
         "python-igraph",
         "python-libpysal",
-        "python-rasterio",
-        "python-seaborn"
+        "python-rasterio"
       ],
       "count": 1
     },
@@ -561,6 +521,35 @@
       "components": [
         "pyqtwebengine",
         "python-superqt"
+      ],
+      "count": 1
+    },
+    {
+      "components": [
+        "blender",
+        "python-ezdxf",
+        "usd"
+      ],
+      "count": 1
+    },
+    {
+      "components": [
+        "python-dask",
+        "python-rasterio"
+      ],
+      "count": 1
+    },
+    {
+      "components": [
+        "python-dask",
+        "python-xarray"
+      ],
+      "count": 1
+    },
+    {
+      "components": [
+        "python-fslpy",
+        "python-nifti-mrs"
       ],
       "count": 1
     }

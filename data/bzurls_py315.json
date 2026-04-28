@@ -11,6 +11,10 @@
     "urls": [],
     "summaries": []
   },
+  "OpenImageIO": {
+    "urls": [],
+    "summaries": []
+  },
   "OpenLP": {
     "urls": [],
     "summaries": []
@@ -202,6 +206,10 @@
     "summaries": [
       "libkml: FTBFS in Fedora rawhide/f44"
     ]
+  },
+  "libreoffice": {
+    "urls": [],
+    "summaries": []
   },
   "llvm": {
     "urls": [
@@ -517,18 +525,6 @@
       "python-blessed fails to build with Python 3.15: Additional space in test_wrap.py::test_SequenceWrapper[1-kwargs5]"
     ]
   },
-  "python-boto3": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-botocore": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2424584"
-    ],
-    "summaries": [
-      "python-botocore fails to build with Python 3.15: AssertionError: At index 8 diff: b'\\x00' != b'\\x02'"
-    ]
-  },
   "python-bytecode": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2458689"
@@ -735,10 +731,6 @@
       "python-giacpy: FTBFS in Fedora Rawhide: line 51: Segmentation fault: /usr/bin/python3 -m doctest ../../giacpy/giacpy.pyx -vv"
     ]
   },
-  "python-graph-tool": {
-    "urls": [],
-    "summaries": []
-  },
   "python-hdmf": {
     "urls": [],
     "summaries": []
@@ -770,6 +762,10 @@
     ]
   },
   "python-ibm-cloud-sdk-core": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-igraph": {
     "urls": [],
     "summaries": []
   },
@@ -835,6 +831,14 @@
     ],
     "summaries": [
       "python-markdown-callouts: FTBFS in Fedora rawhide/f44"
+    ]
+  },
+  "python-matplotlib": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2433761"
+    ],
+    "summaries": [
+      "python-matplotlib fails to build with Python 3.15: failure of test_norm_callback and test_fork"
     ]
   },
   "python-meshio": {
@@ -925,14 +929,6 @@
       "python-opytimizer: FTBFS in Fedora rawhide/f44"
     ]
   },
-  "python-patsy": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2440691"
-    ],
-    "summaries": [
-      "python-patsy fails to build with Python 3.15: ValueError: Cannot use capturing groups in re.Scanner"
-    ]
-  },
   "python-pip": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2458631"
@@ -1019,10 +1015,6 @@
       "python-pytest-django fails to build with Python 3.15: AttributeError: 'ConfigurationLoader' object has no attribute 'exec_module'. Did you mean: 'load_module'?"
     ]
   },
-  "python-pytest-httpx": {
-    "urls": [],
-    "summaries": []
-  },
   "python-pytest-tldr": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2435014",
@@ -1070,14 +1062,6 @@
   "python-rasterio": {
     "urls": [],
     "summaries": []
-  },
-  "python-readme-renderer": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2424573"
-    ],
-    "summaries": [
-      "python-readme-renderer fails to build with Python 3.15: test_cli_package: No content rendered from RST source."
-    ]
   },
   "python-reportlab": {
     "urls": [
@@ -1255,6 +1239,10 @@
       "qpid-proton: FTBFS with change proposal CMake: Use ninja generator by default"
     ]
   },
+  "qtile": {
+    "urls": [],
+    "summaries": []
+  },
   "rebase-helper": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2460122"
@@ -1340,10 +1328,6 @@
     "summaries": []
   },
   "virtme-ng": {
-    "urls": [],
-    "summaries": []
-  },
-  "vtk": {
     "urls": [],
     "summaries": []
   },
