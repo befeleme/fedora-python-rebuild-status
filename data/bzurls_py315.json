@@ -7,19 +7,7 @@
       "Mayavi: FTBFS in Fedora rawhide/f44"
     ]
   },
-  "NiaAML-GUI": {
-    "urls": [],
-    "summaries": []
-  },
-  "OpenImageIO": {
-    "urls": [],
-    "summaries": []
-  },
   "OpenLP": {
-    "urls": [],
-    "summaries": []
-  },
-  "ProDy": {
     "urls": [],
     "summaries": []
   },
@@ -79,14 +67,6 @@
       "bout++: FTBFS in Fedora rawhide/f44"
     ]
   },
-  "calibre": {
-    "urls": [],
-    "summaries": []
-  },
-  "cantor": {
-    "urls": [],
-    "summaries": []
-  },
   "certbot": {
     "urls": [],
     "summaries": []
@@ -98,10 +78,6 @@
     "summaries": [
       "classification-banner: FTBFS in Fedora rawhide/f44"
     ]
-  },
-  "deluge": {
-    "urls": [],
-    "summaries": []
   },
   "dionaea": {
     "urls": [
@@ -127,10 +103,6 @@
       "dnf-plugin-perfmetrics: FTBFS with change proposal CMake 4.0"
     ]
   },
-  "dnsviz": {
-    "urls": [],
-    "summaries": []
-  },
   "duplicity": {
     "urls": [],
     "summaries": []
@@ -147,10 +119,6 @@
     "urls": [],
     "summaries": []
   },
-  "f3d": {
-    "urls": [],
-    "summaries": []
-  },
   "fail2ban": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2423879"
@@ -158,14 +126,6 @@
     "summaries": [
       "fail2ban fails to build with Python 3.15: AttributeError: 'SourceFileLoader' object has no attribute 'load_module'. Did you mean: 'exec_module'?"
     ]
-  },
-  "glaxnimate": {
-    "urls": [],
-    "summaries": []
-  },
-  "gmsh": {
-    "urls": [],
-    "summaries": []
   },
   "jc": {
     "urls": [
@@ -175,15 +135,7 @@
       "jc fails to build with Python 3.15: AssertionError: 'format': 1760, != 'format': 7250,"
     ]
   },
-  "kernel": {
-    "urls": [],
-    "summaries": []
-  },
   "kicad": {
-    "urls": [],
-    "summaries": []
-  },
-  "kig": {
     "urls": [],
     "summaries": []
   },
@@ -195,10 +147,6 @@
       "kmymoney fails to build with Python 3.15: /usr/include/python3.15/pyport.h:523:9: error: \u2018__STDC_VERSION__\u2019 is not defined, evaluates to \u20180\u2019 [-Werror=undef]"
     ]
   },
-  "libCombine": {
-    "urls": [],
-    "summaries": []
-  },
   "libkml": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2434757"
@@ -207,23 +155,7 @@
       "libkml: FTBFS in Fedora rawhide/f44"
     ]
   },
-  "libreoffice": {
-    "urls": [],
-    "summaries": []
-  },
-  "llvm": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2448969"
-    ],
-    "summaries": [
-      "llvm fails to build with Python 3.15: shtest-ulimit-nondarwin.py: error: no match found"
-    ]
-  },
   "llvm21": {
-    "urls": [],
-    "summaries": []
-  },
-  "materialx": {
     "urls": [],
     "summaries": []
   },
@@ -251,14 +183,6 @@
     "urls": [],
     "summaries": []
   },
-  "nanopb": {
-    "urls": [],
-    "summaries": []
-  },
-  "nemo-extensions": {
-    "urls": [],
-    "summaries": []
-  },
   "netplan": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2434859"
@@ -271,10 +195,6 @@
     "urls": [],
     "summaries": []
   },
-  "novelwriter": {
-    "urls": [],
-    "summaries": []
-  },
   "ocrmypdf": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2458687"
@@ -282,14 +202,6 @@
     "summaries": [
       "ocrmypdf fails to build with Python 3.15: test_xml_metadata_preserved: AssertionError: acquired unexpected property dc:title with value 'Untitled'"
     ]
-  },
-  "ogr2osm": {
-    "urls": [],
-    "summaries": []
-  },
-  "openshadinglanguage": {
-    "urls": [],
-    "summaries": []
   },
   "openvino": {
     "urls": [
@@ -306,14 +218,6 @@
   "osh": {
     "urls": [],
     "summaries": []
-  },
-  "petsc": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2440567"
-    ],
-    "summaries": [
-      "petsc fails to build with Python 3.15: AssertionError: 2 != 3; self.assertEqual(getrefcount(context), 3)"
-    ]
   },
   "pykakasi": {
     "urls": [
@@ -368,18 +272,6 @@
     ]
   },
   "python-ansible-runner": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-ast-monitor": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-astroid": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-astropy-iers-data": {
     "urls": [],
     "summaries": []
   },
@@ -719,10 +611,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-geotiler": {
-    "urls": [],
-    "summaries": []
-  },
   "python-giacpy": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2460593"
@@ -730,10 +618,6 @@
     "summaries": [
       "python-giacpy: FTBFS in Fedora Rawhide: line 51: Segmentation fault: /usr/bin/python3 -m doctest ../../giacpy/giacpy.pyx -vv"
     ]
-  },
-  "python-hdmf": {
-    "urls": [],
-    "summaries": []
   },
   "python-hupper": {
     "urls": [
@@ -753,19 +637,7 @@
       "python-hypothesis fails to build with Python 3.15: DeprecationWarning: Module globals is missing a __spec__.loader"
     ]
   },
-  "python-hypothesmith": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2434986"
-    ],
-    "summaries": [
-      "python-hypothesmith: FTBFS in Fedora rawhide/f44"
-    ]
-  },
   "python-ibm-cloud-sdk-core": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-igraph": {
     "urls": [],
     "summaries": []
   },
@@ -785,14 +657,6 @@
       "python-inquirer: FTBFS in Fedora rawhide/f44"
     ]
   },
-  "python-iplotx": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-jiter": {
-    "urls": [],
-    "summaries": []
-  },
   "python-jnius": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2460555"
@@ -800,10 +664,6 @@
     "summaries": [
       "python-jnius: FTBFS in Fedora Rawhide: error: incompatible pointer types passing 'JNIEnv **' (aka 'const struct JNINativeInterface_ ***') to parameter of type 'void **'"
     ]
-  },
-  "python-jupyter-console": {
-    "urls": [],
-    "summaries": []
   },
   "python-jwt": {
     "urls": [
@@ -865,10 +725,6 @@
       "python-mirrors-countme fails to build with Python 3.15: TypeError: NamedTuple() got an unexpected keyword argument 'INTEGER_NOT_NULL'"
     ]
   },
-  "python-mkdocs-autorefs": {
-    "urls": [],
-    "summaries": []
-  },
   "python-moreorless": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2434993"
@@ -897,10 +753,6 @@
       "python-neo: FTBFS in Fedora rawhide/f44"
     ]
   },
-  "python-netmiko": {
-    "urls": [],
-    "summaries": []
-  },
   "python-nibabel": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2442355"
@@ -908,10 +760,6 @@
     "summaries": [
       "python-nibabel fails to build with Python 3.15: AssertionError in test_DeterministicGzipFile"
     ]
-  },
-  "python-nltk": {
-    "urls": [],
-    "summaries": []
   },
   "python-numpoly": {
     "urls": [
@@ -936,10 +784,6 @@
     "summaries": [
       "python-pip fails to build with Python 3.15: importlib.metadata.MetadataNotFound: No package metadata was found."
     ]
-  },
-  "python-poetry-plugin-export": {
-    "urls": [],
-    "summaries": []
   },
   "python-pulp": {
     "urls": [],
@@ -969,10 +813,6 @@
       "python-pygtkspellcheck: FTBFS in Fedora rawhide/f44"
     ]
   },
-  "python-pymatreader": {
-    "urls": [],
-    "summaries": []
-  },
   "python-pyngus": {
     "urls": [],
     "summaries": []
@@ -985,10 +825,6 @@
       "python-pynwb fails to build with Python 3.15: test_outer_import_structure: AssertionError: '__cached__' not found in ..."
     ]
   },
-  "python-pyscf": {
-    "urls": [],
-    "summaries": []
-  },
   "python-pysdl2": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2435012",
@@ -998,14 +834,6 @@
       "python-pysdl2: FTBFS in Fedora rawhide/f44",
       "python-pysdl2 fails to build with Python 3.15: AssertionError: That operation is not supported"
     ]
-  },
-  "python-pyshacl": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-pyside6": {
-    "urls": [],
-    "summaries": []
   },
   "python-pytest-django": {
     "urls": [
@@ -1041,10 +869,6 @@
       "python-qcustomplot-pyqt: FTBFS in Fedora rawhide/f44"
     ]
   },
-  "python-qudida": {
-    "urls": [],
-    "summaries": []
-  },
   "python-questionary": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2435019",
@@ -1079,10 +903,6 @@
       "python-result: FTBFS in Fedora rawhide/f44"
     ]
   },
-  "python-rsdclient": {
-    "urls": [],
-    "summaries": []
-  },
   "python-rstcheck": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2458680"
@@ -1098,10 +918,6 @@
     "summaries": [
       "python-rstr fails to build with Python 3.15: 3 errors when collecting tests: ModuleNotFoundError: No module named 'sre_parse'"
     ]
-  },
-  "python-s3transfer": {
-    "urls": [],
-    "summaries": []
   },
   "python-simple-salesforce": {
     "urls": [
@@ -1187,14 +1003,6 @@
       "python-typeguard fails to build with Python 3.15: TypeError: cache_from_source() takes 1 positional argument but 2 positional arguments (and 1 keyword-only argument) were given"
     ]
   },
-  "python-uranium": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-vedo": {
-    "urls": [],
-    "summaries": []
-  },
   "python-watchdog": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2460596"
@@ -1202,10 +1010,6 @@
     "summaries": [
       "python-watchdog: FTBFS in Fedora Rawhide: requires Sphinx < 9, which is no longer available in Fedora"
     ]
-  },
-  "python-willow": {
-    "urls": [],
-    "summaries": []
   },
   "python-zict": {
     "urls": [
@@ -1224,10 +1028,6 @@
     ]
   },
   "python3-pydo": {
-    "urls": [],
-    "summaries": []
-  },
-  "qgis": {
     "urls": [],
     "summaries": []
   },
@@ -1251,10 +1051,6 @@
       "rebase-helper: FTBFS in Fedora Rawhide: AttributeError: 'CustomHelpFormatter' object has no attribute '_format_actions_usage'"
     ]
   },
-  "recoll": {
-    "urls": [],
-    "summaries": []
-  },
   "renderdoc": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2414559"
@@ -1263,23 +1059,11 @@
       "renderdoc fails to build with Python 3.15: qrenderdoc_python.cxx:2296:13: error: \u2018PyWeakref_GET_OBJECT\u2019 was not declared in this scope"
     ]
   },
-  "resalloc": {
-    "urls": [],
-    "summaries": []
-  },
   "root": {
     "urls": [],
     "summaries": []
   },
   "rpm-spec-language-server": {
-    "urls": [],
-    "summaries": []
-  },
-  "rpy": {
-    "urls": [],
-    "summaries": []
-  },
-  "rss2email": {
     "urls": [],
     "summaries": []
   },
@@ -1324,10 +1108,6 @@
     ]
   },
   "uwsgi": {
-    "urls": [],
-    "summaries": []
-  },
-  "virtme-ng": {
     "urls": [],
     "summaries": []
   },

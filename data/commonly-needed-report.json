@@ -144,14 +144,6 @@
       "count": 2
     },
     {
-      "component": "python-igraph",
-      "count": 2,
-      "prerel_abi_blocked": true,
-      "blocked_by": [
-        "python-graph-tool"
-      ]
-    },
-    {
       "component": "python-libpysal",
       "count": 2,
       "blocked_by": [
@@ -202,10 +194,6 @@
       "component": "subscription-manager",
       "count": 1,
       "prerel_abi_blocked": true
-    },
-    {
-      "component": "python-uranium",
-      "count": 1
     },
     {
       "component": "scancode-toolkit",
@@ -268,11 +256,6 @@
       "count": 1
     },
     {
-      "component": "python-graph-tool",
-      "count": 1,
-      "prerel_abi_blocked": true
-    },
-    {
       "component": "python-hyperkitty",
       "count": 1,
       "blocked_by": [
@@ -287,6 +270,21 @@
         "python-django-allauth",
         "python-django-mailman3"
       ]
+    },
+    {
+      "component": "python-textual",
+      "count": 1
+    },
+    {
+      "component": "python-mkdocs-test",
+      "count": 1,
+      "blocked_by": [
+        "python-toml-cli"
+      ]
+    },
+    {
+      "component": "python-toml-cli",
+      "count": 1
     }
   ],
   "most_commonly_last_blocking": [
@@ -376,10 +374,6 @@
       "prerel_abi_blocked": true
     },
     {
-      "component": "python-uranium",
-      "count": 1
-    },
-    {
       "component": "scancode-toolkit",
       "count": 1
     },
@@ -397,6 +391,10 @@
     },
     {
       "component": "certbot",
+      "count": 1
+    },
+    {
+      "component": "python-numpoly",
       "count": 1
     }
   ],
@@ -504,7 +502,6 @@
     {
       "components": [
         "python-contextily",
-        "python-igraph",
         "python-libpysal",
         "python-rasterio"
       ],
