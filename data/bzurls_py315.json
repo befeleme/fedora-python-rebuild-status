@@ -1,4 +1,8 @@
 {
+  "GitPython": {
+    "urls": [],
+    "summaries": []
+  },
   "Mayavi": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2433846"
@@ -66,6 +70,10 @@
     "summaries": [
       "bout++: FTBFS in Fedora rawhide/f44"
     ]
+  },
+  "ceph": {
+    "urls": [],
+    "summaries": []
   },
   "certbot": {
     "urls": [],
@@ -135,6 +143,10 @@
       "jc fails to build with Python 3.15: AssertionError: 'format': 1760, != 'format': 7250,"
     ]
   },
+  "kernel": {
+    "urls": [],
+    "summaries": []
+  },
   "kicad": {
     "urls": [],
     "summaries": []
@@ -153,6 +165,22 @@
     ],
     "summaries": [
       "libkml: FTBFS in Fedora rawhide/f44"
+    ]
+  },
+  "libreoffice": {
+    "urls": [],
+    "summaries": []
+  },
+  "libsolv": {
+    "urls": [],
+    "summaries": []
+  },
+  "llvm": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2448969"
+    ],
+    "summaries": [
+      "llvm fails to build with Python 3.15: shtest-ulimit-nondarwin.py: error: no match found"
     ]
   },
   "llvm21": {
@@ -218,6 +246,14 @@
   "osh": {
     "urls": [],
     "summaries": []
+  },
+  "petsc": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2440567"
+    ],
+    "summaries": [
+      "petsc fails to build with Python 3.15: AssertionError: 2 != 3; self.assertEqual(getrefcount(context), 3)"
+    ]
   },
   "pykakasi": {
     "urls": [
@@ -417,6 +453,18 @@
       "python-blessed fails to build with Python 3.15: Additional space in test_wrap.py::test_SequenceWrapper[1-kwargs5]"
     ]
   },
+  "python-boto3": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-botocore": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2424584"
+    ],
+    "summaries": [
+      "python-botocore fails to build with Python 3.15: AssertionError: At index 8 diff: b'\\x00' != b'\\x02'"
+    ]
+  },
   "python-bytecode": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2458689"
@@ -453,11 +501,11 @@
       "python-colcon-core: Fails to build with setuptools 80.9.0, fails to install [pins setuptools < 80, test_build_package fails]"
     ]
   },
-  "python-dask": {
+  "python-dbus-fast": {
     "urls": [],
     "summaries": []
   },
-  "python-dbus-fast": {
+  "python-distributed": {
     "urls": [],
     "summaries": []
   },
@@ -637,6 +685,14 @@
       "python-hypothesis fails to build with Python 3.15: DeprecationWarning: Module globals is missing a __spec__.loader"
     ]
   },
+  "python-hypothesmith": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2434986"
+    ],
+    "summaries": [
+      "python-hypothesmith: FTBFS in Fedora rawhide/f44"
+    ]
+  },
   "python-ibm-cloud-sdk-core": {
     "urls": [],
     "summaries": []
@@ -691,14 +747,6 @@
     ],
     "summaries": [
       "python-markdown-callouts: FTBFS in Fedora rawhide/f44"
-    ]
-  },
-  "python-matplotlib": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2433761"
-    ],
-    "summaries": [
-      "python-matplotlib fails to build with Python 3.15: failure of test_norm_callback and test_fork"
     ]
   },
   "python-meshio": {
@@ -883,10 +931,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-rasterio": {
-    "urls": [],
-    "summaries": []
-  },
   "python-reportlab": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2433920"
@@ -1019,6 +1063,10 @@
       "python-zict fails to build with Python 3.15: timeout in test_stress_different_keys_threadsafe"
     ]
   },
+  "python-zoidberg": {
+    "urls": [],
+    "summaries": []
+  },
   "python-zope-testrunner": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2433888"
@@ -1031,6 +1079,10 @@
     "urls": [],
     "summaries": []
   },
+  "qgis": {
+    "urls": [],
+    "summaries": []
+  },
   "qpid-proton": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2381112"
@@ -1040,6 +1092,10 @@
     ]
   },
   "qtile": {
+    "urls": [],
+    "summaries": []
+  },
+  "rapidyaml": {
     "urls": [],
     "summaries": []
   },

@@ -1,19 +1,9 @@
 {
   "most_commonly_needed": [
     {
-      "component": "python-dask",
-      "count": 10,
-      "blocked_by": [
-        "python-dask",
-        "python-distributed",
-        "python-xarray"
-      ]
-    },
-    {
       "component": "python-xarray",
       "count": 7,
       "blocked_by": [
-        "python-dask",
         "python-rasterio"
       ]
     },
@@ -76,15 +66,7 @@
     },
     {
       "component": "usd",
-      "count": 2,
-      "blocked_by": [
-        "materialx"
-      ]
-    },
-    {
-      "component": "materialx",
-      "count": 2,
-      "prerel_abi_blocked": true
+      "count": 2
     },
     {
       "component": "go-vendor-tools",
@@ -103,13 +85,6 @@
       "prerel_abi_blocked": true
     },
     {
-      "component": "python-reproject",
-      "count": 2,
-      "blocked_by": [
-        "python-dask"
-      ]
-    },
-    {
       "component": "mupdf",
       "count": 2,
       "prerel_abi_blocked": true,
@@ -126,10 +101,7 @@
     },
     {
       "component": "python-distributed",
-      "count": 2,
-      "blocked_by": [
-        "python-dask"
-      ]
+      "count": 2
     },
     {
       "component": "python-eth-account",
@@ -285,23 +257,28 @@
     {
       "component": "python-toml-cli",
       "count": 1
+    },
+    {
+      "component": "llvm21",
+      "count": 1
+    },
+    {
+      "component": "python-contextily",
+      "count": 1,
+      "blocked_by": [
+        "python-rasterio"
+      ]
+    },
+    {
+      "component": "python-superqt",
+      "count": 1
     }
   ],
   "most_commonly_last_blocking": [
     {
-      "component": "python-dask",
+      "component": "python-xarray",
       "count": 4,
       "blocked_by": [
-        "python-dask",
-        "python-distributed",
-        "python-xarray"
-      ]
-    },
-    {
-      "component": "python-xarray",
-      "count": 3,
-      "blocked_by": [
-        "python-dask",
         "python-rasterio"
       ]
     },
@@ -342,6 +319,10 @@
       ]
     },
     {
+      "component": "python-rasterio",
+      "count": 2
+    },
+    {
       "component": "python-neo",
       "count": 2
     },
@@ -362,6 +343,10 @@
     },
     {
       "component": "pyqtwebengine",
+      "count": 1
+    },
+    {
+      "component": "usd",
       "count": 1
     },
     {
@@ -392,10 +377,6 @@
     {
       "component": "certbot",
       "count": 1
-    },
-    {
-      "component": "python-numpoly",
-      "count": 1
     }
   ],
   "most_commonly_last_blocking_combinations": [
@@ -403,13 +384,6 @@
       "components": [
         "python-django-allauth",
         "python-django-mailman3"
-      ],
-      "count": 2
-    },
-    {
-      "components": [
-        "python-dask",
-        "python-reproject"
       ],
       "count": 2
     },
@@ -441,13 +415,6 @@
     },
     {
       "components": [
-        "materialx",
-        "usd"
-      ],
-      "count": 1
-    },
-    {
-      "components": [
         "python-xarray",
         "python-xarray-einstats"
       ],
@@ -455,7 +422,6 @@
     },
     {
       "components": [
-        "python-dask",
         "python-distributed",
         "python-xarray"
       ],
@@ -480,13 +446,6 @@
         "python-fsleyes-props",
         "python-fslpy",
         "python-trimesh"
-      ],
-      "count": 1
-    },
-    {
-      "components": [
-        "python-dask",
-        "python-distributed"
       ],
       "count": 1
     },
@@ -526,20 +485,6 @@
         "blender",
         "python-ezdxf",
         "usd"
-      ],
-      "count": 1
-    },
-    {
-      "components": [
-        "python-dask",
-        "python-rasterio"
-      ],
-      "count": 1
-    },
-    {
-      "components": [
-        "python-dask",
-        "python-xarray"
       ],
       "count": 1
     },
