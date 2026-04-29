@@ -159,14 +159,6 @@
       "kmymoney fails to build with Python 3.15: /usr/include/python3.15/pyport.h:523:9: error: \u2018__STDC_VERSION__\u2019 is not defined, evaluates to \u20180\u2019 [-Werror=undef]"
     ]
   },
-  "libkml": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2434757"
-    ],
-    "summaries": [
-      "libkml: FTBFS in Fedora rawhide/f44"
-    ]
-  },
   "libreoffice": {
     "urls": [],
     "summaries": []
@@ -1053,6 +1045,14 @@
     ],
     "summaries": [
       "python-watchdog: FTBFS in Fedora Rawhide: requires Sphinx < 9, which is no longer available in Fedora"
+    ]
+  },
+  "python-xarray": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2435037"
+    ],
+    "summaries": [
+      "python-xarray: FTBFS in Fedora rawhide/f44"
     ]
   },
   "python-zict": {
