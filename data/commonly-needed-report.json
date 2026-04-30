@@ -2,10 +2,7 @@
   "most_commonly_needed": [
     {
       "component": "python-xarray",
-      "count": 7,
-      "blocked_by": [
-        "python-rasterio"
-      ]
+      "count": 7
     },
     {
       "component": "python-fslpy",
@@ -39,10 +36,6 @@
       ]
     },
     {
-      "component": "python-rasterio",
-      "count": 3
-    },
-    {
       "component": "python-eth-keyfile",
       "count": 3,
       "blocked_by": [
@@ -51,10 +44,6 @@
     },
     {
       "component": "pyqtwebengine",
-      "count": 2
-    },
-    {
-      "component": "python-matplotlib",
       "count": 2
     },
     {
@@ -90,13 +79,6 @@
       "prerel_abi_blocked": true,
       "blocked_by": [
         "llvm21"
-      ]
-    },
-    {
-      "component": "conda-build",
-      "count": 2,
-      "blocked_by": [
-        "python-conda-index"
       ]
     },
     {
@@ -191,13 +173,6 @@
       "count": 1
     },
     {
-      "component": "python-conda-index",
-      "count": 1,
-      "blocked_by": [
-        "conda-build"
-      ]
-    },
-    {
       "component": "python-PyMuPDF",
       "count": 1,
       "prerel_abi_blocked": true,
@@ -263,28 +238,37 @@
       "count": 1
     },
     {
-      "component": "python-contextily",
+      "component": "python-superqt",
+      "count": 1
+    },
+    {
+      "component": "python-ezdxf",
       "count": 1,
       "blocked_by": [
-        "python-rasterio"
+        "mupdf",
+        "python-PyMuPDF"
       ]
     },
     {
-      "component": "python-superqt",
+      "component": "blender",
+      "count": 1,
+      "blocked_by": [
+        "usd"
+      ]
+    },
+    {
+      "component": "qtile",
+      "count": 1
+    },
+    {
+      "component": "python-rstr",
       "count": 1
     }
   ],
   "most_commonly_last_blocking": [
     {
       "component": "python-xarray",
-      "count": 4,
-      "blocked_by": [
-        "python-rasterio"
-      ]
-    },
-    {
-      "component": "python-matplotlib",
-      "count": 2
+      "count": 4
     },
     {
       "component": "go-vendor-tools",
@@ -312,17 +296,6 @@
       ]
     },
     {
-      "component": "conda-build",
-      "count": 2,
-      "blocked_by": [
-        "python-conda-index"
-      ]
-    },
-    {
-      "component": "python-rasterio",
-      "count": 2
-    },
-    {
       "component": "python-neo",
       "count": 2
     },
@@ -335,6 +308,13 @@
       "count": 2,
       "blocked_by": [
         "python-trimesh"
+      ]
+    },
+    {
+      "component": "python-libpysal",
+      "count": 2,
+      "blocked_by": [
+        "python-xarray"
       ]
     },
     {
@@ -376,6 +356,14 @@
     },
     {
       "component": "certbot",
+      "count": 1
+    },
+    {
+      "component": "python-numpoly",
+      "count": 1
+    },
+    {
+      "component": "python-django-allauth",
       "count": 1
     }
   ],
@@ -455,14 +443,6 @@
         "python-django-mailman3",
         "python-hyperkitty",
         "python-postorius"
-      ],
-      "count": 1
-    },
-    {
-      "components": [
-        "python-contextily",
-        "python-libpysal",
-        "python-rasterio"
       ],
       "count": 1
     },

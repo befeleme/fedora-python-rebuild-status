@@ -1,8 +1,4 @@
 {
-  "GitPython": {
-    "urls": [],
-    "summaries": []
-  },
   "Mayavi": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2433846"
@@ -123,10 +119,6 @@
     "urls": [],
     "summaries": []
   },
-  "espresso": {
-    "urls": [],
-    "summaries": []
-  },
   "fail2ban": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2423879"
@@ -158,6 +150,10 @@
     "summaries": [
       "kmymoney fails to build with Python 3.15: /usr/include/python3.15/pyport.h:523:9: error: \u2018__STDC_VERSION__\u2019 is not defined, evaluates to \u20180\u2019 [-Werror=undef]"
     ]
+  },
+  "koji": {
+    "urls": [],
+    "summaries": []
   },
   "libreoffice": {
     "urls": [],
@@ -492,6 +488,10 @@
     "summaries": [
       "python-colcon-core: Fails to build with setuptools 80.9.0, fails to install [pins setuptools < 80, test_build_package fails]"
     ]
+  },
+  "python-cryptography": {
+    "urls": [],
+    "summaries": []
   },
   "python-dbus-fast": {
     "urls": [],
