@@ -19,10 +19,6 @@
       "alot fails to build with Python 3.15: TypeError: 'Mock' object cannot be interpreted as an integer"
     ]
   },
-  "ansible": {
-    "urls": [],
-    "summaries": []
-  },
   "apbs": {
     "urls": [],
     "summaries": []
@@ -64,8 +60,12 @@
     "summaries": []
   },
   "certbot": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2466655"
+    ],
+    "summaries": [
+      "certbot fails to build with Python 3.15: FutureWarning: invalid character '+' in URL-safe Base64 data will be discarded in future Python versions"
+    ]
   },
   "cryptominisat": {
     "urls": [],
@@ -147,14 +147,6 @@
     "urls": [],
     "summaries": []
   },
-  "llvm": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2448969"
-    ],
-    "summaries": [
-      "llvm fails to build with Python 3.15: shtest-ulimit-nondarwin.py: error: no match found"
-    ]
-  },
   "llvm21": {
     "urls": [],
     "summaries": []
@@ -176,8 +168,12 @@
     ]
   },
   "morphio": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2466657"
+    ],
+    "summaries": [
+      "morphio: FTBFS in Fedora Rawhide: error: no match for \u2018operator==\u2019 (operand types are \u2018morphio::range<const unsigned int>\u2019 {aka \u2018gsl_lite::span<const unsigned int, 18446744073709551615>\u2019} and \u2018morphio::range<const unsigned int>\u2019"
+    ]
   },
   "mupdf": {
     "urls": [],
@@ -458,8 +454,12 @@
     ]
   },
   "python-cmd2": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2466664"
+    ],
+    "summaries": [
+      "python-cmd2 fails to build with Python 3.15: multiple AssertionErrors and IndexErrors in tests"
+    ]
   },
   "python-colcon-core": {
     "urls": [
@@ -542,8 +542,12 @@
     ]
   },
   "python-einops": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2466673"
+    ],
+    "summaries": [
+      "python-einops fails to build with Python 3.15: Import check einops.layers.torch: TypeError: Signature mismatch between <built-in function pack> and <function pack at 0x7fad3a117270>: (format, /, *values) != (fmt: 'bytes | str', /, *v: 'Any') -> 'bytes'"
+    ]
   },
   "python-elastic-transport": {
     "urls": [
@@ -566,12 +570,20 @@
     "summaries": []
   },
   "python-eth-event": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2466674"
+    ],
+    "summaries": [
+      "python-eth-event fails to build with Python 3.15:  error: \u2018_PyObject_GetAttrId\u2019 is deprecated / error: \u2018_PyUnicode_FromId\u2019 is deprecated"
+    ]
   },
   "python-eth-keys": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2466676"
+    ],
+    "summaries": [
+      "python-eth-keys: FTBFS in Fedora Rawhide: 6 tests fail with ImportError"
+    ]
   },
   "python-exceptiongroup": {
     "urls": [
@@ -628,8 +640,12 @@
     ]
   },
   "python-futurist": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2466672"
+    ],
+    "summaries": [
+      "python-futurist fails to build with Python 3.15: 3 tests failures with FileNotFoundError: [Errno 2] No such file or directory"
+    ]
   },
   "python-giacpy": {
     "urls": [
@@ -659,9 +675,11 @@
   },
   "python-hypothesmith": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2466656",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2434986"
     ],
     "summaries": [
+      "python-hypothesmith fails to build with Python 3.15: AttributeError: 'int' object has no attribute '_codegen' and more (74 tests fail)",
       "python-hypothesmith: FTBFS in Fedora rawhide/f44"
     ]
   },
@@ -710,8 +728,12 @@
     ]
   },
   "python-llm": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2466667"
+    ],
+    "summaries": [
+      "python-llm fails to build with Python 3.15: test_gpt5_verbosity_option_is_sent_to_openai_chat_completions: AssertionError: assert 'VerbosityEnum.high' == 'high'"
+    ]
   },
   "python-markdown-callouts": {
     "urls": [
@@ -754,8 +776,12 @@
     ]
   },
   "python-mplcairo": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2466678"
+    ],
+    "summaries": [
+      "python-mplcairo fails to build with Python 3.15: pybind11::handle::dec_ref() is being called while the GIL is either not held or invalid."
+    ]
   },
   "python-msrest": {
     "urls": [
@@ -797,6 +823,18 @@
       "python-opytimizer: FTBFS in Fedora rawhide/f44"
     ]
   },
+  "python-oracledb": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pandas": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2435003"
+    ],
+    "summaries": [
+      "python-pandas: FTBFS in Fedora rawhide/f44"
+    ]
+  },
   "python-pip": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2458631"
@@ -806,8 +844,12 @@
     ]
   },
   "python-pulp": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2466661"
+    ],
+    "summaries": [
+      "python-pulp: FTBFS in Fedora Rawhide: pulp.constants.PulpError: Tests failed for solver <pulp.apis.highs_api.HiGHS_CMD object at 0x7f39f283cb00>: var x == 2.0 != 3"
+    ]
   },
   "python-pycparserext": {
     "urls": [
@@ -900,8 +942,12 @@
     ]
   },
   "python-qutepart": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2454295"
+    ],
+    "summaries": [
+      "F45FailsToInstall: python3-qutepart"
+    ]
   },
   "python-reportlab": {
     "urls": [
@@ -988,8 +1034,12 @@
     ]
   },
   "python-toml-cli": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2466662"
+    ],
+    "summaries": [
+      "python-toml-cli: FTBFS in Fedora Rawhide: 2 tests fail"
+    ]
   },
   "python-translitcodec": {
     "urls": [
@@ -1096,16 +1146,24 @@
     "summaries": []
   },
   "rpm-spec-language-server": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2466677"
+    ],
+    "summaries": [
+      "rpm-spec-language-server fails to build with Python 3.15: TypeError: cache_from_source() takes 1 positional argument but 2 positional arguments (and 1 keyword-only argument) were given"
+    ]
   },
   "samba": {
     "urls": [],
     "summaries": []
   },
   "scancode-toolkit": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2466652"
+    ],
+    "summaries": [
+      "scancode-toolkit: FTBFS in Fedora Rawhide: 2 tests fail"
+    ]
   },
   "sundials": {
     "urls": [
@@ -1131,7 +1189,15 @@
       "usd fails to build with Python 3.15: /builddir/build/BUILD/usd-25.11-build/OpenUSD-25.11/pxr/base/tf/pyIdentity.cpp:139:16: error: \u2018PyWeakref_GetObject\u2019 was not declared in this scope; did you mean \u2018PyWeakref_GetRef\u2019?"
     ]
   },
+  "uv": {
+    "urls": [],
+    "summaries": []
+  },
   "uwsgi": {
+    "urls": [],
+    "summaries": []
+  },
+  "vtk": {
     "urls": [],
     "summaries": []
   },
