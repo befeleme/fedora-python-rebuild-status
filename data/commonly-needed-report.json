@@ -20,6 +20,15 @@
       "count": 4
     },
     {
+      "component": "python-trimesh",
+      "count": 4,
+      "blocked_by": [
+        "blender",
+        "python-ezdxf",
+        "usd"
+      ]
+    },
+    {
       "component": "python-django-mailman3",
       "count": 3,
       "blocked_by": [
@@ -27,13 +36,9 @@
       ]
     },
     {
-      "component": "python-trimesh",
+      "component": "qpid-proton",
       "count": 3,
-      "blocked_by": [
-        "blender",
-        "python-ezdxf",
-        "usd"
-      ]
+      "prerel_abi_blocked": true
     },
     {
       "component": "python-eth-keyfile",
@@ -67,11 +72,6 @@
     {
       "component": "osc",
       "count": 2
-    },
-    {
-      "component": "qpid-proton",
-      "count": 2,
-      "prerel_abi_blocked": true
     },
     {
       "component": "mupdf",
@@ -143,11 +143,6 @@
     {
       "component": "python-treq",
       "count": 1
-    },
-    {
-      "component": "subscription-manager",
-      "count": 1,
-      "prerel_abi_blocked": true
     },
     {
       "component": "scancode-toolkit",
@@ -271,6 +266,20 @@
       "count": 4
     },
     {
+      "component": "qpid-proton",
+      "count": 3,
+      "prerel_abi_blocked": true
+    },
+    {
+      "component": "python-trimesh",
+      "count": 3,
+      "blocked_by": [
+        "blender",
+        "python-ezdxf",
+        "usd"
+      ]
+    },
+    {
       "component": "go-vendor-tools",
       "count": 2,
       "blocked_by": [
@@ -280,20 +289,6 @@
     {
       "component": "osc",
       "count": 2
-    },
-    {
-      "component": "qpid-proton",
-      "count": 2,
-      "prerel_abi_blocked": true
-    },
-    {
-      "component": "python-trimesh",
-      "count": 2,
-      "blocked_by": [
-        "blender",
-        "python-ezdxf",
-        "usd"
-      ]
     },
     {
       "component": "python-neo",
@@ -334,11 +329,6 @@
       "count": 1
     },
     {
-      "component": "subscription-manager",
-      "count": 1,
-      "prerel_abi_blocked": true
-    },
-    {
       "component": "scancode-toolkit",
       "count": 1
     },
@@ -364,6 +354,10 @@
     },
     {
       "component": "python-django-allauth",
+      "count": 1
+    },
+    {
+      "component": "python-distributed",
       "count": 1
     }
   ],

@@ -23,10 +23,6 @@
     "urls": [],
     "summaries": []
   },
-  "ansible-core": {
-    "urls": [],
-    "summaries": []
-  },
   "apbs": {
     "urls": [],
     "summaries": []
@@ -38,10 +34,6 @@
     "summaries": [
       "argparse-manpage fails to build with Python 3.15: AttributeError: '_ManpageFormatter' object has no attribute '_theme'. Did you mean: 'of._theme'?"
     ]
-  },
-  "beets": {
-    "urls": [],
-    "summaries": []
   },
   "bmap-tools": {
     "urls": [
@@ -103,15 +95,7 @@
       "dnf-plugin-perfmetrics: FTBFS with change proposal CMake 4.0"
     ]
   },
-  "duplicity": {
-    "urls": [],
-    "summaries": []
-  },
   "enki": {
-    "urls": [],
-    "summaries": []
-  },
-  "eric": {
     "urls": [],
     "summaries": []
   },
@@ -131,14 +115,6 @@
       "jc fails to build with Python 3.15: AssertionError: 'format': 1760, != 'format': 7250,"
     ]
   },
-  "kernel": {
-    "urls": [],
-    "summaries": []
-  },
-  "kf6-kcoreaddons": {
-    "urls": [],
-    "summaries": []
-  },
   "kf6-kguiaddons": {
     "urls": [],
     "summaries": []
@@ -147,27 +123,11 @@
     "urls": [],
     "summaries": []
   },
-  "kf6-knotifications": {
-    "urls": [],
-    "summaries": []
-  },
   "kf6-kstatusnotifieritem": {
     "urls": [],
     "summaries": []
   },
-  "kf6-kunitconversion": {
-    "urls": [],
-    "summaries": []
-  },
-  "kf6-kwidgetsaddons": {
-    "urls": [],
-    "summaries": []
-  },
   "kf6-kxmlgui": {
-    "urls": [],
-    "summaries": []
-  },
-  "kicad": {
     "urls": [],
     "summaries": []
   },
@@ -184,10 +144,6 @@
     "summaries": []
   },
   "libreoffice": {
-    "urls": [],
-    "summaries": []
-  },
-  "libsolv": {
     "urls": [],
     "summaries": []
   },
@@ -322,10 +278,6 @@
     "summaries": [
       "python-alembic1.14: FTBFS in Fedora rawhide/f44"
     ]
-  },
-  "python-ansible-runner": {
-    "urls": [],
-    "summaries": []
   },
   "python-astroquery": {
     "urls": [
@@ -517,10 +469,6 @@
       "python-colcon-core: Fails to build with setuptools 80.9.0, fails to install [pins setuptools < 80, test_build_package fails]"
     ]
   },
-  "python-cryptography": {
-    "urls": [],
-    "summaries": []
-  },
   "python-dbus-fast": {
     "urls": [],
     "summaries": []
@@ -672,8 +620,12 @@
     ]
   },
   "python-ftfy": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2465538"
+    ],
+    "summaries": [
+      "python-ftfy: FTBFS in Fedora Rawhide: failed doctest: ftfy.formatting.monospaced_width"
+    ]
   },
   "python-futurist": {
     "urls": [],
@@ -999,10 +951,6 @@
       "[heads up] python-sphinx-argparse-cli will fail to build with Sphinx 9+ in Fedora 45: ModuleNotFoundError: No module named 'sphinx.testing.path'"
     ]
   },
-  "python-sphinx-book-theme": {
-    "urls": [],
-    "summaries": []
-  },
   "python-steampunk-spotter": {
     "urls": [],
     "summaries": []
@@ -1123,10 +1071,6 @@
     "urls": [],
     "summaries": []
   },
-  "rapidyaml": {
-    "urls": [],
-    "summaries": []
-  },
   "rebase-helper": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2460122"
@@ -1142,6 +1086,10 @@
     "summaries": [
       "renderdoc fails to build with Python 3.15: qrenderdoc_python.cxx:2296:13: error: \u2018PyWeakref_GET_OBJECT\u2019 was not declared in this scope"
     ]
+  },
+  "retis": {
+    "urls": [],
+    "summaries": []
   },
   "root": {
     "urls": [],

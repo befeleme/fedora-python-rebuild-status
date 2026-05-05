@@ -54,7 +54,7 @@ ansible	failed
 ansible-bender	succeeded
 ansible-builder	succeeded
 ansible-collections-openstack	succeeded
-ansible-core	failed
+ansible-core	succeeded
 ansible-inventory-grapher	succeeded
 ansible-lint	succeeded
 antlr4-project	succeeded
@@ -90,7 +90,7 @@ barman	succeeded
 battray	succeeded
 bcc	succeeded
 beaker	succeeded
-beets	failed
+beets	succeeded
 bids-schema	succeeded
 bindep	succeeded
 binwalk	succeeded
@@ -171,6 +171,7 @@ copr-cli	succeeded
 copr-dist-git	succeeded
 copr-keygen	succeeded
 copr-messaging	succeeded
+copr-rpmbuild	succeeded
 cozy	succeeded
 createrepo-agent	succeeded
 createrepo_c	succeeded
@@ -222,7 +223,7 @@ dogtail	succeeded
 dot2tex	succeeded
 dt-schema	succeeded
 dtc	succeeded
-duplicity	failed
+duplicity	succeeded
 dxf2gcode	succeeded
 dynaconf	succeeded
 ec2-hibinit-agent	succeeded
@@ -236,7 +237,7 @@ enjarify	succeeded
 enki	failed
 ephemeral-port-reserve	succeeded
 eralchemy	succeeded
-eric	failed
+eric	succeeded
 espresso	succeeded
 esptool	succeeded
 etckeeper	succeeded
@@ -404,21 +405,22 @@ jsonnet	succeeded
 jupyterlab	succeeded
 kalamine	succeeded
 kea	succeeded
-kernel	failed
+kernel	succeeded
 keycloak-httpd-client-install	succeeded
 keylime	succeeded
 kf6-kapidox	succeeded
-kf6-kcoreaddons	failed
+kf6-kcalendarcore	succeeded
+kf6-kcoreaddons	succeeded
 kf6-kguiaddons	failed
 kf6-kjobwidgets	failed
-kf6-knotifications	failed
+kf6-knotifications	succeeded
 kf6-kstatusnotifieritem	failed
-kf6-kunitconversion	failed
-kf6-kwidgetsaddons	failed
+kf6-kunitconversion	succeeded
+kf6-kwidgetsaddons	succeeded
 kf6-kxmlgui	failed
 khal	succeeded
 khard	succeeded
-kicad	failed
+kicad	succeeded
 kig	succeeded
 kiwi	succeeded
 kiwi-boxed-plugin	succeeded
@@ -511,7 +513,7 @@ libselinux	succeeded
 libsemanage	succeeded
 libsigrokdecode	succeeded
 libsmbios	succeeded
-libsolv	failed
+libsolv	succeeded
 libsonata	succeeded
 libstoragemgmt	succeeded
 libsvm	succeeded
@@ -538,7 +540,7 @@ lirc	succeeded
 litecli	succeeded
 livecd-tools	succeeded
 llvm	failed
-llvm21	canceled
+llvm21	failed
 lollypop	succeeded
 loook	succeeded
 lorax	succeeded
@@ -899,7 +901,7 @@ python-annotated-types	succeeded
 python-ansi2html	succeeded
 python-ansible-compat	succeeded
 python-ansible-pylibssh	succeeded
-python-ansible-runner	failed
+python-ansible-runner	succeeded
 python-ansicolor	succeeded
 python-anyio	succeeded
 python-anyjson	succeeded
@@ -1348,7 +1350,7 @@ python-croniter	succeeded
 python-crossword	succeeded
 python-crypt-r	succeeded
 python-crypto	succeeded
-python-cryptography	failed
+python-cryptography	succeeded
 python-cs	succeeded
 python-cson	succeeded
 python-css-parser	succeeded
@@ -2975,7 +2977,6 @@ python-rx	succeeded
 python-rxjson	succeeded
 python-s3transfer	succeeded
 python-safetensors	succeeded
-python-saharaclient	failed
 python-samloader	succeeded
 python-sanction	succeeded
 python-sane	succeeded
@@ -3106,7 +3107,7 @@ python-sphinx-autoapi	succeeded
 python-sphinx-autobuild	succeeded
 python-sphinx-autodoc-typehints	succeeded
 python-sphinx-basic-ng	succeeded
-python-sphinx-book-theme	failed
+python-sphinx-book-theme	succeeded
 python-sphinx-bootstrap-theme	succeeded
 python-sphinx-click	succeeded
 python-sphinx-copybutton	succeeded
@@ -3399,6 +3400,7 @@ python-unidecode	succeeded
 python-unidiff	succeeded
 python-unipath	succeeded
 python-unique-log-filter	succeeded
+python-universal-pathlib	succeeded
 python-unix-ar	succeeded
 python-unpaddedbase64	succeeded
 python-untangle	succeeded
@@ -3610,7 +3612,7 @@ qutebrowser	succeeded
 radicale	succeeded
 ramalama	succeeded
 ranger	succeeded
-rapidyaml	failed
+rapidyaml	succeeded
 rb_libtorrent	succeeded
 rdiff-backup	succeeded
 rdma-core	succeeded
@@ -3628,7 +3630,7 @@ resalloc	succeeded
 resalloc-ibm-cloud	succeeded
 resalloc-openstack	succeeded
 resultsdb_conventions	succeeded
-retis	succeeded
+retis	failed
 retrace-server	succeeded
 reuse	succeeded
 revelation	succeeded
@@ -3814,7 +3816,7 @@ vit	succeeded
 volk	succeeded
 volume_key	succeeded
 vorta	succeeded
-vtk	succeeded
+vtk	running
 waf	succeeded
 wafw00f	succeeded
 weasyprint	failed
