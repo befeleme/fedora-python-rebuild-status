@@ -115,6 +115,10 @@
       "jc fails to build with Python 3.15: AssertionError: 'format': 1760, != 'format': 7250,"
     ]
   },
+  "kernel": {
+    "urls": [],
+    "summaries": []
+  },
   "kf6-kguiaddons": {
     "urls": [],
     "summaries": []
@@ -147,6 +151,14 @@
     "urls": [],
     "summaries": []
   },
+  "llvm": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2448969"
+    ],
+    "summaries": [
+      "llvm fails to build with Python 3.15: shtest-ulimit-nondarwin.py: error: no match found"
+    ]
+  },
   "llvm21": {
     "urls": [],
     "summaries": []
@@ -178,14 +190,6 @@
   "mupdf": {
     "urls": [],
     "summaries": []
-  },
-  "netplan": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2434859"
-    ],
-    "summaries": [
-      "netplan: FTBFS in Fedora rawhide/f44"
-    ]
   },
   "nfs-ganesha": {
     "urls": [],
@@ -468,10 +472,6 @@
     "summaries": [
       "python-colcon-core: Fails to build with setuptools 80.9.0, fails to install [pins setuptools < 80, test_build_package fails]"
     ]
-  },
-  "python-dbus-fast": {
-    "urls": [],
-    "summaries": []
   },
   "python-distributed": {
     "urls": [],
@@ -844,12 +844,8 @@
     ]
   },
   "python-pulp": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2466661"
-    ],
-    "summaries": [
-      "python-pulp: FTBFS in Fedora Rawhide: pulp.constants.PulpError: Tests failed for solver <pulp.apis.highs_api.HiGHS_CMD object at 0x7f39f283cb00>: var x == 2.0 != 3"
-    ]
+    "urls": [],
+    "summaries": []
   },
   "python-pycparserext": {
     "urls": [
@@ -1013,10 +1009,6 @@
       "python-streamlink fails to build with Python 3.15: test_help_color: TypeError: TestPrint._color.<locals>.<lambda>() got an unexpected keyword argument 'file'"
     ]
   },
-  "python-superqt": {
-    "urls": [],
-    "summaries": []
-  },
   "python-symengine": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2381387"
@@ -1100,10 +1092,6 @@
     "summaries": [
       "python-zope-testrunner fails to build with Python 3.15: help2man: can't get `--help' info from /builddir/build/BUILD/python-zope-testrunner-8.1-build/BUILDROOT/usr/bin/zope-testrunner"
     ]
-  },
-  "python3-pydo": {
-    "urls": [],
-    "summaries": []
   },
   "qgis": {
     "urls": [],
