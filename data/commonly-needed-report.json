@@ -12,10 +12,6 @@
       ]
     },
     {
-      "component": "python-eth-keys",
-      "count": 5
-    },
-    {
       "component": "python-django-allauth",
       "count": 4
     },
@@ -24,6 +20,7 @@
       "count": 4,
       "blocked_by": [
         "blender",
+        "manifold",
         "python-ezdxf",
         "usd"
       ]
@@ -39,13 +36,6 @@
       "component": "qpid-proton",
       "count": 3,
       "prerel_abi_blocked": true
-    },
-    {
-      "component": "python-eth-keyfile",
-      "count": 3,
-      "blocked_by": [
-        "python-eth-keys"
-      ]
     },
     {
       "component": "pyqtwebengine",
@@ -84,14 +74,6 @@
     {
       "component": "python-distributed",
       "count": 2
-    },
-    {
-      "component": "python-eth-account",
-      "count": 2,
-      "blocked_by": [
-        "python-eth-keyfile",
-        "python-eth-keys"
-      ]
     },
     {
       "component": "python-neo",
@@ -229,8 +211,11 @@
       "count": 1
     },
     {
-      "component": "python-superqt",
-      "count": 1
+      "component": "manifold",
+      "count": 1,
+      "blocked_by": [
+        "python-trimesh"
+      ]
     },
     {
       "component": "python-ezdxf",
@@ -271,9 +256,14 @@
       "count": 3,
       "blocked_by": [
         "blender",
+        "manifold",
         "python-ezdxf",
         "usd"
       ]
+    },
+    {
+      "component": "pyqtwebengine",
+      "count": 2
     },
     {
       "component": "go-vendor-tools",
@@ -288,10 +278,6 @@
     },
     {
       "component": "python-neo",
-      "count": 2
-    },
-    {
-      "component": "python-eth-keys",
       "count": 2
     },
     {
@@ -311,10 +297,6 @@
     {
       "component": "xapian-bindings",
       "count": 2
-    },
-    {
-      "component": "pyqtwebengine",
-      "count": 1
     },
     {
       "component": "usd",
@@ -355,6 +337,13 @@
     {
       "component": "python-distributed",
       "count": 1
+    },
+    {
+      "component": "python-mapclassify",
+      "count": 1,
+      "blocked_by": [
+        "python-libpysal"
+      ]
     }
   ],
   "most_commonly_last_blocking_combinations": [
@@ -362,14 +351,6 @@
       "components": [
         "python-django-allauth",
         "python-django-mailman3"
-      ],
-      "count": 2
-    },
-    {
-      "components": [
-        "python-eth-account",
-        "python-eth-keyfile",
-        "python-eth-keys"
       ],
       "count": 2
     },
@@ -407,13 +388,6 @@
     },
     {
       "components": [
-        "python-eth-keyfile",
-        "python-eth-keys"
-      ],
-      "count": 1
-    },
-    {
-      "components": [
         "mupdf",
         "python-PyMuPDF"
       ],
@@ -445,14 +419,8 @@
     },
     {
       "components": [
-        "pyqtwebengine",
-        "python-superqt"
-      ],
-      "count": 1
-    },
-    {
-      "components": [
         "blender",
+        "manifold",
         "python-ezdxf",
         "usd"
       ],

@@ -90,7 +90,7 @@ barman	succeeded
 battray	succeeded
 bcc	succeeded
 beaker	succeeded
-beets	succeeded
+beets	failed
 bids-schema	succeeded
 bindep	succeeded
 binwalk	succeeded
@@ -334,6 +334,7 @@ google-api-python-client	succeeded
 google-auth-httplib2	succeeded
 gpaw	succeeded
 gpgme	succeeded
+gpgmepy	succeeded
 gphotoframe	succeeded
 gplugin	succeeded
 gpodder	succeeded
@@ -554,6 +555,7 @@ mailman3-fedmsg-plugin-schemas	succeeded
 mailnag	succeeded
 mailprocessing	succeeded
 manafirewall	succeeded
+manifold	succeeded
 mapserver	succeeded
 marisa	succeeded
 marshalparser	succeeded
@@ -1192,7 +1194,7 @@ python-casttube	succeeded
 python-catkin-sphinx	succeeded
 python-catkin_pkg	succeeded
 python-catkin_tools	succeeded
-python-cattrs	succeeded
+python-cattrs	failed
 python-cbor2	succeeded
 python-cccolutils	succeeded
 python-ccdproc	succeeded
@@ -1245,7 +1247,7 @@ python-cma	succeeded
 python-cmake-build-extension	succeeded
 python-cmap	succeeded
 python-cmarkgfm	succeeded
-python-cmd2	failed
+python-cmd2	succeeded
 python-cmdkit	succeeded
 python-cobalt	succeeded
 python-codecov	succeeded
@@ -1539,6 +1541,7 @@ python-editables	succeeded
 python-editor	succeeded
 python-editorconfig	succeeded
 python-einops	failed
+python-eip712	succeeded
 python-elastic-transport	failed
 python-elasticsearch	succeeded
 python-elementpath	succeeded
@@ -1563,13 +1566,16 @@ python-etcd	failed
 python-etcd3	succeeded
 python-etcd3gw	succeeded
 python-eth-abi	succeeded
+python-eth-account	succeeded
 python-eth-bloom	succeeded
 python-eth-event	failed
 python-eth-hash	succeeded
-python-eth-keys	failed
+python-eth-keyfile	succeeded
+python-eth-keys	succeeded
 python-eth-pydantic-types	succeeded
 python-eth-rlp	succeeded
 python-eth-stdlib	succeeded
+python-eth-tester	succeeded
 python-eth-typing	succeeded
 python-eth-utils	succeeded
 python-ethtool	succeeded
@@ -1897,7 +1903,7 @@ python-inject	succeeded
 python-injector	succeeded
 python-inkex	failed
 python-inline-snapshot	succeeded
-python-inotify	succeeded
+python-inotify	failed
 python-inotify_simple	succeeded
 python-inquirer	failed
 python-inspyred	succeeded
@@ -2526,7 +2532,7 @@ python-ptrace	succeeded
 python-ptyprocess	succeeded
 python-publicsuffix2	succeeded
 python-pudb	succeeded
-python-pulp	failed
+python-pulp	succeeded
 python-pulp-glue	succeeded
 python-pulp-glue-deb	succeeded
 python-pulsectl	succeeded
@@ -3256,7 +3262,7 @@ python-telnetlib3	succeeded
 python-tempdir	succeeded
 python-tempita	succeeded
 python-templated-dictionary	succeeded
-python-tempora	succeeded
+python-tempora	failed
 python-tenacity	succeeded
 python-tensile	succeeded
 python-term-background	succeeded
@@ -3641,7 +3647,7 @@ rmlint	succeeded
 rmol	succeeded
 roca-detect	succeeded
 rofimoji	succeeded
-root	failed
+root	succeeded
 rpkg	succeeded
 rpkg-util	succeeded
 rpl	succeeded
@@ -3659,7 +3665,7 @@ rst2pdf	succeeded
 rteval	succeeded
 rtlsdr-scanner	succeeded
 rubber	succeeded
-ruff	succeeded
+ruff	failed
 rust2rpm	succeeded
 ruyi	succeeded
 s-tui	succeeded
@@ -3774,7 +3780,7 @@ trellis	succeeded
 tuna	succeeded
 tuned	succeeded
 txt2tags	succeeded
-ty	succeeded
+ty	failed
 ubertooth	failed
 udica	succeeded
 udiskie	succeeded
@@ -3794,7 +3800,7 @@ usbrelay	succeeded
 usd	failed
 ustreamer	succeeded
 util-linux	succeeded
-uv	failed
+uv	succeeded
 uwsgi	failed
 vapoursynth	succeeded
 variety	succeeded
@@ -3818,6 +3824,7 @@ volk	succeeded
 volume_key	succeeded
 vorta	succeeded
 vtk	failed
+vyper	succeeded
 waf	succeeded
 wafw00f	succeeded
 weasyprint	failed

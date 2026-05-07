@@ -31,6 +31,10 @@
       "argparse-manpage fails to build with Python 3.15: AttributeError: '_ManpageFormatter' object has no attribute '_theme'. Did you mean: 'of._theme'?"
     ]
   },
+  "beets": {
+    "urls": [],
+    "summaries": []
+  },
   "bmap-tools": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2416984"
@@ -160,6 +164,10 @@
     ]
   },
   "llvm21": {
+    "urls": [],
+    "summaries": []
+  },
+  "manifold": {
     "urls": [],
     "summaries": []
   },
@@ -449,20 +457,16 @@
       "python-cartopy: FTBFS in Fedora Rawhide: 165 tests fail"
     ]
   },
+  "python-cattrs": {
+    "urls": [],
+    "summaries": []
+  },
   "python-chai": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2424293"
     ],
     "summaries": [
       "python-chai fails to build with Python 3.15: chai.exception.UnsupportedStub: (\"can't stub %s\", <property object at 0x7fbbc41d1df0>)"
-    ]
-  },
-  "python-cmd2": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2466664"
-    ],
-    "summaries": [
-      "python-cmd2 fails to build with Python 3.15: multiple AssertionErrors and IndexErrors in tests"
     ]
   },
   "python-colcon-core": {
@@ -570,20 +574,8 @@
     "summaries": []
   },
   "python-eth-event": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2466674"
-    ],
-    "summaries": [
-      "python-eth-event fails to build with Python 3.15:  error: \u2018_PyObject_GetAttrId\u2019 is deprecated / error: \u2018_PyUnicode_FromId\u2019 is deprecated"
-    ]
-  },
-  "python-eth-keys": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2466676"
-    ],
-    "summaries": [
-      "python-eth-keys: FTBFS in Fedora Rawhide: 6 tests fail with ImportError"
-    ]
+    "urls": [],
+    "summaries": []
   },
   "python-exceptiongroup": {
     "urls": [
@@ -694,6 +686,10 @@
     "summaries": [
       "python-inkex: FTBFS in Fedora rawhide/f44"
     ]
+  },
+  "python-inotify": {
+    "urls": [],
+    "summaries": []
   },
   "python-inquirer": {
     "urls": [
@@ -842,10 +838,6 @@
     "summaries": [
       "python-pip fails to build with Python 3.15: importlib.metadata.MetadataNotFound: No package metadata was found."
     ]
-  },
-  "python-pulp": {
-    "urls": [],
-    "summaries": []
   },
   "python-pycparserext": {
     "urls": [
@@ -1017,6 +1009,10 @@
       "python-symengine: FTBFS with change proposal CMake 4.0"
     ]
   },
+  "python-tempora": {
+    "urls": [],
+    "summaries": []
+  },
   "python-textual": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2435027"
@@ -1129,10 +1125,6 @@
     "urls": [],
     "summaries": []
   },
-  "root": {
-    "urls": [],
-    "summaries": []
-  },
   "rpm-spec-language-server": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2466677"
@@ -1140,6 +1132,10 @@
     "summaries": [
       "rpm-spec-language-server fails to build with Python 3.15: TypeError: cache_from_source() takes 1 positional argument but 2 positional arguments (and 1 keyword-only argument) were given"
     ]
+  },
+  "ruff": {
+    "urls": [],
+    "summaries": []
   },
   "samba": {
     "urls": [],
@@ -1161,6 +1157,10 @@
       "sundials: FTBFS in Fedora rawhide/f44"
     ]
   },
+  "ty": {
+    "urls": [],
+    "summaries": []
+  },
   "ubertooth": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2381615"
@@ -1176,10 +1176,6 @@
     "summaries": [
       "usd fails to build with Python 3.15: /builddir/build/BUILD/usd-25.11-build/OpenUSD-25.11/pxr/base/tf/pyIdentity.cpp:139:16: error: \u2018PyWeakref_GetObject\u2019 was not declared in this scope; did you mean \u2018PyWeakref_GetRef\u2019?"
     ]
-  },
-  "uv": {
-    "urls": [],
-    "summaries": []
   },
   "uwsgi": {
     "urls": [],
