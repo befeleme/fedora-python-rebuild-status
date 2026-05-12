@@ -11,6 +11,10 @@
     "urls": [],
     "summaries": []
   },
+  "Silo": {
+    "urls": [],
+    "summaries": []
+  },
   "alot": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2460533"
@@ -51,6 +55,10 @@
       "bodhi-server fails to build with Python 3.15: Test run ends with: = 3 failed, 604 errors  ="
     ]
   },
+  "boom-boot": {
+    "urls": [],
+    "summaries": []
+  },
   "bout++": {
     "urls": [],
     "summaries": []
@@ -70,6 +78,10 @@
     "summaries": [
       "certbot fails to build with Python 3.15: FutureWarning: invalid character '+' in URL-safe Base64 data will be discarded in future Python versions"
     ]
+  },
+  "copr-backend": {
+    "urls": [],
+    "summaries": []
   },
   "cryptominisat": {
     "urls": [],
@@ -119,6 +131,10 @@
       "jc fails to build with Python 3.15: AssertionError: 'format': 1760, != 'format': 7250,"
     ]
   },
+  "kernel": {
+    "urls": [],
+    "summaries": []
+  },
   "kf6-kguiaddons": {
     "urls": [],
     "summaries": []
@@ -155,7 +171,27 @@
     "urls": [],
     "summaries": []
   },
+  "libguestfs": {
+    "urls": [],
+    "summaries": []
+  },
+  "libmamba": {
+    "urls": [],
+    "summaries": []
+  },
+  "librealsense": {
+    "urls": [],
+    "summaries": []
+  },
   "libreoffice": {
+    "urls": [],
+    "summaries": []
+  },
+  "libsvm": {
+    "urls": [],
+    "summaries": []
+  },
+  "link-grammar": {
     "urls": [],
     "summaries": []
   },
@@ -172,6 +208,10 @@
     "summaries": []
   },
   "manifold": {
+    "urls": [],
+    "summaries": []
+  },
+  "mercurial": {
     "urls": [],
     "summaries": []
   },
@@ -192,6 +232,10 @@
     ]
   },
   "mupdf": {
+    "urls": [],
+    "summaries": []
+  },
+  "net-snmp": {
     "urls": [],
     "summaries": []
   },
@@ -218,6 +262,10 @@
     "summaries": [
       "openvino: FTBFS in Fedora Rawhide: resolution failed, missing gcc14 and gcc14-c++"
     ]
+  },
+  "osbuild": {
+    "urls": [],
+    "summaries": []
   },
   "osc": {
     "urls": [],
@@ -259,7 +307,15 @@
       "pyqtwebengine: FTBFS in Fedora rawhide/f44"
     ]
   },
+  "python-OWSLib": {
+    "urls": [],
+    "summaries": []
+  },
   "python-PyMuPDF": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-Rtree": {
     "urls": [],
     "summaries": []
   },
@@ -477,6 +533,26 @@
       "python-colcon-core: Fails to build with setuptools 80.9.0, fails to install [pins setuptools < 80, test_build_package fails]"
     ]
   },
+  "python-configargparse": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-cucumber-expressions": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-cucumber-tag-expressions": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-defcon": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-dirty-equals": {
+    "urls": [],
+    "summaries": []
+  },
   "python-distributed": {
     "urls": [],
     "summaries": []
@@ -561,6 +637,14 @@
       "python-elastic-transport fails to build with Python 3.15: ERROR: '\"function\"' is not a valid asyncio_default_fixture_loop_scope. Valid scopes are: function, class, module, package, session."
     ]
   },
+  "python-embreex": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-engineio": {
+    "urls": [],
+    "summaries": []
+  },
   "python-et_xmlfile": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2424294"
@@ -613,6 +697,18 @@
       "python-faker fails to build with Python 3.15: NameError: name 'TestEnUS' is not defined"
     ]
   },
+  "python-fast-simplification": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-fastar": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-flask-migrate": {
+    "urls": [],
+    "summaries": []
+  },
   "python-fs": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2434982",
@@ -638,6 +734,10 @@
     "summaries": [
       "python-futurist fails to build with Python 3.15: 3 tests failures with FileNotFoundError: [Errno 2] No such file or directory"
     ]
+  },
+  "python-genshi": {
+    "urls": [],
+    "summaries": []
   },
   "python-giacpy": {
     "urls": [
@@ -723,6 +823,18 @@
       "python-kaptan fails to build with Python 3.15: AttributeError: 'SourceFileLoader' object has no attribute 'load_module'. Did you mean: 'exec_module'? in test_py_file_handler and test_py_file_away_handler"
     ]
   },
+  "python-keystoneauth1": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-kiwisolver": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2453822"
+    ],
+    "summaries": [
+      "python-kiwisolver fails to build with setuptools_scm 10+"
+    ]
+  },
   "python-llm": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2466667"
@@ -761,14 +873,6 @@
     ],
     "summaries": [
       "python-mirrors-countme fails to build with Python 3.15: TypeError: NamedTuple() got an unexpected keyword argument 'INTEGER_NOT_NULL'"
-    ]
-  },
-  "python-moreorless": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2434993"
-    ],
-    "summaries": [
-      "python-moreorless: FTBFS in Fedora rawhide/f44"
     ]
   },
   "python-mplcairo": {
@@ -831,12 +935,28 @@
       "python-pandas: FTBFS in Fedora rawhide/f44"
     ]
   },
+  "python-paramiko": {
+    "urls": [],
+    "summaries": []
+  },
   "python-pip": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2458631"
     ],
     "summaries": [
       "python-pip fails to build with Python 3.15: importlib.metadata.MetadataNotFound: No package metadata was found."
+    ]
+  },
+  "python-psutil": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-psycopg2": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2414801"
+    ],
+    "summaries": [
+      "python-psycopg2 fails to build with Python 3.15: error: implicit declaration of function \u2018PyWeakref_GetObject\u2019; did you mean \u2018PyWeakref_GetRef\u2019?"
     ]
   },
   "python-pycparserext": {
@@ -875,6 +995,10 @@
       "python-pynwb fails to build with Python 3.15: test_outer_import_structure: AssertionError: '__cached__' not found in ..."
     ]
   },
+  "python-pyscipopt": {
+    "urls": [],
+    "summaries": []
+  },
   "python-pysdl2": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2435012",
@@ -884,6 +1008,10 @@
       "python-pysdl2: FTBFS in Fedora rawhide/f44",
       "python-pysdl2 fails to build with Python 3.15: AssertionError: That operation is not supported"
     ]
+  },
+  "python-pyside6": {
+    "urls": [],
+    "summaries": []
   },
   "python-pytest-django": {
     "urls": [
@@ -985,6 +1113,10 @@
       "[heads up] python-sphinx-argparse-cli will fail to build with Sphinx 9+ in Fedora 45: ModuleNotFoundError: No module named 'sphinx.testing.path'"
     ]
   },
+  "python-sqlalchemy1.4": {
+    "urls": [],
+    "summaries": []
+  },
   "python-steampunk-spotter": {
     "urls": [],
     "summaries": []
@@ -1002,12 +1134,8 @@
     ]
   },
   "python-symengine": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2381387"
-    ],
-    "summaries": [
-      "python-symengine: FTBFS with change proposal CMake 4.0"
-    ]
+    "urls": [],
+    "summaries": []
   },
   "python-tempora": {
     "urls": [],
@@ -1021,12 +1149,32 @@
       "python-textual: FTBFS in Fedora rawhide/f44"
     ]
   },
+  "python-time-machine": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2424589"
+    ],
+    "summaries": [
+      "python-time-machine fails to build with Python 3.15: AssertionError: assert 2025 == 1970"
+    ]
+  },
+  "python-tokenizers": {
+    "urls": [],
+    "summaries": []
+  },
   "python-toml-cli": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2466662"
     ],
     "summaries": [
       "python-toml-cli: FTBFS in Fedora Rawhide: 2 tests fail"
+    ]
+  },
+  "python-tornado": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2414557"
+    ],
+    "summaries": [
+      "python-tornado fails to build with Python 3.15: ERROR: test_multi_process"
     ]
   },
   "python-translitcodec": {
@@ -1061,6 +1209,14 @@
       "python-watchdog: FTBFS in Fedora Rawhide: requires Sphinx < 9, which is no longer available in Fedora"
     ]
   },
+  "python-websockets": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2440566"
+    ],
+    "summaries": [
+      "python-websockets fails to build with Python 3.15: test_apply_mask_non_contiguous_memoryview: BufferError: memoryview: underlying buffer is not C-contiguous"
+    ]
+  },
   "python-xarray": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2435037"
@@ -1076,6 +1232,10 @@
     "summaries": [
       "python-zict fails to build with Python 3.15: timeout in test_stress_different_keys_threadsafe"
     ]
+  },
+  "python-zlib-ng": {
+    "urls": [],
+    "summaries": []
   },
   "python-zoidberg": {
     "urls": [],
@@ -1155,6 +1315,14 @@
     ],
     "summaries": [
       "sundials: FTBFS in Fedora rawhide/f44"
+    ]
+  },
+  "superlu_dist": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2435129"
+    ],
+    "summaries": [
+      "superlu_dist: FTBFS in Fedora rawhide/f44"
     ]
   },
   "ty": {
