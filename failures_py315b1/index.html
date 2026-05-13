@@ -1,0 +1,660 @@
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+ <!-- Taken and heavily adjusted from https://github.com/di/pyreadiness/blob/bdc04c33479af8ff89821dd30b4f17aeead248e4/templates/base.html -->
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="icon" href="/static/favicon.ico">
+  <style>
+    body{margin-top:15px;}
+    a.btn, h1{text-align: center;}
+    a.btn-last-child, canvas, body{margin-bottom:15px;}
+    a.btn {border-bottom-width: 0; border-radius: 0; width: 100%}
+    a.btn-first-child{border-top-left-radius: 5px; border-top-right-radius: 5px;}
+    a.btn-last-child{border-bottom-width: 1px; border-bottom-left-radius: 5px; border-bottom-right-radius: 5px;}
+    a.btn-default{color:#333; background-color:#fff; border-color:#ccc;}
+    a.btn-default:hover,
+    a.btn-default:focus,
+    a.btn-default:active,
+    a.btn-default.active,
+    .open .dropdown-toggle.btn-default {
+  color:#333;
+  background-color:#ebebeb;
+  border-color:#adadad
+}
+    a.btn-default:active,
+    a.btn-default.active,
+    .open .dropdown-toggle.btn-default {
+  background-image:none
+}
+    pre {text-align: left;}
+    footer{text-align: center;}
+    .center-block {max-height: 450px}
+    .hidden {display: none}
+    @media (prefers-color-scheme: dark) {
+      body {
+        color: #ccc;
+        background: black;
+      }
+      code {
+        color: #ccc;
+        background: #222;
+      }
+      .panel-info>.panel-heading {
+        color: #d9edf7;
+        background-color: #3a87ad;
+        border-color: #0d7aba;
+      }
+      .btn-default {
+        color: #ccc;
+        background: black;
+        border-color: #222;
+      }
+      .btn-default:hover,
+      .btn-default:focus,
+      .btn-default:active,
+      .btn-default.active,
+      .open.dropdown-toggle.btn-default {
+        color: #ccc;
+        background: #222;
+        border-color: #333;
+      }
+    }
+    .text-default {
+      color: #777;
+    }
+  </style>
+  
+  <title>Python 3.15-b1 failed to build breakdown</title>
+</head>
+<body>
+  <div class="container mt-4">
+    
+<a href="/" class="btn btn-primary mb-3"> &lt&lt&lt Home</a>
+<h2 class="mb-3">Python 3.15-b1: Packages that weren't built successfully (🔴 + 🟠)</h2>
+
+<style>
+    .max-width-column {
+        max-width: 600px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+</style>
+
+<div class="container mt-4">
+    <table class="table table-striped table-hover table-bordered">
+        <thead class="table-dark">
+            <tr>
+                <th scope="col">Package name</th>
+                <th scope="col">Build status</th>
+                <th scope="col">Build attempts in Copr</th>
+                <th scope="col" class="max-width-column">Bugzilla ticket (all open PYTHON315)</th>
+            </tr>
+        </thead>
+        <tbody>
+        
+            <tr id="row-ansible-bender">
+                <td>ansible-bender</td>
+                <td>🔴</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.15-b1/package/ansible-bender/">
+                        Copr - ansible-bender
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-arandr">
+                <td>arandr</td>
+                <td>🔴</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.15-b1/package/arandr/">
+                        Copr - arandr
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-asciidoc">
+                <td>asciidoc</td>
+                <td>🔴</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.15-b1/package/asciidoc/">
+                        Copr - asciidoc
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-gdb">
+                <td>gdb</td>
+                <td>🔴</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.15-b1/package/gdb/">
+                        Copr - gdb
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-gnulib">
+                <td>gnulib</td>
+                <td>🔴</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.15-b1/package/gnulib/">
+                        Copr - gnulib
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-lttng-tools">
+                <td>lttng-tools</td>
+                <td>🔴</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.15-b1/package/lttng-tools/">
+                        Copr - lttng-tools
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-protobuf">
+                <td>protobuf</td>
+                <td>🔴</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.15-b1/package/protobuf/">
+                        Copr - protobuf
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-python-XStatic">
+                <td>python-XStatic</td>
+                <td>🔴</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.15-b1/package/python-XStatic/">
+                        Copr - python-XStatic
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-python-XStatic-Angular-UUID">
+                <td>python-XStatic-Angular-UUID</td>
+                <td>🔴</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.15-b1/package/python-XStatic-Angular-UUID/">
+                        Copr - python-XStatic-Angular-UUID
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-python-XStatic-Angular-Vis">
+                <td>python-XStatic-Angular-Vis</td>
+                <td>🔴</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.15-b1/package/python-XStatic-Angular-Vis/">
+                        Copr - python-XStatic-Angular-Vis
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-python-XStatic-Bootstrap-SCSS">
+                <td>python-XStatic-Bootstrap-SCSS</td>
+                <td>🔴</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.15-b1/package/python-XStatic-Bootstrap-SCSS/">
+                        Copr - python-XStatic-Bootstrap-SCSS
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-python-XStatic-DataTables">
+                <td>python-XStatic-DataTables</td>
+                <td>🔴</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.15-b1/package/python-XStatic-DataTables/">
+                        Copr - python-XStatic-DataTables
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-python-XStatic-FileSaver">
+                <td>python-XStatic-FileSaver</td>
+                <td>🔴</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.15-b1/package/python-XStatic-FileSaver/">
+                        Copr - python-XStatic-FileSaver
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-python-XStatic-JS-Yaml">
+                <td>python-XStatic-JS-Yaml</td>
+                <td>🔴</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.15-b1/package/python-XStatic-JS-Yaml/">
+                        Copr - python-XStatic-JS-Yaml
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-python-XStatic-Json2yaml">
+                <td>python-XStatic-Json2yaml</td>
+                <td>🔴</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.15-b1/package/python-XStatic-Json2yaml/">
+                        Copr - python-XStatic-Json2yaml
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-python-XStatic-Patternfly">
+                <td>python-XStatic-Patternfly</td>
+                <td>🔴</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.15-b1/package/python-XStatic-Patternfly/">
+                        Copr - python-XStatic-Patternfly
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-python-XStatic-Patternfly-Bootstrap-Treeview">
+                <td>python-XStatic-Patternfly-Bootstrap-Treeview</td>
+                <td>🔴</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.15-b1/package/python-XStatic-Patternfly-Bootstrap-Treeview/">
+                        Copr - python-XStatic-Patternfly-Bootstrap-Treeview
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-python-colour">
+                <td>python-colour</td>
+                <td>🔴</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.15-b1/package/python-colour/">
+                        Copr - python-colour
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-python-cppheaderparser">
+                <td>python-cppheaderparser</td>
+                <td>🔴</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.15-b1/package/python-cppheaderparser/">
+                        Copr - python-cppheaderparser
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-python-defusedxml">
+                <td>python-defusedxml</td>
+                <td>🔴</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.15-b1/package/python-defusedxml/">
+                        Copr - python-defusedxml
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-python-dill">
+                <td>python-dill</td>
+                <td>🔴</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.15-b1/package/python-dill/">
+                        Copr - python-dill
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-python-flit-scm">
+                <td>python-flit-scm</td>
+                <td>🔴</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.15-b1/package/python-flit-scm/">
+                        Copr - python-flit-scm
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-python-iniconfig">
+                <td>python-iniconfig</td>
+                <td>🔴</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.15-b1/package/python-iniconfig/">
+                        Copr - python-iniconfig
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-python-linecache2">
+                <td>python-linecache2</td>
+                <td>🔴</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.15-b1/package/python-linecache2/">
+                        Copr - python-linecache2
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-python-logfury">
+                <td>python-logfury</td>
+                <td>🔴</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.15-b1/package/python-logfury/">
+                        Copr - python-logfury
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-python-phply">
+                <td>python-phply</td>
+                <td>🔴</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.15-b1/package/python-phply/">
+                        Copr - python-phply
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-python-phyghtmap">
+                <td>python-phyghtmap</td>
+                <td>🔴</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.15-b1/package/python-phyghtmap/">
+                        Copr - python-phyghtmap
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-python-pluggy">
+                <td>python-pluggy</td>
+                <td>🔴</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.15-b1/package/python-pluggy/">
+                        Copr - python-pluggy
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-python-pluginlib">
+                <td>python-pluginlib</td>
+                <td>🔴</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.15-b1/package/python-pluginlib/">
+                        Copr - python-pluginlib
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-python-pmw">
+                <td>python-pmw</td>
+                <td>🔴</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.15-b1/package/python-pmw/">
+                        Copr - python-pmw
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-python-py">
+                <td>python-py</td>
+                <td>🔴</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.15-b1/package/python-py/">
+                        Copr - python-py
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-python-sqlacodegen">
+                <td>python-sqlacodegen</td>
+                <td>🔴</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.15-b1/package/python-sqlacodegen/">
+                        Copr - python-sqlacodegen
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-python-subprocess-tee">
+                <td>python-subprocess-tee</td>
+                <td>🔴</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.15-b1/package/python-subprocess-tee/">
+                        Copr - python-subprocess-tee
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-python-types-pygments">
+                <td>python-types-pygments</td>
+                <td>🔴</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.15-b1/package/python-types-pygments/">
+                        Copr - python-types-pygments
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-python-types-requests">
+                <td>python-types-requests</td>
+                <td>🔴</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.15-b1/package/python-types-requests/">
+                        Copr - python-types-requests
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-python-typing-extensions">
+                <td>python-typing-extensions</td>
+                <td>🔴</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.15-b1/package/python-typing-extensions/">
+                        Copr - python-typing-extensions
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-python-uri-template">
+                <td>python-uri-template</td>
+                <td>🔴</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.15-b1/package/python-uri-template/">
+                        Copr - python-uri-template
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-python-varlink">
+                <td>python-varlink</td>
+                <td>🔴</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.15-b1/package/python-varlink/">
+                        Copr - python-varlink
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-python-webrtcvad">
+                <td>python-webrtcvad</td>
+                <td>🔴</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.15-b1/package/python-webrtcvad/">
+                        Copr - python-webrtcvad
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-python3-mallard-ducktype">
+                <td>python3-mallard-ducktype</td>
+                <td>🔴</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.15-b1/package/python3-mallard-ducktype/">
+                        Copr - python3-mallard-ducktype
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-rdiff-backup">
+                <td>rdiff-backup</td>
+                <td>🔴</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.15-b1/package/rdiff-backup/">
+                        Copr - rdiff-backup
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-sip6">
+                <td>sip6</td>
+                <td>🔴</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.15-b1/package/sip6/">
+                        Copr - sip6
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                </td>
+            </tr>
+        
+        </tbody>
+    </table>
+</div>
+
+    <h3 class="mb-3">Thanks</h3>
+    <p>This is derivative work from <a href="https://pyreadiness.org">pyreadiness.org</a> and <a href="https://pythonwheels.com/">pythonwheels.com</a>, a site that tracks which Python distributions ship the wheel distribution.</p>
+    <!-- fork me -->
+    <a href="https://github.com/befeleme/fedora-python-rebuild-status" class="github-corner" aria-label="View source on GitHub"><svg width="80" height="80" viewBox="0 0 250 250" style="fill:#000; color:#fff; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
+    <hr>
+    <footer>
+      <p>Maintained by <a href="https://github.com/befeleme">@befeleme</a>, source on <a href="https://github.com/befeleme/fedora-python-rebuild-status">GitHub</a>.</p>
+      <p>Last updated on <span class="date">2026-05-13 08:39:04.461048</span> (updated daily)</p>
+    </footer>
+  </div>
+</body>
+</html>
