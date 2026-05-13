@@ -43,6 +43,7 @@ amdsmi
 ampy
 anaconda
 ansible
+ansible-bender
 ansible-builder
 ansible-core
 ansible-inventory-grapher
@@ -52,9 +53,11 @@ apbs
 apk-tools
 apx
 ara
+arandr
 arbor
 argparse-manpage
 asahi-installer
+asciidoc
 assimp
 astrometry
 at-spi2-core
@@ -238,6 +241,7 @@ fusion-icon
 gajim
 gcovr
 gdal
+gdb
 gdcm
 gdl
 geopmd
@@ -272,6 +276,7 @@ gnome-tweaks
 gns3-net-converter
 gns3-server
 gnucash
+gnulib
 gnumeric
 gnuradio
 go-vendor-tools
@@ -407,6 +412,7 @@ liblc3
 libloc
 libmamba
 libmodulemd
+libnbd
 libnuml
 libnvme
 libolm
@@ -428,6 +434,7 @@ libsolv
 libsonata
 libstoragemgmt
 libsvm
+libtevent
 libunity
 libuser
 libvirt-python
@@ -446,6 +453,7 @@ litecli
 llvm
 llvm21
 lollypop
+lttng-tools
 lutris
 lvm2
 mailman3
@@ -552,6 +560,7 @@ openscap
 openscap-report
 openshadinglanguage
 openshot
+opensips
 openssh-ldap-authkeys
 opensuse-distro-aliases
 opentrep
@@ -603,6 +612,7 @@ powerline
 pre-commit
 profanity
 proselint
+protobuf
 protobuf3
 protontricks
 proxmark3
@@ -653,6 +663,7 @@ pyqtwebengine
 pyserial-asyncio
 pyshp
 pysnmp
+pysvn
 pysysbot
 pytest
 python-APScheduler
@@ -679,6 +690,16 @@ python-SecretStorage
 python-TestSlide
 python-Traits
 python-WSGIProxy2
+python-XStatic
+python-XStatic-Angular-UUID
+python-XStatic-Angular-Vis
+python-XStatic-Bootstrap-SCSS
+python-XStatic-DataTables
+python-XStatic-FileSaver
+python-XStatic-JS-Yaml
+python-XStatic-Json2yaml
+python-XStatic-Patternfly
+python-XStatic-Patternfly-Bootstrap-Treeview
 python-a2wsgi
 python-aaargh
 python-abimap
@@ -1103,6 +1124,7 @@ python-colorlog
 python-colormath2
 python-colorspacious
 python-colorzero
+python-colour
 python-columnar
 python-comm
 python-commented-configparser
@@ -1136,6 +1158,7 @@ python-cornice
 python-cotyledon
 python-covdefaults
 python-coveralls
+python-cppheaderparser
 python-cppy
 python-cpuinfo
 python-cramjam
@@ -1210,6 +1233,7 @@ python-diff-cover
 python-diff-match-patch
 python-digitalocean
 python-dijitso
+python-dill
 python-dirhash
 python-dirty-equals
 python-discovery
@@ -1383,6 +1407,7 @@ python-fisx
 python-fitdecode
 python-fitsio
 python-fixit
+python-fixtures
 python-flake8
 python-flake8-blind-except
 python-flake8-builtins
@@ -1426,6 +1451,7 @@ python-flexcache
 python-flexmock
 python-flexparser
 python-flit
+python-flit-scm
 python-flufl-bounce
 python-flufl-i18n
 python-flufl-lock
@@ -1517,6 +1543,7 @@ python-grokmirror
 python-grpc-google-iam-v1
 python-grpcio-gcp
 python-gsd
+python-gssapi
 python-gstreamer1
 python-gsw
 python-guessit
@@ -1607,6 +1634,7 @@ python-inema
 python-inflect
 python-inflection
 python-influxdb-client
+python-iniconfig
 python-inject
 python-injector
 python-inkex
@@ -1779,6 +1807,7 @@ python-locket
 python-lockfile
 python-logbook
 python-logdetective
+python-logfury
 python-loguru
 python-logutils
 python-looseversion
@@ -1790,6 +1819,7 @@ python-lsp-server
 python-lsprotocol
 python-lunr
 python-lupa
+python-lxml
 python-lxml-html-clean
 python-ly
 python-lz4
@@ -2034,6 +2064,7 @@ python-oscrypto
 python-oslo-concurrency
 python-oslo-config
 python-oslo-context
+python-oslo-i18n
 python-oslo-log
 python-oslo-metrics
 python-oslo-serialization
@@ -2100,6 +2131,8 @@ python-pexpect
 python-pg8000
 python-pgspecial
 python-photutils
+python-phply
+python-phyghtmap
 python-pid
 python-pidfile
 python-piexif
@@ -2119,9 +2152,12 @@ python-plaster-pastedeploy
 python-platformdirs
 python-platformio
 python-playsound3
+python-pluggy
 python-pluginbase
 python-plugincode
+python-pluginlib
 python-plumbum
+python-pmw
 python-pocketlint
 python-podman
 python-poetry-core
@@ -2169,6 +2205,7 @@ python-pure-protobuf
 python-puremagic
 python-puzpy
 python-pwntools
+python-py
 python-py-key-value
 python-py-tes
 python-py-walk
@@ -2740,6 +2777,7 @@ python-spotipy
 python-spur
 python-spyder-kernels
 python-spyking-circus
+python-sqlacodegen
 python-sqlalchemy
 python-sqlalchemy-collectd
 python-sqlalchemy-filters
@@ -2769,12 +2807,14 @@ python-steampunk-spotter
 python-stem
 python-steps
 python-stestr
+python-stevedore
 python-stone
 python-stravalib
 python-streamlink
 python-string_utils
 python-stripe
 python-subliminal
+python-subprocess-tee
 python-succulent
 python-suds
 python-super-collections
@@ -2835,6 +2875,7 @@ python-tifffile
 python-tiktoken
 python-tilestache
 python-time-machine
+python-timelib
 python-timeslot
 python-tiny-proxy
 python-tinycss2
@@ -2906,6 +2947,11 @@ python-typecode-libmagic
 python-typeguard
 python-typepy
 python-typer
+python-types-boto
+python-types-pygments
+python-types-pyopenssl
+python-types-requests
+python-typing-extensions
 python-typing-inspect
 python-typing-inspection
 python-typogrify
@@ -2928,6 +2974,7 @@ python-universal-pathlib
 python-unpaddedbase64
 python-untangle
 python-uranium
+python-uri-template
 python-uritemplate
 python-uritools
 python-url-normalize
@@ -2949,6 +2996,7 @@ python-uvicorn
 python-validator-collection
 python-validators
 python-valkey
+python-varlink
 python-vascpy
 python-vatnumber
 python-vcrpy
@@ -2990,6 +3038,7 @@ python-webcolors
 python-webdav4
 python-webencodings
 python-webob
+python-webrtcvad
 python-webscrapbook
 python-websocket-client
 python-websockets
@@ -3079,9 +3128,11 @@ python-zope-testrunner
 python-zopfli
 python-zstandard
 python-zstarfile
+python-zuul-sphinx
 python-zxcvbn
 python3-cangjie
 python3-discid
+python3-mallard-ducktype
 python3-mypy
 python3-openid
 python3-poppler-qt5
@@ -3110,6 +3161,7 @@ qutebrowser
 radicale
 ramalama
 rb_libtorrent
+rdiff-backup
 rdma-core
 re2
 rebase-helper
@@ -3160,9 +3212,11 @@ scidavis
 scipy
 screenkey
 scribus
+seadrive-daemon
 seafile
 sen
 sentencepiece
+setools
 setroubleshoot
 setzer
 sherlock-project
@@ -3172,6 +3226,7 @@ shyaml
 shybrid
 sigil
 simple-ccsm
+sip6
 smoldyn
 snakemake
 snapm
@@ -3185,6 +3240,7 @@ spglib
 spyder
 ssh-audit
 sshuttle
+sssd
 stomppy
 stp
 stratis-cli
@@ -3204,6 +3260,7 @@ syncplay
 syncstar
 syndication-domination
 syslog-ng
+system-config-printer
 system-storage-manager
 systemtap
 targetcli
@@ -3236,6 +3293,7 @@ translate-toolkit
 trash-cli
 trelby
 trellis
+tuna
 tuned
 ty
 ubertooth
@@ -3258,6 +3316,7 @@ uwsgi
 vapoursynth
 variety
 vdirsyncer
+vdr-epg-daemon
 veusz
 vex
 vigra
@@ -3285,6 +3344,7 @@ wult
 xapian-bindings
 xapps
 xcfun
+xen
 xmms2
 xonsh
 xpra
