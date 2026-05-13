@@ -9,6 +9,7 @@ app = Flask("python_rebuild_status")
 
 # Load commonly needed components report
 commonly_blocking_data = load_json("data/commonly-needed-report.json")
+commonly_blocking_data_b1 = load_json("data/commonly-needed-report-b1.json")
 
 
 REPORT_STATES = {
@@ -359,9 +360,7 @@ def burndown():
 
 @app.route('/commonly-blocking/')
 def commonly_blocking():
-    # Get the set of packages that are in the failures report
     failed_packages = set(build_data["315"]["failed_report"].keys())
-
     return render_template(
         'commonly_blocking.html',
         most_commonly_needed=commonly_blocking_data.get("most_commonly_needed", []),
@@ -369,5 +368,20 @@ def commonly_blocking():
         most_commonly_last_blocking_combinations=commonly_blocking_data.get("most_commonly_last_blocking_combinations", []),
         dependency_loops=commonly_blocking_data.get("dependency_loops", []),
         failed_packages=failed_packages,
+        failures_route='failures_py315',
+        updated=updated,
+    )
+
+@app.route('/commonly-blocking-b1/')
+def commonly_blocking_b1():
+    failed_packages = set(build_data["315b1"]["failed_report"].keys())
+    return render_template(
+        'commonly_blocking.html',
+        most_commonly_needed=commonly_blocking_data_b1.get("most_commonly_needed", []),
+        most_commonly_last_blocking=commonly_blocking_data_b1.get("most_commonly_last_blocking", []),
+        most_commonly_last_blocking_combinations=commonly_blocking_data_b1.get("most_commonly_last_blocking_combinations", []),
+        dependency_loops=commonly_blocking_data_b1.get("dependency_loops", []),
+        failed_packages=failed_packages,
+        failures_route='failures_py315b1',
         updated=updated,
     )
