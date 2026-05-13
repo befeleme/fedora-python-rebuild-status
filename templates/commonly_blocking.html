@@ -203,12 +203,10 @@
                 <tr>
                     <td class="rank-col">{{ loop.index }}</td>
                     <td>
-                        {% if item.loop %}
-                            {% for component in item.loop %}
-                                <span class="badge bg-danger me-1 mb-1">{{ component }}</span>
-                                {% if not loop.last %}<span class="text-muted">→</span>{% endif %}
-                            {% endfor %}
-                        {% endif %}
+                        {% for component in item %}
+                            <span class="badge bg-danger me-1 mb-1">{{ component }}</span>
+                            {% if not loop.last %}<span class="text-muted">→</span>{% endif %}
+                        {% endfor %}
                     </td>
                 </tr>
             {% endfor %}
