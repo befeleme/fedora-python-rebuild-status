@@ -1,4 +1,8 @@
 {
+  "Macaulay2": {
+    "urls": [],
+    "summaries": []
+  },
   "Mayavi": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2433846"
@@ -63,6 +67,10 @@
     "urls": [],
     "summaries": []
   },
+  "breezy": {
+    "urls": [],
+    "summaries": []
+  },
   "cantor": {
     "urls": [],
     "summaries": []
@@ -80,10 +88,6 @@
     ]
   },
   "copr-backend": {
-    "urls": [],
-    "summaries": []
-  },
-  "cryptominisat": {
     "urls": [],
     "summaries": []
   },
@@ -111,7 +115,15 @@
       "dnf-plugin-perfmetrics: FTBFS with change proposal CMake 4.0"
     ]
   },
+  "duplicity": {
+    "urls": [],
+    "summaries": []
+  },
   "enki": {
+    "urls": [],
+    "summaries": []
+  },
+  "espresso": {
     "urls": [],
     "summaries": []
   },
@@ -123,6 +135,18 @@
       "fail2ban fails to build with Python 3.15: AttributeError: 'SourceFileLoader' object has no attribute 'load_module'. Did you mean: 'exec_module'?"
     ]
   },
+  "gdal": {
+    "urls": [],
+    "summaries": []
+  },
+  "grpc": {
+    "urls": [],
+    "summaries": []
+  },
+  "input-remapper": {
+    "urls": [],
+    "summaries": []
+  },
   "jc": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2424595"
@@ -130,26 +154,6 @@
     "summaries": [
       "jc fails to build with Python 3.15: AssertionError: 'format': 1760, != 'format': 7250,"
     ]
-  },
-  "kernel": {
-    "urls": [],
-    "summaries": []
-  },
-  "kf6-kguiaddons": {
-    "urls": [],
-    "summaries": []
-  },
-  "kf6-kjobwidgets": {
-    "urls": [],
-    "summaries": []
-  },
-  "kf6-kstatusnotifieritem": {
-    "urls": [],
-    "summaries": []
-  },
-  "kf6-kxmlgui": {
-    "urls": [],
-    "summaries": []
   },
   "kicad": {
     "urls": [],
@@ -190,6 +194,14 @@
   "libsvm": {
     "urls": [],
     "summaries": []
+  },
+  "libyui": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2427943"
+    ],
+    "summaries": [
+      "libyui: FTBFS with gcc16 due to C++20 change"
+    ]
   },
   "link-grammar": {
     "urls": [],
@@ -255,6 +267,10 @@
       "ocrmypdf fails to build with Python 3.15: test_xml_metadata_preserved: AssertionError: acquired unexpected property dc:title with value 'Untitled'"
     ]
   },
+  "onnxruntime": {
+    "urls": [],
+    "summaries": []
+  },
   "openvino": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2460557"
@@ -298,6 +314,10 @@
     "summaries": [
       "pyp2rpm fails to build with Python 3.15: ModuleNotFoundError: No module named 'sre_constants'"
     ]
+  },
+  "pyproj": {
+    "urls": [],
+    "summaries": []
   },
   "pyqtwebengine": {
     "urls": [
@@ -545,6 +565,10 @@
     "urls": [],
     "summaries": []
   },
+  "python-dbus-fast": {
+    "urls": [],
+    "summaries": []
+  },
   "python-defcon": {
     "urls": [],
     "summaries": []
@@ -637,11 +661,11 @@
       "python-elastic-transport fails to build with Python 3.15: ERROR: '\"function\"' is not a valid asyncio_default_fixture_loop_scope. Valid scopes are: function, class, module, package, session."
     ]
   },
-  "python-embreex": {
+  "python-engineio": {
     "urls": [],
     "summaries": []
   },
-  "python-engineio": {
+  "python-envisage": {
     "urls": [],
     "summaries": []
   },
@@ -697,14 +721,6 @@
       "python-faker fails to build with Python 3.15: NameError: name 'TestEnUS' is not defined"
     ]
   },
-  "python-fast-simplification": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-fastar": {
-    "urls": [],
-    "summaries": []
-  },
   "python-flask-migrate": {
     "urls": [],
     "summaries": []
@@ -735,7 +751,15 @@
       "python-futurist fails to build with Python 3.15: 3 tests failures with FileNotFoundError: [Errno 2] No such file or directory"
     ]
   },
+  "python-gearbox": {
+    "urls": [],
+    "summaries": []
+  },
   "python-genshi": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-geomdl": {
     "urls": [],
     "summaries": []
   },
@@ -746,6 +770,22 @@
     "summaries": [
       "python-giacpy: FTBFS in Fedora Rawhide: line 51: Segmentation fault: /usr/bin/python3 -m doctest ../../giacpy/giacpy.pyx -vv"
     ]
+  },
+  "python-glymur": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-google-cloud-dns": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-gstreamer1": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-helpdev": {
+    "urls": [],
+    "summaries": []
   },
   "python-hupper": {
     "urls": [
@@ -799,6 +839,10 @@
       "python-inquirer: FTBFS in Fedora rawhide/f44"
     ]
   },
+  "python-jenkins-job-builder": {
+    "urls": [],
+    "summaries": []
+  },
   "python-jnius": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2460555"
@@ -806,6 +850,10 @@
     "summaries": [
       "python-jnius: FTBFS in Fedora Rawhide: error: incompatible pointer types passing 'JNIEnv **' (aka 'const struct JNINativeInterface_ ***') to parameter of type 'void **'"
     ]
+  },
+  "python-jupyter-server": {
+    "urls": [],
+    "summaries": []
   },
   "python-jwt": {
     "urls": [
@@ -834,6 +882,10 @@
     "summaries": [
       "python-kiwisolver fails to build with setuptools_scm 10+"
     ]
+  },
+  "python-lesscpy": {
+    "urls": [],
+    "summaries": []
   },
   "python-llm": {
     "urls": [
@@ -891,14 +943,6 @@
       "python-msrest fails to build with Python 3.15: AssertionErrors in two TestServiceClient::test_client_send"
     ]
   },
-  "python-neo": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2434996"
-    ],
-    "summaries": [
-      "python-neo: FTBFS in Fedora rawhide/f44"
-    ]
-  },
   "python-nibabel": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2442355"
@@ -939,6 +983,14 @@
     "urls": [],
     "summaries": []
   },
+  "python-paste": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-phyghtmap": {
+    "urls": [],
+    "summaries": []
+  },
   "python-pip": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2458631"
@@ -946,10 +998,6 @@
     "summaries": [
       "python-pip fails to build with Python 3.15: importlib.metadata.MetadataNotFound: No package metadata was found."
     ]
-  },
-  "python-psutil": {
-    "urls": [],
-    "summaries": []
   },
   "python-psycopg2": {
     "urls": [
@@ -967,6 +1015,10 @@
       "F45FailsToInstall: python3-pycparserext"
     ]
   },
+  "python-pycurl": {
+    "urls": [],
+    "summaries": []
+  },
   "python-pydantic": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2460140"
@@ -983,6 +1035,10 @@
       "python-pygtkspellcheck: FTBFS in Fedora rawhide/f44"
     ]
   },
+  "python-pymongo": {
+    "urls": [],
+    "summaries": []
+  },
   "python-pyngus": {
     "urls": [],
     "summaries": []
@@ -995,7 +1051,7 @@
       "python-pynwb fails to build with Python 3.15: test_outer_import_structure: AssertionError: '__cached__' not found in ..."
     ]
   },
-  "python-pyscipopt": {
+  "python-pyramid": {
     "urls": [],
     "summaries": []
   },
@@ -1009,7 +1065,7 @@
       "python-pysdl2 fails to build with Python 3.15: AssertionError: That operation is not supported"
     ]
   },
-  "python-pyside6": {
+  "python-pyspike": {
     "urls": [],
     "summaries": []
   },
@@ -1073,13 +1129,9 @@
       "python-reportlab fails to build with Python 3.15: TypeError: _LoaderBasics.exec_module() missing 1 required positional argument: 'module'"
     ]
   },
-  "python-result": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2435020"
-    ],
-    "summaries": [
-      "python-result: FTBFS in Fedora rawhide/f44"
-    ]
+  "python-repoze-who": {
+    "urls": [],
+    "summaries": []
   },
   "python-rstcheck": {
     "urls": [
@@ -1096,6 +1148,10 @@
     "summaries": [
       "python-rstr fails to build with Python 3.15: 3 errors when collecting tests: ModuleNotFoundError: No module named 'sre_parse'"
     ]
+  },
+  "python-setuptools80": {
+    "urls": [],
+    "summaries": []
   },
   "python-simple-salesforce": {
     "urls": [
@@ -1117,6 +1173,10 @@
     "urls": [],
     "summaries": []
   },
+  "python-ssdeep": {
+    "urls": [],
+    "summaries": []
+  },
   "python-steampunk-spotter": {
     "urls": [],
     "summaries": []
@@ -1133,7 +1193,7 @@
       "python-streamlink fails to build with Python 3.15: test_help_color: TypeError: TestPrint._color.<locals>.<lambda>() got an unexpected keyword argument 'file'"
     ]
   },
-  "python-symengine": {
+  "python-subliminal": {
     "urls": [],
     "summaries": []
   },
@@ -1169,6 +1229,10 @@
       "python-toml-cli: FTBFS in Fedora Rawhide: 2 tests fail"
     ]
   },
+  "python-torch": {
+    "urls": [],
+    "summaries": []
+  },
   "python-tornado": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2414557"
@@ -1176,6 +1240,14 @@
     "summaries": [
       "python-tornado fails to build with Python 3.15: ERROR: test_multi_process"
     ]
+  },
+  "python-tpm2-pytss": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-traitsui": {
+    "urls": [],
+    "summaries": []
   },
   "python-translitcodec": {
     "urls": [
@@ -1192,6 +1264,18 @@
     "summaries": [
       "[heads up] python-treq will fail to build with Sphinx 9+ in Fedora 45: sphinx.errors.SphinxError: cannot determine default role!"
     ]
+  },
+  "python-triton": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-tw2-core": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-tw2-forms": {
+    "urls": [],
+    "summaries": []
   },
   "python-typeguard": {
     "urls": [
@@ -1225,6 +1309,10 @@
       "python-xarray: FTBFS in Fedora rawhide/f44"
     ]
   },
+  "python-xlib": {
+    "urls": [],
+    "summaries": []
+  },
   "python-zict": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2440574"
@@ -1233,11 +1321,11 @@
       "python-zict fails to build with Python 3.15: timeout in test_stress_different_keys_threadsafe"
     ]
   },
-  "python-zlib-ng": {
+  "python-zoidberg": {
     "urls": [],
     "summaries": []
   },
-  "python-zoidberg": {
+  "python-zope-event": {
     "urls": [],
     "summaries": []
   },
@@ -1249,9 +1337,13 @@
       "python-zope-testrunner fails to build with Python 3.15: help2man: can't get `--help' info from /builddir/build/BUILD/python-zope-testrunner-8.1-build/BUILDROOT/usr/bin/zope-testrunner"
     ]
   },
-  "qgis": {
-    "urls": [],
-    "summaries": []
+  "pywhispercpp": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2453825"
+    ],
+    "summaries": [
+      "pywhispercpp fails to build with setuptools_scm 10+"
+    ]
   },
   "qpid-proton": {
     "urls": [
@@ -1282,6 +1374,10 @@
     ]
   },
   "retis": {
+    "urls": [],
+    "summaries": []
+  },
+  "root": {
     "urls": [],
     "summaries": []
   },
@@ -1349,6 +1445,10 @@
     "urls": [],
     "summaries": []
   },
+  "vdirsyncer": {
+    "urls": [],
+    "summaries": []
+  },
   "vtk": {
     "urls": [],
     "summaries": []
@@ -1360,6 +1460,10 @@
     "summaries": [
       "weasyprint: FTBFS in Fedora Rawhide:  Failed: Pixel (5, 1) in radial_gradient_reflect: expected rgba(255, 0, 0), got rgba(0, 255, 0)"
     ]
+  },
+  "whipper": {
+    "urls": [],
+    "summaries": []
   },
   "xapian-bindings": {
     "urls": [
