@@ -90,6 +90,8 @@
         <li><a href="#blocking-combinations">Most Commonly Last Blocking Combinations</a></li>
         
         
+        <li><a href="#dependency-loops">Dependency Loops</a></li>
+        
     </ul>
 </div>
 
@@ -149,13 +151,15 @@
                     <td class="rank-col">1</td>
                     <td class="component-col">
                         
-                            <a href="/failures_py315/#row-python-xarray">python-xarray</a>
+                            python-sqlalchemy
                         
                     </td>
-                    <td class="count-col"><span class="badge bg-primary">4</span></td>
+                    <td class="count-col"><span class="badge bg-primary">45</span></td>
                     <td class="blocking-col">
                         
-                            <span class="text-muted">—</span>
+                            
+                                <span class="badge bg-danger me-1 mb-1">python-psycopg2</span>
+                            
                         
                     </td>
                 </tr>
@@ -164,13 +168,15 @@
                     <td class="rank-col">2</td>
                     <td class="component-col">
                         
-                            <a href="/failures_py315/#row-qpid-proton">qpid-proton</a>
+                            python-ruamel-yaml-clib
                         
                     </td>
-                    <td class="count-col"><span class="badge bg-primary">3</span></td>
+                    <td class="count-col"><span class="badge bg-primary">34</span></td>
                     <td class="blocking-col">
                         
-                            <span class="text-muted">—</span>
+                            
+                                <span class="badge bg-danger me-1 mb-1">python-ruamel-yaml-clib</span>
+                            
                         
                     </td>
                 </tr>
@@ -179,33 +185,10 @@
                     <td class="rank-col">3</td>
                     <td class="component-col">
                         
-                            python-trimesh
+                            <a href="/failures_py315/#row-python-pandas">python-pandas</a>
                         
                     </td>
-                    <td class="count-col"><span class="badge bg-primary">3</span></td>
-                    <td class="blocking-col">
-                        
-                            
-                                <span class="badge bg-danger me-1 mb-1">blender</span>
-                            
-                                <span class="badge bg-danger me-1 mb-1">manifold</span>
-                            
-                                <span class="badge bg-danger me-1 mb-1">python-ezdxf</span>
-                            
-                                <span class="badge bg-danger me-1 mb-1">usd</span>
-                            
-                        
-                    </td>
-                </tr>
-            
-                <tr>
-                    <td class="rank-col">4</td>
-                    <td class="component-col">
-                        
-                            <a href="/failures_py315/#row-pyqtwebengine">pyqtwebengine</a>
-                        
-                    </td>
-                    <td class="count-col"><span class="badge bg-primary">2</span></td>
+                    <td class="count-col"><span class="badge bg-primary">26</span></td>
                     <td class="blocking-col">
                         
                             <span class="text-muted">—</span>
@@ -214,18 +197,33 @@
                 </tr>
             
                 <tr>
-                    <td class="rank-col">5</td>
+                    <td class="rank-col">4</td>
                     <td class="component-col">
                         
-                            go-vendor-tools
+                            <a href="/failures_py315/#row-vtk">vtk</a>
                         
                     </td>
-                    <td class="count-col"><span class="badge bg-primary">2</span></td>
+                    <td class="count-col"><span class="badge bg-primary">16</span></td>
                     <td class="blocking-col">
                         
                             
-                                <span class="badge bg-danger me-1 mb-1">scancode-toolkit</span>
+                                <span class="badge bg-danger me-1 mb-1">vtk</span>
                             
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td class="rank-col">5</td>
+                    <td class="component-col">
+                        
+                            <a href="/failures_py315/#row-python-tornado">python-tornado</a>
+                        
+                    </td>
+                    <td class="count-col"><span class="badge bg-primary">16</span></td>
+                    <td class="blocking-col">
+                        
+                            <span class="text-muted">—</span>
                         
                     </td>
                 </tr>
@@ -234,10 +232,10 @@
                     <td class="rank-col">6</td>
                     <td class="component-col">
                         
-                            <a href="/failures_py315/#row-osc">osc</a>
+                            <a href="/failures_py315/#row-python-websockets">python-websockets</a>
                         
                     </td>
-                    <td class="count-col"><span class="badge bg-primary">2</span></td>
+                    <td class="count-col"><span class="badge bg-primary">15</span></td>
                     <td class="blocking-col">
                         
                             <span class="text-muted">—</span>
@@ -249,10 +247,10 @@
                     <td class="rank-col">7</td>
                     <td class="component-col">
                         
-                            <a href="/failures_py315/#row-python-neo">python-neo</a>
+                            <a href="/failures_py315/#row-mercurial">mercurial</a>
                         
                     </td>
-                    <td class="count-col"><span class="badge bg-primary">2</span></td>
+                    <td class="count-col"><span class="badge bg-primary">14</span></td>
                     <td class="blocking-col">
                         
                             <span class="text-muted">—</span>
@@ -264,15 +262,13 @@
                     <td class="rank-col">8</td>
                     <td class="component-col">
                         
-                            python-fslpy
+                            <a href="/failures_py315/#row-grpc">grpc</a>
                         
                     </td>
-                    <td class="count-col"><span class="badge bg-primary">2</span></td>
+                    <td class="count-col"><span class="badge bg-primary">10</span></td>
                     <td class="blocking-col">
                         
-                            
-                                <span class="badge bg-danger me-1 mb-1">python-trimesh</span>
-                            
+                            <span class="text-muted">—</span>
                         
                     </td>
                 </tr>
@@ -281,14 +277,14 @@
                     <td class="rank-col">9</td>
                     <td class="component-col">
                         
-                            python-libpysal
+                            python-rapidfuzz
                         
                     </td>
-                    <td class="count-col"><span class="badge bg-primary">2</span></td>
+                    <td class="count-col"><span class="badge bg-primary">9</span></td>
                     <td class="blocking-col">
                         
                             
-                                <span class="badge bg-danger me-1 mb-1">python-xarray</span>
+                                <span class="badge bg-danger me-1 mb-1">python-pandas</span>
                             
                         
                     </td>
@@ -298,13 +294,19 @@
                     <td class="rank-col">10</td>
                     <td class="component-col">
                         
-                            <a href="/failures_py315/#row-xapian-bindings">xapian-bindings</a>
+                            python-astropy
                         
                     </td>
-                    <td class="count-col"><span class="badge bg-primary">2</span></td>
+                    <td class="count-col"><span class="badge bg-primary">9</span></td>
                     <td class="blocking-col">
                         
-                            <span class="text-muted">—</span>
+                            
+                                <span class="badge bg-danger me-1 mb-1">python-kiwisolver</span>
+                            
+                                <span class="badge bg-danger me-1 mb-1">python-matplotlib</span>
+                            
+                                <span class="badge bg-danger me-1 mb-1">python-scikit-image</span>
+                            
                         
                     </td>
                 </tr>
@@ -313,10 +315,10 @@
                     <td class="rank-col">11</td>
                     <td class="component-col">
                         
-                            <a href="/failures_py315/#row-usd">usd</a>
+                            <a href="/failures_py315/#row-python-torch">python-torch</a>
                         
                     </td>
-                    <td class="count-col"><span class="badge bg-primary">1</span></td>
+                    <td class="count-col"><span class="badge bg-primary">8</span></td>
                     <td class="blocking-col">
                         
                             <span class="text-muted">—</span>
@@ -328,13 +330,15 @@
                     <td class="rank-col">12</td>
                     <td class="component-col">
                         
-                            <a href="/failures_py315/#row-python-treq">python-treq</a>
+                            python-orjson
                         
                     </td>
-                    <td class="count-col"><span class="badge bg-primary">1</span></td>
+                    <td class="count-col"><span class="badge bg-primary">7</span></td>
                     <td class="blocking-col">
                         
-                            <span class="text-muted">—</span>
+                            
+                                <span class="badge bg-danger me-1 mb-1">python-pendulum</span>
+                            
                         
                     </td>
                 </tr>
@@ -343,13 +347,15 @@
                     <td class="rank-col">13</td>
                     <td class="component-col">
                         
-                            <a href="/failures_py315/#row-scancode-toolkit">scancode-toolkit</a>
+                            python-peewee
                         
                     </td>
-                    <td class="count-col"><span class="badge bg-primary">1</span></td>
+                    <td class="count-col"><span class="badge bg-primary">6</span></td>
                     <td class="blocking-col">
                         
-                            <span class="text-muted">—</span>
+                            
+                                <span class="badge bg-danger me-1 mb-1">python-psycopg2</span>
+                            
                         
                     </td>
                 </tr>
@@ -358,10 +364,10 @@
                     <td class="rank-col">14</td>
                     <td class="component-col">
                         
-                            <a href="/failures_py315/#row-python-translitcodec">python-translitcodec</a>
+                            <a href="/failures_py315/#row-python-psycopg2">python-psycopg2</a>
                         
                     </td>
-                    <td class="count-col"><span class="badge bg-primary">1</span></td>
+                    <td class="count-col"><span class="badge bg-primary">6</span></td>
                     <td class="blocking-col">
                         
                             <span class="text-muted">—</span>
@@ -373,15 +379,13 @@
                     <td class="rank-col">15</td>
                     <td class="component-col">
                         
-                            <a href="/failures_py315/#row-mupdf">mupdf</a>
+                            <a href="/failures_py315/#row-python-time-machine">python-time-machine</a>
                         
                     </td>
-                    <td class="count-col"><span class="badge bg-primary">1</span></td>
+                    <td class="count-col"><span class="badge bg-primary">5</span></td>
                     <td class="blocking-col">
                         
-                            
-                                <span class="badge bg-danger me-1 mb-1">llvm21</span>
-                            
+                            <span class="text-muted">—</span>
                         
                     </td>
                 </tr>
@@ -390,10 +394,10 @@
                     <td class="rank-col">16</td>
                     <td class="component-col">
                         
-                            <a href="/failures_py315/#row-certbot">certbot</a>
+                            <a href="/failures_py315/#row-python-genshi">python-genshi</a>
                         
                     </td>
-                    <td class="count-col"><span class="badge bg-primary">1</span></td>
+                    <td class="count-col"><span class="badge bg-primary">5</span></td>
                     <td class="blocking-col">
                         
                             <span class="text-muted">—</span>
@@ -405,10 +409,10 @@
                     <td class="rank-col">17</td>
                     <td class="component-col">
                         
-                            <a href="/failures_py315/#row-python-numpoly">python-numpoly</a>
+                            libvirt-python
                         
                     </td>
-                    <td class="count-col"><span class="badge bg-primary">1</span></td>
+                    <td class="count-col"><span class="badge bg-primary">5</span></td>
                     <td class="blocking-col">
                         
                             <span class="text-muted">—</span>
@@ -420,13 +424,19 @@
                     <td class="rank-col">18</td>
                     <td class="component-col">
                         
-                            <a href="/failures_py315/#row-python-django-allauth">python-django-allauth</a>
+                            python-shapely
                         
                     </td>
-                    <td class="count-col"><span class="badge bg-primary">1</span></td>
+                    <td class="count-col"><span class="badge bg-primary">4</span></td>
                     <td class="blocking-col">
                         
-                            <span class="text-muted">—</span>
+                            
+                                <span class="badge bg-danger me-1 mb-1">pyproj</span>
+                            
+                                <span class="badge bg-danger me-1 mb-1">python-kiwisolver</span>
+                            
+                                <span class="badge bg-danger me-1 mb-1">python-matplotlib</span>
+                            
                         
                     </td>
                 </tr>
@@ -435,13 +445,15 @@
                     <td class="rank-col">19</td>
                     <td class="component-col">
                         
-                            <a href="/failures_py315/#row-python-distributed">python-distributed</a>
+                            python-zmq
                         
                     </td>
-                    <td class="count-col"><span class="badge bg-primary">1</span></td>
+                    <td class="count-col"><span class="badge bg-primary">3</span></td>
                     <td class="blocking-col">
                         
-                            <span class="text-muted">—</span>
+                            
+                                <span class="badge bg-danger me-1 mb-1">python-tornado</span>
+                            
                         
                     </td>
                 </tr>
@@ -450,14 +462,14 @@
                     <td class="rank-col">20</td>
                     <td class="component-col">
                         
-                            python-mapclassify
+                            <a href="/failures_py315/#row-libguestfs">libguestfs</a>
                         
                     </td>
-                    <td class="count-col"><span class="badge bg-primary">1</span></td>
+                    <td class="count-col"><span class="badge bg-primary">2</span></td>
                     <td class="blocking-col">
                         
                             
-                                <span class="badge bg-danger me-1 mb-1">python-libpysal</span>
+                                <span class="badge bg-danger me-1 mb-1">libvirt-python</span>
                             
                         
                     </td>
@@ -490,7 +502,424 @@
                     <td class="rank-col">1</td>
                     <td class="component-col">
                         
+                            <a href="/failures_py315/#row-python-kiwisolver">python-kiwisolver</a>
+                        
+                    </td>
+                    <td class="count-col"><span class="badge bg-primary">112</span></td>
+                    <td class="blocking-col">
+                        
+                            <span class="text-muted">—</span>
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td class="rank-col">2</td>
+                    <td class="component-col">
+                        
+                            python-matplotlib
+                        
+                    </td>
+                    <td class="count-col"><span class="badge bg-primary">110</span></td>
+                    <td class="blocking-col">
+                        
+                            
+                                <span class="badge bg-danger me-1 mb-1">python-kiwisolver</span>
+                            
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td class="rank-col">3</td>
+                    <td class="component-col">
+                        
+                            <a href="/failures_py315/#row-python-pandas">python-pandas</a>
+                        
+                    </td>
+                    <td class="count-col"><span class="badge bg-primary">85</span></td>
+                    <td class="blocking-col">
+                        
+                            <span class="text-muted">—</span>
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td class="rank-col">4</td>
+                    <td class="component-col">
+                        
+                            python-sqlalchemy
+                        
+                    </td>
+                    <td class="count-col"><span class="badge bg-primary">76</span></td>
+                    <td class="blocking-col">
+                        
+                            
+                                <span class="badge bg-danger me-1 mb-1">python-psycopg2</span>
+                            
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td class="rank-col">5</td>
+                    <td class="component-col">
+                        
+                            <a href="/failures_py315/#row-python-tornado">python-tornado</a>
+                        
+                    </td>
+                    <td class="count-col"><span class="badge bg-primary">68</span></td>
+                    <td class="blocking-col">
+                        
+                            <span class="text-muted">—</span>
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td class="rank-col">6</td>
+                    <td class="component-col">
+                        
+                            python-zmq
+                        
+                    </td>
+                    <td class="count-col"><span class="badge bg-primary">60</span></td>
+                    <td class="blocking-col">
+                        
+                            
+                                <span class="badge bg-danger me-1 mb-1">python-tornado</span>
+                            
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td class="rank-col">7</td>
+                    <td class="component-col">
+                        
+                            python-ruamel-yaml-clib
+                        
+                    </td>
+                    <td class="count-col"><span class="badge bg-primary">56</span></td>
+                    <td class="blocking-col">
+                        
+                            
+                                <span class="badge bg-danger me-1 mb-1">python-ruamel-yaml-clib</span>
+                            
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td class="rank-col">8</td>
+                    <td class="component-col">
+                        
+                            <a href="/failures_py315/#row-vtk">vtk</a>
+                        
+                    </td>
+                    <td class="count-col"><span class="badge bg-primary">28</span></td>
+                    <td class="blocking-col">
+                        
+                            
+                                <span class="badge bg-danger me-1 mb-1">vtk</span>
+                            
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td class="rank-col">9</td>
+                    <td class="component-col">
+                        
+                            <a href="/failures_py315/#row-python-websockets">python-websockets</a>
+                        
+                    </td>
+                    <td class="count-col"><span class="badge bg-primary">21</span></td>
+                    <td class="blocking-col">
+                        
+                            <span class="text-muted">—</span>
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td class="rank-col">10</td>
+                    <td class="component-col">
+                        
+                            python-shapely
+                        
+                    </td>
+                    <td class="count-col"><span class="badge bg-primary">20</span></td>
+                    <td class="blocking-col">
+                        
+                            
+                                <span class="badge bg-danger me-1 mb-1">pyproj</span>
+                            
+                                <span class="badge bg-danger me-1 mb-1">python-kiwisolver</span>
+                            
+                                <span class="badge bg-danger me-1 mb-1">python-matplotlib</span>
+                            
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td class="rank-col">11</td>
+                    <td class="component-col">
+                        
+                            python-astropy
+                        
+                    </td>
+                    <td class="count-col"><span class="badge bg-primary">18</span></td>
+                    <td class="blocking-col">
+                        
+                            
+                                <span class="badge bg-danger me-1 mb-1">python-kiwisolver</span>
+                            
+                                <span class="badge bg-danger me-1 mb-1">python-matplotlib</span>
+                            
+                                <span class="badge bg-danger me-1 mb-1">python-scikit-image</span>
+                            
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td class="rank-col">12</td>
+                    <td class="component-col">
+                        
+                            <a href="/failures_py315/#row-mercurial">mercurial</a>
+                        
+                    </td>
+                    <td class="count-col"><span class="badge bg-primary">17</span></td>
+                    <td class="blocking-col">
+                        
+                            <span class="text-muted">—</span>
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td class="rank-col">13</td>
+                    <td class="component-col">
+                        
+                            python-rapidfuzz
+                        
+                    </td>
+                    <td class="count-col"><span class="badge bg-primary">16</span></td>
+                    <td class="blocking-col">
+                        
+                            
+                                <span class="badge bg-danger me-1 mb-1">python-pandas</span>
+                            
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td class="rank-col">14</td>
+                    <td class="component-col">
+                        
+                            <a href="/failures_py315/#row-python-psycopg2">python-psycopg2</a>
+                        
+                    </td>
+                    <td class="count-col"><span class="badge bg-primary">15</span></td>
+                    <td class="blocking-col">
+                        
+                            <span class="text-muted">—</span>
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td class="rank-col">15</td>
+                    <td class="component-col">
+                        
+                            <a href="/failures_py315/#row-grpc">grpc</a>
+                        
+                    </td>
+                    <td class="count-col"><span class="badge bg-primary">14</span></td>
+                    <td class="blocking-col">
+                        
+                            <span class="text-muted">—</span>
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td class="rank-col">16</td>
+                    <td class="component-col">
+                        
+                            libarrow
+                        
+                    </td>
+                    <td class="count-col"><span class="badge bg-primary">14</span></td>
+                    <td class="blocking-col">
+                        
+                            
+                                <span class="badge bg-danger me-1 mb-1">python-pandas</span>
+                            
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td class="rank-col">17</td>
+                    <td class="component-col">
+                        
+                            <a href="/failures_py315/#row-pyproj">pyproj</a>
+                        
+                    </td>
+                    <td class="count-col"><span class="badge bg-primary">13</span></td>
+                    <td class="blocking-col">
+                        
+                            <span class="text-muted">—</span>
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td class="rank-col">18</td>
+                    <td class="component-col">
+                        
+                            python-orjson
+                        
+                    </td>
+                    <td class="count-col"><span class="badge bg-primary">12</span></td>
+                    <td class="blocking-col">
+                        
+                            
+                                <span class="badge bg-danger me-1 mb-1">python-pendulum</span>
+                            
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td class="rank-col">19</td>
+                    <td class="component-col">
+                        
+                            <a href="/failures_py315/#row-python-torch">python-torch</a>
+                        
+                    </td>
+                    <td class="count-col"><span class="badge bg-primary">11</span></td>
+                    <td class="blocking-col">
+                        
+                            <span class="text-muted">—</span>
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td class="rank-col">20</td>
+                    <td class="component-col">
+                        
+                            libvirt-python
+                        
+                    </td>
+                    <td class="count-col"><span class="badge bg-primary">10</span></td>
+                    <td class="blocking-col">
+                        
+                            <span class="text-muted">—</span>
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td class="rank-col">21</td>
+                    <td class="component-col">
+                        
+                            <a href="/failures_py315/#row-python-pymongo">python-pymongo</a>
+                        
+                    </td>
+                    <td class="count-col"><span class="badge bg-primary">10</span></td>
+                    <td class="blocking-col">
+                        
+                            <span class="text-muted">—</span>
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td class="rank-col">22</td>
+                    <td class="component-col">
+                        
+                            python-peewee
+                        
+                    </td>
+                    <td class="count-col"><span class="badge bg-primary">9</span></td>
+                    <td class="blocking-col">
+                        
+                            
+                                <span class="badge bg-danger me-1 mb-1">python-psycopg2</span>
+                            
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td class="rank-col">23</td>
+                    <td class="component-col">
+                        
                             <a href="/failures_py315/#row-python-xarray">python-xarray</a>
+                        
+                    </td>
+                    <td class="count-col"><span class="badge bg-primary">8</span></td>
+                    <td class="blocking-col">
+                        
+                            
+                                <span class="badge bg-danger me-1 mb-1">libarrow</span>
+                            
+                                <span class="badge bg-danger me-1 mb-1">python-kiwisolver</span>
+                            
+                                <span class="badge bg-danger me-1 mb-1">python-matplotlib</span>
+                            
+                                <span class="badge bg-danger me-1 mb-1">python-pandas</span>
+                            
+                                <span class="badge bg-danger me-1 mb-1">python-rasterio</span>
+                            
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td class="rank-col">24</td>
+                    <td class="component-col">
+                        
+                            <a href="/failures_py315/#row-libmamba">libmamba</a>
+                        
+                    </td>
+                    <td class="count-col"><span class="badge bg-primary">8</span></td>
+                    <td class="blocking-col">
+                        
+                            <span class="text-muted">—</span>
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td class="rank-col">25</td>
+                    <td class="component-col">
+                        
+                            OpenColorIO
+                        
+                    </td>
+                    <td class="count-col"><span class="badge bg-primary">7</span></td>
+                    <td class="blocking-col">
+                        
+                            
+                                <span class="badge bg-danger me-1 mb-1">vtk</span>
+                            
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td class="rank-col">26</td>
+                    <td class="component-col">
+                        
+                            <a href="/failures_py315/#row-python-genshi">python-genshi</a>
                         
                     </td>
                     <td class="count-col"><span class="badge bg-primary">7</span></td>
@@ -502,7 +931,85 @@
                 </tr>
             
                 <tr>
-                    <td class="rank-col">2</td>
+                    <td class="rank-col">27</td>
+                    <td class="component-col">
+                        
+                            python-scikit-image
+                        
+                    </td>
+                    <td class="count-col"><span class="badge bg-primary">7</span></td>
+                    <td class="blocking-col">
+                        
+                            
+                                <span class="badge bg-danger me-1 mb-1">python-kiwisolver</span>
+                            
+                                <span class="badge bg-danger me-1 mb-1">python-matplotlib</span>
+                            
+                                <span class="badge bg-danger me-1 mb-1">python-pywt</span>
+                            
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td class="rank-col">28</td>
+                    <td class="component-col">
+                        
+                            python-pyogrio
+                        
+                    </td>
+                    <td class="count-col"><span class="badge bg-primary">7</span></td>
+                    <td class="blocking-col">
+                        
+                            
+                                <span class="badge bg-danger me-1 mb-1">libarrow</span>
+                            
+                                <span class="badge bg-danger me-1 mb-1">pyproj</span>
+                            
+                                <span class="badge bg-danger me-1 mb-1">python-pandas</span>
+                            
+                                <span class="badge bg-danger me-1 mb-1">python-pyogrio</span>
+                            
+                                <span class="badge bg-danger me-1 mb-1">python-shapely</span>
+                            
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td class="rank-col">29</td>
+                    <td class="component-col">
+                        
+                            <a href="/failures_py315/#row-python-time-machine">python-time-machine</a>
+                        
+                    </td>
+                    <td class="count-col"><span class="badge bg-primary">6</span></td>
+                    <td class="blocking-col">
+                        
+                            <span class="text-muted">—</span>
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td class="rank-col">30</td>
+                    <td class="component-col">
+                        
+                            gnuradio
+                        
+                    </td>
+                    <td class="count-col"><span class="badge bg-primary">6</span></td>
+                    <td class="blocking-col">
+                        
+                            
+                                <span class="badge bg-danger me-1 mb-1">python-zmq</span>
+                            
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td class="rank-col">31</td>
                     <td class="component-col">
                         
                             python-fslpy
@@ -519,10 +1026,10 @@
                 </tr>
             
                 <tr>
-                    <td class="rank-col">3</td>
+                    <td class="rank-col">32</td>
                     <td class="component-col">
                         
-                            <a href="/failures_py315/#row-python-django-allauth">python-django-allauth</a>
+                            <a href="/failures_py315/#row-breezy">breezy</a>
                         
                     </td>
                     <td class="count-col"><span class="badge bg-primary">4</span></td>
@@ -534,7 +1041,24 @@
                 </tr>
             
                 <tr>
-                    <td class="rank-col">4</td>
+                    <td class="rank-col">33</td>
+                    <td class="component-col">
+                        
+                            <a href="/failures_py315/#row-python-django-allauth">python-django-allauth</a>
+                        
+                    </td>
+                    <td class="count-col"><span class="badge bg-primary">4</span></td>
+                    <td class="blocking-col">
+                        
+                            
+                                <span class="badge bg-danger me-1 mb-1">python-psycopg2</span>
+                            
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td class="rank-col">34</td>
                     <td class="component-col">
                         
                             python-trimesh
@@ -544,20 +1068,68 @@
                     <td class="blocking-col">
                         
                             
+                                <span class="badge bg-danger me-1 mb-1">OpenColorIO</span>
+                            
                                 <span class="badge bg-danger me-1 mb-1">blender</span>
                             
                                 <span class="badge bg-danger me-1 mb-1">manifold</span>
                             
+                                <span class="badge bg-danger me-1 mb-1">python-cascadio</span>
+                            
                                 <span class="badge bg-danger me-1 mb-1">python-ezdxf</span>
                             
+                                <span class="badge bg-danger me-1 mb-1">python-kiwisolver</span>
+                            
+                                <span class="badge bg-danger me-1 mb-1">python-matplotlib</span>
+                            
+                                <span class="badge bg-danger me-1 mb-1">python-scikit-image</span>
+                            
+                                <span class="badge bg-danger me-1 mb-1">python-shapely</span>
+                            
                                 <span class="badge bg-danger me-1 mb-1">usd</span>
+                            
+                                <span class="badge bg-danger me-1 mb-1">vtk</span>
                             
                         
                     </td>
                 </tr>
             
                 <tr>
-                    <td class="rank-col">5</td>
+                    <td class="rank-col">35</td>
+                    <td class="component-col">
+                        
+                            python-Levenshtein
+                        
+                    </td>
+                    <td class="count-col"><span class="badge bg-primary">4</span></td>
+                    <td class="blocking-col">
+                        
+                            
+                                <span class="badge bg-danger me-1 mb-1">python-rapidfuzz</span>
+                            
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td class="rank-col">36</td>
+                    <td class="component-col">
+                        
+                            <a href="/failures_py315/#row-libguestfs">libguestfs</a>
+                        
+                    </td>
+                    <td class="count-col"><span class="badge bg-primary">3</span></td>
+                    <td class="blocking-col">
+                        
+                            
+                                <span class="badge bg-danger me-1 mb-1">libvirt-python</span>
+                            
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td class="rank-col">37</td>
                     <td class="component-col">
                         
                             python-django-mailman3
@@ -574,7 +1146,22 @@
                 </tr>
             
                 <tr>
-                    <td class="rank-col">6</td>
+                    <td class="rank-col">38</td>
+                    <td class="component-col">
+                        
+                            <a href="/failures_py315/#row-gdal">gdal</a>
+                        
+                    </td>
+                    <td class="count-col"><span class="badge bg-primary">3</span></td>
+                    <td class="blocking-col">
+                        
+                            <span class="text-muted">—</span>
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td class="rank-col">39</td>
                     <td class="component-col">
                         
                             <a href="/failures_py315/#row-qpid-proton">qpid-proton</a>
@@ -589,7 +1176,162 @@
                 </tr>
             
                 <tr>
-                    <td class="rank-col">7</td>
+                    <td class="rank-col">40</td>
+                    <td class="component-col">
+                        
+                            python-astropy-healpix
+                        
+                    </td>
+                    <td class="count-col"><span class="badge bg-primary">3</span></td>
+                    <td class="blocking-col">
+                        
+                            
+                                <span class="badge bg-danger me-1 mb-1">python-astropy</span>
+                            
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td class="rank-col">41</td>
+                    <td class="component-col">
+                        
+                            <a href="/failures_py315/#row-python-dbus-fast">python-dbus-fast</a>
+                        
+                    </td>
+                    <td class="count-col"><span class="badge bg-primary">3</span></td>
+                    <td class="blocking-col">
+                        
+                            <span class="text-muted">—</span>
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td class="rank-col">42</td>
+                    <td class="component-col">
+                        
+                            python-rasterio
+                        
+                    </td>
+                    <td class="count-col"><span class="badge bg-primary">3</span></td>
+                    <td class="blocking-col">
+                        
+                            
+                                <span class="badge bg-danger me-1 mb-1">python-kiwisolver</span>
+                            
+                                <span class="badge bg-danger me-1 mb-1">python-matplotlib</span>
+                            
+                                <span class="badge bg-danger me-1 mb-1">python-shapely</span>
+                            
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td class="rank-col">43</td>
+                    <td class="component-col">
+                        
+                            python-fastavro
+                        
+                    </td>
+                    <td class="count-col"><span class="badge bg-primary">3</span></td>
+                    <td class="blocking-col">
+                        
+                            
+                                <span class="badge bg-danger me-1 mb-1">python-pandas</span>
+                            
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td class="rank-col">44</td>
+                    <td class="component-col">
+                        
+                            python-statsmodels
+                        
+                    </td>
+                    <td class="count-col"><span class="badge bg-primary">3</span></td>
+                    <td class="blocking-col">
+                        
+                            
+                                <span class="badge bg-danger me-1 mb-1">python-pandas</span>
+                            
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td class="rank-col">45</td>
+                    <td class="component-col">
+                        
+                            <a href="/failures_py315/#row-python-sqlalchemy1.4">python-sqlalchemy1.4</a>
+                        
+                    </td>
+                    <td class="count-col"><span class="badge bg-primary">3</span></td>
+                    <td class="blocking-col">
+                        
+                            <span class="text-muted">—</span>
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td class="rank-col">46</td>
+                    <td class="component-col">
+                        
+                            opencv
+                        
+                    </td>
+                    <td class="count-col"><span class="badge bg-primary">3</span></td>
+                    <td class="blocking-col">
+                        
+                            
+                                <span class="badge bg-danger me-1 mb-1">vtk</span>
+                            
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td class="rank-col">47</td>
+                    <td class="component-col">
+                        
+                            python-igraph
+                        
+                    </td>
+                    <td class="count-col"><span class="badge bg-primary">3</span></td>
+                    <td class="blocking-col">
+                        
+                            
+                                <span class="badge bg-danger me-1 mb-1">python-graph-tool</span>
+                            
+                                <span class="badge bg-danger me-1 mb-1">python-pandas</span>
+                            
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td class="rank-col">48</td>
+                    <td class="component-col">
+                        
+                            python-pendulum
+                        
+                    </td>
+                    <td class="count-col"><span class="badge bg-primary">3</span></td>
+                    <td class="blocking-col">
+                        
+                            
+                                <span class="badge bg-danger me-1 mb-1">python-time-machine</span>
+                            
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td class="rank-col">49</td>
                     <td class="component-col">
                         
                             <a href="/failures_py315/#row-pyqtwebengine">pyqtwebengine</a>
@@ -604,7 +1346,7 @@
                 </tr>
             
                 <tr>
-                    <td class="rank-col">8</td>
+                    <td class="rank-col">50</td>
                     <td class="component-col">
                         
                             python-nifti-mrs
@@ -616,582 +1358,6 @@
                             
                                 <span class="badge bg-danger me-1 mb-1">python-fslpy</span>
                             
-                        
-                    </td>
-                </tr>
-            
-                <tr>
-                    <td class="rank-col">9</td>
-                    <td class="component-col">
-                        
-                            <a href="/failures_py315/#row-usd">usd</a>
-                        
-                    </td>
-                    <td class="count-col"><span class="badge bg-primary">2</span></td>
-                    <td class="blocking-col">
-                        
-                            <span class="text-muted">—</span>
-                        
-                    </td>
-                </tr>
-            
-                <tr>
-                    <td class="rank-col">10</td>
-                    <td class="component-col">
-                        
-                            go-vendor-tools
-                        
-                    </td>
-                    <td class="count-col"><span class="badge bg-primary">2</span></td>
-                    <td class="blocking-col">
-                        
-                            
-                                <span class="badge bg-danger me-1 mb-1">scancode-toolkit</span>
-                            
-                        
-                    </td>
-                </tr>
-            
-                <tr>
-                    <td class="rank-col">11</td>
-                    <td class="component-col">
-                        
-                            <a href="/failures_py315/#row-osc">osc</a>
-                        
-                    </td>
-                    <td class="count-col"><span class="badge bg-primary">2</span></td>
-                    <td class="blocking-col">
-                        
-                            <span class="text-muted">—</span>
-                        
-                    </td>
-                </tr>
-            
-                <tr>
-                    <td class="rank-col">12</td>
-                    <td class="component-col">
-                        
-                            <a href="/failures_py315/#row-mupdf">mupdf</a>
-                        
-                    </td>
-                    <td class="count-col"><span class="badge bg-primary">2</span></td>
-                    <td class="blocking-col">
-                        
-                            
-                                <span class="badge bg-danger me-1 mb-1">llvm21</span>
-                            
-                        
-                    </td>
-                </tr>
-            
-                <tr>
-                    <td class="rank-col">13</td>
-                    <td class="component-col">
-                        
-                            <a href="/failures_py315/#row-python-distributed">python-distributed</a>
-                        
-                    </td>
-                    <td class="count-col"><span class="badge bg-primary">2</span></td>
-                    <td class="blocking-col">
-                        
-                            <span class="text-muted">—</span>
-                        
-                    </td>
-                </tr>
-            
-                <tr>
-                    <td class="rank-col">14</td>
-                    <td class="component-col">
-                        
-                            <a href="/failures_py315/#row-python-neo">python-neo</a>
-                        
-                    </td>
-                    <td class="count-col"><span class="badge bg-primary">2</span></td>
-                    <td class="blocking-col">
-                        
-                            <span class="text-muted">—</span>
-                        
-                    </td>
-                </tr>
-            
-                <tr>
-                    <td class="rank-col">15</td>
-                    <td class="component-col">
-                        
-                            python-libpysal
-                        
-                    </td>
-                    <td class="count-col"><span class="badge bg-primary">2</span></td>
-                    <td class="blocking-col">
-                        
-                            
-                                <span class="badge bg-danger me-1 mb-1">python-xarray</span>
-                            
-                        
-                    </td>
-                </tr>
-            
-                <tr>
-                    <td class="rank-col">16</td>
-                    <td class="component-col">
-                        
-                            <a href="/failures_py315/#row-python-cartopy">python-cartopy</a>
-                        
-                    </td>
-                    <td class="count-col"><span class="badge bg-primary">2</span></td>
-                    <td class="blocking-col">
-                        
-                            <span class="text-muted">—</span>
-                        
-                    </td>
-                </tr>
-            
-                <tr>
-                    <td class="rank-col">17</td>
-                    <td class="component-col">
-                        
-                            <a href="/failures_py315/#row-xapian-bindings">xapian-bindings</a>
-                        
-                    </td>
-                    <td class="count-col"><span class="badge bg-primary">2</span></td>
-                    <td class="blocking-col">
-                        
-                            <span class="text-muted">—</span>
-                        
-                    </td>
-                </tr>
-            
-                <tr>
-                    <td class="rank-col">18</td>
-                    <td class="component-col">
-                        
-                            <a href="/failures_py315/#row-python-azure-mgmt-advisor">python-azure-mgmt-advisor</a>
-                        
-                    </td>
-                    <td class="count-col"><span class="badge bg-primary">1</span></td>
-                    <td class="blocking-col">
-                        
-                            <span class="text-muted">—</span>
-                        
-                    </td>
-                </tr>
-            
-                <tr>
-                    <td class="rank-col">19</td>
-                    <td class="component-col">
-                        
-                            <a href="/failures_py315/#row-python-azure-mgmt-billing">python-azure-mgmt-billing</a>
-                        
-                    </td>
-                    <td class="count-col"><span class="badge bg-primary">1</span></td>
-                    <td class="blocking-col">
-                        
-                            <span class="text-muted">—</span>
-                        
-                    </td>
-                </tr>
-            
-                <tr>
-                    <td class="rank-col">20</td>
-                    <td class="component-col">
-                        
-                            <a href="/failures_py315/#row-python-azure-mgmt-datamigration">python-azure-mgmt-datamigration</a>
-                        
-                    </td>
-                    <td class="count-col"><span class="badge bg-primary">1</span></td>
-                    <td class="blocking-col">
-                        
-                            <span class="text-muted">—</span>
-                        
-                    </td>
-                </tr>
-            
-                <tr>
-                    <td class="rank-col">21</td>
-                    <td class="component-col">
-                        
-                            <a href="/failures_py315/#row-python-azure-mgmt-maps">python-azure-mgmt-maps</a>
-                        
-                    </td>
-                    <td class="count-col"><span class="badge bg-primary">1</span></td>
-                    <td class="blocking-col">
-                        
-                            <span class="text-muted">—</span>
-                        
-                    </td>
-                </tr>
-            
-                <tr>
-                    <td class="rank-col">22</td>
-                    <td class="component-col">
-                        
-                            <a href="/failures_py315/#row-python-azure-mgmt-marketplaceordering">python-azure-mgmt-marketplaceordering</a>
-                        
-                    </td>
-                    <td class="count-col"><span class="badge bg-primary">1</span></td>
-                    <td class="blocking-col">
-                        
-                            <span class="text-muted">—</span>
-                        
-                    </td>
-                </tr>
-            
-                <tr>
-                    <td class="rank-col">23</td>
-                    <td class="component-col">
-                        
-                            spec2nii
-                        
-                    </td>
-                    <td class="count-col"><span class="badge bg-primary">1</span></td>
-                    <td class="blocking-col">
-                        
-                            
-                                <span class="badge bg-danger me-1 mb-1">python-fslpy</span>
-                            
-                                <span class="badge bg-danger me-1 mb-1">python-nifti-mrs</span>
-                            
-                        
-                    </td>
-                </tr>
-            
-                <tr>
-                    <td class="rank-col">24</td>
-                    <td class="component-col">
-                        
-                            <a href="/failures_py315/#row-python-treq">python-treq</a>
-                        
-                    </td>
-                    <td class="count-col"><span class="badge bg-primary">1</span></td>
-                    <td class="blocking-col">
-                        
-                            <span class="text-muted">—</span>
-                        
-                    </td>
-                </tr>
-            
-                <tr>
-                    <td class="rank-col">25</td>
-                    <td class="component-col">
-                        
-                            <a href="/failures_py315/#row-scancode-toolkit">scancode-toolkit</a>
-                        
-                    </td>
-                    <td class="count-col"><span class="badge bg-primary">1</span></td>
-                    <td class="blocking-col">
-                        
-                            <span class="text-muted">—</span>
-                        
-                    </td>
-                </tr>
-            
-                <tr>
-                    <td class="rank-col">26</td>
-                    <td class="component-col">
-                        
-                            <a href="/failures_py315/#row-python-translitcodec">python-translitcodec</a>
-                        
-                    </td>
-                    <td class="count-col"><span class="badge bg-primary">1</span></td>
-                    <td class="blocking-col">
-                        
-                            <span class="text-muted">—</span>
-                        
-                    </td>
-                </tr>
-            
-                <tr>
-                    <td class="rank-col">27</td>
-                    <td class="component-col">
-                        
-                            python-xarray-einstats
-                        
-                    </td>
-                    <td class="count-col"><span class="badge bg-primary">1</span></td>
-                    <td class="blocking-col">
-                        
-                            
-                                <span class="badge bg-danger me-1 mb-1">python-xarray</span>
-                            
-                        
-                    </td>
-                </tr>
-            
-                <tr>
-                    <td class="rank-col">28</td>
-                    <td class="component-col">
-                        
-                            <a href="/failures_py315/#row-certbot">certbot</a>
-                        
-                    </td>
-                    <td class="count-col"><span class="badge bg-primary">1</span></td>
-                    <td class="blocking-col">
-                        
-                            <span class="text-muted">—</span>
-                        
-                    </td>
-                </tr>
-            
-                <tr>
-                    <td class="rank-col">29</td>
-                    <td class="component-col">
-                        
-                            <a href="/failures_py315/#row-python-numpoly">python-numpoly</a>
-                        
-                    </td>
-                    <td class="count-col"><span class="badge bg-primary">1</span></td>
-                    <td class="blocking-col">
-                        
-                            <span class="text-muted">—</span>
-                        
-                    </td>
-                </tr>
-            
-                <tr>
-                    <td class="rank-col">30</td>
-                    <td class="component-col">
-                        
-                            <a href="/failures_py315/#row-python-PyMuPDF">python-PyMuPDF</a>
-                        
-                    </td>
-                    <td class="count-col"><span class="badge bg-primary">1</span></td>
-                    <td class="blocking-col">
-                        
-                            
-                                <span class="badge bg-danger me-1 mb-1">mupdf</span>
-                            
-                        
-                    </td>
-                </tr>
-            
-                <tr>
-                    <td class="rank-col">31</td>
-                    <td class="component-col">
-                        
-                            python-fsleyes-props
-                        
-                    </td>
-                    <td class="count-col"><span class="badge bg-primary">1</span></td>
-                    <td class="blocking-col">
-                        
-                            
-                                <span class="badge bg-danger me-1 mb-1">python-fslpy</span>
-                            
-                        
-                    </td>
-                </tr>
-            
-                <tr>
-                    <td class="rank-col">32</td>
-                    <td class="component-col">
-                        
-                            python-mapclassify
-                        
-                    </td>
-                    <td class="count-col"><span class="badge bg-primary">1</span></td>
-                    <td class="blocking-col">
-                        
-                            
-                                <span class="badge bg-danger me-1 mb-1">python-libpysal</span>
-                            
-                        
-                    </td>
-                </tr>
-            
-                <tr>
-                    <td class="rank-col">33</td>
-                    <td class="component-col">
-                        
-                            <a href="/failures_py315/#row-python-astroquery">python-astroquery</a>
-                        
-                    </td>
-                    <td class="count-col"><span class="badge bg-primary">1</span></td>
-                    <td class="blocking-col">
-                        
-                            <span class="text-muted">—</span>
-                        
-                    </td>
-                </tr>
-            
-                <tr>
-                    <td class="rank-col">34</td>
-                    <td class="component-col">
-                        
-                            python-hyperkitty
-                        
-                    </td>
-                    <td class="count-col"><span class="badge bg-primary">1</span></td>
-                    <td class="blocking-col">
-                        
-                            
-                                <span class="badge bg-danger me-1 mb-1">python-django-allauth</span>
-                            
-                                <span class="badge bg-danger me-1 mb-1">python-django-mailman3</span>
-                            
-                        
-                    </td>
-                </tr>
-            
-                <tr>
-                    <td class="rank-col">35</td>
-                    <td class="component-col">
-                        
-                            python-postorius
-                        
-                    </td>
-                    <td class="count-col"><span class="badge bg-primary">1</span></td>
-                    <td class="blocking-col">
-                        
-                            
-                                <span class="badge bg-danger me-1 mb-1">python-django-allauth</span>
-                            
-                                <span class="badge bg-danger me-1 mb-1">python-django-mailman3</span>
-                            
-                        
-                    </td>
-                </tr>
-            
-                <tr>
-                    <td class="rank-col">36</td>
-                    <td class="component-col">
-                        
-                            <a href="/failures_py315/#row-python-textual">python-textual</a>
-                        
-                    </td>
-                    <td class="count-col"><span class="badge bg-primary">1</span></td>
-                    <td class="blocking-col">
-                        
-                            <span class="text-muted">—</span>
-                        
-                    </td>
-                </tr>
-            
-                <tr>
-                    <td class="rank-col">37</td>
-                    <td class="component-col">
-                        
-                            python-mkdocs-test
-                        
-                    </td>
-                    <td class="count-col"><span class="badge bg-primary">1</span></td>
-                    <td class="blocking-col">
-                        
-                            
-                                <span class="badge bg-danger me-1 mb-1">python-toml-cli</span>
-                            
-                        
-                    </td>
-                </tr>
-            
-                <tr>
-                    <td class="rank-col">38</td>
-                    <td class="component-col">
-                        
-                            <a href="/failures_py315/#row-python-toml-cli">python-toml-cli</a>
-                        
-                    </td>
-                    <td class="count-col"><span class="badge bg-primary">1</span></td>
-                    <td class="blocking-col">
-                        
-                            <span class="text-muted">—</span>
-                        
-                    </td>
-                </tr>
-            
-                <tr>
-                    <td class="rank-col">39</td>
-                    <td class="component-col">
-                        
-                            <a href="/failures_py315/#row-llvm21">llvm21</a>
-                        
-                    </td>
-                    <td class="count-col"><span class="badge bg-primary">1</span></td>
-                    <td class="blocking-col">
-                        
-                            <span class="text-muted">—</span>
-                        
-                    </td>
-                </tr>
-            
-                <tr>
-                    <td class="rank-col">40</td>
-                    <td class="component-col">
-                        
-                            <a href="/failures_py315/#row-manifold">manifold</a>
-                        
-                    </td>
-                    <td class="count-col"><span class="badge bg-primary">1</span></td>
-                    <td class="blocking-col">
-                        
-                            
-                                <span class="badge bg-danger me-1 mb-1">python-trimesh</span>
-                            
-                        
-                    </td>
-                </tr>
-            
-                <tr>
-                    <td class="rank-col">41</td>
-                    <td class="component-col">
-                        
-                            python-ezdxf
-                        
-                    </td>
-                    <td class="count-col"><span class="badge bg-primary">1</span></td>
-                    <td class="blocking-col">
-                        
-                            
-                                <span class="badge bg-danger me-1 mb-1">mupdf</span>
-                            
-                                <span class="badge bg-danger me-1 mb-1">python-PyMuPDF</span>
-                            
-                        
-                    </td>
-                </tr>
-            
-                <tr>
-                    <td class="rank-col">42</td>
-                    <td class="component-col">
-                        
-                            blender
-                        
-                    </td>
-                    <td class="count-col"><span class="badge bg-primary">1</span></td>
-                    <td class="blocking-col">
-                        
-                            
-                                <span class="badge bg-danger me-1 mb-1">usd</span>
-                            
-                        
-                    </td>
-                </tr>
-            
-                <tr>
-                    <td class="rank-col">43</td>
-                    <td class="component-col">
-                        
-                            <a href="/failures_py315/#row-qtile">qtile</a>
-                        
-                    </td>
-                    <td class="count-col"><span class="badge bg-primary">1</span></td>
-                    <td class="blocking-col">
-                        
-                            <span class="text-muted">—</span>
-                        
-                    </td>
-                </tr>
-            
-                <tr>
-                    <td class="rank-col">44</td>
-                    <td class="component-col">
-                        
-                            <a href="/failures_py315/#row-python-rstr">python-rstr</a>
-                        
-                    </td>
-                    <td class="count-col"><span class="badge bg-primary">1</span></td>
-                    <td class="blocking-col">
-                        
-                            <span class="text-muted">—</span>
                         
                     </td>
                 </tr>
@@ -1224,6 +1390,202 @@
                     <td>
                         
                             
+                                <span class="badge bg-secondary me-1 mb-1">python-kiwisolver</span>
+                            
+                                <span class="badge bg-secondary me-1 mb-1">python-matplotlib</span>
+                            
+                        
+                    </td>
+                    <td class="count-col"><span class="badge bg-primary">46</span></td>
+                </tr>
+            
+                <tr>
+                    <td class="rank-col">2</td>
+                    <td>
+                        
+                            
+                                <span class="badge bg-secondary me-1 mb-1">python-tornado</span>
+                            
+                                <span class="badge bg-secondary me-1 mb-1">python-zmq</span>
+                            
+                        
+                    </td>
+                    <td class="count-col"><span class="badge bg-primary">30</span></td>
+                </tr>
+            
+                <tr>
+                    <td class="rank-col">3</td>
+                    <td>
+                        
+                            
+                                <span class="badge bg-secondary me-1 mb-1">python-kiwisolver</span>
+                            
+                                <span class="badge bg-secondary me-1 mb-1">python-matplotlib</span>
+                            
+                                <span class="badge bg-secondary me-1 mb-1">python-pandas</span>
+                            
+                        
+                    </td>
+                    <td class="count-col"><span class="badge bg-primary">13</span></td>
+                </tr>
+            
+                <tr>
+                    <td class="rank-col">4</td>
+                    <td>
+                        
+                            
+                                <span class="badge bg-secondary me-1 mb-1">libmamba</span>
+                            
+                                <span class="badge bg-secondary me-1 mb-1">python-ruamel-yaml-clib</span>
+                            
+                        
+                    </td>
+                    <td class="count-col"><span class="badge bg-primary">8</span></td>
+                </tr>
+            
+                <tr>
+                    <td class="rank-col">5</td>
+                    <td>
+                        
+                            
+                                <span class="badge bg-secondary me-1 mb-1">gnuradio</span>
+                            
+                                <span class="badge bg-secondary me-1 mb-1">python-zmq</span>
+                            
+                        
+                    </td>
+                    <td class="count-col"><span class="badge bg-primary">5</span></td>
+                </tr>
+            
+                <tr>
+                    <td class="rank-col">6</td>
+                    <td>
+                        
+                            
+                                <span class="badge bg-secondary me-1 mb-1">python-psycopg2</span>
+                            
+                                <span class="badge bg-secondary me-1 mb-1">python-sqlalchemy</span>
+                            
+                        
+                    </td>
+                    <td class="count-col"><span class="badge bg-primary">4</span></td>
+                </tr>
+            
+                <tr>
+                    <td class="rank-col">7</td>
+                    <td>
+                        
+                            
+                                <span class="badge bg-secondary me-1 mb-1">python-ruamel-yaml-clib</span>
+                            
+                                <span class="badge bg-secondary me-1 mb-1">python-tornado</span>
+                            
+                                <span class="badge bg-secondary me-1 mb-1">python-zmq</span>
+                            
+                        
+                    </td>
+                    <td class="count-col"><span class="badge bg-primary">3</span></td>
+                </tr>
+            
+                <tr>
+                    <td class="rank-col">8</td>
+                    <td>
+                        
+                            
+                                <span class="badge bg-secondary me-1 mb-1">breezy</span>
+                            
+                                <span class="badge bg-secondary me-1 mb-1">mercurial</span>
+                            
+                        
+                    </td>
+                    <td class="count-col"><span class="badge bg-primary">3</span></td>
+                </tr>
+            
+                <tr>
+                    <td class="rank-col">9</td>
+                    <td>
+                        
+                            
+                                <span class="badge bg-secondary me-1 mb-1">python-kiwisolver</span>
+                            
+                                <span class="badge bg-secondary me-1 mb-1">python-matplotlib</span>
+                            
+                                <span class="badge bg-secondary me-1 mb-1">python-tornado</span>
+                            
+                                <span class="badge bg-secondary me-1 mb-1">python-zmq</span>
+                            
+                        
+                    </td>
+                    <td class="count-col"><span class="badge bg-primary">3</span></td>
+                </tr>
+            
+                <tr>
+                    <td class="rank-col">10</td>
+                    <td>
+                        
+                            
+                                <span class="badge bg-secondary me-1 mb-1">python-astropy</span>
+                            
+                                <span class="badge bg-secondary me-1 mb-1">python-kiwisolver</span>
+                            
+                                <span class="badge bg-secondary me-1 mb-1">python-matplotlib</span>
+                            
+                        
+                    </td>
+                    <td class="count-col"><span class="badge bg-primary">3</span></td>
+                </tr>
+            
+                <tr>
+                    <td class="rank-col">11</td>
+                    <td>
+                        
+                            
+                                <span class="badge bg-secondary me-1 mb-1">python-kiwisolver</span>
+                            
+                                <span class="badge bg-secondary me-1 mb-1">python-matplotlib</span>
+                            
+                                <span class="badge bg-secondary me-1 mb-1">python-pandas</span>
+                            
+                                <span class="badge bg-secondary me-1 mb-1">python-statsmodels</span>
+                            
+                        
+                    </td>
+                    <td class="count-col"><span class="badge bg-primary">3</span></td>
+                </tr>
+            
+                <tr>
+                    <td class="rank-col">12</td>
+                    <td>
+                        
+                            
+                                <span class="badge bg-secondary me-1 mb-1">python-pandas</span>
+                            
+                                <span class="badge bg-secondary me-1 mb-1">python-sqlalchemy</span>
+                            
+                        
+                    </td>
+                    <td class="count-col"><span class="badge bg-primary">3</span></td>
+                </tr>
+            
+                <tr>
+                    <td class="rank-col">13</td>
+                    <td>
+                        
+                            
+                                <span class="badge bg-secondary me-1 mb-1">OpenColorIO</span>
+                            
+                                <span class="badge bg-secondary me-1 mb-1">vtk</span>
+                            
+                        
+                    </td>
+                    <td class="count-col"><span class="badge bg-primary">3</span></td>
+                </tr>
+            
+                <tr>
+                    <td class="rank-col">14</td>
+                    <td>
+                        
+                            
                                 <span class="badge bg-secondary me-1 mb-1">python-django-allauth</span>
                             
                                 <span class="badge bg-secondary me-1 mb-1">python-django-mailman3</span>
@@ -1234,161 +1596,93 @@
                 </tr>
             
                 <tr>
-                    <td class="rank-col">2</td>
+                    <td class="rank-col">15</td>
                     <td>
                         
                             
-                                <span class="badge bg-secondary me-1 mb-1">python-azure-mgmt-advisor</span>
+                                <span class="badge bg-secondary me-1 mb-1">osc</span>
                             
-                                <span class="badge bg-secondary me-1 mb-1">python-azure-mgmt-billing</span>
-                            
-                                <span class="badge bg-secondary me-1 mb-1">python-azure-mgmt-datamigration</span>
-                            
-                                <span class="badge bg-secondary me-1 mb-1">python-azure-mgmt-maps</span>
-                            
-                                <span class="badge bg-secondary me-1 mb-1">python-azure-mgmt-marketplaceordering</span>
+                                <span class="badge bg-secondary me-1 mb-1">python-ruamel-yaml-clib</span>
                             
                         
                     </td>
-                    <td class="count-col"><span class="badge bg-primary">1</span></td>
+                    <td class="count-col"><span class="badge bg-primary">2</span></td>
                 </tr>
             
                 <tr>
-                    <td class="rank-col">3</td>
+                    <td class="rank-col">16</td>
                     <td>
                         
                             
-                                <span class="badge bg-secondary me-1 mb-1">python-fslpy</span>
+                                <span class="badge bg-secondary me-1 mb-1">python-genshi</span>
                             
-                                <span class="badge bg-secondary me-1 mb-1">python-nifti-mrs</span>
-                            
-                                <span class="badge bg-secondary me-1 mb-1">spec2nii</span>
+                                <span class="badge bg-secondary me-1 mb-1">python-sqlalchemy</span>
                             
                         
                     </td>
-                    <td class="count-col"><span class="badge bg-primary">1</span></td>
+                    <td class="count-col"><span class="badge bg-primary">2</span></td>
                 </tr>
             
                 <tr>
-                    <td class="rank-col">4</td>
+                    <td class="rank-col">17</td>
                     <td>
                         
                             
-                                <span class="badge bg-secondary me-1 mb-1">python-xarray</span>
+                                <span class="badge bg-secondary me-1 mb-1">python-pymongo</span>
                             
-                                <span class="badge bg-secondary me-1 mb-1">python-xarray-einstats</span>
+                                <span class="badge bg-secondary me-1 mb-1">python-sqlalchemy</span>
                             
                         
                     </td>
-                    <td class="count-col"><span class="badge bg-primary">1</span></td>
+                    <td class="count-col"><span class="badge bg-primary">2</span></td>
                 </tr>
             
                 <tr>
-                    <td class="rank-col">5</td>
+                    <td class="rank-col">18</td>
                     <td>
                         
                             
-                                <span class="badge bg-secondary me-1 mb-1">python-distributed</span>
+                                <span class="badge bg-secondary me-1 mb-1">python-kiwisolver</span>
                             
-                                <span class="badge bg-secondary me-1 mb-1">python-xarray</span>
+                                <span class="badge bg-secondary me-1 mb-1">python-matplotlib</span>
+                            
+                                <span class="badge bg-secondary me-1 mb-1">python-scikit-image</span>
                             
                         
                     </td>
-                    <td class="count-col"><span class="badge bg-primary">1</span></td>
+                    <td class="count-col"><span class="badge bg-primary">2</span></td>
                 </tr>
             
                 <tr>
-                    <td class="rank-col">6</td>
+                    <td class="rank-col">19</td>
                     <td>
                         
                             
-                                <span class="badge bg-secondary me-1 mb-1">mupdf</span>
+                                <span class="badge bg-secondary me-1 mb-1">pyproj</span>
                             
-                                <span class="badge bg-secondary me-1 mb-1">python-PyMuPDF</span>
+                                <span class="badge bg-secondary me-1 mb-1">python-kiwisolver</span>
+                            
+                                <span class="badge bg-secondary me-1 mb-1">python-matplotlib</span>
                             
                         
                     </td>
-                    <td class="count-col"><span class="badge bg-primary">1</span></td>
+                    <td class="count-col"><span class="badge bg-primary">2</span></td>
                 </tr>
             
                 <tr>
-                    <td class="rank-col">7</td>
+                    <td class="rank-col">20</td>
                     <td>
                         
                             
-                                <span class="badge bg-secondary me-1 mb-1">python-fsleyes-props</span>
+                                <span class="badge bg-secondary me-1 mb-1">python-kiwisolver</span>
                             
-                                <span class="badge bg-secondary me-1 mb-1">python-fslpy</span>
+                                <span class="badge bg-secondary me-1 mb-1">python-matplotlib</span>
                             
-                                <span class="badge bg-secondary me-1 mb-1">python-trimesh</span>
-                            
-                        
-                    </td>
-                    <td class="count-col"><span class="badge bg-primary">1</span></td>
-                </tr>
-            
-                <tr>
-                    <td class="rank-col">8</td>
-                    <td>
-                        
-                            
-                                <span class="badge bg-secondary me-1 mb-1">python-django-allauth</span>
-                            
-                                <span class="badge bg-secondary me-1 mb-1">python-django-mailman3</span>
-                            
-                                <span class="badge bg-secondary me-1 mb-1">python-hyperkitty</span>
-                            
-                                <span class="badge bg-secondary me-1 mb-1">python-postorius</span>
+                                <span class="badge bg-secondary me-1 mb-1">python-shapely</span>
                             
                         
                     </td>
-                    <td class="count-col"><span class="badge bg-primary">1</span></td>
-                </tr>
-            
-                <tr>
-                    <td class="rank-col">9</td>
-                    <td>
-                        
-                            
-                                <span class="badge bg-secondary me-1 mb-1">python-cartopy</span>
-                            
-                                <span class="badge bg-secondary me-1 mb-1">python-xarray</span>
-                            
-                        
-                    </td>
-                    <td class="count-col"><span class="badge bg-primary">1</span></td>
-                </tr>
-            
-                <tr>
-                    <td class="rank-col">10</td>
-                    <td>
-                        
-                            
-                                <span class="badge bg-secondary me-1 mb-1">blender</span>
-                            
-                                <span class="badge bg-secondary me-1 mb-1">manifold</span>
-                            
-                                <span class="badge bg-secondary me-1 mb-1">python-ezdxf</span>
-                            
-                                <span class="badge bg-secondary me-1 mb-1">usd</span>
-                            
-                        
-                    </td>
-                    <td class="count-col"><span class="badge bg-primary">1</span></td>
-                </tr>
-            
-                <tr>
-                    <td class="rank-col">11</td>
-                    <td>
-                        
-                            
-                                <span class="badge bg-secondary me-1 mb-1">python-fslpy</span>
-                            
-                                <span class="badge bg-secondary me-1 mb-1">python-nifti-mrs</span>
-                            
-                        
-                    </td>
-                    <td class="count-col"><span class="badge bg-primary">1</span></td>
+                    <td class="count-col"><span class="badge bg-primary">2</span></td>
                 </tr>
             
             </tbody>
@@ -1398,6 +1692,40 @@
 
 
 <!-- Dependency Loops -->
+
+<div class="mb-5" id="dependency-loops">
+    <h3 class="mb-3">Dependency Loops</h3>
+    <p>
+        These packages have circular dependencies that need special attention during rebuilds.
+    </p>
+    <div class="table-responsive">
+        <table class="table table-hover table-bordered">
+            <thead class="table-dark">
+                <tr>
+                    <th scope="col" class="rank-col">#</th>
+                    <th scope="col">Loop</th>
+                </tr>
+            </thead>
+            <tbody>
+            
+                <tr>
+                    <td class="rank-col">1</td>
+                    <td>
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td class="rank-col">2</td>
+                    <td>
+                        
+                    </td>
+                </tr>
+            
+            </tbody>
+        </table>
+    </div>
+</div>
 
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
@@ -1409,7 +1737,7 @@
     <hr>
     <footer>
       <p>Maintained by <a href="https://github.com/befeleme">@befeleme</a>, source on <a href="https://github.com/befeleme/fedora-python-rebuild-status">GitHub</a>.</p>
-      <p>Last updated on <span class="date">2026-05-12 04:34:38.777834</span> (updated daily)</p>
+      <p>Last updated on <span class="date">2026-05-13 04:38:21.028130</span> (updated daily)</p>
     </footer>
   </div>
 </body>
