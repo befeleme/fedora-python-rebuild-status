@@ -2,7 +2,7 @@ import argparse
 import json
 import bugzilla
 
-from loaders import load_data, load_monitor_report, KOJI_PY314, KOJI_PY315
+from loaders import load_data, load_monitor_report, KOJI_PY315, KOJI_PY315B1
 
 
 BUGZILLA = 'bugzilla.redhat.com'
@@ -10,15 +10,6 @@ BZ_PAGE_SIZE = 20
 
 # Python version configurations
 VERSION_CONFIG = {
-    "3.14": {
-        "tracker": 2322407,  # PYTHON3.14
-        "rawhide": [2339432],  # F43FTBFS
-        "failed_file": "data/failed_py314.pkgs",
-        "waiting_file": "data/waiting_py314.pkgs",
-        "python_pkgs": "data/python314.pkgs",
-        "copr_file": "data/copr_py314.pkgs",
-        "output_file": "data/bzurls_py314.json"
-    },
     "3.15": {
         "tracker": 2412434,  # PYTHON3.15
         "rawhide": [2384424, 2433833],  # F44FTBFS, F45FTBFS
@@ -27,16 +18,25 @@ VERSION_CONFIG = {
         "python_pkgs": "data/python315.pkgs",
         "copr_file": "data/copr_py315.pkgs",
         "output_file": "data/bzurls_py315.json"
+    },
+    "3.15-b1": {
+        "tracker": None,  # no tracker yet
+        "rawhide": [],
+        "failed_file": "data/failed_py315-b1.pkgs",
+        "waiting_file": "data/waiting_py315-b1.pkgs",
+        "python_pkgs": "data/python315-b1.pkgs",
+        "copr_file": "data/copr_py315-b1.pkgs",
+        "output_file": "data/bzurls_py315-b1.json"
     }
 }
 
 BZAPI = bugzilla.Bugzilla(BUGZILLA)
 
 
-def load_failed_packages(version="3.14"):
+def load_failed_packages(version="3.15"):
     """Load failed packages for a specific Python version."""
 
-    koji = KOJI_PY314 if version == "3.14" else KOJI_PY315
+    koji = KOJI_PY315 if version == "3.15" else KOJI_PY315B1
 
     config = VERSION_CONFIG[version]
 
@@ -94,7 +94,7 @@ def map_pkgs_and_bzurls(bugzillas_list, sorted_fails):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Fetch Bugzilla URLs for failed Python packages')
-    parser.add_argument('--version', default='3.14', choices=['3.14', '3.15'],
+    parser.add_argument('--version', default='3.15', choices=['3.15', '3.15-b1'],
                         help='Python version to process (default: 3.14)')
     args = parser.parse_args()
 

@@ -1,8 +1,8 @@
 {% extends "base.html" %}
-{% block title %}Python 3.14 failed to build breakdown{% endblock %}
+{% block title %}Python 3.15-b1 failed to build breakdown{% endblock %}
 {% block content %}
 <a href="{{ url_for('index') }}" class="btn btn-primary mb-3"> &lt&lt&lt Home</a>
-<h2 class="mb-3">Python 3.14: Packages that weren't built successfully (🔴 + 🟠 + ⚪)</h2>
+<h2 class="mb-3">Python 3.15-b1: Packages that weren't built successfully (🔴 + 🟠)</h2>
 
 <style>
     .max-width-column {
@@ -19,16 +19,16 @@
                 <th scope="col">Package name</th>
                 <th scope="col">Build status</th>
                 <th scope="col">Build attempts in Copr</th>
-                <th scope="col" class="max-width-column">Bugzilla ticket (all open PYTHON314 and F43FTBFS)</th>
+                <th scope="col" class="max-width-column">Bugzilla ticket (all open PYTHON315)</th>
             </tr>
         </thead>
         <tbody>
-        {% for package_name, detail in py314_status_failed.items() %}
+        {% for package_name, detail in py315b1_status_failed.items() %}
             <tr id="row-{{ package_name }}">
                 <td>{{ package_name }}</td>
                 <td>{{ detail["state"] }}</td>
                 <td>
-                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.14/package/{{ package_name }}/">
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.15-b1/package/{{ package_name }}/">
                         Copr - {{ package_name }}
                     </a>
                 </td>

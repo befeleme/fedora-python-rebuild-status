@@ -2,7 +2,7 @@ import datetime
 
 from flask import Flask, render_template
 
-from scripts.loaders import load_data, load_json, load_monitor_report, KOJI_PY314, KOJI_PY315
+from scripts.loaders import load_data, load_json, load_monitor_report, KOJI_PY315, KOJI_PY315B1
 from wheels import generate_wheel_readiness_data
 
 app = Flask("python_rebuild_status")
@@ -19,20 +19,6 @@ REPORT_STATES = {
 }
 
 VERSIONS = {
-    "314": {
-        "major_version": "3.14",
-        "fedora_version": "43",
-        "target_fedora": "43",
-        "koji_enabled": KOJI_PY314,
-        "base_packages": "data/python313.pkgs",
-        "exclude_package": "python3.13",
-        "all_to_build": None,
-        "successfully_rebuilt": None,
-        "failed": None,
-        "waiting": None,
-        "bugzillas": None,
-        "all_in_copr": None,
-    },
     "315": {
         "major_version": "3.15",
         "fedora_version": "45",
@@ -40,6 +26,22 @@ VERSIONS = {
         "koji_enabled": KOJI_PY315,
         "base_packages": "data/python314.pkgs",
         "exclude_package": "python3.14",
+        "file_suffix": "315",
+        "all_to_build": None,
+        "successfully_rebuilt": None,
+        "failed": None,
+        "waiting": None,
+        "bugzillas": None,
+        "all_in_copr": None,
+    },
+    "315b1": {
+        "major_version": "3.15-b1",
+        "fedora_version": "45",
+        "target_fedora": "45",
+        "koji_enabled": KOJI_PY315B1,
+        "base_packages": "data/python314.pkgs",
+        "exclude_package": "python3.14",
+        "file_suffix": "315-b1",
         "all_to_build": None,
         "successfully_rebuilt": None,
         "failed": None,
@@ -51,27 +53,23 @@ VERSIONS = {
 
 # Load data for each version
 for ver, config in VERSIONS.items():
+    fs = config["file_suffix"]
     all_to_build = sorted(load_data(config["base_packages"]))
     all_to_build.remove(config["exclude_package"])
     config["all_to_build"] = all_to_build
 
-    # TODO: this is a hack: I want F43 data for 3.14 rebuild and F44 data for 3.15,
-    # hence the versioned file (python314.pkgs is in two source versions)
-    if ver == "314":
-        config["successfully_rebuilt"] = load_data(f"data/python{ver}-43.pkgs")
-    else:
-        config["successfully_rebuilt"] = load_data(f"data/python{ver}.pkgs")
-    config["failed"] = load_data(f"data/failed_py{ver}.pkgs")
-    config["waiting"] = load_data(f"data/waiting_py{ver}.pkgs")
-    config["bugzillas"] = load_json(f"data/bzurls_py{ver}.json")
+    config["successfully_rebuilt"] = load_data(f"data/python{fs}.pkgs")
+    config["failed"] = load_data(f"data/failed_py{fs}.pkgs")
+    config["waiting"] = load_data(f"data/waiting_py{fs}.pkgs")
+    config["bugzillas"] = load_json(f"data/bzurls_py{fs}.json")
 
     if not config["koji_enabled"]:
-        config["all_in_copr"] = load_monitor_report(f"data/copr_py{ver}.pkgs")
+        config["all_in_copr"] = load_monitor_report(f"data/copr_py{fs}.pkgs")
 
 
-def load_python_version(ver):
+def load_python_version(file_suffix):
     "Return just the version string from the whole src name"
-    full_pkgname = load_data(f"data/pyver_py{ver}").pop()
+    full_pkgname = load_data(f"data/pyver_py{file_suffix}").pop()
     return full_pkgname.split(":")[-1].split("-")[0]
 
 
@@ -83,7 +81,7 @@ def assign_build_status(ver):
     """Assign build status for packages for a given Python version.
 
     Args:
-        ver: Version string (e.g., "314", "315")
+        ver: Version string (e.g., "315", "315b1")
 
     Returns:
         Dictionary mapping package names to their build status
@@ -141,7 +139,7 @@ def find_maintainers(ver):
     """Find package maintainers for a given Python version.
 
     Args:
-        ver: Version string (e.g., "314", "315")
+        ver: Version string (e.g., "315", "315b1")
 
     Returns:
         Dictionary mapping package names to their maintainers
@@ -165,7 +163,7 @@ def create_failed_report(ver, build_status):
     """Create a failure report for a given Python version.
 
     Args:
-        ver: Version string (e.g., "314", "315")
+        ver: Version string (e.g., "315", "315b1")
         build_status: Dictionary mapping package names to their build status
 
     Returns:
@@ -199,12 +197,13 @@ for ver in VERSIONS.keys():
         "failed_report": create_failed_report(ver, build_status),
     }
 
-    # Generate wheel readiness data for each version
-    wheel_readiness, wheels_count = generate_wheel_readiness_data(ver)
-    wheel_data[ver] = {
-        "readiness": wheel_readiness,
-        "count": wheels_count,
-    }
+    # Generate wheel readiness data only for versions with a wheels page
+    if ver == "315":
+        wheel_readiness, wheels_count = generate_wheel_readiness_data(ver)
+        wheel_data[ver] = {
+            "readiness": wheel_readiness,
+            "count": wheels_count,
+        }
 
 updated = datetime.datetime.now()
 
@@ -238,7 +237,7 @@ def index():
         template_vars.update({
             f"{prefix}_fedora_version": config["fedora_version"],
             f"{prefix}_target_fedora": config["target_fedora"],
-            f"{prefix}_current_version": load_python_version(ver),
+            f"{prefix}_current_version": load_python_version(config["file_suffix"]),
             f"{prefix}_data_source": "Koji" if config["koji_enabled"] else "Copr",
             f"{prefix}_total_packages": total,
             f"{prefix}_success_count": success,
@@ -280,27 +279,27 @@ def failures():
         zip=zip,
     )
 
-@app.route('/packages_py314/')
-def packages_py314():
+@app.route('/packages_py315b1/')
+def packages_py315b1():
     return render_template(
-        'packages_py314.html',
-        py314_status_by_packages=build_data["314"]["status_by_packages"],
+        'packages_py315b1.html',
+        py315b1_status_by_packages=build_data["315b1"]["status_by_packages"],
         updated=updated,
     )
 
-@app.route('/maintainers_py314/')
-def maintainers_py314():
+@app.route('/maintainers_py315b1/')
+def maintainers_py315b1():
     return render_template(
-        'maintainers_py314.html',
-        py314_status_by_maintainers=build_data["314"]["status_by_maintainers"],
+        'maintainers_py315b1.html',
+        py315b1_status_by_maintainers=build_data["315b1"]["status_by_maintainers"],
         updated=updated,
     )
 
-@app.route('/failures_py314/')
-def failures_py314():
+@app.route('/failures_py315b1/')
+def failures_py315b1():
     return render_template(
-        'failures_py314.html',
-        py314_status_failed=build_data["314"]["failed_report"],
+        'failures_py315b1.html',
+        py315b1_status_failed=build_data["315b1"]["failed_report"],
         updated=updated,
         zip=zip,
     )
@@ -313,16 +312,6 @@ def wheels():
         major=VERSIONS["315"]["major_version"],
         updated=updated,
         do_support=wheel_data["315"]["count"],
-    )
-
-@app.route('/wheels_py314/')
-def wheels_py314():
-    return render_template(
-        'wheels.html',
-        results=wheel_data["314"]["readiness"],
-        major=VERSIONS["314"]["major_version"],
-        updated=updated,
-        do_support=wheel_data["314"]["count"],
     )
 
 @app.route('/packages_py315/')

@@ -2,27 +2,6 @@
 mkdir -p data
 
 ##############################################################################
-# Python 3.14 Data Collection (from Koji - post-mass-rebuild)
-##############################################################################
-
-# post-mass-rebuild query - use koji now as a source for data
-repoquery --repo=koji43 --source --whatrequires 'libpython3.14.so.1.0()(64bit)' --whatrequires 'python(abi) = 3.14' --whatrequires 'python3.14dist(*)' | pkgname | env LANG=en_US.utf-8 sort | uniq > data/python314-43.pkgs
-
-# get what's built with old python in koji
-repoquery --repo=koji43 --source --whatrequires 'libpython3.13.so.1.0()(64bit)' --whatrequires 'python(abi) = 3.13' --whatrequires 'python3.13dist(*)' | pkgname | env LANG=en_US.utf-8 sort | uniq > data/python313.pkgs
-
-# get what remains to be built
-env LANG=en_US.utf-8 comm -23 data/python313.pkgs data/python314-43.pkgs | grep -E -v '^(python3\.13)$' > data/todo_py314.pkgs
-
-# post-mass-rebuild query
-# get the current progress and find the actual failures + blocked packages
-curl https://raw.githubusercontent.com/hroncok/whatdoibuild/python3.14/progress.pkgs |env LANG=en_US.utf-8 sort > data/progress_py314.pkgs
-env LANG=en_US.utf-8 comm -12 data/progress_py314.pkgs data/todo_py314.pkgs > data/failed_py314.pkgs
-env LANG=en_US.utf-8 comm -13 data/progress_py314.pkgs data/todo_py314.pkgs > data/waiting_py314.pkgs
-
-repoquery -q --repo python314 python3.14 --latest-limit 1 > data/pyver_py314
-
-##############################################################################
 # Python 3.15 Data Collection (from Copr)
 ##############################################################################
 
@@ -66,6 +45,8 @@ env LANG=en_US.utf-8 comm -23 data/todo_py315-b1.pkgs data/copr_names_py315-b1.p
 env LANG=en_US.utf-8 comm -12 data/todo_py315-b1.pkgs data/copr_names_py315-b1.pkgs > data/failed_py315-b1.pkgs
 rm data/copr_names_py315-b1.pkgs
 
+# get python 3.15-b1 version from copr
+repoquery -q --repo python315-b1 python3.15 --latest-limit 1 > data/pyver_py315-b1
 
 ##############################################################################
 # Common Data Collection
@@ -74,12 +55,11 @@ rm data/copr_names_py315-b1.pkgs
 # get packages and their respective maintainers
 curl https://src.fedoraproject.org/extras/pagure_owner_alias.json -o data/pagure_owner_alias.json
 
-# get bz urls for failed packages (python 3.14)
-python3 scripts/bugzillas.py
-
-# not tracker yet - skip
 # get bz urls for failed packages (python 3.15)
 python3 scripts/bugzillas.py --version 3.15
+
+# get bz urls for failed packages (python 3.15-b1)
+python3 scripts/bugzillas.py --version 3.15-b1
 
 # download the most downloaded packages from PyPI
 wget https://hugovk.github.io/top-pypi-packages/top-pypi-packages.min.json -O data/top-pypi-packages.json

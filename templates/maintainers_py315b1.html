@@ -1,8 +1,8 @@
 {% extends "base.html" %}
-{% block title %}Fedora - Python 3.14 rebuild: sorted by maintainers{% endblock %}
+{% block title %}Fedora - Python 3.15-b1 rebuild: sorted by maintainers{% endblock %}
 {% block content %}
 <a href="{{ url_for('index') }}" class="btn btn-primary mb-3"> &lt&lt&lt Home</a>
-<h2 class="mb-3">Python 3.14: All packages grouped by package maintainer</h2>
+<h2 class="mb-3">Python 3.15-b1: All packages grouped by package maintainer</h2>
 
 <p><strong>Legend</strong><br>
     🟢 = successful build<br>
@@ -20,7 +20,7 @@
             </tr>
         </thead>
         <tbody>
-            {% for maintainer, packages_and_statuses in py314_status_by_maintainers %}
+            {% for maintainer, packages_and_statuses in py315b1_status_by_maintainers %}
             <tr>
                 <td class="align-top">{{ maintainer }}</td>
                 <td>
@@ -29,7 +29,7 @@
                         {% set status = package.split(' ')[1] %}
                         {{ status }}
                         {% if status in ["🟠", "🔴"] %}
-                            <a href="{{ url_for('failures_py314') }}#row-{{ package_name }}">{{ package_name }}</a>
+                            <a href="{{ url_for('failures_py315b1') }}#row-{{ package_name }}">{{ package_name }}</a>
                         {% else %}{{ package_name }}{% endif %}
                         {% if not loop.last %}, {% endif %}
                     {% endfor %}

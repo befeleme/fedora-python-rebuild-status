@@ -10,7 +10,6 @@ PYPI_URL = "https://pypi.org/pypi/{name}/json"
 
 # Map version strings to their ABI tags
 VERSION_ABI_TAGS = {
-    "314": "cp314",
     "315": "cp315",
 }
 
