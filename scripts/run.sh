@@ -86,3 +86,6 @@ wget https://hugovk.github.io/top-pypi-packages/top-pypi-packages.min.json -O da
 
 # download commonly needed components report
 curl https://raw.githubusercontent.com/fedora-python/whatdoibuild/refs/heads/python3.15/commonly-needed-report.json -o data/commonly-needed-report.json
+
+# download commonly needed components report for b1
+curl https://raw.githubusercontent.com/fedora-python/whatdoibuild/refs/heads/python3.15-b1/commonly-needed-report.json -o data/commonly-needed-report-b1.json
