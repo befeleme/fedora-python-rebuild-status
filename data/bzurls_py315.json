@@ -271,6 +271,10 @@
       "ocrmypdf fails to build with Python 3.15: test_xml_metadata_preserved: AssertionError: acquired unexpected property dc:title with value 'Untitled'"
     ]
   },
+  "onnx": {
+    "urls": [],
+    "summaries": []
+  },
   "onnxruntime": {
     "urls": [],
     "summaries": []
@@ -366,6 +370,10 @@
     "summaries": [
       "python-alembic1.14: FTBFS in Fedora rawhide/f44"
     ]
+  },
+  "python-astroid": {
+    "urls": [],
+    "summaries": []
   },
   "python-astroquery": {
     "urls": [
@@ -513,14 +521,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-botocore": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2424584"
-    ],
-    "summaries": [
-      "python-botocore fails to build with Python 3.15: AssertionError: At index 8 diff: b'\\x00' != b'\\x02'"
-    ]
-  },
   "python-bytecode": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2458689"
@@ -574,6 +574,10 @@
     "summaries": []
   },
   "python-defcon": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-dijitso": {
     "urls": [],
     "summaries": []
   },
@@ -649,6 +653,10 @@
       "python-dns fails to build with Python 3.15: testInvalidDigestLengthCDS0: AssertionError: 'Odd-length string' != 'Odd number of hexadecimal digits'"
     ]
   },
+  "python-dropbox": {
+    "urls": [],
+    "summaries": []
+  },
   "python-eccodes": {
     "urls": [],
     "summaries": []
@@ -712,14 +720,6 @@
   "python-extractcode": {
     "urls": [],
     "summaries": []
-  },
-  "python-extras": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2458630"
-    ],
-    "summaries": [
-      "python-extras fails to build with Python 3.15: AttributeError: 'TestTryImports' object has no attribute 'assertEquals'. Did you mean '.assertEqual' instead of '.assertEquals'?"
-    ]
   },
   "python-faker": {
     "urls": [
@@ -895,6 +895,10 @@
     "urls": [],
     "summaries": []
   },
+  "python-linuxdoc": {
+    "urls": [],
+    "summaries": []
+  },
   "python-llm": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2466667"
@@ -910,6 +914,10 @@
     "summaries": [
       "python-markdown-callouts: FTBFS in Fedora rawhide/f44"
     ]
+  },
+  "python-mcp": {
+    "urls": [],
+    "summaries": []
   },
   "python-meshio": {
     "urls": [
@@ -927,6 +935,10 @@
       "python-metakernel fails to build with Python 3.15: DeprecationWarning: This process (pid=889) is multi-threaded, use of forkpty() may lead to deadlocks in the child."
     ]
   },
+  "python-migen": {
+    "urls": [],
+    "summaries": []
+  },
   "python-mirrors-countme": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2424567"
@@ -934,6 +946,10 @@
     "summaries": [
       "python-mirrors-countme fails to build with Python 3.15: TypeError: NamedTuple() got an unexpected keyword argument 'INTEGER_NOT_NULL'"
     ]
+  },
+  "python-moddb": {
+    "urls": [],
+    "summaries": []
   },
   "python-mplcairo": {
     "urls": [
@@ -950,6 +966,14 @@
     "summaries": [
       "python-msrest fails to build with Python 3.15: AssertionErrors in two TestServiceClient::test_client_send"
     ]
+  },
+  "python-multiecho": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-netmiko": {
+    "urls": [],
+    "summaries": []
   },
   "python-nibabel": {
     "urls": [
@@ -999,14 +1023,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-pip": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2458631"
-    ],
-    "summaries": [
-      "python-pip fails to build with Python 3.15: importlib.metadata.MetadataNotFound: No package metadata was found."
-    ]
-  },
   "python-psycopg2": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2414801"
@@ -1034,6 +1050,10 @@
     "summaries": [
       "python-pydantic fails to build with Python 3.15: FutureWarning and DID NOT RAISE <class 'pydantic_core._pydantic_core.ValidationError'>"
     ]
+  },
+  "python-pydantic-extra-types": {
+    "urls": [],
+    "summaries": []
   },
   "python-pygtkspellcheck": {
     "urls": [
@@ -1073,7 +1093,7 @@
       "python-pysdl2 fails to build with Python 3.15: AssertionError: That operation is not supported"
     ]
   },
-  "python-pyspike": {
+  "python-pyside6": {
     "urls": [],
     "summaries": []
   },
@@ -1177,6 +1197,10 @@
       "[heads up] python-sphinx-argparse-cli will fail to build with Sphinx 9+ in Fedora 45: ModuleNotFoundError: No module named 'sphinx.testing.path'"
     ]
   },
+  "python-spyking-circus": {
+    "urls": [],
+    "summaries": []
+  },
   "python-sqlalchemy1.4": {
     "urls": [],
     "summaries": []
@@ -1190,6 +1214,10 @@
     "summaries": []
   },
   "python-steps": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-stone": {
     "urls": [],
     "summaries": []
   },
@@ -1397,10 +1425,6 @@
       "rpm-spec-language-server fails to build with Python 3.15: TypeError: cache_from_source() takes 1 positional argument but 2 positional arguments (and 1 keyword-only argument) were given"
     ]
   },
-  "ruff": {
-    "urls": [],
-    "summaries": []
-  },
   "samba": {
     "urls": [],
     "summaries": []
@@ -1429,7 +1453,7 @@
       "superlu_dist: FTBFS in Fedora rawhide/f44"
     ]
   },
-  "ty": {
+  "tito": {
     "urls": [],
     "summaries": []
   },
