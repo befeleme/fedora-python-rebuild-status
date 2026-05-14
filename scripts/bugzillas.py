@@ -20,8 +20,8 @@ VERSION_CONFIG = {
         "output_file": "data/bzurls_py315.json"
     },
     "3.15-b1": {
-        "tracker": None,  # no tracker yet
-        "rawhide": [],
+        "tracker": 2412434,  # PYTHON3.15
+        "rawhide": [2384424, 2433833],  # F44FTBFS, F45FTBFS
         "failed_file": "data/failed_py315-b1.pkgs",
         "waiting_file": "data/waiting_py315-b1.pkgs",
         "python_pkgs": "data/python315-b1.pkgs",
