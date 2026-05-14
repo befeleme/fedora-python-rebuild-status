@@ -3,23 +3,47 @@
     "urls": [],
     "summaries": []
   },
+  "Silo": {
+    "urls": [],
+    "summaries": []
+  },
   "arandr": {
     "urls": [],
     "summaries": []
   },
   "argparse-manpage": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2431586"
+    ],
+    "summaries": [
+      "argparse-manpage fails to build with Python 3.15: AttributeError: '_ManpageFormatter' object has no attribute '_theme'. Did you mean: 'of._theme'?"
+    ]
   },
   "bmap-tools": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2416984"
+    ],
+    "summaries": [
+      "bmap-tools fails to build with Python 3.15: bmaptool.BmapCopy.Error: checksum mismatch for blocks range 34-35"
+    ]
+  },
+  "dionaea": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2380545"
+    ],
+    "summaries": [
+      "dionaea: FTBFS with change proposal CMake 4.0"
+    ]
   },
   "evemu": {
     "urls": [],
     "summaries": []
   },
   "gdb": {
+    "urls": [],
+    "summaries": []
+  },
+  "git-filter-repo": {
     "urls": [],
     "summaries": []
   },
@@ -32,10 +56,34 @@
     "summaries": []
   },
   "javapackages-tools": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2414799"
+    ],
+    "summaries": [
+      "javapackages-tools fails to build with Python 3.15: AssertionError in TestMvnBuild.test_builddep"
+    ]
+  },
+  "libsvm": {
     "urls": [],
     "summaries": []
   },
   "lttng-tools": {
+    "urls": [],
+    "summaries": []
+  },
+  "manifold": {
+    "urls": [],
+    "summaries": []
+  },
+  "mercurial": {
+    "urls": [],
+    "summaries": []
+  },
+  "openmpi": {
+    "urls": [],
+    "summaries": []
+  },
+  "orca": {
     "urls": [],
     "summaries": []
   },
@@ -83,11 +131,39 @@
     "urls": [],
     "summaries": []
   },
-  "python-beartype": {
+  "python-amqp": {
     "urls": [],
     "summaries": []
   },
+  "python-autodocsumm": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-beartype": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2447904",
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2432345"
+    ],
+    "summaries": [
+      "python-beartype fails to build with Python 3.15: ImportError: cannot import name 'no_type_check_decorator' from 'typing' (/usr/lib64/python3.15/typing.py)",
+      "python-beartype fails to build with Python 3.15: ImportError: cannot import name 'no_type_check_decorator' from 'typing'"
+    ]
+  },
   "python-blessed": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2434953",
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2414791"
+    ],
+    "summaries": [
+      "python-blessed: FTBFS in Fedora rawhide/f44",
+      "python-blessed fails to build with Python 3.15: Additional space in test_wrap.py::test_SequenceWrapper[1-kwargs5]"
+    ]
+  },
+  "python-buildman": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-catkin_tools": {
     "urls": [],
     "summaries": []
   },
@@ -96,14 +172,26 @@
     "summaries": []
   },
   "python-chai": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2424293"
+    ],
+    "summaries": [
+      "python-chai fails to build with Python 3.15: chai.exception.UnsupportedStub: (\"can't stub %s\", <property object at 0x7fbbc41d1df0>)"
+    ]
   },
   "python-click-plugins": {
     "urls": [],
     "summaries": []
   },
   "python-cppheaderparser": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-dbus-python-client-gen": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-deprecated": {
     "urls": [],
     "summaries": []
   },
@@ -116,18 +204,46 @@
     "summaries": []
   },
   "python-django-angular": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2434976"
+    ],
+    "summaries": [
+      "python-django-angular: FTBFS in Fedora rawhide/f44"
+    ]
   },
   "python-et_xmlfile": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2424294"
+    ],
+    "summaries": [
+      "python-et_xmlfile fails to build with Python 3.15: ElementTreeTest.test_iterparse: AssertionError: Lists differ: [<WarningMessage {message : ResourceWarnin[235 chars]ne}>] != []"
+    ]
   },
   "python-exceptiongroup": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2423878"
+    ],
+    "summaries": [
+      "python-exceptiongroup fails to build with Python 3.15: assert \"BaseExceptionGroup('foo', [ValueError(1), KeyboardInterrupt()])\" == \"BaseExceptionGroup('foo', [ValueError(1), KeyboardInterrupt(), KeyError('bar')])\""
+    ]
+  },
+  "python-exiv2": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2440690"
+    ],
+    "summaries": [
+      "python-exiv2 fails to build with Python 3.15: error: \u2018PyWeakref_GetObject\u2019 was not declared in this scope; did you mean \u2018PyWeakref_GetRef\u2019?"
+    ]
+  },
+  "python-extractcode-7z": {
     "urls": [],
     "summaries": []
   },
-  "python-exiv2": {
+  "python-extractcode-libarchive": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-fields": {
     "urls": [],
     "summaries": []
   },
@@ -139,7 +255,19 @@
     "urls": [],
     "summaries": []
   },
+  "python-giacpy": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2460593"
+    ],
+    "summaries": [
+      "python-giacpy: FTBFS in Fedora Rawhide: line 51: Segmentation fault: /usr/bin/python3 -m doctest ../../giacpy/giacpy.pyx -vv"
+    ]
+  },
   "python-gitdb": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-icalendar": {
     "urls": [],
     "summaries": []
   },
@@ -148,8 +276,20 @@
     "summaries": []
   },
   "python-kaptan": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2423881"
+    ],
+    "summaries": [
+      "python-kaptan fails to build with Python 3.15: AttributeError: 'SourceFileLoader' object has no attribute 'load_module'. Did you mean: 'exec_module'? in test_py_file_handler and test_py_file_away_handler"
+    ]
+  },
+  "python-kiwisolver": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2453822"
+    ],
+    "summaries": [
+      "python-kiwisolver fails to build with setuptools_scm 10+"
+    ]
   },
   "python-lesscpy": {
     "urls": [],
@@ -167,11 +307,19 @@
     "urls": [],
     "summaries": []
   },
+  "python-moddb": {
+    "urls": [],
+    "summaries": []
+  },
   "python-nagiosplugin": {
     "urls": [],
     "summaries": []
   },
   "python-netaddr": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-omemo": {
     "urls": [],
     "summaries": []
   },
@@ -200,18 +348,72 @@
     "summaries": []
   },
   "python-psycopg2": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2414801"
+    ],
+    "summaries": [
+      "python-psycopg2 fails to build with Python 3.15: error: implicit declaration of function \u2018PyWeakref_GetObject\u2019; did you mean \u2018PyWeakref_GetRef\u2019?"
+    ]
   },
   "python-pybtex": {
     "urls": [],
     "summaries": []
   },
-  "python-pysdl2": {
+  "python-pygeoif": {
     "urls": [],
     "summaries": []
   },
+  "python-pykeepass": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pyqt6": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pysdl2": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2435012",
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2431587"
+    ],
+    "summaries": [
+      "python-pysdl2: FTBFS in Fedora rawhide/f44",
+      "python-pysdl2 fails to build with Python 3.15: AssertionError: That operation is not supported"
+    ]
+  },
   "python-pyswip": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2440565"
+    ],
+    "summaries": [
+      "python-pyswip fails to build with Python 3.15: 28 test failures: AttributeError: 'list' object has no attribute 'value'"
+    ]
+  },
+  "python-qt5": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-readchar": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-rosdep": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-rosinstall_generator": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-rstr": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2414567"
+    ],
+    "summaries": [
+      "python-rstr fails to build with Python 3.15: 3 errors when collecting tests: ModuleNotFoundError: No module named 'sre_parse'"
+    ]
+  },
+  "python-scales": {
     "urls": [],
     "summaries": []
   },
@@ -235,15 +437,39 @@
     "urls": [],
     "summaries": []
   },
+  "python-ssdeep": {
+    "urls": [],
+    "summaries": []
+  },
   "python-stone": {
     "urls": [],
     "summaries": []
   },
   "python-toolz": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2447909"
+    ],
+    "summaries": [
+      "python-toolz fails to build with Python 3.15: AssertionError: Missing introspection for the following callables: frozendict"
+    ]
+  },
+  "python-tornado": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2414557"
+    ],
+    "summaries": [
+      "python-tornado fails to build with Python 3.15: ERROR: test_multi_process"
+    ]
   },
   "python-translitcodec": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2414561"
+    ],
+    "summaries": [
+      "python-translitcodec fails to build with Python 3.15: 8 tests failing with LookupError: unknown encoding: translit/*"
+    ]
+  },
+  "python-typecode-libmagic": {
     "urls": [],
     "summaries": []
   },
@@ -251,11 +477,11 @@
     "urls": [],
     "summaries": []
   },
-  "python-typing-extensions": {
+  "python-vcstool": {
     "urls": [],
     "summaries": []
   },
-  "python-vcstool": {
+  "python-voluptuous": {
     "urls": [],
     "summaries": []
   },
@@ -264,6 +490,14 @@
     "summaries": []
   },
   "python-websockets": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2440566"
+    ],
+    "summaries": [
+      "python-websockets fails to build with Python 3.15: test_apply_mask_non_contiguous_memoryview: BufferError: memoryview: underlying buffer is not C-contiguous"
+    ]
+  },
+  "python-yamlloader": {
     "urls": [],
     "summaries": []
   },
@@ -271,12 +505,52 @@
     "urls": [],
     "summaries": []
   },
+  "qpid-proton": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2381112"
+    ],
+    "summaries": [
+      "qpid-proton: FTBFS with change proposal CMake: Use ninja generator by default"
+    ]
+  },
+  "re2": {
+    "urls": [],
+    "summaries": []
+  },
+  "renderdoc": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2414559"
+    ],
+    "summaries": [
+      "renderdoc fails to build with Python 3.15: qrenderdoc_python.cxx:2296:13: error: \u2018PyWeakref_GET_OBJECT\u2019 was not declared in this scope"
+    ]
+  },
+  "superlu_dist": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2435129"
+    ],
+    "summaries": [
+      "superlu_dist: FTBFS in Fedora rawhide/f44"
+    ]
+  },
   "supervisor": {
     "urls": [],
     "summaries": []
   },
+  "ubertooth": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2381615"
+    ],
+    "summaries": [
+      "ubertooth: FTBFS with change proposal CMake 4.0"
+    ]
+  },
   "xapian-bindings": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2417021"
+    ],
+    "summaries": [
+      "xapian-bindings fails to build with Python 3.15: Fatal Python error: PyMutex_Unlock: unlocking mutex that is not locked"
+    ]
   }
 }

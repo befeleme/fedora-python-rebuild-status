@@ -39,7 +39,15 @@
       "argparse-manpage fails to build with Python 3.15: AttributeError: '_ManpageFormatter' object has no attribute '_theme'. Did you mean: 'of._theme'?"
     ]
   },
+  "audiotube": {
+    "urls": [],
+    "summaries": []
+  },
   "beets": {
+    "urls": [],
+    "summaries": []
+  },
+  "bids-schema": {
     "urls": [],
     "summaries": []
   },
@@ -179,6 +187,10 @@
     "urls": [],
     "summaries": []
   },
+  "krita": {
+    "urls": [],
+    "summaries": []
+  },
   "libguestfs": {
     "urls": [],
     "summaries": []
@@ -248,6 +260,10 @@
     ]
   },
   "mupdf": {
+    "urls": [],
+    "summaries": []
+  },
+  "mycli": {
     "urls": [],
     "summaries": []
   },
@@ -879,10 +895,6 @@
       "python-kaptan fails to build with Python 3.15: AttributeError: 'SourceFileLoader' object has no attribute 'load_module'. Did you mean: 'exec_module'? in test_py_file_handler and test_py_file_away_handler"
     ]
   },
-  "python-keystoneauth1": {
-    "urls": [],
-    "summaries": []
-  },
   "python-kiwisolver": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2453822"
@@ -1062,6 +1074,10 @@
     "summaries": [
       "python-pygtkspellcheck: FTBFS in Fedora rawhide/f44"
     ]
+  },
+  "python-pymapvbvd": {
+    "urls": [],
+    "summaries": []
   },
   "python-pymongo": {
     "urls": [],
@@ -1319,6 +1335,14 @@
     ],
     "summaries": [
       "python-typeguard fails to build with Python 3.15: TypeError: cache_from_source() takes 1 positional argument but 2 positional arguments (and 1 keyword-only argument) were given"
+    ]
+  },
+  "python-typing-extensions": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2477406"
+    ],
+    "summaries": [
+      "python-typing-extensions fails to build with Python 3.15: AssertionError: 'typing.Unpack[~Ts]' != 'typing.Unpack[Ts]' and TypeError: bad operand type for unary ~: 'typing.TypeVarTuple'"
     ]
   },
   "python-watchdog": {
