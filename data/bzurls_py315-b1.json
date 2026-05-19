@@ -55,6 +55,14 @@
       "javapackages-tools fails to build with Python 3.15: AssertionError in TestMvnBuild.test_builddep"
     ]
   },
+  "jc": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2424595"
+    ],
+    "summaries": [
+      "jc fails to build with Python 3.15: AssertionError: 'format': 1760, != 'format': 7250,"
+    ]
+  },
   "lammps": {
     "urls": [],
     "summaries": []
@@ -64,6 +72,10 @@
     "summaries": []
   },
   "librealsense": {
+    "urls": [],
+    "summaries": []
+  },
+  "libreoffice": {
     "urls": [],
     "summaries": []
   },
@@ -80,6 +92,10 @@
     "summaries": []
   },
   "mercurial": {
+    "urls": [],
+    "summaries": []
+  },
+  "monkeytype": {
     "urls": [],
     "summaries": []
   },
@@ -159,6 +175,10 @@
     "urls": [],
     "summaries": []
   },
+  "python-astroid": {
+    "urls": [],
+    "summaries": []
+  },
   "python-autodocsumm": {
     "urls": [],
     "summaries": []
@@ -172,6 +192,10 @@
       "python-beartype fails to build with Python 3.15: ImportError: cannot import name 'no_type_check_decorator' from 'typing' (/usr/lib64/python3.15/typing.py)",
       "python-beartype fails to build with Python 3.15: ImportError: cannot import name 'no_type_check_decorator' from 'typing'"
     ]
+  },
+  "python-binary-manager": {
+    "urls": [],
+    "summaries": []
   },
   "python-blessed": {
     "urls": [
@@ -259,13 +283,13 @@
       "python-exiv2 fails to build with Python 3.15: error: \u2018PyWeakref_GetObject\u2019 was not declared in this scope; did you mean \u2018PyWeakref_GetRef\u2019?"
     ]
   },
-  "python-faker": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2460595"
-    ],
-    "summaries": [
-      "python-faker fails to build with Python 3.15: NameError: name 'TestEnUS' is not defined"
-    ]
+  "python-extractcode": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-eyed3": {
+    "urls": [],
+    "summaries": []
   },
   "python-fastprogress": {
     "urls": [],
@@ -295,6 +319,16 @@
     "urls": [],
     "summaries": []
   },
+  "python-hypothesmith": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2466656",
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2434986"
+    ],
+    "summaries": [
+      "python-hypothesmith fails to build with Python 3.15: AttributeError: 'int' object has no attribute '_codegen' and more (74 tests fail)",
+      "python-hypothesmith: FTBFS in Fedora rawhide/f44"
+    ]
+  },
   "python-icalendar": {
     "urls": [],
     "summaries": []
@@ -319,6 +353,10 @@
       "python-kaptan fails to build with Python 3.15: AttributeError: 'SourceFileLoader' object has no attribute 'load_module'. Did you mean: 'exec_module'? in test_py_file_handler and test_py_file_away_handler"
     ]
   },
+  "python-keyring": {
+    "urls": [],
+    "summaries": []
+  },
   "python-kiwisolver": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2453822"
@@ -335,6 +373,14 @@
     "urls": [],
     "summaries": []
   },
+  "python-markdown-callouts": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2434991"
+    ],
+    "summaries": [
+      "python-markdown-callouts: FTBFS in Fedora rawhide/f44"
+    ]
+  },
   "python-mathics-scanner": {
     "urls": [],
     "summaries": []
@@ -342,6 +388,14 @@
   "python-migen": {
     "urls": [],
     "summaries": []
+  },
+  "python-mirrors-countme": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2424567"
+    ],
+    "summaries": [
+      "python-mirrors-countme fails to build with Python 3.15: TypeError: NamedTuple() got an unexpected keyword argument 'INTEGER_NOT_NULL'"
+    ]
   },
   "python-moddb": {
     "urls": [],
@@ -421,6 +475,10 @@
       "python-pyswip fails to build with Python 3.15: 28 test failures: AttributeError: 'list' object has no attribute 'value'"
     ]
   },
+  "python-pytest-subtests": {
+    "urls": [],
+    "summaries": []
+  },
   "python-pytest-tldr": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2435014",
@@ -443,7 +501,19 @@
     "urls": [],
     "summaries": []
   },
+  "python-readme-renderer": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2424573"
+    ],
+    "summaries": [
+      "python-readme-renderer fails to build with Python 3.15: test_cli_package: No content rendered from RST source."
+    ]
+  },
   "python-requirements-parser": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-robotframework": {
     "urls": [],
     "summaries": []
   },
@@ -507,6 +577,14 @@
     "urls": [],
     "summaries": []
   },
+  "python-time-machine": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2424589"
+    ],
+    "summaries": [
+      "python-time-machine fails to build with Python 3.15: AssertionError: assert 2025 == 1970"
+    ]
+  },
   "python-toolz": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2447909"
@@ -523,6 +601,10 @@
       "python-tornado fails to build with Python 3.15: ERROR: test_multi_process"
     ]
   },
+  "python-tpm2-pytss": {
+    "urls": [],
+    "summaries": []
+  },
   "python-translitcodec": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2414561"
@@ -534,6 +616,14 @@
   "python-triton": {
     "urls": [],
     "summaries": []
+  },
+  "python-typeguard": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2423892"
+    ],
+    "summaries": [
+      "python-typeguard fails to build with Python 3.15: TypeError: cache_from_source() takes 1 positional argument but 2 positional arguments (and 1 keyword-only argument) were given"
+    ]
   },
   "python-vcstool": {
     "urls": [],
@@ -599,17 +689,13 @@
       "renderdoc fails to build with Python 3.15: qrenderdoc_python.cxx:2296:13: error: \u2018PyWeakref_GET_OBJECT\u2019 was not declared in this scope"
     ]
   },
-  "root": {
+  "roca-detect": {
     "urls": [],
     "summaries": []
   },
-  "scipy": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2458664"
-    ],
-    "summaries": [
-      "scipy: FTBFS in Fedora Rawhide: test_gh_22681_finite_error: AssertionError"
-    ]
+  "root": {
+    "urls": [],
+    "summaries": []
   },
   "superlu_dist": {
     "urls": [
@@ -633,6 +719,14 @@
     ],
     "summaries": [
       "ubertooth: FTBFS with change proposal CMake 4.0"
+    ]
+  },
+  "weasyprint": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2458731"
+    ],
+    "summaries": [
+      "weasyprint: FTBFS in Fedora Rawhide:  Failed: Pixel (5, 1) in radial_gradient_reflect: expected rgba(255, 0, 0), got rgba(0, 255, 0)"
     ]
   },
   "xapian-bindings": {

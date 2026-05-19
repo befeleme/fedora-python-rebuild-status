@@ -2,12 +2,12 @@
   "most_commonly_needed": [
     {
       "component": "python-kiwisolver",
-      "count": 112,
+      "count": 114,
       "prerel_abi_blocked": true
     },
     {
       "component": "python-matplotlib",
-      "count": 110,
+      "count": 112,
       "prerel_abi_blocked": true,
       "blocked_by": [
         "python-kiwisolver"
@@ -29,12 +29,12 @@
     },
     {
       "component": "python-tornado",
-      "count": 68,
+      "count": 67,
       "prerel_abi_blocked": true
     },
     {
       "component": "python-zmq",
-      "count": 60,
+      "count": 59,
       "prerel_abi_blocked": true,
       "blocked_by": [
         "python-tornado"
@@ -46,6 +46,17 @@
       "prerel_abi_blocked": true,
       "blocked_by": [
         "python-ruamel-yaml-clib"
+      ]
+    },
+    {
+      "component": "python-setuptools80",
+      "count": 49
+    },
+    {
+      "component": "protobuf3",
+      "count": 36,
+      "blocked_by": [
+        "python-setuptools80"
       ]
     },
     {
@@ -87,22 +98,25 @@
       "prerel_abi_blocked": true
     },
     {
+      "component": "python-psycopg2",
+      "count": 15,
+      "prerel_abi_blocked": true
+    },
+    {
       "component": "python-rapidfuzz",
-      "count": 16,
+      "count": 15,
       "prerel_abi_blocked": true,
       "blocked_by": [
         "python-pandas"
       ]
     },
     {
-      "component": "python-psycopg2",
-      "count": 15,
-      "prerel_abi_blocked": true
-    },
-    {
       "component": "grpc",
       "count": 14,
-      "prerel_abi_blocked": true
+      "prerel_abi_blocked": true,
+      "blocked_by": [
+        "protobuf3"
+      ]
     },
     {
       "component": "libarrow",
@@ -134,11 +148,6 @@
       "component": "libvirt-python",
       "count": 10,
       "unresolvable": true,
-      "prerel_abi_blocked": true
-    },
-    {
-      "component": "python-pymongo",
-      "count": 10,
       "prerel_abi_blocked": true
     },
     {
@@ -273,11 +282,6 @@
       ]
     },
     {
-      "component": "gdal",
-      "count": 3,
-      "prerel_abi_blocked": true
-    },
-    {
       "component": "qpid-proton",
       "count": 3,
       "prerel_abi_blocked": true
@@ -352,21 +356,26 @@
       ]
     },
     {
-      "component": "pyqtwebengine",
-      "count": 2
-    },
-    {
       "component": "python-nifti-mrs",
       "count": 2,
       "blocked_by": [
         "python-fslpy"
+      ]
+    },
+    {
+      "component": "usd",
+      "count": 2,
+      "blocked_by": [
+        "OpenColorIO",
+        "materialx",
+        "vtk"
       ]
     }
   ],
   "most_commonly_last_blocking": [
     {
       "component": "python-sqlalchemy",
-      "count": 45,
+      "count": 44,
       "prerel_abi_blocked": true,
       "blocked_by": [
         "python-psycopg2"
@@ -381,10 +390,21 @@
       ]
     },
     {
+      "component": "python-setuptools80",
+      "count": 26
+    },
+    {
       "component": "python-pandas",
       "count": 26,
       "unresolvable": true,
       "prerel_abi_blocked": true
+    },
+    {
+      "component": "protobuf3",
+      "count": 21,
+      "blocked_by": [
+        "python-setuptools80"
+      ]
     },
     {
       "component": "vtk",
@@ -410,11 +430,6 @@
       "prerel_abi_blocked": true
     },
     {
-      "component": "grpc",
-      "count": 10,
-      "prerel_abi_blocked": true
-    },
-    {
       "component": "python-rapidfuzz",
       "count": 9,
       "prerel_abi_blocked": true,
@@ -423,26 +438,21 @@
       ]
     },
     {
+      "component": "python-orjson",
+      "count": 8,
+      "prerel_abi_blocked": true,
+      "blocked_by": [
+        "python-pendulum"
+      ]
+    },
+    {
       "component": "python-astropy",
-      "count": 9,
+      "count": 8,
       "prerel_abi_blocked": true,
       "blocked_by": [
         "python-kiwisolver",
         "python-matplotlib",
         "python-scikit-image"
-      ]
-    },
-    {
-      "component": "python-torch",
-      "count": 8,
-      "prerel_abi_blocked": true
-    },
-    {
-      "component": "python-orjson",
-      "count": 7,
-      "prerel_abi_blocked": true,
-      "blocked_by": [
-        "python-pendulum"
       ]
     },
     {
@@ -459,14 +469,14 @@
       "prerel_abi_blocked": true
     },
     {
-      "component": "python-time-machine",
+      "component": "python-shapely",
       "count": 5,
-      "prerel_abi_blocked": true
-    },
-    {
-      "component": "python-genshi",
-      "count": 5,
-      "prerel_abi_blocked": true
+      "prerel_abi_blocked": true,
+      "blocked_by": [
+        "pyproj",
+        "python-kiwisolver",
+        "python-matplotlib"
+      ]
     },
     {
       "component": "libvirt-python",
@@ -475,14 +485,14 @@
       "prerel_abi_blocked": true
     },
     {
-      "component": "python-shapely",
+      "component": "python-time-machine",
       "count": 4,
-      "prerel_abi_blocked": true,
-      "blocked_by": [
-        "pyproj",
-        "python-kiwisolver",
-        "python-matplotlib"
-      ]
+      "prerel_abi_blocked": true
+    },
+    {
+      "component": "python-genshi",
+      "count": 3,
+      "prerel_abi_blocked": true
     },
     {
       "component": "python-zmq",
@@ -493,11 +503,11 @@
       ]
     },
     {
-      "component": "libguestfs",
-      "count": 2,
+      "component": "grpc",
+      "count": 3,
       "prerel_abi_blocked": true,
       "blocked_by": [
-        "libvirt-python"
+        "protobuf3"
       ]
     }
   ],
@@ -507,7 +517,7 @@
         "python-kiwisolver",
         "python-matplotlib"
       ],
-      "count": 46
+      "count": 48
     },
     {
       "components": [
@@ -533,17 +543,24 @@
     },
     {
       "components": [
+        "python-setuptools80",
+        "python-torch"
+      ],
+      "count": 8
+    },
+    {
+      "components": [
+        "grpc",
+        "protobuf3"
+      ],
+      "count": 7
+    },
+    {
+      "components": [
         "gnuradio",
         "python-zmq"
       ],
       "count": 5
-    },
-    {
-      "components": [
-        "python-psycopg2",
-        "python-sqlalchemy"
-      ],
-      "count": 4
     },
     {
       "components": [
@@ -579,17 +596,17 @@
     },
     {
       "components": [
-        "python-kiwisolver",
-        "python-matplotlib",
-        "python-pandas",
-        "python-statsmodels"
+        "python-psycopg2",
+        "python-sqlalchemy"
       ],
       "count": 3
     },
     {
       "components": [
+        "python-kiwisolver",
+        "python-matplotlib",
         "python-pandas",
-        "python-sqlalchemy"
+        "python-statsmodels"
       ],
       "count": 3
     },
@@ -617,13 +634,7 @@
     {
       "components": [
         "python-genshi",
-        "python-sqlalchemy"
-      ],
-      "count": 2
-    },
-    {
-      "components": [
-        "python-pymongo",
+        "python-setuptools80",
         "python-sqlalchemy"
       ],
       "count": 2
@@ -654,10 +665,6 @@
     }
   ],
   "dependency_loops": [
-    [
-      "vtk",
-      "vtk"
-    ],
     [
       "python-ruamel-yaml-clib",
       "python-ruamel-yaml-clib"

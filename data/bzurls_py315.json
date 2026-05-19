@@ -111,6 +111,10 @@
     "urls": [],
     "summaries": []
   },
+  "buildstream": {
+    "urls": [],
+    "summaries": []
+  },
   "calibre": {
     "urls": [],
     "summaries": []
@@ -444,6 +448,10 @@
     "summaries": []
   },
   "osh": {
+    "urls": [],
+    "summaries": []
+  },
+  "pcs": {
     "urls": [],
     "summaries": []
   },
@@ -1003,14 +1011,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-faker": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2460595"
-    ],
-    "summaries": [
-      "python-faker fails to build with Python 3.15: NameError: name 'TestEnUS' is not defined"
-    ]
-  },
   "python-fastmcp": {
     "urls": [],
     "summaries": []
@@ -1055,14 +1055,6 @@
     ],
     "summaries": [
       "python-ftfy: FTBFS in Fedora Rawhide: failed doctest: ftfy.formatting.monospaced_width"
-    ]
-  },
-  "python-futurist": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2466672"
-    ],
-    "summaries": [
-      "python-futurist fails to build with Python 3.15: 3 tests failures with FileNotFoundError: [Errno 2] No such file or directory"
     ]
   },
   "python-gast": {
@@ -1489,10 +1481,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-pydocket": {
-    "urls": [],
-    "summaries": []
-  },
   "python-pyface": {
     "urls": [],
     "summaries": []
@@ -1715,10 +1703,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-setuptools80": {
-    "urls": [],
-    "summaries": []
-  },
   "python-simple-salesforce": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2460532"
@@ -1728,6 +1712,10 @@
     ]
   },
   "python-snakemake-executor-plugin-slurm": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-snakemake-storage-plugin-webdav": {
     "urls": [],
     "summaries": []
   },
@@ -2134,6 +2122,10 @@
     ]
   },
   "supervisor": {
+    "urls": [],
+    "summaries": []
+  },
+  "syslog-ng": {
     "urls": [],
     "summaries": []
   },
