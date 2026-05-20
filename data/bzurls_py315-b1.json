@@ -1,4 +1,8 @@
 {
+  "abiword": {
+    "urls": [],
+    "summaries": []
+  },
   "arandr": {
     "urls": [],
     "summaries": []
@@ -19,16 +23,20 @@
       "bmap-tools fails to build with Python 3.15: bmaptool.BmapCopy.Error: checksum mismatch for blocks range 34-35"
     ]
   },
-  "cvc5": {
-    "urls": [],
-    "summaries": []
-  },
   "dionaea": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2380545"
     ],
     "summaries": [
       "dionaea: FTBFS with change proposal CMake 4.0"
+    ]
+  },
+  "dnf-plugin-diff": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2433989"
+    ],
+    "summaries": [
+      "dnf-plugin-diff: FTBFS in Fedora rawhide/f44"
     ]
   },
   "dnf-plugin-perfmetrics": {
@@ -38,6 +46,10 @@
     "summaries": [
       "dnf-plugin-perfmetrics: FTBFS with change proposal CMake 4.0"
     ]
+  },
+  "emacs-jedi": {
+    "urls": [],
+    "summaries": []
   },
   "gns3-net-converter": {
     "urls": [],
@@ -63,9 +75,13 @@
       "jc fails to build with Python 3.15: AssertionError: 'format': 1760, != 'format': 7250,"
     ]
   },
-  "lammps": {
-    "urls": [],
-    "summaries": []
+  "kmymoney": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2440571"
+    ],
+    "summaries": [
+      "kmymoney fails to build with Python 3.15: /usr/include/python3.15/pyport.h:523:9: error: \u2018__STDC_VERSION__\u2019 is not defined, evaluates to \u20180\u2019 [-Werror=undef]"
+    ]
   },
   "libmamba": {
     "urls": [],
@@ -75,15 +91,19 @@
     "urls": [],
     "summaries": []
   },
-  "libreoffice": {
-    "urls": [],
-    "summaries": []
-  },
   "libsvm": {
     "urls": [],
     "summaries": []
   },
-  "libxc": {
+  "libyui": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2427943"
+    ],
+    "summaries": [
+      "libyui: FTBFS with gcc16 due to C++20 change"
+    ]
+  },
+  "link-grammar": {
     "urls": [],
     "summaries": []
   },
@@ -92,8 +112,12 @@
     "summaries": []
   },
   "mercurial": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2479738"
+    ],
+    "summaries": [
+      "mercurial fails to build with Python 3.15: ImportError: cannot import name 'RE_DATETIME' from 'tomllib._re' (/usr/lib64/python3.15/tomllib/_re.py)"
+    ]
   },
   "monkeytype": {
     "urls": [],
@@ -107,6 +131,10 @@
       "moose fails to build with Python 3.15: moose-core-3.1.5/pymoose/PyRun.h:58:24: error: \u2018Py_GetProgramName\u2019 was not declared in this scope; did you mean \u2018Py_SetProgramName\u2019?"
     ]
   },
+  "net-snmp": {
+    "urls": [],
+    "summaries": []
+  },
   "petsc": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2440567"
@@ -116,6 +144,10 @@
     ]
   },
   "protobuf": {
+    "urls": [],
+    "summaries": []
+  },
+  "pykka": {
     "urls": [],
     "summaries": []
   },
@@ -180,8 +212,12 @@
     "summaries": []
   },
   "python-autodocsumm": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2479753"
+    ],
+    "summaries": [
+      "python-autodocsumm fails to build with Python 3.15: NotImplementedError: Cannot execute CSS selectors because the soupsieve package is not installed."
+    ]
   },
   "python-beartype": {
     "urls": [
@@ -227,10 +263,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-dbus-fast": {
-    "urls": [],
-    "summaries": []
-  },
   "python-deprecated": {
     "urls": [],
     "summaries": []
@@ -240,8 +272,12 @@
     "summaries": []
   },
   "python-dill": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2479741"
+    ],
+    "summaries": [
+      "python-dill fails to build with Python 3.15: AttributeError: 'code' object has no attribute 'co_lnotab'. Did you mean '.co_linetable' instead of '.co_lnotab'?"
+    ]
   },
   "python-dirty-equals": {
     "urls": [],
@@ -253,6 +289,22 @@
     ],
     "summaries": [
       "python-django-angular: FTBFS in Fedora rawhide/f44"
+    ]
+  },
+  "python-django-configurations": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2433919"
+    ],
+    "summaries": [
+      "python-django-configurations fails to build with Python 3.15: AttributeError: 'ConfigurationLoader' object has no attribute 'exec_module'. Did you mean: 'load_module'?"
+    ]
+  },
+  "python-dns": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2458662"
+    ],
+    "summaries": [
+      "python-dns fails to build with Python 3.15: testInvalidDigestLengthCDS0: AssertionError: 'Odd-length string' != 'Odd number of hexadecimal digits'"
     ]
   },
   "python-eccodes": {
@@ -288,8 +340,12 @@
     "summaries": []
   },
   "python-eyed3": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2479757"
+    ],
+    "summaries": [
+      "python-eyed3 fails to build with Python 3.15: AssertionError in testRecordingDate_v23_issue517"
+    ]
   },
   "python-fastprogress": {
     "urls": [],
@@ -300,19 +356,19 @@
     "summaries": []
   },
   "python-gast": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-genshi": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-giacpy": {
     "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2460593"
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2479748"
     ],
     "summaries": [
-      "python-giacpy: FTBFS in Fedora Rawhide: line 51: Segmentation fault: /usr/bin/python3 -m doctest ../../giacpy/giacpy.pyx -vv"
+      "python-gast fails to build with Python 3.15: TypeError: ast.TypeAlias.__init__ missing 2 required positional arguments: 'name' and 'value'"
+    ]
+  },
+  "python-genshi": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2479749"
+    ],
+    "summaries": [
+      "python-genshi fails to build with Python 3.15: TypeError: ast.Expression.__init__ missing 1 required positional argument: 'body'"
     ]
   },
   "python-holidays": {
@@ -330,8 +386,12 @@
     ]
   },
   "python-icalendar": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2479754"
+    ],
+    "summaries": [
+      "python-icalendar fails to build with Python 3.15: test failures related to the changed pprint output"
+    ]
   },
   "python-inkex": {
     "urls": [
@@ -342,6 +402,14 @@
     ]
   },
   "python-invoke": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2479756"
+    ],
+    "summaries": [
+      "python-invoke fails to build with Python 3.15: AssertionError in Runner_.threading.io_thread_errors_str_has_details"
+    ]
+  },
+  "python-joblib": {
     "urls": [],
     "summaries": []
   },
@@ -352,10 +420,6 @@
     "summaries": [
       "python-kaptan fails to build with Python 3.15: AttributeError: 'SourceFileLoader' object has no attribute 'load_module'. Did you mean: 'exec_module'? in test_py_file_handler and test_py_file_away_handler"
     ]
-  },
-  "python-keyring": {
-    "urls": [],
-    "summaries": []
   },
   "python-kiwisolver": {
     "urls": [
@@ -433,11 +497,11 @@
     "urls": [],
     "summaries": []
   },
-  "python-pluginlib": {
+  "python-plaster-pastedeploy": {
     "urls": [],
     "summaries": []
   },
-  "python-pmw": {
+  "python-pluginlib": {
     "urls": [],
     "summaries": []
   },
@@ -475,6 +539,10 @@
       "python-pyswip fails to build with Python 3.15: 28 test failures: AttributeError: 'list' object has no attribute 'value'"
     ]
   },
+  "python-pytest-httpserver": {
+    "urls": [],
+    "summaries": []
+  },
   "python-pytest-subtests": {
     "urls": [],
     "summaries": []
@@ -488,6 +556,10 @@
       "python-pytest-tldr: FTBFS in Fedora rawhide/f44",
       "python-pytest-tldr fails to build with Python 3.15: tests/test_plugins.py::test_coverage: remains unmatched: '*----- coverage: platform *-----'"
     ]
+  },
+  "python-pytest-tornado": {
+    "urls": [],
+    "summaries": []
   },
   "python-qcustomplot-pyqt": {
     "urls": [
@@ -514,8 +586,12 @@
     "summaries": []
   },
   "python-robotframework": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2479759"
+    ],
+    "summaries": [
+      "python-robotframework fails to build with Python 3.15: test failures related to changes in pprint output"
+    ]
   },
   "python-rstr": {
     "urls": [
@@ -557,23 +633,19 @@
     "urls": [],
     "summaries": []
   },
-  "python-sqlalchemy1.4": {
-    "urls": [],
-    "summaries": []
-  },
   "python-ssdeep": {
     "urls": [],
     "summaries": []
   },
   "python-stdnum": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2479755"
+    ],
+    "summaries": [
+      "python-stdnum fails to build with Python 3.15: test failures related to changes in pprint output"
+    ]
   },
   "python-stone": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-supersmoother": {
     "urls": [],
     "summaries": []
   },
@@ -642,8 +714,12 @@
     ]
   },
   "python-xmlschema": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2479761"
+    ],
+    "summaries": [
+      "python-xmlschema fails to build with Python 3.15: test_get_obj_as_string: AssertionError: False is not true"
+    ]
   },
   "python-yamlloader": {
     "urls": [],
@@ -656,6 +732,10 @@
     "summaries": [
       "python-zict fails to build with Python 3.15: timeout in test_stress_different_keys_threadsafe"
     ]
+  },
+  "python-zlib-ng": {
+    "urls": [],
+    "summaries": []
   },
   "python3-mallard-ducktype": {
     "urls": [],
@@ -697,13 +777,9 @@
     "urls": [],
     "summaries": []
   },
-  "superlu_dist": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2435129"
-    ],
-    "summaries": [
-      "superlu_dist: FTBFS in Fedora rawhide/f44"
-    ]
+  "stp": {
+    "urls": [],
+    "summaries": []
   },
   "supervisor": {
     "urls": [],
@@ -720,6 +796,10 @@
     "summaries": [
       "ubertooth: FTBFS with change proposal CMake 4.0"
     ]
+  },
+  "uv": {
+    "urls": [],
+    "summaries": []
   },
   "weasyprint": {
     "urls": [
