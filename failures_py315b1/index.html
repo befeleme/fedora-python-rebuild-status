@@ -96,6 +96,19 @@
         </thead>
         <tbody>
         
+            <tr id="row-abiword">
+                <td>abiword</td>
+                <td>🔴</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.15-b1/package/abiword/">
+                        Copr - abiword
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                </td>
+            </tr>
+        
             <tr id="row-arandr">
                 <td>arandr</td>
                 <td>🔴</td>
@@ -139,19 +152,6 @@
                 </td>
             </tr>
         
-            <tr id="row-cvc5">
-                <td>cvc5</td>
-                <td>🔴</td>
-                <td>
-                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.15-b1/package/cvc5/">
-                        Copr - cvc5
-                    </a>
-                </td>
-                <td class="max-width-column">
-                    
-                </td>
-            </tr>
-        
             <tr id="row-dionaea">
                 <td>dionaea</td>
                 <td>🔴</td>
@@ -167,6 +167,21 @@
                 </td>
             </tr>
         
+            <tr id="row-dnf-plugin-diff">
+                <td>dnf-plugin-diff</td>
+                <td>🔴</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.15-b1/package/dnf-plugin-diff/">
+                        Copr - dnf-plugin-diff
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2433989">dnf-plugin-diff: FTBFS in Fedora rawhide/f44</a><br>
+                    
+                </td>
+            </tr>
+        
             <tr id="row-dnf-plugin-perfmetrics">
                 <td>dnf-plugin-perfmetrics</td>
                 <td>🔴</td>
@@ -178,6 +193,19 @@
                 <td class="max-width-column">
                     
                     <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2380550">dnf-plugin-perfmetrics: FTBFS with change proposal CMake 4.0</a><br>
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-emacs-jedi">
+                <td>emacs-jedi</td>
+                <td>🔴</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.15-b1/package/emacs-jedi/">
+                        Copr - emacs-jedi
+                    </a>
+                </td>
+                <td class="max-width-column">
                     
                 </td>
             </tr>
@@ -238,15 +266,17 @@
                 </td>
             </tr>
         
-            <tr id="row-lammps">
-                <td>lammps</td>
+            <tr id="row-kmymoney">
+                <td>kmymoney</td>
                 <td>🔴</td>
                 <td>
-                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.15-b1/package/lammps/">
-                        Copr - lammps
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.15-b1/package/kmymoney/">
+                        Copr - kmymoney
                     </a>
                 </td>
                 <td class="max-width-column">
+                    
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2440571">kmymoney fails to build with Python 3.15: /usr/include/python3.15/pyport.h:523:9: error: ‘__STDC_VERSION__’ is not defined, evaluates to ‘0’ [-Werror=undef]</a><br>
                     
                 </td>
             </tr>
@@ -277,19 +307,6 @@
                 </td>
             </tr>
         
-            <tr id="row-libreoffice">
-                <td>libreoffice</td>
-                <td>🔴</td>
-                <td>
-                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.15-b1/package/libreoffice/">
-                        Copr - libreoffice
-                    </a>
-                </td>
-                <td class="max-width-column">
-                    
-                </td>
-            </tr>
-        
             <tr id="row-libsvm">
                 <td>libsvm</td>
                 <td>🔴</td>
@@ -303,12 +320,27 @@
                 </td>
             </tr>
         
-            <tr id="row-libxc">
-                <td>libxc</td>
+            <tr id="row-libyui">
+                <td>libyui</td>
                 <td>🔴</td>
                 <td>
-                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.15-b1/package/libxc/">
-                        Copr - libxc
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.15-b1/package/libyui/">
+                        Copr - libyui
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2427943">libyui: FTBFS with gcc16 due to C++20 change</a><br>
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-link-grammar">
+                <td>link-grammar</td>
+                <td>🔴</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.15-b1/package/link-grammar/">
+                        Copr - link-grammar
                     </a>
                 </td>
                 <td class="max-width-column">
@@ -339,6 +371,8 @@
                 </td>
                 <td class="max-width-column">
                     
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2479738">mercurial fails to build with Python 3.15: ImportError: cannot import name &#39;RE_DATETIME&#39; from &#39;tomllib._re&#39; (/usr/lib64/python3.15/tomllib/_re.py)</a><br>
+                    
                 </td>
             </tr>
         
@@ -366,6 +400,19 @@
                 <td class="max-width-column">
                     
                     <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2414807">moose fails to build with Python 3.15: moose-core-3.1.5/pymoose/PyRun.h:58:24: error: ‘Py_GetProgramName’ was not declared in this scope; did you mean ‘Py_SetProgramName’?</a><br>
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-net-snmp">
+                <td>net-snmp</td>
+                <td>🔴</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.15-b1/package/net-snmp/">
+                        Copr - net-snmp
+                    </a>
+                </td>
+                <td class="max-width-column">
                     
                 </td>
             </tr>
@@ -592,6 +639,8 @@
                 </td>
                 <td class="max-width-column">
                     
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2479753">python-autodocsumm fails to build with Python 3.15: NotImplementedError: Cannot execute CSS selectors because the soupsieve package is not installed.</a><br>
+                    
                 </td>
             </tr>
         
@@ -696,19 +745,6 @@
                 </td>
             </tr>
         
-            <tr id="row-python-dbus-fast">
-                <td>python-dbus-fast</td>
-                <td>🔴</td>
-                <td>
-                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.15-b1/package/python-dbus-fast/">
-                        Copr - python-dbus-fast
-                    </a>
-                </td>
-                <td class="max-width-column">
-                    
-                </td>
-            </tr>
-        
             <tr id="row-python-deprecated">
                 <td>python-deprecated</td>
                 <td>🔴</td>
@@ -745,6 +781,8 @@
                 </td>
                 <td class="max-width-column">
                     
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2479741">python-dill fails to build with Python 3.15: AttributeError: &#39;code&#39; object has no attribute &#39;co_lnotab&#39;. Did you mean &#39;.co_linetable&#39; instead of &#39;.co_lnotab&#39;?</a><br>
+                    
                 </td>
             </tr>
         
@@ -772,6 +810,36 @@
                 <td class="max-width-column">
                     
                     <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2434976">python-django-angular: FTBFS in Fedora rawhide/f44</a><br>
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-python-django-configurations">
+                <td>python-django-configurations</td>
+                <td>🔴</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.15-b1/package/python-django-configurations/">
+                        Copr - python-django-configurations
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2433919">python-django-configurations fails to build with Python 3.15: AttributeError: &#39;ConfigurationLoader&#39; object has no attribute &#39;exec_module&#39;. Did you mean: &#39;load_module&#39;?</a><br>
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-python-dns">
+                <td>python-dns</td>
+                <td>🔴</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.15-b1/package/python-dns/">
+                        Copr - python-dns
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2458662">python-dns fails to build with Python 3.15: testInvalidDigestLengthCDS0: AssertionError: &#39;Odd-length string&#39; != &#39;Odd number of hexadecimal digits&#39;</a><br>
                     
                 </td>
             </tr>
@@ -857,6 +925,8 @@
                 </td>
                 <td class="max-width-column">
                     
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2479757">python-eyed3 fails to build with Python 3.15: AssertionError in testRecordingDate_v23_issue517</a><br>
+                    
                 </td>
             </tr>
         
@@ -896,6 +966,8 @@
                 </td>
                 <td class="max-width-column">
                     
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2479748">python-gast fails to build with Python 3.15: TypeError: ast.TypeAlias.__init__ missing 2 required positional arguments: &#39;name&#39; and &#39;value&#39;</a><br>
+                    
                 </td>
             </tr>
         
@@ -909,20 +981,7 @@
                 </td>
                 <td class="max-width-column">
                     
-                </td>
-            </tr>
-        
-            <tr id="row-python-giacpy">
-                <td>python-giacpy</td>
-                <td>🔴</td>
-                <td>
-                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.15-b1/package/python-giacpy/">
-                        Copr - python-giacpy
-                    </a>
-                </td>
-                <td class="max-width-column">
-                    
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2460593">python-giacpy: FTBFS in Fedora Rawhide: line 51: Segmentation fault: /usr/bin/python3 -m doctest ../../giacpy/giacpy.pyx -vv</a><br>
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2479749">python-genshi fails to build with Python 3.15: TypeError: ast.Expression.__init__ missing 1 required positional argument: &#39;body&#39;</a><br>
                     
                 </td>
             </tr>
@@ -967,6 +1026,8 @@
                 </td>
                 <td class="max-width-column">
                     
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2479754">python-icalendar fails to build with Python 3.15: test failures related to the changed pprint output</a><br>
+                    
                 </td>
             </tr>
         
@@ -995,6 +1056,21 @@
                 </td>
                 <td class="max-width-column">
                     
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2479756">python-invoke fails to build with Python 3.15: AssertionError in Runner_.threading.io_thread_errors_str_has_details</a><br>
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-python-joblib">
+                <td>python-joblib</td>
+                <td>🔴</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.15-b1/package/python-joblib/">
+                        Copr - python-joblib
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
                 </td>
             </tr>
         
@@ -1009,19 +1085,6 @@
                 <td class="max-width-column">
                     
                     <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2423881">python-kaptan fails to build with Python 3.15: AttributeError: &#39;SourceFileLoader&#39; object has no attribute &#39;load_module&#39;. Did you mean: &#39;exec_module&#39;? in test_py_file_handler and test_py_file_away_handler</a><br>
-                    
-                </td>
-            </tr>
-        
-            <tr id="row-python-keyring">
-                <td>python-keyring</td>
-                <td>🔴</td>
-                <td>
-                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.15-b1/package/python-keyring/">
-                        Copr - python-keyring
-                    </a>
-                </td>
-                <td class="max-width-column">
                     
                 </td>
             </tr>
@@ -1229,12 +1292,12 @@
                 </td>
             </tr>
         
-            <tr id="row-python-pluginlib">
-                <td>python-pluginlib</td>
+            <tr id="row-python-plaster-pastedeploy">
+                <td>python-plaster-pastedeploy</td>
                 <td>🔴</td>
                 <td>
-                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.15-b1/package/python-pluginlib/">
-                        Copr - python-pluginlib
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.15-b1/package/python-plaster-pastedeploy/">
+                        Copr - python-plaster-pastedeploy
                     </a>
                 </td>
                 <td class="max-width-column">
@@ -1242,12 +1305,12 @@
                 </td>
             </tr>
         
-            <tr id="row-python-pmw">
-                <td>python-pmw</td>
+            <tr id="row-python-pluginlib">
+                <td>python-pluginlib</td>
                 <td>🔴</td>
                 <td>
-                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.15-b1/package/python-pmw/">
-                        Copr - python-pmw
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.15-b1/package/python-pluginlib/">
+                        Copr - python-pluginlib
                     </a>
                 </td>
                 <td class="max-width-column">
@@ -1328,6 +1391,19 @@
                 </td>
             </tr>
         
+            <tr id="row-python-pytest-httpserver">
+                <td>python-pytest-httpserver</td>
+                <td>🔴</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.15-b1/package/python-pytest-httpserver/">
+                        Copr - python-pytest-httpserver
+                    </a>
+                </td>
+                <td class="max-width-column">
+                    
+                </td>
+            </tr>
+        
             <tr id="row-python-pytest-subtests">
                 <td>python-pytest-subtests</td>
                 <td>🔴</td>
@@ -1354,6 +1430,19 @@
                     <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2435014">python-pytest-tldr: FTBFS in Fedora rawhide/f44</a><br>
                     
                     <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2423890">python-pytest-tldr fails to build with Python 3.15: tests/test_plugins.py::test_coverage: remains unmatched: &#39;*----- coverage: platform *-----&#39;</a><br>
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-python-pytest-tornado">
+                <td>python-pytest-tornado</td>
+                <td>🔴</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.15-b1/package/python-pytest-tornado/">
+                        Copr - python-pytest-tornado
+                    </a>
+                </td>
+                <td class="max-width-column">
                     
                 </td>
             </tr>
@@ -1423,6 +1512,8 @@
                     </a>
                 </td>
                 <td class="max-width-column">
+                    
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2479759">python-robotframework fails to build with Python 3.15: test failures related to changes in pprint output</a><br>
                     
                 </td>
             </tr>
@@ -1535,19 +1626,6 @@
                 </td>
             </tr>
         
-            <tr id="row-python-sqlalchemy1.4">
-                <td>python-sqlalchemy1.4</td>
-                <td>🔴</td>
-                <td>
-                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.15-b1/package/python-sqlalchemy1.4/">
-                        Copr - python-sqlalchemy1.4
-                    </a>
-                </td>
-                <td class="max-width-column">
-                    
-                </td>
-            </tr>
-        
             <tr id="row-python-ssdeep">
                 <td>python-ssdeep</td>
                 <td>🔴</td>
@@ -1571,6 +1649,8 @@
                 </td>
                 <td class="max-width-column">
                     
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2479755">python-stdnum fails to build with Python 3.15: test failures related to changes in pprint output</a><br>
+                    
                 </td>
             </tr>
         
@@ -1580,19 +1660,6 @@
                 <td>
                     <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.15-b1/package/python-stone/">
                         Copr - python-stone
-                    </a>
-                </td>
-                <td class="max-width-column">
-                    
-                </td>
-            </tr>
-        
-            <tr id="row-python-supersmoother">
-                <td>python-supersmoother</td>
-                <td>🔴</td>
-                <td>
-                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.15-b1/package/python-supersmoother/">
-                        Copr - python-supersmoother
                     </a>
                 </td>
                 <td class="max-width-column">
@@ -1632,7 +1699,7 @@
         
             <tr id="row-python-tornado">
                 <td>python-tornado</td>
-                <td>🔴</td>
+                <td>🟠</td>
                 <td>
                     <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.15-b1/package/python-tornado/">
                         Copr - python-tornado
@@ -1752,6 +1819,8 @@
                 </td>
                 <td class="max-width-column">
                     
+                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2479761">python-xmlschema fails to build with Python 3.15: test_get_obj_as_string: AssertionError: False is not true</a><br>
+                    
                 </td>
             </tr>
         
@@ -1779,6 +1848,19 @@
                 <td class="max-width-column">
                     
                     <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2440574">python-zict fails to build with Python 3.15: timeout in test_stress_different_keys_threadsafe</a><br>
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-python-zlib-ng">
+                <td>python-zlib-ng</td>
+                <td>🔴</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.15-b1/package/python-zlib-ng/">
+                        Copr - python-zlib-ng
+                    </a>
+                </td>
+                <td class="max-width-column">
                     
                 </td>
             </tr>
@@ -1828,7 +1910,7 @@
         
             <tr id="row-re2">
                 <td>re2</td>
-                <td>🔴</td>
+                <td>🟠</td>
                 <td>
                     <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.15-b1/package/re2/">
                         Copr - re2
@@ -1880,17 +1962,15 @@
                 </td>
             </tr>
         
-            <tr id="row-superlu_dist">
-                <td>superlu_dist</td>
+            <tr id="row-stp">
+                <td>stp</td>
                 <td>🔴</td>
                 <td>
-                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.15-b1/package/superlu_dist/">
-                        Copr - superlu_dist
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.15-b1/package/stp/">
+                        Copr - stp
                     </a>
                 </td>
                 <td class="max-width-column">
-                    
-                    <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2435129">superlu_dist: FTBFS in Fedora rawhide/f44</a><br>
                     
                 </td>
             </tr>
@@ -1932,6 +2012,19 @@
                 <td class="max-width-column">
                     
                     <a href="https://bugzilla.redhat.com/show_bug.cgi?id=2381615">ubertooth: FTBFS with change proposal CMake 4.0</a><br>
+                    
+                </td>
+            </tr>
+        
+            <tr id="row-uv">
+                <td>uv</td>
+                <td>🟠</td>
+                <td>
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.15-b1/package/uv/">
+                        Copr - uv
+                    </a>
+                </td>
+                <td class="max-width-column">
                     
                 </td>
             </tr>
@@ -1992,7 +2085,7 @@
     <hr>
     <footer>
       <p>Maintained by <a href="https://github.com/befeleme">@befeleme</a>, source on <a href="https://github.com/befeleme/fedora-python-rebuild-status">GitHub</a>.</p>
-      <p>Last updated on <span class="date">2026-05-19 04:40:55.041070</span> (updated daily)</p>
+      <p>Last updated on <span class="date">2026-05-20 04:42:57.054265</span> (updated daily)</p>
     </footer>
   </div>
 </body>
