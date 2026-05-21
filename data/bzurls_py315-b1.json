@@ -19,6 +19,10 @@
       "bmap-tools fails to build with Python 3.15: bmaptool.BmapCopy.Error: checksum mismatch for blocks range 34-35"
     ]
   },
+  "breezy": {
+    "urls": [],
+    "summaries": []
+  },
   "copr-cli": {
     "urls": [],
     "summaries": []
@@ -48,6 +52,10 @@
     ]
   },
   "emacs-jedi": {
+    "urls": [],
+    "summaries": []
+  },
+  "esptool": {
     "urls": [],
     "summaries": []
   },
@@ -275,6 +283,10 @@
     "urls": [],
     "summaries": []
   },
+  "python-cmd2": {
+    "urls": [],
+    "summaries": []
+  },
   "python-decopatch": {
     "urls": [],
     "summaries": []
@@ -321,14 +333,6 @@
     ],
     "summaries": [
       "python-et_xmlfile fails to build with Python 3.15: ElementTreeTest.test_iterparse: AssertionError: Lists differ: [<WarningMessage {message : ResourceWarnin[235 chars]ne}>] != []"
-    ]
-  },
-  "python-exceptiongroup": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2423878"
-    ],
-    "summaries": [
-      "python-exceptiongroup fails to build with Python 3.15: assert \"BaseExceptionGroup('foo', [ValueError(1), KeyboardInterrupt()])\" == \"BaseExceptionGroup('foo', [ValueError(1), KeyboardInterrupt(), KeyError('bar')])\""
     ]
   },
   "python-exiv2": {
@@ -455,6 +459,14 @@
     ],
     "summaries": [
       "python-matplotlib fails to build with Python 3.15: failure of test_norm_callback and test_fork"
+    ]
+  },
+  "python-meshio": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2460576"
+    ],
+    "summaries": [
+      "python-meshio: FTBFS in Fedora Rawhide: binascii.Error: Invalid base64-encoded string: number of data characters (8889) cannot be 1 more than a multiple of 4"
     ]
   },
   "python-migen": {
