@@ -58,9 +58,6 @@ curl https://src.fedoraproject.org/extras/pagure_owner_alias.json -o data/pagure
 # get bz urls for failed packages (python 3.15)
 python3 scripts/bugzillas.py --version 3.15
 
-# get bz urls for failed packages (python 3.15-b1)
-python3 scripts/bugzillas.py --version 3.15-b1
-
 # download the most downloaded packages from PyPI
 wget https://hugovk.github.io/top-pypi-packages/top-pypi-packages.min.json -O data/top-pypi-packages.json
 
