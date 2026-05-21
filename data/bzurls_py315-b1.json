@@ -1,8 +1,4 @@
 {
-  "Macaulay2": {
-    "urls": [],
-    "summaries": []
-  },
   "abiword": {
     "urls": [],
     "summaries": []
@@ -15,10 +11,6 @@
       "argparse-manpage fails to build with Python 3.15: AttributeError: '_ManpageFormatter' object has no attribute '_theme'. Did you mean: 'of._theme'?"
     ]
   },
-  "awscli2": {
-    "urls": [],
-    "summaries": []
-  },
   "bmap-tools": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2416984"
@@ -26,6 +18,10 @@
     "summaries": [
       "bmap-tools fails to build with Python 3.15: bmaptool.BmapCopy.Error: checksum mismatch for blocks range 34-35"
     ]
+  },
+  "ceph": {
+    "urls": [],
+    "summaries": []
   },
   "copr-cli": {
     "urls": [],
@@ -56,6 +52,18 @@
     ]
   },
   "emacs-jedi": {
+    "urls": [],
+    "summaries": []
+  },
+  "fail2ban": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2423879"
+    ],
+    "summaries": [
+      "fail2ban fails to build with Python 3.15: AttributeError: 'SourceFileLoader' object has no attribute 'load_module'. Did you mean: 'exec_module'?"
+    ]
+  },
+  "gdal": {
     "urls": [],
     "summaries": []
   },
@@ -91,10 +99,6 @@
       "kmymoney fails to build with Python 3.15: /usr/include/python3.15/pyport.h:523:9: error: \u2018__STDC_VERSION__\u2019 is not defined, evaluates to \u20180\u2019 [-Werror=undef]"
     ]
   },
-  "libarrow": {
-    "urls": [],
-    "summaries": []
-  },
   "libmamba": {
     "urls": [],
     "summaries": []
@@ -111,11 +115,19 @@
     "urls": [],
     "summaries": []
   },
-  "manifold": {
+  "llvm": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2448969"
+    ],
+    "summaries": [
+      "llvm fails to build with Python 3.15: shtest-ulimit-nondarwin.py: error: no match found"
+    ]
+  },
+  "llvm21": {
     "urls": [],
     "summaries": []
   },
-  "mlpack": {
+  "manifold": {
     "urls": [],
     "summaries": []
   },
@@ -138,6 +150,14 @@
     "summaries": [
       "net-snmp-5.9.5.2-4.fc45 FTBFS: \"Checking the Net-SNMP configure script validity\" test fails"
     ]
+  },
+  "openms": {
+    "urls": [],
+    "summaries": []
+  },
+  "openvdb": {
+    "urls": [],
+    "summaries": []
   },
   "petsc": {
     "urls": [
@@ -413,6 +433,14 @@
       "python-icalendar fails to build with Python 3.15: test failures related to the changed pprint output"
     ]
   },
+  "python-jnius": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2460555"
+    ],
+    "summaries": [
+      "python-jnius: FTBFS in Fedora Rawhide: error: incompatible pointer types passing 'JNIEnv **' (aka 'const struct JNINativeInterface_ ***') to parameter of type 'void **'"
+    ]
+  },
   "python-joblib": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2480167"
@@ -434,10 +462,6 @@
     "summaries": []
   },
   "python-linuxdoc": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-lxml-html-clean": {
     "urls": [],
     "summaries": []
   },
@@ -545,13 +569,17 @@
     "urls": [],
     "summaries": []
   },
-  "python-pydata-sphinx-theme": {
-    "urls": [],
-    "summaries": []
-  },
   "python-pygeoif": {
     "urls": [],
     "summaries": []
+  },
+  "python-pygtkspellcheck": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2435008"
+    ],
+    "summaries": [
+      "python-pygtkspellcheck: FTBFS in Fedora rawhide/f44"
+    ]
   },
   "python-pynwb": {
     "urls": [
@@ -617,14 +645,6 @@
       "python-readme-renderer fails to build with Python 3.15: test_cli_package: No content rendered from RST source."
     ]
   },
-  "python-reportlab": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2433920"
-    ],
-    "summaries": [
-      "python-reportlab fails to build with Python 3.15: TypeError: _LoaderBasics.exec_module() missing 1 required positional argument: 'module'"
-    ]
-  },
   "python-requirements-parser": {
     "urls": [],
     "summaries": []
@@ -660,10 +680,6 @@
     "summaries": [
       "[heads up] python-sphinx-argparse-cli will fail to build with Sphinx 9+ in Fedora 45: ModuleNotFoundError: No module named 'sphinx.testing.path'"
     ]
-  },
-  "python-sphinx-autoapi": {
-    "urls": [],
-    "summaries": []
   },
   "python-sphinx-kr-theme": {
     "urls": [],
@@ -753,6 +769,14 @@
       "python-zict fails to build with Python 3.15: timeout in test_stress_different_keys_threadsafe"
     ]
   },
+  "python-zope-testrunner": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2433888"
+    ],
+    "summaries": [
+      "python-zope-testrunner fails to build with Python 3.15: help2man: can't get `--help' info from /builddir/build/BUILD/python-zope-testrunner-8.1-build/BUILDROOT/usr/bin/zope-testrunner"
+    ]
+  },
   "python3-mallard-ducktype": {
     "urls": [],
     "summaries": []
@@ -808,6 +832,10 @@
     "summaries": [
       "ubertooth: FTBFS with change proposal CMake 4.0"
     ]
+  },
+  "vtk": {
+    "urls": [],
+    "summaries": []
   },
   "weasyprint": {
     "urls": [

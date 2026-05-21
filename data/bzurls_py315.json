@@ -287,6 +287,14 @@
     "urls": [],
     "summaries": []
   },
+  "llvm": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2448969"
+    ],
+    "summaries": [
+      "llvm fails to build with Python 3.15: shtest-ulimit-nondarwin.py: error: no match found"
+    ]
+  },
   "llvm21": {
     "urls": [],
     "summaries": []
@@ -366,10 +374,6 @@
     "summaries": [
       "ocrmypdf fails to build with Python 3.15: test_xml_metadata_preserved: AssertionError: acquired unexpected property dc:title with value 'Untitled'"
     ]
-  },
-  "onnxruntime": {
-    "urls": [],
-    "summaries": []
   },
   "openvino": {
     "urls": [
