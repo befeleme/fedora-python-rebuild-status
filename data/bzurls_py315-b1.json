@@ -3,14 +3,6 @@
     "urls": [],
     "summaries": []
   },
-  "argparse-manpage": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2431586"
-    ],
-    "summaries": [
-      "argparse-manpage fails to build with Python 3.15: AttributeError: '_ManpageFormatter' object has no attribute '_theme'. Did you mean: 'of._theme'?"
-    ]
-  },
   "bmap-tools": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2416984"
@@ -34,6 +26,10 @@
     "summaries": [
       "dionaea: FTBFS with change proposal CMake 4.0"
     ]
+  },
+  "distgen": {
+    "urls": [],
+    "summaries": []
   },
   "dnf-plugin-diff": {
     "urls": [
@@ -150,10 +146,6 @@
     "summaries": [
       "net-snmp-5.9.5.2-4.fc45 FTBFS: \"Checking the Net-SNMP configure script validity\" test fails"
     ]
-  },
-  "openms": {
-    "urls": [],
-    "summaries": []
   },
   "openvdb": {
     "urls": [],
@@ -407,7 +399,7 @@
       "python-gast fails to build with Python 3.15: TypeError: ast.TypeAlias.__init__ missing 2 required positional arguments: 'name' and 'value'"
     ]
   },
-  "python-graph-tool": {
+  "python-geotiler": {
     "urls": [],
     "summaries": []
   },
@@ -496,6 +488,14 @@
     "summaries": [
       "python-mirrors-countme fails to build with Python 3.15: TypeError: NamedTuple() got an unexpected keyword argument 'INTEGER_NOT_NULL'"
     ]
+  },
+  "python-mkapi": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-mkdocs-git-revision-date-localized-plugin": {
+    "urls": [],
+    "summaries": []
   },
   "python-moddb": {
     "urls": [],
@@ -707,14 +707,6 @@
     ],
     "summaries": [
       "python-stdnum fails to build with Python 3.15: test failures related to changes in pprint output"
-    ]
-  },
-  "python-toolz": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2447909"
-    ],
-    "summaries": [
-      "python-toolz fails to build with Python 3.15: AssertionError: Missing introspection for the following callables: frozendict"
     ]
   },
   "python-tornado": {

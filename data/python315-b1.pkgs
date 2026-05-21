@@ -1,4 +1,5 @@
 2ping
+389-ds-base
 COPASI
 Cython
 DisplayCAL
@@ -40,6 +41,7 @@ apk-tools
 appliance-tools
 apx
 arandr
+argparse-manpage
 asahi-installer
 asciidoc
 assimp
@@ -106,6 +108,7 @@ cloud-init
 clustershell
 cm_rgb
 cmake
+cmakelang
 cobbler
 coccinelle
 cockpit
@@ -143,6 +146,7 @@ devscripts
 dftd4
 diceware
 diskimage-builder
+dist-git-client
 distcc
 dnf
 dnf-plugin-cow
@@ -188,6 +192,7 @@ fonts-tweak-tool
 fonttools
 fprettify
 freeipa-fas
+freeipa-healthcheck
 freeradius
 frescobaldi
 fts-rest-client
@@ -214,6 +219,7 @@ git-pull-request
 git-review
 git-up
 gitg
+gitlint
 gjots2
 glade
 glaxnimate
@@ -430,10 +436,16 @@ minigalaxy
 mininet
 miniupnpc
 mirage
+mkdocs
+mkdocs-bootstrap
+mkdocs-bootswatch
+mkdocs-material
 mkosi
 mlpack
+mock
 mod_wsgi
 modpoll
+module-build
 mogui
 mozo
 mpi4py
@@ -487,6 +499,7 @@ onnxruntime
 openbabel
 openmeeg
 openmpi
+openms
 openscap
 openscap-report
 openshot
@@ -509,6 +522,7 @@ patool
 pcapy
 pcp2pdf
 pdf-stapler
+pdfarranger
 perl-Inline-Python
 persepolis
 pew
@@ -516,6 +530,7 @@ photocollage
 picard
 piccata
 piper
+pipx
 pitivi
 pl
 playitagainsam
@@ -620,6 +635,7 @@ python-SecretStorage
 python-Traits
 python-WSGIProxy2
 python-aaargh
+python-abimap
 python-absl-py
 python-accept-types
 python-accessible-pygments
@@ -687,6 +703,7 @@ python-argopt
 python-argparse-dataclass
 python-arpy
 python-array-api-strict
+python-arrow
 python-asciitree
 python-ase
 python-asgi-lifespan
@@ -949,6 +966,7 @@ python-colorlog
 python-colormath2
 python-colorzero
 python-colour
+python-columnar
 python-comm
 python-commented-configparser
 python-commoncode
@@ -973,6 +991,7 @@ python-construct-classes
 python-container-inspector
 python-contourpy
 python-convertdate
+python-cookiecutter
 python-cooldict
 python-copr
 python-copr-common
@@ -1015,6 +1034,7 @@ python-cwcwidth
 python-cycler
 python-cymruwhois
 python-cyseq
+python-cytoolz
 python-d2to1
 python-daemon
 python-daemonize
@@ -1296,6 +1316,7 @@ python-googleapis-common-protos
 python-gpiozero
 python-gpxpy
 python-grabserial
+python-graph-tool
 python-graphql-core
 python-graphviz
 python-greenlet
@@ -1307,6 +1328,7 @@ python-gsw
 python-guessit
 python-gunicorn
 python-h11
+python-h2
 python-h5netcdf
 python-hamcrest
 python-hanzidentifier
@@ -1366,6 +1388,7 @@ python-idna
 python-idstools
 python-ifaddr
 python-ifcfg
+python-igraph
 python-ijson
 python-imageio
 python-imagesize
@@ -1395,6 +1418,7 @@ python-into-dbus-python
 python-invoke
 python-iowait
 python-ipcqueue
+python-iplotx
 python-ipmi
 python-ipuz
 python-ipython-pygments-lexers
@@ -1405,6 +1429,7 @@ python-iso3166
 python-iso639
 python-iso8601
 python-isodate
+python-isoduration
 python-isort
 python-itemadapter
 python-itemloaders
@@ -1426,6 +1451,7 @@ python-jeepney
 python-jellyfish
 python-jinja2
 python-jinja2-cli
+python-jinja2-time
 python-jinja2_pluralize
 python-jiter
 python-jmespath
@@ -1581,9 +1607,18 @@ python-missingno
 python-mistune
 python-mitogen
 python-mkdocs-click
+python-mkdocs-gen-files
 python-mkdocs-get-deps
+python-mkdocs-git-authors-plugin
+python-mkdocs-git-committers-plugin-2
+python-mkdocs-include-markdown-plugin
+python-mkdocs-literate-nav
 python-mkdocs-macros-test
 python-mkdocs-material-extensions
+python-mkdocs-minify-plugin
+python-mkdocs-monorepo-plugin
+python-mkdocs-redirects
+python-mkdocs-static-i18n
 python-mmtf
 python-mnemonic
 python-mock-ssh-server
@@ -1723,6 +1758,7 @@ python-parsedatetime
 python-parsel
 python-parsimonious
 python-parso
+python-partd
 python-pass-import
 python-passlib
 python-paste
@@ -2044,6 +2080,7 @@ python-pytest-testmon
 python-pytest-timeout
 python-pytest-trio
 python-pytest-venv
+python-pytest-watch
 python-pytest-xdist
 python-pytest-xprocess
 python-pytest-xvfb
@@ -2067,6 +2104,7 @@ python-pyyaml-env-tag
 python-pyzabbix
 python-pyzolib
 python-pyzstd
+python-qdarkstyle
 python-qemu-qmp
 python-qpageview
 python-qrcode
@@ -2408,6 +2446,7 @@ python-tokenize-rt
 python-tomli
 python-tomli-w
 python-tomlkit
+python-toolz
 python-tornado
 python-tox
 python-tox-current-env
@@ -2528,6 +2567,7 @@ python-waitress
 python-walkdir
 python-wand
 python-warlock
+python-watchdog
 python-watchfiles
 python-wcag-contrast-ratio
 python-wcmatch
@@ -2640,6 +2680,8 @@ redhat-internal-test-package
 rednotebook
 redshift
 remmina
+resalloc-ibm-cloud
+resalloc-openstack
 resultsdb_conventions
 retis
 reuse
