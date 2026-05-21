@@ -86,6 +86,8 @@ def map_pkgs_and_bzurls(bugzillas_list, sorted_fails):
     """Map packages to their Bugzilla URLs and summaries."""
     pkgs_urls = {pkg: {"urls": [], "summaries": []} for pkg in sorted_fails}
     for bug in bugzillas_list:
+        if bug.component not in pkgs_urls:
+            continue
         pkgs_urls[bug.component]["urls"].append(bug.weburl)
         pkgs_urls[bug.component]["summaries"].append(bug.summary)
     return pkgs_urls
