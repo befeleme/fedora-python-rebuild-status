@@ -1,4 +1,8 @@
 {
+  "Macaulay2": {
+    "urls": [],
+    "summaries": []
+  },
   "abiword": {
     "urls": [],
     "summaries": []
@@ -11,6 +15,10 @@
       "argparse-manpage fails to build with Python 3.15: AttributeError: '_ManpageFormatter' object has no attribute '_theme'. Did you mean: 'of._theme'?"
     ]
   },
+  "awscli2": {
+    "urls": [],
+    "summaries": []
+  },
   "bmap-tools": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2416984"
@@ -18,10 +26,6 @@
     "summaries": [
       "bmap-tools fails to build with Python 3.15: bmaptool.BmapCopy.Error: checksum mismatch for blocks range 34-35"
     ]
-  },
-  "breezy": {
-    "urls": [],
-    "summaries": []
   },
   "copr-cli": {
     "urls": [],
@@ -52,10 +56,6 @@
     ]
   },
   "emacs-jedi": {
-    "urls": [],
-    "summaries": []
-  },
-  "esptool": {
     "urls": [],
     "summaries": []
   },
@@ -111,14 +111,6 @@
     "urls": [],
     "summaries": []
   },
-  "mercurial": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2479738"
-    ],
-    "summaries": [
-      "mercurial fails to build with Python 3.15: ImportError: cannot import name 'RE_DATETIME' from 'tomllib._re' (/usr/lib64/python3.15/tomllib/_re.py)"
-    ]
-  },
   "monkeytype": {
     "urls": [],
     "summaries": []
@@ -170,6 +162,10 @@
     "summaries": [
       "pyqtwebengine: FTBFS in Fedora rawhide/f44"
     ]
+  },
+  "python-OBD": {
+    "urls": [],
+    "summaries": []
   },
   "python-PyGithub": {
     "urls": [],
@@ -315,6 +311,10 @@
       "python-django-configurations fails to build with Python 3.15: AttributeError: 'ConfigurationLoader' object has no attribute 'exec_module'. Did you mean: 'load_module'?"
     ]
   },
+  "python-django-haystack": {
+    "urls": [],
+    "summaries": []
+  },
   "python-dns": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2458662"
@@ -375,13 +375,9 @@
       "python-gast fails to build with Python 3.15: TypeError: ast.TypeAlias.__init__ missing 2 required positional arguments: 'name' and 'value'"
     ]
   },
-  "python-genshi": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2479749"
-    ],
-    "summaries": [
-      "python-genshi fails to build with Python 3.15: TypeError: ast.Expression.__init__ missing 1 required positional argument: 'body'"
-    ]
+  "python-graph-tool": {
+    "urls": [],
+    "summaries": []
   },
   "python-holidays": {
     "urls": [],
@@ -403,14 +399,6 @@
     ],
     "summaries": [
       "python-icalendar fails to build with Python 3.15: test failures related to the changed pprint output"
-    ]
-  },
-  "python-inkex": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2435216"
-    ],
-    "summaries": [
-      "python-inkex: FTBFS in Fedora rawhide/f44"
     ]
   },
   "python-joblib": {
@@ -453,14 +441,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-matplotlib": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2433761"
-    ],
-    "summaries": [
-      "python-matplotlib fails to build with Python 3.15: failure of test_norm_callback and test_fork"
-    ]
-  },
   "python-meshio": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2460576"
@@ -484,6 +464,14 @@
   "python-moddb": {
     "urls": [],
     "summaries": []
+  },
+  "python-mplcairo": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2466678"
+    ],
+    "summaries": [
+      "python-mplcairo fails to build with Python 3.15: pybind11::handle::dec_ref() is being called while the GIL is either not held or invalid."
+    ]
   },
   "python-nagiosplugin": {
     "urls": [],
@@ -509,12 +497,12 @@
     "urls": [],
     "summaries": []
   },
-  "python-pandas": {
+  "python-pdm-backend": {
     "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2435003"
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2480529"
     ],
     "summaries": [
-      "python-pandas: FTBFS in Fedora rawhide/f44"
+      "python-pdm-backend: FTBFS in Fedora Rawhide: AssertionError: assert 'demo_package.pth' in ['.gitignore', '_editable_impl_demo_package.pth', 'demo_package-0.1.0.dist-info/METADATA', 'demo_package-0.1.0.dist-info/WHEEL', 'demo_package-0.1.0.dist-info/entry_"
     ]
   },
   "python-phply": {
@@ -536,14 +524,6 @@
   "python-pluginlib": {
     "urls": [],
     "summaries": []
-  },
-  "python-psycopg2": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2414801"
-    ],
-    "summaries": [
-      "python-psycopg2 fails to build with Python 3.15: error: implicit declaration of function \u2018PyWeakref_GetObject\u2019; did you mean \u2018PyWeakref_GetRef\u2019?"
-    ]
   },
   "python-pybtex": {
     "urls": [],
@@ -607,6 +587,18 @@
     ],
     "summaries": [
       "python-readme-renderer fails to build with Python 3.15: test_cli_package: No content rendered from RST source."
+    ]
+  },
+  "python-recipe-scrapers": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-reportlab": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2433920"
+    ],
+    "summaries": [
+      "python-reportlab fails to build with Python 3.15: TypeError: _LoaderBasics.exec_module() missing 1 required positional argument: 'module'"
     ]
   },
   "python-requirements-parser": {
@@ -717,14 +709,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-websockets": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2440566"
-    ],
-    "summaries": [
-      "python-websockets fails to build with Python 3.15: test_apply_mask_non_contiguous_memoryview: BufferError: memoryview: underlying buffer is not C-contiguous"
-    ]
-  },
   "python-xmlschema": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2479761"
@@ -823,6 +807,14 @@
     ],
     "summaries": [
       "xcfun: FTBFS with change proposal CMake: Use ninja generator by default"
+    ]
+  },
+  "yt-dlp": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2458688"
+    ],
+    "summaries": [
+      "yt-dlp fails to build with Python 3.15: test_clean_pot_fail: AssertionError: assert 'TwAA_-9VA6Q9...extra-param0=' == 'TwAA_-9VA6Q92v_vEQ4='"
     ]
   }
 }
