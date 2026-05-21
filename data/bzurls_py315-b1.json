@@ -124,8 +124,12 @@
     ]
   },
   "net-snmp": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2480378"
+    ],
+    "summaries": [
+      "net-snmp-5.9.5.2-4.fc45 FTBFS: \"Checking the Net-SNMP configure script validity\" test fails"
+    ]
   },
   "petsc": {
     "urls": [
@@ -421,19 +425,15 @@
       "python-kaptan fails to build with Python 3.15: AttributeError: 'SourceFileLoader' object has no attribute 'load_module'. Did you mean: 'exec_module'? in test_py_file_handler and test_py_file_away_handler"
     ]
   },
-  "python-kiwisolver": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2453822"
-    ],
-    "summaries": [
-      "python-kiwisolver fails to build with setuptools_scm 10+"
-    ]
-  },
   "python-lesscpy": {
     "urls": [],
     "summaries": []
   },
   "python-linuxdoc": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-lxml-html-clean": {
     "urls": [],
     "summaries": []
   },
@@ -448,6 +448,14 @@
   "python-mathics-scanner": {
     "urls": [],
     "summaries": []
+  },
+  "python-matplotlib": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2433761"
+    ],
+    "summaries": [
+      "python-matplotlib fails to build with Python 3.15: failure of test_norm_callback and test_fork"
+    ]
   },
   "python-migen": {
     "urls": [],
@@ -482,6 +490,10 @@
     ]
   },
   "python-opcodes": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-orjson": {
     "urls": [],
     "summaries": []
   },
@@ -609,14 +621,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-scooby": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2480165"
-    ],
-    "summaries": [
-      "python-scooby fails to build with Python 3.15: AssertionError in test_get_distribution_dependencies_separate_extras"
-    ]
-  },
   "python-sentinels": {
     "urls": [],
     "summaries": []
@@ -659,14 +663,6 @@
     ],
     "summaries": [
       "python-stdnum fails to build with Python 3.15: test failures related to changes in pprint output"
-    ]
-  },
-  "python-time-machine": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2424589"
-    ],
-    "summaries": [
-      "python-time-machine fails to build with Python 3.15: AssertionError: assert 2025 == 1970"
     ]
   },
   "python-toolz": {

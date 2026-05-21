@@ -283,6 +283,14 @@
     "urls": [],
     "summaries": []
   },
+  "llvm": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2448969"
+    ],
+    "summaries": [
+      "llvm fails to build with Python 3.15: shtest-ulimit-nondarwin.py: error: no match found"
+    ]
+  },
   "llvm21": {
     "urls": [],
     "summaries": []
@@ -340,8 +348,12 @@
     "summaries": []
   },
   "net-snmp": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2480378"
+    ],
+    "summaries": [
+      "net-snmp-5.9.5.2-4.fc45 FTBFS: \"Checking the Net-SNMP configure script validity\" test fails"
+    ]
   },
   "nmstate": {
     "urls": [],
@@ -1139,6 +1151,10 @@
     "urls": [],
     "summaries": []
   },
+  "python-lxml-html-clean": {
+    "urls": [],
+    "summaries": []
+  },
   "python-markdown-callouts": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2434991"
@@ -1613,14 +1629,6 @@
       "python-textual: FTBFS in Fedora rawhide/f44"
     ]
   },
-  "python-time-machine": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2424589"
-    ],
-    "summaries": [
-      "python-time-machine fails to build with Python 3.15: AssertionError: assert 2025 == 1970"
-    ]
-  },
   "python-tokenizers": {
     "urls": [],
     "summaries": []
@@ -1770,10 +1778,6 @@
     "summaries": [
       "python-zict fails to build with Python 3.15: timeout in test_stress_different_keys_threadsafe"
     ]
-  },
-  "python-zlib-ng": {
-    "urls": [],
-    "summaries": []
   },
   "python-zmq": {
     "urls": [],
