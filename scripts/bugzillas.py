@@ -1,4 +1,3 @@
-import argparse
 import json
 import bugzilla
 
@@ -93,18 +92,18 @@ def map_pkgs_and_bzurls(bugzillas_list, sorted_fails):
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description='Fetch Bugzilla URLs for failed Python packages')
-    parser.add_argument('--version', default='3.15', choices=['3.15', '3.15-b1'],
-                        help='Python version to process (default: 3.14)')
-    args = parser.parse_args()
+    sorted_fails_315 = load_failed_packages("3.15")
+    sorted_fails_315b1 = load_failed_packages("3.15-b1")
 
-    config = VERSION_CONFIG[args.version]
-    sorted_fails = load_failed_packages(args.version)
+    # Union both package sets so a single BZ query covers both versions
+    all_fails = sorted(set(sorted_fails_315) | set(sorted_fails_315b1))
 
-    bugzillas_list = bugzillas(sorted_fails, config["tracker"], config["rawhide"])
-    pkg_url_mapping = map_pkgs_and_bzurls(bugzillas_list, sorted_fails)
+    config_315 = VERSION_CONFIG["3.15"]
+    bugzillas_list = bugzillas(all_fails, config_315["tracker"], config_315["rawhide"])
 
-    with open(config["output_file"], 'w') as open_file:
-        json.dump(pkg_url_mapping, open_file, indent=2)
-
-    print(f"Bugzilla URLs for Python {args.version} written to {config['output_file']}")
+    for version, sorted_fails in [("3.15", sorted_fails_315), ("3.15-b1", sorted_fails_315b1)]:
+        config = VERSION_CONFIG[version]
+        pkg_url_mapping = map_pkgs_and_bzurls(bugzillas_list, sorted_fails)
+        with open(config["output_file"], 'w') as open_file:
+            json.dump(pkg_url_mapping, open_file, indent=2)
+        print(f"Bugzilla URLs for Python {version} written to {config['output_file']}")
