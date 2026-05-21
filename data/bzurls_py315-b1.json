@@ -3,10 +3,6 @@
     "urls": [],
     "summaries": []
   },
-  "arandr": {
-    "urls": [],
-    "summaries": []
-  },
   "argparse-manpage": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2431586"
@@ -22,6 +18,10 @@
     "summaries": [
       "bmap-tools fails to build with Python 3.15: bmaptool.BmapCopy.Error: checksum mismatch for blocks range 34-35"
     ]
+  },
+  "copr-cli": {
+    "urls": [],
+    "summaries": []
   },
   "dionaea": {
     "urls": [
@@ -51,11 +51,11 @@
     "urls": [],
     "summaries": []
   },
-  "gns3-net-converter": {
+  "gnulib": {
     "urls": [],
     "summaries": []
   },
-  "gnulib": {
+  "ipython": {
     "urls": [],
     "summaries": []
   },
@@ -94,14 +94,6 @@
   "libsvm": {
     "urls": [],
     "summaries": []
-  },
-  "libyui": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2427943"
-    ],
-    "summaries": [
-      "libyui: FTBFS with gcc16 due to C++20 change"
-    ]
   },
   "link-grammar": {
     "urls": [],
@@ -147,9 +139,13 @@
     "urls": [],
     "summaries": []
   },
-  "pykka": {
-    "urls": [],
-    "summaries": []
+  "pykakasi": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2440185"
+    ],
+    "summaries": [
+      "[heads up] pykakasi will fail to build with Sphinx 9+ in Fedora 45: sphinx.errors.SphinxError: cannot determine default role!"
+    ]
   },
   "pyproj": {
     "urls": [],
@@ -162,6 +158,10 @@
     "summaries": [
       "pyqtwebengine: FTBFS in Fedora rawhide/f44"
     ]
+  },
+  "python-PyGithub": {
+    "urls": [],
+    "summaries": []
   },
   "python-XStatic": {
     "urls": [],
@@ -207,10 +207,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-astroid": {
-    "urls": [],
-    "summaries": []
-  },
   "python-autodocsumm": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2479753"
@@ -243,6 +239,18 @@
       "python-blessed fails to build with Python 3.15: Additional space in test_wrap.py::test_SequenceWrapper[1-kwargs5]"
     ]
   },
+  "python-boto3": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-bugzilla": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2480162"
+    ],
+    "summaries": [
+      "python-bugzilla fails to build with Python 3.15: 10 tests fail because of the changed pprint output"
+    ]
+  },
   "python-catkin_tools": {
     "urls": [],
     "summaries": []
@@ -263,11 +271,7 @@
     "urls": [],
     "summaries": []
   },
-  "python-deprecated": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-dijitso": {
+  "python-decopatch": {
     "urls": [],
     "summaries": []
   },
@@ -278,10 +282,6 @@
     "summaries": [
       "python-dill fails to build with Python 3.15: AttributeError: 'code' object has no attribute 'co_lnotab'. Did you mean '.co_linetable' instead of '.co_lnotab'?"
     ]
-  },
-  "python-dirty-equals": {
-    "urls": [],
-    "summaries": []
   },
   "python-django-angular": {
     "urls": [
@@ -355,6 +355,10 @@
     "urls": [],
     "summaries": []
   },
+  "python-flufl-bounce": {
+    "urls": [],
+    "summaries": []
+  },
   "python-gast": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2479748"
@@ -401,17 +405,13 @@
       "python-inkex: FTBFS in Fedora rawhide/f44"
     ]
   },
-  "python-invoke": {
+  "python-joblib": {
     "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2479756"
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2480167"
     ],
     "summaries": [
-      "python-invoke fails to build with Python 3.15: AssertionError in Runner_.threading.io_thread_errors_str_has_details"
+      "python-joblib fails to build with Python 3.15: ValueError: Cannot register \"REGISTER\",\"rtype\":\"folder\",\"base64_name\" for automatic cleanup: unknown resource type. Resource type should be one of the following: ['noop', 'folder', 'file', 'semlock'"
     ]
-  },
-  "python-joblib": {
-    "urls": [],
-    "summaries": []
   },
   "python-kaptan": {
     "urls": [
@@ -473,9 +473,13 @@
     "urls": [],
     "summaries": []
   },
-  "python-netaddr": {
-    "urls": [],
-    "summaries": []
+  "python-nibabel": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2442355"
+    ],
+    "summaries": [
+      "python-nibabel fails to build with Python 3.15: AssertionError in test_DeterministicGzipFile"
+    ]
   },
   "python-opcodes": {
     "urls": [],
@@ -494,6 +498,10 @@
     "summaries": []
   },
   "python-phyghtmap": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pip": {
     "urls": [],
     "summaries": []
   },
@@ -538,10 +546,6 @@
     "summaries": [
       "python-pyswip fails to build with Python 3.15: 28 test failures: AttributeError: 'list' object has no attribute 'value'"
     ]
-  },
-  "python-pytest-httpserver": {
-    "urls": [],
-    "summaries": []
   },
   "python-pytest-subtests": {
     "urls": [],
@@ -605,11 +609,15 @@
     "urls": [],
     "summaries": []
   },
-  "python-sentinels": {
-    "urls": [],
-    "summaries": []
+  "python-scooby": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2480165"
+    ],
+    "summaries": [
+      "python-scooby fails to build with Python 3.15: AssertionError in test_get_distribution_dependencies_separate_extras"
+    ]
   },
-  "python-sentry-sdk": {
+  "python-sentinels": {
     "urls": [],
     "summaries": []
   },
@@ -620,6 +628,10 @@
     "summaries": [
       "[heads up] python-sphinx-argparse-cli will fail to build with Sphinx 9+ in Fedora 45: ModuleNotFoundError: No module named 'sphinx.testing.path'"
     ]
+  },
+  "python-sphinx-autoapi": {
+    "urls": [],
+    "summaries": []
   },
   "python-sphinx-kr-theme": {
     "urls": [],
@@ -637,6 +649,10 @@
     "urls": [],
     "summaries": []
   },
+  "python-sshtunnel": {
+    "urls": [],
+    "summaries": []
+  },
   "python-stdnum": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2479755"
@@ -644,10 +660,6 @@
     "summaries": [
       "python-stdnum fails to build with Python 3.15: test failures related to changes in pprint output"
     ]
-  },
-  "python-stone": {
-    "urls": [],
-    "summaries": []
   },
   "python-time-machine": {
     "urls": [
@@ -689,14 +701,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-typeguard": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2423892"
-    ],
-    "summaries": [
-      "python-typeguard fails to build with Python 3.15: TypeError: cache_from_source() takes 1 positional argument but 2 positional arguments (and 1 keyword-only argument) were given"
-    ]
-  },
   "python-vcstool": {
     "urls": [],
     "summaries": []
@@ -733,10 +737,6 @@
       "python-zict fails to build with Python 3.15: timeout in test_stress_different_keys_threadsafe"
     ]
   },
-  "python-zlib-ng": {
-    "urls": [],
-    "summaries": []
-  },
   "python3-mallard-ducktype": {
     "urls": [],
     "summaries": []
@@ -756,10 +756,6 @@
     "summaries": [
       "qpid-proton: FTBFS with change proposal CMake: Use ninja generator by default"
     ]
-  },
-  "re2": {
-    "urls": [],
-    "summaries": []
   },
   "renderdoc": {
     "urls": [
@@ -796,10 +792,6 @@
     "summaries": [
       "ubertooth: FTBFS with change proposal CMake 4.0"
     ]
-  },
-  "uv": {
-    "urls": [],
-    "summaries": []
   },
   "weasyprint": {
     "urls": [

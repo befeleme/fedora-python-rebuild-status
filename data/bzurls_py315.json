@@ -127,6 +127,10 @@
     "urls": [],
     "summaries": []
   },
+  "conda-build": {
+    "urls": [],
+    "summaries": []
+  },
   "copr-backend": {
     "urls": [],
     "summaries": []
@@ -278,22 +282,6 @@
   "libreoffice": {
     "urls": [],
     "summaries": []
-  },
-  "libyui": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2427943"
-    ],
-    "summaries": [
-      "libyui: FTBFS with gcc16 due to C++20 change"
-    ]
-  },
-  "llvm": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2448969"
-    ],
-    "summaries": [
-      "llvm fails to build with Python 3.15: shtest-ulimit-nondarwin.py: error: no match found"
-    ]
   },
   "llvm21": {
     "urls": [],
@@ -539,10 +527,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-astroid": {
-    "urls": [],
-    "summaries": []
-  },
   "python-astroquery": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2460120"
@@ -707,9 +691,17 @@
       "python-blessed fails to build with Python 3.15: Additional space in test_wrap.py::test_SequenceWrapper[1-kwargs5]"
     ]
   },
-  "python-bugzilla": {
+  "python-boto3": {
     "urls": [],
     "summaries": []
+  },
+  "python-bugzilla": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2480162"
+    ],
+    "summaries": [
+      "python-bugzilla fails to build with Python 3.15: 10 tests fail because of the changed pprint output"
+    ]
   },
   "python-bytecode": {
     "urls": [
@@ -764,10 +756,6 @@
     ]
   },
   "python-cornice": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-dbus-fast": {
     "urls": [],
     "summaries": []
   },
@@ -944,8 +932,12 @@
     "summaries": []
   },
   "python-flask": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2480153"
+    ],
+    "summaries": [
+      "python-flask: FTBFS in Fedora Rawhide: test_bad_environ_raises_bad_request fails"
+    ]
   },
   "python-flufl-bounce": {
     "urls": [],
@@ -1078,8 +1070,12 @@
     ]
   },
   "python-joblib": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2480167"
+    ],
+    "summaries": [
+      "python-joblib fails to build with Python 3.15: ValueError: Cannot register \"REGISTER\",\"rtype\":\"folder\",\"base64_name\" for automatic cleanup: unknown resource type. Resource type should be one of the following: ['noop', 'folder', 'file', 'semlock'"
+    ]
   },
   "python-jsonschema": {
     "urls": [],
@@ -1288,6 +1284,10 @@
     "summaries": []
   },
   "python-phyghtmap": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pip": {
     "urls": [],
     "summaries": []
   },
@@ -1699,14 +1699,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-typeguard": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2423892"
-    ],
-    "summaries": [
-      "python-typeguard fails to build with Python 3.15: TypeError: cache_from_source() takes 1 positional argument but 2 positional arguments (and 1 keyword-only argument) were given"
-    ]
-  },
   "python-typing-extensions": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2477406"
@@ -1783,6 +1775,10 @@
     "urls": [],
     "summaries": []
   },
+  "python-zmq": {
+    "urls": [],
+    "summaries": []
+  },
   "python-zoidberg": {
     "urls": [],
     "summaries": []
@@ -1804,6 +1800,10 @@
     ]
   },
   "python3-mallard-ducktype": {
+    "urls": [],
+    "summaries": []
+  },
+  "python3-pydo": {
     "urls": [],
     "summaries": []
   },
@@ -1904,12 +1904,8 @@
     "summaries": []
   },
   "sundials": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2435127"
-    ],
-    "summaries": [
-      "sundials: FTBFS in Fedora rawhide/f44"
-    ]
+    "urls": [],
+    "summaries": []
   },
   "supervisor": {
     "urls": [],
@@ -1920,6 +1916,10 @@
     "summaries": []
   },
   "thefuck": {
+    "urls": [],
+    "summaries": []
+  },
+  "tpm2-pkcs11": {
     "urls": [],
     "summaries": []
   },

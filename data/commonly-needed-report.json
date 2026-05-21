@@ -41,23 +41,8 @@
       ]
     },
     {
-      "component": "python-ruamel-yaml-clib",
-      "count": 56,
-      "prerel_abi_blocked": true,
-      "blocked_by": [
-        "python-ruamel-yaml-clib"
-      ]
-    },
-    {
-      "component": "python-setuptools80",
-      "count": 49
-    },
-    {
       "component": "protobuf3",
-      "count": 36,
-      "blocked_by": [
-        "python-setuptools80"
-      ]
+      "count": 36
     },
     {
       "component": "vtk",
@@ -326,11 +311,6 @@
       ]
     },
     {
-      "component": "python-sqlalchemy1.4",
-      "count": 3,
-      "prerel_abi_blocked": true
-    },
-    {
       "component": "opencv",
       "count": 3,
       "prerel_abi_blocked": true,
@@ -370,41 +350,51 @@
         "materialx",
         "vtk"
       ]
+    },
+    {
+      "component": "materialx",
+      "count": 2,
+      "prerel_abi_blocked": true,
+      "blocked_by": [
+        "OpenColorIO",
+        "vtk"
+      ]
+    },
+    {
+      "component": "python-pygraphviz",
+      "count": 2,
+      "prerel_abi_blocked": true,
+      "blocked_by": [
+        "python-kiwisolver",
+        "python-matplotlib"
+      ]
+    },
+    {
+      "component": "go-vendor-tools",
+      "count": 2,
+      "blocked_by": [
+        "scancode-toolkit"
+      ]
     }
   ],
   "most_commonly_last_blocking": [
     {
       "component": "python-sqlalchemy",
-      "count": 44,
+      "count": 46,
       "prerel_abi_blocked": true,
       "blocked_by": [
         "python-psycopg2"
       ]
     },
     {
-      "component": "python-ruamel-yaml-clib",
-      "count": 34,
-      "prerel_abi_blocked": true,
-      "blocked_by": [
-        "python-ruamel-yaml-clib"
-      ]
-    },
-    {
-      "component": "python-setuptools80",
-      "count": 26
-    },
-    {
       "component": "python-pandas",
-      "count": 26,
+      "count": 27,
       "unresolvable": true,
       "prerel_abi_blocked": true
     },
     {
       "component": "protobuf3",
-      "count": 21,
-      "blocked_by": [
-        "python-setuptools80"
-      ]
+      "count": 22
     },
     {
       "component": "vtk",
@@ -438,6 +428,16 @@
       ]
     },
     {
+      "component": "python-astropy",
+      "count": 9,
+      "prerel_abi_blocked": true,
+      "blocked_by": [
+        "python-kiwisolver",
+        "python-matplotlib",
+        "python-scikit-image"
+      ]
+    },
+    {
       "component": "python-orjson",
       "count": 8,
       "prerel_abi_blocked": true,
@@ -446,14 +446,19 @@
       ]
     },
     {
-      "component": "python-astropy",
+      "component": "libmamba",
       "count": 8,
-      "prerel_abi_blocked": true,
-      "blocked_by": [
-        "python-kiwisolver",
-        "python-matplotlib",
-        "python-scikit-image"
-      ]
+      "prerel_abi_blocked": true
+    },
+    {
+      "component": "python-torch",
+      "count": 8,
+      "prerel_abi_blocked": true
+    },
+    {
+      "component": "python-psycopg2",
+      "count": 7,
+      "prerel_abi_blocked": true
     },
     {
       "component": "python-peewee",
@@ -464,8 +469,8 @@
       ]
     },
     {
-      "component": "python-psycopg2",
-      "count": 6,
+      "component": "python-time-machine",
+      "count": 5,
       "prerel_abi_blocked": true
     },
     {
@@ -479,19 +484,14 @@
       ]
     },
     {
+      "component": "python-genshi",
+      "count": 5,
+      "prerel_abi_blocked": true
+    },
+    {
       "component": "libvirt-python",
       "count": 5,
       "unresolvable": true,
-      "prerel_abi_blocked": true
-    },
-    {
-      "component": "python-time-machine",
-      "count": 4,
-      "prerel_abi_blocked": true
-    },
-    {
-      "component": "python-genshi",
-      "count": 3,
       "prerel_abi_blocked": true
     },
     {
@@ -524,7 +524,7 @@
         "python-tornado",
         "python-zmq"
       ],
-      "count": 30
+      "count": 33
     },
     {
       "components": [
@@ -532,28 +532,14 @@
         "python-matplotlib",
         "python-pandas"
       ],
-      "count": 13
-    },
-    {
-      "components": [
-        "libmamba",
-        "python-ruamel-yaml-clib"
-      ],
-      "count": 8
-    },
-    {
-      "components": [
-        "python-setuptools80",
-        "python-torch"
-      ],
-      "count": 8
+      "count": 14
     },
     {
       "components": [
         "grpc",
         "protobuf3"
       ],
-      "count": 7
+      "count": 8
     },
     {
       "components": [
@@ -564,11 +550,10 @@
     },
     {
       "components": [
-        "python-ruamel-yaml-clib",
-        "python-tornado",
-        "python-zmq"
+        "python-psycopg2",
+        "python-sqlalchemy"
       ],
-      "count": 3
+      "count": 4
     },
     {
       "components": [
@@ -596,13 +581,6 @@
     },
     {
       "components": [
-        "python-psycopg2",
-        "python-sqlalchemy"
-      ],
-      "count": 3
-    },
-    {
-      "components": [
         "python-kiwisolver",
         "python-matplotlib",
         "python-pandas",
@@ -619,6 +597,13 @@
     },
     {
       "components": [
+        "python-Levenshtein",
+        "python-rapidfuzz"
+      ],
+      "count": 3
+    },
+    {
+      "components": [
         "python-django-allauth",
         "python-django-mailman3"
       ],
@@ -626,15 +611,7 @@
     },
     {
       "components": [
-        "osc",
-        "python-ruamel-yaml-clib"
-      ],
-      "count": 2
-    },
-    {
-      "components": [
         "python-genshi",
-        "python-setuptools80",
         "python-sqlalchemy"
       ],
       "count": 2
@@ -662,12 +639,31 @@
         "python-shapely"
       ],
       "count": 2
+    },
+    {
+      "components": [
+        "python-orjson",
+        "python-sqlalchemy",
+        "python-websockets"
+      ],
+      "count": 2
+    },
+    {
+      "components": [
+        "pyproj",
+        "python-pandas",
+        "python-pyogrio",
+        "python-shapely"
+      ],
+      "count": 2
+    },
+    {
+      "components": [
+        "python-pandas",
+        "python-sqlalchemy"
+      ],
+      "count": 2
     }
   ],
-  "dependency_loops": [
-    [
-      "python-ruamel-yaml-clib",
-      "python-ruamel-yaml-clib"
-    ]
-  ]
+  "dependency_loops": []
 }
