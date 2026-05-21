@@ -91,6 +91,10 @@
       "kmymoney fails to build with Python 3.15: /usr/include/python3.15/pyport.h:523:9: error: \u2018__STDC_VERSION__\u2019 is not defined, evaluates to \u20180\u2019 [-Werror=undef]"
     ]
   },
+  "libarrow": {
+    "urls": [],
+    "summaries": []
+  },
   "libmamba": {
     "urls": [],
     "summaries": []
@@ -108,6 +112,10 @@
     "summaries": []
   },
   "manifold": {
+    "urls": [],
+    "summaries": []
+  },
+  "mlpack": {
     "urls": [],
     "summaries": []
   },
@@ -259,6 +267,14 @@
       "python-bugzilla fails to build with Python 3.15: 10 tests fail because of the changed pprint output"
     ]
   },
+  "python-bytecode": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2458689"
+    ],
+    "summaries": [
+      "python-bytecode fails to build with Python 3.15: 9 tests fail"
+    ]
+  },
   "python-catkin_tools": {
     "urls": [],
     "summaries": []
@@ -310,10 +326,6 @@
     "summaries": [
       "python-django-configurations fails to build with Python 3.15: AttributeError: 'ConfigurationLoader' object has no attribute 'exec_module'. Did you mean: 'load_module'?"
     ]
-  },
-  "python-django-haystack": {
-    "urls": [],
-    "summaries": []
   },
   "python-dns": {
     "urls": [
@@ -493,6 +505,10 @@
     "urls": [],
     "summaries": []
   },
+  "python-opfunu": {
+    "urls": [],
+    "summaries": []
+  },
   "python-orjson": {
     "urls": [],
     "summaries": []
@@ -529,9 +545,21 @@
     "urls": [],
     "summaries": []
   },
+  "python-pydata-sphinx-theme": {
+    "urls": [],
+    "summaries": []
+  },
   "python-pygeoif": {
     "urls": [],
     "summaries": []
+  },
+  "python-pynwb": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2453852"
+    ],
+    "summaries": [
+      "python-pynwb fails to build with Python 3.15: test_outer_import_structure: AssertionError: '__cached__' not found in ..."
+    ]
   },
   "python-pysdl2": {
     "urls": [
@@ -588,10 +616,6 @@
     "summaries": [
       "python-readme-renderer fails to build with Python 3.15: test_cli_package: No content rendered from RST source."
     ]
-  },
-  "python-recipe-scrapers": {
-    "urls": [],
-    "summaries": []
   },
   "python-reportlab": {
     "urls": [

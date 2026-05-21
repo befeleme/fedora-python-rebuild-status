@@ -1,26 +1,12 @@
 {
   "most_commonly_needed": [
     {
-      "component": "python-pydantic-core",
-      "count": 107,
-      "blocked_by": [
-        "python-inline-snapshot",
-        "python-pandas"
-      ]
-    },
-    {
       "component": "python-pydantic",
       "count": 106,
       "blocked_by": [
         "python-dns",
-        "python-email-validator",
-        "python-pydantic-core"
+        "python-email-validator"
       ]
-    },
-    {
-      "component": "python-pandas",
-      "count": 86,
-      "unresolvable": true
     },
     {
       "component": "python-httpcore",
@@ -60,8 +46,7 @@
       "component": "python-flask",
       "count": 68,
       "blocked_by": [
-        "python-dotenv",
-        "python-sphinx-tabs"
+        "python-dotenv"
       ]
     },
     {
@@ -154,10 +139,7 @@
     },
     {
       "component": "python-mistune",
-      "count": 37,
-      "blocked_by": [
-        "python-sphinx-design"
-      ]
+      "count": 37
     },
     {
       "component": "python-arrow",
@@ -172,13 +154,6 @@
         "python-cliff",
         "python-cmd2",
         "python-stestr"
-      ]
-    },
-    {
-      "component": "python-myst-parser",
-      "count": 35,
-      "blocked_by": [
-        "python-pytest-regressions"
       ]
     },
     {
@@ -268,13 +243,7 @@
     },
     {
       "component": "python-furo",
-      "count": 31,
-      "blocked_by": [
-        "python-myst-parser",
-        "python-sphinx-design",
-        "python-sphinx-inline-tabs",
-        "python-sphinx-tabs"
-      ]
+      "count": 31
     },
     {
       "component": "python-joblib",
@@ -295,8 +264,7 @@
         "ipython",
         "llvm",
         "python-furo",
-        "python-mpmath",
-        "python-myst-parser"
+        "python-mpmath"
       ]
     },
     {
@@ -370,7 +338,6 @@
         "python-jupyterlab-server",
         "python-jupyterlab-widgets",
         "python-mistune",
-        "python-myst-parser",
         "python-nbconvert",
         "python-nbsphinx",
         "python-notebook",
@@ -426,7 +393,6 @@
         "python-httpx",
         "python-pdm-backend",
         "python-pydantic",
-        "python-pydantic-core",
         "python-sqlalchemy",
         "python-starlette"
       ]
@@ -460,15 +426,38 @@
     {
       "component": "python-dill",
       "count": 22
+    },
+    {
+      "component": "python-google-auth",
+      "count": 22,
+      "blocked_by": [
+        "grpc",
+        "python-flask"
+      ]
+    },
+    {
+      "component": "python-jupyter-events",
+      "count": 22,
+      "blocked_by": [
+        "python-arrow",
+        "python-isoduration",
+        "python-webcolors"
+      ]
+    },
+    {
+      "component": "mkdocs",
+      "count": 22,
+      "blocked_by": [
+        "python-watchdog"
+      ]
     }
   ],
   "most_commonly_last_blocking": [
     {
       "component": "python-flask",
-      "count": 21,
+      "count": 22,
       "blocked_by": [
-        "python-dotenv",
-        "python-sphinx-tabs"
+        "python-dotenv"
       ]
     },
     {
@@ -488,11 +477,6 @@
       ]
     },
     {
-      "component": "python-pandas",
-      "count": 17,
-      "unresolvable": true
-    },
-    {
       "component": "python-sqlalchemy",
       "count": 15,
       "blocked_by": [
@@ -502,12 +486,14 @@
     },
     {
       "component": "python-furo",
+      "count": 15
+    },
+    {
+      "component": "python-pydantic",
       "count": 13,
       "blocked_by": [
-        "python-myst-parser",
-        "python-sphinx-design",
-        "python-sphinx-inline-tabs",
-        "python-sphinx-tabs"
+        "python-dns",
+        "python-email-validator"
       ]
     },
     {
@@ -517,13 +503,6 @@
     {
       "component": "python-pdm-backend",
       "count": 10
-    },
-    {
-      "component": "python-myst-parser",
-      "count": 8,
-      "blocked_by": [
-        "python-pytest-regressions"
-      ]
     },
     {
       "component": "argparse-manpage",
@@ -538,10 +517,12 @@
       ]
     },
     {
-      "component": "python-pytest-regressions",
+      "component": "python-dns",
       "count": 8,
       "blocked_by": [
-        "python-pandas"
+        "python-h2",
+        "python-httpcore",
+        "python-httpx"
       ]
     },
     {
@@ -549,15 +530,6 @@
       "count": 7,
       "blocked_by": [
         "python-requests-mock"
-      ]
-    },
-    {
-      "component": "python-dns",
-      "count": 7,
-      "blocked_by": [
-        "python-h2",
-        "python-httpcore",
-        "python-httpx"
       ]
     },
     {
@@ -580,8 +552,14 @@
       "component": "python-zope-testrunner",
       "count": 6,
       "blocked_by": [
-        "python-manuel",
         "python-sphinxcontrib-programoutput"
+      ]
+    },
+    {
+      "component": "python-dotenv",
+      "count": 5,
+      "blocked_by": [
+        "ipython"
       ]
     },
     {
@@ -595,14 +573,20 @@
       "component": "python-pyqtgraph",
       "count": 5,
       "blocked_by": [
-        "python-pydata-sphinx-theme",
-        "python-sphinx-design"
+        "python-pydata-sphinx-theme"
       ]
     },
     {
       "component": "python-watchdog",
       "count": 5,
       "unresolvable": true
+    },
+    {
+      "component": "python-pycurl",
+      "count": 5,
+      "blocked_by": [
+        "python-flask"
+      ]
     }
   ],
   "most_commonly_last_blocking_combinations": [
@@ -616,14 +600,6 @@
     {
       "components": [
         "python-pydantic",
-        "python-pydantic-core"
-      ],
-      "count": 13
-    },
-    {
-      "components": [
-        "python-pydantic",
-        "python-pydantic-core",
         "python-smart_open",
         "python-sqlalchemy",
         "python-sqlmodel",
@@ -636,7 +612,7 @@
         "mkdocs",
         "python-watchdog"
       ],
-      "count": 10
+      "count": 11
     },
     {
       "components": [
@@ -768,10 +744,17 @@
         "python-cytoolz",
         "python-eth-utils",
         "python-pydantic",
-        "python-pydantic-core",
         "python-toolz"
       ],
       "count": 4
+    },
+    {
+      "components": [
+        "python-flask",
+        "python-httpbin",
+        "python-pytest-httpbin"
+      ],
+      "count": 3
     }
   ],
   "dependency_loops": []
