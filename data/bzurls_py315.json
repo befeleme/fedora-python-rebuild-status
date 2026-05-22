@@ -1493,14 +1493,6 @@
       "python-readme-renderer fails to build with Python 3.15: test_cli_package: No content rendered from RST source."
     ]
   },
-  "python-reportlab": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2433920"
-    ],
-    "summaries": [
-      "python-reportlab fails to build with Python 3.15: TypeError: _LoaderBasics.exec_module() missing 1 required positional argument: 'module'"
-    ]
-  },
   "python-requirements-parser": {
     "urls": [],
     "summaries": []
@@ -1566,6 +1558,10 @@
     ]
   },
   "python-snakemake-executor-plugin-slurm": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-socketio": {
     "urls": [],
     "summaries": []
   },

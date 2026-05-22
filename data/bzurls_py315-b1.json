@@ -15,10 +15,6 @@
     "urls": [],
     "summaries": []
   },
-  "copr-cli": {
-    "urls": [],
-    "summaries": []
-  },
   "dionaea": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2380545"
@@ -47,6 +43,10 @@
       "dnf-plugin-perfmetrics: FTBFS with change proposal CMake 4.0"
     ]
   },
+  "dnsviz": {
+    "urls": [],
+    "summaries": []
+  },
   "emacs-jedi": {
     "urls": [],
     "summaries": []
@@ -58,6 +58,10 @@
     "summaries": [
       "fail2ban fails to build with Python 3.15: AttributeError: 'SourceFileLoader' object has no attribute 'load_module'. Did you mean: 'exec_module'?"
     ]
+  },
+  "freeipa": {
+    "urls": [],
+    "summaries": []
   },
   "gdal": {
     "urls": [],
@@ -111,6 +115,10 @@
     "urls": [],
     "summaries": []
   },
+  "linkchecker": {
+    "urls": [],
+    "summaries": []
+  },
   "llvm": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2448969"
@@ -158,6 +166,10 @@
     "summaries": [
       "petsc fails to build with Python 3.15: AssertionError: 2 != 3; self.assertEqual(getrefcount(context), 3)"
     ]
+  },
+  "pg_activity": {
+    "urls": [],
+    "summaries": []
   },
   "protobuf": {
     "urls": [],
@@ -235,14 +247,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-autodocsumm": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2479753"
-    ],
-    "summaries": [
-      "python-autodocsumm fails to build with Python 3.15: NotImplementedError: Cannot execute CSS selectors because the soupsieve package is not installed."
-    ]
-  },
   "python-beartype": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2447904",
@@ -256,16 +260,6 @@
   "python-binary-manager": {
     "urls": [],
     "summaries": []
-  },
-  "python-blessed": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2434953",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2414791"
-    ],
-    "summaries": [
-      "python-blessed: FTBFS in Fedora rawhide/f44",
-      "python-blessed fails to build with Python 3.15: Additional space in test_wrap.py::test_SequenceWrapper[1-kwargs5]"
-    ]
   },
   "python-boto3": {
     "urls": [],
@@ -311,6 +305,10 @@
     "urls": [],
     "summaries": []
   },
+  "python-cvdupdate": {
+    "urls": [],
+    "summaries": []
+  },
   "python-decopatch": {
     "urls": [],
     "summaries": []
@@ -339,15 +337,11 @@
       "python-django-configurations fails to build with Python 3.15: AttributeError: 'ConfigurationLoader' object has no attribute 'exec_module'. Did you mean: 'load_module'?"
     ]
   },
-  "python-dns": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2458662"
-    ],
-    "summaries": [
-      "python-dns fails to build with Python 3.15: testInvalidDigestLengthCDS0: AssertionError: 'Odd-length string' != 'Odd number of hexadecimal digits'"
-    ]
+  "python-dkimpy": {
+    "urls": [],
+    "summaries": []
   },
-  "python-eccodes": {
+  "python-email-validator": {
     "urls": [],
     "summaries": []
   },
@@ -358,6 +352,10 @@
     "summaries": [
       "python-et_xmlfile fails to build with Python 3.15: ElementTreeTest.test_iterparse: AssertionError: Lists differ: [<WarningMessage {message : ResourceWarnin[235 chars]ne}>] != []"
     ]
+  },
+  "python-eventlet": {
+    "urls": [],
+    "summaries": []
   },
   "python-exiv2": {
     "urls": [
@@ -449,11 +447,15 @@
       "python-kaptan fails to build with Python 3.15: AttributeError: 'SourceFileLoader' object has no attribute 'load_module'. Did you mean: 'exec_module'? in test_py_file_handler and test_py_file_away_handler"
     ]
   },
-  "python-lesscpy": {
+  "python-kdcproxy": {
     "urls": [],
     "summaries": []
   },
   "python-linuxdoc": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-localzone": {
     "urls": [],
     "summaries": []
   },
@@ -464,6 +466,10 @@
     "summaries": [
       "python-markdown-callouts: FTBFS in Fedora rawhide/f44"
     ]
+  },
+  "python-markdown-exec": {
+    "urls": [],
+    "summaries": []
   },
   "python-mathics-scanner": {
     "urls": [],
@@ -476,10 +482,6 @@
     "summaries": [
       "python-meshio: FTBFS in Fedora Rawhide: binascii.Error: Invalid base64-encoded string: number of data characters (8889) cannot be 1 more than a multiple of 4"
     ]
-  },
-  "python-migen": {
-    "urls": [],
-    "summaries": []
   },
   "python-mirrors-countme": {
     "urls": [
@@ -494,10 +496,6 @@
     "summaries": []
   },
   "python-mkdocs-git-revision-date-localized-plugin": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-moddb": {
     "urls": [],
     "summaries": []
   },
@@ -517,14 +515,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-nibabel": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2442355"
-    ],
-    "summaries": [
-      "python-nibabel fails to build with Python 3.15: AssertionError in test_DeterministicGzipFile"
-    ]
-  },
   "python-opcodes": {
     "urls": [],
     "summaries": []
@@ -532,18 +522,6 @@
   "python-opfunu": {
     "urls": [],
     "summaries": []
-  },
-  "python-orjson": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-pdm-backend": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2480529"
-    ],
-    "summaries": [
-      "python-pdm-backend: FTBFS in Fedora Rawhide: AssertionError: assert 'demo_package.pth' in ['.gitignore', '_editable_impl_demo_package.pth', 'demo_package-0.1.0.dist-info/METADATA', 'demo_package-0.1.0.dist-info/WHEEL', 'demo_package-0.1.0.dist-info/entry_"
-    ]
   },
   "python-phply": {
     "urls": [],
@@ -580,6 +558,10 @@
     "summaries": [
       "python-pygtkspellcheck: FTBFS in Fedora rawhide/f44"
     ]
+  },
+  "python-pymongo": {
+    "urls": [],
+    "summaries": []
   },
   "python-pynwb": {
     "urls": [
@@ -624,14 +606,6 @@
   "python-pytest-tornado": {
     "urls": [],
     "summaries": []
-  },
-  "python-qcustomplot-pyqt": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2435018"
-    ],
-    "summaries": [
-      "python-qcustomplot-pyqt: FTBFS in Fedora rawhide/f44"
-    ]
   },
   "python-readchar": {
     "urls": [],
@@ -685,15 +659,7 @@
     "urls": [],
     "summaries": []
   },
-  "python-sphinxcontrib-autoprogram": {
-    "urls": [],
-    "summaries": []
-  },
   "python-sphinxcontrib-chapeldomain": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-ssdeep": {
     "urls": [],
     "summaries": []
   },
@@ -805,6 +771,10 @@
     "urls": [],
     "summaries": []
   },
+  "samba": {
+    "urls": [],
+    "summaries": []
+  },
   "stp": {
     "urls": [],
     "summaries": []
@@ -823,18 +793,6 @@
     ],
     "summaries": [
       "ubertooth: FTBFS with change proposal CMake 4.0"
-    ]
-  },
-  "vtk": {
-    "urls": [],
-    "summaries": []
-  },
-  "weasyprint": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2458731"
-    ],
-    "summaries": [
-      "weasyprint: FTBFS in Fedora Rawhide:  Failed: Pixel (5, 1) in radial_gradient_reflect: expected rgba(255, 0, 0), got rgba(0, 255, 0)"
     ]
   },
   "xapian-bindings": {
