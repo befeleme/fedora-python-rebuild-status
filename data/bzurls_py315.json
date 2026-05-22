@@ -315,6 +315,10 @@
     "urls": [],
     "summaries": []
   },
+  "mlpack": {
+    "urls": [],
+    "summaries": []
+  },
   "mock": {
     "urls": [],
     "summaries": []
@@ -771,6 +775,10 @@
       "python-colcon-core: Fails to build with setuptools 80.9.0, fails to install [pins setuptools < 80, test_build_package fails]"
     ]
   },
+  "python-contextualbandits": {
+    "urls": [],
+    "summaries": []
+  },
   "python-cornice": {
     "urls": [],
     "summaries": []
@@ -833,14 +841,6 @@
     ],
     "summaries": [
       "python-django-extensions fails to build with Python 3.15: TypeError: CheckConstraint.__init__() got an unexpected keyword argument 'check'"
-    ]
-  },
-  "python-dns": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2458662"
-    ],
-    "summaries": [
-      "python-dns fails to build with Python 3.15: testInvalidDigestLengthCDS0: AssertionError: 'Odd-length string' != 'Odd number of hexadecimal digits'"
     ]
   },
   "python-domdf-python-tools": {
@@ -1533,6 +1533,10 @@
       "python-scikit-image: FTBFS in Fedora rawhide/f44"
     ]
   },
+  "python-scikit-uplift": {
+    "urls": [],
+    "summaries": []
+  },
   "python-scipy-doctest": {
     "urls": [],
     "summaries": []
@@ -1620,6 +1624,10 @@
     "summaries": [
       "python-streamlink fails to build with Python 3.15: test_help_color: TypeError: TestPrint._color.<locals>.<lambda>() got an unexpected keyword argument 'file'"
     ]
+  },
+  "python-succulent": {
+    "urls": [],
+    "summaries": []
   },
   "python-textual": {
     "urls": [
