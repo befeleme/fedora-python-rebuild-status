@@ -375,6 +375,10 @@
       "ocrmypdf fails to build with Python 3.15: test_xml_metadata_preserved: AssertionError: acquired unexpected property dc:title with value 'Untitled'"
     ]
   },
+  "onnxruntime": {
+    "urls": [],
+    "summaries": []
+  },
   "openvino": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2460557"
@@ -1528,6 +1532,14 @@
   "python-scales": {
     "urls": [],
     "summaries": []
+  },
+  "python-scikit-image": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2435022"
+    ],
+    "summaries": [
+      "python-scikit-image: FTBFS in Fedora rawhide/f44"
+    ]
   },
   "python-scipy-doctest": {
     "urls": [],
