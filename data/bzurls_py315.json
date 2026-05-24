@@ -271,6 +271,10 @@
     "urls": [],
     "summaries": []
   },
+  "lazygal": {
+    "urls": [],
+    "summaries": []
+  },
   "libguestfs": {
     "urls": [],
     "summaries": []
@@ -767,10 +771,6 @@
       "python-chai fails to build with Python 3.15: chai.exception.UnsupportedStub: (\"can't stub %s\", <property object at 0x7fbbc41d1df0>)"
     ]
   },
-  "python-click-plugins": {
-    "urls": [],
-    "summaries": []
-  },
   "python-cmd2": {
     "urls": [],
     "summaries": []
@@ -963,10 +963,6 @@
       "python-flask: FTBFS in Fedora Rawhide: test_bad_environ_raises_bad_request fails"
     ]
   },
-  "python-flufl-bounce": {
-    "urls": [],
-    "summaries": []
-  },
   "python-fs": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2434982",
@@ -1093,10 +1089,6 @@
       "python-joblib fails to build with Python 3.15: ValueError: Cannot register \"REGISTER\",\"rtype\":\"folder\",\"base64_name\" for automatic cleanup: unknown resource type. Resource type should be one of the following: ['noop', 'folder', 'file', 'semlock'"
     ]
   },
-  "python-jsonschema": {
-    "urls": [],
-    "summaries": []
-  },
   "python-jupyter-server": {
     "urls": [],
     "summaries": []
@@ -1130,10 +1122,6 @@
     "summaries": [
       "python-kiwisolver fails to build with setuptools_scm 10+"
     ]
-  },
-  "python-lazr-config": {
-    "urls": [],
-    "summaries": []
   },
   "python-lazr-delegates": {
     "urls": [],
@@ -1307,11 +1295,11 @@
     "urls": [],
     "summaries": []
   },
-  "python-pip": {
+  "python-pika": {
     "urls": [],
     "summaries": []
   },
-  "python-plaster-pastedeploy": {
+  "python-pip": {
     "urls": [],
     "summaries": []
   },
@@ -1400,10 +1388,6 @@
     ]
   },
   "python-pyramid-mako": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-pyramid-tm": {
     "urls": [],
     "summaries": []
   },
@@ -1914,6 +1898,10 @@
     "summaries": [
       "scipy: FTBFS in Fedora Rawhide: test_gh_22681_finite_error: AssertionError"
     ]
+  },
+  "shybrid": {
+    "urls": [],
+    "summaries": []
   },
   "snakemake": {
     "urls": [],
