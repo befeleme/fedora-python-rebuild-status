@@ -132,6 +132,7 @@ capstone	succeeded
 capypdf	succeeded
 cargo2rpm	succeeded
 caribou	succeeded
+catalyst	succeeded
 catfish	succeeded
 ccsm	succeeded
 cdist	succeeded
@@ -260,6 +261,7 @@ fedrq	succeeded
 file	succeeded
 firewalld	succeeded
 firmitas	succeeded
+flann	succeeded
 flatbuffers	succeeded
 flatpak-module-tools	failed
 flent	succeeded
@@ -349,7 +351,7 @@ grammalecte	succeeded
 gramps	succeeded
 graphviz	succeeded
 grin	succeeded
-grpc	failed
+grpc	running
 gst	succeeded
 gst-devtools	succeeded
 gst-editing-services	succeeded
@@ -453,7 +455,7 @@ lhapdf	succeeded
 libCombine	succeeded
 libaccounts-glib	succeeded
 libarcus	succeeded
-libarrow	succeeded
+libarrow	running
 libbatch	succeeded
 libblockdev	succeeded
 libbytesize	succeeded
@@ -540,7 +542,7 @@ liquidctl	succeeded
 lirc	succeeded
 litecli	succeeded
 livecd-tools	succeeded
-llvm	running
+llvm	succeeded
 llvm21	failed
 lollypop	succeeded
 loook	succeeded
@@ -581,7 +583,7 @@ mkdocs-bootstrap	succeeded
 mkdocs-bootswatch	succeeded
 mkdocs-material	succeeded
 mkosi	succeeded
-mlpack	failed
+mlpack	running
 mlt	succeeded
 mock	failed
 mod_wsgi	succeeded
@@ -660,7 +662,7 @@ openbabel	succeeded
 opencv	failed
 openmeeg	succeeded
 openmpi	succeeded
-openms	succeeded
+openms	running
 openscap	succeeded
 openscap-report	succeeded
 openshadinglanguage	failed
@@ -674,6 +676,7 @@ openvino	failed
 openvswitch	succeeded
 openwsman	succeeded
 orca	succeeded
+orocos-kdl	succeeded
 osbs-client	succeeded
 osbuild	succeeded
 osc	failed
@@ -1172,7 +1175,7 @@ python-bsddb3	succeeded
 python-btchip	succeeded
 python-btrfs	succeeded
 python-bucky	succeeded
-python-bugzilla	failed
+python-bugzilla	succeeded
 python-build	succeeded
 python-buildman	succeeded
 python-bytecode	failed
@@ -1321,7 +1324,7 @@ python-construct	succeeded
 python-construct-classes	succeeded
 python-container-inspector	succeeded
 python-contextily	succeeded
-python-contextualbandits	failed
+python-contextualbandits	succeeded
 python-contourpy	succeeded
 python-convertdate	succeeded
 python-cookiecutter	succeeded
@@ -1741,7 +1744,7 @@ python-geoip2	succeeded
 python-geojson	succeeded
 python-geomdl	failed
 python-geopandas	succeeded
-python-geopmpy	succeeded
+python-geopmpy	running
 python-geopy	succeeded
 python-geotiler	failed
 python-gerritlib	succeeded
@@ -1869,7 +1872,7 @@ python-hypothesmith	failed
 python-i3ipc	succeeded
 python-ibm-cloud-sdk-core	failed
 python-ibm-vpc	succeeded
-python-icalendar	failed
+python-icalendar	succeeded
 python-icmplib	succeeded
 python-icoextract	succeeded
 python-id	succeeded
@@ -2851,6 +2854,7 @@ python-pyzabbix	succeeded
 python-pyzolib	succeeded
 python-pyzstd	succeeded
 python-qcelemental	succeeded
+python-qcengine	succeeded
 python-qcustomplot-pyqt	failed
 python-qdarkstyle	succeeded
 python-qemu-qmp	succeeded
@@ -2949,7 +2953,7 @@ python-rmtest	succeeded
 python-rnc2rng	succeeded
 python-robosignatory	succeeded
 python-robot-detection	succeeded
-python-robotframework	failed
+python-robotframework	succeeded
 python-roman	succeeded
 python-roman-numerals	succeeded
 python-rope	succeeded
@@ -3208,7 +3212,7 @@ python-starlette	succeeded
 python-statsmodels	succeeded
 python-stdlib-list	succeeded
 python-stdlibs	succeeded
-python-stdnum	failed
+python-stdnum	succeeded
 python-steam	succeeded
 python-steampunk-spotter	failed
 python-stem	succeeded
@@ -3403,6 +3407,7 @@ python-uhashring	succeeded
 python-uinput	succeeded
 python-ujson	succeeded
 python-ukkonen	succeeded
+python-uncalled-for	succeeded
 python-uncertainties	succeeded
 python-unicode-segmentation-rs	succeeded
 python-unicodedata2	succeeded
@@ -3598,7 +3603,7 @@ python3-pydo	succeeded
 python3-saml	succeeded
 python3-simpletal	succeeded
 python3.14	succeeded
-python3.15	running
+python3.15	succeeded
 pythran	succeeded
 pytz	succeeded
 pyusb	succeeded
@@ -3662,7 +3667,7 @@ rpmdeplint	succeeded
 rpmlint	succeeded
 rpmspectool	succeeded
 rpy	succeeded
-rrdtool	succeeded
+rrdtool	failed
 rss2email	succeeded
 rst2pdf	succeeded
 rteval	succeeded

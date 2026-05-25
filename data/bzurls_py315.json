@@ -223,10 +223,6 @@
     "urls": [],
     "summaries": []
   },
-  "grpc": {
-    "urls": [],
-    "summaries": []
-  },
   "ipython": {
     "urls": [],
     "summaries": []
@@ -308,10 +304,6 @@
     ]
   },
   "meson": {
-    "urls": [],
-    "summaries": []
-  },
-  "mlpack": {
     "urls": [],
     "summaries": []
   },
@@ -735,14 +727,6 @@
       "python-botocore fails to build with Python 3.15: AssertionError: At index 8 diff: b'\\x00' != b'\\x02'"
     ]
   },
-  "python-bugzilla": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2480162"
-    ],
-    "summaries": [
-      "python-bugzilla fails to build with Python 3.15: 10 tests fail because of the changed pprint output"
-    ]
-  },
   "python-bytecode": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2458689"
@@ -790,10 +774,6 @@
     "summaries": [
       "python-colcon-core: Fails to build with setuptools 80.9.0, fails to install [pins setuptools < 80, test_build_package fails]"
     ]
-  },
-  "python-contextualbandits": {
-    "urls": [],
-    "summaries": []
   },
   "python-cornice": {
     "urls": [],
@@ -1044,14 +1024,6 @@
   "python-ibm-cloud-sdk-core": {
     "urls": [],
     "summaries": []
-  },
-  "python-icalendar": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2479754"
-    ],
-    "summaries": [
-      "python-icalendar fails to build with Python 3.15: test failures related to the changed pprint output"
-    ]
   },
   "python-inotify": {
     "urls": [],
@@ -1469,14 +1441,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-robotframework": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2479759"
-    ],
-    "summaries": [
-      "python-robotframework fails to build with Python 3.15: test failures related to changes in pprint output"
-    ]
-  },
   "python-rstcheck": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2458680"
@@ -1568,14 +1532,6 @@
   "python-sshtunnel": {
     "urls": [],
     "summaries": []
-  },
-  "python-stdnum": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2479755"
-    ],
-    "summaries": [
-      "python-stdnum fails to build with Python 3.15: test failures related to changes in pprint output"
-    ]
   },
   "python-steampunk-spotter": {
     "urls": [],
@@ -1850,6 +1806,10 @@
     "summaries": [
       "rpm-spec-language-server fails to build with Python 3.15: TypeError: cache_from_source() takes 1 positional argument but 2 positional arguments (and 1 keyword-only argument) were given"
     ]
+  },
+  "rrdtool": {
+    "urls": [],
+    "summaries": []
   },
   "samba": {
     "urls": [],

@@ -11,11 +11,11 @@
       "alot fails to build with Python 3.15: TypeError: 'Mock' object cannot be interpreted as an integer"
     ]
   },
-  "ansible-builder": {
+  "ansible": {
     "urls": [],
     "summaries": []
   },
-  "ansible-core": {
+  "ansible-builder": {
     "urls": [],
     "summaries": []
   },
@@ -99,6 +99,10 @@
       "jc fails to build with Python 3.15: AssertionError: 'format': 1760, != 'format': 7250,"
     ]
   },
+  "khal": {
+    "urls": [],
+    "summaries": []
+  },
   "kicad": {
     "urls": [],
     "summaries": []
@@ -126,14 +130,6 @@
   "link-grammar": {
     "urls": [],
     "summaries": []
-  },
-  "llvm": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2448969"
-    ],
-    "summaries": [
-      "llvm fails to build with Python 3.15: shtest-ulimit-nondarwin.py: error: no match found"
-    ]
   },
   "llvm21": {
     "urls": [],
@@ -175,7 +171,7 @@
     "urls": [],
     "summaries": []
   },
-  "paraview": {
+  "osc": {
     "urls": [],
     "summaries": []
   },
@@ -227,6 +223,14 @@
     "urls": [],
     "summaries": []
   },
+  "python-SALib": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2434947"
+    ],
+    "summaries": [
+      "python-SALib: FTBFS in Fedora rawhide/f44"
+    ]
+  },
   "python-XStatic": {
     "urls": [],
     "summaries": []
@@ -267,6 +271,14 @@
     "urls": [],
     "summaries": []
   },
+  "python-ansible-compat": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-ansible-runner": {
+    "urls": [],
+    "summaries": []
+  },
   "python-apipkg": {
     "urls": [],
     "summaries": []
@@ -295,14 +307,6 @@
     ],
     "summaries": [
       "python-botocore fails to build with Python 3.15: AssertionError: At index 8 diff: b'\\x00' != b'\\x02'"
-    ]
-  },
-  "python-bugzilla": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2480162"
-    ],
-    "summaries": [
-      "python-bugzilla fails to build with Python 3.15: 10 tests fail because of the changed pprint output"
     ]
   },
   "python-bytecode": {
@@ -334,6 +338,10 @@
     "summaries": []
   },
   "python-decopatch": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-dirty-equals": {
     "urls": [],
     "summaries": []
   },
@@ -397,14 +405,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-gast": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2479748"
-    ],
-    "summaries": [
-      "python-gast fails to build with Python 3.15: TypeError: ast.TypeAlias.__init__ missing 2 required positional arguments: 'name' and 'value'"
-    ]
-  },
   "python-geotiler": {
     "urls": [],
     "summaries": []
@@ -425,14 +425,6 @@
     "summaries": [
       "python-hypothesmith fails to build with Python 3.15: AttributeError: 'int' object has no attribute '_codegen' and more (74 tests fail)",
       "python-hypothesmith: FTBFS in Fedora rawhide/f44"
-    ]
-  },
-  "python-icalendar": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2479754"
-    ],
-    "summaries": [
-      "python-icalendar fails to build with Python 3.15: test failures related to the changed pprint output"
     ]
   },
   "python-jnius": {
@@ -456,10 +448,6 @@
     ]
   },
   "python-linuxdoc": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-lmfit": {
     "urls": [],
     "summaries": []
   },
@@ -525,14 +513,6 @@
     ],
     "summaries": [
       "python-msrest fails to build with Python 3.15: AssertionErrors in two TestServiceClient::test_client_send"
-    ]
-  },
-  "python-multiprocess": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2442368"
-    ],
-    "summaries": [
-      "python-multiprocess fails to build with Python 3.15: ValueError: Globs did not match any module: _multiprocess"
     ]
   },
   "python-nagiosplugin": {
@@ -679,14 +659,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-robotframework": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2479759"
-    ],
-    "summaries": [
-      "python-robotframework fails to build with Python 3.15: test failures related to changes in pprint output"
-    ]
-  },
   "python-rstr": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2414567"
@@ -696,6 +668,10 @@
     ]
   },
   "python-scales": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-scramp": {
     "urls": [],
     "summaries": []
   },
@@ -726,14 +702,6 @@
   "python-sshtunnel": {
     "urls": [],
     "summaries": []
-  },
-  "python-stdnum": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2479755"
-    ],
-    "summaries": [
-      "python-stdnum fails to build with Python 3.15: test failures related to changes in pprint output"
-    ]
   },
   "python-tornado": {
     "urls": [
@@ -842,6 +810,10 @@
     "summaries": []
   },
   "root": {
+    "urls": [],
+    "summaries": []
+  },
+  "rrdtool": {
     "urls": [],
     "summaries": []
   },

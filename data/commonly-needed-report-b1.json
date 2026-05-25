@@ -197,10 +197,6 @@
       ]
     },
     {
-      "component": "python-progressbar2",
-      "count": 16
-    },
-    {
       "component": "python-osc-lib",
       "count": 16,
       "blocked_by": [
@@ -404,10 +400,6 @@
       "count": 10
     },
     {
-      "component": "python-bugzilla",
-      "count": 9
-    },
-    {
       "component": "python-flexmock",
       "count": 9,
       "blocked_by": [
@@ -454,6 +446,20 @@
       "blocked_by": [
         "python-dask",
         "python-rasterio"
+      ]
+    },
+    {
+      "component": "python-pytest-django",
+      "count": 8,
+      "blocked_by": [
+        "python-django-configurations"
+      ]
+    },
+    {
+      "component": "python-inline-snapshot",
+      "count": 8,
+      "blocked_by": [
+        "python-pydantic"
       ]
     }
   ],
@@ -502,27 +508,19 @@
       ]
     },
     {
+      "component": "python-versioningit",
+      "count": 5,
+      "blocked_by": [
+        "python-pydantic"
+      ]
+    },
+    {
       "component": "python-astropy",
       "count": 5,
       "blocked_by": [
         "python-pytest-arraydiff",
         "python-pytest-astropy",
         "python-scikit-image"
-      ]
-    },
-    {
-      "component": "ansible-core",
-      "count": 4
-    },
-    {
-      "component": "python-bugzilla",
-      "count": 4
-    },
-    {
-      "component": "python-versioningit",
-      "count": 4,
-      "blocked_by": [
-        "python-pydantic"
       ]
     },
     {
@@ -554,8 +552,11 @@
       ]
     },
     {
-      "component": "python-icalendar",
-      "count": 3
+      "component": "python-specfile",
+      "count": 3,
+      "blocked_by": [
+        "python-flexmock"
+      ]
     },
     {
       "component": "python-zc-lockfile",
@@ -587,6 +588,17 @@
         "python-cherrypy",
         "python-zc-lockfile"
       ]
+    },
+    {
+      "component": "python-pcodedmp",
+      "count": 3,
+      "blocked_by": [
+        "python-pcodedmp"
+      ]
+    },
+    {
+      "component": "pylint",
+      "count": 3
     }
   ],
   "most_commonly_last_blocking_combinations": [
@@ -602,17 +614,17 @@
     },
     {
       "components": [
-        "python-msrest",
-        "python-msrestazure"
-      ],
-      "count": 9
-    },
-    {
-      "components": [
         "python-autopage",
         "python-cliff",
         "python-cmd2",
         "python-stestr"
+      ],
+      "count": 10
+    },
+    {
+      "components": [
+        "python-msrest",
+        "python-msrestazure"
       ],
       "count": 9
     },
@@ -691,7 +703,6 @@
     {
       "components": [
         "python-beniget",
-        "python-gast",
         "pythran"
       ],
       "count": 3
@@ -710,13 +721,6 @@
         "python-proto-plus"
       ],
       "count": 3
-    },
-    {
-      "components": [
-        "python-progressbar2",
-        "rpkg"
-      ],
-      "count": 2
     },
     {
       "components": [
@@ -748,6 +752,19 @@
         "pyproj",
         "python-geopandas",
         "python-shapely"
+      ],
+      "count": 2
+    },
+    {
+      "components": [
+        "python-autopage",
+        "python-cliff",
+        "python-cmd2",
+        "python-debtcollector",
+        "python-keystoneauth1",
+        "python-openstacksdk",
+        "python-oslo-utils",
+        "python-stestr"
       ],
       "count": 2
     }
