@@ -19,6 +19,10 @@
     "urls": [],
     "summaries": []
   },
+  "ansible-lint": {
+    "urls": [],
+    "summaries": []
+  },
   "bmap-tools": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2416984"
@@ -151,6 +155,10 @@
       "moose fails to build with Python 3.15: moose-core-3.1.5/pymoose/PyRun.h:58:24: error: \u2018Py_GetProgramName\u2019 was not declared in this scope; did you mean \u2018Py_SetProgramName\u2019?"
     ]
   },
+  "myst-nb": {
+    "urls": [],
+    "summaries": []
+  },
   "net-snmp": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2480378"
@@ -271,7 +279,15 @@
     "urls": [],
     "summaries": []
   },
-  "python-ansible-compat": {
+  "python-alembic1.14": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2434950"
+    ],
+    "summaries": [
+      "python-alembic1.14: FTBFS in Fedora rawhide/f44"
+    ]
+  },
+  "python-annarchy": {
     "urls": [],
     "summaries": []
   },
@@ -435,6 +451,10 @@
       "python-jnius: FTBFS in Fedora Rawhide: error: incompatible pointer types passing 'JNIEnv **' (aka 'const struct JNINativeInterface_ ***') to parameter of type 'void **'"
     ]
   },
+  "python-jsonpickle": {
+    "urls": [],
+    "summaries": []
+  },
   "python-jupyter-console": {
     "urls": [],
     "summaries": []
@@ -522,6 +542,14 @@
   "python-neovim": {
     "urls": [],
     "summaries": []
+  },
+  "python-numpoly": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2434998"
+    ],
+    "summaries": [
+      "python-numpoly: FTBFS in Fedora rawhide/f44"
+    ]
   },
   "python-opcodes": {
     "urls": [],
@@ -671,11 +699,11 @@
     "urls": [],
     "summaries": []
   },
-  "python-scramp": {
+  "python-sentinels": {
     "urls": [],
     "summaries": []
   },
-  "python-sentinels": {
+  "python-slackclient": {
     "urls": [],
     "summaries": []
   },
@@ -703,6 +731,14 @@
     "urls": [],
     "summaries": []
   },
+  "python-streamlink": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2458672"
+    ],
+    "summaries": [
+      "python-streamlink fails to build with Python 3.15: test_help_color: TypeError: TestPrint._color.<locals>.<lambda>() got an unexpected keyword argument 'file'"
+    ]
+  },
   "python-tornado": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2414557"
@@ -712,6 +748,10 @@
     ]
   },
   "python-tpm2-pytss": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-transforms3d": {
     "urls": [],
     "summaries": []
   },

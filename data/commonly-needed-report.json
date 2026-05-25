@@ -223,11 +223,6 @@
       ]
     },
     {
-      "component": "python-statsmodels",
-      "count": 4,
-      "prerel_abi_blocked": true
-    },
-    {
       "component": "python-Levenshtein",
       "count": 4,
       "prerel_abi_blocked": true,
@@ -366,6 +361,14 @@
       "prerel_abi_blocked": true,
       "blocked_by": [
         "llvm21"
+      ]
+    },
+    {
+      "component": "python-fiona",
+      "count": 2,
+      "prerel_abi_blocked": true,
+      "blocked_by": [
+        "python-shapely"
       ]
     }
   ],
@@ -506,7 +509,7 @@
         "python-kiwisolver",
         "python-matplotlib"
       ],
-      "count": 62
+      "count": 66
     },
     {
       "components": [
@@ -550,14 +553,6 @@
         "python-astropy",
         "python-kiwisolver",
         "python-matplotlib"
-      ],
-      "count": 3
-    },
-    {
-      "components": [
-        "python-kiwisolver",
-        "python-matplotlib",
-        "python-statsmodels"
       ],
       "count": 3
     },
@@ -653,6 +648,14 @@
         "vtk"
       ],
       "count": 2
+    },
+    {
+      "components": [
+        "pyqtwebengine",
+        "python-sqlalchemy",
+        "python-websockets"
+      ],
+      "count": 1
     }
   ],
   "dependency_loops": []

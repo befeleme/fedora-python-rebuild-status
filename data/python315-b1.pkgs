@@ -25,6 +25,7 @@ RBTools
 ServiceReport
 Silo
 SoapySDR
+TurboGears2
 WALinuxAgent
 YafaRay
 Zim
@@ -141,6 +142,7 @@ concordance
 condor
 congruity
 conu
+copr-backend
 copr-cli
 copr-dist-git
 copr-keygen
@@ -198,6 +200,7 @@ electron-cash
 electrum
 enjarify
 ephemeral-port-reserve
+eralchemy
 espresso
 esptool
 etckeeper
@@ -349,6 +352,7 @@ kalamine
 kea
 kernel
 keycloak-httpd-client-install
+keylime
 kf6-kapidox
 kf6-kcalendarcore
 kf6-kcoreaddons
@@ -430,6 +434,7 @@ libpeas1
 libpfm
 libpkgmanifest
 libplist
+libpoly
 libpst
 libpwquality
 libreoffice
@@ -678,6 +683,7 @@ pyowm
 pyp2spec
 pyparsing
 pyparted
+pyplane
 pypolicyd-spf
 pyppd
 pyscard
@@ -756,6 +762,7 @@ python-aiostream
 python-aiounifi
 python-aiounittest
 python-ajsonrpc
+python-alembic
 python-allpairspy
 python-alsa
 python-amd-debug-tools
@@ -767,10 +774,12 @@ python-annexremote
 python-annotated-doc
 python-annotated-types
 python-ansi2html
+python-ansible-compat
 python-ansible-pylibssh
 python-ansicolor
 python-anyio
 python-anyjson
+python-anykeystore
 python-anytree
 python-apkinspector
 python-appdirs
@@ -907,6 +916,7 @@ python-basis_set_exchange
 python-batalgorithm
 python-batinfo
 python-bcrypt
+python-beaker
 python-beanbag
 python-beancount
 python-beangulp
@@ -953,6 +963,7 @@ python-boto3
 python-botocore
 python-bottle
 python-bottle-sqlite
+python-boutdata
 python-boxsdk
 python-bracex
 python-branca
@@ -986,6 +997,7 @@ python-catkin_pkg
 python-cattrs
 python-cbor2
 python-cccolutils
+python-cclib
 python-cerealizer
 python-certifi
 python-cffi
@@ -1156,6 +1168,8 @@ python-damo
 python-daphne
 python-dasbus
 python-datalad
+python-datanommer-commands
+python-datanommer-models
 python-dateparser
 python-datetimerange
 python-dateutil
@@ -1357,6 +1371,7 @@ python-feedgen
 python-feedgenerator
 python-feedparser
 python-fido2
+python-filecheck
 python-filelock
 python-filetype
 python-findpython
@@ -1391,6 +1406,7 @@ python-flask-login
 python-flask-mail
 python-flask-mailman
 python-flask-mako
+python-flask-migrate
 python-flask-mongoengine
 python-flask-multistatic
 python-flask-oidc
@@ -1400,6 +1416,8 @@ python-flask-principal
 python-flask-restx
 python-flask-session
 python-flask-socketio
+python-flask-sqlalchemy
+python-flask-sqlalchemy-lite
 python-flask-talisman
 python-flask-wtf
 python-flask-wtf-decorators
@@ -1672,6 +1690,7 @@ python-jstyleson
 python-junitparser
 python-junitxml
 python-jupymake
+python-jupyter-cache
 python-jupyter-client
 python-jupyter-core
 python-jupyter-events
@@ -1727,6 +1746,7 @@ python-leather
 python-legacy-cgi
 python-lesscpy
 python-lexicon
+python-lfpykit
 python-libarchive-c
 python-libcloud
 python-libcst
@@ -1754,6 +1774,7 @@ python-lmfit
 python-localzone
 python-locket
 python-lockfile
+python-logbook
 python-logfury
 python-loguru
 python-logutils
@@ -1899,6 +1920,7 @@ python-nbconvert
 python-nbdime
 python-nbformat
 python-nbxmpp
+python-ndindex
 python-ndjson-testrunner
 python-neo
 python-nest-asyncio
@@ -1967,6 +1989,7 @@ python-openstackdocstheme
 python-openstep-plist
 python-opentelemetry-api
 python-opentypesvg
+python-optuna
 python-opytimark
 python-oras
 python-ordered-set
@@ -2046,12 +2069,14 @@ python-periodictable
 python-perky
 python-persist-queue
 python-pexpect
+python-pg8000
 python-pgspecial
 python-phonenumbers
 python-phpserialize
 python-pickleshare
 python-pid
 python-pidfile
+python-piexif
 python-pigpio
 python-pika
 python-pikepdf
@@ -2061,6 +2086,7 @@ python-pint
 python-pip
 python-pip-requirements-parser
 python-pipdeptree
+python-piper-tts
 python-pivy
 python-pkgconfig
 python-pkginfo
@@ -2204,6 +2230,7 @@ python-pykcs11
 python-pykdtree
 python-pykdumpfile
 python-pykeepass
+python-pykmip
 python-pykwalify
 python-pylero
 python-pylev
@@ -2227,6 +2254,7 @@ python-pymssql
 python-pynacl
 python-pynest2d
 python-pynetbox
+python-pynetdicom
 python-pyngus
 python-pynsgr
 python-pyobd
@@ -2272,6 +2300,7 @@ python-pysam
 python-pysb
 python-pyscf
 python-pyscipopt
+python-pyshark
 python-pyside6
 python-pysimplesoap
 python-pysingular
@@ -2424,6 +2453,7 @@ python-repoze-lru
 python-repoze-sphinx-autointerface
 python-repoze-tm2
 python-repoze-who
+python-repoze-who-plugins-sa
 python-represent
 python-requests
 python-requests-cache
@@ -2510,6 +2540,7 @@ python-scitokens
 python-scooby
 python-scour
 python-scp
+python-scramp
 python-scrape-schema-recipe
 python-scripttest
 python-scrypt
@@ -2642,6 +2673,7 @@ python-sphinxcontrib-serializinghtml
 python-sphinxcontrib-spelling
 python-sphinxcontrib-svg2pdfconverter
 python-sphinxcontrib-trio
+python-sphinxcontrib-websupport
 python-sphinxemoji
 python-sphinxext-opengraph
 python-sphinxtesters
@@ -2652,8 +2684,12 @@ python-spur
 python-spyking-circus
 python-sql
 python-sqlacodegen
+python-sqlalchemy
+python-sqlalchemy-collectd
+python-sqlalchemy-filters
 python-sqlalchemy1.3
 python-sqlalchemy1.4
+python-sqlalchemy_schemadisplay
 python-sqlglot
 python-sqlite-fts4
 python-sqlite-migrate
@@ -2727,12 +2763,14 @@ python-testrepository
 python-testresources
 python-testscenarios
 python-testtools
+python-texext
 python-text-unidecode
 python-textdistance
 python-textfsm
 python-textile
 python-texttable
 python-tftpy
+python-tgext-tw2
 python-threadpoolctl
 python-three_merge
 python-throttler
@@ -2818,6 +2856,8 @@ python-typogrify
 python-tzlocal
 python-u-boot-pylib
 python-u-msgpack-python
+python-ua-parser
+python-ua-parser-builtins
 python-uc-micro-py
 python-ufoLib2
 python-uharfbuzz
@@ -2849,6 +2889,7 @@ python-urwid
 python-urwid-readline
 python-urwidtrees
 python-usbsdmux
+python-user-agents
 python-userpath
 python-usort
 python-uswid
@@ -2872,6 +2913,7 @@ python-vedo
 python-venusian
 python-verboselogs
 python-versioneer
+python-versioningit
 python-vhacdx
 python-vine
 python-virt-firmware
@@ -2976,6 +3018,7 @@ python-zope-event
 python-zope-exceptions
 python-zope-hookable
 python-zope-interface
+python-zope-sqlalchemy
 python-zope-testing
 python-zopfli
 python-zstandard
@@ -3023,6 +3066,7 @@ rednotebook
 redshift
 relval
 remmina
+resalloc
 resalloc-ibm-cloud
 resalloc-openstack
 resultsdb_conventions
@@ -3110,6 +3154,7 @@ sundials
 superlu_dist
 swig
 sword
+sympy
 syncplay
 syndication-domination
 syslog-ng
