@@ -387,6 +387,14 @@
     "urls": [],
     "summaries": []
   },
+  "opencv": {
+    "urls": [],
+    "summaries": []
+  },
+  "openshadinglanguage": {
+    "urls": [],
+    "summaries": []
+  },
   "openvino": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2460557"
@@ -548,6 +556,10 @@
     "summaries": []
   },
   "python-apipkg": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-astropy-iers-data": {
     "urls": [],
     "summaries": []
   },
@@ -1079,14 +1091,6 @@
     ],
     "summaries": [
       "python-jnius: FTBFS in Fedora Rawhide: error: incompatible pointer types passing 'JNIEnv **' (aka 'const struct JNINativeInterface_ ***') to parameter of type 'void **'"
-    ]
-  },
-  "python-joblib": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2480167"
-    ],
-    "summaries": [
-      "python-joblib fails to build with Python 3.15: ValueError: Cannot register \"REGISTER\",\"rtype\":\"folder\",\"base64_name\" for automatic cleanup: unknown resource type. Resource type should be one of the following: ['noop', 'folder', 'file', 'semlock'"
     ]
   },
   "python-jupyter-server": {
