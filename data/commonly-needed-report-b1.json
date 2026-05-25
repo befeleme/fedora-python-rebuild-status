@@ -2,11 +2,11 @@
   "most_commonly_needed": [
     {
       "component": "python-pydantic",
-      "count": 106
+      "count": 105
     },
     {
       "component": "python-sqlalchemy",
-      "count": 77,
+      "count": 78,
       "blocked_by": [
         "python-pg8000",
         "python-scramp"
@@ -72,10 +72,6 @@
         "python-oslotest",
         "python-stestr"
       ]
-    },
-    {
-      "component": "python-joblib",
-      "count": 30
     },
     {
       "component": "sympy",
@@ -157,13 +153,6 @@
         "python-google-cloud-core",
         "python-google-cloud-storage",
         "python-proto-plus"
-      ]
-    },
-    {
-      "component": "python-scikit-learn",
-      "count": 22,
-      "blocked_by": [
-        "python-joblib"
       ]
     },
     {
@@ -352,13 +341,6 @@
       ]
     },
     {
-      "component": "python-pydantic-settings",
-      "count": 12,
-      "blocked_by": [
-        "python-pydantic"
-      ]
-    },
-    {
       "component": "python-cinderclient",
       "count": 12,
       "blocked_by": [
@@ -380,11 +362,41 @@
       ]
     },
     {
+      "component": "python-dask",
+      "count": 11,
+      "blocked_by": [
+        "python-blosc2",
+        "python-dask",
+        "python-distributed",
+        "python-ndindex",
+        "python-scikit-image",
+        "python-sqlalchemy",
+        "python-tables",
+        "python-tblib",
+        "python-xarray",
+        "python-zict"
+      ]
+    },
+    {
       "component": "python-torch",
       "count": 11,
       "blocked_by": [
         "python-peachpy",
         "sympy"
+      ]
+    },
+    {
+      "component": "python-ndindex",
+      "count": 11,
+      "blocked_by": [
+        "sympy"
+      ]
+    },
+    {
+      "component": "python-pydantic-settings",
+      "count": 11,
+      "blocked_by": [
+        "python-pydantic"
       ]
     },
     {
@@ -438,31 +450,19 @@
       ]
     },
     {
-      "component": "python-dask",
+      "component": "python-blosc2",
       "count": 10,
       "blocked_by": [
-        "python-blosc2",
-        "python-dask",
-        "python-distributed",
-        "python-ndindex",
-        "python-scikit-image",
-        "python-sqlalchemy",
-        "python-tables",
-        "python-tblib",
-        "python-xarray",
-        "python-zict"
-      ]
-    },
-    {
-      "component": "python-ndindex",
-      "count": 10,
-      "blocked_by": [
-        "sympy"
+        "python-ndindex"
       ]
     },
     {
       "component": "python-zope-testrunner",
       "count": 10
+    },
+    {
+      "component": "python-bugzilla",
+      "count": 9
     }
   ],
   "most_commonly_last_blocking": [
@@ -480,7 +480,7 @@
     },
     {
       "component": "python-sqlalchemy",
-      "count": 19,
+      "count": 20,
       "blocked_by": [
         "python-pg8000",
         "python-scramp"
@@ -533,6 +533,15 @@
       "count": 6
     },
     {
+      "component": "python-astropy",
+      "count": 5,
+      "blocked_by": [
+        "python-pytest-arraydiff",
+        "python-pytest-astropy",
+        "python-scikit-image"
+      ]
+    },
+    {
       "component": "python-dill",
       "count": 5
     },
@@ -545,15 +554,6 @@
       "count": 4,
       "blocked_by": [
         "python-pydantic"
-      ]
-    },
-    {
-      "component": "python-astropy",
-      "count": 4,
-      "blocked_by": [
-        "python-pytest-arraydiff",
-        "python-pytest-astropy",
-        "python-scikit-image"
       ]
     },
     {
@@ -622,17 +622,17 @@
     },
     {
       "components": [
+        "python-torch",
+        "sympy"
+      ],
+      "count": 8
+    },
+    {
+      "components": [
         "fedora-messaging",
         "python-crochet",
         "python-pika",
         "python-twisted"
-      ],
-      "count": 7
-    },
-    {
-      "components": [
-        "python-torch",
-        "sympy"
       ],
       "count": 7
     },
@@ -643,13 +643,6 @@
         "python-pytest-astropy"
       ],
       "count": 6
-    },
-    {
-      "components": [
-        "python-joblib",
-        "python-scikit-learn"
-      ],
-      "count": 5
     },
     {
       "components": [
@@ -665,6 +658,14 @@
         "python-cmd2",
         "python-oslotest",
         "python-stestr"
+      ],
+      "count": 4
+    },
+    {
+      "components": [
+        "python-pybtex",
+        "python-pybtex-docutils",
+        "python-sphinxcontrib-bibtex"
       ],
       "count": 4
     },
@@ -702,14 +703,6 @@
     },
     {
       "components": [
-        "python-pybtex",
-        "python-pybtex-docutils",
-        "python-sphinxcontrib-bibtex"
-      ],
-      "count": 3
-    },
-    {
-      "components": [
         "python-beniget",
         "python-gast",
         "pythran"
@@ -722,13 +715,6 @@
         "python-google-api-core",
         "python-google-auth",
         "python-proto-plus"
-      ],
-      "count": 3
-    },
-    {
-      "components": [
-        "python-et_xmlfile",
-        "python-openpyxl"
       ],
       "count": 3
     },
@@ -751,6 +737,22 @@
       "components": [
         "python-autobahn",
         "python-twisted"
+      ],
+      "count": 2
+    },
+    {
+      "components": [
+        "python-autopage",
+        "python-cliff",
+        "python-cmd2",
+        "python-django-health-check"
+      ],
+      "count": 2
+    },
+    {
+      "components": [
+        "python-oracledb",
+        "python-tblib"
       ],
       "count": 2
     }
