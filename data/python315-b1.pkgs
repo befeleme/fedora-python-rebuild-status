@@ -42,6 +42,7 @@ amdsmi
 ampy
 anaconda
 ansible-bender
+antlr4-project
 apk-tools
 appliance-tools
 apx
@@ -69,13 +70,17 @@ barman
 battray
 bcc
 beaker
+beets
 bids-schema
+bindep
 binwalk
 blivet-gui
 bluechi
 bluefish
 blueman
 blueprint-compiler
+bodhi-client
+bodhi-messages
 boom-boot
 boost
 borgbackup
@@ -126,12 +131,15 @@ coin-or-HiGHS
 colin
 collectd
 compizconfig-python
+compose-utils
 conan
 concordance
 condor
 congruity
+conu
 copr-cli
 copr-keygen
+copr-messaging
 cozy
 createrepo-agent
 createrepo_c
@@ -171,6 +179,7 @@ dnfdaemon
 dnfdragora
 dnsviz
 doge
+dogtag-pki
 dogtail
 dot2tex
 dt-schema
@@ -191,6 +200,7 @@ f3d
 fapolicy-analyzer
 fedfind
 fedora-distro-aliases
+fedora-messaging
 fedora-repro
 fedora-third-party
 file
@@ -207,6 +217,7 @@ fonts-tweak-tool
 fonttools
 fprettify
 freeipa
+freeipa-desktop-profile
 freeipa-fas
 freeipa-healthcheck
 freeradius
@@ -259,6 +270,7 @@ gnumeric
 gnuradio
 gobject-introspection
 gom
+google-auth-httplib2
 gpaw
 gpgmepy
 gphotoframe
@@ -319,6 +331,7 @@ is-it-in-rhel
 iscsi-initiator-utils
 isomd5sum
 jack-mixer
+javapackages-tools
 jello
 joft
 jrnl
@@ -344,8 +357,10 @@ kiwi
 kiwi-stackbuild-plugin
 knot
 kobo
+koji
 koji-containerbuild
 koji-flatpak
+koji-image-builder
 koji-osbuild
 kopeninghours
 krita
@@ -449,6 +464,7 @@ lttng-tools
 lttng-ust
 lutris
 lvm2
+mailman3-fedmsg-plugin-schemas
 mailnag
 mailprocessing
 manafirewall
@@ -481,6 +497,7 @@ mock
 mod_wsgi
 modpoll
 module-build
+modulemd-tools
 mogui
 morphio
 mozo
@@ -554,6 +571,7 @@ orca
 orocos-kdl
 osbs-client
 osbuild
+osh
 otf2
 pacemaker
 pagure-exporter
@@ -605,6 +623,7 @@ pssh
 ptpython
 puddletag
 pulsecaster
+pungi
 py-radix
 py-spidev
 py3status
@@ -788,6 +807,7 @@ python-augeas
 python-authheaders
 python-authlib
 python-authres
+python-autobahn
 python-autocommand
 python-autodocsumm
 python-autopep8
@@ -945,6 +965,7 @@ python-call-graph
 python-can
 python-canonicaljson
 python-capturer
+python-carbon
 python-cart
 python-casttube
 python-catkin-sphinx
@@ -1086,6 +1107,7 @@ python-crayons
 python-crc32c
 python-crcmod
 python-crick
+python-crochet
 python-cron-converter
 python-crossword
 python-crypt-r
@@ -1118,6 +1140,7 @@ python-daemon
 python-daemonize
 python-daiquiri
 python-damo
+python-daphne
 python-dasbus
 python-datalad
 python-dateparser
@@ -1158,6 +1181,7 @@ python-dicttoxml
 python-diff-cover
 python-diff-match-patch
 python-dijitso
+python-dill
 python-dirhash
 python-dirq
 python-dirty-equals
@@ -1314,6 +1338,7 @@ python-fastrand
 python-fastrlock
 python-fastuuid
 python-fauxquests
+python-fedora-image-uploader-messages
 python-fedora-sig-onboard
 python-feedgen
 python-feedgenerator
@@ -1436,6 +1461,9 @@ python-glob2
 python-gmpy2
 python-gmqtt
 python-gnupg
+python-google-auth
+python-google-auth-oauthlib
+python-google-cloud-testutils
 python-google-crc32c
 python-google-i18n-address
 python-google-resumable-media
@@ -1661,8 +1689,10 @@ python-kgb
 python-kiss-headers
 python-kitchen
 python-kiwisolver
+python-klein
 python-kmod
 python-knack
+python-koji-fedoramessaging-messages
 python-krb5
 python-kubernetes
 python-landslide
@@ -1747,6 +1777,8 @@ python-marshmallow
 python-matplotlib
 python-matplotlib-inline
 python-matplotlib-scalebar
+python-matrix-common
+python-matrix-synapse-ldap3
 python-maxminddb
 python-mbstrdecoder
 python-mccabe
@@ -1755,6 +1787,7 @@ python-mdurl
 python-mdx_gh_links
 python-meautility
 python-mechanicalsoup
+python-mechanize
 python-mediafile
 python-medimages4tests
 python-meh
@@ -1805,6 +1838,7 @@ python-more-itertools
 python-moreorless
 python-morphys
 python-mozilla-django-oidc
+python-mpd2
 python-mplcursors
 python-mpmath
 python-mrtparse
@@ -1869,6 +1903,7 @@ python-nmap
 python-nmrglue
 python-node-semver
 python-nodeenv
+python-noggin-messages
 python-noiseprotocol
 python-normality
 python-norpm
@@ -1909,6 +1944,7 @@ python-openpaperwork-core
 python-openpaperwork-gtk
 python-openqa_client
 python-opensearch-py
+python-openshift
 python-openslide
 python-openstackdocstheme
 python-openstep-plist
@@ -1935,6 +1971,7 @@ python-packaging
 python-packbits
 python-packvers
 python-paginate
+python-pagure-messages
 python-paho-mqtt
 python-palettable
 python-pam
@@ -1951,6 +1988,7 @@ python-parse_type
 python-parsedatetime
 python-parsel
 python-parsimonious
+python-parsley
 python-parso
 python-partd
 python-pass-import
@@ -1983,6 +2021,7 @@ python-pecan
 python-peewee
 python-pefile
 python-pelican
+python-pem
 python-pendulum
 python-pep8-naming
 python-periodictable
@@ -1996,6 +2035,7 @@ python-pickleshare
 python-pid
 python-pidfile
 python-pigpio
+python-pika
 python-pikepdf
 python-pillow
 python-pillow-jxl-plugin
@@ -2038,6 +2078,7 @@ python-priority
 python-process-tests
 python-productmd
 python-progress
+python-progressbar2
 python-prometheus_client
 python-prompt-toolkit
 python-promptml
@@ -2168,6 +2209,7 @@ python-pymssql
 python-pynacl
 python-pynest2d
 python-pynetbox
+python-pyngus
 python-pynsgr
 python-pyobd
 python-pyocr
@@ -2197,6 +2239,7 @@ python-pyqt6-sip
 python-pyqt6-webengine
 python-pyqtgraph
 python-pyquery
+python-pyrad
 python-pyrankvote
 python-pyrate-limiter
 python-pyrdfa3
@@ -2406,6 +2449,7 @@ python-rich-rst
 python-rjsmin
 python-rmtest
 python-rnc2rng
+python-robosignatory
 python-robot-detection
 python-roman
 python-roman-numerals
@@ -2428,6 +2472,7 @@ python-rst-linker
 python-rtslib
 python-ruamel-yaml
 python-ruamel-yaml-clib
+python-rust-update-set
 python-rustcfg
 python-rx
 python-rxjson
@@ -2636,6 +2681,7 @@ python-tabulate
 python-tamilstring
 python-tasklib
 python-tatsu
+python-tblib
 python-tcolorpy
 python-tcx2gpx
 python-tcxparser
@@ -2681,6 +2727,7 @@ python-tinycss2
 python-tinydb
 python-tinygrad
 python-tinyhtml5
+python-tinyrpc
 python-tkrzw
 python-tld
 python-tmuxp
@@ -2691,6 +2738,7 @@ python-tomli-w
 python-tomlkit
 python-toolz
 python-tornado
+python-towncrier
 python-tox
 python-tox-current-env
 python-tox-uv
@@ -2711,14 +2759,18 @@ python-trustme
 python-truststore
 python-trx-python
 python-ttfautohint-py
+python-tubes
 python-tvb-data
 python-tvb-gdist
 python-tw2-core
 python-tw2-forms
 python-twiggy
 python-twilio
+python-twisted
 python-txaio
 python-txredisapi
+python-txws
+python-txzmq
 python-typecode
 python-typecode-libmagic
 python-typeguard
@@ -2927,12 +2979,14 @@ pyzor
 qgis
 qhexedit2
 qm
+qpid-proton
 qr-code-generator
 qscintilla
 quearcode
 quisk
 quodlibet
 qutebrowser
+radicale
 ramalama
 ranger
 rb_libtorrent
@@ -2959,6 +3013,7 @@ rofimoji
 rpkg-util
 rpl
 rpm
+rpm-head-signing
 rpmconf
 rpmdeplint
 rpmlint
@@ -2992,6 +3047,7 @@ setconf
 setools
 setroubleshoot
 setzer
+showcert
 showtime
 shyaml
 shybrid
@@ -3028,7 +3084,9 @@ sundials
 superlu_dist
 swig
 sword
+syncplay
 syndication-domination
+syslog-ng
 system-config-printer
 system-storage-manager
 systemd-coredump-python
@@ -3076,6 +3134,7 @@ urh
 urjtag
 urlscan
 urlwatch
+ursa-major
 usbrelay
 ustreamer
 util-linux
@@ -3103,6 +3162,7 @@ weasyprint
 weechat
 wesnoth
 whatip
+whipper
 winpdb
 wordxtr
 xapps

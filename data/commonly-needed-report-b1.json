@@ -47,10 +47,6 @@
       ]
     },
     {
-      "component": "python-twisted",
-      "count": 48
-    },
-    {
       "component": "python-debtcollector",
       "count": 36,
       "blocked_by": [
@@ -77,7 +73,6 @@
       "component": "sympy",
       "count": 30,
       "blocked_by": [
-        "antlr4-project",
         "llvm"
       ]
     },
@@ -149,21 +144,9 @@
       "count": 24,
       "blocked_by": [
         "python-google-api-core",
-        "python-google-auth",
         "python-google-cloud-core",
         "python-google-cloud-storage",
         "python-proto-plus"
-      ]
-    },
-    {
-      "component": "python-dill",
-      "count": 22
-    },
-    {
-      "component": "python-google-auth",
-      "count": 22,
-      "blocked_by": [
-        "grpc"
       ]
     },
     {
@@ -184,7 +167,6 @@
       "count": 22,
       "blocked_by": [
         "python-google-api-core",
-        "python-google-auth",
         "python-google-cloud-core",
         "python-google-cloud-storage",
         "python-proto-plus",
@@ -196,13 +178,6 @@
         "python-snakemake-storage-plugin-s3",
         "python-sqlalchemy",
         "python-sqlmodel"
-      ]
-    },
-    {
-      "component": "koji",
-      "count": 21,
-      "blocked_by": [
-        "qpid-proton"
       ]
     },
     {
@@ -223,10 +198,7 @@
     },
     {
       "component": "python-progressbar2",
-      "count": 16,
-      "blocked_by": [
-        "python-dill"
-      ]
+      "count": 16
     },
     {
       "component": "python-osc-lib",
@@ -244,18 +216,8 @@
       ]
     },
     {
-      "component": "python-pika",
-      "count": 15,
-      "blocked_by": [
-        "python-twisted"
-      ]
-    },
-    {
       "component": "grpc",
-      "count": 15,
-      "blocked_by": [
-        "python-google-auth"
-      ]
+      "count": 14
     },
     {
       "component": "python-proto-plus",
@@ -263,7 +225,6 @@
       "blocked_by": [
         "grpc",
         "python-google-api-core",
-        "python-google-auth",
         "python-proto-plus"
       ]
     },
@@ -296,13 +257,6 @@
       "count": 13
     },
     {
-      "component": "python-crochet",
-      "count": 13,
-      "blocked_by": [
-        "python-twisted"
-      ]
-    },
-    {
       "component": "python-et_xmlfile",
       "count": 12
     },
@@ -314,20 +268,10 @@
       ]
     },
     {
-      "component": "fedora-messaging",
-      "count": 12,
-      "blocked_by": [
-        "python-crochet",
-        "python-pika",
-        "python-twisted"
-      ]
-    },
-    {
       "component": "python-google-api-core",
       "count": 12,
       "blocked_by": [
         "grpc",
-        "python-google-auth",
         "python-grpcio-gcp",
         "python-proto-plus"
       ]
@@ -372,7 +316,6 @@
         "python-scikit-image",
         "python-sqlalchemy",
         "python-tables",
-        "python-tblib",
         "python-xarray",
         "python-zict"
       ]
@@ -463,6 +406,55 @@
     {
       "component": "python-bugzilla",
       "count": 9
+    },
+    {
+      "component": "python-flexmock",
+      "count": 9,
+      "blocked_by": [
+        "python-zope-testrunner"
+      ]
+    },
+    {
+      "component": "python-pytest-astropy",
+      "count": 9,
+      "blocked_by": [
+        "python-pytest-arraydiff"
+      ]
+    },
+    {
+      "component": "python-msrestazure",
+      "count": 9,
+      "blocked_by": [
+        "python-msrest"
+      ]
+    },
+    {
+      "component": "python-hupper",
+      "count": 8,
+      "unresolvable": true
+    },
+    {
+      "component": "python-versioningit",
+      "count": 8,
+      "blocked_by": [
+        "python-pydantic"
+      ]
+    },
+    {
+      "component": "python-tables",
+      "count": 8,
+      "blocked_by": [
+        "python-blosc2",
+        "python-ndindex"
+      ]
+    },
+    {
+      "component": "python-xarray",
+      "count": 8,
+      "blocked_by": [
+        "python-dask",
+        "python-rasterio"
+      ]
     }
   ],
   "most_commonly_last_blocking": [
@@ -473,10 +465,6 @@
     {
       "component": "python-pydantic",
       "count": 28
-    },
-    {
-      "component": "python-twisted",
-      "count": 22
     },
     {
       "component": "python-sqlalchemy",
@@ -490,30 +478,16 @@
       "component": "sympy",
       "count": 9,
       "blocked_by": [
-        "antlr4-project",
         "llvm"
       ]
     },
     {
-      "component": "koji",
-      "count": 8,
-      "blocked_by": [
-        "qpid-proton"
-      ]
+      "component": "python-zope-testrunner",
+      "count": 7
     },
     {
       "component": "grpc",
-      "count": 7,
-      "blocked_by": [
-        "python-google-auth"
-      ]
-    },
-    {
-      "component": "python-google-auth",
-      "count": 7,
-      "blocked_by": [
-        "grpc"
-      ]
+      "count": 6
     },
     {
       "component": "libvirt-python",
@@ -524,13 +498,8 @@
       "component": "python-flexmock",
       "count": 6,
       "blocked_by": [
-        "python-twisted",
         "python-zope-testrunner"
       ]
-    },
-    {
-      "component": "python-zope-testrunner",
-      "count": 6
     },
     {
       "component": "python-astropy",
@@ -542,11 +511,11 @@
       ]
     },
     {
-      "component": "python-dill",
-      "count": 5
+      "component": "ansible-core",
+      "count": 4
     },
     {
-      "component": "ansible-core",
+      "component": "python-bugzilla",
       "count": 4
     },
     {
@@ -557,23 +526,8 @@
       ]
     },
     {
-      "component": "python-pytest-django",
-      "count": 4,
-      "blocked_by": [
-        "python-django-configurations"
-      ]
-    },
-    {
-      "component": "python-bugzilla",
-      "count": 3
-    },
-    {
-      "component": "python-icalendar",
-      "count": 3
-    },
-    {
       "component": "python-trimesh",
-      "count": 3,
+      "count": 4,
       "blocked_by": [
         "blender",
         "manifold",
@@ -586,10 +540,52 @@
       ]
     },
     {
+      "component": "python-pytest-django",
+      "count": 4,
+      "blocked_by": [
+        "python-django-configurations"
+      ]
+    },
+    {
+      "component": "python-shapely",
+      "count": 4,
+      "blocked_by": [
+        "pyproj"
+      ]
+    },
+    {
+      "component": "python-icalendar",
+      "count": 3
+    },
+    {
       "component": "python-zc-lockfile",
       "count": 3,
       "blocked_by": [
         "python-zope-testrunner"
+      ]
+    },
+    {
+      "component": "python-jsonpickle",
+      "count": 3,
+      "blocked_by": [
+        "python-sqlalchemy"
+      ]
+    },
+    {
+      "component": "python-lsp-server",
+      "count": 3,
+      "blocked_by": [
+        "pylint",
+        "python-pytoolconfig",
+        "python-rope"
+      ]
+    },
+    {
+      "component": "python-CacheControl",
+      "count": 3,
+      "blocked_by": [
+        "python-cherrypy",
+        "python-zc-lockfile"
       ]
     }
   ],
@@ -602,7 +598,7 @@
         "python-sqlmodel",
         "snakemake"
       ],
-      "count": 17
+      "count": 18
     },
     {
       "components": [
@@ -626,15 +622,6 @@
         "sympy"
       ],
       "count": 8
-    },
-    {
-      "components": [
-        "fedora-messaging",
-        "python-crochet",
-        "python-pika",
-        "python-twisted"
-      ],
-      "count": 7
     },
     {
       "components": [
@@ -711,23 +698,21 @@
     },
     {
       "components": [
+        "python-alembic",
+        "python-sqlalchemy"
+      ],
+      "count": 3
+    },
+    {
+      "components": [
         "grpc",
         "python-google-api-core",
-        "python-google-auth",
         "python-proto-plus"
       ],
       "count": 3
     },
     {
       "components": [
-        "pylint",
-        "python-dill"
-      ],
-      "count": 3
-    },
-    {
-      "components": [
-        "koji",
         "python-progressbar2",
         "rpkg"
       ],
@@ -735,8 +720,8 @@
     },
     {
       "components": [
-        "python-autobahn",
-        "python-twisted"
+        "python-fastapi",
+        "python-pydantic"
       ],
       "count": 2
     },
@@ -751,8 +736,18 @@
     },
     {
       "components": [
-        "python-oracledb",
-        "python-tblib"
+        "python-eth-utils",
+        "python-hexbytes",
+        "python-pydantic",
+        "python-rlp"
+      ],
+      "count": 2
+    },
+    {
+      "components": [
+        "pyproj",
+        "python-geopandas",
+        "python-shapely"
       ],
       "count": 2
     }

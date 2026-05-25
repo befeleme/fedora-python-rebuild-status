@@ -3,11 +3,19 @@
     "urls": [],
     "summaries": []
   },
-  "ansible-core": {
+  "alot": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2460533"
+    ],
+    "summaries": [
+      "alot fails to build with Python 3.15: TypeError: 'Mock' object cannot be interpreted as an integer"
+    ]
+  },
+  "ansible-builder": {
     "urls": [],
     "summaries": []
   },
-  "beets": {
+  "ansible-core": {
     "urls": [],
     "summaries": []
   },
@@ -63,6 +71,14 @@
       "fail2ban fails to build with Python 3.15: AttributeError: 'SourceFileLoader' object has no attribute 'load_module'. Did you mean: 'exec_module'?"
     ]
   },
+  "flatpak-module-tools": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2453823"
+    ],
+    "summaries": [
+      "flatpak-module-tools fails to build with setuptools_scm 10+"
+    ]
+  },
   "gdal": {
     "urls": [],
     "summaries": []
@@ -71,13 +87,9 @@
     "urls": [],
     "summaries": []
   },
-  "javapackages-tools": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2414799"
-    ],
-    "summaries": [
-      "javapackages-tools fails to build with Python 3.15: AssertionError in TestMvnBuild.test_builddep"
-    ]
+  "grpc": {
+    "urls": [],
+    "summaries": []
   },
   "jc": {
     "urls": [
@@ -163,6 +175,10 @@
     "urls": [],
     "summaries": []
   },
+  "paraview": {
+    "urls": [],
+    "summaries": []
+  },
   "petsc": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2440567"
@@ -186,6 +202,10 @@
     "summaries": [
       "[heads up] pykakasi will fail to build with Sphinx 9+ in Fedora 45: sphinx.errors.SphinxError: cannot determine default role!"
     ]
+  },
+  "pylint": {
+    "urls": [],
+    "summaries": []
   },
   "pyproj": {
     "urls": [],
@@ -317,14 +337,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-dill": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2479741"
-    ],
-    "summaries": [
-      "python-dill fails to build with Python 3.15: AttributeError: 'code' object has no attribute 'co_lnotab'. Did you mean '.co_linetable' instead of '.co_lnotab'?"
-    ]
-  },
   "python-django-angular": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2434976"
@@ -447,6 +459,10 @@
     "urls": [],
     "summaries": []
   },
+  "python-lmfit": {
+    "urls": [],
+    "summaries": []
+  },
   "python-markdown-callouts": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2434991"
@@ -511,6 +527,14 @@
       "python-msrest fails to build with Python 3.15: AssertionErrors in two TestServiceClient::test_client_send"
     ]
   },
+  "python-multiprocess": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2442368"
+    ],
+    "summaries": [
+      "python-multiprocess fails to build with Python 3.15: ValueError: Globs did not match any module: _multiprocess"
+    ]
+  },
   "python-nagiosplugin": {
     "urls": [],
     "summaries": []
@@ -526,6 +550,14 @@
   "python-opfunu": {
     "urls": [],
     "summaries": []
+  },
+  "python-opytimizer": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2435001"
+    ],
+    "summaries": [
+      "python-opytimizer: FTBFS in Fedora rawhide/f44"
+    ]
   },
   "python-phply": {
     "urls": [],
@@ -723,6 +755,14 @@
       "python-translitcodec fails to build with Python 3.15: 8 tests failing with LookupError: unknown encoding: translit/*"
     ]
   },
+  "python-treq": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2440191"
+    ],
+    "summaries": [
+      "[heads up] python-treq will fail to build with Sphinx 9+ in Fedora 45: sphinx.errors.SphinxError: cannot determine default role!"
+    ]
+  },
   "python-triton": {
     "urls": [],
     "summaries": []
@@ -783,14 +823,6 @@
     ],
     "summaries": [
       "pywhispercpp fails to build with setuptools_scm 10+"
-    ]
-  },
-  "qpid-proton": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2381112"
-    ],
-    "summaries": [
-      "qpid-proton: FTBFS with change proposal CMake: Use ninja generator by default"
     ]
   },
   "re2": {
