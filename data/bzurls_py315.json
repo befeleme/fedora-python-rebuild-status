@@ -227,10 +227,6 @@
     "urls": [],
     "summaries": []
   },
-  "grpc": {
-    "urls": [],
-    "summaries": []
-  },
   "ipython": {
     "urls": [],
     "summaries": []
@@ -396,10 +392,18 @@
     ]
   },
   "osc": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2481412"
+    ],
+    "summaries": [
+      "osc fails to build with Python 3.15: TypeError: OscArgumentParser._get_formatter() got an unexpected keyword argument 'file'"
+    ]
+  },
+  "osh": {
     "urls": [],
     "summaries": []
   },
-  "osh": {
+  "paraview": {
     "urls": [],
     "summaries": []
   },
@@ -444,8 +448,12 @@
     "summaries": []
   },
   "pylint": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2481413"
+    ],
+    "summaries": [
+      "pylint fails to build with Python 3.15: 4 test failures: ModuleNotFoundError: 'namespace_package' must be imported before finding 'namespace_package.lower_level'."
+    ]
   },
   "pyp2rpm": {
     "urls": [
@@ -969,14 +977,6 @@
       "python-ftfy: FTBFS in Fedora Rawhide: failed doctest: ftfy.formatting.monospaced_width"
     ]
   },
-  "python-gast": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2479748"
-    ],
-    "summaries": [
-      "python-gast fails to build with Python 3.15: TypeError: ast.TypeAlias.__init__ missing 2 required positional arguments: 'name' and 'value'"
-    ]
-  },
   "python-genshi": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2479749"
@@ -986,10 +986,6 @@
     ]
   },
   "python-geomdl": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-geopmpy": {
     "urls": [],
     "summaries": []
   },
@@ -1010,8 +1006,12 @@
     "summaries": []
   },
   "python-huggingface-hub": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2481411"
+    ],
+    "summaries": [
+      "python-huggingface-hub fails to build with Python 3.15: ImportError: cannot import name '_MISSING_TYPE' from 'dataclasses' (/usr/lib64/python3.15/dataclasses.py)"
+    ]
   },
   "python-hupper": {
     "urls": [
@@ -1064,6 +1064,10 @@
     "summaries": [
       "python-jnius: FTBFS in Fedora Rawhide: error: incompatible pointer types passing 'JNIEnv **' (aka 'const struct JNINativeInterface_ ***') to parameter of type 'void **'"
     ]
+  },
+  "python-jsonpickle": {
+    "urls": [],
+    "summaries": []
   },
   "python-jupyter-server": {
     "urls": [],
@@ -1132,8 +1136,12 @@
     ]
   },
   "python-markdown-exec": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2481410"
+    ],
+    "summaries": [
+      "python-markdown-exec fails to build with Python 3.15: test_output_markdown: assert '<span class=\"hll\">' in '<p><code>bash hl_lines=\"2\"\\n\ud83d\udcc4 1\\n\ud83d\udcc4 2\\n\ud83d\udcc4 3</code></p>'"
+    ]
   },
   "python-mathics-scanner": {
     "urls": [],
@@ -1494,8 +1502,12 @@
     "summaries": []
   },
   "python-sentinels": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2481441"
+    ],
+    "summaries": [
+      "python-sentinels: FTBFS in Fedora Rawhide: TypeError: /builddir/build/BUILD/python-sentinels-1.1.1-build/sentinels-1.1.1/pyproject.toml: config option 'testpaths' expects a list for type 'args', got str: 'tests'"
+    ]
   },
   "python-sentry-sdk": {
     "urls": [],
@@ -1704,12 +1716,8 @@
     ]
   },
   "python-xmlschema": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2479761"
-    ],
-    "summaries": [
-      "python-xmlschema fails to build with Python 3.15: test_get_obj_as_string: AssertionError: False is not true"
-    ]
+    "urls": [],
+    "summaries": []
   },
   "python-zarr": {
     "urls": [
@@ -1824,8 +1832,12 @@
     ]
   },
   "rrdtool": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2481409"
+    ],
+    "summaries": [
+      "rrdtool: FTBFS in Fedora Rawhide: File not found: /builddir/build/BUILD/rrdtool-1.10.3-build/BUILDROOT/usr/lib64/python3.14/site-packages/rrdtool*.so"
+    ]
   },
   "samba": {
     "urls": [],

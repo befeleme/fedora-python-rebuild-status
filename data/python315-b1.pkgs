@@ -174,6 +174,7 @@ devscripts
 dftd4
 diceware
 did
+diffoscope
 diskimage-builder
 dist-git-client
 distcc
@@ -210,6 +211,9 @@ etckeeper
 evemu
 f3d
 fapolicy-analyzer
+fastapi-cloud-cli
+fastapi-new
+fawltydeps
 fedfind
 fedora-distro-aliases
 fedora-messaging
@@ -217,6 +221,7 @@ fedora-repro
 fedora-review
 fedora-third-party
 fedpkg
+fedrq
 file
 firewalld
 firmitas
@@ -227,6 +232,7 @@ flowblade
 fmf
 fmf-jinja
 fontforge
+fontmake
 fonts-tweak-tool
 fonttools
 fprettify
@@ -253,6 +259,7 @@ getdp
 getmail6
 gherkin
 gi-docgen
+gi-loadouts
 git-archive-all
 git-cola
 git-fame
@@ -265,6 +272,7 @@ gitg
 gitlint
 gjots2
 glade
+glances
 glaxnimate
 globus-net-manager
 glusterfs
@@ -332,6 +340,7 @@ i2c-tools
 ibus
 ibus-cangjie
 ikiwiki
+ilua
 imagefactory
 imagefactory-plugins
 imath
@@ -339,6 +348,7 @@ impressive
 ini2toml
 initial-setup
 inn
+input-remapper
 insight
 intelhex
 ipsilon
@@ -370,10 +380,12 @@ kf6-kunitconversion
 kf6-kwidgetsaddons
 kf6-kxmlgui
 khard
+kicad
 kig
 kiwi
 kiwi-stackbuild-plugin
 knot
+koan
 kobo
 koji
 koji-containerbuild
@@ -419,6 +431,7 @@ libgexiv2
 libgexiv2_0.14
 libgit2-glib
 libgpiod
+libguestfs
 libiio
 libiptcdata
 libixion
@@ -462,6 +475,8 @@ libtevent
 libucl
 libunity
 libuser
+libvirt-python
+libvirt-test-API
 libvoikko
 libxc
 libxml2
@@ -574,6 +589,7 @@ omniORBpy
 onionshare
 onnx
 onnxruntime
+openapi-python-client
 openbabel
 opencv
 openmeeg
@@ -596,6 +612,7 @@ osbs-client
 osbuild
 osh
 otf2
+oz
 pacemaker
 pagure-exporter
 pam_wrapper
@@ -781,6 +798,7 @@ python-amd-debug-tools
 python-amqp
 python-ana
 python-androguard
+python-animatplot
 python-aniso8601
 python-annarchy
 python-annexremote
@@ -789,6 +807,7 @@ python-annotated-types
 python-ansi2html
 python-ansible-compat
 python-ansible-pylibssh
+python-ansible-runner
 python-ansicolor
 python-anyio
 python-anyjson
@@ -819,6 +838,7 @@ python-asgi-lifespan
 python-asgiref
 python-asn1
 python-asn1crypto
+python-asn1tools
 python-aspy.yaml
 python-assertpy
 python-astdoc
@@ -1105,6 +1125,7 @@ python-coloredlogs
 python-colorful
 python-colorlog
 python-colormath2
+python-colorspacious
 python-colorzero
 python-colour
 python-columnar
@@ -1180,6 +1201,7 @@ python-cvss
 python-cvxopt
 python-cwcwidth
 python-cycler
+python-cyclopts
 python-cymruwhois
 python-cyseq
 python-cytoolz
@@ -1188,6 +1210,7 @@ python-daemon
 python-daemonize
 python-daiquiri
 python-damo
+python-dandischema
 python-daphne
 python-dasbus
 python-dask
@@ -1232,12 +1255,14 @@ python-dictdiffer
 python-dicttoxml
 python-diff-cover
 python-diff-match-patch
+python-digitalocean
 python-dijitso
 python-dill
 python-dirhash
 python-dirq
 python-dirty-equals
 python-discovery
+python-diskcache
 python-distlib
 python-distro
 python-distroinfo
@@ -1249,6 +1274,7 @@ python-django-authority
 python-django-cache-url
 python-django-clacks
 python-django-compressor
+python-django-configurations
 python-django-cors-headers
 python-django-crispy-forms
 python-django-database-url
@@ -1289,6 +1315,7 @@ python-djangoql
 python-dkimpy
 python-dmidecode
 python-dns
+python-dns-lexicon
 python-dnslib
 python-docker
 python-docker-pycreds
@@ -1305,6 +1332,7 @@ python-dogpile-cache
 python-domdf-python-tools
 python-dotenv
 python-dotmap
+python-doubleratchet
 python-doxypypy
 python-doxyqml
 python-doxytag2zealdb
@@ -1312,6 +1340,7 @@ python-dparse2
 python-dpath
 python-dpkt
 python-dragonmapper
+python-drain3
 python-drgn
 python-dropbox
 python-dtoc
@@ -1332,6 +1361,7 @@ python-edgegrid
 python-editables
 python-editor
 python-editorconfig
+python-eip712
 python-elementpath
 python-email-validator
 python-embreex
@@ -1350,10 +1380,18 @@ python-ephem
 python-ephyviewer
 python-esbonio
 python-etcd3
+python-eth-abi
+python-eth-account
 python-eth-bloom
 python-eth-hash
+python-eth-keyfile
+python-eth-keys
+python-eth-pydantic-types
+python-eth-rlp
 python-eth-stdlib
+python-eth-tester
 python-eth-typing
+python-eth-utils
 python-ethtool
 python-evalidate
 python-evdev
@@ -1381,6 +1419,7 @@ python-fakeredis
 python-falcon
 python-fasjson-client
 python-fast-simplification
+python-fastapi
 python-fastar
 python-fastavro
 python-fastbencode
@@ -1521,6 +1560,7 @@ python-glad2
 python-glanceclient
 python-glfw
 python-glob2
+python-glyphsLib
 python-gmpy2
 python-gmqtt
 python-gnupg
@@ -1569,6 +1609,7 @@ python-hdmf
 python-heapdict
 python-heatclient
 python-helpdev
+python-hexbytes
 python-hexdump
 python-hgapi
 python-hglib
@@ -1599,6 +1640,7 @@ python-httpsig-cffi
 python-httptools
 python-httpx
 python-httpx-socks
+python-httpx-sse
 python-huami-token
 python-humanfriendly
 python-humanize
@@ -1646,6 +1688,7 @@ python-iniparse
 python-inject
 python-injector
 python-inkex
+python-inline-snapshot
 python-inotify_simple
 python-inspyred
 python-installer
@@ -1715,12 +1758,14 @@ python-jq
 python-jsmin
 python-json-logger
 python-json-minify
+python-json-repair
 python-json5
 python-jsondiff
 python-jsonfeed-util
 python-jsonformatter
 python-jsonpatch
 python-jsonpath-ng
+python-jsonpickle
 python-jsonpointer
 python-jsonref
 python-jsonrpclib
@@ -1734,6 +1779,7 @@ python-junitxml
 python-jupymake
 python-jupyter-cache
 python-jupyter-client
+python-jupyter-console
 python-jupyter-core
 python-jupyter-events
 python-jupyter-kernel-singular
@@ -1812,6 +1858,8 @@ python-litellm-proxy-extras
 python-littleutils
 python-livereload
 python-llfuse
+python-llm
+python-llm-echo
 python-llvmlite
 python-lmdb
 python-lmfit
@@ -1864,6 +1912,7 @@ python-matrix-synapse-ldap3
 python-maxminddb
 python-mbstrdecoder
 python-mccabe
+python-mcp
 python-mdit-py-plugins
 python-mdurl
 python-mdx_gh_links
@@ -1874,10 +1923,12 @@ python-mediafile
 python-medimages4tests
 python-meh
 python-memcached
+python-menuinst
 python-mercantile
 python-merge3
 python-mergedeep
 python-meson-python
+python-metakernel
 python-metar
 python-mf2py
 python-micawber
@@ -1889,12 +1940,14 @@ python-minidb
 python-minikerberos
 python-minimock
 python-mirakuru
+python-mirrors-countme
 python-missingno
 python-mistralclient
 python-mistune
 python-mitogen
 python-mkdocs-autorefs
 python-mkdocs-click
+python-mkdocs-d2-plugin
 python-mkdocs-gen-files
 python-mkdocs-get-deps
 python-mkdocs-git-authors-plugin
@@ -1947,6 +2000,7 @@ python-multitasking
 python-munch
 python-munkres
 python-murmurhash
+python-music21
 python-musicbrainzngs
 python-mutagen
 python-mutf8
@@ -1966,6 +2020,7 @@ python-nbclient
 python-nbconvert
 python-nbdime
 python-nbformat
+python-nbsphinx
 python-nbxmpp
 python-ndindex
 python-ndjson-testrunner
@@ -2013,18 +2068,25 @@ python-oauth
 python-oauth2
 python-oauth2client
 python-oauthlib
+python-oci
 python-octaviaclient
 python-odata-query
 python-ofxparse
+python-oldmemo
 python-olefile
 python-oletools
+python-ollama
 python-omemo
 python-omlmd
 python-omsdk
 python-onionbalance
 python-op1repacker
 python-op1svg
+python-openai
 python-openant
+python-openapi-pydantic
+python-openapi-schema-validator
+python-openapi-spec-validator
 python-opencensus-proto
 python-openid-cla
 python-openid-teams
@@ -2044,8 +2106,10 @@ python-openstep-plist
 python-opentelemetry-api
 python-opentypesvg
 python-opnsense
+python-optking
 python-optuna
 python-opytimark
+python-oracledb
 python-oras
 python-ordered-set
 python-orderly-set
@@ -2152,6 +2216,7 @@ python-pip-requirements-parser
 python-pipdeptree
 python-piper-tts
 python-pivy
+python-pkg-depgraph
 python-pkgconfig
 python-pkginfo
 python-plaster
@@ -2202,6 +2267,7 @@ python-pskc
 python-psutil
 python-psycopg2
 python-psycopg3
+python-psygnal
 python-ptrace
 python-ptyprocess
 python-publicsuffix2
@@ -2221,6 +2287,7 @@ python-py-tes
 python-py-walk
 python-py3nvml
 python-pyModbusTCP
+python-py_ecc
 python-pyaes
 python-pyahocorasick
 python-pyaib
@@ -2230,6 +2297,8 @@ python-pyasynchat
 python-pyasyncore
 python-pybbi
 python-pybeam
+python-pybtex
+python-pybtex-docutils
 python-pycares
 python-pycayennelpp
 python-pycdio
@@ -2247,7 +2316,10 @@ python-pycparser
 python-pycryptodomex
 python-pycurl
 python-pycxx
+python-pydantic
 python-pydantic-core
+python-pydantic-extra-types
+python-pydantic-settings
 python-pydapsys
 python-pydaraja
 python-pydata-sphinx-theme
@@ -2268,6 +2340,7 @@ python-pyface
 python-pyfakefs
 python-pyfiglet
 python-pyflame
+python-pyforgejo
 python-pyformlang
 python-pyftdi
 python-pyftpdlib
@@ -2404,6 +2477,7 @@ python-pytest-cov
 python-pytest-datadir
 python-pytest-datafiles
 python-pytest-dependency
+python-pytest-django
 python-pytest-doctestplus
 python-pytest-env
 python-pytest-expect
@@ -2464,7 +2538,9 @@ python-pytest-xprocess
 python-pytest-xvfb
 python-python-fcl
 python-python-multipart
+python-python-ulid
 python-pytn3270
+python-pytoolconfig
 python-pytools
 python-pytzdata
 python-pyuca
@@ -2483,6 +2559,8 @@ python-pyyaml-env-tag
 python-pyzabbix
 python-pyzolib
 python-pyzstd
+python-qcelemental
+python-qcengine
 python-qcustomplot-pyqt
 python-qdarkstyle
 python-qemu-qmp
@@ -2565,7 +2643,10 @@ python-rich
 python-rich-argparse
 python-rich-click
 python-rich-rst
+python-rich-toolkit
+python-rignore
 python-rjsmin
+python-rlp
 python-rmtest
 python-rnc2rng
 python-robosignatory
@@ -2573,6 +2654,7 @@ python-robot-detection
 python-robotframework
 python-roman
 python-roman-numerals
+python-rope
 python-rosdep
 python-rosdistro
 python-rosinstall_generator
@@ -2591,6 +2673,7 @@ python-rsa
 python-rsd-lib
 python-rsdclient
 python-rst-linker
+python-rstcheck-core
 python-rtslib
 python-ruamel-yaml
 python-ruamel-yaml-clib
@@ -2608,6 +2691,7 @@ python-schedutils
 python-schema
 python-scikit-build-core
 python-scikit-learn
+python-scikit-uplift
 python-scipy-doctest
 python-scitokens
 python-scooby
@@ -2615,6 +2699,7 @@ python-scour
 python-scp
 python-scramp
 python-scrape-schema-recipe
+python-scrapy
 python-scripttest
 python-scrypt
 python-sdkmanager
@@ -2735,6 +2820,7 @@ python-sphinx_rtd_theme
 python-sphinx_selective_exclude
 python-sphinxcontrib-apidoc
 python-sphinxcontrib-autoprogram
+python-sphinxcontrib-bibtex
 python-sphinxcontrib-devhelp
 python-sphinxcontrib-doxylink
 python-sphinxcontrib-globalsubs
@@ -2763,6 +2849,7 @@ python-sqlacodegen
 python-sqlalchemy
 python-sqlalchemy-collectd
 python-sqlalchemy-filters
+python-sqlalchemy-helpers
 python-sqlalchemy-utils
 python-sqlalchemy1.3
 python-sqlalchemy1.4
@@ -2771,8 +2858,10 @@ python-sqlglot
 python-sqlite-fts4
 python-sqlite-migrate
 python-sqlite-utils
+python-sqlmodel
 python-sqlparse
 python-ssdeep
+python-sse-starlette
 python-ssh-python
 python-stack-data
 python-standard-mailcap
@@ -2789,17 +2878,20 @@ python-stestr
 python-stevedore
 python-stone
 python-straight-plugin
+python-stravalib
 python-strict-rfc3339
 python-string_utils
 python-stripe
 python-stuf
 python-subliminal
 python-subprocess-tee
+python-succulent
 python-suds
 python-super-collections
 python-superqt
 python-supersmoother
 python-sure
+python-surt
 python-sushy
 python-svg
 python-svg-path
@@ -2810,6 +2902,7 @@ python-swagger-spec-validator
 python-swiftclient
 python-sybil
 python-symengine
+python-syrupy
 python-syslog-rfc5424-formatter
 python-sysrsync
 python-systemd
@@ -2851,6 +2944,7 @@ python-textdistance
 python-textfsm
 python-textile
 python-texttable
+python-textual
 python-tftpy
 python-tgext-tw2
 python-threadpoolctl
@@ -2871,6 +2965,7 @@ python-tinyhtml5
 python-tinyrpc
 python-tkrzw
 python-tld
+python-tldextract
 python-tmuxp
 python-token-bucket
 python-tokenize-rt
@@ -2891,6 +2986,7 @@ python-trampoline
 python-transaction
 python-translationstring
 python-trezor
+python-trie
 python-trio
 python-trio-websocket
 python-trml2pdf
@@ -2909,6 +3005,7 @@ python-tw2-forms
 python-twiggy
 python-twilio
 python-twisted
+python-twomemo
 python-txaio
 python-txredisapi
 python-txws
@@ -2942,6 +3039,7 @@ python-u-msgpack-python
 python-ua-parser
 python-ua-parser-builtins
 python-uc-micro-py
+python-ufo2ft
 python-ufoLib2
 python-uharfbuzz
 python-uhashring
@@ -2956,6 +3054,7 @@ python-unidecode
 python-unidiff
 python-unipath
 python-unique-log-filter
+python-universal-pathlib
 python-unix-ar
 python-unpaddedbase64
 python-untangle
@@ -3000,6 +3099,7 @@ python-versioningit
 python-vhacdx
 python-vine
 python-virt-firmware
+python-virtualbmc
 python-virtualenv
 python-virtualenv-api
 python-virtualenv-clone
@@ -3051,8 +3151,10 @@ python-wtf-peewee
 python-wtforms
 python-wurlitzer
 python-www-authenticate
+python-wxnatpy
 python-wxpython4
 python-x2go
+python-x3dh
 python-xapian-haystack
 python-xattr
 python-xcffib
@@ -3067,10 +3169,13 @@ python-xlrd2
 python-xlsxwriter
 python-xlwt
 python-xml2rfc
+python-xmlschema
 python-xmlsec
 python-xmltodict
 python-xmltramp
 python-xmp-toolkit
+python-xnat
+python-xnat4tests
 python-xrst
 python-xvfbwrapper
 python-xword-dl
@@ -3194,6 +3299,7 @@ s-tui
 s3cmd
 salt
 salt-lint
+samba
 sasutils
 satyr
 scapy
@@ -3264,6 +3370,7 @@ tbb
 tcl-snack
 teampulls
 terminator
+testcloud
 texworks
 theme-switcher
 thrift
@@ -3272,6 +3379,7 @@ timeline
 tito
 tldr
 tlsh
+tmt
 todocli
 tomcli
 toot
@@ -3319,13 +3427,17 @@ vigra
 vim-jedi
 vimiv
 vimiv-qt
+virt-bootstrap
+virt-lightning
 virt-who
+virtnbdbackup
 visidata
 vit
 volk
 volume_key
 vorta
 vtk
+vyper
 waf
 wafw00f
 weasyprint

@@ -1,31 +1,17 @@
 {
   "most_commonly_needed": [
     {
-      "component": "python-pydantic",
-      "count": 105
-    },
-    {
       "component": "python-msrest",
       "count": 57
-    },
-    {
-      "component": "python-sqlmodel",
-      "count": 25,
-      "blocked_by": [
-        "python-fastapi",
-        "python-pydantic"
-      ]
     },
     {
       "component": "snakemake",
       "count": 22,
       "blocked_by": [
-        "python-pydantic",
         "python-snakemake-executor-plugin-cluster-generic",
         "python-snakemake-storage-plugin-fs",
         "python-snakemake-storage-plugin-http",
-        "python-snakemake-storage-plugin-s3",
-        "python-sqlmodel"
+        "python-snakemake-storage-plugin-s3"
       ]
     },
     {
@@ -42,13 +28,6 @@
         "python-pytest-arraydiff",
         "python-pytest-astropy",
         "python-scikit-image"
-      ]
-    },
-    {
-      "component": "python-eth-utils",
-      "count": 14,
-      "blocked_by": [
-        "python-pydantic"
       ]
     },
     {
@@ -72,18 +51,6 @@
       "blocked_by": [
         "python-peachpy"
       ]
-    },
-    {
-      "component": "python-pydantic-settings",
-      "count": 11,
-      "blocked_by": [
-        "python-pydantic"
-      ]
-    },
-    {
-      "component": "libvirt-python",
-      "count": 10,
-      "unresolvable": true
     },
     {
       "component": "python-pytest-arraydiff",
@@ -119,20 +86,6 @@
       ]
     },
     {
-      "component": "python-pytest-django",
-      "count": 8,
-      "blocked_by": [
-        "python-django-configurations"
-      ]
-    },
-    {
-      "component": "python-inline-snapshot",
-      "count": 8,
-      "blocked_by": [
-        "python-pydantic"
-      ]
-    },
-    {
       "component": "python-plaster-pastedeploy",
       "count": 7
     },
@@ -144,30 +97,8 @@
       ]
     },
     {
-      "component": "python-pybtex",
-      "count": 7
-    },
-    {
       "component": "libmamba",
       "count": 7
-    },
-    {
-      "component": "python-menuinst",
-      "count": 7,
-      "blocked_by": [
-        "conda",
-        "libmamba",
-        "python-menuinst",
-        "python-pydantic"
-      ]
-    },
-    {
-      "component": "python-hexbytes",
-      "count": 7,
-      "blocked_by": [
-        "python-eth-utils",
-        "python-pydantic"
-      ]
     },
     {
       "component": "python-niapy",
@@ -191,57 +122,15 @@
       "unresolvable": true
     },
     {
-      "component": "python-fastapi",
-      "count": 6,
-      "blocked_by": [
-        "fastapi-cli",
-        "fastapi-cloud-cli",
-        "python-inline-snapshot",
-        "python-pydantic",
-        "python-pydantic-extra-types",
-        "python-pydantic-settings",
-        "python-rich-toolkit",
-        "python-rignore",
-        "python-sqlmodel"
-      ]
-    },
-    {
       "component": "python-beartype",
       "count": 6
-    },
-    {
-      "component": "python-jsonpickle",
-      "count": 6
-    },
-    {
-      "component": "python-diskcache",
-      "count": 6,
-      "blocked_by": [
-        "python-pytest-django"
-      ]
-    },
-    {
-      "component": "python-pybtex-docutils",
-      "count": 6,
-      "blocked_by": [
-        "python-pybtex"
-      ]
     },
     {
       "component": "conda",
       "count": 6,
       "blocked_by": [
         "conda",
-        "libmamba",
-        "python-menuinst"
-      ]
-    },
-    {
-      "component": "python-rlp",
-      "count": 6,
-      "blocked_by": [
-        "python-eth-utils",
-        "python-pydantic"
+        "libmamba"
       ]
     },
     {
@@ -264,33 +153,12 @@
       ]
     },
     {
-      "component": "python-python-ulid",
-      "count": 5,
-      "blocked_by": [
-        "python-pydantic"
-      ]
-    },
-    {
-      "component": "python-openai",
-      "count": 5,
-      "blocked_by": [
-        "python-pydantic"
-      ]
-    },
-    {
       "component": "python-readme-renderer",
       "count": 5
     },
     {
       "component": "python-huggingface-hub",
       "count": 5
-    },
-    {
-      "component": "python-tldextract",
-      "count": 5,
-      "blocked_by": [
-        "python-syrupy"
-      ]
     },
     {
       "component": "python-trimesh",
@@ -303,31 +171,6 @@
         "python-scikit-image",
         "python-shapely",
         "usd"
-      ]
-    },
-    {
-      "component": "python-sphinxcontrib-bibtex",
-      "count": 5,
-      "blocked_by": [
-        "python-pybtex",
-        "python-pybtex-docutils"
-      ]
-    },
-    {
-      "component": "python-eth-keys",
-      "count": 5,
-      "blocked_by": [
-        "python-asn1tools",
-        "python-eth-utils",
-        "python-pydantic"
-      ]
-    },
-    {
-      "component": "python-eth-abi",
-      "count": 5,
-      "blocked_by": [
-        "python-eth-utils",
-        "python-pydantic"
       ]
     },
     {
@@ -344,8 +187,129 @@
       "component": "python-celery",
       "count": 4,
       "blocked_by": [
-        "python-kombu",
-        "python-pydantic"
+        "python-kombu"
+      ]
+    },
+    {
+      "component": "python-django-allauth",
+      "count": 4
+    },
+    {
+      "component": "gdal",
+      "count": 4
+    },
+    {
+      "component": "python-decopatch",
+      "count": 4,
+      "blocked_by": [
+        "python-decopatch",
+        "python-pytest-cases"
+      ]
+    },
+    {
+      "component": "pylint",
+      "count": 4
+    },
+    {
+      "component": "python-niaaml",
+      "count": 3,
+      "blocked_by": [
+        "python-et_xmlfile",
+        "python-niapy",
+        "python-openpyxl"
+      ]
+    },
+    {
+      "component": "python-sshtunnel",
+      "count": 3
+    },
+    {
+      "component": "python-django-mailman3",
+      "count": 3,
+      "blocked_by": [
+        "python-django-allauth"
+      ]
+    },
+    {
+      "component": "python-lazr-delegates",
+      "count": 3
+    },
+    {
+      "component": "python-pytest-subtests",
+      "count": 3
+    },
+    {
+      "component": "python-astropy-healpix",
+      "count": 3,
+      "blocked_by": [
+        "python-astropy",
+        "python-pytest-arraydiff",
+        "python-pytest-astropy"
+      ]
+    },
+    {
+      "component": "python-rasterio",
+      "count": 3,
+      "blocked_by": [
+        "python-shapely"
+      ]
+    },
+    {
+      "component": "pythran",
+      "count": 3
+    },
+    {
+      "component": "python-zict",
+      "count": 3
+    },
+    {
+      "component": "python-futurist",
+      "count": 3,
+      "blocked_by": [
+        "python-eventlet"
+      ]
+    },
+    {
+      "component": "python-lsp-server",
+      "count": 3,
+      "blocked_by": [
+        "pylint"
+      ]
+    },
+    {
+      "component": "myst-nb",
+      "count": 3
+    },
+    {
+      "component": "python-pcodedmp",
+      "count": 3,
+      "blocked_by": [
+        "python-pcodedmp"
+      ]
+    },
+    {
+      "component": "python-azure-mgmt-storage",
+      "count": 2,
+      "blocked_by": [
+        "python-msrest"
+      ]
+    },
+    {
+      "component": "python-nifti-mrs",
+      "count": 2,
+      "blocked_by": [
+        "python-fslpy"
+      ]
+    },
+    {
+      "component": "usd",
+      "count": 2
+    },
+    {
+      "component": "python-spdx-tools",
+      "count": 2,
+      "blocked_by": [
+        "python-beartype"
       ]
     }
   ],
@@ -355,20 +319,21 @@
       "count": 45
     },
     {
-      "component": "python-pydantic",
-      "count": 30
-    },
-    {
-      "component": "python-torch",
-      "count": 8,
+      "component": "snakemake",
+      "count": 19,
       "blocked_by": [
-        "python-peachpy"
+        "python-snakemake-executor-plugin-cluster-generic",
+        "python-snakemake-storage-plugin-fs",
+        "python-snakemake-storage-plugin-http",
+        "python-snakemake-storage-plugin-s3"
       ]
     },
     {
-      "component": "libvirt-python",
-      "count": 7,
-      "unresolvable": true
+      "component": "python-torch",
+      "count": 9,
+      "blocked_by": [
+        "python-peachpy"
+      ]
     },
     {
       "component": "python-astropy",
@@ -377,13 +342,6 @@
         "python-pytest-arraydiff",
         "python-pytest-astropy",
         "python-scikit-image"
-      ]
-    },
-    {
-      "component": "python-pytest-django",
-      "count": 5,
-      "blocked_by": [
-        "python-django-configurations"
       ]
     },
     {
@@ -407,32 +365,18 @@
       ]
     },
     {
-      "component": "python-nbsphinx",
-      "count": 3,
-      "blocked_by": [
-        "python-pybtex",
-        "python-pybtex-docutils",
-        "python-sphinxcontrib-bibtex"
-      ]
+      "component": "pylint",
+      "count": 4
     },
     {
       "component": "pythran",
-      "count": 3,
-      "blocked_by": [
-        "python-nbsphinx"
-      ]
-    },
-    {
-      "component": "python-jsonpickle",
       "count": 3
     },
     {
       "component": "python-lsp-server",
       "count": 3,
       "blocked_by": [
-        "pylint",
-        "python-pytoolconfig",
-        "python-rope"
+        "pylint"
       ]
     },
     {
@@ -443,21 +387,10 @@
       ]
     },
     {
-      "component": "pylint",
-      "count": 3
-    },
-    {
-      "component": "python-syrupy",
+      "component": "python-xarray",
       "count": 3,
       "blocked_by": [
-        "python-pydantic"
-      ]
-    },
-    {
-      "component": "libguestfs",
-      "count": 2,
-      "blocked_by": [
-        "libvirt-python"
+        "python-rasterio"
       ]
     },
     {
@@ -472,11 +405,8 @@
       ]
     },
     {
-      "component": "python-oci",
-      "count": 2,
-      "blocked_by": [
-        "python-pydantic"
-      ]
+      "component": "python-sshtunnel",
+      "count": 2
     },
     {
       "component": "gdal",
@@ -485,17 +415,42 @@
     {
       "component": "python-pytest-subtests",
       "count": 2
+    },
+    {
+      "component": "python-django-health-check",
+      "count": 2,
+      "blocked_by": [
+        "python-celery",
+        "python-kombu"
+      ]
+    },
+    {
+      "component": "pyproj",
+      "count": 2
+    },
+    {
+      "component": "python-rasterio",
+      "count": 2,
+      "blocked_by": [
+        "python-shapely"
+      ]
+    },
+    {
+      "component": "python-futurist",
+      "count": 2,
+      "blocked_by": [
+        "python-eventlet"
+      ]
+    },
+    {
+      "component": "python-fslpy",
+      "count": 2,
+      "blocked_by": [
+        "python-trimesh"
+      ]
     }
   ],
   "most_commonly_last_blocking_combinations": [
-    {
-      "components": [
-        "python-pydantic",
-        "python-sqlmodel",
-        "snakemake"
-      ],
-      "count": 19
-    },
     {
       "components": [
         "python-msrest",
@@ -513,19 +468,10 @@
     },
     {
       "components": [
-        "python-pybtex",
-        "python-pybtex-docutils",
-        "python-sphinxcontrib-bibtex"
-      ],
-      "count": 4
-    },
-    {
-      "components": [
         "conda",
-        "libmamba",
-        "python-menuinst"
+        "libmamba"
       ],
-      "count": 4
+      "count": 5
     },
     {
       "components": [
@@ -537,17 +483,10 @@
     },
     {
       "components": [
-        "python-eth-utils",
-        "python-pydantic"
+        "python-et_xmlfile",
+        "python-openpyxl"
       ],
       "count": 4
-    },
-    {
-      "components": [
-        "python-fastapi",
-        "python-pydantic"
-      ],
-      "count": 3
     },
     {
       "components": [
@@ -559,24 +498,8 @@
     },
     {
       "components": [
-        "python-et_xmlfile",
-        "python-openpyxl"
-      ],
-      "count": 3
-    },
-    {
-      "components": [
-        "python-glyphsLib",
-        "python-ufo2ft"
-      ],
-      "count": 2
-    },
-    {
-      "components": [
-        "python-eth-utils",
-        "python-hexbytes",
-        "python-pydantic",
-        "python-rlp"
+        "python-celery",
+        "python-kombu"
       ],
       "count": 2
     },
@@ -585,22 +508,6 @@
         "pyproj",
         "python-geopandas",
         "python-shapely"
-      ],
-      "count": 2
-    },
-    {
-      "components": [
-        "python-doubleratchet",
-        "python-pydantic",
-        "python-x3dh",
-        "python-xmlschema"
-      ],
-      "count": 2
-    },
-    {
-      "components": [
-        "python-pydantic",
-        "python-pydantic-settings"
       ],
       "count": 2
     },
@@ -642,9 +549,62 @@
     },
     {
       "components": [
-        "libvirt-python",
         "python-croniter",
         "python-treq"
+      ],
+      "count": 1
+    },
+    {
+      "components": [
+        "python-shapely",
+        "python-uranium"
+      ],
+      "count": 1
+    },
+    {
+      "components": [
+        "python-beartype",
+        "python-extractcode",
+        "python-ftfy",
+        "python-spdx-tools",
+        "scancode-toolkit"
+      ],
+      "count": 1
+    },
+    {
+      "components": [
+        "python-PyGithub",
+        "python-keep"
+      ],
+      "count": 1
+    },
+    {
+      "components": [
+        "python-django-allauth",
+        "python-django-extensions",
+        "python-django-mailman3"
+      ],
+      "count": 1
+    },
+    {
+      "components": [
+        "python-yamlloader",
+        "pywbem"
+      ],
+      "count": 1
+    },
+    {
+      "components": [
+        "python-lazr-config",
+        "python-lazr-delegates"
+      ],
+      "count": 1
+    },
+    {
+      "components": [
+        "python-django-allauth",
+        "python-django-mailman3",
+        "python-readme-renderer"
       ],
       "count": 1
     }

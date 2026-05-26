@@ -32,8 +32,12 @@
     "summaries": []
   },
   "ansible-lint": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2481417"
+    ],
+    "summaries": [
+      "ansible-lint fails to build with Python 3.15: ImportError: cannot import name '_MISSING_TYPE' from 'dataclasses' (/usr/lib64/python3.15/dataclasses.py)"
+    ]
   },
   "bmap-tools": {
     "urls": [
@@ -46,6 +50,14 @@
   "ceph": {
     "urls": [],
     "summaries": []
+  },
+  "certbot": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2466655"
+    ],
+    "summaries": [
+      "certbot fails to build with Python 3.15: FutureWarning: invalid character '+' in URL-safe Base64 data will be discarded in future Python versions"
+    ]
   },
   "dionaea": {
     "urls": [
@@ -87,6 +99,10 @@
       "fail2ban fails to build with Python 3.15: AttributeError: 'SourceFileLoader' object has no attribute 'load_module'. Did you mean: 'exec_module'?"
     ]
   },
+  "fastapi-cli": {
+    "urls": [],
+    "summaries": []
+  },
   "flatpak-module-tools": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2453823"
@@ -112,10 +128,6 @@
     ]
   },
   "khal": {
-    "urls": [],
-    "summaries": []
-  },
-  "kicad": {
     "urls": [],
     "summaries": []
   },
@@ -164,8 +176,12 @@
     ]
   },
   "myst-nb": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2481418"
+    ],
+    "summaries": [
+      "myst-nb fails to build with Python 3.15: AssertionError in 6 tests"
+    ]
   },
   "net-snmp": {
     "urls": [
@@ -174,6 +190,10 @@
     "summaries": [
       "net-snmp-5.9.5.2-4.fc45 FTBFS: \"Checking the Net-SNMP configure script validity\" test fails"
     ]
+  },
+  "oci-cli": {
+    "urls": [],
+    "summaries": []
   },
   "ocrmypdf": {
     "urls": [
@@ -188,8 +208,12 @@
     "summaries": []
   },
   "osc": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2481412"
+    ],
+    "summaries": [
+      "osc fails to build with Python 3.15: TypeError: OscArgumentParser._get_formatter() got an unexpected keyword argument 'file'"
+    ]
   },
   "petsc": {
     "urls": [
@@ -216,8 +240,12 @@
     ]
   },
   "pylint": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2481413"
+    ],
+    "summaries": [
+      "pylint fails to build with Python 3.15: 4 test failures: ModuleNotFoundError: 'namespace_package' must be imported before finding 'namespace_package.lower_level'."
+    ]
   },
   "pyp2rpm": {
     "urls": [
@@ -237,6 +265,14 @@
     ],
     "summaries": [
       "pyqtwebengine: FTBFS in Fedora rawhide/f44"
+    ]
+  },
+  "pytest": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2458644"
+    ],
+    "summaries": [
+      "pytest fails to build with Python 3.15: DeprecationWarning: This process (pid=1119) is multi-threaded, use of forkpty() may lead to deadlocks in the child."
     ]
   },
   "python-OBD": {
@@ -303,11 +339,11 @@
       "python-alembic1.14: FTBFS in Fedora rawhide/f44"
     ]
   },
-  "python-ansible-runner": {
+  "python-apipkg": {
     "urls": [],
     "summaries": []
   },
-  "python-apipkg": {
+  "python-avocado": {
     "urls": [],
     "summaries": []
   },
@@ -369,6 +405,14 @@
     "urls": [],
     "summaries": []
   },
+  "python-django-allauth": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2458667"
+    ],
+    "summaries": [
+      "python-django-allauth fails to build with Python 3.15:  AssertionError: assert 'Flow.PROVIDER_SIGNUP' == 'provider_signup'"
+    ]
+  },
   "python-django-angular": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2434976"
@@ -377,12 +421,20 @@
       "python-django-angular: FTBFS in Fedora rawhide/f44"
     ]
   },
-  "python-django-configurations": {
+  "python-django-cacheops": {
     "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2433919"
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2458684"
     ],
     "summaries": [
-      "python-django-configurations fails to build with Python 3.15: AttributeError: 'ConfigurationLoader' object has no attribute 'exec_module'. Did you mean: 'load_module'?"
+      "python-django-cacheops fails to build with Python 3.15: IssueTests.test_365  and BasicTests.test_subquery fail"
+    ]
+  },
+  "python-django-extensions": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2458683"
+    ],
+    "summaries": [
+      "python-django-extensions fails to build with Python 3.15: TypeError: CheckConstraint.__init__() got an unexpected keyword argument 'check'"
     ]
   },
   "python-elastic-transport": {
@@ -405,9 +457,17 @@
       "python-et_xmlfile fails to build with Python 3.15: ElementTreeTest.test_iterparse: AssertionError: Lists differ: [<WarningMessage {message : ResourceWarnin[235 chars]ne}>] != []"
     ]
   },
-  "python-eventlet": {
+  "python-eth-event": {
     "urls": [],
     "summaries": []
+  },
+  "python-eventlet": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2481419"
+    ],
+    "summaries": [
+      "python-eventlet fails to build with Python 3.15: AssertionError: 15 != 10 : Error in import line from /usr/lib/python3.15/site-packages/sphinxcontrib_apidoc-0.6.0-py3.15-nspkg.pth: import sys, types, os;p = os.path.join(sys._getframe(1).f_locals['sitedir'"
+    ]
   },
   "python-exiv2": {
     "urls": [
@@ -458,8 +518,12 @@
     "summaries": []
   },
   "python-huggingface-hub": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2481411"
+    ],
+    "summaries": [
+      "python-huggingface-hub fails to build with Python 3.15: ImportError: cannot import name '_MISSING_TYPE' from 'dataclasses' (/usr/lib64/python3.15/dataclasses.py)"
+    ]
   },
   "python-hypothesmith": {
     "urls": [
@@ -480,10 +544,6 @@
     ]
   },
   "python-jsonpickle": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-jupyter-console": {
     "urls": [],
     "summaries": []
   },
@@ -512,10 +572,18 @@
     ]
   },
   "python-markdown-exec": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2481410"
+    ],
+    "summaries": [
+      "python-markdown-exec fails to build with Python 3.15: test_output_markdown: assert '<span class=\"hll\">' in '<p><code>bash hl_lines=\"2\"\\n\ud83d\udcc4 1\\n\ud83d\udcc4 2\\n\ud83d\udcc4 3</code></p>'"
+    ]
+  },
+  "python-mathics-scanner": {
     "urls": [],
     "summaries": []
   },
-  "python-mathics-scanner": {
+  "python-memray": {
     "urls": [],
     "summaries": []
   },
@@ -525,22 +593,6 @@
     ],
     "summaries": [
       "python-meshio: FTBFS in Fedora Rawhide: binascii.Error: Invalid base64-encoded string: number of data characters (8889) cannot be 1 more than a multiple of 4"
-    ]
-  },
-  "python-metakernel": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2458668"
-    ],
-    "summaries": [
-      "python-metakernel fails to build with Python 3.15: DeprecationWarning: This process (pid=889) is multi-threaded, use of forkpty() may lead to deadlocks in the child."
-    ]
-  },
-  "python-mirrors-countme": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2424567"
-    ],
-    "summaries": [
-      "python-mirrors-countme fails to build with Python 3.15: TypeError: NamedTuple() got an unexpected keyword argument 'INTEGER_NOT_NULL'"
     ]
   },
   "python-mkapi": {
@@ -619,18 +671,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-pybtex": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-pydantic": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2460140"
-    ],
-    "summaries": [
-      "python-pydantic fails to build with Python 3.15: FutureWarning and DID NOT RAISE <class 'pydantic_core._pydantic_core.ValidationError'>"
-    ]
-  },
   "python-pygeoif": {
     "urls": [],
     "summaries": []
@@ -652,8 +692,12 @@
     ]
   },
   "python-pyscaffold": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2481421"
+    ],
+    "summaries": [
+      "python-pyscaffold fails to build with Python 3.15: AssertionError in test_get_log_level"
+    ]
   },
   "python-pysdl2": {
     "urls": [
@@ -719,6 +763,14 @@
     "urls": [],
     "summaries": []
   },
+  "python-rstcheck": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2458680"
+    ],
+    "summaries": [
+      "python-rstcheck fails to build with Python 3.15: test_all_bad_examples: AssertionError: assert None is not None"
+    ]
+  },
   "python-rstr": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2414567"
@@ -732,8 +784,12 @@
     "summaries": []
   },
   "python-sentinels": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2481441"
+    ],
+    "summaries": [
+      "python-sentinels: FTBFS in Fedora Rawhide: TypeError: /builddir/build/BUILD/python-sentinels-1.1.1-build/sentinels-1.1.1/pyproject.toml: config option 'testpaths' expects a list for type 'args', got str: 'tests'"
+    ]
   },
   "python-slackclient": {
     "urls": [],
@@ -760,6 +816,10 @@
     "summaries": []
   },
   "python-sshtunnel": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-steampunk-spotter": {
     "urls": [],
     "summaries": []
   },
@@ -792,8 +852,12 @@
     "summaries": []
   },
   "python-transforms3d": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2481420"
+    ],
+    "summaries": [
+      "python-transforms3d fails to build with Python 3.15: test_random_unit_vector: assert np.all(np.abs(vec_sum / n) < 0.05)"
+    ]
   },
   "python-translitcodec": {
     "urls": [
@@ -833,14 +897,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-xmlschema": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2479761"
-    ],
-    "summaries": [
-      "python-xmlschema fails to build with Python 3.15: test_get_obj_as_string: AssertionError: False is not true"
-    ]
-  },
   "python-yamlloader": {
     "urls": [],
     "summaries": []
@@ -857,6 +913,10 @@
     "urls": [],
     "summaries": []
   },
+  "pythran": {
+    "urls": [],
+    "summaries": []
+  },
   "pywhispercpp": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2453825"
@@ -864,10 +924,6 @@
     "summaries": [
       "pywhispercpp fails to build with setuptools_scm 10+"
     ]
-  },
-  "re2": {
-    "urls": [],
-    "summaries": []
   },
   "rebase-helper": {
     "urls": [
@@ -894,10 +950,22 @@
     "summaries": []
   },
   "rrdtool": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2481409"
+    ],
+    "summaries": [
+      "rrdtool: FTBFS in Fedora Rawhide: File not found: /builddir/build/BUILD/rrdtool-1.10.3-build/BUILDROOT/usr/lib64/python3.14/site-packages/rrdtool*.so"
+    ]
   },
-  "samba": {
+  "scipy": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2458664"
+    ],
+    "summaries": [
+      "scipy: FTBFS in Fedora Rawhide: test_gh_22681_finite_error: AssertionError"
+    ]
+  },
+  "snakemake": {
     "urls": [],
     "summaries": []
   },
