@@ -9,49 +9,6 @@
       "count": 57
     },
     {
-      "component": "python-oslo-utils",
-      "count": 32,
-      "blocked_by": [
-        "python-oslo-config",
-        "python-oslotest"
-      ]
-    },
-    {
-      "component": "python-keystoneauth1",
-      "count": 29,
-      "blocked_by": [
-        "python-oslo-config",
-        "python-oslo-utils",
-        "python-oslotest"
-      ]
-    },
-    {
-      "component": "python-oslotest",
-      "count": 29,
-      "blocked_by": [
-        "python-oslo-config"
-      ]
-    },
-    {
-      "component": "python-oslo-config",
-      "count": 27,
-      "blocked_by": [
-        "python-oslo-config",
-        "python-oslo-log",
-        "python-oslo-serialization",
-        "python-oslo-utils",
-        "python-oslotest"
-      ]
-    },
-    {
-      "component": "python-oslo-serialization",
-      "count": 25,
-      "blocked_by": [
-        "python-oslo-utils",
-        "python-oslotest"
-      ]
-    },
-    {
       "component": "python-sqlmodel",
       "count": 25,
       "blocked_by": [
@@ -60,30 +17,10 @@
       ]
     },
     {
-      "component": "python-smart_open",
-      "count": 24,
-      "blocked_by": [
-        "python-google-cloud-core",
-        "python-google-cloud-storage"
-      ]
-    },
-    {
-      "component": "python-openstacksdk",
-      "count": 22,
-      "blocked_by": [
-        "python-keystoneauth1",
-        "python-oslo-config",
-        "python-oslotest"
-      ]
-    },
-    {
       "component": "snakemake",
       "count": 22,
       "blocked_by": [
-        "python-google-cloud-core",
-        "python-google-cloud-storage",
         "python-pydantic",
-        "python-smart_open",
         "python-snakemake-executor-plugin-cluster-generic",
         "python-snakemake-storage-plugin-fs",
         "python-snakemake-storage-plugin-http",
@@ -108,28 +45,6 @@
       ]
     },
     {
-      "component": "python-osc-lib",
-      "count": 16,
-      "blocked_by": [
-        "python-keystoneauth1",
-        "python-openstacksdk",
-        "python-oslo-utils",
-        "python-oslotest"
-      ]
-    },
-    {
-      "component": "python-keystoneclient",
-      "count": 14,
-      "blocked_by": [
-        "python-keystoneauth1",
-        "python-openstacksdk",
-        "python-oslo-config",
-        "python-oslo-serialization",
-        "python-oslo-utils",
-        "python-oslotest"
-      ]
-    },
-    {
       "component": "python-eth-utils",
       "count": 14,
       "blocked_by": [
@@ -143,23 +58,6 @@
     {
       "component": "python-et_xmlfile",
       "count": 12
-    },
-    {
-      "component": "python-CacheControl",
-      "count": 12,
-      "blocked_by": [
-        "python-cherrypy",
-        "python-zc-lockfile"
-      ]
-    },
-    {
-      "component": "python-cinderclient",
-      "count": 12,
-      "blocked_by": [
-        "python-keystoneauth1",
-        "python-oslo-serialization",
-        "python-oslo-utils"
-      ]
     },
     {
       "component": "python-openpyxl",
@@ -183,36 +81,6 @@
       ]
     },
     {
-      "component": "python-openstackclient",
-      "count": 11,
-      "blocked_by": [
-        "python-aodhclient",
-        "python-cinderclient",
-        "python-futurist",
-        "python-gnocchiclient",
-        "python-hacking",
-        "python-heatclient",
-        "python-ironicclient",
-        "python-keystoneauth1",
-        "python-keystoneclient",
-        "python-manilaclient",
-        "python-mistralclient",
-        "python-neutronclient",
-        "python-octaviaclient",
-        "python-openstackclient",
-        "python-openstacksdk",
-        "python-osc-lib",
-        "python-osc-placement",
-        "python-oslo-config",
-        "python-oslo-log",
-        "python-oslo-serialization",
-        "python-oslo-utils",
-        "python-swiftclient",
-        "python-troveclient",
-        "python-zaqarclient"
-      ]
-    },
-    {
       "component": "libvirt-python",
       "count": 10,
       "unresolvable": true
@@ -222,17 +90,6 @@
       "count": 10,
       "blocked_by": [
         "python-astropy"
-      ]
-    },
-    {
-      "component": "python-zope-testrunner",
-      "count": 10
-    },
-    {
-      "component": "python-flexmock",
-      "count": 9,
-      "blocked_by": [
-        "python-zope-testrunner"
       ]
     },
     {
@@ -276,32 +133,8 @@
       ]
     },
     {
-      "component": "python-oslo-log",
-      "count": 8,
-      "blocked_by": [
-        "python-oslo-config",
-        "python-oslo-serialization",
-        "python-oslo-utils",
-        "python-oslotest"
-      ]
-    },
-    {
       "component": "python-plaster-pastedeploy",
       "count": 7
-    },
-    {
-      "component": "python-zope-deprecation",
-      "count": 7,
-      "blocked_by": [
-        "python-zope-testrunner"
-      ]
-    },
-    {
-      "component": "poetry",
-      "count": 7,
-      "blocked_by": [
-        "python-CacheControl"
-      ]
     },
     {
       "component": "python-scikit-image",
@@ -349,8 +182,7 @@
       "count": 6,
       "blocked_by": [
         "python-hupper",
-        "python-plaster-pastedeploy",
-        "python-zope-deprecation"
+        "python-plaster-pastedeploy"
       ]
     },
     {
@@ -387,6 +219,134 @@
       "blocked_by": [
         "python-pytest-django"
       ]
+    },
+    {
+      "component": "python-pybtex-docutils",
+      "count": 6,
+      "blocked_by": [
+        "python-pybtex"
+      ]
+    },
+    {
+      "component": "conda",
+      "count": 6,
+      "blocked_by": [
+        "conda",
+        "libmamba",
+        "python-menuinst"
+      ]
+    },
+    {
+      "component": "python-rlp",
+      "count": 6,
+      "blocked_by": [
+        "python-eth-utils",
+        "python-pydantic"
+      ]
+    },
+    {
+      "component": "python-PyGithub",
+      "count": 5
+    },
+    {
+      "component": "python-fslpy",
+      "count": 5,
+      "blocked_by": [
+        "python-trimesh"
+      ]
+    },
+    {
+      "component": "python-kombu",
+      "count": 5,
+      "blocked_by": [
+        "python-azure-mgmt-storage",
+        "python-msrest"
+      ]
+    },
+    {
+      "component": "python-python-ulid",
+      "count": 5,
+      "blocked_by": [
+        "python-pydantic"
+      ]
+    },
+    {
+      "component": "python-openai",
+      "count": 5,
+      "blocked_by": [
+        "python-pydantic"
+      ]
+    },
+    {
+      "component": "python-readme-renderer",
+      "count": 5
+    },
+    {
+      "component": "python-huggingface-hub",
+      "count": 5
+    },
+    {
+      "component": "python-tldextract",
+      "count": 5,
+      "blocked_by": [
+        "python-syrupy"
+      ]
+    },
+    {
+      "component": "python-trimesh",
+      "count": 5,
+      "blocked_by": [
+        "blender",
+        "manifold",
+        "python-cascadio",
+        "python-ezdxf",
+        "python-scikit-image",
+        "python-shapely",
+        "usd"
+      ]
+    },
+    {
+      "component": "python-sphinxcontrib-bibtex",
+      "count": 5,
+      "blocked_by": [
+        "python-pybtex",
+        "python-pybtex-docutils"
+      ]
+    },
+    {
+      "component": "python-eth-keys",
+      "count": 5,
+      "blocked_by": [
+        "python-asn1tools",
+        "python-eth-utils",
+        "python-pydantic"
+      ]
+    },
+    {
+      "component": "python-eth-abi",
+      "count": 5,
+      "blocked_by": [
+        "python-eth-utils",
+        "python-pydantic"
+      ]
+    },
+    {
+      "component": "python-geopandas",
+      "count": 5,
+      "blocked_by": [
+        "pyproj",
+        "python-fiona",
+        "python-mapclassify",
+        "python-shapely"
+      ]
+    },
+    {
+      "component": "python-celery",
+      "count": 4,
+      "blocked_by": [
+        "python-kombu",
+        "python-pydantic"
+      ]
     }
   ],
   "most_commonly_last_blocking": [
@@ -399,13 +359,6 @@
       "count": 30
     },
     {
-      "component": "python-flexmock",
-      "count": 8,
-      "blocked_by": [
-        "python-zope-testrunner"
-      ]
-    },
-    {
       "component": "python-torch",
       "count": 8,
       "blocked_by": [
@@ -413,12 +366,8 @@
       ]
     },
     {
-      "component": "python-zope-testrunner",
-      "count": 7
-    },
-    {
       "component": "libvirt-python",
-      "count": 6,
+      "count": 7,
       "unresolvable": true
     },
     {
@@ -435,13 +384,6 @@
       "count": 5,
       "blocked_by": [
         "python-django-configurations"
-      ]
-    },
-    {
-      "component": "python-oslotest",
-      "count": 5,
-      "blocked_by": [
-        "python-oslo-config"
       ]
     },
     {
@@ -465,37 +407,12 @@
       ]
     },
     {
-      "component": "python-specfile",
-      "count": 3,
-      "blocked_by": [
-        "python-flexmock"
-      ]
-    },
-    {
       "component": "python-nbsphinx",
       "count": 3,
       "blocked_by": [
         "python-pybtex",
         "python-pybtex-docutils",
         "python-sphinxcontrib-bibtex"
-      ]
-    },
-    {
-      "component": "python-zc-lockfile",
-      "count": 3,
-      "blocked_by": [
-        "python-zope-testrunner"
-      ]
-    },
-    {
-      "component": "python-oslo-config",
-      "count": 3,
-      "blocked_by": [
-        "python-oslo-config",
-        "python-oslo-log",
-        "python-oslo-serialization",
-        "python-oslo-utils",
-        "python-oslotest"
       ]
     },
     {
@@ -519,30 +436,65 @@
       ]
     },
     {
-      "component": "python-CacheControl",
-      "count": 3,
-      "blocked_by": [
-        "python-cherrypy",
-        "python-zc-lockfile"
-      ]
-    },
-    {
       "component": "python-pcodedmp",
       "count": 3,
       "blocked_by": [
         "python-pcodedmp"
       ]
+    },
+    {
+      "component": "pylint",
+      "count": 3
+    },
+    {
+      "component": "python-syrupy",
+      "count": 3,
+      "blocked_by": [
+        "python-pydantic"
+      ]
+    },
+    {
+      "component": "libguestfs",
+      "count": 2,
+      "blocked_by": [
+        "libvirt-python"
+      ]
+    },
+    {
+      "component": "go-vendor-tools",
+      "count": 2,
+      "blocked_by": [
+        "python-beartype",
+        "python-extractcode",
+        "python-ftfy",
+        "python-spdx-tools",
+        "scancode-toolkit"
+      ]
+    },
+    {
+      "component": "python-oci",
+      "count": 2,
+      "blocked_by": [
+        "python-pydantic"
+      ]
+    },
+    {
+      "component": "gdal",
+      "count": 2
+    },
+    {
+      "component": "python-pytest-subtests",
+      "count": 2
     }
   ],
   "most_commonly_last_blocking_combinations": [
     {
       "components": [
         "python-pydantic",
-        "python-smart_open",
         "python-sqlmodel",
         "snakemake"
       ],
-      "count": 18
+      "count": 19
     },
     {
       "components": [
@@ -550,13 +502,6 @@
         "python-msrestazure"
       ],
       "count": 9
-    },
-    {
-      "components": [
-        "poetry",
-        "python-CacheControl"
-      ],
-      "count": 6
     },
     {
       "components": [
@@ -586,8 +531,7 @@
       "components": [
         "python-hupper",
         "python-plaster-pastedeploy",
-        "python-pyramid",
-        "python-zope-deprecation"
+        "python-pyramid"
       ],
       "count": 4
     },
@@ -608,17 +552,15 @@
     {
       "components": [
         "python-et_xmlfile",
+        "python-niapy",
         "python-openpyxl"
       ],
       "count": 3
     },
     {
       "components": [
-        "python-oslo-config",
-        "python-oslo-log",
-        "python-oslo-serialization",
-        "python-oslo-utils",
-        "python-oslotest"
+        "python-et_xmlfile",
+        "python-openpyxl"
       ],
       "count": 3
     },
@@ -643,22 +585,6 @@
         "pyproj",
         "python-geopandas",
         "python-shapely"
-      ],
-      "count": 2
-    },
-    {
-      "components": [
-        "python-keystoneauth1",
-        "python-openstacksdk",
-        "python-oslo-utils"
-      ],
-      "count": 2
-    },
-    {
-      "components": [
-        "python-et_xmlfile",
-        "python-niapy",
-        "python-openpyxl"
       ],
       "count": 2
     },
@@ -692,6 +618,33 @@
         "python-fslpy",
         "python-nifti-mrs",
         "spec2nii"
+      ],
+      "count": 1
+    },
+    {
+      "components": [
+        "pyproj",
+        "usd"
+      ],
+      "count": 1
+    },
+    {
+      "components": [
+        "python-celery",
+        "python-cornice",
+        "python-hupper",
+        "python-kombu",
+        "python-plaster-pastedeploy",
+        "python-pyramid",
+        "python-pyramid-mako"
+      ],
+      "count": 1
+    },
+    {
+      "components": [
+        "libvirt-python",
+        "python-croniter",
+        "python-treq"
       ],
       "count": 1
     }

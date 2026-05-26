@@ -148,6 +148,7 @@ copr-cli
 copr-dist-git
 copr-keygen
 copr-messaging
+copr-rpmbuild
 cozy
 createrepo-agent
 createrepo_c
@@ -193,6 +194,7 @@ dogtail
 dot2tex
 dt-schema
 dtc
+duplicity
 dxf2gcode
 dynaconf
 ec2-hibinit-agent
@@ -228,6 +230,7 @@ fontforge
 fonts-tweak-tool
 fonttools
 fprettify
+freecell-solver
 freeipa
 freeipa-desktop-profile
 freeipa-fas
@@ -500,6 +503,7 @@ meld
 mercurial
 meson
 mgarepo
+micropipenv
 minigalaxy
 mininet
 miniupnpc
@@ -527,6 +531,7 @@ mrack
 mrchem
 msoffcrypto-tool
 mysql-connector-python
+nanopb
 nanovna-saver
 nautilus-python
 nbdkit
@@ -620,6 +625,7 @@ plplot
 pmbootstrap
 pocketsphinx
 podman-compose
+poetry
 poezio-omemo
 policycoreutils
 porcupine
@@ -703,6 +709,7 @@ python-APScheduler
 python-AppTools
 python-Automat
 python-Bottleneck
+python-CacheControl
 python-CommonMark
 python-GeoIP
 python-IPy
@@ -787,6 +794,7 @@ python-anyio
 python-anyjson
 python-anykeystore
 python-anytree
+python-aodhclient
 python-apkinspector
 python-appdirs
 python-application-properties
@@ -836,6 +844,7 @@ python-authres
 python-autobahn
 python-autocommand
 python-autodocsumm
+python-automaton
 python-autopage
 python-autopep8
 python-avalara
@@ -1018,9 +1027,11 @@ python-chardet
 python-charset-normalizer
 python-cheetah
 python-cheroot
+python-cherrypy
 python-chevron
 python-chm
 python-cid
+python-cinderclient
 python-circuitbreaker
 python-ciso8601
 python-citeproc-py
@@ -1126,6 +1137,7 @@ python-cookiecutter
 python-cooldict
 python-copr
 python-copr-common
+python-cotyledon
 python-cov-core
 python-covdefaults
 python-coverage
@@ -1433,9 +1445,11 @@ python-flask-socketio
 python-flask-sqlalchemy
 python-flask-sqlalchemy-lite
 python-flask-talisman
+python-flask-whooshee
 python-flask-wtf
 python-flask-wtf-decorators
 python-flexcache
+python-flexmock
 python-flexparser
 python-flit
 python-flit-core
@@ -1455,6 +1469,7 @@ python-fontrpmspec
 python-formencode
 python-fortranformat
 python-fqdn
+python-freecell_solver
 python-freeipa
 python-freeqdsk
 python-freetype
@@ -1487,6 +1502,7 @@ python-geoip2
 python-geojson
 python-geomdl
 python-geopy
+python-gerritlib
 python-gertty
 python-getmac
 python-gettext
@@ -1502,6 +1518,7 @@ python-github3py
 python-gitlab
 python-glad
 python-glad2
+python-glanceclient
 python-glfw
 python-glob2
 python-gmpy2
@@ -1510,6 +1527,8 @@ python-gnupg
 python-google-api-core
 python-google-auth
 python-google-auth-oauthlib
+python-google-cloud-core
+python-google-cloud-storage
 python-google-cloud-testutils
 python-google-crc32c
 python-google-i18n-address
@@ -1536,6 +1555,7 @@ python-h11
 python-h2
 python-h5io
 python-h5netcdf
+python-hacking
 python-hamcrest
 python-hanzidentifier
 python-hatch-fancy-pypi-readme
@@ -1547,6 +1567,7 @@ python-hatchling
 python-hdfs
 python-hdmf
 python-heapdict
+python-heatclient
 python-helpdev
 python-hexdump
 python-hgapi
@@ -1647,6 +1668,7 @@ python-ipython_genutils
 python-ipywidgets
 python-irc
 python-irodsclient
+python-ironicclient
 python-isal
 python-iso3166
 python-iso639
@@ -1678,6 +1700,7 @@ python-jedi
 python-jeepney
 python-jellyfish
 python-jenkins
+python-jenkins-job-builder
 python-jinja2
 python-jinja2-cli
 python-jinja2-time
@@ -1738,6 +1761,8 @@ python-kdcproxy
 python-kerberos
 python-keyring
 python-keyrings-alt
+python-keystoneauth1
+python-keystoneclient
 python-kgb
 python-kiss-headers
 python-kitchen
@@ -1818,6 +1843,7 @@ python-makefun
 python-mako
 python-managesieve
 python-manatools
+python-manilaclient
 python-manuel
 python-mapbox-earcut
 python-mapnik
@@ -1864,6 +1890,7 @@ python-minikerberos
 python-minimock
 python-mirakuru
 python-missingno
+python-mistralclient
 python-mistune
 python-mitogen
 python-mkdocs-autorefs
@@ -1879,6 +1906,7 @@ python-mkdocs-material-extensions
 python-mkdocs-minify-plugin
 python-mkdocs-monorepo-plugin
 python-mkdocs-redirects
+python-mkdocs-rss-plugin
 python-mkdocs-static-i18n
 python-mmtf
 python-mnemonic
@@ -1949,6 +1977,7 @@ python-netdisco
 python-netifaces
 python-netmiko
 python-networkx
+python-neutronclient
 python-nh3
 python-nibabel
 python-nihtest
@@ -1969,6 +1998,8 @@ python-nose2
 python-notebook
 python-notebook-shim
 python-notify2
+python-novaclient
+python-novaclient-os-virtual-interfaces
 python-npyscreen
 python-ns1-python
 python-ntlm-auth
@@ -1982,6 +2013,7 @@ python-oauth
 python-oauth2
 python-oauth2client
 python-oauthlib
+python-octaviaclient
 python-odata-query
 python-ofxparse
 python-olefile
@@ -2005,7 +2037,9 @@ python-openqa_client
 python-opensearch-py
 python-openshift
 python-openslide
+python-openstackclient
 python-openstackdocstheme
+python-openstacksdk
 python-openstep-plist
 python-opentelemetry-api
 python-opentypesvg
@@ -2016,11 +2050,20 @@ python-oras
 python-ordered-set
 python-orderly-set
 python-orjson
+python-os-client-config
 python-os-service-types
 python-osa
+python-osc-lib
+python-osc-placement
 python-oscrypto
+python-oslo-config
 python-oslo-context
 python-oslo-i18n
+python-oslo-log
+python-oslo-metrics
+python-oslo-serialization
+python-oslo-utils
+python-oslotest
 python-osrf-pycommon
 python-outcome
 python-overpy
@@ -2124,6 +2167,7 @@ python-podcastparser
 python-podman
 python-poetry-core
 python-poetry-dynamic-versioning
+python-poetry-plugin-export
 python-polib
 python-pooch
 python-port-for
@@ -2214,6 +2258,7 @@ python-pydicom-data
 python-pydiffx
 python-pydispatcher
 python-pydocstyle
+python-pydoctor
 python-pydyf
 python-pyembroidery
 python-pyerfa
@@ -2229,6 +2274,7 @@ python-pyftpdlib
 python-pyfzf
 python-pygal
 python-pygdbmi
+python-pyghmi
 python-pygiftiio
 python-pygit2
 python-pyglet
@@ -2322,6 +2368,7 @@ python-pysam
 python-pysb
 python-pyscf
 python-pyscipopt
+python-pyshacl
 python-pyshark
 python-pyside6
 python-pysimplesoap
@@ -2398,6 +2445,7 @@ python-pytest-relaxed
 python-pytest-remotedata
 python-pytest-repeat
 python-pytest-rerunfailures
+python-pytest-services
 python-pytest-shutil
 python-pytest-smartcov
 python-pytest-sourceorder
@@ -2540,6 +2588,8 @@ python-rpmautospec-core
 python-rpmfluff
 python-rpyc
 python-rsa
+python-rsd-lib
+python-rsdclient
 python-rst-linker
 python-rtslib
 python-ruamel-yaml
@@ -2616,6 +2666,7 @@ python-slixmpp
 python-slixmpp-omemo
 python-slugify
 python-sly
+python-smart_open
 python-smartypants
 python-smbc
 python-smbpasswd
@@ -2641,6 +2692,7 @@ python-soundfile
 python-soupsieve
 python-spdx-license-list
 python-speaklater
+python-specfile
 python-speedtest-cli
 python-speg
 python-sphinx
@@ -2711,6 +2763,7 @@ python-sqlacodegen
 python-sqlalchemy
 python-sqlalchemy-collectd
 python-sqlalchemy-filters
+python-sqlalchemy-utils
 python-sqlalchemy1.3
 python-sqlalchemy1.4
 python-sqlalchemy_schemadisplay
@@ -2747,12 +2800,14 @@ python-super-collections
 python-superqt
 python-supersmoother
 python-sure
+python-sushy
 python-svg
 python-svg-path
 python-svg2tikz
 python-svgelements
 python-svgwrite
 python-swagger-spec-validator
+python-swiftclient
 python-sybil
 python-symengine
 python-syslog-rfc5424-formatter
@@ -2761,6 +2816,7 @@ python-systemd
 python-sysv_ipc
 python-tables
 python-tabulate
+python-tackerclient
 python-tamilstring
 python-tasklib
 python-tatsu
@@ -2840,6 +2896,7 @@ python-trio-websocket
 python-trml2pdf
 python-trololio
 python-trove-classifiers
+python-troveclient
 python-trustme
 python-truststore
 python-trx-python
@@ -3030,8 +3087,10 @@ python-yfinance
 python-yte
 python-ytmusicapi
 python-yubico
+python-zaqarclient
 python-zarr
 python-zarr-checksum
+python-zc-lockfile
 python-zeep
 python-zeroconf
 python-zhon
@@ -3041,12 +3100,17 @@ python-zlib-ng
 python-zmq
 python-zombie-imp
 python-zope-component
+python-zope-configuration
+python-zope-deprecation
 python-zope-event
 python-zope-exceptions
 python-zope-hookable
+python-zope-i18nmessageid
 python-zope-interface
+python-zope-schema
 python-zope-sqlalchemy
 python-zope-testing
+python-zope-testrunner
 python-zopfli
 python-zstandard
 python-zstarfile
@@ -3111,12 +3175,14 @@ rpkg-util
 rpl
 rpm
 rpm-head-signing
+rpm-spec-language-server
 rpmconf
 rpmdeplint
 rpmlint
 rpmspectool
 rpy
 rrdtool
+rss2email
 rst2pdf
 rteval
 rtlsdr-scanner
@@ -3138,6 +3204,7 @@ screenkey
 scribus
 seadrive-daemon
 seafile
+sen
 sentencepiece
 sepolicy_analysis
 setconf
@@ -3163,6 +3230,7 @@ solaar
 solarwolf
 sos
 soundconverter
+spec2scl
 speech-dispatcher
 speedtest-cli
 spglib
@@ -3214,6 +3282,7 @@ trac-monotone-plugin
 trac-tracnav-plugin
 tracer
 trademgen
+trash-cli
 tre
 trelby
 trellis

@@ -219,6 +219,14 @@
     "urls": [],
     "summaries": []
   },
+  "pyp2rpm": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2453848"
+    ],
+    "summaries": [
+      "pyp2rpm fails to build with Python 3.15: ModuleNotFoundError: No module named 'sre_constants'"
+    ]
+  },
   "pyproj": {
     "urls": [],
     "summaries": []
@@ -421,6 +429,14 @@
     "urls": [],
     "summaries": []
   },
+  "python-ftfy": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2465538"
+    ],
+    "summaries": [
+      "python-ftfy: FTBFS in Fedora Rawhide: failed doctest: ftfy.formatting.monospaced_width"
+    ]
+  },
   "python-geopmpy": {
     "urls": [],
     "summaries": []
@@ -429,7 +445,7 @@
     "urls": [],
     "summaries": []
   },
-  "python-google-cloud-core": {
+  "python-google-cloud-dns": {
     "urls": [],
     "summaries": []
   },
@@ -478,6 +494,10 @@
     "summaries": [
       "python-kaptan fails to build with Python 3.15: AttributeError: 'SourceFileLoader' object has no attribute 'load_module'. Did you mean: 'exec_module'? in test_py_file_handler and test_py_file_away_handler"
     ]
+  },
+  "python-lazr-delegates": {
+    "urls": [],
+    "summaries": []
   },
   "python-linuxdoc": {
     "urls": [],
@@ -751,6 +771,14 @@
       "python-streamlink fails to build with Python 3.15: test_help_color: TypeError: TestPrint._color.<locals>.<lambda>() got an unexpected keyword argument 'file'"
     ]
   },
+  "python-toml-cli": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2466662"
+    ],
+    "summaries": [
+      "python-toml-cli: FTBFS in Fedora Rawhide: 2 tests fail"
+    ]
+  },
   "python-tornado": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2414557"
@@ -825,14 +853,6 @@
       "python-zict fails to build with Python 3.15: timeout in test_stress_different_keys_threadsafe"
     ]
   },
-  "python-zope-testrunner": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2433888"
-    ],
-    "summaries": [
-      "python-zope-testrunner fails to build with Python 3.15: help2man: can't get `--help' info from /builddir/build/BUILD/python-zope-testrunner-8.1-build/BUILDROOT/usr/bin/zope-testrunner"
-    ]
-  },
   "python3-mallard-ducktype": {
     "urls": [],
     "summaries": []
@@ -848,6 +868,14 @@
   "re2": {
     "urls": [],
     "summaries": []
+  },
+  "rebase-helper": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2460122"
+    ],
+    "summaries": [
+      "rebase-helper: FTBFS in Fedora Rawhide: AttributeError: 'CustomHelpFormatter' object has no attribute '_format_actions_usage'"
+    ]
   },
   "renderdoc": {
     "urls": [
