@@ -9,110 +9,46 @@
       "count": 57
     },
     {
-      "component": "python-cmd2",
-      "count": 57
-    },
-    {
-      "component": "python-autopage",
-      "count": 57,
-      "blocked_by": [
-        "python-fixtures"
-      ]
-    },
-    {
-      "component": "python-cliff",
-      "count": 56,
-      "blocked_by": [
-        "python-autopage",
-        "python-cliff",
-        "python-cmd2",
-        "python-stestr"
-      ]
-    },
-    {
-      "component": "python-stestr",
-      "count": 51,
-      "blocked_by": [
-        "python-autopage",
-        "python-cliff",
-        "python-cmd2"
-      ]
-    },
-    {
-      "component": "python-debtcollector",
-      "count": 36,
-      "blocked_by": [
-        "python-autopage",
-        "python-cliff",
-        "python-cmd2",
-        "python-stestr"
-      ]
-    },
-    {
       "component": "python-oslo-utils",
       "count": 32,
       "blocked_by": [
-        "python-autopage",
-        "python-cliff",
-        "python-cmd2",
-        "python-debtcollector",
         "python-oslo-config",
-        "python-oslotest",
-        "python-stestr"
+        "python-oslotest"
       ]
     },
     {
       "component": "python-keystoneauth1",
       "count": 29,
       "blocked_by": [
-        "python-autopage",
-        "python-cliff",
-        "python-cmd2",
-        "python-debtcollector",
         "python-oslo-config",
         "python-oslo-utils",
-        "python-oslotest",
-        "python-stestr"
+        "python-oslotest"
       ]
     },
     {
       "component": "python-oslotest",
       "count": 29,
       "blocked_by": [
-        "python-autopage",
-        "python-cliff",
-        "python-cmd2",
-        "python-oslo-config",
-        "python-stestr"
+        "python-oslo-config"
       ]
     },
     {
       "component": "python-oslo-config",
       "count": 27,
       "blocked_by": [
-        "python-autopage",
-        "python-cliff",
-        "python-cmd2",
-        "python-debtcollector",
         "python-oslo-config",
         "python-oslo-log",
         "python-oslo-serialization",
         "python-oslo-utils",
-        "python-oslotest",
-        "python-stestr"
+        "python-oslotest"
       ]
     },
     {
       "component": "python-oslo-serialization",
       "count": 25,
       "blocked_by": [
-        "python-autopage",
-        "python-cliff",
-        "python-cmd2",
-        "python-debtcollector",
         "python-oslo-utils",
-        "python-oslotest",
-        "python-stestr"
+        "python-oslotest"
       ]
     },
     {
@@ -127,33 +63,25 @@
       "component": "python-smart_open",
       "count": 24,
       "blocked_by": [
-        "python-google-api-core",
         "python-google-cloud-core",
-        "python-google-cloud-storage",
-        "python-proto-plus"
+        "python-google-cloud-storage"
       ]
     },
     {
       "component": "python-openstacksdk",
       "count": 22,
       "blocked_by": [
-        "python-autopage",
-        "python-cliff",
-        "python-cmd2",
         "python-keystoneauth1",
         "python-oslo-config",
-        "python-oslotest",
-        "python-stestr"
+        "python-oslotest"
       ]
     },
     {
       "component": "snakemake",
       "count": 22,
       "blocked_by": [
-        "python-google-api-core",
         "python-google-cloud-core",
         "python-google-cloud-storage",
-        "python-proto-plus",
         "python-pydantic",
         "python-smart_open",
         "python-snakemake-executor-plugin-cluster-generic",
@@ -183,45 +111,22 @@
       "component": "python-osc-lib",
       "count": 16,
       "blocked_by": [
-        "python-autopage",
-        "python-cliff",
-        "python-cmd2",
-        "python-debtcollector",
         "python-keystoneauth1",
         "python-openstacksdk",
         "python-oslo-utils",
-        "python-oslotest",
-        "python-stestr"
-      ]
-    },
-    {
-      "component": "grpc",
-      "count": 14
-    },
-    {
-      "component": "python-proto-plus",
-      "count": 14,
-      "blocked_by": [
-        "grpc",
-        "python-google-api-core",
-        "python-proto-plus"
+        "python-oslotest"
       ]
     },
     {
       "component": "python-keystoneclient",
       "count": 14,
       "blocked_by": [
-        "python-autopage",
-        "python-cliff",
-        "python-cmd2",
-        "python-debtcollector",
         "python-keystoneauth1",
         "python-openstacksdk",
         "python-oslo-config",
         "python-oslo-serialization",
         "python-oslo-utils",
-        "python-oslotest",
-        "python-stestr"
+        "python-oslotest"
       ]
     },
     {
@@ -240,15 +145,6 @@
       "count": 12
     },
     {
-      "component": "python-google-api-core",
-      "count": 12,
-      "blocked_by": [
-        "grpc",
-        "python-grpcio-gcp",
-        "python-proto-plus"
-      ]
-    },
-    {
       "component": "python-CacheControl",
       "count": 12,
       "blocked_by": [
@@ -260,14 +156,9 @@
       "component": "python-cinderclient",
       "count": 12,
       "blocked_by": [
-        "python-autopage",
-        "python-cliff",
-        "python-cmd2",
-        "python-debtcollector",
         "python-keystoneauth1",
         "python-oslo-serialization",
-        "python-oslo-utils",
-        "python-stestr"
+        "python-oslo-utils"
       ]
     },
     {
@@ -278,29 +169,11 @@
       ]
     },
     {
-      "component": "python-dask",
-      "count": 11,
-      "blocked_by": [
-        "python-blosc2",
-        "python-dask",
-        "python-distributed",
-        "python-ndindex",
-        "python-scikit-image",
-        "python-tables",
-        "python-xarray",
-        "python-zict"
-      ]
-    },
-    {
       "component": "python-torch",
       "count": 11,
       "blocked_by": [
         "python-peachpy"
       ]
-    },
-    {
-      "component": "python-ndindex",
-      "count": 11
     },
     {
       "component": "python-pydantic-settings",
@@ -314,11 +187,7 @@
       "count": 11,
       "blocked_by": [
         "python-aodhclient",
-        "python-autopage",
         "python-cinderclient",
-        "python-cliff",
-        "python-cmd2",
-        "python-debtcollector",
         "python-futurist",
         "python-gnocchiclient",
         "python-hacking",
@@ -338,7 +207,6 @@
         "python-oslo-log",
         "python-oslo-serialization",
         "python-oslo-utils",
-        "python-stestr",
         "python-swiftclient",
         "python-troveclient",
         "python-zaqarclient"
@@ -353,17 +221,7 @@
       "component": "python-pytest-arraydiff",
       "count": 10,
       "blocked_by": [
-        "python-astropy",
-        "python-blosc2",
-        "python-ndindex",
-        "python-tables"
-      ]
-    },
-    {
-      "component": "python-blosc2",
-      "count": 10,
-      "blocked_by": [
-        "python-ndindex"
+        "python-astropy"
       ]
     },
     {
@@ -397,18 +255,9 @@
       "unresolvable": true
     },
     {
-      "component": "python-tables",
-      "count": 8,
-      "blocked_by": [
-        "python-blosc2",
-        "python-ndindex"
-      ]
-    },
-    {
       "component": "python-xarray",
       "count": 8,
       "blocked_by": [
-        "python-dask",
         "python-rasterio"
       ]
     },
@@ -430,15 +279,10 @@
       "component": "python-oslo-log",
       "count": 8,
       "blocked_by": [
-        "python-autopage",
-        "python-cliff",
-        "python-cmd2",
-        "python-debtcollector",
         "python-oslo-config",
         "python-oslo-serialization",
         "python-oslo-utils",
-        "python-oslotest",
-        "python-stestr"
+        "python-oslotest"
       ]
     },
     {
@@ -458,6 +302,91 @@
       "blocked_by": [
         "python-CacheControl"
       ]
+    },
+    {
+      "component": "python-scikit-image",
+      "count": 7,
+      "blocked_by": [
+        "pythran"
+      ]
+    },
+    {
+      "component": "python-pybtex",
+      "count": 7
+    },
+    {
+      "component": "libmamba",
+      "count": 7
+    },
+    {
+      "component": "python-menuinst",
+      "count": 7,
+      "blocked_by": [
+        "conda",
+        "libmamba",
+        "python-menuinst",
+        "python-pydantic"
+      ]
+    },
+    {
+      "component": "python-hexbytes",
+      "count": 7,
+      "blocked_by": [
+        "python-eth-utils",
+        "python-pydantic"
+      ]
+    },
+    {
+      "component": "python-niapy",
+      "count": 6,
+      "blocked_by": [
+        "python-et_xmlfile",
+        "python-openpyxl"
+      ]
+    },
+    {
+      "component": "python-pyramid",
+      "count": 6,
+      "blocked_by": [
+        "python-hupper",
+        "python-plaster-pastedeploy",
+        "python-zope-deprecation"
+      ]
+    },
+    {
+      "component": "python-croniter",
+      "count": 6,
+      "unresolvable": true
+    },
+    {
+      "component": "python-fastapi",
+      "count": 6,
+      "blocked_by": [
+        "fastapi-cli",
+        "fastapi-cloud-cli",
+        "python-inline-snapshot",
+        "python-pydantic",
+        "python-pydantic-extra-types",
+        "python-pydantic-settings",
+        "python-rich-toolkit",
+        "python-rignore",
+        "python-sqlmodel"
+      ]
+    },
+    {
+      "component": "python-beartype",
+      "count": 6
+    },
+    {
+      "component": "python-jsonpickle",
+      "count": 6
+    },
+    {
+      "component": "python-diskcache",
+      "count": 6,
+      "blocked_by": [
+        "python-pytest-django"
+      ]
     }
   ],
   "most_commonly_last_blocking": [
@@ -467,7 +396,7 @@
     },
     {
       "component": "python-pydantic",
-      "count": 29
+      "count": 30
     },
     {
       "component": "python-flexmock",
@@ -484,10 +413,6 @@
       ]
     },
     {
-      "component": "grpc",
-      "count": 7
-    },
-    {
       "component": "python-zope-testrunner",
       "count": 7
     },
@@ -498,7 +423,7 @@
     },
     {
       "component": "python-astropy",
-      "count": 5,
+      "count": 6,
       "blocked_by": [
         "python-pytest-arraydiff",
         "python-pytest-astropy",
@@ -510,6 +435,13 @@
       "count": 5,
       "blocked_by": [
         "python-django-configurations"
+      ]
+    },
+    {
+      "component": "python-oslotest",
+      "count": 5,
+      "blocked_by": [
+        "python-oslo-config"
       ]
     },
     {
@@ -556,6 +488,17 @@
       ]
     },
     {
+      "component": "python-oslo-config",
+      "count": 3,
+      "blocked_by": [
+        "python-oslo-config",
+        "python-oslo-log",
+        "python-oslo-serialization",
+        "python-oslo-utils",
+        "python-oslotest"
+      ]
+    },
+    {
       "component": "pythran",
       "count": 3,
       "blocked_by": [
@@ -589,10 +532,6 @@
       "blocked_by": [
         "python-pcodedmp"
       ]
-    },
-    {
-      "component": "pylint",
-      "count": 3
     }
   ],
   "most_commonly_last_blocking_combinations": [
@@ -607,19 +546,17 @@
     },
     {
       "components": [
-        "python-autopage",
-        "python-cliff",
-        "python-cmd2",
-        "python-stestr"
-      ],
-      "count": 10
-    },
-    {
-      "components": [
         "python-msrest",
         "python-msrestazure"
       ],
       "count": 9
+    },
+    {
+      "components": [
+        "poetry",
+        "python-CacheControl"
+      ],
+      "count": 6
     },
     {
       "components": [
@@ -628,31 +565,6 @@
         "python-pytest-astropy"
       ],
       "count": 6
-    },
-    {
-      "components": [
-        "poetry",
-        "python-CacheControl"
-      ],
-      "count": 5
-    },
-    {
-      "components": [
-        "python-blosc2",
-        "python-ndindex",
-        "python-tables"
-      ],
-      "count": 4
-    },
-    {
-      "components": [
-        "python-autopage",
-        "python-cliff",
-        "python-cmd2",
-        "python-oslotest",
-        "python-stestr"
-      ],
-      "count": 4
     },
     {
       "components": [
@@ -695,9 +607,18 @@
     },
     {
       "components": [
-        "grpc",
-        "python-google-api-core",
-        "python-proto-plus"
+        "python-et_xmlfile",
+        "python-openpyxl"
+      ],
+      "count": 3
+    },
+    {
+      "components": [
+        "python-oslo-config",
+        "python-oslo-log",
+        "python-oslo-serialization",
+        "python-oslo-utils",
+        "python-oslotest"
       ],
       "count": 3
     },
@@ -705,15 +626,6 @@
       "components": [
         "python-glyphsLib",
         "python-ufo2ft"
-      ],
-      "count": 2
-    },
-    {
-      "components": [
-        "python-autopage",
-        "python-cliff",
-        "python-cmd2",
-        "python-django-health-check"
       ],
       "count": 2
     },
@@ -736,32 +648,52 @@
     },
     {
       "components": [
-        "python-autopage",
-        "python-cliff",
-        "python-cmd2",
-        "python-debtcollector",
         "python-keystoneauth1",
         "python-openstacksdk",
-        "python-oslo-utils",
-        "python-stestr"
+        "python-oslo-utils"
       ],
       "count": 2
     },
     {
       "components": [
-        "grpc",
-        "python-grpcio-gcp",
-        "python-proto-plus"
+        "python-et_xmlfile",
+        "python-niapy",
+        "python-openpyxl"
       ],
       "count": 2
     },
     {
       "components": [
-        "python-google-api-core",
-        "python-google-cloud-core",
-        "python-proto-plus"
+        "python-doubleratchet",
+        "python-pydantic",
+        "python-x3dh",
+        "python-xmlschema"
       ],
       "count": 2
+    },
+    {
+      "components": [
+        "python-pydantic",
+        "python-pydantic-settings"
+      ],
+      "count": 2
+    },
+    {
+      "components": [
+        "python-et_xmlfile",
+        "python-niaaml",
+        "python-niapy",
+        "python-openpyxl"
+      ],
+      "count": 1
+    },
+    {
+      "components": [
+        "python-fslpy",
+        "python-nifti-mrs",
+        "spec2nii"
+      ],
+      "count": 1
     }
   ],
   "dependency_loops": []

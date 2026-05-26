@@ -1,4 +1,12 @@
 {
+  "Mayavi": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2433846"
+    ],
+    "summaries": [
+      "Mayavi: FTBFS in Fedora rawhide/f44"
+    ]
+  },
   "abiword": {
     "urls": [],
     "summaries": []
@@ -16,6 +24,10 @@
     "summaries": []
   },
   "ansible-builder": {
+    "urls": [],
+    "summaries": []
+  },
+  "ansible-core": {
     "urls": [],
     "summaries": []
   },
@@ -88,10 +100,6 @@
     "summaries": []
   },
   "gnulib": {
-    "urls": [],
-    "summaries": []
-  },
-  "grpc": {
     "urls": [],
     "summaries": []
   },
@@ -287,10 +295,6 @@
       "python-alembic1.14: FTBFS in Fedora rawhide/f44"
     ]
   },
-  "python-annarchy": {
-    "urls": [],
-    "summaries": []
-  },
   "python-ansible-runner": {
     "urls": [],
     "summaries": []
@@ -348,10 +352,6 @@
     "summaries": [
       "python-chai fails to build with Python 3.15: chai.exception.UnsupportedStub: (\"can't stub %s\", <property object at 0x7fbbc41d1df0>)"
     ]
-  },
-  "python-cmd2": {
-    "urls": [],
-    "summaries": []
   },
   "python-decopatch": {
     "urls": [],
@@ -421,7 +421,19 @@
     "urls": [],
     "summaries": []
   },
+  "python-geopmpy": {
+    "urls": [],
+    "summaries": []
+  },
   "python-geotiler": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-google-cloud-core": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-grpc-google-iam-v1": {
     "urls": [],
     "summaries": []
   },
@@ -858,10 +870,6 @@
     "summaries": []
   },
   "samba": {
-    "urls": [],
-    "summaries": []
-  },
-  "stp": {
     "urls": [],
     "summaries": []
   },
