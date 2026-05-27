@@ -91,10 +91,7 @@
     },
     {
       "component": "python-scikit-image",
-      "count": 7,
-      "blocked_by": [
-        "pythran"
-      ]
+      "count": 7
     },
     {
       "component": "libmamba",
@@ -255,10 +252,6 @@
       ]
     },
     {
-      "component": "pythran",
-      "count": 3
-    },
-    {
       "component": "python-zict",
       "count": 3
     },
@@ -275,10 +268,6 @@
       "blocked_by": [
         "pylint"
       ]
-    },
-    {
-      "component": "myst-nb",
-      "count": 3
     },
     {
       "component": "python-pcodedmp",
@@ -311,6 +300,14 @@
       "blocked_by": [
         "python-beartype"
       ]
+    },
+    {
+      "component": "python-extractcode",
+      "count": 2
+    },
+    {
+      "component": "python-ftfy",
+      "count": 2
     }
   ],
   "most_commonly_last_blocking": [
@@ -367,10 +364,6 @@
     {
       "component": "pylint",
       "count": 4
-    },
-    {
-      "component": "pythran",
-      "count": 3
     },
     {
       "component": "python-lsp-server",
@@ -448,6 +441,10 @@
       "blocked_by": [
         "python-trimesh"
       ]
+    },
+    {
+      "component": "python-eventlet",
+      "count": 2
     }
   ],
   "most_commonly_last_blocking_combinations": [

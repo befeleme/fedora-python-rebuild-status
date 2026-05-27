@@ -227,6 +227,10 @@
     "urls": [],
     "summaries": []
   },
+  "grpc": {
+    "urls": [],
+    "summaries": []
+  },
   "ipython": {
     "urls": [],
     "summaries": []
@@ -344,6 +348,10 @@
     "summaries": []
   },
   "mycli": {
+    "urls": [],
+    "summaries": []
+  },
+  "myst-nb": {
     "urls": [],
     "summaries": []
   },
@@ -775,6 +783,10 @@
       "python-chai fails to build with Python 3.15: chai.exception.UnsupportedStub: (\"can't stub %s\", <property object at 0x7fbbc41d1df0>)"
     ]
   },
+  "python-cmake-build-extension": {
+    "urls": [],
+    "summaries": []
+  },
   "python-cmd2": {
     "urls": [],
     "summaries": []
@@ -986,6 +998,10 @@
     ]
   },
   "python-geomdl": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-geopmpy": {
     "urls": [],
     "summaries": []
   },
@@ -1243,17 +1259,17 @@
     "urls": [],
     "summaries": []
   },
-  "python-opytimizer": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2435001"
-    ],
-    "summaries": [
-      "python-opytimizer: FTBFS in Fedora rawhide/f44"
-    ]
-  },
   "python-pathos": {
     "urls": [],
     "summaries": []
+  },
+  "python-pdm-backend": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2480529"
+    ],
+    "summaries": [
+      "python-pdm-backend: FTBFS in Fedora Rawhide: AssertionError: assert 'demo_package.pth' in ['.gitignore', '_editable_impl_demo_package.pth', 'demo_package-0.1.0.dist-info/METADATA', 'demo_package-0.1.0.dist-info/WHEEL', 'demo_package-0.1.0.dist-info/entry_"
+    ]
   },
   "python-peachpy": {
     "urls": [],
@@ -1298,10 +1314,6 @@
     "summaries": [
       "python-psycopg2 fails to build with Python 3.15: error: implicit declaration of function \u2018PyWeakref_GetObject\u2019; did you mean \u2018PyWeakref_GetRef\u2019?"
     ]
-  },
-  "python-pybtex": {
-    "urls": [],
-    "summaries": []
   },
   "python-pycparserext": {
     "urls": [
@@ -1405,6 +1417,10 @@
     "urls": [],
     "summaries": []
   },
+  "python-pytest-sugar": {
+    "urls": [],
+    "summaries": []
+  },
   "python-pytest-tldr": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2435014",
@@ -1422,6 +1438,10 @@
     "summaries": [
       "python-pyvmomi: FTBFS in Fedora rawhide/f44"
     ]
+  },
+  "python-pyxs": {
+    "urls": [],
+    "summaries": []
   },
   "python-qcustomplot-pyqt": {
     "urls": [
@@ -1540,6 +1560,10 @@
     "summaries": [
       "[heads up] python-sphinx-argparse-cli will fail to build with Sphinx 9+ in Fedora 45: ModuleNotFoundError: No module named 'sphinx.testing.path'"
     ]
+  },
+  "python-sphinx-book-theme": {
+    "urls": [],
+    "summaries": []
   },
   "python-sphinx-kr-theme": {
     "urls": [],

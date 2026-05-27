@@ -175,14 +175,6 @@
       "moose fails to build with Python 3.15: moose-core-3.1.5/pymoose/PyRun.h:58:24: error: \u2018Py_GetProgramName\u2019 was not declared in this scope; did you mean \u2018Py_SetProgramName\u2019?"
     ]
   },
-  "myst-nb": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2481418"
-    ],
-    "summaries": [
-      "myst-nb fails to build with Python 3.15: AssertionError in 6 tests"
-    ]
-  },
   "net-snmp": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2480378"
@@ -396,6 +388,10 @@
     "summaries": [
       "python-chai fails to build with Python 3.15: chai.exception.UnsupportedStub: (\"can't stub %s\", <property object at 0x7fbbc41d1df0>)"
     ]
+  },
+  "python-cmake-build-extension": {
+    "urls": [],
+    "summaries": []
   },
   "python-decopatch": {
     "urls": [],
@@ -643,14 +639,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-opytimizer": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2435001"
-    ],
-    "summaries": [
-      "python-opytimizer: FTBFS in Fedora rawhide/f44"
-    ]
-  },
   "python-phply": {
     "urls": [],
     "summaries": []
@@ -721,6 +709,10 @@
     "urls": [],
     "summaries": []
   },
+  "python-pytest-sugar": {
+    "urls": [],
+    "summaries": []
+  },
   "python-pytest-tldr": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2435014",
@@ -742,6 +734,10 @@
     "summaries": [
       "python-pyvmomi: FTBFS in Fedora rawhide/f44"
     ]
+  },
+  "python-pyxs": {
+    "urls": [],
+    "summaries": []
   },
   "python-qudida": {
     "urls": [],
@@ -782,6 +778,14 @@
   "python-scales": {
     "urls": [],
     "summaries": []
+  },
+  "python-scikit-image": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2435022"
+    ],
+    "summaries": [
+      "python-scikit-image: FTBFS in Fedora rawhide/f44"
+    ]
   },
   "python-sentinels": {
     "urls": [
@@ -913,10 +917,6 @@
     "urls": [],
     "summaries": []
   },
-  "pythran": {
-    "urls": [],
-    "summaries": []
-  },
   "pywhispercpp": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2453825"
@@ -955,14 +955,6 @@
     ],
     "summaries": [
       "rrdtool: FTBFS in Fedora Rawhide: File not found: /builddir/build/BUILD/rrdtool-1.10.3-build/BUILDROOT/usr/lib64/python3.14/site-packages/rrdtool*.so"
-    ]
-  },
-  "scipy": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2458664"
-    ],
-    "summaries": [
-      "scipy: FTBFS in Fedora Rawhide: test_gh_22681_finite_error: AssertionError"
     ]
   },
   "snakemake": {
