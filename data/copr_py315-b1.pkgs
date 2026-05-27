@@ -61,6 +61,7 @@ argparse-manpage	succeeded
 asahi-installer	succeeded
 asciidoc	succeeded
 assimp	succeeded
+astrometry	succeeded
 at-spi2-core	succeeded
 aubio	succeeded
 audit	succeeded
@@ -93,7 +94,7 @@ bmap-tools	failed
 bodhi-client	succeeded
 bodhi-messages	succeeded
 boom-boot	succeeded
-boost	succeeded
+boost	failed
 borgbackup	succeeded
 borgmatic	succeeded
 botan	succeeded
@@ -455,6 +456,7 @@ libgit2-glib	succeeded
 libgpiod	succeeded
 libguestfs	succeeded
 libiio	succeeded
+libimobiledevice	succeeded
 libiptcdata	succeeded
 libixion	succeeded
 libkdtree++	succeeded
@@ -503,6 +505,7 @@ libuser	succeeded
 libvirt-python	succeeded
 libvirt-test-API	succeeded
 libvoikko	succeeded
+libwignernj	failed
 libxc	canceled
 libxml2	succeeded
 libxslt	succeeded
@@ -679,7 +682,7 @@ plplot	succeeded
 pmbootstrap	succeeded
 pocketsphinx	succeeded
 podman-compose	succeeded
-poetry	succeeded
+poetry	pending
 poezio-omemo	succeeded
 policycoreutils	succeeded
 porcupine	succeeded
@@ -901,8 +904,14 @@ python-aspy.yaml	succeeded
 python-assertpy	succeeded
 python-astdoc	succeeded
 python-asteval	succeeded
+python-astroML	succeeded
 python-astroid	succeeded
+python-astroplan	succeeded
+python-astropy	succeeded
+python-astropy-healpix	succeeded
 python-astropy-iers-data	succeeded
+python-astroquery	failed
+python-astroscrappy	succeeded
 python-asttokens	succeeded
 python-async-lru	succeeded
 python-async-timeout	succeeded
@@ -1646,6 +1655,7 @@ python-glyphsLib	succeeded
 python-gmpy2	succeeded
 python-gmqtt	succeeded
 python-gnupg	succeeded
+python-goocalendar	succeeded
 python-google-api-core	succeeded
 python-google-auth	succeeded
 python-google-auth-oauthlib	succeeded
@@ -1690,6 +1700,7 @@ python-hatch-vcs	succeeded
 python-hatchling	succeeded
 python-hdfs	succeeded
 python-hdmf	succeeded
+python-healpy	succeeded
 python-heapdict	succeeded
 python-heatclient	succeeded
 python-helpdev	succeeded
@@ -2306,6 +2317,7 @@ python-pexpect	succeeded
 python-pg8000	succeeded
 python-pgspecial	succeeded
 python-phonenumbers	succeeded
+python-photutils	succeeded
 python-phply	failed
 python-phpserialize	succeeded
 python-phyghtmap	failed
@@ -2543,6 +2555,7 @@ python-pyrad	succeeded
 python-pyrankvote	succeeded
 python-pyrate-limiter	succeeded
 python-pyrdfa3	succeeded
+python-pyregion	succeeded
 python-pyrfc3339	succeeded
 python-pyro	succeeded
 python-pyroaring	succeeded
@@ -2580,6 +2593,8 @@ python-pytaglib	succeeded
 python-pyte	succeeded
 python-pytesseract	succeeded
 python-pytest-aiohttp	succeeded
+python-pytest-arraydiff	succeeded
+python-pytest-astropy	succeeded
 python-pytest-astropy-header	succeeded
 python-pytest-asyncio	succeeded
 python-pytest-bdd	succeeded
@@ -2669,6 +2684,7 @@ python-pyvat	succeeded
 python-pyvirtualdisplay	succeeded
 python-pyvlx	succeeded
 python-pyvmomi	failed
+python-pyvo	succeeded
 python-pywayland	succeeded
 python-pywizlight	succeeded
 python-pywt	succeeded
@@ -2727,6 +2743,7 @@ python-repoze-tm2	succeeded
 python-repoze-who	succeeded
 python-repoze-who-plugins-sa	succeeded
 python-represent	succeeded
+python-reproject	running
 python-requests	succeeded
 python-requests-cache	succeeded
 python-requests-download	succeeded
@@ -2819,7 +2836,7 @@ python-scantree	succeeded
 python-schedutils	succeeded
 python-schema	succeeded
 python-scikit-build-core	succeeded
-python-scikit-image	failed
+python-scikit-image	succeeded
 python-scikit-learn	succeeded
 python-scikit-uplift	succeeded
 python-scipy-doctest	succeeded
@@ -2842,6 +2859,7 @@ python-semver	succeeded
 python-send2trash	succeeded
 python-sentinels	failed
 python-sentry-sdk	succeeded
+python-sep	succeeded
 python-serpent	succeeded
 python-service-identity	succeeded
 python-setproctitle	succeeded
@@ -2920,6 +2938,7 @@ python-sphinx-autoapi	succeeded
 python-sphinx-autobuild	succeeded
 python-sphinx-autodoc-typehints	succeeded
 python-sphinx-basic-ng	succeeded
+python-sphinx-book-theme	succeeded
 python-sphinx-bootstrap-theme	succeeded
 python-sphinx-click	succeeded
 python-sphinx-copybutton	succeeded
@@ -3514,8 +3533,9 @@ sugar-toolkit-gtk3	succeeded
 sundials	succeeded
 superlu_dist	succeeded
 supervisor	failed
+swift-lang	failed
 swig	succeeded
-sword	succeeded
+sword	failed
 sympy	succeeded
 syncplay	succeeded
 syndication-domination	succeeded

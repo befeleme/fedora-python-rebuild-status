@@ -103,6 +103,10 @@
       "bodhi-server fails to build with Python 3.15: Test run ends with: = 3 failed, 604 errors  ="
     ]
   },
+  "boost": {
+    "urls": [],
+    "summaries": []
+  },
   "bout++": {
     "urls": [],
     "summaries": []
@@ -1898,6 +1902,14 @@
   "supervisor": {
     "urls": [],
     "summaries": []
+  },
+  "sword": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2431537"
+    ],
+    "summaries": [
+      "sword-1.9.0-36.fc44 FTBFS: tests/swbuftest.cpp:167:41: error: use of deleted function \u2018std::basic_ostream<char, _Traits>& std::operator<<(basic_ostream<char, _Traits>&, const wchar_t*) [with _Traits = char_traits<char>]\u2019"
+    ]
   },
   "syslog-ng": {
     "urls": [],

@@ -47,6 +47,10 @@
       "bmap-tools fails to build with Python 3.15: bmaptool.BmapCopy.Error: checksum mismatch for blocks range 34-35"
     ]
   },
+  "boost": {
+    "urls": [],
+    "summaries": []
+  },
   "ceph": {
     "urls": [],
     "summaries": []
@@ -148,6 +152,10 @@
     "summaries": []
   },
   "libsvm": {
+    "urls": [],
+    "summaries": []
+  },
+  "libwignernj": {
     "urls": [],
     "summaries": []
   },
@@ -334,6 +342,14 @@
   "python-apipkg": {
     "urls": [],
     "summaries": []
+  },
+  "python-astroquery": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2460120"
+    ],
+    "summaries": [
+      "python-astroquery fails to build with Python 3.15: AttributeError: 'SourceFileLoader' object has no attribute 'load_module'. Did you mean '.exec_module' instead of '.load_module'?"
+    ]
   },
   "python-avocado": {
     "urls": [],
@@ -755,6 +771,10 @@
       "python-readme-renderer fails to build with Python 3.15: test_cli_package: No content rendered from RST source."
     ]
   },
+  "python-reproject": {
+    "urls": [],
+    "summaries": []
+  },
   "python-requirements-parser": {
     "urls": [],
     "summaries": []
@@ -778,14 +798,6 @@
   "python-scales": {
     "urls": [],
     "summaries": []
-  },
-  "python-scikit-image": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2435022"
-    ],
-    "summaries": [
-      "python-scikit-image: FTBFS in Fedora rawhide/f44"
-    ]
   },
   "python-sentinels": {
     "urls": [
@@ -964,6 +976,18 @@
   "supervisor": {
     "urls": [],
     "summaries": []
+  },
+  "swift-lang": {
+    "urls": [],
+    "summaries": []
+  },
+  "sword": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2431537"
+    ],
+    "summaries": [
+      "sword-1.9.0-36.fc44 FTBFS: tests/swbuftest.cpp:167:41: error: use of deleted function \u2018std::basic_ostream<char, _Traits>& std::operator<<(basic_ostream<char, _Traits>&, const wchar_t*) [with _Traits = char_traits<char>]\u2019"
+    ]
   },
   "thefuck": {
     "urls": [],

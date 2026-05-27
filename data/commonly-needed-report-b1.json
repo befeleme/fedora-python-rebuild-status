@@ -22,15 +22,6 @@
       ]
     },
     {
-      "component": "python-astropy",
-      "count": 18,
-      "blocked_by": [
-        "python-pytest-arraydiff",
-        "python-pytest-astropy",
-        "python-scikit-image"
-      ]
-    },
-    {
       "component": "pyproj",
       "count": 13
     },
@@ -50,20 +41,6 @@
       "count": 11,
       "blocked_by": [
         "python-peachpy"
-      ]
-    },
-    {
-      "component": "python-pytest-arraydiff",
-      "count": 10,
-      "blocked_by": [
-        "python-astropy"
-      ]
-    },
-    {
-      "component": "python-pytest-astropy",
-      "count": 9,
-      "blocked_by": [
-        "python-pytest-arraydiff"
       ]
     },
     {
@@ -87,10 +64,6 @@
     },
     {
       "component": "python-plaster-pastedeploy",
-      "count": 7
-    },
-    {
-      "component": "python-scikit-image",
       "count": 7
     },
     {
@@ -165,7 +138,6 @@
         "manifold",
         "python-cascadio",
         "python-ezdxf",
-        "python-scikit-image",
         "python-shapely",
         "usd"
       ]
@@ -236,15 +208,6 @@
       "count": 3
     },
     {
-      "component": "python-astropy-healpix",
-      "count": 3,
-      "blocked_by": [
-        "python-astropy",
-        "python-pytest-arraydiff",
-        "python-pytest-astropy"
-      ]
-    },
-    {
       "component": "python-rasterio",
       "count": 3,
       "blocked_by": [
@@ -308,6 +271,36 @@
     {
       "component": "python-ftfy",
       "count": 2
+    },
+    {
+      "component": "go-vendor-tools",
+      "count": 2,
+      "blocked_by": [
+        "python-beartype",
+        "python-extractcode",
+        "python-ftfy",
+        "python-spdx-tools",
+        "scancode-toolkit"
+      ]
+    },
+    {
+      "component": "python-django-extensions",
+      "count": 2
+    },
+    {
+      "component": "python-yamlloader",
+      "count": 2
+    },
+    {
+      "component": "python-lazr-config",
+      "count": 2,
+      "blocked_by": [
+        "python-lazr-delegates"
+      ]
+    },
+    {
+      "component": "osc",
+      "count": 2
     }
   ],
   "most_commonly_last_blocking": [
@@ -333,15 +326,6 @@
       ]
     },
     {
-      "component": "python-astropy",
-      "count": 6,
-      "blocked_by": [
-        "python-pytest-arraydiff",
-        "python-pytest-astropy",
-        "python-scikit-image"
-      ]
-    },
-    {
       "component": "python-trimesh",
       "count": 4,
       "blocked_by": [
@@ -349,7 +333,6 @@
         "manifold",
         "python-cascadio",
         "python-ezdxf",
-        "python-scikit-image",
         "python-shapely",
         "usd"
       ]
@@ -364,6 +347,10 @@
     {
       "component": "pylint",
       "count": 4
+    },
+    {
+      "component": "gdal",
+      "count": 3
     },
     {
       "component": "python-lsp-server",
@@ -399,10 +386,6 @@
     },
     {
       "component": "python-sshtunnel",
-      "count": 2
-    },
-    {
-      "component": "gdal",
       "count": 2
     },
     {
@@ -445,6 +428,10 @@
     {
       "component": "python-eventlet",
       "count": 2
+    },
+    {
+      "component": "python-PyGithub",
+      "count": 2
     }
   ],
   "most_commonly_last_blocking_combinations": [
@@ -454,14 +441,6 @@
         "python-msrestazure"
       ],
       "count": 9
-    },
-    {
-      "components": [
-        "python-astropy",
-        "python-pytest-arraydiff",
-        "python-pytest-astropy"
-      ],
-      "count": 6
     },
     {
       "components": [
@@ -602,6 +581,13 @@
         "python-django-allauth",
         "python-django-mailman3",
         "python-readme-renderer"
+      ],
+      "count": 1
+    },
+    {
+      "components": [
+        "pulp-cli",
+        "python-pytest-subtests"
       ],
       "count": 1
     }
