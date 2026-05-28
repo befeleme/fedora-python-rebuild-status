@@ -1,5 +1,6 @@
 2ping	succeeded
 389-ds-base	succeeded
+APLpy	succeeded
 COPASI	succeeded
 Cython	succeeded
 DisplayCAL	succeeded
@@ -143,7 +144,7 @@ cobbler	succeeded
 coccinelle	succeeded
 cockpit	succeeded
 codespell	succeeded
-coin-or-HiGHS	succeeded
+coin-or-HiGHS	failed
 colin	succeeded
 collectd	succeeded
 compizconfig-python	succeeded
@@ -168,6 +169,7 @@ cryptominisat	succeeded
 csdiff	succeeded
 csmock	succeeded
 cucumber-messages	succeeded
+cura	succeeded
 cvc5	succeeded
 cxxtest	succeeded
 d-feet	succeeded
@@ -519,7 +521,7 @@ liquidctl	succeeded
 lirc	succeeded
 litecli	succeeded
 livecd-tools	succeeded
-llvm	canceled
+llvm	succeeded
 llvm21	failed
 lollypop	succeeded
 loook	succeeded
@@ -647,7 +649,7 @@ orca	succeeded
 orocos-kdl	succeeded
 osbs-client	succeeded
 osbuild	succeeded
-osc	failed
+osc	succeeded
 osh	succeeded
 otf2	succeeded
 oz	succeeded
@@ -682,7 +684,7 @@ plplot	succeeded
 pmbootstrap	succeeded
 pocketsphinx	succeeded
 podman-compose	succeeded
-poetry	pending
+poetry	succeeded
 poezio-omemo	succeeded
 policycoreutils	succeeded
 porcupine	succeeded
@@ -747,6 +749,7 @@ pymilia	succeeded
 pymodbus	succeeded
 pymol	succeeded
 pyodbc	succeeded
+pyosmium	succeeded
 pyotherside	succeeded
 pyowm	succeeded
 pyp2rpm	failed
@@ -756,7 +759,7 @@ pyparted	succeeded
 pyplane	succeeded
 pypolicyd-spf	succeeded
 pyppd	succeeded
-pyproj	failed
+pyproj	succeeded
 pyqtwebengine	failed
 pyscard	succeeded
 pyserial	succeeded
@@ -1016,6 +1019,7 @@ python-backrefs	succeeded
 python-banal	succeeded
 python-base58	succeeded
 python-baseconv	succeeded
+python-basemap	succeeded
 python-bashate	succeeded
 python-basis_set_exchange	succeeded
 python-batalgorithm	succeeded
@@ -1100,6 +1104,7 @@ python-canonicaljson	succeeded
 python-capturer	succeeded
 python-carbon	succeeded
 python-cart	succeeded
+python-cartopy	failed
 python-casttube	succeeded
 python-catkin-sphinx	succeeded
 python-catkin_pkg	succeeded
@@ -1107,6 +1112,7 @@ python-catkin_tools	failed
 python-cattrs	succeeded
 python-cbor2	succeeded
 python-cccolutils	succeeded
+python-ccdproc	succeeded
 python-cclib	succeeded
 python-cerberus	failed
 python-cerealizer	succeeded
@@ -1529,6 +1535,7 @@ python-filelock	succeeded
 python-filetype	succeeded
 python-findpython	succeeded
 python-fingerprints	succeeded
+python-fiona	succeeded
 python-fireflyalgorithm	succeeded
 python-firehose	succeeded
 python-fisx	succeeded
@@ -1625,10 +1632,12 @@ python-gbulb	succeeded
 python-gelidum	succeeded
 python-gemfileparser2	succeeded
 python-genshi	succeeded
+python-geodatasets	succeeded
 python-geographiclib	succeeded
 python-geoip2	succeeded
 python-geojson	succeeded
 python-geomdl	succeeded
+python-geopandas	succeeded
 python-geopmpy	failed
 python-geopy	succeeded
 python-geotiler	failed
@@ -1864,7 +1873,7 @@ python-jsonfeed-util	succeeded
 python-jsonformatter	succeeded
 python-jsonpatch	succeeded
 python-jsonpath-ng	succeeded
-python-jsonpickle	failed
+python-jsonpickle	succeeded
 python-jsonpointer	succeeded
 python-jsonref	succeeded
 python-jsonrpclib	succeeded
@@ -2196,7 +2205,7 @@ python-omsdk	succeeded
 python-onionbalance	succeeded
 python-op1repacker	succeeded
 python-op1svg	succeeded
-python-opcodes	failed
+python-opcodes	succeeded
 python-openai	succeeded
 python-openant	succeeded
 python-openapi-pydantic	succeeded
@@ -2302,6 +2311,7 @@ python-pdfkit	succeeded
 python-pdfminer	succeeded
 python-pdfrw	succeeded
 python-pdm-backend	succeeded
+python-peachpy	succeeded
 python-pebble	succeeded
 python-pecan	succeeded
 python-peewee	succeeded
@@ -2716,6 +2726,7 @@ python-railroad-diagrams	succeeded
 python-rangehttpserver	succeeded
 python-rapidfuzz	succeeded
 python-rarfile	succeeded
+python-rasterio	failed
 python-raven	succeeded
 python-rcssmin	succeeded
 python-rdflib	succeeded
@@ -2743,7 +2754,7 @@ python-repoze-tm2	succeeded
 python-repoze-who	succeeded
 python-repoze-who-plugins-sa	succeeded
 python-represent	succeeded
-python-reproject	running
+python-reproject	succeeded
 python-requests	succeeded
 python-requests-cache	succeeded
 python-requests-download	succeeded
@@ -2876,6 +2887,7 @@ python-sgp4	succeeded
 python-sgqlc	succeeded
 python-sh	succeeded
 python-shamir-mnemonic	succeeded
+python-shapely	succeeded
 python-shellingham	succeeded
 python-shortuuid	succeeded
 python-should_dsl	succeeded
@@ -3133,6 +3145,7 @@ python-tomli	succeeded
 python-tomli-w	succeeded
 python-tomlkit	succeeded
 python-toolz	succeeded
+python-torch	failed
 python-tornado	failed
 python-towncrier	succeeded
 python-tox	succeeded
@@ -3224,6 +3237,7 @@ python-unix-ar	succeeded
 python-unpaddedbase64	succeeded
 python-untangle	succeeded
 python-uptime	succeeded
+python-uranium	succeeded
 python-uri-template	succeeded
 python-uritemplate	succeeded
 python-uritools	succeeded
@@ -3419,7 +3433,7 @@ qr-code-generator	succeeded
 qscintilla	succeeded
 quearcode	succeeded
 quisk	succeeded
-quodlibet	succeeded
+quodlibet	failed
 qutebrowser	succeeded
 radicale	succeeded
 ramalama	succeeded

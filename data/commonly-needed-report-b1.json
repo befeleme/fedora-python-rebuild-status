@@ -15,17 +15,6 @@
       ]
     },
     {
-      "component": "python-shapely",
-      "count": 20,
-      "blocked_by": [
-        "pyproj"
-      ]
-    },
-    {
-      "component": "pyproj",
-      "count": 13
-    },
-    {
       "component": "python-et_xmlfile",
       "count": 12
     },
@@ -38,10 +27,7 @@
     },
     {
       "component": "python-torch",
-      "count": 11,
-      "blocked_by": [
-        "python-peachpy"
-      ]
+      "count": 11
     },
     {
       "component": "python-msrestazure",
@@ -138,18 +124,7 @@
         "manifold",
         "python-cascadio",
         "python-ezdxf",
-        "python-shapely",
         "usd"
-      ]
-    },
-    {
-      "component": "python-geopandas",
-      "count": 5,
-      "blocked_by": [
-        "pyproj",
-        "python-fiona",
-        "python-mapclassify",
-        "python-shapely"
       ]
     },
     {
@@ -209,10 +184,7 @@
     },
     {
       "component": "python-rasterio",
-      "count": 3,
-      "blocked_by": [
-        "python-shapely"
-      ]
+      "count": 3
     },
     {
       "component": "python-zict",
@@ -301,6 +273,25 @@
     {
       "component": "osc",
       "count": 2
+    },
+    {
+      "component": "mupdf",
+      "count": 2,
+      "blocked_by": [
+        "llvm21"
+      ]
+    },
+    {
+      "component": "python-django-health-check",
+      "count": 2,
+      "blocked_by": [
+        "python-celery",
+        "python-kombu"
+      ]
+    },
+    {
+      "component": "python-geotiler",
+      "count": 2
     }
   ],
   "most_commonly_last_blocking": [
@@ -320,10 +311,18 @@
     },
     {
       "component": "python-torch",
-      "count": 9,
+      "count": 9
+    },
+    {
+      "component": "python-xarray",
+      "count": 5,
       "blocked_by": [
-        "python-peachpy"
+        "python-rasterio"
       ]
+    },
+    {
+      "component": "gdal",
+      "count": 4
     },
     {
       "component": "python-trimesh",
@@ -333,24 +332,12 @@
         "manifold",
         "python-cascadio",
         "python-ezdxf",
-        "python-shapely",
         "usd"
-      ]
-    },
-    {
-      "component": "python-shapely",
-      "count": 4,
-      "blocked_by": [
-        "pyproj"
       ]
     },
     {
       "component": "pylint",
       "count": 4
-    },
-    {
-      "component": "gdal",
-      "count": 3
     },
     {
       "component": "python-lsp-server",
@@ -364,13 +351,6 @@
       "count": 3,
       "blocked_by": [
         "python-pcodedmp"
-      ]
-    },
-    {
-      "component": "python-xarray",
-      "count": 3,
-      "blocked_by": [
-        "python-rasterio"
       ]
     },
     {
@@ -401,15 +381,8 @@
       ]
     },
     {
-      "component": "pyproj",
-      "count": 2
-    },
-    {
       "component": "python-rasterio",
-      "count": 2,
-      "blocked_by": [
-        "python-shapely"
-      ]
+      "count": 2
     },
     {
       "component": "python-futurist",
@@ -431,6 +404,15 @@
     },
     {
       "component": "python-PyGithub",
+      "count": 2
+    },
+    {
+      "component": "python-croniter",
+      "count": 2,
+      "unresolvable": true
+    },
+    {
+      "component": "xapian-bindings",
       "count": 2
     }
   ],
@@ -481,14 +463,6 @@
     },
     {
       "components": [
-        "pyproj",
-        "python-geopandas",
-        "python-shapely"
-      ],
-      "count": 2
-    },
-    {
-      "components": [
         "python-et_xmlfile",
         "python-niaaml",
         "python-niapy",
@@ -501,13 +475,6 @@
         "python-fslpy",
         "python-nifti-mrs",
         "spec2nii"
-      ],
-      "count": 1
-    },
-    {
-      "components": [
-        "pyproj",
-        "usd"
       ],
       "count": 1
     },
@@ -527,13 +494,6 @@
       "components": [
         "python-croniter",
         "python-treq"
-      ],
-      "count": 1
-    },
-    {
-      "components": [
-        "python-shapely",
-        "python-uranium"
       ],
       "count": 1
     },
@@ -588,6 +548,32 @@
       "components": [
         "pulp-cli",
         "python-pytest-subtests"
+      ],
+      "count": 1
+    },
+    {
+      "components": [
+        "python-huggingface-hub",
+        "python-safetensors",
+        "python-torch"
+      ],
+      "count": 1
+    },
+    {
+      "components": [
+        "python-xarray",
+        "python-xarray-einstats"
+      ],
+      "count": 1
+    },
+    {
+      "components": [
+        "python-et_xmlfile",
+        "python-geotiler",
+        "python-niaaml",
+        "python-niapy",
+        "python-openpyxl",
+        "python-sport-activities-features"
       ],
       "count": 1
     }

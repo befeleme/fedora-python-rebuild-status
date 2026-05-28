@@ -63,6 +63,10 @@
       "certbot fails to build with Python 3.15: FutureWarning: invalid character '+' in URL-safe Base64 data will be discarded in future Python versions"
     ]
   },
+  "coin-or-HiGHS": {
+    "urls": [],
+    "summaries": []
+  },
   "dionaea": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2380545"
@@ -207,14 +211,6 @@
     "urls": [],
     "summaries": []
   },
-  "osc": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2481412"
-    ],
-    "summaries": [
-      "osc fails to build with Python 3.15: TypeError: OscArgumentParser._get_formatter() got an unexpected keyword argument 'file'"
-    ]
-  },
   "petsc": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2440567"
@@ -254,10 +250,6 @@
     "summaries": [
       "pyp2rpm fails to build with Python 3.15: ModuleNotFoundError: No module named 'sre_constants'"
     ]
-  },
-  "pyproj": {
-    "urls": [],
-    "summaries": []
   },
   "pyqtwebengine": {
     "urls": [
@@ -387,6 +379,14 @@
     ],
     "summaries": [
       "python-bytecode fails to build with Python 3.15: 9 tests fail"
+    ]
+  },
+  "python-cartopy": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2460066"
+    ],
+    "summaries": [
+      "python-cartopy: FTBFS in Fedora Rawhide: 165 tests fail"
     ]
   },
   "python-catkin_tools": {
@@ -555,10 +555,6 @@
       "python-jnius: FTBFS in Fedora Rawhide: error: incompatible pointer types passing 'JNIEnv **' (aka 'const struct JNINativeInterface_ ***') to parameter of type 'void **'"
     ]
   },
-  "python-jsonpickle": {
-    "urls": [],
-    "summaries": []
-  },
   "python-kaptan": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2423881"
@@ -646,10 +642,6 @@
     "summaries": [
       "python-numpoly: FTBFS in Fedora rawhide/f44"
     ]
-  },
-  "python-opcodes": {
-    "urls": [],
-    "summaries": []
   },
   "python-opfunu": {
     "urls": [],
@@ -759,6 +751,10 @@
     "urls": [],
     "summaries": []
   },
+  "python-rasterio": {
+    "urls": [],
+    "summaries": []
+  },
   "python-readchar": {
     "urls": [],
     "summaries": []
@@ -770,10 +766,6 @@
     "summaries": [
       "python-readme-renderer fails to build with Python 3.15: test_cli_package: No content rendered from RST source."
     ]
-  },
-  "python-reproject": {
-    "urls": [],
-    "summaries": []
   },
   "python-requirements-parser": {
     "urls": [],
@@ -854,6 +846,10 @@
     "summaries": [
       "python-toml-cli: FTBFS in Fedora Rawhide: 2 tests fail"
     ]
+  },
+  "python-torch": {
+    "urls": [],
+    "summaries": []
   },
   "python-tornado": {
     "urls": [
@@ -936,6 +932,10 @@
     "summaries": [
       "pywhispercpp fails to build with setuptools_scm 10+"
     ]
+  },
+  "quodlibet": {
+    "urls": [],
+    "summaries": []
   },
   "rebase-helper": {
     "urls": [

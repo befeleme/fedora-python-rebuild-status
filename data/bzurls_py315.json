@@ -135,6 +135,10 @@
     "urls": [],
     "summaries": []
   },
+  "coin-or-HiGHS": {
+    "urls": [],
+    "summaries": []
+  },
   "conda-build": {
     "urls": [],
     "summaries": []
@@ -253,6 +257,14 @@
     ],
     "summaries": [
       "jc fails to build with Python 3.15: AssertionError: 'format': 1760, != 'format': 7250,"
+    ]
+  },
+  "keylime": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2458659"
+    ],
+    "summaries": [
+      "keylime: FTBFS in Fedora Rawhide: test.test_rpm_repo: ModuleNotFoundError: No module named 'rpm'"
     ]
   },
   "khal": {
@@ -1085,10 +1097,6 @@
       "python-jnius: FTBFS in Fedora Rawhide: error: incompatible pointer types passing 'JNIEnv **' (aka 'const struct JNINativeInterface_ ***') to parameter of type 'void **'"
     ]
   },
-  "python-jsonpickle": {
-    "urls": [],
-    "summaries": []
-  },
   "python-jupyter-server": {
     "urls": [],
     "summaries": []
@@ -1259,10 +1267,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-opcodes": {
-    "urls": [],
-    "summaries": []
-  },
   "python-pathos": {
     "urls": [],
     "summaries": []
@@ -1274,10 +1278,6 @@
     "summaries": [
       "python-pdm-backend: FTBFS in Fedora Rawhide: AssertionError: assert 'demo_package.pth' in ['.gitignore', '_editable_impl_demo_package.pth', 'demo_package-0.1.0.dist-info/METADATA', 'demo_package-0.1.0.dist-info/WHEEL', 'demo_package-0.1.0.dist-info/entry_"
     ]
-  },
-  "python-peachpy": {
-    "urls": [],
-    "summaries": []
   },
   "python-phply": {
     "urls": [],
@@ -1808,6 +1808,10 @@
     ]
   },
   "qtile": {
+    "urls": [],
+    "summaries": []
+  },
+  "quodlibet": {
     "urls": [],
     "summaries": []
   },
