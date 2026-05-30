@@ -260,12 +260,8 @@
     ]
   },
   "keylime": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2458659"
-    ],
-    "summaries": [
-      "keylime: FTBFS in Fedora Rawhide: test.test_rpm_repo: ModuleNotFoundError: No module named 'rpm'"
-    ]
+    "urls": [],
+    "summaries": []
   },
   "khal": {
     "urls": [],
@@ -300,6 +296,10 @@
     "summaries": []
   },
   "libmamba": {
+    "urls": [],
+    "summaries": []
+  },
+  "libopenshot": {
     "urls": [],
     "summaries": []
   },
@@ -378,6 +378,10 @@
     "summaries": [
       "net-snmp-5.9.5.2-4.fc45 FTBFS: \"Checking the Net-SNMP configure script validity\" test fails"
     ]
+  },
+  "netgen-mesher": {
+    "urls": [],
+    "summaries": []
   },
   "nmstate": {
     "urls": [],
@@ -607,6 +611,10 @@
     "urls": [],
     "summaries": []
   },
+  "python-azure-functions-devops-build": {
+    "urls": [],
+    "summaries": []
+  },
   "python-azure-loganalytics": {
     "urls": [],
     "summaries": []
@@ -754,14 +762,6 @@
   "python-boto3": {
     "urls": [],
     "summaries": []
-  },
-  "python-botocore": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2424584"
-    ],
-    "summaries": [
-      "python-botocore fails to build with Python 3.15: AssertionError: At index 8 diff: b'\\x00' != b'\\x02'"
-    ]
   },
   "python-bytecode": {
     "urls": [
@@ -1711,6 +1711,10 @@
     "urls": [],
     "summaries": []
   },
+  "python-vsts-cd-manager": {
+    "urls": [],
+    "summaries": []
+  },
   "python-watchdog": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2460596"
@@ -1838,6 +1842,10 @@
     "summaries": [
       "renderdoc fails to build with Python 3.15: qrenderdoc_python.cxx:2296:13: error: \u2018PyWeakref_GET_OBJECT\u2019 was not declared in this scope"
     ]
+  },
+  "resalloc": {
+    "urls": [],
+    "summaries": []
   },
   "resalloc-ibm-cloud": {
     "urls": [],

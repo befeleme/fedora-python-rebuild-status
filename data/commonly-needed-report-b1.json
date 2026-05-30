@@ -290,8 +290,11 @@
       ]
     },
     {
-      "component": "python-elastic-transport",
-      "count": 2
+      "component": "python-twine",
+      "count": 2,
+      "blocked_by": [
+        "python-readme-renderer"
+      ]
     }
   ],
   "most_commonly_last_blocking": [
