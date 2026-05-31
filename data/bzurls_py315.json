@@ -831,14 +831,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-dill": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2479741"
-    ],
-    "summaries": [
-      "python-dill fails to build with Python 3.15: AttributeError: 'code' object has no attribute 'co_lnotab'. Did you mean '.co_linetable' instead of '.co_lnotab'?"
-    ]
-  },
   "python-distributed": {
     "urls": [],
     "summaries": []
@@ -963,19 +955,7 @@
       "python-extras fails to build with Python 3.15: AttributeError: 'TestTryImports' object has no attribute 'assertEquals'. Did you mean '.assertEqual' instead of '.assertEquals'?"
     ]
   },
-  "python-eyed3": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2479757"
-    ],
-    "summaries": [
-      "python-eyed3 fails to build with Python 3.15: AssertionError in testRecordingDate_v23_issue517"
-    ]
-  },
   "python-fastmcp": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-fastprogress": {
     "urls": [],
     "summaries": []
   },
@@ -995,14 +975,6 @@
     "summaries": [
       "python-fs: FTBFS in Fedora rawhide/f44",
       "python-fs fails to build with Python 3.15: AttributeError: 'DocTestCase' object has no attribute '_test_result'"
-    ]
-  },
-  "python-ftfy": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2465538"
-    ],
-    "summaries": [
-      "python-ftfy: FTBFS in Fedora Rawhide: failed doctest: ftfy.formatting.monospaced_width"
     ]
   },
   "python-genshi": {
@@ -1218,6 +1190,10 @@
     "summaries": [
       "python-mplcairo fails to build with Python 3.15: pybind11::handle::dec_ref() is being called while the GIL is either not held or invalid."
     ]
+  },
+  "python-mpmath": {
+    "urls": [],
+    "summaries": []
   },
   "python-msrest": {
     "urls": [
@@ -1510,18 +1486,18 @@
     "summaries": []
   },
   "python-scikit-image": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2435022"
-    ],
-    "summaries": [
-      "python-scikit-image: FTBFS in Fedora rawhide/f44"
-    ]
+    "urls": [],
+    "summaries": []
   },
   "python-scikit-uplift": {
     "urls": [],
     "summaries": []
   },
   "python-scipy-doctest": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-seaborn": {
     "urls": [],
     "summaries": []
   },
@@ -1880,12 +1856,8 @@
     ]
   },
   "scancode-toolkit": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2466652"
-    ],
-    "summaries": [
-      "scancode-toolkit: FTBFS in Fedora Rawhide: 2 tests fail"
-    ]
+    "urls": [],
+    "summaries": []
   },
   "scipy": {
     "urls": [

@@ -234,16 +234,11 @@
       "count": 2
     },
     {
-      "component": "python-ftfy",
-      "count": 2
-    },
-    {
       "component": "go-vendor-tools",
       "count": 2,
       "blocked_by": [
         "python-beartype",
         "python-extractcode",
-        "python-ftfy",
         "python-spdx-tools",
         "scancode-toolkit"
       ]
@@ -295,6 +290,10 @@
       "blocked_by": [
         "python-readme-renderer"
       ]
+    },
+    {
+      "component": "python-elastic-transport",
+      "count": 2
     }
   ],
   "most_commonly_last_blocking": [
@@ -355,7 +354,6 @@
       "blocked_by": [
         "python-beartype",
         "python-extractcode",
-        "python-ftfy",
         "python-spdx-tools",
         "scancode-toolkit"
       ]
@@ -501,7 +499,6 @@
       "components": [
         "python-beartype",
         "python-extractcode",
-        "python-ftfy",
         "python-spdx-tools",
         "scancode-toolkit"
       ],
