@@ -243,14 +243,6 @@
     "urls": [],
     "summaries": []
   },
-  "javapackages-tools": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2414799"
-    ],
-    "summaries": [
-      "javapackages-tools fails to build with Python 3.15: AssertionError in TestMvnBuild.test_builddep"
-    ]
-  },
   "jc": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2424595"
@@ -990,8 +982,12 @@
     "summaries": []
   },
   "python-geopmpy": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2483709"
+    ],
+    "summaries": [
+      "python-geopmpy fails to build with Python 3.15: neverending Generating HDF5 files... Applying workaround for strings in HDF5 files... in test_report_cache (TestIO.TestIO.test_report_cache)"
+    ]
   },
   "python-geotiler": {
     "urls": [],
@@ -1112,12 +1108,8 @@
     "summaries": []
   },
   "python-llm": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2466667"
-    ],
-    "summaries": [
-      "python-llm fails to build with Python 3.15: test_gpt5_verbosity_option_is_sent_to_openai_chat_completions: AssertionError: assert 'VerbosityEnum.high' == 'high'"
-    ]
+    "urls": [],
+    "summaries": []
   },
   "python-lsp-black": {
     "urls": [],
@@ -1518,12 +1510,8 @@
     "summaries": []
   },
   "python-simple-salesforce": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2460532"
-    ],
-    "summaries": [
-      "python-simple-salesforce fails to build with Python 3.15:  simple_salesforce.exceptions.SalesforceBulkV2LoadError: Failed to upload job data. Response content: OrderedDict({'apiVersion': 52.0, 'columnDelimiter': 'COMMA', 'concurrencyMode': 'Parallel', 'co"
-    ]
+    "urls": [],
+    "summaries": []
   },
   "python-snakemake-executor-plugin-slurm": {
     "urls": [],
@@ -1872,8 +1860,12 @@
     "summaries": []
   },
   "snakemake": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2483710"
+    ],
+    "summaries": [
+      "snakemake fails to build with Python 3.15: help2man: can't get `--help' info from snakemake"
+    ]
   },
   "sundials": {
     "urls": [],
@@ -1884,8 +1876,12 @@
     "summaries": []
   },
   "swift-lang": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2483711"
+    ],
+    "summaries": [
+      "swift-lang fails to build with Python 3.15: /usr/include/c++/16/cmath:334:26: internal compiler error: Segmentation fault"
+    ]
   },
   "sword": {
     "urls": [

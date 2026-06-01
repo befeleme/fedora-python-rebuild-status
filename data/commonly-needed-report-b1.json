@@ -1,10 +1,6 @@
 {
   "most_commonly_needed": [
     {
-      "component": "python-msrest",
-      "count": 57
-    },
-    {
       "component": "snakemake",
       "count": 22,
       "blocked_by": [
@@ -15,26 +11,8 @@
       ]
     },
     {
-      "component": "python-et_xmlfile",
-      "count": 12
-    },
-    {
-      "component": "python-openpyxl",
-      "count": 11,
-      "blocked_by": [
-        "python-et_xmlfile"
-      ]
-    },
-    {
       "component": "python-torch",
       "count": 11
-    },
-    {
-      "component": "python-msrestazure",
-      "count": 9,
-      "blocked_by": [
-        "python-msrest"
-      ]
     },
     {
       "component": "python-hupper",
@@ -55,14 +33,6 @@
     {
       "component": "libmamba",
       "count": 7
-    },
-    {
-      "component": "python-niapy",
-      "count": 6,
-      "blocked_by": [
-        "python-et_xmlfile",
-        "python-openpyxl"
-      ]
     },
     {
       "component": "python-pyramid",
@@ -101,14 +71,6 @@
       ]
     },
     {
-      "component": "python-kombu",
-      "count": 5,
-      "blocked_by": [
-        "python-azure-mgmt-storage",
-        "python-msrest"
-      ]
-    },
-    {
       "component": "python-readme-renderer",
       "count": 5
     },
@@ -128,18 +90,7 @@
       ]
     },
     {
-      "component": "python-celery",
-      "count": 4,
-      "blocked_by": [
-        "python-kombu"
-      ]
-    },
-    {
       "component": "python-django-allauth",
-      "count": 4
-    },
-    {
-      "component": "gdal",
       "count": 4
     },
     {
@@ -153,15 +104,6 @@
     {
       "component": "pylint",
       "count": 4
-    },
-    {
-      "component": "python-niaaml",
-      "count": 3,
-      "blocked_by": [
-        "python-et_xmlfile",
-        "python-niapy",
-        "python-openpyxl"
-      ]
     },
     {
       "component": "python-sshtunnel",
@@ -202,13 +144,6 @@
       "count": 3,
       "blocked_by": [
         "pylint"
-      ]
-    },
-    {
-      "component": "python-azure-mgmt-storage",
-      "count": 2,
-      "blocked_by": [
-        "python-msrest"
       ]
     },
     {
@@ -266,14 +201,6 @@
       ]
     },
     {
-      "component": "python-django-health-check",
-      "count": 2,
-      "blocked_by": [
-        "python-celery",
-        "python-kombu"
-      ]
-    },
-    {
       "component": "python-geotiler",
       "count": 2
     },
@@ -294,13 +221,70 @@
     {
       "component": "python-elastic-transport",
       "count": 2
+    },
+    {
+      "component": "python-py-key-value",
+      "count": 2,
+      "blocked_by": [
+        "python-beartype",
+        "python-elastic-transport",
+        "python-elasticsearch"
+      ]
+    },
+    {
+      "component": "python-sentinels",
+      "count": 2
+    },
+    {
+      "component": "python-eventlet",
+      "count": 2
+    },
+    {
+      "component": "python-libpysal",
+      "count": 2,
+      "blocked_by": [
+        "python-xarray"
+      ]
+    },
+    {
+      "component": "python-cartopy",
+      "count": 2
+    },
+    {
+      "component": "python-pytest-harvest",
+      "count": 2,
+      "blocked_by": [
+        "python-decopatch"
+      ]
+    },
+    {
+      "component": "python-snakemake-executor-plugin-cluster-generic",
+      "count": 2,
+      "blocked_by": [
+        "snakemake"
+      ]
+    },
+    {
+      "component": "python-snakemake-storage-plugin-http",
+      "count": 2,
+      "blocked_by": [
+        "snakemake"
+      ]
+    },
+    {
+      "component": "xapian-bindings",
+      "count": 2
+    },
+    {
+      "component": "pyqtwebengine",
+      "count": 1
+    },
+    {
+      "component": "yt-dlp",
+      "count": 1
     }
   ],
   "most_commonly_last_blocking": [
-    {
-      "component": "python-msrest",
-      "count": 45
-    },
     {
       "component": "snakemake",
       "count": 19,
@@ -321,10 +305,6 @@
       "blocked_by": [
         "python-rasterio"
       ]
-    },
-    {
-      "component": "gdal",
-      "count": 4
     },
     {
       "component": "python-trimesh",
@@ -367,14 +347,6 @@
       "count": 2
     },
     {
-      "component": "python-django-health-check",
-      "count": 2,
-      "blocked_by": [
-        "python-celery",
-        "python-kombu"
-      ]
-    },
-    {
       "component": "python-rasterio",
       "count": 2
     },
@@ -412,16 +384,21 @@
     {
       "component": "pyqtwebengine",
       "count": 1
+    },
+    {
+      "component": "yt-dlp",
+      "count": 1
+    },
+    {
+      "component": "usd",
+      "count": 1
+    },
+    {
+      "component": "pykakasi",
+      "count": 1
     }
   ],
   "most_commonly_last_blocking_combinations": [
-    {
-      "components": [
-        "python-msrest",
-        "python-msrestazure"
-      ],
-      "count": 9
-    },
     {
       "components": [
         "conda",
@@ -439,37 +416,6 @@
     },
     {
       "components": [
-        "python-et_xmlfile",
-        "python-openpyxl"
-      ],
-      "count": 4
-    },
-    {
-      "components": [
-        "python-et_xmlfile",
-        "python-niapy",
-        "python-openpyxl"
-      ],
-      "count": 3
-    },
-    {
-      "components": [
-        "python-celery",
-        "python-kombu"
-      ],
-      "count": 2
-    },
-    {
-      "components": [
-        "python-et_xmlfile",
-        "python-niaaml",
-        "python-niapy",
-        "python-openpyxl"
-      ],
-      "count": 1
-    },
-    {
-      "components": [
         "python-fslpy",
         "python-nifti-mrs",
         "spec2nii"
@@ -478,10 +424,8 @@
     },
     {
       "components": [
-        "python-celery",
         "python-cornice",
         "python-hupper",
-        "python-kombu",
         "python-plaster-pastedeploy",
         "python-pyramid",
         "python-pyramid-mako"
@@ -565,12 +509,46 @@
     },
     {
       "components": [
-        "python-et_xmlfile",
         "python-geotiler",
-        "python-niaaml",
-        "python-niapy",
-        "python-openpyxl",
         "python-sport-activities-features"
+      ],
+      "count": 1
+    },
+    {
+      "components": [
+        "conda",
+        "conda-build",
+        "libmamba"
+      ],
+      "count": 1
+    },
+    {
+      "components": [
+        "python-distributed",
+        "python-xarray",
+        "python-zict"
+      ],
+      "count": 1
+    },
+    {
+      "components": [
+        "python-huggingface-hub",
+        "python-torch"
+      ],
+      "count": 1
+    },
+    {
+      "components": [
+        "python-decopatch",
+        "python-pytest-cases"
+      ],
+      "count": 1
+    },
+    {
+      "components": [
+        "python-elastic-transport",
+        "python-readme-renderer",
+        "python-twine"
       ],
       "count": 1
     }

@@ -63,10 +63,6 @@
       "certbot fails to build with Python 3.15: FutureWarning: invalid character '+' in URL-safe Base64 data will be discarded in future Python versions"
     ]
   },
-  "coin-or-HiGHS": {
-    "urls": [],
-    "summaries": []
-  },
   "dionaea": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2380545"
@@ -202,10 +198,6 @@
     "summaries": [
       "ocrmypdf fails to build with Python 3.15: test_xml_metadata_preserved: AssertionError: acquired unexpected property dc:title with value 'Untitled'"
     ]
-  },
-  "onnxruntime": {
-    "urls": [],
-    "summaries": []
   },
   "petsc": {
     "urls": [
@@ -343,6 +335,126 @@
     "urls": [],
     "summaries": []
   },
+  "python-azure-data-tables": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-azure-loganalytics": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-azure-mgmt-advisor": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-azure-mgmt-applicationinsights": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-azure-mgmt-batchai": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-azure-mgmt-billing": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-azure-mgmt-cdn": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-azure-mgmt-consumption": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-azure-mgmt-databoxedge": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-azure-mgmt-datamigration": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2454250"
+    ],
+    "summaries": [
+      "python-azure-mgmt-datamigration (and others) fail to build in Fedora Rawhide: TypeError: Permissions.__init__() got an unexpected keyword argument 'keys'"
+    ]
+  },
+  "python-azure-mgmt-devtestlabs": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-azure-mgmt-dns": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-azure-mgmt-eventgrid": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-azure-mgmt-extendedlocation": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-azure-mgmt-iotcentral": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-azure-mgmt-iothubprovisioningservices": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-azure-mgmt-loganalytics": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-azure-mgmt-managedservices": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-azure-mgmt-managementgroups": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-azure-mgmt-maps": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-azure-mgmt-marketplaceordering": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-azure-mgmt-media": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-azure-mgmt-privatedns": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2440577"
+    ],
+    "summaries": [
+      "python-azure-mgmt-privatedns: FTBFS in Fedora Rawhide: No module named 'six'"
+    ]
+  },
+  "python-azure-mgmt-subscription": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-azure-mgmt-support": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-azure-mgmt-synapse": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-azure-mgmt-trafficmanager": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-azure-synapse-spark": {
+    "urls": [],
+    "summaries": []
+  },
   "python-beartype": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2447904",
@@ -354,10 +466,6 @@
     ]
   },
   "python-binary-manager": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-boto3": {
     "urls": [],
     "summaries": []
   },
@@ -392,10 +500,6 @@
     "summaries": [
       "python-chai fails to build with Python 3.15: chai.exception.UnsupportedStub: (\"can't stub %s\", <property object at 0x7fbbc41d1df0>)"
     ]
-  },
-  "python-cmake-build-extension": {
-    "urls": [],
-    "summaries": []
   },
   "python-decopatch": {
     "urls": [],
@@ -449,14 +553,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-et_xmlfile": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2424294"
-    ],
-    "summaries": [
-      "python-et_xmlfile fails to build with Python 3.15: ElementTreeTest.test_iterparse: AssertionError: Lists differ: [<WarningMessage {message : ResourceWarnin[235 chars]ne}>] != []"
-    ]
-  },
   "python-eth-event": {
     "urls": [],
     "summaries": []
@@ -486,14 +582,14 @@
     "summaries": []
   },
   "python-geopmpy": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2483709"
+    ],
+    "summaries": [
+      "python-geopmpy fails to build with Python 3.15: neverending Generating HDF5 files... Applying workaround for strings in HDF5 files... in test_report_cache (TestIO.TestIO.test_report_cache)"
+    ]
   },
   "python-geotiler": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-google-cloud-dns": {
     "urls": [],
     "summaries": []
   },
@@ -595,14 +691,6 @@
       "python-mplcairo fails to build with Python 3.15: pybind11::handle::dec_ref() is being called while the GIL is either not held or invalid."
     ]
   },
-  "python-msrest": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2431658"
-    ],
-    "summaries": [
-      "python-msrest fails to build with Python 3.15: AssertionErrors in two TestServiceClient::test_client_send"
-    ]
-  },
   "python-nagiosplugin": {
     "urls": [],
     "summaries": []
@@ -631,10 +719,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-pip": {
-    "urls": [],
-    "summaries": []
-  },
   "python-plaster-pastedeploy": {
     "urls": [],
     "summaries": []
@@ -644,10 +728,6 @@
     "summaries": []
   },
   "python-pygeoif": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-pyghmi": {
     "urls": [],
     "summaries": []
   },
@@ -697,10 +777,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-pytest-sugar": {
-    "urls": [],
-    "summaries": []
-  },
   "python-pytest-tldr": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2435014",
@@ -722,10 +798,6 @@
     "summaries": [
       "python-pyvmomi: FTBFS in Fedora rawhide/f44"
     ]
-  },
-  "python-pyxs": {
-    "urls": [],
-    "summaries": []
   },
   "python-qudida": {
     "urls": [],
@@ -913,10 +985,6 @@
       "pywhispercpp fails to build with setuptools_scm 10+"
     ]
   },
-  "quodlibet": {
-    "urls": [],
-    "summaries": []
-  },
   "rebase-helper": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2460122"
@@ -950,16 +1018,24 @@
     ]
   },
   "snakemake": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2483710"
+    ],
+    "summaries": [
+      "snakemake fails to build with Python 3.15: help2man: can't get `--help' info from snakemake"
+    ]
   },
   "supervisor": {
     "urls": [],
     "summaries": []
   },
   "swift-lang": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2483711"
+    ],
+    "summaries": [
+      "swift-lang fails to build with Python 3.15: /usr/include/c++/16/cmath:334:26: internal compiler error: Segmentation fault"
+    ]
   },
   "sword": {
     "urls": [

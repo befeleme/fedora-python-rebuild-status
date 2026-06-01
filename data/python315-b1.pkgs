@@ -12,6 +12,7 @@ MUSIC
 Macaulay2
 NFStest
 NLopt
+NiaAML-GUI
 OpenColorIO
 OpenImageIO
 ProDy
@@ -51,6 +52,7 @@ antlr4-project
 apk-tools
 appliance-tools
 apx
+ara
 arandr
 argparse-manpage
 asahi-installer
@@ -630,6 +632,7 @@ partio
 pass-audit
 patool
 pcapy
+pcp
 pcp2pdf
 pcs
 pdf-stapler
@@ -893,7 +896,9 @@ python-awscrt
 python-axolotl
 python-axolotl-curve25519
 python-azure-ai-agents
+python-azure-ai-formrecognizer
 python-azure-ai-projects
+python-azure-ai-textanalytics
 python-azure-appconfiguration
 python-azure-batch
 python-azure-common
@@ -901,7 +906,9 @@ python-azure-core
 python-azure-cosmos
 python-azure-datalake-store
 python-azure-devtools
+python-azure-graphrbac
 python-azure-identity
+python-azure-keyvault
 python-azure-keyvault-administration
 python-azure-keyvault-certificates
 python-azure-keyvault-keys
@@ -909,34 +916,46 @@ python-azure-keyvault-secrets
 python-azure-keyvault-securitydomain
 python-azure-mgmt-apimanagement
 python-azure-mgmt-appconfiguration
+python-azure-mgmt-appcontainers
 python-azure-mgmt-authorization
 python-azure-mgmt-batch
+python-azure-mgmt-botservice
+python-azure-mgmt-cognitiveservices
 python-azure-mgmt-compute
 python-azure-mgmt-containerinstance
 python-azure-mgmt-containerregistry
 python-azure-mgmt-containerregistrytasks
 python-azure-mgmt-containerservice
 python-azure-mgmt-core
+python-azure-mgmt-cosmosdb
+python-azure-mgmt-datalake-analytics
+python-azure-mgmt-datalake-store
 python-azure-mgmt-eventhub
+python-azure-mgmt-hdinsight
 python-azure-mgmt-imagebuilder
 python-azure-mgmt-iothub
 python-azure-mgmt-keyvault
+python-azure-mgmt-kusto
 python-azure-mgmt-monitor
 python-azure-mgmt-msi
 python-azure-mgmt-mysqlflexibleservers
 python-azure-mgmt-netapp
 python-azure-mgmt-network
+python-azure-mgmt-policyinsights
 python-azure-mgmt-postgresqlflexibleservers
 python-azure-mgmt-quota
+python-azure-mgmt-rdbms
 python-azure-mgmt-recoveryservices
 python-azure-mgmt-recoveryservicesbackup
 python-azure-mgmt-redhatopenshift
 python-azure-mgmt-redis
+python-azure-mgmt-relay
 python-azure-mgmt-resource
 python-azure-mgmt-resource-deployments
 python-azure-mgmt-resource-deploymentscripts
 python-azure-mgmt-resource-deploymentstacks
 python-azure-mgmt-resource-templatespecs
+python-azure-mgmt-search
 python-azure-mgmt-security
 python-azure-mgmt-servicebus
 python-azure-mgmt-servicefabric
@@ -944,8 +963,11 @@ python-azure-mgmt-servicefabricmanagedclusters
 python-azure-mgmt-servicelinker
 python-azure-mgmt-signalr
 python-azure-mgmt-sql
+python-azure-mgmt-sqlvirtualmachine
+python-azure-mgmt-storage
 python-azure-mgmt-web
 python-azure-monitor-query
+python-azure-multiapi-storage
 python-azure-sdk-tools
 python-azure-servicebus
 python-azure-storage-blob
@@ -953,7 +975,9 @@ python-azure-storage-common
 python-azure-storage-file-datalake
 python-azure-storage-file-share
 python-azure-storage-queue
+python-azure-synapse-accesscontrol
 python-azure-synapse-artifacts
+python-azure-synapse-managedprivateendpoints
 python-b2sdk
 python-b4
 python-babelfish
@@ -1054,6 +1078,7 @@ python-cbor2
 python-cccolutils
 python-ccdproc
 python-cclib
+python-celery
 python-cerealizer
 python-certifi
 python-cffi
@@ -1096,7 +1121,6 @@ python-cloudpickle
 python-cloudscraper
 python-cloup
 python-cma
-python-cmake-build-extension
 python-cmap
 python-cmarkgfm
 python-cmd2
@@ -1303,6 +1327,7 @@ python-django-filter
 python-django-formtools
 python-django-gravatar2
 python-django-haystack
+python-django-health-check
 python-django-js-asset
 python-django-macros
 python-django-markdownx
@@ -1397,6 +1422,7 @@ python-epc
 python-ephem
 python-ephyviewer
 python-esbonio
+python-et_xmlfile
 python-etcd3
 python-eth-abi
 python-eth-account
@@ -1592,6 +1618,7 @@ python-google-api-core
 python-google-auth
 python-google-auth-oauthlib
 python-google-cloud-core
+python-google-cloud-dns
 python-google-cloud-storage
 python-google-cloud-testutils
 python-google-crc32c
@@ -1842,6 +1869,7 @@ python-klein
 python-kmod
 python-knack
 python-koji-fedoramessaging-messages
+python-kombu
 python-krb5
 python-kubernetes
 python-landslide
@@ -2008,6 +2036,8 @@ python-msal
 python-msal-extensions
 python-msgpack
 python-msgspec
+python-msrest
+python-msrestazure
 python-mujson
 python-mulpyplexer
 python-multi_key_dict
@@ -2059,6 +2089,9 @@ python-netmiko
 python-networkx
 python-neutronclient
 python-nh3
+python-niaaml
+python-niaclass
+python-niapy
 python-nibabel
 python-nihtest
 python-nine
@@ -2121,6 +2154,7 @@ python-openneuro
 python-openoffice
 python-openpaperwork-core
 python-openpaperwork-gtk
+python-openpyxl
 python-openqa_client
 python-opensearch-py
 python-openshift
@@ -2358,6 +2392,7 @@ python-pydicom
 python-pydicom-data
 python-pydiffx
 python-pydispatcher
+python-pydo
 python-pydocstyle
 python-pydoctor
 python-pydyf
@@ -2558,7 +2593,6 @@ python-pytest-sourceorder
 python-pytest-spec
 python-pytest-split
 python-pytest-subprocess
-python-pytest-sugar
 python-pytest-testmon
 python-pytest-timeout
 python-pytest-trio
@@ -2587,7 +2621,6 @@ python-pywizlight
 python-pywt
 python-pyxdameraulevenshtein
 python-pyxlsb2
-python-pyxs
 python-pyyaml-env-tag
 python-pyzabbix
 python-pyzolib
@@ -2783,6 +2816,7 @@ python-single-version
 python-siphash
 python-six
 python-sklearn-genetic
+python-sklearn-nature-inspired-algorithms
 python-slip10
 python-slixmpp
 python-slixmpp-omemo
@@ -2947,6 +2981,7 @@ python-sysrsync
 python-systemd
 python-sysv_ipc
 python-tables
+python-tablib
 python-tabulate
 python-tackerclient
 python-tamilstring
@@ -3399,6 +3434,7 @@ swig
 sword
 sympy
 syncplay
+syncstar
 syndication-domination
 syslog-ng
 system-config-printer
