@@ -147,6 +147,10 @@
     "urls": [],
     "summaries": []
   },
+  "cryptominisat": {
+    "urls": [],
+    "summaries": []
+  },
   "cvc5": {
     "urls": [],
     "summaries": []
@@ -455,6 +459,10 @@
     "urls": [],
     "summaries": []
   },
+  "pychromecast": {
+    "urls": [],
+    "summaries": []
+  },
   "pykakasi": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2440185"
@@ -754,6 +762,14 @@
   "python-boto3": {
     "urls": [],
     "summaries": []
+  },
+  "python-botocore": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2424584"
+    ],
+    "summaries": [
+      "python-botocore fails to build with Python 3.15: AssertionError: At index 8 diff: b'\\x00' != b'\\x02'"
+    ]
   },
   "python-bytecode": {
     "urls": [
@@ -1187,14 +1203,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-msrest": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2431658"
-    ],
-    "summaries": [
-      "python-msrest fails to build with Python 3.15: AssertionErrors in two TestServiceClient::test_client_send"
-    ]
-  },
   "python-multiecho": {
     "urls": [],
     "summaries": []
@@ -1232,6 +1240,10 @@
     ]
   },
   "python-oldmemo": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-openai": {
     "urls": [],
     "summaries": []
   },
@@ -1833,14 +1845,6 @@
     ],
     "summaries": [
       "rpm-spec-language-server fails to build with Python 3.15: TypeError: cache_from_source() takes 1 positional argument but 2 positional arguments (and 1 keyword-only argument) were given"
-    ]
-  },
-  "rrdtool": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2481409"
-    ],
-    "summaries": [
-      "rrdtool: FTBFS in Fedora Rawhide: File not found: /builddir/build/BUILD/rrdtool-1.10.3-build/BUILDROOT/usr/lib64/python3.14/site-packages/rrdtool*.so"
     ]
   },
   "scancode-toolkit": {

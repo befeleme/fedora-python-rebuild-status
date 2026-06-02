@@ -130,7 +130,7 @@ cdist	succeeded
 cekit	succeeded
 centpkg	succeeded
 cepces	succeeded
-ceph	running
+ceph	succeeded
 certbot	failed
 cffconvert	succeeded
 chirp	succeeded
@@ -167,7 +167,7 @@ createrepo-agent	succeeded
 createrepo_c	succeeded
 criu	succeeded
 cryptlib	succeeded
-cryptominisat	succeeded
+cryptominisat	failed
 csdiff	succeeded
 csmock	succeeded
 cucumber-messages	succeeded
@@ -630,7 +630,7 @@ omniORB	succeeded
 omniORBpy	succeeded
 onionshare	succeeded
 onnx	succeeded
-onnxruntime	running
+onnxruntime	succeeded
 openapi-python-client	succeeded
 openbabel	succeeded
 opencv	succeeded
@@ -657,6 +657,7 @@ osh	succeeded
 otf2	succeeded
 oz	succeeded
 pacemaker	succeeded
+packit	succeeded
 pagure-exporter	succeeded
 pam_wrapper	succeeded
 paperwork	succeeded
@@ -725,7 +726,7 @@ pybox2d	succeeded
 pybugz	succeeded
 pycairo	succeeded
 pycanberra	succeeded
-pychromecast	succeeded
+pychromecast	failed
 pycmd	succeeded
 pycolumnize	succeeded
 pydeps	succeeded
@@ -791,7 +792,7 @@ python-OBD	failed
 python-OWSLib	succeeded
 python-Pallets-Sphinx-Themes	succeeded
 python-PyAVM	succeeded
-python-PyGithub	failed
+python-PyGithub	succeeded
 python-PyMunin3	succeeded
 python-PyMySQL	succeeded
 python-PyPDF2	succeeded
@@ -1084,7 +1085,7 @@ python-beanbag	succeeded
 python-beancount	succeeded
 python-beangulp	succeeded
 python-beanprice	succeeded
-python-beartype	failed
+python-beartype	succeeded
 python-beautifulsoup4	succeeded
 python-beautifultable	succeeded
 python-behave	succeeded
@@ -1125,7 +1126,7 @@ python-boltons	succeeded
 python-boolean.py	succeeded
 python-booleanoperations	succeeded
 python-boto	succeeded
-python-boto3	succeeded
+python-boto3	failed
 python-botocore	succeeded
 python-bottle	succeeded
 python-bottle-sqlite	succeeded
@@ -1779,6 +1780,7 @@ python-hiredis	succeeded
 python-hjson	succeeded
 python-holidays	failed
 python-housekeeping	succeeded
+python-howdoi	succeeded
 python-hpack	succeeded
 python-hpilo	succeeded
 python-hsluv	succeeded
@@ -1968,6 +1970,7 @@ python-kanboard	succeeded
 python-kaptan	failed
 python-kazoo	succeeded
 python-kdcproxy	succeeded
+python-keep	succeeded
 python-kerberos	succeeded
 python-keyring	succeeded
 python-keyrings-alt	succeeded
@@ -2255,6 +2258,7 @@ python-oci	succeeded
 python-octaviaclient	succeeded
 python-odata-query	succeeded
 python-ofxparse	succeeded
+python-ogr	succeeded
 python-oldmemo	succeeded
 python-olefile	succeeded
 python-oletools	succeeded
@@ -2980,12 +2984,29 @@ python-smbc	succeeded
 python-smbpasswd	succeeded
 python-smbprotocol	succeeded
 python-smmap	succeeded
+python-snakemake-executor-plugin-cluster-generic	succeeded
+python-snakemake-executor-plugin-cluster-sync	succeeded
+python-snakemake-executor-plugin-flux	succeeded
+python-snakemake-executor-plugin-kubernetes	succeeded
+python-snakemake-executor-plugin-slurm	succeeded
+python-snakemake-executor-plugin-slurm-jobstep	succeeded
+python-snakemake-executor-plugin-tes	succeeded
 python-snakemake-interface-common	succeeded
 python-snakemake-interface-executor-plugins	succeeded
 python-snakemake-interface-logger-plugins	succeeded
 python-snakemake-interface-report-plugins	succeeded
 python-snakemake-interface-scheduler-plugins	succeeded
 python-snakemake-interface-storage-plugins	succeeded
+python-snakemake-logger-plugin-rich	succeeded
+python-snakemake-storage-plugin-azure	succeeded
+python-snakemake-storage-plugin-fs	succeeded
+python-snakemake-storage-plugin-ftp	succeeded
+python-snakemake-storage-plugin-gcs	succeeded
+python-snakemake-storage-plugin-http	succeeded
+python-snakemake-storage-plugin-s3	succeeded
+python-snakemake-storage-plugin-webdav	succeeded
+python-snakemake-storage-plugin-xrootd	succeeded
+python-snakemake-storage-plugin-zenodo	succeeded
 python-snappy	succeeded
 python-snaptime	succeeded
 python-sniffio	succeeded
@@ -3000,6 +3021,7 @@ python-sounddevice	succeeded
 python-soundfile	succeeded
 python-soupsieve	succeeded
 python-spdx-license-list	succeeded
+python-spdx-tools	succeeded
 python-speaklater	succeeded
 python-specfile	succeeded
 python-speedtest-cli	succeeded
@@ -3539,7 +3561,7 @@ rpmdeplint	succeeded
 rpmlint	succeeded
 rpmspectool	succeeded
 rpy	succeeded
-rrdtool	failed
+rrdtool	succeeded
 rss2email	succeeded
 rst2pdf	succeeded
 rteval	succeeded
@@ -3583,7 +3605,7 @@ slingshot	succeeded
 slowloris	succeeded
 smbcmp	succeeded
 smoldyn	succeeded
-snakemake	failed
+snakemake	succeeded
 snapm	succeeded
 snowball	succeeded
 solaar	succeeded

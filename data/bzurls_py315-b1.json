@@ -51,10 +51,6 @@
     "urls": [],
     "summaries": []
   },
-  "ceph": {
-    "urls": [],
-    "summaries": []
-  },
   "certbot": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2466655"
@@ -62,6 +58,10 @@
     "summaries": [
       "certbot fails to build with Python 3.15: FutureWarning: invalid character '+' in URL-safe Base64 data will be discarded in future Python versions"
     ]
+  },
+  "cryptominisat": {
+    "urls": [],
+    "summaries": []
   },
   "dionaea": {
     "urls": [
@@ -215,6 +215,10 @@
     "urls": [],
     "summaries": []
   },
+  "pychromecast": {
+    "urls": [],
+    "summaries": []
+  },
   "pykakasi": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2440185"
@@ -256,10 +260,6 @@
     ]
   },
   "python-OBD": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-PyGithub": {
     "urls": [],
     "summaries": []
   },
@@ -455,17 +455,11 @@
     "urls": [],
     "summaries": []
   },
-  "python-beartype": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2447904",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2432345"
-    ],
-    "summaries": [
-      "python-beartype fails to build with Python 3.15: ImportError: cannot import name 'no_type_check_decorator' from 'typing' (/usr/lib64/python3.15/typing.py)",
-      "python-beartype fails to build with Python 3.15: ImportError: cannot import name 'no_type_check_decorator' from 'typing'"
-    ]
-  },
   "python-binary-manager": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-boto3": {
     "urls": [],
     "summaries": []
   },
@@ -1008,22 +1002,6 @@
   "root": {
     "urls": [],
     "summaries": []
-  },
-  "rrdtool": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2481409"
-    ],
-    "summaries": [
-      "rrdtool: FTBFS in Fedora Rawhide: File not found: /builddir/build/BUILD/rrdtool-1.10.3-build/BUILDROOT/usr/lib64/python3.14/site-packages/rrdtool*.so"
-    ]
-  },
-  "snakemake": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2483710"
-    ],
-    "summaries": [
-      "snakemake fails to build with Python 3.15: help2man: can't get `--help' info from snakemake"
-    ]
   },
   "supervisor": {
     "urls": [],

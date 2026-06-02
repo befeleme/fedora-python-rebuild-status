@@ -1,16 +1,6 @@
 {
   "most_commonly_needed": [
     {
-      "component": "snakemake",
-      "count": 22,
-      "blocked_by": [
-        "python-snakemake-executor-plugin-cluster-generic",
-        "python-snakemake-storage-plugin-fs",
-        "python-snakemake-storage-plugin-http",
-        "python-snakemake-storage-plugin-s3"
-      ]
-    },
-    {
       "component": "python-torch",
       "count": 11
     },
@@ -27,10 +17,6 @@
       ]
     },
     {
-      "component": "python-plaster-pastedeploy",
-      "count": 7
-    },
-    {
       "component": "libmamba",
       "count": 7
     },
@@ -38,8 +24,7 @@
       "component": "python-pyramid",
       "count": 6,
       "blocked_by": [
-        "python-hupper",
-        "python-plaster-pastedeploy"
+        "python-hupper"
       ]
     },
     {
@@ -48,20 +33,12 @@
       "unresolvable": true
     },
     {
-      "component": "python-beartype",
-      "count": 6
-    },
-    {
       "component": "conda",
       "count": 6,
       "blocked_by": [
         "conda",
         "libmamba"
       ]
-    },
-    {
-      "component": "python-PyGithub",
-      "count": 5
     },
     {
       "component": "python-fslpy",
@@ -158,13 +135,6 @@
       "count": 2
     },
     {
-      "component": "python-spdx-tools",
-      "count": 2,
-      "blocked_by": [
-        "python-beartype"
-      ]
-    },
-    {
       "component": "python-extractcode",
       "count": 2
     },
@@ -172,9 +142,7 @@
       "component": "go-vendor-tools",
       "count": 2,
       "blocked_by": [
-        "python-beartype",
         "python-extractcode",
-        "python-spdx-tools",
         "scancode-toolkit"
       ]
     },
@@ -226,7 +194,6 @@
       "component": "python-py-key-value",
       "count": 2,
       "blocked_by": [
-        "python-beartype",
         "python-elastic-transport",
         "python-elasticsearch"
       ]
@@ -258,20 +225,6 @@
       ]
     },
     {
-      "component": "python-snakemake-executor-plugin-cluster-generic",
-      "count": 2,
-      "blocked_by": [
-        "snakemake"
-      ]
-    },
-    {
-      "component": "python-snakemake-storage-plugin-http",
-      "count": 2,
-      "blocked_by": [
-        "snakemake"
-      ]
-    },
-    {
       "component": "xapian-bindings",
       "count": 2
     },
@@ -282,19 +235,37 @@
     {
       "component": "yt-dlp",
       "count": 1
+    },
+    {
+      "component": "python-azure-mgmt-datamigration",
+      "count": 1
+    },
+    {
+      "component": "python-azure-mgmt-eventgrid",
+      "count": 1
+    },
+    {
+      "component": "python-azure-mgmt-extendedlocation",
+      "count": 1
+    },
+    {
+      "component": "python-azure-mgmt-iotcentral",
+      "count": 1
+    },
+    {
+      "component": "python-azure-mgmt-iothubprovisioningservices",
+      "count": 1
+    },
+    {
+      "component": "python-azure-mgmt-loganalytics",
+      "count": 1
+    },
+    {
+      "component": "python-azure-mgmt-managementgroups",
+      "count": 1
     }
   ],
   "most_commonly_last_blocking": [
-    {
-      "component": "snakemake",
-      "count": 19,
-      "blocked_by": [
-        "python-snakemake-executor-plugin-cluster-generic",
-        "python-snakemake-storage-plugin-fs",
-        "python-snakemake-storage-plugin-http",
-        "python-snakemake-storage-plugin-s3"
-      ]
-    },
     {
       "component": "python-torch",
       "count": 9
@@ -332,9 +303,7 @@
       "component": "go-vendor-tools",
       "count": 2,
       "blocked_by": [
-        "python-beartype",
         "python-extractcode",
-        "python-spdx-tools",
         "scancode-toolkit"
       ]
     },
@@ -369,8 +338,9 @@
       "count": 2
     },
     {
-      "component": "python-PyGithub",
-      "count": 2
+      "component": "python-hupper",
+      "count": 2,
+      "unresolvable": true
     },
     {
       "component": "python-croniter",
@@ -396,6 +366,10 @@
     {
       "component": "pykakasi",
       "count": 1
+    },
+    {
+      "component": "python-mkdocs-git-revision-date-localized-plugin",
+      "count": 1
     }
   ],
   "most_commonly_last_blocking_combinations": [
@@ -409,7 +383,6 @@
     {
       "components": [
         "python-hupper",
-        "python-plaster-pastedeploy",
         "python-pyramid"
       ],
       "count": 4
@@ -426,7 +399,6 @@
       "components": [
         "python-cornice",
         "python-hupper",
-        "python-plaster-pastedeploy",
         "python-pyramid",
         "python-pyramid-mako"
       ],
@@ -441,17 +413,8 @@
     },
     {
       "components": [
-        "python-beartype",
         "python-extractcode",
-        "python-spdx-tools",
         "scancode-toolkit"
-      ],
-      "count": 1
-    },
-    {
-      "components": [
-        "python-PyGithub",
-        "python-keep"
       ],
       "count": 1
     },
@@ -549,6 +512,13 @@
         "python-elastic-transport",
         "python-readme-renderer",
         "python-twine"
+      ],
+      "count": 1
+    },
+    {
+      "components": [
+        "mupdf",
+        "python-PyMuPDF"
       ],
       "count": 1
     }
