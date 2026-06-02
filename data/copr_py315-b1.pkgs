@@ -153,6 +153,7 @@ compizconfig-python	succeeded
 compose-utils	succeeded
 conan	succeeded
 concordance	succeeded
+conda	failed
 condor	succeeded
 congruity	succeeded
 conu	succeeded
@@ -703,7 +704,7 @@ pre-commit	succeeded
 printrun	succeeded
 profanity	succeeded
 proselint	succeeded
-protobuf	failed
+protobuf	succeeded
 protobuf3	succeeded
 protontricks	succeeded
 proxmark3	succeeded
@@ -1502,6 +1503,7 @@ python-edgegrid	succeeded
 python-editables	succeeded
 python-editor	succeeded
 python-editorconfig	succeeded
+python-einops	failed
 python-eip712	succeeded
 python-elastic-transport	failed
 python-elementpath	succeeded
@@ -2023,6 +2025,7 @@ python-linetable	succeeded
 python-linkify-it-py	succeeded
 python-linux-procfs	succeeded
 python-linuxdoc	failed
+python-lion-pytorch	succeeded
 python-listparser	succeeded
 python-litellm-proxy-extras	succeeded
 python-littleutils	succeeded
@@ -2902,6 +2905,7 @@ python-rustcfg	succeeded
 python-rx	succeeded
 python-rxjson	succeeded
 python-s3transfer	succeeded
+python-safetensors	succeeded
 python-samloader	succeeded
 python-sanction	succeeded
 python-sane	succeeded
@@ -3229,7 +3233,13 @@ python-tomli	succeeded
 python-tomli-w	succeeded
 python-tomlkit	succeeded
 python-toolz	succeeded
-python-torch	running
+python-torch	succeeded
+python-torchaudio	succeeded
+python-torchdata	succeeded
+python-torchdiffeq	succeeded
+python-torchsde	succeeded
+python-torchtext	succeeded
+python-torchvision	succeeded
 python-tornado	failed
 python-towncrier	succeeded
 python-tox	succeeded
@@ -3248,6 +3258,7 @@ python-translitcodec	failed
 python-treq	failed
 python-trezor	succeeded
 python-trie	succeeded
+python-trimesh	failed
 python-trio	succeeded
 python-trio-websocket	succeeded
 python-triton	failed
@@ -3549,7 +3560,7 @@ rmlint	succeeded
 rmol	succeeded
 roca-detect	failed
 rofimoji	succeeded
-root	running
+root	failed
 rpkg	succeeded
 rpkg-util	succeeded
 rpl	succeeded

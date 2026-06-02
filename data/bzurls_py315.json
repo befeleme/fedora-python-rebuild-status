@@ -455,10 +455,6 @@
     "urls": [],
     "summaries": []
   },
-  "protobuf": {
-    "urls": [],
-    "summaries": []
-  },
   "pychromecast": {
     "urls": [],
     "summaries": []
@@ -983,14 +979,6 @@
     "summaries": [
       "python-fs: FTBFS in Fedora rawhide/f44",
       "python-fs fails to build with Python 3.15: AttributeError: 'DocTestCase' object has no attribute '_test_result'"
-    ]
-  },
-  "python-genshi": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2479749"
-    ],
-    "summaries": [
-      "python-genshi fails to build with Python 3.15: TypeError: ast.Expression.__init__ missing 1 required positional argument: 'body'"
     ]
   },
   "python-geomdl": {

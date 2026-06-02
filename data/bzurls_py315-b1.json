@@ -59,6 +59,10 @@
       "certbot fails to build with Python 3.15: FutureWarning: invalid character '+' in URL-safe Base64 data will be discarded in future Python versions"
     ]
   },
+  "conda": {
+    "urls": [],
+    "summaries": []
+  },
   "cryptominisat": {
     "urls": [],
     "summaries": []
@@ -535,6 +539,14 @@
       "python-django-extensions fails to build with Python 3.15: TypeError: CheckConstraint.__init__() got an unexpected keyword argument 'check'"
     ]
   },
+  "python-einops": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2466673"
+    ],
+    "summaries": [
+      "python-einops fails to build with Python 3.15: Import check einops.layers.torch: TypeError: Signature mismatch between <built-in function pack> and <function pack at 0x7fad3a117270>: (format, /, *values) != (fmt: 'bytes | str', /, *v: 'Any') -> 'bytes'"
+    ]
+  },
   "python-elastic-transport": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2458681"
@@ -893,10 +905,6 @@
       "python-toml-cli: FTBFS in Fedora Rawhide: 2 tests fail"
     ]
   },
-  "python-torch": {
-    "urls": [],
-    "summaries": []
-  },
   "python-tornado": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2414557"
@@ -932,6 +940,10 @@
     "summaries": [
       "[heads up] python-treq will fail to build with Sphinx 9+ in Fedora 45: sphinx.errors.SphinxError: cannot determine default role!"
     ]
+  },
+  "python-trimesh": {
+    "urls": [],
+    "summaries": []
   },
   "python-triton": {
     "urls": [],
