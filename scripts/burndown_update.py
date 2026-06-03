@@ -8,7 +8,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 DATA_FILES = {
-    "succeeded": "data/python315.pkgs",
+    "succeeded": "data/python315-45.pkgs",
     "failed": "data/failed_py315.pkgs",
     "waiting": "data/waiting_py315.pkgs",
 }
