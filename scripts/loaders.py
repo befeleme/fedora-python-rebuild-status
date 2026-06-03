@@ -2,7 +2,7 @@ import json
 
 # set to True after the mass-rebuild to use Koji as the source for data
 # otherwise Copr will be used (90% of the time)
-KOJI_PY315 = False
+KOJI_PY315 = True
 KOJI_PY315B1 = False
 
 

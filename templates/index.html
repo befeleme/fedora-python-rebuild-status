@@ -11,7 +11,7 @@
     <p>
         Fedora {{ py315_fedora_version }} (Target: Fedora {{ py315_target_fedora }})<br>
         Python {{ py315_current_version }} (Target: Python 3.15.0)<br>
-        Data source: {{ py315_data_source }}
+        Data source: {{ py315_data_source }} (side tag)
     </p>
 
     <div class="card mb-4" style="max-width: 600px; margin-left: 1rem;">
@@ -25,7 +25,7 @@
                 <span class="text-end" style="min-width: 20%;"><span class="badge bg-primary">100%</span></span>
             </li>
             <li class="list-group-item d-flex justify-content-between">
-                <span style="min-width: 60%;">🟢 Built successfully with Python 3.15:</span>
+                <span style="min-width: 60%;">🟢 Built successfully:</span>
                 <span class="text-end" style="min-width: 20%;"><b>{{ py315_success_count }}</b></span>
                 <span class="text-end" style="min-width: 20%;">
                     <span class="badge bg-success">
@@ -34,16 +34,7 @@
                 </span>
             </li>
             <li class="list-group-item d-flex justify-content-between">
-                <span style="min-width: 60%;">🟠 Last build with Python 3.15 failed:</span>
-                <span class="text-end" style="min-width: 20%;"><b>{{ py315_flaky_count }}</b></span>
-                <span class="text-end" style="min-width: 20%;">
-                    <span class="badge bg-warning">
-                        {{ py315_flaky_percentage }}%
-                    </span>
-                </span>
-            </li>
-            <li class="list-group-item d-flex justify-content-between">
-                <span style="min-width: 60%;">🔴 Failed (Python 3.15):</span>
+                <span style="min-width: 60%;">🔴 Failed:</span>
                 <span class="text-end" style="min-width: 20%;"><b>{{ py315_failed_count }}</b></span>
                 <span class="text-end" style="min-width: 20%;">
                     <span class="badge bg-danger">
@@ -52,7 +43,7 @@
                 </span>
             </li>
             <li class="list-group-item d-flex justify-content-between">
-                <span style="min-width: 60%;">⚪ Blocked (missing dependencies):</span>
+                <span style="min-width: 60%;">⚪ Not yet rebuilt:</span>
                 <span class="text-end" style="min-width: 20%;"><b>{{ py315_blocked_count }}</b></span>
                 <span class="text-end" style="min-width: 20%;">
                     <span class="badge bg-secondary">

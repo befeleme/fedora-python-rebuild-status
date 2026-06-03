@@ -28,6 +28,7 @@ VERSIONS = {
         "base_packages": "data/python314.pkgs",
         "exclude_package": "python3.14",
         "file_suffix": "315",
+        "success_file": "data/python315-45.pkgs",
         "all_to_build": None,
         "successfully_rebuilt": None,
         "failed": None,
@@ -59,7 +60,7 @@ for ver, config in VERSIONS.items():
     all_to_build.remove(config["exclude_package"])
     config["all_to_build"] = all_to_build
 
-    config["successfully_rebuilt"] = load_data(f"data/python{fs}.pkgs")
+    config["successfully_rebuilt"] = load_data(config.get("success_file", f"data/python{fs}.pkgs"))
     config["failed"] = load_data(f"data/failed_py{fs}.pkgs")
     config["waiting"] = load_data(f"data/waiting_py{fs}.pkgs")
     config["bugzillas"] = load_json(f"data/bzurls_py{fs}.json")
@@ -222,7 +223,7 @@ def index():
         blocked = count_pkgs_with_state(build_status, REPORT_STATES["waiting"])
         flaky = count_pkgs_with_state(build_status, REPORT_STATES["once_succeeded_last_failed"])
         if config["koji_enabled"]:
-            total = len(config["all_to_build"]) + success
+            total = success + blocked + failed
             waiting = blocked + failed
         else:
             total = len(config["all_to_build"])

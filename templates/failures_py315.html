@@ -2,7 +2,7 @@
 {% block title %}Python 3.15 failed to build breakdown{% endblock %}
 {% block content %}
 <a href="{{ url_for('index') }}" class="btn btn-primary mb-3"> &lt&lt&lt Home</a>
-<h2 class="mb-3">Python 3.15: Packages that weren't built successfully (🔴 + 🟠)</h2>
+<h2 class="mb-3">Python 3.15: Failed or blocked packages (🔴)</h2>
 
 <style>
     .max-width-column {
@@ -18,7 +18,7 @@
             <tr>
                 <th scope="col">Package name</th>
                 <th scope="col">Build status</th>
-                <th scope="col">Build attempts in Copr</th>
+                <th scope="col">Package in Koji</th>
                 <th scope="col" class="max-width-column">Bugzilla ticket (all open PYTHON315)</th>
             </tr>
         </thead>
@@ -28,8 +28,8 @@
                 <td>{{ package_name }}</td>
                 <td>{{ detail["state"] }}</td>
                 <td>
-                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.15/package/{{ package_name }}/">
-                        Copr - {{ package_name }}
+                    <a href="https://koji.fedoraproject.org/koji/search?terms={{ package_name }}&type=package&match=exact">
+                        Koji - {{ package_name }}
                     </a>
                 </td>
                 <td class="max-width-column">

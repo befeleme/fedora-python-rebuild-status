@@ -12,12 +12,12 @@ enabled=0
 #metadata_expire=60m
 gpgcheck=0
 
-[koji43]
-name=koji43
-baseurl=http://kojipkgs.fedoraproject.org/repos/f43-build/latest/$basearch/
+[koji315]
+name=koji45
+baseurl=http://kojipkgs.fedoraproject.org/repos/f45-python/latest/$basearch/
 enabled=0
 
-[koji43-source]
-name=koji43-source
-baseurl=http://kojipkgs.fedoraproject.org/repos/f43-build/latest/src/
+[koji315-source]
+name=koji45-source
+baseurl=http://kojipkgs.fedoraproject.org/repos/f43-python/latest/src/
 enabled=0
