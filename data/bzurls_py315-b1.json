@@ -27,10 +27,6 @@
     "urls": [],
     "summaries": []
   },
-  "ansible-core": {
-    "urls": [],
-    "summaries": []
-  },
   "ansible-lint": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2481417"
@@ -38,18 +34,6 @@
     "summaries": [
       "ansible-lint fails to build with Python 3.15: ImportError: cannot import name '_MISSING_TYPE' from 'dataclasses' (/usr/lib64/python3.15/dataclasses.py)"
     ]
-  },
-  "argparse-manpage": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2431586"
-    ],
-    "summaries": [
-      "argparse-manpage fails to build with Python 3.15: AttributeError: '_ManpageFormatter' object has no attribute '_theme'. Did you mean: 'of._theme'?"
-    ]
-  },
-  "beets": {
-    "urls": [],
-    "summaries": []
   },
   "bmap-tools": {
     "urls": [
@@ -60,10 +44,6 @@
     ]
   },
   "botan2": {
-    "urls": [],
-    "summaries": []
-  },
-  "breezy": {
     "urls": [],
     "summaries": []
   },
@@ -127,10 +107,6 @@
     "urls": [],
     "summaries": []
   },
-  "eric": {
-    "urls": [],
-    "summaries": []
-  },
   "fail2ban": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2423879"
@@ -160,10 +136,6 @@
     "summaries": []
   },
   "grpc": {
-    "urls": [],
-    "summaries": []
-  },
-  "ipython": {
     "urls": [],
     "summaries": []
   },
@@ -207,6 +179,10 @@
     "urls": [],
     "summaries": []
   },
+  "libxc": {
+    "urls": [],
+    "summaries": []
+  },
   "llvm21": {
     "urls": [],
     "summaries": []
@@ -239,6 +215,10 @@
       "net-snmp-5.9.5.2-4.fc45 FTBFS: \"Checking the Net-SNMP configure script validity\" test fails"
     ]
   },
+  "nextpnr": {
+    "urls": [],
+    "summaries": []
+  },
   "oci-cli": {
     "urls": [],
     "summaries": []
@@ -250,6 +230,10 @@
     "summaries": [
       "ocrmypdf fails to build with Python 3.15: test_xml_metadata_preserved: AssertionError: acquired unexpected property dc:title with value 'Untitled'"
     ]
+  },
+  "onnxruntime": {
+    "urls": [],
+    "summaries": []
   },
   "petsc": {
     "urls": [
@@ -378,10 +362,6 @@
     "summaries": [
       "python-alembic1.14: FTBFS in Fedora rawhide/f44"
     ]
-  },
-  "python-ansible-runner": {
-    "urls": [],
-    "summaries": []
   },
   "python-apipkg": {
     "urls": [],
@@ -593,7 +573,7 @@
     "urls": [],
     "summaries": []
   },
-  "python-deprecated": {
+  "python-distributed": {
     "urls": [],
     "summaries": []
   },
@@ -661,21 +641,9 @@
       "python-elastic-transport fails to build with Python 3.15: ERROR: '\"function\"' is not a valid asyncio_default_fixture_loop_scope. Valid scopes are: function, class, module, package, session."
     ]
   },
-  "python-elementpath": {
-    "urls": [],
-    "summaries": []
-  },
   "python-environs": {
     "urls": [],
     "summaries": []
-  },
-  "python-et_xmlfile": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2424294"
-    ],
-    "summaries": [
-      "python-et_xmlfile fails to build with Python 3.15: ElementTreeTest.test_iterparse: AssertionError: Lists differ: [<WarningMessage {message : ResourceWarnin[235 chars]ne}>] != []"
-    ]
   },
   "python-eth-event": {
     "urls": [],
@@ -713,14 +681,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-extras": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2458630"
-    ],
-    "summaries": [
-      "python-extras fails to build with Python 3.15: AttributeError: 'TestTryImports' object has no attribute 'assertEquals'. Did you mean '.assertEqual' instead of '.assertEquals'?"
-    ]
-  },
   "python-ezdxf": {
     "urls": [],
     "summaries": []
@@ -754,14 +714,6 @@
     ]
   },
   "python-gitdb": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-google-api-core": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-google-cloud-core": {
     "urls": [],
     "summaries": []
   },
@@ -943,14 +895,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-nibabel": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2442355"
-    ],
-    "summaries": [
-      "python-nibabel fails to build with Python 3.15: AssertionError in test_DeterministicGzipFile"
-    ]
-  },
   "python-numpoly": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2434998"
@@ -991,45 +935,13 @@
     "urls": [],
     "summaries": []
   },
-  "python-pip": {
-    "urls": [],
-    "summaries": []
-  },
   "python-pluginlib": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-pmw": {
     "urls": [],
     "summaries": []
   },
   "python-poetry-plugin-export": {
     "urls": [],
     "summaries": []
-  },
-  "python-psutil": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2477928"
-    ],
-    "summaries": [
-      "python-psutil fails to build with Python 3.15: AssertionError in TestProcess.test_rlimit_infinity_value"
-    ]
-  },
-  "python-psycopg2": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2414801"
-    ],
-    "summaries": [
-      "python-psycopg2 fails to build with Python 3.15: error: implicit declaration of function \u2018PyWeakref_GetObject\u2019; did you mean \u2018PyWeakref_GetRef\u2019?"
-    ]
-  },
-  "python-pydantic": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2460140"
-    ],
-    "summaries": [
-      "python-pydantic fails to build with Python 3.15: FutureWarning and DID NOT RAISE <class 'pydantic_core._pydantic_core.ValidationError'>"
-    ]
   },
   "python-pygeoif": {
     "urls": [],
@@ -1076,10 +988,6 @@
     "summaries": [
       "python-pyswip fails to build with Python 3.15: 28 test failures: AttributeError: 'list' object has no attribute 'value'"
     ]
-  },
-  "python-pytest-httpserver": {
-    "urls": [],
-    "summaries": []
   },
   "python-pytest-rerunfailures": {
     "urls": [],
@@ -1231,14 +1139,6 @@
       "python-toml-cli: FTBFS in Fedora Rawhide: 2 tests fail"
     ]
   },
-  "python-toolz": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2447909"
-    ],
-    "summaries": [
-      "python-toolz fails to build with Python 3.15: AssertionError: Missing introspection for the following callables: frozendict"
-    ]
-  },
   "python-torch": {
     "urls": [],
     "summaries": []
@@ -1246,14 +1146,6 @@
   "python-torchaudio": {
     "urls": [],
     "summaries": []
-  },
-  "python-tornado": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2414557"
-    ],
-    "summaries": [
-      "python-tornado fails to build with Python 3.15: ERROR: test_multi_process"
-    ]
   },
   "python-tpm2-pytss": {
     "urls": [],
@@ -1283,27 +1175,13 @@
     "urls": [],
     "summaries": []
   },
-  "python-twisted": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2435033",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2432344"
-    ],
-    "summaries": [
-      "python-twisted: FTBFS in Fedora rawhide/f44",
-      "python-twisted fails to build with Python 3.15: twisted.trial.unittest.FailTest: 5 != 7, builtins.AttributeError: 'SourceFileLoader' object has no attribute 'load_module' and one more"
-    ]
-  },
   "python-twomemo": {
     "urls": [],
     "summaries": []
   },
-  "python-typing-extensions": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2477406"
-    ],
-    "summaries": [
-      "python-typing-extensions fails to build with Python 3.15: AssertionError: 'typing.Unpack[~Ts]' != 'typing.Unpack[Ts]' and TypeError: bad operand type for unary ~: 'typing.TypeVarTuple'"
-    ]
+  "python-uv-build": {
+    "urls": [],
+    "summaries": []
   },
   "python-vascpy": {
     "urls": [],
@@ -1317,14 +1195,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-websockets": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2440566"
-    ],
-    "summaries": [
-      "python-websockets fails to build with Python 3.15: test_apply_mask_non_contiguous_memoryview: BufferError: memoryview: underlying buffer is not C-contiguous"
-    ]
-  },
   "python-werkzeug": {
     "urls": [],
     "summaries": []
@@ -1333,23 +1203,11 @@
     "urls": [],
     "summaries": []
   },
-  "python-zarr": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2453855"
-    ],
-    "summaries": [
-      "python-zarr fails to build with Python 3.15:  SyntaxError: \"\\_\" is an invalid escape sequence. Did you mean \"\\\\_\"? A raw string is also an option."
-    ]
-  },
-  "python-zope-testrunner": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2433888"
-    ],
-    "summaries": [
-      "python-zope-testrunner fails to build with Python 3.15: help2man: can't get `--help' info from /builddir/build/BUILD/python-zope-testrunner-8.1-build/BUILDROOT/usr/bin/zope-testrunner"
-    ]
-  },
   "python3-mallard-ducktype": {
+    "urls": [],
+    "summaries": []
+  },
+  "pythran": {
     "urls": [],
     "summaries": []
   },
@@ -1433,7 +1291,15 @@
       "usd fails to build with Python 3.15: /builddir/build/BUILD/usd-25.11-build/OpenUSD-25.11/pxr/base/tf/pyIdentity.cpp:139:16: error: \u2018PyWeakref_GetObject\u2019 was not declared in this scope; did you mean \u2018PyWeakref_GetRef\u2019?"
     ]
   },
+  "uv": {
+    "urls": [],
+    "summaries": []
+  },
   "variety": {
+    "urls": [],
+    "summaries": []
+  },
+  "vtk": {
     "urls": [],
     "summaries": []
   },

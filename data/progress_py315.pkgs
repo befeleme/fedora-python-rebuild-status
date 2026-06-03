@@ -1,3 +1,4 @@
+Cython:tests::::
 NFStest
 ServiceReport
 abrt-server-info-page
@@ -7,6 +8,7 @@ appliance-tools
 audit
 azote
 b43-tools
+babel::bootstrap:::
 babeltrace
 babeltrace2
 badchars
@@ -95,6 +97,7 @@ mpich
 needrestart
 net-snmp
 newt
+ninja-build::bootstrap:::
 nwg-wrapper
 oct2spec
 omniORB
@@ -245,10 +248,12 @@ python-dtopt
 python-easydict
 python-easygui
 python-editor
+python-elementpath:tests::::
 python-empy
 python-enthought-sphinx-theme
 python-etcd3
 python-evdev
+python-extras::bootstrap:::
 python-flask-admin
 python-flock
 python-flufl-testing
@@ -308,6 +313,7 @@ python-mitogen
 python-mkdocs-macros-test
 python-modestmaps
 python-molmass
+python-more-itertools:tests::::
 python-morphys
 python-mrtparse
 python-mujson
@@ -319,6 +325,7 @@ python-myhdl
 python-mypy_extensions
 python-netapp-lib
 python-netifaces
+python-networkx::bootstrap:::
 python-nmap
 python-nose2
 python-npyscreen
@@ -330,9 +337,12 @@ python-op1svg
 python-openoffice
 python-pam
 python-pandocfilters
+python-paste-deploy:tests::::
 python-patch-ng
+python-pathspec:tests::::
 python-patiencediff
 python-pbkdf2
+python-pbr:tests:bootstrap:::
 python-pcicrawler
 python-pdfkit
 python-pefile
@@ -370,12 +380,14 @@ python-pyliblzfse
 python-pylibmc
 python-pyotp
 python-pypresence
+python-pyproject-hooks:tests::::
 python-pyqt5-sip
 python-pyqt6-sip
 python-pyrpmmd
 python-pyrtlsdr
 python-pysimplesoap
 python-pysingular
+python-pysocks:::with_python3_tests::
 python-pysol-cards
 python-pyspf
 python-pystitch
@@ -392,6 +404,7 @@ python-rpi-gpio2
 python-sanction
 python-schedutils
 python-sdnotify
+python-setuptools80::bootstrap:::
 python-sgmllib3k
 python-should_dsl
 python-show-in-file-manager
@@ -400,6 +413,7 @@ python-siphash
 python-smbc
 python-smbpasswd
 python-solc-ast
+python-sortedcontainers:docs-tests::::
 python-speaklater
 python-speedtest-cli
 python-speg
@@ -424,8 +438,11 @@ python-tempdir
 python-tensile
 python-testfixtures
 python-text-unidecode
+python-threadpoolctl:check::::
 python-timeout-decorator
+python-tomli-w:check::::
 python-trololio
+python-trove-classifiers:tests::::
 python-txredisapi
 python-types-cryptography
 python-types-decorator
@@ -448,6 +465,7 @@ python-uptime
 python-urlgrabber
 python-utmp
 python-varint
+python-vcs-versioning::bootstrap:::
 python-versioneer
 python-visitor
 python-walkdir
