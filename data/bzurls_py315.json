@@ -515,6 +515,10 @@
       "python-SALib: FTBFS in Fedora rawhide/f44"
     ]
   },
+  "python-TestSlide": {
+    "urls": [],
+    "summaries": []
+  },
   "python-XStatic": {
     "urls": [],
     "summaries": []
@@ -1377,10 +1381,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-qcustomplot-pyqt": {
-    "urls": [],
-    "summaries": []
-  },
   "python-questionary": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2435019",
@@ -1431,6 +1431,10 @@
       "python-rstr fails to build with Python 3.15: 3 errors when collecting tests: ModuleNotFoundError: No module named 'sre_parse'"
     ]
   },
+  "python-scales": {
+    "urls": [],
+    "summaries": []
+  },
   "python-scikit-image": {
     "urls": [],
     "summaries": []
@@ -1440,6 +1444,18 @@
     "summaries": []
   },
   "python-seaborn": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-sentinels": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2481441"
+    ],
+    "summaries": [
+      "python-sentinels: FTBFS in Fedora Rawhide: TypeError: /builddir/build/BUILD/python-sentinels-1.1.1-build/sentinels-1.1.1/pyproject.toml: config option 'testpaths' expects a list for type 'args', got str: 'tests'"
+    ]
+  },
+  "python-setuptools": {
     "urls": [],
     "summaries": []
   },
@@ -1455,7 +1471,31 @@
     "urls": [],
     "summaries": []
   },
+  "python-socketio": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-sphinx": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-sphinx-argparse-cli": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2440188"
+    ],
+    "summaries": [
+      "[heads up] python-sphinx-argparse-cli will fail to build with Sphinx 9+ in Fedora 45: ModuleNotFoundError: No module named 'sphinx.testing.path'"
+    ]
+  },
   "python-sphinx-book-theme": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-sphinx-kr-theme": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-sphinxcontrib-chapeldomain": {
     "urls": [],
     "summaries": []
   },
@@ -1464,6 +1504,14 @@
     "summaries": []
   },
   "python-sqlalchemy": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-sshtunnel": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-steampunk-spotter": {
     "urls": [],
     "summaries": []
   },
@@ -1499,6 +1547,26 @@
       "python-toml-cli: FTBFS in Fedora Rawhide: 2 tests fail"
     ]
   },
+  "python-toolz": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2447909"
+    ],
+    "summaries": [
+      "python-toolz fails to build with Python 3.15: AssertionError: Missing introspection for the following callables: frozendict"
+    ]
+  },
+  "python-tornado": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2414557"
+    ],
+    "summaries": [
+      "python-tornado fails to build with Python 3.15: ERROR: test_multi_process"
+    ]
+  },
+  "python-tpm2-pytss": {
+    "urls": [],
+    "summaries": []
+  },
   "python-translitcodec": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2414561"
@@ -1514,6 +1582,36 @@
     "summaries": [
       "[heads up] python-treq will fail to build with Sphinx 9+ in Fedora 45: sphinx.errors.SphinxError: cannot determine default role!"
     ]
+  },
+  "python-triton": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-twisted": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2435033",
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2432344"
+    ],
+    "summaries": [
+      "python-twisted: FTBFS in Fedora rawhide/f44",
+      "python-twisted fails to build with Python 3.15: twisted.trial.unittest.FailTest: 5 != 7, builtins.AttributeError: 'SourceFileLoader' object has no attribute 'load_module' and one more"
+    ]
+  },
+  "python-twomemo": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-typing-extensions": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2477406"
+    ],
+    "summaries": [
+      "python-typing-extensions fails to build with Python 3.15: AssertionError: 'typing.Unpack[~Ts]' != 'typing.Unpack[Ts]' and TypeError: bad operand type for unary ~: 'typing.TypeVarTuple'"
+    ]
+  },
+  "python-vcstool": {
+    "urls": [],
+    "summaries": []
   },
   "python-vsts": {
     "urls": [],
@@ -1531,7 +1629,23 @@
       "python-watchdog: FTBFS in Fedora Rawhide: requires Sphinx < 9, which is no longer available in Fedora"
     ]
   },
+  "python-webrtcvad": {
+    "urls": [],
+    "summaries": []
+  },
   "python-websocket-client": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-websockets": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2440566"
+    ],
+    "summaries": [
+      "python-websockets fails to build with Python 3.15: test_apply_mask_non_contiguous_memoryview: BufferError: memoryview: underlying buffer is not C-contiguous"
+    ]
+  },
+  "python-werkzeug": {
     "urls": [],
     "summaries": []
   },
@@ -1543,6 +1657,30 @@
       "python-xarray: FTBFS in Fedora rawhide/f44"
     ]
   },
+  "python-xmlschema": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-yamlloader": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-zarr": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2453855"
+    ],
+    "summaries": [
+      "python-zarr fails to build with Python 3.15:  SyntaxError: \"\\_\" is an invalid escape sequence. Did you mean \"\\\\_\"? A raw string is also an option."
+    ]
+  },
+  "python-zict": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2440574"
+    ],
+    "summaries": [
+      "python-zict fails to build with Python 3.15: timeout in test_stress_different_keys_threadsafe"
+    ]
+  },
   "python-zmq": {
     "urls": [],
     "summaries": []
@@ -1550,6 +1688,14 @@
   "python-zoidberg": {
     "urls": [],
     "summaries": []
+  },
+  "python-zope-testrunner": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2433888"
+    ],
+    "summaries": [
+      "python-zope-testrunner fails to build with Python 3.15: help2man: can't get `--help' info from /builddir/build/BUILD/python-zope-testrunner-8.1-build/BUILDROOT/usr/bin/zope-testrunner"
+    ]
   },
   "python3-mallard-ducktype": {
     "urls": [],
@@ -1603,6 +1749,14 @@
     "urls": [],
     "summaries": []
   },
+  "resalloc-ibm-cloud": {
+    "urls": [],
+    "summaries": []
+  },
+  "resalloc-openstack": {
+    "urls": [],
+    "summaries": []
+  },
   "roca-detect": {
     "urls": [],
     "summaries": []
@@ -1611,17 +1765,21 @@
     "urls": [],
     "summaries": []
   },
-  "rpm-spec-language-server": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2466677"
-    ],
-    "summaries": [
-      "rpm-spec-language-server fails to build with Python 3.15: TypeError: cache_from_source() takes 1 positional argument but 2 positional arguments (and 1 keyword-only argument) were given"
-    ]
+  "rpmlint": {
+    "urls": [],
+    "summaries": []
   },
   "scancode-toolkit": {
     "urls": [],
     "summaries": []
+  },
+  "scipy": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2458664"
+    ],
+    "summaries": [
+      "scipy: FTBFS in Fedora Rawhide: test_gh_22681_finite_error: AssertionError"
+    ]
   },
   "shybrid": {
     "urls": [],
@@ -1635,6 +1793,14 @@
       "snakemake fails to build with Python 3.15: help2man: can't get `--help' info from snakemake"
     ]
   },
+  "sundials": {
+    "urls": [],
+    "summaries": []
+  },
+  "supervisor": {
+    "urls": [],
+    "summaries": []
+  },
   "swift-lang": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2483711"
@@ -1647,9 +1813,21 @@
     "urls": [],
     "summaries": []
   },
+  "thefuck": {
+    "urls": [],
+    "summaries": []
+  },
   "tpm2-pkcs11": {
     "urls": [],
     "summaries": []
+  },
+  "ubertooth": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2381615"
+    ],
+    "summaries": [
+      "ubertooth: FTBFS with change proposal CMake 4.0"
+    ]
   },
   "usd": {
     "urls": [
@@ -1658,6 +1836,14 @@
     "summaries": [
       "usd fails to build with Python 3.15: /builddir/build/BUILD/usd-25.11-build/OpenUSD-25.11/pxr/base/tf/pyIdentity.cpp:139:16: error: \u2018PyWeakref_GetObject\u2019 was not declared in this scope; did you mean \u2018PyWeakref_GetRef\u2019?"
     ]
+  },
+  "variety": {
+    "urls": [],
+    "summaries": []
+  },
+  "virtme-ng": {
+    "urls": [],
+    "summaries": []
   },
   "vtk": {
     "urls": [],
@@ -1669,6 +1855,14 @@
     ],
     "summaries": [
       "xapian-bindings fails to build with Python 3.15: Fatal Python error: PyMutex_Unlock: unlocking mutex that is not locked"
+    ]
+  },
+  "xcfun": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2381159"
+    ],
+    "summaries": [
+      "xcfun: FTBFS with change proposal CMake: Use ninja generator by default"
     ]
   },
   "yt-dlp": {

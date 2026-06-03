@@ -67,6 +67,10 @@
     "urls": [],
     "summaries": []
   },
+  "ceph": {
+    "urls": [],
+    "summaries": []
+  },
   "certbot": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2466655"
@@ -147,6 +151,10 @@
       "flatpak-module-tools fails to build with setuptools_scm 10+"
     ]
   },
+  "fonttools": {
+    "urls": [],
+    "summaries": []
+  },
   "gnulib": {
     "urls": [],
     "summaries": []
@@ -183,11 +191,19 @@
       "kmymoney fails to build with Python 3.15: /usr/include/python3.15/pyport.h:523:9: error: \u2018__STDC_VERSION__\u2019 is not defined, evaluates to \u20180\u2019 [-Werror=undef]"
     ]
   },
+  "lammps": {
+    "urls": [],
+    "summaries": []
+  },
   "libmamba": {
     "urls": [],
     "summaries": []
   },
   "librealsense": {
+    "urls": [],
+    "summaries": []
+  },
+  "libreoffice": {
     "urls": [],
     "summaries": []
   },
@@ -275,12 +291,24 @@
       "pyp2rpm fails to build with Python 3.15: ModuleNotFoundError: No module named 'sre_constants'"
     ]
   },
+  "pyproj": {
+    "urls": [],
+    "summaries": []
+  },
   "pyqtwebengine": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2434945"
     ],
     "summaries": [
       "pyqtwebengine: FTBFS in Fedora rawhide/f44"
+    ]
+  },
+  "pytest": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2458644"
+    ],
+    "summaries": [
+      "pytest fails to build with Python 3.15: DeprecationWarning: This process (pid=1119) is multi-threaded, use of forkpty() may lead to deadlocks in the child."
     ]
   },
   "python-OBD": {
@@ -355,6 +383,10 @@
     "urls": [],
     "summaries": []
   },
+  "python-astropy": {
+    "urls": [],
+    "summaries": []
+  },
   "python-astroquery": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2460120"
@@ -396,6 +428,10 @@
     "summaries": []
   },
   "python-azure-mgmt-consumption": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-azure-mgmt-core": {
     "urls": [],
     "summaries": []
   },
@@ -549,6 +585,10 @@
     "urls": [],
     "summaries": []
   },
+  "python-deepdiff": {
+    "urls": [],
+    "summaries": []
+  },
   "python-deprecated": {
     "urls": [],
     "summaries": []
@@ -585,6 +625,14 @@
       "python-django-extensions fails to build with Python 3.15: TypeError: CheckConstraint.__init__() got an unexpected keyword argument 'check'"
     ]
   },
+  "python-django6": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2458730"
+    ],
+    "summaries": [
+      "python-django6 fails to build with Python 3.15: 3 test failures"
+    ]
+  },
   "python-einops": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2466673"
@@ -600,6 +648,10 @@
     "summaries": [
       "python-elastic-transport fails to build with Python 3.15: ERROR: '\"function\"' is not a valid asyncio_default_fixture_loop_scope. Valid scopes are: function, class, module, package, session."
     ]
+  },
+  "python-elementpath": {
+    "urls": [],
+    "summaries": []
   },
   "python-environs": {
     "urls": [],
@@ -633,6 +685,10 @@
       "python-exceptiongroup fails to build with Python 3.15: assert \"BaseExceptionGroup('foo', [ValueError(1), KeyboardInterrupt()])\" == \"BaseExceptionGroup('foo', [ValueError(1), KeyboardInterrupt(), KeyError('bar')])\""
     ]
   },
+  "python-executing": {
+    "urls": [],
+    "summaries": []
+  },
   "python-exiv2": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2440690"
@@ -644,6 +700,14 @@
   "python-extractcode": {
     "urls": [],
     "summaries": []
+  },
+  "python-extras": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2458630"
+    ],
+    "summaries": [
+      "python-extras fails to build with Python 3.15: AttributeError: 'TestTryImports' object has no attribute 'assertEquals'. Did you mean '.assertEqual' instead of '.assertEquals'?"
+    ]
   },
   "python-ezdxf": {
     "urls": [],
@@ -701,12 +765,24 @@
     "urls": [],
     "summaries": []
   },
+  "python-httpretty": {
+    "urls": [],
+    "summaries": []
+  },
   "python-huggingface-hub": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2481411"
     ],
     "summaries": [
       "python-huggingface-hub fails to build with Python 3.15: ImportError: cannot import name '_MISSING_TYPE' from 'dataclasses' (/usr/lib64/python3.15/dataclasses.py)"
+    ]
+  },
+  "python-hypothesis": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2458686"
+    ],
+    "summaries": [
+      "python-hypothesis fails to build with Python 3.15: DeprecationWarning: Module globals is missing a __spec__.loader"
     ]
   },
   "python-hypothesmith": {
@@ -726,6 +802,10 @@
     "summaries": [
       "python-jnius: FTBFS in Fedora Rawhide: error: incompatible pointer types passing 'JNIEnv **' (aka 'const struct JNINativeInterface_ ***') to parameter of type 'void **'"
     ]
+  },
+  "python-jsonschema": {
+    "urls": [],
+    "summaries": []
   },
   "python-jupyter-console": {
     "urls": [],
@@ -752,6 +832,10 @@
     "summaries": []
   },
   "python-linuxdoc": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-llm": {
     "urls": [],
     "summaries": []
   },
@@ -835,9 +919,21 @@
     "urls": [],
     "summaries": []
   },
+  "python-nbconvert": {
+    "urls": [],
+    "summaries": []
+  },
   "python-neovim": {
     "urls": [],
     "summaries": []
+  },
+  "python-nibabel": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2442355"
+    ],
+    "summaries": [
+      "python-nibabel fails to build with Python 3.15: AssertionError in test_DeterministicGzipFile"
+    ]
   },
   "python-numpoly": {
     "urls": [
@@ -847,9 +943,25 @@
       "python-numpoly: FTBFS in Fedora rawhide/f44"
     ]
   },
+  "python-oldmemo": {
+    "urls": [],
+    "summaries": []
+  },
   "python-opfunu": {
     "urls": [],
     "summaries": []
+  },
+  "python-pandas-datareader": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-partd": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2458729"
+    ],
+    "summaries": [
+      "python-partd fails to build with Python 3.15: NotImplementedError: (string[python], array(['a', 'b', 'c'], dtype=object)) in 5 tests"
+    ]
   },
   "python-phply": {
     "urls": [],
@@ -859,7 +971,43 @@
     "urls": [],
     "summaries": []
   },
+  "python-pmw": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-poetry-plugin-export": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-psutil": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2477928"
+    ],
+    "summaries": [
+      "python-psutil fails to build with Python 3.15: AssertionError in TestProcess.test_rlimit_infinity_value"
+    ]
+  },
+  "python-psycopg2": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2414801"
+    ],
+    "summaries": [
+      "python-psycopg2 fails to build with Python 3.15: error: implicit declaration of function \u2018PyWeakref_GetObject\u2019; did you mean \u2018PyWeakref_GetRef\u2019?"
+    ]
+  },
+  "python-pydantic": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2460140"
+    ],
+    "summaries": [
+      "python-pydantic fails to build with Python 3.15: FutureWarning and DID NOT RAISE <class 'pydantic_core._pydantic_core.ValidationError'>"
+    ]
+  },
   "python-pygeoif": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pyglet": {
     "urls": [],
     "summaries": []
   },
@@ -870,6 +1018,10 @@
     "summaries": [
       "python-pygtkspellcheck: FTBFS in Fedora rawhide/f44"
     ]
+  },
+  "python-pymdown-extensions": {
+    "urls": [],
+    "summaries": []
   },
   "python-pynwb": {
     "urls": [
@@ -896,6 +1048,14 @@
     "summaries": [
       "python-pyswip fails to build with Python 3.15: 28 test failures: AttributeError: 'list' object has no attribute 'value'"
     ]
+  },
+  "python-pytest-httpserver": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pytest-rerunfailures": {
+    "urls": [],
+    "summaries": []
   },
   "python-pytest-subtests": {
     "urls": [],
@@ -975,6 +1135,14 @@
       "python-sentinels: FTBFS in Fedora Rawhide: TypeError: /builddir/build/BUILD/python-sentinels-1.1.1-build/sentinels-1.1.1/pyproject.toml: config option 'testpaths' expects a list for type 'args', got str: 'tests'"
     ]
   },
+  "python-setuptools": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-setuptools80": {
+    "urls": [],
+    "summaries": []
+  },
   "python-slackclient": {
     "urls": [],
     "summaries": []
@@ -1026,6 +1194,14 @@
     "summaries": [
       "python-toml-cli: FTBFS in Fedora Rawhide: 2 tests fail"
     ]
+  },
+  "python-torch": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-torchaudio": {
+    "urls": [],
+    "summaries": []
   },
   "python-tpm2-pytss": {
     "urls": [],
