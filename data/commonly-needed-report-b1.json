@@ -24,11 +24,6 @@
       ]
     },
     {
-      "component": "python-croniter",
-      "count": 6,
-      "unresolvable": true
-    },
-    {
       "component": "conda",
       "count": 6,
       "blocked_by": [
@@ -263,6 +258,10 @@
     {
       "component": "python-azure-mgmt-maps",
       "count": 1
+    },
+    {
+      "component": "python-azure-mgmt-marketplaceordering",
+      "count": 1
     }
   ],
   "most_commonly_last_blocking": [
@@ -343,11 +342,6 @@
       "unresolvable": true
     },
     {
-      "component": "python-croniter",
-      "count": 2,
-      "unresolvable": true
-    },
-    {
       "component": "xapian-bindings",
       "count": 2
     },
@@ -361,6 +355,10 @@
     },
     {
       "component": "usd",
+      "count": 1
+    },
+    {
+      "component": "python-treq",
       "count": 1
     },
     {
@@ -385,7 +383,7 @@
         "python-hupper",
         "python-pyramid"
       ],
-      "count": 4
+      "count": 5
     },
     {
       "components": [
@@ -401,13 +399,6 @@
         "python-hupper",
         "python-pyramid",
         "python-pyramid-mako"
-      ],
-      "count": 1
-    },
-    {
-      "components": [
-        "python-croniter",
-        "python-treq"
       ],
       "count": 1
     },
@@ -509,7 +500,6 @@
     },
     {
       "components": [
-        "python-croniter",
         "python-py-key-value",
         "python-pydocket"
       ],
@@ -519,6 +509,14 @@
       "components": [
         "python-mongomock",
         "python-sentinels"
+      ],
+      "count": 1
+    },
+    {
+      "components": [
+        "python-fsleyes-props",
+        "python-fslpy",
+        "python-trimesh"
       ],
       "count": 1
     }
