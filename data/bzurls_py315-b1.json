@@ -159,10 +159,6 @@
       "kmymoney fails to build with Python 3.15: /usr/include/python3.15/pyport.h:523:9: error: \u2018__STDC_VERSION__\u2019 is not defined, evaluates to \u20180\u2019 [-Werror=undef]"
     ]
   },
-  "lammps": {
-    "urls": [],
-    "summaries": []
-  },
   "libmamba": {
     "urls": [],
     "summaries": []
@@ -172,10 +168,6 @@
     "summaries": []
   },
   "libreoffice": {
-    "urls": [],
-    "summaries": []
-  },
-  "libxc": {
     "urls": [],
     "summaries": []
   },
@@ -231,6 +223,14 @@
     "urls": [],
     "summaries": []
   },
+  "pacemaker": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2434896"
+    ],
+    "summaries": [
+      "pacemaker: FTBFS in Fedora rawhide/f44"
+    ]
+  },
   "petsc": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2440567"
@@ -266,10 +266,6 @@
     "summaries": [
       "pyp2rpm fails to build with Python 3.15: ModuleNotFoundError: No module named 'sre_constants'"
     ]
-  },
-  "pyproj": {
-    "urls": [],
-    "summaries": []
   },
   "pyqtwebengine": {
     "urls": [
@@ -653,6 +649,14 @@
     "urls": [],
     "summaries": []
   },
+  "python-extras": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2458630"
+    ],
+    "summaries": [
+      "python-extras fails to build with Python 3.15: AttributeError: 'TestTryImports' object has no attribute 'assertEquals'. Did you mean '.assertEqual' instead of '.assertEquals'?"
+    ]
+  },
   "python-ezdxf": {
     "urls": [],
     "summaries": []
@@ -871,14 +875,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-pandas": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2435003"
-    ],
-    "summaries": [
-      "python-pandas: FTBFS in Fedora rawhide/f44"
-    ]
-  },
   "python-pandas-datareader": {
     "urls": [],
     "summaries": []
@@ -904,10 +900,6 @@
     "summaries": []
   },
   "python-pygeoif": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-pyglet": {
     "urls": [],
     "summaries": []
   },
