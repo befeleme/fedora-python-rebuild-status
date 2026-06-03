@@ -239,6 +239,10 @@
     "urls": [],
     "summaries": []
   },
+  "gnulib": {
+    "urls": [],
+    "summaries": []
+  },
   "gr-iqbal": {
     "urls": [],
     "summaries": []
@@ -954,6 +958,14 @@
   "python-geomdl": {
     "urls": [],
     "summaries": []
+  },
+  "python-geopmpy": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2483709"
+    ],
+    "summaries": [
+      "python-geopmpy fails to build with Python 3.15: neverending Generating HDF5 files... Applying workaround for strings in HDF5 files... in test_report_cache (TestIO.TestIO.test_report_cache)"
+    ]
   },
   "python-geotiler": {
     "urls": [],

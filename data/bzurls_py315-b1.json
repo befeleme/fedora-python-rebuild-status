@@ -207,6 +207,10 @@
     "urls": [],
     "summaries": []
   },
+  "llvm21": {
+    "urls": [],
+    "summaries": []
+  },
   "manifold": {
     "urls": [],
     "summaries": []
@@ -625,6 +629,14 @@
       "python-django-extensions fails to build with Python 3.15: TypeError: CheckConstraint.__init__() got an unexpected keyword argument 'check'"
     ]
   },
+  "python-django5": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2458661"
+    ],
+    "summaries": [
+      "python-django5 fails to build with Python 3.15: AssertionError: \"Error: argument --database: invalid choice: 'deflaut' \\(choose from '?default'?, '?other'?\\)\" does not match \"Error: argument --database: invalid choice: 'deflaut', maybe you meant 'default'"
+    ]
+  },
   "python-django6": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2458730"
@@ -754,6 +766,10 @@
     "summaries": []
   },
   "python-google-cloud-dns": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-graph-tool": {
     "urls": [],
     "summaries": []
   },
@@ -951,6 +967,14 @@
     "urls": [],
     "summaries": []
   },
+  "python-pandas": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2435003"
+    ],
+    "summaries": [
+      "python-pandas: FTBFS in Fedora rawhide/f44"
+    ]
+  },
   "python-pandas-datareader": {
     "urls": [],
     "summaries": []
@@ -964,6 +988,10 @@
     ]
   },
   "python-phply": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pip": {
     "urls": [],
     "summaries": []
   },
@@ -1147,6 +1175,10 @@
     "urls": [],
     "summaries": []
   },
+  "python-sphinx": {
+    "urls": [],
+    "summaries": []
+  },
   "python-sphinx-argparse-cli": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2440188"
@@ -1183,6 +1215,10 @@
     "urls": [],
     "summaries": []
   },
+  "python-textdistance": {
+    "urls": [],
+    "summaries": []
+  },
   "python-tilestache": {
     "urls": [],
     "summaries": []
@@ -1195,6 +1231,14 @@
       "python-toml-cli: FTBFS in Fedora Rawhide: 2 tests fail"
     ]
   },
+  "python-toolz": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2447909"
+    ],
+    "summaries": [
+      "python-toolz fails to build with Python 3.15: AssertionError: Missing introspection for the following callables: frozendict"
+    ]
+  },
   "python-torch": {
     "urls": [],
     "summaries": []
@@ -1202,6 +1246,14 @@
   "python-torchaudio": {
     "urls": [],
     "summaries": []
+  },
+  "python-tornado": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2414557"
+    ],
+    "summaries": [
+      "python-tornado fails to build with Python 3.15: ERROR: test_multi_process"
+    ]
   },
   "python-tpm2-pytss": {
     "urls": [],
@@ -1231,6 +1283,32 @@
     "urls": [],
     "summaries": []
   },
+  "python-twisted": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2435033",
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2432344"
+    ],
+    "summaries": [
+      "python-twisted: FTBFS in Fedora rawhide/f44",
+      "python-twisted fails to build with Python 3.15: twisted.trial.unittest.FailTest: 5 != 7, builtins.AttributeError: 'SourceFileLoader' object has no attribute 'load_module' and one more"
+    ]
+  },
+  "python-twomemo": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-typing-extensions": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2477406"
+    ],
+    "summaries": [
+      "python-typing-extensions fails to build with Python 3.15: AssertionError: 'typing.Unpack[~Ts]' != 'typing.Unpack[Ts]' and TypeError: bad operand type for unary ~: 'typing.TypeVarTuple'"
+    ]
+  },
+  "python-vascpy": {
+    "urls": [],
+    "summaries": []
+  },
   "python-vcstool": {
     "urls": [],
     "summaries": []
@@ -1239,16 +1317,36 @@
     "urls": [],
     "summaries": []
   },
+  "python-websockets": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2440566"
+    ],
+    "summaries": [
+      "python-websockets fails to build with Python 3.15: test_apply_mask_non_contiguous_memoryview: BufferError: memoryview: underlying buffer is not C-contiguous"
+    ]
+  },
+  "python-werkzeug": {
+    "urls": [],
+    "summaries": []
+  },
   "python-yamlloader": {
     "urls": [],
     "summaries": []
   },
-  "python-zict": {
+  "python-zarr": {
     "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2440574"
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2453855"
     ],
     "summaries": [
-      "python-zict fails to build with Python 3.15: timeout in test_stress_different_keys_threadsafe"
+      "python-zarr fails to build with Python 3.15:  SyntaxError: \"\\_\" is an invalid escape sequence. Did you mean \"\\\\_\"? A raw string is also an option."
+    ]
+  },
+  "python-zope-testrunner": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2433888"
+    ],
+    "summaries": [
+      "python-zope-testrunner fails to build with Python 3.15: help2man: can't get `--help' info from /builddir/build/BUILD/python-zope-testrunner-8.1-build/BUILDROOT/usr/bin/zope-testrunner"
     ]
   },
   "python3-mallard-ducktype": {
@@ -1290,6 +1388,18 @@
   "root": {
     "urls": [],
     "summaries": []
+  },
+  "rpmlint": {
+    "urls": [],
+    "summaries": []
+  },
+  "snakemake": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2483710"
+    ],
+    "summaries": [
+      "snakemake fails to build with Python 3.15: help2man: can't get `--help' info from snakemake"
+    ]
   },
   "supervisor": {
     "urls": [],
