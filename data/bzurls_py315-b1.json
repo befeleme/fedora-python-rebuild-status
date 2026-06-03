@@ -1,8 +1,4 @@
 {
-  "HepMC3": {
-    "urls": [],
-    "summaries": []
-  },
   "Mayavi": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2433846"
@@ -289,14 +285,6 @@
     ],
     "summaries": [
       "pyqtwebengine: FTBFS in Fedora rawhide/f44"
-    ]
-  },
-  "pytest": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2458644"
-    ],
-    "summaries": [
-      "pytest fails to build with Python 3.15: DeprecationWarning: This process (pid=1119) is multi-threaded, use of forkpty() may lead to deadlocks in the child."
     ]
   },
   "python-OBD": {
@@ -709,10 +697,6 @@
       "python-giacpy: FTBFS in Fedora Rawhide: line 51: Segmentation fault: /usr/bin/python3 -m doctest ../../giacpy/giacpy.pyx -vv"
     ]
   },
-  "python-gitdb": {
-    "urls": [],
-    "summaries": []
-  },
   "python-google-cloud-dns": {
     "urls": [],
     "summaries": []
@@ -984,10 +968,6 @@
     "summaries": [
       "python-pyswip fails to build with Python 3.15: 28 test failures: AttributeError: 'list' object has no attribute 'value'"
     ]
-  },
-  "python-pytest-rerunfailures": {
-    "urls": [],
-    "summaries": []
   },
   "python-pytest-subtests": {
     "urls": [],
@@ -1286,10 +1266,6 @@
     "summaries": [
       "usd fails to build with Python 3.15: /builddir/build/BUILD/usd-25.11-build/OpenUSD-25.11/pxr/base/tf/pyIdentity.cpp:139:16: error: \u2018PyWeakref_GetObject\u2019 was not declared in this scope; did you mean \u2018PyWeakref_GetRef\u2019?"
     ]
-  },
-  "uv": {
-    "urls": [],
-    "summaries": []
   },
   "variety": {
     "urls": [],
