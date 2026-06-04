@@ -9,6 +9,7 @@ MUSIC
 NFStest
 NLopt
 PyGreSQL
+PyMca
 PyQt-builder
 PySolFC
 PyX
@@ -223,6 +224,7 @@ gns3-net-converter
 gns3-server
 gnucash
 gnumeric
+gnuradio
 gobject-introspection
 gom
 google-auth-httplib2
@@ -359,6 +361,7 @@ libpkgmanifest
 libplist
 libpst
 libpwquality
+libreoffice
 librepo
 libreport
 libsavitar
@@ -446,6 +449,7 @@ netcdf4-python
 netplan
 newt
 nextpnr
+nfsometer
 nftables
 nicotine+
 ninja-build
@@ -586,6 +590,7 @@ pysysbot
 pytest
 pythia8
 python-Automat
+python-Bottleneck
 python-CommonMark
 python-GeoIP
 python-IPy
@@ -599,6 +604,7 @@ python-PyMunin3
 python-PyMySQL
 python-PyPDF2
 python-PyRSS2Gen
+python-Pympler
 python-QtAwesome
 python-QtPy
 python-ROPGadget
@@ -650,6 +656,7 @@ python-allpairspy
 python-alsa
 python-amqp
 python-ana
+python-androguard
 python-aniso8601
 python-annexremote
 python-annotated-doc
@@ -677,6 +684,7 @@ python-arpy
 python-array-api-strict
 python-arrow
 python-asciitree
+python-ase
 python-asgi-lifespan
 python-asgiref
 python-asn1
@@ -1028,6 +1036,7 @@ python-dbus-python-client-gen
 python-dbus-signature-pyparsing
 python-dbusmock
 python-ddt
+python-deap
 python-debian
 python-debian-inspector
 python-debianbts
@@ -1043,6 +1052,7 @@ python-dependency-groups
 python-deprecated
 python-deprecation
 python-desktop-entry-lib
+python-detect-secrets
 python-dialog
 python-dict-sorted
 python-dict2xml
@@ -1249,6 +1259,7 @@ python-freetype
 python-freezegun
 python-frozendict
 python-frozenlist
+python-fsleyes-widgets
 python-fspath
 python-ftputil
 python-fuckit
@@ -1270,6 +1281,7 @@ python-genshi
 python-geographiclib
 python-geoip2
 python-geojson
+python-geomdl
 python-geopy
 python-gertty
 python-getmac
@@ -1385,6 +1397,7 @@ python-iniparse
 python-inject
 python-inkex
 python-inotify_simple
+python-inspyred
 python-installer
 python-intbitset
 python-interrogate
@@ -1394,6 +1407,7 @@ python-iowait
 python-ipcqueue
 python-ipmi
 python-ipuz
+python-ipykernel
 python-ipython-pygments-lexers
 python-ipython_genutils
 python-irodsclient
@@ -1453,6 +1467,7 @@ python-jstyleson
 python-junitparser
 python-junitxml
 python-jupymake
+python-jupyter-client
 python-jupyter-core
 python-jupyter-packaging
 python-jupyter-server-terminals
@@ -1520,6 +1535,7 @@ python-lmdb
 python-localzone
 python-locket
 python-lockfile
+python-logbook
 python-logfury
 python-loguru
 python-logutils
@@ -1550,15 +1566,19 @@ python-markdown-include
 python-markdown-math
 python-markdown2
 python-markupsafe
+python-matplotlib
 python-matplotlib-inline
+python-matplotlib-scalebar
 python-maxminddb
 python-mbstrdecoder
 python-mccabe
 python-mdurl
 python-mdx_gh_links
+python-meautility
 python-mediafile
 python-meh
 python-memcached
+python-mercantile
 python-merge3
 python-mergedeep
 python-meson-python
@@ -1590,6 +1610,7 @@ python-more-itertools
 python-moreorless
 python-morphys
 python-mozilla-django-oidc
+python-mpmath
 python-mrtparse
 python-msal
 python-msal-extensions
@@ -1622,6 +1643,7 @@ python-myrepos-utils
 python-mysqlclient
 python-nanobind
 python-natsort
+python-nbclient
 python-nbformat
 python-nbxmpp
 python-ndjson-testrunner
@@ -1636,7 +1658,9 @@ python-nh3
 python-nibabel
 python-nihtest
 python-nine
+python-nitime
 python-nitrate
+python-nixio
 python-nltk
 python-nmap
 python-nmrglue
@@ -1654,6 +1678,7 @@ python-ntplib
 python-num2words
 python-numexpr
 python-numpy-stl
+python-numpydoc
 python-oauth
 python-oauth2
 python-oauth2client
@@ -1901,6 +1926,7 @@ python-pylibravatar
 python-pylons-sphinx-themes
 python-pylsqpack
 python-pymacaroons-pynacl
+python-pymapvbvd
 python-pymaven-patch
 python-pymediainfo
 python-pymediawiki
@@ -1948,8 +1974,11 @@ python-pyrpm
 python-pyrpmmd
 python-pyrtlsdr
 python-pysam
+python-pysb
+python-pyscaffold
 python-pyscf
 python-pyscipopt
+python-pyshark
 python-pyside6
 python-pysimplesoap
 python-pysingular
@@ -2009,6 +2038,7 @@ python-pytest-localserver
 python-pytest-metadata
 python-pytest-mock
 python-pytest-mpi
+python-pytest-mpl
 python-pytest-multihost
 python-pytest-openfiles
 python-pytest-ordering
@@ -2151,6 +2181,7 @@ python-schedutils
 python-schema
 python-scikit-build-core
 python-scikit-learn
+python-scipy-doctest
 python-scitokens
 python-scooby
 python-scour
@@ -2199,6 +2230,7 @@ python-simpleline
 python-single-version
 python-siphash
 python-six
+python-sklearn-genetic
 python-slip10
 python-slixmpp
 python-slixmpp-omemo
@@ -2238,6 +2270,7 @@ python-sphinx-click
 python-sphinx-copybutton
 python-sphinx-epytext
 python-sphinx-favicon
+python-sphinx-gallery
 python-sphinx-intl
 python-sphinx-issues
 python-sphinx-jsonschema
@@ -2276,6 +2309,7 @@ python-sphinxcontrib-trio
 python-sphinxcontrib-websupport
 python-sphinxemoji
 python-sphinxext-opengraph
+python-sphinxtesters
 python-sphinxygen
 python-spnego
 python-spotipy
@@ -2524,6 +2558,7 @@ python-whois
 python-whoosh
 python-widgetsnbextension
 python-wikipedia
+python-wordcloud
 python-wrapt
 python-wsproto
 python-wtforms
@@ -2565,6 +2600,7 @@ python-zeroconf
 python-zhon
 python-zipstream
 python-zlib-ng
+python-zmq
 python-zombie-imp
 python-zope-component
 python-zope-event
@@ -2635,6 +2671,7 @@ rpy
 rrdtool
 rst2pdf
 rteval
+rtlsdr-scanner
 rubber
 ruff
 rust2rpm
@@ -2659,6 +2696,7 @@ setools
 setroubleshoot
 showtime
 shyaml
+shybrid
 sigil
 simple-ccsm
 sip
@@ -2667,6 +2705,7 @@ skf
 slingshot
 slowloris
 smbcmp
+smoldyn
 snapm
 snowball
 solaar
