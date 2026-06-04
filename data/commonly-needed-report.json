@@ -92,15 +92,8 @@
       ]
     },
     {
-      "component": "python-stack-data",
-      "count": 63
-    },
-    {
       "component": "ipython",
-      "count": 61,
-      "blocked_by": [
-        "python-stack-data"
-      ]
+      "count": 61
     },
     {
       "component": "python-zmq",
@@ -186,7 +179,6 @@
         "python-ipykernel",
         "python-jupyter-client",
         "python-pytest-jupyter",
-        "python-stack-data",
         "python-zmq"
       ]
     },
@@ -194,8 +186,7 @@
       "component": "python-dotenv",
       "count": 42,
       "blocked_by": [
-        "ipython",
-        "python-stack-data"
+        "ipython"
       ]
     },
     {
@@ -266,7 +257,6 @@
         "python-notebook-shim",
         "python-numcodecs",
         "python-partd",
-        "python-stack-data",
         "python-tblib",
         "python-zarr",
         "python-zict",
@@ -290,7 +280,6 @@
         "python-ipykernel",
         "python-ipyparallel",
         "python-jupyter-client",
-        "python-stack-data",
         "python-zmq"
       ]
     },
@@ -300,8 +289,7 @@
       "blocked_by": [
         "ipython",
         "python-contourpy",
-        "python-matplotlib",
-        "python-stack-data"
+        "python-matplotlib"
       ]
     },
     {
@@ -325,7 +313,6 @@
         "python-nbconvert",
         "python-notebook",
         "python-notebook-shim",
-        "python-stack-data",
         "python-zmq"
       ]
     },
@@ -396,8 +383,7 @@
         "python-matplotlib",
         "python-mdit-py-plugins",
         "python-mpmath",
-        "python-myst-parser",
-        "python-stack-data"
+        "python-myst-parser"
       ]
     },
     {
@@ -465,7 +451,6 @@
         "python-notebook",
         "python-notebook-shim",
         "python-pydata-sphinx-theme",
-        "python-stack-data",
         "python-zmq"
       ]
     },
@@ -549,6 +534,14 @@
         "python-google-cloud-core",
         "python-google-cloud-storage",
         "python-proto-plus"
+      ]
+    },
+    {
+      "component": "python-jupyter-events",
+      "count": 22,
+      "blocked_by": [
+        "python-markdown-it-py",
+        "python-rich"
       ]
     }
   ],
@@ -636,6 +629,10 @@
       ]
     },
     {
+      "component": "ipython",
+      "count": 6
+    },
+    {
       "component": "python-flexmock",
       "count": 6,
       "blocked_by": [
@@ -680,8 +677,7 @@
       "component": "python-dotenv",
       "count": 4,
       "blocked_by": [
-        "ipython",
-        "python-stack-data"
+        "ipython"
       ]
     },
     {
@@ -698,14 +694,6 @@
         "python-Bottleneck",
         "python-contourpy",
         "python-matplotlib"
-      ]
-    },
-    {
-      "component": "python-vcrpy",
-      "count": 4,
-      "blocked_by": [
-        "python-httpcore",
-        "python-httpx"
       ]
     }
   ],
@@ -729,7 +717,7 @@
         "python-markdown-it-py",
         "python-rich"
       ],
-      "count": 17
+      "count": 18
     },
     {
       "components": [
@@ -824,13 +812,6 @@
     },
     {
       "components": [
-        "ipython",
-        "python-stack-data"
-      ],
-      "count": 6
-    },
-    {
-      "components": [
         "python-importlib-metadata",
         "python-zipp"
       ],
@@ -841,7 +822,6 @@
         "ipython",
         "python-ipykernel",
         "python-jupyter-client",
-        "python-stack-data",
         "python-zmq"
       ],
       "count": 6
@@ -876,6 +856,13 @@
         "python-matplotlib"
       ],
       "count": 5
+    },
+    {
+      "components": [
+        "breezy",
+        "python-dulwich"
+      ],
+      "count": 4
     }
   ],
   "dependency_loops": []

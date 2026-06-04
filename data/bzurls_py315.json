@@ -71,10 +71,6 @@
       "alot fails to build with Python 3.15: TypeError: 'Mock' object cannot be interpreted as an integer"
     ]
   },
-  "ampy": {
-    "urls": [],
-    "summaries": []
-  },
   "ansible": {
     "urls": [],
     "summaries": []
@@ -219,10 +215,6 @@
     "urls": [],
     "summaries": []
   },
-  "cloud-init": {
-    "urls": [],
-    "summaries": []
-  },
   "cobbler": {
     "urls": [],
     "summaries": []
@@ -232,10 +224,6 @@
     "summaries": []
   },
   "compose-utils": {
-    "urls": [],
-    "summaries": []
-  },
-  "conan": {
     "urls": [],
     "summaries": []
   },
@@ -552,10 +540,6 @@
     "summaries": []
   },
   "input-remapper": {
-    "urls": [],
-    "summaries": []
-  },
-  "ipython": {
     "urls": [],
     "summaries": []
   },
@@ -931,23 +915,11 @@
     "urls": [],
     "summaries": []
   },
-  "podman-compose": {
-    "urls": [],
-    "summaries": []
-  },
   "poetry": {
     "urls": [],
     "summaries": []
   },
-  "pre-commit": {
-    "urls": [],
-    "summaries": []
-  },
   "prunerepo": {
-    "urls": [],
-    "summaries": []
-  },
-  "ptpython": {
     "urls": [],
     "summaries": []
   },
@@ -1143,10 +1115,6 @@
       "python-accelerate fails to build with Python 3.15: TypeError: Signature mismatch between <built-in function pack> and <function pack at 0x7f50247c78a0>: (format, /, *values) != (fmt: 'bytes | str', /, *v: 'Any') -> 'bytes'"
     ]
   },
-  "python-aiohttp-oauthlib": {
-    "urls": [],
-    "summaries": []
-  },
   "python-aiohttp-socks": {
     "urls": [],
     "summaries": []
@@ -1176,10 +1144,6 @@
     "summaries": []
   },
   "python-ansible-compat": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-ansible-pylibssh": {
     "urls": [],
     "summaries": []
   },
@@ -1251,10 +1215,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-asttokens": {
-    "urls": [],
-    "summaries": []
-  },
   "python-atlassian-python-api": {
     "urls": [],
     "summaries": []
@@ -1276,10 +1236,6 @@
     "summaries": []
   },
   "python-avocado": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-avro": {
     "urls": [],
     "summaries": []
   },
@@ -1312,10 +1268,6 @@
     "summaries": []
   },
   "python-azure-graphrbac": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-azure-identity": {
     "urls": [],
     "summaries": []
   },
@@ -1537,10 +1489,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-black": {
-    "urls": [],
-    "summaries": []
-  },
   "python-blosc2": {
     "urls": [],
     "summaries": []
@@ -1568,10 +1516,6 @@
     "summaries": [
       "python-bytecode fails to build with Python 3.15: 9 tests fail"
     ]
-  },
-  "python-call-graph": {
-    "urls": [],
-    "summaries": []
   },
   "python-carbon": {
     "urls": [],
@@ -1809,14 +1753,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-contourpy": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2434972"
-    ],
-    "summaries": [
-      "python-contourpy: FTBFS in Fedora rawhide/f44 on s390x"
-    ]
-  },
   "python-cookiecutter": {
     "urls": [],
     "summaries": []
@@ -1965,10 +1901,6 @@
       "python-doit: FTBFS in Fedora rawhide/f44"
     ]
   },
-  "python-dotenv": {
-    "urls": [],
-    "summaries": []
-  },
   "python-doubleratchet": {
     "urls": [],
     "summaries": []
@@ -2069,10 +2001,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-eth-stdlib": {
-    "urls": [],
-    "summaries": []
-  },
   "python-eth-tester": {
     "urls": [],
     "summaries": []
@@ -2170,10 +2098,6 @@
     "summaries": []
   },
   "python-fixit": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-flake8-import-order": {
     "urls": [],
     "summaries": []
   },
@@ -2555,10 +2479,6 @@
       "python-hypothesmith: FTBFS in Fedora rawhide/f44"
     ]
   },
-  "python-ibm-vpc": {
-    "urls": [],
-    "summaries": []
-  },
   "python-igraph": {
     "urls": [],
     "summaries": []
@@ -2747,10 +2667,6 @@
       "python-kaptan fails to build with Python 3.15: AttributeError: 'SourceFileLoader' object has no attribute 'load_module'. Did you mean: 'exec_module'? in test_py_file_handler and test_py_file_away_handler"
     ]
   },
-  "python-keep": {
-    "urls": [],
-    "summaries": []
-  },
   "python-keystoneauth1": {
     "urls": [],
     "summaries": []
@@ -2775,19 +2691,11 @@
     "urls": [],
     "summaries": []
   },
-  "python-launchpadlib": {
-    "urls": [],
-    "summaries": []
-  },
   "python-lazr-config": {
     "urls": [],
     "summaries": []
   },
   "python-lazr-delegates": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-lazr-restfulclient": {
     "urls": [],
     "summaries": []
   },
@@ -3103,10 +3011,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-msal-extensions": {
-    "urls": [],
-    "summaries": []
-  },
   "python-msrest": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2431658"
@@ -3168,10 +3072,6 @@
     "summaries": []
   },
   "python-ndindex": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-neo": {
     "urls": [],
     "summaries": []
   },
@@ -3503,10 +3403,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-prettyprinter": {
-    "urls": [],
-    "summaries": []
-  },
   "python-proto-plus": {
     "urls": [],
     "summaries": []
@@ -3580,10 +3476,6 @@
     "summaries": []
   },
   "python-pydantic-settings": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-pydapsys": {
     "urls": [],
     "summaries": []
   },
@@ -3788,10 +3680,6 @@
     "summaries": [
       "python-pytest-django fails to build with Python 3.15: AttributeError: 'ConfigurationLoader' object has no attribute 'exec_module'. Did you mean: 'load_module'?"
     ]
-  },
-  "python-pytest-env": {
-    "urls": [],
-    "summaries": []
   },
   "python-pytest-harvest": {
     "urls": [],
@@ -4346,10 +4234,6 @@
     "summaries": []
   },
   "python-sshtunnel": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-stack-data": {
     "urls": [],
     "summaries": []
   },
@@ -4911,10 +4795,6 @@
     "urls": [],
     "summaries": []
   },
-  "resalloc-ibm-cloud": {
-    "urls": [],
-    "summaries": []
-  },
   "reuse": {
     "urls": [],
     "summaries": []
@@ -5100,10 +4980,6 @@
     ]
   },
   "variety": {
-    "urls": [],
-    "summaries": []
-  },
-  "vdirsyncer": {
     "urls": [],
     "summaries": []
   },
