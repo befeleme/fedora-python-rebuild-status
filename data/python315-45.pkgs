@@ -5,6 +5,7 @@ FP16
 HepMC3
 NFStest
 NLopt
+PyGreSQL
 PyQt-builder
 PySolFC
 PyX
@@ -47,6 +48,7 @@ barman
 battray
 bcc
 beaker
+binwalk
 blivet-gui
 bluefish
 blueprint-compiler
@@ -115,6 +117,7 @@ eggdrop
 enjarify
 ephemeral-port-reserve
 evemu
+fedfind
 fedora-distro-aliases
 fedora-repro
 fedora-third-party
@@ -133,6 +136,7 @@ fts-rest-client
 fusion-icon
 gammastep
 ganglia
+gcovr
 gdcm
 gensio
 gerrymander
@@ -142,6 +146,7 @@ gi-docgen
 git-archive-all
 git-fame
 git-filter-repo
+git-imerge
 git-pull-request
 git-review
 gitg
@@ -170,6 +175,7 @@ grin
 gst
 gst-devtools
 gst-editing-services
+gtimelog
 gtts
 gtts-token
 guake
@@ -262,6 +268,7 @@ libplist
 libpwquality
 libreport
 libsavitar
+libsbml
 libsearpc
 libsedml
 libselinux
@@ -294,10 +301,13 @@ lutris
 lvm2
 mailnag
 mailprocessing
+manafirewall
 mapserver
 marisa
 mat2
 mate-menu
+mathgl
+maturin
 mcomix3
 med
 meld
@@ -348,6 +358,7 @@ openmpi
 openscap
 opensips
 opensuse-distro-aliases
+orca
 osbs-client
 otf2
 pacemaker
@@ -359,6 +370,7 @@ pcp2pdf
 pdf-stapler
 perl-Inline-Python
 persepolis
+pew
 photocollage
 piccata
 piper
@@ -432,6 +444,7 @@ python-GeoIP
 python-IPy
 python-ModulemdTranslationHelpers
 python-MultipartPostHandler2
+python-Pallets-Sphinx-Themes
 python-PyAVM
 python-PyMunin3
 python-PyPDF2
@@ -446,6 +459,7 @@ python-aaargh
 python-absl-py
 python-accept-types
 python-accessible-pygments
+python-acoustid
 python-acres
 python-adafruit-platformdetect
 python-admesh
@@ -505,6 +519,7 @@ python-assertpy
 python-astdoc
 python-asteval
 python-astropy-iers-data
+python-async-lru
 python-async-timeout
 python-asyncinotify
 python-asyncmy
@@ -516,6 +531,7 @@ python-audioread
 python-augeas
 python-authres
 python-autocommand
+python-autopage
 python-autopep8
 python-avalara
 python-awesomeversion
@@ -623,6 +639,7 @@ python-btrfs
 python-bucky
 python-build
 python-buildman
+python-cached_property
 python-cachetools
 python-cairocffi
 python-cairosvg
@@ -645,6 +662,7 @@ python-cftime
 python-chameleon
 python-chardet
 python-charset-normalizer
+python-cheetah
 python-chevron
 python-chm
 python-circuitbreaker
@@ -652,6 +670,7 @@ python-ciso8601
 python-citeproc-py
 python-ckzg
 python-claripy
+python-cli-helpers
 python-click
 python-click-completion
 python-click-default-group
@@ -676,6 +695,7 @@ python-codecov
 python-cogapp
 python-coherent-licensed
 python-coincurve
+python-colander
 python-colcon-argcomplete
 python-colcon-bash
 python-colcon-cd
@@ -707,6 +727,7 @@ python-colorclass
 python-colored
 python-colored-traceback
 python-coloredlogs
+python-colorful
 python-colorlog
 python-colormath2
 python-colorzero
@@ -720,6 +741,7 @@ python-conda-libmamba-solver
 python-condense-json
 python-configargparse
 python-configobj
+python-configshell
 python-confluent-kafka
 python-confuse
 python-connection_pool
@@ -745,6 +767,7 @@ python-crayons
 python-crc32c
 python-crcmod
 python-cron-converter
+python-crossword
 python-crypt-r
 python-crypto
 python-cson
@@ -755,6 +778,7 @@ python-cssselect
 python-cssselect2
 python-cups
 python-curio
+python-curtsies
 python-cvss
 python-cvxopt
 python-cwcwidth
@@ -773,6 +797,8 @@ python-dbf
 python-dbfread
 python-dbus-client-gen
 python-dbus-fast
+python-dbus-next
+python-dbus-python-client-gen
 python-dbus-signature-pyparsing
 python-dbusmock
 python-ddt
@@ -793,6 +819,7 @@ python-dict-sorted
 python-dict2xml
 python-dictdiffer
 python-dicttoxml
+python-diff-cover
 python-diff-match-patch
 python-dill
 python-dirhash
@@ -855,6 +882,7 @@ python-durationpy
 python-easyargs
 python-easydict
 python-easygui
+python-easyprocess
 python-ebooklib
 python-eccodes
 python-ecdsa
@@ -868,6 +896,7 @@ python-empy
 python-enlighten
 python-enthought-sphinx-theme
 python-entrypoints
+python-epc
 python-ephem
 python-et_xmlfile
 python-etcd3
@@ -879,6 +908,7 @@ python-evalidate
 python-evdev
 python-events
 python-exabgp
+python-execnet
 python-executing
 python-exif
 python-expandvars
@@ -888,6 +918,8 @@ python-extension-helpers
 python-extractcode-7z
 python-extractcode-libarchive
 python-extras
+python-faker
+python-falcon
 python-fast-simplification
 python-fastbencode
 python-fasteners
@@ -942,6 +974,7 @@ python-freezegun
 python-frozendict
 python-frozenlist
 python-fspath
+python-ftputil
 python-fuckit
 python-funcparserlib
 python-funcsigs
@@ -965,6 +998,7 @@ python-giacpy
 python-git-changelog
 python-git-revise
 python-gitapi
+python-gitdb
 python-glad
 python-glad2
 python-glfw
@@ -979,12 +1013,14 @@ python-googleapis-common-protos
 python-gpiozero
 python-gpxpy
 python-grabserial
+python-graphql-core
 python-graphviz
 python-greenlet
 python-grokmirror
 python-gsd
 python-gssapi
 python-gstreamer1
+python-guessit
 python-gunicorn
 python-h11
 python-hanzidentifier
@@ -1007,6 +1043,7 @@ python-housekeeping
 python-hpack
 python-hpilo
 python-hsluv
+python-html-text
 python-html2text
 python-html5-parser
 python-htmlmin2
@@ -1016,6 +1053,7 @@ python-httpagentparser
 python-httpretty
 python-httptools
 python-humanfriendly
+python-humanize
 python-husl
 python-hvac
 python-hwdata
@@ -1045,6 +1083,7 @@ python-influxdb
 python-iniconfig
 python-iniparse
 python-inject
+python-inkex
 python-inotify_simple
 python-installer
 python-intbitset
@@ -1063,6 +1102,7 @@ python-iso8601
 python-isodate
 python-isort
 python-itemadapter
+python-itsdangerous
 python-jack-client
 python-jaconv
 python-jaraco-classes
@@ -1081,7 +1121,9 @@ python-jinja2
 python-jinja2-cli
 python-jmespath
 python-journal-brief
+python-jq
 python-jsmin
+python-json-logger
 python-json-minify
 python-json5
 python-jsondiff
@@ -1097,6 +1139,7 @@ python-jstyleson
 python-junitparser
 python-junitxml
 python-jupyter-core
+python-jupyter-packaging
 python-jupyterlab_pygments
 python-justbases
 python-justbytes
@@ -1191,6 +1234,7 @@ python-minimock
 python-mirakuru
 python-mitogen
 python-mkdocs-click
+python-mkdocs-get-deps
 python-mkdocs-macros-test
 python-mkdocs-material-extensions
 python-mmtf
@@ -1293,6 +1337,7 @@ python-parameter-expansion-patched
 python-parse
 python-parse_type
 python-parsedatetime
+python-parsel
 python-parsimonious
 python-parso
 python-paste-deploy
@@ -1334,11 +1379,13 @@ python-pivy
 python-pkgconfig
 python-pkginfo
 python-plaster
+python-plaster-pastedeploy
 python-platformdirs
 python-playsound3
 python-pluggy
 python-pluginbase
 python-plugincode
+python-plumbum
 python-ply
 python-pmw
 python-podcastparser
@@ -1347,6 +1394,7 @@ python-poetry-core
 python-polib
 python-port-for
 python-posix-ipc
+python-pox
 python-precis_i18n
 python-prefixed
 python-presets
@@ -1357,6 +1405,7 @@ python-priority
 python-process-tests
 python-productmd
 python-progress
+python-progressbar2
 python-prometheus_client
 python-prompt-toolkit
 python-promptml
@@ -1416,6 +1465,7 @@ python-pyev
 python-pyfakefs
 python-pyfiglet
 python-pyflame
+python-pyftdi
 python-pyfzf
 python-pygiftiio
 python-pygit2
@@ -1430,6 +1480,7 @@ python-pygments-style-solarized
 python-pyhcl
 python-pyinotify
 python-pyjwkest
+python-pykcs11
 python-pykdtree
 python-pykdumpfile
 python-pykeepass
@@ -1444,6 +1495,7 @@ python-pylons-sphinx-themes
 python-pylsqpack
 python-pymacaroons-pynacl
 python-pymaven-patch
+python-pymediainfo
 python-pymediawiki
 python-pymeeus
 python-pynetbox
@@ -1463,6 +1515,7 @@ python-pyproject-metadata
 python-pypubsub
 python-pyqt5-sip
 python-pyqt6-sip
+python-pyquery
 python-pyrankvote
 python-pyrate-limiter
 python-pyrfc3339
@@ -1503,10 +1556,13 @@ python-pytest-datadir
 python-pytest-datafiles
 python-pytest-dependency
 python-pytest-doctestplus
+python-pytest-expect
 python-pytest-filter-subpackage
 python-pytest-fixture-config
 python-pytest-flakes
 python-pytest-forked
+python-pytest-freezegun
+python-pytest-freezer
 python-pytest-gitconfig
 python-pytest-github-actions-annotate-failures
 python-pytest-golden
@@ -1534,6 +1590,7 @@ python-pytest-timeout
 python-pytest-trio
 python-pytest-venv
 python-pytest-xprocess
+python-python-fcl
 python-python-multipart
 python-pytn3270
 python-pytools
@@ -1564,8 +1621,10 @@ python-rcssmin
 python-rdflib
 python-re-assert
 python-readability
+python-readability-lxml
 python-rebulk
 python-recommonmark
+python-redis
 python-reedsolo
 python-reflink
 python-regex
@@ -1728,6 +1787,7 @@ python-sphinxcontrib-pecanwsme
 python-sphinxcontrib-qthelp
 python-sphinxcontrib-serializinghtml
 python-sphinxcontrib-svg2pdfconverter
+python-sphinxcontrib-trio
 python-sphinxemoji
 python-sphinxext-opengraph
 python-sql
@@ -1735,6 +1795,7 @@ python-sqlacodegen
 python-sqlalchemy1.3
 python-sqlglot
 python-sqlite-fts4
+python-sqlite-migrate
 python-sqlite-utils
 python-sqlparse
 python-ssdeep
@@ -1749,6 +1810,7 @@ python-stevedore
 python-stone
 python-straight-plugin
 python-strict-rfc3339
+python-string_utils
 python-stripe
 python-stuf
 python-subprocess-tee
@@ -1781,6 +1843,7 @@ python-tenacity
 python-tensile
 python-term-background
 python-termcolor
+python-terminado
 python-terminaltables
 python-terminaltables3
 python-testfixtures
@@ -1824,10 +1887,12 @@ python-trio
 python-trololio
 python-trove-classifiers
 python-tvb-data
+python-tw2-core
 python-twiggy
 python-txredisapi
 python-typecode-libmagic
 python-typepy
+python-types-boto
 python-types-cryptography
 python-types-decorator
 python-types-docutils
@@ -1848,7 +1913,9 @@ python-typogrify
 python-tzlocal
 python-u-boot-pylib
 python-u-msgpack-python
+python-ua-parser-builtins
 python-uc-micro-py
+python-uharfbuzz
 python-uhashring
 python-uinput
 python-ujson
@@ -1881,6 +1948,7 @@ python-utmp
 python-validators
 python-varint
 python-varlink
+python-vatnumber
 python-vcs-versioning
 python-vcs2l
 python-vdf
@@ -1893,10 +1961,12 @@ python-vine
 python-virtualenv
 python-virtualenv-api
 python-virtualenv-clone
+python-virtualenvwrapper
 python-visitor
 python-vkbasalt-cli
 python-vobject
 python-volatile
+python-voluptuous
 python-vvm
 python-w3lib
 python-wadllib
@@ -1961,6 +2031,7 @@ python-zope-testing
 python-zopfli
 python-zstd
 python-zuul-sphinx
+python-zxcvbn
 python3-cangjie
 python3-discid
 python3-lxc
@@ -1984,6 +2055,7 @@ rdma-core
 realtime-tests
 recoll
 redhat-internal-test-package
+rednotebook
 redshift
 remmina
 resalloc-openstack
@@ -2003,7 +2075,9 @@ rubber
 s-tui
 s3cmd
 salt
+salt-lint
 sasutils
+scipy
 scons
 screenkey
 seadrive-daemon
@@ -2040,6 +2114,7 @@ subversion
 sudo
 sugar
 sugar-toolkit-gtk3
+sundials
 sword
 syndication-domination
 system-config-printer
