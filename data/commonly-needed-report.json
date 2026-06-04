@@ -1,31 +1,13 @@
 {
   "most_commonly_needed": [
     {
-      "component": "python-pydantic-core",
-      "count": 107,
-      "blocked_by": [
-        "python-inline-snapshot"
-      ]
-    },
-    {
-      "component": "python-pydantic",
-      "count": 106,
-      "blocked_by": [
-        "python-pydantic-core"
-      ]
-    },
-    {
       "component": "python-httpcore",
-      "count": 87,
-      "blocked_by": [
-        "python-h2"
-      ]
+      "count": 87
     },
     {
       "component": "python-httpx",
       "count": 85,
       "blocked_by": [
-        "python-h2",
         "python-httpcore",
         "python-uvicorn"
       ]
@@ -34,14 +16,9 @@
       "component": "python-twisted",
       "count": 48,
       "blocked_by": [
-        "python-h2",
         "python-httpcore",
         "python-httpx"
       ]
-    },
-    {
-      "component": "python-oslo-i18n",
-      "count": 36
     },
     {
       "component": "python-fsspec",
@@ -64,45 +41,23 @@
     },
     {
       "component": "python-oslo-utils",
-      "count": 31,
-      "blocked_by": [
-        "python-oslo-config",
-        "python-oslo-i18n"
-      ]
-    },
-    {
-      "component": "python-watchdog",
-      "count": 31,
-      "unresolvable": true
-    },
-    {
-      "component": "python-furo",
-      "count": 31,
-      "blocked_by": [
-        "python-sphinx-theme-builder"
-      ]
+      "count": 31
     },
     {
       "component": "dnf5",
-      "count": 30,
-      "blocked_by": [
-        "python-breathe"
-      ]
+      "count": 30
     },
     {
       "component": "sympy",
       "count": 30,
       "blocked_by": [
-        "llvm",
-        "python-furo"
+        "llvm"
       ]
     },
     {
       "component": "python-keystoneauth1",
       "count": 29,
       "blocked_by": [
-        "python-oslo-config",
-        "python-oslo-i18n",
         "python-oslo-utils"
       ]
     },
@@ -115,22 +70,9 @@
       ]
     },
     {
-      "component": "python-oslo-config",
-      "count": 25,
-      "blocked_by": [
-        "python-debtcollector",
-        "python-oslo-config",
-        "python-oslo-i18n",
-        "python-oslo-log",
-        "python-oslo-serialization",
-        "python-oslo-utils"
-      ]
-    },
-    {
       "component": "python-oslo-serialization",
       "count": 24,
       "blocked_by": [
-        "python-oslo-i18n",
         "python-oslo-utils"
       ]
     },
@@ -141,14 +83,8 @@
         "python-fastapi",
         "python-httpcore",
         "python-httpx",
-        "python-pydantic",
-        "python-pydantic-core",
         "python-starlette"
       ]
-    },
-    {
-      "component": "python-debtcollector",
-      "count": 23
     },
     {
       "component": "python-vcrpy",
@@ -169,19 +105,10 @@
       ]
     },
     {
-      "component": "mkdocs",
-      "count": 22,
-      "blocked_by": [
-        "python-watchdog"
-      ]
-    },
-    {
       "component": "python-openstacksdk",
       "count": 22,
       "blocked_by": [
-        "python-keystoneauth1",
-        "python-oslo-config",
-        "python-oslo-i18n"
+        "python-keystoneauth1"
       ]
     },
     {
@@ -192,8 +119,6 @@
         "python-google-cloud-core",
         "python-google-cloud-storage",
         "python-proto-plus",
-        "python-pydantic",
-        "python-pydantic-core",
         "python-smart_open",
         "python-snakemake-executor-plugin-cluster-generic",
         "python-snakemake-storage-plugin-fs",
@@ -232,16 +157,12 @@
       "blocked_by": [
         "python-keystoneauth1",
         "python-openstacksdk",
-        "python-oslo-i18n",
         "python-oslo-utils"
       ]
     },
     {
       "component": "imath",
-      "count": 15,
-      "blocked_by": [
-        "python-breathe"
-      ]
+      "count": 15
     },
     {
       "component": "python-pika",
@@ -265,10 +186,7 @@
     },
     {
       "component": "python-pydata-sphinx-theme",
-      "count": 14,
-      "blocked_by": [
-        "python-sphinx-theme-builder"
-      ]
+      "count": 14
     },
     {
       "component": "grpc",
@@ -287,26 +205,10 @@
       "component": "python-keystoneclient",
       "count": 14,
       "blocked_by": [
-        "python-debtcollector",
         "python-keystoneauth1",
         "python-openstacksdk",
-        "python-oslo-config",
-        "python-oslo-i18n",
         "python-oslo-serialization",
         "python-oslo-utils"
-      ]
-    },
-    {
-      "component": "python-h2",
-      "count": 14,
-      "unresolvable": true
-    },
-    {
-      "component": "python-eth-utils",
-      "count": 14,
-      "blocked_by": [
-        "python-pydantic",
-        "python-pydantic-core"
       ]
     },
     {
@@ -374,7 +276,6 @@
       "count": 12,
       "blocked_by": [
         "python-keystoneauth1",
-        "python-oslo-i18n",
         "python-oslo-serialization",
         "python-oslo-utils"
       ]
@@ -413,44 +314,118 @@
       "blocked_by": [
         "sympy"
       ]
-    }
-  ],
-  "most_commonly_last_blocking": [
+    },
     {
-      "component": "dnf5",
-      "count": 24,
+      "component": "python-openstackclient",
+      "count": 11,
       "blocked_by": [
-        "python-breathe"
+        "python-aodhclient",
+        "python-cinderclient",
+        "python-futurist",
+        "python-gnocchiclient",
+        "python-heatclient",
+        "python-ironicclient",
+        "python-keystoneauth1",
+        "python-keystoneclient",
+        "python-manilaclient",
+        "python-mistralclient",
+        "python-neutronclient",
+        "python-octaviaclient",
+        "python-openstackclient",
+        "python-openstacksdk",
+        "python-osc-lib",
+        "python-osc-placement",
+        "python-oslo-log",
+        "python-oslo-serialization",
+        "python-oslo-utils",
+        "python-swiftclient",
+        "python-troveclient",
+        "python-zaqarclient"
       ]
     },
     {
-      "component": "python-twisted",
-      "count": 21,
+      "component": "python-psycopg3",
+      "count": 10
+    },
+    {
+      "component": "python-numcodecs",
+      "count": 10,
       "blocked_by": [
-        "python-h2",
+        "python-pydata-sphinx-theme"
+      ]
+    },
+    {
+      "component": "python-pytest-arraydiff",
+      "count": 10,
+      "blocked_by": [
+        "python-astropy",
+        "python-blosc2",
+        "python-ndindex",
+        "python-tables"
+      ]
+    },
+    {
+      "component": "python-blosc2",
+      "count": 10,
+      "blocked_by": [
+        "python-ndindex"
+      ]
+    },
+    {
+      "component": "python-zope-testrunner",
+      "count": 10
+    },
+    {
+      "component": "python-peewee",
+      "count": 9,
+      "blocked_by": [
+        "python-psycopg3"
+      ]
+    },
+    {
+      "component": "python-flexmock",
+      "count": 9,
+      "blocked_by": [
+        "python-twisted",
+        "python-zope-testrunner"
+      ]
+    },
+    {
+      "component": "python-notebook",
+      "count": 9,
+      "blocked_by": [
+        "jupyterlab",
         "python-httpcore",
         "python-httpx"
       ]
     },
     {
-      "component": "python-furo",
-      "count": 20,
+      "component": "python-pytest-astropy",
+      "count": 9,
       "blocked_by": [
-        "python-sphinx-theme-builder"
+        "python-pytest-arraydiff"
+      ]
+    }
+  ],
+  "most_commonly_last_blocking": [
+    {
+      "component": "dnf5",
+      "count": 25
+    },
+    {
+      "component": "python-twisted",
+      "count": 22,
+      "blocked_by": [
+        "python-httpcore",
+        "python-httpx"
       ]
     },
     {
       "component": "sympy",
       "count": 9,
       "blocked_by": [
-        "llvm",
-        "python-furo"
+        "llvm"
       ]
-    },
-    {
-      "component": "python-watchdog",
-      "count": 8,
-      "unresolvable": true
     },
     {
       "component": "vtk",
@@ -459,6 +434,10 @@
         "imath",
         "vtk"
       ]
+    },
+    {
+      "component": "python-pydata-sphinx-theme",
+      "count": 7
     },
     {
       "component": "grpc",
@@ -487,18 +466,16 @@
       ]
     },
     {
-      "component": "python-pydata-sphinx-theme",
+      "component": "python-vcrpy",
       "count": 6,
       "blocked_by": [
-        "python-sphinx-theme-builder"
+        "python-httpcore",
+        "python-httpx"
       ]
     },
     {
       "component": "python-zope-testrunner",
-      "count": 6,
-      "blocked_by": [
-        "python-sphinxcontrib-programoutput"
-      ]
+      "count": 6
     },
     {
       "component": "ansible-core",
@@ -506,6 +483,10 @@
       "blocked_by": [
         "dnf5"
       ]
+    },
+    {
+      "component": "python-pymdown-extensions",
+      "count": 5
     },
     {
       "component": "python-astropy",
@@ -517,34 +498,12 @@
       ]
     },
     {
-      "component": "python-vcrpy",
-      "count": 5,
-      "blocked_by": [
-        "python-httpcore",
-        "python-httpx"
-      ]
-    },
-    {
-      "component": "python-msrestazure",
-      "count": 5
-    },
-    {
       "component": "imath",
-      "count": 4,
-      "blocked_by": [
-        "python-breathe"
-      ]
+      "count": 4
     },
     {
       "component": "python-psycopg3",
       "count": 4
-    },
-    {
-      "component": "python-sphinxcontrib-programoutput",
-      "count": 4,
-      "blocked_by": [
-        "python-furo"
-      ]
     },
     {
       "component": "python-sphinxcontrib-bibtex",
@@ -552,20 +511,46 @@
       "blocked_by": [
         "python-sphinx-autoapi"
       ]
+    },
+    {
+      "component": "fonttools",
+      "count": 4,
+      "blocked_by": [
+        "fonttools",
+        "python-glyphsLib",
+        "python-ufo2ft",
+        "python-ufoLib2",
+        "sympy"
+      ]
+    },
+    {
+      "component": "python-pytest-django",
+      "count": 4,
+      "blocked_by": [
+        "python-django-configurations"
+      ]
+    },
+    {
+      "component": "python-gitlab",
+      "count": 3,
+      "blocked_by": [
+        "python-gql",
+        "python-httpcore",
+        "python-httpx",
+        "python-respx"
+      ]
     }
   ],
   "most_commonly_last_blocking_combinations": [
     {
       "components": [
-        "python-pydantic",
-        "python-pydantic-core"
+        "python-httpcore",
+        "python-httpx"
       ],
-      "count": 21
+      "count": 19
     },
     {
       "components": [
-        "python-pydantic",
-        "python-pydantic-core",
         "python-smart_open",
         "python-sqlmodel",
         "snakemake"
@@ -574,24 +559,10 @@
     },
     {
       "components": [
-        "python-httpcore",
-        "python-httpx"
-      ],
-      "count": 11
-    },
-    {
-      "components": [
-        "mkdocs",
-        "python-watchdog"
-      ],
-      "count": 10
-    },
-    {
-      "components": [
         "python-azure-devtools",
         "python-vcrpy"
       ],
-      "count": 9
+      "count": 13
     },
     {
       "components": [
@@ -620,6 +591,16 @@
     },
     {
       "components": [
+        "poetry",
+        "python-CacheControl",
+        "python-httpcore",
+        "python-httpx",
+        "python-pbs-installer"
+      ],
+      "count": 6
+    },
+    {
+      "components": [
         "imath",
         "vtk"
       ],
@@ -627,44 +608,22 @@
     },
     {
       "components": [
-        "python-httpcore",
-        "python-httpx",
-        "python-pydantic",
-        "python-pydantic-core"
+        "python-cinderclient",
+        "python-keystoneauth1",
+        "python-keystoneclient",
+        "python-openstackclient",
+        "python-openstacksdk",
+        "python-osc-lib",
+        "python-oslo-serialization",
+        "python-oslo-utils"
       ],
       "count": 5
-    },
-    {
-      "components": [
-        "poetry",
-        "python-CacheControl",
-        "python-httpcore",
-        "python-httpx",
-        "python-pbs-installer"
-      ],
-      "count": 5
-    },
-    {
-      "components": [
-        "python-azure-devtools",
-        "python-msrestazure",
-        "python-vcrpy"
-      ],
-      "count": 4
     },
     {
       "components": [
         "python-hupper",
         "python-pyramid",
         "python-zope-deprecation"
-      ],
-      "count": 4
-    },
-    {
-      "components": [
-        "python-eth-utils",
-        "python-pydantic",
-        "python-pydantic-core"
       ],
       "count": 4
     },
@@ -678,10 +637,8 @@
     },
     {
       "components": [
-        "mkdocs",
         "mkdocs-material",
-        "python-pymdown-extensions",
-        "python-watchdog"
+        "python-pymdown-extensions"
       ],
       "count": 4
     },
@@ -695,16 +652,8 @@
     },
     {
       "components": [
-        "python-oslo-config",
-        "python-oslo-i18n"
-      ],
-      "count": 3
-    },
-    {
-      "components": [
-        "python-h2",
-        "python-httpcore",
-        "python-httpx"
+        "conda",
+        "libmamba"
       ],
       "count": 3
     },
@@ -712,10 +661,54 @@
       "components": [
         "python-keystoneauth1",
         "python-openstacksdk",
-        "python-oslo-i18n",
         "python-oslo-utils"
       ],
       "count": 3
+    },
+    {
+      "components": [
+        "grpc",
+        "python-google-api-core",
+        "python-proto-plus"
+      ],
+      "count": 3
+    },
+    {
+      "components": [
+        "python-cinderclient",
+        "python-keystoneauth1",
+        "python-keystoneclient",
+        "python-openstackclient",
+        "python-openstacksdk",
+        "python-osc-lib",
+        "python-oslo-log",
+        "python-oslo-serialization",
+        "python-oslo-utils"
+      ],
+      "count": 3
+    },
+    {
+      "components": [
+        "OpenColorIO",
+        "imath",
+        "vtk"
+      ],
+      "count": 3
+    },
+    {
+      "components": [
+        "python-oletools",
+        "python-pcodedmp",
+        "python-pymilter"
+      ],
+      "count": 3
+    },
+    {
+      "components": [
+        "freeipa",
+        "python-jwcrypto"
+      ],
+      "count": 2
     }
   ],
   "dependency_loops": []

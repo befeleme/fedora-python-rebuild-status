@@ -167,6 +167,10 @@
     "urls": [],
     "summaries": []
   },
+  "libarrow": {
+    "urls": [],
+    "summaries": []
+  },
   "libmamba": {
     "urls": [],
     "summaries": []
@@ -541,6 +545,10 @@
     "urls": [],
     "summaries": []
   },
+  "python-deepdiff": {
+    "urls": [],
+    "summaries": []
+  },
   "python-distributed": {
     "urls": [],
     "summaries": []
@@ -691,6 +699,14 @@
     ],
     "summaries": [
       "python-huggingface-hub fails to build with Python 3.15: ImportError: cannot import name '_MISSING_TYPE' from 'dataclasses' (/usr/lib64/python3.15/dataclasses.py)"
+    ]
+  },
+  "python-hypothesis": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2458686"
+    ],
+    "summaries": [
+      "python-hypothesis fails to build with Python 3.15: DeprecationWarning: Module globals is missing a __spec__.loader"
     ]
   },
   "python-hypothesmith": {
@@ -856,6 +872,10 @@
     ]
   },
   "python-phply": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pip": {
     "urls": [],
     "summaries": []
   },
@@ -1108,6 +1128,10 @@
     "summaries": []
   },
   "python-webrtcvad": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-werkzeug": {
     "urls": [],
     "summaries": []
   },
