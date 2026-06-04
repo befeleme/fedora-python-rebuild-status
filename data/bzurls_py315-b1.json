@@ -279,6 +279,14 @@
       "pyqtwebengine: FTBFS in Fedora rawhide/f44"
     ]
   },
+  "pytest": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2458644"
+    ],
+    "summaries": [
+      "pytest fails to build with Python 3.15: DeprecationWarning: This process (pid=1119) is multi-threaded, use of forkpty() may lead to deadlocks in the child."
+    ]
+  },
   "python-OBD": {
     "urls": [],
     "summaries": []
@@ -735,6 +743,10 @@
       "python-jnius: FTBFS in Fedora Rawhide: error: incompatible pointer types passing 'JNIEnv **' (aka 'const struct JNINativeInterface_ ***') to parameter of type 'void **'"
     ]
   },
+  "python-jsonschema": {
+    "urls": [],
+    "summaries": []
+  },
   "python-jupyter-console": {
     "urls": [],
     "summaries": []
@@ -797,6 +809,14 @@
     ],
     "summaries": [
       "python-meshio: FTBFS in Fedora Rawhide: binascii.Error: Invalid base64-encoded string: number of data characters (8889) cannot be 1 more than a multiple of 4"
+    ]
+  },
+  "python-metakernel": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2458668"
+    ],
+    "summaries": [
+      "python-metakernel fails to build with Python 3.15: DeprecationWarning: This process (pid=889) is multi-threaded, use of forkpty() may lead to deadlocks in the child."
     ]
   },
   "python-mirrors-countme": {

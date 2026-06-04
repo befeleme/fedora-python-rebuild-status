@@ -50,10 +50,10 @@ ampy	succeeded
 anaconda	succeeded
 ansible	succeeded
 ansible-bender	succeeded
-ansible-builder	waiting
+ansible-builder	failed
 ansible-core	succeeded
 ansible-inventory-grapher	succeeded
-ansible-lint	waiting
+ansible-lint	failed
 antlr4-project	succeeded
 apk-tools	succeeded
 appliance-tools	succeeded
@@ -161,8 +161,8 @@ copr-backend	succeeded
 copr-cli	succeeded
 copr-dist-git	succeeded
 copr-keygen	succeeded
-copr-messaging	pending
-copr-rpmbuild	waiting
+copr-messaging	succeeded
+copr-rpmbuild	succeeded
 cozy	succeeded
 createrepo-agent	succeeded
 createrepo_c	succeeded
@@ -272,7 +272,7 @@ gajim	succeeded
 gammastep	succeeded
 ganglia	succeeded
 gcovr	succeeded
-gdal	running
+gdal	succeeded
 gdb	succeeded
 gdcm	succeeded
 gdl	succeeded
@@ -534,7 +534,7 @@ lttng-tools	succeeded
 lttng-ust	succeeded
 lutris	succeeded
 lvm2	succeeded
-mailman3-fedmsg-plugin-schemas	waiting
+mailman3-fedmsg-plugin-schemas	succeeded
 mailnag	succeeded
 mailprocessing	succeeded
 manafirewall	succeeded
@@ -777,7 +777,7 @@ pysnmp	succeeded
 pystatgrab	succeeded
 pysvn	succeeded
 pysysbot	succeeded
-pytest	running
+pytest	failed
 pythia8	succeeded
 python-APScheduler	succeeded
 python-AppTools	succeeded
@@ -1945,7 +1945,7 @@ python-jsonpickle	succeeded
 python-jsonpointer	succeeded
 python-jsonref	succeeded
 python-jsonrpclib	succeeded
-python-jsonschema	starting
+python-jsonschema	failed
 python-jsonschema-path	succeeded
 python-jsonschema-specifications	succeeded
 python-jsonstreams	succeeded
@@ -2115,7 +2115,7 @@ python-merge3	succeeded
 python-mergedeep	succeeded
 python-meshio	failed
 python-meson-python	succeeded
-python-metakernel	pending
+python-metakernel	failed
 python-metar	succeeded
 python-mf2py	succeeded
 python-micawber	succeeded
@@ -2242,7 +2242,7 @@ python-nmap	succeeded
 python-nmrglue	succeeded
 python-node-semver	succeeded
 python-nodeenv	succeeded
-python-noggin-messages	waiting
+python-noggin-messages	succeeded
 python-noiseprotocol	succeeded
 python-normality	succeeded
 python-norpm	succeeded
@@ -2341,7 +2341,7 @@ python-packaging	succeeded
 python-packbits	succeeded
 python-packvers	succeeded
 python-paginate	succeeded
-python-pagure-messages	waiting
+python-pagure-messages	succeeded
 python-paho-mqtt	succeeded
 python-palettable	succeeded
 python-pam	succeeded
@@ -2747,7 +2747,7 @@ python-pytest-spec	succeeded
 python-pytest-split	succeeded
 python-pytest-subprocess	succeeded
 python-pytest-subtests	failed
-python-pytest-testinfra	waiting
+python-pytest-testinfra	succeeded
 python-pytest-testmon	succeeded
 python-pytest-timeout	succeeded
 python-pytest-tldr	failed
@@ -2879,7 +2879,7 @@ python-rjsmin	succeeded
 python-rlp	succeeded
 python-rmtest	succeeded
 python-rnc2rng	succeeded
-python-robosignatory	waiting
+python-robosignatory	succeeded
 python-robot-detection	succeeded
 python-robotframework	succeeded
 python-roman	succeeded
@@ -3039,7 +3039,7 @@ python-soupsieve	succeeded
 python-spdx-license-list	succeeded
 python-spdx-tools	succeeded
 python-speaklater	succeeded
-python-specfile	running
+python-specfile	succeeded
 python-speedtest-cli	succeeded
 python-speg	succeeded
 python-sphinx	failed
@@ -3353,7 +3353,7 @@ python-uritools	succeeded
 python-url-normalize	succeeded
 python-urlgrabber	succeeded
 python-urllib-gssapi	succeeded
-python-urllib3	starting
+python-urllib3	succeeded
 python-urlpy	succeeded
 python-urwid	succeeded
 python-urwid-readline	succeeded
@@ -3499,7 +3499,7 @@ python-zombie-imp	succeeded
 python-zope-component	succeeded
 python-zope-configuration	succeeded
 python-zope-deprecation	succeeded
-python-zope-event	running
+python-zope-event	succeeded
 python-zope-exceptions	succeeded
 python-zope-hookable	succeeded
 python-zope-i18nmessageid	succeeded
@@ -3580,14 +3580,14 @@ rpkg-util	succeeded
 rpl	succeeded
 rpm	succeeded
 rpm-head-signing	succeeded
-rpm-spec-language-server	waiting
+rpm-spec-language-server	succeeded
 rpmconf	succeeded
 rpmdeplint	succeeded
 rpmlint	failed
 rpmspectool	succeeded
 rpy	succeeded
 rrdtool	succeeded
-rss2email	waiting
+rss2email	succeeded
 rst2pdf	succeeded
 rteval	succeeded
 rtlsdr-scanner	succeeded
@@ -3617,7 +3617,7 @@ setconf	succeeded
 setools	succeeded
 setroubleshoot	succeeded
 setzer	succeeded
-showcert	running
+showcert	succeeded
 showtime	succeeded
 shyaml	succeeded
 shybrid	succeeded
@@ -3764,7 +3764,7 @@ xen	succeeded
 xmms2	succeeded
 xonsh	succeeded
 xpra	succeeded
-xrootd	running
+xrootd	succeeded
 xwayland-run	succeeded
 yamllint	succeeded
 yawn	succeeded
