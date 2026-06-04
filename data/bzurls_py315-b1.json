@@ -545,10 +545,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-deepdiff": {
-    "urls": [],
-    "summaries": []
-  },
   "python-distributed": {
     "urls": [],
     "summaries": []
@@ -583,22 +579,6 @@
     ],
     "summaries": [
       "python-django-extensions fails to build with Python 3.15: TypeError: CheckConstraint.__init__() got an unexpected keyword argument 'check'"
-    ]
-  },
-  "python-django5": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2458661"
-    ],
-    "summaries": [
-      "python-django5 fails to build with Python 3.15: AssertionError: \"Error: argument --database: invalid choice: 'deflaut' \\(choose from '?default'?, '?other'?\\)\" does not match \"Error: argument --database: invalid choice: 'deflaut', maybe you meant 'default'"
-    ]
-  },
-  "python-django6": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2458730"
-    ],
-    "summaries": [
-      "python-django6 fails to build with Python 3.15: 3 test failures"
     ]
   },
   "python-einops": {
@@ -1040,6 +1020,10 @@
     "summaries": []
   },
   "python-slackclient": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-sphinx": {
     "urls": [],
     "summaries": []
   },
