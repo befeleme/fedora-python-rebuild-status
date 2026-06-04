@@ -179,6 +179,10 @@
     "urls": [],
     "summaries": []
   },
+  "libxc": {
+    "urls": [],
+    "summaries": []
+  },
   "llvm21": {
     "urls": [],
     "summaries": []
@@ -211,10 +215,6 @@
       "net-snmp-5.9.5.2-4.fc45 FTBFS: \"Checking the Net-SNMP configure script validity\" test fails"
     ]
   },
-  "nextpnr": {
-    "urls": [],
-    "summaries": []
-  },
   "oci-cli": {
     "urls": [],
     "summaries": []
@@ -230,14 +230,6 @@
   "onnxruntime": {
     "urls": [],
     "summaries": []
-  },
-  "pacemaker": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2434896"
-    ],
-    "summaries": [
-      "pacemaker: FTBFS in Fedora rawhide/f44"
-    ]
   },
   "petsc": {
     "urls": [
@@ -505,6 +497,10 @@
       "python-beartype fails to build with Python 3.15: ImportError: cannot import name 'no_type_check_decorator' from 'typing'"
     ]
   },
+  "python-beautifulsoup4": {
+    "urls": [],
+    "summaries": []
+  },
   "python-binary-manager": {
     "urls": [],
     "summaries": []
@@ -747,10 +743,6 @@
       "python-jnius: FTBFS in Fedora Rawhide: error: incompatible pointer types passing 'JNIEnv **' (aka 'const struct JNINativeInterface_ ***') to parameter of type 'void **'"
     ]
   },
-  "python-jsonschema": {
-    "urls": [],
-    "summaries": []
-  },
   "python-jupyter-console": {
     "urls": [],
     "summaries": []
@@ -768,12 +760,8 @@
     ]
   },
   "python-kiwisolver": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2453822"
-    ],
-    "summaries": [
-      "python-kiwisolver fails to build with setuptools_scm 10+"
-    ]
+    "urls": [],
+    "summaries": []
   },
   "python-lazr-delegates": {
     "urls": [],
