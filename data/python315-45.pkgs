@@ -8,6 +8,7 @@ HepMC3
 MUSIC
 NFStest
 NLopt
+NiaAML-GUI
 PyGreSQL
 PyMca
 PyQt-builder
@@ -24,6 +25,7 @@ Zim
 aactivator
 abrt
 abrt-server-info-page
+academic-admin
 accerciser
 adb-enhanced
 afflib
@@ -69,6 +71,7 @@ bluefish
 blueman
 blueprint-compiler
 bmap-tools
+bodhi-client
 boom-boot
 boost
 borgbackup
@@ -76,6 +79,7 @@ borgmatic
 botan
 botan3
 bpython
+breezy
 brltty
 brotli
 btrfs-backup-ng
@@ -114,6 +118,7 @@ coin-or-HiGHS
 colin
 collectd
 compizconfig-python
+compose-utils
 conan
 concordance
 condor
@@ -141,6 +146,7 @@ deluge
 devscripts
 dftd4
 diceware
+diffoscope
 dist-git-client
 distcc
 distgen
@@ -164,11 +170,13 @@ ephemeral-port-reserve
 eralchemy
 espresso
 esptool
+etckeeper
 evemu
 fapolicy-analyzer
 fedfind
 fedora-distro-aliases
 fedora-repro
+fedora-review
 fedora-third-party
 file
 firewalld
@@ -186,6 +194,7 @@ fprettify
 freeipa-fas
 freeipa-healthcheck
 freeradius
+frescobaldi
 fts-rest-client
 fusion-icon
 gajim
@@ -267,6 +276,7 @@ hydrapaper
 i2c-tools
 ibus
 ibus-cangjie
+ikiwiki
 imagefactory
 imagefactory-plugins
 impressive
@@ -306,8 +316,10 @@ kiwi-stackbuild-plugin
 knot
 koan
 kobo
+koji
 koji-containerbuild
 koji-flatpak
+koji-image-builder
 koji-osbuild
 kopeninghours
 krop
@@ -434,10 +446,12 @@ mininet
 miniupnpc
 mirage
 mkosi
+mlpack
 mock
 mod_wsgi
 modpoll
 module-build
+modulemd-tools
 mogui
 mozo
 mpi4py
@@ -468,6 +482,7 @@ nordugrid-arc-nagios-plugins
 notcurses
 notmuch
 nototools
+novelwriter
 nox
 ntpsec
 numpy
@@ -478,6 +493,7 @@ nwchem
 nwg-wrapper
 nyx
 obs-studio
+obsctl
 oct2spec
 odfpy
 offlineimap
@@ -509,6 +525,7 @@ pass-audit
 patool
 pcapy
 pcp2pdf
+pcs
 pdf-stapler
 pdfarranger
 perl-Inline-Python
@@ -679,9 +696,11 @@ python-ansible-pylibssh
 python-ansicolor
 python-anyio
 python-anyjson
+python-anykeystore
 python-anytree
 python-apkinspector
 python-appdirs
+python-application-properties
 python-applicationinsights
 python-apsw
 python-apt
@@ -717,6 +736,7 @@ python-asyncpg
 python-asyncssh
 python-asyncstdlib
 python-asysocks
+python-atlassian-python-api
 python-atpublic
 python-attrs
 python-audioread
@@ -855,6 +875,7 @@ python-bottle
 python-bottle-sqlite
 python-boxsdk
 python-bracex
+python-branca
 python-bravado
 python-bravado-core
 python-brukerapi
@@ -880,6 +901,7 @@ python-cart
 python-casttube
 python-catkin-sphinx
 python-catkin_pkg
+python-cattrs
 python-cbor2
 python-cccolutils
 python-cerealizer
@@ -892,6 +914,7 @@ python-chameleon
 python-chardet
 python-charset-normalizer
 python-cheetah
+python-cheroot
 python-chevron
 python-chm
 python-cid
@@ -913,6 +936,7 @@ python-click-plugins
 python-click-repl
 python-click-spinner
 python-click-threading
+python-cliff
 python-cligj
 python-cloud-sptheme
 python-cloudpickle
@@ -1023,6 +1047,7 @@ python-csscompressor
 python-cssmin
 python-cssselect
 python-cssselect2
+python-cssutils
 python-cucumber-expressions
 python-cucumber-tag-expressions
 python-cups
@@ -1166,6 +1191,8 @@ python-dropbox
 python-dtopt
 python-ducc0
 python-duecredit
+python-dulwich
+python-dunamai
 python-durationpy
 python-easyargs
 python-easydict
@@ -1207,6 +1234,7 @@ python-exdir
 python-execnet
 python-executing
 python-exif
+python-exoscale
 python-expandvars
 python-expecttest
 python-exrex
@@ -1220,6 +1248,7 @@ python-fabric
 python-factory-boy
 python-faker
 python-falcon
+python-fasjson-client
 python-fast-simplification
 python-fastar
 python-fastavro
@@ -1227,6 +1256,7 @@ python-fastbencode
 python-fasteners
 python-fastjsonschema
 python-fastprogress
+python-fastpurge
 python-fastrand
 python-fastrlock
 python-fastuuid
@@ -1245,6 +1275,7 @@ python-fireflyalgorithm
 python-firehose
 python-fisx
 python-fitdecode
+python-fixit
 python-fixtures
 python-flake8
 python-flake8-blind-except
@@ -1268,6 +1299,7 @@ python-flask-mail
 python-flask-mailman
 python-flask-mako
 python-flask-migrate
+python-flask-mongoengine
 python-flask-multistatic
 python-flask-oidc
 python-flask-openid
@@ -1291,6 +1323,7 @@ python-flufl-i18n
 python-flufl-lock
 python-flufl-testing
 python-fluidity-sm
+python-folium
 python-fontMath
 python-fontconfig
 python-fontname
@@ -1299,6 +1332,7 @@ python-fontrpmspec
 python-formencode
 python-fortranformat
 python-fqdn
+python-freecell_solver
 python-freeipa
 python-freeqdsk
 python-freetype
@@ -1349,6 +1383,7 @@ python-gmpy2
 python-gmqtt
 python-gnupg
 python-google-auth
+python-google-auth-oauthlib
 python-google-cloud-testutils
 python-google-crc32c
 python-google-i18n-address
@@ -1439,6 +1474,8 @@ python-img2pdf
 python-immutabledict
 python-immutables
 python-impacket
+python-importlib-metadata
+python-importlib-resources
 python-incremental
 python-indexed_gzip
 python-inflect
@@ -1463,6 +1500,7 @@ python-ipuz
 python-ipykernel
 python-ipython-pygments-lexers
 python-ipython_genutils
+python-irc
 python-irodsclient
 python-isal
 python-iso3166
@@ -1482,9 +1520,11 @@ python-jaraco-collections
 python-jaraco-context
 python-jaraco-envs
 python-jaraco-functools
+python-jaraco-logging
 python-jaraco-packaging
 python-jaraco-path
 python-jaraco-stream
+python-jaraco-test
 python-jaraco-text
 python-javaproperties
 python-jcconv
@@ -1496,6 +1536,7 @@ python-jinja2
 python-jinja2-cli
 python-jinja2-time
 python-jinja2_pluralize
+python-jira
 python-jiter
 python-jmespath
 python-joblib
@@ -1529,9 +1570,12 @@ python-jupyter-core
 python-jupyter-events
 python-jupyter-kernel-singular
 python-jupyter-kernel-test
+python-jupyter-lsp
 python-jupyter-packaging
 python-jupyter-polymake
+python-jupyter-server
 python-jupyter-server-terminals
+python-jupyterlab-server
 python-jupyterlab_pygments
 python-justbases
 python-justbytes
@@ -1554,6 +1598,7 @@ python-kiwisolver
 python-kmod
 python-knack
 python-krb5
+python-kubernetes
 python-landslide
 python-langdetect
 python-lap
@@ -1605,6 +1650,7 @@ python-logzero
 python-looseversion
 python-lru-dict
 python-lsp-jsonrpc
+python-lsprotocol
 python-lunr
 python-lxml
 python-lxml-html-clean
@@ -1624,6 +1670,7 @@ python-manuel
 python-mapbox-earcut
 python-mapnik
 python-maps
+python-marathon
 python-markdown
 python-markdown-include
 python-markdown-it-py
@@ -1672,6 +1719,7 @@ python-mockito
 python-moddb
 python-modestmaps
 python-molmass
+python-mongoengine
 python-more-executors
 python-more-itertools
 python-moreorless
@@ -1683,6 +1731,7 @@ python-msal
 python-msal-extensions
 python-msgpack
 python-msgspec
+python-msrest
 python-mujson
 python-mulpyplexer
 python-multi_key_dict
@@ -1704,6 +1753,7 @@ python-music21
 python-musicbrainzngs
 python-mutagen
 python-mutf8
+python-mwclient
 python-mwparserfromhell
 python-mygpoclient
 python-myhdl
@@ -1715,6 +1765,7 @@ python-name-that-hash
 python-nanobind
 python-natsort
 python-nbclient
+python-nbconvert
 python-nbformat
 python-nbxmpp
 python-ndjson-testrunner
@@ -1745,6 +1796,7 @@ python-noiseprotocol
 python-normality
 python-norpm
 python-nose2
+python-notebook-shim
 python-notify2
 python-npyscreen
 python-ns1-python
@@ -1779,6 +1831,7 @@ python-openpyxl
 python-openqa_client
 python-opensearch-py
 python-openslide
+python-openstackdocstheme
 python-openstep-plist
 python-optuna
 python-opytimark
@@ -1789,10 +1842,13 @@ python-orjson
 python-os-service-types
 python-osa
 python-oscrypto
+python-oslo-context
 python-oslotest
 python-osrf-pycommon
 python-outcome
 python-overpy
+python-ovh
+python-ovirt-engine-sdk4
 python-owl_rl
 python-packageurl-python
 python-packaging
@@ -1884,6 +1940,7 @@ python-polib
 python-pooch
 python-port-for
 python-portalocker
+python-portend
 python-posix-ipc
 python-pox
 python-ppft
@@ -1924,6 +1981,7 @@ python-pure-eval
 python-puremagic
 python-puzpy
 python-py
+python-py-tes
 python-py-walk
 python-py3nvml
 python-pyModbusTCP
@@ -1952,6 +2010,7 @@ python-pycosat
 python-pycotap
 python-pycparser
 python-pycryptodomex
+python-pycurl
 python-pycxx
 python-pydapsys
 python-pydaraja
@@ -1989,6 +2048,7 @@ python-pygments-style-solarized
 python-pygmtools
 python-pyhcl
 python-pyinotify
+python-pyjson5
 python-pyjwkest
 python-pykcs11
 python-pykdtree
@@ -2011,6 +2071,7 @@ python-pymediainfo
 python-pymediawiki
 python-pymeeus
 python-pymemcache
+python-pymongo
 python-pymssql
 python-pynacl
 python-pynest2d
@@ -2168,6 +2229,7 @@ python-pyzolib
 python-pyzstd
 python-qcustomplot-pyqt
 python-qemu-qmp
+python-qpageview
 python-qrcode
 python-qstylizer
 python-qt5
@@ -2205,6 +2267,7 @@ python-repoze-who
 python-repoze-who-plugins-sa
 python-represent
 python-requests
+python-requests-cache
 python-requests-download
 python-requests-exoscale-auth
 python-requests-file
@@ -2212,6 +2275,8 @@ python-requests-ftp
 python-requests-futures
 python-requests-gssapi
 python-requests-kerberos
+python-requests-mock
+python-requests-oauthlib
 python-requests-pkcs12
 python-requests-toolbelt
 python-requests-unixsocket
@@ -2346,6 +2411,7 @@ python-snakemake-interface-storage-plugins
 python-snappy
 python-snaptime
 python-sniffio
+python-social-auth-core
 python-socks
 python-socksio
 python-solc-ast
@@ -2378,6 +2444,7 @@ python-sphinx-lint
 python-sphinx-markdown-builder
 python-sphinx-markdown-tables
 python-sphinx-math-dollar
+python-sphinx-mdinclude
 python-sphinx-multiversion
 python-sphinx-notfound-page
 python-sphinx-press-theme
@@ -2439,6 +2506,7 @@ python-stdlibs
 python-stdnum
 python-stem
 python-steps
+python-stestr
 python-stevedore
 python-stone
 python-straight-plugin
@@ -2479,6 +2547,7 @@ python-telnetlib3
 python-tempdir
 python-tempita
 python-templated-dictionary
+python-tempora
 python-tenacity
 python-tensile
 python-term-background
@@ -2528,6 +2597,7 @@ python-tox
 python-tox-current-env
 python-tox-uv
 python-tqdm
+python-trailrunner
 python-traitlets
 python-traitsui
 python-trampoline
@@ -2609,6 +2679,7 @@ python-urwidtrees
 python-usbsdmux
 python-user-agents
 python-userpath
+python-usort
 python-uswid
 python-utils
 python-utmp
@@ -2709,6 +2780,7 @@ python-ytmusicapi
 python-yubico
 python-zeroconf
 python-zhon
+python-zipp
 python-zipstream
 python-zlib-ng
 python-zmq
@@ -2774,11 +2846,15 @@ rmlint
 rmol
 rofimoji
 root
+rpkg
+rpkg-util
 rpl
 rpm
+rpm-head-signing
 rpmconf
 rpmdeplint
 rpmlint
+rpmspectool
 rpy
 rrdtool
 rst2pdf
@@ -2892,6 +2968,7 @@ urh
 urjtag
 urlscan
 urlwatch
+ursa-major
 usbrelay
 ustreamer
 util-linux
