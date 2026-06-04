@@ -131,10 +131,6 @@
       "flatpak-module-tools fails to build with setuptools_scm 10+"
     ]
   },
-  "fonttools": {
-    "urls": [],
-    "summaries": []
-  },
   "gnulib": {
     "urls": [],
     "summaries": []
@@ -166,6 +162,10 @@
     "summaries": [
       "kmymoney fails to build with Python 3.15: /usr/include/python3.15/pyport.h:523:9: error: \u2018__STDC_VERSION__\u2019 is not defined, evaluates to \u20180\u2019 [-Werror=undef]"
     ]
+  },
+  "lammps": {
+    "urls": [],
+    "summaries": []
   },
   "libmamba": {
     "urls": [],
@@ -505,10 +505,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-boto3": {
-    "urls": [],
-    "summaries": []
-  },
   "python-bytecode": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2458689"
@@ -758,10 +754,6 @@
     "summaries": [
       "python-kaptan fails to build with Python 3.15: AttributeError: 'SourceFileLoader' object has no attribute 'load_module'. Did you mean: 'exec_module'? in test_py_file_handler and test_py_file_away_handler"
     ]
-  },
-  "python-kiwisolver": {
-    "urls": [],
-    "summaries": []
   },
   "python-lazr-delegates": {
     "urls": [],
@@ -1112,6 +1104,10 @@
     "summaries": []
   },
   "python-tpm2-pytss": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-traitsui": {
     "urls": [],
     "summaries": []
   },
