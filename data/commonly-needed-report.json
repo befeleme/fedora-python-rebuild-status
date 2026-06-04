@@ -1,24 +1,8 @@
 {
   "most_commonly_needed": [
     {
-      "component": "python-httpcore",
-      "count": 87
-    },
-    {
-      "component": "python-httpx",
-      "count": 85,
-      "blocked_by": [
-        "python-httpcore",
-        "python-uvicorn"
-      ]
-    },
-    {
       "component": "python-twisted",
-      "count": 48,
-      "blocked_by": [
-        "python-httpcore",
-        "python-httpx"
-      ]
+      "count": 48
     },
     {
       "component": "python-fsspec",
@@ -29,8 +13,6 @@
         "python-dask",
         "python-distributed",
         "python-fsspec",
-        "python-httpcore",
-        "python-httpx",
         "python-notebook",
         "python-numcodecs",
         "python-partd",
@@ -38,10 +20,6 @@
         "python-zarr",
         "python-zict"
       ]
-    },
-    {
-      "component": "python-oslo-utils",
-      "count": 31
     },
     {
       "component": "dnf5",
@@ -55,25 +33,10 @@
       ]
     },
     {
-      "component": "python-keystoneauth1",
-      "count": 29,
-      "blocked_by": [
-        "python-oslo-utils"
-      ]
-    },
-    {
       "component": "vtk",
       "count": 28,
       "blocked_by": [
-        "imath",
         "vtk"
-      ]
-    },
-    {
-      "component": "python-oslo-serialization",
-      "count": 24,
-      "blocked_by": [
-        "python-oslo-utils"
       ]
     },
     {
@@ -81,17 +44,7 @@
       "count": 24,
       "blocked_by": [
         "python-fastapi",
-        "python-httpcore",
-        "python-httpx",
         "python-starlette"
-      ]
-    },
-    {
-      "component": "python-vcrpy",
-      "count": 23,
-      "blocked_by": [
-        "python-httpcore",
-        "python-httpx"
       ]
     },
     {
@@ -102,13 +55,6 @@
         "python-google-cloud-core",
         "python-google-cloud-storage",
         "python-proto-plus"
-      ]
-    },
-    {
-      "component": "python-openstacksdk",
-      "count": 22,
-      "blocked_by": [
-        "python-keystoneauth1"
       ]
     },
     {
@@ -136,11 +82,7 @@
     },
     {
       "component": "python-starlette",
-      "count": 18,
-      "blocked_by": [
-        "python-httpcore",
-        "python-httpx"
-      ]
+      "count": 18
     },
     {
       "component": "python-astropy",
@@ -153,16 +95,7 @@
     },
     {
       "component": "python-osc-lib",
-      "count": 16,
-      "blocked_by": [
-        "python-keystoneauth1",
-        "python-openstacksdk",
-        "python-oslo-utils"
-      ]
-    },
-    {
-      "component": "imath",
-      "count": 15
+      "count": 16
     },
     {
       "component": "python-pika",
@@ -175,9 +108,7 @@
       "component": "python-uvicorn",
       "count": 15,
       "blocked_by": [
-        "python-a2wsgi",
-        "python-httpcore",
-        "python-httpx"
+        "python-a2wsgi"
       ]
     },
     {
@@ -203,13 +134,7 @@
     },
     {
       "component": "python-keystoneclient",
-      "count": 14,
-      "blocked_by": [
-        "python-keystoneauth1",
-        "python-openstacksdk",
-        "python-oslo-serialization",
-        "python-oslo-utils"
-      ]
+      "count": 14
     },
     {
       "component": "pyproj",
@@ -228,18 +153,11 @@
     },
     {
       "component": "jupyterlab",
-      "count": 13,
-      "blocked_by": [
-        "python-httpcore",
-        "python-httpx"
-      ]
+      "count": 13
     },
     {
       "component": "python-azure-devtools",
-      "count": 13,
-      "blocked_by": [
-        "python-vcrpy"
-      ]
+      "count": 13
     },
     {
       "component": "fedora-messaging",
@@ -263,22 +181,12 @@
       "component": "python-CacheControl",
       "count": 12,
       "blocked_by": [
-        "python-cherrypy",
-        "python-zc-lockfile"
+        "python-cherrypy"
       ]
     },
     {
       "component": "python-partd",
       "count": 12
-    },
-    {
-      "component": "python-cinderclient",
-      "count": 12,
-      "blocked_by": [
-        "python-keystoneauth1",
-        "python-oslo-serialization",
-        "python-oslo-utils"
-      ]
     },
     {
       "component": "python-dask",
@@ -320,32 +228,22 @@
       "count": 11,
       "blocked_by": [
         "python-aodhclient",
-        "python-cinderclient",
         "python-futurist",
         "python-gnocchiclient",
         "python-heatclient",
         "python-ironicclient",
-        "python-keystoneauth1",
         "python-keystoneclient",
         "python-manilaclient",
         "python-mistralclient",
         "python-neutronclient",
         "python-octaviaclient",
         "python-openstackclient",
-        "python-openstacksdk",
         "python-osc-lib",
         "python-osc-placement",
-        "python-oslo-log",
-        "python-oslo-serialization",
-        "python-oslo-utils",
         "python-swiftclient",
         "python-troveclient",
         "python-zaqarclient"
       ]
-    },
-    {
-      "component": "python-psycopg3",
-      "count": 10
     },
     {
       "component": "python-numcodecs",
@@ -372,31 +270,17 @@
       ]
     },
     {
-      "component": "python-zope-testrunner",
-      "count": 10
-    },
-    {
-      "component": "python-peewee",
-      "count": 9,
-      "blocked_by": [
-        "python-psycopg3"
-      ]
-    },
-    {
       "component": "python-flexmock",
       "count": 9,
       "blocked_by": [
-        "python-twisted",
-        "python-zope-testrunner"
+        "python-twisted"
       ]
     },
     {
       "component": "python-notebook",
       "count": 9,
       "blocked_by": [
-        "jupyterlab",
-        "python-httpcore",
-        "python-httpx"
+        "jupyterlab"
       ]
     },
     {
@@ -404,6 +288,101 @@
       "count": 9,
       "blocked_by": [
         "python-pytest-arraydiff"
+      ]
+    },
+    {
+      "component": "python-zarr",
+      "count": 9,
+      "blocked_by": [
+        "python-fsspec",
+        "python-numcodecs"
+      ]
+    },
+    {
+      "component": "python-hupper",
+      "count": 8,
+      "unresolvable": true
+    },
+    {
+      "component": "fonttools",
+      "count": 8,
+      "blocked_by": [
+        "fonttools",
+        "python-glyphsLib",
+        "python-ufo2ft",
+        "python-ufoLib2",
+        "sympy"
+      ]
+    },
+    {
+      "component": "python-tables",
+      "count": 8,
+      "blocked_by": [
+        "python-blosc2",
+        "python-ndindex"
+      ]
+    },
+    {
+      "component": "python-xarray",
+      "count": 8,
+      "blocked_by": [
+        "libarrow",
+        "python-dask",
+        "python-fsspec",
+        "python-numcodecs",
+        "python-partd",
+        "python-rasterio",
+        "python-zarr"
+      ]
+    },
+    {
+      "component": "python-pytest-django",
+      "count": 8,
+      "blocked_by": [
+        "python-django-configurations"
+      ]
+    },
+    {
+      "component": "ansible-core",
+      "count": 7,
+      "blocked_by": [
+        "dnf5"
+      ]
+    },
+    {
+      "component": "OpenColorIO",
+      "count": 7,
+      "blocked_by": [
+        "vtk"
+      ]
+    },
+    {
+      "component": "python-pyqtgraph",
+      "count": 7,
+      "blocked_by": [
+        "python-pydata-sphinx-theme"
+      ]
+    },
+    {
+      "component": "python-jupyterlab-widgets",
+      "count": 7,
+      "blocked_by": [
+        "jupyterlab"
+      ]
+    },
+    {
+      "component": "poetry",
+      "count": 7,
+      "blocked_by": [
+        "python-CacheControl"
+      ]
+    },
+    {
+      "component": "python-scikit-image",
+      "count": 7,
+      "blocked_by": [
+        "python-pywt",
+        "pythran"
       ]
     }
   ],
@@ -414,11 +393,18 @@
     },
     {
       "component": "python-twisted",
-      "count": 22,
+      "count": 24
+    },
+    {
+      "component": "vtk",
+      "count": 13,
       "blocked_by": [
-        "python-httpcore",
-        "python-httpx"
+        "vtk"
       ]
+    },
+    {
+      "component": "python-azure-devtools",
+      "count": 13
     },
     {
       "component": "sympy",
@@ -428,11 +414,10 @@
       ]
     },
     {
-      "component": "vtk",
+      "component": "python-flexmock",
       "count": 8,
       "blocked_by": [
-        "imath",
-        "vtk"
+        "python-twisted"
       ]
     },
     {
@@ -444,38 +429,11 @@
       "count": 7
     },
     {
-      "component": "python-flexmock",
-      "count": 7,
-      "blocked_by": [
-        "python-twisted",
-        "python-zope-testrunner"
-      ]
-    },
-    {
-      "component": "python-peewee",
-      "count": 6,
-      "blocked_by": [
-        "python-psycopg3"
-      ]
-    },
-    {
       "component": "python-pyqtgraph",
       "count": 6,
       "blocked_by": [
         "python-pydata-sphinx-theme"
       ]
-    },
-    {
-      "component": "python-vcrpy",
-      "count": 6,
-      "blocked_by": [
-        "python-httpcore",
-        "python-httpx"
-      ]
-    },
-    {
-      "component": "python-zope-testrunner",
-      "count": 6
     },
     {
       "component": "ansible-core",
@@ -498,12 +456,19 @@
       ]
     },
     {
-      "component": "imath",
-      "count": 4
+      "component": "python-pytest-django",
+      "count": 5,
+      "blocked_by": [
+        "python-django-configurations"
+      ]
     },
     {
-      "component": "python-psycopg3",
-      "count": 4
+      "component": "python-gitlab",
+      "count": 4,
+      "blocked_by": [
+        "python-gql",
+        "python-respx"
+      ]
     },
     {
       "component": "python-sphinxcontrib-bibtex",
@@ -524,31 +489,26 @@
       ]
     },
     {
-      "component": "python-pytest-django",
-      "count": 4,
+      "component": "jupyterlab",
+      "count": 4
+    },
+    {
+      "component": "pylint",
+      "count": 4
+    },
+    {
+      "component": "python-specfile",
+      "count": 3,
       "blocked_by": [
-        "python-django-configurations"
+        "python-flexmock"
       ]
     },
     {
-      "component": "python-gitlab",
-      "count": 3,
-      "blocked_by": [
-        "python-gql",
-        "python-httpcore",
-        "python-httpx",
-        "python-respx"
-      ]
+      "component": "python-starlette",
+      "count": 3
     }
   ],
   "most_commonly_last_blocking_combinations": [
-    {
-      "components": [
-        "python-httpcore",
-        "python-httpx"
-      ],
-      "count": 19
-    },
     {
       "components": [
         "python-smart_open",
@@ -559,19 +519,20 @@
     },
     {
       "components": [
-        "python-azure-devtools",
-        "python-vcrpy"
-      ],
-      "count": 13
-    },
-    {
-      "components": [
         "fedora-messaging",
         "python-crochet",
         "python-pika",
         "python-twisted"
       ],
       "count": 9
+    },
+    {
+      "components": [
+        "python-keystoneclient",
+        "python-openstackclient",
+        "python-osc-lib"
+      ],
+      "count": 8
     },
     {
       "components": [
@@ -592,46 +553,14 @@
     {
       "components": [
         "poetry",
-        "python-CacheControl",
-        "python-httpcore",
-        "python-httpx",
-        "python-pbs-installer"
+        "python-CacheControl"
       ],
       "count": 6
     },
     {
       "components": [
-        "imath",
-        "vtk"
-      ],
-      "count": 5
-    },
-    {
-      "components": [
-        "python-cinderclient",
-        "python-keystoneauth1",
-        "python-keystoneclient",
-        "python-openstackclient",
-        "python-openstacksdk",
-        "python-osc-lib",
-        "python-oslo-serialization",
-        "python-oslo-utils"
-      ],
-      "count": 5
-    },
-    {
-      "components": [
         "python-hupper",
-        "python-pyramid",
-        "python-zope-deprecation"
-      ],
-      "count": 4
-    },
-    {
-      "components": [
-        "jupyterlab",
-        "python-httpcore",
-        "python-httpx"
+        "python-pyramid"
       ],
       "count": 4
     },
@@ -659,14 +588,6 @@
     },
     {
       "components": [
-        "python-keystoneauth1",
-        "python-openstacksdk",
-        "python-oslo-utils"
-      ],
-      "count": 3
-    },
-    {
-      "components": [
         "grpc",
         "python-google-api-core",
         "python-proto-plus"
@@ -675,22 +596,7 @@
     },
     {
       "components": [
-        "python-cinderclient",
-        "python-keystoneauth1",
-        "python-keystoneclient",
-        "python-openstackclient",
-        "python-openstacksdk",
-        "python-osc-lib",
-        "python-oslo-log",
-        "python-oslo-serialization",
-        "python-oslo-utils"
-      ],
-      "count": 3
-    },
-    {
-      "components": [
         "OpenColorIO",
-        "imath",
         "vtk"
       ],
       "count": 3
@@ -707,6 +613,50 @@
       "components": [
         "freeipa",
         "python-jwcrypto"
+      ],
+      "count": 2
+    },
+    {
+      "components": [
+        "python-trimesh",
+        "vtk"
+      ],
+      "count": 2
+    },
+    {
+      "components": [
+        "python-oracledb",
+        "python-tblib"
+      ],
+      "count": 2
+    },
+    {
+      "components": [
+        "python-fsspec",
+        "python-shapely"
+      ],
+      "count": 2
+    },
+    {
+      "components": [
+        "grpc",
+        "python-grpcio-gcp",
+        "python-proto-plus"
+      ],
+      "count": 2
+    },
+    {
+      "components": [
+        "python-google-api-core",
+        "python-google-cloud-core",
+        "python-proto-plus"
+      ],
+      "count": 2
+    },
+    {
+      "components": [
+        "python-keystoneclient",
+        "python-osc-lib"
       ],
       "count": 2
     }

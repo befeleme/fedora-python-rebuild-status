@@ -11,10 +11,6 @@
     "urls": [],
     "summaries": []
   },
-  "Macaulay2": {
-    "urls": [],
-    "summaries": []
-  },
   "Mayavi": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2433846"
@@ -32,10 +28,6 @@
     "summaries": []
   },
   "OpenLP": {
-    "urls": [],
-    "summaries": []
-  },
-  "ProDy": {
     "urls": [],
     "summaries": []
   },
@@ -203,19 +195,11 @@
     "urls": [],
     "summaries": []
   },
-  "copr-cli": {
-    "urls": [],
-    "summaries": []
-  },
   "copr-messaging": {
     "urls": [],
     "summaries": []
   },
   "copr-rpmbuild": {
-    "urls": [],
-    "summaries": []
-  },
-  "cozy": {
     "urls": [],
     "summaries": []
   },
@@ -412,10 +396,6 @@
     "summaries": []
   },
   "ilua": {
-    "urls": [],
-    "summaries": []
-  },
-  "imath": {
     "urls": [],
     "summaries": []
   },
@@ -639,10 +619,6 @@
     "urls": [],
     "summaries": []
   },
-  "openapi-python-client": {
-    "urls": [],
-    "summaries": []
-  },
   "opencv": {
     "urls": [],
     "summaries": []
@@ -676,10 +652,6 @@
     "summaries": []
   },
   "osbuild": {
-    "urls": [],
-    "summaries": []
-  },
-  "osh": {
     "urls": [],
     "summaries": []
   },
@@ -751,10 +723,6 @@
     "urls": [],
     "summaries": []
   },
-  "pyinstrument": {
-    "urls": [],
-    "summaries": []
-  },
   "pykakasi": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2440185"
@@ -762,10 +730,6 @@
     "summaries": [
       "[heads up] pykakasi will fail to build with Sphinx 9+ in Fedora 45: sphinx.errors.SphinxError: cannot determine default role!"
     ]
-  },
-  "pylast": {
-    "urls": [],
-    "summaries": []
   },
   "pylint": {
     "urls": [
@@ -987,10 +951,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-aw-core": {
-    "urls": [],
-    "summaries": []
-  },
   "python-aw-qt": {
     "urls": [],
     "summaries": []
@@ -1145,10 +1105,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-biopython": {
-    "urls": [],
-    "summaries": []
-  },
   "python-blosc2": {
     "urls": [],
     "summaries": []
@@ -1189,14 +1145,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-cclib": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-celery": {
-    "urls": [],
-    "summaries": []
-  },
   "python-cerberus": {
     "urls": [],
     "summaries": []
@@ -1226,10 +1174,6 @@
     ]
   },
   "python-cherrypy": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-cinderclient": {
     "urls": [],
     "summaries": []
   },
@@ -1374,10 +1318,6 @@
     "summaries": []
   },
   "python-cornice": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-cotyledon": {
     "urls": [],
     "summaries": []
   },
@@ -1533,10 +1473,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-eth-abi": {
-    "urls": [],
-    "summaries": []
-  },
   "python-eth-account": {
     "urls": [],
     "summaries": []
@@ -1550,14 +1486,6 @@
     "summaries": []
   },
   "python-eth-keys": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-eth-pydantic-types": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-eth-rlp": {
     "urls": [],
     "summaries": []
   },
@@ -1703,10 +1631,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-gerritlib": {
-    "urls": [],
-    "summaries": []
-  },
   "python-gitlab": {
     "urls": [],
     "summaries": []
@@ -1783,19 +1707,7 @@
     "urls": [],
     "summaries": []
   },
-  "python-hexbytes": {
-    "urls": [],
-    "summaries": []
-  },
   "python-holidays": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-httpcore": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-httpx": {
     "urls": [],
     "summaries": []
   },
@@ -1829,10 +1741,6 @@
       "python-hupper fails to build with Python 3.15: ModuleNotFoundError: No module named 'pytest_cov.embed'"
     ]
   },
-  "python-hypercorn": {
-    "urls": [],
-    "summaries": []
-  },
   "python-hyperkitty": {
     "urls": [],
     "summaries": []
@@ -1863,10 +1771,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-inline-snapshot": {
-    "urls": [],
-    "summaries": []
-  },
   "python-inquirer": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2434987"
@@ -1874,10 +1778,6 @@
     "summaries": [
       "python-inquirer: FTBFS in Fedora rawhide/f44"
     ]
-  },
-  "python-ipfshttpclient": {
-    "urls": [],
-    "summaries": []
   },
   "python-iplotx": {
     "urls": [],
@@ -1926,10 +1826,6 @@
     "summaries": [
       "python-kaptan fails to build with Python 3.15: AttributeError: 'SourceFileLoader' object has no attribute 'load_module'. Did you mean: 'exec_module'? in test_py_file_handler and test_py_file_away_handler"
     ]
-  },
-  "python-keystoneauth1": {
-    "urls": [],
-    "summaries": []
   },
   "python-keystoneclient": {
     "urls": [],
@@ -2235,27 +2131,7 @@
     "urls": [],
     "summaries": []
   },
-  "python-ollama": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-openai": {
-    "urls": [],
-    "summaries": []
-  },
   "python-openapi-core": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-openapi-pydantic": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-openapi-schema-validator": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-openapi-spec-validator": {
     "urls": [],
     "summaries": []
   },
@@ -2271,19 +2147,11 @@
     "urls": [],
     "summaries": []
   },
-  "python-openstacksdk": {
-    "urls": [],
-    "summaries": []
-  },
   "python-opentypesvg": {
     "urls": [],
     "summaries": []
   },
   "python-opfunu": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-optking": {
     "urls": [],
     "summaries": []
   },
@@ -2307,19 +2175,7 @@
     "urls": [],
     "summaries": []
   },
-  "python-oslo-log": {
-    "urls": [],
-    "summaries": []
-  },
   "python-oslo-metrics": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-oslo-serialization": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-oslo-utils": {
     "urls": [],
     "summaries": []
   },
@@ -2343,23 +2199,11 @@
       "python-partd fails to build with Python 3.15: NotImplementedError: (string[python], array(['a', 'b', 'c'], dtype=object)) in 5 tests"
     ]
   },
-  "python-pbs-installer": {
-    "urls": [],
-    "summaries": []
-  },
   "python-pcodedmp": {
     "urls": [],
     "summaries": []
   },
-  "python-peewee": {
-    "urls": [],
-    "summaries": []
-  },
   "python-pem": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-pgspecial": {
     "urls": [],
     "summaries": []
   },
@@ -2415,23 +2259,11 @@
     "urls": [],
     "summaries": []
   },
-  "python-psycopg3": {
-    "urls": [],
-    "summaries": []
-  },
   "python-psygnal": {
     "urls": [],
     "summaries": []
   },
-  "python-pwntools": {
-    "urls": [],
-    "summaries": []
-  },
   "python-py-key-value": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-py_ecc": {
     "urls": [],
     "summaries": []
   },
@@ -2442,10 +2274,6 @@
     "summaries": [
       "F45FailsToInstall: python3-pycparserext"
     ]
-  },
-  "python-pydantic-extra-types": {
-    "urls": [],
-    "summaries": []
   },
   "python-pydata-sphinx-theme": {
     "urls": [],
@@ -2460,10 +2288,6 @@
     "summaries": []
   },
   "python-pyexiftool": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-pyforgejo": {
     "urls": [],
     "summaries": []
   },
@@ -2597,19 +2421,7 @@
       "python-pytest-django fails to build with Python 3.15: AttributeError: 'ConfigurationLoader' object has no attribute 'exec_module'. Did you mean: 'load_module'?"
     ]
   },
-  "python-pytest-httpx": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-pytest-postgresql": {
-    "urls": [],
-    "summaries": []
-  },
   "python-pytest-recording": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-pytest-services": {
     "urls": [],
     "summaries": []
   },
@@ -2652,10 +2464,6 @@
     "summaries": []
   },
   "python-pywt": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-qcengine": {
     "urls": [],
     "summaries": []
   },
@@ -2713,31 +2521,11 @@
     "urls": [],
     "summaries": []
   },
-  "python-requre": {
-    "urls": [],
-    "summaries": []
-  },
   "python-respx": {
     "urls": [],
     "summaries": []
   },
-  "python-rich-toolkit": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-rignore": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-rlp": {
-    "urls": [],
-    "summaries": []
-  },
   "python-robosignatory": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-rope": {
     "urls": [],
     "summaries": []
   },
@@ -2748,14 +2536,6 @@
   "python-rsdclient": {
     "urls": [],
     "summaries": []
-  },
-  "python-rstcheck": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2458680"
-    ],
-    "summaries": [
-      "python-rstcheck fails to build with Python 3.15: test_all_bad_examples: AssertionError: assert None is not None"
-    ]
   },
   "python-rstr": {
     "urls": [
@@ -2945,10 +2725,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-sqlalchemy-helpers": {
-    "urls": [],
-    "summaries": []
-  },
   "python-sqlalchemy-utils": {
     "urls": [],
     "summaries": []
@@ -2985,15 +2761,7 @@
       "python-streamlink fails to build with Python 3.15: test_help_color: TypeError: TestPrint._color.<locals>.<lambda>() got an unexpected keyword argument 'file'"
     ]
   },
-  "python-subliminal": {
-    "urls": [],
-    "summaries": []
-  },
   "python-succulent": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-surt": {
     "urls": [],
     "summaries": []
   },
@@ -3021,23 +2789,11 @@
     "urls": [],
     "summaries": []
   },
-  "python-textual": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2435027"
-    ],
-    "summaries": [
-      "python-textual: FTBFS in Fedora rawhide/f44"
-    ]
-  },
   "python-tilestache": {
     "urls": [],
     "summaries": []
   },
   "python-tinyrpc": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-tldextract": {
     "urls": [],
     "summaries": []
   },
@@ -3113,10 +2869,6 @@
       "[heads up] python-treq will fail to build with Sphinx 9+ in Fedora 45: sphinx.errors.SphinxError: cannot determine default role!"
     ]
   },
-  "python-trie": {
-    "urls": [],
-    "summaries": []
-  },
   "python-trimesh": {
     "urls": [],
     "summaries": []
@@ -3126,10 +2878,6 @@
     "summaries": []
   },
   "python-troveclient": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-truststore": {
     "urls": [],
     "summaries": []
   },
@@ -3191,10 +2939,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-vcrpy": {
-    "urls": [],
-    "summaries": []
-  },
   "python-vcstool": {
     "urls": [],
     "summaries": []
@@ -3223,10 +2967,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-wtf-peewee": {
-    "urls": [],
-    "summaries": []
-  },
   "python-xarray": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2435037"
@@ -3251,10 +2991,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-yfinance": {
-    "urls": [],
-    "summaries": []
-  },
   "python-zaqarclient": {
     "urls": [],
     "summaries": []
@@ -3268,10 +3004,6 @@
     ]
   },
   "python-zarr-checksum": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-zc-lockfile": {
     "urls": [],
     "summaries": []
   },
@@ -3297,26 +3029,6 @@
     ],
     "summaries": [
       "python-zope-configuration: FTBFS in Fedora rawhide/f44"
-    ]
-  },
-  "python-zope-deprecation": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-zope-i18nmessageid": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-zope-schema": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-zope-testrunner": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2433888"
-    ],
-    "summaries": [
-      "python-zope-testrunner fails to build with Python 3.15: help2man: can't get `--help' info from /builddir/build/BUILD/python-zope-testrunner-8.1-build/BUILDROOT/usr/bin/zope-testrunner"
     ]
   },
   "python3-mallard-ducktype": {
@@ -3463,10 +3175,6 @@
     "urls": [],
     "summaries": []
   },
-  "syncstar": {
-    "urls": [],
-    "summaries": []
-  },
   "syslog-ng": {
     "urls": [],
     "summaries": []
@@ -3536,10 +3244,6 @@
     "summaries": []
   },
   "virtme-ng": {
-    "urls": [],
-    "summaries": []
-  },
-  "vorta": {
     "urls": [],
     "summaries": []
   },
