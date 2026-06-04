@@ -1,29 +1,18 @@
 {
   "most_commonly_needed": [
     {
-      "component": "python-twisted",
-      "count": 48
-    },
-    {
       "component": "python-fsspec",
       "count": 36,
       "blocked_by": [
-        "jupyterlab",
         "libarrow",
         "python-dask",
         "python-distributed",
         "python-fsspec",
-        "python-notebook",
         "python-numcodecs",
         "python-partd",
-        "python-tblib",
         "python-zarr",
         "python-zict"
       ]
-    },
-    {
-      "component": "dnf5",
-      "count": 30
     },
     {
       "component": "sympy",
@@ -94,17 +83,6 @@
       ]
     },
     {
-      "component": "python-osc-lib",
-      "count": 16
-    },
-    {
-      "component": "python-pika",
-      "count": 15,
-      "blocked_by": [
-        "python-twisted"
-      ]
-    },
-    {
       "component": "python-uvicorn",
       "count": 15,
       "blocked_by": [
@@ -133,40 +111,12 @@
       ]
     },
     {
-      "component": "python-keystoneclient",
-      "count": 14
-    },
-    {
       "component": "pyproj",
       "count": 13
     },
     {
-      "component": "python-crochet",
-      "count": 13,
-      "blocked_by": [
-        "python-twisted"
-      ]
-    },
-    {
       "component": "python-pymdown-extensions",
       "count": 13
-    },
-    {
-      "component": "jupyterlab",
-      "count": 13
-    },
-    {
-      "component": "python-azure-devtools",
-      "count": 13
-    },
-    {
-      "component": "fedora-messaging",
-      "count": 12,
-      "blocked_by": [
-        "python-crochet",
-        "python-pika",
-        "python-twisted"
-      ]
     },
     {
       "component": "python-google-api-core",
@@ -175,13 +125,6 @@
         "grpc",
         "python-grpcio-gcp",
         "python-proto-plus"
-      ]
-    },
-    {
-      "component": "python-CacheControl",
-      "count": 12,
-      "blocked_by": [
-        "python-cherrypy"
       ]
     },
     {
@@ -202,7 +145,6 @@
         "python-partd",
         "python-scikit-image",
         "python-tables",
-        "python-tblib",
         "python-xarray",
         "python-zarr",
         "python-zict"
@@ -221,28 +163,6 @@
       "count": 11,
       "blocked_by": [
         "sympy"
-      ]
-    },
-    {
-      "component": "python-openstackclient",
-      "count": 11,
-      "blocked_by": [
-        "python-aodhclient",
-        "python-futurist",
-        "python-gnocchiclient",
-        "python-heatclient",
-        "python-ironicclient",
-        "python-keystoneclient",
-        "python-manilaclient",
-        "python-mistralclient",
-        "python-neutronclient",
-        "python-octaviaclient",
-        "python-openstackclient",
-        "python-osc-lib",
-        "python-osc-placement",
-        "python-swiftclient",
-        "python-troveclient",
-        "python-zaqarclient"
       ]
     },
     {
@@ -267,20 +187,6 @@
       "count": 10,
       "blocked_by": [
         "python-ndindex"
-      ]
-    },
-    {
-      "component": "python-flexmock",
-      "count": 9,
-      "blocked_by": [
-        "python-twisted"
-      ]
-    },
-    {
-      "component": "python-notebook",
-      "count": 9,
-      "blocked_by": [
-        "jupyterlab"
       ]
     },
     {
@@ -343,13 +249,6 @@
       ]
     },
     {
-      "component": "ansible-core",
-      "count": 7,
-      "blocked_by": [
-        "dnf5"
-      ]
-    },
-    {
       "component": "OpenColorIO",
       "count": 7,
       "blocked_by": [
@@ -364,37 +263,141 @@
       ]
     },
     {
-      "component": "python-jupyterlab-widgets",
-      "count": 7,
-      "blocked_by": [
-        "jupyterlab"
-      ]
-    },
-    {
-      "component": "poetry",
-      "count": 7,
-      "blocked_by": [
-        "python-CacheControl"
-      ]
-    },
-    {
       "component": "python-scikit-image",
       "count": 7,
       "blocked_by": [
         "python-pywt",
         "pythran"
       ]
+    },
+    {
+      "component": "libmamba",
+      "count": 7
+    },
+    {
+      "component": "python-pyogrio",
+      "count": 7,
+      "blocked_by": [
+        "libarrow",
+        "pyproj",
+        "python-geopandas",
+        "python-pyogrio",
+        "python-shapely"
+      ]
+    },
+    {
+      "component": "mkdocs-material",
+      "count": 7,
+      "blocked_by": [
+        "python-mkdocs-git-revision-date-localized-plugin",
+        "python-mkdocs-rss-plugin",
+        "python-pymdown-extensions"
+      ]
+    },
+    {
+      "component": "python-pyramid",
+      "count": 6,
+      "blocked_by": [
+        "python-hupper"
+      ]
+    },
+    {
+      "component": "python-croniter",
+      "count": 6,
+      "unresolvable": true
+    },
+    {
+      "component": "python-fastapi",
+      "count": 6,
+      "blocked_by": [
+        "fastapi-cli",
+        "fastapi-cloud-cli",
+        "python-a2wsgi",
+        "python-sqlmodel",
+        "python-starlette",
+        "python-uvicorn"
+      ]
+    },
+    {
+      "component": "python-beartype",
+      "count": 6
+    },
+    {
+      "component": "python-diskcache",
+      "count": 6,
+      "blocked_by": [
+        "python-pytest-django"
+      ]
+    },
+    {
+      "component": "conda",
+      "count": 6,
+      "blocked_by": [
+        "conda",
+        "libmamba",
+        "python-conda-sphinx-theme",
+        "python-pydata-sphinx-theme"
+      ]
+    },
+    {
+      "component": "python-google-cloud-core",
+      "count": 6,
+      "blocked_by": [
+        "grpc",
+        "python-google-api-core",
+        "python-proto-plus"
+      ]
+    },
+    {
+      "component": "python-fslpy",
+      "count": 5,
+      "blocked_by": [
+        "python-trimesh"
+      ]
+    },
+    {
+      "component": "python-txaio",
+      "count": 5,
+      "blocked_by": [
+        "python-sphinx-autoapi"
+      ]
+    },
+    {
+      "component": "python-gitlab",
+      "count": 5,
+      "blocked_by": [
+        "python-respx"
+      ]
+    },
+    {
+      "component": "python-readme-renderer",
+      "count": 5
+    },
+    {
+      "component": "python-huggingface-hub",
+      "count": 5,
+      "blocked_by": [
+        "python-fsspec"
+      ]
+    },
+    {
+      "component": "python-trimesh",
+      "count": 5,
+      "blocked_by": [
+        "OpenColorIO",
+        "blender",
+        "manifold",
+        "python-cascadio",
+        "python-ezdxf",
+        "python-scikit-image",
+        "python-shapely",
+        "sympy",
+        "usd",
+        "vtk"
+      ]
     }
   ],
   "most_commonly_last_blocking": [
-    {
-      "component": "dnf5",
-      "count": 25
-    },
-    {
-      "component": "python-twisted",
-      "count": 24
-    },
     {
       "component": "vtk",
       "count": 13,
@@ -403,29 +406,18 @@
       ]
     },
     {
-      "component": "python-azure-devtools",
-      "count": 13
-    },
-    {
       "component": "sympy",
-      "count": 9,
+      "count": 10,
       "blocked_by": [
         "llvm"
       ]
     },
     {
-      "component": "python-flexmock",
-      "count": 8,
-      "blocked_by": [
-        "python-twisted"
-      ]
+      "component": "grpc",
+      "count": 8
     },
     {
       "component": "python-pydata-sphinx-theme",
-      "count": 7
-    },
-    {
-      "component": "grpc",
       "count": 7
     },
     {
@@ -433,13 +425,6 @@
       "count": 6,
       "blocked_by": [
         "python-pydata-sphinx-theme"
-      ]
-    },
-    {
-      "component": "ansible-core",
-      "count": 5,
-      "blocked_by": [
-        "dnf5"
       ]
     },
     {
@@ -466,7 +451,6 @@
       "component": "python-gitlab",
       "count": 4,
       "blocked_by": [
-        "python-gql",
         "python-respx"
       ]
     },
@@ -489,23 +473,65 @@
       ]
     },
     {
-      "component": "jupyterlab",
-      "count": 4
-    },
-    {
       "component": "pylint",
       "count": 4
     },
     {
-      "component": "python-specfile",
+      "component": "python-starlette",
+      "count": 3
+    },
+    {
+      "component": "pythran",
       "count": 3,
       "blocked_by": [
-        "python-flexmock"
+        "python-nbsphinx"
       ]
     },
     {
-      "component": "python-starlette",
+      "component": "python-respx",
+      "count": 3,
+      "blocked_by": [
+        "python-starlette"
+      ]
+    },
+    {
+      "component": "libarrow",
       "count": 3
+    },
+    {
+      "component": "python-uvicorn",
+      "count": 3,
+      "blocked_by": [
+        "python-a2wsgi"
+      ]
+    },
+    {
+      "component": "python-fsspec",
+      "count": 3,
+      "blocked_by": [
+        "libarrow",
+        "python-dask",
+        "python-distributed",
+        "python-fsspec",
+        "python-numcodecs",
+        "python-partd",
+        "python-zarr",
+        "python-zict"
+      ]
+    },
+    {
+      "component": "python-lsp-server",
+      "count": 3,
+      "blocked_by": [
+        "pylint"
+      ]
+    },
+    {
+      "component": "python-pcodedmp",
+      "count": 3,
+      "blocked_by": [
+        "python-pcodedmp"
+      ]
     }
   ],
   "most_commonly_last_blocking_combinations": [
@@ -519,28 +545,11 @@
     },
     {
       "components": [
-        "fedora-messaging",
-        "python-crochet",
-        "python-pika",
-        "python-twisted"
-      ],
-      "count": 9
-    },
-    {
-      "components": [
-        "python-keystoneclient",
-        "python-openstackclient",
-        "python-osc-lib"
-      ],
-      "count": 8
-    },
-    {
-      "components": [
         "python-fsspec",
         "python-torch",
         "sympy"
       ],
-      "count": 8
+      "count": 9
     },
     {
       "components": [
@@ -552,22 +561,15 @@
     },
     {
       "components": [
-        "poetry",
-        "python-CacheControl"
+        "mkdocs-material",
+        "python-pymdown-extensions"
       ],
-      "count": 6
+      "count": 5
     },
     {
       "components": [
         "python-hupper",
         "python-pyramid"
-      ],
-      "count": 4
-    },
-    {
-      "components": [
-        "mkdocs-material",
-        "python-pymdown-extensions"
       ],
       "count": 4
     },
@@ -603,30 +605,8 @@
     },
     {
       "components": [
-        "python-oletools",
-        "python-pcodedmp",
-        "python-pymilter"
-      ],
-      "count": 3
-    },
-    {
-      "components": [
-        "freeipa",
-        "python-jwcrypto"
-      ],
-      "count": 2
-    },
-    {
-      "components": [
         "python-trimesh",
         "vtk"
-      ],
-      "count": 2
-    },
-    {
-      "components": [
-        "python-oracledb",
-        "python-tblib"
       ],
       "count": 2
     },
@@ -655,10 +635,65 @@
     },
     {
       "components": [
-        "python-keystoneclient",
-        "python-osc-lib"
+        "python-dask",
+        "python-fsspec",
+        "python-partd"
       ],
       "count": 2
+    },
+    {
+      "components": [
+        "opencv",
+        "vtk"
+      ],
+      "count": 2
+    },
+    {
+      "components": [
+        "bids-schema",
+        "python-bids-validator",
+        "python-fslpy",
+        "python-nifti-mrs",
+        "spec2nii"
+      ],
+      "count": 1
+    },
+    {
+      "components": [
+        "OpenColorIO",
+        "OpenImageIO",
+        "materialx",
+        "pyproj",
+        "usd",
+        "vtk"
+      ],
+      "count": 1
+    },
+    {
+      "components": [
+        "bodhi-messages",
+        "python-cornice",
+        "python-hupper",
+        "python-pyramid",
+        "python-pyramid-mako"
+      ],
+      "count": 1
+    },
+    {
+      "components": [
+        "python-autobahn",
+        "python-croniter",
+        "python-treq",
+        "python-txaio"
+      ],
+      "count": 1
+    },
+    {
+      "components": [
+        "python-shapely",
+        "python-uranium"
+      ],
+      "count": 1
     }
   ],
   "dependency_loops": []

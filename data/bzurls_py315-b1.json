@@ -47,10 +47,6 @@
     "urls": [],
     "summaries": []
   },
-  "ceph": {
-    "urls": [],
-    "summaries": []
-  },
   "certbot": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2466655"
@@ -399,6 +395,10 @@
     "urls": [],
     "summaries": []
   },
+  "python-azure-mgmt-core": {
+    "urls": [],
+    "summaries": []
+  },
   "python-azure-mgmt-databoxedge": {
     "urls": [],
     "summaries": []
@@ -585,6 +585,10 @@
       "python-django-extensions fails to build with Python 3.15: TypeError: CheckConstraint.__init__() got an unexpected keyword argument 'check'"
     ]
   },
+  "python-dns-lexicon": {
+    "urls": [],
+    "summaries": []
+  },
   "python-einops": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2466673"
@@ -693,6 +697,10 @@
     "urls": [],
     "summaries": []
   },
+  "python-httpretty": {
+    "urls": [],
+    "summaries": []
+  },
   "python-huggingface-hub": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2481411"
@@ -751,6 +759,10 @@
     "urls": [],
     "summaries": []
   },
+  "python-llm": {
+    "urls": [],
+    "summaries": []
+  },
   "python-markdown-callouts": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2434991"
@@ -785,14 +797,6 @@
     ],
     "summaries": [
       "python-meshio: FTBFS in Fedora Rawhide: binascii.Error: Invalid base64-encoded string: number of data characters (8889) cannot be 1 more than a multiple of 4"
-    ]
-  },
-  "python-metakernel": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2458668"
-    ],
-    "summaries": [
-      "python-metakernel fails to build with Python 3.15: DeprecationWarning: This process (pid=889) is multi-threaded, use of forkpty() may lead to deadlocks in the child."
     ]
   },
   "python-mirrors-countme": {
@@ -880,6 +884,10 @@
     "summaries": []
   },
   "python-poetry-plugin-export": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-pydantic-core": {
     "urls": [],
     "summaries": []
   },
