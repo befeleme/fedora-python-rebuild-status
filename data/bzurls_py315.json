@@ -111,10 +111,6 @@
     "urls": [],
     "summaries": []
   },
-  "buildstream": {
-    "urls": [],
-    "summaries": []
-  },
   "calibre": {
     "urls": [],
     "summaries": []
@@ -223,10 +219,6 @@
     "urls": [],
     "summaries": []
   },
-  "grpc": {
-    "urls": [],
-    "summaries": []
-  },
   "home-assistant-cli": {
     "urls": [],
     "summaries": []
@@ -291,10 +283,6 @@
     "urls": [],
     "summaries": []
   },
-  "libpoly": {
-    "urls": [],
-    "summaries": []
-  },
   "librealsense": {
     "urls": [],
     "summaries": []
@@ -355,15 +343,7 @@
     "urls": [],
     "summaries": []
   },
-  "myst-nb": {
-    "urls": [],
-    "summaries": []
-  },
   "nagios-plugins-systemd": {
-    "urls": [],
-    "summaries": []
-  },
-  "nanopb": {
     "urls": [],
     "summaries": []
   },
@@ -471,10 +451,6 @@
       "pyp2rpm fails to build with Python 3.15: ModuleNotFoundError: No module named 'sre_constants'"
     ]
   },
-  "pyplane": {
-    "urls": [],
-    "summaries": []
-  },
   "pyqtwebengine": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2434945"
@@ -483,23 +459,11 @@
       "pyqtwebengine: FTBFS in Fedora rawhide/f44"
     ]
   },
-  "python-APScheduler": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2434946"
-    ],
-    "summaries": [
-      "python-APScheduler: FTBFS in Fedora rawhide/f44"
-    ]
-  },
   "python-AppTools": {
     "urls": [],
     "summaries": []
   },
   "python-OBD": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-PyMuPDF": {
     "urls": [],
     "summaries": []
   },
@@ -746,14 +710,6 @@
     ]
   },
   "python-binary-manager": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-blosc2": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-boutdata": {
     "urls": [],
     "summaries": []
   },
@@ -1093,10 +1049,6 @@
       "python-exiv2 fails to build with Python 3.15: error: \u2018PyWeakref_GetObject\u2019 was not declared in this scope; did you mean \u2018PyWeakref_GetRef\u2019?"
     ]
   },
-  "python-ezdxf": {
-    "urls": [],
-    "summaries": []
-  },
   "python-fakeredis": {
     "urls": [],
     "summaries": []
@@ -1191,10 +1143,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-grpcio-gcp": {
-    "urls": [],
-    "summaries": []
-  },
   "python-h5io": {
     "urls": [],
     "summaries": []
@@ -1263,10 +1211,6 @@
       "python-jnius: FTBFS in Fedora Rawhide: error: incompatible pointer types passing 'JNIEnv **' (aka 'const struct JNINativeInterface_ ***') to parameter of type 'void **'"
     ]
   },
-  "python-jupyter-cache": {
-    "urls": [],
-    "summaries": []
-  },
   "python-kaptan": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2423881"
@@ -1280,10 +1224,6 @@
     "summaries": []
   },
   "python-lazr-delegates": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-lfpykit": {
     "urls": [],
     "summaries": []
   },
@@ -1371,14 +1311,6 @@
       "python-meshio: FTBFS in Fedora Rawhide: binascii.Error: Invalid base64-encoded string: number of data characters (8889) cannot be 1 more than a multiple of 4"
     ]
   },
-  "python-metakernel": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2458668"
-    ],
-    "summaries": [
-      "python-metakernel fails to build with Python 3.15: DeprecationWarning: This process (pid=889) is multi-threaded, use of forkpty() may lead to deadlocks in the child."
-    ]
-  },
   "python-mirrors-countme": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2424567"
@@ -1419,10 +1351,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-ndindex": {
-    "urls": [],
-    "summaries": []
-  },
   "python-neovim": {
     "urls": [],
     "summaries": []
@@ -1438,10 +1366,6 @@
     "summaries": [
       "python-numpoly: FTBFS in Fedora rawhide/f44"
     ]
-  },
-  "python-opencensus-proto": {
-    "urls": [],
-    "summaries": []
   },
   "python-opfunu": {
     "urls": [],
@@ -1472,10 +1396,6 @@
     "summaries": []
   },
   "python-phply": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-piper-tts": {
     "urls": [],
     "summaries": []
   },
@@ -1865,10 +1785,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-texext": {
-    "urls": [],
-    "summaries": []
-  },
   "python-tilestache": {
     "urls": [],
     "summaries": []
@@ -1916,14 +1832,6 @@
   "python-tpm2-pytss": {
     "urls": [],
     "summaries": []
-  },
-  "python-transforms3d": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2481420"
-    ],
-    "summaries": [
-      "python-transforms3d fails to build with Python 3.15: test_random_unit_vector: assert np.all(np.abs(vec_sum / n) < 0.05)"
-    ]
   },
   "python-translitcodec": {
     "urls": [

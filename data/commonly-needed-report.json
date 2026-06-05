@@ -33,14 +33,9 @@
       ]
     },
     {
-      "component": "grpc",
-      "count": 14
-    },
-    {
       "component": "python-proto-plus",
       "count": 14,
       "blocked_by": [
-        "grpc",
         "python-google-api-core",
         "python-proto-plus"
       ]
@@ -49,7 +44,6 @@
       "component": "python-google-api-core",
       "count": 12,
       "blocked_by": [
-        "grpc",
         "python-grpcio-gcp",
         "python-proto-plus"
       ]
@@ -65,7 +59,6 @@
         "python-blosc2",
         "python-dask",
         "python-distributed",
-        "python-ndindex",
         "python-partd",
         "python-tables",
         "python-xarray",
@@ -77,24 +70,16 @@
       "count": 11
     },
     {
-      "component": "python-ndindex",
-      "count": 11
-    },
-    {
       "component": "python-pytest-arraydiff",
       "count": 10,
       "blocked_by": [
         "python-blosc2",
-        "python-ndindex",
         "python-tables"
       ]
     },
     {
       "component": "python-blosc2",
-      "count": 10,
-      "blocked_by": [
-        "python-ndindex"
-      ]
+      "count": 10
     },
     {
       "component": "python-pytest-astropy",
@@ -112,8 +97,7 @@
       "component": "python-tables",
       "count": 8,
       "blocked_by": [
-        "python-blosc2",
-        "python-ndindex"
+        "python-blosc2"
       ]
     },
     {
@@ -178,7 +162,6 @@
       "component": "python-google-cloud-core",
       "count": 6,
       "blocked_by": [
-        "grpc",
         "python-google-api-core",
         "python-proto-plus"
       ]
@@ -211,10 +194,6 @@
       "blocked_by": [
         "python-pytest-django"
       ]
-    },
-    {
-      "component": "python-jupyter-cache",
-      "count": 4
     },
     {
       "component": "python-trimesh",
@@ -266,10 +245,6 @@
       ]
     },
     {
-      "component": "python-boutdata",
-      "count": 3
-    },
-    {
       "component": "python-rasterio",
       "count": 3
     },
@@ -311,10 +286,7 @@
     },
     {
       "component": "myst-nb",
-      "count": 3,
-      "blocked_by": [
-        "python-jupyter-cache"
-      ]
+      "count": 3
     },
     {
       "component": "python-pcodedmp",
@@ -328,6 +300,38 @@
       "count": 2,
       "blocked_by": [
         "python-fslpy"
+      ]
+    },
+    {
+      "component": "materialx",
+      "count": 2,
+      "blocked_by": [
+        "OpenColorIO",
+        "vtk"
+      ]
+    },
+    {
+      "component": "google-api-python-client",
+      "count": 2,
+      "blocked_by": [
+        "python-google-api-core",
+        "python-proto-plus"
+      ]
+    },
+    {
+      "component": "python-spdx-tools",
+      "count": 2,
+      "blocked_by": [
+        "python-beartype"
+      ]
+    },
+    {
+      "component": "go-vendor-tools",
+      "count": 2,
+      "blocked_by": [
+        "python-beartype",
+        "python-spdx-tools",
+        "scancode-toolkit"
       ]
     }
   ],
@@ -344,10 +348,6 @@
       "count": 9
     },
     {
-      "component": "grpc",
-      "count": 8
-    },
-    {
       "component": "python-pytest-django",
       "count": 6,
       "blocked_by": [
@@ -355,17 +355,17 @@
       ]
     },
     {
-      "component": "pylint",
-      "count": 4
-    },
-    {
       "component": "python-xarray",
-      "count": 3,
+      "count": 4,
       "blocked_by": [
         "python-dask",
         "python-partd",
         "python-rasterio"
       ]
+    },
+    {
+      "component": "pylint",
+      "count": 4
     },
     {
       "component": "python-lsp-server",
@@ -443,6 +443,10 @@
       "unresolvable": true
     },
     {
+      "component": "python-blosc2",
+      "count": 2
+    },
+    {
       "component": "python-croniter",
       "count": 2,
       "unresolvable": true
@@ -477,7 +481,6 @@
     {
       "components": [
         "python-blosc2",
-        "python-ndindex",
         "python-tables"
       ],
       "count": 4
@@ -491,11 +494,10 @@
     },
     {
       "components": [
-        "grpc",
         "python-google-api-core",
         "python-proto-plus"
       ],
-      "count": 3
+      "count": 4
     },
     {
       "components": [
@@ -529,7 +531,6 @@
     },
     {
       "components": [
-        "grpc",
         "python-grpcio-gcp",
         "python-proto-plus"
       ],
@@ -540,13 +541,6 @@
         "python-google-api-core",
         "python-google-cloud-core",
         "python-proto-plus"
-      ],
-      "count": 2
-    },
-    {
-      "components": [
-        "python-blosc2",
-        "python-ndindex"
       ],
       "count": 2
     },
@@ -602,6 +596,14 @@
       "components": [
         "netgen-mesher",
         "vtk"
+      ],
+      "count": 1
+    },
+    {
+      "components": [
+        "python-beartype",
+        "python-spdx-tools",
+        "scancode-toolkit"
       ],
       "count": 1
     }

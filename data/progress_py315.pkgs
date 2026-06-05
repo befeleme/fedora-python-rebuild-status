@@ -4,6 +4,7 @@ alot
 ansible-builder
 ansible-lint
 bluechi
+buildstream
 dionaea
 dnf-plugin-diff
 dnf-plugin-perfmetrics
@@ -11,7 +12,6 @@ emacs-jedi
 fail2ban
 flatpak-module-tools
 gnulib
-grpc
 jc
 khal
 kmymoney
@@ -19,6 +19,8 @@ libmamba
 librealsense
 monkeytype
 moose
+myst-nb
+nanopb
 net-snmp
 ocrmypdf
 petsc
@@ -27,8 +29,8 @@ pykakasi
 pylint
 pyp2rpm
 pyqtwebengine
+python-APScheduler
 python-OBD
-python-PyMuPDF
 python-SALib
 python-XStatic
 python-XStatic-Angular-UUID
@@ -41,6 +43,7 @@ python-XStatic-Json2yaml
 python-XStatic-Patternfly
 python-XStatic-Patternfly-Bootstrap-Treeview
 python-alembic1.14
+python-annarchy
 python-apipkg
 python-avocado
 python-azure-data-tables
@@ -72,6 +75,7 @@ python-azure-mgmt-synapse
 python-azure-mgmt-trafficmanager
 python-azure-synapse-spark
 python-beartype
+python-blosc2
 python-bytecode
 python-cartopy
 python-catkin_tools
@@ -84,10 +88,12 @@ python-eth-event
 python-eventlet
 python-exceptiongroup
 python-exiv2
+python-ezdxf
 python-fields
-python-filecheck
 python-fitsio
 python-geotiler
+python-grpc-google-iam-v1
+python-grpcio-gcp
 python-holidays
 python-huggingface-hub
 python-hypothesmith
@@ -100,12 +106,13 @@ python-markdown-callouts
 python-mathics-scanner
 python-memray
 python-meshio
-python-metakernel
 python-mirrors-countme
 python-mkdocs-git-revision-date-localized-plugin
 python-mplcairo
 python-nagiosplugin
 python-neovim
+python-numpoly
+python-opencensus-proto
 python-opfunu
 python-pandas-datareader
 python-partd
@@ -137,7 +144,9 @@ python-steampunk-spotter
 python-streamlink
 python-tilestache
 python-toml-cli
+python-torch
 python-tpm2-pytss
+python-transforms3d
 python-translitcodec
 python-treq
 python-triton
@@ -151,7 +160,6 @@ rebase-helper
 renderdoc
 roca-detect
 supervisor
-sympy
 syslog-ng
 thefuck
 ubertooth
