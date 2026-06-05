@@ -16,25 +16,21 @@
     },
     {
       "component": "sympy",
-      "count": 30,
+      "count": 29,
       "blocked_by": [
         "llvm"
       ]
     },
     {
       "component": "vtk",
-      "count": 28,
+      "count": 27,
       "blocked_by": [
         "vtk"
       ]
     },
     {
       "component": "python-sqlmodel",
-      "count": 24,
-      "blocked_by": [
-        "python-fastapi",
-        "python-starlette"
-      ]
+      "count": 24
     },
     {
       "component": "python-smart_open",
@@ -64,14 +60,7 @@
     },
     {
       "component": "python-shapely",
-      "count": 20,
-      "blocked_by": [
-        "pyproj"
-      ]
-    },
-    {
-      "component": "python-starlette",
-      "count": 18
+      "count": 19
     },
     {
       "component": "python-astropy",
@@ -83,19 +72,8 @@
       ]
     },
     {
-      "component": "python-uvicorn",
-      "count": 15,
-      "blocked_by": [
-        "python-a2wsgi"
-      ]
-    },
-    {
       "component": "libarrow",
       "count": 15
-    },
-    {
-      "component": "python-pydata-sphinx-theme",
-      "count": 14
     },
     {
       "component": "grpc",
@@ -109,10 +87,6 @@
         "python-google-api-core",
         "python-proto-plus"
       ]
-    },
-    {
-      "component": "pyproj",
-      "count": 13
     },
     {
       "component": "python-pymdown-extensions",
@@ -167,10 +141,7 @@
     },
     {
       "component": "python-numcodecs",
-      "count": 10,
-      "blocked_by": [
-        "python-pydata-sphinx-theme"
-      ]
+      "count": 10
     },
     {
       "component": "python-pytest-arraydiff",
@@ -249,26 +220,8 @@
       ]
     },
     {
-      "component": "OpenColorIO",
-      "count": 7,
-      "blocked_by": [
-        "vtk"
-      ]
-    },
-    {
       "component": "python-pyqtgraph",
-      "count": 7,
-      "blocked_by": [
-        "python-pydata-sphinx-theme"
-      ]
-    },
-    {
-      "component": "python-scikit-image",
-      "count": 7,
-      "blocked_by": [
-        "python-pywt",
-        "pythran"
-      ]
+      "count": 7
     },
     {
       "component": "libmamba",
@@ -279,7 +232,6 @@
       "count": 7,
       "blocked_by": [
         "libarrow",
-        "pyproj",
         "python-geopandas",
         "python-pyogrio",
         "python-shapely"
@@ -295,6 +247,13 @@
       ]
     },
     {
+      "component": "OpenColorIO",
+      "count": 6,
+      "blocked_by": [
+        "vtk"
+      ]
+    },
+    {
       "component": "python-pyramid",
       "count": 6,
       "blocked_by": [
@@ -307,20 +266,16 @@
       "unresolvable": true
     },
     {
-      "component": "python-fastapi",
-      "count": 6,
-      "blocked_by": [
-        "fastapi-cli",
-        "fastapi-cloud-cli",
-        "python-a2wsgi",
-        "python-sqlmodel",
-        "python-starlette",
-        "python-uvicorn"
-      ]
-    },
-    {
       "component": "python-beartype",
       "count": 6
+    },
+    {
+      "component": "python-scikit-image",
+      "count": 6,
+      "blocked_by": [
+        "python-pywt",
+        "pythran"
+      ]
     },
     {
       "component": "python-diskcache",
@@ -335,8 +290,7 @@
       "blocked_by": [
         "conda",
         "libmamba",
-        "python-conda-sphinx-theme",
-        "python-pydata-sphinx-theme"
+        "python-conda-sphinx-theme"
       ]
     },
     {
@@ -357,17 +311,7 @@
     },
     {
       "component": "python-txaio",
-      "count": 5,
-      "blocked_by": [
-        "python-sphinx-autoapi"
-      ]
-    },
-    {
-      "component": "python-gitlab",
-      "count": 5,
-      "blocked_by": [
-        "python-respx"
-      ]
+      "count": 5
     },
     {
       "component": "python-readme-renderer",
@@ -381,19 +325,54 @@
       ]
     },
     {
-      "component": "python-trimesh",
+      "component": "python-sphinxcontrib-bibtex",
+      "count": 5
+    },
+    {
+      "component": "python-eth-keys",
       "count": 5,
       "blocked_by": [
-        "OpenColorIO",
-        "blender",
-        "manifold",
-        "python-cascadio",
-        "python-ezdxf",
-        "python-scikit-image",
-        "python-shapely",
-        "sympy",
-        "usd",
-        "vtk"
+        "python-asn1tools"
+      ]
+    },
+    {
+      "component": "python-geopandas",
+      "count": 5,
+      "blocked_by": [
+        "libarrow",
+        "python-fiona",
+        "python-fsspec",
+        "python-mapclassify",
+        "python-pyogrio",
+        "python-shapely"
+      ]
+    },
+    {
+      "component": "python-autobahn",
+      "count": 4,
+      "blocked_by": [
+        "python-txaio"
+      ]
+    },
+    {
+      "component": "python-ufoLib2",
+      "count": 4,
+      "blocked_by": [
+        "fonttools"
+      ]
+    },
+    {
+      "component": "python-django-allauth",
+      "count": 4,
+      "blocked_by": [
+        "python-pytest-django"
+      ]
+    },
+    {
+      "component": "python-jupyter-cache",
+      "count": 4,
+      "blocked_by": [
+        "sympy"
       ]
     }
   ],
@@ -417,14 +396,14 @@
       "count": 8
     },
     {
-      "component": "python-pydata-sphinx-theme",
-      "count": 7
+      "component": "python-pyqtgraph",
+      "count": 6
     },
     {
-      "component": "python-pyqtgraph",
+      "component": "python-pytest-django",
       "count": 6,
       "blocked_by": [
-        "python-pydata-sphinx-theme"
+        "python-django-configurations"
       ]
     },
     {
@@ -441,25 +420,8 @@
       ]
     },
     {
-      "component": "python-pytest-django",
-      "count": 5,
-      "blocked_by": [
-        "python-django-configurations"
-      ]
-    },
-    {
-      "component": "python-gitlab",
-      "count": 4,
-      "blocked_by": [
-        "python-respx"
-      ]
-    },
-    {
       "component": "python-sphinxcontrib-bibtex",
-      "count": 4,
-      "blocked_by": [
-        "python-sphinx-autoapi"
-      ]
+      "count": 4
     },
     {
       "component": "fonttools",
@@ -477,8 +439,11 @@
       "count": 4
     },
     {
-      "component": "python-starlette",
-      "count": 3
+      "component": "python-nbsphinx",
+      "count": 3,
+      "blocked_by": [
+        "python-sphinxcontrib-bibtex"
+      ]
     },
     {
       "component": "pythran",
@@ -488,22 +453,8 @@
       ]
     },
     {
-      "component": "python-respx",
-      "count": 3,
-      "blocked_by": [
-        "python-starlette"
-      ]
-    },
-    {
       "component": "libarrow",
       "count": 3
-    },
-    {
-      "component": "python-uvicorn",
-      "count": 3,
-      "blocked_by": [
-        "python-a2wsgi"
-      ]
     },
     {
       "component": "python-fsspec",
@@ -532,6 +483,27 @@
       "blocked_by": [
         "python-pcodedmp"
       ]
+    },
+    {
+      "component": "python-shapely",
+      "count": 3
+    },
+    {
+      "component": "python-jwcrypto",
+      "count": 2
+    },
+    {
+      "component": "go-vendor-tools",
+      "count": 2,
+      "blocked_by": [
+        "python-beartype",
+        "python-spdx-tools",
+        "scancode-toolkit"
+      ]
+    },
+    {
+      "component": "python-sshtunnel",
+      "count": 2
     }
   ],
   "most_commonly_last_blocking_combinations": [
@@ -605,8 +577,24 @@
     },
     {
       "components": [
+        "google-api-python-client",
+        "python-google-api-core",
+        "python-proto-plus"
+      ],
+      "count": 2
+    },
+    {
+      "components": [
         "python-trimesh",
         "vtk"
+      ],
+      "count": 2
+    },
+    {
+      "components": [
+        "python-eth-account",
+        "python-eth-keyfile",
+        "python-eth-keys"
       ],
       "count": 2
     },
@@ -663,7 +651,6 @@
         "OpenColorIO",
         "OpenImageIO",
         "materialx",
-        "pyproj",
         "usd",
         "vtk"
       ],
@@ -675,22 +662,6 @@
         "python-hupper",
         "python-pyramid",
         "python-pyramid-mako"
-      ],
-      "count": 1
-    },
-    {
-      "components": [
-        "python-autobahn",
-        "python-croniter",
-        "python-treq",
-        "python-txaio"
-      ],
-      "count": 1
-    },
-    {
-      "components": [
-        "python-shapely",
-        "python-uranium"
       ],
       "count": 1
     }
