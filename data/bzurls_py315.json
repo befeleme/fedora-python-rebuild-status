@@ -535,10 +535,6 @@
       "python-alembic1.14: FTBFS in Fedora rawhide/f44"
     ]
   },
-  "python-annarchy": {
-    "urls": [],
-    "summaries": []
-  },
   "python-apipkg": {
     "urls": [],
     "summaries": []
@@ -1087,10 +1083,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-fslpy": {
-    "urls": [],
-    "summaries": []
-  },
   "python-futurist": {
     "urls": [],
     "summaries": []
@@ -1186,10 +1178,6 @@
       "python-hypothesmith fails to build with Python 3.15: AttributeError: 'int' object has no attribute '_codegen' and more (74 tests fail)",
       "python-hypothesmith: FTBFS in Fedora rawhide/f44"
     ]
-  },
-  "python-imagecodecs": {
-    "urls": [],
-    "summaries": []
   },
   "python-imbalanced-learn": {
     "urls": [],
@@ -1737,15 +1725,7 @@
       "[heads up] python-sphinx-argparse-cli will fail to build with Sphinx 9+ in Fedora 45: ModuleNotFoundError: No module named 'sphinx.testing.path'"
     ]
   },
-  "python-sphinx-book-theme": {
-    "urls": [],
-    "summaries": []
-  },
   "python-sphinx-kr-theme": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-sphinx-thebe": {
     "urls": [],
     "summaries": []
   },
@@ -1848,10 +1828,6 @@
     "summaries": [
       "[heads up] python-treq will fail to build with Sphinx 9+ in Fedora 45: sphinx.errors.SphinxError: cannot determine default role!"
     ]
-  },
-  "python-trimesh": {
-    "urls": [],
-    "summaries": []
   },
   "python-triton": {
     "urls": [],
@@ -2061,10 +2037,6 @@
       "veusz: FTBFS in Fedora rawhide/f44"
     ]
   },
-  "vtk": {
-    "urls": [],
-    "summaries": []
-  },
   "vyper": {
     "urls": [],
     "summaries": []
@@ -2083,14 +2055,6 @@
     ],
     "summaries": [
       "xcfun: FTBFS with change proposal CMake: Use ninja generator by default"
-    ]
-  },
-  "yt-dlp": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2458688"
-    ],
-    "summaries": [
-      "yt-dlp fails to build with Python 3.15: test_clean_pot_fail: AssertionError: assert 'TwAA_-9VA6Q9...extra-param0=' == 'TwAA_-9VA6Q92v_vEQ4='"
     ]
   },
   "zfp": {

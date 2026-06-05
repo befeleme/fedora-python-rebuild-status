@@ -1,13 +1,6 @@
 {
   "most_commonly_needed": [
     {
-      "component": "vtk",
-      "count": 27,
-      "blocked_by": [
-        "vtk"
-      ]
-    },
-    {
       "component": "python-smart_open",
       "count": 23,
       "blocked_by": [
@@ -44,7 +37,6 @@
       "component": "python-google-api-core",
       "count": 12,
       "blocked_by": [
-        "python-grpcio-gcp",
         "python-proto-plus"
       ]
     },
@@ -56,7 +48,6 @@
       "component": "python-dask",
       "count": 11,
       "blocked_by": [
-        "python-blosc2",
         "python-dask",
         "python-distributed",
         "python-partd",
@@ -73,13 +64,8 @@
       "component": "python-pytest-arraydiff",
       "count": 10,
       "blocked_by": [
-        "python-blosc2",
         "python-tables"
       ]
-    },
-    {
-      "component": "python-blosc2",
-      "count": 10
     },
     {
       "component": "python-pytest-astropy",
@@ -95,10 +81,7 @@
     },
     {
       "component": "python-tables",
-      "count": 8,
-      "blocked_by": [
-        "python-blosc2"
-      ]
+      "count": 8
     },
     {
       "component": "python-xarray",
@@ -122,10 +105,7 @@
     },
     {
       "component": "OpenColorIO",
-      "count": 6,
-      "blocked_by": [
-        "vtk"
-      ]
+      "count": 6
     },
     {
       "component": "python-pyramid",
@@ -167,13 +147,6 @@
       ]
     },
     {
-      "component": "python-fslpy",
-      "count": 5,
-      "blocked_by": [
-        "python-trimesh"
-      ]
-    },
-    {
       "component": "python-readme-renderer",
       "count": 5
     },
@@ -193,14 +166,6 @@
       "count": 4,
       "blocked_by": [
         "python-pytest-django"
-      ]
-    },
-    {
-      "component": "python-trimesh",
-      "count": 4,
-      "unresolvable": true,
-      "blocked_by": [
-        "python-ezdxf"
       ]
     },
     {
@@ -272,10 +237,7 @@
     },
     {
       "component": "opencv",
-      "count": 3,
-      "blocked_by": [
-        "vtk"
-      ]
+      "count": 3
     },
     {
       "component": "python-lsp-server",
@@ -283,10 +245,6 @@
       "blocked_by": [
         "pylint"
       ]
-    },
-    {
-      "component": "myst-nb",
-      "count": 3
     },
     {
       "component": "python-pcodedmp",
@@ -297,17 +255,13 @@
     },
     {
       "component": "python-nifti-mrs",
-      "count": 2,
-      "blocked_by": [
-        "python-fslpy"
-      ]
+      "count": 2
     },
     {
       "component": "materialx",
       "count": 2,
       "blocked_by": [
-        "OpenColorIO",
-        "vtk"
+        "OpenColorIO"
       ]
     },
     {
@@ -333,16 +287,45 @@
         "python-spdx-tools",
         "scancode-toolkit"
       ]
+    },
+    {
+      "component": "python-django-extensions",
+      "count": 2,
+      "blocked_by": [
+        "python-pytest-django"
+      ]
+    },
+    {
+      "component": "python-yamlloader",
+      "count": 2
+    },
+    {
+      "component": "python-lazr-config",
+      "count": 2,
+      "blocked_by": [
+        "python-lazr-delegates"
+      ]
+    },
+    {
+      "component": "python-reproject",
+      "count": 2,
+      "blocked_by": [
+        "python-astropy-healpix",
+        "python-dask",
+        "python-partd",
+        "python-pytest-arraydiff",
+        "python-pytest-astropy"
+      ]
+    },
+    {
+      "component": "python-django-health-check",
+      "count": 2,
+      "blocked_by": [
+        "python-pytest-django"
+      ]
     }
   ],
   "most_commonly_last_blocking": [
-    {
-      "component": "vtk",
-      "count": 14,
-      "blocked_by": [
-        "vtk"
-      ]
-    },
     {
       "component": "python-torch",
       "count": 9
@@ -353,6 +336,14 @@
       "blocked_by": [
         "python-django-configurations"
       ]
+    },
+    {
+      "component": "OpenColorIO",
+      "count": 4
+    },
+    {
+      "component": "python-tables",
+      "count": 4
     },
     {
       "component": "python-xarray",
@@ -413,6 +404,13 @@
       ]
     },
     {
+      "component": "python-AppTools",
+      "count": 2,
+      "blocked_by": [
+        "python-tables"
+      ]
+    },
+    {
       "component": "python-futurist",
       "count": 2,
       "blocked_by": [
@@ -427,13 +425,6 @@
       ]
     },
     {
-      "component": "python-fslpy",
-      "count": 2,
-      "blocked_by": [
-        "python-trimesh"
-      ]
-    },
-    {
       "component": "python-eventlet",
       "count": 2
     },
@@ -443,16 +434,15 @@
       "unresolvable": true
     },
     {
-      "component": "python-blosc2",
-      "count": 2
-    },
-    {
-      "component": "python-croniter",
+      "component": "python-proto-plus",
       "count": 2,
-      "unresolvable": true
+      "blocked_by": [
+        "python-google-api-core",
+        "python-proto-plus"
+      ]
     },
     {
-      "component": "xapian-bindings",
+      "component": "opencv",
       "count": 2
     }
   ],
@@ -480,13 +470,6 @@
     },
     {
       "components": [
-        "python-blosc2",
-        "python-tables"
-      ],
-      "count": 4
-    },
-    {
-      "components": [
         "python-hupper",
         "python-pyramid"
       ],
@@ -501,13 +484,6 @@
     },
     {
       "components": [
-        "OpenColorIO",
-        "vtk"
-      ],
-      "count": 3
-    },
-    {
-      "components": [
         "google-api-python-client",
         "python-google-api-core",
         "python-proto-plus"
@@ -516,23 +492,9 @@
     },
     {
       "components": [
-        "python-trimesh",
-        "vtk"
-      ],
-      "count": 2
-    },
-    {
-      "components": [
         "python-eth-account",
         "python-eth-keyfile",
         "python-eth-keys"
-      ],
-      "count": 2
-    },
-    {
-      "components": [
-        "python-grpcio-gcp",
-        "python-proto-plus"
       ],
       "count": 2
     },
@@ -553,14 +515,6 @@
     },
     {
       "components": [
-        "opencv",
-        "vtk"
-      ],
-      "count": 2
-    },
-    {
-      "components": [
-        "python-fslpy",
         "python-nifti-mrs",
         "spec2nii"
       ],
@@ -571,8 +525,7 @@
         "OpenColorIO",
         "OpenImageIO",
         "materialx",
-        "usd",
-        "vtk"
+        "usd"
       ],
       "count": 1
     },
@@ -594,16 +547,58 @@
     },
     {
       "components": [
-        "netgen-mesher",
-        "vtk"
+        "python-beartype",
+        "python-spdx-tools",
+        "scancode-toolkit"
       ],
       "count": 1
     },
     {
       "components": [
-        "python-beartype",
-        "python-spdx-tools",
-        "scancode-toolkit"
+        "python-django-allauth",
+        "python-django-extensions",
+        "python-django-mailman3"
+      ],
+      "count": 1
+    },
+    {
+      "components": [
+        "python-yamlloader",
+        "pywbem"
+      ],
+      "count": 1
+    },
+    {
+      "components": [
+        "python-lazr-config",
+        "python-lazr-delegates"
+      ],
+      "count": 1
+    },
+    {
+      "components": [
+        "python-django-allauth",
+        "python-django-mailman3",
+        "python-readme-renderer"
+      ],
+      "count": 1
+    },
+    {
+      "components": [
+        "pulp-cli",
+        "python-pytest-subtests"
+      ],
+      "count": 1
+    },
+    {
+      "components": [
+        "python-astropy-healpix",
+        "python-dask",
+        "python-partd",
+        "python-pyregion",
+        "python-pytest-arraydiff",
+        "python-pytest-astropy",
+        "python-reproject"
       ],
       "count": 1
     }
