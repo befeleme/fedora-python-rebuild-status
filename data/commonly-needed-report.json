@@ -76,7 +76,6 @@
         "python-partd",
         "python-tables",
         "python-xarray",
-        "python-zarr",
         "python-zict"
       ]
     },
@@ -118,10 +117,6 @@
       ]
     },
     {
-      "component": "python-zarr",
-      "count": 9
-    },
-    {
       "component": "python-hupper",
       "count": 8,
       "unresolvable": true
@@ -140,8 +135,7 @@
       "blocked_by": [
         "python-dask",
         "python-partd",
-        "python-rasterio",
-        "python-zarr"
+        "python-rasterio"
       ]
     },
     {
@@ -222,14 +216,6 @@
       "count": 5,
       "blocked_by": [
         "python-asn1tools"
-      ]
-    },
-    {
-      "component": "python-geopandas",
-      "count": 5,
-      "blocked_by": [
-        "python-fiona",
-        "python-mapclassify"
       ]
     },
     {
@@ -342,6 +328,21 @@
       "blocked_by": [
         "pylint"
       ]
+    },
+    {
+      "component": "myst-nb",
+      "count": 3,
+      "blocked_by": [
+        "python-jupyter-cache",
+        "sympy"
+      ]
+    },
+    {
+      "component": "python-pcodedmp",
+      "count": 3,
+      "blocked_by": [
+        "python-pcodedmp"
+      ]
     }
   ],
   "most_commonly_last_blocking": [
@@ -373,6 +374,15 @@
     {
       "component": "pylint",
       "count": 4
+    },
+    {
+      "component": "python-xarray",
+      "count": 3,
+      "blocked_by": [
+        "python-dask",
+        "python-partd",
+        "python-rasterio"
+      ]
     },
     {
       "component": "python-lsp-server",
@@ -454,22 +464,9 @@
       "unresolvable": true
     },
     {
-      "component": "python-geopandas",
+      "component": "python-croniter",
       "count": 2,
-      "blocked_by": [
-        "python-fiona",
-        "python-mapclassify"
-      ]
-    },
-    {
-      "component": "python-xarray",
-      "count": 2,
-      "blocked_by": [
-        "python-dask",
-        "python-partd",
-        "python-rasterio",
-        "python-zarr"
-      ]
+      "unresolvable": true
     }
   ],
   "most_commonly_last_blocking_combinations": [
@@ -478,7 +475,7 @@
         "python-smart_open",
         "snakemake"
       ],
-      "count": 17
+      "count": 18
     },
     {
       "components": [
@@ -572,6 +569,13 @@
     },
     {
       "components": [
+        "python-blosc2",
+        "python-ndindex"
+      ],
+      "count": 2
+    },
+    {
+      "components": [
         "python-dask",
         "python-partd"
       ],
@@ -615,13 +619,6 @@
       "components": [
         "python-croniter",
         "python-treq"
-      ],
-      "count": 1
-    },
-    {
-      "components": [
-        "netgen-mesher",
-        "vtk"
       ],
       "count": 1
     }
