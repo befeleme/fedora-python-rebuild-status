@@ -1,13 +1,6 @@
 {
   "most_commonly_needed": [
     {
-      "component": "sympy",
-      "count": 30,
-      "blocked_by": [
-        "llvm"
-      ]
-    },
-    {
       "component": "vtk",
       "count": 27,
       "blocked_by": [
@@ -81,17 +74,11 @@
     },
     {
       "component": "python-torch",
-      "count": 11,
-      "blocked_by": [
-        "sympy"
-      ]
+      "count": 11
     },
     {
       "component": "python-ndindex",
-      "count": 11,
-      "blocked_by": [
-        "sympy"
-      ]
+      "count": 11
     },
     {
       "component": "python-pytest-arraydiff",
@@ -227,18 +214,14 @@
     },
     {
       "component": "python-jupyter-cache",
-      "count": 4,
-      "blocked_by": [
-        "sympy"
-      ]
+      "count": 4
     },
     {
       "component": "python-trimesh",
       "count": 4,
       "unresolvable": true,
       "blocked_by": [
-        "python-ezdxf",
-        "sympy"
+        "python-ezdxf"
       ]
     },
     {
@@ -284,10 +267,7 @@
     },
     {
       "component": "python-boutdata",
-      "count": 3,
-      "blocked_by": [
-        "sympy"
-      ]
+      "count": 3
     },
     {
       "component": "python-rasterio",
@@ -333,8 +313,7 @@
       "component": "myst-nb",
       "count": 3,
       "blocked_by": [
-        "python-jupyter-cache",
-        "sympy"
+        "python-jupyter-cache"
       ]
     },
     {
@@ -342,6 +321,13 @@
       "count": 3,
       "blocked_by": [
         "python-pcodedmp"
+      ]
+    },
+    {
+      "component": "python-nifti-mrs",
+      "count": 2,
+      "blocked_by": [
+        "python-fslpy"
       ]
     }
   ],
@@ -354,11 +340,8 @@
       ]
     },
     {
-      "component": "sympy",
-      "count": 12,
-      "blocked_by": [
-        "llvm"
-      ]
+      "component": "python-torch",
+      "count": 9
     },
     {
       "component": "grpc",
@@ -444,10 +427,6 @@
       ]
     },
     {
-      "component": "llvm",
-      "count": 2
-    },
-    {
       "component": "python-fslpy",
       "count": 2,
       "blocked_by": [
@@ -467,6 +446,10 @@
       "component": "python-croniter",
       "count": 2,
       "unresolvable": true
+    },
+    {
+      "component": "xapian-bindings",
+      "count": 2
     }
   ],
   "most_commonly_last_blocking_combinations": [
@@ -476,13 +459,6 @@
         "snakemake"
       ],
       "count": 18
-    },
-    {
-      "components": [
-        "python-torch",
-        "sympy"
-      ],
-      "count": 9
     },
     {
       "components": [
@@ -619,6 +595,13 @@
       "components": [
         "python-croniter",
         "python-treq"
+      ],
+      "count": 1
+    },
+    {
+      "components": [
+        "netgen-mesher",
+        "vtk"
       ],
       "count": 1
     }
