@@ -189,10 +189,7 @@
     },
     {
       "component": "python-scikit-image",
-      "count": 7,
-      "blocked_by": [
-        "pythran"
-      ]
+      "count": 7
     },
     {
       "component": "libmamba",
@@ -315,10 +312,6 @@
       ]
     },
     {
-      "component": "pythran",
-      "count": 4
-    },
-    {
       "component": "pylint",
       "count": 4
     },
@@ -373,6 +366,10 @@
       "blocked_by": [
         "python-fsspec"
       ]
+    },
+    {
+      "component": "python-zict",
+      "count": 3
     }
   ],
   "most_commonly_last_blocking": [
@@ -424,10 +421,6 @@
       ]
     },
     {
-      "component": "pythran",
-      "count": 4
-    },
-    {
       "component": "pylint",
       "count": 4
     },
@@ -448,10 +441,6 @@
       "blocked_by": [
         "python-pcodedmp"
       ]
-    },
-    {
-      "component": "python-jwcrypto",
-      "count": 2
     },
     {
       "component": "go-vendor-tools",
@@ -486,10 +475,7 @@
     },
     {
       "component": "python-scikit-image",
-      "count": 2,
-      "blocked_by": [
-        "pythran"
-      ]
+      "count": 2
     },
     {
       "component": "python-futurist",
@@ -503,6 +489,17 @@
       "count": 2,
       "blocked_by": [
         "python-asn1tools"
+      ]
+    },
+    {
+      "component": "llvm",
+      "count": 2
+    },
+    {
+      "component": "python-fslpy",
+      "count": 2,
+      "blocked_by": [
+        "python-trimesh"
       ]
     }
   ],
