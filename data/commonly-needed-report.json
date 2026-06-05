@@ -4,40 +4,19 @@
       "component": "python-smart_open",
       "count": 23,
       "blocked_by": [
-        "python-google-api-core",
-        "python-google-cloud-core",
-        "python-google-cloud-storage",
-        "python-proto-plus"
+        "python-google-cloud-storage"
       ]
     },
     {
       "component": "snakemake",
       "count": 21,
       "blocked_by": [
-        "python-google-api-core",
-        "python-google-cloud-core",
         "python-google-cloud-storage",
-        "python-proto-plus",
         "python-smart_open",
         "python-snakemake-executor-plugin-cluster-generic",
         "python-snakemake-storage-plugin-fs",
         "python-snakemake-storage-plugin-http",
         "python-snakemake-storage-plugin-s3"
-      ]
-    },
-    {
-      "component": "python-proto-plus",
-      "count": 14,
-      "blocked_by": [
-        "python-google-api-core",
-        "python-proto-plus"
-      ]
-    },
-    {
-      "component": "python-google-api-core",
-      "count": 12,
-      "blocked_by": [
-        "python-proto-plus"
       ]
     },
     {
@@ -51,7 +30,6 @@
         "python-dask",
         "python-distributed",
         "python-partd",
-        "python-tables",
         "python-xarray",
         "python-zict"
       ]
@@ -61,27 +39,9 @@
       "count": 11
     },
     {
-      "component": "python-pytest-arraydiff",
-      "count": 10,
-      "blocked_by": [
-        "python-tables"
-      ]
-    },
-    {
-      "component": "python-pytest-astropy",
-      "count": 9,
-      "blocked_by": [
-        "python-pytest-arraydiff"
-      ]
-    },
-    {
       "component": "python-hupper",
       "count": 8,
       "unresolvable": true
-    },
-    {
-      "component": "python-tables",
-      "count": 8
     },
     {
       "component": "python-xarray",
@@ -102,10 +62,6 @@
     {
       "component": "libmamba",
       "count": 7
-    },
-    {
-      "component": "OpenColorIO",
-      "count": 6
     },
     {
       "component": "python-pyramid",
@@ -139,14 +95,6 @@
       ]
     },
     {
-      "component": "python-google-cloud-core",
-      "count": 6,
-      "blocked_by": [
-        "python-google-api-core",
-        "python-proto-plus"
-      ]
-    },
-    {
       "component": "python-readme-renderer",
       "count": 5
     },
@@ -174,12 +122,7 @@
     },
     {
       "component": "python-google-cloud-storage",
-      "count": 4,
-      "blocked_by": [
-        "python-google-api-core",
-        "python-google-cloud-core",
-        "python-proto-plus"
-      ]
+      "count": 4
     },
     {
       "component": "python-sshtunnel",
@@ -203,11 +146,7 @@
     },
     {
       "component": "python-astropy-healpix",
-      "count": 3,
-      "blocked_by": [
-        "python-pytest-arraydiff",
-        "python-pytest-astropy"
-      ]
+      "count": 3
     },
     {
       "component": "python-rasterio",
@@ -254,23 +193,8 @@
       ]
     },
     {
-      "component": "python-nifti-mrs",
-      "count": 2
-    },
-    {
       "component": "materialx",
-      "count": 2,
-      "blocked_by": [
-        "OpenColorIO"
-      ]
-    },
-    {
-      "component": "google-api-python-client",
-      "count": 2,
-      "blocked_by": [
-        "python-google-api-core",
-        "python-proto-plus"
-      ]
+      "count": 2
     },
     {
       "component": "python-spdx-tools",
@@ -312,9 +236,7 @@
       "blocked_by": [
         "python-astropy-healpix",
         "python-dask",
-        "python-partd",
-        "python-pytest-arraydiff",
-        "python-pytest-astropy"
+        "python-partd"
       ]
     },
     {
@@ -323,6 +245,63 @@
       "blocked_by": [
         "python-pytest-django"
       ]
+    },
+    {
+      "component": "python-geotiler",
+      "count": 2
+    },
+    {
+      "component": "python-pyvo",
+      "count": 2
+    },
+    {
+      "component": "python-distributed",
+      "count": 2,
+      "blocked_by": [
+        "python-dask",
+        "python-partd",
+        "python-zict"
+      ]
+    },
+    {
+      "component": "python-eth-account",
+      "count": 2,
+      "blocked_by": [
+        "python-eth-keyfile",
+        "python-eth-keys"
+      ]
+    },
+    {
+      "component": "python-twine",
+      "count": 2,
+      "blocked_by": [
+        "python-readme-renderer"
+      ]
+    },
+    {
+      "component": "python-elastic-transport",
+      "count": 2
+    },
+    {
+      "component": "python-py-key-value",
+      "count": 2,
+      "blocked_by": [
+        "python-beartype",
+        "python-diskcache",
+        "python-elastic-transport",
+        "python-elasticsearch"
+      ]
+    },
+    {
+      "component": "python-fakeredis",
+      "count": 2,
+      "blocked_by": [
+        "python-lupa"
+      ]
+    },
+    {
+      "component": "python-sentinels",
+      "count": 2
     }
   ],
   "most_commonly_last_blocking": [
@@ -336,14 +315,6 @@
       "blocked_by": [
         "python-django-configurations"
       ]
-    },
-    {
-      "component": "OpenColorIO",
-      "count": 4
-    },
-    {
-      "component": "python-tables",
-      "count": 4
     },
     {
       "component": "python-xarray",
@@ -404,13 +375,6 @@
       ]
     },
     {
-      "component": "python-AppTools",
-      "count": 2,
-      "blocked_by": [
-        "python-tables"
-      ]
-    },
-    {
       "component": "python-futurist",
       "count": 2,
       "blocked_by": [
@@ -434,16 +398,25 @@
       "unresolvable": true
     },
     {
-      "component": "python-proto-plus",
-      "count": 2,
-      "blocked_by": [
-        "python-google-api-core",
-        "python-proto-plus"
-      ]
-    },
-    {
       "component": "opencv",
       "count": 2
+    },
+    {
+      "component": "python-croniter",
+      "count": 2,
+      "unresolvable": true
+    },
+    {
+      "component": "xapian-bindings",
+      "count": 2
+    },
+    {
+      "component": "pyqtwebengine",
+      "count": 1
+    },
+    {
+      "component": "pykakasi",
+      "count": 1
     }
   ],
   "most_commonly_last_blocking_combinations": [
@@ -453,13 +426,6 @@
         "snakemake"
       ],
       "count": 18
-    },
-    {
-      "components": [
-        "python-pytest-arraydiff",
-        "python-pytest-astropy"
-      ],
-      "count": 7
     },
     {
       "components": [
@@ -477,32 +443,9 @@
     },
     {
       "components": [
-        "python-google-api-core",
-        "python-proto-plus"
-      ],
-      "count": 4
-    },
-    {
-      "components": [
-        "google-api-python-client",
-        "python-google-api-core",
-        "python-proto-plus"
-      ],
-      "count": 2
-    },
-    {
-      "components": [
         "python-eth-account",
         "python-eth-keyfile",
         "python-eth-keys"
-      ],
-      "count": 2
-    },
-    {
-      "components": [
-        "python-google-api-core",
-        "python-google-cloud-core",
-        "python-proto-plus"
       ],
       "count": 2
     },
@@ -515,14 +458,6 @@
     },
     {
       "components": [
-        "python-nifti-mrs",
-        "spec2nii"
-      ],
-      "count": 1
-    },
-    {
-      "components": [
-        "OpenColorIO",
         "OpenImageIO",
         "materialx",
         "usd"
@@ -596,9 +531,47 @@
         "python-dask",
         "python-partd",
         "python-pyregion",
-        "python-pytest-arraydiff",
-        "python-pytest-astropy",
         "python-reproject"
+      ],
+      "count": 1
+    },
+    {
+      "components": [
+        "python-huggingface-hub",
+        "python-safetensors",
+        "python-torch"
+      ],
+      "count": 1
+    },
+    {
+      "components": [
+        "python-xarray",
+        "python-xarray-einstats"
+      ],
+      "count": 1
+    },
+    {
+      "components": [
+        "python-geotiler",
+        "python-sport-activities-features"
+      ],
+      "count": 1
+    },
+    {
+      "components": [
+        "python-astropy-healpix",
+        "python-astroscrappy",
+        "python-dask",
+        "python-partd",
+        "python-reproject"
+      ],
+      "count": 1
+    },
+    {
+      "components": [
+        "conda",
+        "conda-build",
+        "libmamba"
       ],
       "count": 1
     }
