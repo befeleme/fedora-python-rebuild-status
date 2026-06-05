@@ -1,19 +1,6 @@
 {
   "most_commonly_needed": [
     {
-      "component": "python-fsspec",
-      "count": 36,
-      "blocked_by": [
-        "libarrow",
-        "python-dask",
-        "python-distributed",
-        "python-fsspec",
-        "python-partd",
-        "python-zarr",
-        "python-zict"
-      ]
-    },
-    {
       "component": "sympy",
       "count": 30,
       "blocked_by": [
@@ -53,19 +40,6 @@
       ]
     },
     {
-      "component": "python-astropy",
-      "count": 18,
-      "blocked_by": [
-        "python-pytest-arraydiff",
-        "python-pytest-astropy",
-        "python-scikit-image"
-      ]
-    },
-    {
-      "component": "libarrow",
-      "count": 15
-    },
-    {
       "component": "grpc",
       "count": 14
     },
@@ -95,14 +69,11 @@
       "component": "python-dask",
       "count": 11,
       "blocked_by": [
-        "libarrow",
         "python-blosc2",
         "python-dask",
         "python-distributed",
-        "python-fsspec",
         "python-ndindex",
         "python-partd",
-        "python-scikit-image",
         "python-tables",
         "python-xarray",
         "python-zarr",
@@ -113,7 +84,6 @@
       "component": "python-torch",
       "count": 11,
       "blocked_by": [
-        "python-fsspec",
         "sympy"
       ]
     },
@@ -128,7 +98,6 @@
       "component": "python-pytest-arraydiff",
       "count": 10,
       "blocked_by": [
-        "python-astropy",
         "python-blosc2",
         "python-ndindex",
         "python-tables"
@@ -150,10 +119,7 @@
     },
     {
       "component": "python-zarr",
-      "count": 9,
-      "blocked_by": [
-        "python-fsspec"
-      ]
+      "count": 9
     },
     {
       "component": "python-hupper",
@@ -172,9 +138,7 @@
       "component": "python-xarray",
       "count": 8,
       "blocked_by": [
-        "libarrow",
         "python-dask",
-        "python-fsspec",
         "python-partd",
         "python-rasterio",
         "python-zarr"
@@ -188,21 +152,8 @@
       ]
     },
     {
-      "component": "python-scikit-image",
-      "count": 7
-    },
-    {
       "component": "libmamba",
       "count": 7
-    },
-    {
-      "component": "python-pyogrio",
-      "count": 7,
-      "blocked_by": [
-        "libarrow",
-        "python-geopandas",
-        "python-pyogrio"
-      ]
     },
     {
       "component": "OpenColorIO",
@@ -264,10 +215,7 @@
     },
     {
       "component": "python-huggingface-hub",
-      "count": 5,
-      "blocked_by": [
-        "python-fsspec"
-      ]
+      "count": 5
     },
     {
       "component": "python-eth-keys",
@@ -280,11 +228,8 @@
       "component": "python-geopandas",
       "count": 5,
       "blocked_by": [
-        "libarrow",
         "python-fiona",
-        "python-fsspec",
-        "python-mapclassify",
-        "python-pyogrio"
+        "python-mapclassify"
       ]
     },
     {
@@ -307,7 +252,6 @@
       "unresolvable": true,
       "blocked_by": [
         "python-ezdxf",
-        "python-scikit-image",
         "sympy"
       ]
     },
@@ -348,7 +292,6 @@
       "component": "python-astropy-healpix",
       "count": 3,
       "blocked_by": [
-        "python-astropy",
         "python-pytest-arraydiff",
         "python-pytest-astropy"
       ]
@@ -362,14 +305,43 @@
     },
     {
       "component": "python-rasterio",
-      "count": 3,
-      "blocked_by": [
-        "python-fsspec"
-      ]
+      "count": 3
     },
     {
       "component": "python-zict",
       "count": 3
+    },
+    {
+      "component": "python-eth-keyfile",
+      "count": 3,
+      "blocked_by": [
+        "python-eth-keys"
+      ]
+    },
+    {
+      "component": "python-futurist",
+      "count": 3,
+      "blocked_by": [
+        "python-eventlet"
+      ]
+    },
+    {
+      "component": "python-lupa",
+      "count": 3
+    },
+    {
+      "component": "opencv",
+      "count": 3,
+      "blocked_by": [
+        "vtk"
+      ]
+    },
+    {
+      "component": "python-lsp-server",
+      "count": 3,
+      "blocked_by": [
+        "pylint"
+      ]
     }
   ],
   "most_commonly_last_blocking": [
@@ -382,7 +354,7 @@
     },
     {
       "component": "sympy",
-      "count": 11,
+      "count": 12,
       "blocked_by": [
         "llvm"
       ]
@@ -399,34 +371,8 @@
       ]
     },
     {
-      "component": "python-fsspec",
-      "count": 6,
-      "blocked_by": [
-        "libarrow",
-        "python-dask",
-        "python-distributed",
-        "python-fsspec",
-        "python-partd",
-        "python-zarr",
-        "python-zict"
-      ]
-    },
-    {
-      "component": "python-astropy",
-      "count": 5,
-      "blocked_by": [
-        "python-pytest-arraydiff",
-        "python-pytest-astropy",
-        "python-scikit-image"
-      ]
-    },
-    {
       "component": "pylint",
       "count": 4
-    },
-    {
-      "component": "libarrow",
-      "count": 3
     },
     {
       "component": "python-lsp-server",
@@ -474,10 +420,6 @@
       ]
     },
     {
-      "component": "python-scikit-image",
-      "count": 2
-    },
-    {
       "component": "python-futurist",
       "count": 2,
       "blocked_by": [
@@ -501,6 +443,33 @@
       "blocked_by": [
         "python-trimesh"
       ]
+    },
+    {
+      "component": "python-eventlet",
+      "count": 2
+    },
+    {
+      "component": "python-hupper",
+      "count": 2,
+      "unresolvable": true
+    },
+    {
+      "component": "python-geopandas",
+      "count": 2,
+      "blocked_by": [
+        "python-fiona",
+        "python-mapclassify"
+      ]
+    },
+    {
+      "component": "python-xarray",
+      "count": 2,
+      "blocked_by": [
+        "python-dask",
+        "python-partd",
+        "python-rasterio",
+        "python-zarr"
+      ]
     }
   ],
   "most_commonly_last_blocking_combinations": [
@@ -513,7 +482,6 @@
     },
     {
       "components": [
-        "python-fsspec",
         "python-torch",
         "sympy"
       ],
@@ -521,11 +489,10 @@
     },
     {
       "components": [
-        "python-astropy",
         "python-pytest-arraydiff",
         "python-pytest-astropy"
       ],
-      "count": 6
+      "count": 7
     },
     {
       "components": [
@@ -536,18 +503,18 @@
     },
     {
       "components": [
-        "python-hupper",
-        "python-pyramid"
+        "python-blosc2",
+        "python-ndindex",
+        "python-tables"
       ],
       "count": 4
     },
     {
       "components": [
-        "python-blosc2",
-        "python-ndindex",
-        "python-tables"
+        "python-hupper",
+        "python-pyramid"
       ],
-      "count": 3
+      "count": 4
     },
     {
       "components": [
@@ -606,7 +573,6 @@
     {
       "components": [
         "python-dask",
-        "python-fsspec",
         "python-partd"
       ],
       "count": 2
