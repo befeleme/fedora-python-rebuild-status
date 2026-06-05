@@ -79,6 +79,7 @@ blueman
 blueprint-compiler
 bmap-tools
 bodhi-client
+bodhi-messages
 boom-boot
 boost
 borgbackup
@@ -138,6 +139,7 @@ copr-backend
 copr-cli
 copr-dist-git
 copr-keygen
+copr-messaging
 cozy
 createrepo-agent
 createrepo_c
@@ -462,6 +464,7 @@ lttng-tools
 lttng-ust
 lutris
 lvm2
+mailman3-fedmsg-plugin-schemas
 mailnag
 mailprocessing
 manafirewall
@@ -1168,6 +1171,7 @@ python-daemonize
 python-daiquiri
 python-damo
 python-dasbus
+python-datanommer-models
 python-dateparser
 python-datetimerange
 python-dateutil
@@ -1371,6 +1375,7 @@ python-fastrand
 python-fastrlock
 python-fastuuid
 python-fauxquests
+python-fedora-image-uploader-messages
 python-fedora-sig-onboard
 python-feedgen
 python-feedgenerator
@@ -1455,6 +1460,7 @@ python-frozendict
 python-frozenlist
 python-fsleyes-widgets
 python-fspath
+python-ftfy
 python-ftputil
 python-fuckit
 python-funcparserlib
@@ -1535,6 +1541,7 @@ python-hatch-vcs
 python-hatchling
 python-hdfs
 python-heapdict
+python-heatclient
 python-helpdev
 python-hexbytes
 python-hexdump
@@ -1738,6 +1745,7 @@ python-kiwisolver
 python-klein
 python-kmod
 python-knack
+python-koji-fedoramessaging-messages
 python-kombu
 python-krb5
 python-kubernetes
@@ -1957,6 +1965,7 @@ python-nmap
 python-nmrglue
 python-node-semver
 python-nodeenv
+python-noggin-messages
 python-noiseprotocol
 python-normality
 python-norpm
@@ -2047,6 +2056,7 @@ python-packaging
 python-packbits
 python-packvers
 python-paginate
+python-pagure-messages
 python-paho-mqtt
 python-palettable
 python-pam
@@ -2338,6 +2348,7 @@ python-pysb
 python-pyscaffold
 python-pyscf
 python-pyscipopt
+python-pyshacl
 python-pyshark
 python-pyside6
 python-pysimplesoap
@@ -2425,6 +2436,7 @@ python-pytest-spec
 python-pytest-split
 python-pytest-steps
 python-pytest-subprocess
+python-pytest-testinfra
 python-pytest-testmon
 python-pytest-timeout
 python-pytest-trio
@@ -2544,6 +2556,7 @@ python-rjsmin
 python-rlp
 python-rmtest
 python-rnc2rng
+python-robosignatory
 python-robot-detection
 python-robotframework
 python-roman
@@ -2639,6 +2652,7 @@ python-single-version
 python-siphash
 python-six
 python-sklearn-genetic
+python-sklearn-nature-inspired-algorithms
 python-slip10
 python-slixmpp
 python-slixmpp-omemo
@@ -2876,6 +2890,7 @@ python-trio-websocket
 python-trml2pdf
 python-trololio
 python-trove-classifiers
+python-troveclient
 python-trustme
 python-truststore
 python-trx-python
@@ -3150,12 +3165,14 @@ rpkg-util
 rpl
 rpm
 rpm-head-signing
+rpm-spec-language-server
 rpmconf
 rpmdeplint
 rpmlint
 rpmspectool
 rpy
 rrdtool
+rss2email
 rst2pdf
 rteval
 rtlsdr-scanner
@@ -3183,6 +3200,7 @@ sepolicy_analysis
 setconf
 setools
 setroubleshoot
+showcert
 showtime
 shyaml
 shybrid
@@ -3313,6 +3331,7 @@ xen
 xmms2
 xonsh
 xpra
+xrootd
 xwayland-run
 yamllint
 yawn
