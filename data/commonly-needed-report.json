@@ -15,7 +15,7 @@
     },
     {
       "component": "sympy",
-      "count": 29,
+      "count": 30,
       "blocked_by": [
         "llvm"
       ]
@@ -77,10 +77,6 @@
         "python-google-api-core",
         "python-proto-plus"
       ]
-    },
-    {
-      "component": "python-pymdown-extensions",
-      "count": 13
     },
     {
       "component": "python-google-api-core",
@@ -192,6 +188,13 @@
       ]
     },
     {
+      "component": "python-scikit-image",
+      "count": 7,
+      "blocked_by": [
+        "pythran"
+      ]
+    },
+    {
       "component": "libmamba",
       "count": 7
     },
@@ -202,15 +205,6 @@
         "libarrow",
         "python-geopandas",
         "python-pyogrio"
-      ]
-    },
-    {
-      "component": "mkdocs-material",
-      "count": 7,
-      "blocked_by": [
-        "python-mkdocs-git-revision-date-localized-plugin",
-        "python-mkdocs-rss-plugin",
-        "python-pymdown-extensions"
       ]
     },
     {
@@ -235,13 +229,6 @@
     {
       "component": "python-beartype",
       "count": 6
-    },
-    {
-      "component": "python-scikit-image",
-      "count": 6,
-      "blocked_by": [
-        "pythran"
-      ]
     },
     {
       "component": "python-diskcache",
@@ -320,7 +307,12 @@
     {
       "component": "python-trimesh",
       "count": 4,
-      "unresolvable": true
+      "unresolvable": true,
+      "blocked_by": [
+        "python-ezdxf",
+        "python-scikit-image",
+        "sympy"
+      ]
     },
     {
       "component": "pythran",
@@ -344,10 +336,6 @@
       "count": 3
     },
     {
-      "component": "python-ufo2ft",
-      "count": 3
-    },
-    {
       "component": "python-django-mailman3",
       "count": 3,
       "blocked_by": [
@@ -362,6 +350,29 @@
     {
       "component": "python-pytest-subtests",
       "count": 3
+    },
+    {
+      "component": "python-astropy-healpix",
+      "count": 3,
+      "blocked_by": [
+        "python-astropy",
+        "python-pytest-arraydiff",
+        "python-pytest-astropy"
+      ]
+    },
+    {
+      "component": "python-boutdata",
+      "count": 3,
+      "blocked_by": [
+        "sympy"
+      ]
+    },
+    {
+      "component": "python-rasterio",
+      "count": 3,
+      "blocked_by": [
+        "python-fsspec"
+      ]
     }
   ],
   "most_commonly_last_blocking": [
@@ -374,7 +385,7 @@
     },
     {
       "component": "sympy",
-      "count": 10,
+      "count": 11,
       "blocked_by": [
         "llvm"
       ]
@@ -402,10 +413,6 @@
         "python-zarr",
         "python-zict"
       ]
-    },
-    {
-      "component": "python-pymdown-extensions",
-      "count": 5
     },
     {
       "component": "python-astropy",
@@ -490,6 +497,13 @@
       "blocked_by": [
         "python-eventlet"
       ]
+    },
+    {
+      "component": "python-eth-keys",
+      "count": 2,
+      "blocked_by": [
+        "python-asn1tools"
+      ]
     }
   ],
   "most_commonly_last_blocking_combinations": [
@@ -520,13 +534,6 @@
       "components": [
         "conda",
         "libmamba"
-      ],
-      "count": 5
-    },
-    {
-      "components": [
-        "mkdocs-material",
-        "python-pymdown-extensions"
       ],
       "count": 5
     },
@@ -616,8 +623,6 @@
     },
     {
       "components": [
-        "bids-schema",
-        "python-bids-validator",
         "python-fslpy",
         "python-nifti-mrs",
         "spec2nii"
@@ -647,6 +652,13 @@
       "components": [
         "python-croniter",
         "python-treq"
+      ],
+      "count": 1
+    },
+    {
+      "components": [
+        "netgen-mesher",
+        "vtk"
       ],
       "count": 1
     }
