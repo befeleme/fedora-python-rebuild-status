@@ -8,7 +8,6 @@
         "python-dask",
         "python-distributed",
         "python-fsspec",
-        "python-numcodecs",
         "python-partd",
         "python-zarr",
         "python-zict"
@@ -27,10 +26,6 @@
       "blocked_by": [
         "vtk"
       ]
-    },
-    {
-      "component": "python-sqlmodel",
-      "count": 24
     },
     {
       "component": "python-smart_open",
@@ -54,13 +49,8 @@
         "python-snakemake-executor-plugin-cluster-generic",
         "python-snakemake-storage-plugin-fs",
         "python-snakemake-storage-plugin-http",
-        "python-snakemake-storage-plugin-s3",
-        "python-sqlmodel"
+        "python-snakemake-storage-plugin-s3"
       ]
-    },
-    {
-      "component": "python-shapely",
-      "count": 19
     },
     {
       "component": "python-astropy",
@@ -115,7 +105,6 @@
         "python-distributed",
         "python-fsspec",
         "python-ndindex",
-        "python-numcodecs",
         "python-partd",
         "python-scikit-image",
         "python-tables",
@@ -138,10 +127,6 @@
       "blocked_by": [
         "sympy"
       ]
-    },
-    {
-      "component": "python-numcodecs",
-      "count": 10
     },
     {
       "component": "python-pytest-arraydiff",
@@ -171,25 +156,13 @@
       "component": "python-zarr",
       "count": 9,
       "blocked_by": [
-        "python-fsspec",
-        "python-numcodecs"
+        "python-fsspec"
       ]
     },
     {
       "component": "python-hupper",
       "count": 8,
       "unresolvable": true
-    },
-    {
-      "component": "fonttools",
-      "count": 8,
-      "blocked_by": [
-        "fonttools",
-        "python-glyphsLib",
-        "python-ufo2ft",
-        "python-ufoLib2",
-        "sympy"
-      ]
     },
     {
       "component": "python-tables",
@@ -206,7 +179,6 @@
         "libarrow",
         "python-dask",
         "python-fsspec",
-        "python-numcodecs",
         "python-partd",
         "python-rasterio",
         "python-zarr"
@@ -220,10 +192,6 @@
       ]
     },
     {
-      "component": "python-pyqtgraph",
-      "count": 7
-    },
-    {
       "component": "libmamba",
       "count": 7
     },
@@ -233,8 +201,7 @@
       "blocked_by": [
         "libarrow",
         "python-geopandas",
-        "python-pyogrio",
-        "python-shapely"
+        "python-pyogrio"
       ]
     },
     {
@@ -273,7 +240,6 @@
       "component": "python-scikit-image",
       "count": 6,
       "blocked_by": [
-        "python-pywt",
         "pythran"
       ]
     },
@@ -289,8 +255,7 @@
       "count": 6,
       "blocked_by": [
         "conda",
-        "libmamba",
-        "python-conda-sphinx-theme"
+        "libmamba"
       ]
     },
     {
@@ -310,10 +275,6 @@
       ]
     },
     {
-      "component": "python-txaio",
-      "count": 5
-    },
-    {
       "component": "python-readme-renderer",
       "count": 5
     },
@@ -323,10 +284,6 @@
       "blocked_by": [
         "python-fsspec"
       ]
-    },
-    {
-      "component": "python-sphinxcontrib-bibtex",
-      "count": 5
     },
     {
       "component": "python-eth-keys",
@@ -343,22 +300,7 @@
         "python-fiona",
         "python-fsspec",
         "python-mapclassify",
-        "python-pyogrio",
-        "python-shapely"
-      ]
-    },
-    {
-      "component": "python-autobahn",
-      "count": 4,
-      "blocked_by": [
-        "python-txaio"
-      ]
-    },
-    {
-      "component": "python-ufoLib2",
-      "count": 4,
-      "blocked_by": [
-        "fonttools"
+        "python-pyogrio"
       ]
     },
     {
@@ -374,12 +316,58 @@
       "blocked_by": [
         "sympy"
       ]
+    },
+    {
+      "component": "python-trimesh",
+      "count": 4,
+      "unresolvable": true
+    },
+    {
+      "component": "pythran",
+      "count": 4
+    },
+    {
+      "component": "pylint",
+      "count": 4
+    },
+    {
+      "component": "python-google-cloud-storage",
+      "count": 4,
+      "blocked_by": [
+        "python-google-api-core",
+        "python-google-cloud-core",
+        "python-proto-plus"
+      ]
+    },
+    {
+      "component": "python-sshtunnel",
+      "count": 3
+    },
+    {
+      "component": "python-ufo2ft",
+      "count": 3
+    },
+    {
+      "component": "python-django-mailman3",
+      "count": 3,
+      "blocked_by": [
+        "python-django-allauth",
+        "python-pytest-django"
+      ]
+    },
+    {
+      "component": "python-lazr-delegates",
+      "count": 3
+    },
+    {
+      "component": "python-pytest-subtests",
+      "count": 3
     }
   ],
   "most_commonly_last_blocking": [
     {
       "component": "vtk",
-      "count": 13,
+      "count": 14,
       "blocked_by": [
         "vtk"
       ]
@@ -396,14 +384,23 @@
       "count": 8
     },
     {
-      "component": "python-pyqtgraph",
-      "count": 6
-    },
-    {
       "component": "python-pytest-django",
       "count": 6,
       "blocked_by": [
         "python-django-configurations"
+      ]
+    },
+    {
+      "component": "python-fsspec",
+      "count": 6,
+      "blocked_by": [
+        "libarrow",
+        "python-dask",
+        "python-distributed",
+        "python-fsspec",
+        "python-partd",
+        "python-zarr",
+        "python-zict"
       ]
     },
     {
@@ -420,55 +417,16 @@
       ]
     },
     {
-      "component": "python-sphinxcontrib-bibtex",
+      "component": "pythran",
       "count": 4
-    },
-    {
-      "component": "fonttools",
-      "count": 4,
-      "blocked_by": [
-        "fonttools",
-        "python-glyphsLib",
-        "python-ufo2ft",
-        "python-ufoLib2",
-        "sympy"
-      ]
     },
     {
       "component": "pylint",
       "count": 4
     },
     {
-      "component": "python-nbsphinx",
-      "count": 3,
-      "blocked_by": [
-        "python-sphinxcontrib-bibtex"
-      ]
-    },
-    {
-      "component": "pythran",
-      "count": 3,
-      "blocked_by": [
-        "python-nbsphinx"
-      ]
-    },
-    {
       "component": "libarrow",
       "count": 3
-    },
-    {
-      "component": "python-fsspec",
-      "count": 3,
-      "blocked_by": [
-        "libarrow",
-        "python-dask",
-        "python-distributed",
-        "python-fsspec",
-        "python-numcodecs",
-        "python-partd",
-        "python-zarr",
-        "python-zict"
-      ]
     },
     {
       "component": "python-lsp-server",
@@ -483,10 +441,6 @@
       "blocked_by": [
         "python-pcodedmp"
       ]
-    },
-    {
-      "component": "python-shapely",
-      "count": 3
     },
     {
       "component": "python-jwcrypto",
@@ -504,13 +458,44 @@
     {
       "component": "python-sshtunnel",
       "count": 2
+    },
+    {
+      "component": "python-pytest-subtests",
+      "count": 2
+    },
+    {
+      "component": "python-django-health-check",
+      "count": 2,
+      "blocked_by": [
+        "python-pytest-django"
+      ]
+    },
+    {
+      "component": "python-diskcache",
+      "count": 2,
+      "blocked_by": [
+        "python-pytest-django"
+      ]
+    },
+    {
+      "component": "python-scikit-image",
+      "count": 2,
+      "blocked_by": [
+        "pythran"
+      ]
+    },
+    {
+      "component": "python-futurist",
+      "count": 2,
+      "blocked_by": [
+        "python-eventlet"
+      ]
     }
   ],
   "most_commonly_last_blocking_combinations": [
     {
       "components": [
         "python-smart_open",
-        "python-sqlmodel",
         "snakemake"
       ],
       "count": 17
@@ -533,6 +518,13 @@
     },
     {
       "components": [
+        "conda",
+        "libmamba"
+      ],
+      "count": 5
+    },
+    {
+      "components": [
         "mkdocs-material",
         "python-pymdown-extensions"
       ],
@@ -550,13 +542,6 @@
         "python-blosc2",
         "python-ndindex",
         "python-tables"
-      ],
-      "count": 3
-    },
-    {
-      "components": [
-        "conda",
-        "libmamba"
       ],
       "count": 3
     },
@@ -595,13 +580,6 @@
         "python-eth-account",
         "python-eth-keyfile",
         "python-eth-keys"
-      ],
-      "count": 2
-    },
-    {
-      "components": [
-        "python-fsspec",
-        "python-shapely"
       ],
       "count": 2
     },
@@ -662,6 +640,13 @@
         "python-hupper",
         "python-pyramid",
         "python-pyramid-mako"
+      ],
+      "count": 1
+    },
+    {
+      "components": [
+        "python-croniter",
+        "python-treq"
       ],
       "count": 1
     }
