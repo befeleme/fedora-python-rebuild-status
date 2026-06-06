@@ -573,14 +573,6 @@
       "python-django-extensions fails to build with Python 3.15: TypeError: CheckConstraint.__init__() got an unexpected keyword argument 'check'"
     ]
   },
-  "python-django5": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2458661"
-    ],
-    "summaries": [
-      "python-django5 fails to build with Python 3.15: AssertionError: \"Error: argument --database: invalid choice: 'deflaut' \\(choose from '?default'?, '?other'?\\)\" does not match \"Error: argument --database: invalid choice: 'deflaut', maybe you meant 'default'"
-    ]
-  },
   "python-django6": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2458730"
