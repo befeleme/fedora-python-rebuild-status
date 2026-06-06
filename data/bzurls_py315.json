@@ -845,10 +845,6 @@
       "python-einops fails to build with Python 3.15: Import check einops.layers.torch: TypeError: Signature mismatch between <built-in function pack> and <function pack at 0x7fad3a117270>: (format, /, *values) != (fmt: 'bytes | str', /, *v: 'Any') -> 'bytes'"
     ]
   },
-  "python-eip712": {
-    "urls": [],
-    "summaries": []
-  },
   "python-elastic-transport": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2458681"
@@ -873,19 +869,7 @@
     "urls": [],
     "summaries": []
   },
-  "python-eth-account": {
-    "urls": [],
-    "summaries": []
-  },
   "python-eth-event": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-eth-keyfile": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-eth-tester": {
     "urls": [],
     "summaries": []
   },
@@ -1700,10 +1684,6 @@
     "summaries": [
       "veusz: FTBFS in Fedora rawhide/f44"
     ]
-  },
-  "vyper": {
-    "urls": [],
-    "summaries": []
   },
   "xapian-bindings": {
     "urls": [

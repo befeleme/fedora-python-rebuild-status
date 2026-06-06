@@ -101,10 +101,6 @@
       "count": 3
     },
     {
-      "component": "python-eth-keyfile",
-      "count": 3
-    },
-    {
       "component": "python-futurist",
       "count": 3,
       "blocked_by": [
@@ -172,13 +168,6 @@
         "python-dask",
         "python-partd",
         "python-zict"
-      ]
-    },
-    {
-      "component": "python-eth-account",
-      "count": 2,
-      "blocked_by": [
-        "python-eth-keyfile"
       ]
     },
     {
@@ -265,6 +254,14 @@
     },
     {
       "component": "python-azure-mgmt-maps",
+      "count": 1
+    },
+    {
+      "component": "python-azure-mgmt-marketplaceordering",
+      "count": 1
+    },
+    {
+      "component": "python-azure-mgmt-media",
       "count": 1
     }
   ],
@@ -403,13 +400,6 @@
     },
     {
       "components": [
-        "python-eth-account",
-        "python-eth-keyfile"
-      ],
-      "count": 2
-    },
-    {
-      "components": [
         "python-cornice",
         "python-hupper",
         "python-pyramid",
@@ -526,6 +516,13 @@
         "python-lupa",
         "python-py-key-value",
         "python-pydocket"
+      ],
+      "count": 1
+    },
+    {
+      "components": [
+        "python-mongomock",
+        "python-sentinels"
       ],
       "count": 1
     }
