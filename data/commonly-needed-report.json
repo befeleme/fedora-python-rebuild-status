@@ -2,16 +2,12 @@
   "most_commonly_needed": [
     {
       "component": "python-smart_open",
-      "count": 23,
-      "blocked_by": [
-        "python-google-cloud-storage"
-      ]
+      "count": 23
     },
     {
       "component": "snakemake",
       "count": 21,
       "blocked_by": [
-        "python-google-cloud-storage",
         "python-smart_open",
         "python-snakemake-executor-plugin-cluster-generic",
         "python-snakemake-storage-plugin-fs",
@@ -121,10 +117,6 @@
       "count": 4
     },
     {
-      "component": "python-google-cloud-storage",
-      "count": 4
-    },
-    {
       "component": "python-sshtunnel",
       "count": 3
     },
@@ -142,10 +134,6 @@
     },
     {
       "component": "python-pytest-subtests",
-      "count": 3
-    },
-    {
-      "component": "python-astropy-healpix",
       "count": 3
     },
     {
@@ -175,10 +163,6 @@
       "count": 3
     },
     {
-      "component": "opencv",
-      "count": 3
-    },
-    {
       "component": "python-lsp-server",
       "count": 3,
       "blocked_by": [
@@ -191,10 +175,6 @@
       "blocked_by": [
         "python-pcodedmp"
       ]
-    },
-    {
-      "component": "materialx",
-      "count": 2
     },
     {
       "component": "python-spdx-tools",
@@ -234,7 +214,6 @@
       "component": "python-reproject",
       "count": 2,
       "blocked_by": [
-        "python-astropy-healpix",
         "python-dask",
         "python-partd"
       ]
@@ -248,10 +227,6 @@
     },
     {
       "component": "python-geotiler",
-      "count": 2
-    },
-    {
-      "component": "python-pyvo",
       "count": 2
     },
     {
@@ -302,6 +277,37 @@
     {
       "component": "python-sentinels",
       "count": 2
+    },
+    {
+      "component": "python-eventlet",
+      "count": 2
+    },
+    {
+      "component": "python-libpysal",
+      "count": 2,
+      "blocked_by": [
+        "python-xarray"
+      ]
+    },
+    {
+      "component": "python-cartopy",
+      "count": 2
+    },
+    {
+      "component": "python-snakemake-executor-plugin-cluster-generic",
+      "count": 2,
+      "blocked_by": [
+        "python-smart_open",
+        "snakemake"
+      ]
+    },
+    {
+      "component": "python-snakemake-storage-plugin-http",
+      "count": 2,
+      "blocked_by": [
+        "python-smart_open",
+        "snakemake"
+      ]
     }
   ],
   "most_commonly_last_blocking": [
@@ -398,10 +404,6 @@
       "unresolvable": true
     },
     {
-      "component": "opencv",
-      "count": 2
-    },
-    {
       "component": "python-croniter",
       "count": 2,
       "unresolvable": true
@@ -415,6 +417,10 @@
       "count": 1
     },
     {
+      "component": "usd",
+      "count": 1
+    },
+    {
       "component": "pykakasi",
       "count": 1
     }
@@ -425,7 +431,7 @@
         "python-smart_open",
         "snakemake"
       ],
-      "count": 18
+      "count": 19
     },
     {
       "components": [
@@ -443,26 +449,26 @@
     },
     {
       "components": [
+        "python-dask",
+        "python-partd"
+      ],
+      "count": 3
+    },
+    {
+      "components": [
+        "python-dask",
+        "python-partd",
+        "python-reproject"
+      ],
+      "count": 2
+    },
+    {
+      "components": [
         "python-eth-account",
         "python-eth-keyfile",
         "python-eth-keys"
       ],
       "count": 2
-    },
-    {
-      "components": [
-        "python-dask",
-        "python-partd"
-      ],
-      "count": 2
-    },
-    {
-      "components": [
-        "OpenImageIO",
-        "materialx",
-        "usd"
-      ],
-      "count": 1
     },
     {
       "components": [
@@ -527,16 +533,6 @@
     },
     {
       "components": [
-        "python-astropy-healpix",
-        "python-dask",
-        "python-partd",
-        "python-pyregion",
-        "python-reproject"
-      ],
-      "count": 1
-    },
-    {
-      "components": [
         "python-huggingface-hub",
         "python-safetensors",
         "python-torch"
@@ -559,19 +555,26 @@
     },
     {
       "components": [
-        "python-astropy-healpix",
-        "python-astroscrappy",
-        "python-dask",
-        "python-partd",
-        "python-reproject"
+        "conda",
+        "conda-build",
+        "libmamba"
       ],
       "count": 1
     },
     {
       "components": [
-        "conda",
-        "conda-build",
-        "libmamba"
+        "python-dask",
+        "python-distributed",
+        "python-partd",
+        "python-xarray",
+        "python-zict"
+      ],
+      "count": 1
+    },
+    {
+      "components": [
+        "python-huggingface-hub",
+        "python-torch"
       ],
       "count": 1
     }
