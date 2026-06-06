@@ -255,14 +255,6 @@
       "[heads up] pykakasi will fail to build with Sphinx 9+ in Fedora 45: sphinx.errors.SphinxError: cannot determine default role!"
     ]
   },
-  "pylint": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2481413"
-    ],
-    "summaries": [
-      "pylint fails to build with Python 3.15: 4 test failures: ModuleNotFoundError: 'namespace_package' must be imported before finding 'namespace_package.lower_level'."
-    ]
-  },
   "pyp2rpm": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2453848"
