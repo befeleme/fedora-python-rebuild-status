@@ -9,15 +9,21 @@
   },
   "Mayavi": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2485682",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2433846"
     ],
     "summaries": [
+      "F45FailsToInstall: python3-mayavi",
       "Mayavi: FTBFS in Fedora rawhide/f44"
     ]
   },
   "abiword": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2485684"
+    ],
+    "summaries": [
+      "F45FailsToInstall: python3-abiword"
+    ]
   },
   "alot": {
     "urls": [
@@ -28,8 +34,12 @@
     ]
   },
   "ansible-builder": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2485686"
+    ],
+    "summaries": [
+      "F45FailsToInstall: ansible-builder"
+    ]
   },
   "ansible-lint": {
     "urls": [
@@ -37,14 +47,6 @@
     ],
     "summaries": [
       "ansible-lint fails to build with Python 3.15: ImportError: cannot import name '_MISSING_TYPE' from 'dataclasses' (/usr/lib64/python3.15/dataclasses.py)"
-    ]
-  },
-  "bmap-tools": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2416984"
-    ],
-    "summaries": [
-      "bmap-tools fails to build with Python 3.15: bmaptool.BmapCopy.Error: checksum mismatch for blocks range 34-35"
     ]
   },
   "botan2": {
@@ -68,8 +70,12 @@
     "summaries": []
   },
   "conda": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2485698"
+    ],
+    "summaries": [
+      "F45FailsToInstall: python3-conda"
+    ]
   },
   "criu": {
     "urls": [],
@@ -112,8 +118,12 @@
     ]
   },
   "emacs-jedi": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2485703"
+    ],
+    "summaries": [
+      "F45FailsToInstall: python3-jediepcserver"
+    ]
   },
   "fail2ban": {
     "urls": [
@@ -122,10 +132,6 @@
     "summaries": [
       "fail2ban fails to build with Python 3.15: AttributeError: 'SourceFileLoader' object has no attribute 'load_module'. Did you mean: 'exec_module'?"
     ]
-  },
-  "fastapi-cli": {
-    "urls": [],
-    "summaries": []
   },
   "flatpak-module-tools": {
     "urls": [
@@ -140,8 +146,12 @@
     "summaries": []
   },
   "gnulib": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2485708"
+    ],
+    "summaries": [
+      "F45FailsToInstall: python3-gnulib"
+    ]
   },
   "jc": {
     "urls": [
@@ -152,8 +162,12 @@
     ]
   },
   "khal": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2485713"
+    ],
+    "summaries": [
+      "F45FailsToInstall: khal"
+    ]
   },
   "kmymoney": {
     "urls": [
@@ -168,8 +182,12 @@
     "summaries": []
   },
   "libmamba": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2485717"
+    ],
+    "summaries": [
+      "F45FailsToInstall: python3-libmambapy"
+    ]
   },
   "librealsense": {
     "urls": [],
@@ -187,13 +205,13 @@
     "urls": [],
     "summaries": []
   },
-  "manifold": {
-    "urls": [],
-    "summaries": []
-  },
   "monkeytype": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2485722"
+    ],
+    "summaries": [
+      "F45FailsToInstall: monkeytype"
+    ]
   },
   "moose": {
     "urls": [
@@ -203,15 +221,13 @@
       "moose fails to build with Python 3.15: moose-core-3.1.5/pymoose/PyRun.h:58:24: error: \u2018Py_GetProgramName\u2019 was not declared in this scope; did you mean \u2018Py_SetProgramName\u2019?"
     ]
   },
-  "mupdf": {
-    "urls": [],
-    "summaries": []
-  },
   "net-snmp": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2485725",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2480378"
     ],
     "summaries": [
+      "F45FailsToInstall: python3-net-snmp",
       "net-snmp-5.9.5.2-4.fc45 FTBFS: \"Checking the Net-SNMP configure script validity\" test fails"
     ]
   },
@@ -240,8 +256,12 @@
     ]
   },
   "pg_activity": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2485731"
+    ],
+    "summaries": [
+      "F45FailsToInstall: pg_activity"
+    ]
   },
   "pychromecast": {
     "urls": [],
@@ -280,12 +300,12 @@
     ]
   },
   "python-OBD": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-PyMuPDF": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2485743"
+    ],
+    "summaries": [
+      "F45FailsToInstall: python3-OBD"
+    ]
   },
   "python-SALib": {
     "urls": [
@@ -296,44 +316,84 @@
     ]
   },
   "python-XStatic": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2485746"
+    ],
+    "summaries": [
+      "F45FailsToInstall: python3-XStatic"
+    ]
   },
   "python-XStatic-Angular-UUID": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2485747"
+    ],
+    "summaries": [
+      "F45FailsToInstall: python3-XStatic-Angular-UUID"
+    ]
   },
   "python-XStatic-Angular-Vis": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2485748"
+    ],
+    "summaries": [
+      "F45FailsToInstall: python3-XStatic-Angular-Vis"
+    ]
   },
   "python-XStatic-Bootstrap-SCSS": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2485749"
+    ],
+    "summaries": [
+      "F45FailsToInstall: python3-XStatic-Bootstrap-SCSS"
+    ]
   },
   "python-XStatic-DataTables": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2485750"
+    ],
+    "summaries": [
+      "F45FailsToInstall: python3-XStatic-DataTables"
+    ]
   },
   "python-XStatic-FileSaver": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2485751"
+    ],
+    "summaries": [
+      "F45FailsToInstall: python3-XStatic-FileSaver"
+    ]
   },
   "python-XStatic-JS-Yaml": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2485752"
+    ],
+    "summaries": [
+      "F45FailsToInstall: python3-XStatic-JS-Yaml"
+    ]
   },
   "python-XStatic-Json2yaml": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2485753"
+    ],
+    "summaries": [
+      "F45FailsToInstall: python3-XStatic-Json2yaml"
+    ]
   },
   "python-XStatic-Patternfly": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2485754"
+    ],
+    "summaries": [
+      "F45FailsToInstall: python3-XStatic-Patternfly"
+    ]
   },
   "python-XStatic-Patternfly-Bootstrap-Treeview": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2485755"
+    ],
+    "summaries": [
+      "F45FailsToInstall: python3-XStatic-Patternfly-Bootstrap-Treeview"
+    ]
   },
   "python-alembic1.14": {
     "urls": [
@@ -344,8 +404,12 @@
     ]
   },
   "python-apipkg": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2485758"
+    ],
+    "summaries": [
+      "F45FailsToInstall: python3-apipkg"
+    ]
   },
   "python-astropy": {
     "urls": [],
@@ -360,48 +424,88 @@
     ]
   },
   "python-avocado": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2485762"
+    ],
+    "summaries": [
+      "F45FailsToInstall: Multiple packages built from python-avocado"
+    ]
   },
   "python-azure-data-tables": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2485763"
+    ],
+    "summaries": [
+      "F45FailsToInstall: python3-azure-data-tables"
+    ]
   },
   "python-azure-loganalytics": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2485765"
+    ],
+    "summaries": [
+      "F45FailsToInstall: python3-azure-loganalytics"
+    ]
   },
   "python-azure-mgmt-advisor": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2485766"
+    ],
+    "summaries": [
+      "F45FailsToInstall: python3-azure-mgmt-advisor"
+    ]
   },
   "python-azure-mgmt-applicationinsights": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2485767"
+    ],
+    "summaries": [
+      "F45FailsToInstall: python3-azure-mgmt-applicationinsights"
+    ]
   },
   "python-azure-mgmt-batchai": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2485768"
+    ],
+    "summaries": [
+      "F45FailsToInstall: python3-azure-mgmt-batchai"
+    ]
   },
   "python-azure-mgmt-billing": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2485769"
+    ],
+    "summaries": [
+      "F45FailsToInstall: python3-azure-mgmt-billing"
+    ]
   },
   "python-azure-mgmt-cdn": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2485770"
+    ],
+    "summaries": [
+      "F45FailsToInstall: python3-azure-mgmt-cdn"
+    ]
   },
   "python-azure-mgmt-consumption": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2485771"
+    ],
+    "summaries": [
+      "F45FailsToInstall: python3-azure-mgmt-consumption"
+    ]
   },
   "python-azure-mgmt-core": {
     "urls": [],
     "summaries": []
   },
   "python-azure-mgmt-databoxedge": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2485772"
+    ],
+    "summaries": [
+      "F45FailsToInstall: python3-azure-mgmt-databoxedge"
+    ]
   },
   "python-azure-mgmt-datamigration": {
     "urls": [
@@ -412,52 +516,100 @@
     ]
   },
   "python-azure-mgmt-devtestlabs": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2485774"
+    ],
+    "summaries": [
+      "F45FailsToInstall: python3-azure-mgmt-devtestlabs"
+    ]
   },
   "python-azure-mgmt-dns": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2485775"
+    ],
+    "summaries": [
+      "F45FailsToInstall: python3-azure-mgmt-dns"
+    ]
   },
   "python-azure-mgmt-eventgrid": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2485776"
+    ],
+    "summaries": [
+      "F45FailsToInstall: python3-azure-mgmt-eventgrid"
+    ]
   },
   "python-azure-mgmt-extendedlocation": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2485777"
+    ],
+    "summaries": [
+      "F45FailsToInstall: python3-azure-mgmt-extendedlocation"
+    ]
   },
   "python-azure-mgmt-iotcentral": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2485778"
+    ],
+    "summaries": [
+      "F45FailsToInstall: python3-azure-mgmt-iotcentral"
+    ]
   },
   "python-azure-mgmt-iothubprovisioningservices": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2485779"
+    ],
+    "summaries": [
+      "F45FailsToInstall: python3-azure-mgmt-iothubprovisioningservices"
+    ]
   },
   "python-azure-mgmt-loganalytics": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2485780"
+    ],
+    "summaries": [
+      "F45FailsToInstall: python3-azure-mgmt-loganalytics"
+    ]
   },
   "python-azure-mgmt-managedservices": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2485781"
+    ],
+    "summaries": [
+      "F45FailsToInstall: python3-azure-mgmt-managedservices"
+    ]
   },
   "python-azure-mgmt-managementgroups": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2485782"
+    ],
+    "summaries": [
+      "F45FailsToInstall: python3-azure-mgmt-managementgroups"
+    ]
   },
   "python-azure-mgmt-maps": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2485783"
+    ],
+    "summaries": [
+      "F45FailsToInstall: python3-azure-mgmt-maps"
+    ]
   },
   "python-azure-mgmt-marketplaceordering": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2485784"
+    ],
+    "summaries": [
+      "F45FailsToInstall: python3-azure-mgmt-marketplaceordering"
+    ]
   },
   "python-azure-mgmt-media": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2485785"
+    ],
+    "summaries": [
+      "F45FailsToInstall: python3-azure-mgmt-media"
+    ]
   },
   "python-azure-mgmt-privatedns": {
     "urls": [
@@ -468,24 +620,44 @@
     ]
   },
   "python-azure-mgmt-subscription": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2485787"
+    ],
+    "summaries": [
+      "F45FailsToInstall: python3-azure-mgmt-subscription"
+    ]
   },
   "python-azure-mgmt-support": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2485788"
+    ],
+    "summaries": [
+      "F45FailsToInstall: python3-azure-mgmt-support"
+    ]
   },
   "python-azure-mgmt-synapse": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2485789"
+    ],
+    "summaries": [
+      "F45FailsToInstall: python3-azure-mgmt-synapse"
+    ]
   },
   "python-azure-mgmt-trafficmanager": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2485790"
+    ],
+    "summaries": [
+      "F45FailsToInstall: python3-azure-mgmt-trafficmanager"
+    ]
   },
   "python-azure-synapse-spark": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2485791"
+    ],
+    "summaries": [
+      "F45FailsToInstall: python3-azure-synapse-spark"
+    ]
   },
   "python-binary-manager": {
     "urls": [],
@@ -512,12 +684,20 @@
     ]
   },
   "python-catkin_tools": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2485794"
+    ],
+    "summaries": [
+      "F45FailsToInstall: python3-catkin_tools"
+    ]
   },
   "python-cerberus": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2485796"
+    ],
+    "summaries": [
+      "F45FailsToInstall: python3-cerberus"
+    ]
   },
   "python-chai": {
     "urls": [
@@ -527,17 +707,17 @@
       "python-chai fails to build with Python 3.15: chai.exception.UnsupportedStub: (\"can't stub %s\", <property object at 0x7fbbc41d1df0>)"
     ]
   },
-  "python-decopatch": {
-    "urls": [],
-    "summaries": []
-  },
   "python-deepdiff": {
     "urls": [],
     "summaries": []
   },
   "python-distributed": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2485844"
+    ],
+    "summaries": [
+      "F45FailsToInstall: python3-distributed"
+    ]
   },
   "python-django-allauth": {
     "urls": [
@@ -592,12 +772,20 @@
     ]
   },
   "python-environs": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2485855"
+    ],
+    "summaries": [
+      "F45FailsToInstall: python3-environs+django, python3-environs"
+    ]
   },
   "python-eth-event": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2485858"
+    ],
+    "summaries": [
+      "F45FailsToInstall: python3-eth-event"
+    ]
   },
   "python-eventlet": {
     "urls": [
@@ -635,17 +823,21 @@
       "python-extras fails to build with Python 3.15: AttributeError: 'TestTryImports' object has no attribute 'assertEquals'. Did you mean '.assertEqual' instead of '.assertEquals'?"
     ]
   },
-  "python-ezdxf": {
-    "urls": [],
-    "summaries": []
-  },
   "python-fields": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2485864"
+    ],
+    "summaries": [
+      "F45FailsToInstall: python3-fields"
+    ]
   },
   "python-fitsio": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2485865"
+    ],
+    "summaries": [
+      "F45FailsToInstall: python3-fitsio"
+    ]
   },
   "python-geopmpy": {
     "urls": [
@@ -656,8 +848,12 @@
     ]
   },
   "python-geotiler": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2485872"
+    ],
+    "summaries": [
+      "F45FailsToInstall: python3-geotiler"
+    ]
   },
   "python-giacpy": {
     "urls": [
@@ -672,12 +868,20 @@
     "summaries": []
   },
   "python-grpc-google-iam-v1": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2485874"
+    ],
+    "summaries": [
+      "F45FailsToInstall: python3-grpc-google-iam-v1"
+    ]
   },
   "python-holidays": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2485875"
+    ],
+    "summaries": [
+      "F45FailsToInstall: python3-holidays"
+    ]
   },
   "python-httpretty": {
     "urls": [],
@@ -734,12 +938,20 @@
     ]
   },
   "python-lazr-delegates": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2485885"
+    ],
+    "summaries": [
+      "F45FailsToInstall: python3-lazr-delegates"
+    ]
   },
   "python-linuxdoc": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2485888"
+    ],
+    "summaries": [
+      "F45FailsToInstall: python3-linuxdoc"
+    ]
   },
   "python-llm": {
     "urls": [],
@@ -753,25 +965,25 @@
       "python-markdown-callouts: FTBFS in Fedora rawhide/f44"
     ]
   },
-  "python-markdown-exec": {
+  "python-mathics-scanner": {
     "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2481410"
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2485900"
     ],
     "summaries": [
-      "python-markdown-exec fails to build with Python 3.15: test_output_markdown: assert '<span class=\"hll\">' in '<p><code>bash hl_lines=\"2\"\\n\ud83d\udcc4 1\\n\ud83d\udcc4 2\\n\ud83d\udcc4 3</code></p>'"
+      "F45FailsToInstall: python3-mathics-scanner+full, python3-mathics-scanner"
     ]
-  },
-  "python-mathics-scanner": {
-    "urls": [],
-    "summaries": []
   },
   "python-mechanicalsoup": {
     "urls": [],
     "summaries": []
   },
   "python-memray": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2485902"
+    ],
+    "summaries": [
+      "F45FailsToInstall: python3-memray"
+    ]
   },
   "python-meshio": {
     "urls": [
@@ -789,13 +1001,13 @@
       "python-mirrors-countme fails to build with Python 3.15: TypeError: NamedTuple() got an unexpected keyword argument 'INTEGER_NOT_NULL'"
     ]
   },
-  "python-mkapi": {
-    "urls": [],
-    "summaries": []
-  },
   "python-mkdocs-git-revision-date-localized-plugin": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2485905"
+    ],
+    "summaries": [
+      "F45FailsToInstall: python3-mkdocs-git-revision-date-localized-plugin"
+    ]
   },
   "python-modernize": {
     "urls": [],
@@ -810,16 +1022,24 @@
     ]
   },
   "python-nagiosplugin": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2485910"
+    ],
+    "summaries": [
+      "F45FailsToInstall: python3-nagiosplugin"
+    ]
   },
   "python-nbconvert": {
     "urls": [],
     "summaries": []
   },
   "python-neovim": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2485912"
+    ],
+    "summaries": [
+      "F45FailsToInstall: python3-neovim"
+    ]
   },
   "python-numpoly": {
     "urls": [
@@ -838,8 +1058,12 @@
     "summaries": []
   },
   "python-opfunu": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2485915"
+    ],
+    "summaries": [
+      "F45FailsToInstall: python3-opfunu"
+    ]
   },
   "python-pandas": {
     "urls": [
@@ -850,8 +1074,12 @@
     ]
   },
   "python-pandas-datareader": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2485918"
+    ],
+    "summaries": [
+      "F45FailsToInstall: python3-pandas-datareader"
+    ]
   },
   "python-partd": {
     "urls": [
@@ -862,28 +1090,48 @@
     ]
   },
   "python-phply": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2485920"
+    ],
+    "summaries": [
+      "F45FailsToInstall: python3-phply"
+    ]
   },
   "python-pip": {
     "urls": [],
     "summaries": []
   },
   "python-pluginlib": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2485921"
+    ],
+    "summaries": [
+      "F45FailsToInstall: python3-pluginlib"
+    ]
   },
   "python-poetry-plugin-export": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2485923"
+    ],
+    "summaries": [
+      "F45FailsToInstall: python3-poetry-plugin-export"
+    ]
   },
   "python-pygeoif": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2485929"
+    ],
+    "summaries": [
+      "F45FailsToInstall: python3-pygeoif"
+    ]
   },
   "python-pyglet": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2485930"
+    ],
+    "summaries": [
+      "F45FailsToInstall: python3-pyglet"
+    ]
   },
   "python-pygtkspellcheck": {
     "urls": [
@@ -911,10 +1159,6 @@
       "python-pysdl2 fails to build with Python 3.15: AssertionError: That operation is not supported"
     ]
   },
-  "python-pyswip": {
-    "urls": [],
-    "summaries": []
-  },
   "python-pytest-subtests": {
     "urls": [],
     "summaries": []
@@ -930,8 +1174,12 @@
     ]
   },
   "python-pytest-tornado": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2485945"
+    ],
+    "summaries": [
+      "F45FailsToInstall: python3-pytest-tornado"
+    ]
   },
   "python-pyvmomi": {
     "urls": [
@@ -942,16 +1190,28 @@
     ]
   },
   "python-qudida": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2485947"
+    ],
+    "summaries": [
+      "F45FailsToInstall: python3-qudida"
+    ]
   },
   "python-rasterio": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2485949"
+    ],
+    "summaries": [
+      "F45FailsToInstall: python3-rasterio+ipython, python3-rasterio+plot, python3-rasterio+s3, python3-rasterio"
+    ]
   },
   "python-readchar": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2485950"
+    ],
+    "summaries": [
+      "F45FailsToInstall: python3-readchar"
+    ]
   },
   "python-readme-renderer": {
     "urls": [
@@ -959,18 +1219,6 @@
     ],
     "summaries": [
       "python-readme-renderer fails to build with Python 3.15: test_cli_package: No content rendered from RST source."
-    ]
-  },
-  "python-requirements-parser": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-rstcheck": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2458680"
-    ],
-    "summaries": [
-      "python-rstcheck fails to build with Python 3.15: test_all_bad_examples: AssertionError: assert None is not None"
     ]
   },
   "python-rstr": {
@@ -982,8 +1230,12 @@
     ]
   },
   "python-scales": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2485956"
+    ],
+    "summaries": [
+      "F45FailsToInstall: python3-scales"
+    ]
   },
   "python-sentinels": {
     "urls": [
@@ -994,8 +1246,12 @@
     ]
   },
   "python-slackclient": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2485959"
+    ],
+    "summaries": [
+      "F45FailsToInstall: python3-slackclient"
+    ]
   },
   "python-sphinx": {
     "urls": [],
@@ -1010,20 +1266,36 @@
     ]
   },
   "python-sphinx-kr-theme": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2485962"
+    ],
+    "summaries": [
+      "F45FailsToInstall: python3-sphinx-kr-theme"
+    ]
   },
   "python-sphinxcontrib-chapeldomain": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2485963"
+    ],
+    "summaries": [
+      "F45FailsToInstall: python3-sphinxcontrib-chapeldomain"
+    ]
   },
   "python-sshtunnel": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2485965"
+    ],
+    "summaries": [
+      "F45FailsToInstall: python3-sshtunnel"
+    ]
   },
   "python-steampunk-spotter": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2485966"
+    ],
+    "summaries": [
+      "F45FailsToInstall: python3-steampunk-spotter"
+    ]
   },
   "python-streamlink": {
     "urls": [
@@ -1034,16 +1306,24 @@
     ]
   },
   "python-telegram-bot": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2485968"
+    ],
+    "summaries": [
+      "F45FailsToInstall: Multiple packages built from python-telegram-bot"
+    ]
   },
   "python-textdistance": {
     "urls": [],
     "summaries": []
   },
   "python-tilestache": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2485969"
+    ],
+    "summaries": [
+      "F45FailsToInstall: python3-tilestache"
+    ]
   },
   "python-toml-cli": {
     "urls": [
@@ -1062,8 +1342,12 @@
     "summaries": []
   },
   "python-tpm2-pytss": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2485972"
+    ],
+    "summaries": [
+      "F45FailsToInstall: python3-tpm2-pytss"
+    ]
   },
   "python-traitsui": {
     "urls": [],
@@ -1085,41 +1369,61 @@
       "[heads up] python-treq will fail to build with Sphinx 9+ in Fedora 45: sphinx.errors.SphinxError: cannot determine default role!"
     ]
   },
-  "python-trimesh": {
-    "urls": [],
-    "summaries": []
-  },
   "python-triton": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2485975"
+    ],
+    "summaries": [
+      "F45FailsToInstall: python3-triton"
+    ]
   },
   "python-twomemo": {
     "urls": [],
     "summaries": []
   },
   "python-vascpy": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2485977"
+    ],
+    "summaries": [
+      "F45FailsToInstall: python3-vascpy+all, python3-vascpy"
+    ]
   },
   "python-vcstool": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2485978"
+    ],
+    "summaries": [
+      "F45FailsToInstall: python3-vcstool"
+    ]
   },
   "python-webrtcvad": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2485980"
+    ],
+    "summaries": [
+      "F45FailsToInstall: python3-webrtcvad"
+    ]
   },
   "python-werkzeug": {
     "urls": [],
     "summaries": []
   },
   "python-yamlloader": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2485985"
+    ],
+    "summaries": [
+      "F45FailsToInstall: python3-yamlloader"
+    ]
   },
   "python3-mallard-ducktype": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2485988"
+    ],
+    "summaries": [
+      "F45FailsToInstall: python3-mallard-ducktype"
+    ]
   },
   "pythran": {
     "urls": [],
@@ -1154,12 +1458,12 @@
     ]
   },
   "roca-detect": {
-    "urls": [],
-    "summaries": []
-  },
-  "root": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2485996"
+    ],
+    "summaries": [
+      "F45FailsToInstall: python3-pgpdump, roca-detect"
+    ]
   },
   "rpmlint": {
     "urls": [],
@@ -1178,20 +1482,20 @@
     ]
   },
   "supervisor": {
-    "urls": [],
-    "summaries": []
-  },
-  "swift-lang": {
     "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2483711"
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2485999"
     ],
     "summaries": [
-      "swift-lang fails to build with Python 3.15: /usr/include/c++/16/cmath:334:26: internal compiler error: Segmentation fault"
+      "F45FailsToInstall: supervisor"
     ]
   },
   "thefuck": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2486000"
+    ],
+    "summaries": [
+      "F45FailsToInstall: thefuck"
+    ]
   },
   "ubertooth": {
     "urls": [
@@ -1210,8 +1514,12 @@
     ]
   },
   "variety": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2486006"
+    ],
+    "summaries": [
+      "F45FailsToInstall: variety"
+    ]
   },
   "vtk": {
     "urls": [],
