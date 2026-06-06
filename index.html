@@ -83,7 +83,7 @@
     <p>
         Fedora 45 (Target: Fedora 45)<br>
         Python 3.15.0~b2 (Target: Python 3.15.0)<br>
-        Data source: Koji (side tag)
+        Data source: Koji
     </p>
 
     <div class="card mb-4" style="max-width: 600px; margin-left: 1rem;">
@@ -93,7 +93,7 @@
         <ul class="list-group list-group-flush">
             <li class="list-group-item d-flex justify-content-between">
                 <span style="min-width: 60%;">🌏 All packages:</span>
-                <span class="text-end" style="min-width: 20%;"><b>3916</b></span>
+                <span class="text-end" style="min-width: 20%;"><b>3918</b></span>
                 <span class="text-end" style="min-width: 20%;"><span class="badge bg-primary">100%</span></span>
             </li>
             <li class="list-group-item d-flex justify-content-between">
@@ -101,7 +101,7 @@
                 <span class="text-end" style="min-width: 20%;"><b>3598</b></span>
                 <span class="text-end" style="min-width: 20%;">
                     <span class="badge bg-success">
-                        91.88%
+                        91.83%
                     </span>
                 </span>
             </li>
@@ -110,16 +110,16 @@
                 <span class="text-end" style="min-width: 20%;"><b>169</b></span>
                 <span class="text-end" style="min-width: 20%;">
                     <span class="badge bg-danger">
-                        4.32%
+                        4.31%
                     </span>
                 </span>
             </li>
             <li class="list-group-item d-flex justify-content-between">
                 <span style="min-width: 60%;">⚪ Not yet rebuilt:</span>
-                <span class="text-end" style="min-width: 20%;"><b>149</b></span>
+                <span class="text-end" style="min-width: 20%;"><b>151</b></span>
                 <span class="text-end" style="min-width: 20%;">
                     <span class="badge bg-secondary">
-                        3.80%
+                        3.85%
                     </span>
                 </span>
             </li>
@@ -141,85 +141,6 @@
     </div>
 </div>
 
-<!-- Python 3.15-b1 Statistics (Collapsible) -->
-<div class="mb-5">
-    <h2 class="mb-3">
-        <a class="text-decoration-none" data-bs-toggle="collapse" href="#py315b1Section" role="button" aria-expanded="false" aria-controls="py315b1Section">
-            Python 3.15-b1 Rebuild Status
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
-            </svg>
-        </a>
-    </h2>
-
-    <div class="collapse" id="py315b1Section">
-        <h3 class="mb-3">Current Build Environment</h3>
-        <p>
-            Fedora 45 (Target: Fedora 45)<br>
-            Python 3.15.0~b2 (Target: Python 3.15.0b1)<br>
-            Data source: Copr
-        </p>
-
-        <div class="card mb-4" style="max-width: 600px; margin-left: 1rem;">
-            <div class="card-header">
-                <h5 class="mb-0">Summary</h5>
-            </div>
-            <ul class="list-group list-group-flush">
-                <li class="list-group-item d-flex justify-content-between">
-                    <span style="min-width: 60%;">🌏 All packages:</span>
-                    <span class="text-end" style="min-width: 20%;"><b>320</b></span>
-                    <span class="text-end" style="min-width: 20%;"><span class="badge bg-primary">100%</span></span>
-                </li>
-                <li class="list-group-item d-flex justify-content-between">
-                    <span style="min-width: 60%;">🟢 Built successfully with Python 3.15-b1:</span>
-                    <span class="text-end" style="min-width: 20%;"><b>27</b></span>
-                    <span class="text-end" style="min-width: 20%;">
-                        <span class="badge bg-success">
-                            8.44%
-                        </span>
-                    </span>
-                </li>
-                <li class="list-group-item d-flex justify-content-between">
-                    <span style="min-width: 60%;">🟠 Last build with Python 3.15-b1 failed:</span>
-                    <span class="text-end" style="min-width: 20%;"><b>8</b></span>
-                    <span class="text-end" style="min-width: 20%;">
-                        <span class="badge bg-warning">
-                            2.50%
-                        </span>
-                    </span>
-                </li>
-                <li class="list-group-item d-flex justify-content-between">
-                    <span style="min-width: 60%;">🔴 Failed (Python 3.15-b1):</span>
-                    <span class="text-end" style="min-width: 20%;"><b>154</b></span>
-                    <span class="text-end" style="min-width: 20%;">
-                        <span class="badge bg-danger">
-                            48.12%
-                        </span>
-                    </span>
-                </li>
-                <li class="list-group-item d-flex justify-content-between">
-                    <span style="min-width: 60%;">⚪ Blocked (missing dependencies):</span>
-                    <span class="text-end" style="min-width: 20%;"><b>131</b></span>
-                    <span class="text-end" style="min-width: 20%;">
-                        <span class="badge bg-secondary">
-                            40.94%
-                        </span>
-                    </span>
-                </li>
-            </ul>
-        </div>
-
-        <h3 class="mb-3">Status breakdown</h3>
-        <div class="list-group mb-4">
-            <div class="mb-2"><a href="/commonly-blocking-b1/">Commonly blocking components</a></div>
-            <div class="mb-2"><a href="/packages_py315b1/">All packages sorted by package names</a></div>
-            <div class="mb-2"><a href="/maintainers_py315b1/">All packages sorted by maintainers</a></div>
-            <div class="mb-2"><a href="/failures_py315b1/">Build failures</a></div>
-        </div>
-
-    </div>
-</div>
-
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
     <h3 class="mb-3">Thanks</h3>
@@ -229,7 +150,7 @@
     <hr>
     <footer>
       <p>Maintained by <a href="https://github.com/befeleme">@befeleme</a>, source on <a href="https://github.com/befeleme/fedora-python-rebuild-status">GitHub</a>.</p>
-      <p>Last updated on <span class="date">2026-06-06 18:55:05.801456</span> (updated daily)</p>
+      <p>Last updated on <span class="date">2026-06-06 19:33:50.107054</span> (updated daily)</p>
     </footer>
   </div>
 </body>
