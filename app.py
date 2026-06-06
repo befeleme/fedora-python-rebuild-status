@@ -223,7 +223,7 @@ def index():
         blocked = count_pkgs_with_state(build_status, REPORT_STATES["waiting"])
         flaky = count_pkgs_with_state(build_status, REPORT_STATES["once_succeeded_last_failed"])
         if config["koji_enabled"]:
-            total = success + blocked + failed
+            total = len(config["all_to_build"]) + len(config["successfully_rebuilt"])
             waiting = blocked + failed
         else:
             total = len(config["all_to_build"])
