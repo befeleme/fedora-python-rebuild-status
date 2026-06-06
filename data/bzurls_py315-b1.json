@@ -577,14 +577,6 @@
       "python-django-cacheops fails to build with Python 3.15: IssueTests.test_365  and BasicTests.test_subquery fail"
     ]
   },
-  "python-django-configurations": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2433919"
-    ],
-    "summaries": [
-      "python-django-configurations fails to build with Python 3.15: AttributeError: 'ConfigurationLoader' object has no attribute 'exec_module'. Did you mean: 'load_module'?"
-    ]
-  },
   "python-django-extensions": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2458683"
