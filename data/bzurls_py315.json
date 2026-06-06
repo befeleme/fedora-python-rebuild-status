@@ -47,10 +47,6 @@
     "urls": [],
     "summaries": []
   },
-  "ara": {
-    "urls": [],
-    "summaries": []
-  },
   "arbor": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2433869"
@@ -459,10 +455,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-asn1tools": {
-    "urls": [],
-    "summaries": []
-  },
   "python-ast-monitor": {
     "urls": [],
     "summaries": []
@@ -801,10 +793,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-diskcache": {
-    "urls": [],
-    "summaries": []
-  },
   "python-distributed": {
     "urls": [],
     "summaries": []
@@ -825,14 +813,6 @@
       "python-django-cacheops fails to build with Python 3.15: IssueTests.test_365  and BasicTests.test_subquery fail"
     ]
   },
-  "python-django-configurations": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2433919"
-    ],
-    "summaries": [
-      "python-django-configurations fails to build with Python 3.15: AttributeError: 'ConfigurationLoader' object has no attribute 'exec_module'. Did you mean: 'load_module'?"
-    ]
-  },
   "python-django-extensions": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2458683"
@@ -840,10 +820,6 @@
     "summaries": [
       "python-django-extensions fails to build with Python 3.15: TypeError: CheckConstraint.__init__() got an unexpected keyword argument 'check'"
     ]
-  },
-  "python-django-health-check": {
-    "urls": [],
-    "summaries": []
   },
   "python-django-mailman3": {
     "urls": [],
@@ -906,10 +882,6 @@
     "summaries": []
   },
   "python-eth-keyfile": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-eth-keys": {
     "urls": [],
     "summaries": []
   },
@@ -1084,10 +1056,6 @@
     "summaries": []
   },
   "python-linuxdoc": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-lion-pytorch": {
     "urls": [],
     "summaries": []
   },
@@ -1361,14 +1329,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-pytest-django": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2424593"
-    ],
-    "summaries": [
-      "python-pytest-django fails to build with Python 3.15: AttributeError: 'ConfigurationLoader' object has no attribute 'exec_module'. Did you mean: 'load_module'?"
-    ]
-  },
   "python-pytest-subtests": {
     "urls": [],
     "summaries": []
@@ -1453,10 +1413,6 @@
       "python-rstr fails to build with Python 3.15: 3 errors when collecting tests: ModuleNotFoundError: No module named 'sre_parse'"
     ]
   },
-  "python-safetensors": {
-    "urls": [],
-    "summaries": []
-  },
   "python-scales": {
     "urls": [],
     "summaries": []
@@ -1540,34 +1496,6 @@
     "summaries": [
       "python-toml-cli: FTBFS in Fedora Rawhide: 2 tests fail"
     ]
-  },
-  "python-torch": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-torchaudio": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-torchdata": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-torchdiffeq": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-torchsde": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-torchtext": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-torchvision": {
-    "urls": [],
-    "summaries": []
   },
   "python-tpm2-pytss": {
     "urls": [],
@@ -1786,12 +1714,8 @@
     ]
   },
   "xcfun": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2381159"
-    ],
-    "summaries": [
-      "xcfun: FTBFS with change proposal CMake: Use ninja generator by default"
-    ]
+    "urls": [],
+    "summaries": []
   },
   "zfp": {
     "urls": [],

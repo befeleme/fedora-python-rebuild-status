@@ -16,10 +16,6 @@
       ]
     },
     {
-      "component": "python-torch",
-      "count": 11
-    },
-    {
       "component": "python-hupper",
       "count": 8,
       "unresolvable": true
@@ -31,13 +27,6 @@
         "python-dask",
         "python-partd",
         "python-rasterio"
-      ]
-    },
-    {
-      "component": "python-pytest-django",
-      "count": 8,
-      "blocked_by": [
-        "python-django-configurations"
       ]
     },
     {
@@ -61,13 +50,6 @@
       "count": 6
     },
     {
-      "component": "python-diskcache",
-      "count": 6,
-      "blocked_by": [
-        "python-pytest-django"
-      ]
-    },
-    {
       "component": "conda",
       "count": 6,
       "blocked_by": [
@@ -84,18 +66,8 @@
       "count": 5
     },
     {
-      "component": "python-eth-keys",
-      "count": 5,
-      "blocked_by": [
-        "python-asn1tools"
-      ]
-    },
-    {
       "component": "python-django-allauth",
-      "count": 4,
-      "blocked_by": [
-        "python-pytest-django"
-      ]
+      "count": 4
     },
     {
       "component": "pylint",
@@ -109,8 +81,7 @@
       "component": "python-django-mailman3",
       "count": 3,
       "blocked_by": [
-        "python-django-allauth",
-        "python-pytest-django"
+        "python-django-allauth"
       ]
     },
     {
@@ -131,10 +102,7 @@
     },
     {
       "component": "python-eth-keyfile",
-      "count": 3,
-      "blocked_by": [
-        "python-eth-keys"
-      ]
+      "count": 3
     },
     {
       "component": "python-futurist",
@@ -172,10 +140,7 @@
     },
     {
       "component": "python-django-extensions",
-      "count": 2,
-      "blocked_by": [
-        "python-pytest-django"
-      ]
+      "count": 2
     },
     {
       "component": "python-yamlloader",
@@ -197,13 +162,6 @@
       ]
     },
     {
-      "component": "python-django-health-check",
-      "count": 2,
-      "blocked_by": [
-        "python-pytest-django"
-      ]
-    },
-    {
       "component": "python-geotiler",
       "count": 2
     },
@@ -220,8 +178,7 @@
       "component": "python-eth-account",
       "count": 2,
       "blocked_by": [
-        "python-eth-keyfile",
-        "python-eth-keys"
+        "python-eth-keyfile"
       ]
     },
     {
@@ -240,7 +197,6 @@
       "count": 2,
       "blocked_by": [
         "python-beartype",
-        "python-diskcache",
         "python-elastic-transport",
         "python-elasticsearch"
       ]
@@ -290,20 +246,29 @@
     {
       "component": "python-azure-mgmt-extendedlocation",
       "count": 1
+    },
+    {
+      "component": "python-azure-mgmt-iotcentral",
+      "count": 1
+    },
+    {
+      "component": "python-azure-mgmt-iothubprovisioningservices",
+      "count": 1
+    },
+    {
+      "component": "python-azure-mgmt-loganalytics",
+      "count": 1
+    },
+    {
+      "component": "python-azure-mgmt-managementgroups",
+      "count": 1
+    },
+    {
+      "component": "python-azure-mgmt-maps",
+      "count": 1
     }
   ],
   "most_commonly_last_blocking": [
-    {
-      "component": "python-torch",
-      "count": 9
-    },
-    {
-      "component": "python-pytest-django",
-      "count": 6,
-      "blocked_by": [
-        "python-django-configurations"
-      ]
-    },
     {
       "component": "python-xarray",
       "count": 4,
@@ -316,6 +281,10 @@
     {
       "component": "pylint",
       "count": 4
+    },
+    {
+      "component": "python-huggingface-hub",
+      "count": 3
     },
     {
       "component": "python-lsp-server",
@@ -342,31 +311,10 @@
       "count": 2
     },
     {
-      "component": "python-django-health-check",
-      "count": 2,
-      "blocked_by": [
-        "python-pytest-django"
-      ]
-    },
-    {
-      "component": "python-diskcache",
-      "count": 2,
-      "blocked_by": [
-        "python-pytest-django"
-      ]
-    },
-    {
       "component": "python-futurist",
       "count": 2,
       "blocked_by": [
         "python-eventlet"
-      ]
-    },
-    {
-      "component": "python-eth-keys",
-      "count": 2,
-      "blocked_by": [
-        "python-asn1tools"
       ]
     },
     {
@@ -402,6 +350,25 @@
     {
       "component": "python-mkdocs-git-revision-date-localized-plugin",
       "count": 1
+    },
+    {
+      "component": "python-nagiosplugin",
+      "count": 1
+    },
+    {
+      "component": "python-translitcodec",
+      "count": 1
+    },
+    {
+      "component": "flatpak-module-tools",
+      "count": 1
+    },
+    {
+      "component": "python-zoidberg",
+      "count": 1,
+      "blocked_by": [
+        "python-xarray"
+      ]
     }
   ],
   "most_commonly_last_blocking_combinations": [
@@ -437,8 +404,7 @@
     {
       "components": [
         "python-eth-account",
-        "python-eth-keyfile",
-        "python-eth-keys"
+        "python-eth-keyfile"
       ],
       "count": 2
     },
@@ -505,14 +471,6 @@
     },
     {
       "components": [
-        "python-huggingface-hub",
-        "python-safetensors",
-        "python-torch"
-      ],
-      "count": 1
-    },
-    {
-      "components": [
         "python-xarray",
         "python-xarray-einstats"
       ],
@@ -545,16 +503,29 @@
     },
     {
       "components": [
-        "python-huggingface-hub",
-        "python-torch"
+        "python-dask",
+        "python-partd",
+        "python-zict"
       ],
       "count": 1
     },
     {
       "components": [
-        "python-dask",
-        "python-partd",
-        "python-zict"
+        "python-elastic-transport",
+        "python-readme-renderer",
+        "python-twine"
+      ],
+      "count": 1
+    },
+    {
+      "components": [
+        "python-beartype",
+        "python-croniter",
+        "python-exceptiongroup",
+        "python-fakeredis",
+        "python-lupa",
+        "python-py-key-value",
+        "python-pydocket"
       ],
       "count": 1
     }
