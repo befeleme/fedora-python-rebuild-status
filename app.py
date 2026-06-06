@@ -2,14 +2,13 @@ import datetime
 
 from flask import Flask, render_template
 
-from scripts.loaders import load_data, load_json, load_monitor_report, KOJI_PY315, KOJI_PY315B1
+from scripts.loaders import load_data, load_json, load_monitor_report, KOJI_PY315
 from wheels import generate_wheel_readiness_data
 
 app = Flask("python_rebuild_status")
 
 # Load commonly needed components report
 commonly_blocking_data = load_json("data/commonly-needed-report.json")
-commonly_blocking_data_b1 = load_json("data/commonly-needed-report-b1.json")
 
 
 REPORT_STATES = {
@@ -34,22 +33,6 @@ VERSIONS = {
         "failed": None,
         "waiting": None,
         "bugzillas": None,
-        "all_in_copr": None,
-    },
-    "315b1": {
-        "major_version": "3.15-b1",
-        "fedora_version": "45",
-        "target_fedora": "45",
-        "koji_enabled": KOJI_PY315B1,
-        "base_packages": "data/python314.pkgs",
-        "exclude_package": "python3.14",
-        "file_suffix": "315-b1",
-        "all_to_build": None,
-        "successfully_rebuilt": None,
-        "failed": None,
-        "waiting": None,
-        "bugzillas": None,
-        "all_in_copr": None,
     }
 }
 
@@ -223,7 +206,7 @@ def index():
         blocked = count_pkgs_with_state(build_status, REPORT_STATES["waiting"])
         flaky = count_pkgs_with_state(build_status, REPORT_STATES["once_succeeded_last_failed"])
         if config["koji_enabled"]:
-            total = len(config["all_to_build"]) + len(config["successfully_rebuilt"])
+            total = success + failed + blocked
             waiting = blocked + failed
         else:
             total = len(config["all_to_build"])
@@ -281,30 +264,6 @@ def failures():
         zip=zip,
     )
 
-@app.route('/packages_py315b1/')
-def packages_py315b1():
-    return render_template(
-        'packages_py315b1.html',
-        py315b1_status_by_packages=build_data["315b1"]["status_by_packages"],
-        updated=updated,
-    )
-
-@app.route('/maintainers_py315b1/')
-def maintainers_py315b1():
-    return render_template(
-        'maintainers_py315b1.html',
-        py315b1_status_by_maintainers=build_data["315b1"]["status_by_maintainers"],
-        updated=updated,
-    )
-
-@app.route('/failures_py315b1/')
-def failures_py315b1():
-    return render_template(
-        'failures_py315b1.html',
-        py315b1_status_failed=build_data["315b1"]["failed_report"],
-        updated=updated,
-        zip=zip,
-    )
 
 @app.route('/wheels/')
 def wheels():
@@ -373,16 +332,3 @@ def commonly_blocking():
         updated=updated,
     )
 
-@app.route('/commonly-blocking-b1/')
-def commonly_blocking_b1():
-    failed_packages = set(build_data["315b1"]["failed_report"].keys())
-    return render_template(
-        'commonly_blocking.html',
-        most_commonly_needed=commonly_blocking_data_b1.get("most_commonly_needed", []),
-        most_commonly_last_blocking=commonly_blocking_data_b1.get("most_commonly_last_blocking", []),
-        most_commonly_last_blocking_combinations=commonly_blocking_data_b1.get("most_commonly_last_blocking_combinations", []),
-        dependency_loops=commonly_blocking_data_b1.get("dependency_loops", []),
-        failed_packages=failed_packages,
-        failures_route='failures_py315b1',
-        updated=updated,
-    )
