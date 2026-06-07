@@ -45,14 +45,6 @@
       "alot fails to build with Python 3.15: TypeError: 'Mock' object cannot be interpreted as an integer"
     ]
   },
-  "ansible-builder": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485686"
-    ],
-    "summaries": [
-      "F45FailsToInstall: ansible-builder"
-    ]
-  },
   "ansible-lint": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2481417"
@@ -203,14 +195,6 @@
       "fail2ban fails to build with Python 3.15: AttributeError: 'SourceFileLoader' object has no attribute 'load_module'. Did you mean: 'exec_module'?"
     ]
   },
-  "flatpak-module-tools": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2453823"
-    ],
-    "summaries": [
-      "flatpak-module-tools fails to build with setuptools_scm 10+"
-    ]
-  },
   "ginga": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2485707"
@@ -229,14 +213,6 @@
     ],
     "summaries": [
       "F45FailsToInstall: python3-gnulib"
-    ]
-  },
-  "home-assistant-cli": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485711"
-    ],
-    "summaries": [
-      "F45FailsToInstall: home-assistant-cli"
     ]
   },
   "jc": {
@@ -353,14 +329,6 @@
       "moose fails to build with Python 3.15: moose-core-3.1.5/pymoose/PyRun.h:58:24: error: \u2018Py_GetProgramName\u2019 was not declared in this scope; did you mean \u2018Py_SetProgramName\u2019?"
     ]
   },
-  "mycli": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485723"
-    ],
-    "summaries": [
-      "F45FailsToInstall: mycli, python3-mycli+llm, python3-mycli+ssh"
-    ]
-  },
   "nagios-plugins-systemd": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2485724"
@@ -417,14 +385,6 @@
     ],
     "summaries": [
       "F45FailsToInstall: pg_activity"
-    ]
-  },
-  "pgcli": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485732"
-    ],
-    "summaries": [
-      "F45FailsToInstall: pgcli, python3-pgcli+keyring, python3-pgcli+sshtunnel"
     ]
   },
   "pulp-cli": {
@@ -1109,14 +1069,6 @@
       "F45FailsToInstall: python3-cornice"
     ]
   },
-  "python-croniter": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485841"
-    ],
-    "summaries": [
-      "F45FailsToInstall: python3-croniter"
-    ]
-  },
   "python-dask": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2485842"
@@ -1315,14 +1267,6 @@
     "summaries": [
       "python-fs: FTBFS in Fedora rawhide/f44",
       "python-fs fails to build with Python 3.15: AttributeError: 'DocTestCase' object has no attribute '_test_result'"
-    ]
-  },
-  "python-futurist": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485869"
-    ],
-    "summaries": [
-      "F45FailsToInstall: python3-futurist"
     ]
   },
   "python-gearbox": {
@@ -1685,14 +1629,6 @@
     ],
     "summaries": [
       "F45FailsToInstall: python3-opfunu"
-    ]
-  },
-  "python-oslo-concurrency": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485917"
-    ],
-    "summaries": [
-      "F45FailsToInstall: python3-oslo-concurrency, python3-oslo-concurrency-tests"
     ]
   },
   "python-pandas-datareader": {
@@ -2074,14 +2010,6 @@
   "python-spyder-kernels": {
     "urls": [],
     "summaries": []
-  },
-  "python-sshtunnel": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485965"
-    ],
-    "summaries": [
-      "F45FailsToInstall: python3-sshtunnel"
-    ]
   },
   "python-steampunk-spotter": {
     "urls": [
