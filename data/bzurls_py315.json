@@ -127,14 +127,6 @@
       "F45FailsToInstall: buildbot-master, buildbot-master-container, buildbot-master-ec2, buildbot-master-libvirt, buildbot-master-openstack, buildbot-worker, buildbot-www"
     ]
   },
-  "calibre": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485695"
-    ],
-    "summaries": [
-      "F45FailsToInstall: calibre"
-    ]
-  },
   "certbot": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2466655"
@@ -239,22 +231,6 @@
       "F45FailsToInstall: python3-gnulib"
     ]
   },
-  "go-vendor-tools": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485709"
-    ],
-    "summaries": [
-      "F45FailsToInstall: go-vendor-tools+all, go-vendor-tools+scancode, go-vendor-tools"
-    ]
-  },
-  "go2rpm": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485710"
-    ],
-    "summaries": [
-      "F45FailsToInstall: go2rpm+all, go2rpm+vendor, go2rpm"
-    ]
-  },
   "home-assistant-cli": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2485711"
@@ -277,14 +253,6 @@
     ],
     "summaries": [
       "F45FailsToInstall: khal"
-    ]
-  },
-  "kicad": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485714"
-    ],
-    "summaries": [
-      "F45FailsToInstall: kicad"
     ]
   },
   "kitty": {
@@ -491,14 +459,6 @@
     ],
     "summaries": [
       "F45FailsToInstall: python3-pygrib"
-    ]
-  },
-  "pykakasi": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2440185"
-    ],
-    "summaries": [
-      "[heads up] pykakasi will fail to build with Sphinx 9+ in Fedora 45: sphinx.errors.SphinxError: cannot determine default role!"
     ]
   },
   "pylint": {
@@ -1477,10 +1437,6 @@
       "python-jnius: FTBFS in Fedora Rawhide: error: incompatible pointer types passing 'JNIEnv **' (aka 'const struct JNINativeInterface_ ***') to parameter of type 'void **'"
     ]
   },
-  "python-jwcrypto": {
-    "urls": [],
-    "summaries": []
-  },
   "python-kaptan": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2423881"
@@ -1504,10 +1460,6 @@
     "summaries": [
       "F45FailsToInstall: python3-lazr-delegates"
     ]
-  },
-  "python-ldap": {
-    "urls": [],
-    "summaries": []
   },
   "python-libpysal": {
     "urls": [
@@ -1947,14 +1899,6 @@
       "F45FailsToInstall: python3-pyshtools+cartopy, python3-pyshtools+ducc, python3-pyshtools"
     ]
   },
-  "python-pysubnettree": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485942"
-    ],
-    "summaries": [
-      "F45FailsToInstall: python3-pysubnettree"
-    ]
-  },
   "python-pytest-cases": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2485943"
@@ -2050,10 +1994,6 @@
     "summaries": [
       "F45FailsToInstall: python3-reproject"
     ]
-  },
-  "python-requirements-parser": {
-    "urls": [],
-    "summaries": []
   },
   "python-rq": {
     "urls": [
@@ -2299,14 +2239,6 @@
       "F45FailsToInstall: python3-yamlloader"
     ]
   },
-  "python-zict": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2440574"
-    ],
-    "summaries": [
-      "python-zict fails to build with Python 3.15: timeout in test_stress_different_keys_threadsafe"
-    ]
-  },
   "python-zoidberg": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2485987"
@@ -2393,14 +2325,6 @@
     ],
     "summaries": [
       "F45FailsToInstall: python3-pgpdump, roca-detect"
-    ]
-  },
-  "scancode-toolkit": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485997"
-    ],
-    "summaries": [
-      "F45FailsToInstall: scancode-toolkit"
     ]
   },
   "sherlock-project": {
