@@ -1,43 +1,25 @@
 {
   "most_commonly_needed": [
     {
-      "component": "python-partd",
-      "count": 12
-    },
-    {
       "component": "python-dask",
       "count": 11,
       "blocked_by": [
         "python-dask",
         "python-distributed",
-        "python-partd",
         "python-xarray"
       ]
-    },
-    {
-      "component": "python-hupper",
-      "count": 8,
-      "unresolvable": true
     },
     {
       "component": "python-xarray",
       "count": 8,
       "blocked_by": [
         "python-dask",
-        "python-partd",
         "python-rasterio"
       ]
     },
     {
       "component": "libmamba",
       "count": 7
-    },
-    {
-      "component": "python-pyramid",
-      "count": 6,
-      "blocked_by": [
-        "python-hupper"
-      ]
     },
     {
       "component": "conda",
@@ -49,10 +31,6 @@
     },
     {
       "component": "python-readme-renderer",
-      "count": 5
-    },
-    {
-      "component": "python-huggingface-hub",
       "count": 5
     },
     {
@@ -116,8 +94,7 @@
       "component": "python-reproject",
       "count": 2,
       "blocked_by": [
-        "python-dask",
-        "python-partd"
+        "python-dask"
       ]
     },
     {
@@ -128,8 +105,7 @@
       "component": "python-distributed",
       "count": 2,
       "blocked_by": [
-        "python-dask",
-        "python-partd"
+        "python-dask"
       ]
     },
     {
@@ -157,10 +133,6 @@
       "blocked_by": [
         "python-lupa"
       ]
-    },
-    {
-      "component": "python-sentinels",
-      "count": 2
     },
     {
       "component": "python-eventlet",
@@ -248,15 +220,43 @@
     {
       "component": "python-azure-mgmt-media",
       "count": 1
+    },
+    {
+      "component": "python-azure-mgmt-privatedns",
+      "count": 1
+    },
+    {
+      "component": "python-azure-mgmt-synapse",
+      "count": 1
+    },
+    {
+      "component": "python-azure-mgmt-trafficmanager",
+      "count": 1
+    },
+    {
+      "component": "python-azure-synapse-spark",
+      "count": 1
+    },
+    {
+      "component": "python-cornice",
+      "count": 1
     }
   ],
   "most_commonly_last_blocking": [
+    {
+      "component": "python-dask",
+      "count": 4,
+      "blocked_by": [
+        "python-dask",
+        "python-distributed",
+        "python-xarray"
+      ]
+    },
     {
       "component": "python-xarray",
       "count": 4,
       "blocked_by": [
         "python-dask",
-        "python-partd",
         "python-rasterio"
       ]
     },
@@ -265,7 +265,7 @@
       "count": 4
     },
     {
-      "component": "python-huggingface-hub",
+      "component": "python-pytest-subtests",
       "count": 3
     },
     {
@@ -276,17 +276,8 @@
       ]
     },
     {
-      "component": "python-pytest-subtests",
-      "count": 2
-    },
-    {
       "component": "python-eventlet",
       "count": 2
-    },
-    {
-      "component": "python-hupper",
-      "count": 2,
-      "unresolvable": true
     },
     {
       "component": "xapian-bindings",
@@ -340,7 +331,11 @@
       "count": 1
     },
     {
-      "component": "python-partd",
+      "component": "python-pytest-cases",
+      "count": 1
+    },
+    {
+      "component": "python-django-allauth",
       "count": 1
     }
   ],
@@ -354,22 +349,7 @@
     },
     {
       "components": [
-        "python-hupper",
-        "python-pyramid"
-      ],
-      "count": 5
-    },
-    {
-      "components": [
         "python-dask",
-        "python-partd"
-      ],
-      "count": 4
-    },
-    {
-      "components": [
-        "python-dask",
-        "python-partd",
         "python-reproject"
       ],
       "count": 2
@@ -377,8 +357,6 @@
     {
       "components": [
         "python-cornice",
-        "python-hupper",
-        "python-pyramid",
         "python-pyramid-mako"
       ],
       "count": 1
@@ -415,13 +393,6 @@
     },
     {
       "components": [
-        "pulp-cli",
-        "python-pytest-subtests"
-      ],
-      "count": 1
-    },
-    {
-      "components": [
         "python-xarray",
         "python-xarray-einstats"
       ],
@@ -446,7 +417,6 @@
       "components": [
         "python-dask",
         "python-distributed",
-        "python-partd",
         "python-xarray"
       ],
       "count": 1
@@ -471,16 +441,8 @@
     },
     {
       "components": [
-        "python-mongomock",
-        "python-sentinels"
-      ],
-      "count": 1
-    },
-    {
-      "components": [
         "python-dask",
-        "python-distributed",
-        "python-partd"
+        "python-distributed"
       ],
       "count": 1
     },
@@ -493,8 +455,42 @@
     },
     {
       "components": [
-        "python-huggingface-hub",
-        "python-llama-cpp-python"
+        "mailman3",
+        "python-lazr-config",
+        "python-lazr-delegates"
+      ],
+      "count": 1
+    },
+    {
+      "components": [
+        "python-django-allauth",
+        "python-django-extensions",
+        "python-django-mailman3",
+        "python-hyperkitty",
+        "python-postorius",
+        "python-readme-renderer"
+      ],
+      "count": 1
+    },
+    {
+      "components": [
+        "python-contextily",
+        "python-libpysal",
+        "python-rasterio"
+      ],
+      "count": 1
+    },
+    {
+      "components": [
+        "python-dask",
+        "python-pandas-datareader"
+      ],
+      "count": 1
+    },
+    {
+      "components": [
+        "python-elastic-transport",
+        "python-elasticsearch"
       ],
       "count": 1
     }

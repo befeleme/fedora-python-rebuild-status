@@ -219,14 +219,6 @@
       "jc fails to build with Python 3.15: AssertionError: 'format': 1760, != 'format': 7250,"
     ]
   },
-  "khal": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485713"
-    ],
-    "summaries": [
-      "F45FailsToInstall: khal"
-    ]
-  },
   "kitty": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2434730"
@@ -383,14 +375,6 @@
       "F45FailsToInstall: pg_activity"
     ]
   },
-  "pulp-cli": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485735"
-    ],
-    "summaries": [
-      "F45FailsToInstall: pulp-cli"
-    ]
-  },
   "pulp-cli-deb": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2485736"
@@ -439,14 +423,6 @@
     ],
     "summaries": [
       "pyqtwebengine: FTBFS in Fedora rawhide/f44"
-    ]
-  },
-  "python-OBD": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485743"
-    ],
-    "summaries": [
-      "F45FailsToInstall: python3-OBD"
     ]
   },
   "python-SALib": {
@@ -785,14 +761,6 @@
       "python-azure-mgmt-privatedns: FTBFS in Fedora Rawhide: No module named 'six'"
     ]
   },
-  "python-azure-mgmt-subscription": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485787"
-    ],
-    "summaries": [
-      "F45FailsToInstall: python3-azure-mgmt-subscription"
-    ]
-  },
   "python-azure-mgmt-support": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2485788"
@@ -1057,28 +1025,12 @@
       "F45FailsToInstall: python3-contextily"
     ]
   },
-  "python-cornice": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485840"
-    ],
-    "summaries": [
-      "F45FailsToInstall: python3-cornice"
-    ]
-  },
   "python-dask": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2485842"
     ],
     "summaries": [
       "F45FailsToInstall: python3-dask+array, python3-dask+bag, python3-dask+dataframe, python3-dask+delayed, python3-dask+distributed, python3-dask"
-    ]
-  },
-  "python-datasets": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485843"
-    ],
-    "summaries": [
-      "F45FailsToInstall: python3-datasets+torch, python3-datasets+vision, python3-datasets"
     ]
   },
   "python-distributed": {
@@ -1239,14 +1191,6 @@
       "F45FailsToInstall: python3-fitsio"
     ]
   },
-  "python-flask-security-too": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485866"
-    ],
-    "summaries": [
-      "F45FailsToInstall: python3-flask-security-too+babel, python3-flask-security-too+common, python3-flask-security-too+fsqla, python3-flask-security-too"
-    ]
-  },
   "python-fs": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2434982",
@@ -1255,14 +1199,6 @@
     "summaries": [
       "python-fs: FTBFS in Fedora rawhide/f44",
       "python-fs fails to build with Python 3.15: AttributeError: 'DocTestCase' object has no attribute '_test_result'"
-    ]
-  },
-  "python-gearbox": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485870"
-    ],
-    "summaries": [
-      "F45FailsToInstall: python3-gearbox"
     ]
   },
   "python-geopmpy": {
@@ -1296,32 +1232,6 @@
   "python-hdmf": {
     "urls": [],
     "summaries": []
-  },
-  "python-holidays": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485875"
-    ],
-    "summaries": [
-      "F45FailsToInstall: python3-holidays"
-    ]
-  },
-  "python-huggingface-hub": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2481411"
-    ],
-    "summaries": [
-      "python-huggingface-hub fails to build with Python 3.15: ImportError: cannot import name '_MISSING_TYPE' from 'dataclasses' (/usr/lib64/python3.15/dataclasses.py)"
-    ]
-  },
-  "python-hupper": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2434985",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2433885"
-    ],
-    "summaries": [
-      "python-hupper: FTBFS in Fedora rawhide/f44",
-      "python-hupper fails to build with Python 3.15: ModuleNotFoundError: No module named 'pytest_cov.embed'"
-    ]
   },
   "python-hyperkitty": {
     "urls": [
@@ -1399,22 +1309,6 @@
     ],
     "summaries": [
       "F45FailsToInstall: python3-linuxdoc"
-    ]
-  },
-  "python-llama-cpp-python": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485889"
-    ],
-    "summaries": [
-      "F45FailsToInstall: python3-llama-cpp-python"
-    ]
-  },
-  "python-logdetective": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485890"
-    ],
-    "summaries": [
-      "F45FailsToInstall: python3-logdetective+server, python3-logdetective"
     ]
   },
   "python-lsp-black": {
@@ -1555,14 +1449,6 @@
       "F45FailsToInstall: python3-mkdocs-test"
     ]
   },
-  "python-mongomock": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485908"
-    ],
-    "summaries": [
-      "F45FailsToInstall: python3-mongomock"
-    ]
-  },
   "python-mplcairo": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2466678"
@@ -1617,14 +1503,6 @@
     ],
     "summaries": [
       "F45FailsToInstall: python3-pandas-datareader"
-    ]
-  },
-  "python-partd": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2458729"
-    ],
-    "summaries": [
-      "python-partd fails to build with Python 3.15: NotImplementedError: (string[python], array(['a', 'b', 'c'], dtype=object)) in 5 tests"
     ]
   },
   "python-phply": {
@@ -1765,38 +1643,6 @@
       "python-pyone: FTBFS in Fedora rawhide/f44"
     ]
   },
-  "python-pyramid": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485936"
-    ],
-    "summaries": [
-      "F45FailsToInstall: python3-pyramid"
-    ]
-  },
-  "python-pyramid-fas-openid": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485937"
-    ],
-    "summaries": [
-      "F45FailsToInstall: python3-pyramid-fas-openid"
-    ]
-  },
-  "python-pyramid-mako": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485938"
-    ],
-    "summaries": [
-      "F45FailsToInstall: python3-pyramid-mako"
-    ]
-  },
-  "python-pyramid-tm": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485939"
-    ],
-    "summaries": [
-      "F45FailsToInstall: python3-pyramid-tm"
-    ]
-  },
   "python-pysdl2": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2435012",
@@ -1927,14 +1773,6 @@
       "F45FailsToInstall: python3-scales"
     ]
   },
-  "python-sentinels": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2481441"
-    ],
-    "summaries": [
-      "python-sentinels: FTBFS in Fedora Rawhide: TypeError: /builddir/build/BUILD/python-sentinels-1.1.1-build/sentinels-1.1.1/pyproject.toml: config option 'testpaths' expects a list for type 'args', got str: 'tests'"
-    ]
-  },
   "python-slackclient": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2485959"
@@ -1983,14 +1821,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-steampunk-spotter": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485966"
-    ],
-    "summaries": [
-      "F45FailsToInstall: python3-steampunk-spotter"
-    ]
-  },
   "python-streamlink": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2458672"
@@ -2015,14 +1845,6 @@
       "F45FailsToInstall: python3-tilestache"
     ]
   },
-  "python-tokenizers": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485970"
-    ],
-    "summaries": [
-      "F45FailsToInstall: python3-tokenizers"
-    ]
-  },
   "python-toml-cli": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2466662"
@@ -2036,7 +1858,7 @@
       "https://bugzilla.redhat.com/show_bug.cgi?id=2485972"
     ],
     "summaries": [
-      "F45FailsToInstall: python3-tpm2-pytss"
+      "F45FailsToInstall: python3-tpm2-pytss: TypeError: Can't instantiate abstract class tpm_ecc_private_key without an implementation for abstract method '__deepcopy__'"
     ]
   },
   "python-translitcodec": {
@@ -2195,14 +2017,6 @@
       "F45FailsToInstall: qtile-extras"
     ]
   },
-  "rebase-helper": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2460122"
-    ],
-    "summaries": [
-      "rebase-helper: FTBFS in Fedora Rawhide: AttributeError: 'CustomHelpFormatter' object has no attribute '_format_actions_usage'"
-    ]
-  },
   "renderdoc": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2414559"
@@ -2307,14 +2121,6 @@
       "usd fails to build with Python 3.15: /builddir/build/BUILD/usd-25.11-build/OpenUSD-25.11/pxr/base/tf/pyIdentity.cpp:139:16: error: \u2018PyWeakref_GetObject\u2019 was not declared in this scope; did you mean \u2018PyWeakref_GetRef\u2019?"
     ]
   },
-  "variety": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2486006"
-    ],
-    "summaries": [
-      "F45FailsToInstall: variety"
-    ]
-  },
   "veusz": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2486007",
@@ -2331,22 +2137,6 @@
     ],
     "summaries": [
       "xapian-bindings fails to build with Python 3.15: Fatal Python error: PyMutex_Unlock: unlocking mutex that is not locked"
-    ]
-  },
-  "xcfun": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2486009"
-    ],
-    "summaries": [
-      "F45FailsToInstall: python3-xcfun"
-    ]
-  },
-  "zfp": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2486010"
-    ],
-    "summaries": [
-      "F45FailsToInstall: python3-zfpy"
     ]
   }
 }
