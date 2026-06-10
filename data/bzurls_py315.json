@@ -37,28 +37,12 @@
       "F45FailsToInstall: python3-abiword"
     ]
   },
-  "alot": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2460533"
-    ],
-    "summaries": [
-      "alot fails to build with Python 3.15: TypeError: 'Mock' object cannot be interpreted as an integer"
-    ]
-  },
   "ansible-lint": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2481417"
     ],
     "summaries": [
       "ansible-lint fails to build with Python 3.15: ImportError: cannot import name '_MISSING_TYPE' from 'dataclasses' (/usr/lib64/python3.15/dataclasses.py)"
-    ]
-  },
-  "apbs": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485688"
-    ],
-    "summaries": [
-      "F45FailsToInstall: python3-apbs"
     ]
   },
   "arbor": {
@@ -365,14 +349,6 @@
     ],
     "summaries": [
       "petsc fails to build with Python 3.15: AssertionError: 2 != 3; self.assertEqual(getrefcount(context), 3)"
-    ]
-  },
-  "pg_activity": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485731"
-    ],
-    "summaries": [
-      "F45FailsToInstall: pg_activity"
     ]
   },
   "pulp-cli-deb": {
@@ -1111,14 +1087,6 @@
       "F45FailsToInstall: python3-elasticsearch"
     ]
   },
-  "python-environs": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485855"
-    ],
-    "summaries": [
-      "F45FailsToInstall: python3-environs+django, python3-environs"
-    ]
-  },
   "python-etcd": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2485856"
@@ -1503,14 +1471,6 @@
     ],
     "summaries": [
       "F45FailsToInstall: python3-pandas-datareader"
-    ]
-  },
-  "python-phply": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485920"
-    ],
-    "summaries": [
-      "F45FailsToInstall: python3-phply"
     ]
   },
   "python-platformio": {
@@ -1919,14 +1879,6 @@
       "python-vulture: FTBFS in Fedora rawhide/f44"
     ]
   },
-  "python-webrtcvad": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485980"
-    ],
-    "summaries": [
-      "F45FailsToInstall: python3-webrtcvad"
-    ]
-  },
   "python-xarray": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2485982",
@@ -2095,14 +2047,6 @@
     ],
     "summaries": [
       "F45FailsToInstall: tpm2-pkcs11-tools"
-    ]
-  },
-  "translate-toolkit": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2486003"
-    ],
-    "summaries": [
-      "F45FailsToInstall: translate-toolkit"
     ]
   },
   "ubertooth": {
