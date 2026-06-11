@@ -30,10 +30,6 @@
       ]
     },
     {
-      "component": "python-readme-renderer",
-      "count": 5
-    },
-    {
       "component": "python-django-allauth",
       "count": 4
     },
@@ -106,13 +102,6 @@
       "count": 2,
       "blocked_by": [
         "python-dask"
-      ]
-    },
-    {
-      "component": "python-twine",
-      "count": 2,
-      "blocked_by": [
-        "python-readme-renderer"
       ]
     },
     {
@@ -240,6 +229,17 @@
     {
       "component": "python-treq",
       "count": 1
+    },
+    {
+      "component": "pywbem",
+      "count": 1,
+      "blocked_by": [
+        "python-yamlloader"
+      ]
+    },
+    {
+      "component": "python-mkdocs-git-revision-date-localized-plugin",
+      "count": 1
     }
   ],
   "most_commonly_last_blocking": [
@@ -276,6 +276,10 @@
       ]
     },
     {
+      "component": "usd",
+      "count": 2
+    },
+    {
       "component": "python-eventlet",
       "count": 2
     },
@@ -285,10 +289,6 @@
     },
     {
       "component": "pyqtwebengine",
-      "count": 1
-    },
-    {
-      "component": "usd",
       "count": 1
     },
     {
@@ -379,8 +379,7 @@
     {
       "components": [
         "python-django-allauth",
-        "python-django-mailman3",
-        "python-readme-renderer"
+        "python-django-mailman3"
       ],
       "count": 1
     },
@@ -416,14 +415,6 @@
     },
     {
       "components": [
-        "python-elastic-transport",
-        "python-readme-renderer",
-        "python-twine"
-      ],
-      "count": 1
-    },
-    {
-      "components": [
         "python-exceptiongroup",
         "python-fakeredis",
         "python-lupa",
@@ -441,13 +432,6 @@
     },
     {
       "components": [
-        "python-readme-renderer",
-        "python-twine"
-      ],
-      "count": 1
-    },
-    {
-      "components": [
         "mailman3",
         "python-lazr-config",
         "python-lazr-delegates"
@@ -460,8 +444,7 @@
         "python-django-extensions",
         "python-django-mailman3",
         "python-hyperkitty",
-        "python-postorius",
-        "python-readme-renderer"
+        "python-postorius"
       ],
       "count": 1
     },
@@ -492,6 +475,20 @@
         "python-fakeredis",
         "python-lupa",
         "python-py-key-value"
+      ],
+      "count": 1
+    },
+    {
+      "components": [
+        "python-cartopy",
+        "python-xarray"
+      ],
+      "count": 1
+    },
+    {
+      "components": [
+        "python-dask",
+        "python-rasterio"
       ],
       "count": 1
     }

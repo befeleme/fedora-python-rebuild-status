@@ -63,10 +63,6 @@
       "F45FailsToInstall: azure-cli, python3-azure-cli-core, python3-azure-cli-telemetry, python3-azure-cli-testsdk"
     ]
   },
-  "blender": {
-    "urls": [],
-    "summaries": []
-  },
   "bluechi": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2485691"
@@ -184,8 +180,12 @@
     ]
   },
   "gnome-music": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2484390"
+    ],
+    "summaries": [
+      "F45FailsToInstall, FTBFS: gnome-music"
+    ]
   },
   "gnulib": {
     "urls": [
@@ -226,10 +226,6 @@
     "summaries": [
       "kmymoney fails to build with Python 3.15: /usr/include/python3.15/pyport.h:523:9: error: \u2018__STDC_VERSION__\u2019 is not defined, evaluates to \u20180\u2019 [-Werror=undef]"
     ]
-  },
-  "kvirc": {
-    "urls": [],
-    "summaries": []
   },
   "libloc": {
     "urls": [
@@ -341,22 +337,6 @@
     ],
     "summaries": [
       "openvino: FTBFS in Fedora Rawhide: resolution failed, missing gcc14 and gcc14-c++"
-    ]
-  },
-  "petsc": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2440567"
-    ],
-    "summaries": [
-      "petsc fails to build with Python 3.15: AssertionError: 2 != 3; self.assertEqual(getrefcount(context), 3)"
-    ]
-  },
-  "pulp-cli-deb": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485736"
-    ],
-    "summaries": [
-      "F45FailsToInstall: pulp-cli-deb"
     ]
   },
   "pychess": {
@@ -1541,14 +1521,6 @@
       "F45FailsToInstall: python3-pydocket"
     ]
   },
-  "python-pygeoif": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485929"
-    ],
-    "summaries": [
-      "F45FailsToInstall: python3-pygeoif"
-    ]
-  },
   "python-pyglet": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2485930"
@@ -1701,14 +1673,6 @@
       "F45FailsToInstall: python3-readchar"
     ]
   },
-  "python-readme-renderer": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2424573"
-    ],
-    "summaries": [
-      "python-readme-renderer fails to build with Python 3.15: test_cli_package: No content rendered from RST source."
-    ]
-  },
   "python-reproject": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2485952"
@@ -1813,14 +1777,6 @@
       "python-toml-cli: FTBFS in Fedora Rawhide: 2 tests fail"
     ]
   },
-  "python-tpm2-pytss": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485972"
-    ],
-    "summaries": [
-      "F45FailsToInstall: python3-tpm2-pytss: TypeError: Can't instantiate abstract class tpm_ecc_private_key without an implementation for abstract method '__deepcopy__'"
-    ]
-  },
   "python-translitcodec": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2414561"
@@ -1843,14 +1799,6 @@
     ],
     "summaries": [
       "F45FailsToInstall: python3-triton"
-    ]
-  },
-  "python-twine": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485976"
-    ],
-    "summaries": [
-      "F45FailsToInstall: twine"
     ]
   },
   "python-vascpy": {
@@ -1927,14 +1875,6 @@
     ],
     "summaries": [
       "F45FailsToInstall: python3-mallard-ducktype"
-    ]
-  },
-  "python3-pydo": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485989"
-    ],
-    "summaries": [
-      "F45FailsToInstall: python3-pydo"
     ]
   },
   "pywbem": {
@@ -2040,14 +1980,6 @@
   "toot": {
     "urls": [],
     "summaries": []
-  },
-  "tpm2-pkcs11": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2486002"
-    ],
-    "summaries": [
-      "F45FailsToInstall: tpm2-pkcs11-tools"
-    ]
   },
   "ubertooth": {
     "urls": [
