@@ -39,16 +39,20 @@ VERSIONS = {
 # Load data for each version
 for ver, config in VERSIONS.items():
     fs = config["file_suffix"]
-    all_to_build = sorted(load_data(config["base_packages"]))
-    all_to_build.remove(config["exclude_package"])
-    config["all_to_build"] = all_to_build
+    base_packages = load_data(config["base_packages"])
+    base_packages.discard(config["exclude_package"])
 
     config["successfully_rebuilt"] = load_data(config.get("success_file", f"data/python{fs}.pkgs"))
     config["failed"] = load_data(f"data/failed_py{fs}.pkgs")
     config["waiting"] = load_data(f"data/waiting_py{fs}.pkgs")
     config["bugzillas"] = load_json(f"data/bzurls_py{fs}.json")
 
-    if not config["koji_enabled"]:
+    if config["koji_enabled"]:
+        # In Koji mode, successfully rebuilt packages move out of base_packages
+        # into the success file, so the full tracking set is their union.
+        config["all_to_build"] = sorted(base_packages | config["successfully_rebuilt"])
+    else:
+        config["all_to_build"] = sorted(base_packages)
         config["all_in_copr"] = load_monitor_report(f"data/copr_py{fs}.pkgs")
 
 
