@@ -244,8 +244,12 @@
     ]
   },
   "librealsense": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2487850"
+    ],
+    "summaries": [
+      "F45FailsToInstall: python3-librealsense, python3-librealsense-devel"
+    ]
   },
   "libstoragemgmt": {
     "urls": [
@@ -1885,14 +1889,6 @@
       "F45FailsToInstall: python3-pywbem"
     ]
   },
-  "pywhispercpp": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2453825"
-    ],
-    "summaries": [
-      "pywhispercpp fails to build with setuptools_scm 10+"
-    ]
-  },
   "qtile": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2485992"
@@ -1978,8 +1974,12 @@
     ]
   },
   "toot": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2485529"
+    ],
+    "summaries": [
+      "F45FailsToInstall, FTBFS: toot: nothing provides requested (python3dist(urwid) >= 3 with python3dist(urwid) < 4)"
+    ]
   },
   "ubertooth": {
     "urls": [
