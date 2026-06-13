@@ -8,8 +8,12 @@
     ]
   },
   "Io-language": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2488337"
+    ],
+    "summaries": [
+      "Io-language FTBFS on i686 arch in Fedora Rawhide: install: cannot stat 'addons/Thread/_build/dll/libIoThread.so': No such file or directory"
+    ]
   },
   "Mayavi": {
     "urls": [
@@ -144,8 +148,12 @@
     ]
   },
   "dt-schema": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2484389"
+    ],
+    "summaries": [
+      "F45FailsToInstall: dt-schema"
+    ]
   },
   "emacs-jedi": {
     "urls": [
@@ -307,16 +315,6 @@
     ],
     "summaries": [
       "F45FailsToInstall: nagios-plugins-systemd"
-    ]
-  },
-  "net-snmp": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485725",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2480378"
-    ],
-    "summaries": [
-      "F45FailsToInstall: python3-net-snmp",
-      "net-snmp-5.9.5.2-4.fc45 FTBFS: \"Checking the Net-SNMP configure script validity\" test fails"
     ]
   },
   "noggin": {
@@ -754,8 +752,12 @@
     ]
   },
   "python-binary-manager": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2484398"
+    ],
+    "summaries": [
+      "F45FailsToInstall: python3-binary-manager"
+    ]
   },
   "python-bytecode": {
     "urls": [
@@ -1044,8 +1046,12 @@
     ]
   },
   "python-dtoc": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2484399"
+    ],
+    "summaries": [
+      "F45FailsToInstall: python3-dtoc"
+    ]
   },
   "python-einops": {
     "urls": [
@@ -1170,8 +1176,12 @@
     ]
   },
   "python-google-genai": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2440339"
+    ],
+    "summaries": [
+      "F45FailsToInstall: python3-google-genai+aiohttp"
+    ]
   },
   "python-grpc-google-iam-v1": {
     "urls": [
@@ -1182,8 +1192,12 @@
     ]
   },
   "python-hdmf": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2481162"
+    ],
+    "summaries": [
+      "F45FailsToInstall: python3-hdmf"
+    ]
   },
   "python-hyperkitty": {
     "urls": [
@@ -1204,8 +1218,12 @@
     ]
   },
   "python-imbalanced-learn": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2481163"
+    ],
+    "summaries": [
+      "F45FailsToInstall: python3-imbalanced-learn+optional"
+    ]
   },
   "python-inquirer": {
     "urls": [
@@ -1458,8 +1476,12 @@
     ]
   },
   "python-platformio": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2443536"
+    ],
+    "summaries": [
+      "F45FailsToInstall: python3-platformio"
+    ]
   },
   "python-pluginlib": {
     "urls": [
@@ -1542,8 +1564,12 @@
     ]
   },
   "python-pyinfra": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2476877"
+    ],
+    "summaries": [
+      "F45FailsToInstall: python3-pyinfra"
+    ]
   },
   "python-pylint-venv": {
     "urls": [
@@ -1661,14 +1687,6 @@
       "F45FailsToInstall: python3-qutepart"
     ]
   },
-  "python-rasterio": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485949"
-    ],
-    "summaries": [
-      "F45FailsToInstall: python3-rasterio+ipython, python3-rasterio+plot, python3-rasterio+s3, python3-rasterio"
-    ]
-  },
   "python-readchar": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2485950"
@@ -1710,8 +1728,12 @@
     ]
   },
   "python-snakemake-executor-plugin-slurm": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2488338"
+    ],
+    "summaries": [
+      "python-snakemake-executor-plugin-slurm: FTBFS in Fedora Rawhide: Problem: conflicting requests - nothing provides libhttp_parser.so.2()(64bit) needed by slurm-25.11.4-8.fc45.x86_64"
+    ]
   },
   "python-sphinx-argparse-cli": {
     "urls": [
@@ -1746,8 +1768,12 @@
     ]
   },
   "python-spyder-kernels": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2477817"
+    ],
+    "summaries": [
+      "F45FailsToInstall: python3-spyder-kernels"
+    ]
   },
   "python-streamlink": {
     "urls": [
@@ -1755,14 +1781,6 @@
     ],
     "summaries": [
       "python-streamlink fails to build with Python 3.15: test_help_color: TypeError: TestPrint._color.<locals>.<lambda>() got an unexpected keyword argument 'file'"
-    ]
-  },
-  "python-telegram-bot": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485968"
-    ],
-    "summaries": [
-      "F45FailsToInstall: Multiple packages built from python-telegram-bot"
     ]
   },
   "python-tilestache": {
@@ -1930,12 +1948,20 @@
     ]
   },
   "sherlock-project": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2481165"
+    ],
+    "summaries": [
+      "F45FailsToInstall: sherlock-project"
+    ]
   },
   "spyder": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2477818"
+    ],
+    "summaries": [
+      "F45FailsToInstall: python3-spyder"
+    ]
   },
   "sugar-datastore": {
     "urls": [
@@ -1954,8 +1980,12 @@
     ]
   },
   "syslog-ng": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2488340"
+    ],
+    "summaries": [
+      "syslog-ng: FTBFS in Fedora Rawhide: Problem: package protobuf-c-compiler-1.5.2-3.fc45.aarch64 from build requires libprotoc.so.33.5.0()(64bit), but none of the providers can be installed"
+    ]
   },
   "thefuck": {
     "urls": [
