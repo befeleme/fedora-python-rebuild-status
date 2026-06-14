@@ -5,16 +5,7 @@
       "count": 11,
       "blocked_by": [
         "python-dask",
-        "python-distributed",
-        "python-xarray"
-      ]
-    },
-    {
-      "component": "python-xarray",
-      "count": 8,
-      "blocked_by": [
-        "python-dask",
-        "python-rasterio"
+        "python-distributed"
       ]
     },
     {
@@ -50,10 +41,6 @@
     },
     {
       "component": "python-pytest-subtests",
-      "count": 3
-    },
-    {
-      "component": "python-rasterio",
       "count": 3
     },
     {
@@ -126,13 +113,6 @@
     {
       "component": "python-eventlet",
       "count": 2
-    },
-    {
-      "component": "python-libpysal",
-      "count": 2,
-      "blocked_by": [
-        "python-xarray"
-      ]
     },
     {
       "component": "python-cartopy",
@@ -240,24 +220,30 @@
     {
       "component": "python-mkdocs-git-revision-date-localized-plugin",
       "count": 1
+    },
+    {
+      "component": "python-nagiosplugin",
+      "count": 1
+    },
+    {
+      "component": "python-translitcodec",
+      "count": 1
+    },
+    {
+      "component": "python-sport-activities-features",
+      "count": 1,
+      "blocked_by": [
+        "python-geotiler"
+      ]
     }
   ],
   "most_commonly_last_blocking": [
     {
       "component": "python-dask",
-      "count": 4,
+      "count": 6,
       "blocked_by": [
         "python-dask",
-        "python-distributed",
-        "python-xarray"
-      ]
-    },
-    {
-      "component": "python-xarray",
-      "count": 4,
-      "blocked_by": [
-        "python-dask",
-        "python-rasterio"
+        "python-distributed"
       ]
     },
     {
@@ -281,6 +267,10 @@
     },
     {
       "component": "python-eventlet",
+      "count": 2
+    },
+    {
+      "component": "python-cartopy",
       "count": 2
     },
     {
@@ -308,13 +298,6 @@
       "count": 1
     },
     {
-      "component": "python-zoidberg",
-      "count": 1,
-      "blocked_by": [
-        "python-xarray"
-      ]
-    },
-    {
       "component": "certbot",
       "count": 1
     },
@@ -327,15 +310,19 @@
       "count": 1
     },
     {
-      "component": "python-rasterio",
-      "count": 1
-    },
-    {
       "component": "python-pytest-cases",
       "count": 1
     },
     {
       "component": "python-django-allauth",
+      "count": 1
+    },
+    {
+      "component": "python-elastic-transport",
+      "count": 1
+    },
+    {
+      "component": "python-lupa",
       "count": 1
     }
   ],
@@ -351,6 +338,13 @@
       "components": [
         "python-dask",
         "python-reproject"
+      ],
+      "count": 2
+    },
+    {
+      "components": [
+        "python-dask",
+        "python-distributed"
       ],
       "count": 2
     },
@@ -385,13 +379,6 @@
     },
     {
       "components": [
-        "python-xarray",
-        "python-xarray-einstats"
-      ],
-      "count": 1
-    },
-    {
-      "components": [
         "python-geotiler",
         "python-sport-activities-features"
       ],
@@ -407,26 +394,11 @@
     },
     {
       "components": [
-        "python-dask",
-        "python-distributed",
-        "python-xarray"
-      ],
-      "count": 1
-    },
-    {
-      "components": [
         "python-exceptiongroup",
         "python-fakeredis",
         "python-lupa",
         "python-py-key-value",
         "python-pydocket"
-      ],
-      "count": 1
-    },
-    {
-      "components": [
-        "python-dask",
-        "python-distributed"
       ],
       "count": 1
     },
@@ -450,14 +422,6 @@
     },
     {
       "components": [
-        "python-contextily",
-        "python-libpysal",
-        "python-rasterio"
-      ],
-      "count": 1
-    },
-    {
-      "components": [
         "python-dask",
         "python-pandas-datareader"
       ],
@@ -475,20 +439,6 @@
         "python-fakeredis",
         "python-lupa",
         "python-py-key-value"
-      ],
-      "count": 1
-    },
-    {
-      "components": [
-        "python-cartopy",
-        "python-xarray"
-      ],
-      "count": 1
-    },
-    {
-      "components": [
-        "python-dask",
-        "python-rasterio"
       ],
       "count": 1
     }
