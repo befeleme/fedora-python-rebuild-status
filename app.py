@@ -1,4 +1,5 @@
 import datetime
+import urllib
 
 from flask import Flask, render_template
 
@@ -302,6 +303,7 @@ def failures_py315():
         py315_status_failed=build_data["315"]["failed_report"],
         updated=updated,
         zip=zip,
+        urllib=urllib,
     )
 
 @app.route('/wheels_py315/')
