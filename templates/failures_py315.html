@@ -28,7 +28,7 @@
                 <td>{{ package_name }}</td>
                 <td>{{ detail["state"] }}</td>
                 <td>
-                    <a href="https://koji.fedoraproject.org/koji/search?terms={{ package_name }}&type=package&match=exact">
+                    <a href="https://koji.fedoraproject.org/koji/search?terms={{ urllib.parse.quote(package_name) }}&type=package&match=exact">
                         Koji - {{ package_name }}
                     </a>
                 </td>
