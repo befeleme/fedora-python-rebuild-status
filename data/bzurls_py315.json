@@ -67,14 +67,6 @@
       "F45FailsToInstall: azure-cli, python3-azure-cli-core, python3-azure-cli-telemetry, python3-azure-cli-testsdk"
     ]
   },
-  "bluechi": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485691"
-    ],
-    "summaries": [
-      "F45FailsToInstall: python3-bluechi"
-    ]
-  },
   "bodhi-server": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2458695"
@@ -341,14 +333,6 @@
     ],
     "summaries": [
       "F45FailsToInstall: python3-pygrib"
-    ]
-  },
-  "pylint": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2481413"
-    ],
-    "summaries": [
-      "pylint fails to build with Python 3.15: 4 test failures: ModuleNotFoundError: 'namespace_package' must be imported before finding 'namespace_package.lower_level'."
     ]
   },
   "pyp2rpm": {
@@ -963,36 +947,12 @@
       "F45FailsToInstall: python3-distributed"
     ]
   },
-  "python-django-allauth": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2458667"
-    ],
-    "summaries": [
-      "python-django-allauth fails to build with Python 3.15:  AssertionError: assert 'Flow.PROVIDER_SIGNUP' == 'provider_signup'"
-    ]
-  },
   "python-django-cacheops": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2458684"
     ],
     "summaries": [
       "python-django-cacheops fails to build with Python 3.15: IssueTests.test_365  and BasicTests.test_subquery fail"
-    ]
-  },
-  "python-django-extensions": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2458683"
-    ],
-    "summaries": [
-      "python-django-extensions fails to build with Python 3.15: TypeError: CheckConstraint.__init__() got an unexpected keyword argument 'check'"
-    ]
-  },
-  "python-django-mailman3": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485848"
-    ],
-    "summaries": [
-      "F45FailsToInstall: python3-django-mailman3"
     ]
   },
   "python-doit": {
@@ -1101,14 +1061,6 @@
       "F45FailsToInstall: python3-fields"
     ]
   },
-  "python-fitsio": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485865"
-    ],
-    "summaries": [
-      "F45FailsToInstall: python3-fitsio"
-    ]
-  },
   "python-fs": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2434982",
@@ -1157,14 +1109,6 @@
     ],
     "summaries": [
       "F45FailsToInstall: python3-hdmf"
-    ]
-  },
-  "python-hyperkitty": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485878"
-    ],
-    "summaries": [
-      "F45FailsToInstall: hyperkitty"
     ]
   },
   "python-hypothesmith": {
@@ -1241,22 +1185,6 @@
       "F45FailsToInstall: python3-lsp-black"
     ]
   },
-  "python-lsp-ruff": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485892"
-    ],
-    "summaries": [
-      "F45FailsToInstall: python3-lsp-ruff"
-    ]
-  },
-  "python-lsp-server": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485893"
-    ],
-    "summaries": [
-      "F45FailsToInstall: python3-lsp-server+all, python3-lsp-server"
-    ]
-  },
   "python-lupa": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2485894"
@@ -1271,14 +1199,6 @@
     ],
     "summaries": [
       "F45FailsToInstall: python3-mailman-hyperkitty"
-    ]
-  },
-  "python-mailman-web": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485896"
-    ],
-    "summaries": [
-      "F45FailsToInstall: python3-mailman-web"
     ]
   },
   "python-markdown-callouts": {
@@ -1427,28 +1347,12 @@
       "F45FailsToInstall: python3-platformio"
     ]
   },
-  "python-pocketlint": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485922"
-    ],
-    "summaries": [
-      "F45FailsToInstall: python3-pocketlint"
-    ]
-  },
   "python-poetry-plugin-export": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2485923"
     ],
     "summaries": [
       "F45FailsToInstall: python3-poetry-plugin-export"
-    ]
-  },
-  "python-postorius": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485924"
-    ],
-    "summaries": [
-      "F45FailsToInstall: postorius"
     ]
   },
   "python-psygnal": {
@@ -1505,22 +1409,6 @@
     ],
     "summaries": [
       "F45FailsToInstall: python3-pyinfra"
-    ]
-  },
-  "python-pylint-venv": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485932"
-    ],
-    "summaries": [
-      "F45FailsToInstall: python3-pylint-venv"
-    ]
-  },
-  "python-pyls-spyder": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485933"
-    ],
-    "summaries": [
-      "F45FailsToInstall: python3-pyls-spyder"
     ]
   },
   "python-pynwb": {
@@ -1735,14 +1623,6 @@
       "python-translitcodec fails to build with Python 3.15: 8 tests failing with LookupError: unknown encoding: translit/*"
     ]
   },
-  "python-treq": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2440191"
-    ],
-    "summaries": [
-      "[heads up] python-treq will fail to build with Sphinx 9+ in Fedora 45: sphinx.errors.SphinxError: cannot determine default role!"
-    ]
-  },
   "python-triton": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2485975"
@@ -1881,28 +1761,12 @@
       "F45FailsToInstall: supervisor"
     ]
   },
-  "syslog-ng": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2488340"
-    ],
-    "summaries": [
-      "syslog-ng: FTBFS in Fedora Rawhide: Problem: package protobuf-c-compiler-1.5.2-3.fc45.aarch64 from build requires libprotoc.so.33.5.0()(64bit), but none of the providers can be installed"
-    ]
-  },
   "thefuck": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2486000"
     ],
     "summaries": [
       "F45FailsToInstall: thefuck"
-    ]
-  },
-  "thonny": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2486001"
-    ],
-    "summaries": [
-      "F45FailsToInstall: thonny"
     ]
   },
   "toot": {
