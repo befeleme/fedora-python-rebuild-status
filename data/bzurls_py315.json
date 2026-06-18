@@ -1,12 +1,4 @@
 {
-  "APLpy": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485681"
-    ],
-    "summaries": [
-      "F45FailsToInstall: python3-APLpy"
-    ]
-  },
   "Io-language": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2488337"
@@ -81,14 +73,6 @@
     ],
     "summaries": [
       "F45FailsToInstall: python3-bout++-mpich, python3-bout++-openmpi"
-    ]
-  },
-  "buildbot": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485694"
-    ],
-    "summaries": [
-      "F45FailsToInstall: buildbot-master, buildbot-master-container, buildbot-master-ec2, buildbot-master-libvirt, buildbot-master-openstack, buildbot-worker, buildbot-www"
     ]
   },
   "certbot": {
@@ -735,14 +719,6 @@
       "F45FailsToInstall: python3-catkin_tools"
     ]
   },
-  "python-ccdproc": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485795"
-    ],
-    "summaries": [
-      "F45FailsToInstall: python3-ccdproc"
-    ]
-  },
   "python-cerberus": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2485796"
@@ -929,14 +905,6 @@
     ],
     "summaries": [
       "F45FailsToInstall: python3-conda-content-trust"
-    ]
-  },
-  "python-dask": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485842"
-    ],
-    "summaries": [
-      "F45FailsToInstall: python3-dask+array, python3-dask+bag, python3-dask+dataframe, python3-dask+delayed, python3-dask+distributed, python3-dask"
     ]
   },
   "python-distributed": {
@@ -1355,14 +1323,6 @@
       "F45FailsToInstall: python3-poetry-plugin-export"
     ]
   },
-  "python-psygnal": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485925"
-    ],
-    "summaries": [
-      "F45FailsToInstall: python3-psygnal"
-    ]
-  },
   "python-py-key-value": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2485926"
@@ -1519,28 +1479,12 @@
       "F45FailsToInstall: python3-readchar"
     ]
   },
-  "python-reproject": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485952"
-    ],
-    "summaries": [
-      "F45FailsToInstall: python3-reproject"
-    ]
-  },
   "python-rstr": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2414567"
     ],
     "summaries": [
       "python-rstr fails to build with Python 3.15: 3 errors when collecting tests: ModuleNotFoundError: No module named 'sre_parse'"
-    ]
-  },
-  "python-slackclient": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485959"
-    ],
-    "summaries": [
-      "F45FailsToInstall: python3-slackclient"
     ]
   },
   "python-snakemake-executor-plugin-slurm": {
