@@ -99,14 +99,6 @@
       "F45FailsToInstall: python3-conda-build"
     ]
   },
-  "dionaea": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2380545"
-    ],
-    "summaries": [
-      "dionaea: FTBFS with change proposal CMake 4.0"
-    ]
-  },
   "dnf-plugin-diff": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2433989"
@@ -163,14 +155,6 @@
       "F45FailsToInstall: python3-gnulib"
     ]
   },
-  "jc": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2424595"
-    ],
-    "summaries": [
-      "jc fails to build with Python 3.15: AssertionError: 'format': 1760, != 'format': 7250,"
-    ]
-  },
   "kitty": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2434730"
@@ -208,7 +192,7 @@
       "https://bugzilla.redhat.com/show_bug.cgi?id=2485717"
     ],
     "summaries": [
-      "F45FailsToInstall: python3-libmambapy"
+      "F45FTBFS, F45FailsToInstall: python3-libmambapy"
     ]
   },
   "librealsense": {
@@ -267,14 +251,6 @@
     ],
     "summaries": [
       "moose fails to build with Python 3.15: moose-core-3.1.5/pymoose/PyRun.h:58:24: error: \u2018Py_GetProgramName\u2019 was not declared in this scope; did you mean \u2018Py_SetProgramName\u2019?"
-    ]
-  },
-  "nagios-plugins-systemd": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485724"
-    ],
-    "summaries": [
-      "F45FailsToInstall: nagios-plugins-systemd"
     ]
   },
   "noggin": {
@@ -907,22 +883,6 @@
       "F45FailsToInstall: python3-conda-content-trust"
     ]
   },
-  "python-distributed": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485844"
-    ],
-    "summaries": [
-      "F45FailsToInstall: python3-distributed"
-    ]
-  },
-  "python-django-cacheops": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2458684"
-    ],
-    "summaries": [
-      "python-django-cacheops fails to build with Python 3.15: IssueTests.test_365  and BasicTests.test_subquery fail"
-    ]
-  },
   "python-doit": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2485851",
@@ -947,22 +907,6 @@
     ],
     "summaries": [
       "python-einops fails to build with Python 3.15: Import check einops.layers.torch: TypeError: Signature mismatch between <built-in function pack> and <function pack at 0x7fad3a117270>: (format, /, *values) != (fmt: 'bytes | str', /, *v: 'Any') -> 'bytes'"
-    ]
-  },
-  "python-elastic-transport": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2458681"
-    ],
-    "summaries": [
-      "python-elastic-transport fails to build with Python 3.15: ERROR: '\"function\"' is not a valid asyncio_default_fixture_loop_scope. Valid scopes are: function, class, module, package, session."
-    ]
-  },
-  "python-elasticsearch": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485854"
-    ],
-    "summaries": [
-      "F45FailsToInstall: python3-elasticsearch"
     ]
   },
   "python-etcd": {
@@ -1259,28 +1203,12 @@
       "python-mplcairo fails to build with Python 3.15: pybind11::handle::dec_ref() is being called while the GIL is either not held or invalid."
     ]
   },
-  "python-nagiosplugin": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485910"
-    ],
-    "summaries": [
-      "F45FailsToInstall: python3-nagiosplugin"
-    ]
-  },
   "python-nashpy": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2485911"
     ],
     "summaries": [
       "F45FailsToInstall: python3-nashpy"
-    ]
-  },
-  "python-neovim": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485912"
-    ],
-    "summaries": [
-      "F45FailsToInstall: python3-neovim"
     ]
   },
   "python-numpoly": {
@@ -1321,14 +1249,6 @@
     ],
     "summaries": [
       "F45FailsToInstall: python3-poetry-plugin-export"
-    ]
-  },
-  "python-py-key-value": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485926"
-    ],
-    "summaries": [
-      "F45FailsToInstall: Multiple packages built from python-py-key-value"
     ]
   },
   "python-pycparserext": {
@@ -1609,28 +1529,12 @@
       "F45FailsToInstall: python3-xbout"
     ]
   },
-  "python-yamlloader": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485985"
-    ],
-    "summaries": [
-      "F45FailsToInstall: python3-yamlloader"
-    ]
-  },
   "python3-mallard-ducktype": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2485988"
     ],
     "summaries": [
       "F45FailsToInstall: python3-mallard-ducktype"
-    ]
-  },
-  "pywbem": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485990"
-    ],
-    "summaries": [
-      "F45FailsToInstall: python3-pywbem"
     ]
   },
   "qtile": {
@@ -1695,14 +1599,6 @@
     ],
     "summaries": [
       "F45FailsToInstall: sugar-datastore"
-    ]
-  },
-  "supervisor": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485999"
-    ],
-    "summaries": [
-      "F45FailsToInstall: supervisor"
     ]
   },
   "thefuck": {

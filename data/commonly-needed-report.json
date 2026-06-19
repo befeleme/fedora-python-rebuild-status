@@ -29,10 +29,6 @@
       "count": 2
     },
     {
-      "component": "python-yamlloader",
-      "count": 2
-    },
-    {
       "component": "python-lazr-config",
       "count": 2,
       "blocked_by": [
@@ -44,20 +40,8 @@
       "count": 2
     },
     {
-      "component": "python-distributed",
-      "count": 2
-    },
-    {
-      "component": "python-elastic-transport",
-      "count": 2
-    },
-    {
       "component": "python-py-key-value",
-      "count": 2,
-      "blocked_by": [
-        "python-elastic-transport",
-        "python-elasticsearch"
-      ]
+      "count": 2
     },
     {
       "component": "python-fakeredis",
@@ -164,17 +148,10 @@
     },
     {
       "component": "pywbem",
-      "count": 1,
-      "blocked_by": [
-        "python-yamlloader"
-      ]
-    },
-    {
-      "component": "python-mkdocs-git-revision-date-localized-plugin",
       "count": 1
     },
     {
-      "component": "python-nagiosplugin",
+      "component": "python-mkdocs-git-revision-date-localized-plugin",
       "count": 1
     },
     {
@@ -228,6 +205,26 @@
     {
       "component": "python-readchar",
       "count": 1
+    },
+    {
+      "component": "python-cerberus",
+      "count": 1
+    },
+    {
+      "component": "python-hypothesmith",
+      "count": 1
+    },
+    {
+      "component": "gnulib",
+      "count": 1
+    },
+    {
+      "component": "mailman3",
+      "count": 1,
+      "blocked_by": [
+        "python-lazr-config",
+        "python-lazr-delegates"
+      ]
     }
   ],
   "most_commonly_last_blocking": [
@@ -237,10 +234,6 @@
     },
     {
       "component": "usd",
-      "count": 2
-    },
-    {
-      "component": "python-distributed",
       "count": 2
     },
     {
@@ -260,11 +253,11 @@
       "count": 1
     },
     {
-      "component": "python-mkdocs-git-revision-date-localized-plugin",
+      "component": "pywbem",
       "count": 1
     },
     {
-      "component": "python-nagiosplugin",
+      "component": "python-mkdocs-git-revision-date-localized-plugin",
       "count": 1
     },
     {
@@ -288,10 +281,6 @@
       "count": 1
     },
     {
-      "component": "python-elastic-transport",
-      "count": 1
-    },
-    {
       "component": "python-lupa",
       "count": 1
     },
@@ -310,6 +299,14 @@
     {
       "component": "python-lazr-delegates",
       "count": 1
+    },
+    {
+      "component": "python-hypothesmith",
+      "count": 1
+    },
+    {
+      "component": "gnulib",
+      "count": 1
     }
   ],
   "most_commonly_last_blocking_combinations": [
@@ -319,13 +316,6 @@
         "libmamba"
       ],
       "count": 5
-    },
-    {
-      "components": [
-        "python-yamlloader",
-        "pywbem"
-      ],
-      "count": 1
     },
     {
       "components": [
@@ -364,13 +354,6 @@
         "mailman3",
         "python-lazr-config",
         "python-lazr-delegates"
-      ],
-      "count": 1
-    },
-    {
-      "components": [
-        "python-elastic-transport",
-        "python-elasticsearch"
       ],
       "count": 1
     },
