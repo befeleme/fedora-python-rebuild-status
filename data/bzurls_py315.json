@@ -67,14 +67,6 @@
       "bodhi-server fails to build with Python 3.15: Test run ends with: = 3 failed, 604 errors  ="
     ]
   },
-  "bout++": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485693"
-    ],
-    "summaries": [
-      "F45FailsToInstall: python3-bout++-mpich, python3-bout++-openmpi"
-    ]
-  },
   "certbot": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2466655"
@@ -203,14 +195,6 @@
       "F45FailsToInstall: python3-librealsense, python3-librealsense-devel"
     ]
   },
-  "libstoragemgmt": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485718"
-    ],
-    "summaries": [
-      "F45FailsToInstall: python3-libstoragemgmt, libstoragemgmt-arcconf-plugin, libstoragemgmt-hpsa-plugin, libstoragemgmt-local-plugin, libstoragemgmt-megaraid-plugin, libstoragemgmt-nfs-plugin, libstoragemgmt-smis-plugin, libstoragemgmt-targetd-plugin"
-    ]
-  },
   "mailman3": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2485719"
@@ -267,14 +251,6 @@
     ],
     "summaries": [
       "ocrmypdf fails to build with Python 3.15: test_xml_metadata_preserved: AssertionError: acquired unexpected property dc:title with value 'Untitled'"
-    ]
-  },
-  "openvino": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2460557"
-    ],
-    "summaries": [
-      "openvino: FTBFS in Fedora Rawhide: resolution failed, missing gcc14 and gcc14-c++"
     ]
   },
   "pychess": {
@@ -925,14 +901,6 @@
       "F45FailsToInstall: python3-eth-event"
     ]
   },
-  "python-eventlet": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2481419"
-    ],
-    "summaries": [
-      "python-eventlet fails to build with Python 3.15: AssertionError: 15 != 10 : Error in import line from /usr/lib/python3.15/site-packages/sphinxcontrib_apidoc-0.6.0-py3.15-nspkg.pth: import sys, types, os;p = os.path.join(sys._getframe(1).f_locals['sitedir'"
-    ]
-  },
   "python-exceptiongroup": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2423878"
@@ -1235,14 +1203,6 @@
       "F45FailsToInstall: python3-pandas-datareader"
     ]
   },
-  "python-platformio": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2443536"
-    ],
-    "summaries": [
-      "F45FailsToInstall: python3-platformio"
-    ]
-  },
   "python-poetry-plugin-export": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2485923"
@@ -1415,28 +1375,12 @@
       "python-snakemake-executor-plugin-slurm: FTBFS in Fedora Rawhide: Problem: conflicting requests - nothing provides libhttp_parser.so.2()(64bit) needed by slurm-25.11.4-8.fc45.x86_64"
     ]
   },
-  "python-sphinx-argparse-cli": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2440188"
-    ],
-    "summaries": [
-      "[heads up] python-sphinx-argparse-cli will fail to build with Sphinx 9+ in Fedora 45: ModuleNotFoundError: No module named 'sphinx.testing.path'"
-    ]
-  },
   "python-sphinx-kr-theme": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2485962"
     ],
     "summaries": [
       "F45FailsToInstall: python3-sphinx-kr-theme"
-    ]
-  },
-  "python-sphinxcontrib-chapeldomain": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485963"
-    ],
-    "summaries": [
-      "F45FailsToInstall: python3-sphinxcontrib-chapeldomain"
     ]
   },
   "python-sport-activities-features": {
@@ -1519,14 +1463,6 @@
     "summaries": [
       "F45FailsToInstall: python3-vulture",
       "python-vulture: FTBFS in Fedora rawhide/f44"
-    ]
-  },
-  "python-xbout": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485984"
-    ],
-    "summaries": [
-      "F45FailsToInstall: python3-xbout"
     ]
   },
   "python3-mallard-ducktype": {
