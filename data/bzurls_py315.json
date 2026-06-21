@@ -33,14 +33,6 @@
       "F45FailsToInstall: python3-abiword"
     ]
   },
-  "ansible-lint": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2481417"
-    ],
-    "summaries": [
-      "ansible-lint fails to build with Python 3.15: ImportError: cannot import name '_MISSING_TYPE' from 'dataclasses' (/usr/lib64/python3.15/dataclasses.py)"
-    ]
-  },
   "arbor": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2485689",
@@ -901,14 +893,6 @@
       "F45FailsToInstall: python3-eth-event"
     ]
   },
-  "python-exceptiongroup": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2423878"
-    ],
-    "summaries": [
-      "python-exceptiongroup fails to build with Python 3.15: assert \"BaseExceptionGroup('foo', [ValueError(1), KeyboardInterrupt()])\" == \"BaseExceptionGroup('foo', [ValueError(1), KeyboardInterrupt(), KeyError('bar')])\""
-    ]
-  },
   "python-exiv2": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2440690"
@@ -1429,14 +1413,6 @@
     ],
     "summaries": [
       "python-translitcodec fails to build with Python 3.15: 8 tests failing with LookupError: unknown encoding: translit/*"
-    ]
-  },
-  "python-triton": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485975"
-    ],
-    "summaries": [
-      "F45FailsToInstall: python3-triton"
     ]
   },
   "python-vascpy": {
