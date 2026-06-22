@@ -67,22 +67,6 @@
       "certbot fails to build with Python 3.15: FutureWarning: invalid character '+' in URL-safe Base64 data will be discarded in future Python versions"
     ]
   },
-  "conda": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485698"
-    ],
-    "summaries": [
-      "F45FailsToInstall: python3-conda"
-    ]
-  },
-  "conda-build": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485699"
-    ],
-    "summaries": [
-      "F45FailsToInstall: python3-conda-build"
-    ]
-  },
   "dnf-plugin-diff": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2433989"
@@ -171,14 +155,6 @@
       "F45FailsToInstall: python3-libloc"
     ]
   },
-  "libmamba": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485717"
-    ],
-    "summaries": [
-      "F45FTBFS, F45FailsToInstall: python3-libmambapy"
-    ]
-  },
   "librealsense": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2487850"
@@ -253,14 +229,6 @@
     "summaries": [
       "F45FailsToInstall: pychess",
       "pychess: FTBFS in Fedora rawhide/f44"
-    ]
-  },
-  "pygrib": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485738"
-    ],
-    "summaries": [
-      "F45FailsToInstall: python3-pygrib"
     ]
   },
   "pyp2rpm": {
@@ -1543,16 +1511,6 @@
     ],
     "summaries": [
       "usd fails to build with Python 3.15: /builddir/build/BUILD/usd-25.11-build/OpenUSD-25.11/pxr/base/tf/pyIdentity.cpp:139:16: error: \u2018PyWeakref_GetObject\u2019 was not declared in this scope; did you mean \u2018PyWeakref_GetRef\u2019?"
-    ]
-  },
-  "veusz": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2486007",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2435212"
-    ],
-    "summaries": [
-      "F45FailsToInstall: veusz",
-      "veusz: FTBFS in Fedora rawhide/f44"
     ]
   },
   "xapian-bindings": {

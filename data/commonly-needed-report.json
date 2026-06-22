@@ -1,15 +1,10 @@
 {
   "most_commonly_needed": [
     {
-      "component": "libmamba",
-      "count": 7
-    },
-    {
       "component": "conda",
       "count": 6,
       "blocked_by": [
-        "conda",
-        "libmamba"
+        "conda"
       ]
     },
     {
@@ -165,16 +160,11 @@
       "component": "conda-build",
       "count": 1,
       "blocked_by": [
-        "conda",
-        "libmamba"
+        "conda"
       ]
     },
     {
       "component": "python-pytest-cases",
-      "count": 1
-    },
-    {
-      "component": "python-exceptiongroup",
       "count": 1
     },
     {
@@ -227,9 +217,27 @@
     {
       "component": "python-toml-cli",
       "count": 1
+    },
+    {
+      "component": "python-pandas-datareader",
+      "count": 1
+    },
+    {
+      "component": "python-questionary",
+      "count": 1,
+      "blocked_by": [
+        "python-questionary"
+      ]
     }
   ],
   "most_commonly_last_blocking": [
+    {
+      "component": "conda",
+      "count": 5,
+      "blocked_by": [
+        "conda"
+      ]
+    },
     {
       "component": "python-pytest-subtests",
       "count": 3
@@ -264,10 +272,6 @@
     },
     {
       "component": "python-numpoly",
-      "count": 1
-    },
-    {
-      "component": "libmamba",
       "count": 1
     },
     {
@@ -317,13 +321,6 @@
   "most_commonly_last_blocking_combinations": [
     {
       "components": [
-        "conda",
-        "libmamba"
-      ],
-      "count": 5
-    },
-    {
-      "components": [
         "python-lazr-config",
         "python-lazr-delegates"
       ],
@@ -339,14 +336,12 @@
     {
       "components": [
         "conda",
-        "conda-build",
-        "libmamba"
+        "conda-build"
       ],
       "count": 1
     },
     {
       "components": [
-        "python-exceptiongroup",
         "python-fakeredis",
         "python-lupa",
         "python-pydocket"
