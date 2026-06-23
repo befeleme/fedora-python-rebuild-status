@@ -1,17 +1,6 @@
 {
   "most_commonly_needed": [
     {
-      "component": "conda",
-      "count": 6,
-      "blocked_by": [
-        "conda"
-      ]
-    },
-    {
-      "component": "python-lazr-delegates",
-      "count": 3
-    },
-    {
       "component": "python-pytest-subtests",
       "count": 3
     },
@@ -22,13 +11,6 @@
     {
       "component": "usd",
       "count": 2
-    },
-    {
-      "component": "python-lazr-config",
-      "count": 2,
-      "blocked_by": [
-        "python-lazr-delegates"
-      ]
     },
     {
       "component": "python-geotiler",
@@ -48,10 +30,6 @@
     {
       "component": "xapian-bindings",
       "count": 2
-    },
-    {
-      "component": "pyqtwebengine",
-      "count": 1
     },
     {
       "component": "python-azure-data-tables",
@@ -157,13 +135,6 @@
       "count": 1
     },
     {
-      "component": "conda-build",
-      "count": 1,
-      "blocked_by": [
-        "conda"
-      ]
-    },
-    {
       "component": "python-pytest-cases",
       "count": 1
     },
@@ -197,11 +168,7 @@
     },
     {
       "component": "mailman3",
-      "count": 1,
-      "blocked_by": [
-        "python-lazr-config",
-        "python-lazr-delegates"
-      ]
+      "count": 1
     },
     {
       "component": "python-mathics-scanner",
@@ -228,16 +195,21 @@
       "blocked_by": [
         "python-questionary"
       ]
+    },
+    {
+      "component": "python-sphinx-kr-theme",
+      "count": 1
+    },
+    {
+      "component": "qtile",
+      "count": 1
+    },
+    {
+      "component": "python-rstr",
+      "count": 1
     }
   ],
   "most_commonly_last_blocking": [
-    {
-      "component": "conda",
-      "count": 5,
-      "blocked_by": [
-        "conda"
-      ]
-    },
     {
       "component": "python-pytest-subtests",
       "count": 3
@@ -253,10 +225,6 @@
     {
       "component": "xapian-bindings",
       "count": 2
-    },
-    {
-      "component": "pyqtwebengine",
-      "count": 1
     },
     {
       "component": "python-mkdocs-git-revision-date-localized-plugin",
@@ -295,15 +263,15 @@
       "count": 1
     },
     {
-      "component": "python-lazr-delegates",
-      "count": 1
-    },
-    {
       "component": "python-hypothesmith",
       "count": 1
     },
     {
       "component": "gnulib",
+      "count": 1
+    },
+    {
+      "component": "mailman3",
       "count": 1
     },
     {
@@ -316,16 +284,17 @@
       "blocked_by": [
         "python-toml-cli"
       ]
+    },
+    {
+      "component": "python-toml-cli",
+      "count": 1
+    },
+    {
+      "component": "python-pandas-datareader",
+      "count": 1
     }
   ],
   "most_commonly_last_blocking_combinations": [
-    {
-      "components": [
-        "python-lazr-config",
-        "python-lazr-delegates"
-      ],
-      "count": 1
-    },
     {
       "components": [
         "python-geotiler",
@@ -335,24 +304,9 @@
     },
     {
       "components": [
-        "conda",
-        "conda-build"
-      ],
-      "count": 1
-    },
-    {
-      "components": [
         "python-fakeredis",
         "python-lupa",
         "python-pydocket"
-      ],
-      "count": 1
-    },
-    {
-      "components": [
-        "mailman3",
-        "python-lazr-config",
-        "python-lazr-delegates"
       ],
       "count": 1
     },

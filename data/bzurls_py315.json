@@ -17,14 +17,6 @@
       "Mayavi: FTBFS in Fedora rawhide/f44"
     ]
   },
-  "OpenLP": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485683"
-    ],
-    "summaries": [
-      "F45FailsToInstall: OpenLP"
-    ]
-  },
   "abiword": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2485684"
@@ -163,14 +155,6 @@
       "F45FailsToInstall: python3-librealsense, python3-librealsense-devel"
     ]
   },
-  "mailman3": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485719"
-    ],
-    "summaries": [
-      "F45FailsToInstall: mailman3"
-    ]
-  },
   "mailman3-fedmsg-plugin": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2434808"
@@ -237,14 +221,6 @@
     ],
     "summaries": [
       "pyp2rpm fails to build with Python 3.15: ModuleNotFoundError: No module named 'sre_constants'"
-    ]
-  },
-  "pyqtwebengine": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2434945"
-    ],
-    "summaries": [
-      "pyqtwebengine: FTBFS in Fedora rawhide/f44"
     ]
   },
   "python-SALib": {
@@ -811,14 +787,6 @@
       "python-colcon-ros-domain-id-coordinator: FTBFS in Fedora rawhide/f44"
     ]
   },
-  "python-conda-content-trust": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485837"
-    ],
-    "summaries": [
-      "F45FailsToInstall: python3-conda-content-trust"
-    ]
-  },
   "python-doit": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2485851",
@@ -983,22 +951,6 @@
     ],
     "summaries": [
       "python-kaptan fails to build with Python 3.15: AttributeError: 'SourceFileLoader' object has no attribute 'load_module'. Did you mean: 'exec_module'? in test_py_file_handler and test_py_file_away_handler"
-    ]
-  },
-  "python-lazr-config": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485884"
-    ],
-    "summaries": [
-      "F45FailsToInstall: python3-lazr-config"
-    ]
-  },
-  "python-lazr-delegates": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485885"
-    ],
-    "summaries": [
-      "F45FailsToInstall: python3-lazr-delegates"
     ]
   },
   "python-linuxdoc": {
