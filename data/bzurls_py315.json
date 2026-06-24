@@ -231,14 +231,6 @@
       "python-SALib: FTBFS in Fedora rawhide/f44"
     ]
   },
-  "python-TestSlide": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485745"
-    ],
-    "summaries": [
-      "F45FailsToInstall: python3-testslide"
-    ]
-  },
   "python-XStatic": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2485746"
@@ -367,22 +359,6 @@
       "F45FailsToInstall: python3-azure-data-tables"
     ]
   },
-  "python-azure-loganalytics": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485765"
-    ],
-    "summaries": [
-      "F45FailsToInstall: python3-azure-loganalytics"
-    ]
-  },
-  "python-azure-mgmt-advisor": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485766"
-    ],
-    "summaries": [
-      "F45FailsToInstall: python3-azure-mgmt-advisor"
-    ]
-  },
   "python-azure-mgmt-applicationinsights": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2485767"
@@ -399,44 +375,12 @@
       "F45FailsToInstall: python3-azure-mgmt-batchai"
     ]
   },
-  "python-azure-mgmt-billing": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485769"
-    ],
-    "summaries": [
-      "F45FailsToInstall: python3-azure-mgmt-billing"
-    ]
-  },
   "python-azure-mgmt-cdn": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2485770"
     ],
     "summaries": [
       "F45FailsToInstall: python3-azure-mgmt-cdn"
-    ]
-  },
-  "python-azure-mgmt-consumption": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485771"
-    ],
-    "summaries": [
-      "F45FailsToInstall: python3-azure-mgmt-consumption"
-    ]
-  },
-  "python-azure-mgmt-databoxedge": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485772"
-    ],
-    "summaries": [
-      "F45FailsToInstall: python3-azure-mgmt-databoxedge"
-    ]
-  },
-  "python-azure-mgmt-datamigration": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2454250"
-    ],
-    "summaries": [
-      "python-azure-mgmt-datamigration (and others) fail to build in Fedora Rawhide: TypeError: Permissions.__init__() got an unexpected keyword argument 'keys'"
     ]
   },
   "python-azure-mgmt-devtestlabs": {
@@ -837,20 +781,12 @@
       "python-exiv2 fails to build with Python 3.15: error: \u2018PyWeakref_GetObject\u2019 was not declared in this scope; did you mean \u2018PyWeakref_GetRef\u2019?"
     ]
   },
-  "python-fakeredis": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485862"
-    ],
-    "summaries": [
-      "F45FailsToInstall: python3-fakeredis+json, python3-fakeredis+lua, python3-fakeredis+valkey, python3-fakeredis+vectorset, python3-fakeredis"
-    ]
-  },
   "python-fastmcp": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2485863"
     ],
     "summaries": [
-      "F45FailsToInstall: python3-fastmcp+openai, python3-fastmcp"
+      "FTBFS, F45FailsToInstall: python3-fastmcp+openai, python3-fastmcp"
     ]
   },
   "python-fields": {
@@ -967,22 +903,6 @@
     ],
     "summaries": [
       "F45FailsToInstall: python3-lsp-black"
-    ]
-  },
-  "python-lupa": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485894"
-    ],
-    "summaries": [
-      "F45FailsToInstall: python3-lupa"
-    ]
-  },
-  "python-mailman-hyperkitty": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485895"
-    ],
-    "summaries": [
-      "F45FailsToInstall: python3-mailman-hyperkitty"
     ]
   },
   "python-markdown-callouts": {
@@ -1123,14 +1043,6 @@
       "F45FailsToInstall: python3-pycparserext"
     ]
   },
-  "python-pydocket": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485928"
-    ],
-    "summaries": [
-      "F45FailsToInstall: python3-pydocket"
-    ]
-  },
   "python-pyglet": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2485930"
@@ -1198,10 +1110,6 @@
     "summaries": [
       "F45FailsToInstall: python3-pytest-cases"
     ]
-  },
-  "python-pytest-subtests": {
-    "urls": [],
-    "summaries": []
   },
   "python-pytest-tldr": {
     "urls": [
@@ -1277,14 +1185,6 @@
     ],
     "summaries": [
       "python-snakemake-executor-plugin-slurm: FTBFS in Fedora Rawhide: Problem: conflicting requests - nothing provides libhttp_parser.so.2()(64bit) needed by slurm-25.11.4-8.fc45.x86_64"
-    ]
-  },
-  "python-sphinx-kr-theme": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485962"
-    ],
-    "summaries": [
-      "F45FailsToInstall: python3-sphinx-kr-theme"
     ]
   },
   "python-sport-activities-features": {

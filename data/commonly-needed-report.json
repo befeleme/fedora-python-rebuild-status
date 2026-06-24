@@ -5,23 +5,12 @@
       "count": 3
     },
     {
-      "component": "python-lupa",
-      "count": 3
-    },
-    {
       "component": "usd",
       "count": 2
     },
     {
       "component": "python-geotiler",
       "count": 2
-    },
-    {
-      "component": "python-fakeredis",
-      "count": 2,
-      "blocked_by": [
-        "python-lupa"
-      ]
     },
     {
       "component": "python-cartopy",
@@ -33,10 +22,6 @@
     },
     {
       "component": "python-azure-data-tables",
-      "count": 1
-    },
-    {
-      "component": "python-azure-mgmt-advisor",
       "count": 1
     },
     {
@@ -53,10 +38,6 @@
     },
     {
       "component": "python-azure-mgmt-cdn",
-      "count": 1
-    },
-    {
-      "component": "python-azure-mgmt-datamigration",
       "count": 1
     },
     {
@@ -139,14 +120,6 @@
       "count": 1
     },
     {
-      "component": "python-pydocket",
-      "count": 1,
-      "blocked_by": [
-        "python-fakeredis",
-        "python-lupa"
-      ]
-    },
-    {
       "component": "python-astroquery",
       "count": 1
     },
@@ -164,10 +137,6 @@
     },
     {
       "component": "gnulib",
-      "count": 1
-    },
-    {
-      "component": "mailman3",
       "count": 1
     },
     {
@@ -195,10 +164,6 @@
       "blocked_by": [
         "python-questionary"
       ]
-    },
-    {
-      "component": "python-sphinx-kr-theme",
-      "count": 1
     },
     {
       "component": "qtile",
@@ -247,10 +212,6 @@
       "count": 1
     },
     {
-      "component": "python-lupa",
-      "count": 1
-    },
-    {
       "component": "python-astroquery",
       "count": 1
     },
@@ -271,10 +232,6 @@
       "count": 1
     },
     {
-      "component": "mailman3",
-      "count": 1
-    },
-    {
       "component": "python-mathics-scanner",
       "count": 1
     },
@@ -292,6 +249,17 @@
     {
       "component": "python-pandas-datareader",
       "count": 1
+    },
+    {
+      "component": "python-questionary",
+      "count": 1,
+      "blocked_by": [
+        "python-questionary"
+      ]
+    },
+    {
+      "component": "python-geotiler",
+      "count": 1
     }
   ],
   "most_commonly_last_blocking_combinations": [
@@ -299,21 +267,6 @@
       "components": [
         "python-geotiler",
         "python-sport-activities-features"
-      ],
-      "count": 1
-    },
-    {
-      "components": [
-        "python-fakeredis",
-        "python-lupa",
-        "python-pydocket"
-      ],
-      "count": 1
-    },
-    {
-      "components": [
-        "python-fakeredis",
-        "python-lupa"
       ],
       "count": 1
     }
