@@ -99,14 +99,6 @@
       "F45FailsToInstall: python3-ginga+qt5, python3-ginga+recommended, python3-ginga"
     ]
   },
-  "gnome-music": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2484390"
-    ],
-    "summaries": [
-      "F45FailsToInstall, FTBFS: gnome-music"
-    ]
-  },
   "gnulib": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2485708"
@@ -725,14 +717,6 @@
       "F45FailsToInstall: python3-dtoc"
     ]
   },
-  "python-einops": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2466673"
-    ],
-    "summaries": [
-      "python-einops fails to build with Python 3.15: Import check einops.layers.torch: TypeError: Signature mismatch between <built-in function pack> and <function pack at 0x7fad3a117270>: (format, /, *values) != (fmt: 'bytes | str', /, *v: 'Any') -> 'bytes'"
-    ]
-  },
   "python-etcd": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2485856"
@@ -813,14 +797,6 @@
     ],
     "summaries": [
       "F45FailsToInstall: python3-grpc-google-iam-v1"
-    ]
-  },
-  "python-hdmf": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2481162"
-    ],
-    "summaries": [
-      "F45FailsToInstall: python3-hdmf"
     ]
   },
   "python-hypothesmith": {
@@ -1035,14 +1011,6 @@
       "F45FailsToInstall: python3-pyinfra"
     ]
   },
-  "python-pynwb": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2453852"
-    ],
-    "summaries": [
-      "python-pynwb fails to build with Python 3.15: test_outer_import_structure: AssertionError: '__cached__' not found in ..."
-    ]
-  },
   "python-pyone": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2485935",
@@ -1161,14 +1129,6 @@
     ],
     "summaries": [
       "F45FailsToInstall: python3-spyder-kernels"
-    ]
-  },
-  "python-streamlink": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2458672"
-    ],
-    "summaries": [
-      "python-streamlink fails to build with Python 3.15: test_help_color: TypeError: TestPrint._color.<locals>.<lambda>() got an unexpected keyword argument 'file'"
     ]
   },
   "python-tilestache": {
