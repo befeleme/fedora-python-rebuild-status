@@ -162,10 +162,6 @@
       "count": 1
     },
     {
-      "component": "python-pandas-datareader",
-      "count": 1
-    },
-    {
       "component": "python-questionary",
       "count": 1,
       "blocked_by": [
@@ -262,8 +258,11 @@
       "count": 1
     },
     {
-      "component": "python-pandas-datareader",
-      "count": 1
+      "component": "python-questionary",
+      "count": 1,
+      "blocked_by": [
+        "python-questionary"
+      ]
     }
   ],
   "most_commonly_last_blocking_combinations": [
