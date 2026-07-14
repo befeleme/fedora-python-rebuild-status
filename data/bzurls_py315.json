@@ -891,14 +891,6 @@
       "F45FailsToInstall: python3-qutepart"
     ]
   },
-  "python-rstr": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2414567"
-    ],
-    "summaries": [
-      "python-rstr fails to build with Python 3.15: 3 errors when collecting tests: ModuleNotFoundError: No module named 'sre_parse'"
-    ]
-  },
   "python-snakemake-executor-plugin-slurm": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2488338"
@@ -987,14 +979,6 @@
     ],
     "summaries": [
       "F45FailsToInstall: qtile-extras"
-    ]
-  },
-  "reprotest": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485995"
-    ],
-    "summaries": [
-      "F45FailsToInstall: reprotest"
     ]
   },
   "roca-detect": {
