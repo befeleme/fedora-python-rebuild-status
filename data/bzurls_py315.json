@@ -507,16 +507,6 @@
       "python-colcon-ros-domain-id-coordinator: FTBFS in Fedora rawhide/f44"
     ]
   },
-  "python-doit": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485851",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2434978"
-    ],
-    "summaries": [
-      "F45FailsToInstall: python3-doit",
-      "python-doit: FTBFS in Fedora rawhide/f44"
-    ]
-  },
   "python-dtoc": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2484399"
@@ -639,14 +629,6 @@
     ],
     "summaries": [
       "F45FailsToInstall: python3-linuxdoc"
-    ]
-  },
-  "python-lsp-black": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485891"
-    ],
-    "summaries": [
-      "F45FailsToInstall: python3-lsp-black"
     ]
   },
   "python-markdown-callouts": {
@@ -1035,14 +1017,6 @@
     ],
     "summaries": [
       "usd fails to build with Python 3.15: /builddir/build/BUILD/usd-25.11-build/OpenUSD-25.11/pxr/base/tf/pyIdentity.cpp:139:16: error: \u2018PyWeakref_GetObject\u2019 was not declared in this scope; did you mean \u2018PyWeakref_GetRef\u2019?"
-    ]
-  },
-  "xapian-bindings": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2417021"
-    ],
-    "summaries": [
-      "xapian-bindings fails to build with Python 3.15: Fatal Python error: PyMutex_Unlock: unlocking mutex that is not locked"
     ]
   }
 }
