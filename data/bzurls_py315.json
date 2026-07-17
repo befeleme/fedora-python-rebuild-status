@@ -681,14 +681,6 @@
       "python-meshio: FTBFS in Fedora Rawhide: binascii.Error: Invalid base64-encoded string: number of data characters (8889) cannot be 1 more than a multiple of 4"
     ]
   },
-  "python-mirrors-countme": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2424567"
-    ],
-    "summaries": [
-      "python-mirrors-countme fails to build with Python 3.15: TypeError: NamedTuple() got an unexpected keyword argument 'INTEGER_NOT_NULL'"
-    ]
-  },
   "python-mkdocs-git-revision-date-localized-plugin": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2485905"
@@ -977,14 +969,6 @@
     ],
     "summaries": [
       "F45FailsToInstall: python3-spyder"
-    ]
-  },
-  "sugar-datastore": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485998"
-    ],
-    "summaries": [
-      "F45FailsToInstall: sugar-datastore"
     ]
   },
   "thefuck": {
