@@ -209,7 +209,6 @@ dnf-plugin-perfmetrics
 dnf-plugins-core
 dnf-plugins-extras
 dnf5
-dnfdaemon
 dnfdragora
 dnsviz
 doge
@@ -500,6 +499,7 @@ libreport
 libsavitar
 libsbml
 libsearpc
+libseccomp
 libsedml
 libselinux
 libsemanage
@@ -522,7 +522,6 @@ libwignernj
 libxc
 libxml2
 libxslt
-libyui
 lightdm-gtk-greeter-settings
 lilv
 limnoria
@@ -908,7 +907,6 @@ python-argcomplete
 python-argon2-cffi
 python-argon2-cffi-bindings
 python-argopt
-python-argparse-dataclass
 python-arpy
 python-array-api-strict
 python-arrow
@@ -1275,7 +1273,6 @@ python-commoncode
 python-compreffor
 python-conda-content-trust
 python-conda-index
-python-conda-inject
 python-conda-libmamba-solver
 python-conda-package-handling
 python-conda-package-streaming
@@ -1287,7 +1284,6 @@ python-configshell
 python-configupdater
 python-confluent-kafka
 python-confuse
-python-connection_pool
 python-constantly
 python-construct
 python-construct-classes
@@ -1300,6 +1296,7 @@ python-cookiecutter
 python-cooldict
 python-copr
 python-copr-common
+python-coprtree
 python-cornice
 python-cotyledon
 python-cov-core
@@ -1488,7 +1485,6 @@ python-doxypypy
 python-doxyqml
 python-doxytag2zealdb
 python-dparse2
-python-dpath
 python-dpkt
 python-dragonmapper
 python-drain3
@@ -1688,7 +1684,6 @@ python-fslpy
 python-fspath
 python-fsspec
 python-ftfy
-python-ftputil
 python-fuckit
 python-funcparserlib
 python-funcsigs
@@ -1898,7 +1893,6 @@ python-ipython-pygments-lexers
 python-ipython_genutils
 python-ipywidgets
 python-irc
-python-irodsclient
 python-ironicclient
 python-isal
 python-iso3166
@@ -2504,7 +2498,6 @@ python-ptrace
 python-ptyprocess
 python-publicsuffix2
 python-pudb
-python-pulp
 python-pulp-glue
 python-pulp-glue-deb
 python-pulsectl
@@ -2516,7 +2509,6 @@ python-puzpy
 python-pwntools
 python-py
 python-py-key-value
-python-py-tes
 python-py-walk
 python-py3nvml
 python-pyModbusTCP
@@ -2881,7 +2873,6 @@ python-requests_ntlm
 python-requestsexceptions
 python-requirements-parser
 python-requre
-python-reretry
 python-resend
 python-resolvelib
 python-responses
@@ -3019,34 +3010,14 @@ python-slixmpp
 python-slixmpp-omemo
 python-slugify
 python-sly
-python-smart_open
 python-smartypants
 python-smbc
 python-smbpasswd
 python-smbprotocol
 python-smmap
 python-snakemake-executor-plugin-cluster-generic
-python-snakemake-executor-plugin-cluster-sync
-python-snakemake-executor-plugin-flux
-python-snakemake-executor-plugin-kubernetes
-python-snakemake-executor-plugin-slurm-jobstep
-python-snakemake-executor-plugin-tes
-python-snakemake-interface-common
-python-snakemake-interface-executor-plugins
-python-snakemake-interface-logger-plugins
-python-snakemake-interface-report-plugins
 python-snakemake-interface-scheduler-plugins
-python-snakemake-interface-storage-plugins
 python-snakemake-logger-plugin-rich
-python-snakemake-storage-plugin-azure
-python-snakemake-storage-plugin-fs
-python-snakemake-storage-plugin-ftp
-python-snakemake-storage-plugin-gcs
-python-snakemake-storage-plugin-http
-python-snakemake-storage-plugin-s3
-python-snakemake-storage-plugin-webdav
-python-snakemake-storage-plugin-xrootd
-python-snakemake-storage-plugin-zenodo
 python-snappy
 python-snaptime
 python-sniffio
@@ -3198,7 +3169,6 @@ python-sybil
 python-symengine
 python-syrupy
 python-syslog-rfc5424-formatter
-python-sysrsync
 python-systemd
 python-sysv_ipc
 python-tables
@@ -3245,7 +3215,6 @@ python-tftpy
 python-tgext-tw2
 python-threadpoolctl
 python-three_merge
-python-throttler
 python-tidy
 python-tifffile
 python-tiktoken
@@ -3505,7 +3474,6 @@ python-yara
 python-yarl
 python-yattag
 python-yfinance
-python-yte
 python-ytmusicapi
 python-yubico
 python-zaqarclient
@@ -3656,7 +3624,6 @@ slingshot
 slowloris
 smbcmp
 smoldyn
-snakemake
 snapm
 snowball
 solaar
