@@ -9,28 +9,34 @@
   },
   "Mayavi": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2503757",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2485682",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2433846"
     ],
     "summaries": [
+      "Mayavi: FTBFS in Fedora rawhide/f45",
       "F45FailsToInstall: python3-mayavi",
       "Mayavi: FTBFS in Fedora rawhide/f44"
     ]
   },
   "abiword": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2503766",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2485684"
     ],
     "summaries": [
+      "abiword: FTBFS in Fedora rawhide/f45",
       "F45FailsToInstall: python3-abiword"
     ]
   },
   "arbor": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2503775",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2485689",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2433869"
     ],
     "summaries": [
+      "arbor: FTBFS in Fedora rawhide/f45",
       "F45FailsToInstall: arbor, arbor-mpich, arbor-openmpi",
       "arbor: FTBFS in Fedora rawhide/f44"
     ]
@@ -53,107 +59,123 @@
   },
   "dt-schema": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2503859",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2484389"
     ],
     "summaries": [
+      "dt-schema: FTBFS in Fedora rawhide/f45",
       "F45FailsToInstall: dt-schema"
     ]
   },
   "enki": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2503868",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2485704"
     ],
     "summaries": [
+      "enki: FTBFS in Fedora rawhide/f45",
       "F45FailsToInstall: enki"
-    ]
-  },
-  "ginga": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485707"
-    ],
-    "summaries": [
-      "F45FailsToInstall: python3-ginga+qt5, python3-ginga+recommended, python3-ginga"
     ]
   },
   "gnulib": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2503930",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2485708"
     ],
     "summaries": [
+      "gnulib: FTBFS in Fedora rawhide/f45",
       "F45FailsToInstall: python3-gnulib"
     ]
   },
   "kitty": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2504198",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2434730"
     ],
     "summaries": [
+      "kitty: FTBFS in Fedora rawhide/f45",
       "kitty: FTBFS in Fedora rawhide/f44"
     ]
   },
   "kiwi-boxed-plugin": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2504199",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2485715"
     ],
     "summaries": [
+      "kiwi-boxed-plugin: FTBFS in Fedora rawhide/f45",
       "F45FailsToInstall: python3-kiwi-boxed-plugin"
     ]
   },
   "kmymoney": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2504204",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2440571"
     ],
     "summaries": [
+      "kmymoney: FTBFS in Fedora rawhide/f45",
       "kmymoney fails to build with Python 3.15: /usr/include/python3.15/pyport.h:523:9: error: \u2018__STDC_VERSION__\u2019 is not defined, evaluates to \u20180\u2019 [-Werror=undef]"
     ]
   },
   "libloc": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2504280",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2485716"
     ],
     "summaries": [
+      "libloc: FTBFS in Fedora rawhide/f45",
       "F45FailsToInstall: python3-libloc"
     ]
   },
   "mailman3-fedmsg-plugin": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2504318",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2434808"
     ],
     "summaries": [
+      "mailman3-fedmsg-plugin: FTBFS in Fedora rawhide/f45",
       "mailman3-fedmsg-plugin: FTBFS in Fedora rawhide/f44"
     ]
   },
   "matrix-synapse": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2504321",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2485721",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2434810"
     ],
     "summaries": [
+      "matrix-synapse: FTBFS in Fedora rawhide/f45",
       "F45FailsToInstall: Multiple packages built from matrix-synapse",
       "matrix-synapse: FTBFS in Fedora rawhide/f44"
     ]
   },
   "monkeytype": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2504354",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2485722"
     ],
     "summaries": [
+      "monkeytype: FTBFS in Fedora rawhide/f45",
       "F45FailsToInstall: monkeytype"
     ]
   },
   "moose": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2504355",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2414807"
     ],
     "summaries": [
+      "moose: FTBFS in Fedora rawhide/f45",
       "moose fails to build with Python 3.15: moose-core-3.1.5/pymoose/PyRun.h:58:24: error: \u2018Py_GetProgramName\u2019 was not declared in this scope; did you mean \u2018Py_SetProgramName\u2019?"
     ]
   },
   "noggin": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2504372",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2485726"
     ],
     "summaries": [
+      "noggin: FTBFS in Fedora rawhide/f45",
       "F45FailsToInstall: noggin"
     ]
   },
@@ -167,10 +189,12 @@
   },
   "pychess": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2504425",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2485737",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2434943"
     ],
     "summaries": [
+      "pychess: FTBFS in Fedora rawhide/f45",
       "F45FailsToInstall: pychess",
       "pychess: FTBFS in Fedora rawhide/f44"
     ]
@@ -193,105 +217,131 @@
   },
   "python-XStatic-Angular-UUID": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2504428",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2485747"
     ],
     "summaries": [
+      "python-XStatic-Angular-UUID: FTBFS in Fedora rawhide/f45",
       "F45FailsToInstall: python3-XStatic-Angular-UUID"
     ]
   },
   "python-XStatic-Angular-Vis": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2504429",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2485748"
     ],
     "summaries": [
+      "python-XStatic-Angular-Vis: FTBFS in Fedora rawhide/f45",
       "F45FailsToInstall: python3-XStatic-Angular-Vis"
     ]
   },
   "python-XStatic-DataTables": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2504430",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2485750"
     ],
     "summaries": [
+      "python-XStatic-DataTables: FTBFS in Fedora rawhide/f45",
       "F45FailsToInstall: python3-XStatic-DataTables"
     ]
   },
   "python-XStatic-FileSaver": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2504431",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2485751"
     ],
     "summaries": [
+      "python-XStatic-FileSaver: FTBFS in Fedora rawhide/f45",
       "F45FailsToInstall: python3-XStatic-FileSaver"
     ]
   },
   "python-XStatic-JS-Yaml": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2504433",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2485752"
     ],
     "summaries": [
+      "python-XStatic-JS-Yaml: FTBFS in Fedora rawhide/f45",
       "F45FailsToInstall: python3-XStatic-JS-Yaml"
     ]
   },
   "python-XStatic-Json2yaml": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2504434",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2485753"
     ],
     "summaries": [
+      "python-XStatic-Json2yaml: FTBFS in Fedora rawhide/f45",
       "F45FailsToInstall: python3-XStatic-Json2yaml"
     ]
   },
   "python-XStatic-Patternfly": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2504435",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2485754"
     ],
     "summaries": [
+      "python-XStatic-Patternfly: FTBFS in Fedora rawhide/f45",
       "F45FailsToInstall: python3-XStatic-Patternfly"
     ]
   },
   "python-XStatic-Patternfly-Bootstrap-Treeview": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2504436",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2485755"
     ],
     "summaries": [
+      "python-XStatic-Patternfly-Bootstrap-Treeview: FTBFS in Fedora rawhide/f45",
       "F45FailsToInstall: python3-XStatic-Patternfly-Bootstrap-Treeview"
     ]
   },
   "python-apipkg": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2504439",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2485758"
     ],
     "summaries": [
+      "python-apipkg: FTBFS in Fedora rawhide/f45",
       "F45FailsToInstall: python3-apipkg"
     ]
   },
   "python-ast-monitor": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2504441",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2485760"
     ],
     "summaries": [
+      "python-ast-monitor: FTBFS in Fedora rawhide/f45",
       "F45FailsToInstall: python3-ast-monitor"
     ]
   },
   "python-avocado": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2504443",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2485762"
     ],
     "summaries": [
+      "python-avocado: FTBFS in Fedora rawhide/f45",
       "F45FailsToInstall: Multiple packages built from python-avocado"
     ]
   },
   "python-azure-mgmt-support": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2504445",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2485788"
     ],
     "summaries": [
+      "python-azure-mgmt-support: FTBFS in Fedora rawhide/f45",
       "F45FailsToInstall: python3-azure-mgmt-support"
     ]
   },
   "python-binary-manager": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2504449",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2484398"
     ],
     "summaries": [
+      "python-binary-manager: FTBFS in Fedora rawhide/f45",
       "F45FailsToInstall: python3-binary-manager"
     ]
   },
@@ -313,33 +363,41 @@
   },
   "python-catkin_tools": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2504452",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2485794"
     ],
     "summaries": [
+      "python-catkin_tools: FTBFS in Fedora rawhide/f45",
       "F45FailsToInstall: python3-catkin_tools"
     ]
   },
   "python-cerberus": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2504453",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2485796"
     ],
     "summaries": [
+      "python-cerberus: FTBFS in Fedora rawhide/f45",
       "F45FailsToInstall: python3-cerberus"
     ]
   },
   "python-certbot-dns-luadns": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2504454",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2485797"
     ],
     "summaries": [
+      "python-certbot-dns-luadns: FTBFS in Fedora rawhide/f45",
       "F45FailsToInstall: python3-certbot-dns-luadns"
     ]
   },
   "python-certbot-dns-plesk": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2504455",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2485798"
     ],
     "summaries": [
+      "python-certbot-dns-plesk: FTBFS in Fedora rawhide/f45",
       "F45FailsToInstall: python3-certbot-dns-plesk"
     ]
   },
@@ -353,165 +411,199 @@
   },
   "python-chaospy": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2504456",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2485800",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2434955"
     ],
     "summaries": [
+      "python-chaospy: FTBFS in Fedora rawhide/f45",
       "F45FailsToInstall: python3-chaospy",
       "python-chaospy: FTBFS in Fedora rawhide/f44"
     ]
   },
   "python-colcon-alias": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2504457",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2485801",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2434959"
     ],
     "summaries": [
+      "python-colcon-alias: FTBFS in Fedora rawhide/f45",
       "F45FailsToInstall: python3-colcon-alias",
       "python-colcon-alias: FTBFS in Fedora rawhide/f44"
     ]
   },
   "python-colcon-bazel": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2504465",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2485804",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2434960"
     ],
     "summaries": [
+      "python-colcon-bazel: FTBFS in Fedora rawhide/f45",
       "F45FailsToInstall: python3-colcon-bazel",
       "python-colcon-bazel: FTBFS in Fedora rawhide/f44"
     ]
   },
   "python-colcon-bundle": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2504470",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2485805",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2434961"
     ],
     "summaries": [
+      "python-colcon-bundle: FTBFS in Fedora rawhide/f45",
       "F45FailsToInstall: python3-colcon-bundle",
       "python-colcon-bundle: FTBFS in Fedora rawhide/f44"
     ]
   },
   "python-colcon-cmake": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2504478",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2485807",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2434962"
     ],
     "summaries": [
+      "python-colcon-cmake: FTBFS in Fedora rawhide/f45",
       "F45FailsToInstall: python3-colcon-cmake",
       "python-colcon-cmake: FTBFS in Fedora rawhide/f44"
     ]
   },
   "python-colcon-core": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2504484",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2403563"
     ],
     "summaries": [
+      "python-colcon-core: FTBFS in Fedora rawhide/f45",
       "python-colcon-core: Fails to build with setuptools 80.9.0, fails to install [pins setuptools < 80, test_build_package fails]"
     ]
   },
   "python-colcon-installed-package-information": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2504490",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2485813",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2434963"
     ],
     "summaries": [
+      "python-colcon-installed-package-information: FTBFS in Fedora rawhide/f45",
       "F45FailsToInstall: python3-colcon-installed-package-information",
       "python-colcon-installed-package-information: FTBFS in Fedora rawhide/f44"
     ]
   },
   "python-colcon-meson": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2504496",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2485816",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2434964"
     ],
     "summaries": [
+      "python-colcon-meson: FTBFS in Fedora rawhide/f45",
       "F45FailsToInstall: python3-colcon-meson",
       "python-colcon-meson: FTBFS in Fedora rawhide/f44"
     ]
   },
   "python-colcon-notification": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2504504",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2485819",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2434965"
     ],
     "summaries": [
+      "python-colcon-notification: FTBFS in Fedora rawhide/f45",
       "F45FailsToInstall: python3-colcon-notification",
       "python-colcon-notification: FTBFS in Fedora rawhide/f44"
     ]
   },
   "python-colcon-package-information": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2504509",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2485822",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2434966"
     ],
     "summaries": [
+      "python-colcon-package-information: FTBFS in Fedora rawhide/f45",
       "F45FailsToInstall: python3-colcon-package-information",
       "python-colcon-package-information: FTBFS in Fedora rawhide/f44"
     ]
   },
   "python-colcon-parallel-executor": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2504510",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2485824",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2434967"
     ],
     "summaries": [
+      "python-colcon-parallel-executor: FTBFS in Fedora rawhide/f45",
       "F45FailsToInstall: python3-colcon-parallel-executor",
       "python-colcon-parallel-executor: FTBFS in Fedora rawhide/f44"
     ]
   },
   "python-colcon-python-setup-py": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2504511",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2485827",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2434968"
     ],
     "summaries": [
+      "python-colcon-python-setup-py: FTBFS in Fedora rawhide/f45",
       "F45FailsToInstall: python3-colcon-python-setup-py",
       "python-colcon-python-setup-py: FTBFS in Fedora rawhide/f44"
     ]
   },
   "python-colcon-ros": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2504512",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2485830",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2434969"
     ],
     "summaries": [
+      "python-colcon-ros: FTBFS in Fedora rawhide/f45",
       "F45FailsToInstall: python3-colcon-ros",
       "python-colcon-ros: FTBFS in Fedora rawhide/f44"
     ]
   },
   "python-colcon-ros-bundle": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2504513",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2485832",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2434970"
     ],
     "summaries": [
+      "python-colcon-ros-bundle: FTBFS in Fedora rawhide/f45",
       "F45FailsToInstall: python3-colcon-ros-bundle",
       "python-colcon-ros-bundle: FTBFS in Fedora rawhide/f44"
     ]
   },
   "python-colcon-ros-domain-id-coordinator": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2504514",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2485833",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2434971"
     ],
     "summaries": [
+      "python-colcon-ros-domain-id-coordinator: FTBFS in Fedora rawhide/f45",
       "F45FailsToInstall: python3-colcon-ros-domain-id-coordinator",
       "python-colcon-ros-domain-id-coordinator: FTBFS in Fedora rawhide/f44"
     ]
   },
   "python-dtoc": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2504517",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2484399"
     ],
     "summaries": [
+      "python-dtoc: FTBFS in Fedora rawhide/f45",
       "F45FailsToInstall: python3-dtoc"
     ]
   },
   "python-etcd": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2504521",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2485856"
     ],
     "summaries": [
+      "python-etcd: FTBFS in Fedora rawhide/f45",
       "F45FailsToInstall: python3-etcd"
     ]
   },
@@ -525,17 +617,21 @@
   },
   "python-fastmcp": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2504523",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2485863"
     ],
     "summaries": [
+      "python-fastmcp: FTBFS in Fedora rawhide/f45",
       "FTBFS, F45FailsToInstall: python3-fastmcp+openai, python3-fastmcp"
     ]
   },
   "python-fields": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2504525",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2485864"
     ],
     "summaries": [
+      "python-fields: FTBFS in Fedora rawhide/f45",
       "F45FailsToInstall: python3-fields"
     ]
   },
@@ -559,17 +655,21 @@
   },
   "python-geotiler": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2504527",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2485872"
     ],
     "summaries": [
+      "python-geotiler: FTBFS in Fedora rawhide/f45",
       "FTBFS, F45FailsToInstall: python3-geotiler (needs pkg_resources)"
     ]
   },
   "python-grpc-google-iam-v1": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2504530",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2485874"
     ],
     "summaries": [
+      "python-grpc-google-iam-v1: FTBFS in Fedora rawhide/f45",
       "F45FailsToInstall: python3-grpc-google-iam-v1"
     ]
   },
@@ -585,9 +685,11 @@
   },
   "python-imbalanced-learn": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2504531",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2481163"
     ],
     "summaries": [
+      "python-imbalanced-learn: FTBFS in Fedora rawhide/f45",
       "F45FailsToInstall: python3-imbalanced-learn+optional"
     ]
   },
@@ -617,9 +719,11 @@
   },
   "python-linuxdoc": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2504539",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2485888"
     ],
     "summaries": [
+      "python-linuxdoc: FTBFS in Fedora rawhide/f45",
       "F45FailsToInstall: python3-linuxdoc"
     ]
   },
@@ -633,35 +737,43 @@
   },
   "python-mathics-pygments": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2504540",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2485899"
     ],
     "summaries": [
+      "python-mathics-pygments: FTBFS in Fedora rawhide/f45",
       "F45FailsToInstall: python3-mathics-pygments"
     ]
   },
   "python-mathics-scanner": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2504541",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2485900"
     ],
     "summaries": [
+      "python-mathics-scanner: FTBFS in Fedora rawhide/f45",
       "F45FailsToInstall: python3-mathics-scanner+full, python3-mathics-scanner"
     ]
   },
   "python-matrix-nio": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2504543",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2485901",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2434992"
     ],
     "summaries": [
+      "python-matrix-nio: FTBFS in Fedora rawhide/f45",
       "F45FailsToInstall: python3-matrix-nio",
       "python-matrix-nio: FTBFS in Fedora rawhide/f44"
     ]
   },
   "python-memray": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2504545",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2485902"
     ],
     "summaries": [
+      "python-memray: FTBFS in Fedora rawhide/f45",
       "F45FailsToInstall: python3-memray"
     ]
   },
@@ -675,25 +787,31 @@
   },
   "python-mkdocs-git-revision-date-localized-plugin": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2504546",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2485905"
     ],
     "summaries": [
+      "python-mkdocs-git-revision-date-localized-plugin: FTBFS in Fedora rawhide/f45",
       "F45FailsToInstall: python3-mkdocs-git-revision-date-localized-plugin"
     ]
   },
   "python-mkdocs-macros-plugin": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2504547",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2485906"
     ],
     "summaries": [
+      "python-mkdocs-macros-plugin: FTBFS in Fedora rawhide/f45",
       "F45FailsToInstall: python3-mkdocs-macros-plugin"
     ]
   },
   "python-mkdocs-test": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2504548",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2485907"
     ],
     "summaries": [
+      "python-mkdocs-test: FTBFS in Fedora rawhide/f45",
       "F45FailsToInstall: python3-mkdocs-test"
     ]
   },
@@ -707,9 +825,11 @@
   },
   "python-nashpy": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2504551",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2485911"
     ],
     "summaries": [
+      "python-nashpy: FTBFS in Fedora rawhide/f45",
       "F45FailsToInstall: python3-nashpy"
     ]
   },
@@ -723,25 +843,31 @@
   },
   "python-opfunu": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2504556",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2485915"
     ],
     "summaries": [
+      "python-opfunu: FTBFS in Fedora rawhide/f45",
       "F45FailsToInstall: python3-opfunu"
     ]
   },
   "python-poetry-plugin-export": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2504562",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2485923"
     ],
     "summaries": [
+      "python-poetry-plugin-export: FTBFS in Fedora rawhide/f45",
       "F45FailsToInstall: python3-poetry-plugin-export"
     ]
   },
   "python-pycparserext": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2504563",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2450092"
     ],
     "summaries": [
+      "python-pycparserext: FTBFS in Fedora rawhide/f45",
       "F45FailsToInstall: python3-pycparserext"
     ]
   },
@@ -755,18 +881,22 @@
   },
   "python-pyinfra": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2504565",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2476877"
     ],
     "summaries": [
+      "python-pyinfra: FTBFS in Fedora rawhide/f45",
       "F45FailsToInstall: python3-pyinfra"
     ]
   },
   "python-pyone": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2504566",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2485935",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2435009"
     ],
     "summaries": [
+      "python-pyone: FTBFS in Fedora rawhide/f45",
       "F45FailsToInstall: python3-pyone",
       "python-pyone: FTBFS in Fedora rawhide/f44"
     ]
@@ -783,17 +913,21 @@
   },
   "python-pyshtools": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2504569",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2485941"
     ],
     "summaries": [
+      "python-pyshtools: FTBFS in Fedora rawhide/f45",
       "F45FailsToInstall: python3-pyshtools+cartopy, python3-pyshtools+ducc, python3-pyshtools"
     ]
   },
   "python-pytest-cases": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2504571",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2485943"
     ],
     "summaries": [
+      "python-pytest-cases: FTBFS in Fedora rawhide/f45",
       "F45FailsToInstall: python3-pytest-cases"
     ]
   },
@@ -809,9 +943,11 @@
   },
   "python-pytest-tornado": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2504572",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2485945"
     ],
     "summaries": [
+      "python-pytest-tornado: FTBFS in Fedora rawhide/f45",
       "F45FailsToInstall: python3-pytest-tornado"
     ]
   },
@@ -825,9 +961,11 @@
   },
   "python-qudida": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2504575",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2485947"
     ],
     "summaries": [
+      "python-qudida: FTBFS in Fedora rawhide/f45",
       "F45FailsToInstall: python3-qudida"
     ]
   },
@@ -843,33 +981,41 @@
   },
   "python-qutepart": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2504576",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2454295"
     ],
     "summaries": [
+      "python-qutepart: FTBFS in Fedora rawhide/f45",
       "F45FailsToInstall: python3-qutepart"
     ]
   },
   "python-sport-activities-features": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2504581",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2485964"
     ],
     "summaries": [
+      "python-sport-activities-features: FTBFS in Fedora rawhide/f45",
       "F45FailsToInstall: python3-sport-activities-features"
     ]
   },
   "python-spyder-kernels": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2504582",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2477817"
     ],
     "summaries": [
+      "python-spyder-kernels: FTBFS in Fedora rawhide/f45",
       "F45FailsToInstall: python3-spyder-kernels"
     ]
   },
   "python-tilestache": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2504587",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2485969"
     ],
     "summaries": [
+      "python-tilestache: FTBFS in Fedora rawhide/f45",
       "F45FailsToInstall: python3-tilestache"
     ]
   },
@@ -891,75 +1037,93 @@
   },
   "python-vcstool": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2504594",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2485978"
     ],
     "summaries": [
+      "python-vcstool: FTBFS in Fedora rawhide/f45",
       "F45FailsToInstall: python3-vcstool"
     ]
   },
   "python-vulture": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2504595",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2485979",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2435035"
     ],
     "summaries": [
+      "python-vulture: FTBFS in Fedora rawhide/f45",
       "F45FailsToInstall: python3-vulture",
       "python-vulture: FTBFS in Fedora rawhide/f44"
     ]
   },
   "python3-mallard-ducktype": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2504602",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2485988"
     ],
     "summaries": [
+      "python3-mallard-ducktype: FTBFS in Fedora rawhide/f45",
       "F45FailsToInstall: python3-mallard-ducktype"
     ]
   },
   "qtile": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2504621",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2485992"
     ],
     "summaries": [
+      "qtile: FTBFS in Fedora rawhide/f45",
       "F45FailsToInstall: python3-libqtile, qtile-wayland"
     ]
   },
   "qtile-extras": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2504622",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2485993"
     ],
     "summaries": [
+      "qtile-extras: FTBFS in Fedora rawhide/f45",
       "F45FailsToInstall: qtile-extras"
     ]
   },
   "roca-detect": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2504633",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2485996"
     ],
     "summaries": [
+      "roca-detect: FTBFS in Fedora rawhide/f45",
       "F45FailsToInstall: python3-pgpdump, roca-detect"
     ]
   },
   "sherlock-project": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2504672",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2481165"
     ],
     "summaries": [
+      "sherlock-project: FTBFS in Fedora rawhide/f45",
       "F45FailsToInstall: sherlock-project"
     ]
   },
   "spyder": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2504686",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2477818"
     ],
     "summaries": [
+      "spyder: FTBFS in Fedora rawhide/f45",
       "F45FailsToInstall: python3-spyder"
     ]
   },
   "thefuck": {
     "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2504920",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2486000"
     ],
     "summaries": [
+      "thefuck: FTBFS in Fedora rawhide/f45",
       "F45FailsToInstall: thefuck"
     ]
   },
