@@ -123,8 +123,8 @@
       "https://bugzilla.redhat.com/show_bug.cgi?id=2485716"
     ],
     "summaries": [
-      "libloc: FTBFS in Fedora rawhide/f45",
-      "F45FailsToInstall: python3-libloc"
+      "libloc-0.9.19-2.fc45 FTBFS in F45: nothing provides python(abi) = 3.14 needed by python3-gnulib-0-57.20260302git4a3650d.fc45.noarch",
+      "F45FailsToInstall: python3-libloc: nothing provides python3.14dist(psycopg) needed by python3-libloc-0.9.19-1.fc45.x86_64"
     ]
   },
   "mailman3-fedmsg-plugin": {
