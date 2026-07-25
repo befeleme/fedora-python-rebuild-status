@@ -107,16 +107,6 @@
       "F45FailsToInstall: python3-kiwi-boxed-plugin"
     ]
   },
-  "kmymoney": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2504204",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2440571"
-    ],
-    "summaries": [
-      "kmymoney: FTBFS in Fedora rawhide/f45",
-      "kmymoney fails to build with Python 3.15: /usr/include/python3.15/pyport.h:523:9: error: \u2018__STDC_VERSION__\u2019 is not defined, evaluates to \u20180\u2019 [-Werror=undef]"
-    ]
-  },
   "libloc": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2504280",
