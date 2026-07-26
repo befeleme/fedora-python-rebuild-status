@@ -691,14 +691,6 @@
       "python-inquirer: FTBFS in Fedora rawhide/f44"
     ]
   },
-  "python-jnius": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2460555"
-    ],
-    "summaries": [
-      "python-jnius: FTBFS in Fedora Rawhide: error: incompatible pointer types passing 'JNIEnv **' (aka 'const struct JNINativeInterface_ ***') to parameter of type 'void **'"
-    ]
-  },
   "python-kaptan": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2423881"
@@ -909,16 +901,6 @@
     "summaries": [
       "python-pyshtools: FTBFS in Fedora rawhide/f45",
       "F45FailsToInstall: python3-pyshtools+cartopy, python3-pyshtools+ducc, python3-pyshtools"
-    ]
-  },
-  "python-pytest-cases": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2504571",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485943"
-    ],
-    "summaries": [
-      "python-pytest-cases: FTBFS in Fedora rawhide/f45",
-      "F45FailsToInstall: python3-pytest-cases"
     ]
   },
   "python-pytest-tldr": {
