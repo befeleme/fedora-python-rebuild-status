@@ -798,12 +798,8 @@
     ]
   },
   "python-mplcairo": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2466678"
-    ],
-    "summaries": [
-      "python-mplcairo fails to build with Python 3.15: pybind11::handle::dec_ref() is being called while the GIL is either not held or invalid."
-    ]
+    "urls": [],
+    "summaries": []
   },
   "python-nashpy": {
     "urls": [
@@ -929,16 +925,6 @@
     ],
     "summaries": [
       "python-pyvmomi: FTBFS in Fedora rawhide/f44"
-    ]
-  },
-  "python-qudida": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2504575",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485947"
-    ],
-    "summaries": [
-      "python-qudida: FTBFS in Fedora rawhide/f45",
-      "F45FailsToInstall: python3-qudida"
     ]
   },
   "python-questionary": {
