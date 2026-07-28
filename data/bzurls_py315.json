@@ -285,16 +285,6 @@
       "F45FailsToInstall: python3-XStatic-Patternfly-Bootstrap-Treeview"
     ]
   },
-  "python-apipkg": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2504439",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485758"
-    ],
-    "summaries": [
-      "python-apipkg: FTBFS in Fedora rawhide/f45",
-      "F45FailsToInstall: python3-apipkg"
-    ]
-  },
   "python-ast-monitor": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2504441",
@@ -643,16 +633,6 @@
       "python-geopmpy fails to build with Python 3.15: neverending Generating HDF5 files... Applying workaround for strings in HDF5 files... in test_report_cache (TestIO.TestIO.test_report_cache)"
     ]
   },
-  "python-geotiler": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2504527",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485872"
-    ],
-    "summaries": [
-      "python-geotiler: FTBFS in Fedora rawhide/f45",
-      "FTBFS, F45FailsToInstall: python3-geotiler (needs pkg_resources)"
-    ]
-  },
   "python-grpc-google-iam-v1": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2504530",
@@ -796,10 +776,6 @@
       "python-mkdocs-test: FTBFS in Fedora rawhide/f45",
       "F45FailsToInstall: python3-mkdocs-test"
     ]
-  },
-  "python-mplcairo": {
-    "urls": [],
-    "summaries": []
   },
   "python-nashpy": {
     "urls": [
