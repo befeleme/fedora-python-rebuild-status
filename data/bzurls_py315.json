@@ -323,14 +323,6 @@
       "python-bytecode fails to build with Python 3.15: 9 tests fail"
     ]
   },
-  "python-cartopy": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2460066"
-    ],
-    "summaries": [
-      "python-cartopy: FTBFS in Fedora Rawhide: 165 tests fail"
-    ]
-  },
   "python-catkin_tools": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2504452",
@@ -833,16 +825,6 @@
     "summaries": [
       "python-pysdl2: FTBFS in Fedora rawhide/f44",
       "python-pysdl2 fails to build with Python 3.15: AssertionError: That operation is not supported"
-    ]
-  },
-  "python-pyshtools": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2504569",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485941"
-    ],
-    "summaries": [
-      "python-pyshtools: FTBFS in Fedora rawhide/f45",
-      "F45FailsToInstall: python3-pyshtools+cartopy, python3-pyshtools+ducc, python3-pyshtools"
     ]
   },
   "python-pytest-tldr": {
