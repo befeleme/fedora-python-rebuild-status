@@ -77,16 +77,6 @@
       "F45FailsToInstall: enki"
     ]
   },
-  "gnulib": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2503930",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485708"
-    ],
-    "summaries": [
-      "gnulib: FTBFS in Fedora rawhide/f45",
-      "F45FailsToInstall: python3-gnulib"
-    ]
-  },
   "kitty": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2504198",
@@ -147,16 +137,6 @@
     "summaries": [
       "moose: FTBFS in Fedora rawhide/f45",
       "moose fails to build with Python 3.15: moose-core-3.1.5/pymoose/PyRun.h:58:24: error: \u2018Py_GetProgramName\u2019 was not declared in this scope; did you mean \u2018Py_SetProgramName\u2019?"
-    ]
-  },
-  "noggin": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2504372",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485726"
-    ],
-    "summaries": [
-      "noggin: FTBFS in Fedora rawhide/f45",
-      "F45FailsToInstall: noggin"
     ]
   },
   "ocrmypdf": {
@@ -901,14 +881,6 @@
     ],
     "summaries": [
       "python-toml-cli: FTBFS in Fedora Rawhide: 2 tests fail"
-    ]
-  },
-  "python-translitcodec": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2414561"
-    ],
-    "summaries": [
-      "python-translitcodec fails to build with Python 3.15: 8 tests failing with LookupError: unknown encoding: translit/*"
     ]
   },
   "python-vcstool": {
