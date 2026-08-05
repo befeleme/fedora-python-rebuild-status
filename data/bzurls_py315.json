@@ -87,16 +87,6 @@
       "kitty: FTBFS in Fedora rawhide/f44"
     ]
   },
-  "libloc": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2504280",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485716"
-    ],
-    "summaries": [
-      "libloc-0.9.19-2.fc45 FTBFS in F45: nothing provides python(abi) = 3.14 needed by python3-gnulib-0-57.20260302git4a3650d.fc45.noarch",
-      "F45FailsToInstall: python3-libloc: nothing provides python3.14dist(psycopg) needed by python3-libloc-0.9.19-1.fc45.x86_64"
-    ]
-  },
   "mailman3-fedmsg-plugin": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2504318",
@@ -139,40 +129,12 @@
       "moose fails to build with Python 3.15: moose-core-3.1.5/pymoose/PyRun.h:58:24: error: \u2018Py_GetProgramName\u2019 was not declared in this scope; did you mean \u2018Py_SetProgramName\u2019?"
     ]
   },
-  "ocrmypdf": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2458687"
-    ],
-    "summaries": [
-      "ocrmypdf fails to build with Python 3.15: test_xml_metadata_preserved: AssertionError: acquired unexpected property dc:title with value 'Untitled'"
-    ]
-  },
-  "pychess": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2504425",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485737",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2434943"
-    ],
-    "summaries": [
-      "pychess: FTBFS in Fedora rawhide/f45",
-      "F45FailsToInstall: pychess",
-      "pychess: FTBFS in Fedora rawhide/f44"
-    ]
-  },
   "pyp2rpm": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2453848"
     ],
     "summaries": [
       "pyp2rpm fails to build with Python 3.15: ModuleNotFoundError: No module named 'sre_constants'"
-    ]
-  },
-  "python-SALib": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2434947"
-    ],
-    "summaries": [
-      "python-SALib: FTBFS in Fedora rawhide/f44"
     ]
   },
   "python-XStatic-Angular-UUID": {
@@ -331,14 +293,6 @@
     "summaries": [
       "python-certbot-dns-plesk: FTBFS in Fedora rawhide/f45",
       "F45FailsToInstall: python3-certbot-dns-plesk"
-    ]
-  },
-  "python-chai": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2424293"
-    ],
-    "summaries": [
-      "python-chai fails to build with Python 3.15: chai.exception.UnsupportedStub: (\"can't stub %s\", <property object at 0x7fbbc41d1df0>)"
     ]
   },
   "python-chaospy": {
@@ -631,16 +585,6 @@
       "python-kaptan fails to build with Python 3.15: AttributeError: 'SourceFileLoader' object has no attribute 'load_module'. Did you mean: 'exec_module'? in test_py_file_handler and test_py_file_away_handler"
     ]
   },
-  "python-linuxdoc": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2504539",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485888"
-    ],
-    "summaries": [
-      "python-linuxdoc: FTBFS in Fedora rawhide/f45",
-      "F45FailsToInstall: python3-linuxdoc"
-    ]
-  },
   "python-markdown-callouts": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2434991"
@@ -667,18 +611,6 @@
     "summaries": [
       "python-mathics-scanner: FTBFS in Fedora rawhide/f45",
       "F45FailsToInstall: python3-mathics-scanner+full, python3-mathics-scanner"
-    ]
-  },
-  "python-matrix-nio": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2504543",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485901",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2434992"
-    ],
-    "summaries": [
-      "python-matrix-nio: FTBFS in Fedora rawhide/f45",
-      "F45FailsToInstall: python3-matrix-nio",
-      "python-matrix-nio: FTBFS in Fedora rawhide/f44"
     ]
   },
   "python-meshio": {
@@ -745,16 +677,6 @@
     "summaries": [
       "python-opfunu: FTBFS in Fedora rawhide/f45",
       "F45FailsToInstall: python3-opfunu"
-    ]
-  },
-  "python-poetry-plugin-export": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2504562",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485923"
-    ],
-    "summaries": [
-      "python-poetry-plugin-export: FTBFS in Fedora rawhide/f45",
-      "F45FailsToInstall: python3-poetry-plugin-export"
     ]
   },
   "python-pycparserext": {
