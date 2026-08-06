@@ -265,16 +265,6 @@
       "python-bytecode fails to build with Python 3.15: 9 tests fail"
     ]
   },
-  "python-catkin_tools": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2504452",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485794"
-    ],
-    "summaries": [
-      "python-catkin_tools: FTBFS in Fedora rawhide/f45",
-      "F45FailsToInstall: python3-catkin_tools"
-    ]
-  },
   "python-certbot-dns-luadns": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2504454",
@@ -577,14 +567,6 @@
       "python-inquirer: FTBFS in Fedora rawhide/f44"
     ]
   },
-  "python-kaptan": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2423881"
-    ],
-    "summaries": [
-      "python-kaptan fails to build with Python 3.15: AttributeError: 'SourceFileLoader' object has no attribute 'load_module'. Did you mean: 'exec_module'? in test_py_file_handler and test_py_file_away_handler"
-    ]
-  },
   "python-markdown-callouts": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2434991"
@@ -651,34 +633,6 @@
       "F45FailsToInstall: python3-mkdocs-test"
     ]
   },
-  "python-nashpy": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2504551",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485911"
-    ],
-    "summaries": [
-      "python-nashpy: FTBFS in Fedora rawhide/f45",
-      "F45FailsToInstall: python3-nashpy"
-    ]
-  },
-  "python-numpoly": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2434998"
-    ],
-    "summaries": [
-      "python-numpoly: FTBFS in Fedora rawhide/f44"
-    ]
-  },
-  "python-opfunu": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2504556",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485915"
-    ],
-    "summaries": [
-      "python-opfunu: FTBFS in Fedora rawhide/f45",
-      "F45FailsToInstall: python3-opfunu"
-    ]
-  },
   "python-pycparserext": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2504563",
@@ -707,18 +661,6 @@
       "F45FailsToInstall: python3-pyinfra"
     ]
   },
-  "python-pyone": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2504566",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485935",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2435009"
-    ],
-    "summaries": [
-      "python-pyone: FTBFS in Fedora rawhide/f45",
-      "F45FailsToInstall: python3-pyone",
-      "python-pyone: FTBFS in Fedora rawhide/f44"
-    ]
-  },
   "python-pysdl2": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2435012",
@@ -737,14 +679,6 @@
     "summaries": [
       "python-pytest-tldr: FTBFS in Fedora rawhide/f44",
       "python-pytest-tldr fails to build with Python 3.15: tests/test_plugins.py::test_coverage: remains unmatched: '*----- coverage: platform *-----'"
-    ]
-  },
-  "python-pyvmomi": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2435016"
-    ],
-    "summaries": [
-      "python-pyvmomi: FTBFS in Fedora rawhide/f44"
     ]
   },
   "python-questionary": {
@@ -767,16 +701,6 @@
       "F45FailsToInstall: python3-qutepart"
     ]
   },
-  "python-sport-activities-features": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2504581",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485964"
-    ],
-    "summaries": [
-      "python-sport-activities-features: FTBFS in Fedora rawhide/f45",
-      "F45FailsToInstall: python3-sport-activities-features"
-    ]
-  },
   "python-spyder-kernels": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2504582",
@@ -785,46 +709,6 @@
     "summaries": [
       "python-spyder-kernels: FTBFS in Fedora rawhide/f45",
       "F45FailsToInstall: python3-spyder-kernels"
-    ]
-  },
-  "python-tilestache": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2504587",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485969"
-    ],
-    "summaries": [
-      "python-tilestache: FTBFS in Fedora rawhide/f45",
-      "F45FailsToInstall: python3-tilestache"
-    ]
-  },
-  "python-toml-cli": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2466662"
-    ],
-    "summaries": [
-      "python-toml-cli: FTBFS in Fedora Rawhide: 2 tests fail"
-    ]
-  },
-  "python-vcstool": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2504594",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485978"
-    ],
-    "summaries": [
-      "python-vcstool: FTBFS in Fedora rawhide/f45",
-      "F45FailsToInstall: python3-vcstool"
-    ]
-  },
-  "python-vulture": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2504595",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485979",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2435035"
-    ],
-    "summaries": [
-      "python-vulture: FTBFS in Fedora rawhide/f45",
-      "F45FailsToInstall: python3-vulture",
-      "python-vulture: FTBFS in Fedora rawhide/f44"
     ]
   },
   "qtile": {
@@ -885,14 +769,6 @@
     "summaries": [
       "thefuck: FTBFS in Fedora rawhide/f45",
       "F45FailsToInstall: thefuck"
-    ]
-  },
-  "toot": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485529"
-    ],
-    "summaries": [
-      "F45FailsToInstall, FTBFS: toot: nothing provides requested (python3dist(urwid) >= 3 with python3dist(urwid) < 4)"
     ]
   },
   "ubertooth": {
