@@ -49,14 +49,6 @@
       "bodhi-server fails to build with Python 3.15: Test run ends with: = 3 failed, 604 errors  ="
     ]
   },
-  "certbot": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2466655"
-    ],
-    "summaries": [
-      "certbot fails to build with Python 3.15: FutureWarning: invalid character '+' in URL-safe Base64 data will be discarded in future Python versions"
-    ]
-  },
   "dt-schema": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2503859",
@@ -217,16 +209,6 @@
       "F45FailsToInstall: python3-XStatic-Patternfly-Bootstrap-Treeview"
     ]
   },
-  "python-ast-monitor": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2504441",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485760"
-    ],
-    "summaries": [
-      "python-ast-monitor: FTBFS in Fedora rawhide/f45",
-      "F45FailsToInstall: python3-ast-monitor"
-    ]
-  },
   "python-avocado": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2504443",
@@ -257,14 +239,6 @@
       "F45FailsToInstall: python3-binary-manager"
     ]
   },
-  "python-bytecode": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2458689"
-    ],
-    "summaries": [
-      "python-bytecode fails to build with Python 3.15: 9 tests fail"
-    ]
-  },
   "python-certbot-dns-luadns": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2504454",
@@ -283,18 +257,6 @@
     "summaries": [
       "python-certbot-dns-plesk: FTBFS in Fedora rawhide/f45",
       "F45FailsToInstall: python3-certbot-dns-plesk"
-    ]
-  },
-  "python-chaospy": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2504456",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485800",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2434955"
-    ],
-    "summaries": [
-      "python-chaospy: FTBFS in Fedora rawhide/f45",
-      "F45FailsToInstall: python3-chaospy",
-      "python-chaospy: FTBFS in Fedora rawhide/f44"
     ]
   },
   "python-colcon-alias": {
@@ -559,14 +521,6 @@
       "F45FailsToInstall: python3-imbalanced-learn+optional"
     ]
   },
-  "python-inquirer": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2434987"
-    ],
-    "summaries": [
-      "python-inquirer: FTBFS in Fedora rawhide/f44"
-    ]
-  },
   "python-markdown-callouts": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2434991"
@@ -585,52 +539,12 @@
       "F45FailsToInstall: python3-mathics-pygments"
     ]
   },
-  "python-mathics-scanner": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2504541",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485900"
-    ],
-    "summaries": [
-      "python-mathics-scanner: FTBFS in Fedora rawhide/f45",
-      "F45FailsToInstall: python3-mathics-scanner+full, python3-mathics-scanner"
-    ]
-  },
   "python-meshio": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2460576"
     ],
     "summaries": [
       "python-meshio: FTBFS in Fedora Rawhide: binascii.Error: Invalid base64-encoded string: number of data characters (8889) cannot be 1 more than a multiple of 4"
-    ]
-  },
-  "python-mkdocs-git-revision-date-localized-plugin": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2504546",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485905"
-    ],
-    "summaries": [
-      "python-mkdocs-git-revision-date-localized-plugin: FTBFS in Fedora rawhide/f45",
-      "F45FailsToInstall: python3-mkdocs-git-revision-date-localized-plugin"
-    ]
-  },
-  "python-mkdocs-macros-plugin": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2504547",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485906"
-    ],
-    "summaries": [
-      "python-mkdocs-macros-plugin: FTBFS in Fedora rawhide/f45",
-      "F45FailsToInstall: python3-mkdocs-macros-plugin"
-    ]
-  },
-  "python-mkdocs-test": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2504548",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485907"
-    ],
-    "summaries": [
-      "python-mkdocs-test: FTBFS in Fedora rawhide/f45",
-      "F45FailsToInstall: python3-mkdocs-test"
     ]
   },
   "python-pycparserext": {
@@ -671,16 +585,6 @@
       "python-pysdl2 fails to build with Python 3.15: AssertionError: That operation is not supported"
     ]
   },
-  "python-pytest-tldr": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2435014",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2423890"
-    ],
-    "summaries": [
-      "python-pytest-tldr: FTBFS in Fedora rawhide/f44",
-      "python-pytest-tldr fails to build with Python 3.15: tests/test_plugins.py::test_coverage: remains unmatched: '*----- coverage: platform *-----'"
-    ]
-  },
   "python-questionary": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2435019",
@@ -699,16 +603,6 @@
     "summaries": [
       "python-qutepart: FTBFS in Fedora rawhide/f45",
       "F45FailsToInstall: python3-qutepart"
-    ]
-  },
-  "python-spyder-kernels": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2504582",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2477817"
-    ],
-    "summaries": [
-      "python-spyder-kernels: FTBFS in Fedora rawhide/f45",
-      "F45FailsToInstall: python3-spyder-kernels"
     ]
   },
   "qtile": {
@@ -739,26 +633,6 @@
     "summaries": [
       "roca-detect: FTBFS in Fedora rawhide/f45",
       "F45FailsToInstall: python3-pgpdump, roca-detect"
-    ]
-  },
-  "sherlock-project": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2504672",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2481165"
-    ],
-    "summaries": [
-      "sherlock-project: FTBFS in Fedora rawhide/f45",
-      "F45FailsToInstall: sherlock-project"
-    ]
-  },
-  "spyder": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2504686",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2477818"
-    ],
-    "summaries": [
-      "spyder: FTBFS in Fedora rawhide/f45",
-      "F45FailsToInstall: python3-spyder"
     ]
   },
   "thefuck": {

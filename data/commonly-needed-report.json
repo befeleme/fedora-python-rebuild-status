@@ -43,6 +43,7 @@
         "python-dpath",
         "python-pulp",
         "python-smart_open",
+        "python-snakemake-executor-plugin-cluster-generic",
         "python-snakemake-interface-common",
         "python-snakemake-interface-executor-plugins",
         "python-snakemake-interface-logger-plugins",
@@ -165,6 +166,7 @@
         "python-pulp",
         "python-reretry",
         "python-smart_open",
+        "python-snakemake-executor-plugin-cluster-generic",
         "python-snakemake-interface-common",
         "python-snakemake-interface-executor-plugins",
         "python-snakemake-interface-logger-plugins",
@@ -190,6 +192,27 @@
     {
       "component": "python-mbstrdecoder",
       "count": 2
+    },
+    {
+      "component": "python-snakemake-executor-plugin-cluster-generic",
+      "count": 2,
+      "blocked_by": [
+        "python-argparse-dataclass",
+        "python-conda-inject",
+        "python-connection_pool",
+        "python-dpath",
+        "python-pulp",
+        "python-smart_open",
+        "python-snakemake-interface-common",
+        "python-snakemake-interface-executor-plugins",
+        "python-snakemake-interface-logger-plugins",
+        "python-snakemake-interface-report-plugins",
+        "python-snakemake-interface-scheduler-plugins",
+        "python-snakemake-interface-storage-plugins",
+        "python-throttler",
+        "python-yte",
+        "snakemake"
+      ]
     },
     {
       "component": "python-snakemake-storage-plugin-http",
@@ -221,19 +244,7 @@
       "count": 1
     },
     {
-      "component": "python-translitcodec",
-      "count": 1
-    },
-    {
-      "component": "python-sport-activities-features",
-      "count": 1
-    },
-    {
       "component": "certbot",
-      "count": 1
-    },
-    {
-      "component": "python-numpoly",
       "count": 1
     },
     {
@@ -256,22 +267,7 @@
       "count": 1
     },
     {
-      "component": "gnulib",
-      "count": 1
-    },
-    {
       "component": "python-mathics-scanner",
-      "count": 1
-    },
-    {
-      "component": "python-mkdocs-test",
-      "count": 1,
-      "blocked_by": [
-        "python-toml-cli"
-      ]
-    },
-    {
-      "component": "python-toml-cli",
       "count": 1
     },
     {
@@ -369,19 +365,7 @@
       "count": 1
     },
     {
-      "component": "python-translitcodec",
-      "count": 1
-    },
-    {
-      "component": "python-sport-activities-features",
-      "count": 1
-    },
-    {
       "component": "certbot",
-      "count": 1
-    },
-    {
-      "component": "python-numpoly",
       "count": 1
     },
     {
@@ -397,22 +381,7 @@
       "count": 1
     },
     {
-      "component": "gnulib",
-      "count": 1
-    },
-    {
       "component": "python-mathics-scanner",
-      "count": 1
-    },
-    {
-      "component": "python-mkdocs-test",
-      "count": 1,
-      "blocked_by": [
-        "python-toml-cli"
-      ]
-    },
-    {
-      "component": "python-toml-cli",
       "count": 1
     },
     {
