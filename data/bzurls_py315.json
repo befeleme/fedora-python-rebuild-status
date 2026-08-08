@@ -111,16 +111,6 @@
       "F45FailsToInstall: monkeytype"
     ]
   },
-  "moose": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2504355",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2414807"
-    ],
-    "summaries": [
-      "moose: FTBFS in Fedora rawhide/f45",
-      "moose fails to build with Python 3.15: moose-core-3.1.5/pymoose/PyRun.h:58:24: error: \u2018Py_GetProgramName\u2019 was not declared in this scope; did you mean \u2018Py_SetProgramName\u2019?"
-    ]
-  },
   "pyp2rpm": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2453848"
@@ -249,16 +239,6 @@
       "F45FailsToInstall: python3-certbot-dns-luadns"
     ]
   },
-  "python-certbot-dns-plesk": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2504455",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485798"
-    ],
-    "summaries": [
-      "python-certbot-dns-plesk: FTBFS in Fedora rawhide/f45",
-      "F45FailsToInstall: python3-certbot-dns-plesk"
-    ]
-  },
   "python-colcon-alias": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2504457",
@@ -305,16 +285,6 @@
       "python-colcon-cmake: FTBFS in Fedora rawhide/f45",
       "F45FailsToInstall: python3-colcon-cmake",
       "python-colcon-cmake: FTBFS in Fedora rawhide/f44"
-    ]
-  },
-  "python-colcon-core": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2504484",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2403563"
-    ],
-    "summaries": [
-      "python-colcon-core: FTBFS in Fedora rawhide/f45",
-      "python-colcon-core: Fails to build with setuptools 80.9.0, fails to install [pins setuptools < 80, test_build_package fails]"
     ]
   },
   "python-colcon-installed-package-information": {
@@ -425,16 +395,6 @@
       "python-colcon-ros-domain-id-coordinator: FTBFS in Fedora rawhide/f44"
     ]
   },
-  "python-dtoc": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2504517",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2484399"
-    ],
-    "summaries": [
-      "python-dtoc: FTBFS in Fedora rawhide/f45",
-      "F45FailsToInstall: python3-dtoc"
-    ]
-  },
   "python-etcd": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2504521",
@@ -529,16 +489,6 @@
       "python-markdown-callouts: FTBFS in Fedora rawhide/f44"
     ]
   },
-  "python-mathics-pygments": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2504540",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485899"
-    ],
-    "summaries": [
-      "python-mathics-pygments: FTBFS in Fedora rawhide/f45",
-      "F45FailsToInstall: python3-mathics-pygments"
-    ]
-  },
   "python-meshio": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2460576"
@@ -583,16 +533,6 @@
     "summaries": [
       "python-pysdl2: FTBFS in Fedora rawhide/f44",
       "python-pysdl2 fails to build with Python 3.15: AssertionError: That operation is not supported"
-    ]
-  },
-  "python-questionary": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2435019",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2424586"
-    ],
-    "summaries": [
-      "python-questionary: FTBFS in Fedora rawhide/f44",
-      "python-questionary fails to build with Python 3.15: AttributeError: 'VSplit' object has no attribute 'content'. Did you mean: 'window_too_small.content'"
     ]
   },
   "python-qutepart": {
@@ -643,14 +583,6 @@
     "summaries": [
       "thefuck: FTBFS in Fedora rawhide/f45",
       "F45FailsToInstall: thefuck"
-    ]
-  },
-  "ubertooth": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2381615"
-    ],
-    "summaries": [
-      "ubertooth: FTBFS with change proposal CMake 4.0"
     ]
   }
 }
