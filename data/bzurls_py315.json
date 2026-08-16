@@ -211,12 +211,10 @@
   },
   "python-colcon-cmake": {
     "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485807",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2434962"
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2485807"
     ],
     "summaries": [
-      "F45FailsToInstall: python3-colcon-cmake (FTBFS, test failure due to DeprecationWarning: Version._version in packaging)",
-      "python-colcon-cmake: FTBFS in Fedora rawhide/f44"
+      "F45FailsToInstall: python3-colcon-cmake (FTBFS, test failure due to DeprecationWarning: Version._version in packaging)"
     ]
   },
   "python-etcd": {
@@ -313,24 +311,6 @@
       "python-meshio: FTBFS in Fedora Rawhide: binascii.Error: Invalid base64-encoded string: number of data characters (8889) cannot be 1 more than a multiple of 4"
     ]
   },
-  "python-pycparserext": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2504563",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2450092"
-    ],
-    "summaries": [
-      "python-pycparserext: FTBFS in Fedora rawhide/f45",
-      "F45FailsToInstall: python3-pycparserext"
-    ]
-  },
-  "python-pygtkspellcheck": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2435008"
-    ],
-    "summaries": [
-      "python-pygtkspellcheck: FTBFS in Fedora rawhide/f44"
-    ]
-  },
   "python-pyinfra": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2504565",
@@ -359,16 +339,6 @@
     "summaries": [
       "python-qutepart: FTBFS in Fedora rawhide/f45",
       "F45FailsToInstall: python3-qutepart"
-    ]
-  },
-  "qtile-extras": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2504622",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485993"
-    ],
-    "summaries": [
-      "qtile-extras: FTBFS in Fedora rawhide/f45",
-      "F45FailsToInstall: qtile-extras"
     ]
   },
   "roca-detect": {
