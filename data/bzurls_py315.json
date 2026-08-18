@@ -19,16 +19,6 @@
       "Mayavi: FTBFS in Fedora rawhide/f44"
     ]
   },
-  "abiword": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2503766",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485684"
-    ],
-    "summaries": [
-      "abiword: FTBFS in Fedora rawhide/f45",
-      "F45FailsToInstall: python3-abiword"
-    ]
-  },
   "arbor": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2503775",
@@ -209,14 +199,6 @@
       "F45FailsToInstall: python3-azure-mgmt-support"
     ]
   },
-  "python-colcon-cmake": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485807"
-    ],
-    "summaries": [
-      "F45FailsToInstall: python3-colcon-cmake (FTBFS, test failure due to DeprecationWarning: Version._version in packaging)"
-    ]
-  },
   "python-etcd": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2504521",
@@ -309,16 +291,6 @@
     ],
     "summaries": [
       "python-meshio: FTBFS in Fedora Rawhide: binascii.Error: Invalid base64-encoded string: number of data characters (8889) cannot be 1 more than a multiple of 4"
-    ]
-  },
-  "python-pyinfra": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2504565",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2476877"
-    ],
-    "summaries": [
-      "python-pyinfra: FTBFS in Fedora rawhide/f45",
-      "F45FailsToInstall: python3-pyinfra"
     ]
   },
   "python-pysdl2": {
