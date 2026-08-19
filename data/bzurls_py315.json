@@ -31,14 +31,6 @@
       "arbor: FTBFS in Fedora rawhide/f44"
     ]
   },
-  "bodhi-server": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2458695"
-    ],
-    "summaries": [
-      "bodhi-server fails to build with Python 3.15: Test run ends with: = 3 failed, 604 errors  ="
-    ]
-  },
   "dt-schema": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2503859",
@@ -47,16 +39,6 @@
     "summaries": [
       "dt-schema: FTBFS in Fedora rawhide/f45",
       "F45FailsToInstall: dt-schema"
-    ]
-  },
-  "enki": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2503868",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485704"
-    ],
-    "summaries": [
-      "enki: FTBFS in Fedora rawhide/f45",
-      "F45FailsToInstall: enki"
     ]
   },
   "kitty": {
@@ -79,228 +61,12 @@
       "mailman3-fedmsg-plugin: FTBFS in Fedora rawhide/f44"
     ]
   },
-  "matrix-synapse": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2504321",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485721",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2434810"
-    ],
-    "summaries": [
-      "matrix-synapse: FTBFS in Fedora rawhide/f45",
-      "F45FailsToInstall: Multiple packages built from matrix-synapse",
-      "matrix-synapse: FTBFS in Fedora rawhide/f44"
-    ]
-  },
-  "pyp2rpm": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2453848"
-    ],
-    "summaries": [
-      "pyp2rpm fails to build with Python 3.15: ModuleNotFoundError: No module named 'sre_constants'"
-    ]
-  },
-  "python-XStatic-Angular-UUID": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2504428",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485747"
-    ],
-    "summaries": [
-      "python-XStatic-Angular-UUID: FTBFS in Fedora rawhide/f45",
-      "F45FailsToInstall: python3-XStatic-Angular-UUID"
-    ]
-  },
-  "python-XStatic-Angular-Vis": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2504429",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485748"
-    ],
-    "summaries": [
-      "python-XStatic-Angular-Vis: FTBFS in Fedora rawhide/f45",
-      "F45FailsToInstall: python3-XStatic-Angular-Vis"
-    ]
-  },
-  "python-XStatic-DataTables": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2504430",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485750"
-    ],
-    "summaries": [
-      "python-XStatic-DataTables: FTBFS in Fedora rawhide/f45",
-      "F45FailsToInstall: python3-XStatic-DataTables"
-    ]
-  },
-  "python-XStatic-FileSaver": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2504431",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485751"
-    ],
-    "summaries": [
-      "python-XStatic-FileSaver: FTBFS in Fedora rawhide/f45",
-      "F45FailsToInstall: python3-XStatic-FileSaver"
-    ]
-  },
-  "python-XStatic-JS-Yaml": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2504433",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485752"
-    ],
-    "summaries": [
-      "python-XStatic-JS-Yaml: FTBFS in Fedora rawhide/f45",
-      "F45FailsToInstall: python3-XStatic-JS-Yaml"
-    ]
-  },
-  "python-XStatic-Json2yaml": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2504434",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485753"
-    ],
-    "summaries": [
-      "python-XStatic-Json2yaml: FTBFS in Fedora rawhide/f45",
-      "F45FailsToInstall: python3-XStatic-Json2yaml"
-    ]
-  },
-  "python-XStatic-Patternfly": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2504435",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485754"
-    ],
-    "summaries": [
-      "python-XStatic-Patternfly: FTBFS in Fedora rawhide/f45",
-      "F45FailsToInstall: python3-XStatic-Patternfly"
-    ]
-  },
-  "python-XStatic-Patternfly-Bootstrap-Treeview": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2504436",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485755"
-    ],
-    "summaries": [
-      "python-XStatic-Patternfly-Bootstrap-Treeview: FTBFS in Fedora rawhide/f45",
-      "F45FailsToInstall: python3-XStatic-Patternfly-Bootstrap-Treeview"
-    ]
-  },
-  "python-avocado": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2504443",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485762"
-    ],
-    "summaries": [
-      "python-avocado: FTBFS in Fedora rawhide/f45",
-      "F45FailsToInstall: Multiple packages built from python-avocado"
-    ]
-  },
-  "python-azure-mgmt-support": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2504445",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485788"
-    ],
-    "summaries": [
-      "python-azure-mgmt-support: FTBFS in Fedora rawhide/f45",
-      "F45FailsToInstall: python3-azure-mgmt-support"
-    ]
-  },
-  "python-etcd": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2504521",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485856"
-    ],
-    "summaries": [
-      "python-etcd: FTBFS in Fedora rawhide/f45",
-      "F45FailsToInstall: python3-etcd"
-    ]
-  },
-  "python-exiv2": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2440690"
-    ],
-    "summaries": [
-      "python-exiv2 fails to build with Python 3.15: error: \u2018PyWeakref_GetObject\u2019 was not declared in this scope; did you mean \u2018PyWeakref_GetRef\u2019?"
-    ]
-  },
-  "python-fastmcp": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2504523",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485863"
-    ],
-    "summaries": [
-      "python-fastmcp: FTBFS in Fedora rawhide/f45",
-      "FTBFS, F45FailsToInstall: python3-fastmcp+openai, python3-fastmcp"
-    ]
-  },
-  "python-fields": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2504525",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485864"
-    ],
-    "summaries": [
-      "python-fields: FTBFS in Fedora rawhide/f45",
-      "F45FailsToInstall: python3-fields"
-    ]
-  },
-  "python-fs": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2434982",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2424571"
-    ],
-    "summaries": [
-      "python-fs: FTBFS in Fedora rawhide/f44",
-      "python-fs fails to build with Python 3.15: AttributeError: 'DocTestCase' object has no attribute '_test_result'"
-    ]
-  },
   "python-geopmpy": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2483709"
     ],
     "summaries": [
       "python-geopmpy fails to build with Python 3.15: neverending Generating HDF5 files... Applying workaround for strings in HDF5 files... in test_report_cache (TestIO.TestIO.test_report_cache)"
-    ]
-  },
-  "python-grpc-google-iam-v1": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2504530",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485874"
-    ],
-    "summaries": [
-      "python-grpc-google-iam-v1: FTBFS in Fedora rawhide/f45",
-      "F45FailsToInstall: python3-grpc-google-iam-v1"
-    ]
-  },
-  "python-hypothesmith": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2466656",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2434986"
-    ],
-    "summaries": [
-      "python-hypothesmith fails to build with Python 3.15: AttributeError: 'int' object has no attribute '_codegen' and more (74 tests fail)",
-      "python-hypothesmith: FTBFS in Fedora rawhide/f44"
-    ]
-  },
-  "python-imbalanced-learn": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2504531",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2481163"
-    ],
-    "summaries": [
-      "python-imbalanced-learn: FTBFS in Fedora rawhide/f45",
-      "F45FailsToInstall: python3-imbalanced-learn+optional"
-    ]
-  },
-  "python-meshio": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2460576"
-    ],
-    "summaries": [
-      "python-meshio: FTBFS in Fedora Rawhide: binascii.Error: Invalid base64-encoded string: number of data characters (8889) cannot be 1 more than a multiple of 4"
-    ]
-  },
-  "python-pysdl2": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2435012",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2431587"
-    ],
-    "summaries": [
-      "python-pysdl2: FTBFS in Fedora rawhide/f44",
-      "python-pysdl2 fails to build with Python 3.15: AssertionError: That operation is not supported"
     ]
   },
   "python-qutepart": {
@@ -311,16 +77,6 @@
     "summaries": [
       "python-qutepart: FTBFS in Fedora rawhide/f45",
       "F45FailsToInstall: python3-qutepart"
-    ]
-  },
-  "roca-detect": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2504633",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485996"
-    ],
-    "summaries": [
-      "roca-detect: FTBFS in Fedora rawhide/f45",
-      "F45FailsToInstall: python3-pgpdump, roca-detect"
     ]
   }
 }
