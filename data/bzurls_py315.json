@@ -19,18 +19,6 @@
       "Mayavi: FTBFS in Fedora rawhide/f44"
     ]
   },
-  "arbor": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2503775",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2485689",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2433869"
-    ],
-    "summaries": [
-      "arbor: FTBFS in Fedora rawhide/f45",
-      "F45FailsToInstall: arbor, arbor-mpich, arbor-openmpi",
-      "arbor: FTBFS in Fedora rawhide/f44"
-    ]
-  },
   "dt-schema": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2503859",
@@ -54,11 +42,13 @@
   "mailman3-fedmsg-plugin": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2504318",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2434808"
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2434808",
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2413561"
     ],
     "summaries": [
       "mailman3-fedmsg-plugin: FTBFS in Fedora rawhide/f45",
-      "mailman3-fedmsg-plugin: FTBFS in Fedora rawhide/f44"
+      "mailman3-fedmsg-plugin: FTBFS in Fedora rawhide/f44",
+      "F44FailsToInstall: python3-mailman3-fedmsg-plugin"
     ]
   },
   "python-geopmpy": {
