@@ -1,19 +1,11 @@
 {
-  "Io-language": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2488337"
-    ],
-    "summaries": [
-      "Io-language FTBFS on i686 arch in Fedora Rawhide: install: cannot stat 'addons/Thread/_build/dll/libIoThread.so': No such file or directory"
-    ]
-  },
   "dt-schema": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2503859",
       "https://bugzilla.redhat.com/show_bug.cgi?id=2484389"
     ],
     "summaries": [
-      "dt-schema: FTBFS in Fedora rawhide/f45",
+      "dt-schema: FTBFS in Fedora rawhide/f45: BuildRequires python3dist(libfdt) but nothing provides that",
       "F45FailsToInstall: dt-schema"
     ]
   },
@@ -25,26 +17,6 @@
     "summaries": [
       "kitty: FTBFS in Fedora rawhide/f45",
       "kitty: FTBFS in Fedora rawhide/f44"
-    ]
-  },
-  "mailman3-fedmsg-plugin": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2504318",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2434808",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2413561"
-    ],
-    "summaries": [
-      "mailman3-fedmsg-plugin: FTBFS in Fedora rawhide/f45",
-      "mailman3-fedmsg-plugin: FTBFS in Fedora rawhide/f44",
-      "F44FailsToInstall: python3-mailman3-fedmsg-plugin"
-    ]
-  },
-  "python-geopmpy": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2483709"
-    ],
-    "summaries": [
-      "python-geopmpy fails to build with Python 3.15: neverending Generating HDF5 files... Applying workaround for strings in HDF5 files... in test_report_cache (TestIO.TestIO.test_report_cache)"
     ]
   },
   "python-qutepart": {
