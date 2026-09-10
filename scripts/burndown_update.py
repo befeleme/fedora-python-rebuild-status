@@ -6,7 +6,7 @@ import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
-from scripts.loaders import KOJI_PY315, parse_pyver_nvr
+from loaders import KOJI_PY315, parse_pyver_nvr
 
 DATA_FILES = {
     "succeeded": "data/python315-45.pkgs",
