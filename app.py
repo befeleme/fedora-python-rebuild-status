@@ -3,7 +3,7 @@ import urllib
 
 from flask import Flask, render_template
 
-from scripts.loaders import load_data, load_json, load_monitor_report, KOJI_PY315
+from scripts.loaders import load_data, load_json, load_monitor_report, load_python_version, KOJI_PY315
 from wheels import generate_wheel_readiness_data
 
 app = Flask("python_rebuild_status")
@@ -55,12 +55,6 @@ for ver, config in VERSIONS.items():
     else:
         config["all_to_build"] = sorted(base_packages)
         config["all_in_copr"] = load_monitor_report(f"data/copr_py{fs}.pkgs")
-
-
-def load_python_version(file_suffix):
-    "Return just the version string from the whole src name"
-    full_pkgname = load_data(f"data/pyver_py{file_suffix}").pop()
-    return full_pkgname.split(":")[-1].split("-")[0]
 
 
 def count_pkgs_with_state(build_status, looked_for):
@@ -227,7 +221,7 @@ def index():
         template_vars.update({
             f"{prefix}_fedora_version": config["fedora_version"],
             f"{prefix}_target_fedora": config["target_fedora"],
-            f"{prefix}_current_version": load_python_version(config["file_suffix"]),
+            f"{prefix}_current_version": load_python_version(config["file_suffix"], config["koji_enabled"]),
             f"{prefix}_data_source": "Koji" if config["koji_enabled"] else "Copr",
             f"{prefix}_total_packages": total,
             f"{prefix}_success_count": success,

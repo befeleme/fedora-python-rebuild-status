@@ -2,10 +2,11 @@
 """Append today's data to the burndown JSON. Updates if today exists."""
 
 import json
-import re
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
+
+from scripts.loaders import KOJI_PY315, parse_pyver_nvr
 
 DATA_FILES = {
     "succeeded": "data/python315-45.pkgs",
@@ -27,12 +28,9 @@ def count_lines(filepath):
 def parse_pyver():
     try:
         nvr = Path(PYVER_FILE).read_text().strip()
-        match = re.search(r":(.+?)-\d+\.", nvr)
-        if match:
-            return match.group(1).replace("~", "")
-        return nvr
     except FileNotFoundError:
         return None
+    return parse_pyver_nvr(nvr, KOJI_PY315).replace("~", "")
 
 
 def main():

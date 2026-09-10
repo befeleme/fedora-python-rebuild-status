@@ -5,11 +5,11 @@ mkdir -p data
 # Python 3.15 Data Collection (from Koji - post-mass-rebuild)
 ##############################################################################
 
-# post-mass-rebuild query - use koji now as a source for data
-repoquery --repo=koji --source --whatrequires 'libpython3.15.so.1.0()(64bit)' --whatrequires 'python(abi) = 3.15' --whatrequires 'python3.15dist(*)' | pkgname | env LANG=en_US.utf-8 sort | uniq > data/python315-45.pkgs
+# post-mass-rebuild query - use koji f45-build repo now as a source for data
+repoquery --repo=koji45 --source --whatrequires 'libpython3.15.so.1.0()(64bit)' --whatrequires 'python(abi) = 3.15' --whatrequires 'python3.15dist(*)' | pkgname | env LANG=en_US.utf-8 sort | uniq > data/python315-45.pkgs
 
 # get what's built with old python in koji
-repoquery --repo=koji --source --whatrequires 'libpython3.14.so.1.0()(64bit)' --whatrequires 'python(abi) = 3.14' --whatrequires 'python3.14dist(*)' | pkgname | env LANG=en_US.utf-8 sort | uniq > data/python314.pkgs
+repoquery --repo=koji45 --source --whatrequires 'libpython3.14.so.1.0()(64bit)' --whatrequires 'python(abi) = 3.14' --whatrequires 'python3.14dist(*)' | pkgname | env LANG=en_US.utf-8 sort | uniq > data/python314.pkgs
 
 # get what remains to be built
 env LANG=en_US.utf-8 comm -23 data/python314.pkgs data/python315-45.pkgs | grep -E -v '^(python3\.14)$' > data/todo_py315.pkgs
@@ -20,7 +20,7 @@ curl https://raw.githubusercontent.com/hroncok/whatdoibuild/python3.15/progress.
 env LANG=en_US.utf-8 comm -12 data/progress_py315.pkgs data/todo_py315.pkgs > data/failed_py315.pkgs
 env LANG=en_US.utf-8 comm -13 data/progress_py315.pkgs data/todo_py315.pkgs > data/waiting_py315.pkgs
 
-repoquery -q --repo python315 python3.15 --latest-limit 1 > data/pyver_py315
+repoquery -q --repo koji45 --source python3 --latest-limit 1 > data/pyver_py315
 
 
 ##############################################################################
