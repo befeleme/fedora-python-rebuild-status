@@ -1,14 +1,4 @@
 {
-  "dt-schema": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2503859",
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2484389"
-    ],
-    "summaries": [
-      "dt-schema: FTBFS in Fedora rawhide/f45: BuildRequires python3dist(libfdt) but nothing provides that",
-      "F45FailsToInstall: dt-schema"
-    ]
-  },
   "kitty": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2504198",
@@ -17,14 +7,6 @@
     "summaries": [
       "kitty: FTBFS in Fedora rawhide/f45",
       "kitty: FTBFS in Fedora rawhide/f44"
-    ]
-  },
-  "matrix-synapse": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2527953"
-    ],
-    "summaries": [
-      "F45FailsToInstall: Multiple packages built from matrix-synapse"
     ]
   },
   "python-XStatic-DataTables": {
