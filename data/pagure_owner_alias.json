@@ -20098,17 +20098,17 @@
             "music"
         ],
         "fastapi-cli": [
-            "music",
+            "orphan",
             "pwouters",
             "rominf"
         ],
         "fastapi-cloud-cli": [
-            "music",
+            "orphan",
             "pwouters",
             "rominf"
         ],
         "fastapi-new": [
-            "music"
+            "orphan"
         ],
         "fastback": [
             "jonathanspw"
@@ -25584,6 +25584,9 @@
         "ghc-shakespeare-text": [
             "orphan"
         ],
+        "ghc-shell-monad": [
+            "petersen"
+        ],
         "ghc-shelly": [
             "petersen"
         ],
@@ -25804,6 +25807,9 @@
             "qulogic"
         ],
         "ghc-toml-parser": [
+            "petersen"
+        ],
+        "ghc-toml-reader": [
             "petersen"
         ],
         "ghc-torrent": [
@@ -51214,7 +51220,6 @@
         ],
         "libpq": [
             "fjanus",
-            "ndavidov",
             "praiskup"
         ],
         "libpqxx": [
@@ -54930,7 +54935,6 @@
         ],
         "mariadb11.8": [
             "mschorm",
-            "ndavidov",
             "psloboda"
         ],
         "mariadb12.3": [
@@ -70318,7 +70322,7 @@
             "thoger"
         ],
         "pcre2": [
-            "ndavidov",
+            "dhandzus",
             "ppisar"
         ],
         "pcs": [
@@ -83450,7 +83454,7 @@
             "fjanus"
         ],
         "pgbadger": [
-            "ndavidov"
+            "dhandzus"
         ],
         "pgbouncer": [
             "devrim",
@@ -88888,8 +88892,7 @@
             "fjanus"
         ],
         "postgresql16": [
-            "fjanus",
-            "ndavidov"
+            "fjanus"
         ],
         "postgresql16-anonymizer": [
             "pkhartsk"
@@ -88904,7 +88907,7 @@
             "fjanus"
         ],
         "postgresql16-pg_tle": [
-            "ndavidov"
+            "dhandzus"
         ],
         "postgresql16-pgaudit": [
             "fjanus"
@@ -88922,27 +88925,22 @@
             "smani"
         ],
         "postgresql18": [
-            "fjanus",
-            "ndavidov"
+            "fjanus"
         ],
         "postgresql18-decoderbufs": [
-            "fjanus",
-            "ndavidov"
+            "fjanus"
         ],
         "postgresql18-pg_partman": [
             "psloboda"
         ],
         "postgresql18-pg_repack": [
-            "fjanus",
-            "ndavidov"
+            "fjanus"
         ],
         "postgresql18-pgaudit": [
-            "fjanus",
-            "ndavidov"
+            "fjanus"
         ],
         "postgresql18-pgvector": [
-            "fjanus",
-            "ndavidov"
+            "fjanus"
         ],
         "postgresql18-postgis": [
             "smani"
@@ -90869,7 +90867,7 @@
             "orphan"
         ],
         "python-agent-detector": [
-            "music",
+            "orphan",
             "pwouters",
             "rominf"
         ],
@@ -94907,12 +94905,12 @@
             "music"
         ],
         "python-fastapi": [
-            "music",
+            "orphan",
             "pwouters",
             "rominf"
         ],
         "python-fastar": [
-            "music"
+            "orphan"
         ],
         "python-fastavro": [
             "ankursinha"
@@ -100274,8 +100272,7 @@
             "praiskup"
         ],
         "python-psycopg3": [
-            "wfp",
-            "ndavidov"
+            "wfp"
         ],
         "python-psygnal": [
             "topazus"
@@ -100511,7 +100508,7 @@
             "jcline"
         ],
         "python-pyconify": [
-            "orphan"
+            "fedepell"
         ],
         "python-pycosat": [
             "orion"
@@ -102337,10 +102334,10 @@
             "samdoran"
         ],
         "python-rich-toolkit": [
-            "music"
+            "orphan"
         ],
         "python-rignore": [
-            "music"
+            "orphan"
         ],
         "python-ring-doorbell": [
             "orphan"
@@ -105196,7 +105193,7 @@
             "sharkcz"
         ],
         "python-volatile": [
-            "orphan"
+            "fedepell"
         ],
         "python-volatility": [
             "orphan"
@@ -120476,6 +120473,9 @@
         "rust-libcramjam0.6": [
             "music"
         ],
+        "rust-libcramjam0.8": [
+            "music"
+        ],
         "rust-libcryptsetup-rs": [
             "jbaublitz",
             "ctwo0002",
@@ -132143,7 +132143,6 @@
         "sqlite": [
             "pkhartsk",
             "fjanus",
-            "ndavidov",
             "pkubat"
         ],
         "sqlite-jdbc": [
