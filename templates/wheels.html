@@ -49,8 +49,6 @@
     </p>
     <ol>
       {%- set no_support = results|length - do_support -%}
-      {%- set do_support_percent = (do_support / results|length * 100)|round(1) -%}
-      {%- set no_support_percent = (no_support / results|length * 100)|round(1) -%}
       <li>{{ do_support }} <span class="text-success">green</span> packages ({{ do_support_percent }}%) publish Python {{ major }} compatible wheels;</li>
       <li>{{ no_support }} <span class="text-default">white</span> packages ({{ no_support_percent }}%) don't publish Python {{ major }} compatible wheels.</li>
     </ol>

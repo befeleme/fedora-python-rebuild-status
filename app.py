@@ -266,12 +266,17 @@ def failures():
 
 @app.route('/wheels/')
 def wheels():
+    results = wheel_data["315"]["readiness"]
+    do_support = wheel_data["315"]["count"]
+    no_support = len(results) - do_support
     return render_template(
         'wheels.html',
-        results=wheel_data["315"]["readiness"],
+        results=results,
         major=VERSIONS["315"]["major_version"],
         updated=updated,
-        do_support=wheel_data["315"]["count"],
+        do_support=do_support,
+        do_support_percent=as_percentage(do_support, len(results)),
+        no_support_percent=as_percentage(no_support, len(results)),
     )
 
 @app.route('/packages_py315/')
@@ -302,12 +307,17 @@ def failures_py315():
 
 @app.route('/wheels_py315/')
 def wheels_py315():
+    results = wheel_data["315"]["readiness"]
+    do_support = wheel_data["315"]["count"]
+    no_support = len(results) - do_support
     return render_template(
         'wheels.html',
-        results=wheel_data["315"]["readiness"],
+        results=results,
         major=VERSIONS["315"]["major_version"],
         updated=updated,
-        do_support=wheel_data["315"]["count"],
+        do_support=do_support,
+        do_support_percent=as_percentage(do_support, len(results)),
+        no_support_percent=as_percentage(no_support, len(results)),
     )
 
 @app.route('/burndown/')
