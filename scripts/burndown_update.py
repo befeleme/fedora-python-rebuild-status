@@ -6,15 +6,15 @@ import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
-from loaders import KOJI_PY315, parse_pyver_nvr
+from loaders import KOJI_PY316, parse_pyver_nvr
 
 DATA_FILES = {
-    "succeeded": "data/python315-45.pkgs",
-    "failed": "data/failed_py315.pkgs",
-    "waiting": "data/waiting_py315.pkgs",
+    "succeeded": "data/python316.pkgs",
+    "failed": "data/failed_py316.pkgs",
+    "waiting": "data/waiting_py316.pkgs",
 }
-PYVER_FILE = "data/pyver_py315"
-OUTPUT = "data/burndown_py315.json"
+PYVER_FILE = "data/pyver_py316"
+OUTPUT = "data/burndown_py316.json"
 
 
 def count_lines(filepath):
@@ -30,7 +30,7 @@ def parse_pyver():
         nvr = Path(PYVER_FILE).read_text().strip()
     except FileNotFoundError:
         return None
-    return parse_pyver_nvr(nvr, KOJI_PY315).replace("~", "")
+    return parse_pyver_nvr(nvr, KOJI_PY316).replace("~", "")
 
 
 def main():

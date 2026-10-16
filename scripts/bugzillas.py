@@ -1,7 +1,7 @@
 import json
 import bugzilla
 
-from loaders import load_data, load_monitor_report, KOJI_PY315
+from loaders import load_data, load_monitor_report, KOJI_PY316
 
 
 BUGZILLA = 'bugzilla.redhat.com'
@@ -9,24 +9,24 @@ BZ_PAGE_SIZE = 20
 
 # Python version configurations
 VERSION_CONFIG = {
-    "3.15": {
-        "tracker": 2412434,  # PYTHON3.15
-        "rawhide": [2384424, 2433833],  # F44FTBFS, F45FTBFS
-        "failed_file": "data/failed_py315.pkgs",
-        "waiting_file": "data/waiting_py315.pkgs",
-        "python_pkgs": "data/python315.pkgs",
-        "copr_file": "data/copr_py315.pkgs",
-        "output_file": "data/bzurls_py315.json"
+    "3.16": {
+        "tracker": None,  # PYTHON3.16 tracker does not exist yet
+        "rawhide": [],  # F47FTBFS etc. - add once the trackers are filed
+        "failed_file": "data/failed_py316.pkgs",
+        "waiting_file": "data/waiting_py316.pkgs",
+        "python_pkgs": "data/python316.pkgs",
+        "copr_file": "data/copr_py316.pkgs",
+        "output_file": "data/bzurls_py316.json"
     },
 }
 
 BZAPI = bugzilla.Bugzilla(BUGZILLA)
 
 
-def load_failed_packages(version="3.15"):
+def load_failed_packages(version="3.16"):
     """Load failed packages for a specific Python version."""
 
-    koji = KOJI_PY315
+    koji = KOJI_PY316
 
     config = VERSION_CONFIG[version]
 
@@ -85,12 +85,14 @@ def map_pkgs_and_bzurls(bugzillas_list, sorted_fails):
 
 
 if __name__ == "__main__":
-    sorted_fails_315 = load_failed_packages("3.15")
+    sorted_fails_316 = load_failed_packages("3.16")
 
-    config_315 = VERSION_CONFIG["3.15"]
-    bugzillas_list = bugzillas(sorted_fails_315, config_315["tracker"], config_315["rawhide"])
+    config_316 = VERSION_CONFIG["3.16"]
+    # With no tracker filed yet, bugzillas() returns an empty list and the
+    # resulting mapping has empty url/summary lists for every failed package.
+    bugzillas_list = bugzillas(sorted_fails_316, config_316["tracker"], config_316["rawhide"])
 
-    for version, sorted_fails in [("3.15", sorted_fails_315)]:
+    for version, sorted_fails in [("3.16", sorted_fails_316)]:
         config = VERSION_CONFIG[version]
         pkg_url_mapping = map_pkgs_and_bzurls(bugzillas_list, sorted_fails)
         with open(config["output_file"], 'w') as open_file:

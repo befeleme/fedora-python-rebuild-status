@@ -1,8 +1,8 @@
 {% extends "base.html" %}
-{% block title %}Python 3.15 failed to build breakdown{% endblock %}
+{% block title %}Python 3.16 failed to build breakdown{% endblock %}
 {% block content %}
 <a href="{{ url_for('index') }}" class="btn btn-primary mb-3"> &lt&lt&lt Home</a>
-<h2 class="mb-3">Python 3.15: Failed or blocked packages (🔴)</h2>
+<h2 class="mb-3">Python 3.16: Failed packages (🔴) and packages whose last build with Python 3.16 failed (🟠)</h2>
 
 <style>
     .max-width-column {
@@ -18,18 +18,18 @@
             <tr>
                 <th scope="col">Package name</th>
                 <th scope="col">Build status</th>
-                <th scope="col">Package in Koji</th>
-                <th scope="col" class="max-width-column">Bugzilla ticket (all open PYTHON315)</th>
+                <th scope="col">Package in Copr</th>
+                <th scope="col" class="max-width-column">Bugzilla ticket (all open PYTHON316)</th>
             </tr>
         </thead>
         <tbody>
-        {% for package_name, detail in py315_status_failed.items() %}
+        {% for package_name, detail in py316_status_failed.items() %}
             <tr id="row-{{ package_name }}">
                 <td>{{ package_name }}</td>
                 <td>{{ detail["state"] }}</td>
                 <td>
-                    <a href="https://koji.fedoraproject.org/koji/search?terms={{ urllib.parse.quote(package_name) }}&type=package&match=exact">
-                        Koji - {{ package_name }}
+                    <a href="https://copr.fedorainfracloud.org/coprs/g/python/python3.16/package/{{ urllib.parse.quote(package_name) }}/">
+                        Copr - {{ package_name }}
                     </a>
                 </td>
                 <td class="max-width-column">

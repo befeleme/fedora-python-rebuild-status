@@ -9,7 +9,12 @@
 
 {% block content %}
 <a href="{{ url_for('index') }}" class="btn btn-primary mb-3"> &lt&lt&lt Home</a>
-<h1 class="mb-4">Python 3.15 Rebuild Burndown</h1>
+<h1 class="mb-4">Python 3.16 Rebuild Burndown</h1>
+<div style="position: relative; max-width: 960px; margin: 0 auto;">
+  <canvas id="chart316"></canvas>
+</div>
+
+<h1 class="mb-4 mt-5">Python 3.15 Rebuild Burndown</h1>
 <div style="position: relative; max-width: 960px; margin: 0 auto;">
   <canvas id="chart315"></canvas>
 </div>
@@ -29,6 +34,7 @@ const isDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
 const gridColor = isDark ? 'rgba(255,255,255,0.1)' : 'rgba(0,0,0,0.1)';
 const textColor = isDark ? '#ccc' : '#333';
 
+const data316 = {{ burndown_316 | tojson }};
 const data315 = {{ burndown_315 | tojson }};
 const data314 = {{ burndown_314 | tojson }};
 const data313 = {{ burndown_313 | tojson }};
@@ -45,7 +51,7 @@ function normalizeDate(dateStr, startMonth, startDay) {
   return new Date(Date.UTC(year, month, day)).toISOString().slice(0, 10);
 }
 
-const globalMin = '2000-10-21';
+const globalMin = '2000-10-16';
 const globalMax = '2001-10-20';
 
 // Deduplicate: keep last entry per normalized date
@@ -219,6 +225,7 @@ function createBurndownChart(canvasId, data, startMonth, startDay) {
   });
 }
 
+createBurndownChart('chart316', data316, 9, 16);  // Oct 16
 createBurndownChart('chart315', data315, 9, 21);  // Oct 21
 createBurndownChart('chart314', data314, 9, 21);  // Oct 21
 createBurndownChart('chart313', data313, 10, 6);  // Nov 6

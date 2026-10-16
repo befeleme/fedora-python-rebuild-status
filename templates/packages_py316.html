@@ -1,11 +1,12 @@
 {% extends "base.html" %}
-{% block title %}Fedora - Python 3.15 rebuild: sorted by package name{% endblock %}
+{% block title %}Fedora - Python 3.16 rebuild: sorted by package name{% endblock %}
 {% block content %}
 <a href="{{ url_for('index') }}" class="btn btn-primary mb-3"> &lt&lt&lt Home</a>
-<h2 class="mb-3">Python 3.15: All packages sorted by package name</h2>
+<h2 class="mb-3">Python 3.16: All packages sorted by package name</h2>
 
 <p><strong>Legend</strong><br>
-    🟢 = built successfully with Python 3.15<br>
+    🟢 = built successfully with Python 3.16<br>
+    🟠 = last build with Python 3.16 failed<br>
     🔴 = failed or blocked<br>
     ⚪ = not yet rebuilt<br>
 </p>
@@ -20,11 +21,11 @@
             </tr>
         </thead>
         <tbody>
-            {% for package_name, status, maintainers in py315_status_by_packages %}
+            {% for package_name, status, maintainers in py316_status_by_packages %}
             <tr>
                 <td>
                     {% if status in ["🟠", "🔴"] %}
-                        <a href="{{ url_for('failures_py315') }}#row-{{ package_name }}">{{ package_name }}</a>
+                        <a href="{{ url_for('failures_py316') }}#row-{{ package_name }}">{{ package_name }}</a>
                     {% else %}
                         {{ package_name }}
                     {% endif %}

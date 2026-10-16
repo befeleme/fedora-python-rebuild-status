@@ -3,7 +3,7 @@ import urllib
 
 from flask import Flask, render_template
 
-from scripts.loaders import load_data, load_json, load_monitor_report, load_python_version, KOJI_PY315
+from scripts.loaders import load_data, load_json, load_monitor_report, load_python_version, KOJI_PY316
 from wheels import generate_wheel_readiness_data
 
 app = Flask("python_rebuild_status")
@@ -20,15 +20,15 @@ REPORT_STATES = {
 }
 
 VERSIONS = {
-    "315": {
-        "major_version": "3.15",
-        "fedora_version": "45",
-        "target_fedora": "45",
-        "koji_enabled": KOJI_PY315,
-        "base_packages": "data/python314.pkgs",
-        "exclude_package": "python3.14",
-        "file_suffix": "315",
-        "success_file": "data/python315-45.pkgs",
+    "316": {
+        "major_version": "3.16",
+        "fedora_version": "47",
+        "target_fedora": "47",
+        "koji_enabled": KOJI_PY316,
+        "base_packages": "data/python315.pkgs",
+        "exclude_package": "python3.15",
+        "file_suffix": "316",
+        "success_file": "data/python316.pkgs",
         "all_to_build": None,
         "successfully_rebuilt": None,
         "failed": None,
@@ -155,9 +155,15 @@ def create_failed_report(ver, build_status):
     """
     failure_report = {}
     config = VERSIONS[ver]
-    for pkg, bugs_data in config["bugzillas"].items():
-        if (state := build_status.get(pkg)) is not None:
-            failure_report[pkg] = dict({"state": state}, **bugs_data)
+    failing_states = {
+        REPORT_STATES["failed"],
+        REPORT_STATES["once_succeeded_last_failed"],
+    }
+    for pkg, state in sorted(build_status.items()):
+        if state not in failing_states:
+            continue
+        bugs_data = config["bugzillas"].get(pkg, {"urls": [], "summaries": []})
+        failure_report[pkg] = dict({"state": state}, **bugs_data)
     return failure_report
 
 
@@ -181,13 +187,13 @@ for ver in VERSIONS.keys():
         "failed_report": create_failed_report(ver, build_status),
     }
 
-    # Generate wheel readiness data only for versions with a wheels page
-    if ver == "315":
-        wheel_readiness, wheels_count = generate_wheel_readiness_data(ver)
-        wheel_data[ver] = {
-            "readiness": wheel_readiness,
-            "count": wheels_count,
-        }
+# The wheel readiness page still tracks Python 3.15 for now (not touched by the
+# 3.16 switch). It is generated independently of the active VERSIONS above.
+wheel_readiness, wheels_count = generate_wheel_readiness_data("315")
+wheel_data["315"] = {
+    "readiness": wheel_readiness,
+    "count": wheels_count,
+}
 
 updated = datetime.datetime.now()
 
@@ -241,24 +247,24 @@ def index():
 @app.route('/packages/')
 def packages():
     return render_template(
-        'packages_py315.html',
-        py315_status_by_packages=build_data["315"]["status_by_packages"],
+        'packages_py316.html',
+        py316_status_by_packages=build_data["316"]["status_by_packages"],
         updated=updated,
     )
 
 @app.route('/maintainers/')
 def maintainers():
     return render_template(
-        'maintainers_py315.html',
-        py315_status_by_maintainers=build_data["315"]["status_by_maintainers"],
+        'maintainers_py316.html',
+        py316_status_by_maintainers=build_data["316"]["status_by_maintainers"],
         updated=updated,
     )
 
 @app.route('/failures/')
 def failures():
     return render_template(
-        'failures_py315.html',
-        py315_status_failed=build_data["315"]["failed_report"],
+        'failures_py316.html',
+        py316_status_failed=build_data["316"]["failed_report"],
         updated=updated,
         zip=zip,
     )
@@ -272,34 +278,34 @@ def wheels():
     return render_template(
         'wheels.html',
         results=results,
-        major=VERSIONS["315"]["major_version"],
+        major="3.15",
         updated=updated,
         do_support=do_support,
         do_support_percent=as_percentage(do_support, len(results)),
         no_support_percent=as_percentage(no_support, len(results)),
     )
 
-@app.route('/packages_py315/')
-def packages_py315():
+@app.route('/packages_py316/')
+def packages_py316():
     return render_template(
-        'packages_py315.html',
-        py315_status_by_packages=build_data["315"]["status_by_packages"],
+        'packages_py316.html',
+        py316_status_by_packages=build_data["316"]["status_by_packages"],
         updated=updated,
     )
 
-@app.route('/maintainers_py315/')
-def maintainers_py315():
+@app.route('/maintainers_py316/')
+def maintainers_py316():
     return render_template(
-        'maintainers_py315.html',
-        py315_status_by_maintainers=build_data["315"]["status_by_maintainers"],
+        'maintainers_py316.html',
+        py316_status_by_maintainers=build_data["316"]["status_by_maintainers"],
         updated=updated,
     )
 
-@app.route('/failures_py315/')
-def failures_py315():
+@app.route('/failures_py316/')
+def failures_py316():
     return render_template(
-        'failures_py315.html',
-        py315_status_failed=build_data["315"]["failed_report"],
+        'failures_py316.html',
+        py316_status_failed=build_data["316"]["failed_report"],
         updated=updated,
         zip=zip,
         urllib=urllib,
@@ -313,7 +319,7 @@ def wheels_py315():
     return render_template(
         'wheels.html',
         results=results,
-        major=VERSIONS["315"]["major_version"],
+        major="3.15",
         updated=updated,
         do_support=do_support,
         do_support_percent=as_percentage(do_support, len(results)),
@@ -322,15 +328,16 @@ def wheels_py315():
 
 @app.route('/burndown/')
 def burndown():
+    burndown_316 = load_json("data/burndown_py316.json")
     burndown_315 = load_json("data/burndown_py315.json")
     burndown_314 = load_json("data/burndown_py314.json")
     burndown_313 = load_json("data/burndown_py313.json")
-    return render_template('burndown.html', burndown_315=burndown_315, burndown_314=burndown_314, burndown_313=burndown_313, updated=updated)
+    return render_template('burndown.html', burndown_316=burndown_316, burndown_315=burndown_315, burndown_314=burndown_314, burndown_313=burndown_313, updated=updated)
 
 
 @app.route('/commonly-blocking/')
 def commonly_blocking():
-    failed_packages = set(build_data["315"]["failed_report"].keys())
+    failed_packages = set(build_data["316"]["failed_report"].keys())
     return render_template(
         'commonly_blocking.html',
         most_commonly_needed=commonly_blocking_data.get("most_commonly_needed", []),
@@ -338,7 +345,7 @@ def commonly_blocking():
         most_commonly_last_blocking_combinations=commonly_blocking_data.get("most_commonly_last_blocking_combinations", []),
         dependency_loops=commonly_blocking_data.get("dependency_loops", []),
         failed_packages=failed_packages,
-        failures_route='failures_py315',
+        failures_route='failures_py316',
         updated=updated,
     )
 
