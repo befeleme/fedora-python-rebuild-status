@@ -1,10 +1,6 @@
 {
   "most_commonly_needed": [
     {
-      "component": "python-rich",
-      "count": 156
-    },
-    {
       "component": "python-pooch",
       "count": 127,
       "blocked_by": [
@@ -46,8 +42,7 @@
       "blocked_by": [
         "python-Bottleneck",
         "python-asttokens",
-        "python-inline-snapshot",
-        "python-rich"
+        "python-inline-snapshot"
       ]
     },
     {
@@ -111,7 +106,6 @@
       "blocked_by": [
         "python-anyio",
         "python-httpcore",
-        "python-rich",
         "python-socksio",
         "python-trustme",
         "python-uvicorn"
@@ -173,41 +167,28 @@
       ]
     },
     {
-      "component": "python-sqlalchemy",
-      "count": 57
-    },
-    {
-      "component": "python-rich-argparse",
-      "count": 56,
-      "blocked_by": [
-        "python-rich"
-      ]
-    },
-    {
       "component": "python-cliff",
-      "count": 55,
+      "count": 56,
       "blocked_by": [
         "python-autopage",
         "python-cliff",
-        "python-cmd2",
-        "python-rich",
-        "python-rich-argparse",
         "python-stestr"
       ]
     },
     {
-      "component": "python-cmd2",
-      "count": 55,
+      "component": "python-autopage",
+      "count": 56,
       "blocked_by": [
-        "python-rich",
-        "python-rich-argparse"
+        "python-fixtures"
       ]
     },
     {
-      "component": "python-autopage",
-      "count": 55,
+      "component": "python-stestr",
+      "count": 52,
       "blocked_by": [
-        "python-fixtures"
+        "python-autopage",
+        "python-cliff",
+        "python-ddt"
       ]
     },
     {
@@ -226,20 +207,7 @@
       "blocked_by": [
         "python-aiohappyeyeballs",
         "python-aiohttp",
-        "python-rich",
         "python-yarl"
-      ]
-    },
-    {
-      "component": "python-stestr",
-      "count": 51,
-      "blocked_by": [
-        "python-autopage",
-        "python-cliff",
-        "python-cmd2",
-        "python-ddt",
-        "python-rich",
-        "python-rich-argparse"
       ]
     },
     {
@@ -291,20 +259,6 @@
       ]
     },
     {
-      "component": "python-mdit-py-plugins",
-      "count": 45,
-      "blocked_by": [
-        "python-pytest-regressions"
-      ]
-    },
-    {
-      "component": "python-typer",
-      "count": 43,
-      "blocked_by": [
-        "python-rich"
-      ]
-    },
-    {
       "component": "python-dns",
       "count": 42,
       "blocked_by": [
@@ -324,7 +278,7 @@
     },
     {
       "component": "python-requests-mock",
-      "count": 39,
+      "count": 40,
       "blocked_by": [
         "python-requests-futures"
       ]
@@ -337,36 +291,25 @@
       ]
     },
     {
-      "component": "python-nest-asyncio",
-      "count": 37
-    },
-    {
-      "component": "python-myst-parser",
+      "component": "python-oslo-i18n",
       "count": 37,
       "blocked_by": [
-        "python-mdit-py-plugins",
-        "python-pytest-regressions"
+        "python-autopage",
+        "python-cliff",
+        "python-dulwich",
+        "python-openstackdocstheme",
+        "python-stestr"
       ]
+    },
+    {
+      "component": "python-nest-asyncio",
+      "count": 37
     },
     {
       "component": "python-openstackdocstheme",
       "count": 37,
       "blocked_by": [
         "python-dulwich"
-      ]
-    },
-    {
-      "component": "python-oslo-i18n",
-      "count": 36,
-      "blocked_by": [
-        "python-autopage",
-        "python-cliff",
-        "python-cmd2",
-        "python-dulwich",
-        "python-openstackdocstheme",
-        "python-rich",
-        "python-rich-argparse",
-        "python-stestr"
       ]
     },
     {
@@ -407,14 +350,12 @@
         "python-ipykernel",
         "python-isoduration",
         "python-jedi",
-        "python-jupyter-builder",
         "python-jupyter-client",
         "python-jupyter-events",
         "python-jupyter-lsp",
         "python-jupyter-server",
         "python-jupyter-server-terminals",
         "python-jupyterlab-server",
-        "python-locket",
         "python-mistune",
         "python-nbclient",
         "python-nbconvert",
@@ -468,6 +409,103 @@
         "python-requests-oauthlib",
         "python-yarl"
       ]
+    },
+    {
+      "component": "python-rfc3339-validator",
+      "count": 33
+    },
+    {
+      "component": "python-mpmath",
+      "count": 33,
+      "blocked_by": [
+        "ipython",
+        "python-asttokens",
+        "python-contourpy",
+        "python-jedi",
+        "python-matplotlib",
+        "python-parso",
+        "python-stack-data"
+      ]
+    },
+    {
+      "component": "python-nbclient",
+      "count": 32,
+      "blocked_by": [
+        "ipython",
+        "jupyterlab",
+        "python-anyio",
+        "python-arrow",
+        "python-asttokens",
+        "python-httpcore",
+        "python-httpx",
+        "python-ipykernel",
+        "python-ipywidgets",
+        "python-isoduration",
+        "python-jedi",
+        "python-jupyter-client",
+        "python-jupyter-events",
+        "python-jupyter-lsp",
+        "python-jupyter-server",
+        "python-jupyter-server-terminals",
+        "python-jupyterlab-server",
+        "python-mistune",
+        "python-nbclient",
+        "python-nbconvert",
+        "python-nest-asyncio",
+        "python-notebook",
+        "python-notebook-shim",
+        "python-parso",
+        "python-rfc3339-validator",
+        "python-stack-data",
+        "python-terminado",
+        "python-tornado",
+        "python-zmq"
+      ]
+    },
+    {
+      "component": "python-oslo-utils",
+      "count": 32,
+      "blocked_by": [
+        "python-autopage",
+        "python-cliff",
+        "python-ddt",
+        "python-dulwich",
+        "python-openstackdocstheme",
+        "python-oslo-config",
+        "python-oslo-i18n",
+        "python-stestr"
+      ]
+    },
+    {
+      "component": "python-furo",
+      "count": 32,
+      "blocked_by": [
+        "python-sphinx-design",
+        "python-sphinx-inline-tabs",
+        "python-sphinx-tabs"
+      ]
+    },
+    {
+      "component": "python-keystoneauth1",
+      "count": 31,
+      "blocked_by": [
+        "python-autopage",
+        "python-cliff",
+        "python-dulwich",
+        "python-openstackdocstheme",
+        "python-oslo-config",
+        "python-oslo-i18n",
+        "python-oslo-utils",
+        "python-requests-mock",
+        "python-stestr"
+      ]
+    },
+    {
+      "component": "python-watchdog",
+      "count": 31,
+      "blocked_by": [
+        "python-pytest-rerunfailures"
+      ]
     }
   ],
   "most_commonly_last_blocking": [
@@ -486,6 +524,13 @@
       ]
     },
     {
+      "component": "python-flask",
+      "count": 21,
+      "blocked_by": [
+        "python-sphinx-tabs"
+      ]
+    },
+    {
       "component": "python-pooch",
       "count": 20,
       "blocked_by": [
@@ -496,23 +541,12 @@
     },
     {
       "component": "dnf5",
-      "count": 18,
+      "count": 19,
       "blocked_by": [
         "python-astroid",
         "python-breathe",
         "python-sphinx-autoapi"
       ]
-    },
-    {
-      "component": "python-flask",
-      "count": 18,
-      "blocked_by": [
-        "python-sphinx-tabs"
-      ]
-    },
-    {
-      "component": "python-sqlalchemy",
-      "count": 15
     },
     {
       "component": "python-twisted",
@@ -525,10 +559,6 @@
       ]
     },
     {
-      "component": "python-rich",
-      "count": 12
-    },
-    {
       "component": "python-Bottleneck",
       "count": 12,
       "blocked_by": [
@@ -536,21 +566,25 @@
       ]
     },
     {
-      "component": "python-pytest-rerunfailures",
-      "count": 9
-    },
-    {
       "component": "python-furo",
-      "count": 9,
+      "count": 11,
       "blocked_by": [
-        "python-diagnostic",
-        "python-mdit-py-plugins",
-        "python-myst-parser",
-        "python-rich",
         "python-sphinx-design",
         "python-sphinx-inline-tabs",
-        "python-sphinx-tabs",
-        "python-sphinx-theme-builder"
+        "python-sphinx-tabs"
+      ]
+    },
+    {
+      "component": "python-pytest-rerunfailures",
+      "count": 10
+    },
+    {
+      "component": "python-pytest-regressions",
+      "count": 9,
+      "blocked_by": [
+        "python-Bottleneck",
+        "python-contourpy",
+        "python-matplotlib"
       ]
     },
     {
@@ -594,7 +628,6 @@
       "component": "python-zope-testrunner",
       "count": 6,
       "blocked_by": [
-        "python-manuel",
         "python-sphinxcontrib-programoutput"
       ]
     },
@@ -621,6 +654,15 @@
         "python-requests_ntlm",
         "python-winrm"
       ]
+    },
+    {
+      "component": "python-requests-oauthlib",
+      "count": 4,
+      "blocked_by": [
+        "python-requests-mock",
+        "python-selenium",
+        "python-trio-websocket"
+      ]
     }
   ],
   "most_commonly_last_blocking_combinations": [
@@ -640,16 +682,16 @@
     },
     {
       "components": [
-        "python-pydantic",
-        "python-pydantic-core"
-      ],
-      "count": 14
-    },
-    {
-      "components": [
         "python-aiohappyeyeballs",
         "python-aiohttp",
         "python-yarl"
+      ],
+      "count": 16
+    },
+    {
+      "components": [
+        "python-pydantic",
+        "python-pydantic-core"
       ],
       "count": 14
     },
@@ -666,31 +708,7 @@
         "python-matplotlib",
         "python-pooch"
       ],
-      "count": 8
-    },
-    {
-      "components": [
-        "python-autopage",
-        "python-cliff",
-        "python-cmd2",
-        "python-rich",
-        "python-rich-argparse",
-        "python-stestr"
-      ],
-      "count": 7
-    },
-    {
-      "components": [
-        "python-autopage",
-        "python-cliff",
-        "python-cmd2",
-        "python-dulwich",
-        "python-openstackdocstheme",
-        "python-rich",
-        "python-rich-argparse",
-        "python-stestr"
-      ],
-      "count": 7
+      "count": 9
     },
     {
       "components": [
@@ -700,12 +718,43 @@
         "python-pika",
         "python-twisted"
       ],
+      "count": 8
+    },
+    {
+      "components": [
+        "python-autopage",
+        "python-cliff",
+        "python-stestr"
+      ],
       "count": 7
     },
     {
       "components": [
-        "python-mdit-py-plugins",
-        "python-myst-parser"
+        "python-autopage",
+        "python-cliff",
+        "python-dulwich",
+        "python-openstackdocstheme",
+        "python-stestr"
+      ],
+      "count": 7
+    },
+    {
+      "components": [
+        "python-anyio",
+        "python-httpcore",
+        "python-httpx",
+        "python-pydantic",
+        "python-pydantic-core"
+      ],
+      "count": 6
+    },
+    {
+      "components": [
+        "ipython",
+        "python-asttokens",
+        "python-jedi",
+        "python-parso",
+        "python-stack-data"
       ],
       "count": 6
     },
@@ -721,13 +770,6 @@
       "components": [
         "imath",
         "vtk"
-      ],
-      "count": 5
-    },
-    {
-      "components": [
-        "python-importlib-metadata",
-        "python-zipp"
       ],
       "count": 5
     },
@@ -751,28 +793,8 @@
     },
     {
       "components": [
-        "python-anyio",
-        "python-httpcore",
-        "python-httpx",
-        "python-pydantic",
-        "python-pydantic-core"
-      ],
-      "count": 5
-    },
-    {
-      "components": [
         "breezy",
         "python-dulwich"
-      ],
-      "count": 4
-    },
-    {
-      "components": [
-        "ipython",
-        "python-asttokens",
-        "python-jedi",
-        "python-parso",
-        "python-stack-data"
       ],
       "count": 4
     },
@@ -794,22 +816,25 @@
         "sympy"
       ],
       "count": 4
+    },
+    {
+      "components": [
+        "mkdocs",
+        "mkdocs-material",
+        "python-backrefs",
+        "python-watchdog"
+      ],
+      "count": 4
+    },
+    {
+      "components": [
+        "python-progressbar2",
+        "python-utils"
+      ],
+      "count": 3
     }
   ],
   "dependency_loops": [
-    [
-      "conda-build",
-      "python-conda-libmamba-solver",
-      "conda-build"
-    ],
-    [
-      "python-pcodedmp",
-      "python-pcodedmp"
-    ],
-    [
-      "python-manilaclient",
-      "python-manilaclient"
-    ],
     [
       "python-itemadapter",
       "python-scrapy",
