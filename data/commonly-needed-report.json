@@ -11,7 +11,7 @@
     },
     {
       "component": "python-anyio",
-      "count": 120,
+      "count": 122,
       "blocked_by": [
         "python-trustme"
       ]
@@ -38,7 +38,7 @@
     },
     {
       "component": "python-pydantic-core",
-      "count": 105,
+      "count": 102,
       "blocked_by": [
         "python-Bottleneck",
         "python-asttokens",
@@ -47,7 +47,7 @@
     },
     {
       "component": "python-pydantic",
-      "count": 104,
+      "count": 101,
       "blocked_by": [
         "python-cloudpickle",
         "python-dns",
@@ -57,7 +57,7 @@
     },
     {
       "component": "python-Bottleneck",
-      "count": 84,
+      "count": 85,
       "blocked_by": [
         "python-numpydoc"
       ]
@@ -71,12 +71,8 @@
       ]
     },
     {
-      "component": "python-aiohappyeyeballs",
-      "count": 79
-    },
-    {
       "component": "python-httpcore",
-      "count": 78,
+      "count": 79,
       "blocked_by": [
         "python-anyio",
         "python-flask",
@@ -84,6 +80,10 @@
         "python-pytest-httpbin",
         "python-socksio"
       ]
+    },
+    {
+      "component": "python-aiohappyeyeballs",
+      "count": 79
     },
     {
       "component": "python-asttokens",
@@ -102,7 +102,7 @@
     },
     {
       "component": "python-httpx",
-      "count": 76,
+      "count": 77,
       "blocked_by": [
         "python-anyio",
         "python-httpcore",
@@ -135,13 +135,6 @@
       ]
     },
     {
-      "component": "pyOpenSSL",
-      "count": 63,
-      "blocked_by": [
-        "python-pytest-rerunfailures"
-      ]
-    },
-    {
       "component": "python-stack-data",
       "count": 63,
       "blocked_by": [
@@ -156,6 +149,13 @@
         "python-jedi",
         "python-parso",
         "python-stack-data"
+      ]
+    },
+    {
+      "component": "pyOpenSSL",
+      "count": 61,
+      "blocked_by": [
+        "python-pytest-rerunfailures"
       ]
     },
     {
@@ -212,7 +212,7 @@
     },
     {
       "component": "python-requests-oauthlib",
-      "count": 49,
+      "count": 48,
       "blocked_by": [
         "python-requests-mock",
         "python-selenium",
@@ -221,7 +221,7 @@
     },
     {
       "component": "python-cloudpickle",
-      "count": 46,
+      "count": 47,
       "blocked_by": [
         "python-tornado"
       ]
@@ -260,7 +260,7 @@
     },
     {
       "component": "python-dns",
-      "count": 42,
+      "count": 41,
       "blocked_by": [
         "pyOpenSSL",
         "python-aioquic",
@@ -284,54 +284,8 @@
       ]
     },
     {
-      "component": "python-mistune",
-      "count": 37,
-      "blocked_by": [
-        "python-sphinx-design"
-      ]
-    },
-    {
-      "component": "python-oslo-i18n",
-      "count": 37,
-      "blocked_by": [
-        "python-autopage",
-        "python-cliff",
-        "python-dulwich",
-        "python-openstackdocstheme",
-        "python-stestr"
-      ]
-    },
-    {
-      "component": "python-nest-asyncio",
-      "count": 37
-    },
-    {
-      "component": "python-openstackdocstheme",
-      "count": 37,
-      "blocked_by": [
-        "python-dulwich"
-      ]
-    },
-    {
-      "component": "python-ipykernel",
-      "count": 36,
-      "blocked_by": [
-        "ipython",
-        "python-asttokens",
-        "python-ipykernel",
-        "python-ipyparallel",
-        "python-jedi",
-        "python-jupyter-client",
-        "python-nest-asyncio",
-        "python-parso",
-        "python-stack-data",
-        "python-tornado",
-        "python-zmq"
-      ]
-    },
-    {
       "component": "python-fsspec",
-      "count": 36,
+      "count": 40,
       "blocked_by": [
         "ipython",
         "jupyterlab",
@@ -378,6 +332,65 @@
       ]
     },
     {
+      "component": "python-mistune",
+      "count": 37,
+      "blocked_by": [
+        "python-sphinx-design"
+      ]
+    },
+    {
+      "component": "python-nest-asyncio",
+      "count": 37
+    },
+    {
+      "component": "python-openstackdocstheme",
+      "count": 37,
+      "blocked_by": [
+        "python-dulwich"
+      ]
+    },
+    {
+      "component": "python-oslo-i18n",
+      "count": 36,
+      "blocked_by": [
+        "python-autopage",
+        "python-cliff",
+        "python-dulwich",
+        "python-openstackdocstheme",
+        "python-stestr"
+      ]
+    },
+    {
+      "component": "python-ipykernel",
+      "count": 36,
+      "blocked_by": [
+        "ipython",
+        "python-asttokens",
+        "python-ipykernel",
+        "python-ipyparallel",
+        "python-jedi",
+        "python-jupyter-client",
+        "python-nest-asyncio",
+        "python-parso",
+        "python-stack-data",
+        "python-tornado",
+        "python-zmq"
+      ]
+    },
+    {
+      "component": "python-mpmath",
+      "count": 36,
+      "blocked_by": [
+        "ipython",
+        "python-asttokens",
+        "python-contourpy",
+        "python-jedi",
+        "python-matplotlib",
+        "python-parso",
+        "python-stack-data"
+      ]
+    },
+    {
       "component": "python-arrow",
       "count": 35,
       "blocked_by": [
@@ -415,15 +428,21 @@
       "count": 33
     },
     {
-      "component": "python-mpmath",
+      "component": "sympy",
       "count": 33,
       "blocked_by": [
+        "antlr4-project",
         "ipython",
+        "llvm",
         "python-asttokens",
+        "python-cloudpickle",
         "python-contourpy",
+        "python-furo",
         "python-jedi",
         "python-matplotlib",
+        "python-mpmath",
         "python-parso",
+        "python-pooch",
         "python-stack-data"
       ]
     },
@@ -464,7 +483,7 @@
     },
     {
       "component": "python-oslo-utils",
-      "count": 32,
+      "count": 31,
       "blocked_by": [
         "python-autopage",
         "python-cliff",
@@ -477,34 +496,19 @@
       ]
     },
     {
-      "component": "python-furo",
-      "count": 32,
-      "blocked_by": [
-        "python-sphinx-design",
-        "python-sphinx-inline-tabs",
-        "python-sphinx-tabs"
-      ]
-    },
-    {
-      "component": "python-keystoneauth1",
-      "count": 31,
-      "blocked_by": [
-        "python-autopage",
-        "python-cliff",
-        "python-dulwich",
-        "python-openstackdocstheme",
-        "python-oslo-config",
-        "python-oslo-i18n",
-        "python-oslo-utils",
-        "python-requests-mock",
-        "python-stestr"
-      ]
-    },
-    {
       "component": "python-watchdog",
       "count": 31,
       "blocked_by": [
         "python-pytest-rerunfailures"
+      ]
+    },
+    {
+      "component": "python-furo",
+      "count": 31,
+      "blocked_by": [
+        "python-sphinx-design",
+        "python-sphinx-inline-tabs",
+        "python-sphinx-tabs"
       ]
     }
   ],
@@ -686,14 +690,14 @@
         "python-aiohttp",
         "python-yarl"
       ],
-      "count": 16
+      "count": 15
     },
     {
       "components": [
         "python-pydantic",
         "python-pydantic-core"
       ],
-      "count": 14
+      "count": 13
     },
     {
       "components": [
@@ -837,16 +841,16 @@
   "dependency_loops": [
     [
       "python-itemadapter",
+      "python-itemadapter"
+    ],
+    [
+      "python-itemadapter",
       "python-scrapy",
       "python-itemadapter"
     ],
     [
       "python-itemadapter",
       "python-itemloaders",
-      "python-itemadapter"
-    ],
-    [
-      "python-itemadapter",
       "python-itemadapter"
     ]
   ]
