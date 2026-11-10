@@ -34,9 +34,8 @@ repoquery -q --repo python316 python3.16 --latest-limit 1 > data/pyver_py316
 # get packages and their respective maintainers
 curl https://src.fedoraproject.org/extras/pagure_owner_alias.json -o data/pagure_owner_alias.json
 
-# no PYTHON3.16 tracker yet - skip bugzilla collection for now
 # get bz urls for failed packages (python 3.16)
-# python3 scripts/bugzillas.py --version 3.16
+python3 scripts/bugzillas.py
 
 # download the most downloaded packages from PyPI
 wget https://hugovk.github.io/top-pypi-packages/top-pypi-packages.min.json -O data/top-pypi-packages.json

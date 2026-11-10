@@ -10,8 +10,8 @@ BZ_PAGE_SIZE = 20
 # Python version configurations
 VERSION_CONFIG = {
     "3.16": {
-        "tracker": None,  # PYTHON3.16 tracker does not exist yet
-        "rawhide": [],  # F47FTBFS etc. - add once the trackers are filed
+        "tracker": 2567340,  # PYTHON3.16
+        "rawhide": [2503726],  # F46FTBFS
         "failed_file": "data/failed_py316.pkgs",
         "waiting_file": "data/waiting_py316.pkgs",
         "python_pkgs": "data/python316.pkgs",
@@ -88,8 +88,6 @@ if __name__ == "__main__":
     sorted_fails_316 = load_failed_packages("3.16")
 
     config_316 = VERSION_CONFIG["3.16"]
-    # With no tracker filed yet, bugzillas() returns an empty list and the
-    # resulting mapping has empty url/summary lists for every failed package.
     bugzillas_list = bugzillas(sorted_fails_316, config_316["tracker"], config_316["rawhide"])
 
     for version, sorted_fails in [("3.16", sorted_fails_316)]:
