@@ -189,16 +189,8 @@
       "component": "python-cliff",
       "count": 56,
       "blocked_by": [
-        "python-autopage",
         "python-cliff",
         "python-stestr"
-      ]
-    },
-    {
-      "component": "python-autopage",
-      "count": 56,
-      "blocked_by": [
-        "python-fixtures"
       ]
     },
     {
@@ -213,7 +205,6 @@
       "component": "python-stestr",
       "count": 52,
       "blocked_by": [
-        "python-autopage",
         "python-cliff",
         "python-ddt"
       ]
@@ -314,7 +305,6 @@
         "python-stack-data",
         "python-tblib",
         "python-terminado",
-        "python-toolz",
         "python-tornado",
         "python-yarl",
         "python-zarr",
@@ -392,7 +382,6 @@
       "component": "python-oslo-i18n",
       "count": 36,
       "blocked_by": [
-        "python-autopage",
         "python-cliff",
         "python-dulwich",
         "python-openstackdocstheme",
@@ -415,10 +404,6 @@
         "python-tornado",
         "python-zmq"
       ]
-    },
-    {
-      "component": "python-toolz",
-      "count": 35
     },
     {
       "component": "python-arrow",
@@ -502,6 +487,30 @@
       "count": 32,
       "blocked_by": [
         "python-breathe"
+      ]
+    },
+    {
+      "component": "python-furo",
+      "count": 32,
+      "blocked_by": [
+        "python-sphinx-design",
+        "python-sphinx-inline-tabs",
+        "python-sphinx-tabs"
+      ]
+    },
+    {
+      "component": "python-oslo-utils",
+      "count": 31,
+      "blocked_by": [
+        "python-cffi",
+        "python-cliff",
+        "python-cryptography",
+        "python-ddt",
+        "python-dulwich",
+        "python-openstackdocstheme",
+        "python-oslo-config",
+        "python-oslo-i18n",
+        "python-stestr"
       ]
     }
   ],
@@ -622,6 +631,10 @@
       ]
     },
     {
+      "component": "python-time-machine",
+      "count": 4
+    },
+    {
       "component": "imath",
       "count": 4,
       "blocked_by": [
@@ -643,18 +656,6 @@
       "blocked_by": [
         "python-furo"
       ]
-    },
-    {
-      "component": "python-astropy",
-      "count": 4,
-      "blocked_by": [
-        "python-contourpy",
-        "python-matplotlib",
-        "python-pillow",
-        "python-pytest-arraydiff",
-        "python-pytest-astropy",
-        "python-scikit-image"
-      ]
     }
   ],
   "most_commonly_last_blocking_combinations": [
@@ -670,7 +671,7 @@
         "python-pydantic",
         "python-pydantic-core"
       ],
-      "count": 27
+      "count": 28
     },
     {
       "components": [
@@ -714,7 +715,7 @@
         "dbus-python",
         "python-pyqt6"
       ],
-      "count": 11
+      "count": 12
     },
     {
       "components": [
@@ -735,7 +736,6 @@
     },
     {
       "components": [
-        "python-autopage",
         "python-cliff",
         "python-dulwich",
         "python-openstackdocstheme",
@@ -756,7 +756,6 @@
     },
     {
       "components": [
-        "python-autopage",
         "python-cliff",
         "python-stestr"
       ],
@@ -786,8 +785,7 @@
         "python-pyopengl",
         "python-pyqtgraph",
         "python-qt5",
-        "python-zmq",
-        "uhd"
+        "python-zmq"
       ],
       "count": 5
     },
@@ -835,11 +833,11 @@
     ],
     [
       "python-itemadapter",
+      "python-itemloaders",
       "python-itemadapter"
     ],
     [
       "python-itemadapter",
-      "python-itemloaders",
       "python-itemadapter"
     ]
   ]
