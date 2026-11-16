@@ -2,12 +2,12 @@
   "most_commonly_needed": [
     {
       "component": "python-cffi",
-      "count": 426,
+      "count": 427,
       "prerel_abi_blocked": true
     },
     {
       "component": "python-cryptography",
-      "count": 321,
+      "count": 322,
       "prerel_abi_blocked": true,
       "blocked_by": [
         "python-cffi"
@@ -15,17 +15,17 @@
     },
     {
       "component": "python-pillow",
-      "count": 211,
+      "count": 210,
       "prerel_abi_blocked": true
     },
     {
       "component": "pygobject3",
-      "count": 146,
+      "count": 145,
       "prerel_abi_blocked": true
     },
     {
       "component": "python-pydantic-core",
-      "count": 132,
+      "count": 131,
       "unresolvable": true,
       "blocked_by": [
         "python-asttokens",
@@ -34,7 +34,7 @@
     },
     {
       "component": "python-pydantic",
-      "count": 131,
+      "count": 130,
       "blocked_by": [
         "python-cloudpickle",
         "python-dns",
@@ -52,7 +52,7 @@
     },
     {
       "component": "python-contourpy",
-      "count": 119,
+      "count": 118,
       "blocked_by": [
         "pre-commit",
         "python-contourpy",
@@ -63,7 +63,7 @@
     },
     {
       "component": "python-matplotlib",
-      "count": 116,
+      "count": 115,
       "blocked_by": [
         "dbus-python",
         "pygobject3",
@@ -79,7 +79,7 @@
     },
     {
       "component": "python-yarl",
-      "count": 85,
+      "count": 84,
       "blocked_by": [
         "python-pydantic",
         "python-pydantic-core"
@@ -87,14 +87,14 @@
     },
     {
       "component": "python-Bottleneck",
-      "count": 84,
+      "count": 83,
       "blocked_by": [
         "python-numpydoc"
       ]
     },
     {
       "component": "python-aiohttp",
-      "count": 80,
+      "count": 79,
       "blocked_by": [
         "python-cffi",
         "python-pycares",
@@ -103,7 +103,7 @@
     },
     {
       "component": "python-asttokens",
-      "count": 79,
+      "count": 78,
       "blocked_by": [
         "python-astroid"
       ]
@@ -132,11 +132,11 @@
     },
     {
       "component": "python-parso",
-      "count": 74
+      "count": 73
     },
     {
       "component": "python-jedi",
-      "count": 72,
+      "count": 71,
       "blocked_by": [
         "python-parso"
       ]
@@ -154,14 +154,14 @@
     },
     {
       "component": "python-stack-data",
-      "count": 63,
+      "count": 62,
       "blocked_by": [
         "python-asttokens"
       ]
     },
     {
       "component": "ipython",
-      "count": 62,
+      "count": 61,
       "blocked_by": [
         "python-asttokens",
         "python-jedi",
@@ -179,7 +179,7 @@
     },
     {
       "component": "python-sqlalchemy",
-      "count": 56,
+      "count": 57,
       "prerel_abi_blocked": true,
       "blocked_by": [
         "python-asyncpg"
@@ -202,22 +202,22 @@
       ]
     },
     {
-      "component": "python-stestr",
-      "count": 52,
-      "blocked_by": [
-        "python-cliff",
-        "python-ddt"
-      ]
-    },
-    {
       "component": "python-twisted",
-      "count": 51,
+      "count": 52,
       "blocked_by": [
         "python-cffi",
         "python-cryptography",
         "python-httpcore",
         "python-httpx",
         "python-pynacl"
+      ]
+    },
+    {
+      "component": "python-stestr",
+      "count": 52,
+      "blocked_by": [
+        "python-cliff",
+        "python-ddt"
       ]
     },
     {
@@ -240,7 +240,7 @@
     },
     {
       "component": "python-cloudpickle",
-      "count": 47,
+      "count": 46,
       "blocked_by": [
         "python-tornado"
       ]
@@ -263,8 +263,27 @@
       ]
     },
     {
+      "component": "python-pynacl",
+      "count": 42,
+      "prerel_abi_blocked": true,
+      "blocked_by": [
+        "python-cffi"
+      ]
+    },
+    {
+      "component": "python-dns",
+      "count": 42,
+      "blocked_by": [
+        "python-aioquic",
+        "python-cffi",
+        "python-cryptography",
+        "python-httpcore",
+        "python-httpx"
+      ]
+    },
+    {
       "component": "python-fsspec",
-      "count": 43,
+      "count": 42,
       "blocked_by": [
         "ipython",
         "jupyterlab",
@@ -313,25 +332,6 @@
       ]
     },
     {
-      "component": "python-pynacl",
-      "count": 42,
-      "prerel_abi_blocked": true,
-      "blocked_by": [
-        "python-cffi"
-      ]
-    },
-    {
-      "component": "python-dns",
-      "count": 42,
-      "blocked_by": [
-        "python-aioquic",
-        "python-cffi",
-        "python-cryptography",
-        "python-httpcore",
-        "python-httpx"
-      ]
-    },
-    {
       "component": "python-pyqt6",
       "count": 40,
       "prerel_abi_blocked": true,
@@ -341,7 +341,7 @@
     },
     {
       "component": "python-requests-mock",
-      "count": 40,
+      "count": 39,
       "blocked_by": [
         "python-requests-futures"
       ]
@@ -407,7 +407,7 @@
     },
     {
       "component": "python-arrow",
-      "count": 34,
+      "count": 35,
       "blocked_by": [
         "python-dateparser"
       ]
@@ -429,6 +429,13 @@
         "python-parso",
         "python-pillow",
         "python-stack-data"
+      ]
+    },
+    {
+      "component": "dnf5",
+      "count": 33,
+      "blocked_by": [
+        "python-breathe"
       ]
     },
     {
@@ -483,13 +490,6 @@
       ]
     },
     {
-      "component": "dnf5",
-      "count": 32,
-      "blocked_by": [
-        "python-breathe"
-      ]
-    },
-    {
       "component": "python-furo",
       "count": 32,
       "blocked_by": [
@@ -517,7 +517,7 @@
   "most_commonly_last_blocking": [
     {
       "component": "pygobject3",
-      "count": 69,
+      "count": 68,
       "prerel_abi_blocked": true
     },
     {
@@ -547,18 +547,18 @@
       ]
     },
     {
+      "component": "dnf5",
+      "count": 14,
+      "blocked_by": [
+        "python-breathe"
+      ]
+    },
+    {
       "component": "dbus-python",
       "count": 13,
       "prerel_abi_blocked": true,
       "blocked_by": [
         "pygobject3"
-      ]
-    },
-    {
-      "component": "dnf5",
-      "count": 13,
-      "blocked_by": [
-        "python-breathe"
       ]
     },
     {
@@ -686,7 +686,7 @@
         "python-matplotlib",
         "python-pillow"
       ],
-      "count": 23
+      "count": 22
     },
     {
       "components": [
