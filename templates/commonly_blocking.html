@@ -86,11 +86,14 @@
                     </td>
                     <td class="count-col"><span class="badge bg-primary">{{ item.count }}</span></td>
                     <td class="blocking-col">
+                        {% if item.prerel_abi_blocked %}
+                            <span class="badge me-1 mb-1" style="background-color: #fd7e14; color: #fff;">Needs rebuild with the newest Python alpha release</span>
+                        {% endif %}
                         {% if item.blocked_by %}
                             {% for blocker in item.blocked_by %}
                                 <span class="badge bg-danger me-1 mb-1">{{ blocker }}</span>
                             {% endfor %}
-                        {% else %}
+                        {% elif not item.prerel_abi_blocked %}
                             <span class="text-muted">—</span>
                         {% endif %}
                     </td>
@@ -130,11 +133,14 @@
                     </td>
                     <td class="count-col"><span class="badge bg-primary">{{ item.count }}</span></td>
                     <td class="blocking-col">
+                        {% if item.prerel_abi_blocked %}
+                            <span class="badge me-1 mb-1" style="background-color: #fd7e14; color: #fff;">Needs rebuild with the newest Python alpha release</span>
+                        {% endif %}
                         {% if item.blocked_by %}
                             {% for blocker in item.blocked_by %}
                                 <span class="badge bg-danger me-1 mb-1">{{ blocker }}</span>
                             {% endfor %}
-                        {% else %}
+                        {% elif not item.prerel_abi_blocked %}
                             <span class="text-muted">—</span>
                         {% endif %}
                     </td>
