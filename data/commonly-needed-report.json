@@ -1,22 +1,17 @@
 {
   "most_commonly_needed": [
     {
-      "component": "python-pillow",
-      "count": 210,
-      "prerel_abi_blocked": true
-    },
-    {
       "component": "python-pydantic-core",
-      "count": 131,
-      "unresolvable": true,
+      "count": 132,
       "blocked_by": [
+        "python-Bottleneck",
         "python-asttokens",
         "python-inline-snapshot"
       ]
     },
     {
       "component": "python-pydantic",
-      "count": 130,
+      "count": 131,
       "blocked_by": [
         "python-cloudpickle",
         "python-dns",
@@ -31,8 +26,7 @@
         "pre-commit",
         "python-contourpy",
         "python-identify",
-        "python-matplotlib",
-        "python-pillow"
+        "python-matplotlib"
       ]
     },
     {
@@ -41,9 +35,14 @@
       "blocked_by": [
         "python-contourpy",
         "python-inkex",
-        "python-pillow",
-        "python-scour",
-        "python-wxpython4"
+        "python-scour"
+      ]
+    },
+    {
+      "component": "python-Bottleneck",
+      "count": 84,
+      "blocked_by": [
+        "python-numpydoc"
       ]
     },
     {
@@ -52,13 +51,6 @@
       "blocked_by": [
         "python-pydantic",
         "python-pydantic-core"
-      ]
-    },
-    {
-      "component": "python-Bottleneck",
-      "count": 83,
-      "blocked_by": [
-        "python-numpydoc"
       ]
     },
     {
@@ -215,7 +207,6 @@
       "component": "python-dns",
       "count": 42,
       "blocked_by": [
-        "python-aioquic",
         "python-httpcore",
         "python-httpx"
       ]
@@ -292,7 +283,6 @@
         "python-jedi",
         "python-matplotlib",
         "python-parso",
-        "python-pillow",
         "python-stack-data"
       ]
     },
@@ -343,7 +333,6 @@
       "blocked_by": [
         "antlr4-project",
         "ipython",
-        "llvm",
         "python-asttokens",
         "python-cloudpickle",
         "python-contourpy",
@@ -352,7 +341,6 @@
         "python-matplotlib",
         "python-mpmath",
         "python-parso",
-        "python-pillow",
         "python-stack-data"
       ]
     },
@@ -525,14 +513,16 @@
     {
       "component": "python-botocore",
       "count": 26
+    },
+    {
+      "component": "python-isoduration",
+      "count": 26,
+      "blocked_by": [
+        "python-arrow"
+      ]
     }
   ],
   "most_commonly_last_blocking": [
-    {
-      "component": "python-pillow",
-      "count": 40,
-      "prerel_abi_blocked": true
-    },
     {
       "component": "dnf5",
       "count": 20,
@@ -549,7 +539,7 @@
     },
     {
       "component": "python-sqlalchemy",
-      "count": 16,
+      "count": 17,
       "prerel_abi_blocked": true,
       "blocked_by": [
         "python-asyncpg"
@@ -574,7 +564,7 @@
     },
     {
       "component": "python-Bottleneck",
-      "count": 12,
+      "count": 13,
       "blocked_by": [
         "python-numpydoc"
       ]
@@ -585,8 +575,15 @@
       "blocked_by": [
         "python-Bottleneck",
         "python-contourpy",
-        "python-matplotlib",
-        "python-pillow"
+        "python-matplotlib"
+      ]
+    },
+    {
+      "component": "vtk",
+      "count": 8,
+      "blocked_by": [
+        "imath",
+        "vtk"
       ]
     },
     {
@@ -608,17 +605,8 @@
       "component": "python-dns",
       "count": 7,
       "blocked_by": [
-        "python-aioquic",
         "python-httpcore",
         "python-httpx"
-      ]
-    },
-    {
-      "component": "vtk",
-      "count": 7,
-      "blocked_by": [
-        "imath",
-        "vtk"
       ]
     },
     {
@@ -634,6 +622,10 @@
       "blocked_by": [
         "python-dateparser"
       ]
+    },
+    {
+      "component": "python-reportlab",
+      "count": 5
     },
     {
       "component": "python-requests-mock",
@@ -676,7 +668,14 @@
         "python-pydantic",
         "python-pydantic-core"
       ],
-      "count": 31
+      "count": 32
+    },
+    {
+      "components": [
+        "python-contourpy",
+        "python-matplotlib"
+      ],
+      "count": 25
     },
     {
       "components": [
@@ -687,18 +686,17 @@
     },
     {
       "components": [
-        "python-contourpy",
-        "python-matplotlib",
-        "python-pillow"
-      ],
-      "count": 24
-    },
-    {
-      "components": [
         "python-aiohttp",
         "python-yarl"
       ],
-      "count": 16
+      "count": 18
+    },
+    {
+      "components": [
+        "python-httpcore",
+        "python-httpx"
+      ],
+      "count": 9
     },
     {
       "components": [
@@ -738,23 +736,18 @@
     {
       "components": [
         "python-httpcore",
-        "python-httpx"
-      ],
-      "count": 7
-    },
-    {
-      "components": [
-        "python-pillow",
-        "python-wxpython4"
+        "python-httpx",
+        "python-pydantic",
+        "python-pydantic-core"
       ],
       "count": 6
     },
     {
       "components": [
-        "python-httpcore",
-        "python-httpx",
-        "python-pydantic",
-        "python-pydantic-core"
+        "python-fsspec",
+        "python-mpmath",
+        "python-torch",
+        "sympy"
       ],
       "count": 6
     },
@@ -792,15 +785,6 @@
     },
     {
       "components": [
-        "python-fsspec",
-        "python-mpmath",
-        "python-torch",
-        "sympy"
-      ],
-      "count": 5
-    },
-    {
-      "components": [
         "breezy",
         "python-dulwich"
       ],
@@ -815,25 +799,28 @@
     },
     {
       "components": [
-        "python-pillow",
-        "python-reportlab"
+        "python-pyramid",
+        "python-zope-deprecation"
       ],
       "count": 4
     },
     {
       "components": [
-        "python-pyramid",
-        "python-zope-deprecation"
+        "mkdocs-material",
+        "python-backrefs"
       ],
       "count": 4
+    },
+    {
+      "components": [
+        "python-flask",
+        "python-httpbin",
+        "python-pytest-httpbin"
+      ],
+      "count": 3
     }
   ],
   "dependency_loops": [
-    [
-      "python-itemadapter",
-      "python-scrapy",
-      "python-itemadapter"
-    ],
     [
       "python-itemadapter",
       "python-itemadapter"
@@ -841,6 +828,11 @@
     [
       "python-itemadapter",
       "python-itemloaders",
+      "python-itemadapter"
+    ],
+    [
+      "python-itemadapter",
+      "python-scrapy",
       "python-itemadapter"
     ]
   ]
