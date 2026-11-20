@@ -105,7 +105,7 @@ clingo	succeeded
 cloud-init	succeeded
 clustershell	succeeded
 cm_rgb	succeeded
-cmake	running
+cmake	failed
 cmakelang	succeeded
 coccinelle	succeeded
 codespell	succeeded
@@ -165,7 +165,7 @@ enjarify	succeeded
 environment-modules	succeeded
 ephemeral-port-reserve	succeeded
 eralchemy	succeeded
-espresso	running
+espresso	failed
 esptool	succeeded
 evemu	succeeded
 f2py-cmake	succeeded
@@ -303,7 +303,7 @@ koji-osbuild	succeeded
 kopeninghours	succeeded
 kurchu	succeeded
 kvirc	succeeded
-lammps	running
+lammps	failed
 langtable	succeeded
 lasso	failed
 lazygal	succeeded
@@ -371,8 +371,8 @@ libsbml	succeeded
 libsearpc	succeeded
 libseccomp	succeeded
 libsedml	succeeded
-libselinux	succeeded
-libsemanage	succeeded
+libselinux	failed
+libsemanage	failed
 libsigrokdecode	succeeded
 libsmbios	succeeded
 libsolv	succeeded
@@ -398,8 +398,8 @@ lirc	succeeded
 litecli	succeeded
 livecd-tools	succeeded
 llvm	succeeded
-llvm21	running
-llvm22	running
+llvm21	failed
+llvm22	failed
 loook	succeeded
 lorax	succeeded
 lrcalc	succeeded
@@ -526,7 +526,7 @@ pmbootstrap	succeeded
 pocketsphinx	succeeded
 podman-compose	succeeded
 poezio-omemo	succeeded
-policycoreutils	succeeded
+policycoreutils	failed
 porcupine	succeeded
 portmidi	succeeded
 postgresql16	succeeded
@@ -851,7 +851,7 @@ python-boltons	failed
 python-boolean.py	succeeded
 python-booleanoperations	succeeded
 python-boto	succeeded
-python-botocore	running
+python-botocore	failed
 python-bottle	succeeded
 python-bottle-sqlite	succeeded
 python-boxsdk	succeeded
@@ -1660,7 +1660,7 @@ python-multiecho	succeeded
 python-multihash	succeeded
 python-multilib	succeeded
 python-multipart	succeeded
-python-multiprocess	failed
+python-multiprocess	succeeded
 python-multiregex	succeeded
 python-multitasking	succeeded
 python-munch	succeeded
@@ -1782,6 +1782,7 @@ python-patch-ng	succeeded
 python-path	succeeded
 python-pathable	succeeded
 python-pathlib-abc	succeeded
+python-pathos	succeeded
 python-pathspec	succeeded
 python-pathtools	succeeded
 python-pathvalidate	succeeded
@@ -1812,10 +1813,11 @@ python-pidfile	succeeded
 python-piexif	succeeded
 python-pigpio	succeeded
 python-pikepdf	succeeded
-python-pillow	succeeded
+python-pillow	failed
 python-pillow-jxl-plugin	succeeded
 python-pip	succeeded
 python-pip-requirements-parser	succeeded
+python-pipcl	succeeded
 python-pivy	succeeded
 python-pkgconfig	succeeded
 python-pkginfo	succeeded
@@ -2024,7 +2026,7 @@ python-pytaglib	succeeded
 python-pyte	succeeded
 python-pytesseract	succeeded
 python-pytest-astropy-header	succeeded
-python-pytest-asyncio	failed
+python-pytest-asyncio	succeeded
 python-pytest-bdd	succeeded
 python-pytest-benchmark	succeeded
 python-pytest-cache	succeeded
@@ -2114,7 +2116,7 @@ python-qrcode	succeeded
 python-qstylizer	succeeded
 python-qt5	succeeded
 python-qtsass	succeeded
-python-quantities	succeeded
+python-quantities	failed
 python-questionary	succeeded
 python-queuelib	succeeded
 python-radexreader	succeeded
@@ -2449,7 +2451,7 @@ python-translitcodec	succeeded
 python-tree-sitter	succeeded
 python-trio	succeeded
 python-trio-websocket	succeeded
-python-triton	running
+python-triton	failed
 python-trololio	succeeded
 python-trove-classifiers	succeeded
 python-trustme	succeeded
@@ -2520,7 +2522,7 @@ python-user-agents	succeeded
 python-userpath	succeeded
 python-uswid	succeeded
 python-utmp	succeeded
-python-uv-build	running
+python-uv-build	succeeded
 python-validator-collection	succeeded
 python-validators	succeeded
 python-valkey	succeeded
@@ -2688,7 +2690,7 @@ rmlint	succeeded
 rmol	failed
 rocm-stinkytofu	succeeded
 rofimoji	succeeded
-root	running
+root	failed
 rpl	succeeded
 rpm	succeeded
 rpmconf	succeeded
@@ -2712,7 +2714,7 @@ scidavis	succeeded
 scipy	succeeded
 scons	succeeded
 screenkey	succeeded
-scribus	running
+scribus	failed
 seadrive-daemon	succeeded
 seafile	succeeded
 sentencepiece	succeeded
@@ -2805,7 +2807,7 @@ tree-sitter-yaml	succeeded
 tuna	succeeded
 tuned	succeeded
 txt2tags	succeeded
-ty	running
+ty	succeeded
 ubertooth	succeeded
 udica	succeeded
 udiskie	succeeded
@@ -2822,7 +2824,7 @@ urlwatch	succeeded
 usbrelay	succeeded
 ustreamer	succeeded
 util-linux	succeeded
-uv	running
+uv	failed
 uwsgi	failed
 vapoursynth	failed
 vdr-epg-daemon	succeeded

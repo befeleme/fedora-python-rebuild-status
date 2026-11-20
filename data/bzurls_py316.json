@@ -51,6 +51,10 @@
     "urls": [],
     "summaries": []
   },
+  "espresso": {
+    "urls": [],
+    "summaries": []
+  },
   "ganglia": {
     "urls": [],
     "summaries": []
@@ -107,6 +111,14 @@
     "urls": [],
     "summaries": []
   },
+  "libselinux": {
+    "urls": [],
+    "summaries": []
+  },
+  "libsemanage": {
+    "urls": [],
+    "summaries": []
+  },
   "llvm21": {
     "urls": [],
     "summaries": []
@@ -124,8 +136,12 @@
     "summaries": []
   },
   "mod_wsgi": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2576458"
+    ],
+    "summaries": [
+      "mod_wsgi fails to build with Python 3.16: src/server/mod_wsgi.c:2633:46: error: 'Py_FileSystemDefaultEncoding' undeclared (first use in this function); did you mean 'PyUnicode_GetDefaultEncoding'?"
+    ]
   },
   "monkeytype": {
     "urls": [],
@@ -136,8 +152,12 @@
     "summaries": []
   },
   "nordugrid-arc": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2576581"
+    ],
+    "summaries": [
+      "nordugrid-arc fails to build with Python 3.16: error: 'PyEval_InitThreads' was not declared in this scope; did you mean 'PyEval_SaveThread'?"
+    ]
   },
   "notmuch": {
     "urls": [],
@@ -159,6 +179,10 @@
     "urls": [],
     "summaries": []
   },
+  "policycoreutils": {
+    "urls": [],
+    "summaries": []
+  },
   "pygame": {
     "urls": [],
     "summaries": []
@@ -176,16 +200,24 @@
     "summaries": []
   },
   "python-aiounittest": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2576587"
+    ],
+    "summaries": [
+      "python-aiounittest fails to build with Python 3.16: AttributeError: module 'asyncio' has no attribute 'iscoroutinefunction'"
+    ]
   },
   "python-astroid": {
     "urls": [],
     "summaries": []
   },
   "python-asyncpg": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2576594"
+    ],
+    "summaries": [
+      "python-asyncpg fails to build with Python 3.16: ValueError: Port could not be cast to integer value as '1111,host2:2222'"
+    ]
   },
   "python-asyncssh": {
     "urls": [],
@@ -196,8 +228,12 @@
     "summaries": []
   },
   "python-beartype": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2576451"
+    ],
+    "summaries": [
+      "python-beartype fails to build with Python 3.16: ImportError: cannot import name 'AnyStr' from 'beartype.typing'"
+    ]
   },
   "python-behave": {
     "urls": [],
@@ -208,8 +244,12 @@
     "summaries": []
   },
   "python-boltons": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2576584"
+    ],
+    "summaries": [
+      "python-boltons fails to build with Python 3.16: AttributeError: module 'asyncio' has no attribute 'iscoroutinefunction'"
+    ]
   },
   "python-botocore": {
     "urls": [],
@@ -220,8 +260,12 @@
     "summaries": []
   },
   "python-circuitbreaker": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2576460"
+    ],
+    "summaries": [
+      "python-circuitbreaker fails to build with Python 3.16: ImportError: cannot import name 'iscoroutinefunction' from 'asyncio' (/usr/lib64/python3.16/asyncio/__init__.py)"
+    ]
   },
   "python-contourpy": {
     "urls": [],
@@ -272,8 +316,12 @@
     "summaries": []
   },
   "python-git-changelog": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2576468"
+    ],
+    "summaries": [
+      "python-git-changelog fails to build with Python 3.16: ValueError: Port could not be cast to integer value as 'example'"
+    ]
   },
   "python-googleapis-common-protos": {
     "urls": [],
@@ -284,16 +332,24 @@
     "summaries": []
   },
   "python-html5-parser": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2576578"
+    ],
+    "summaries": [
+      "python-html5-parser fails to build with Python 3.16: xml.dom.NamespaceErr: illegal use of the 'xmlns' attribute for the wrong namespace"
+    ]
   },
   "python-hypothesis": {
     "urls": [],
     "summaries": []
   },
   "python-idna": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2576582"
+    ],
+    "summaries": [
+      "python-idna fails to build with Python 3.16: test_every_error_code_is_raisable: AssertionError: 'invalid_alabel' != 'non_canonical_alabel'"
+    ]
   },
   "python-indexed_gzip": {
     "urls": [],
@@ -308,28 +364,36 @@
     "summaries": []
   },
   "python-kajiki": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2576593"
+    ],
+    "summaries": [
+      "python-kajiki fails to build with Python 3.16: test_parser: xml.parsers.expat.ExpatError: duplicate attribute: line 1, column 36"
+    ]
   },
   "python-lmdb": {
     "urls": [],
     "summaries": []
   },
   "python-lupa": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2576461"
+    ],
+    "summaries": [
+      "python-lupa fails to build with Python 3.16: test_attrgetter_refcycle: AssertionError: 19420 != 19416"
+    ]
   },
   "python-mirrors-countme": {
     "urls": [],
     "summaries": []
   },
   "python-msgspec": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-multiprocess": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2576586"
+    ],
+    "summaries": [
+      "python-msgspec fails to build with Python 3.16: AttributeError: attribute 'int' of 'uuid.UUID' objects is not writable"
+    ]
   },
   "python-nest-asyncio": {
     "urls": [
@@ -348,10 +412,18 @@
     "summaries": []
   },
   "python-parso": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2576591"
+    ],
+    "summaries": [
+      "python-parso fails to build with Python 3.16: DeprecationWarning: 'abc.abstractproperty' is deprecated and slated for removal in Python 3.21"
+    ]
+  },
+  "python-persist-queue": {
     "urls": [],
     "summaries": []
   },
-  "python-persist-queue": {
+  "python-pillow": {
     "urls": [],
     "summaries": []
   },
@@ -360,8 +432,12 @@
     "summaries": []
   },
   "python-platformdirs": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2576580"
+    ],
+    "summaries": [
+      "python-platformdirs fails to build with Python 3.16: DeprecationWarning: 'typing.AnyStr' is deprecated and slated for removal in Python 3.21."
+    ]
   },
   "python-portalocker": {
     "urls": [],
@@ -372,8 +448,12 @@
     "summaries": []
   },
   "python-py-walk": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2576590"
+    ],
+    "summaries": [
+      "python-py-walk fails to build with Python 3.16: test_git_cases: assert True == False"
+    ]
   },
   "python-pygments-git": {
     "urls": [],
@@ -388,20 +468,24 @@
     "summaries": []
   },
   "python-pypandoc": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2576595"
+    ],
+    "summaries": [
+      "python-pypandoc fails to build with Python 3.16: test_sorting_rules_applied_for_multiple_files: TypeError: Expected str, bytes or None, not list"
+    ]
   },
   "python-pyquery": {
     "urls": [],
     "summaries": []
   },
   "python-pyswip": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-pytest-asyncio": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2576749"
+    ],
+    "summaries": [
+      "python-pyswip fails to build with Python 3.16: AttributeError: 'list' object has no attribute 'value'"
+    ]
   },
   "python-pytest-cid": {
     "urls": [],
@@ -443,6 +527,10 @@
     "urls": [],
     "summaries": []
   },
+  "python-quantities": {
+    "urls": [],
+    "summaries": []
+  },
   "python-recommonmark": {
     "urls": [],
     "summaries": []
@@ -464,12 +552,20 @@
     "summaries": []
   },
   "python-rstr": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2576583"
+    ],
+    "summaries": [
+      "python-rstr fails to build with Python 3.16: test_xeger: AssertionError: assert None"
+    ]
   },
   "python-scour": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2576588"
+    ],
+    "summaries": [
+      "python-scour fails to build with Python 3.16: xml.dom.NamespaceErr: illegal use of the 'xmlns' attribute for the wrong namespace"
+    ]
   },
   "python-sentry-sdk": {
     "urls": [
@@ -603,13 +699,21 @@
     "urls": [],
     "summaries": []
   },
+  "uv": {
+    "urls": [],
+    "summaries": []
+  },
   "uwsgi": {
     "urls": [],
     "summaries": []
   },
   "vapoursynth": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2576499"
+    ],
+    "summaries": [
+      "vapoursynth fails to build with Python 3.16: error: \u2018Py_SetProgramName\u2019 was not declared in this scope; did you mean \u2018p_Py_SetProgramName\u2019"
+    ]
   },
   "xapps": {
     "urls": [],
