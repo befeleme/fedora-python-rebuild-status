@@ -51,17 +51,29 @@
     "urls": [],
     "summaries": []
   },
+  "dupeguru": {
+    "urls": [],
+    "summaries": []
+  },
   "espresso": {
     "urls": [],
     "summaries": []
   },
   "ganglia": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2578223"
+    ],
+    "summaries": [
+      "ganglia fails to build with Python 3.16: error: implicit declaration of function 'PyEval_InitThreads'; did you mean 'PyEval_SaveThread'"
+    ]
   },
   "getdp": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2578243"
+    ],
+    "summaries": [
+      "getdp fails to build with Python 3.16: error: \u2018Py_SetProgramName\u2019 was not declared in this scope; did you mean \u2018PetscSetProgramName\u2019? / error: \u2018PySys_SetArgv\u2019 was not declared in this scope; did you mean \u2018PySys_GetAttr\u2019?"
+    ]
   },
   "glade": {
     "urls": [],
@@ -76,8 +88,12 @@
     "summaries": []
   },
   "jc": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2578185"
+    ],
+    "summaries": [
+      "jc fails to build with Python 3.16: ValueError: Port could not be cast to integer value as '%38{%38' and more"
+    ]
   },
   "kdevelop-python": {
     "urls": [],
@@ -188,8 +204,12 @@
     "summaries": []
   },
   "pyotherside": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2578232"
+    ],
+    "summaries": [
+      "pyotherside fails to build with Python 3.16: qpython_priv.cpp:540:5: error: \u2018PySys_SetArgvEx\u2019 was not declared in this scope"
+    ]
   },
   "pyproj": {
     "urls": [],
@@ -210,14 +230,6 @@
   "python-astroid": {
     "urls": [],
     "summaries": []
-  },
-  "python-asyncpg": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2576594"
-    ],
-    "summaries": [
-      "python-asyncpg fails to build with Python 3.16: ValueError: Port could not be cast to integer value as '1111,host2:2222'"
-    ]
   },
   "python-asyncssh": {
     "urls": [],
@@ -276,8 +288,12 @@
     "summaries": []
   },
   "python-demjson": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2578217"
+    ],
+    "summaries": [
+      "python-demjson fails to build with Python 3.16: testEncodeStringRawUnicode fails"
+    ]
   },
   "python-django-cacheops": {
     "urls": [],
@@ -328,8 +344,12 @@
     "summaries": []
   },
   "python-gpxpy": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2578221"
+    ],
+    "summaries": [
+      "python-gpxpy fails to build with Python 3.16: xml.dom.WrongDocumentErr: <DOM Element: wpt at 0x7f0fa1029440> was created by a different document"
+    ]
   },
   "python-html5-parser": {
     "urls": [
@@ -372,8 +392,12 @@
     ]
   },
   "python-lmdb": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2578193"
+    ],
+    "summaries": [
+      "python-lmdb fails to build with Python 3.16: error: \u2018Py_FileSystemDefaultEncoding\u2019 undeclared (first use in this function); did you mean \u2018PyUnicode_GetDefaultEncoding\u2019?"
+    ]
   },
   "python-lupa": {
     "urls": [
@@ -404,6 +428,10 @@
     ]
   },
   "python-odata-query": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-odfdo": {
     "urls": [],
     "summaries": []
   },
@@ -551,14 +579,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-rstr": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2576583"
-    ],
-    "summaries": [
-      "python-rstr fails to build with Python 3.16: test_xeger: AssertionError: assert None"
-    ]
-  },
   "python-scour": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2576588"
@@ -579,10 +599,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-simpleeval": {
-    "urls": [],
-    "summaries": []
-  },
   "python-socksio": {
     "urls": [],
     "summaries": []
@@ -595,17 +611,17 @@
     "urls": [],
     "summaries": []
   },
-  "python-sqlalchemy": {
-    "urls": [],
-    "summaries": []
-  },
   "python-stdlibs": {
     "urls": [],
     "summaries": []
   },
   "python-svgwrite": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2578186"
+    ],
+    "summaries": [
+      "python-svgwrite fails to build with Python 3.16: TypeError: _serialize_xml_with_CDATA_support() takes 4 positional arguments but 5 were given"
+    ]
   },
   "python-time-machine": {
     "urls": [],
@@ -624,10 +640,6 @@
     "summaries": []
   },
   "python-typer": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-typing-extensions": {
     "urls": [],
     "summaries": []
   },
@@ -683,6 +695,10 @@
     "urls": [],
     "summaries": []
   },
+  "ruff": {
+    "urls": [],
+    "summaries": []
+  },
   "scribus": {
     "urls": [],
     "summaries": []
@@ -696,6 +712,10 @@
     "summaries": []
   },
   "trademgen": {
+    "urls": [],
+    "summaries": []
+  },
+  "ty": {
     "urls": [],
     "summaries": []
   },
