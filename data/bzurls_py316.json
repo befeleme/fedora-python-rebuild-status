@@ -59,14 +59,6 @@
     "urls": [],
     "summaries": []
   },
-  "ganglia": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2578223"
-    ],
-    "summaries": [
-      "ganglia fails to build with Python 3.16: error: implicit declaration of function 'PyEval_InitThreads'; did you mean 'PyEval_SaveThread'"
-    ]
-  },
   "getdp": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2578243"
@@ -331,14 +323,6 @@
     "urls": [],
     "summaries": []
   },
-  "python-git-changelog": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2576468"
-    ],
-    "summaries": [
-      "python-git-changelog fails to build with Python 3.16: ValueError: Port could not be cast to integer value as 'example'"
-    ]
-  },
   "python-googleapis-common-protos": {
     "urls": [],
     "summaries": []
@@ -552,10 +536,6 @@
     ]
   },
   "python-qcustomplot-pyqt": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-quantities": {
     "urls": [],
     "summaries": []
   },
