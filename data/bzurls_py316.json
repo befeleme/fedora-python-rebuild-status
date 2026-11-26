@@ -8,16 +8,24 @@
     "summaries": []
   },
   "awscli2": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2584211"
+    ],
+    "summaries": [
+      "awscli2 fails to build with Python 3.16: ValueError: Port could not be cast to integer value as 'a' / AssertionError"
+    ]
   },
   "bmap-tools": {
     "urls": [],
     "summaries": []
   },
   "btrfs-backup-ng": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2584161"
+    ],
+    "summaries": [
+      "btrfs-backup-ng fails to build with Python 3.16: AssertionError in TestTheWizardDerivesAUsableValue"
+    ]
   },
   "cantor": {
     "urls": [],
@@ -39,17 +47,17 @@
     "urls": [],
     "summaries": []
   },
-  "cutter-re": {
-    "urls": [],
-    "summaries": []
-  },
   "dftd4": {
     "urls": [],
     "summaries": []
   },
   "dionaea": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2584227"
+    ],
+    "summaries": [
+      "dionaea fails to build with Python 3.16: error: implicit declaration of function \u2018Py_SetProgramName\u2019 / \u2018PyEval_InitThreads\u2019"
+    ]
   },
   "dupeguru": {
     "urls": [],
@@ -68,16 +76,24 @@
     ]
   },
   "glade": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2584166"
+    ],
+    "summaries": [
+      "glade fails to build with Python 3.16: error: implicit declaration of function \u2018PySys_SetArgvEx\u2019 / \u2018Py_SetProgramName\u2019"
+    ]
   },
   "glaxnimate": {
     "urls": [],
     "summaries": []
   },
   "gnumeric": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2584223"
+    ],
+    "summaries": [
+      "gnumeric fails to build with Python 3.16: gnm-py-interpreter.c:106:9: error: implicit declaration of function 'PySys_SetArgv'; did you mean 'PySys_GetAttr'?"
+    ]
   },
   "jc": {
     "urls": [
@@ -135,10 +151,6 @@
     "urls": [],
     "summaries": []
   },
-  "maturin": {
-    "urls": [],
-    "summaries": []
-  },
   "mkosi": {
     "urls": [],
     "summaries": []
@@ -154,10 +166,6 @@
     "summaries": [
       "mod_wsgi fails to build with Python 3.16: src/server/mod_wsgi.c:2633:46: error: 'Py_FileSystemDefaultEncoding' undeclared (first use in this function); did you mean 'PyUnicode_GetDefaultEncoding'?"
     ]
-  },
-  "monkeytype": {
-    "urls": [],
-    "summaries": []
   },
   "nmstate": {
     "urls": [],
@@ -176,8 +184,12 @@
     "summaries": []
   },
   "obs-studio": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2584221"
+    ],
+    "summaries": [
+      "obs-studio fails to build with Python 3.16: scripting/obs-scripting-python.c:1648:9: error: implicit declaration of function \u2018PySys_SetArgv\u2019; did you mean \u2018PySys_GetAttr\u2019?"
+    ]
   },
   "onnxruntime": {
     "urls": [],
@@ -196,8 +208,12 @@
     "summaries": []
   },
   "pygame": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2584234"
+    ],
+    "summaries": [
+      "pygame fails to build with Python 3.16: src_c/rwobject.c:245:45: error: \u2018Py_FileSystemDefaultEncoding\u2019 undeclared (first use in this function); did you mean \u2018PyUnicode_GetDefaultEncoding\u2019"
+    ]
   },
   "pyotherside": {
     "urls": [
@@ -224,12 +240,20 @@
     ]
   },
   "python-astroid": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2584215"
+    ],
+    "summaries": [
+      "python-astroid fails to build with Python 3.16: test_oserror: AssertionError: assert False where False = isinstance(Uninferable, <class 'astroid.nodes.node_classes.Const'>)"
+    ]
   },
   "python-asyncssh": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2584123"
+    ],
+    "summaries": [
+      "python-asyncssh fails to build with Python 3.16: AssertionError: 'scp: one of the following arguments is required: -f, -t\\n' != 'scp: one of the arguments -f -t is required\\n'"
+    ]
   },
   "python-backrefs": {
     "urls": [],
@@ -248,8 +272,12 @@
     "summaries": []
   },
   "python-bleach": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2584089"
+    ],
+    "summaries": [
+      "python-bleach fails to build with Python 3.16: ValueError: Port out of range 0-65535"
+    ]
   },
   "python-boltons": {
     "urls": [
@@ -260,8 +288,12 @@
     ]
   },
   "python-botocore": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2584217"
+    ],
+    "summaries": [
+      "python-botocore fails to build with Python 3.16: ValueError: Port could not be cast to integer value as 'ec2:0000:0000:0000:0000:0000:0000' / AssertionErrors"
+    ]
   },
   "python-charset-normalizer": {
     "urls": [],
@@ -296,8 +328,12 @@
     "summaries": []
   },
   "python-django-configurations": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2584090"
+    ],
+    "summaries": [
+      "python-django-configurations fails to build with Python 3.16: AssertionError: \"Cannot interpret cache URL value 'wrong://user@host:port/1'\" != 'Unknown backend: \"wrong\"'"
+    ]
   },
   "python-et_xmlfile": {
     "urls": [],
@@ -324,8 +360,12 @@
     "summaries": []
   },
   "python-gast": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2584078"
+    ],
+    "summaries": [
+      "python-gast fails to build with Python 3.16: UnparserTestCase.test_ast_py: AssertionError"
+    ]
   },
   "python-googleapis-common-protos": {
     "urls": [],
@@ -427,17 +467,33 @@
       "python-parso fails to build with Python 3.16: DeprecationWarning: 'abc.abstractproperty' is deprecated and slated for removal in Python 3.21"
     ]
   },
+  "python-passlib": {
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2584230"
+    ],
+    "summaries": [
+      "python-passlib fails to build with Python 3.16: ValueError: Extra bcrypt does not exist in upstream metadata. Available extras: []."
+    ]
+  },
   "python-persist-queue": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2584231"
+    ],
+    "summaries": [
+      "python-persist-queue fails to build with Python 3.16: AttributeError: module 'asyncio' has no attribute 'iscoroutinefunction'"
+    ]
   },
   "python-pillow": {
     "urls": [],
     "summaries": []
   },
   "python-plaster": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2584229"
+    ],
+    "summaries": [
+      "python-plaster fails to build with Python 3.16: ValueError: Port could not be cast to integer value as 'localhost'"
+    ]
   },
   "python-platformdirs": {
     "urls": [
@@ -464,16 +520,20 @@
     ]
   },
   "python-pygments-git": {
-    "urls": [],
-    "summaries": []
-  },
-  "python-pyliblo3": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2584213"
+    ],
+    "summaries": [
+      "python-pygments-git fails to build with Python 3.16: DeprecationWarning: 'typing.AnyStr' is deprecated and slated for removal in Python 3.21. Use PEP 695 type parameters with constraints instead"
+    ]
   },
   "python-pymdown-extensions": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2584235"
+    ],
+    "summaries": [
+      "python-pymdown-extensions fails to build with Python 3.16: ValueError: Port could not be cast to integer value as '\\\\path'"
+    ]
   },
   "python-pypandoc": {
     "urls": [
@@ -540,8 +600,12 @@
     "summaries": []
   },
   "python-reportlab": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2584210"
+    ],
+    "summaries": [
+      "python-reportlab fails to build with Python 3.16: xml.parsers.expat.ExpatError: duplicate attribute: line 5, column 97"
+    ]
   },
   "python-requests-download": {
     "urls": [],
@@ -572,8 +636,12 @@
     ]
   },
   "python-serpent": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2584119"
+    ],
+    "summaries": [
+      "python-serpent fails to build with Python 3.16: TestBasics.test_array: TypeError: cannot use a str to initialize an array with typecode 'u'"
+    ]
   },
   "python-socksio": {
     "urls": [],
@@ -623,6 +691,10 @@
     "urls": [],
     "summaries": []
   },
+  "python-uv-build": {
+    "urls": [],
+    "summaries": []
+  },
   "python-xeddsa": {
     "urls": [],
     "summaries": []
@@ -636,24 +708,44 @@
     "summaries": []
   },
   "python-yapf": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2584160"
+    ],
+    "summaries": [
+      "python-yapf fails to build with Python 3.16: ValueError: prefix can't contain a directory component"
+    ]
   },
   "python3-openid": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2584094"
+    ],
+    "summaries": [
+      "python3-openid fails to build with Python 3.16: ValueError: Port could not be cast to integer value as '80:90'"
+    ]
   },
   "quodlibet": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2584212"
+    ],
+    "summaries": [
+      "quodlibet fails to build with Python 3.16: test_construct_regexp: AssertionError: '\\\\A\\\\b\\\\B[\\\\d][\\\\D][\\\\s][\\\\S][\\\\w][\\\\W]\\\\Z\\x07' != '\\\\A\\\\b\\\\B\\\\d\\\\D\\\\s\\\\S\\\\w\\\\W\\\\Z\\x07'"
+    ]
   },
   "ramalama": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2584118"
+    ],
+    "summaries": [
+      "ramalama fails to build with Python 3.16: test_list_models_timezones_in_utc: AssertionError"
+    ]
   },
   "remmina": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2584222"
+    ],
+    "summaries": [
+      "remmina fails to build with Python 3.16: v1.4.44-03bb026b5fa1646115d1775367ccbfa27ae598cf/plugins/python_wrapper/python_wrapper_plugin.c:176:9: error: implicit declaration of function \u2018PySys_SetArgv\u2019; did you mean \u2018PySys_GetAttr\u2019"
+    ]
   },
   "rmol": {
     "urls": [],
@@ -672,8 +764,12 @@
     "summaries": []
   },
   "scribus": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2584218"
+    ],
+    "summaries": [
+      "scribus fails to build with Python 3.16: scriptplugin/scriptercore.cpp:274:9:  error: \u2018PySys_SetArgv\u2019 was not declared in this scope; did you mean \u2018PySys_GetAttr\u2019"
+    ]
   },
   "swift-lang": {
     "urls": [],
@@ -696,8 +792,12 @@
     "summaries": []
   },
   "uwsgi": {
-    "urls": [],
-    "summaries": []
+    "urls": [
+      "https://bugzilla.redhat.com/show_bug.cgi?id=2584220"
+    ],
+    "summaries": [
+      "uwsgi fails to build with Python 3.16: Deprecated CAPI removals: Py_NoSiteFlag, Py_SetPythonHome, Py_SetProgramName, Py_OptimizeFlag, PySys_SetArgv"
+    ]
   },
   "vapoursynth": {
     "urls": [
