@@ -3,6 +3,10 @@
     "urls": [],
     "summaries": []
   },
+  "ansible-core": {
+    "urls": [],
+    "summaries": []
+  },
   "antlr4-project": {
     "urls": [],
     "summaries": []
@@ -31,7 +35,15 @@
     "urls": [],
     "summaries": []
   },
+  "ceph": {
+    "urls": [],
+    "summaries": []
+  },
   "cmake": {
+    "urls": [],
+    "summaries": []
+  },
+  "cockpit": {
     "urls": [],
     "summaries": []
   },
@@ -67,13 +79,13 @@
     "urls": [],
     "summaries": []
   },
+  "gdal": {
+    "urls": [],
+    "summaries": []
+  },
   "getdp": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2578243"
-    ],
-    "summaries": [
-      "getdp fails to build with Python 3.16: error: \u2018Py_SetProgramName\u2019 was not declared in this scope; did you mean \u2018PetscSetProgramName\u2019? / error: \u2018PySys_SetArgv\u2019 was not declared in this scope; did you mean \u2018PySys_GetAttr\u2019?"
-    ]
+    "urls": [],
+    "summaries": []
   },
   "glade": {
     "urls": [
@@ -94,6 +106,10 @@
     "summaries": [
       "gnumeric fails to build with Python 3.16: gnm-py-interpreter.c:106:9: error: implicit declaration of function 'PySys_SetArgv'; did you mean 'PySys_GetAttr'?"
     ]
+  },
+  "httpie": {
+    "urls": [],
+    "summaries": []
   },
   "jc": {
     "urls": [
@@ -127,6 +143,10 @@
     "urls": [],
     "summaries": []
   },
+  "libarrow": {
+    "urls": [],
+    "summaries": []
+  },
   "libloc": {
     "urls": [],
     "summaries": []
@@ -155,6 +175,10 @@
     "urls": [],
     "summaries": []
   },
+  "mlpack": {
+    "urls": [],
+    "summaries": []
+  },
   "mock": {
     "urls": [],
     "summaries": []
@@ -166,6 +190,10 @@
     "summaries": [
       "mod_wsgi fails to build with Python 3.16: src/server/mod_wsgi.c:2633:46: error: 'Py_FileSystemDefaultEncoding' undeclared (first use in this function); did you mean 'PyUnicode_GetDefaultEncoding'?"
     ]
+  },
+  "nfsometer": {
+    "urls": [],
+    "summaries": []
   },
   "nmstate": {
     "urls": [],
@@ -200,6 +228,10 @@
     "summaries": []
   },
   "openvino": {
+    "urls": [],
+    "summaries": []
+  },
+  "osbuild": {
     "urls": [],
     "summaries": []
   },
@@ -238,6 +270,10 @@
     "summaries": [
       "python-aiounittest fails to build with Python 3.16: AttributeError: module 'asyncio' has no attribute 'iscoroutinefunction'"
     ]
+  },
+  "python-ase": {
+    "urls": [],
+    "summaries": []
   },
   "python-astroid": {
     "urls": [
@@ -295,6 +331,10 @@
       "python-botocore fails to build with Python 3.16: ValueError: Port could not be cast to integer value as 'ec2:0000:0000:0000:0000:0000:0000' / AssertionErrors"
     ]
   },
+  "python-bytecode": {
+    "urls": [],
+    "summaries": []
+  },
   "python-charset-normalizer": {
     "urls": [],
     "summaries": []
@@ -306,10 +346,6 @@
     "summaries": [
       "python-circuitbreaker fails to build with Python 3.16: ImportError: cannot import name 'iscoroutinefunction' from 'asyncio' (/usr/lib64/python3.16/asyncio/__init__.py)"
     ]
-  },
-  "python-contourpy": {
-    "urls": [],
-    "summaries": []
   },
   "python-deepl": {
     "urls": [],
@@ -359,6 +395,10 @@
     "urls": [],
     "summaries": []
   },
+  "python-fsleyes-widgets": {
+    "urls": [],
+    "summaries": []
+  },
   "python-gast": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2584078"
@@ -378,6 +418,10 @@
     "summaries": [
       "python-gpxpy fails to build with Python 3.16: xml.dom.WrongDocumentErr: <DOM Element: wpt at 0x7f0fa1029440> was created by a different document"
     ]
+  },
+  "python-graph-tool": {
+    "urls": [],
+    "summaries": []
   },
   "python-html5-parser": {
     "urls": [
@@ -431,6 +475,10 @@
       "python-lupa fails to build with Python 3.16: test_attrgetter_refcycle: AssertionError: 19420 != 19416"
     ]
   },
+  "python-matplotlib-scalebar": {
+    "urls": [],
+    "summaries": []
+  },
   "python-mirrors-countme": {
     "urls": [],
     "summaries": []
@@ -451,6 +499,14 @@
       "python-nest-asyncio fails to build with Python 3.16: The event loop policy system has been removed from Python 3.16"
     ]
   },
+  "python-numcodecs": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-obspy": {
+    "urls": [],
+    "summaries": []
+  },
   "python-odfdo": {
     "urls": [],
     "summaries": []
@@ -465,14 +521,6 @@
     ],
     "summaries": [
       "python-parso fails to build with Python 3.16: DeprecationWarning: 'abc.abstractproperty' is deprecated and slated for removal in Python 3.21"
-    ]
-  },
-  "python-passlib": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2584230"
-    ],
-    "summaries": [
-      "python-passlib fails to build with Python 3.16: ValueError: Extra bcrypt does not exist in upstream metadata. Available extras: []."
     ]
   },
   "python-persist-queue": {
@@ -519,6 +567,10 @@
       "python-py-walk fails to build with Python 3.16: test_git_cases: assert True == False"
     ]
   },
+  "python-pydantic-core": {
+    "urls": [],
+    "summaries": []
+  },
   "python-pygments-git": {
     "urls": [
       "https://bugzilla.redhat.com/show_bug.cgi?id=2584213"
@@ -526,6 +578,10 @@
     "summaries": [
       "python-pygments-git fails to build with Python 3.16: DeprecationWarning: 'typing.AnyStr' is deprecated and slated for removal in Python 3.21. Use PEP 695 type parameters with constraints instead"
     ]
+  },
+  "python-pygraphviz": {
+    "urls": [],
+    "summaries": []
   },
   "python-pymdown-extensions": {
     "urls": [
@@ -554,6 +610,10 @@
     "summaries": [
       "python-pyswip fails to build with Python 3.16: AttributeError: 'list' object has no attribute 'value'"
     ]
+  },
+  "python-pytest-cases": {
+    "urls": [],
+    "summaries": []
   },
   "python-pytest-cid": {
     "urls": [],
@@ -595,6 +655,10 @@
     "urls": [],
     "summaries": []
   },
+  "python-qpageview": {
+    "urls": [],
+    "summaries": []
+  },
   "python-recommonmark": {
     "urls": [],
     "summaries": []
@@ -618,14 +682,6 @@
   "python-rich": {
     "urls": [],
     "summaries": []
-  },
-  "python-scour": {
-    "urls": [
-      "https://bugzilla.redhat.com/show_bug.cgi?id=2576588"
-    ],
-    "summaries": [
-      "python-scour fails to build with Python 3.16: xml.dom.NamespaceErr: illegal use of the 'xmlns' attribute for the wrong namespace"
-    ]
   },
   "python-sentry-sdk": {
     "urls": [
@@ -656,6 +712,10 @@
     "summaries": []
   },
   "python-stdlibs": {
+    "urls": [],
+    "summaries": []
+  },
+  "python-subliminal": {
     "urls": [],
     "summaries": []
   },
@@ -747,6 +807,10 @@
       "remmina fails to build with Python 3.16: v1.4.44-03bb026b5fa1646115d1775367ccbfa27ae598cf/plugins/python_wrapper/python_wrapper_plugin.c:176:9: error: implicit declaration of function \u2018PySys_SetArgv\u2019; did you mean \u2018PySys_GetAttr\u2019"
     ]
   },
+  "resalloc": {
+    "urls": [],
+    "summaries": []
+  },
   "rmol": {
     "urls": [],
     "summaries": []
@@ -779,11 +843,11 @@
     "urls": [],
     "summaries": []
   },
-  "trademgen": {
+  "tito": {
     "urls": [],
     "summaries": []
   },
-  "ty": {
+  "trademgen": {
     "urls": [],
     "summaries": []
   },
@@ -808,6 +872,10 @@
     ]
   },
   "xapps": {
+    "urls": [],
+    "summaries": []
+  },
+  "xrootd": {
     "urls": [],
     "summaries": []
   }
