@@ -128,13 +128,6 @@
       ]
     },
     {
-      "component": "python-requests-oauthlib",
-      "count": 49,
-      "blocked_by": [
-        "python-requests-mock"
-      ]
-    },
-    {
       "component": "python-cloudpickle",
       "count": 46,
       "blocked_by": [
@@ -208,10 +201,6 @@
         "python-zarr",
         "python-zmq"
       ]
-    },
-    {
-      "component": "python-requests-mock",
-      "count": 39
     },
     {
       "component": "python-openstackdocstheme",
@@ -288,7 +277,6 @@
       "count": 33,
       "blocked_by": [
         "python-aiohttp",
-        "python-requests-oauthlib",
         "python-yarl"
       ]
     },
@@ -352,7 +340,6 @@
         "python-oslo-config",
         "python-oslo-i18n",
         "python-oslo-utils",
-        "python-requests-mock",
         "python-stestr"
       ]
     },
@@ -364,13 +351,6 @@
         "python-httpcore",
         "python-httpx",
         "python-yarl"
-      ]
-    },
-    {
-      "component": "vtk",
-      "count": 28,
-      "blocked_by": [
-        "vtk"
       ]
     },
     {
@@ -433,7 +413,6 @@
         "python-oslo-log",
         "python-oslo-serialization",
         "python-oslo-utils",
-        "python-requests-mock",
         "python-stestr"
       ]
     },
@@ -485,7 +464,6 @@
         "python-keystoneauth1",
         "python-oslo-config",
         "python-oslo-i18n",
-        "python-requests-mock",
         "python-stestr"
       ]
     },
@@ -512,14 +490,44 @@
       ]
     },
     {
-      "component": "koji",
+      "component": "python-shapely",
       "count": 21,
       "blocked_by": [
-        "python-requests-mock"
+        "pyproj"
       ]
+    },
+    {
+      "component": "python-jupyter-events",
+      "count": 21,
+      "blocked_by": [
+        "python-arrow",
+        "python-isoduration",
+        "python-rfc3339-validator"
+      ]
+    },
+    {
+      "component": "python-jupyter-server-terminals",
+      "count": 21,
+      "blocked_by": [
+        "python-terminado",
+        "python-tornado"
+      ]
+    },
+    {
+      "component": "python-scikit-learn",
+      "count": 20,
+      "unresolvable": true
     }
   ],
   "most_commonly_last_blocking": [
+    {
+      "component": "python-msrest",
+      "count": 25,
+      "blocked_by": [
+        "python-aiohttp",
+        "python-yarl"
+      ]
+    },
     {
       "component": "python-twisted",
       "count": 19,
@@ -529,10 +537,11 @@
       ]
     },
     {
-      "component": "vtk",
-      "count": 14,
+      "component": "python-dns",
+      "count": 11,
       "blocked_by": [
-        "vtk"
+        "python-httpcore",
+        "python-httpx"
       ]
     },
     {
@@ -540,27 +549,15 @@
       "count": 10
     },
     {
-      "component": "python-dns",
-      "count": 10,
-      "blocked_by": [
-        "python-httpcore",
-        "python-httpx"
-      ]
-    },
-    {
-      "component": "koji",
-      "count": 8,
-      "blocked_by": [
-        "python-requests-mock"
-      ]
-    },
-    {
       "component": "glade",
       "count": 7
     },
     {
-      "component": "python-requests-mock",
-      "count": 7
+      "component": "python-psycopg3",
+      "count": 6,
+      "blocked_by": [
+        "python-shapely"
+      ]
     },
     {
       "component": "python-astropy",
@@ -569,13 +566,6 @@
         "python-pytest-arraydiff",
         "python-pytest-astropy",
         "python-scikit-image"
-      ]
-    },
-    {
-      "component": "python-requests-oauthlib",
-      "count": 5,
-      "blocked_by": [
-        "python-requests-mock"
       ]
     },
     {
@@ -611,13 +601,6 @@
       "count": 5
     },
     {
-      "component": "python-psycopg3",
-      "count": 5,
-      "blocked_by": [
-        "python-shapely"
-      ]
-    },
-    {
       "component": "ansible-core",
       "count": 4
     },
@@ -633,8 +616,19 @@
       ]
     },
     {
-      "component": "python-pyramid",
-      "count": 4
+      "component": "python-pyopengl",
+      "count": 4,
+      "blocked_by": [
+        "pygame"
+      ]
+    },
+    {
+      "component": "python-google-auth",
+      "count": 4,
+      "blocked_by": [
+        "python-aiohttp",
+        "python-yarl"
+      ]
     },
     {
       "component": "python-dulwich",
@@ -648,6 +642,17 @@
       "component": "grpc",
       "count": 3,
       "unresolvable": true
+    },
+    {
+      "component": "python-pytest-qt",
+      "count": 3
+    },
+    {
+      "component": "python-orjson",
+      "count": 3,
+      "blocked_by": [
+        "python-pendulum"
+      ]
     }
   ],
   "most_commonly_last_blocking_combinations": [
@@ -660,17 +665,10 @@
     },
     {
       "components": [
-        "python-msrest",
-        "python-requests-oauthlib"
-      ],
-      "count": 25
-    },
-    {
-      "components": [
         "python-aiohttp",
         "python-yarl"
       ],
-      "count": 20
+      "count": 21
     },
     {
       "components": [
@@ -732,6 +730,14 @@
     },
     {
       "components": [
+        "python-cloudpickle",
+        "python-joblib",
+        "python-scikit-learn"
+      ],
+      "count": 6
+    },
+    {
+      "components": [
         "python-fsspec",
         "python-mpmath",
         "python-torch",
@@ -750,17 +756,16 @@
     },
     {
       "components": [
-        "python-msrest",
-        "python-msrestazure",
-        "python-requests-oauthlib"
+        "python-astropy",
+        "python-pytest-arraydiff",
+        "python-pytest-astropy"
       ],
       "count": 5
     },
     {
       "components": [
-        "python-cloudpickle",
-        "python-joblib",
-        "python-scikit-learn"
+        "python-msrest",
+        "python-msrestazure"
       ],
       "count": 5
     },
@@ -788,14 +793,6 @@
     },
     {
       "components": [
-        "python-astropy",
-        "python-pytest-arraydiff",
-        "python-pytest-astropy"
-      ],
-      "count": 4
-    },
-    {
-      "components": [
         "mkdocs-material",
         "python-backrefs"
       ],
@@ -807,17 +804,25 @@
         "python-astroid"
       ],
       "count": 4
+    },
+    {
+      "components": [
+        "python-boto3",
+        "python-botocore",
+        "python-s3transfer"
+      ],
+      "count": 3
     }
   ],
   "dependency_loops": [
     [
       "python-itemadapter",
-      "python-scrapy",
+      "python-itemloaders",
       "python-itemadapter"
     ],
     [
       "python-itemadapter",
-      "python-itemloaders",
+      "python-scrapy",
       "python-itemadapter"
     ],
     [

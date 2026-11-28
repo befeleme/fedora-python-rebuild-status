@@ -11,6 +11,8 @@ MUSIC
 Macaulay2
 NFStest
 NLopt
+OpenColorIO
+OpenImageIO
 OpenLP
 PyGreSQL
 PyMca
@@ -24,6 +26,7 @@ ServiceReport
 Silo
 SoapySDR
 WALinuxAgent
+YafaRay
 Zim
 aactivator
 abiword
@@ -73,6 +76,7 @@ bluechi
 bluefish
 blueman
 blueprint-compiler
+bodhi-client
 boom-boot
 boost
 borgbackup
@@ -112,6 +116,7 @@ codespell
 coin-or-HiGHS
 colin
 compizconfig-python
+compose-utils
 concordance
 condor
 congruity
@@ -169,16 +174,19 @@ espresso
 esptool
 evemu
 f2py-cmake
+f3d
 fail2ban
 fapolicy-analyzer
 fedfind
 fedora-distro-aliases
+fedora-easy-karma
 fedora-repro
 fedora-third-party
 file
 firewalld
 firmitas
 flatbuffers
+flatpak-module-tools
 flent
 flowblade
 fmf
@@ -215,6 +223,7 @@ gjots2
 glaxnimate
 globus-net-manager
 glusterfs
+gmsh
 gnofract4d
 gnome-abrt
 gnome-browser-connector
@@ -276,6 +285,7 @@ isomd5sum
 jack-mixer
 javapackages-tools
 jello
+joft
 jrnl
 jsonnet
 kdevelop-python
@@ -297,10 +307,13 @@ khard
 kig
 knot
 kobo
+koji
 koji-containerbuild
 koji-flatpak
+koji-image-builder
 koji-osbuild
 kopeninghours
+krita
 kurchu
 kvirc
 langtable
@@ -331,6 +344,7 @@ libdnet
 libdnf
 libesedb
 libffado
+libfreenect
 libftdi
 libgexiv2
 libgexiv2_0.14
@@ -354,6 +368,7 @@ libnbd
 libnuml
 libnvme
 libolm
+libopenshot
 liborcus
 libpeas
 libpfm
@@ -374,6 +389,7 @@ libsemanage
 libsigrokdecode
 libsmbios
 libsolv
+libsonata
 libstoragemgmt
 libsvm
 libtalloc
@@ -411,6 +427,7 @@ marisa
 marshalparser
 mat2
 mate-menu
+materialx
 mathgl
 maturin
 mcomix3
@@ -428,9 +445,12 @@ mkdocs
 mkdocs-bootstrap
 mkdocs-bootswatch
 mkosi
+mlt
 modpoll
+modulemd-tools
 mogui
 monkeytype
+morphio
 mozo
 mpi4py
 mpich
@@ -447,6 +467,7 @@ needrestart
 nest
 net-snmp
 netcdf4-python
+netgen-mesher
 netplan
 newt
 nfs-ganesha
@@ -478,10 +499,12 @@ omniORBpy
 onionshare
 onnx
 openbabel
+opencv
 openmeeg
 openmpi
 openscap
 openscap-report
+openshadinglanguage
 openshot
 opensips
 openssh-ldap-authkeys
@@ -707,6 +730,7 @@ python-asyncmy
 python-asyncpg
 python-asyncstdlib
 python-asysocks
+python-atlassian-python-api
 python-atpublic
 python-attrs
 python-audioread
@@ -989,6 +1013,7 @@ python-convertdate
 python-cooldict
 python-copr
 python-copr-common
+python-cornice
 python-cov-core
 python-covdefaults
 python-coverage
@@ -1008,6 +1033,7 @@ python-crc32c
 python-crcmod
 python-crick
 python-cron-converter
+python-croniter
 python-crossword
 python-crypt-r
 python-crypto
@@ -1196,6 +1222,7 @@ python-exdir
 python-execnet
 python-executing
 python-exif
+python-exoscale
 python-expandvars
 python-expecttest
 python-extension-helpers
@@ -1216,6 +1243,7 @@ python-fastbencode
 python-fasteners
 python-fastjsonschema
 python-fastprogress
+python-fastpurge
 python-fastrand
 python-fastrlock
 python-fastuuid
@@ -1313,6 +1341,7 @@ python-gemfileparser2
 python-genshi
 python-geographiclib
 python-geojson
+python-geomdl
 python-gertty
 python-getmac
 python-gettext
@@ -1477,6 +1506,7 @@ python-jinja2
 python-jinja2-cli
 python-jinja2_pluralize
 python-jinxed
+python-jira
 python-jiter
 python-jmespath
 python-jnius
@@ -1601,6 +1631,7 @@ python-manuel
 python-mapbox-earcut
 python-mapnik
 python-maps
+python-marathon
 python-markdown
 python-markdown-callouts
 python-markdown-exec
@@ -1694,6 +1725,7 @@ python-murmurhash
 python-musicbrainzngs
 python-mutagen
 python-mutf8
+python-mwclient
 python-mwparserfromhell
 python-mygpoclient
 python-myhdl
@@ -1783,6 +1815,7 @@ python-oslotest
 python-osrf-pycommon
 python-outcome
 python-overpy
+python-ovh
 python-ovirt-engine-sdk4
 python-owl_rl
 python-packageurl-python
@@ -2001,6 +2034,7 @@ python-pynest2d
 python-pynetbox
 python-pynetdicom
 python-pyngus
+python-pynitrokey
 python-pynsgr
 python-pynwb
 python-pyobd
@@ -2025,6 +2059,9 @@ python-pyqt6-charts
 python-pyqt6-sip
 python-pyqt6-webengine
 python-pyramid
+python-pyramid-fas-openid
+python-pyramid-mako
+python-pyramid-tm
 python-pyrankvote
 python-pyrate-limiter
 python-pyrdfa3
@@ -2191,6 +2228,7 @@ python-requests-futures
 python-requests-gssapi
 python-requests-kerberos
 python-requests-mock
+python-requests-oauthlib
 python-requests-pkcs12
 python-requests-toolbelt
 python-requests-unixsocket
@@ -2238,6 +2276,7 @@ python-rstr
 python-rtslib
 python-ruamel-yaml
 python-ruamel-yaml-clib
+python-rust-update-set
 python-rustcfg
 python-rx
 python-rxjson
@@ -2574,6 +2613,7 @@ python-vcs-versioning
 python-vcs2l
 python-vcstool
 python-vdf
+python-vedo
 python-venusian
 python-verboselogs
 python-versioneer
@@ -2619,6 +2659,8 @@ python-whois
 python-whoosh
 python-widgetsnbextension
 python-wikipedia
+python-wikitcms
+python-willow
 python-winrm
 python-wordcloud
 python-wrapt
@@ -2724,6 +2766,7 @@ recoll
 redhat-internal-test-package
 rednotebook
 redshift
+relval
 renderdoc
 reprotest
 resalloc-ibm-cloud
@@ -2771,6 +2814,7 @@ sepolicy_analysis
 setconf
 setools
 setroubleshoot
+setzer
 showtime
 shyaml
 shybrid
@@ -2874,6 +2918,7 @@ urh
 urjtag
 urlscan
 urlwatch
+ursa-major
 usbrelay
 ustreamer
 util-linux
